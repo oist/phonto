@@ -1,0 +1,20 @@
+Aging
+physiology
+Animals
+Dose-Response Relationship
+Radiation
+Electric Stimulation
+methods
+Hippocampus
+cytology
+Long-Term Potentiation
+physiology
+Long-Term Synaptic Depression
+physiology
+Male
+Neurons
+physiology
+Rats
+Synapses
+physiology
+Altered hippocampal synaptic plasticity may underlie age-related memory impairment. In acute hippocampal slices from aged (22-24 mo) and young adult (1-12 mo) male Brown Norway rats, extracellular excitatory postsynaptic field potentials were recorded in CA1 stratum radiatum evoked by Schaffer collateral stimulation. We used enhanced Ca(2+) to Mg(2+) ratio and paired-pulse stimulation protocol to induce maximum changes in the synaptic plasticity. Six episodes of theta-burst stimulation (TBS) or nine episodes of paired low-frequency stimulation (pLFS) were used to generate asymptotic long-term potentiation (LTP) and long-term depression (LTD), respectively. In addition, long-term depotentiation (LTdeP) or de-depression (LTdeD) from maximal LTP and LTD were examined using two episodes of pLFS or TBS. Multiple episodes of TBS or pLFS produced significant LTP or LTD in aged and young adult rats; this was not different between age groups. Moreover, there was no significant difference in the amount of LTdeP or LTdeD between aged and young adult rats. Our results show no age differences in the asymptotic magnitude of LTP or LTD, rate of synaptic modifications, development rates, reversal, or decay after postconditioning. Thus impairment of the basic synaptic mechanisms responsible for expression of these forms of plasticity is not likely to account for decline in memory function within this age range.

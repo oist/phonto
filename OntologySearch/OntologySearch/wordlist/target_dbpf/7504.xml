@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7504">
+<itemtype>xnppaper</itemtype>
+<titles><title>Memory reprocessing in corticocortical and hippocampocortical neuronal ensembles.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>Neocortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred F344</keyword>
+<keyword>Regression Analysis</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:41:15Z</last_update_date>
+<creation_date>2013-03-28T02:41:15Z</creation_date>
+<publication_year>1997</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7504</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7504" version="1.02">
+<authors><author>Qin YL</author><author>McNaughton BL</author><author>Skaggs WE</author><author>Barnes CA</author></authors>
+<journal>Philosophical transactions of the Royal Society of London. Series B, Biological sciences</journal>
+<volume>352</volume>
+<number>1360</number>
+<page>1525-33</page>
+<abstract>Hippocampal cells that fire together during behaviour exhibit enhanced activity correlations during subsequent sleep, with some preservation of temporal order information. Thus, information reflecting experiences during behaviour is re-expressed in hippocampal circuits during subsequent &#039;offline&#039; periods, as postulated by some theories of memory consolidation. If the hippocampus orchestrates the reinstatement of experience-specific activity patterns in the neocortex, as also postulated by such theories, then correlation patterns both within the neocortex and between hippocampus and neocortex should also re-emerge during sleep. Ensemble recordings were made in the posterior parietal neocortex, in CA1, and simultaneously in both areas, in seven rats. Each session involved an initial sleep episode (S1), behaviour on a simple maze (M), and subsequent sleep (S2). The ensemble activity-correlation structure within and between areas during S2 resembled that of M more closely than did the correlation pattern of S1. Temporal order (i.e. the asymmetry of the cross-correlogram) was also preserved within, but not between, structures. Thus, traces of recent experience are re-expressed in both hippocampal and neocortical circuits during sleep, and the representations in the two areas tend to correspond to the same experience. The poorer preservation of temporal firing biases between neurons in the different regions may reflect the less direct synaptic coupling between regions than within them. Alternatively, it could result from a shift, between behavioural states, in the relative dominance relations in the corticohippocampal dialogue. Between-structure order will be disrupted, for example, if, during behaviour, neocortical patterns tend to drive corresponding hippocampal patterns, whereas during sleep the reverse occurs. This possibility remains to be investigated.</abstract>
+<pubmed_id>9368941</pubmed_id>
+</detail>
+</item>

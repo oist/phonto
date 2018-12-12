@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="653">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal CA3 NMDA receptors are crucial for memory acquisition of one-time experience.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:31:47Z</last_update_date>
+<creation_date>2008-07-04T02:43:27Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=653</url>
+<changelogs>
+<changelog date='2013-03-28T02:31:47Z'>Modified; Item Description, Index, PubMedID.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="653" version="1.02">
+<authors><author>Nakazawa K</author><author>Sun LD</author><author>Quirk MC</author><author>Rondi-Reig L</author><author>Wilson MA</author><author>Tonegawa S</author></authors>
+<journal>Neuron</journal>
+<volume>38</volume>
+<number>2</number>
+<page>305-15</page>
+<abstract>Lesion and pharmacological intervention studies have suggested that in both human patients and animals the hippocampus plays a crucial role in the rapid acquisition and storage of information from a novel one-time experience. However, how the hippocampus plays this role is poorly known. Here, we show that mice with NMDA receptor (NR) deletion restricted to CA3 pyramidal cells in adulthood are impaired in rapidly acquiring the memory of novel hidden platform locations in a delayed matching-to-place version of the Morris water maze task but are normal when tested with previously experienced platform locations. CA1 place cells in the mutant animals had place field sizes that were significantly larger in novel environments, but normal in familiar environments relative to those of control mice. These results suggest that CA3 NRs play a crucial role in rapid hippocampal encoding of novel information for fast learning of one-time experience.</abstract>
+<pubmed_id>12718863</pubmed_id>
+</detail>
+</item>

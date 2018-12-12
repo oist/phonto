@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7184">
+<itemtype>xnppaper</itemtype>
+<titles><title>Isoflurane blocks synaptic plasticity in the mouse hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Aging</keyword>
+<keyword>physiology</keyword>
+<keyword>Anesthetics</keyword>
+<keyword>Inhalation</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>Isoflurane</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>Mice</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>drug effects</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>Picrotoxin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:40:27Z</last_update_date>
+<creation_date>2013-02-27T07:40:27Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7184</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7184" version="1.02">
+<authors><author>Simon W</author><author>Hapfelmeier G</author><author>Kochs E</author><author>Zieglgänsberger W</author><author>Rammes G</author></authors>
+<journal>Anesthesiology</journal>
+<volume>94</volume>
+<number>6</number>
+<page>1058-65</page>
+<abstract>The volatile anesthetic isoflurane depresses glutamatergic transmission. In this study, the authors investigated the effects of isoflurane on the induction of long-term potentiation (LTP) and long-term depression (LTD) in slices from the juvenile and adult mouse hippocampus. Both forms of synaptic plasticity involve the activation of glutamate receptors.Field excitatory postsynaptic potentials and excitatory postsynaptic currents from neurons in the CA1 area were evoked by stimulation of the Schaffer collateral-commissural pathway. Two independent synaptic inputs were stimulated. Clinically relevant concentrations (0.2-0.3 mM) of isoflurane were added to the perfusion solution.Field excitatory postsynaptic potentials from slices of juvenile and adult mice were depressed to 37.3 +/- 6.1% and 58.3 +/- 7.4%, respectively, and excitatory postsynaptic currents were reduced to 36.7 +/- 5.4% by isoflurane. A brief tetanic stimulation (100 Hz, 1 s) induced stable LTP of field excitatory postsynaptic potentials. In the presence of isoflurane, tetanization failed to induce LTP. The effect of isoflurane on LTP induction was reversible and could be prevented by antagonizing gamma-aminobutyric acid type A receptors (GABAA). Low-frequency stimulation (1 Hz/900 pulses) induced LTD. In the presence of isoflurane, low-frequency stimulation failed to induce LTD.The prevention of the isoflurane-induced depression of LTP by the GABAA antagonist picrotoxin suggests an involvement of GABAA receptors. An enhancement of the efficacy of GABA-mediated inhibitory synaptic transmission prevents the depolarization of the postsynaptic membrane during tetanus, necessary for the induction of use-dependent alteration of synaptic strength. An impairment of these processes may be a cause for the transient loss of recall and cognitive impairment after anesthesia in juvenile and adult brains.</abstract>
+<pubmed_id>11465598</pubmed_id>
+</detail>
+</item>

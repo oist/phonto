@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="926">
+<itemtype>xnppaper</itemtype>
+<titles><title>Fast spiking cells in rat hippocampus (CA1 region) contain the calcium-binding protein parvalbumin.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-16T05:57:11Z</last_update_date>
+<creation_date>2008-07-16T05:57:11Z</creation_date>
+<publication_year>1987</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=926</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="926" version="1.02">
+<authors><author>Kawaguchi Y</author><author>Katsumaru H</author><author>Kosaka T</author><author>Heizmann CW</author><author>Hama K</author></authors>
+<journal>Brain research</journal>
+<volume>416</volume>
+<number>2</number>
+<page>369-74</page>
+<abstract>Fast spiking cells in the CA1 region of the rat hippocampus were revealed as gamma-aminobutyric acid (GABA)ergic non-pyramidal cells containing the calcium-binding protein parvalbumin by intracellular injection of Lucifer yellow in vitro in combination with postembedding parvalbumin immunohistochemistry.</abstract>
+<pubmed_id>3304536</pubmed_id>
+</detail>
+</item>

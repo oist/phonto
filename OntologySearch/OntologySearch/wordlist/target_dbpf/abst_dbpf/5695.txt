@@ -1,0 +1,15 @@
+Animals
+Hippocampus
+physiology
+Models
+Neurological
+Neural Networks (Computer)
+Neurons
+physiology
+Orientation
+physiology
+Rats
+Robotics
+Space Perception
+physiology
+The properties of hippocampal place cells are reviewed, with particular attention to the nature of the internal and external signals that support their firing. A neuronal simulation of the firing of place cells in open-field environments of varying shape is presented. This simulation is coupled with an existing model of how place-cell firing can be used to drive navigation, and is tested by implementation as a miniature mobile robot. The sensors on the robot provide visual, odometric and short-range proximity data, which are combined to estimate the distance of the walls of the enclosure from the robot and the robot's current heading direction. These inputs drive the hippocampal simulation, in which the robot's location is represented as the firing of place cells. If a goal location is encountered, learning occurs in connections from the concurrently active place cells to a set of 'goal cells', which guide subsequent navigation, allowing the robot to return to an unmarked location. The system shows good agreement with actual place-cell firing, and makes predictions regarding the firing of cells in the subiculum, the effect of blocking long-term synaptic changes, and the locus of search of rats after deformation of their environment.

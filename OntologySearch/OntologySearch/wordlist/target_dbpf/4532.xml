@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4532">
+<itemtype>xnppaper</itemtype>
+<titles><title>Vestibular-hippocampal interactions.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Vestibule</keyword>
+<keyword>Labyrinth</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-01T02:59:56Z</last_update_date>
+<creation_date>2011-02-01T02:59:56Z</creation_date>
+<publication_year>1997</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4532</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4532" version="1.02">
+<authors><author>Smith PF</author></authors>
+<journal>Hippocampus</journal>
+<volume>7</volume>
+<number>5</number>
+<page>465-71</page>
+<abstract>Since the early 1960s, researchers have speculated that the vestibular system, the sensory system concerned with the perception of balance and self-motion, contributes to spatial information processing and the development of spatial memory in the hippocampus. Anatomical studies have suggested that various parts of the thalamus are likely to transmit vestibular information to the hippocampus, perhaps via the parietal cortex; however, more direct pathways are possible. Over the last 2-3 years there have been a number of direct electrophysiological demonstrations that vestibular stimulation affects head direction cells in the anterior thalamic nuclei and place cells in the hippocampus. These studies demonstrate the importance of vestibular-hippocampal interactions for hippocampal function but also raise the possibility that the hippocampus may be important for compensation of vestibular function following peripheral or central vestibular lesions.</abstract>
+<pubmed_id>9347344</pubmed_id>
+</detail>
+</item>

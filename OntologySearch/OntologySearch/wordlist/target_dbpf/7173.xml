@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7173">
+<itemtype>xnppaper</itemtype>
+<titles><title>Prior short-term synaptic disinhibition facilitates long-term potentiation and suppresses long-term depression at CA1 hippocampal synapses.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adenine</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Adenylate Cyclase</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>Animals</keyword>
+<keyword>Cyclic AMP</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Forskolin</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>GABA-A Receptor Antagonists</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Picrotoxin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Piperidines</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Receptors</keyword>
+<keyword>GABA-A</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Thionucleotides</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:34:18Z</last_update_date>
+<creation_date>2013-02-27T07:34:18Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7173</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7173" version="1.02">
+<authors><author>Hsu KS</author><author>Ho WC</author><author>Huang CC</author><author>Tsai JJ</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>11</volume>
+<number>11</number>
+<page>4059-69</page>
+<abstract>Long-term potentiation (LTP) and long-term depression (LTD) are two main forms of activity-dependent synaptic plasticity that have been extensively studied as the putative mechanisms underlying learning and memory. Current studies have demonstrated that prior synaptic activity can influence the subsequent induction of LTP and LTD at Schaffer collateral-CA1 synapses. Here, we show that prior short-term synaptic disinhibition induced by type A gamma-aminobutyric acid (GABA) receptor antagonist picrotoxin exhibited a facilitation of LTP induction and an inhibition of LTD induction. This effect lasted between 10 and 30 min after washout of picrotoxin and was specifically inhibited by the L-type voltage-operated Ca2+ channel (VOCC) blocker nimodipine, but not by the N-methyl-D-aspartate (NMDA) receptor antagonist D-2-amino-5-phosphopentanoic acid (D-APV). Moreover, this picrotoxin-induced priming effect was mimicked by forskolin, an activator of cyclic adenosine monophosphate (cAMP)-dependent protein kinase (PKA), and was blocked by the adenylyl cyclase inhibitor 9-(tetrahydro-2-furanyl)-9H-purin-6-amine (SQ 22536) and the PKA inhibitor Rp-adenosine 3&#039;,5&#039;-cyclic monophosphothioate (Rp-cAMPS). It was also found that following picrotoxin application, CA1 neurons have a higher probability of synchronous discharge in response to a population of excitatory postsynaptic potential (EPSP) of fixed slope (EPSP/spike potentiation). However, picrotoxin treatment did not significantly affect paired-pulse facilitation (PPF). These findings suggest that a brief of GABAergic disinhibition can act as a priming stimulus for the subsequent induction of LTP and LTD at Schaffer collateral-CA1 synapses. The increase in Ca2+ influx through L-type VOCCs in turn triggering a cAMP/PKA signalling pathway is a possible molecular mechanism underlying this priming effect.</abstract>
+<pubmed_id>10583494</pubmed_id>
+</detail>
+</item>

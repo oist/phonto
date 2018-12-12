@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3212">
+<itemtype>xnppaper</itemtype>
+<titles><title>Synaptic interactions between pyramidal cells and interneurone subtypes during seizure-like activity in the rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-03-10T08:01:46Z</last_update_date>
+<creation_date>2010-03-10T08:01:46Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3212</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3212" version="1.02">
+<authors><author>Fujiwara-Tsukamoto Y</author><author>Isomura Y</author><author>Kaneda K</author><author>Takada M</author></authors>
+<journal>The Journal of physiology</journal>
+<volume>557</volume>
+<number>0</number>
+<page>961-79</page>
+<abstract>We have recently reported that excitatory GABAergic and glutamatergic mechanisms may be involved in the generation of seizure-like (ictal) rhythmic synchronization (afterdischarge), induced by a strong synaptic stimulation of the CA1 pyramidal cells in the mature rat hippocampus in vitro. To clarify the network mechanism of this neuronal synchronization, dual whole-cell patch-clamp recordings of the afterdischarge responses were performed simultaneously from a variety of interneurones and their neighbouring pyramidal cells in hippocampal CA1-isolated slice preparations. According to morphological and electrophysiological criteria, the recorded interneurones were then classified into distinct subtypes. The non-fast-spiking interneurones located in the strata lacunosum-moleculare and radiatum hardly discharged during the afterdischarge, whereas most of the fast-spiking and non-fast-spiking interneurones in the strata oriens and pyramidale, including the basket, chandelier and bistratified cells, exhibited prominent firings that were precisely synchronous with oscillatory responses in the pyramidal cells. Field potential recordings showed that excitatory synaptic transmissions might take place primarily in the strata oriens and pyramidale during the afterdischarge. Restricted lesions in the strata oriens and pyramidale, but not in the other layers, resulted in the complete desynchronization of afterdischarge activity, and also, local application of glutamate receptor antagonists to these layers blocked the expression of afterdischarge. The present findings indicate that the neuronal synchronization of epileptic afterdischarge may be accomplished in a &#039;positive feedback circuit&#039; formed by the excitatory GABAergic interneurones and the glutamatergic pyramidal cells within the strata oriens and/or pyramidale of the hippocampal CA1 region.</abstract>
+<pubmed_id>15107470</pubmed_id>
+</detail>
+</item>

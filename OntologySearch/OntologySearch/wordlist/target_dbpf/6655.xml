@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6655">
+<itemtype>xnppaper</itemtype>
+<titles><title>Distinct memory signatures in the hippocampus: intentional States distinguish match and mismatch enhancement signals.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Analysis of Variance</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Goals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Intention</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>Short-Term</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Oxygen</keyword>
+<keyword>blood</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:50:15Z</last_update_date>
+<creation_date>2013-02-26T06:50:15Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6655</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6655" version="1.02">
+<authors><author>Duncan K</author><author>Curtis C</author><author>Davachi L</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>29</volume>
+<number>1</number>
+<page>131-9</page>
+<abstract>Incoming events that match or mismatch stored representations are thought to influence the ability of the hippocampus to switch between memory encoding and retrieval modes. Electrophysiological work has dissociated match and mismatch signals in the monkey perirhinal cortex, where match signals were selective for matches to goal states, whereas mismatch signals were not modulated by intention (Miller and Desimone, 1994). To investigate whether the theoretically important relational match and mismatch signals in the hippocampus are modulated by goal states, we fully crossed whether a probe stimulus relationally matched or mismatched a previously perceived image or goal state. Subjects performed two working memory tasks in which they either responded&quot;yes&quot;to probes that were identical to the previous sample scene or, after performing a relational manipulation of the scene, responded&quot;yes&quot;only to a probe that was identical to this perceptually novel image. Using functional magnetic resonance imaging, we found evidence for relational match enhancements bilaterally in the hippocampus that were selective for matches between the probe stimulus and goal state, but were not modulated by whether that goal was perceptually novel. Moreover, we found evidence for a complementary hippocampal mismatch enhancement that was triggered by stimuli containing salient perceptual manipulations. Our results provided evidence for parallel memory signatures in the hippocampus: a controlled match signal that can detect matches to internally generated goal states and an automatic mismatch signal that can identify unpredicted perceptual novelty.</abstract>
+<pubmed_id>19129391</pubmed_id>
+</detail>
+</item>

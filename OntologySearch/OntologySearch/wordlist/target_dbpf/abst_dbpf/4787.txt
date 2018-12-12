@@ -1,0 +1,20 @@
+Action Potentials
+Animals
+Cats
+Electroencephalography
+Fenclonine
+Geniculate Bodies
+physiology
+Hippocampus
+physiology
+physiopathology
+Pons
+physiology
+Sleep
+physiology
+Sleep Initiation and Maintenance Disorders
+chemically induced
+physiopathology
+Wakefulness
+physiology
+1. The spontaneous activity of hippocampal theta cells in head-restrained cats was recorded during slow-wave sleep (SWS), paradoxical sleep (PS), and the attentive state of bird watching (BW). We also recorded theta cell activity during a state of insomnia with pontogeniculoocipital (PGO) waves, which was induced by the administration of p-chlorophenylalanine (PCPA), a selective inhibitor of serotonin synthesis. 2. The time-dependent structure of fluctuations in theta cell activity was evaluated by power spectral analysis and Markovian analysis. The coefficient of variation for these time series was used as a measure of the variability of theta cell activity, which indicates the relative amplitude of fluctuations. 3. During SWS, theta cell activity showed a larger variability and a flat spectrum, i.e., low Markovian properties. During PS, this activity exhibited smaller variability and high spectral density in a low-frequency band (0.01-1.0 Hz), i.e., high Markovian properties. During BW, variability, spectral and Markovian properties were intermediate. 4. The firing pattern of theta cells during PCPA-induced insomnia was similar to that during PS. However, after the administration of either a serotonin agonist, 5-Methoxy-N,N-dimethyltryptamine, or a choline antagonist, atropine sulfate, theta cell activity no longer exhibited PS-like fluctuations, revealing instead a firing pattern similar to that during SWS. 5. During PS and PCPA-induced insomnia, not only the unit activity of theta cells, but PGO activity and theta wave frequency exhibited slow fluctuations, i.e., the high spectral density in the low-frequency band (0.01-1.0 Hz). 6. Cross-correlation analyses were performed between the fluctuations in theta cell activity, theta wave frequency, and PGO activity. These fluctuations correlated with each other during both PS and PCPA-induced insomnia. Bursts of PGO waves especially contributed to these cross-correlations. 7. These results suggest, first, that the slow fluctuations of the theta cell activity during PS and PCPA-induced insomnia is the physiological expression of the removal of aminergic influences and, secondly, that they are dependent on cholinergic mechanisms, including PGO generators.

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4783">
+<itemtype>xnppaper</itemtype>
+<titles><title>Axonal and dendritic arborization of an intracellularly labeled chandelier cell in the CA1 region of rat hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Axonal Transport</keyword>
+<keyword>Axons</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Dendrites</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Lysine</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Pyramidal Tracts</keyword>
+<keyword>cytology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Rats</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:47:06Z</last_update_date>
+<creation_date>2011-04-28T04:47:06Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4783</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4783" version="1.02">
+<authors><author>Li XG</author><author>Somogyi P</author><author>Tepper JM</author><author>Buzsáki G</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>90</volume>
+<number>3</number>
+<page>519-25</page>
+<abstract>During the course of an in vivo intracellular labeling study, a chandelier (axo-axonic) cell was completely filled with biocytin in the CA1 region of the hippocampus. Chandelier cells are known to provide GABAergic terminals exclusively to the axon initial segment of pyramidal cells. The lateral extent and laminar distribution of the dendritic arborization of the chandelier cell was very similar to that of pyramidal cells; the numerous basal and apical dendrites reached the ventricular surface and the hippocampal fissure, respectively. The dendrites, however, had very few spines. The neuron had an asymmetric axonal arbor occupying an elliptical area of 600 by 850 microns in the pyramidal cell layer and stratum oriens, with over three-quarters of the axon projecting to the fimbrial side of the neuron. Counting all clusters of terminals, representing individually innervated axon initial segments, the chandelier cell was estimated to contact 1214 pyramidal cells, a number that exceeds previous estimations, based on Golgi studies, by several-fold. The findings support the view that chandelier cells may control the threshold and/or synchronize large populations of principal cells.</abstract>
+<pubmed_id>1385200</pubmed_id>
+</detail>
+</item>

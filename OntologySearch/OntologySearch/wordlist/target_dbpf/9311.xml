@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="9311">
+<itemtype>xnppaper</itemtype>
+<titles><title>Wakefulness-promoting role of the inferior colliculus.</title>
+</titles>
+<contributor uname='admin_KWL2'>Hiroaki Wagatsuma(admin_KWL2)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Animals</keyword>
+<keyword>Arousal</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Bicuculline</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>GABA-A Receptor Agonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Guinea Pigs</keyword>
+<keyword>Heart Rate</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Inferior Colliculi</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Microelectrodes</keyword>
+<keyword>Muscimol</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Sleep</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+<keyword>Wakefulness</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Wagatsuma Lab, FY2015, EEG-EMG, Balbir Singh</description>
+<doi></doi>
+<last_update_date>2015-03-28T08:22:32Z</last_update_date>
+<creation_date>2015-03-28T08:22:32Z</creation_date>
+<publication_year>2013</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=9311</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="9311" version="1.02">
+<authors><author>Cabrera G</author><author>Cavelli M</author><author>Lopez C</author><author>Rodriguez-Servetti Z</author><author>Vanini G</author><author>Chase MH</author><author>Falconi A</author><author>Torterolo P</author></authors>
+<journal>Behavioural brain research</journal>
+<volume>256</volume>
+<number></number>
+<page>82-94</page>
+<abstract>The inferior colliculus (IC) is a mesencephalic auditory nucleus involved in several functions including the analysis of the frequency and intensity of sounds as well as sound localization. In addition to auditory processes, the IC controls the expression of defensive responses. The objective of the present study was to test the hypothesis that the IC contributes to the maintenance of wakefulness. For this purpose, several experimental approaches were performed in urethane-anesthetized guinea pigs. Electrical or chemical stimulation of the IC resulted in electroencephalographic (EEG) desynchronization, theta rhythm in the hippocampus and an increase in heart rate; all of these effects suggest an arousal reaction. Furthermore, by means of extracellular unit recordings, we determined that most IC neurons increased their spontaneous and tone-evoked responses in association with EEG desynchronization. We also studied the effect on sleep and wakefulness of bilateral acute inhibition of the IC by microinjections of muscimol (a GABAA agonist), as well as the effect of bilateral IC lesions in chronically-instrumented (drug-free) guinea pigs. Acute (via muscimol microinjections), but not chronic (via electrolytic lesions) inhibition of the IC decreased wakefulness., We conclude that the IC plays an active role in the maintenance of wakefulness. Further, we propose that this nucleus may mediate arousal responses induced by biologically significant sounds.</abstract>
+<pubmed_id>23933516</pubmed_id>
+</detail>
+</item>

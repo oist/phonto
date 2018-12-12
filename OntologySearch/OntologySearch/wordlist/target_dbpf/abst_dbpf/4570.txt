@@ -1,0 +1,12 @@
+Animals
+Hippocampus
+cytology
+physiology
+Humans
+Neuronal Plasticity
+physiology
+Synapses
+physiology
+gamma-Aminobutyric Acid
+physiology
+Long-term depression (LTD) now occupies a major place in theories of the cellular basis of learning and memory and other nervous system phenomena involving persistent changes in synaptic responsiveness. LTD can be induced using a variety of stimulation paradigms. Homosynaptic LTD in this review refers to a depression of basal responses that is restricted to the pathway that has been stimulated by a low-frequency (1 Hz) stimulus train. Despite the intensive interest in LTD, there has been controversy about the ease with which LTD can be induced and reports range from no success to routine success. There has been much less controversy about a related form of response depression now called "depotentiation" which shares many similarities with LTD. Depotentiation is the response reduction that affects, not the basal responses affected by LTD, but responses that have been increased by the process of long-term potentiation (LTP). LTD and depotentiation can be induced by similar stimulation and have many biochemical properties in common, but it has not been clear whether or not they represent the same phenomenon, in part because it often occurs that the same preparation that does not undergo LTD readily expresses depotentiation. We review work that indicates that the major differences between LTD and depotentiation involve age-dependence, the need for priming stimulation and sensitivity to GABA receptor antagonists. We present a hypothetical model that can reconcile the apparent disparities between LTD and depotentiation.

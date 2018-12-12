@@ -1,0 +1,15 @@
+Brain Mapping
+Hippocampus
+anatomy
+&
+histology
+physiology
+radiography
+Humans
+Magnetic Resonance Imaging
+Memory
+physiology
+Neuropsychological Tests
+Tomography
+Emission-Computed
+In the last several years there have been impressive strides in the ability to explore the nature of hippocampal system functioning in humans by employing functional neuroimaging methods, permitting such methods to be used in conjunction with neuropsychological methods to better understand the role of the hippocampal system in memory. In this paper, we review the literature on functional imaging studies of the hippocampal system, summarizing the data and testing these data against a number of theories or explanatory accounts of hippocampal function. We consider five alternative explanatory accounts of, or ideas about, hippocampal function- some from already existing work, for which the functional imaging data can provide a new test, and others that have emerged directly from the functional imaging work, and that have yet to be tested for their fit of data from neuropsychological methods. We conclude that the relational (declarative) memory account, in which it is proposed that the hippocampal system plays a critical role in binding together multiple inputs to permit representations of the relations among the constituent elements of scenes or events, can better accommodate the full range of imaging (and other existing) data than any other explanatory account of hippocampal function.

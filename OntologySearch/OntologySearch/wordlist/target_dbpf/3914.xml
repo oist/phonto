@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3914">
+<itemtype>xnppaper</itemtype>
+<titles><title>Effects of the mono- and tetrasialogangliosides GM1 and GQ1b on ATP-induced long-term potentiation in hippocampal CA1 neurons.</title>
+</titles>
+<contributor uname='admin_KWL'>Hiroaki Wagatsuma(admin_KWL)</contributor>
+<keywords><keyword>Adenosine Triphosphate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>G(M1) Ganglioside</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Gangliosides</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Guinea Pigs</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-09-14T01:59:44Z</last_update_date>
+<creation_date>2010-09-14T01:41:45Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3914</url>
+<changelogs>
+<changelog date='2010-09-14T01:59:44Z'>インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3914" version="1.02">
+<authors><author>Fujii S</author><author>Igarashi K</author><author>Sasaki H</author><author>Furuse H</author><author>Ito K</author><author>Kaneko K</author><author>Kato H</author><author>Inokuchi J</author><author>Waki H</author><author>Ando S</author></authors>
+<journal>Glycobiology</journal>
+<volume>12</volume>
+<number>5</number>
+<page>339-44</page>
+<abstract>The effects of the mono- and tetrasialogangliosides, GM1 and GQ1b, on ATP-induced long-term potentiation (LTP) were studied in CA1 neurons of guinea pig hippocampal slices. Application of 5 or 10 microM ATP for 10 min resulted in a transient depression followed by a slow augmentation of synaptic transmission, leading to LTP. LTP induced by treatment with 5 microM ATP was facilitated in hippocampal slices prepared from animals treated for 6 days with a ceramide analog, L-threo-1-phenyl-2-decanoylamino-3-morpholino-1-propranol, which stimulates ganglioside biosynthesis. In addition, LTP induced by 5 microM ATP was significantly enhanced when naive slices were incubated with GQ1b but not with GM1. These results suggest that a cooperative effect between extracellular ATP and GQ1b enhances ATP-induced LTP in hippocampal CA1 neurons. In addition, the LTP induced by 10 microM ATP was blocked by coapplication of the NMDA antagonist AP5 (5 microM or 50 microM), and this effect was partially inhibited by GQ1b pretreatment of the slices, suggesting that in hippocampal CA1 neurons, the enhancing effect of GQ1b on ATP-induced LTP is mediated by modulation of NMDA receptors/Ca(2+) channels.</abstract>
+<pubmed_id>12070076</pubmed_id>
+</detail>
+</item>

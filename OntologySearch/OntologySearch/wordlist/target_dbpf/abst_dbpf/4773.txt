@@ -1,0 +1,20 @@
+Animals
+Cognition
+physiology
+Discrimination Learning
+physiology
+Hippocampus
+physiology
+Male
+Memory
+physiology
+Mental Recall
+physiology
+Neural Pathways
+physiology
+Orientation
+physiology
+Rats
+Space Perception
+physiology
+The hippocampus has been implicated as a brain structure necessary for normal memory functions and normal spatial behavior. Both these explanations are consistent with the results of previous experiments demonstrating an impairment of choice accuracy following fimbria-fornix lesions on an elevated radial arm maze because the test procedure required working memory and permitted cognitive mapping. In the present experiment, rats were tested in an enclosed radial arm maze in which each arm had a distinctive set of discriminative stimuli and the test procedure required working memory but prevented cognitive mapping. Rats were tested preoperatively, given fimbria-fornix lesions, and then tested postoperatively. The rats with lesions performed at chance levels and showed no evidence of recovery of function. These results are consistent with the hypothesis that the poor choice accuracy in the elevated radial arm maze task arose because of the working memory requirements of that task, rather than its cognitive mapping characteristics, and support interpretations of hippocampal function that emphasize memory processing.

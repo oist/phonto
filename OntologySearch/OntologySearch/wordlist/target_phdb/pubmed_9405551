@@ -1,0 +1,1927 @@
+Compartmental Model of Vertebrate Motoneurons for Ca 2/-Dependent
+Spiking and Plateau Potentials Under Pharmacological Treatment
+
+VICTORIA BOOTH, 1 JOHN RINZEL, 1 AND OLE KIEHN 2
+1Mathematical Research Branch, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes
+of Health 9190, Bethesda, Maryland 20814; and 2Section of Neurophysiology, Department of Physiology, The Panum
+Institute, DK-2200 Copenhagen, Denmark
+
+I N T R O D U C T I O N
+
+a nonuniform distribution of ionic conductances, and they predict
+modulatory effects of 5-HT and properties of plateau activation
+that have yet to be tested experimentally.
+
+Booth, Victoria, John Rinzel, and Ole Kiehn. Compartmental
+model of vertebrate motoneurons for Ca 2/-dependent spiking and
+plateau potentials under pharmacological treatment. J. Neurophys-
+iol. 78: 3371–3385, 1997. In contrast to the limited response prop-
+erties observed under normal experimental conditions, spinal moto-
+neurons generate complex ﬁring patterns, such as Ca 2/-dependent
+regenerative spiking and plateaus, in the presence of certain neuro-
+transmitters and ion-channel blockers. We have developed a quanti-
+Vertebrate motoneurons possess a variety of ionic conduc-
+tative motoneuron model, based on turtle motoneuron data, to
+tances that under normal conditions give rise to a relatively
+investigate the roles of speciﬁc ionic currents and the effects of
+limited ﬁring repertoire characterized by fast action poten-
+their soma and dendritic distribution in generating these complex
+tials (APs) and smooth rate regulation in response to intra-
+ﬁring patterns. In addition, the model is used to explore the effects
+cellular current injection or synaptic activation (Binder et
+of multiple ion channel blockers and neurotransmitters that are
+al. 1996; Schwindt and Crill 1984). In the presence of certain
+known to modulate motoneuron ﬁring patterns. To represent the
+ion channel blockers or neurotransmitters, more complex
+distribution of ionic currents across the soma and dendrites, the
+ﬁring patterns can be evoked. For example, in serotonin
+model contains two compartments. The soma compartment, repre-
+(5-HT) and norepinephrine, cat (Conway et al. 1988; Houns-
+senting the soma and proximal dendrites, contains Hodgkin-Hux-
+ley-like sodium (INa) and delayed rectiﬁer K/ (IK0dr) currents, an
+gaard et al. 1988a; Lee and Heckman 1996b) and turtle
+N-like Ca 2/ current (ICa0N), and a calcium-dependent K/ current motoneurons (Hounsgaard and Kiehn 1989) can be shifted
+[IK(Ca)]. The dendritic compartment, representing the lumped distal
+between two stable modes of ﬁring, differing in frequency
+dendrites, contains, in addition to ICa0N and IK(Ca) as in the soma,
+by up to 10 Hz, by short-lasting excitatory and inhibitory
+a persistent L-like calcium current (ICa0L). We determined kinetic
+inputs. This bistable ﬁring, which is also found in single-
+parameters for INa, IK0dr, ICa0N, and IK(Ca) in order to reproduce
+unit recordings in intact animals (Eken and Kiehn 1989),
+normal action-potential ﬁring observed in turtle spinal motoneu-
+endows motoneurons with a mechanism for translating short-
+rons, including fast and slow afterhyperpolarizations (AHPs) and
+lasting synaptic inputs into long-lasting motor output (see
+a linear steady-state frequency-current relation. With this parameter
+Kiehn 1991b for a review). The recent demonstration that
+set as default, a sequence of pharmacological manipulations were
+selective depletion of descending monoaminergic ﬁbers from
+systematically simulated. A small reduction of IK0dr [mimicking
+the brain stem to the spinal cord results in a substantial
+the experimental effect of tetraethylammonium (TEA) in low con-
+reduction in tonic motoneuron activity in antigravity muscle
+centration] enhanced the slow AHP and caused calcium spiking
+(mediated by ICa0N) when INa was blocked. Firing patterns observed
+suggests that monoamine-induced bistable ﬁring is active in
+experimentally in high TEA [and tetrodotoxin (TTX)], namely
+the up-right position (Kiehn et al. 1996). When the sodium
+calcium spikes riding on a calcium plateau, were reproduced only
+spike generating mechanism is blocked with tetrodotoxin
+when both IK0dr and IK(Ca) were reduced. Dendritic plateau poten-
+(TTX), an underlying plateau potential responsible for the
+tials, mediated by ICa0L, were reliably unmasked when IK(Ca) was
+bistable ﬁring is revealed. The plateau-generating current has
+reduced, mimicking the experimental effect of the bee venom
+been identiﬁed as a persistent, inward, calcium-dependent
+apamin. The effect of 5-HT, which experimentally induces the
+(Hounsgaard and Kiehn 1985; Schwindt and Crill 1984),
+ability to generate calcium-dependent plateau potentials but not
+and nifedipine-sensitive current (Hounsgaard and Kiehn
+calcium spiking, was reproduced in the model by reducing IK(Ca)
+1989; Hounsgaard and Mintz 1988), making it likely to be
+alone. The plateau threshold current level, however, was reduced
+substantially if a simultaneous increase in ICa0L was simulated, mediated by an L-like calcium conductance. Plateau poten-
+suggesting that serotonin (5-HT) induces plateau potentials by
+tials, similar to those induced by 5-HT and norepinephrine,
+regulating more than one conductance. The onset of the plateau
+are also seen after blocking outward potassium currents
+potential showed signiﬁcant delays in response to near-threshold,
+(Hounsgaard and Mintz 1988; Schwindt and Crill 1980a–
+depolarizing current steps. In addition, the delay times were sensi-
+c). In particular, the bee venom apamin, which blocks the
+calcium-dependent K/ current underlying the slow afterhy-
+tive to the current step amplitude. The delay and its sensitivity were
+explained by examining the model’s behavior near the threshold for
+perpolarization (AHP) (Hounsgaard et al. 1988b; Zhang and
+plateau onset. This modeling study thus accurately accounts for
+Krnjevic 1987), elicits plateau potentials in turtle motoneu-
+the basic ﬁring behavior of vertebrate motoneurons as well as a
+rons with an appearance similar to those induced by 5-HT
+range of complex ﬁring patterns invoked by ion-channel blockers
+(Hounsgaard and Kiehn 1989; Hounsgaard and Mintz
+and 5-HT. In addition, our computational results support the hy-
+1988). In contrast, high concentrations of tetraethylammo-
+pothesis that the electroresponsiveness of motoneurons depends on
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+3371
+
+3372
+
+V. BOOTH, J. RINZEL, AND O. KIEHN
+
+gaard et al. 1988b; Hounsgaard and Kiehn 1989; Hounsgaard and
+nium (TEA) induce the ability to generate both plateau po-
+tentials and Ca 2/-based spiking (Hounsgaard and Mintz
+Mintz 1988). Sodium (INa) and potassium delayed rectiﬁer (IK0dr)
+1988). The Ca 2/-based spiking is most likely mediated by
+conductances contribute to AP generation in the standard Hodgkin-
+an N-like Ca 2/ conductance.
+Huxley manner. An inactivating, high threshold, N-like calcium
+conductance (ICa0N), which is similar to high-voltage–activated
+The biophysical mechanisms for the induction of these Ca 2/ currents found in cat spinal (Powers 1993; Schwindt and
+Ca 2/-dependent
+regenerative responses by ion channel Crill 1984) and in rat hypoglossal motoneurons (Umemiya and
+blockers and monoamines have not, however, been ade- Berger 1994; Viana et al. 1993a), allows calcium inﬂux during
+quately identiﬁed. We have therefore developed a compart- APs. Also included in the model is a calcium-dependent potassium
+mental motoneuron model, based on turtle motoneuron data,
+conductance [IK(Ca)] that contributes to the slow AHP following a
+to investigate the roles of the ionic currents responsible for
+spike. These four conductances are responsible for AP generation.
+these Ca 2/-dependent responses and the effect of their soma
+The ﬁnal conductance included in the model is a persistent, low-
+threshold, L-like calcium conductance (ICa0L), which, in turtle mo-
+and dendritic distribution. Some previous models were de-
+toneurons, generates plateau potentials observed in the presence of
+veloped to explore bistable ﬁring in vertebrate motoneurons,
+5-HT and potassium channel blockers. This conductance corre-
+including an idealized, equivalent cylinder, cable model
+sponds to the low-threshold, persistent calcium conductance pre-
+(Gutman 1991), an isopotential (or single compartment),
+viously described in cat spinal motoneurons (Schwindt and Crill
+threshold-crossing model (Powers 1993), and simple and
+1984).
+more detailed two-compartment models (Booth and Rinzel
+1995; Lee and Heckman 1996a). The present modeling
+study, in contrast, is the ﬁrst to investigate the effects exerted
+by multiple ion channel blockers and neurotransmitters that
+account for a variety of complex ﬁring behaviors experimen-
+tally observed in turtle motoneurons during a sequence of
+pharmacological experiments.
+
+Experimental results in both turtle and cat motoneurons have
+indicated that active conductances in the dendrites participate in
+the generation of bistable ﬁring patterns observed in 5-HT and
+norepinephrine (Hounsgaard and Kiehn 1993; Lee and Heckman
+1996b). The turtle motoneuron experiments have further identiﬁed
+both N-like and L-like calcium conductances (Hounsgaard and
+Mintz 1988) at dendritic locations (Hounsgaard and Kiehn 1993).
+In our previous, minimal model, we investigated whether the segre-
+gation of plateau-generating conductances to a dendritelike com-
+partment that was electrically distal from a sodium spike-generat-
+ing compartment could account for the bistable ﬁring behavior
+observed under 5-HT (Booth and Rinzel 1995). The results from
+the minimal model supported a dendritic origin for the plateau
+conductance. In the present enhanced model, we retain the two
+compartment structure of our previous model and the general no-
+tion of segregating the sodium-spiking mechanisms from the pla-
+teau-generating mechanisms. Figure 1 shows a schematic diagram
+of the enhanced model. The soma compartment contains the four
+conductances responsible for the generation of sodium APs,
+whereas the dendrite compartment holds the two calcium conduc-
+tances and the calcium-dependent potassium conductance.
+
+The precise effects of 5-HT on the ionic conductances of
+turtle motoneurons are not known (Hounsgaard and Kiehn
+1989, 1993). Its primary effect has been suggested to be a
+reduction of the Ca 2/-dependent K/ current [IK ( Ca )] that
+mediates the slow AHP of APs since there is a visible de-
+crease in the slow AHP in the presence of 5-HT (Hounsgaard
+and Kiehn 1989). It is known, however, that 5-HT can affect
+multiple conductances in other vertebrate motoneurons
+(Kiehn 1991a; McLarnon 1995). We therefore used the
+model to explore possible effects of 5-HT on conductances
+other than IK ( Ca ), such as the L-like Ca 2/ conductance, which
+is a logical target for 5-HT given its role in plateau genera-
+tion. In particular, we investigated and compared changes
+in plateau properties obtained in the model in response to
+variation of the Ca 2/-dependent K/ and the L-like Ca 2/
+conductance levels. Varying the maximum conductances for
+these currents simulated not only different actions of 5-HT
+on the conductances but also different concentrations of
+5-HT, thus predicting experiments that may help distinguish
+effects of 5-HT on turtle motoneuron conductances.
+
+For each active conductance in the model, differential equations
+generate the time and voltage dependencies of the activation and
+inactivation gates, with Boltzman equations describing their
+steady-state voltage dependencies. The parameters for the gating
+kinetics have been qualitatively determined, because precise, quan-
+titative measurements for most parameters are not available for
+turtle motoneurons (Hounsgaard et al. 1988b; Hounsgaard and
+Kiehn 1989; Hounsgaard and Mintz 1988). For this study, we
+assigned parameters based on the qualitative and quantitative mea-
+Finally, the model is used to analyze some key features of
+surements available (see following paragraphs) and then tuned
+the plateau activation, including delays in plateau onset, in
+these values to obtain good ﬁts with the normal ﬁring behavior
+some cases lasting over a second, observed in response to near-
+and pharmacologically altered behaviors observed experimentally.
+threshold current steps, and the slow rise of the voltage to the A listing of the model equations and parameter values is given in
+plateau state once plateau activation has been initiated. These
+the APPENDIX. The results shown in Figs. 2–6 were obtained by
+voltage and time dependencies of the plateau activation have
+numerically integrating the model equations with a variable time-
+led to suggestions that the activation time constant of the L-
+step Gear method (see APPENDIX ). In the following paragraphs,
+like Ca 2/ conductance underlying the plateau may be slow in
+we discuss in more detail the kinetics of our model conductances
+and the electronic-like properties of the model. The sensitivities of
+motoneurons, perhaps on the order of 100 ms (Powers 1993;
+our results on parameter values is discussed throughout RESULTS.
+Schwindt and Crill 1984). Our model analysis indicated that
+these features may be obtained with a relatively fast activation
+time constant of the plateau-generating current.
+
+Sodium and potassium delayed rectiﬁer conductances
+
+Some of these results have been presented in short form
+
+(Booth and Rinzel 1996; Booth et al. 1996).
+
+M E T H O D S
+General description of the model
+
+The model includes most of the ionic conductances that have
+been experimentally identiﬁed in turtle spinal motoneurons (Houns-
+
+The sodium and potassium delayed rectiﬁer conductances have
+standard Hodgkin-Huxley-like activation and inactivation kinetics.
+The sodium conductance is governed by the usual m3h gating vari-
+ables with instantaneous activation and time-dependent inactiva-
+tion. The potassium delayed rectiﬁer conductance activates as n 4,
+where the gating variable n is both time and voltage dependent.
+Parameters for the kinetics of these conductances are based on
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+COMPARTMENTAL MODEL OF VERTEBRATE MOTONEURONS
+
+3373
+
+FIG. 1. Schematic diagram of 2-compartment vertebrate
+motoneuron model. The soma compartment contains ionic
+conductances that generate action potentials. The dendrite
+compartment contains conductances responsible for plateau
+generation. Current spread between the compartments is
+through the coupling conductance gc. Model equations and
+parameter values are given in the APPENDIX.
+
+the strength of activation, it can vary from 30 ms to several 100
+ms. Our model simulations, however, do not produce accurate
+plateau potential proﬁles with a very slow activation time constant.
+In particular, with a very large time constant, we obtain plateau
+activation slopes that are much shallower than experimentally ob-
+served. We further discuss the effects of this time constant on the
+behavior of plateau potentials in RESULTS. For this study, a rela-
+tively fast time constant of 40 ms is used.
+
+Intracellular calcium concentration
+
+The intracellular Ca 2/ concentration (measured in mM) is mod-
+eled separately in each compartment according to the following
+balance equation
+
+dCax
+dt
+
+(cid:129) f [0aICa 0 kCaCax]
+
+(1)
+where x (cid:129) S or D for the soma or dendrite compartment, respec-
+f is the percent of free to bound Ca 2/. The
+tively. The constant
+parameter a converts the total Ca 2/ current in the compartment,
+ICa, to Ca 2/ concentration. (This parameter implicitly contains the
+ratio of surface area to volume for each compartment, but, because
+our model crudely reduces neuronal structure to only 2 compart-
+ments, a strict geometric interpretation of this parameter is inappro-
+priate.) The constant kCa represents the Ca 2/ removal rate, where
+Ca 2/ is removed by uptake into internal stores or pump extrusion.
+
+Electrotonic-like properties of the two-compartment model
+
+The electrotonic-like properties of the two-compartment model
+are determined by two parameters: the coupling conductance gc,
+which regulates current ﬂow between the compartments, and the
+parameter p, which is the ratio of somatic surface area to total
+surface area. Appropriate values for these parameters cannot be
+directly derived from geometric and passive electrical properties
+of motoneurons. To determine these parameters, the nonlinear in-
+teractions of the ionic conductances in both compartments must
+also be considered (see Pinsky and Rinzel 1994 for a discussion).
+The default value of the parameter p is set to 0.1, estimating that
+the soma has 1/10 the surface area of the entire motoneuron. Al-
+though there are no data on the soma/dendrite area ratio for turtle
+motoneurons, surface area measurements of cat motoneurons range
+from 250,000 to 750,000 mm2 with the soma accounting for be-
+tween 6,000 and 15,000 mm2 (Lu¨scher and Clamann 1992). Thus
+the value of p might be too high, but qualitatively similar results
+to those described in this study can be obtained with smaller values
+of p.
+The default value of the coupling conductance, gc (cid:129) 0.1 mS/
+cm2, was chosen to provide a fairly weak coupling current between
+
+those from an early, multicompartmental motoneuron model devel-
+oped by Traub (Traub 1977; Traub and Llinas 1977) but were
+modiﬁed to incorporate more recent data obtained in cat spinal
+motoneurons (Schwindt and Crill 1984) and rat motoneurons (Ta-
+kahashi 1990b; Viana et al. 1993b). Some differences in our pa-
+rameter values from those in Traub’s (1977) model include a
+depolarizing shift in half-activation of the delayed rectiﬁer conduc-
+tance, hyperpolarizing shifts in the reversal potential for potassium
+and in sodium half-inactivation, and a slower maximum time con-
+stant for sodium inactivation resulting in slower deinactivation of
+the Na/ conductance.
+
+N-like calcium conductance
+
+The N-like calcium conductance gating is given by m 2
+
+NhN with
+both activation mN and inactivation hN having voltage and time
+dependencies. Only qualitative data are available for the kinetic
+parameters of this conductance in turtle motoneurons (Hounsgaard
+and Mintz 1988), but the parameters describing activation corre-
+spond well to those used in a recent model by Powers (1993) to
+characterize the high-threshold calcium conductance found in cat
+motoneurons. Our choice for parameter values was inﬂuenced by
+achieving appropriate behaviors in AP and calcium-based spiking.
+
+Calcium-dependent potassium conductance
+
+The calcium-dependent potassium [K(Ca)] conductance acti-
+vates instantaneously according to the Hill expression with expo-
+nent 1
+
+Cax
+
+Cax / Kd
+
+where Cax (x (cid:129) S or D) deﬁnes the intracellular calcium concentra-
+tion (in mM) in the soma and dendrite compartments, respectively,
+and the half-saturation level is given by the constant Kd. The expo-
+nent 1 in this expression was fundamental in obtaining a linear
+frequency-current relation for AP ﬁring. Note that this conductance
+does not depend on voltage directly, but only indirectly through the
+calcium conductances mediating Ca 2/ inﬂux to the compartment.
+
+L-like calcium conductance
+
+The L-like calcium current is persistent with activation deter-
+mined by the time- and voltage-dependent gating variable mL. It
+has a low threshold for activation, below that of our N-like Ca 2/
+conductance, similar to the persistent, low-threshold Ca 2/ conduc-
+tance in cat motoneurons and as suggested by plateau behavior in
+turtle motoneurons (Hounsgaard and Mintz 1988). The time course
+of activation of the persistent Ca 2/ conductance in cat motoneurons
+is slow (Powers 1993; Schwindt and Crill 1984); depending on
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+3374
+
+V. BOOTH, J. RINZEL, AND O. KIEHN
+
+compartments, which was determined necessary to generate a bista-
+ble ﬁring behavior in previous two-compartment models (Booth
+and Rinzel 1995; Lee and Heckman 1996a). This value of gc yields
+much greater voltage attenuation in the dendrite compartment in
+response to steady somatic depolarization than has been experimen-
+tally estimated in vertebrate motoneurons. For example, dendritic
+voltage in our model under control conditions displays (cid:130)70% de-
+cay compared with estimates of 15–40% decay in distal, passive
+dendrites of cat gamma motoneurons (Burke et al. 1994) and esti-
+mates of 20% decay in distal, passive dendrites of guinea pig vagal
+motoneurons (Nitzan et al. 1990) in response to steady somatic
+depolarization. However, larger values of gc, which reduce the
+steady voltage attenuation observed in the dendrite compartment
+under control conditions, destroy plateau potential generation when
+5-HT is simulated. For example, when gc was doubled (gc (cid:129) 0.2
+mS/cm2), which yielded a voltage attenuation in the dendrite com-
+partment of 51%, the model displayed plateau potentials only in a
+very narrow range of applied current values that did not correspond
+to experimental observations. Furthermore, when gc was tripled
+(gc (cid:129) 0.3 mS/cm2), steady voltage attenuation in the dendrite
+compartment showed a 42% decay, but the model did not display
+bistable ﬁring behavior for any applied current values.
+
+R E S U L T S
+
+As a ﬁrst test of the robustness of our model, we searched
+for a set of maximum conductance density values that repro-
+duce normal spiking behavior in response to long-lasting
+current steps. This set of control conductance densities is
+given in Table 1. The effect of ion channel blockers and
+neurotransmitters was then simulated by varying these con-
+trol conductance values in a systematic manner to account
+for a sequence of pharmacological experiments.
+
+Normal spiking behavior
+
+FIG. 2. Sodium spike behavior obtained in model under control condi-
+tions and in simulated tetraethylammonium (TEA). A, B, and D: voltage
+responses measured in soma (top trace) and dendrite (middle trace) com-
+partments shown in response to injected current pulse (bottom trace). A and
+B: normal sodium action-potential ﬁring in control conditions in response to
+near-threshold (A, Iapp (cid:129) 6 mA/cm2) and larger current steps (B, Iapp (cid:129)
+11 mA/cm2). C: steady-state (solid) and 1st interspike interval (dotted)
+frequency-current relations for action-potential ﬁring. Filled circles indicate
+steady-state frequencies in A and B. Figures 2–9 and A1: control conduc-
+tance density values (Table 1) used except where noted. D: sodium-based
+spikes obtained in simulated low-concentration TEA (gK0dr (cid:129) 34 mS/cm2,
+Iapp (cid:129) 11 mA/cm2).
+
+With the control conductance values, the model displays
+spiking behavior that resembles normal experimental AP
+ual ionic currents to AP generation, a dissection of an AP
+ﬁring. Figure 2A shows low-frequency ﬁring obtained with
+is shown in Fig. A1 in the APPENDIX.) The contribution of
+the model in response to an injected current pulse near the
+the two potassium conductances to spike proﬁle is illustrated
+ﬁring threshold. Note that the full-sized AP generated in the
+by a comparison of the higher frequency control APs in Fig.
+soma compartment (top trace) invokes a small excursion in
+2B with those in Fig. 2D, where a low concentration of
+dendritic voltage (middle trace). The model APs possess TEA is simulated by reducing IK0dr by 66%. As observed
+the distinctive features observed in turtle motoneuron APs,
+experimentally in turtle motoneurons, a low concentration
+namely a fast AHP associated with spike repolarization and
+of TEA eliminates the fast AHP (compare Fig. 2D with Fig.
+a delayed, slow AHP governing the return to spike threshold.
+1B in Hounsgaard and Mintz 1988). The elimination of the
+These two AHPs reﬂect the action of the two potassium fast AHP has a series of consequences that results in the
+currents in the soma compartment. The delayed rectiﬁer cur-
+lower frequency ﬁring observed in simulated TEA. Speciﬁ-
+cally, each spike is wider with an increased Ca 2/ component,
+rent, which contributes to AP repolarization, is responsible
+for the fast AHP, whereas the slow AHP is mediated by mediated by ICa0N, that allows more calcium to enter the
+IK ( Ca ). (To better understand the contributions of the individ-
+compartment. The elevated concentration of intracellular
+Ca 2/ causes increased activation of IK ( Ca ) and thus a more
+substantial slow AHP, leading to decreased frequency in
+response to the same amplitude current step. These model
+results are also similar to changes in AP proﬁle observed in
+response to TEA in rat hypoglossal motoneurons (Viana et
+al. 1993b).
+
+TABLE 1. Control values of maximum conductance densities
+
+Maximum
+Conductance
+
+Dendrite
+
+Compartment
+
+Soma
+
+Compartment
+
+120
+100
+14
+5
+
+gNa
+gK0dr
+gCa0N
+gK(Ca)
+gCa0L
+
+Values are in mS/cm2. The effect of pharmacological agents is simulated
+by changing these control conductances in an appropriate manner. The
+speciﬁc parameter variations are given in the legends of Figs. 2–9.
+
+0.3
+1.1
+0.33
+
+In vertebrate motoneurons, the steady-state frequency of
+AP ﬁring increases in a piecewise linear fashion in response
+to increasing applied current (Baldissera and Gustafsson
+1974; Binder et al. 1996; Kernell 1965; Schwindt and Crill
+1984). For example, as current levels are increased from
+ﬁring threshold, the steady-state frequency increases linearly
+with a shallow slope through a primary range until the slope
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+COMPARTMENTAL MODEL OF VERTEBRATE MOTONEURONS
+
+3375
+
+abruptly increases to deﬁne a secondary range. Our model
+operates only in the primary range of AP frequencies. As
+shown in the frequency-current ( f-I) plot in Fig. 2C, except
+for a steep initial gradient, the steady-state frequency (solid)
+increases essentially linearly from ﬁring threshold. (The
+steady-state frequencies attained in the simulations shown
+in Fig. 2, A and B, are indicated by the ﬁlled circles). The
+voltage trajectories between spikes obtained with the model
+display similar behavior as has been noted experimentally
+as frequency increases in the primary range (Schwindt and
+Calvin 1972). The slope of the voltage rise to spike threshold
+remains constant as frequency increases, but the slow AHP
+begins at progressively more depolarized levels, leading to
+a progressively shorter rise to threshold (compare Fig. 2, A
+and B).
+
+Ca 2/-based regenerative responses
+
+Another characteristic of motoneuron AP ﬁring is the ad-
+aptation in ﬁring frequency that takes place after an injected
+current step. Under normal conditions, the frequency is ob-
+served to decrease steadily throughout a current step, with
+a fast initial adaptation followed by a slower adaptation that
+may continue for several seconds (Kernell and Monster
+1982). Our model displays a frequency adaptation over the
+ﬁrst few spike intervals after a current step, evidenced by
+the steeper slope of the ﬁrst interspike interval f-I curve
+shown dashed in Fig. 2C. The exact mechanism for the slow
+adaptation observed in motoneurons is not known (Binder
+FIG. 3. Calcium-based spikes and plateaus obtained in simulated tetro-
+et al. 1996), and in this model we were only able to obtain
+dotoxin (TTX) and TEA. A and B: top and middle traces show voltages
+a fast, initial adaptation caused by a slow build-up of intra- measured in soma and dendrite compartments, respectively, in response to
+cellular calcium during the ﬁrst few spikes following a cur-
+applied current pulses (bottom trace). A: Ca 2/ spikes invoked by large
+current step (Iapp (cid:129) 55 mA/cm2) under simulated TTX and a low concentra-
+rent step that leads to a progressive increase in the slow
+tion of TEA (gNa (cid:129) 13 and gK0dr (cid:129) 34 mS/cm2). B: in simulated high-
+AHPs.
+concentration TEA, Ca 2/-based plateau leading to bistable Ca 2/ spikes
+obtained in response to brief depolarizing (Iapp (cid:129) 35 mA/cm2) and hyperpo-
+larizing (Iapp (cid:129) 025 mA/cm2) current pulses (gNa (cid:129) 13, gK0dr (cid:129) 10 and
+gK(Ca) (cid:129) 0.63 mS/cm2).
+
+The two distinct Ca 2/ conductances identiﬁed in turtle
+motoneurons, an N-like and an L-like conductance (Houns- mental results into the kinetic parameters for ICa0N by making
+gaard and Mintz 1988), are balanced by outward K/ cur-
+its half-activation more depolarized than the half-activation
+rents under normal conditions, but in the presence of K/
+for INa.
+channel blockers, they induce changes in AP proﬁle and can
+The model behaviors in simulated low concentration TEA,
+namely wider Na/ spikes (Fig. 2D) and, when INa
+generate new ﬁring behaviors.
+is
+In turtle motoneurons, the N-like Ca 2/ current is evident
+blocked, Ca 2/-based spikes (Fig. 3A), were sensitive to the
+under normal conditions only by the transient inﬂux of Ca 2/ manner in which TEA was simulated. For example, if TEA
+was simulated by blocking less IK0dr than in Figs. 2D and
+during an AP (Hounsgaard and Mintz 1988). Its contribution
+to more complex ﬁring patterns has been determined experi-
+3A, then calcium currents could not overcome IK0dr to yield
+calcium spikes when the Na/ conductance was reduced. On
+mentally in the presence of a low concentration of TEA.
+When the Na/ current was blocked by the addition of TTX the other hand, if TEA was simulated by blocking more
+in the experimental preparation, the N-like conductance gen-
+IK0dr, so that calcium spikes were more easily obtained in
+erated Ca 2/-based spikes in response to a depolarizing cur-
+the TTX case, the sodium spikes (in low TEA, Fig. 2D)
+displayed a signiﬁcant Ca 2/ component, up to tens of milli-
+rent step (Hounsgaard and Mintz 1988). In the model, simi-
+lar Ca 2/-based spikes are obtained under simulation of both
+seconds wide, which was visible as a distinct shoulder on
+TTX (INa reduced by (cid:130)90%) and low concentration TEA
+the downstroke of the spike.
+In turtle motoneurons, when more K/ currents are blocked
+(IK0dr reduced by 66%), as shown in Fig. 3A. In the ﬁgure,
+a large current step induces Ca 2/-based spikes that are
+with a much higher concentration of TEA and the sodium
+smaller in amplitude and much wider than normal Na/
+current is blocked by TTX, the invoked Ca 2/ spikes ride on
+spikes. These Ca 2/-based spikes show a slow, smooth in-
+a plateau potential that can be triggered by short-lasting
+crease to ﬁring threshold governed by IK ( Ca ) and reﬂecting
+excitation and terminated by short-lasting inhibition (Houns-
+the removal of intracellular Ca 2/. In the turtle experiments,
+gaard and Mintz 1988). In the model, similar behavior is
+a much larger current step was necessary to invoke Ca 2/
+obtained when high concentration TEA is simulated by re-
+spikes than was needed to induce Na/ AP ﬁring. Similarly,
+ducing IK0dr by 90% and IK ( Ca ) by 43% (Fig. 3B). The
+the Ca 2/ spikes obtained in rat hypoglossal motoneurons motivation for simulating the effects of high concentration
+TEA in this manner is addressed in the DISCUSSION in com-
+under treatment by TTX and TEA are also high threshold
+parison to the unmasking of plateau potentials by the bee
+(Viana et al. 1993a). We have incorporated these experi-
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+3376
+
+V. BOOTH, J. RINZEL, AND O. KIEHN
+
+venom apamin. In Fig. 3B, a large current pulse invokes a
+dendritic plateau potential as well as Ca 2/ spikes. The pla-
+teau potential persists after pulse termination leading to pro-
+longed Ca 2/ spiking (compare with Fig. 2C in Hounsgaard
+and Mintz 1988). A brief, hyperpolarizing current pulse
+terminates the dendritic plateau potential, and the soma volt-
+age reﬂects its slow decay.
+
+Bistable ﬁring patterns
+
+In the presence of apamin or 5-HT, motoneurons display
+a distinctive pattern of AP ﬁring in response to a depolarizing
+current step. In contrast to the normal frequency adaptation
+during which the frequency continually decreases over the
+current step, in the presence of either of these agents, the
+frequency shows an initial decrease over the ﬁrst few spikes
+but then accelerates (Hounsgaard and Kiehn 1989). In addi-
+tion, an afterdepolarization may maintain AP ﬁring after the
+stimulus is removed. This ﬁring behavior is explained by
+activation of a plateau potential mediated by an L-like Ca 2/
+current. Because the precise action of 5-HT on turtle moto-
+neuron ionic conductances is not known, we will ﬁrst de-
+scribe the model results under simulated apamin, which is
+known to be a relatively selective blocker of a Ca 2/-depen-
+
+dent K/ conductance in motoneurons (Hounsgaard et al.
+1988b; Viana et al. 1993b; Zhang and Krnjevic 1987). In
+the model, simulating apamin by reducing IK ( Ca ) by (cid:130)40%
+(in both the soma and dendrite compartments) unmasks ICa0L
+and allows the dendrite to depolarize (Figs. 4 and 5). This is
+shown in Fig. 4, A–C, where a current step invokes repetitive
+ﬁring that shows a brief frequency adaptation over the ﬁrst
+few spikes (top trace). Hundreds of milliseconds after this
+initial adaptation, the frequency accelerates in response to
+the activation of a plateau potential in the dendrite (middle
+trace) (compare with Fig. 2 in Hounsgaard and Kiehn
+1989). When the current pulse is terminated, the dendritic
+plateau persists, inducing continued steady spiking in the
+soma. For larger current steps in Fig. 4, B and C, the onset
+of the frequency acceleration occurs earlier, reﬂecting the
+voltage dependence of plateau activation. Figure 4, C–F,
+displays the voltage dependence of the dendritic plateau ter-
+mination. In these simulations, the current is stepped to a
+ﬁxed level from successively more hyperpolarized holding
+levels. At zero holding current (Fig. 4C), the dendritic pla-
+teau persists after the current pulse. With a hyperpolarized
+holding current, the dendritic plateau decays after the pulse
+causing a decrease in spike frequency and eventual termina-
+tion of spiking (Fig. 4D). With more hyperpolarized holding
+
+FIG. 4. Bistable ﬁring patterns obtained in simulated apamin [or serotonin (5-HT)]. A–F: top and middle traces show
+voltages measured in soma and dendrite compartments, respectively, in response to applied current pulses (bottom trace).
+A–C: voltage dependence of plateau potential activation displayed by its progressively earlier onset in response to current
+steps of increasing amplitude (all current traces in C; A: Iapp (cid:129) 18.5; B: Iapp (cid:129) 21; C: Iapp (cid:129) 23 mA/cm2 from zero holding
+current). D–F: voltage dependence of plateau termination shown by decay of plateau at hyperpolarized holding currents.
+Plateau is invoked by current steps to a ﬁxed level (Iapp (cid:129) 23 mA/cm2) from increasingly hyperpolarized holding currents
+(A: 08; B: 010; C: 012 mA/cm2). A–F: soma gK(Ca) (cid:129) 3.136; dendrite gK(Ca) (cid:129) 0.69 mS/cm2.
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+COMPARTMENTAL MODEL OF VERTEBRATE MOTONEURONS
+
+3377
+
+FIG. 5. Bistable ﬁring patterns in response to
+an injected current ramp obtained in simulated
+apamin (or 5-HT). A: voltage response measured
+in the soma (top trace) and the dendrite (middle
+trace) compartments to injected current
+is
+ramped up and down (bottom trace, peak Iapp (cid:129) 25
+mA/cm2 reached in 4 s). B: instantaneous fre-
+quency computed during the ascending ( l ) and de-
+scending ( 䊊) phases of the current ramp. Soma
+gK(Ca) (cid:129) 3.136; dendrite gK(Ca) (cid:129) 0.69 mS/cm2.
+
+that
+
+currents, the dendritic plateau and somatic spiking decay
+more quickly after pulse termination (Fig. 4, E and F).
+
+state and a steady repetitive ﬁring state. In the range of
+currents seen on the up ramp between the threshold for ﬁring
+With reduced IK ( Ca ), the model displays the full spectrum onset and plateau activation, the model shows another type
+of ﬁring behaviors experimentally observed in apamin and
+of bistability: two stable modes of ﬁring. The low-frequency
+5-HT, including the response to an injected current ramp, mode corresponds to when the dendrite is near its stable
+resting state ( l ), and the high-frequency mode corresponds
+which is depicted in Fig. 5 (compare with Fig. 5 in Houns-
+to when the dendritic plateau is activated ( 䊊). If the current
+gaard et al. 1988a). As the current slowly increases in the
+ascending phase of the current ramp, AP ﬁring in the soma
+is clamped in this range, the bistable ﬁring can be explicitly
+commences, driving small amplitude responses in the den-
+demonstrated by ﬂipping back and forth between the low-
+and high-frequency ﬁring modes with brief depolarizing and
+drite. As the average dendritic voltage level increases, a
+dendritic plateau potential is activated, causing a jump in
+hyperpolarizing current pulses (simulations not shown).
+spike frequency. This jump is clearly seen in the instanta-
+A feature of 5-HT or apamin modulation of motoneuron
+neous frequency-current plot in Fig. 5B during the ascending
+ﬁring, in contrast to TEA effects, is that both 5-HT and
+apamin induce Ca 2/-dependent plateau behavior but not cal-
+phase of the ramp ( l ). Immediately after the jump, the
+current is ramped back down. The frequency remains at an
+cium spiking under TTX (Hounsgaard and Mintz 1988).
+elevated level during the down ramp ( 䊊), and spiking ceases
+This is also the case in the model under simulated apamin,
+at a level more hyperpolarized than the start of the ascending
+as seen in Fig. 6, where TTX is simulated by completely
+blocking INa (compare with Fig. 3 in Hounsgaard and Kiehn
+ramp. In this simulation, the different types of bistable be-
+haviors displayed by the model under simulated apamin or
+1989). In this case, ICa0N in the soma cannot overcome the
+control strength IK0dr to generate Ca 2/ spiking, and the so-
+5-HT can be explored. In a range of currents more negative
+than zero, where only spiking on the down ramp is observed, matic voltage mimics the plateau responses generated in
+the model shows ‘‘bistability’’ between a steady voltage
+the dendrite. This is illustrated in Fig. 6A, which shows
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+3378
+
+V. BOOTH, J. RINZEL, AND O. KIEHN
+
+necessary to invoke the plateau. In this section, we character-
+ize the plateau threshold’s dependence on the balances of
+IK ( Ca ) and ICa0L in the model. In both the model and experi-
+ment, the onset threshold, Ionset, can be estimated by conduct-
+ing a series of current step simulations, starting with sub-
+threshold step amplitudes and incrementally increasing the
+amplitude of successive steps until the plateau is fully acti-
+vated, similar to the simulations shown in Fig. 6A. The
+smallest current step amplitude that invokes the plateau de-
+ﬁnes Ionset. Similarly, the plateau offset threshold, Ioffset, can
+be estimated as the least hyperpolarized current level that
+allows a plateau, as in the simulations in Fig. 6B. However,
+a more precise determination of the plateau thresholds can
+be obtained by examining the steady-state current-voltage
+(I-V ) relation. A cell displaying plateau potentials necessar-
+ily possesses an N-shaped steady-state I-V relation. The pla-
+teau onset threshold corresponds to the knee of the curve
+that initiates the negative-slope region. The plateau offset
+threshold, on the other hand, corresponds to the knee that
+terminates the negatively sloped region. The following sec-
+tion examines in more detail the correspondence between
+the plateau thresholds and the knees of the steady-state I-V
+curve in terms of the model and, in addition, investigates
+how the cable properties of the model, as determined by the
+two compartments, distort the I-V curve and the implications
+for voltage-clamp and current-clamp behaviors.
+
+By tracking the plateau thresholds, Ionset and Ioffset, as IK ( Ca )
+and ICa0L are varied, we can monitor the emergence of the
+plateau potential in response to simulated 5-HT. We con-
+sider, ﬁrst, 5-HT only blocking IK ( Ca ). The curves in Fig.
+7A show how Ionset and Ioffset change as IK ( Ca ) is decreased in
+both the soma and dendrite compartments from 100% (con-
+trol values) to 50%, simulating an increasing concentration
+of 5-HT. As IK ( Ca ) is decreased from its control values
+(100%), the steady-state I-V curve remains monotonic until
+IK ( Ca ) is reduced by (cid:130)28%. At this point, the curves repre-
+senting the values of Ionset and Ioffset meet at a cusp, indicating
+that a very small, N-shaped kink develops in the steady-state
+I-V curve, with a small negative slope region that keeps the
+knees very close together. As IK ( Ca ) is further reduced, Ionset
+and Ioffset move farther apart, depolarizing the plateau state
+from the subthreshold state and increasing the current range
+over which a plateau is observed. The emerging plateau
+becomes discernible under current-clamp conditions when
+the voltage displacement of the plateau is sufﬁciently large.
+The shaded region denotes the levels of IK ( Ca ) reduction that
+allow expression of plateaus showing a voltage displacement
+greater than 2 mV. The ﬁlled circles mark Ionset and Ioffset for
+the TTX and 5-HT simulation in Fig. 6. Note that in this
+case, Ioffset is negative so that the plateau persists at zero
+applied holding current, as in Fig. 6A. As IK ( Ca ) decreases
+below 60% of its control values, Ionset approaches zero current
+values; when Ionset is zero or negative, the plateau spontane-
+ously activates with no stimulation, and near-rest voltage
+levels can only be obtained with steady hyperpolarizing ap-
+plied current. From this ﬁgure, we can determine that when
+5-HT is simulated by decreasing IK ( Ca ) only, it must reduce
+this conductance by at least 28% to invoke an N-shaped
+steady-state relation. It is also clear from this ﬁgure that the
+plateau thresholds, Ionset and Ioffset, are sensitive to the level
+of K(Ca) conductance and, thereby, the simulated concen-
+tration of 5-HT.
+
+FIG. 6. Plateau potentials obtained in simulated TTX and apamin (or
+5-HT). A and B: top and middle traces show superimposed voltage trajecto-
+ries measured in soma and dendrite compartments, respectively, in response
+to several applied current pulses (bottom trace). A: onset of plateau poten-
+tial is increasingly delayed as current step amplitude decreases toward
+threshold (Iapp (cid:129) 18, 16, 15, 14 mA/cm2 from zero holding current). B:
+plateau potential, invoked by current steps to a ﬁxed level (Iapp (cid:129) 20 mA/
+cm2), decays when current is stepped down to increasingly hyperpolarized
+holding levels (07, 08, 010, 012 mA/cm2). gNa (cid:129) 0; soma gK(Ca) (cid:129) 3.136;
+dendrite gK(Ca) (cid:129) 0.69 mS/cm2.
+
+superimposed voltage responses (soma and dendrite com-
+partments in the top and middle traces, respectively) to ap-
+plied current pulses of increasing amplitude (bottom trace).
+For the smallest current pulse, the plateau is not activated;
+voltage remains steady at a subthreshold level, and at pulse
+termination, the voltage quickly returns to rest. When the
+current is stepped just above threshold, plateau activation is
+signiﬁcantly delayed, due to the slow increase in voltage
+from the subthreshold level, and the plateau persists when
+the stimulus is removed. For larger current steps, plateau
+onset occurs progressively earlier with the voltage increasing
+more quickly from the subthreshold level. This delay in
+plateau onset and its sensitivity to current step amplitude
+have also been experimentally observed, and a theoretical
+explanation is presented in a following section. In the simula-
+tions shown in Fig. 6B, the current is stepped to a ﬁxed
+level from increasingly more hyperpolarized holding cur-
+rents, demonstrating that plateau termination occurs earlier
+when the holding current is more hyperpolarized.
+
+Exploration of 5-HT induction of plateau properties
+
+In this section, we explore possible ways 5-HT may induce
+plateau properties by modulating multiple conductances. In
+particular, we investigate changes in plateau properties ob-
+tained in the model under simulated TTX in response to
+variation of IK ( Ca ) and compare this behavior to plateaus
+obtained when both IK ( Ca ) and ICa0L are varied.
+
+An easily quantiﬁable property of the plateau response,
+that can be monitored as parameters are varied, is the plateau
+onset threshold, that is, the minimum applied current level
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+COMPARTMENTAL MODEL OF VERTEBRATE MOTONEURONS
+
+3379
+
+(as in the shaded region in Fig. 7A), and the ﬁlled circle
+denotes the 5-HT simulation in Fig. 6.
+
+By comparing these curves, we can determine how the
+plateau onset threshold changes under different combina-
+tions of effects of 5-HT. For example, to obtain a plateau
+threshold at a ﬁxed current level, say 10 mA/cm2 (thin dotted
+vertical line), 5-HT has to decrease IK ( Ca ) (cid:130)40% if it affects
+no other conductance. On the other hand, it reveals plateaus
+with the same activation threshold by reducing IK ( Ca ) by only
+30% if it also increases ICa0L by 10%. Similarly, if 5-HT
+increases ICa0L by 30 or 45%, a plateau with the same thresh-
+old can be unmasked with even smaller reductions in IK ( Ca ).
+We can also compare plateau thresholds if 5-HT reduces
+IK ( Ca ) by a ﬁxed amount, say 30% (thin dotted horizontal
+line). In this case, the plateau induced by only IK ( Ca ) reduc-
+tion has a much higher threshold than the plateau induced
+if 5-HT also increases ICa0L by 10%. Finally, the ﬁgure shows
+that if 5-HT increases ICa0L by 45%, an observable plateau
+is induced with no decrease in IK ( Ca ).
+
+Biophysical determination of plateau thresholds
+
+This section supplements the brief description of the corre-
+spondence between the plateau thresholds and the steady-
+state I-V curve given in the beginning of the previous section.
+In addition, in this section, we investigate how the distortion
+of the steady-state I-V curve due to the cable properties of
+the model affects behaviors obtained under voltage clamp
+and current clamp. We illustrate the relation between the
+steady-state I-V curve and the plateau thresholds by consider-
+ing the model behavior under simulated TTX and 5-HT
+[modeled by reducing K(Ca) conductances by (cid:130)40%, as
+in Fig. 6]. The theoretical steady-state IV relation for this
+case (control gc (cid:129) 0.1 mS/cm2), is shown by the heavy
+curve in Fig. 8A. The relation is N-shaped with multiple
+voltage levels for current ﬁxed in a certain range, corre-
+sponding to the plateau potential. In addition, the curve also
+shows multiple current levels for voltage ﬁxed in some
+range. This latter type of distortion of the curve is due to
+the cable properties of the model with active currents in the
+dendrite compartment that are not controlled by a somatic
+voltage clamp (see p. 401–413 in Jack et al. 1983). The
+steady-state I-V curve was computed in the model as the
+solutions, including both stable (solid portions of the curve)
+and unstable (dashed portion) solutions, to the steady-state
+cable equation for all values of somatic applied current,
+Isoma, using the bifurcation analysis program AUTO (Doedel
+1981) (see APPENDIX ).
+
+FIG. 7. Plateau properties in response to proposed effects of 5-HT. A:
+curves showing plateau onset thresholds, Ionset, and offset thresholds, Ioffset,
+deﬁned as the knees of the steady-state current-voltage (I-V ) curve (see
+Fig. 8A), as increasing concentration of 5-HT is simulated by decreasing
+the calcium-dependent K/ conductances in the soma and dendrite compart-
+ments (TTX simulated by gNa (cid:129) 0 mS/cm2). Shaded region indicates con-
+ductance values yielding plateaus with at least 2-mV voltage displacement.
+B: curves showing Ionset for 5-HT simulated by reduction of IK(Ca) and
+enhancement of L-like Ca 2/ conductance (solid, control gCa0L (cid:129) 0.33; long
+dashed, gCa0L (cid:129) 0.363; short dashed, gCa0L (cid:129) 0.429; dotted, gCa0L (cid:129) 0.4785
+mS/cm2. TTX simulated by gNa (cid:129) 0 mS/cm2). Portion of curve below x’s
+corresponds to shaded region in A. A and B: ﬁlled circles denote Ionset and
+Ioffset values for 5-HT simulation in Fig. 6.
+
+To compare plateau properties when 5-HT is simulated
+as regulating more than one conductance, we track the cur-
+rent value of Ionset as the maximum conductance levels of
+IK ( Ca ) and ICa0L are varied. In particular, we consider 5-HT
+To understand how ‘‘cable effects’’ distort the I-V rela-
+acting to simultaneously block IK ( Ca ) and enhance ICa0L, sim-
+tion, Fig. 8A also displays the I-V curves for the model when
+the compartments are more tightly coupled (dashed: gc (cid:129)
+ulating the recruitment of L-like Ca 2/ channels. The heavy
+0.15, dotted: gc (cid:129) 0.2 mS/cm2). These I-V curves are
+lines in Fig. 7B show the change in Ionset as IK ( Ca ) is decreased
+from 100% (control values) to 50% for increasing levels of N-shaped (that is, showing multiple voltage levels for ﬁxed
+current), but there is no cable-effect distortion causing mul-
+ICa0L. The solid line shows the location of Ionset when the
+L-like calcium conductance is ﬁxed at its control value and
+tiple current levels for some ﬁxed voltages. The distortion
+is absent when the compartments are very tightly coupled
+only K(Ca) conductance is decreased. This curve is the
+(dotted curve) because, in this case, the dendrite voltage is
+same as in Fig. 7A, but is displayed over a smaller current
+essentially equal to the clamped soma voltage and thus active
+range. The other curves show the values of Ionset when the
+L-like Ca 2/ conductance is increased by 10% (long dashed),
+currents in the dendrite compartments are controlled. With
+the compartments more loosely coupled (dashed curve), the
+30% (short dashed), and 45% (dotted). The ‘‘x’’ on each
+curve denotes the level of IK ( Ca ) reduction necessary to in-
+distortion to the negative slope region of the curve begins
+voke plateaus with voltage displacement of at least 2 mV
+to appear.
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+3380
+
+V. BOOTH, J. RINZEL, AND O. KIEHN
+
+FIG. 8:
+
+I-V relations obtained in the model un-
+theoretical
+der simulated TTX and 5-HT. A:
+steady-state I-V curves computed in the model.
+Progressive distortion of I-V relation caused by
+cable properties of the model shown by comparing
+curves for weak control coupling conductance
+(solid heavy, gc (cid:129) 0.1) and tighter coupling
+strengths (dashed, gc (cid:129) 0.15; dotted, gc (cid:129) 0.2 mS/
+cm2). [A–D: TTX and 5-HT simulated by gNa (cid:129)
+0, soma gK(Ca) (cid:129) 3.136, and dendrite gK(Ca) (cid:129) 0.69
+mS/cm2.] Plateau potential onset and offset
+threshold current levels determined by knees of
+control I-V curve and denoted as Ionset and Ioffset,
+respectively. B: I-V relations computed by a slow,
+somatic voltage-clamp ramp for control (heavy,
+gc (cid:129) 0.1) and tighter coupling conductances (thin,
+gc (cid:129) 0.2 mS/cm2; arrows denote direction of
+ramp; Vs ramped from 060 to 040 mV and back
+in 2 min). Theoretical steady-state I-V curves
+(dashed and dotted) shown for reference. C and
+D: somatic current-clamp simulation. D:
+time
+courses of soma voltage (top trace) and applied
+current (bottom trace, peak Iapp (cid:129) 20 mA/cm2
+reached in 10 s). C: same trajectory as in D plotted
+in the somatic I-V plane. Voltage jumps corre-
+sponding to plateau onset and plateau offset occur
+as the current is ramped through Ionset (arrow in
+D) and Ioffset, respectively.
+
+current are observed at the voltage levels bounding this re-
+gion.
+
+The cable-effect distortion seen in the theoretical steady-
+state I-V curve is manifested in a different way when the
+The correspondence between the plateau thresholds and
+I-V curve is determined by a voltage-clamp ramp (Fig. 8B).
+the steady-state I-V curve is further illustrated in Fig. 8, C
+In the ﬁgure, instead of showing the time courses explicitly,
+and D, where the current at the soma is clamped rather than
+we plot the current measured in the soma compartment
+the voltage (control gc value). In this simulation, the current
+(solid) against the somatic voltage while it is slowly ramped
+is ramped up from zero, through Ionset and then ramped back
+up and down (arrows indicate direction of the voltage ramp)
+down past Ioffset. The time courses of the soma voltage and
+for the control value of the coupling conductance (heavy
+current are shown in Fig. 8D (top and bottom trace, respec-
+curve) and with the compartments more tightly coupled (thin
+curve, gc (cid:129) 0.2 mS/cm2). The dashed and dotted lines are
+tively), whereas the same trajectory is displayed in Fig.
+8C in the I-V plane (solid; arrows indicate direction of the
+the theoretical steady-state I-V curves (from Fig. 8A) shown
+current). As evident in Fig. 8C, the current is ramped sufﬁ-
+for reference. In both simulations, the voltage is ramped up
+ciently slowly so that the voltage trajectory essentially fol-
+from near resting potential, and the current increases along
+lows the theoretical steady-state I-V curve (dashed). The
+the steady-state curve. With the compartments more tightly
+current ramp starts at zero current and resting voltage on the
+coupled, the current continues to follow the steady-state
+left-most branch of the theoretical I-V curve. As the current
+curve, sampling the negative-slope region as the voltage is
+increases, the voltage increases along the branch until the
+increased. And as the voltage is ramped back down, the
+current passes through Ionset. At this point, the plateau is
+current retraces the steady-state curve. When the compart-
+activated (indicated by the arrow in Fig. 8D) by the voltage
+ments are weakly coupled with the control value of the cou-
+jumping from the left-most to the right-most branch of the
+pling conductance, however, the current does not strictly
+theoretical I-V relation. As expected under current-clamp
+follow the steady-state curve. When the voltage passes the
+conditions, voltages on the distorted negative-slope region
+knee at Ionset, instead of sampling the distorted negative-
+are not sampled. When the current is ramped back down,
+slope region, the current shows a discontinuous drop to the
+the voltage remains depolarized until the current passes
+depolarized or right-most branch of the steady-state curve.
+through Ioffset and the voltage jumps from the right-most to
+After the jump, the current tracks along the right-most branch
+the left-most branch. From Fig. 8C, it is clear that the
+as the voltage is increased further. When the voltage is
+plateau thresholds are more precisely deﬁned as the points
+ramped back down, the current remains on this branch, past
+where the slope of the steady-state I-V curve is zero. The
+the point where the current jumped down on the up ramp,
+curves in Fig. 7 showing the changes in plateau thresholds
+until the knee at Ioffset is reached. At this point, the current
+Ionset and Ioffset were computed by tracking these points of
+abruptly jumps up to the hyperpolarized or left-most branch,
+zero slope, or saddle-node bifurcation points, as the maxi-
+again repelled by the negative-slope region. As the voltage mum K(Ca) and L-like Ca 2/ conductance values were
+is ramped back down to rest, the current is the same as
+measured on the up ramp. In contrast to the theoretical
+steady-state I-V curve computed with the model, the I-V
+curve determined by voltage-clamp ramp does not show a
+negative-slope region but, instead, discontinuous jumps in
+
+varied (see APPENDI X ).
+Delays in plateau onset
+
+In this section, we investigate several features of the acti-
+vation time course of the plateau potential that have been
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+COMPARTMENTAL MODEL OF VERTEBRATE MOTONEURONS
+
+3381
+
+Delay in Plateau Onset ⬀
+
+response to the current step, the voltage quickly moves to
+values near the knee at Ionset. The voltage slowly increases
+past the knee then rises more quickly to the depolarized
+plateau state on the right-most branch of the I-V curve.
+
+thought to reﬂect a slow activation time constant of the
+L-like Ca 2/ conductance, perhaps on the order of 100 ms
+(Powers 1993; Schwindt and Crill 1984). In both experi-
+ments and the model, plateau potentials show signiﬁcant
+delays in onset, in some cases lasting (cid:156)1 s, in response to
+In dynamical systems theory, the knee in the steady-state
+near-threshold current steps. For example, as seen in Fig. 6A,
+I-V curve is called a saddle-node bifurcation point of the
+both the soma and dendritic voltages linger near subthreshold model’s steady-state solution set. The deceleration of trajec-
+tories as they pass near a saddle-node point is a well-known
+levels for hundreds of milliseconds before rising to the pla-
+teau state. Another feature observed both experimentally and
+phenomenon, and classical bifurcation analysis has deter-
+mined that the delay in plateau onset caused by the slow
+in the model is that the length of the delay is sensitive to
+passage near a saddle-node depends on current step ampli-
+current step amplitude, with the delay decreasing substan-
+tially for small increases in current amplitude.
+tude in the following manner
+In the model, we obtained delays in plateau onset of appro-
+priate durations for a relatively fast time constant ( tm L (cid:129)
+40 ms). Furthermore, analysis of the model and of our previ-
+ous minimal model indicates that the delays in plateau onset where Iapp is the current step amplitude (see Booth and Rin-
+may be observed when the inward current underlying the
+zel 1996; Strogatz 1994). From this relation, the sensitivity
+plateau activates rapidly, even instantaneously (Booth and
+of the delay to current step amplitude is clear. For current
+Rinzel 1996). To understand the delays in plateau onset, we
+steps very close to Ionset, the delay can be signiﬁcant, but it
+consider the soma voltage trajectory during plateau activa-
+falls off quickly as the amplitude increases above threshold.
+tion in the I-V plane, where current is measured in the soma This relation was determined for an instantaneously activat-
+compartment, as shown in Fig. 8A. In response to current
+ing inward current underlying the plateau. Simulations with
+steps of amplitude less than Ionset, the voltage approaches a
+our model have indicated that the ﬁnite activation time of
+the L-like Ca 2/ conductance exaggerates the delay in plateau
+stable, subthreshold level (cf. Fig. 6A) located on the left-
+most branch of the steady-state I-V curve. If, on the other
+onset so that it is even greater than predicted by the above
+hand, the current is stepped well above Ionset, the voltage
+formula. Furthermore, the ﬁnite activation time makes long
+quickly approaches the depolarized, plateau level deﬁned on
+delays more robust to current step amplitude, so that a sub-
+the right-most branch of the steady-state I-V curve for that
+stantial delay, on the order of several hundred milliseconds,
+current value. However, if the current is stepped to a value may still be observed in response to current steps much
+just above Ionset, the voltage moves toward the plateau state
+located on the right-most branch of the steady-state I-V
+curve, but passes very close to the knee at Ionset. At the knee,
+the slope conductance is zero; hence the voltage increases
+very slowly in its vicinity.
+
+A ﬁnal feature of plateau activation that is observed exper-
+imentally and that is obtained in the model with a relatively
+fast activation time constant for ICa0L is the slow rise of the
+voltage to the plateau state once plateau activation has been
+This slow passage near the knee at Ionset is shown in Fig.
+initiated. Simulations investigating the effects of longer acti-
+9, which plots the model’s response in the I-V plane to
+vation time constants revealed that the slope of the voltage
+an applied current step just greater than Ionset (Iapp (cid:129) 15
+transition to the plateau depends nonlinearly on the activa-
+mA/cm2, compare with trajectory in Fig. 6A). Each dot in
+tion time constant, so that it is much shallower than a linear
+the ﬁgure corresponds to the voltage and current levels at
+dependence would predict. Accordingly, the transition slopes
+100-ms time intervals during the simulation. Initially, ap- were surprisingly shallow with activation time constants on
+plied current is zero and the voltage is at its rest value located
+the order of 100 ms. One aspect of this voltage transition to
+on the left-most branch of the steady-state I-V curve. In
+the plateau that our model does not account for, however,
+is the subtle decrease in the slope of the transition that is
+experimentally observed as current step amplitude is de-
+creased toward threshold (compare Fig. 6A with Fig. 3A in
+Hounsgaard and Kiehn 1989) (see DISCUSSION).
+
+(cid:113)
+
+1
+
+Iapp 0 Ionset
+
+larger than Ionset.
+
+D I S C U S S I O N
+
+Comparison with previous motoneuron models
+
+Previous motoneuron models have concentrated on under-
+standing normal ﬁring behavior (see Binder et al. 1996 for
+a review) and 5-HT–induced bistable ﬁring patterns (Booth
+and Rinzel 1995; Gutman 1991; Lee and Heckman 1996a;
+Powers 1993), but the present model is the ﬁrst to address
+FIG. 9. Delayed plateau onset in simulated TTX and 5-HT caused by
+the systematic development of complex and bistable ﬁring
+slow passage near knee of steady-state I-V curve at Ionset. Model response
+to applied current step of amplitude just above Ionset (Iapp (cid:129) 15 mA/cm2;
+patterns by appropriate simulation of multiple ion channel
+see Fig. 6A) plotted in somatic I-V plane under simulated TTX and 5-HT
+blockers and neurotransmitters. As part of a larger study of
+[gNa (cid:129) 0; soma gK(Ca) (cid:129) 3.136; dendrite gK(Ca) (cid:129) 0.69 mS/cm2]. Theoretical motoneuron ﬁring behavior with a threshold-crossing model,
+Powers (1993) obtained maintained ﬁring following a short-
+lasting current pulse but never true bistable ﬁring patterns
+
+steady-state I-V curve (solid/dashed) plotted for reference. Each dot de-
+notes somatic voltage and membrane current at 100-ms time intervals during
+the simulation.
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+3382
+
+V. BOOTH, J. RINZEL, AND O. KIEHN
+
+when parameters were varied from their control values. In-
+Our model, in addition, only qualitatively represents the
+terestingly, in contrast to our ﬁndings, it was not possible
+nonuniform distribution of ionic conductances over soma
+in Powers’ (1993) model to induce plateau potentials by
+and dendrites by lumping currents into two, not strongly
+reducing potassium currents alone. The necessary changes
+coupled compartments. Studies with this model and our pre-
+were a simultaneous reduction of outward currents and in-
+vious, more simpliﬁed model (Booth and Rinzel 1995) have
+creases in the time constants for activation of a persistent,
+supported the hypothesis that the bistable ﬁring patterns in-
+low-threshold calcium conductance and a slow, potassium voked by 5-HT require a nonuniform distribution of ionic
+conductances and, speciﬁcally, a segregation of plateau-gen-
+conductance. These differences to our model might be ex-
+plained by the single compartment structure of Powers’
+erating currents from spike-generating currents. As indicated
+by Gutman’s (1991) results with an idealized cable model,
+model, since in our model the spatial segregation of the soma
+preliminary simulations with multicompartmental represen-
+and dendrites was an essential parameter determining plateau
+tations of the dendrites have shown that bistable ﬁring pat-
+development (see How realistic is the model?) (Booth and
+terns can be obtained when plateau-generating currents are
+Rinzel 1995).
+more widely distributed over several compartments rather
+than lumped into a single compartment. Furthermore, other
+simulations conﬁrm that the spike- and plateau-generating
+currents need not be entirely segregated to obtain the bistable
+behaviors. In particular, in the present model, when ICa0L is
+included in the soma compartment, in similar densities as it
+appears in the dendrite compartment, results identical to
+those presented here are obtained.
+
+The contribution of dendritic conductances to plateau gen-
+eration and the ensuing bistable ﬁring patterns has also been
+previously investigated in an equivalent cylinder, cable
+model (Gutman 1991) and in two-compartment models
+(Booth and Rinzel 1995; Lee and Heckman 1996a). In these
+models, plateau-generating currents were not slow and were
+localized in the dendrites (cable or compartment, respec-
+tively), and the pharmacologically mediated state change
+from the normal situation when the plateau is masked to the
+plateau-generating state was not addressed. In addition, the Mechanism for plateau generation
+ionic conductances responsible for spike and plateau genera-
+tion in some of these models were idealized and not biophys-
+ically grounded (Booth and Rinzel 1995; Gutman 1991).
+We therefore believe that the present model represents a
+valuable addition to previously published models of verte-
+brate motoneurons by combining a compartmental structure
+with nonuniform spatial distribution of biophysically plausi-
+ble active conductances.
+
+How realistic is the model?
+
+Although our model might not provide a complete descrip-
+tion of vertebrate motoneuron membrane properties, it al-
+lowed us to test speciﬁc hypotheses on the effects of pharma-
+cological perturbations. For example, experimental results
+have suggested that plateau potential behavior may be
+evoked by sufﬁcient reduction of various combinations of
+outward, potassium currents. Our model simulations of high-
+concentration TEA and apamin experiments, however, have
+challenged this assumption and, as we will argue, suggest
+Although the model displays a variety of behaviors resem-
+that the primary currents balancing the plateau-generating
+bling experimental results during simulations of different
+calcium conductance are calcium-dependent potassium con-
+pharmacological conditions, it does not constitute a physio-
+ductances. The experimental results in apamin determine
+logically complete description of a vertebrate motoneuron.
+that a K(Ca) conductance contributes to plateau masking
+The types of ionic conductances included in the model are
+(Hounsgaard and Mintz 1988). The model results in simu-
+biophysically plausible, but, with only limited quantitative
+lated apamin conﬁrm that IK ( Ca ) participates in plateau mask-
+data available from turtle motoneurons, their distribution
+ing. Furthermore, in the model, the inﬂuence of the K(Ca)
+between the soma and dendrite compartments and their ki-
+conductance on the plateau is very robust: increasing den-
+dritic IK ( Ca ) will always mask the plateau, whereas decreasing
+netic parameters have been qualitatively determined. How-
+ever, the kinetic parameters do not signiﬁcantly differ from it easily unmasks the plateau. In the high TEA experiments,
+it was suggested that blocking IK0dr alone may also release
+those quantitatively identiﬁed in cat motoneurons (Binder
+et al. 1996; Schwindt and Crill 1984). Our model also does
+the plateau (Hounsgaard and Mintz 1988). We have used
+the model to investigate this possible action of TEA. Our
+not include several conductances that have been identiﬁed
+in vertebrate motoneurons, such as a hyperpolarization-acti-
+simulations have shown that a large level of dendritic IK0dr
+vated inward, or ‘‘sag,’’ current (Ih) (Bayliss et al. 1994;
+is needed to mask the plateau. Moreover, this necessary
+Schwindt and Crill 1984; Takahashi 1990a,b) and an A-
+conductance level is sufﬁciently large as to maintain plateau
+block even under simulated apamin, when K(Ca) conduc-
+type potassium current (IA) (Takahashi 1990b; Viana et al.
+1993b). In crustacean and neonatal rat spinal motoneurons,
+tances are completely removed. Hence, to obtain all pharma-
+cological behaviors,
+the high-concentration TEA experi-
+Ih is active at resting membrane potentials and is enhanced
+by 5-HT (Kiehn and Harris-Warrick 1992a; Takahashi and ments cannot be simulated by only decreasing the delayed
+Berger 1990). Given its important role in plateau generation
+potassium rectiﬁer. So, in contrast to the real experiments,
+in crustacean motoneurons (Kiehn and Harris-Warrick we ﬁnd that both K/ delayed rectiﬁer and K(Ca) conduc-
+tances must be decreased. These results also suggest that the
+1992a,b), Ih is a natural candidate for inclusion in future
+delayed rectiﬁer conductance in the dendrite cannot be large,
+models as is a low-threshold, transient calcium current that
+because it would impede the plateau in the apamin simula-
+is found in neonatal rat motoneurons and that plays a role in
+rebound excitation (Berger and Takahashi 1990). Currently,
+tions (we have elected to eliminate it entirely). We thus
+conclude that in turtle motoneurons the primary outward
+very little is known about IA in vertebrate motoneurons (see
+Binder et al. 1996; McLarnon 1995), hence it was omitted
+currents balancing the plateau-generating calcium conduc-
+from the model.
+tance are calcium-dependent potassium conductances.
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+The model allowed a thorough investigation of the time
+course of plateau activation. The results indicated that al-
+though delays in plateau onset are a general feature of plateau
+potentials irregardless of the activation gating rate of the
+plateau-generating currents, the steepness of the time course
+of the voltage transition from subthreshold to plateau states
+does depend on the underlying current’s activation rate. This
+model result does not, however, completely account for the
+experimental behavior of the voltage transition to the pla-
+teau. Plateaus in turtle motoneurons show an additional sub-
+tle increase in the steepness of the voltage transition as the
+current is stepped away from onset threshold, a behavior
+that is not observed in the model (compare Fig. 6 with
+Hounsgaard and Kiehn 1989, Fig. 3). In turtle dorsal horn
+neurons, plateau potentials, mediated by an L-type Ca 2/
+conductance, show, in addition to delays in onset and slow
+transitions to the plateau state, wind-up in response to pre-
+ceding depolarization, suggesting a depolarization-induced
+warm-up of the L-type conductance (Russo and Hounsgaard
+1996). Warm-up is present in motoneurons as well (Svirskis
+and Hounsgaard 1995), and it is likely that the subtle in-
+crease in the voltage transition slope observed when the step
+amplitude is increased is due to a depolarizing induced
+warm-up of the L-like calcium channels, implying that there
+are at least two mechanisms contributing to the slope of the
+voltage transition.
+
+A P P E N D I X
+
+The current balance equations for the two compartments are
+
+Cm
+
+dVS
+dt
+
+(cid:129) 0gNam 3
+
+⬁(VS)h(Vs 0 VNa) 0 gK0drn 4(VS 0 VK)
+
+Investigation of 5-HT modulation
+
+An advantage offered by the simulation of pharmacologi-
+cal agents is that the effects on ﬁring patterns of different
+concentrations of the agent can be investigated. In the experi-
+mental preparation, the time necessary for the effects of an
+agent to reach steady state and the difﬁculty in obtaining
+precise quantitative measurements of plateau-generating
+ability over time prohibit this type of systematic measure-
+ment. With the model, however, we are able to monitor
+the development of complex behaviors as not only different
+concentrations of a pharmacological agent are simulated but
+also as different effects of the agent on ionic conductances
+are simulated. We particularly examined the development
+of plateau properties obtained in TTX as application of
+5-HT is simulated. Our comparison of plateau onset thresh-
+olds under 5-HT enhancement of the plateau-generating,
+L-like calcium conductance and reduction of IK ( Ca ) (Fig. 7B)
+illustrate that 5-HT may invoke plateau behavior through
+a combination of actions on more than one conductance.
+Although the effect on IK ( Ca ) has been demonstrated experi-
+mentally (Hounsgaard and Kiehn 1989), there is as yet no
+experimental evidence for a 5-HT modulation of ICa0L in
+turtle motoneurons.
+
+COMPARTMENTAL MODEL OF VERTEBRATE MOTONEURONS
+
+3383
+
+cological agents and to formulate future experiments.
+
+Furthermore, proceeding from this conclusion, the phar-
+activation is left-shifted by a few millivolts. These types of
+macological evidence implies that the K(Ca) currents are
+analyses clearly demonstrate that the model can be used as
+mediated by ion channels that are sensitive to either TEA a predictive tool to investigate modulatory effects of pharma-
+in high concentrations or apamin and 5-HT. An apamin-
+sensitive K(Ca) conductance has been identiﬁed in turtle
+motoneurons (Hounsgaard et al. 1988b), which corresponds Delay and slope of plateau activation
+to the low-conductance SK channel described in other neu-
+rons, where it also generates a medium to slow duration
+AHP, as in the turtle neuron (see McLarnon 1995). The
+model results, then, suggest that turtle motoneurons may
+contain two Ca 2/-dependent K/ conductances, one of which
+is TEA sensitive. (Note that in the model they are repre-
+sented by 1 conductance.) Such a TEA-sensitive K(Ca) con-
+ductance has indeed been described in hypoglossal motoneu-
+rons where it may contribute to spike repolarization (Viana
+et al. 1993b).
+
+Cm
+
+dVD
+dt
+
+0gK(Ca)
+
+0gCa0Nm 2
+
+NhN(VS 0 VCa) 0 gK(Ca)
+
+CaS
+
+(VS 0 Vk)
+
+(cid:129) 0gCa0Nm 2
+
+(VD 0 VS) / Iapp
+
+(CaS / Kd)
+0gL(VS 0 VL) / gc
+p
+NhN(VD 0 VCa) 0 gCa0LmL(VD 0 VCa)
+
+In our model, we have simulated the effect of 5-HT as a
+direct inhibition of the K(Ca) conductance. It remains a
+possibility, as has been demonstrated in hypoglossal moto-
+neurons (Bayliss et al. 1995), that 5-HT indirectly reduces
+IK ( Ca ) by blocking N-like calcium channels. Although a thor-
+ough study of this effect of 5-HT has not been performed,
+preliminary simulations with the present ‘‘control case’’ pa-
+rameters indicate that this indirect reduction of IK ( Ca ) is not
+sufﬁcient to unmask plateau properties. Also, in this study,
+we have simulated the 5-HT enhancement of the L-like Ca 2/
+current as an increase in its maximum conductance, thereby
+implying that 5-HT recruits L-like Ca 2/ channels. Another
+where Vx (in mV) is the voltage and Cax (in mM) is the intracellular
+Ca 2/ concentration in the soma (x (cid:129) S) and dendrite (x (cid:129) D)
+possible action of 5-HT that results in enhancement of ICa0L
+compartments. The electronic-like properties between the two com-
+is a hyperpolarizing or left shift of the steady-state half-
+partments are determined by the coupling conductance, gc, which
+activation voltage for the activation gate. Model results simi-
+regulates current ﬂow between the compartments and the parameter
+lar to those in Fig. 7 but with 5-HT simulated by a left shift
+p, which is the ratio of somatic surface area to total cell surface
+area; in this study, gc (cid:129) 0.1 mS/cm2 and p (cid:129) 0.1. An applied
+of the half-activation of ICa0L by 1 or 2 mV show that plateau
+potentials can be obtained with less reduction of IK ( Ca ) than
+current, Iapp (in mA/cm2), may be injected into the soma compart-
+for the control parameters of ICa0L. Furthermore, the results ment. The Ca 2/-dependent K/ conductance is an instantaneous
+function of intracellular Ca 2/ concentration, which is half-saturated
+indicate that Ionset is fairly sensitive to the half-activation
+at concentration levels of Kd (cid:129) 0.2 mM. To ease the notational
+voltage, speciﬁcally, Ionset is much smaller when the half-
+
+0 gL(VD 0 VL) / gc
+1 0 p
+
+CaD
+
+(CaD / Kd)
+
+(VD 0 VK)
+
+(VS 0 VD)
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+3384
+
+V. BOOTH, J. RINZEL, AND O. KIEHN
+
+burden, we have not distinguished with symbols the maximal ionic
+conductances, although their values differ, in the soma and dendrite
+compartments.
+
+The gating kinetics of the ionic conductances are governed by
+
+equations of the following form
+
+(cid:129) w⬁(V ) 0 w
+
+tw
+
+dw
+dt
+
+where the steady-state activation and inactivation functions are
+given by
+
+w⬁(V ) (cid:129)
+
+1
+
+1 / exp[(V 0 uw)/kw]
+
+where w is h for sodium inactivation, n for K/ delayed rectiﬁer
+activation, mN and hN for N-like Ca 2/ activation and inactivation,
+respectively, and mL for L-like Ca 2/ activation.
+The half-activation and half-inactivation voltages for the gating
+functions are (in mV) um (cid:129) 035, uh (cid:129) 055, un (cid:129) 028, umN (cid:129)
+030, uhN (cid:129) 045, and umL (cid:129) 040. The activation and inactivation
+sensitivities for the gating functions are (in mV) km (cid:129) 07.8, kh (cid:129)
+7, kn (cid:129) 015, kmN (cid:129) 05, khN (cid:129) 5, and kmL (cid:129) 07. The activation
+and inactivation time constants for the Ca 2/ conductances are given
+by the following constants (in ms): tmN (cid:129) 4, thN (cid:129) 40, and
+tmL (cid:129) 40. The time constants for sodium inactivation and
+K/ delayed rectiﬁer activation are voltage-dependent functions
+deﬁned as follows (in ms): th(V ) (cid:129) 30/{exp[(V / 50)/15] /
+exp[0(V / 50)/16]} and tn(V ) (cid:129) 7/{exp[(V / 40)/40] /
+exp[0(V / 40)/50]}.
+Intracellular calcium concentration in the either compartment
+(Cax, for x (cid:129) S or D, in mM) depends on the total compartment
+Ca 2/ current, ICa, in the following manner
+
+FIG. A1. Dissection of individual ionic currents contributing to genera-
+tion of an action potential. Top panel: soma voltage measured during action
+potential generated in response to current step Iapp (cid:129) 6 mA/cm2, as in Fig.
+2A. Dashed line indicates resting potential. Bottom panel: ionic currents in
+soma compartment during action potential [solid, INa; dashed, IK0dr; dot-
+dashed, ICa0N; dotted, IK(Ca)], measured as deviations from 0 mA/cm2 (long
+dashed).
+
+the AP peak) is due to the large driving potential and not to a rise
+in Ca 2/ concentration, which occurs later, driven by ICa0N.
+
+dCax
+dt
+
+(cid:129) f [0aICa 0 kCaCax]
+
+The model equations were numerically integrated using a pro-
+gram XPP, written by G. B. Ermentrout, which offers a variety of
+In the soma compartment, the total Ca 2/ current is mediated by
+integration methods and can be run on any UNIX workstation. The
+the N-like Ca 2/ conductance, whereas in the dendrite compartment model results in Figs. 2–6 and Fig. A1 were obtained by integrating
+the equations with a variable time step Gear method (tolerance (cid:129)
+both the N-like and L-like Ca 2/ conductances contribute to the
+total Ca 2/ current. The constant f (cid:129) 0.01 is the percent of free to
+0.004, maximum time step (cid:129) 0.05 ms). The theoretical steady-
+bound Ca 2/ (Helmchen et al. 1996), a (cid:129) 0.009 mol/C/mm con-
+state I-V curves shown in Figs. 8 and 9, and the continuous tracking
+verts the total Ca 2/ current, ICa, to Ca 2/ concentration and kCa (cid:129) of the plateau thresholds shown in Fig. 7 were computed with the
+2 ms01 is the Ca 2/ removal rate.
+bifurcation analysis program AUTO (Doedel 1981) through its
+The reversal potentials for the ionic currents are VNa (cid:129) 55 mV,
+interface with XPP.
+VK (cid:129) 080 mV, and VCa (cid:129) 80 mV. The leak conductance density
+in each compartment is gL (cid:129) 0.51 mS/cm2, and the leak reversal
+potential is VL (cid:129) 060 mV. The membrane capacitance is Cm (cid:129) 1
+mF/cm2. Control values of the maximum ionic conductance densi-
+ties are given in Table 1, and their modulated values corresponding
+to the pharmacological simulations displayed in Figs. 2–9 are
+given in the corresponding ﬁgure captions.
+
+Present address of J. Rinzel: Center for Neural Science and Courant
+Institute of Mathematical Sciences, New York University, 4 Washington
+Place, Room 809, New York, NY 10003. Information on the XPP program
+written by G. B. Ermentrout may be obtained at the World Wide Web
+site http://www.pitt.edu/(cid:130)phase, and the program itself is available via
+anonymous ftp from ftp.math.pitt.edu/pub/bardware.
+
+O. Kiehn acknowledges the support of the Novo Nordic Foundation and
+
+the Danish Medical Research Council.
+
+To better understand the contribution of the different ionic con-
+ductances in the generation of an AP, Fig. A1 displays the individ-
+ual ionic currents (bottom panel) measured during one of the con-
+trol case APs displayed in Fig. 2A (soma voltage shown in top
+panel). The fast upstroke of the AP is driven by the sodium current,
+INa (solid), whose peak is truncated in the ﬁgure. The spike is
+repolarized by inactivation of the Na/ conductance and activation
+of the K/ delayed rectiﬁer current, IK0dr (dashed). IK0dr is also
+responsible for the fast AHP following the spike, indicated by the
+dip in voltage below the resting potential (top panel, dashed line).
+The dip in INa after its peak is caused by a decrease in driving
+force near the peak of the voltage spike. The slower activating N-
+like Ca 2/ current, ICa0N (dotted-dashed), peaks as INa returns to
+zero, increasing the width of the AP and activating the Ca 2/-
+dependent K/ current, IK(Ca) (dotted). Activation of IK(Ca) occurs
+as IK0dr decays, initiating the slow AHP and governing the return
+to spike threshold. Note, the brief peak of IK(Ca) (coincident with
+
+Present address and address for reprint requests: V. Booth, Dept. of
+Mathematics, New Jersey Institute of Technology, University Heights, New-
+ark, NJ 07102-1982.
+
+Received 30 August 1996; accepted in ﬁnal form 2 September 1997.
+
+REFERENCES
+
+BALDISSERA, F. AND GUSTAFSSON, B. Regulation of repetitive ﬁring in
+motoneurons by the afterhyperpolarization conductance. Brain Res. 30:
+431–434, 1974.
+
+BAYLISS, D. A., UMEMIYA, M., AND BERGER, A. J. Inhibition of N- and P-
+type calcium currents and the after-hyperpolarization in rat motoneurons
+by serotonin. J. Physiol. (Lond.) 485: 635–647, 1995.
+
+BAYLISS, D. A., VIANA, F., BELLINGHAM, M. C., AND BERGER, A. J. Charac-
+teristics and post-natal development of a hyperpolarization-activated in-
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+COMPARTMENTAL MODEL OF VERTEBRATE MOTONEURONS
+
+3385
+
+ward current in rat hypoglossal motoneurons in vitro. J. Neurophysiol.
+71: 119–128, 1994.
+
+BERGER, A. J. AND TAKAHASHI, T. Serotonin enhances a low-voltage–acti-
+vated calcium current in rat spinal motoneurons. J. Neurosci. 10: 1922–
+1928, 1990.
+
+BINDER, M. D., HECKMAN, C. J., AND POWERS, R. K. The physiological
+control of motoneuron activity. In: Handbook of Physiology. Exercise:
+Regulation and Integration of Multiple Systems. Bethesda, MD: Am.
+Physiol. Soc., 1996, sect. 12, p. 3–53.
+
+BOOTH, V. AND RINZEL, J. A minimal, compartmental model for a dendritic
+origin of bistability of motoneuron ﬁring patterns. J. Comput. Neurosci.
+2: 299–312, 1995.
+
+BOOTH, V. AND RINZEL, J. Plateau potentials in bistable motoneurons. In:
+Computational Neuroscience: Trends in Research 1995, edited by J. M.
+Bower. New York: Academic, 1996, p. 47–52.
+
+BOOTH, V., RINZEL, J., AND KIEHN, O. A compartmental model of bistable
+and complex ﬁring patterns of vertebrate motoneurons. Soc. Neurosci.
+Abstr. 22: 725.4, 1996.
+
+BURKE, R. E., FYFFE, R.E.W., AND MOSCHOVAKIS, A. K. Electrotonic archi-
+tecture of cat gamma motoneurons. J. Neurophysiol. 72: 2302–2316,
+1994.
+
+CONWAY, B. A., HULTBORN, H., KIEHN, O., AND MINTZ, I. Plateau potentials
+in a-motoneurones induced by intravenous injection of L-DOPA and
+clonidine in the spinal cat. J. Physiol. (Lond.) 405: 369–384, 1988.
+
+DOEDEL, E. J. AUTO: a program for the automatic bifurcation analysis of
+
+autonomous systems. Congressus Numerantium 30: 265–284, 1981.
+
+EKEN, T. AND KIEHN, O. Bistable ﬁring properties of soleus motor units in
+
+unrestrained rats. Acta Physiol. Scand. 136: 383–394, 1989.
+
+GUTMAN, A. M. Bistability of dendrites. Int. J. Neural Syst. 1: 291–304,
+1991.
+HELMCHEN, F., IMOTO, K., AND SAKMANN, B. Ca 2/ buffering and action
+potential–evoked Ca 2/ signaling in dendrites of pyramidal neurons. Bio-
+phys. J. 70: 1069–1081, 1996.
+
+HOUNSGAARD, J., HULTBORN, H., JESPERSON, B., AND KIEHN, O. Bistability
+of a-motoneurones in the decerebrate cat and in the acute spinal cat after
+intravenous 5-hydroxytryptophan. J. Physiol. (Lond.) 405: 345–367,
+1988a.
+HOUNSGAARD, J. AND KIEHN, O. Ca// dependent bistability induced by
+serotonin in spinal motoneurons. Exp. Brain Res. 57: 422–425, 1985.
+
+HOUNSGAARD, J. AND KIEHN, O. Serotonin-induced bistability of turtle mo-
+toneurones caused by a nifedipine-sensitive calcium plateau potential. J.
+Physiol. (Lond.) 414: 265–282, 1989.
+
+HOUNSGAARD, J. AND KIEHN, O. Calcium spikes and calcium plateaux
+evoked by differential polarization in dendrites of turtle motoneurones
+in vitro. J. Physiol. (Lond.) 468: 245–259, 1993.
+
+HOUNSGAARD, J., KIEHN, O., AND MINTZ, I. Response properties of moto-
+neurons in a slice preparation of the turtle spinal cord. J. Physiol. (Lond.)
+398: 575–589, 1988b.
+
+HOUNSGAARD, J. AND MINTZ, I. Calcium conductance and ﬁring properties
+of spinal motoneurones in the turtle. J. Physiol. (Lond.) 398: 591–603,
+1988.
+
+JACK, J.J.B., NOBLE, D., AND TSIEN, R. W. Electric Current Flow in Excit-
+
+able Cells. New York: Oxford Univ. Press, 1983.
+
+duce plateau properties in a crustacean motor neuron by a dual-conduc-
+tance mechanism. J. Neurophysiol. 68: 485–495, 1992a.
+
+KIEHN, O. AND HARRIS-WARRICK, R. M. 5-HT modulation of hyperpolariza-
+tion-activated inward current and calcium-dependent outward current in
+a crustacean motor neuron. J. Neurophysiol. 68: 496–508, 1992b.
+
+LEE, R. H. AND HECKMAN, C. J. Dendritic plateau potentials and bistable
+ﬁring in spinal motoneurons: computer simulation studies. Soc. Neurosci.
+Abstr. 22: 725.5, 1996a.
+
+LEE, R. H. AND HECKMAN, C. J. Inﬂuence of voltage-sensitive dendritic
+conductances on bistable ﬁring and effective synaptic current in cat spinal
+motoneurons in vivo. J. Neurophysiol. 76: 2107–2110, 1996b.
+
+LU¨ SCHER, H. R. AND CLAMANN, H. P. Relation between structure and func-
+tion in information transfer in spinal monosynaptic reﬂex. Physiol. Rev.
+72: 71–99, 1992.
+
+MCLARNON, J. G. Potassium currents in motoneurones. Prog. Neurobiol.
+
+47: 513–531, 1995.
+
+NITZAN, R., SEGEV, I., AND YAROM, Y. Voltage behavior along the irregular
+dendritic structure of morphologically and physiologically characterized
+vagal motoneurons in guinea pig. J. Neurophysiol. 63: 333–346, 1990.
+PINSKY, P. F. AND RINZEL, J. Intrinsic and network rhythmogenesis in a
+reduced Traub model for CA3 neurons. J. Comput. Neurosci. 1: 39–60,
+1994.
+
+POWERS, R. K. A variable-threshold motoneuron model that incorporates
+time- and voltage-dependent potassium and calcium conductances. J.
+Neurophysiol. 70: 246–262, 1993.
+
+RUSSO, R. E. AND HOUNSGAARD, J. Plateau-generating neurones in the dor-
+sal horn in an in vitro preparation of the turtle spinal cord. J. Physiol.
+(Lond.) 493: 39–54, 1996.
+
+SCHWINDT, P. C. AND CALVIN, W. H. Membrane-potential trajectories be-
+tween spikes underlying motoneuron ﬁring rates. J. Neurophysiol. 35:
+311–325, 1972.
+
+SCHWINDT, P. C. AND CRILL, W. E. Role of a persistent inward current in
+motoneuron bursting during spinal seizures. J. Neurophysiol. 43: 1296–
+1318, 1980a.
+
+SCHWINDT, P. C. AND CRILL, W. E. Properties of a persistent inward current
+in normal and TEA-injected motoneurons. J. Neurophysiol. 43: 1700–
+1724, 1980b.
+
+SCHWINDT, P. C. AND CRILL, W. E. Effects of barium on cat spinal motoneu-
+
+rons studied by voltage clamp. J. Neurophysiol. 44: 827–846, 1980c.
+
+SCHWINDT, P. C. AND CRILL, W. E. Membrane properties of cat spinal moto-
+neurons. In: Handbook of the Spinal Cord, edited by R. Davidoff, R.
+New York: Dekker, 1984, p. 199–242.
+
+STROGATZ, S. H. Nonlinear Dynamics and Chaos. New York: Addison-
+
+Wesley, 1994.
+SVIRSKIS, G. AND HOUNSGAARD, J. Depolarization-induced facilitation on
+1-type Ca 2/ channels underlies slow kinetics of plateau potentials in
+turtle motoneurons. Soc. Neurosci. Abstr. 21: 65, 1995.
+
+TAKAHASHI, T. Membrane currents in visually identiﬁed motoneurones of
+
+neonatal rat spinal cord. J. Physiol. (Lond.) 423: 27–46, 1990a.
+
+TAKAHASHI, T. Inward rectiﬁcation in neonatal rat spinal motoneurones. J.
+
+Physiol. (Lond.) 423: 47–62, 1990b.
+
+TAKAHASHI, T. AND BERGER, A. J. Direct excitation of rat spinal motoneu-
+
+rones by serotonin. J. Physiol. (Lond.) 423: 63–76, 1990.
+
+KERNELL, D. The adaptation and the relation between discharge frequency
+and current strength of cat lumbosacral motoneurones stimulated by long-
+lasting injected currents. Acta Physiol. Scand. 65: 65–73, 1965.
+
+KERNELL, D. AND MONSTER, A. W. Timecourse and properties of late adap-
+
+TRAUB, R. D. AND LLINAS, F. The spatial distribution of ionic conductances
+in normal and axotomized motorneurons. Neuroscience 2: 829–849,
+1977.
+tation in spinal motoneurones of the cat. Exp. Brain Res. 46: 191–196, UMEMIYA, M. AND BERGER, A. J. Properties and function of low- and high-
+voltage-activated Ca 2/ channels in hypoglossal motoneurons. J. Neu-
+1982.
+rosci. 14: 5652–5660, 1994.
+
+Biol. Cybern. 25: 163–176, 1977.
+
+TRAUB, R. D. Motorneurons of different geometry and the size principle.
+
+KIEHN, O. Electrophysiological effects of 5-HT on vertebrate motoneurones.
+In: Aspects of Synaptic Transmission: LTP, Galanin, Opioids, Autonomic
+and 5-HT, edited by T. W. Stone. London: Taylor & Francis, 1991a, p.
+330–357.
+
+KIEHN, O. Plateau potentials and active integration in the ‘‘ﬁnal common
+
+pathway’’ for motor behavior. Trends Neurosci. 14: 68–73, 1991b.
+
+KIEHN, O., ERDAL, J., EKEN, T., AND BRUHN, T. Selective depletion of
+spinal monoamines changes the rat soleus EMG from a tonic to a more
+phasic pattern. J. Physiol. (Lond.) 492: 173–184, 1996.
+
+KIEHN, O. AND HARRIS-WARRICK, R. M. Serotonergic stretch receptors in-
+
+VIANA, F., BAYLISS, D. A., AND BERGER, A. J. Calcium conductances and
+their role in the ﬁring behavior of neonatal rat hypoglossal motoneurons.
+J. Neurophysiol. 69: 2137–2149, 1993a.
+
+VIANA, F., BAYLISS, D. A., AND BERGER, A. J. Multiple potassium conduc-
+tances and their role in action potential repolarization and repetitive ﬁring
+behavior of neonatal rat hypoglossal motoneurons. J. Neurophysiol. 69:
+2150–2163, 1993b.
+
+ZHANG, L. AND KRNJEVIC, K. Apamin depresses selectively the after-hyper-
+polarization of cat spinal motoneurones. Neurosci. Lett. 74: 58–62, 1987.
+
+/ 9k22$$de53
+
+J701-6
+
+11-13-97 15:12:41
+
+neupal
+
+LP-Neurophys
+
+

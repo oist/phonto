@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5517">
+<itemtype>xnppaper</itemtype>
+<titles><title>Effects of coculture with the septum on the expression of long-term potentiation in organotypic hippocampal slice cultures.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Septal Nuclei</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-15T05:29:46Z</last_update_date>
+<creation_date>2011-06-15T05:29:46Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5517</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5517" version="1.02">
+<authors><author>Yoshida M</author><author>Matsuki N</author><author>Saito H</author><author>Katsuki H</author></authors>
+<journal>Neuroscience research</journal>
+<volume>26</volume>
+<number>4</number>
+<page>377-85</page>
+<abstract>The hippocampus receives major afferent innervation from the septum. Using organotypic slice culture, we investigated whether coculture with the septum would modulate transmission and plasticity of hippocampal synapses. In septo-hippocampal cocultures, acetylcholinesterase-positive fibers extending from septal tissue to hippocampal slice were observed. Septo-hippocampal cocultures exhibited larger magnitude of long-term potentiation (LTP) in CA3 and CA1 synapses than hippocampal slices cultured alone, without significant changes in maximal synaptic responses and macroscopic hippocampal cytoarchitecture. Unexpectedly, the facilitatory effect on hippocampal LTP was independent of afferent innervation from the septum, because (1) electrical stimulation of the cocultured septum suppressed the induction of hippocampal LTP, (2) chronic application of 1 microM atropine did not block the facilitatory effect, and (3) septo-hippocampal cocultures without contact with each other still showed a larger magnitude of LTP than hippocampal slices alone. These results suggest that diffusible factor(s) released from the septal tissue modulate functional maturation of hippocampal synapses as to the ability to support synaptic plasticity.</abstract>
+<pubmed_id>9004276</pubmed_id>
+</detail>
+</item>

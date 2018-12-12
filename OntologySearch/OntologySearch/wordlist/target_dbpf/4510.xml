@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4510">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal lesions interfere with Pavlovian negative occasion setting.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Classical</keyword>
+<keyword>physiology</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Feeding Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Male</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T05:03:44Z</last_update_date>
+<creation_date>2011-01-28T05:03:44Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4510</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4510" version="1.02">
+<authors><author>Holland PC</author><author>Lamoureux JA</author><author>Han JS</author><author>Gallagher M</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>2</number>
+<page>143-57</page>
+<abstract>Rats were trained with either a serial feature positive (L--&gt;T1+ T-) or a serial feature negative (L--&gt;T1-, T1+) discrimination, intermixed with training on another, nonconditional discrimination (T2+, N-), using a Pavlovian appetitive conditioning preparation with multiple response measures. Among rats trained with the serial feature positive discrimination, neurotoxic lesions of the hippocampus produced a transient impairment in the acquisition of that discrimination, but did not affect acquisition of the nonconditional discrimination. In contrast, among rats that received serial feature negative discrimination training, hippocampal lesions produced enduring deficits in the acquisition of both discriminations. The results of transfer tests indicated that both lesioned and control rats used a conditional learning strategy (occasion setting) to solve the feature positive and feature negative discriminations. Furthermore, lesioned rats, especially those that received training with the feature negative discrimination, displayed increasingly higher levels of general activity as training progressed. The results suggest that hippocampal lesions particularly interfere with inhibitory learning (negative occasion setting) about both explicit and contextual cues.</abstract>
+<pubmed_id>10226775</pubmed_id>
+</detail>
+</item>

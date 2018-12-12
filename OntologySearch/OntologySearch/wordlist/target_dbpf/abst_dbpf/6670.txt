@@ -1,0 +1,22 @@
+Adult
+Basal Ganglia
+physiology
+Brain
+physiology
+Brain Mapping
+Decision Making
+physiology
+Female
+Hippocampus
+physiology
+Humans
+Intuition
+physiology
+Judgment
+physiology
+Magnetic Resonance Imaging
+Male
+Nerve Net
+physiology
+Young Adult
+We identified factors leading to hippocampal and basal ganglia recruitment during categorization learning. Subjects alternated between blocks of a standard trial and error category learning task and a subjective judgment task. In the subjective judgments task subjects categorized the stimulus and then instead of receiving feedback they indicated the basis of their response using 4 options: Remember: Conscious episodic memory of previous trials. Know-Automatic: Automatic, rapid response accompanied by conscious awareness of category membership. Know-Intuition: A"gut feeling"without fully conscious knowledge of category membership. Guess: Guessing. In addition, new stimuli were introduced throughout the experiment to examine effects of novelty. Categorization overall recruited both the basal ganglia and posterior hippocampus. However, basal ganglia activity was found during Know judgments (both Automatic and Intuition), whereas posterior hippocampus activity was found during Remember judgments. Granger causality mapping indicated interactions between the basal ganglia and hippocampus, with the putamen exerting directed influence on the posterior hippocampus, which in turn exerted directed influence on the posterior caudate nucleus. We also found a region of anterior hippocampus that showed decreased activity relative to baseline during categorization overall, and showed a strong novelty effect. Our results indicate that subjective measures may be effective in dissociating basal ganglia from hippocampal dependent learning, and that the basal ganglia are involved in both conscious and unconscious learning. They also indicate a dissociation within the hippocampus, in which the anterior regions are sensitive to novelty, and the posterior regions are involved in memory based categorization learning.

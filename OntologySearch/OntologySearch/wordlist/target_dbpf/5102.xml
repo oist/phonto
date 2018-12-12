@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5102">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neural network modeling of the hippocampal formation spatial signals and their possible role in navigation: a modular approach.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Evaluation Studies as Topic</keyword>
+<keyword>Head</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Nucleus Accumbens</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Thalamus</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T03:38:14Z</last_update_date>
+<creation_date>2011-05-16T03:38:14Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5102</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5102" version="1.02">
+<authors><author>Sharp PE</author><author>Blair HT</author><author>Brown M</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>720-34</page>
+<abstract>Cells throughout the hippocampal formation show striking spatial firing correlates as a rat navigates through space. These cells are thought to play a critical role in orchestrating the navigational abilities of the animals, since damage to the hippocampal formation causes spatial learning deficits. Here, we present a theoretical framework aimed at explaining how the different spatial signals are generated, as well as how they may help guide navigational behavior. Earlier work from our laboratory has presented a simple model for how the location-related signals exhibited by hippocampal place cells could be generated, based on convergent sensory information. Here, the results of this work are combined with two more recent models, to provide a more comprehensive theoretical framework. Specifically, we present 1) A neural network model of head direction cells, based on the idea that the directional signals are generated using a path integration mechanism. Cells which combine directional and angular head velocity information project onto the head direction cells, to &quot;update&quot; the current directional signal. This model reproduces the basic phenomenon of direction-specific firing, as well as the anticipatory nature of this firing, reported for some head direction cells. 2) A network simulation of how the hippocampal spatial signals could be used to orchestrate instrumental learning. Here, place and directional signals converge onto motor cells, each of which are thus driven to fire to specific combinations of location and directional heading. Each active motor cell generates a small leftward or rightward &quot;step&quot; of the simulated animal. When the simulated goal is encountered, recently active synapses are strengthened, so that goal-directed trajectories are &quot;stamped in&quot;. We have found these models useful in helping to clarify our thinking about the proposed theoretical principles, as well as in generating testable predictions.</abstract>
+<pubmed_id>9034858</pubmed_id>
+</detail>
+</item>

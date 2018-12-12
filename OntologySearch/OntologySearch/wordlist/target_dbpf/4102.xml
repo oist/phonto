@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4102">
+<itemtype>xnppaper</itemtype>
+<titles><title>Generation of theta and gamma rhythms in the hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>drug effects</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>drug effects</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T06:20:54Z</last_update_date>
+<creation_date>2010-10-08T06:20:54Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4102</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4102" version="1.02">
+<authors><author>Leung LS</author></authors>
+<journal>Neuroscience and biobehavioral reviews</journal>
+<volume>22</volume>
+<number>2</number>
+<page>275-90</page>
+<abstract>In the behaving rat, theta rhythm was dominant during walking and rapid-eye-movement sleep, while irregular slow activity predominated during immobility and slow-wave sleep. Oscillatory evoked potentials of 20-50 Hz and spontaneous fast (gamma) waves were more prominent during theta compared with non-theta behaviors. The oscillations were simulated by a systems model with recurrent inhibition. The model also predicts a behaviorally dependent inhibition, which was confirmed experimentally using paired-pulse responses. Paired-pulse facilitation (PPF) of the population spikes in CA1 was larger during walking than immobility, mostly mediated by a cholinergic input. Spike responses in vitro were characterized by a relative lack of inhibition or disinhibition compared with the behaving rat. The two-input, two-dipole model of the theta rhythm in CA1 is reviewed. Afferents to the CA1 pyramidal cells are assumed to be rhythmic and consist of atropine-sensitive and atropine-resistant inputs driving the somata and distal dendrites, respectively. The atropine-sensitive theta rhythm was mainly caused by a series of Cl- mediated inhibitory postsynaptic potentials (IPSPs) on pyramidal cells. It is suggested that previous claims of the participation of excitatory postsynaptic potentials (EPSPs) and not IPSPs in the intracellular recordings in vivo were flawed. Single cell recordings in vitro suggested that intrinsic voltage-dependent membrane potential oscillations modulate the response to a theta-frequency driving. Membrane potentials of pyramidal cells in vitro showed resonance in the theta frequency range.</abstract>
+<pubmed_id>9579318</pubmed_id>
+</detail>
+</item>

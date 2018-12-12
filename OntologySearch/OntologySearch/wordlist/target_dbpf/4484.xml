@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4484">
+<itemtype>xnppaper</itemtype>
+<titles><title>Lateralized fascia dentata lesion and blockade of one hippocampus: effect on spatial memory in rats.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Animals</keyword>
+<keyword>Newborn</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Tetrodotoxin</keyword>
+<keyword>toxicity</keyword>
+<keyword>Time Factors</keyword>
+<keyword>X-Rays</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T03:47:58Z</last_update_date>
+<creation_date>2011-01-28T03:47:58Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4484</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4484" version="1.02">
+<authors><author>Czéh B</author><author>Seress L</author><author>Nadel L</author><author>Bures J</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>6</number>
+<page>647-50</page>
+<abstract>Unilateral blockade of the dorsal hippocampus by tetrodotoxin makes it possible to form lateralized spatial memories, which rapidly transfer to the naive hippocampus when training continues with intact brain. Unilateral X-ray irradiation of newborn rats causes irreversible destruction of granule cells in the ipsilateral fascia dentata (FD). Possible compensation of poor learning in the lesioned hemisphere by commissural transfer of memories from the intact hippocampus was examined in seven rats with unilateral FD lesion, which were first trained in the Morris water maze to asymptotic performance (mean escape latency 6+/-1 s). Subsequent testing during functional ablation either of the intact or of the lesioned hippocampus by tetrodotoxin revealed escape latencies 35+/-8 s or 8+/-1 s, respectively. Probe trial tests during inactivation of the intact and lesioned hippocampus showed target quadrant preference of 32+/-2% or 54+/-3%, respectively. The results indicate: (a) that one intact hippocampus alone can support the water maze task, (b) that no, or only a very weak, memory trace is available in the lesioned hippocampus. It is concluded that the above results are due to the inability of the FD lesioned hippocampus to process the information received from the ipsilateral entorhinal cortex.</abstract>
+<pubmed_id>9882022</pubmed_id>
+</detail>
+</item>

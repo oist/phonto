@@ -1,0 +1,29 @@
+Animals
+Electric Stimulation
+methods
+Electrophysiology
+methods
+Fluorescent Dyes
+diagnostic use
+Hippocampus
+cytology
+physiology
+Male
+Mice
+Mice
+Inbred C57BL
+Microscopy
+Fluorescence
+Nerve Net
+cytology
+physiology
+Neurons
+cytology
+physiology
+Organ Culture Techniques
+methods
+Photic Stimulation
+methods
+Signal Processing
+Computer-Assisted
+We have assessed the utility of five new long-wavelength fluorescent voltage-sensitive dyes (VSD) for imaging the activity of populations of neurons in mouse brain slices. Although all the five were capable of detecting activity resulting from activation of the Schaffer collateral-CA1 pyramidal cell synapse, they differed significantly in their properties, most notably in the signal-to-noise ratio of the changes in dye fluorescence associated with neuronal activity. Two of these dyes, Di-2-ANBDQPQ and Di-1-APEFEQPQ, should prove particularly useful for imaging activity in brain tissue and for combining VSD imaging with the control of neuronal activity via light-activated proteins such as channelrhodopsin-2 and halorhodopsin.

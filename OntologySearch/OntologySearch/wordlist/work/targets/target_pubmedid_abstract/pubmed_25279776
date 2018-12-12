@@ -1,0 +1,48 @@
+1. PLoS One. 2014 Oct 3;9(10):e109271. doi: 10.1371/journal.pone.0109271.
+eCollection 2014.
+
+Ischemia-related subcellular redistribution of sodium channels enhances the
+proarrhythmic effect of class I antiarrhythmic drugs: a simulation study.
+
+Tsumoto K(1), Ashihara T(2), Haraguchi R(3), Nakazawa K(4), Kurachi Y(5).
+
+Author information: 
+(1)Department of Pharmacology, Graduate school of Medicine, Osaka University,
+Suita, Japan. (2)Department of Cardiovascular Medicine, Shiga University of
+Medical Science, Otsu, Japan. (3)Department of Medical Informatics, National
+Cerebral and Cardiovascular Center, Suita, Japan. (4)Laboratory of Biomedical
+Science and Information Management, Research Institute, National Cerebral and
+Cardiovascular Center, Suita, Japan. (5)Department of Pharmacology, Graduate
+school of Medicine, Osaka University, Suita, Japan; Center for Advanced Medical
+Engineering and Informatics, Osaka University, Suita, Japan.
+
+BACKGROUND: Cardiomyocytes located at the ischemic border zone of infarcted
+ventricle are accompanied by redistribution of gap junctions, which mediate
+electrical transmission between cardiomyocytes. This ischemic border zone
+provides an arrhythmogenic substrate. It was also shown that sodium (Na+)
+channels are redistributed within myocytes located in the ischemic border zone.
+However, the roles of the subcellular redistribution of Na+ channels in the
+arrhythmogenicity under ischemia remain unclear.
+METHODS: Computer simulations of excitation conduction were performed in a
+myofiber model incorporating both subcellular Na+ channel redistribution and the 
+electric field mechanism, taking into account the intercellular cleft potentials.
+RESULTS: We found in the myofiber model that the subcellular redistribution of
+the Na+ channels under myocardial ischemia, decreasing in Na+ channel expression 
+of the lateral cell membrane of each myocyte, decreased the tissue excitability, 
+resulting in conduction slowing even without any ischemia-related
+electrophysiological change. The conventional model (i.e., without the electric
+field mechanism) did not reproduce the conduction slowing caused by the
+subcellular Na+ channel redistribution. Furthermore, Na+ channel blockade with
+the coexistence of a non-ischemic zone with an ischemic border zone expanded the 
+vulnerable period for reentrant tachyarrhythmias compared to the model without
+the ischemic border zone. Na+ channel blockade tended to cause unidirectional
+conduction block at sites near the ischemic border zone. Thus, such a
+unidirectional conduction block induced by a premature stimulus at sites near the
+ischemic border zone is associated with the initiation of reentrant
+tachyarrhythmias.
+CONCLUSIONS: Proarrhythmia of Na+ channel blockade in patients with old
+myocardial infarction might be partly attributable to the ischemia-related
+subcellular Na+ channel redistribution.
+
+PMCID: PMC4184874
+PMID: 25279776  [PubMed - in process]

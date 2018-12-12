@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6624">
+<itemtype>xnppaper</itemtype>
+<titles><title>High-resolution fMRI of content-sensitive subsequent memory responses in human medial temporal lobe.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Face</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Visual Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:23:31Z</last_update_date>
+<creation_date>2013-02-26T06:23:31Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6624</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6624" version="1.02">
+<authors><author>Preston AR</author><author>Bornstein AM</author><author>Hutchinson JB</author><author>Gaare ME</author><author>Glover GH</author><author>Wagner AD</author></authors>
+<journal>Journal of cognitive neuroscience</journal>
+<volume>22</volume>
+<number>1</number>
+<page>156-73</page>
+<abstract>The essential role of the medial temporal lobe (MTL) in long-term memory for individual events is well established, yet important questions remain regarding the mnemonic functions of the component structures that constitute the region. Within the hippocampus, recent functional neuroimaging findings suggest that formation of new memories depends on the dentate gyrus and the CA(3) field, whereas the contribution of the subiculum may be limited to retrieval. During encoding, it has been further hypothesized that structures within MTL cortex contribute to encoding in a content-sensitive manner, whereas hippocampal structures may contribute to encoding in a more domain-general manner. In the current experiment, high-resolution fMRI techniques were utilized to assess novelty and subsequent memory effects in MTL subregions for two classes of stimuli--faces and scenes. During scanning, participants performed an incidental encoding (target detection) task with novel and repeated faces and scenes. Subsequent recognition memory was indexed for the novel stimuli encountered during scanning. Analyses revealed voxels sensitive to both novel faces and novel scenes in all MTL regions. However, similar percentages of voxels were sensitive to novel faces and scenes in perirhinal cortex, entorhinal cortex, and a combined region comprising the dentate gyrus, CA(2), and CA(3), whereas parahippocampal cortex, CA(1), and subiculum demonstrated greater sensitivity to novel scene stimuli. Paralleling these findings, subsequent memory effects in perirhinal cortex were observed for both faces and scenes, with the magnitude of encoding activation being related to later memory strength, as indexed by a graded response tracking recognition confidence, whereas subsequent memory effects were scene-selective in parahippocampal cortex. Within the hippocampus, encoding activation in the subiculum correlated with subsequent memory for both stimulus classes, with the magnitude of encoding activation varying in a graded manner with later memory strength. Collectively, these findings suggest a gradient of content sensitivity from posterior (parahippocampal) to anterior (perirhinal) MTL cortex, with MTL cortical regions differentially contributing to successful encoding based on event content. In contrast to recent suggestions, the present data further indicate that the subiculum may contribute to successful encoding irrespective of event content.</abstract>
+<pubmed_id>19199423</pubmed_id>
+</detail>
+</item>

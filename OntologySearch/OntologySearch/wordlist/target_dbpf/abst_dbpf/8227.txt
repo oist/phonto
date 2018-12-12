@@ -1,0 +1,24 @@
+Adult
+Automobile Driving
+Central Nervous System Depressants
+pharmacology
+Computer Simulation
+Dose-Response Relationship
+Drug
+Ethanol
+pharmacology
+Female
+Hippocampus
+physiopathology
+Humans
+Magnetic Resonance Imaging
+Male
+Poisoning
+physiopathology
+Prefrontal Cortex
+physiopathology
+Psychomotor Performance
+drug effects
+physiology
+Task Performance and Analysis
+Prior studies report that accidents involving intoxicated drivers are more likely to occur during performance of secondary tasks. We studied this phenomenon, using a dual-task paradigm, involving performance of a visual oddball (VO) task while driving in an alcohol challenge paradigm. Previous functional MRI (fMRI) studies of the VO task have shown activation in the anterior cingulate, hippocampus, and prefrontal cortex. Thus, we predicted dose-dependent decreases in activation of these areas during VO performance.Forty healthy social drinkers were administered 3 different doses of alcohol, individually tailored to their gender and weight. Participants performed a VO task while operating a virtual reality driving simulator in a 3T fMRI scanner.Analysis showed a dose-dependent linear decrease in Blood Oxygen Level Dependent activation during task performance, primarily in hippocampus, anterior cingulate, and dorsolateral prefrontal areas, with the least activation occurring during the high dose. Behavioral analysis showed a dose-dependent linear increase in reaction time, with no effects associated with either correct hits or false alarms. In all dose conditions, driving speed decreased significantly after a VO stimulus. However, at the high dose this decrease was significantly less. Passenger-side line crossings significantly increased at the high dose.These results suggest that driving impairment during secondary task performance may be associated with alcohol-related effects on the above brain regions, which are involved with attentional processing/decision-making. Drivers with high blood alcohol concentrations may be less able to orient or detect novel or sudden stimuli during driving.

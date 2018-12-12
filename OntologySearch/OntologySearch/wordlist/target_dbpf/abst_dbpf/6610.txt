@@ -1,0 +1,31 @@
+Adult
+Brain Mapping
+Dominance
+Cerebral
+physiology
+Evoked Potentials
+Visual
+physiology
+Female
+Hippocampus
+physiology
+Humans
+Image Processing
+Computer-Assisted
+Imaging
+Three-Dimensional
+Magnetic Resonance Imaging
+Male
+Mental Recall
+physiology
+Orientation
+physiology
+Parahippocampal Gyrus
+physiology
+Pattern Recognition
+Visual
+physiology
+Reference Values
+Temporal Lobe
+physiology
+Various studies have shown that the medial temporal lobe (MTL), which consists of the hippocampus and parahippocampal gyrus, is important for episodic memory. Earlier fMRI studies substantiated this role by showing activation upon encoding of visuospatial scenes. In this study we used event-related fMRI to study whether the cognitive process of retrieval of visuospatial scenes, tested with the use of a recognition paradigm, also activates the MTL. Nine subjects (mean age 24 years) were presented previously studied color pictures (old) and pictures they had never seen before (new) in a mixed trial design. Data analysis allowed calculation of the fMRI response of correct judgments on new pictures, old pictures, and false judgments. Since we used previously encoded color pictures as old stimuli, we also included an encoding paradigm in the current set of experiments. This allowed us to compare encoding and recognition activation in the MTL of exactly the same pictures in the same subjects. Correct judgments on new pictures showed an increased activation in the anterior parahippocampus bilaterally and the right anterior hippocampus compared to judgments on old pictures in the recognition experiment. The former judgments took significantly longer, indicating that retrieval of successfully stored information is less demanding than the effort to retrieve nonencoded information. A comparison of the two experimental data sets showed evidence for a functional segregation of encoding and retrieving color pictures. We conclude that the left posterior parahippocampal gyrus responds during encoding, while on the other hand the left anterior parahippocampal gyrus and the right anterior hippocampus were more strongly involved in retrieval.

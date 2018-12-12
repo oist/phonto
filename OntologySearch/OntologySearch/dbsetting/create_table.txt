@@ -1,0 +1,46 @@
+CREATE TABLE `targetdb` (
+  `dbid` int(11) NOT NULL AUTO_INCREMENT,
+  `dbname` varchar(255) NOT NULL,
+  `urlformat` text,
+  `createdate` datetime NOT NULL,
+  PRIMARY KEY (`dbid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `model` (
+  `dbid` int(11) NOT NULL,
+  `modelid` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `createdate` datetime NOT NULL,
+  PRIMARY KEY (`dbid`,`modelid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `keyword` (
+  `dbid` int(11) NOT NULL,
+  `modelid` varchar(255) NOT NULL,
+  `keyword` varchar(255) NOT NULL,
+  `createdate` datetime NOT NULL,
+  PRIMARY KEY (`dbid`,`modelid` , `keyword`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `user` (
+  `userid` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `createdate` datetime NOT NULL,
+  `enabled` varchar(1) NOT NULL,
+  PRIMARY KEY (`userid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `token` (
+  `token` varchar(255) NOT NULL,
+  `userid` int(11) NOT NULL,
+  `createdate` datetime NOT NULL,
+  `expiredate` datetime NOT NULL,
+  PRIMARY KEY (`token`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

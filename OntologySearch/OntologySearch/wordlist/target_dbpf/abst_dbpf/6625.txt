@@ -1,0 +1,34 @@
+Adult
+Analysis of Variance
+Attention
+Brain Mapping
+Color Perception
+physiology
+Eye Movements
+Female
+Functional Laterality
+Hippocampus
+blood supply
+physiology
+Humans
+Image Processing
+Computer-Assisted
+Magnetic Resonance Imaging
+methods
+Male
+Neuropsychological Tests
+Oxygen
+blood
+Parahippocampal Gyrus
+blood supply
+physiology
+Photic Stimulation
+methods
+Reaction Time
+physiology
+Recognition (Psychology)
+physiology
+Space Perception
+physiology
+Young Adult
+Several recent models of medial temporal lobe (MTL) function have proposed that the parahippocampal cortex processes context information, the perirhinal cortex processes item information, and the hippocampus binds together items and contexts. While evidence for a clear functional distinction between the perirhinal cortex and other regions within the MTL has been well supported, it has been less clear whether such a dissociation exists between the hippocampus and parahippocampal cortex. In the current study, we use a novel approach applying a functional magnetic resonance imaging adaptation paradigm to address these issues. During scanning, human subjects performed an incidental target detection task while viewing trial-unique sequentially presented pairs of natural scenes, each containing a single prominent object. We observed a striking double dissociation between the hippocampus and parahippocampal cortex, with the former showing a selective sensitivity to changes in the spatial relationship between objects and their background context and the latter engaged only by scene novelty. Our findings provide compelling support for the hypothesis that rapid item-context binding is a function of the hippocampus, rather than the parahippocampal cortex, with the former acting to detect relational novelty of this nature through its function as a match-mismatch detector.

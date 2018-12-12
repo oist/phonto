@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4929">
+<itemtype>xnppaper</itemtype>
+<titles><title>Current source density analysis does not reveal a direct projection from the perirhinal cortex to septal part of hippocampal CA1 or dentate gyrus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Perforant Pathway</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:22:34Z</last_update_date>
+<creation_date>2011-05-09T02:22:34Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4929</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4929" version="1.02">
+<authors><author>Canning KJ</author><author>Leung LS</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>5</number>
+<page>599-604</page>
+<abstract></abstract>
+<pubmed_id>10560930</pubmed_id>
+</detail>
+</item>

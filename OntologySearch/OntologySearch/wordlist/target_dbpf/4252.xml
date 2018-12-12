@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4252">
+<itemtype>xnpconference</itemtype>
+<titles><title>Cholinergic modulation on STDP in hippocampal CA1 network</title>
+</titles>
+<contributor uname='aiharat'>[en]Takeshi Aihara[/en][ja]相原 威[/ja](aiharat)</contributor>
+<keywords><keyword>B01G2</keyword>
+</keywords>
+<description>Endogenous activities (top-down) and sensory inputs (bottom-up) are processed in the brain. There are cholinergic inputs to the musucalinic receptor of a neuron as a top-down input that relates to motivation in the hippocampus. It is considered that the cholinergic input is integrated with sensory inputs as the bottom-up input and plays a crucial role. While, recently, it was reported the relative timing between pre- and post-synaptic spiking determines the direction and extent of synaptic changes in a critical temporal window, called as Spike-timing Dependent Synaptic Plasticity (STDP), which shows a bottom-up information processing. And the positive and negative relative–timing of a postsynaptic spike for a pre-synaptic spike induce LTP and LTD, respectively.   
+To investigate an influence of a top-down input on the information processing of bottom-up inputs, we applied STDP induction-protocol to the Schaffer collaterals and the soma during a slow excitatory postsynaptic potential (slow EPSP), following a repetitive stimulation in the stratum oriens to release ACh from cholinergic terminals. As a result, positively paired timing in STDP protocol with slow EPSP enhanced the magnitude of LTP induced in normal condition, and one with eserine, a cholinesterase inhibitor, also significantly enhanced LTP. On the other hand, LTD induced by negative pairing timing was nearly abolished by slow EPSP and was changed to LTP from LTD by applying eserine. In both two cases, the orientation of plasticity was sifted for potentiation. While, applying both slow EPSP and eserine together did not show the plasticity shifting in the same way of applying separately. The results suggest that the synaptic plasticity was modulated depending on the intensity of ACh. This study showed one important stage of the integration of top-down and bottom-up information in hippocampal CA1 neurons.</description>
+<doi></doi>
+<last_update_date>2010-11-24T07:56:21Z</last_update_date>
+<creation_date>2010-10-15T08:26:23Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>9</publication_month>
+<publication_mday>2</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4252</url>
+<changelogs>
+<changelog date='2010-11-24T07:56:21Z'>インデックス を変更</changelog>
+<changelog date='2010-11-23T04:23:36Z'>インデックス を変更</changelog>
+<changelog date='2010-11-23T04:02:32Z'>概要, フリーキーワード を変更</changelog>
+<changelog date='2010-11-22T02:46:08Z'>インデックス を変更</changelog>
+<changelog date='2010-11-22T02:41:31Z'>インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4252" version="1.02">
+<conference_from_year>2010</conference_from_year>
+<conference_from_month>9</conference_from_month>
+<conference_from_mday>2</conference_from_mday>
+<conference_to_year>2010</conference_to_year>
+<conference_to_month>9</conference_to_month>
+<conference_to_mday>3</conference_to_mday>
+<presentation_type>other</presentation_type>
+<conference_title>Neuro 2010</conference_title>
+<place>Kobe</place>
+<authors><author>E. Sugisaki, Y. Fukushima, M. Tsukada, T. Aihara</author></authors>
+<abstract></abstract>
+<attachment_dl_limit>0</attachment_dl_limit>
+<attachment_dl_notify>0</attachment_dl_notify>
+</detail>
+</item>

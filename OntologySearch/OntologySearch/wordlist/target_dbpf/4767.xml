@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4767">
+<itemtype>xnppaper</itemtype>
+<titles><title>Spectral analysis of low frequency components in the electrical activity of the hippocampus during learning.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Amygdala</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Cats</keyword>
+<keyword>Cerebellar Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Darkness</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Light</keyword>
+<keyword>Mesencephalon</keyword>
+<keyword>physiology</keyword>
+<keyword>Reticular Formation</keyword>
+<keyword>physiology</keyword>
+<keyword>Spectrum Analysis</keyword>
+<keyword>analysis</keyword>
+<keyword>Thalamus</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:09:15Z</last_update_date>
+<creation_date>2011-04-28T04:09:15Z</creation_date>
+<publication_year>1967</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4767</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4767" version="1.02">
+<authors><author>Elazar Z</author><author>Adey WR</author></authors>
+<journal>Electroencephalography and clinical neurophysiology</journal>
+<volume>23</volume>
+<number>3</number>
+<page>225-40</page>
+<abstract></abstract>
+<pubmed_id>4167921</pubmed_id>
+</detail>
+</item>

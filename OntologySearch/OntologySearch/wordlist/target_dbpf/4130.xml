@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4130">
+<itemtype>xnppaper</itemtype>
+<titles><title>Activation of basal forebrain cholinergic neurons differentially regulates brain-derived neurotrophic factor mRNA expression in different projection areas.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Afferent Pathways</keyword>
+<keyword>cytology</keyword>
+<keyword>metabolism</keyword>
+<keyword>Animals</keyword>
+<keyword>Basal Ganglia</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain-Derived Neurotrophic Factor</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Muscimol</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Nerve Tissue Proteins</keyword>
+<keyword>biosynthesis</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Nucleic Acid Hybridization</keyword>
+<keyword>Parasympathetic Nervous System</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Prosencephalon</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Quisqualic Acid</keyword>
+<keyword>pharmacology</keyword>
+<keyword>RNA</keyword>
+<keyword>Messenger</keyword>
+<keyword>biosynthesis</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Stereotaxic Techniques</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T06:40:33Z</last_update_date>
+<creation_date>2010-10-08T06:40:33Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4130</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4130" version="1.02">
+<authors><author>Boatell LL</author><author>Lindefors N</author><author>Ballarin M</author><author>Ernfors P</author><author>Mahy N</author><author>Persson H</author></authors>
+<journal>Neuroscience letters</journal>
+<volume>136</volume>
+<number>2</number>
+<page>203-8</page>
+<abstract>Afferent cholinergic pathways from the basal forebrain were activated by injections of the glutamate analog quisqualate either into the nucleus basalis or into the medial septal nucleus. Nucleus basalis injections had no effect on the expression of brain-derived neurotrophic factor (BDNF) mRNA in its neocortical projection areas as measured by in situ hybridization. In contrast, 7 h after an injection into the septum the level of BDNF mRNA increased 3- to 5-fold in the dentate gyrus, throughout CA1 to CA3 in the hippocampus and in the piriform cortex.</abstract>
+<pubmed_id>1641192</pubmed_id>
+</detail>
+</item>

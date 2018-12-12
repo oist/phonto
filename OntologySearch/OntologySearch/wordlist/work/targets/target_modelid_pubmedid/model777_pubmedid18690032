@@ -1,0 +1,34 @@
+1. Channels (Austin). 2007 May-Jun;1(3):198-208. Epub 2007 Jul 6.
+
+Mutational analysis of block and facilitation of HERG current by a class III
+anti-arrhythmic agent, nifekalant.
+
+Hosaka Y(1), Iwata M, Kamiya N, Yamada M, Kinoshita K, Fukunishi Y, Tsujimae K,
+Hibino H, Aizawa Y, Inanobe A, Nakamura H, Kurachi Y.
+
+Author information: 
+(1)Department of Pharmacology, Graduate School of Medicine, Osaka University,
+Osaka, Japan.
+
+Chemicals and toxins are useful tools to elucidate the structure-function
+relationship of various proteins including ion channels. The HERG channel is
+blocked by many compounds and this may cause life-threatening cardiac arrhythmia.
+Besides block, some chemicals such as the class III anti-arrhythmic agent
+nifekalant stimulate HERG at low potentials by shifting its activation curve
+towards hyperpolarizing voltages. This is called "facilitation". Here, we report 
+mutations and simulations analyzing the association between nifekalant and
+channel pore residues for block and facilitation. Alanine-scanning mutagenesis
+was performed in the pore region of HERG. The mutations at the base of the pore
+helix (T623A), the selectivity filter (V625A) and the S6 helix (G648A, Y652A and 
+F656A) abolished and S624A attenuated both block and facilitation induced by the 
+drug. On the other hand, the mutation of other residues caused either an increase
+or a decrease in nifekalant-induced facilitation without affecting block. An
+open-state homology model of the HERG pore suggested that T623, S624, Y652 and
+F656 faced the central cavity, and were positioned within geometrical range for
+the drug to be able to interact with all of them at the same time. Of these, S649
+was the only polar residue located within possible interaction distance from the 
+drug held in its blocking position. Further mutations and flexible-docking
+simulations suggest that the size, but not the polarity, of the side chain at
+S649 is critical for drug induced facilitation.
+
+PMID: 18690032  [PubMed - indexed for MEDLINE]

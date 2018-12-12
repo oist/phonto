@@ -1,0 +1,57 @@
+-- keyword link only --
+select count(distinct keyword) from keyword;
+delete from sitelink_keyword;
+select keyword,'exact',keyword from keyword;
+select * from keyword order by keyword;
+
+
+#select * from sitelink_ctl;
+#update sitelink_ctl set gen_status='FIN'
+#select distinct keyword from keyword
+#where keyword not in (select srckeyword from sitelink_keyword)
+
+select * from sitelink_word where linktype='exact' and dstmodelname like'%Asai%'
+#select count(distinct srckeyword) from sitelink_word
+#select * from sitelink_keyword
+#select count(distinct srckeyword) from sitelink_keyword
+#select count(*) from sitelink_keyword
+#select count(*) from sitelink
+
+
+#select * from sitelink_ctl;
+#update sitelink_ctl set gen_status='FIN'
+
+/*
+select
+	srck.dbid srcdbid
+    ,srck.modelid srcmodelid
+    ,srck.keyword srckeyword
+    ,sk.linktype
+    ,sk.destkeyword
+    ,dstk.dbid dstdbid
+    ,dstk.modelid dstmodelid
+    from
+         sitelink_keyword sk
+		,keyword srck
+        ,keyword dstk
+    where  srck.keyword = sk.srckeyword
+        and dstk.keyword = sk.destkeyword
+        and !(    dstk.dbid = srck.dbid
+              and dstk.modelid = srck.modelid
+              )
+    order by sk.linktype , srck.dbid , srck.modelid , dstk.dbid , dstk.modelid , sk.srckeyword ,sk.destkeyword
+#*/
+/*
+select
+     sk.srckeyword
+    ,sk.linktype
+    ,sk.destkeyword
+    ,dstk.dbid dstdbid
+    ,dstk.modelid dstmodelid
+    from
+         sitelink_keyword sk
+        ,keyword dstk
+    where  dstk.keyword = sk.destkeyword
+    order by sk.linktype , sk.srckeyword, dstk.dbid , dstk.modelid
+
+#*/

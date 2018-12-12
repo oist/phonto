@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3063">
+<itemtype>xnppaper</itemtype>
+<titles><title>The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-02-01T04:42:07Z</last_update_date>
+<creation_date>2010-02-01T04:42:07Z</creation_date>
+<publication_year>1971</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3063</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3063" version="1.02">
+<authors><author>O&#039;Keefe J</author><author>Dostrovsky J</author></authors>
+<journal>Brain research</journal>
+<volume>34</volume>
+<number>1</number>
+<page>171-5</page>
+<abstract></abstract>
+<pubmed_id>5124915</pubmed_id>
+</detail>
+</item>

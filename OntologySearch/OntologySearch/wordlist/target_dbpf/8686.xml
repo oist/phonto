@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8686">
+<itemtype>xnpconference</itemtype>
+<titles><title>A predictive model of theta phase shift during fixation in the hippocampus</title>
+</titles>
+<contributor uname='tsudaken-secretary'>[en]Asuko Hira[/en][ja]平 厚子[/ja](tsudaken-secretary)</contributor>
+<keywords><keyword>A01G1</keyword>
+</keywords>
+<description>国内学会
+oral
+一般</description>
+<doi></doi>
+<last_update_date>2014-05-08T04:52:51Z</last_update_date>
+<creation_date>2014-05-08T04:52:51Z</creation_date>
+<publication_year>2014</publication_year>
+<publication_month>1</publication_month>
+<publication_mday>11</publication_mday>
+<lang>jpn</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8686</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8686" version="1.02">
+<conference_from_year>2014</conference_from_year>
+<conference_from_month>1</conference_from_month>
+<conference_from_mday>11</conference_from_mday>
+<conference_to_year>2014</conference_to_year>
+<conference_to_month>1</conference_to_month>
+<conference_to_mday>12</conference_to_mday>
+<presentation_type>other</presentation_type>
+<conference_title>第30回日本脳電磁図トポグラフィ研究会</conference_title>
+<place>福岡山王ホール(福岡山王病院内)</place>
+<authors><author>西田洋司</author><author>高橋宗良</author><author>山口裕</author><author>津田一郎</author><author>ローレンス・ヨハン</author></authors>
+<abstract></abstract>
+<attachment_dl_limit>0</attachment_dl_limit>
+<attachment_dl_notify>0</attachment_dl_notify>
+</detail>
+</item>

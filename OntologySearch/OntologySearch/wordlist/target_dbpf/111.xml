@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="111">
+<itemtype>xnppaper</itemtype>
+<titles><title>Spatial analysis of spike-timing-dependent LTP and LTD in the CA1 area of hippocampal slices using optical imaging.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-06-18T03:37:35Z</last_update_date>
+<creation_date>2008-06-18T03:37:35Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=111</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="111" version="1.02">
+<authors><author>Tsukada M</author><author>Aihara T</author><author>Kobayashi Y</author><author>Shimazaki H</author></authors>
+<journal>Hippocampus</journal>
+<volume>15</volume>
+<number>1</number>
+<page>104-9</page>
+<abstract>Spike-timing-dependent long-term potentiation (LTP) and long-term depression (LTD) were investigated in the CA1 area of hippocampal slices using optical imaging. A pair of electrical pulses were used to stimulate the Schaffer-commissural collateral and the stratum oriens with various sets of relative timing (tau) between the two stimuli. These sets of paired pulses gave rise to LTP/LTD, whose induction was closely related to tau, and their profiles were classified into two types depending on their layer specific location along the dendrite. One was characterized by a symmetric time window observed in the proximal region of the stratum radiatum (SR) and the other by an asymmetric time window in the distal region of the SR. Bath application of bicuculline (gamma-aminobutyric acid [GABA] receptor antagonist) to hippocampal slices revealed that GABAergic interneuron projections were responsible for the symmetry of a time window.</abstract>
+<pubmed_id>15390160</pubmed_id>
+</detail>
+</item>

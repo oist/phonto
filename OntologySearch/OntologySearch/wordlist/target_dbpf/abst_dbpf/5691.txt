@@ -1,0 +1,37 @@
+Animals
+Cells
+Cultured
+Enzyme Activation
+physiology
+Excitatory Postsynaptic Potentials
+drug effects
+Female
+Hippocampus
+cytology
+drug effects
+enzymology
+Isoenzymes
+drug effects
+genetics
+metabolism
+physiology
+Male
+Mice
+Mice
+Inbred C57BL
+Mice
+Knockout
+genetics
+Phorbol Esters
+pharmacology
+Protein Kinase C
+drug effects
+genetics
+metabolism
+physiology
+Synapses
+drug effects
+enzymology
+Synaptic Transmission
+drug effects
+Ca2+/phospholipid-dependent protein kinase has long been thought to play an important role in modulating synaptic efficacy. It has been shown previously that mice lacking the brain-specific gamma subtype of PKC display abnormal long-term potentiation (LTP), whereas ordinary synaptic transmission is unaffected by the mutation. We now examine the effects of phorbol esters, which are nonselective activators of PKC, on synaptic modulation in these mutant mice. In wild-type mice, phorbol esters produce marked enhancement of synaptic transmission that is largely presynaptic in origin, an effect that has been thought to share mechanisms with LTP. In mutant mice, phorbol ester-mediated potentiation is normal despite the absence of the major PKC isoform. As in wild-type mice, this synaptic enhancement is at least partly attributable to presynaptic changes. Our results demonstrate that the gamma isotype of PKC is not essential for phorbol ester-mediated synaptic facilitation, and place limitations on the possible roles of PKC in LTP.

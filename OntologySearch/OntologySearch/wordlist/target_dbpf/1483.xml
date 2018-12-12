@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1483">
+<itemtype>xnppaper</itemtype>
+<titles><title>Internally generated cell assembly sequences in the rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-10-08T02:58:56Z</last_update_date>
+<creation_date>2008-10-08T02:58:56Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1483</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1483" version="1.02">
+<authors><author>Pastalkova E</author><author>Itskov V</author><author>Amarasingham A</author><author>Buzsáki G</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>321</volume>
+<number>5894</number>
+<page>1322-7</page>
+<abstract>A long-standing conjecture in neuroscience is that aspects of cognition depend on the brain&#039;s ability to self-generate sequential neuronal activity. We found that reliably and continually changing cell assemblies in the rat hippocampus appeared not only during spatial navigation but also in the absence of changing environmental or body-derived inputs. During the delay period of a memory task, each moment in time was characterized by the activity of a particular assembly of neurons. Identical initial conditions triggered a similar assembly sequence, whereas different conditions gave rise to different sequences, thereby predicting behavioral choices, including errors. Such sequences were not formed in control (nonmemory) tasks. We hypothesize that neuronal representations, evolved for encoding distance in spatial navigation, also support episodic recall and the planning of action sequences.</abstract>
+<pubmed_id>18772431</pubmed_id>
+</detail>
+</item>

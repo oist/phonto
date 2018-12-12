@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5464">
+<itemtype>xnppaper</itemtype>
+<titles><title>Place navigation impaired in rats with hippocampal lesions.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Locomotion</keyword>
+<keyword>Rats</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-13T02:42:37Z</last_update_date>
+<creation_date>2011-06-13T02:42:37Z</creation_date>
+<publication_year>1982</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5464</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5464" version="1.02">
+<authors><author>Morris RG</author><author>Garrud P</author><author>Rawlins JN</author><author>O&#039;Keefe J</author></authors>
+<journal>Nature</journal>
+<volume>297</volume>
+<number>5868</number>
+<page>681-3</page>
+<abstract></abstract>
+<pubmed_id>7088155</pubmed_id>
+</detail>
+</item>

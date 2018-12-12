@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7177">
+<itemtype>xnppaper</itemtype>
+<titles><title>Induction mechanisms and modulation of bidirectional burst stimulation-induced synaptic plasticity in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Synaptic Depression</keyword>
+<keyword>physiology</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:36:34Z</last_update_date>
+<creation_date>2013-02-27T07:36:34Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7177</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7177" version="1.02">
+<authors><author>Clark K</author><author>Normann C</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>28</volume>
+<number>2</number>
+<page>279-87</page>
+<abstract>Spike bursting is an important physiological mode of the hippocampus. Whereas the rules of spike timing-dependent synaptic plasticity are well defined for pairs of single action potentials (APs) and excitatory postsynaptic potentials (EPSPs), long-term modification of synaptic responses is much less understood for more complex pre- and postsynaptic spike patterns. We induced a burst stimulation (BS)-associated form of synaptic plasticity in rat CA1 hippocampal slices by repeatedly pairing three EPSPs with a burst of APs induced by postsynaptic current injection. In distinct groups of cells, this induction paradigm resulted in long-term potentiation (LTP), long-term depression (LTD) or no change in synaptic strength. LTP was N-methyl-d-aspartate receptor-dependent, whereas LTD could be blocked by a metabotropic glutamate receptor antagonist or inhibition of Ca(2+) influx through voltage-activated Ca(2+) channels. LTP was predicted by a more depolarized membrane potential and a higher initial AP frequency. LTD was facilitated by a larger time interval between the last EPSP and its preceding AP. We conclude from these findings that associative BS induces a bidirectional form of long-term synaptic plasticity that cannot be fully explained by spike timing rules. Postsynaptic membrane potential and Ca(2+) influx further influence the sign and magnitude of synaptic modification. LTP and LTD have distinct mechanisms and can be selectively modulated. This supports the concept of two independent coincidence detectors for LTP and LTD, and extends the physiological options to modulate synaptic plasticity and maintain a putative balance between potentiation and depression in synaptic networks.</abstract>
+<pubmed_id>18702699</pubmed_id>
+</detail>
+</item>

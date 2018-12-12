@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4776">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neuroanatomical bases of spatial memory.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Amygdala</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Brain</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Caudate Nucleus</keyword>
+<keyword>physiology</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>Rats</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:36:07Z</last_update_date>
+<creation_date>2011-04-28T04:36:07Z</creation_date>
+<publication_year>1980</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4776</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4776" version="1.02">
+<authors><author>Becker JT</author><author>Walker JA</author><author>Olton DS</author></authors>
+<journal>Brain research</journal>
+<volume>200</volume>
+<number>2</number>
+<page>307-20</page>
+<abstract>Although many brain areas have been implicated in spatial memory processes, recent investigations have focused on the hippocampal formation. The present experiment was designed to determine the relative importance of the hippocampal system as compared to the amygdala, the caudate nucleus, or the frontal cortex. Groups of rats were trained to perform on an eight-arm radial maze and then given lesions in one of these brain areas. The post-operative performance of rats with lesions in the fimbria-fornix was never significantly greater than that expected by chance. In contrast, the performance of rats with lesions in the amygdala, the caudate nucleus or the sucal frontal cortex was not significantly different from that of controls. The performance of rats with lesions in the medial frontal cortex was substantially impaired relative to that of the controls during the first few post-operative test sessions, but improved so that by the end of testing the rats were performing as well as were controls. The recovery of function by the rats with lesions in the medial frontal cortex was a function of experience testing on the maze and not simply the passage of time following surgery. Thus, only rats with functional hippocampal systems were able to perform the maze task accurately while thos rats with lesions in the hippocampal system were not.</abstract>
+<pubmed_id>7417818</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6692">
+<itemtype>xnppaper</itemtype>
+<titles><title>Age-related changes in the three-way correlation between anterior hippocampus volume, whole-brain patterns of encoding activity and subsequent context retrieval.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Aged</keyword>
+<keyword>Aged</keyword>
+<keyword>80 and over</keyword>
+<keyword>Aging</keyword>
+<keyword>Brain</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>blood supply</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Face</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Middle Aged</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Oxygen</keyword>
+<keyword>blood</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:20:42Z</last_update_date>
+<creation_date>2013-02-26T07:20:42Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6692</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6692" version="1.02">
+<authors><author>Maillet D</author><author>Rajah MN</author></authors>
+<journal>Brain research</journal>
+<volume>1420</volume>
+<number></number>
+<page>68-79</page>
+<abstract>Age-related declines in memory for context have been linked to volume loss in the hippocampal head (HH) with age. However, it remains unclear how this volumetric decline correlates with age-related changes in whole-brain activity during context encoding, and subsequent context retrieval. In the current study we examine this. We collected functional magnetic resonance imaging data in young and older adults during the encoding of item, spatial context and temporal context. HH volume and subsequent retrieval performance was measured in all participants. In young adults only there was a positive three-way correlation between larger HH volumes, better memory retrieval, and increased activity in right hippocampus, right ventrolateral prefrontal cortex (VLPFC) and midline brain regions during episodic encoding. In contrast, older adults exhibited a positive three-way association between HH volume, generalized activity in bilateral hippocampus and dorsolateral PFC across all encoding tasks, and subsequent spatial context retrieval. Young adults also engaged this network, but only during the most difficult temporal context encoding task and activity in this network correlated with subsequent temporal context retrieval. We conclude that age-related volumetric reductions in HH disrupted the structure-function association between the hippocampus and activity in the first general encoding network recruited by young adults. Instead, older adults recruited those brain regions young adults only engaged for the most difficult temporal task, at lower difficulty levels. This altered pattern of association correlated with spatial context retrieval in older adults, but was not sufficient to maintain context memory abilities overall.</abstract>
+<pubmed_id>21945346</pubmed_id>
+</detail>
+</item>

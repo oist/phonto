@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7181">
+<itemtype>xnppaper</itemtype>
+<titles><title>Coincident activity of converging pathways enables simultaneous long-term potentiation and long-term depression in hippocampal CA1 network in vivo.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Efferent Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Synaptic Depression</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:38:52Z</last_update_date>
+<creation_date>2013-02-27T07:38:52Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7181</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7181" version="1.02">
+<authors><author>Dong Z</author><author>Han H</author><author>Cao J</author><author>Zhang X</author><author>Xu L</author></authors>
+<journal>PloS one</journal>
+<volume>3</volume>
+<number>8</number>
+<page>e2848</page>
+<abstract>Memory is believed to depend on activity-dependent changes in the strength of synapses, e.g. long-term potentiation (LTP) and long-term depression (LTD), which can be determined by the sequence of coincident pre- and postsynaptic activity, respectively. It remains unclear, however, whether and how coincident activity of converging efferent pathways can enable LTP and LTD in the pathways simultaneously. Here, we report that, in pentobarbital-anesthetized rats, stimulation (600 pulses, 5 Hz) to Schaffer preceding to commissural pathway within a 40-ms timing window induced similar magnitudes of LTP in both pathways onto synapses of CA1 neurons, with varied LTP magnitudes after reversal of the stimulation sequence. In contrast, in urethane-anesthetized or freely-moving rats, the stimulation to Schaffer preceding to commissural pathway induced Schaffer LTP and commissural LTD simultaneously within a 40-ms timing window, without affecting synaptic efficacy in the reversed stimulation sequence. Coincident activity of Schaffer pathways confirmed the above findings under pentobarbital and urethane anesthesia. Thus, coincident activity of converging afferent pathways tends to switch the pathways to be LTP only or LTP/LTD depending on the activity states of the hippocampus. This network rule strengthens the view that activity-dependent synaptic plasticity may well contribute to memory process of the hippocampal network with flexibility or stability from one state to another.</abstract>
+<pubmed_id>18682723</pubmed_id>
+</detail>
+</item>

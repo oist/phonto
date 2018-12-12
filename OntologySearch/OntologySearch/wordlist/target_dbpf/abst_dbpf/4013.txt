@@ -1,0 +1,14 @@
+DEIA
+Animals
+Behavior
+Animal
+physiology
+Cell Count
+Cell Physiological Phenomena
+Female
+Hippocampus
+physiology
+Linear Models
+Rats
+Time Factors
+Head direction cells in the rat postsubiculum fire in relation to the momentary directional heading of the animal, with each cell firing only when the animal faces in one particular direction. To understand how this signal might be generated, one useful step is to discover what other cell types, in addition to the head direction cells, may exist in the postsubiculum, since these cells might be involved in helping to generate the direction-specific activity. Here postsubicular cells were recorded as animals navigated in a cylindrical recording chamber. It was found that, in addition to head direction cells, the postsubiculum contains cells that show several other types of spatial/behavioral correlates, including angular velocity of the head, running speed, and location. Ten percent of the cells were classified as angular velocity cells, and they resembled vestibular afferent fibers, with antagonistic responses to clockwise versus counterclockwise turns. In addition, numerous other cell types were observed. These latter cells were harder to classify, but all showed a significant correlation with one or more of the above variables. These findings suggest that the head direction cell signal may be at least partly based on the angular velocity, running speed, and locational signals observed here.

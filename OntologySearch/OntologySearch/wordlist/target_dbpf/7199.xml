@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7199">
+<itemtype>xnppaper</itemtype>
+<titles><title>Activity-dependent depression of local excitatory connections in the CA1 region of mouse hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Dose-Response Relationship</keyword>
+<keyword>Radiation</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>GABA Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Male</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>methods</keyword>
+<keyword>Picrotoxin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Pyridines</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Pyrroles</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Serotonin Receptor Agonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Xanthines</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:50:20Z</last_update_date>
+<creation_date>2013-02-27T07:50:20Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7199</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7199" version="1.02">
+<authors><author>Fink AE</author><author>Sariñana J</author><author>Gray EE</author><author>O&#039;dell TJ</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>97</volume>
+<number>6</number>
+<page>3926-36</page>
+<abstract>The existence of recurrent excitatory synapses between pyramidal cells in the hippocampal CA1 region has been known for some time yet little is known about activity-dependent forms of plasticity at these synapses. Here we demonstrate that under certain experimental conditions, Schaffer collateral/commissural fiber stimulation can elicit robust polysynaptic excitatory postsynaptic potentials due to recurrent synaptic inputs onto CA1 pyramidal cells. In contrast to CA3 pyramidal cell inputs, recurrent synapses onto CA1 pyramidal cells exhibited robust paired-pulse depression and a sustained, but rapidly reversible, depression in response to low-frequency trains of Schaffer collateral fiber stimulation. Blocking GABA(B) receptors abolished paired-pulse depression but had little effect on low-frequency stimulation (LFS)-induced depression. Instead, LFS-induced depression was significantly attenuated by an inhibitor of A1 type adenosine receptors. Blocking the postsynaptic effects of GABA(B) and A1 receptor activation on CA1 pyramidal cell excitability with an inhibitor of G-protein-activated inwardly rectifying potassium channels had no effect on either paired-pulse depression or LFS-induced depression. Thus activation of presynaptic GABA(B) and adenosine receptors appears to have an important role in activity-dependent depression at recurrent synapses. Together, our results indicate that CA3-CA1 and CA1-CA1 synapses exhibit strikingly different forms of short-term synaptic plasticity and suggest that activity-dependent changes in recurrent synaptic transmission can transform the CA1 region from a sparsely connected recurrent network into a predominantly feedforward circuit.</abstract>
+<pubmed_id>17409173</pubmed_id>
+</detail>
+</item>

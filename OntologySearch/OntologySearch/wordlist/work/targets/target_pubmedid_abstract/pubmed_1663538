@@ -1,0 +1,48 @@
+1. J Neurophysiol. 1991 Aug;66(2):635-50.
+
+A model of a CA3 hippocampal pyramidal neuron incorporating voltage-clamp data on
+intrinsic conductances.
+
+Traub RD(1), Wong RK, Miles R, Michelson H.
+
+Author information: 
+(1)IBM Research Division, IBM T. J. Watson Research Center, Yorktown Heights
+10598.
+
+1. We have developed a 19-compartment cable model of a guinea pig CA3 pyramidal
+neuron. Each compartment is allowed to contain six active ionic conductances:
+gNa, gCa, gK(DR) (where DR stands for delayed rectifier), gK(A), gK(AHP), and
+gK(C). THe conductance gCa is of the high-voltage activated type. The model
+kinetics for the first five of these conductances incorporate voltage-clamp data 
+obtained from isolated hippocampal pyramidal neurons. The kinetics of gK(C) are
+based on data from bullfrog sympathetic neurons. The time constant for decay of
+submembrane calcium derives from optical imaging of Ca signals in Purkinje cell
+dendrites. 2. To construct the model from available voltage-clamp data, we first 
+reproduced current-clamp records from a model isolated neuron (soma plus proximal
+dendrites). We next assumed that ionic channel kinetics in the dendrites were the
+same as in the soma. In accord with dendritic recordings and calcium-imaging
+data, we also assumed that significant gCa occurs in dendrites. We then attached 
+sections of basilar and apical dendritic cable. By trial and error, we found a
+distribution (not necessarily unique) of ionic conductance densities that was
+consistent with current-clamp records from the soma and dendrites of whole
+neurons and from isolated apical dendrites. 3. The resulting model reproduces the
+Ca(2+)-dependent spike depolarizing afterpotential (DAP) recorded after a
+stimulus subthreshold for burst elicitation. 4. The model also reproduces the
+behavior of CA3 pyramidal neurons injected with increasing somatic depolarizing
+currents: low-frequency (0.3-1.0 Hz) rhythmic bursting for small currents, with
+burst frequency increasing with current magnitude; then more irregular bursts
+followed by afterhyperpolarizations (AHPs) interspersed with brief bursts without
+AHPs; and finally, rhythmic action potentials without bursts. 5. The model
+predicts the existence of still another firing pattern during tonic depolarizing 
+dendritic stimulation: brief bursts at less than 1 to approximately 12 Hz, a
+pattern not observed during somatic stimulation. These bursts correspond to
+rhythmic dendritic calcium spikes. 6. The model CA3 pyramidal neuron can be made 
+to resemble functionally a CA1 pyramidal neuron by increasing gK(DR) and
+decreasing dendritic gCa and gK(C). Specifically, after these alterations, tonic 
+depolarization of the soma leads to adapting repetitive firing, whereas
+stimulation of the distal dendrites leads to bursting. 7. A critical set of
+parameters concerns the regulation of the pool of intracellular [Ca2+] that
+interacts with membrane channels (gK(C) and gK(AHP)), particularly in the
+dendrites.(ABSTRACT TRUNCATED AT 400 WORDS)
+
+PMID: 1663538  [PubMed - indexed for MEDLINE]

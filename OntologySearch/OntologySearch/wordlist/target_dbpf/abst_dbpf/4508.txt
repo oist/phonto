@@ -1,0 +1,46 @@
+2-Amino-5-phosphonovalerate
+pharmacokinetics
+Animals
+Autoradiography
+Behavior
+Animal
+drug effects
+Chromatography
+High Pressure Liquid
+Excitatory Amino Acid Antagonists
+pharmacokinetics
+Hippocampus
+drug effects
+physiology
+Long-Term Potentiation
+physiology
+Male
+Maze Learning
+drug effects
+physiology
+Memory
+Short-Term
+drug effects
+physiology
+Microinjections
+Psychomotor Performance
+drug effects
+physiology
+Rats
+Rats
+Inbred Strains
+Reaction Time
+drug effects
+physiology
+Receptors
+N-Methyl-D-Aspartate
+antagonists
+&
+inhibitors
+physiology
+Space Perception
+drug effects
+physiology
+Tritium
+diagnostic use
+We investigated the role of NMDA receptors in memory encoding and retrieval. A delayed matching-to-place (DMP) paradigm in the watermaze was used to examine 1-trial spatial memory in rats. Over periods of up to 21 days, 4 daily trials were given to an escape platform hidden in a new location each day, with the memory interval (ITI) varying from 15 sec to 2 hours between trials 1 and 2, but always at 15 sec for the remaining ITIs. Using chronic i.c.v. infusions of D-AP5, acute intrahippocampal infusions, ibotenate hippocampus + dentate lesions and relevant aCSF or sham surgery control groups, we established: (1) the DMP task is hippocampal-dependent; (2) D-AP5 causes a delay-dependent impairment of memory in which the Groups x Delay interaction was significant on two separate measures of performance; (3) this memory impairment also occurs with acute intrahippocampal infusions; (4) the impairment occurs irrespective of whether the animals stay in or are removed from the training context during the memory delay interval; and (5) D-AP5 affects neither the retrieval of information about the spatial layout of the environment, nor memory of where the escape platform had been located on the last day before the start of chronic D-AP5 infusion. LTP in vivo in the dentate gyrus was blocked in the chronically-infused D-AP5 rats and HPLC measurements at sacrifice revealed appropriate intrahippocampal levels. Acute intrahippocampal infusion of radiolabelled D-AP5 revealed relatively restricted diffusion and was used to estimate whole-tissue hippocampal drug concentrations. These results indicate that (1) short-term memory for spatial information is independent of NMDA receptors; (2) the rapid consolidation of spatial information into long-term memory requires activation of hippocampal NMDA receptors; (3) NMDA receptors are not involved in memory retrieval; and (4) the delay-related effects of NMDA receptor antagonists on performance of this task cannot be explained in terms of sensorimotor disturbances. The findings relate to the idea that hippocampal synaptic plasticity is involved in event-memory (Morris and Frey, Phil Trans R Soc Lond B 1997;352:1489-1503) and to a computational model of one-trial DMP performance of Foster et al. (unpublished data).

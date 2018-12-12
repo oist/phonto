@@ -1,0 +1,16 @@
+Animals
+Dentate Gyrus
+cytology
+physiology
+Entorhinal Cortex
+physiology
+Long-Term Potentiation
+physiology
+Mammals
+Memory
+physiology
+Models
+Neurological
+Pyramidal Cells
+physiology
+The very different anatomical designs of the adjacent circuitries of the cortico-hippocampal pathway, along with their somewhat different synaptic plasticity mechanisms, suggest a nearly serial pathway of distinct memory circuits each contributing its own specialized processing operation to overall hippocampal function. Modeling and formal theoretical analysis of the prominent anatomical design features of particular circuits (piriform/entorhinal cortex; hippocampal field CA3; hippocampal field CA1) are found to identify potential emergent function not readily arrived at in the absence of these formal models, and yet which once derived can be seen potentially to confer unique capabilities to an integrated hippocampal mechanism for processing memories during behavior.

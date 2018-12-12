@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3909">
+<itemtype>xnppaper</itemtype>
+<titles><title>The spatiotemporal learning rule and its efficiency in separating spatiotemporal patterns.</title>
+</titles>
+<contributor uname='admin_KWL'>Hiroaki Wagatsuma(admin_KWL)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Humans</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Networks (Computer)</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-09-14T01:51:32Z</last_update_date>
+<creation_date>2010-09-14T01:34:59Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3909</url>
+<changelogs>
+<changelog date='2010-09-14T01:51:32Z'>インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3909" version="1.02">
+<authors><author>Tsukada M</author><author>Pan X</author></authors>
+<journal>Biological cybernetics</journal>
+<volume>92</volume>
+<number>2</number>
+<page>139-46</page>
+<abstract>The hippocampus plays an important role in the course of establishing long-term memory, i.e., to make short-term memory of spatially and temporally associated input information. In 1996 (Tsukada et al. 1996), the spatiotemporal learning rule was proposed based on differences observed in hippocampal long-term potentiation (LTP) induced by various spatiotemporal pattern stimuli. One essential point of this learning rule is that the change of synaptic weight depends on both spatial coincidence and the temporal summation of input pulses. We applied this rule to a single-layered neural network and compared its ability to separate spatiotemporal patterns with that of other rules, including the Hebbian learning rule and its extended rules. The simulated results showed that the spatiotemporal learning rule had the highest efficiency in discriminating spatiotemporal pattern sequences, while the Hebbian learning rule (including its extended rules) was sensitive to differences in spatial patterns.</abstract>
+<pubmed_id>15696314</pubmed_id>
+</detail>
+</item>

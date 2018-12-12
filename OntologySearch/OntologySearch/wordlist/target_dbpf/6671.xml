@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6671">
+<itemtype>xnppaper</itemtype>
+<titles><title>Medial temporal lobe activity during complex discrimination of faces, objects, and scenes: Effects of viewpoint.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Face</keyword>
+<keyword>Female</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:05:58Z</last_update_date>
+<creation_date>2013-02-26T07:05:58Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6671</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6671" version="1.02">
+<authors><author>Barense MD</author><author>Henson RN</author><author>Lee AC</author><author>Graham KS</author></authors>
+<journal>Hippocampus</journal>
+<volume>20</volume>
+<number>3</number>
+<page>389-401</page>
+<abstract>The medial temporal lobe (MTL), a set of heavily interconnected structures including the hippocampus and underlying entorhinal, perirhinal and parahippocampal cortex, is traditionally believed to be part of a unitary system dedicated to declarative memory. Recent studies, however, demonstrated perceptual impairments in amnesic individuals with MTL damage, with hippocampal lesions causing scene discrimination deficits, and perirhinal lesions causing object and face discrimination deficits. The degree of impairment on these tasks was influenced by the need to process complex conjunctions of features: discriminations requiring the integration of multiple visual features caused deficits, whereas discriminations that could be solved on the basis of a single feature did not. Here, we address these issues with functional neuroimaging in healthy participants as they performed a version of the oddity discrimination task used previously in patients. Three different types of stimuli (faces, scenes, novel objects) were presented from either identical or different viewpoints. Consistent with studies in patients, we observed increased perirhinal activity when participants distinguished between faces and objects presented from different, compared to identical, viewpoints. The posterior hippocampus, by contrast, showed an effect of viewpoint for both faces and scenes. These findings provide convergent evidence that the MTL is involved in processes beyond long-term declarative memory and suggest a critical role for these structures in integrating complex features of faces, objects, and scenes into view-invariant, abstract representations.</abstract>
+<pubmed_id>19499575</pubmed_id>
+</detail>
+</item>

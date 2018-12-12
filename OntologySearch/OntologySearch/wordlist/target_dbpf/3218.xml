@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3218">
+<itemtype>xnppaper</itemtype>
+<titles><title>Entrainment of neocortical neurons and gamma oscillations by the hippocampal theta rhythm.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Animals</keyword>
+<keyword>Biological Clocks</keyword>
+<keyword>physiology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Interneurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Mice</keyword>
+<keyword>Neocortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-19T06:05:04Z</last_update_date>
+<creation_date>2010-03-10T08:11:34Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3218</url>
+<changelogs>
+<changelog date='2010-10-19T06:05:04Z'>フリーキーワード を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3218" version="1.02">
+<authors><author>Sirota A</author><author>Montgomery S</author><author>Fujisawa S</author><author>Isomura Y</author><author>Zugaro M</author><author>Buzsáki G</author></authors>
+<journal>Neuron</journal>
+<volume>60</volume>
+<number>4</number>
+<page>683-97</page>
+<abstract>Although it has been tacitly assumed that the hippocampus exerts an influence on neocortical networks, the mechanisms of this process are not well understood. We examined whether and how hippocampal theta oscillations affect neocortical assembly patterns by recording populations of single cells and transient gamma oscillations in multiple cortical regions, including the somatosensory area and prefrontal cortex in behaving rats and mice. Laminar analysis of neocortical gamma bursts revealed multiple gamma oscillators of varying frequency and location, which were spatially confined and synchronized local groups of neurons. A significant fraction of putative pyramidal cells and interneurons as well as localized gamma oscillations in all recorded neocortical areas were phase biased by the hippocampal theta rhythm. We hypothesize that temporal coordination of neocortical gamma oscillators by hippocampal theta is a mechanism by which information contained in spatially widespread neocortical assemblies can be synchronously transferred to the associative networks of the hippocampus.</abstract>
+<pubmed_id>19038224</pubmed_id>
+</detail>
+</item>

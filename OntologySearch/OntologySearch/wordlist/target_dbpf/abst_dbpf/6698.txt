@@ -1,0 +1,22 @@
+Adolescent
+Adult
+Consciousness
+physiology
+Female
+Hippocampus
+physiology
+Humans
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Pattern Recognition
+Visual
+physiology
+Reaction Time
+physiology
+Recognition (Psychology)
+Temporal Lobe
+physiology
+Unconscious (Psychology)
+A central role of the hippocampus is to consolidate conscious forms of learning and memory, while performance on implicit tasks appears to depend upon other structures. Recently, considerable debate has emerged about whether hippocampal-dependent tasks necessarily entail task awareness. In the contextual cueing task, repetition facilitation is implicit, but impaired in patients with amnesia. Whether the hippocampus alone or other MTL structures are required is unclear. Event-related functional magnetic resonance imaging revealed hippocampal activity that differentiates novel from repeated arrays. This pattern of results was observed without recognition of the repeating arrays. This finding provides support for the claim that the hippocampus is involved in processes outside the domain of conscious learning and memory.

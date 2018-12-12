@@ -1,0 +1,34 @@
+Animals
+Antimetabolites
+pharmacology
+Bromodeoxyuridine
+pharmacology
+Dentate Gyrus
+cytology
+drug effects
+growth
+&
+development
+Female
+Gene Expression Regulation
+Developmental
+Gene Expression Regulation
+Enzymologic
+Glutamate Decarboxylase
+analysis
+genetics
+In Situ Hybridization
+Neurons
+chemistry
+cytology
+enzymology
+Pregnancy
+RNA
+Messenger
+analysis
+Rats
+Rats
+Sprague-Dawley
+gamma-Aminobutyric Acid
+analysis
+In recent studies, we demonstrated a distinct change in the distribution of glutamate decarboxylase 67 (GAD67) mRNA-containing neurons within the rat dentate gyrus from embryonic day 20 (E20) to postnatal day 15 (PN15) (Dupuy and Houser, J Comp Neurol 1997;389:402-418). We also observed a similar changing pattern for cells with birthdates of many of the mature GAD-containing neurons in the dentate gyrus (Dupuy and Houser, J Comp Neurol 1997;389:402-418). These observations suggested that some early-appearing GABA neurons within the developing molecular layer of the dentate gyrus may gradually alter their positions to become the mature GABAergic cells along the inner border of the granule cell layer. The goal of the present study was to provide additional evidence for our hypothesis by demonstrating the spatial relationships between GAD-containing neurons and granule cells at progressively older ages during development. In this study, immunohistochemical or in situ hybridization methods for the localization of GAD67 or its mRNA were combined with bromodeoxyuridine birthdating techniques that labeled early-generated granule cells with birthdates on E17. At E20, GAD67-containing neurons were located above the granule cell layer that contained E17 birthdated granule cells. During the first two postnatal weeks, both GAD67 mRNA-containing neurons and early-born granule cells were primarily concentrated within the granule cell layer. Double-labeled neurons were rarely observed, and this suggests that these two groups are separate populations. By PN15-PN30, most GAD67 mRNA-containing neurons were distributed along the base of the granule cell layer, significantly below the E17 birthdated granule cells. These findings support our new hypothesis that mature GABA neurons along the inner border of the granule cell layer reach their positions by migrating or translocating through the developing granule cell layer.

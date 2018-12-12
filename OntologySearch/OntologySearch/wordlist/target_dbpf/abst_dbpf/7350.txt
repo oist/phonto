@@ -1,0 +1,57 @@
+Animals
+Antigens
+metabolism
+Antigens
+CD11b
+metabolism
+Axons
+physiology
+ultrastructure
+Axotomy
+methods
+Female
+Hippocampus
+injuries
+metabolism
+pathology
+ultrastructure
+Male
+Mice
+Mice
+Inbred C57BL
+Mice
+Transgenic
+Microscopy
+Electron
+Transmission
+methods
+Myelin Basic Protein
+genetics
+Myelin Sheath
+metabolism
+ultrastructure
+Nerve Fibers
+Myelinated
+metabolism
+ultrastructure
+Nerve Regeneration
+genetics
+Neuronal Plasticity
+genetics
+physiology
+Oligodendroglia
+metabolism
+ultrastructure
+Perforant Pathway
+injuries
+metabolism
+Proteoglycans
+metabolism
+Silver Staining
+methods
+Statistics
+Nonparametric
+beta-Galactosidase
+genetics
+metabolism
+Axons are linked to induction of myelination during development and to the maintenance of myelin and myelinated tracts in the adult CNS. Currently, it is unknown whether and how axonal plasticity in adult CNS impacts the myelinating cells and their precursors. In this article, we report that newly formed axonal sprouts are able to induce a protracted myelination response in adult CNS. We show that newly formed axonal sprouts, induced by lesion of the entorhino-hippocampal perforant pathway, have the ability to induce a myelination response in stratum radiatum and lucidum CA3. The lesion resulted in significant recruitment of newly formed myelinating cells, documented by incorporation of the proliferation marker bromodeoxyuridine into chondroitin sulphate NG2 expressing cells in stratum radiatum and lucidum CA3 early after lesion, and the occurrence of a 28% increase in the number of oligodendrocytes, of which some had incorporated bromodeoxyuridine, 9 weeks post-lesion. Additionally, a marked increase (41%) in myelinated fibres was detected in silver stained sections. Interestingly, these apparently new fibres achieved the same axon diameter as unlesioned mice but myelin thickness remained thinner than normal, suggesting that the sprouting axons in stratum radiatum and lucidum CA3 were not fully myelinated 9 weeks after lesion. Our combined results show that sprouting axons provide a strong stimulus to oligodendrocyte lineage cells to engage actively in the myelination processes in the adult CNS.

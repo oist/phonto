@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7480">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal theta activity and facilitated locomotor stepping produced by GABA injections in the midbrain raphe region.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Hindlimb</keyword>
+<keyword>innervation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>Locomotion</keyword>
+<keyword>drug effects</keyword>
+<keyword>Male</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>drug effects</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>Raphe Nuclei</keyword>
+<keyword>drug effects</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>drug effects</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description>Hippocampus Theta Oscillation Activity
+Kyutech　Wagatsuma Lab (Bookshelf Archive)</description>
+<doi></doi>
+<last_update_date>2013-03-27T08:21:30Z</last_update_date>
+<creation_date>2013-03-27T08:21:30Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7480</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7480" version="1.02">
+<authors><author>Sinnamon HM</author><author>Jassen AK</author><author>Ilch C</author></authors>
+<journal>Behavioural brain research</journal>
+<volume>107</volume>
+<number>1</number>
+<page>93-103</page>
+<abstract>Inactivation of neurons in the midbrain raphe region produces increases in locomotor activity, and it appears that they function to suppress locomotion. Inactivation of neurons there also produces hippocampal slow wave (theta) activity and it appears that they also function to inhibit rhythmic activity in the hippocampus. We determined whether the degree of association between the two effects was consistent with the operation of a single mechanism. Stimulation electrodes were implanted into locomotor sites of the hypothalamus of 34 urethane-anesthetized rats. Hindlimb stepping was elicited by 5.12-s trains of perifornical electrical stimulation presented once per minute. Hippocampal theta activity was recorded across the CA1 layer of the dorsal hippocampus. GABA injections were used to locate raphe sites at which neuronal inactivation influenced stepping and hippocampal activity. A glass pipette (80-microm tip) was inserted into the midbrain, and injections of GABA (50-100 mg/0.1-0.2 microl) were made in 70 sites in the midbrain. Injections at 34 sites facilitated stimulation-elicited stepping, and at 17 sites, they also produced intertrial stepping. Facilitating injections, but not ineffective or suppressive injections, increased the mean peak frequency of hippocampal activity, and increased power in the 4-5 Hz band during the period that preceded the stimulation trains, but did not change the 5-6 Hz activity produced during the stimulation trains. Priming locomotor stimulation which also facilitated stepping produced generally similar increases in pre-stimulation peak frequency and 4-Hz power. The magnitudes of the increases in stepping and 4-Hz power were uncorrelated. The increase in 4-Hz power appeared earlier than the increase in stepping in 18 of 34 cases, and later in 11 cases; no increases in 4-Hz power were apparent in five cases. The results indicate that pre-locomotor 4-Hz hippocampal activity in the urethane-anesthetized rat is loosely coupled with facilitated locomotor initiation. Neurons in the midbrain raphe region appear to suppress both processes, but the low degree of association between the magnitudes and onset times of increases in stepping and hippocampal 4-Hz power indicate the operation of multiple mechanisms.</abstract>
+<pubmed_id>10628733</pubmed_id>
+</detail>
+</item>

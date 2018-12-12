@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4511">
+<itemtype>xnppaper</itemtype>
+<titles><title>Comparison of the timing of hippocampal and subicular spatial signals: implications for path integration.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Locomotion</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T05:05:04Z</last_update_date>
+<creation_date>2011-01-28T05:05:04Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4511</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4511" version="1.02">
+<authors><author>Sharp PE</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>2</number>
+<page>158-72</page>
+<abstract>Cells in several portions of the hippocampal formation show location-related firing, so that the momentary rate of each cell signals the spatial location of a freely moving rat. Insight into how these signals are generated, and how they travel around the hippocampal circuitry, can be gained by examination of the exact timing of the locational signal. Here, this was investigated for both hippocampal and subicular cells. For this, several aspects of the spatial firing pattern of each cell were examined over a series of time shifts, in which spikes were paired with locations occupied by the animal in either the immediate past, present, or future. Results showed that subicular cells appear to anticipate future locations by approximately 50 to 70 msec, on average. In contrast, hippocampal cells were best correlated with positions about 30 to 40 msec in the future. However, this timing, for hippocampal cells only, was related to the average session running speed, so that the cells were correlated with future locations at slow speeds, but lagged behind (were correlated with past locations) at high speeds. These data support the idea that both subicular and hippocampal cells use a path integration mechanism to generate their spatial signal (since both can anticipate future location). For the hippocampal cells the mechanism does not, apparently, take into account speed information, however. Also, the data suggest that the subicular signal cannot be the result of simple transmission of spatial information from the hippocampus to the subiculum, since this would predict that the subicular signal should correlate with later positions than the hippocampal signal.</abstract>
+<pubmed_id>10226776</pubmed_id>
+</detail>
+</item>

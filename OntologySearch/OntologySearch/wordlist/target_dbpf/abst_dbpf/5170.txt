@@ -1,0 +1,35 @@
+Animals
+Animals
+Newborn
+Brain
+embryology
+growth
+&
+development
+metabolism
+Cells
+Cultured
+Female
+Hippocampus
+embryology
+growth
+&
+development
+metabolism
+Kainic Acid
+Male
+Neurons
+metabolism
+Phosphorylation
+Rats
+Rats
+Wistar
+Seizures
+chemically induced
+metabolism
+Serine
+metabolism
+Synaptosomal-Associated Protein 25
+biosynthesis
+metabolism
+Synaptosomal-associated protein of 25kDa (SNAP-25), a member of the SNARE proteins essential for neurotransmitter release, is phosphorylated at Ser(187) in PC12 cells and in the rat brain in a protein kinase C-dependent manner. It remains unclear how the phosphorylation of SNAP-25 is regulated during development and by neuronal activity. We studied the mode of SNAP-25 phosphorylation at Ser(187) in the rat brain using an anti-phosphorylated SNAP-25 antibody. Both the expression and phosphorylation of SNAP-25 increased remarkably during the early postnatal period, but their onsets were quite different. SNAP-25 expression was detected as early as embryonic Day 18, whereas the phosphorylation of SNAP-25 could not be detected until postnatal Day 4. A delay in the onset of phosphorylation was also observed in cultured rat hippocampal neurons. The phosphorylation of SNAP-25 was regulated in a neuronal activity-dependent manner and, in the rat hippocampus, decreased by introducing seizures with kainic acid. These results clearly indicated that the phosphorylation of SNAP-25 at Ser(187) is regulated in development- and neuronal activity-dependent manners, and is likely to play important roles in higher brain functions.

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="804">
+<itemtype>xnppaper</itemtype>
+<titles><title>Temporal contiguity requirements for long-term associative potentiation/depression in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-11T03:20:13Z</last_update_date>
+<creation_date>2008-07-11T03:20:13Z</creation_date>
+<publication_year>1983</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=804</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="804" version="1.02">
+<authors><author>Levy WB</author><author>Steward O</author></authors>
+<journal>Neuroscience</journal>
+<volume>8</volume>
+<number>4</number>
+<page>791-7</page>
+<abstract></abstract>
+<pubmed_id> 6306504 </pubmed_id>
+</detail>
+</item>

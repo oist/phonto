@@ -1,0 +1,21 @@
+Action Potentials
+physiology
+Animals
+Hippocampus
+physiology
+Male
+Neurons
+physiology
+Orientation
+physiology
+Prefrontal Cortex
+physiology
+Rats
+Rats
+Long-Evans
+Space Perception
+physiology
+Synaptic Transmission
+physiology
+Theta Rhythm
+Theta phase-locking and phase precession are two related phenomena reflecting coordination of hippocampal place cell firing with the local, ongoing theta rhythm. The mechanisms and functions of both the phenomena remain unclear, though the robust correlation between firing phase and location of the animal has lead to the suggestion that this phase relationship constitutes a temporal code for spatial information. Recent work has described theta phase-locking in the rat medial prefrontal cortex (mPFC), a structure with direct anatomical and functional links to the hippocampus. Here, we describe an initial characterization of phase precession in the mPFC relative to the CA1 theta rhythm. mPFC phase precession was most robust during behavioral epochs known to be associated with enhanced theta-frequency coordination of CA1 and mPFC activities. Precession was coherent across the mPFC population, with multiple neurons precessing in parallel as a function of location of the animal. The existence of phase precession beyond the hippocampus implies a more global role for this phenomenon during theta rhythm-mediated coordination of neural activity.

@@ -1,0 +1,26 @@
+Afferent Pathways
+physiology
+Animals
+Electrophysiology
+Fluvoxamine
+pharmacology
+Hippocampus
+drug effects
+physiology
+Long-Term Potentiation
+drug effects
+Male
+Neuronal Plasticity
+drug effects
+Prefrontal Cortex
+drug effects
+physiology
+Rats
+Rats
+Wistar
+Serotonin Uptake Inhibitors
+pharmacology
+Synaptic Transmission
+drug effects
+Time Factors
+The present studies were conducted to examine the effects of single and repeated treatments with fluvoxamine, which is a selective serotonin reuptake inhibitor (SSRI), on the synaptic efficacy and synaptic plasticity in the rat hippocampo-medial prefrontal cortex (mPFC) pathway in vivo. It has been reported that the projections arising from the hippocampal structures to the mPFC are involved in the execution of higher cognitive functions in rats. The evoked potentials were recorded in the mPFC by stimulation of the CA1/subicular region of the ventral hippocampus in halothane-anesthetized rats. Single administration of fluvoxamine (10 and 30 mg/kg, i.p.) enhanced synaptic efficacy in the hippocampo-mPFC pathway in a dose-dependent manner. Although repeated treatments with fluvoxamine (30 mg/kg, i.p. after 30 mg/kg/dayx21 days, p.o.) caused an enhancement of synaptic efficacy, there was no significant difference between single and repeated treatments. The input/output characteristics showed hypersensitivity to stimulation intensity in the group with repeated fluvoxamine treatments. The establishment of long-term potentiation (LTP) in the hippocampo-mPFC pathway after a single administration of fluvoxamine was not different from that in the saline-injected group. On the other hand, the hippocampo-mPFC LTP was significantly augmented by repeated treatments with fluvoxamine when compared to a single treatment. These findings suggest that the serotonergic system could modulate the synaptic plasticity at hippocampal-mPFC synapses. The present study, furthermore, suggests that the enhancement of LTP in the hippocampo-mPFC pathway produced by repeated treatments with fluvoxamine may be implicated in the SSRI-induced therapeutic effect on psychiatric disorders.

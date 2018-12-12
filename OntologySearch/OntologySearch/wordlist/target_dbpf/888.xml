@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="888">
+<itemtype>xnppaper</itemtype>
+<titles><title>Replay of neuronal firing sequences in rat hippocampus during sleep following spatial experience.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-16T03:31:16Z</last_update_date>
+<creation_date>2008-07-16T03:31:16Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=888</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="888" version="1.02">
+<authors><author>Skaggs WE</author><author>McNaughton BL</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>271</volume>
+<number>5257</number>
+<page>1870-3</page>
+<abstract>The correlated activity of rat hippocampal pyramidal cells during sleep reflects the activity of those cells during earlier spatial exploration. Now the patterns of activity during sleep have also been found to reflect the order in which the cells fired during spatial exploration. This relation was reliably stronger for sleep after the behavioral session than before it; thus, the activity during sleep reflects changes produced by experience. This memory for temporal order of neuronal firing could be produced by an interaction between the temporal integration properties of long-term potentiation and the phase shifting of spike activity with respect to the hippocampal theta rhythm.</abstract>
+<pubmed_id>8596957 </pubmed_id>
+</detail>
+</item>

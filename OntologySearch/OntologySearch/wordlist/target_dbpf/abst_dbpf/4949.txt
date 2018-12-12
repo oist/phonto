@@ -1,0 +1,18 @@
+Action Potentials
+Animals
+Behavior
+Animal
+physiology
+Electrophysiology
+Environment
+Hippocampus
+cytology
+physiology
+Locomotion
+physiology
+Neurons
+physiology
+Rats
+Space Perception
+physiology
+Previous studies have shown that complex-spike cells, the most common cell type recorded in the hippocampus of freely moving rats, have the property of spatial firing--that is, a cell will fire rapidly only when the animal is in a particular part of its environment (O'Keefe and Dostrovsky, 1971). In the current study, we analyze the spatial firing of theta cells, the second major class of cells in the hippocampus, which are thought to correspond to nonpyramidal neurons (Fox and Ranck, 1975, 1981). Our purposes were to extend findings from earlier spatial analyses (McNaughton et al., 1983; Christian and Deadwyler, 1986), and to determine whether the spatial firing is cell specific and independent of behavior. Theta cells were recorded from rats in a cylindrical enclosure using techniques previously used for the analysis of spatial firing in complex-spike cells (Muller et al., 1987). The spatial firing patterns of individual neurons appeared as a complex surface with several regions of high and low firing. The ratio of firing from high- to low-rate regions averaged 2.5. These spatial firing patterns were smooth and reproducible, but less so than for complex-spike cells. When a cue card on the wall was moved, theta cell firing patterns remained in register with the cue. Two analyses were performed to determine whether spatial firing patterns were secondary to spatial distributions of behavior. When only locomotor data segments were selected, spatial variations were more clear-cut. In an attempt to test whether theta cells had cell-specific patterns of firing, pairs of theta cells were recorded simultaneously. On all occasions, the firing distribution for each of the cells in a pair was clearly distinctive. These findings support the conclusions that theta cell activity contains a spatial signal that is cell specific and not secondary to other firing correlates.

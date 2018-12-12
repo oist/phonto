@@ -1,0 +1,6 @@
+Spatio-temporal learning rule
+Cooperative plasticity
+Hebb learning rule
+Dendritic-soma interaction
+Hippocampus.
+The spatio-temporal learning rule (STLR), proposed as a non-Hebb type by Tsukada et al. (1996 [1], 2005 [2]), consists of two distinctive factors; “cooperative plasticity without a postsynaptic spike,” and its temporal summa-ion. On the other hand, Hebb (1949 [3]) proposed the idea (HEBB) that synaptic modification is strengthened only if the pre- and post-synaptic elements are activated simultaneously. We have shown, experimentally, that both STLR and HEBB coexist in single pyramidal cells of the hippocampal CA1 area. 

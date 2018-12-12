@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7220">
+<itemtype>xnppaper</itemtype>
+<titles><title>Synergistic action of GABA-A and NMDA receptors in the induction of long-term depression in glutamatergic synapses in the newborn rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Age Factors</keyword>
+<keyword>Animals</keyword>
+<keyword>Animals</keyword>
+<keyword>Newborn</keyword>
+<keyword>Dose-Response Relationship</keyword>
+<keyword>Radiation</keyword>
+<keyword>Drug Synergism</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Excitatory Amino Acid Agonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Amino Acid Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>radiation effects</keyword>
+<keyword>GABA Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Glutamic Acid</keyword>
+<keyword>metabolism</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Synaptic Depression</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>methods</keyword>
+<keyword>Picrotoxin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Receptors</keyword>
+<keyword>GABA-A</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:13:05Z</last_update_date>
+<creation_date>2013-02-28T01:13:05Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7220</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7220" version="1.02">
+<authors><author>Pavlov I</author><author>Riekki R</author><author>Taira T</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>20</volume>
+<number>11</number>
+<page>3019-26</page>
+<abstract>We show that activation of GABA(A) receptors (GABA(A)Rs) promotes induction of N-methyl-D-aspartate (NMDA) receptor (NMDAR)-dependent long-term depression (LTD) of glutamatergic synapses in the newborn rat hippocampal area CA1 in a developmentally restricted manner. In the newborn rat hippocampus two mechanistically different types of LTD of glutamatergic synapses could be induced under similar experimental conditions. The form of the LTD induced depended on the stimulation protocol and on the age of the animal. Low-frequency stimulation (1 Hz) with 100 stimuli induced a robust homosynaptic, reversible LTD at postnatal days 2-8 (P2-P8) but not at P14. This LTD was blocked by the NMDAR antagonist AP5 or by the GABA(A)R antagonist picrotoxin. Use of a low-chloride solution in the patch pipette resulting in E(GABA-A)&lt;-70 mV blocked the NMDAR-dependent LTD, whereas clamping the cell to -40 mV during induction rescued it. In addition, it was possible to induce LTD at P14 with 100 stimuli if the cells were clamped to -40 mV during induction. Low-frequency stimulation with 900 stimuli induced a robust homosynaptic, reversible LTD both at P2-P8 and at P14. However, neither AP5 nor picrotoxin affected the LTD induced by 900 pulses at P2-P8. Instead, the 900 stimuli-induced LTD was blocked by the metabotropic glutamate receptor antagonists when co-applied with AP5. We suggest that during the first postnatal week postsynaptic depolarization provided by the activation of GABA(A)Rs shifts the threshold for the LTD induction, making the synapses more prone to activity-induced plasticity. From the second postnatal week onwards, when the GABA(A) responses are already hyperpolarizing, different mechanisms for LTD induction prevail.</abstract>
+<pubmed_id>15579156</pubmed_id>
+</detail>
+</item>

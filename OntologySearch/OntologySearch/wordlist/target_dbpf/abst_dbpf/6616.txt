@@ -1,0 +1,22 @@
+Adult
+Entorhinal Cortex
+physiology
+Face
+Female
+Hippocampus
+physiology
+Humans
+Image Processing
+Computer-Assisted
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Recognition (Psychology)
+physiology
+Sex Characteristics
+Temporal Lobe
+physiology
+Visual Perception
+physiology
+The current event-related fMRI study examined the relative involvement of different parts of the medial temporal lobe (MTL), particularly the contribution of hippocampus and perirhinal cortex, in either intentional or incidental recognition of famous faces in contrast to unfamiliar faces. Our intention was to further explore the controversial contribution of MTL in the processing of semantic memory tasks. Subjects viewed a sequence of famous and unfamiliar faces. Two tasks were used encouraging attention to either fame or gender. In the fame task, the subjects were requested to identify the person when seeing his/her face and also to try to generate the name of this person. In the gender task, the subjects were asked to conduct a judgement of a person's gender when seeing his/her face. The visual processing was hence directed to gender and thereby expected to diminish attention to semantic information leading only to a"passive"registration of famous and non-familiar faces. Recognition of famous faces, in both contrasts, produced significant activations in the MTL. First, during the intentional recognition (the person identification task) increased activity was observed in the anterolateral part of left hippocampus, in proximity to amygdala. Second, during the incidental recognition of famous faces (the gender classification task), there was increased activity in the left posterior MTL with focus in the perirhinal cortex. Our results suggest that the hippocampus may be centrally involved in the intentional retrieval of semantic memories while the perirhinal cortex is associated with the incidental recognition of semantic information.

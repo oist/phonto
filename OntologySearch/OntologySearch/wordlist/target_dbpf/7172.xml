@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7172">
+<itemtype>xnppaper</itemtype>
+<titles><title>Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>6-Cyano-7-nitroquinoxaline-2</keyword>
+<keyword>3-dione</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Action Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Bicuculline</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Calcium Channels</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>Embryo</keyword>
+<keyword>Mammalian</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Glutamic Acid</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Nimodipine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:33:46Z</last_update_date>
+<creation_date>2013-02-27T07:33:46Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7172</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7172" version="1.02">
+<authors><author>Bi GQ</author><author>Poo MM</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>18</volume>
+<number>24</number>
+<page>10464-72</page>
+<abstract>In cultures of dissociated rat hippocampal neurons, persistent potentiation and depression of glutamatergic synapses were induced by correlated spiking of presynaptic and postsynaptic neurons. The relative timing between the presynaptic and postsynaptic spiking determined the direction and the extent of synaptic changes. Repetitive postsynaptic spiking within a time window of 20 msec after presynaptic activation resulted in long-term potentiation (LTP), whereas postsynaptic spiking within a window of 20 msec before the repetitive presynaptic activation led to long-term depression (LTD). Significant LTP occurred only at synapses with relatively low initial strength, whereas the extent of LTD did not show obvious dependence on the initial synaptic strength. Both LTP and LTD depended on the activation of NMDA receptors and were absent in cases in which the postsynaptic neurons were GABAergic in nature. Blockade of L-type calcium channels with nimodipine abolished the induction of LTD and reduced the extent of LTP. These results underscore the importance of precise spike timing, synaptic strength, and postsynaptic cell type in the activity-induced modification of central synapses and suggest that Hebb&#039;s rule may need to incorporate a quantitative consideration of spike timing that reflects the narrow and asymmetric window for the induction of synaptic modification.</abstract>
+<pubmed_id>9852584</pubmed_id>
+</detail>
+</item>

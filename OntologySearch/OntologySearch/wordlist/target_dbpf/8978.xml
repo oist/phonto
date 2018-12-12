@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8978">
+<itemtype>xnppaper</itemtype>
+<titles><title>Role of the basolateral amygdala in memory consolidation.</title>
+</titles>
+<contributor uname='admin_KWL2'>Hiroaki Wagatsuma(admin_KWL2)</contributor>
+<keywords><keyword>Adrenal Cortex Hormones</keyword>
+<keyword>physiology</keyword>
+<keyword>Amygdala</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Arousal</keyword>
+<keyword>physiology</keyword>
+<keyword>Emotions</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurotransmitter Agents</keyword>
+<keyword>physiology</keyword>
+<keyword>Time</keyword>
+</keywords>
+<description>Wagatsuma Lab, FY2015, saito</description>
+<doi></doi>
+<last_update_date>2015-03-27T10:38:06Z</last_update_date>
+<creation_date>2015-03-27T10:38:06Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8978</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8978" version="1.02">
+<authors><author>Paré D</author></authors>
+<journal>Progress in neurobiology</journal>
+<volume>70</volume>
+<number>5</number>
+<page>409-20</page>
+<abstract>Typically, emotionally charged events are better remembered than neutral ones. This paper reviews data indicating that the amygdala is responsible for this facilitation of memory by emotional arousal. Pharmacological and behavioral studies have shown that the release of adrenal stress hormones facilitates memory consolidation. The available evidence suggests that this effect depends on a central action of stress hormones involving the release of the neuromodulators noradrenaline (NA) and acetylcholine in the basolateral complex of the amygdala (BLA). Indeed, BLA lesions block the memory modulating effects of stress hormones. Moreover, microdialysis studies have revealed that BLA concentrations of NA and acetylcholine are transiently (2h) elevated following emotionally arousing learning episodes. Last, post-learning intra-BLA injections of beta-adrenergic or muscarinic receptor antagonists reduce retention. These results have led to the hypothesis that NA and acetylcholine increase the activity of BLA neurons in the hours after the learning episode. In turn, the BLA would facilitate synaptic plasticity in other brain structures, believed to constitute the storage sites for different types of memory. Consistent with this, post-learning treatments that reduce or enhance the excitability of BLA neurons respectively decrease or improve long-term retention on various emotionally charged learning tasks. However, a number of issues remain unresolved. Chief among them is how the BLA facilitates synaptic plasticity elsewhere in the brain. The present review concludes with a consideration of this issue based on recent advances in our understanding of the BLA. Among other possibilities, it is suggested that rhythmic BLA activity at the theta frequency during arousal as well as the uniform conduction times of BLA axons to distributed rhinal sites may promote plasticity in co-active structures of the temporal lobe.</abstract>
+<pubmed_id>14511699</pubmed_id>
+</detail>
+</item>

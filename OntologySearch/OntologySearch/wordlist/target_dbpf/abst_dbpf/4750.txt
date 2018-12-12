@@ -1,0 +1,28 @@
+Adaptation
+Physiological
+Animals
+Behavior
+Animal
+physiology
+Differential Threshold
+Electroencephalography
+Electrophysiology
+Environment
+Evoked Potentials
+Exploratory Behavior
+physiology
+Hippocampus
+physiology
+Male
+Motor Activity
+physiology
+Neurotransmitter Agents
+metabolism
+Rats
+Rats
+Inbred F344
+Sensation
+physiology
+Synapses
+physiology
+Sharp et al. (1986, 1989) described several alterations in hippocampal responses to perforant path stimulation which accompany exploratory activity. Animals transferred from one environment to another exhibited substantial increases in population EPSPs, and large decreases in both the amplitude and the peak latency of population spikes. These changes are unlike the "gating" effects of behavioral state reported by Winson and Abzug (1977, 1978) in that they considerably outlast the behaviors that produce them and (as shown here) can be dissociated from the EEG state of the hippocampus. In this report we describe several new observations that aid in the interpretation of the possible mechanisms and functional significance of these effects. Transportation of animals from their home environment to a different location was accompanied by: (1) an increase in the incidence of exploratory behavior, and EEG theta rhythm, (2) a substantial, reliable, and persistent (more than 15 min) elevation in the size of the evoked field EPSP recorded at the site of synaptic activation in the stratum moleculare and in the stratum granulosum/hilus, and (3) a reduction in the evoked population spike, and (paradoxically) in the latencies to spike onset and peak. There were no associated changes in the spike threshold (defined as the magnitude of the field EPSP at spike onset), the amplitude of the presynaptic fiber volley, or the fractional change in the second synaptic response during paired-pulse stimulation (suggesting the absence of a change in fractional transmitter release). Neither the motor component of exploratory behaviors nor the hippocampal theta rhythm itself was sufficient to account for the changes in the synaptic and spike components of the response. Thus, the changes may depend on reorientation of the animal's sensorium during exploration, rather than on movement per se or the associated hippocampal theta rhythm. The results of these experiments suggest that exploration-related EPSP growth is due neither to granule cell hyperpolarization nor to changes in the distribution of current sources and sinks on granule cells. Rather, the data suggest that exploratory behavior is accompanied by a substantial increase in evoked synaptic efficacy in granule cells, an increase that long outlasts the behavior that produces it. A possible role for these alterations in information processing and memory is discussed.

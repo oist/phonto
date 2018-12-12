@@ -1,0 +1,25 @@
+Animals
+Conditioning
+Eyelid
+drug effects
+Electroencephalography
+Evoked Potentials
+drug effects
+Female
+Hippocampus
+drug effects
+Male
+N-Methylscopolamine
+Parasympatholytics
+pharmacology
+Rabbits
+Receptors
+Cholinergic
+drug effects
+Scopolamine
+pharmacology
+Scopolamine Derivatives
+pharmacology
+Septum Pellucidum
+drug effects
+Sixteen New Zealand White rabbits were implanted with multiple-unit recording electrodes in the hippocampus and lateral septum. Animals received either scopolamine hydrobromide (HBr) or scopolamine methylbromide (MBr, 1.5 mg/kg sc) prior to nictitating membrane conditioning. Slow wave analysis indicated that HBr reduced 5- to 8-Hz and increased 9- to 12-Hz hippocampal activity and increased 1- to 4-Hz activity in both hippocampus and lateral septum. Integrated unit activity from the HBr group showed suppression of responses in septum and hippocampus during learning, whereas the MBr group developed conditioned responses in both structures. Behavioral findings indicated that HBr took longer to reach criterion (M = 329.5 +/- 45.3) than MBr (M = 120.2 +/- 16.0). This experiment showed that centrally active anticholinergic drugs alter the patterns of neuronal activity in the septo-hippocampal region that predict and accompany normal learning. Such drugs delay behavioral acquisition as well, a result suggesting a modulatory role for this brain system in the acquisition phase of classical conditioning.

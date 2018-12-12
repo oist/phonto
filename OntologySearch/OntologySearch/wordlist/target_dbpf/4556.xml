@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4556">
+<itemtype>xnppaper</itemtype>
+<titles><title>Memory for places learned long ago is intact after hippocampal damage.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Aged</keyword>
+<keyword>Amnesia</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Humans</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:25:51Z</last_update_date>
+<creation_date>2011-02-01T04:30:28Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4556</url>
+<changelogs>
+<changelog date='2013-03-28T02:25:51Z'>Modified; Item Description.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4556" version="1.02">
+<authors><author>Teng E</author><author>Squire LR</author></authors>
+<journal>Nature</journal>
+<volume>400</volume>
+<number>6745</number>
+<page>675-7</page>
+<abstract>The hippocampus is part of a system of structures in the medial temporal lobe that are essential for memory. One influential view of hippocampal function emphasizes its role in the acquisition and retrieval of spatial knowledge. By this view, the hippocampus constructs and stores spatial maps and is therefore essential for learning and remembering places, including those learned about long ago. We tested a profoundly amnesic patient (E.P.), who has virtually complete bilateral damage to the hippocampus and extensive damage to adjacent structures in the medial temporal lobe. We asked him to recall the spatial layout of the region where he grew up, from which he moved away more than 50 years ago. E.P. performed as well as or better than age-matched control subjects who grew up in the same region and also moved away. In contrast, E.P. has no knowledge of his current neighbourhood, to which he moved after he became amnesic. Our results show that the medial temporal lobe is not the permanent repository of spatial maps, and support the view that the hippocampus and other structures in the medial temporal lobe are essential for the formation of long-term declarative memories, both spatial and non-spatial, but not for the retrieval of very remote memories, either spatial or non-spatial.</abstract>
+<pubmed_id>10458163</pubmed_id>
+</detail>
+</item>

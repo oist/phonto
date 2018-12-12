@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6647">
+<itemtype>xnppaper</itemtype>
+<titles><title>Going their separate ways: dissociation of hippocampal and dorsolateral prefrontal activation during episodic retrieval and post-retrieval processing.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cognition</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Judgment</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:41:07Z</last_update_date>
+<creation_date>2013-02-26T06:41:07Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6647</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6647" version="1.02">
+<authors><author>Israel SL</author><author>Seibert TM</author><author>Black ML</author><author>Brewer JB</author></authors>
+<journal>Journal of cognitive neuroscience</journal>
+<volume>22</volume>
+<number>3</number>
+<page>513-25</page>
+<abstract>Hippocampal activity is modulated during episodic memory retrieval. Most consistently, a relative increase in activity during confident retrieval is observed. Dorsolateral prefrontal cortex (DLPFC) is also activated during retrieval, but may be more generally activated during cognitive-control processes. The&quot;default network,&quot;regions activated during rest or internally focused tasks, includes the hippocampus, but not DLPFC. Therefore, DLPFC and the hippocampus should diverge during difficult tasks suppressing the default network. It is unclear, however, whether a difficult episodic memory retrieval task would suppress the default network due to difficulty or activate it due to internally directed attention. We hypothesized that a task requiring episodic retrieval followed by rumination on the retrieved item would increase DLPFC activity, but paradoxically reduce hippocampal activity due to concomitant suppression of the default network. In the present study, blocked and event-related fMRI were used to examine hippocampal activity during episodic memory recollection and postretrieval processing of paired associates. Subjects were asked to make living/nonliving judgments about items visually presented (classify) or items retrieved from memory (recall-classify). Active and passive baselines were used to differentiate task-related activity from default-network activity. During the&quot;recall-classify&quot;task, anterior hippocampal activity was selectively reduced relative to&quot;classify&quot;and baseline tasks, and this activity was inversely correlated with DLPFC. Reaction time was positively correlated with DLPFC activation and default-network/hippocampal suppression. The findings demonstrate that frontal and hippocampal activity are dissociated during difficult episodic retrieval tasks and reveal important considerations for interpreting hippocampal activity associated with successful episodic retrieval.</abstract>
+<pubmed_id>19301994</pubmed_id>
+</detail>
+</item>

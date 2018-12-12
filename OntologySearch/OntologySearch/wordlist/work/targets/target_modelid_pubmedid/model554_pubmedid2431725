@@ -1,0 +1,25 @@
+1. Biophys J. 1986 Nov;50(5):765-77.
+
+On the effect of the intracellular calcium-sensitive K+ channel in the bursting
+pancreatic beta-cell.
+
+Chay TR.
+
+Based on the observation that the calcium-activated K+ channel in the pancreatic 
+islet cells can also be activated by the membrane potential, we have formulated a
+mathematical model for the electrical activity in the pancreatic beta-cell. Our
+model contains two types of ionic channels, which are active above the
+subthreshold glucose concentration in the limit-cycle region: a Ca2+-activated,
+voltage-gated K+ channel and voltage-gated Ca2+ channel. Numerical simulation of 
+the model generates bursts of electrical activity in response to a variation of
+kCa, the rate constant for sequestration of intracellular calcium ions. The
+period and duration of the bursts in response to kCa are in good agreement with
+experiment. The model predicts that a combined spike and burst pattern can be
+created using only single species of inward and outward currents, the
+inactivation kinetics (i.e., h) in the inward current is not a necessary
+condition for the generation of the pattern, and a given pattern or intensity of 
+electrical activity may produce different levels of intracellular Ca2+ depending 
+on the set of certain electrical parameters.
+
+PMCID: PMC1329801
+PMID: 2431725  [PubMed - indexed for MEDLINE]

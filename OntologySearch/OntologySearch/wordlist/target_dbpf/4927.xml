@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4927">
+<itemtype>xnppaper</itemtype>
+<titles><title>Medial temporal lobe activation during episodic encoding and retrieval: a PET study.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>radionuclide imaging</keyword>
+<keyword>Humans</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Oxygen Radioisotopes</keyword>
+<keyword>pharmacokinetics</keyword>
+<keyword>Regional Blood Flow</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>radionuclide imaging</keyword>
+<keyword>Tomography</keyword>
+<keyword>Emission-Computed</keyword>
+<keyword>methods</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:19:11Z</last_update_date>
+<creation_date>2011-05-09T02:19:11Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4927</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4927" version="1.02">
+<authors><author>Schacter DL</author><author>Curran T</author><author>Reiman EM</author><author>Chen K</author><author>Bandy DJ</author><author>Frost JT</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>5</number>
+<page>575-81</page>
+<abstract>Recent neuroimaging studies have obtained evidence of activation in the medial temporal lobe (MTL) during episodic encoding and retrieval. On the basis of a meta-analysis of MTL activations in studies that used positron emission tomography (PET), Lepage et al. (Hippocampus 1998;8:313-322) suggested that episodic encoding tends to involve the anterior MTL, whereas episodic retrieval tends to involve the posterior MTL. In a meta-analysis of studies that used PET and functional magnetic resonance imaging, Schacter and Wagner (Hippocampus 1999;9:7-24) reported weaker evidence for such a rostrocaudal distribution of encoding and retrieval activations. However, these meta-analyses were based largely on studies that examined encoding or retrieval separately. Here, we report a direct, within-subjects comparison of MTL activation during episodic encoding and retrieval by using PET. Results indicated that both encoding and retrieval were associated with blood flow increases in similar MTL regions with little indication that encoding and retrieval are preferentially associated with activity in the anterior versus the posterior MTL. Direct comparisons revealed greater blood flow increases in posterior MTL during encoding than retrieval.</abstract>
+<pubmed_id>10560928</pubmed_id>
+</detail>
+</item>

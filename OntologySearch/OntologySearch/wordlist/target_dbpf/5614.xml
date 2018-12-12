@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5614">
+<itemtype>xnppaper</itemtype>
+<titles><title>Theta Phase Coding in Human Hippocampus: A Combined Approach of a Computational Model and Human Brain Activity Analyses</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-07-22T05:43:21Z</last_update_date>
+<creation_date>2011-07-22T05:43:21Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5614</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5614" version="1.02">
+<authors><author>Sato N</author></authors>
+<journal>Lecture Notes in Computer Science</journal>
+<volume>5286</volume>
+<number></number>
+<page>13-27</page>
+<abstract>The hippocampus is known to maintain episodic memory in humans, but its neural mechanism is an open question. The rat hippocampus is well investigated and known to have a particular neural synchronization between firing and local field potential (LFP) called ’theta phase precession’ that encodes spatio-temporal input sequences to the hippocampus. According to anatomical similarity between the rat and human hippocampus, similar dynamics are expected in the human hippocampus, while it is still unknown if the phase precession dynamics could contribute to memory formation of complex information in episodic memory. In this paper, we evaluate the human hippocampal dynamics by using a combined approach of a computational model and human brain activity analyses. A series of computational and experimental analyses provides integrative understanding of human hippocampal dynamics and its function.</abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

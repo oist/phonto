@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5689">
+<itemtype>xnppaper</itemtype>
+<titles><title>Impaired spatial learning in alpha-calcium-calmodulin kinase II mutant mice.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Aptitude Tests</keyword>
+<keyword>Calcium-Calmodulin-Dependent Protein Kinases</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Mutant Strains</keyword>
+<keyword>Protein Kinases</keyword>
+<keyword>deficiency</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T03:32:32Z</last_update_date>
+<creation_date>2011-09-22T03:32:32Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5689</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5689" version="1.02">
+<authors><author>Silva AJ</author><author>Paylor R</author><author>Wehner JM</author><author>Tonegawa S</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>257</volume>
+<number>5067</number>
+<page>206-11</page>
+<abstract>Although long-term potentiation (LTP) has been studied as the mechanism for hippocampus-dependent learning and memory, evidence for this hypothesis is still incomplete. The mice with a mutation in the alpha-calcium-calmodulin-dependent kinase II (alpha-CaMKII), a synaptic protein enriched in the hippocampus, are appropriate for addressing this issue because the hippocampus of these mice is deficient in LTP but maintains intact postsynaptic mechanisms. These mutant mice exhibit specific learning impairments, an indication that alpha-CaMKII has a prominent role in spatial learning, but that it is not essential for some types of non-spatial learning. The data considerably strengthen the contention that the synaptic changes exhibited in LTP are the basis for spatial memory.</abstract>
+<pubmed_id>1321493</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,3432 @@
+JOURNALOFNEUROPHYSIOLOGY 
+Vol.  66,  No.  3,  September 
+
+199  1. Printed 
+
+in  U.S.A. 
+
+A  Model  of  the  T-Type  Calcium  Current 
+and  the  Low-Threshold  Spike  in  Thalamic  Neurons 
+
+JOHN  RINZEL, 
+
+WANG, 
+XIAO-JING 
+Mathematical 
+Research  Branch,  National 
+and  Medical  Neurology  Branch,  National 
+National 
+
+Institutes  of Health,  Bethesda,  Maryland 
+
+20892 
+
+AND  MICHAEL 
+Institute  of Diabetes  and  Digestive  and  Kidney  Diseases, 
+Institute  of Neurological  Disorders  and  Stroke, 
+
+A.  ROGAWSKI 
+
+SUMMARY 
+
+AND 
+
+CONCLUSIONS 
+
+1.  A  model of the transient, low-threshold voltage-dependent 
+
+(T-type) Ca2+ current is constructed using recent whole-cell volt- 
+age-clamp data from enzymatically isolated rat thalamocortical 
+relay neurons. The T-type Ca2+ current is described according to 
+the Hodgkin-Huxley scheme, using the m3h format, with rate con- 
+stants determined from the experimental data (22-24°C; extracel- 
+lular Ca2+ concentration [Ca2’], = 3 mM). 
+
+2.  The T-type  Ca2+ current inactivates rapidly during main- 
+tained depolarization (time Constant, 
+7h x  20 ms at -20  mV), yet 
+recovery from inactivation is slow (time constant, r,  x  270 ms at 
+-80  mV).  To  reconcile these observations, a two-step kinetic 
+scheme is proposed for the inactivation  gate. Each of the time 
+constants in this scheme is voltage dependent, with a maximum at 
+about -85  mV (45 ms for one and 275 ms for the other). 
+
+3.  Numerical simulations of recovery in a two-pulse, voltage- 
+clamp protocol compare favorably with experimental results ob- 
+tained by Coulter et al. as well as those obtained in an independent 
+series of experiments with guinea pig thalamic neurons ([Ca”],  = 
+10 mM). 
+
+4.  For current-clamp simulations, a leakage current gL( v -  IQ 
+
+is included; with  IJL = -65  mV, the calculated resting membrane 
+potential is -63  mV. 
+
+5.  It  is shown that the T-type  Ca2+ current together with  the 
+leakage current suffices to describe the low-threshold spike (LTS), 
+a slow, triangular-shaped depolarizing event that can be evoked 
+only from relatively hyperpolarized membrane potentials and that 
+underlies the burst firing of Na+-dependent action potentials in 
+thalamic neurons. Outward currents are not required to reproduce 
+the basic shape of the LTS. 
+
+6. The LTS can be activated with either a depolarizing current 
+step from a sufficiently hyperpolarized level or on termination of a 
+hyperpolarizing current step. In either case, the amplitude of the 
+LTS is a monotonically increasing, sigmoid-shaped function  of 
+the hyperpolarizing current step intensity. 
+
+7. Because of the slower kinetic step of the channel’s inactiva- 
+tion gate, our model predicts that recovery of the LTS to greater 
+than one-half amplitude would require a prolonged hyperpolariza- 
+tion of > 100 ms (at body temperature). This imposes an upper 
+limit (=  10 Hz) on the frequency of repetitive hyperpolarizations 
+that can elicit a train of LTSs and hence on the frequency of any 
+rhythm that requires LTS-mediated bursting of thalamic neurons. 
+This finding is consistent with  the views that the T-type  Ca2+ 
+current in thalamic neurons is critical  to the generation of the 
+lo-Hz  spindle oscillations and that it may also play a role in the 
+epileptic discharge during absence seizures. 
+
+INTRODUCTION 
+
+The  thalamus  has long  been  recognized  as a key  structure 
+(Steriade  and 
+
+in  the  generation  of  brainwave 
+
+rhythmicity 
+
+The 
+
+fidelity 
+
+of the  unique 
+
+resting  potential, 
+
+progress 
+Deschenes  1984;  Steriade  et  al.  1990).  Important 
+the  cellular  basis  of  this  pacemaker  activ- 
+in  understanding 
+firing  prop- 
+ity  has come  with  an  appreciation 
+erties  of  thalamocortical 
+relay  neurons.  These  cells  exhibit 
+two  distinct  modes  of  firing  depending  on  the  membrane 
+potential 
+level  (Deschenes  et  al.  1984;  Jahnsen  and  Llinas 
+1984a,b).  At  normal 
+the  cells  transform 
+input  signals  into  trains  of  action  potentials 
+suprathreshold 
+to  as  “relay  mode.” 
+with  high 
+However,  on  hyperpolarization 
+is  an  abrupt 
+transi- 
+tion  to  phasic  (burst)  firing  in  which  action  potentials  occur 
+drowsiness  and  slow-wave 
+grouped 
+sleep,  the  burst  firing  of  thalamic 
+relay  neurons  plays  an 
+essential  role  in  the  generation  of  synchronized  8- to  lo-Hz 
+rhythmic  oscillations 
+in  the  cortical  electroen- 
+cephalogram. 
+the  stereotyped  spike-and-wave 
+discharges  characteristic  of absence  (petit  mal)  seizures  may 
+also  be  dependent 
+bursting 
+(Gloor  1984). 
+
+in  what  is  referred 
+there 
+
+into  bursts.  During 
+
+on  synchronized 
+
+(“spindling”) 
+
+In  addition, 
+
+triangular-shaped 
+
+following  events  are  believed 
+
+to  occur  in  thalamic 
+relay  neurons  during  an  episode  of  bursting  oscillations. 
+The  relay  neurons  receive  a  barrage  of  long-duration 
+(60- 
+potentials  at  a  frequency  of  7-  14  Hz, 
+120  ms)  inhibitory 
+possibly  from  neurons 
+in  the  nucleus  reticularis.  Some,  but 
+result  in  dein- 
+not  all,  of  these  transient  hyperpolarizations 
+events, 
+activation  of  broad, 
+referred  to  as the  low-threshold 
+in 
+turn,  triggers  a burst  of  fast action  potentials 
+that  ride  on  its 
+crest.  As such,  the  LTS  plays  a critical  role  in  linking  synap- 
+tic  input 
+in 
+the  slow  membrane  oscilla- 
+the  relay  cell  and  in  supporting 
+it  pro- 
+tions  underlying 
+the  spindling 
+rhythm. 
+vides  a  cellular  substrate 
+rebound, 
+cellular  prop- 
+which  has  been  postulated  as an  important 
+erty  contributing 
+in  the  thalamic  neuro- 
+nal  network  (Andersen  and  Andersson  1968). 
+
+to  intrinsic  membrane  mechanisms  of bursting 
+
+spikes  (LTS).  Each  LTS, 
+
+for  the  postinhibitory 
+
+to  the  rhythmicity 
+
+In  particular, 
+
+depolarizing 
+
+thalamic 
+
+rapidly 
+
+thalamus 
+inactivating 
+
+isolated  neuronal  somata  prepared 
+
+It  has  recently  been  shown  (Coulter  et  al.  1989;  Crunelli 
+and  Pape  1989)  that  enzymati- 
+et al.  1989;  Hernandez-Cruz 
+from  slices  of  the 
+tally 
+possess  a  prominent 
+low- 
+rat  and  guinea  pig 
+threshold, 
+(T-type)  Ca*+  current  (Car- 
+bone  and  Lux  1984,  1987a;  Fox  et  al.  1987a;  Tsien  et  al. 
+1987)  and,  moreover, 
+that  the  T-type  Ca*+  current  medi- 
+ates  the  LTS  recorded 
+in  these  cells  under  current-clamp 
+(Suzuki  and  Rogawski  1989).  These  neurons 
+conditions 
+record- 
+ideal  characteristics 
+have  nearly 
+for  voltage-clamp 
+they  are  small;  are  roughly  spherical 
+ing  in  that 
+in  shape; 
+
+839 
+
+840 
+
+WANG  ET  AL. 
+
+using 
+
+technique, 
+
+truncated  processes,  allowing  adequate 
+the  whole-cell 
+to  perfuse  the  cells 
+
+and  have  markedly 
+spatial  voltage  control.  Moreover, 
+patch-clamp 
+internally  with  impermeant 
+tion  with  outward  currents.  Consequently, 
+data  have  been  acquired 
+the  T-type  Ca2+  channel  and 
+according 
+
+to  the  paradigm  of  Hodgkin 
+
+to  prevent  contamina- 
+accurate  kinetic 
+that  allow  a theoretical  analysis  of 
+to  the  LTS 
+(1952). 
+
+its  relationship 
+
+it  is  possible 
+
+and  Huxley 
+
+cations 
+
+In 
+
+the  present  work,  we  have  constructed  a  minimal 
+
+conditions. 
+
+to  reproduce  accurately 
+
+data, 
+model  of  the  LTS  based  on  the  recent  voltage-clamp 
+the  T-type  Ca2+  current  plus  a  leakage 
+which  show  that 
+the  LTS  re- 
+current  are  sufficient 
+In  addition,  we 
+corded  under  current-clamp 
+that  the  slow  recovery  time  of the  T-type  Ca2+ 
+demonstrate 
+effect”  re- 
+current  Z-r may  be  interpreted  as a  “bottleneck 
+gate  of 
+lated  to  a slow  transition  process  of the  inactivation 
+Z=. We  discuss  the  relevance  of  this  property 
+the 
+frequency  of  spindling  oscillations  and  spike-and-wave  dis- 
+charges  in  animal  models  of  absence  seizures.  Our  work 
+further  indicates 
+to  repro- 
+itself;  but  such  outward  currents,  as well  as 
+duce  the  LTS 
+network  properties,  may  contribute 
+the  in- 
+terval  between  burst  events. 
+
+that  K+  currents  are  not  required 
+
+to  determining 
+
+in  limiting 
+
+METHODS 
+Presentation of the  model 
+
+Following Coulter et  al. (1989), we model the T-type  Ca2+ 
+current in analogy with the fast sodium current of Hodgkin and 
+Huxley (1952) according to 
+
+l= = g,m3h( v -  v(-J 
+
+(1) 
+where gT is the maximal conductance per unit area (expressed in 
+mS/cm2) and l?a is the reversal potential for calcium flux,  here 
+fixed at + 120 mV. The value of gT may be chosen to scale the 
+amplitude of &  to that measured in particular voltage-clamp ex- 
+periments. 
+
+By hypothesis, m  represents the fraction of channels for which 
+one of the three activation gates is in its open state, “0,”  and h, the 
+fraction of those with  the inactivation  gate in its open state. A 
+channel is open if  all of its four gates are in their 0  states. Each 
+activation gate satisfies a two-state transition kinetics (Fig.  1A) 
+with voltage-dependent rates CY, and ,&,  so that 
+
+k=  (~~(1 -  m)  -  Pmrn =  (m, 
+
+-  m)/r, 
+
+(2) 
+
+&Lz 
+
+&;$JY;& 
+
+m  
+
+A 
+
+I3 
+
+FIG.  1.  Kinetic  model  of the  T-type  Ca2+ channel.  A:  an activation  gate 
+has 1 St-order  kinetics,  with  1 open  state 0  and  1 closed state C; the fraction 
+of gates in  0  is m. B:  the inactivation  gate has kinetics  with  2 steps and  3 
+states ( 1 open,  0,  and 2 closed, C1 and  C,); the fraction  of gates in  each state 
+is h, s, and  d, respectively.  Step between  C1 and  0  is assumed to  be rela- 
+tively  fast. Step between  2 closed  states CI  and  C2 is much  slower;  it  ac- 
+counts  for  the  slow  recovery  from  inactivation.  Model  has 6 voltage-de- 
+pendent  kinetic  rates: a,(V), 
+,8,( V’), ar,( v), &(  V’), cy2( v), and  p2( V’). A  T- 
+type Ca2+ channel  is open  when  its 3 independent  activation  gates and  its 
+inactivation  gate are all  in  the  open  state. Total  current  satisfies Eq.  1. 
+
+where the dot notation is used to signify differentiation with re- 
+spect to time. In Eq. 2 we also allow for the alternative represen- 
+tation  in terms of the functions m,  =  cy,/(cy,  +  &J  and 7,  = 
+l/( cy,,., + ,&), which may be more directly related to voltage-clamp 
+measurements. 
+
+In several experimental studies, no effect on the kinetic behav- 
+ior of T-type  Ca2+ currents was observed when the intracellular 
+Ca2+ concentration was varied, when extracellular Ca2+ was re- 
+placed by Ba2+ as the charge carrier, or under conditions where 
+Ca2+ or Ba2+ accumulation could not occur (Carbone and Lux 
+1984, 1987a; Hernandez-Cruz and Pape 1989; Nowycky  et al. 
+1985). The inactivation gate of the T-type Ca2+ channel is there- 
+fore regarded as insensitive to the intracellular Ca2+ concentra- 
+tion. Using Eq.  2 for m  and a similar equation for h, Coulter et al. 
+(1989) fit, according to a least-squares criterion, values for m,,  h,, 
+7  and 7h (and the cubic power for m)  to their voltage clamp time 
+c&-ses of the T-type Ca2+ current. They provided analytic expres- 
+sions for m,  and h,,  but not for 7,  and rh. 
+
+Our model extends the above treatment in three ways. First, we 
+note that the preceding description accounts for the inactivation 
+on a moderately short time scale (< 100 ms). It does not represent 
+the slower component in the biphasic development of inactivation 
+and the slow recovery from inactivation that have been reported 
+for the T-type Ca2+ current (Bossu and Feltz  1986; Carbone and 
+Lux  1984, 1987a; Coulter et al. 1989). To account for these effects, 
+we consider a model for the inactivation gate that has two closed 
+states (C, and C,) and one open (0)  state (Fig. 1B). Considerably 
+lower transition rates into and out of the “deep” closed state C2 
+provide the mechanism for the slower stage of inactivation. Defin- 
+ing h, s, and d as the fractions of inactivation gates in the states 0, 
+C1, and C2, respectively, the equations for h and d  are 
+
+h =  a,(1  -  h -  d)  -  &h 
+8=@,(1 
+
+-h-d)-a2d 
+
+(34 
+(3b) 
+
+where we have made use of the relation h + s + d  =  1. 
+
+Second, by including a constant conductance leakage current, 
+IL, we formulate a two-current model for the membrane free from 
+voltage control. Our current balance equation takes the form 
+
+c,ti  = -ihm3h( v -  vca) -  a( v -  w  + Lpp 
+
+(4) 
+
+where &.,  (pA/cm2) is the applied current. Values for the maximal 
+conductances gT and gL lie in ranges that may be estimated for the 
+acutely dissociated cell preparation. Assuming membrane area of 
+-  1 ,OOO-2,000 pm2, we can match the amplitude of 1T under volt- 
+age-clamp (range: 100-400 pA;  Coulter et al. 1989; Suzuki and 
+Rogawski 1989) with gT =  0.1-0.6  mS/cm2. In  our model the 
+leakage term dominates in setting a stable resting potential, vrest. 
+Under  physiological conditions,  several inward  and  outward 
+currents contribute to  establishing the rest state. However, the 
+conductances of these currents are here presumed only  weakly 
+sensitive to voltage within the range relevant to & and to the LTS. 
+Therefore, we consider 1L in Eq.  4 as the summation of any such 
+other currents with conductances that are relatively constant dur- 
+ing the LTS. For dissociated relay neurons the input resistance 
+varies over a range 0.3-2.0 GQ (Suzuki and Rogawski 1989). Thus 
+we choose gL equal to 0.1 mS/cm2 to be consistent with these data 
+and the aforementioned membrane area. This value of gL implies, 
+for Cm =  1 pF/cm2, a resting time constant of  10 ms. For all our 
+simulations we set IJL = -65  mV, which typically  leads to a value 
+of  Vrest around -63  mV. The system of Eqs. 2-4 constitutes our 
+minimal model, which generates an LTS and describes its slow 
+recovery under current clamp conditions. 
+
+Finally, to perform computational experiments with our model, 
+we need analytic expressions for the voltage-dependent kinetic 
+rate functions. These also allow us to simulate physiological behav- 
+
+T-TYPE 
+
+Ca2+  CURRENT 
+
+ior beyond the voltage range over which Coulter et al. (1989) de- 
+termined 7, and 7h (-62  to -  12 mV). We next describe our deter- 
+mination of these rate coefficients. 
+
+IN  THALAMIC 
+A  3.0 
+
+NEURONS 
+
+841 
+
+1 
+
+n 
+
+n 
+
+- 
+c 
+
+7 
+c; 
+
+. 
+
+CF 
+
+- 
+
+SI 
+- 
+
+1.5 
+
+0.0 
+
+-1.5 
+
+Activation  gate 
+
+We  adopt  the  steady-state activation  function 
+
+Coulter et al. (1989) 
+
+provided  by 
+
+m,= 
+
+1 +  exp[-(V  +  V’  +  63)/7.8] 
+
+(5) 
+
+where the parameter vs is used to describe the effect of changing 
+extracellular Ca2+ concentration, [Ca2’],.  For the baseline case, 
+[Ca2+], = 3  mM, we set I/, = 0 mV. 
+
+To find an analytic expression for T,,  we use the definition 
+
+-1 
+
+am 
+
+=  Tm/ma3 
+
+(6) 
+
+and, by linear regression, we fit the experimental data [Eq. 5 and 
+values of 7,  from Fig. 5 of Coulter et al. (1989)] with an exponen- 
+tial function plus a constant (cf. Fig. 2A). The result is 
+
+a!,  =  1.7 +  exp[-( 
+It  follows from Eqs. 5-7 that 
+
+1 
+
+I;/ +  I/, +  28.8)/13.5] 
+
+l 
+
+1.7 +  exp[-(  I/ +  V, +  28.8)/l  3.51 
+
+1 +  exp[-(V  +  Iks +  63)/7.8] 
+
+(7) 
+
+(8) 
+
+Inactivation 
+
+gate 
+
+In our model there are four rate coefficients 
+
+kinetics, q,  P1, a29  and P2,  or equivalently 
+
+for the in &activation 
+
+K, 
+
+=  &/cq 
+
+K2 
+
+=  p2/(x2 
+
+71  = 
+
+l/(q 
+
++ 
+
+I&) 
+
+72  =  m2 
+
++  P2) 
+
+(9) 
+
+The steady-state inactivation function was estimated by Coulter 
+
+et al. (1989) as follows 
+
+‘,  =  1 +  exp[( V +  Vs +  83.5)/6.3] 
+
+’ 
+
+1 
+
+(10) 
+
+We examined several possible approaches to determining the two 
+equilibrium functions K1 and K2 from h,.  We noted that if K2  is 
+independent of voltage, it was not possible to account adequately 
+for the recovery of 1-r. This can be understood by observing that, 
+according to Eq.  3b, K2 equals the occupation of the deep closed 
+state C2 relative to that of C, at equilibrium. In the voltage-clamp 
+recovery experiment of Coulter et al. (1989), it was found that, on 
+the one hand, a brief hyperpolarization from a more depolarized 
+level led to a minor initial recovery. Thus at a depolarized level the 
+occupation in the deep closed state C2 should be high, and K2 
+should be large, so that  during  a short hyperpolarization the 
+amount of flux to the open state 0  is limited by the small fraction 
+available in the Ci state. On the other hand, the complete recovery 
+at a longer time scale requires that on persistent hyperpolarization 
+the occupation in C2 ought to be low, and K2 should have a smaller 
+value. Both requirements could not be satisfied with a fixed value 
+of K2.  Therefore K2  must be voltage dependent. We settled on the 
+simplifying assumption that the two transition steps in Fig.  1B 
+have similar equilibrium properties, albeit with very different time 
+constants: K,  =  K2  =  K.  This convenient approximation will be 
+justified a posteriori by the agreement between the resulting model 
+simulations and experimental observations. It  now follows from 
+the steady-state solution of Eq.  3 and from Eq.  10 (see APPENDIX 
+for details) that 
+
+K  =  vO.25 +  exp[( V +  I/’  +  83.5)/6.3]  -  0.5 
+
+n 
+t/ 
+
+-2.5 
+
+L 0.0 
+
+I 
+-10 
+
+I 
+-50 
+Membrane 
+
+I 
+-30 
+
+Potential 
+
+(mV) 
+
+-3.0 
+
+-J 
+
+I 
+-70 
+
+B 
+300-j 
+
+(ms) 
+
+1 
+
+0 
+
+‘rn 
+
+I 
+-80 
+
+I 
+-40 
+
+I 
+0 
+
+-20 
+
+r 
+-140 
+
+I 
+-120 
+
+I 
+-20 
+(mV) 
+
+I 
+-100 
+Membrane 
+
+PIG.  2.  Activation  and  inactivation 
+
+1 
+-60 
+Potential 
+time  constants  of the  T-type  Ca2+ 
+channel.  A:  Coulter  et al. (1989)  provided  6 data  points  for  7,(  I/) along 
+with  an expression  for m,(v).  This  yields 6 values for ar,( V), according  to 
+Eq. 6, which  were  plotted  as log  [(Y~( v)-’  -  c]  vs. I? The  constant  C was 
+adjusted  to the value  1.7 so that  a straight  line  could  be fit by linear  regres- 
+sion,  which  led to the analytic  expression  for ar,( V) in Eq. 7. We obtain  Eq. 
+14 for the inactivation  gating  rate a,( V) in  a similar  way (see text). B: filled 
+circles  indicate  the experimentally  measured  values for 7,,  q,, and  7,. Tat- 
+ter  2 are associated with  the decay rates, XI and  X2, for Eq. 3. Kinetic  time 
+constant  functions  q(v)  and  r2( V), given in  terms  of X1 and  X2 by Eq. A7 
+(see text  and  APPENDIX), 
+are  plotted  here  with  dashed  curves (and  open 
+circles  in  the case of TV). Solid  curves (top)  are according  to Eq. A6.  Solid 
+curve for 7,  (bottom)  is from Eq. 8. These data correspond  to room  temper- 
+ature. 
+
+It  remains to determine 71 and 72 or, equivalently, al and cy2. 
+Recall that Coulter et al. (1989, Fig. 5) described inactivation ki- 
+netics with a single 7h. Their estimations were based on voltage- 
+clamp data over a restricted time scale, 60- 100 ms, which is rela- 
+tively  short compared with a typical recovery time from inactiva- 
+tion (=250  ms). In addition, they as well as Suzuki and Rogawski 
+(1989) measured a slow time constant, 7,, for the recovery process 
+at a few voltage values. To represent these disparate time scales in 
+our two-step model of inactivation, it seems plausible to associate 
+7h with the time constant of the faster transition step between the 
+states 0  and Ci  in the scheme of Fig.  1B and to attribute  the 
+recovery time constant 7, to the slow step between the states Ci 
+and C2. However, the correspondence is not immediate. Although 
+the faster time constant is likely  unaffected by the slower transi- 
+tion  process and thus is identifiable with  TV:, the recovery time 
+constant certainly depends on both slow and fast processes (hence 
+on 72 and 71). 
+
+The mathematically exact time constants of our model of the 
+three-state inactivation gate are XT1 and XT’ where X, and X2 are the 
+
+842 
+
+WANG 
+
+ET  AL. 
+
+characteristic decay rates of the system Eq.  3, a and b. These time 
+constants correspond to the measurable quantities Th and 7,, re- 
+spectively. In the APPENDIX 
+we show how X1,2 are related to 71,2 
+through a quadratic formula, and we use this to show that 
+
+(14 
+With this approximation we can substitute for 71  the experimental 
+values for 7h and evaluate the right side of 
+
+71 x  xy’ = rh 
+
+-1 
+
+a1 
+
+=  q[l  +  K] 
+
+(13) 
+which follows from Eq.  9. Thereby we can obtain, as we did by 
+linear regression for CY, above, an exponential function for cyl (cf. 
+Fig. 2A) 
+
+a1 = exp[-(V+  V’+  160.3)/17.8] 
+
+(14) 
+According to the definition in Eq.  9, multiplying this by K  yields 
+an analytic expression for ,& (not shown here). Then 71 follows 
+from l?q. 13, and it has a maximum of -45  ms near v  = -85  mV 
+(Fig. 2B). 
+
+Relatively few measurements are available for estimating the 
+long time constant of Eq.  3. From the recovery experiments of 
+Coulter et al. (1989, Fig. 7), we have X;’  =  220 and 243 ms at 
+-  112 and -92  mV, respectively. An  additional datum for X,’  (at 
+V=  -42  mV) was obtained by fitting a sum of two exponentials to 
+the decay of the uninterrupted 1T transient in their Fig. 7; the time 
+constant estimated for the slower phase is 135 ms. These values are 
+plotted in Fig. 2B (filled circles) together with the corresponding 
+values of 72 (open circles) as given by l?q. A 7. A simple form for 72 
+that is consistent with these measurements (decaying at depolariz- 
+ing voltage and saturating in the other direction) is the sigmoid 
+function 
+
+240 
+
+r2 =  1 +  exp[(V  +  Vs +  37.4)/30] 
+
+(15) 
+
+From this expression and Eqs. 9 and 11 we get formulas for cy2 and 
+p2. The graph of 72 is shown in Fig. 2B where it may be compared 
+with the recovery time constant, plotted as Xi’  versus V. 
+
+Temperature 
+
+correction 
+
+The time constants above correspond to room temperature (22- 
+
+24”C), at which the voltage-clamp experiments and our simula- 
+tions thereof were performed. For our current-clamp simulations, 
+we adjust the rates for “body temperature” (taken here to be 10°C 
+greater than the preceding conditions). These results may then be 
+compared with in vivo recordings or data obtained in slice prepara- 
+tions such as those reported by Thompson (1988), which were 
+carried out at 34-35°C. To correct for  temperature we use Q,, 
+values of 5 and 3 for activation and inactivation (both steps), re- 
+spectively (see Coulter et al. 1989). Thus, at body temperature, 7, 
+is multiplied by a factor of 0.2 and 71 and 72 by 0.33. 
+
+Numerical  methods 
+
+Our numerical simulations have been carried out using the soft- 
+ware package “PHASE  PLANE”  (Ermentrout  1990) for solving 
+interactively differential equations on an IBM  PC-compatible mi- 
+crocomputer. For the most part, we chose the Gear integration 
+method to ensure a stable and accurate numerical solution for 
+equations having the property  of  stiffness (i.e., disparate time 
+scales). However, we found accurate computation did not require 
+severe error control.  For instance, satisfactory results were ob- 
+tained with the Gear tolerance parameter set from 0.001 to 0.09 
+and maximum step size (in this variable step algorithm) set to 1 .O 
+ms. We found that a comparable accuracy could be achieved using 
+
+the fourth-order Runge-Kutta method with  a fixed time step of 
+0.5 ms. 
+
+RESULTS 
+
+T-type  Ca2+  current  under  voltage-clamp 
+
+Coulter  et  al.  (1989)  found 
+
+that  recordings  of  the  T-type 
+Ca2’  current  during 
+the  initial  100  ms  or  so after  a depolar- 
+izing  voltage  step  could  be  fit  accurately  by  the  use of  Eq.  2 
+intended 
+for  Z=. Our  extension  of the  model, 
+to  account  for 
+the  slow  recovery  behavior,  still  accurately 
+the 
+reproduces 
+early  phase  of the  current.  The  time  courses  in  Fig.  3A  illus- 
+is  stepped  from  a relatively 
+trate  that,  when  the  membrane 
+(-92  mV)  to  a more  depolarized 
+negative  holding  potential 
+test  potential 
+(-42  mV), 
+the  deinactivated  Ca2+  channels 
+the  top 
+open  and  generate  a  transient  current  ZT [compare 
+In  the 
+panel  with  Fig.  6,  A  and  B,  in  Coulter  et  al.  (1989)]. 
+bottom  panel,  one  sees a  very  rapid  rise  in  activation 
+fol- 
+as h  decays  on  a 
+lowed  by  the  early  phase  of  inactivation 
+After  150  ms  nearly  all 
+time  scale  of  tens  of  milliseconds. 
+the  inactivation 
+the  open  state  0  to 
+the  closed  states  C1 and  C2. The  gradual  rise  of  d reflects  the 
+much  slower  kinetic  step  between  C1 and  C2. In  spite  of the 
+fact that  d has reached  nearly  0.7  (tending 
+toward  its  equilib- 
+the  transients  of  ZT, m, 
+rium 
+and  h  in  Fig.  3A  would  change  very  little 
+if  the  deep  closed 
+state  C2 were disallowed 
+(by  fixing  d  =  0).  The  slight  differ- 
+ences  are  detectable  only  after  -  100  ms. 
+
+level  d,  =  0.96  at  -42  mV), 
+
+gates  have  shifted  from 
+
+tal  data  by  our  choice  of gT  =  0.4  mS/cm2.  We  note  that,  if 
+the  conductance  of a single  open  T-type  channel 
+is assumed 
+to  be  8 pS  (Carbone  and  Lux  1987b;  Fisher  et al.  1990;  Fox 
+et  al.  1987b),  this  value  for  g,  implies 
+that  such  an  acutely 
+dissociated 
+relay  cell  has  -  500-  1,000  T-type  Ca2+  chan- 
+nels. 
+
+The  amplitude 
+
+of Z= has been  matched 
+
+to  the  experimen- 
+
+Recovery  of I,  from 
+
+inactivation 
+
+Although 
+
+the  biphasic  nature  of inactivation 
+
+is not  appar- 
+ent  in  Fig.  3A,  it  becomes  so when  a  second  ZT response  is 
+provoked,  as in  Fig.  3B.  Because  of the  slow kinetics 
+for  d, a 
+allows  only  a 
+50-ms  return  step  to  the  holding  potential 
+minor  decrease  in  d and  therefore  the  channel  deinactivates 
+only  slightly  (h  rises from  0 to  -0.2).  The  current  Z= for  the 
+to  -42  mV  shows little  recovery,  the 
+second  depolarization 
+if  C2 were 
+ratio  of  the  two  Z= peaks  being  0.28.  In  contrast, 
+absent,  and  the  kinetics  of other  steps were unchanged, 
+then 
+the  second  ZT peak  would  exceed  75%  of  the  first  one. 
+
+The 
+
+time  scale  of  transitions  between  C1  and  C2 deter- 
+mines  the  relative  refractory  period  of ZT. To  quantitate 
+the 
+dynamics  of recovery  from  inactivation,  we have  simulated 
+a series  of two-step  runs  in  which  the  latency  to  the  second 
+test  step  (i.e.,  the  duration  of  the  holding  pulse)  is  varied 
+(Fig.  4A).  As  the  latency 
+the  slower  time 
+scale  of  inactivation, 
+recovery  of Z= is  achieved. 
+If  we seek to  approximate 
+this  process with  a single  exponen- 
+tial  (Fig.  4B),  we obtain  by  linear  regression  a time  constant 
+of  237  ms.  Our  analytic  expression  (Eq.  A6)  for  the  slow 
+time  constant  X;’  at  -92  mV  yields  249  ms,  and  the  ap- 
+proximation 
+formula,  Eq.  A9,  provides  an  excellent  esti- 
+
+increases  beyond 
+
+substantial 
+
+T-TYPE  Ca2+ CURRENT 
+
+IN  THALAMIC 
+
+NEURONS 
+
+experimental 
+(see  their  Fig.  7,  and  with 
+
+well  with  the  corresponding 
+et  al.  (1989) 
+=  243  ms). 
+Our  model 
+
+is based  primarily 
+
+on  experimental 
+
+843 
+
+data  of  Coulter 
+their  estimate  7, 
+
+-125- 
+
+-250- 
+
+r- 
+
+~ 
+
+~ 
+
+-125- 
+
+-250- 
+
+'1 
+
+-42 
+
+-92 
+
+l- 
+
+~ 
+
+1 
+50 
+
+Time 
+
+160 
+
+(ms) 
+
+160 
+
+v 
+
+660 
+
+290 
+
+Time 
+
+460 
+(ms) 
+
+FIG. 3.  A:  time  course of the  T-type  Ca2+ current  (IT) elicited  by a volt- 
+age step from  a holding  potential  ( VjJ of -92  mV  to a final  potential  of -42 
+mV  as modeled  with  Eqs.  1-3.  Top: 
+IT  rises rapidly  to  a peak  of -235  pA 
+and  decays in  2 phases (the late slower  phase is less apparent  than  the  fast 
+early decay). Bottom:  time  courses of the channel  variables  m(t),  h(t), and 
+d(t)  corresponding 
+to  the  current  shown  above.  Slow  change  of  d(t)  is 
+responsible  for the  late  decay phase of IT.  Here,  we  assume  the thalamic 
+relay neuron  has a membrane  area of 1,000 pm2 corresponding 
+to g,  = 0.4 
+mS/cm’.  B: partial  recovery from  inactivation  of Jr in  a simulated  2-pulse 
+experiment.  Top: 
+the initial  1= response  is elicited  by a 200-ms  step from 
+to  -42  mV  followed  by a  2nd  step with  a delay  of  50  ms.  Only  a 
+-92 
+fraction  of Z= is recovered  (ratio  of  the  2  peak  current  values  is 0.28). 
+Bottom:  dependence  of recovery  on  the  time  courses  of h(t)  and  d(t).  At 
+start of the  2nd  pulse, most  of the  inactivation  gates are in  the deep closed 
+state C2 and only a few reenter the open state 0  during  the 50-ms repolariza- 
+tion. 
+
+mate,  242  ms,  for  this  exact  result.  The  modest  discrepan- 
+cies between  these  values  and  the  simulation 
+results  are due 
+range  of recovery  times  (~450  ms)  considered 
+to  the  limited 
+in  Fin.  4B.  These  theoretical 
+results  on  recovery  compare 
+
+data  from 
+the 
+carried  out 
+
+thalamocortical 
+
+relay  neurons 
+
+(Frankenhaeuser 
+
+(1989),  who  used  enzymatically 
+
+to  mimic  a  set of  recovery  experiments 
+
+in  the  latter  experiments.  Following  an  empirical 
+
+rat  cells  (Coulter  et  al.  1989),  but  we have  also  applied 
+model 
+by  Suzuki  and  Rogawski 
+from  the  guinea  pig. 
+isolated 
+These  simulations 
+required  a  change  of  the  value  of  vS in 
+the  model,  because  [Ca2+],  =  10 mM  was used  instead  of  3 
+mM 
+rule 
+1957),  we shifted 
+of  thumb 
+rates positively 
+the  voltage  dependence  of the  gating  kinetic 
+threefold 
+by  Vs =  -  10  mV  for  this  approximately 
+increase 
+in  [Ca2+],.  A  corresponding  adjustment 
+in  the  reversal  po- 
+tential  V&  using  the  Nernst  expression,  would  have  little 
+effect  on  Jr  and  is  disregarded  here.  Again  we  find  close 
+results 
+agreement  between  the  theoretical  and  experimental 
+(Fig.  4B):  the  recovery 
+the 
+and  256  and 
+experiments, 
+246  ms  from 
+(Eqs.  A6  and  A9, 
+respectively). 
+
+278  ms  from  our  simulations, 
+the  analytical  predictions 
+
+is  290  ms  from 
+
+time  constant 
+
+and  Hodgkin 
+
+A  0 
+
+-125 
+
+-250  I 
+-421 * 
+-07 
+
+JL 
+
+I 
+
+0 
+
+0.6 
+
+x 
+f 
+
+“.” 
+
+I 
+
+0 
+
+I T 
+
+* v 
+
+I 
+
+100  200  300  400  500  600  700 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+I 
+
+Time 
+
+(ms) 
+
+I 
+
+200 
+
+Recovery 
+
+I 
+
+400 
+
+Time 
+
+I 
+
+600 
+
+(ms) 
+
+I 
+
+800 
+
+FIG.  4.  A: increase  in recovery of 1T as a function  of the interpulse  inter- 
+val  in  a  simulated  2-pulse  experiment.  Conditions  are  as in  Fig.  38.  B: 
+fractional  recovery  of 1-r plotted  vs. latency.  Solid  curves are  best single 
+exponential 
+fits to the calculated  values that  allow  an estimate  of the theo- 
+retical  recovery  time  constants.  Squares  indicate  experimental  data  from 
+Coulter  et al. ( 1989); circles are from  Suzuki  and  Rogawski  (1989).  Condi- 
+tions  in  the former  case are  as in  Fig.  3B  ([Ca’+],  =  3 mM);  the  recovery 
+time  constant  7, equals  243  ms (experimental)  or  237  ms (theoretical). 
+In 
+the  latter  case, the  simulation  was carried  out  assuming  [Ca2’],  =  9 mM 
+and  a holding  potential  of -80  mV;  7, =  290 ms (experimental)  and 278 ms 
+(theoretical). 
+
+844 
+
+Low-threshold 
+
+spike 
+
+WANG  ET  AL. 
+
+initial 
+
+voltage 
+
+increase 
+
+rates  for  body  temperature 
+
+To  simulate  current-clamp 
+
+integrate 
+behavior  we  must 
+the  full  model,  Eqs.  2-4.  For  these  computations 
+we  use 
+values  of g,  in  the  range  0.1-0.6  mS/cm2,  and  we adjust  the 
+kinetic 
+(see METHODS).  Figure  5 
+shows  an  LTS  as  computed  with  our  model  after  release 
+level  of  -92  mV.  The  resulting  volt- 
+from  a hyperpolarized 
+triangular-shaped  wave- 
+age trajectory  has the  characteristic 
+form  of the  LTS  in  recordings 
+from  brain  slices and  isolated 
+neurons  (Jahnsen  and  Llinas  1984a;  Suzuki  and  Rogawski 
+1989).  The 
+is  due  to  the  leakage 
+current,  which  tends  to  drive  V toward 
+the  ris- 
+to  grow  as 
+ing  V slows  as it  nears  &  but  then  v  continues 
+(Fig.  5,  bot- 
+the  deinactivated  ZT begins  to  increase.  Notice 
+tom) 
+level 
+time),  h is large  in  comparison  with  its 
+(i.e.,  value  at  infinite 
+resting  value,  so that  there  is a net  depolarizing 
+current.  The 
+between  v  and  m  leads  to  a 
+self-accelerating 
+transient  spike,  which  is then  counterbalanced 
+by  the  inac- 
+tivation  process (decline 
+in  h).  The  peak  of  Voccurs  at  ~30 
+ms,  after  the  rapid  drop  of  h to  ~20%  of its initial  value.  The 
+LTS  decay  is biphasic: 
+the  slower  phase  is evidenced  here  by 
+the  gradual  relaxation  of  d,  m,  and  v  toward  their  rest  val- 
+ues.  It  is  interesting 
+to  note  that,  although  h  and  the  Ca2+ 
+
+that,  at  ~20  ms,  although  m  is  near  its  resting 
+
+interaction 
+
+Indeed, 
+
+I& 
+
+I’  \ 
+\ 
+
+\ 
+
+/ 
+0 
+
+\ 
+
+\ . 
+
+V 
+
+-----Me- 
+
+i/J\- 
+
+/*  c- 
+
+. 
+
+4-I 
+
+-50 
+
+-100’ 
+
+1 1 
+
+d 
+
+h 
+
+0 
+
+5b 
+
+160 
+
+(ms) 
+
+Time 
+
+150 
+
+260 
+
+FIG. 5.  Current-clamp 
+
+simulation  with  only  2  membrane  currents,  IT, 
+and  a  constant  conductance 
+leakage  current.  Model  generates  a  low- 
+threshold  spike (LTS)  on  release from  hyperpolarization 
+at time  0. Time 
+courses  of membrane  potential  (top) and  gating  variables  (bottom)  ob- 
+integration  of Eqs. 2-4.  Here  and  in  subsequent  fig- 
+tained  by numerical 
+ures, g,  =  0.1  mS/cm2,  VL =  -65  mV,  and  kinetic  rates are  adjusted  for 
+body  temperature.  Early  repolarization 
+of  the  LTS  is associated  with  a 
+rapid  drop  of h to near  0, whereas  the later  stage in  the  return  of V to the 
+resting  level  (-63  mV)  reflects the  slow  phase  of  inactivation, 
+i.e.,  the 
+gradual  rise of d. Solid  curves are for [Ca2’1,  =  3 mM, 
+l’h =  -92  mV, and 
+g,  = 0.25  mS/cm’.  Dashed  curve (top) illustrates  prolonged  plateau  before 
+upstroke  of LTS  under  altered  parameter  conditions  corresponding 
+to an 
+elevation  of [Ca2+10 to  9 mM  (I$  =  -80  mV;  gT =  0.52  mS/cm2).  At  this 
+higher  [Ca2’],  level,  the  voltage  dependence  of the  channel  kinetic  rate 
+constants  are  shifted  in  a positive  direction 
+( V’  =  -  10 mV).  With  these 
+I/ hovers  longer  near  the  resting  level after  the  release  from 
+parameters, 
+hyperpolarization 
+because the growth  rate  of m is diminished 
+in  this volt- 
+age range;  finally  m increases sufficiently  to  induce  an  LTS. 
+
+conductance  gTm3h  are  small,  repolarization 
+proceed  with  the  passive  membrane 
+Because  Z= has  a  large  driving 
+comparable 
+hence  the  return 
+of  h  and  subsequently  by  the  decay  of  d. 
+
+the 
+to  rest  is dominated 
+
+in  magnitude  with 
+
+of  vdoes  not 
+time  constant  (10  ms). 
+remains 
+leakage  current,  and 
+first  by  the  decay  rate 
+
+force,  this  current 
+
+that 
+
+time 
+
+factor 
+
+[Ca2’], 
+
+important 
+
+in  a  “plateau” 
+
+tracing  under 
+
+these  conditions 
+
+a  more  pronounced 
+
+The  initial  depolarization 
+
+trajectory  near  vL,  resulting 
+
+that  precedes  the  LTS  exhibits, 
+slowing  of  the 
+before 
+[Jahnsen  and  Llinas  1984a  (Fig.  7);  S. 
+
+in  some  experiments, 
+voltage 
+the  firing  of  the  LTS 
+observations]. 
+Suzuki  and  M.  A.  Rogawski,  unpublished 
+This  plateau  can  be  reproduced  with  our  model  on  adjust- 
+of  parameters  as, for  exam- 
+ment  of  various  combinations 
+ple,  would  occur  with  increased 
+(as used  in  the  ex- 
+periments  of  Suzuki  and  Rogawski  1989).  The  simulated 
+voltage 
+is  shown  by  the 
+dashed  line  in  Fig.  5.  To  understand 
+the  delay  in  this  case, 
+recall 
+channel  parameters  are 
+shifted  to  more  positive  voltages  by  higher  [Ca”],.  Thus,  as 
+V hovers  near  yL,  both  m  and  its  growth  rate  are  smaller 
+than  in  the  preceding  case and  a  longer 
+is  needed  for 
+m(t),  hence  V(t),  to  grow.  We  emphasize,  however,  that  the 
+prolonged  plateau  does  not  necessarily  require  unphysio- 
+logically  high  Ca2+ levels.  Indeed,  significant  delays  can  also 
+be  obtained  with  other  parameter 
+such  as  de- 
+increasing  g, 
+creasing  VL by  7-  12  mV  and  simultaneously 
+by  a  factor  of  2-3.  Such  differences 
+values 
+could  easily  occur  with  variations 
+in  cell  properties  without 
+a change  in  the  intrinsic  gating  behavior  of the  T-type  Ca2+ 
+channel. 
+
+the  voltage-dependent 
+
+in  parameter 
+
+variations, 
+
+in  shaping 
+
+is  the  rate  of 
+compared  with  the  time  scale  of  V(t) and  m(t). 
+if  al  and  p1 were doubled, 
+the  LTS  amplitude 
+
+inactivation 
+For  example, 
+from  about  -2  1 
+(solid  curve,  Fig.  5,  top)  would  be  reduced 
+to  -45  mV.  Corresponding 
+sensitivity  was also  found  if  the 
+transitions  between  0  and  C,  were  much  slower:  halving 
+the  rates  would 
+In 
+fast,  so  that 
+contrast, 
+the  kinetics  of  m  are  already  quite 
+speeding 
+the  rates  by  a  factor  of  2  increases  the  LTS  peak 
+only  to  -  17 mV.  It  appears  that  the  h kinetics  are well  tuned 
+to  provide 
+time  course  of  calcium  conductance 
+for  LTS  generation  with  g,  in  our  chosen  range  of  values. 
+Of  course,  if  our  model  had  additional 
+outward  currents, 
+then  offsetting  adjustments 
+
+lead  to  a  peak  value  of  about  +3  mV. 
+
+could  buffer  such  sensitivity. 
+
+the  proper 
+
+sets the  minimum 
+
+process  affects  the  LTS 
+
+the  faster  inactivation 
+the  slow  step  of  inactivation 
+
+Whereas 
+waveform, 
+duration  of  hyperpolarization 
+necessary  to  deinactivate  Z=. 
+Figure  6 shows how  the  response  peak  increases  with  dura- 
+is  necessary  to 
+tion:  >  100  ms  of  hyperpolarizing 
+generate  an  LTS  of  greater  than  half-amplitude. 
+The  effect 
+here  is  equivalent 
+to  that  seen  in  the  recovery  experiments 
+of Jahnsen  and  Llinas  (1984a;  see Figs.  6 and  7)  and  in  our 
+simulations 
+conditions 
+a 
+(cf.  Fig.  4A).  If,  at  the  beginning 
+sizable  fraction  of  inactivation 
+gates  are  in  the  deep  closed 
+state  C2 (as at  rest),  then  it  will  take  an  amount  of time  =72 
+for  these  channels 
+
+to  drift  back  to  0,  i.e.,  to  deinactivate. 
+
+of  ZT recovery  under  voltage-clamp 
+
+of  hyperpolarization, 
+
+the  LTS 
+
+current 
+
+The  LTS  amplitude  also  varies  with  intensity  of the  hyper- 
+In  Fig.  7A,  200-ms  current  steps  to  various 
+lead  to  a family  of  graded  LTSs. 
+
+polarization. 
+levels  of  hyperpolarization 
+The  LTS  amplitude 
+
+saturates  at  strong  hyperpolarizations 
+
+An 
+
+T-TYPE  Ca2+  CURRENT 
+
+IN  THALAMIC 
+
+NEURONS 
+
+845 
+
+-  20- 
+
+-6O- 
+
+-lOO- 
+
+n 
+
+“1 -t 
+- 2 
+I 0 
+
+V 
+
+I 
+
+T 
+
+I 
+
+100 
+
+I 
+
+200 
+Time 
+
+I 
+
+300 
+(ms) 
+
+I 
+
+400 
+
+1 
+
+500 
+
+FIG.  6.  Current-clamp  simulations  of the  LTS  evoked by hyperpolariz- 
+ing  current  steps showing  that  the LTS  amplitude 
+increases with  the dura- 
+tion  of the hyperpolarization.  Current  step begins  at t = 20 ms and  contin- 
+ues for  varying  durations  up  to  400  ms (&.,,, =  -2pA/cm2).  LTS  exceeds 
+80%  of its maximum  amplitude 
+for  steps longer  than  100  ms. g,  =  0.2 
+mS/cm2,  [Ca2’],  =  3 mM. 
+
+durations 
+
+is  adequate 
+
+seen  for  fre- 
+
+is  the  sensitivity 
+
+for  higher  stimulus 
+
+range.  Here,  the  LTS  amplitude 
+
+the  LTS  amplitude 
+of  the  hyperpolarizing 
+
+ms.  Most  striking,  however, 
+quencies  in  the  5- to  lo-Hz 
+for  a  range  of  hyperpolarization 
+for 
+generating  a burst  of spikes  (i.e.,  the  peak  reaches  threshold 
+action  potentials;  Suzuki  and  Rogawski 
+for  Na+-dependent 
+1989).  If  the  stimulus 
+is faster  than  -  12 Hz,  the  peak  depo- 
+(for  any  fraction  p/PO)  does  not  exceed  -55  mV 
+larization 
+and  drops  dramatically 
+rates.  For  a 
+is  graded  with  increasing 
+fixed  period, 
+duration 
+pulse  (corresponding 
+to 
+Fig.  6);  it  reaches  -45  mV  when  p  is  -  100 ms  (for  P,  2  200 
+ms).  The  response  is  maximal 
+than 
+it  decreases  sharply 
+one-half  of  the  total  period,  and  then 
+cycle  is  too  brief 
+when  the  release  phase  of  the  stimulus 
+(-30  ms).  Although 
+details  are  affected, 
+aspects  of  Fig.  8 are  preserved  for  variations 
+the  qualitative 
+in  the  amplitude 
+current. 
+pulse  were  -3.0  PA/ 
+For  example, 
+response  for  P,  = 
+cm2  or  if  gT  =  0.3  nS/cm2, 
+100  ms  would  be  -  30  and  -35  mV,  respectively, 
+instead  of 
+-50  mV.  Also,  it  is not  essential  that  the  applied  hyperpolar- 
+ization 
+postsynaptic 
+
+and  time  course  of the  stimulating 
+
+if  the  hyperpolarizing 
+
+terminate  abruptly. 
+
+In  fact,  inhibitory 
+
+the  quantitative 
+
+for  a  duration 
+
+the  maximal 
+
+larger 
+
+its  maximum 
+
+because  in  this  limit  h attains 
+value  of  1. The 
+form  and  may 
+response  curve  in  Fig.  7B  displays  a sigmoid 
+data  of 
+be  compared  with  the  corresponding  experimental 
+range 
+Jahnsen  and  Llinas  obtained  over  a  more 
+there  is  not  a  strict  threshold  at 
+(1984a,  Fig.  4).  Although 
+settings  (Fig.  7B),  the  behavior  could  be 
+these  parameter 
+in  the  parameters  so as to 
+steeper  with  minimal 
+type  of  response  pattern.  For 
+simulate  an  “all  or  none” 
+example,  with  increased 
+the  computed  peak  of  v(t) 
+shows a much  sharper  increase  with  stimulus  strength  (not 
+shown).  Similar  phenomena  have  been  seen experimentally 
+in 
+1989). 
+
+(Suzuki  and  Rogawski 
+
+the  presence  of  high 
+
+adjustment 
+
+[Ca2+], 
+
+limited 
+
+[Ca”], 
+
+Oscillatory behavior  involving  the LTS 
+
+is  critical 
+
+If  the  LTS 
+
+In  an  attempt 
+
+hyperpolarizing 
+
+relay  neurons, 
+
+voltage  domain. 
+
+firing  of thalamic 
+
+frequency  within 
+to  explore 
+the  response  of  our  minimal  model 
+
+to  the  generation  of the  8- to  lo-Hz 
+it  must  be possi- 
+rhythmic 
+the 
+ble  to  evoke  the  LTS  at  the  required 
+this 
+appropriate 
+to 
+issue,  we  consider 
+repetitive 
+The  case 
+shown  in  Fig.  8A  allows  us  to  define  our  protocol.  A  full 
+cycle  of period  P,  (ms)  consists  of  hyperpolarization, 
+&,  = 
+for  the  re- 
+-2.0  pA/cm2, 
+is  gener- 
+mainder  of  the  cycle.  After  each  release  an  LTS 
+ated.  In  the  example  shown  here,  the  driving 
+frequency  of  5 
+low  and  p  is long  enough  so that  LTSs  of 
+Hz  is  sufficiently 
+constant  amplitude 
+during 
+
+are  reliably  evoked  after  each  stimulus 
+
+for  p  ms  and  then  zero  current 
+
+current  stimulation. 
+
+in  Fig.  8B.  To  display 
+
+for  such  trains  of  hyperpolarizing 
+
+The  dependence  of  LTS  amplitude 
+
+pulse  duration 
+summarized 
+scale, we plot  the  adapted  peak  voltage  versusp/P,, 
+tion  of  hyperpolarization 
+the  response  amplitude 
+ulus,  approaching 
+
+on  the  frequency  and 
+pulses  is 
+the  results  on  a  single 
+the  frac- 
+per  cycle.  Indeed,  as one  expects, 
+increases  with  the  period  of the  stim- 
+longer  than  -300 
+
+for  periods 
+
+saturation 
+
+the  train. 
+
+A -2o- 
+
+-7o- 
+
+-120- 
+n 
+u-I1 
+
+-5 
+
+I 
+
+0 
+
+I3 -25, 
+
+Y  
+
+: 
+a_ 
+
+-45. 
+
+-55. 
+
+-65. 
+
+v 
+
+1 
+
+I 
+
+I 
+
+100 
+
+200 
+
+(ms) 
+
+Time 
+
+300 
+
+400 
+
+I 
+0 
+
+I 
+1 
+
+I 
+2 
+
+Hyperpolarizing 
+
+I 
+3 
+Current 
+
+I 
+4 
+
+(~A/crn2) 
+
+1 
+5 
+
+FIG.  7.  Current-clamp  simulations  showing  how  the LTS  amplitude 
+
+in- 
+stimulus.  A:  family  of 
+creases with  the  intensity  of the  hyperpolarizing 
+LTSs  evoked  by  200.ms  hyperpolarizing 
+in  magnitude 
+from  -  1 to  -5  PA/cm2  (gT =  0.2 mS/cm’).  B: peak  amplitude  of the LTS 
+plotted  vs. the magnitude  of the  applied  current  step. 
+
+steps increasing 
+
+846 
+
+A  O- 
+
+n 
+
+U 1 
+- 2 
+
+I 
+
+200 
+
+. 
+
+‘PO-- 
++  P- 
+I 
+
+I 
+
+400 
+
+I 
+
+600 
+Time 
+
+I 
+
+800 
+(ms) 
+
+B -25  1 
+
+Y  
+03 
+a 
+
+F -J 
+
+-45 
+
+-55 
+
+1 
+
+-65’ 
+
+0 
+
+0.2 
+
+0.4 
+
+0.6 
+
+0.8 
+
+1.0 
+
+P/P 0 
+
+FIG.  8.  Response  of the  model  to  a repetitive  train  of hyperpolarizing 
+current  pulses. Repetition  period  of stimulus  is P,  and  the step duration 
+is 
+P-  4pp  =  -2pmA/cm2  and  g,  =  0.25 mS/cm2. A: time  course  of membrane 
+potential  for  P,  =  200  ms and  p  =  120 ms (~-HZ  stimulus).  After  a single 
+response  at the  start  of the  train  (not  shown),  the  LTS 
+larger  amplitude 
+amplitude  adapts  rapidly 
+to  a  constant  amplitude.  B:  LTS  amplitude 
+(adapted)  vs. p/P,.  Curves are for different  stimulus  periods  (P,  =  50,  100, 
+200,300,  or 400 ms) and  are labeled  with  the corresponding 
+frequencies  in 
+Hz. Salient  features: I) the LTS  response is significantly  attenuated  if stimu- 
+lus frequency  exceeds 10 Hz;  2)  response saturates for frequencies  ~3  Hz; 
+3) for a given  PO, the LTS  amplitude 
+first increases with  the duration  of the 
+hyperpolarization 
+(as described  in  Fig.  6)  but  then  falls suddenly  as the 
+off-time  of the  stimulus,  P,  -  p,  becomes  shorter  than  the rise time  of the 
+full-amplitude  LTS. 
+
+thalamic 
+
+neurons  exhibit 
+1988).  Computations 
+
+in 
+
+(IPSPs)  observed 
+
+potentials 
+rather  smooth  decays  (Thompson 
+with  our  model, 
+phase,  yield  results  similar 
+DISCUSSION 
+T-type  Ca2+  current  and  the  LTS 
+
+in  which  Zapp has  an  exponential 
+
+decay 
+
+to  those  above  (not  shown). 
+
+recordings  using  enzymatically 
+
+We  have  presented  a theoretical  model  of the  T-type  Ca2’ 
+from  recent 
+channel  based  on  kinetic  parameters  derived 
+isolated 
+tha- 
+voltage-clamp 
+relay  neurons.  By  virtue  of  the  isolation  procedure, 
+lamic 
+compact,  allowing  excellent  spa- 
+these  cells  are  electrically 
+of  kinetic 
+tial  voltage  control  and  accurate  determination 
+parameters 
+the  T-type 
+(Kay  and  Wong  1987).  Although 
+Ca2+ channel  shares  certain  kinetic  characteristics  with  the 
+voltage-dependent 
+Na+  channel  of  fast  action  potentials 
+(Hodgkin 
+
+and  Hux  ley  1952),  an  im  portant  difference  be- 
+
+WANG  ET  AL. 
+
+v 
+
+I 
+
+1 
+
+A 
+
+- 
+
+I 
+
+1000 
+
+I 
+
+1200 
+
+conditions 
+
+current-clamp 
+
+of  the  deinactivation 
+
+process  and  controls 
+
+current  and  voltage 
+
+two  phases,  the  second  of  which 
+
+tween  the  two  is that  inactivation 
+of  the  T-type  Ca2+ chan- 
+nel  occurs  in 
+is  much 
+slower  than  the  first.  To  describe  this  characteristic  of Z=, we 
+gate  with  two 
+proposed  a kinetic  scheme  of the  inactivation 
+steps  that  possess disparate 
+transition 
+time  constants.  The 
+from  the  deep  closed  state  is shown  to  serve as a 
+slow  outlet 
+“bottleneck” 
+its 
+time  course. 
+We  studied 
+
+the  behavior  of  our  model  of the  T-type  Ca2+ 
+current  under  simulated 
+in  an 
+idealized  cell  endowed  only  with  Ca2+  channels  and  a leak- 
+age  pathway.  Calculated 
+trajectories 
+based  on  the  model  compare  well  with  the  experimental 
+into  the  long  recovery 
+data  and  in  particular  provide 
+time 
+for  the  T-type  Ca2+ current  and  the  LTS.  Thus  there  is 
+a close  correspondence  between  the  recovery  of the  current 
+in  a  simulated 
+(Fig.  4A)  and  the  ac- 
+tual  experimental 
+in  two  independent  experi- 
+ments  (Fig.  4B).  Moreover, 
+we find  that  the  shape  (Fig.  5)  and  recovery  (Fig.  6)  of  the 
+LTS  closely  match  results  obtained 
+from  enzy- 
+thalamic  neurons  (Suzuki  and  Rogawski 
+matically 
+1989)  as well  as those  obtained 
+in  tha- 
+et  al.  1989;  Jahnsen  and  Llinas 
+lamic 
+1984a,b;  Llinis  and  Jahnsen  1982;  Thompson 
+1988).  The 
+to  account 
+model  allows  sufficient 
+for  certain  ex- 
+in  cellular  responsiveness, 
+perimentally 
+including 
+of  the  plateau  phase  that 
+precedes  the  rapid  upstroke  of  the  LTS 
+experiments 
+
+flexibility 
+observed  variations 
+the  variable  duration 
+
+two-pulse  experiment 
+
+from  relay  neurons 
+
+in  current-clamp 
+
+in  current-clamp 
+
+slices  (Crunelli 
+
+data  obtained 
+
+in  recordings 
+
+simulations, 
+
+(Fig.  5). 
+
+isolated 
+
+insight 
+
+regarding 
+
+that  bursting 
+
+low-threshold 
+
+to  the  proposal 
+
+(T-type)  Ca2+ channels 
+
+is mediated  by  Ca2+-dependent 
+
+relay  neurons  has  several  implications 
+
+in  the  bursting  behavior  of  some  neurons 
+
+Our  theoretical  model  of  the  T-type  Ca2+ channel 
+
+in  tha- 
+the 
+in  thalamic  physiology  and  perhaps 
+states,  such  as absence  seizures. 
+in  thalamic  and  other  cen- 
+
+lamic 
+role  of  these  channels 
+also  in  pathophysiological 
+The  demonstration 
+low-threshold 
+tral  neurons 
+identifi- 
+spikes  (see Llinas  1988)  along  with  the  subsequent 
+in 
+cation  of  transient 
+various  neuronal  and  muscle  cells  (Carbone  and  Lux  1984; 
+Hagiwara  et  al.  1988;  Nilius  et  al.  1985;  Nowycky  et  al. 
+that  these  channels  play 
+1985)  led  naturally 
+a  role 
+(Miller 
+studies  have  provided 
+1987).  Subsequent  pharmacological 
+strong  confirmatory 
+evidence  that  T-type  Ca2+ channels  are 
+critical 
+to  the  generation  of  the  LTS  event,  at  least  in  tha- 
+lamic  neurons 
+the 
+1988).  Nevertheless, 
+intrinsic  properties  of  these  active  elements  alone  are  re- 
+features  of the  LTS.  Our  model  sug- 
+sponsible 
+gests that  they  are.  Although  other  membrane 
+currents  may 
+the  likelihood  with  which  a given  synaptic 
+perhaps  modify 
+stimulus  elicits  an  LTS  and  undoubtedly 
+play  a role  in  sub- 
+tly  shaping 
+properties  of the  T-type  Ca2+ channel  alone  are sufficient 
+generate  the  main 
+
+it  has  remained  unclear  whether 
+
+the  intrinsic 
+to 
+
+(Suzuki  and  Rogawski 
+
+trajectory  of  the  LTS, 
+
+features  of  the  LTS. 
+
+1989;  Thompson 
+
+for  the  main 
+
+the  voltage 
+
+Limitations 
+Despite 
+
+of the  model 
+
+its  utility,  our  model  of  the  thalamic 
+
+ron  has  certain 
+other  voltage-  and  Ca2+- dependent  currents, 
+
+limitations. 
+
+relay  neu- 
+First,  it  ignores  the  presence  of 
+the 
+
+including 
+
+T-TYPE  Ca2+  CURRENT 
+
+IN  THALAMIC 
+
+NEURONS 
+
+847 
+
+that 
+
+alter 
+
+thalamic 
+
+influence 
+
+in  shaping 
+
+in  thalamic 
+
+is  sufficient 
+
+to  generating 
+
+does  not  alter 
+
+to  substantially 
+
+role  in  specifying 
+
+fast  Na+-dependent 
+
+Simulations 
+Z*  with 
+
+neurons  are  such  that 
+
+cation  current 
+likely 
+
+(Ionic  currents  associated  with 
+
+levels;  i.e.,  in  thalamic  neurons, 
+-50  mV  and  one-half  activation 
+
+transient  K+  current  (Z*)  (Rogawski  1985;  Rudy  1988)  and 
+a  hyperpolarization-activated 
+(I,;  McCor- 
+the  cell’s 
+mick 
+and  Pape  1990), 
+subthreshold  behavior.  Because  our  model 
+to 
+the  characteristic 
+reproduce 
+features  of  the  LTS,  we  pro- 
+these  currents  may  alter  the  rate  and  pattern  of 
+pose  that 
+repetitive  bursting  but  are  not  critical 
+the 
+action  po- 
+burst  other  than 
+the  Na+  spike  do 
+tentials. 
+the  trajectory 
+not  appear  to  play  a  major 
+of  the  LTS  because  tetrodotoxin 
+the  LTS 
+properties  of  the  ac- 
+shape.)  In  fact,  the  voltage-dependent 
+tive  K+  currents 
+they 
+would  not  be  predicted 
+the  voltage 
+the  classical  delayed  rectifier 
+trajectory  of  the  LTS.  Unlike 
+K+  current  (Z&  of  the  squid  giant  axon  (but  similar 
+to  the 
+in  some  other  central  neurons;  see, e.g.,  Ffrench- 
+current 
+relay  cells 
+Mullen 
+and  Rogawski  1989),  Zk  in 
+shows substantial  activation  only  on  depolarization 
+to  po- 
+than  about  -20  mV  (S.  Suzuki  and 
+tentials  more  positive 
+M.  A.  Rogawski,  unpublished 
+observations),  a level  that  is 
+not  reached  by  the  LTS.  ZA is  activated  at  somewhat  more 
+the  thresh- 
+hyperpolarized 
+old 
+is  about 
+occurs  at 
+about  -  30  mV  ( [Ca2+10 =  5 mM).  The  peak  conductance  of 
+is  comparable  with  that  of  the  T- 
+ZA in  thalamic  neurons 
+type  Ca*+  current.  The  current  activates  rapidly 
+(<  10  ms) 
+and  inactivates  with  a  time  constant  of  -60-80  ms  (at 
+temperature). 
+room 
+in- 
+cluded  an  additional 
+deter- 
+for  normal 
+mined  parameters 
+that  Z* caused  at 
+[Ca*‘l,  and  body  temperature), 
+of 
+most  a modest  (<  18%)  reduction 
+the  LTS  with  little  effect  on  its  shape.  Z*  in  thalamic 
+relay 
+inactivated  at  about  -75  mV.  We  tested  the 
+cells  is one-half 
+sensitivity  of  the  computed  LTS 
+the 
+point  and  found  that  a 
+voltage  axis  of  this  half-inactivation 
+does  not  substantially 
+shift 
+direction 
+alter  the  shape  of  the  LTS,  although 
+its  amplitude 
+is further 
+reduced  (33%  for  +  10  mV).  We  therefore  conclude 
+that 
+neither  of the  major  voltage-dependent 
+K+  currents  is criti- 
+the  voltage  trajectory  of the  LTS,  but  these 
+cal  to  specifying 
+currents  may  modify 
+the 
+interval  between  burst  events  and  will  certainly  need  to  be 
+in  a  complete  model  of  the  electrore- 
+taken 
+regard  to 
+sponsiveness  of  the  thalamic 
+Ca*+-activated  K+  channels, 
+is  available 
+for  thalamic  neurons,  and,  in  fact,  slow  Ca*+-activated  K+ 
+channels  may  not  exist  in  these  cells  (see McCormick 
+and 
+to  speculate 
+Pape  1990),  so that  at  present  it  is  premature 
+on  the  role  these  channels  might  play  in  determining 
+the 
+membrane  potential  behavior  during  bursting. 
+relay  neuron 
+that  we did 
+not  consider 
+complexity  and  the  possi- 
+ble  presence  of  T-type  Ca *+  channels  on  cellular  processes 
+as well  as on  the  soma. 
+In  other  neuronal  cell  types,  Ca*+ 
+channels  have  been  localized 
+regions  (Jones  et 
+al.  1989;  Lipscombe  et  al.  1988;  Llinas  1988;  Llinas  and 
+1980;  Tank  et  al.  1988;  Westenbroek  et  al.  1990). 
+Sugimori 
+of  T-type  Ca*’  channels  has  not  yet  been 
+The  distribution 
+determined, 
+these 
+
+relay  neuron.  With 
+little 
+
+the  behavior  of  the  cell  during 
+
+(with  appropriate  adjustment 
+
+feature  of the  thalamic 
+
+of  our  model,  which 
+
+to  the  position  along 
+
+in  the  peak  amplitude 
+
+these  experimentally 
+
+in  the  depolarizing 
+
+is  some  evidence 
+
+is its  morphological 
+
+into  account 
+
+to  dendritic 
+
+information 
+
+indicated 
+
+although 
+
+there 
+
+that 
+
+Another 
+
+determines 
+
+to  dendrites  would  complicate 
+
+(Harris  et al.  1989).  In 
+channels  may  be present  in  dendrites 
+relay  neurons,  T-type  Ca*+  channels  are  clearly 
+thalamic 
+present 
+dendritic  membrane 
+in  the  somatic  or  proximal 
+(Steriade  et al.  1990;  Suzuki  and  Rogawski  1989);  however, 
+to  which  the  channels  are  also  present  on  distal 
+the  extent 
+dendrites 
+is  uncertain.  Nevertheless,  spatial  segregation  of 
+Ca*+  channels 
+the  interpre- 
+tation  of interactions  between  local  synaptically  driven  den- 
+dritic  potentials  and  the  firing  behavior  of  the  soma  that 
+the  output  properties  of  the  cell. 
+presumably 
+This  problem 
+observa- 
+is  highlighted 
+(1988) 
+tion  of  Thompson 
+IPSPs,  which  cause  no 
+change  in  membrane 
+potential  measured  at  the  soma,  are 
+capable  of  evoking  an  LTS,  presumably  because  they  suffi- 
+local  regions  of  the  dendritic  mem- 
+ciently  hyperpolarize 
+brane.  Nevertheless, 
+in  general  terms,  our  model  of the  LTS 
+to  the  local  milieu  of the  dendrite  as it  is to 
+is as applicable 
+in  den- 
+the  soma.  However, 
+locally 
+to  the  soma 
+drites, 
+to 
+generate 
+and  Catterall 
+1986). 
+
+it  must  presumably  be  transmitted 
+(Wollner 
+
+by  the  experimental 
+that 
+
+fast  action  potentials 
+
+is generated 
+
+if  the  LTS 
+
+thalamic 
+
+nucleus, 
+
+Although 
+
+oscillation 
+
+determined 
+
+can  be accounted 
+
+has  been  observed  in  both 
+(Leresche  et  al.  1990;  McCormick 
+the  experimentally 
+
+Endogeneous oscillations in thalamocortical  relay neurons 
+IO-Hz  spindling 
+of  relay  neu- 
+to  be  crucially  dependent  on  the  phasic 
+the  reticular 
+the  T-type  Ca*+ 
+ionic  currents,  might  endow 
+together  with  other 
+relay  neurons  with 
+the  capability 
+of  generating 
+In  fact,  a  slower,  l-  to  2- 
+in  vivo 
+
+the 
+rons  is  believed 
+inhibition 
+from 
+current, 
+thalamic 
+endogeneous  bursting  behaviors. 
+Hz  bursting  oscillation 
+and  in  vitro  recordings 
+and  Pape  1990).  With 
+pa- 
+rameter  values,  our  model  does not  display  rhythmic  behav- 
+and  Pape  (1990)  have  suggested  that  the 
+ior.  McCormick 
+l-  to  ~-HZ  oscillation 
+for  by  the  combina- 
+tion  of  the  T-type  Ca*+  current  and  the  hyperpolarization- 
+activated  cation  current 
+they  characterized 
+their 
+Zh enables  our  model 
+we  use  the  kinetic  parameters 
+vided  by  these  authors; 
+increased 
+current 
+
+in 
+that  inclusion  of 
+if 
+for  the  h-type  current  pro- 
+is 
+
+if  the  passive  time  constant  C,/g, 
+to  50  ms,  and  if  a  strong  steady  hyperpolarizing 
+
+(unpublished 
+the  conditions  under  which,  without  Zh, 
+to 
+in  the  frequency  range  of 
+
+values  in  our  model  might  be  modified 
+
+the  parameter 
+produce  self-sustained  oscillations 
+10  Hz.  After  examining 
+without  success, we  found 
+either  of  the  following 
+are  translated  along 
+points  closer  together 
+our  model  generates  repetitive  LTSs  in  response  to  a con- 
+stant  hyperpolarizing 
+auto- 
+oscillatory  activity  occurs  when  the  slow  phase  of  inactiva- 
+tion 
+
+occurs  under 
+two  conditions.  When  m,  and  h, 
+their  mid- 
+
+to  produce  similar  slow  oscillations 
+
+than  are  observed  experimentally, 
+
+current  (Fig.  9).  Alternatively, 
+
+slice  recordings.  We  found 
+
+the  voltage  axis  to  bring 
+
+by  setting  d = 0. 
+
+We  also  explored 
+
+that  rhythmicity 
+
+observations). 
+
+is  eliminated 
+
+(Zh), which 
+
+is  applied 
+
+Recently,  Rose  and  Hindmarsh 
+
+ferent  theoretical  model  of  the  thalamic 
+supports  endogenous 
+differs  from 
+tional 
+form 
+
+(1989)  developed  a  dif- 
+relay  cell  that  also 
+This  model 
+the  present  one  by  utilizing 
+func- 
+for  the  low-threshold  Ca*+  current  (I,  in  their 
+
+oscillatory 
+
+a  simpler 
+
+bursting. 
+
+a  range  of  values  for  g,  and  Zai.,p 
+
+848 
+
+WANG  ET  AL. 
+
+currents 
+
+behavior 
+
+(inactivating) 
+
+and  by  including 
+
+model  was formulated 
+
+(TV, =  25  ms).  The  other  currents 
+
+leakage  current.  Under  such  circumstances, 
+
+several  other  currents.  The 
+notation) 
+before  the  avail- 
+Rose-Hindmarsh 
+data  on  the  T-type  Ca2+ 
+ability  of  the  recent  voltage-clamp 
+for  the 
+current  in  thalamic  neurons,  and  it  does  not  account 
+gate 
+slow  recovery  of  the  T-current.  Thus  the  inactivation 
+time 
+for  I,  has two  states  and  a  single  voltage-independent 
+in  the  model 
+constant 
+delayed- 
+include  a  fast Na+  current  , I Na; a noninactivating, 
+rectifier  K+  current,  ZK;  a  transient 
+K+ 
+current,  Z*;  and  a leakage  current,  Zi,. In  the  subthreshold 
+voltage 
+range,  ZNa, ZK,  and  Z*  are  small  and  not  strongly 
+they  may  be cast  into  an 
+voltage  dependent.  Consequently, 
+“effective” 
+this 
+in  response  to  ap- 
+model  predicts  current-clamp 
+in  the 
+plied  current  similar 
+absence  of the  slow  inactivation 
+the 
+additional 
+lead  to  spike 
+in  response  to  a  depo- 
+generation  when  V passes threshold 
+larizing  stimulus.  Under  a constant  hyperpolarizing 
+current 
+bursting 
+their  model  also  exhibits 
+LTS-driven 
+oscillations.  Although 
+is  un- 
+to  the  in  vivo  behavior  of  thalamic 
+likely 
+to  be  relevant 
+that  such  rhythmic 
+relay  neurons  per  se, it  is  conceivable 
+burst  firing  occurs  in  neurons  of  the  nucleus  reticula& 
+tha- 
+lami,  which  also  possess T-type  Ca2+  channels  and  which 
+(Mulle  et  al.  1986).  In  fact,  it 
+may  be  capable  of  oscillations 
+the  burst 
+is  believed 
+our 
+firing  of  relay  neurons  (Steriade  et  al.  1987).  Similarly, 
+model  could  be  applicable 
+to  the  reticularis  neurons 
+if  the 
+T-type  Ca2+  channels 
+in  these  cells  had  the  characteristics 
+described  above. 
+
+these  latter  neurons  may  drive 
+
+to  that  of  our  present  model 
+
+repetitive 
+this  automatic 
+
+in  their  complete  model 
+
+step  (d  =  0).  Moreover, 
+
+firing  mode 
+
+We  are  still  at  an  early  stage  of  identifying 
+
+the  relative 
+cellular  properties  and  by 
+contributions  made  by  intrinsic 
+the  rhythm.  As  addi- 
+intercellular 
+tional  biophysical  data  become  available,  we anticipate 
+that 
+theoretical  models  will  be improved  and  will  be used  to  gain 
+
+in  generating 
+
+coupling 
+
+that 
+
+- 
+
+7n- 
+JU 
+
+-  55 wuuu 
+
+-  80 -I 
+
+V 
+
+I 
+
+1 
+
+0 11 
+
+I 
+200 
+
+h 
+
+I 
+400 
+
+I 
+600 
+Time 
+
+I 
+800 
+(ms) 
+
+I 
+
+1000 
+
+I 
+
+1200 
+
+FIG.  9.  LTS  model  exhibits  intrinsic  oscillations 
+
+for  altered  parameter 
+values. Modest  translations  of the voltage dependence  of m,(  v) and h,(v) 
+cause them  to  overlap.  In  this  example,  the  midpoint  of m,(  v  is shifted 
+from  -63  to -65  mV and  that  of h,(  v) from  -83.5  to  -75  mV. With  g,  = 
+0.2  mS/cm2  and  Iapp  =  -  1 .O PA/cm’, 
+the  oscillation  period  is  -200  ms 
+(body  temperature). 
+
+further 
+rhythms. 
+
+insight 
+
+into 
+
+the  mechanisms 
+
+that  underlie 
+
+these 
+
+arising 
+
+thalami 
+
+thalamic 
+
+potentials 
+
+relay  neurons 
+
+in  vivo  have  indicated 
+
+IPSPs  elicited  by  stimulation 
+
+potential 
+of  the  inhibitory 
+
+in  the  cortical  electroencephalogram 
+
+Under  ordinary  conditions,  burst  firing  of  thalamic 
+
+Implications for  thalamic spindling  and absence seizures 
+relay 
+neurons  occurs  during  slow-wave  sleep  and  is  associated 
+(Ster- 
+with  spindling 
+recordings 
+iade  and  Deschenes  1984).  Electrophysiological 
+from 
+that 
+is accompanied  by  a barrage  of 
+burst  firing  during  spindling 
+inhibitory 
+in  the  nearby 
+from  neurons 
+(Houser  et  al.  1980;  Roy  et  al. 
+nucleus  reticularis 
+1984;  Steriade  et  al.  1986).  These  inhibitory 
+events  deinac- 
+the  T-type  Ca2+  current  so that  an  LTS  and  a burst  of 
+tivate 
+spikes  is  elicited  as  the  membrane 
+of  the  relay 
+neuron  recovers  at  the  termination 
+drive. 
+from  relay  neu- 
+Such  a scheme  is  supported  by  recordings 
+that 
+rons  in  thalamic  brain  slices,  which  have  demonstrated 
+trains  of  conventional 
+of  the 
+can  result  in  the  rebound  excitation  of 
+nucleus  reticularis 
+an  LTS  without 
+input 
+in  these  in  vitro  studies,  the 
+(Thompson 
+inhibitory 
+for  >50-  100  ms, 
+in  vivo  have  shown  that  the  IPSPs  typically 
+and  recordings 
+have  a  duration 
+in  our 
+current-clamp 
+the  voltage 
+for  activation  of the  LTS  by  a hyper- 
+and  time  dependency 
+polarizing 
+is seen to  increase 
+in  a  monotonic 
+steps 
+(Fig.  7),  and  this  corresponds  with  the  graded  nature  of the 
+in  brain  slices  (Thompson 
+LTS  recorded 
+1988).  Moreover, 
+(Fig.  8)  that  the  period  of  hyperpolarization 
+it  is  apparent 
+required 
+is  compatible 
+with  the  IPSP  duration 
+actual  duration  of the  inhibition 
+iological  conditions 
+Fig.  8  are  strikingly 
+tions  of McCormick 
+lar  fashion 
+
+in  the  in  vitro  recordings  and  the 
+recorded  under  more  phys- 
+in  vivo.  We  note  that  the  predictions  of 
+observa- 
+similar 
+to  the  experimental 
+and  Feeser ( 1990),  displayed 
+in  a simi- 
+
+simulations  we have  investigated 
+
+of  60-120  ms.  Consequently, 
+
+drive  needed  to  be  maintained 
+
+stimulus.  The  LTS  amplitude 
+
+larger  hyperpolarizing 
+
+of  any  excitatory 
+
+in  our  simulations 
+
+to  evoke  an  LTS 
+
+1988).  However, 
+
+in  their  Fig.  3. 
+
+the  intervention 
+
+fashion  with 
+
+frequency  of  -  10  Hz.  Does  our  theoretical  model  permit 
+bursting 
+to  occur  at  this  rate?  In  vivo  recordings  have  indi- 
+cated  that  the  hyperpolarization 
+level  between  bursts  is -80 
+mV  (see,  e.g.,  Fig.  2C  in  Deschenes  et  al.  1984).  The  slow 
+time  constant  of  inactivation 
+of  the  T-type  Ca2+ current  at 
+-80  mV  is  275  ms  (measured  at  25OC  and  with  [Ca2+],  =  3 
+mM).  Using 
+the  Q,,  of  3 determined  by  Coulter  et al.  (1989) 
+to  correct  the  time  constant 
+(and  also 
+of  2.5  mM), 
+correcting 
+we obtain  an  estimate 
+time  con- 
+stant  at  -80  mV  of  90  ms,  which  should  allow  the  T-type 
+Ca2+ current 
+
+to  be  activated  at  a sufficient  rate. 
+
+for  the  in  vivo  Ca2’  concentration 
+
+for  the  in  vivo  inactivation 
+
+to  body  temperature 
+
+the  generation 
+
+of  the  spike-and-wave 
+
+The  thalamus  has  long  been  considered 
+
+to  be  a  critical 
+dis- 
+structure 
+charges  recorded 
+the  cortex  during  absence  seizures. 
+These  stereotyped  discharges  occur  at  a  frequency  of  3  Hz 
+events 
+in  cats and  humans;  similar  electroencephalographic 
+seizures 
+occur  at  8-  10  Hz 
+in  rodents  with  absence-like 
+(Vergnes  et  al.  1987,  1990).  It  has  been  argued 
+that 
+the 
+the  spike-wave  dis- 
+activity  of  the  thalamic  neurons  during 
+
+in 
+
+in 
+
+During  spindling, 
+
+thalamic  neurons  exhibit  bursting  at  a 
+
+T-TYPE  Ca2+  CURRENT 
+
+IN  THALAMIC 
+
+NEURONS 
+
+849 
+
+limit 
+
+for  the  frequency  of  burst 
+
+to  that  occurring  during  spindling 
+
+charge  is  similar 
+(Gloor 
+1984).  If  so, the  cells  would  fire  in  the  bursting  mode 
+that  is 
+dependent  on  T-type  Ca*+  channels.  Our  estimate  of  the 
+in  thalamic 
+upper 
+neurons 
+spike-wave 
+discharge  frequency  during  absence  seizures  in  rodents  (10 
+Hz).  Thus  our  results  indicate 
+is 
+competent 
+the  cat  and 
+human  or  rodent 
+
+firing 
+close  to  the  maximum 
+
+to  discharge  in  burst  mode  at  either 
+
+that  the  thalamic  neuron 
+
+is  surprisingly 
+
+frequencies. 
+
+APPENDIX 
+
+At  fixed voltage, the steady state of Eq. 3 determines 
+
+tions h,  and d,  for the inactivation variables h and d 
+
+the func- 
+
+To approximate 72 we use the fact X1X2 = D  in Eq.  A5  and then 
+eliminate X1 by using Eq.  A8  to obtain 
+
+72  =  A,-‘[1  +  K(1  +  K)]/(l  +  m2 
+
+(A9 
+This formula shows how one should adjust the measured 7, to 
+obtain 72; the factor involving K  is between 3/4 and 1. 
+
+We remark that Eq.  A9  may also be viewed as an approximation 
+for the slow time constant X2-’ of Eq.  3, which can be obtained in a 
+more direct way by exploiting the time scale differences in Eq.  3. 
+That is, because Eq.  3a describes a much faster process than Eq. 
+3b, we use the rapid equilibrium hypothesis on the former: assume 
+steady state, dh/dt = 0, and solve for h in terms of d. Substituting 
+this into Eq.  3b, we obtain a single first-order equation for d, the 
+decay rate of which approximates h, and which, when rewritten 
+using the definitions from Eq.  9, is equivalent to Eq. A9. 
+
+P2(1-h-d)=ar2d 
+
+Solving these 
+Eq.  9 yields 
+
+equations in terms of the new parameters defined in 
+
+h,  = 
+
+1 
+
+1 +  K,[l  +  K2] 
+
+The simplification K1 = K2 = K  leads to 
+
+h,= 
+
+’ 
+l+K+K2 
+
+(A24 
+
+(A-9 
+
+from which the expression for K, Eq.  11,  follows. 
+
+The time courses of h(t) and d(t) are determined by solving the 
+ordinary differential Eqs.  3, a and b, which are linear under volt- 
+age-clamp conditions. Each is a sum of two exponential terms 
+
+A0 +  A,  exp[-X,t]  +  A2 exp[-X,t] 
+
+where 4,  and ---X2 are the characteristic roots of this second-order 
+system. They satisfy the quadratic equation 
+
+X2+Tr 
+
+X+D=O 
+
+where 
+
+Tr  =  --(a,  +  p,  +  a2  +  P2)  =  -(l/q 
+1 +K(l 
++  P2)  =  7 7 (1 
+1  2 
+
+D  =  Qlcy2 
+
++  Ma2 
+
++  l/72) 
++K) 
++  K)2 
+
+(Am 
+
+Thus AI and X, are given by 
+
+A,, x2 = ;  (l/q + l/72) t 
+
+The directly measurable time constants in experiments are X,-r 
+and X,-l  (i.e., rh and rf, respectively) rather than 71  and 72. To get 
+analytic expressions for the latter, we must express them in terms 
+of X1 and X2. Therefore we invert Eq.  A6  to obtain 
+
+-1 
+
+71 
+
+972 
+
+-1 
+
+(A,  +  A,) t 
+
+0, 
+
++  X212 
+
+- 
+
+4(1  +  AQ2Xlh2 
+1 +K(l 
+I 
+
++K) 
+
+W-J 
+
+A  useful approximation for 71 may be obtained if we factor X, 
+out of the right side in Eq.  A7.  Now because the ratio X2/X1 is small 
+(because 7,  @ ?h), we form a Taylor’s series expansion and retain 
+only the first term to arrive at 
+
+71 =  A,-’ 
+
+WV 
+
+We thank  Dr.  Michael  Weinstein 
+
+for exploratory  simulations  with  ear- 
+
+lier  versions  of this  model. 
+
+Address 
+
+for  reprint 
+
+Branch,  NIDDK,  NIH,  Bldg.  3 1, Rm.  4B-54,  Bethesda,  MD  20892. 
+
+requests:  X.-J.  Wang,  Mathematical  Research 
+
+Received  2 1 December  1990; accepted  in  final  form  19 April  199 1. 
+
+REFERENCES 
+ANDERSEN, P.  AND ANDERSSON, S. A.  Physiological  Basis  of the Alpha 
+
+Rhythm.  New  York:  Appleton-Century-Crofts, 
+
+1968. 
+
+BOSSU, J.-L.  AND  FELTZ,  A.  Inactivation  of the  low-threshold 
+
+transient 
+calcium  current  in  rat  sensory neurones:  evidence  for a dual  process. J. 
+Physiol.  Land.  376:  341-357,  1986. 
+
+CARBONE, E. AND Lux,  H.  D. A  low  voltage-activated,  fully  inactivating 
+Ca channel  in  vertebrate  sensory neurons.  Nature  Land.  3 10: 50 l-502, 
+1984. 
+
+CARBONE, E. AND Lux,  H. D. Kinetics  and  selectivity of a low-voltage-ac- 
+in  chick  and  rat  sensory neurones.  J. Physiol. 
+
+tivated  calcium  current 
+Land.  386:  547-570,  1987a. 
+
+CARBONE, E. AND Lux,  H. D. Single  low-voltage-activated 
+
+calcium  chan- 
+nels in  chick  and  rat sensory neurones.  J. Physiol.  Land.  386: 57 l-60  1, 
+1987b. 
+
+COULTER, D.A.,  HUGUENARD, J.R., ANDPRINCE, D.A.Calciumcurrents 
+
+in  rat thalamocortical 
+low-threshold  current.  J. Physiol.  Lond.  4 14: 587-604,  1989. 
+
+relay  neurones:  kinetic  properties  of the transient 
+
+CRUNELLI,  V.,  LIGHTOWLER,  S., AND  POLLARD,  C.  E.  A  T-type  Ca2+ 
+current  underlies  low-threshold  Ca2+ potentials  in  cells of the cat and  rat 
+lateral  geniculate  nucleus.  J. Physiol.  Lond.  413:  543-56  1, 1989. 
+
+DESCH~NES, M.,  PARADIS, M.,  ROY,  J.P., ANDSTERLWE,  M.Electrophys- 
+in  rat:  resting  properties 
+
+iology  of neurons  of  lateral  thalamic  nuclei 
+and  burst  discharges.  J. Neurophysiol.  5 1: 1196-12  19, 1984. 
+
+ERMENTROUT, G. B. PHASEPLANE: 
+
+The  Dynamical  Systems Tool,  Ver- 
+
+sion  3.0.  Pacific Grove,  CA:  Brooks/Cole,  1990. 
+
+FFRENCH-MULLEN, J.M.H.  ANDROGAWSKI,  M.A.Interactionofphen- 
+cyclidine  with  voltage-dependent  potassium  channels  in  cultured 
+hippocampal  neurons:  comparison  with  block  of the  NMDA 
+ionophore  complex.  J. Neurosci.  9: 405 l-406  1, 1989. 
+
+rat 
+receptor- 
+
+FISHER, R. E.,  GRAY,  R., AND JOHNSTON, D.  Properties  and  distribution 
+of single  voltage-gated  calcium  channels  in  adult  hippocampal  neurons. 
+J. Neurophysiol.  64: 9 l-  104,  1990. 
+
+Fox,  A. P., NO~~CKY,  M.  C., AND TSIEN, R. W. Kinetic  and pharmacolog- 
+three  types of calcium  currents  in  chick  sen- 
+
+ical  properties  distinguish 
+sory neurones.  J. Physiol.  Lond.  394:  149-172,  1987a. 
+
+Fox,  A.  P.,  NOWYCKY,  M.  C., AND TSIEN, R. W.  Single-channel 
+
+record- 
+ings  of three  types of calcium  channels  in  chick  sensory neurones.  J. 
+Physiol.  Lond.  394:  173-200,  1987b. 
+
+FRANKENHAEUSER, B. ANDHODGKIN,  A.L.Theactionofcalciumonthe 
+
+electrical  properties  of  squid  axons.  J.  Physiol.  Land.  137:  218-244, 
+1957. 
+
+GLOOR,  P. Electrophysiology  of generalized  epilepsy.  In:  Electrophysiol- 
+ogy OfEpiZepsy, edited  by P. A.  Schwartzkroin  and  H.  V.  Wheal.  Lon- 
+don:  Academic,  1984, p.  109-  136. 
+
+HAGIWARA,N.,IRISAWA,  H.,  AND KAMEYAMA,  M.Contribution 
+
+oftwo 
+types of calcium  currents  to  the  pace-maker  potentials  of rabbit  sino- 
+atria1 node  cells. J. Physiol.  Land.  395:  233-253,  1988. 
+
+850 
+
+WANG  ET  AL. 
+
+HARRIS,  N. C., RAMSAY,  S., KELION,  A.,  AND  GREENFIELD, 
+
+S. A.  Electro- 
+physiological  evidence  for the  dendritic 
+localization  of a calcium  con- 
+ductance  in  guinea-pig  substantia  nigra  neurones  in  vitro.  Exp.  Brain 
+Res. 74: 411-416,  1989. 
+
+HERNANDEZ-CRUZ, 
+
+A.  AND  PAPE,  H.-C.  Identification  of two  calcium 
+currents  in  acutely  dissociated  neurons  from  the  rat  lateral  geniculate 
+nucleus.  J. Neurophysiol.  6 1: 1270-  1283,  1989. 
+
+HODGKIN, 
+
+A. L.  AND  HUXLEY, 
+
+brane  current  and  its application 
+J. Physiol.  Lond.  117: 500-544,  1952. 
+
+A.  F. A  quantitative  description  of mem- 
+to conduction  and  excitation  in  nerve. 
+
+HOUSER,  C. R., VAUGHAN, 
+
+neurons  are the major  cell type of the  nucleus  reticularis 
+Res. 200:  34 l-354,  1980. 
+
+J. E., BARBER,  R. P., AND  ROBERTS,  E. GABA 
+thalami.  Brain 
+
+H.  AND 
+
+properties  of 
+thalamic  neurones:  an in  vitro  study. J. Physiol.  Lond.  349: 
+
+R.  R.  Electrophysiological 
+
+LLIN&, 
+
+JAHNSEN, 
+
+guinea-pig 
+205-226,  1984a. 
+
+JAHNSEN,  H.  AND  LLIN~S,  R. R. Ionic  basis for the electroresponsiveness 
+thalamic  neurones  in  vitro.  J. 
+
+and  oscillatory  properties  of guinea-pig 
+Physiol.  Lond.  349:  227-247,  1984b. 
+
+JONES,  0.  T.,  KUNZE,  D.  L.,  AND  ANGELIDES,  K.  J. Localization  and mobil- 
+ity  of omega-conotoxin-sensitive  Ca2+ channels  in  hippocampal  CA 1 
+neurons  Science  Wash. DC  244:  1189-  1193,  1989. 
+
+KAY,  A.  R. AND  WONG,  R. K.  Calcium  current  activation  kinetics  in  iso- 
+lated  pyramidal  neurones  of the  CA1  region  of the  mature  guinea-pig 
+hippocampus.  J. Physiol.  Lond.  392:  603-6  16,  1987. 
+
+LERESCHE,  N.,  JASSIK-GERSCHENFELD, 
+
+I.,  AND 
+V.  Spontaneous  oscillations  of cat and  rat  thalamocortical 
+
+CRUNELLI, 
+cells in  vitro  (Abstract).  J. Physiol.  Lond.  426:  45P,  1990. 
+
+D.,  HABY,  M.,  SOLTESZ, 
+
+LIPSCOMBE,  D.,  MADISON, 
+
+D. V.,  POENIE,  M.,  REUTER,  H.,  TSIEN,  R. Y., 
+AND  TSIEN,  R. W. Spatial  distribution  of calcium  channels  and cytosolic 
+calcium  transients  in  growth  cones and  cell bodies  of sympathetic  neu- 
+rons.  Proc.  Natl.  Acad.  Sci.  USA  85: 2398-2402,  1988. 
+
+R.  R.  The  intrinsic  electrophysiological 
+
+properties  of mamma- 
+insights  into  central  nervous  system function.  Science 
+
+LLIN~, 
+
+lian  neurons: 
+Wash. DC  242:  1654-  1664,  1988. 
+
+LLIN,& 
+
+R. R. AND  JAHNSEN,  H.  Electrophysiology  of mammalian 
+
+mic  neurones  in  vitro.  Nature  Lond.  297:  406-408,  1982. 
+
+LLIN~S,  R.  R.  AND  SUGIMORI, 
+
+properties  of in 
+vitro  Purkinje  cell  dendrites  in  mammalian  cerebellar  slices. J. Physiol. 
+Lond.  305:  197-213,  1980. 
+
+M.  Electrophysiological 
+
+D. A.  AND  FEESER,  H.  R. Functional 
+
+implications  of burst 
+firing  and single spike activity  in lateral  geniculate  relay neurons.  Neuro- 
+science 39:  103-  113,  1990. 
+
+MCCORMICK, 
+
+thala- 
+
+D. A.  AND  PAPE,  H.-C. Properties  of a hyperpolarization-ac- 
+
+MCCORMICK, 
+
+tivated  cation  current  and  its  role  in  rhythmic  oscillation 
+relay  neurones.  J. Physiol.  Lond.  43 1: 29 l-3  18,  1990. 
+
+MILLER,  R. J. Multiple  calcium  channels  and  neuronal 
+
+Wash. DC  235: 46-52,  1987. 
+
+in  thalamic 
+
+function.  Science 
+
+MULLE,  C., MADARIAGA, 
+
+A.,  AND  DESCH~NES,  M.  Morphology  and  elec- 
+trophysiological  properties  of reticular-is  thalami  neurons  in cat: in  vivo 
+study of a thalamic  pacemaker.  J. Neurosci.  6: 2 134-2  145,  1986. 
+
+NILIUS,  B., HESS, P.,  LANSMAN, 
+
+J. B., AND  TSIEN,  R. W.  A  novel  type of 
+
+749,  1988. 
+
+STERIADE,  M.  AND  DEXH~NES, 
+
+Brain  Res. Rev. 8:  1-63,  1984. 
+
+M.  The  thalamus  as a neural  oscillator. 
+
+cardiac  calcium  channel 
+446,  1985. 
+
+in  ventricular  cells. Nature  Lond.  3 16: 443- 
+
+NOWYCKY, M.  C., Fox,  A.  P., AND  TSIEN,  R. W. Three  types of neuronal 
+calcium  channel  with  different  calcium  agonist  sensitivity. Nature  Lond. 
+3 16: 440-443,  1985. 
+
+ROGAWSKI,  M.  A.  The  A-current:  how  ubiquitous  a feature  of excitable 
+
+cells is it?  Trends  Neurosci.  8: 2 14-2  19, 1985. 
+
+ROSE,  R. M.  AND  HINDMARSH, 
+
+J. L.  The  assembly of ionic  currents  in  a 
+thalamic  neuron.  I-III.  Proc.  R. Sot.  Lond.  B  Biol.  Sci.  237:  267-334, 
+1989. 
+
+ROY,  J. P., CLERCQ,  M.,  STERIADE,  M.,  AND  DESCH~NES,  M.  Electrophysi- 
+ology of neurones  of lateral  thalamic  nuclei  in  cat: mechanisms  of long- 
+lasting  hyperpolarizations. 
+
+J. Neurophysiol.  5 1: 1220-  1235,  1984. 
+
+RUDY,  B.  Diversity  and  ubiquity  of K  channels.  Neuroscience  25:  729- 
+
+STERIADE,  M.,  D~MICH, 
+
+L.,  AND  OAKSON,  G. Reticular-is thalami  neurons 
+revisited:  activity changes during  shifts in  states of vigilance.  J. Neurosci. 
+6: 68-81,  1986. 
+
+L.,  OAKSON,  G.,  AND  DESCH~ES, 
+
+M.  The  deaf- 
+thalamic  nucleus  generates  spindle  rhythmicity.  J. 
+
+STERIADE,  M.,  D~MICH, 
+
+ferented  reticular 
+Neurophysiol.  57: 260-273,  1987. 
+
+STERIADE,  M.,  JONES,  E. G., AND  LLIN& 
+Signaling.  New  York:  Wiley,  1990. 
+
+R. R. Thalamic  Oscillations  and 
+
+THOMPSON, 
+
+SUZUKI, S. AND  ROGAWSKI,  M.  A.  T-type  calcium  channels  mediate  the 
+transition  between  tonic  and  phasic  firing  in  thalamic  neurones.  Proc. 
+NatI.  Acad.  Sci.  USA  86:  7228-7232,  1989. 
+
+TANK,  D. W.,  SUGIMORI,  M.,  CONNOR, 
+
+R. R. Spatially 
+resolved  calcium  dynamics  of mammalian  Purkinje  cells in  cerebellar 
+slice.  Science  Wash. DC  242:  773-777,  1988. 
+
+J. A.,  AND  LLIN& 
+
+A.  M.  Inhibitory  postsynaptic  potentials  evoked  in  thalamic 
+neurones  by stimulation  of the  reticular-is  nucleus  evoke slow  spikes in 
+isolated  rat  brain  slice. I. Neuroscience  25: 49 l-502,  1988. 
+
+TSIEN,  R. W.,  Fox,  A.  P., HESS, P.,  M~CLESKEY, 
+
+E. W.,  NILIUS,  B., No- 
+WYCKY,  M.  C., AND  ROSENBERG,  R. L.  Multiple 
+type of calcium  chan- 
+nel in excitable  cells. In: Society of General  Physiologists  Series. Proteins 
+of Excitable  Membranes,  edited  by B. Hille  and  D. M.  Fambrough.  New 
+York:  Wiley,  1987, vol. 4 1, p.  167-  188. 
+
+VERGNES,  M.,  MARESCAUX, 
+
+C., AND  DEPAULIS,  A.  Mapping  of spontane- 
+ous  spike  and  wave  discharges  in  Wistar  rats  with  genetic  generalized 
+non-convulsive  epilepsy.  Brain  Res. 523:  87-9  1, 1990. 
+
+VERGNES,  M.,  MARESCAUX, 
+
+G.,  AND 
+J. M.  Spontaneous  spike and  wave discharges in thalamus  and 
+WARTER, 
+cortex  in  a rat model  of genetic  petit  mal-like  seizures. Exp.  Neural.  96: 
+127-136,  1987. 
+
+A.,  MICHELETTI, 
+
+C.,  DEPAULIS, 
+
+R. E., AHLIJANIAN, 
+
+M.  K.,  AND  CATTERALL,  W. A.  Clus- 
+tering  of L-type  Ca2+ channels  at the  base of major  dendrites  in  hippo- 
+campal  pyramidal  neurons.  Nature  Land.  347:  28 l-284,  1990. 
+
+D. A.  AND  CATTERALL,  W. A. Localization  of sodium  channels 
+in  axon  hillocks  and initial  segments of retinal  ganglion  cells. Proc. Natl. 
+Acad.  Sci.  USA  83: 8424-8428,  1986. 
+
+WESTENBROEK, 
+
+WOLLNER, 
+
+

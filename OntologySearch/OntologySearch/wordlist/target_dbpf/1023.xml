@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1023">
+<itemtype>xnppaper</itemtype>
+<titles><title>Spread of synchronous firing in longitudinal slices from the CA3 region of the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-22T06:34:38Z</last_update_date>
+<creation_date>2008-07-22T06:34:38Z</creation_date>
+<publication_year>1988</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1023</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1023" version="1.02">
+<authors><author>Miles R</author><author>Traub RD</author><author>Wong RK</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>60</volume>
+<number>4</number>
+<page>1481-96</page>
+<abstract>1. Mechanisms underlying the propagation of synchronous epileptiform activity in disinhibited hippocampal slices were examined in experimental and computer simulation studies. 2. Experiments were performed with longitudinal slices of the CA3 region. Synchronous firing was initiated by stimulating stratum radiatum fibers in the presence of picrotoxin. It propagated smoothly and without decrement at velocities close to 0.15 m/s over distances up to 10 mm. 3. In elevated extracellular calcium, neuronal firing threshold was increased and synchronous burst firing did not spread. Monophasic excitatory postsynaptic potentials (EPSPs) were recorded in cells at limited distances from a stimulus in the presence of 10 mM Ca and picrotoxin. Axonal conduction velocity, estimated from EPSP latencies, was several times faster than the spread of synchronous firing. 4. EPSPs recorded in 5-7 mM Ca and picrotoxin could consist of two components. The properties of the first component were similar to those of synaptic events recorded in 10 mM Ca. The second component was of longer latency and unlike the first component was suppressed in responses to paired stimuli at interval 50-300 ms. Recordings from cells at different distances from a stimulus suggested that the second component spread further and more slowly than the first component. 5. In computer simulations the CA3 region was represented by a spatially distributed network of 9,000 excitatory neurons and 900 inhibitory cells. Individual cells and synapses had properties based on experimental data. The effects of varying synaptic strength and connectivity on the spread of activity in the model was examined. 6. When synaptic inhibition was functional in simulations, firing was restricted to a single action potential in model cells close to the stimulus, as in experiments. Synchronous burst firing spread throughout the neuronal array when fast synaptic inhibition was absent. The velocity of propagation was slower than conduction in simulated axons when synaptic contacts made by excitatory cells were spatially limited. Propagation velocity increased with increases in the spatial extent of excitatory connectivity. 7. Increasing the threshold of neurons in a region of the model network reduced the speed at which synchronous firing spread. In experiments focal application of gamma-aminobutyric acid (GABA) elevated neuronal firing threshold and slowed the propagation of synchrony in a local region. 8. As the strength of synaptic inhibition was gradually reduced, neuronal activity spread further and faster through the simulated neuronal network.(ABSTRACT TRUNCATED AT 400 WORDS)</abstract>
+<pubmed_id>3193167 </pubmed_id>
+</detail>
+</item>

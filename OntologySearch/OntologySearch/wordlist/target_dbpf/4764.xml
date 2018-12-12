@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4764">
+<itemtype>xnppaper</itemtype>
+<titles><title>Frequency modulation of neuronal theta-bursts in rabbit&#039;s septum by low-frequency repetitive stimulation of the afferent pathways.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Afferent Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Chinchilla</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Medial Forebrain Bundle</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Septal Nuclei</keyword>
+<keyword>physiology</keyword>
+<keyword>Septum Pellucidum</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:02:28Z</last_update_date>
+<creation_date>2011-04-28T04:02:28Z</creation_date>
+<publication_year>1985</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4764</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4764" version="1.02">
+<authors><author>Brazhnik ES</author><author>Vinogradova OS</author><author>Karanov AM</author></authors>
+<journal>Neuroscience</journal>
+<volume>14</volume>
+<number>2</number>
+<page>501-8</page>
+<abstract>Activity of the neurons with stable theta-bursts was recorded extracellularly in intact and hippocampectomized septum of unanesthetized chronic rabbits during low-frequency (3-17 Hz) stimulation of horizontal limb of diagonal band or lateral septal nucleus. The stimulation rarely evoked standard oligosynaptic single-spike responses in stable theta-bursting units. Instead, gradual entrainment and phase-locking of the spontaneous theta-cycles occurred. Two types of entrainment were observed: &quot;entrainment by the pause&quot;, where interburst interval was reset by the stimuli; and &quot;entrainment by the burst&quot;, where bursts were time-locked to the stimuli. Such reorganization of the spontaneous bursts occurred in the narrow frequency range of stimulation (from 4 Hz up to 9-12 Hz), with the best resonance following in the range of &quot;basic&quot; theta frequencies of the awake rabbit (5-6 Hz). With stimulation beyond the theta-range three phenomena occurred: shift of the burst frequencies to higher or lower harmonics of stimulation frequencies; complex interactions of basic background frequency with rhythm of stimulation (&quot;beating&quot;); return to background theta-burst frequency in spite of continuing stimulation (&quot;escape&quot;). The properties of the septal theta-bursting cells as presumable intrinsic bursting pacemakers are discussed.</abstract>
+<pubmed_id>3873021</pubmed_id>
+</detail>
+</item>

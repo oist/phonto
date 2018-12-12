@@ -1,0 +1,30 @@
+Animals
+Behavior
+Animal
+physiology
+Brain Mapping
+Cues
+Electrophysiology
+Male
+Maze Learning
+physiology
+Memory
+physiology
+Motor Activity
+physiology
+Neurons
+physiology
+Physical Stimulation
+Rats
+Rats
+Inbred F344
+Sensation
+physiology
+Space Perception
+physiology
+Superior Colliculi
+cytology
+physiology
+Visual Perception
+physiology
+To begin investigation of the contribution of the superior colliculus to unrestrained navigation, the nature of behavioral representation by individual neurons was identified as rats performed a spatial memory task. Similar to what has been observed for hippocampus, many superior collicular cells showed elevated firing as animals traversed particular locations on the maze, and also during directional movement. However, when compared to hippocampal place fields, superior collicular location fields were found to be more broad and did not exhibit mnemonic properties. Organism-centered spatial coding was illustrated by other neurons that discharged preferentially during right or left turns made by the animal on the maze, or after lateralized sensory presentation of somatosensory, visual, or auditory stimuli. Nonspatial movement-related neurons increased or decreased firing when animals engaged in specific behaviors on the maze regardless of location or direction of movement. Manipulations of the visual environment showed that many, but not all, spatial cells were dependent on visual information. The majority of movement-related cells, however, did not require visual information to establish or maintain the correlates. Several superior collicular cells fired in response to multiple maze behaviors; in some of these cases a dissociation of visual sensitivity to one component of the behavioral correlate, but not the other, could be achieved for a single cell. This suggests that multiple modalities influence the activity of single neurons in superior colliculus of behaving rats. Similarly, several sensory-related cells showed dramatic increases in firing rate during the presentation of multisensory stimuli compared to the unimodal stimuli. These data reveal for the first time how previous findings of sensory/motor representation by the superior colliculus of restrained/anesthetized animals might be manifested in freely behaving rats performing a navigational task. Furthermore, the findings of both visually dependent and visually independent spatial coding suggest that superior colliculus may be involved in sending visual information for establishing spatial representations in efferent structures and for directing spatially-guided movements.

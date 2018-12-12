@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5101">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal place cells connected by Hebbian synapses can solve spatial problems.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T03:37:33Z</last_update_date>
+<creation_date>2011-05-16T03:37:33Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5101</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5101" version="1.02">
+<authors><author>Muller RU</author><author>Stead M</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>709-19</page>
+<abstract>We propose that a cognitive map can be stored in the synapses between the pyramidal cells of CA3 in the form of the pattern of synaptic strengths connecting them. The model requires only that there are place cells in CA3 and that the connections between them are modifiable in a Hebbian manner. Given these suppositions, the synaptic strengths must evolve to represent the distance between firing centers of synaptically connected place cells. We argue that this arrangement of synaptic weights embodies all the formal properties of a map. We demonstrate that the information stored in such a structure is sufficient to solve several classic spatial problems including finding shortest paths, and negotiating detours. It is clear that much of the physiology and anatomy necessary to more precisely characterize the model is not known at this time. Nevertheless the model is robust under a variety of cell and connection densities. It also performs well under several different functions relating distance to synaptic strength. What is most remarkable in the model is that it is a logical consequence of the several key anatomical and physiological properties of the CA3 region of rats. Whether this information is used by the rat is difficult to assess at this time. Regardless of the outcome of this question, the model has promising applications to the field of robot navigation.</abstract>
+<pubmed_id>9034857</pubmed_id>
+</detail>
+</item>

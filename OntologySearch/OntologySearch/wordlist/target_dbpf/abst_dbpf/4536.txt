@@ -1,0 +1,13 @@
+Animals
+Columbidae
+physiology
+Cues
+Hippocampus
+physiology
+Homing Behavior
+physiology
+Locomotion
+physiology
+Orientation
+physiology
+When given repeated training from a location, homing pigeons acquire the ability to use familiar landmarks to navigate home. Both control and hippocampal-lesioned pigeons succeed in learning to use familiar landmarks for homing. However, the landmark representations that guide navigation are strikingly different. Control and hippocampal-lesioned pigeons were initially given repeated training flights from two locations. On subsequent test days from the two training locations, all pigeons were rendered anosmic to eliminate use of their navigational map and were phase- or clock-shifted to examine the extent to which their learned landmark representations were dependent on the use of the sun as a compass. We show that control pigeons acquire a landmark representation that allows them to directly use landmarks without reference to the sun to guide their flight home, called "pilotage". Hippocampal-lesioned birds only learn to use familiar landmarks at the training location to recall the compass direction home, based on the sun, flown during training, called "site-specific compass orientation." The results demonstrate that for navigation of 20 km or more in a natural field setting, the hippocampal formation is necessary if homing pigeons are to learn a spatial representation based on numerous independent landmark elements that can be used to directly guide their return home.

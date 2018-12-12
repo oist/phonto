@@ -1,0 +1,24 @@
+Action Potentials
+drug effects
+Animals
+Calcium
+physiology
+Dose-Response Relationship
+Drug
+Hippocampus
+cytology
+drug effects
+physiology
+Magnesium
+pharmacology
+Male
+Membrane Potentials
+Neurons
+drug effects
+physiology
+Potassium
+pharmacology
+Rats
+Rats
+Inbred Strains
+Incubation of rat hippocampal slices in solutions containing low Ca2+ and increased Mg2+ rapidly blocked synaptic responses and increased spontaneous firing of all the principal neurones. More remarkably, a rhythmic and synchronous bursting discharge developed, which was restricted to the CA1 population of pyramidal neurones. These 'field bursts' or 'spreading excitation' were rapidly abolished by restoring the Ca2+ to 2 mM, by increasing the Mg2+ to 6 mM or by decreasing K+ from 6 to 3 mM. The CA1 pyramidal cells depolarized after the change to the low-Ca2+ solution by about 10-20 mV. Individual field bursts were associated with a further depolarization of 10-12 mV surmounted by a burst of action potentials at about 20/s. This transient depolarization shift, recorded extracellularly as a negative field, could be attributed to the increase of [K+]o during the bursts, reaching 9-10 mM as measured by ion-sensitive electrodes. The bursts were followed by a hyperpolarization, seen extracellularly as a small soma-positive field, which was attributed to an electrogenic pump and/or a Ca2+-activated K+ conductance. Stimulation of the tightly packed pyramidal cell axons in the alveus elicited a train of population spikes, instead of the single spike normally seen, and could trigger a full field burst. Recordings of the alvear tract volley suggested that the repeated spikes arose within the pyramidal cells. Multiple recordings from CA1 revealed that field bursts usually, but by no means always, started near the caudal (subicular) end of the area. They spread through the cell layer at 0.04-0.12 m/s. The most rapid propagation was seen when the bursts had an abrupt onset; slower propagation (1-10 mm/s) occurred when the bursts started gradually, which generally was the case near the sites of burst initiation and termination. Usually the action potentials within each burst were synchronized into population spikes which spread across CA1 at 0.04-0.15 m/s. The site of initiation and the extent of the spread of these population spikes varied during each burst, as did their amplitude. The degree of spike synchronization was enhanced by various treatments expected to increase neuronal excitability. Measurements of transmembrane potential during the burst confirmed the role in the generation of population spikes of ephaptic or field interactions between the pyramidal cells. It is proposed that the increased firing of all neurones is due to the block of tonic inhibition, depression of after-hyperpolarization and to increased membrane excitability.(ABSTRACT TRUNCATED AT 400 WORDS)

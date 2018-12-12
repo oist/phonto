@@ -1,0 +1,27 @@
+Animals
+Dentate Gyrus
+drug effects
+physiology
+Dizocilpine Maleate
+pharmacology
+Dose-Response Relationship
+Drug
+Excitatory Amino Acid Antagonists
+pharmacology
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+Long-Term Potentiation
+drug effects
+physiology
+Male
+Perforant Pathway
+drug effects
+physiology
+Rats
+Rats
+Wistar
+Receptors
+N-Methyl-D-Aspartate
+physiology
+The dual impairment of both long-term potentiation (LTP) in the dentate gyrus and spatial memory by N-methyl-D-aspartate (NMDA) blockers such as 2-aminophosphonovaleric acid (APV) or dizocilpine (MK-801) is considered supportive evidence for the hypothesis that LTP-like mechanisms are involved in spatial memory. However, several studies suggest that, at doses that affect aspects of behavior, LTP is not yet blocked. One possible explanation may be that the blockade of NMDA receptors affect processes other than LTP, which are required for learning. In the present study, we assessed in vivo the effects of the NMDA receptor antagonist MK-801 on LTP and on frequency-dependent inhibition, which has previously been shown to reflect activity of GABAergic interneurons in the rat dentate gyrus. We report here that NMDA receptors are instrumental in frequency-dependent inhibition. Furthermore, frequency-dependent inhibition was found to be more sensitive than LTP to the NMDA antagonist MK-801. Our findings indicate that, in addition to the blockade of LTP, the application of NMDA antagonists affects local circuit activity in the dentate gyrus. The results direct attention to the potential role of interneuronal activity in general and of frequency-dependent inhibition in particular in dentate gyrus related behaviors.

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="728">
+<itemtype>xnppaper</itemtype>
+<titles><title>Object-location memory impairment in patients with thermal lesions to the right or left hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-11T01:31:03Z</last_update_date>
+<creation_date>2008-07-11T01:31:03Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=728</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="728" version="1.02">
+<authors><author>Stepankova K</author><author>Fenton AA</author><author>Pastalkova E</author><author>Kalina M</author><author>Bohbot VD</author></authors>
+<journal>Neuropsychologia</journal>
+<volume>42</volume>
+<number>8</number>
+<page>1017-28</page>
+<abstract>Memory for object-location was investigated by testing subjects with small unilateral thermolesions to the medial temporal lobe using small-scale 2D (Abstract) or large-scale 3D (Real) recall conditions. Four patients with lesions of the left hippocampus (LH), 10 patients with damage to the right hippocampus (RH) and 9 matched normal controls (NC) were tested. Six task levels were presented in a pseudorandom order. During each level, subjects viewed one to six different objects on the floor of a circular curtained arena 2.90 m in diameter for 10 s. Recall was tested by marking the locations of objects on a map of the arena (Abstract recall) and then by replacing the objects in the arena (Real recall). Two component errors were studied by calculating the Location Error (LE), independent of the object identity and the configuration error by finding the best match to the presented configuration. The RH group was impaired relative to the NC for nearly all combinations of recall and error types. An impairment was observed in this group even for one object and it deepened sharply with an increasing object number. Damage to the right perirhinal or parahippocampal cortices did not add to the impairment. Deficits in the LH group were also observed, but less consistently. The data indicate that spatial memory is strongly but not exclusively lateralised to the right medial temporal lobe.</abstract>
+<pubmed_id>15093141</pubmed_id>
+</detail>
+</item>

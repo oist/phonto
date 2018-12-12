@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5697">
+<itemtype>xnppaper</itemtype>
+<titles><title>Ensemble dynamics of hippocampal regions CA3 and CA1.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Physiological</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T03:47:38Z</last_update_date>
+<creation_date>2011-09-22T03:47:38Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5697</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5697" version="1.02">
+<authors><author>Guzowski JF</author><author>Knierim JJ</author><author>Moser EI</author></authors>
+<journal>Neuron</journal>
+<volume>44</volume>
+<number>4</number>
+<page>581-4</page>
+<abstract>Computational models based on hippocampal connectivity have proposed that CA3 is uniquely positioned as an autoassociative memory network, capable of performing the competing functions of pattern completion and pattern separation. Recently, three independent studies, two using parallel neurophysiological recording methods and one using immediate-early gene imaging, have examined the responses of CA3 and CA1 ensembles to alterations of environmental context in rats. The results provide converging evidence that CA3 is capable of performing nonlinear transformations of sensory input patterns, whereas CA1 may represent changes in input in a more linear fashion.</abstract>
+<pubmed_id>15541306</pubmed_id>
+</detail>
+</item>

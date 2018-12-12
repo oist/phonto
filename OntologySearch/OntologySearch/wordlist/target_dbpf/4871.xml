@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4871">
+<itemtype>xnppaper</itemtype>
+<titles><title>Cytoplasmic actin in neuronal processes as a possible mediator of synaptic plasticity.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Actins</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Axons</keyword>
+<keyword>physiology</keyword>
+<keyword>Cytoskeleton</keyword>
+<keyword>physiology</keyword>
+<keyword>Dendrites</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Mice</keyword>
+<keyword>Neuronal Plasticity</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T03:35:58Z</last_update_date>
+<creation_date>2011-05-02T03:35:58Z</creation_date>
+<publication_year>1982</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4871</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4871" version="1.02">
+<authors><author>Fifková E</author><author>Delay RJ</author></authors>
+<journal>The Journal of cell biology</journal>
+<volume>95</volume>
+<number>1</number>
+<page>345-50</page>
+<abstract>We have demonstrated that, after permeation with saponin and decoration with S-1 myosin subfragment, the cytoplasmic actin is organized in filaments in dendritic spines, dendrites, and axon terminals of the dentate molecular layer. The filaments are associated with the plasma membrane and the postsynaptic density with their barbed ends and also in parallel with periodical cross bridges. In the spine stalks and dendrites, the actin filaments are organized in long strands. Given the contractile properties of actin, these results suggest that the cytoplasmic actin may be involved in various forms of experimentally induced synaptic plasticity by changing the shape or volume of the pre- and postsynaptic side and by retracting and sprouting synapses.</abstract>
+<pubmed_id>6890558</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5105">
+<itemtype>xnppaper</itemtype>
+<titles><title>Activin in the brain modulates anxiety-related behavior and adult neurogenesis.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Activins</keyword>
+<keyword>chemistry</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Brain</keyword>
+<keyword>metabolism</keyword>
+<keyword>Calcium-Calmodulin-Dependent Protein Kinase Type 2</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cell Differentiation</keyword>
+<keyword>Follistatin</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>metabolism</keyword>
+<keyword>Ischemia</keyword>
+<keyword>metabolism</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Transgenic</keyword>
+<keyword>Models</keyword>
+<keyword>Biological</keyword>
+<keyword>Neurons</keyword>
+<keyword>metabolism</keyword>
+<keyword>Phenotype</keyword>
+<keyword>Promoter Regions</keyword>
+<keyword>Genetic</keyword>
+<keyword>Transgenes</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T05:19:18Z</last_update_date>
+<creation_date>2011-05-16T05:19:18Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5105</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5105" version="1.02">
+<authors><author>Ageta H</author><author>Murayama A</author><author>Migishima R</author><author>Kida S</author><author>Tsuchida K</author><author>Yokoyama M</author><author>Inokuchi K</author></authors>
+<journal>PloS one</journal>
+<volume>3</volume>
+<number>4</number>
+<page>e1869</page>
+<abstract>Activin, a member of the transforming growth factor-beta superfamily, is an endocrine hormone that regulates differentiation and proliferation of a wide variety of cells. In the brain, activin protects neurons from ischemic damage. In this study, we demonstrate that activin modulates anxiety-related behavior by analyzing ACM4 and FSM transgenic mice in which activin and follistatin (which antagonizes the activin signal), respectively, were overexpressed in a forebrain-specific manner under the control of the alphaCaMKII promoter. Behavioral analyses revealed that FSM mice exhibited enhanced anxiety compared to wild-type littermates, while ACM4 mice showed reduced anxiety. Importantly, survival of newly formed neurons in the subgranular zone of adult hippocampus was significantly decreased in FSM mice, which was partially rescued in ACM4/FSM double transgenic mice. Our findings demonstrate that the level of activin in the adult brain bi-directionally influences anxiety-related behavior. These results further suggest that decreases in postnatal neurogenesis caused by activin inhibition affect an anxiety-related behavior in adulthood. Activin and its signaling pathway may represent novel therapeutic targets for anxiety disorder as well as ischemic brain injury.</abstract>
+<pubmed_id>18382659</pubmed_id>
+</detail>
+</item>

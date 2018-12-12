@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4865">
+<itemtype>xnppaper</itemtype>
+<titles><title>The well-worn route and the path less traveled: distinct neural bases of route following and wayfinding in humans.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Caudate Nucleus</keyword>
+<keyword>physiology</keyword>
+<keyword>Exploratory Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>User-Computer Interface</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T02:29:19Z</last_update_date>
+<creation_date>2011-05-02T02:29:19Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4865</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4865" version="1.02">
+<authors><author>Hartley T</author><author>Maguire EA</author><author>Spiers HJ</author><author>Burgess N</author></authors>
+<journal>Neuron</journal>
+<volume>37</volume>
+<number>5</number>
+<page>877-88</page>
+<abstract>Finding one&#039;s way in a large-scale environment may engage different cognitive processes than following a familiar route. The neural bases of these processes were investigated using functional MRI (fMRI). Subjects found their way in one virtual-reality town and followed a well-learned route in another. In a control condition, subjects followed a visible trail. Within subjects, accurate wayfinding activated the right posterior hippocampus. Between-subjects correlations with performance showed that good navigators (i.e., accurate wayfinders) activated the anterior hippocampus during wayfinding and head of caudate during route following. These results coincide with neurophysiological evidence for distinct response (caudate) and place (hippocampal) representations supporting navigation. We argue that the type of representation used influences both performance and concomitant fMRI activation patterns.</abstract>
+<pubmed_id>12628177</pubmed_id>
+</detail>
+</item>

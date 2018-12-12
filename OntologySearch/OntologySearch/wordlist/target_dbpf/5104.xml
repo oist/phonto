@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5104">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neuronal computations underlying the firing of place cells and their role in navigation.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Evaluation Studies as Topic</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T03:39:29Z</last_update_date>
+<creation_date>2011-05-16T03:39:29Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5104</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5104" version="1.02">
+<authors><author>Burgess N</author><author>O&#039;Keefe J</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>749-62</page>
+<abstract>Our model of the spatial and temporal aspects of place cell firing and their role in rat navigation is reviewed. The model provides a candidate mechanism, at the level of individual cells, by which place cell information concerning self-localization could be used to guide navigation to previously visited reward sites. The model embodies specific predictions regarding the formation of place fields, the phase coding of place cell firing with respect to the hippocampal theta rhythm, and the formation of neuronal population vectors downstream from the place cells that code for the directions of goals during navigation. Recent experiments regarding the spatial distribution of place cell firing have confirmed our initial modeling hypothesis, that place fields are formed from Gaussian tuning curve inputs coding for the distances from environmental features, and enabled us to further specify the functional form of these inputs. Other recent experiments regarding the temporal distribution of place cell firing in two-dimensional environments have confirmed our predictions based on the temporal aspects of place cell firing on linear tracks. Directions for further experiments and refinements to the model are outlined for the future.</abstract>
+<pubmed_id>9034860</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7223">
+<itemtype>xnppaper</itemtype>
+<titles><title>A role for ERK MAP kinase in physiologic temporal integration in hippocampal area CA1.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Aminoacetonitrile</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>Animals</keyword>
+<keyword>Blotting</keyword>
+<keyword>Western</keyword>
+<keyword>Butadienes</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Enzyme Inhibitors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>GABA-A Receptor Antagonists</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>enzymology</keyword>
+<keyword>metabolism</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Knockout</keyword>
+<keyword>Mitogen-Activated Protein Kinases</keyword>
+<keyword>metabolism</keyword>
+<keyword>physiology</keyword>
+<keyword>Nitriles</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Protease Inhibitors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Receptors</keyword>
+<keyword>GABA-A</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:14:30Z</last_update_date>
+<creation_date>2013-02-28T01:14:30Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7223</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7223" version="1.02">
+<authors><author>Selcher JC</author><author>Weeber EJ</author><author>Christian J</author><author>Nekrasova T</author><author>Landreth GE</author><author>Sweatt JD</author></authors>
+<journal>Learning&amp;memory (Cold Spring Harbor, N.Y.)</journal>
+<volume>10</volume>
+<number>1</number>
+<page>26-39</page>
+<abstract>Recent studies demonstrate a requirement for the Extracellular signal Regulated Kinase (ERK) mitogen-activated protein kinase (MAPK) cascade in both the induction of long-lasting forms of hippocampal synaptic plasticity and in hippocampus-dependent associative and spatial learning. In the present studies, we investigated mechanisms by which ERK might contribute to synaptic plasticity at Schaffer collateral synapses in hippocampal slices. We found that long-term potentiation (LTP) induced with a pair of 100-Hz tetani does not require ERK activation in mice whereas it does in rats. However, in mice, inhibition of ERK activation blocked LTP induced by two LTP induction paradigms that mimicked the endogenous theta rhythm. In an additional series of studies, we found that mice specifically deficient in the ERK1 isoform of MAPK showed no impairments in tests of hippocampal physiology. To investigate ERK-dependent mechanisms operating during LTP-inducing stimulation paradigms, we monitored spike production in the cell body layer of the hippocampus during the period of theta-like LTP-inducing stimulation. Theta-burst stimulation (TBS) produced a significant amount of postsynaptic spiking, and the likelihood of spike production increased progressively over the course of the three trains of TBS independent of any apparent increase in Excitatory Post-Synaptic Potential (EPSP) magnitude. Inhibition of ERK activation dampened this TBS-associated increase in spiking. These data indicate that, for specific patterns of stimulation, ERK may function in the regulation of neuronal excitability in hippocampal area CA1. Overall, our data indicate that the progressive increase in spiking observed during TBS represents a form of physiologic temporal integration that is dependent on ERK MAPK activity.</abstract>
+<pubmed_id>12551961</pubmed_id>
+</detail>
+</item>

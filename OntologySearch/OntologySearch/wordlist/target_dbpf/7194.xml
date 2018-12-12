@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7194">
+<itemtype>xnppaper</itemtype>
+<titles><title>Postsynaptic complex spike bursting enables the induction of LTP by theta frequency synaptic stimulation.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Periodicity</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>chemistry</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Tetrodotoxin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:47:26Z</last_update_date>
+<creation_date>2013-02-27T07:47:26Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7194</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7194" version="1.02">
+<authors><author>Thomas MJ</author><author>Watabe AM</author><author>Moody TD</author><author>Makhinson M</author><author>O&#039;Dell TJ</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>18</volume>
+<number>18</number>
+<page>7118-26</page>
+<abstract>Long-term potentiation (LTP), a persistent enhancement of synaptic transmission that may be involved in some forms of learning and memory, is induced at excitatory synapses in the CA1 region of the hippocampus by coincident presynaptic and postsynaptic activity. Although action potentials back-propagating into dendrites of hippocampal pyramidal cells provide sufficient postsynaptic activity to induce LTP under some in vitro conditions, it is not known whether LTP can be induced by patterns of postsynaptic action potential firing that occur in these cells in vivo. Here we report that a characteristic in vivo pattern of action potential generation in CA1 pyramidal cells known as the complex spike burst enables the induction of LTP during theta frequency synaptic stimulation in the CA1 region of hippocampal slices maintained in vitro. Our results suggest that complex spike bursting may have an important role in synaptic processes involved in learning and memory formation, perhaps by producing a highly sensitive postsynaptic state during which even low frequencies of presynaptic activity can induce LTP.</abstract>
+<pubmed_id>9736635</pubmed_id>
+</detail>
+</item>

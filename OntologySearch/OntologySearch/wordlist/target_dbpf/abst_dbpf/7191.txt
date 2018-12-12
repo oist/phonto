@@ -1,0 +1,22 @@
+Action Potentials
+physiology
+Age Factors
+Animals
+Electric Stimulation
+Excitatory Postsynaptic Potentials
+physiology
+Hippocampus
+cytology
+physiology
+Long-Term Potentiation
+physiology
+Male
+Neuronal Plasticity
+physiology
+Patch-Clamp Techniques
+Pyramidal Cells
+physiology
+Rats
+Rats
+Wistar
+Coincident pre- and postsynaptic activity induces synaptic plasticity at the Schaffer collateral synapse onto CA1 pyramidal neurones. The precise timing, frequency and number of coincident action potentials required to induce synaptic plasticity is currently unknown. In this study we show that the postsynaptic activity required for the induction of long-term potentiation (LTP) changes with development. In acute slices from adult rats, coincident pre- and postsynaptic theta burst stimulation (TBS) induced LTP and we show that multiple high-frequency postsynaptic spikes are required. In contrast, in acute slices from juvenile (P14) rats, TBS failed to induce LTP unless the excitatory postsynaptic potentials (EPSPs) were of sufficient magnitude to initiate action potentials. We also show that coincident individual pre- and postsynaptic action potentials are only capable of inducing LTP in the juvenile when given at a frequency greater than 5 Hz and that the timing of individual pre- and postsynaptic action potentials relative to one another is not important. Finally, we show that local tetrodotoxin (TTX) application to the soma blocked LTP in adults, but not juveniles. These data demonstrate that somatic spiking is more important for LTP induction in the adult as opposed to juvenile rats and we hypothesize that the basis for this is the ability of action potentials in the postsynaptic CA1 pyramidal neurone to back-propagate into the dendrites. Therefore, the pre- and postsynaptic activity patterns required to induce LTP mature as the hippocampus develops.

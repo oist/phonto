@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6623">
+<itemtype>xnppaper</itemtype>
+<titles><title>Decrements in hippocampal activity with item repetition during continuous recognition: an fMRI study.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Male</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:22:46Z</last_update_date>
+<creation_date>2013-02-26T06:22:46Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6623</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6623" version="1.02">
+<authors><author>Suzuki M</author><author>Johnson JD</author><author>Rugg MD</author></authors>
+<journal>Journal of cognitive neuroscience</journal>
+<volume>23</volume>
+<number>6</number>
+<page>1522-32</page>
+<abstract>fMRI (1.5 mm isotropic voxels) was employed to investigate the relationship between hippocampal activity and memory strength in a continuous recognition task. While being scanned, subjects were presented with colored photographs that each appeared on four occasions. The requirements were to make one response when an item was presented for the first or the third time and to make a different response when an item appeared for the second or the fourth time. Consistent with prior findings, items presented for the first time elicited greater hippocampal and parahippocampal activity than repeated items. The activity elicited by repeated items declined linearly as a function of number of presentations (&quot;graded&quot;new&gt;old effects). No medial-temporal lobe regions could be identified where activity elicited by repeated items exceeded that for new items or where activity elicited by repeated items increased with number of presentations. These findings are inconsistent with the proposal that retrieval-related hippocampal activity is positively correlated with memory strength. We also identified graded new&gt;old effects in several cortical regions outside the medial-temporal lobe, including the left retrosplenial/posterior cingulate cortex and the right lateral occipito-temporal cortex. By contrast, graded old&gt;new effects were evident in bilateral mid-intraparietal sulcus and precuneus.</abstract>
+<pubmed_id>20617887</pubmed_id>
+</detail>
+</item>

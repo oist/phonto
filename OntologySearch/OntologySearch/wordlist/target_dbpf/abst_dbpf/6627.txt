@@ -1,0 +1,27 @@
+Adult
+Association
+Brain Mapping
+Cerebral Cortex
+anatomy
+&
+histology
+physiology
+Female
+Functional Laterality
+physiology
+Hippocampus
+anatomy
+&
+histology
+physiology
+Humans
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Neuropsychological Tests
+Reaction Time
+physiology
+Recognition (Psychology)
+physiology
+Neuroscientific research has established that the hippocampal formation, a structure within the medial temporal lobe (MTL), plays a critical role in memory for facts and events (declarative memory) (Milner et al., 1998). However, its precise role remains unclear. According to one view, the hippocampus has a special role in relating or binding together previously unrelated pieces of information, while another view proposes that the hippocampus is equally involved in all forms of declarative memory, regardless of their demands on relational processing. Using functional magnetic resonance imaging (fMRI), we show that hippocampal activation is modulated by the extent to which a retrieval task depends on relational processing.

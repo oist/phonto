@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1577">
+<itemtype>xnppaper</itemtype>
+<titles><title>Organization of cell assemblies in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-10-09T03:22:20Z</last_update_date>
+<creation_date>2008-10-09T03:22:20Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1577</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1577" version="1.02">
+<authors><author>Harris KD</author><author>Csicsvari J</author><author>Hirase H</author><author>Dragoi G</author><author>Buzsáki G</author></authors>
+<journal>Nature</journal>
+<volume>424</volume>
+<number>6948</number>
+<page>552-6</page>
+<abstract>Neurons can produce action potentials with high temporal precision. A fundamental issue is whether, and how, this capability is used in information processing. According to the &#039;cell assembly&#039; hypothesis, transient synchrony of anatomically distributed groups of neurons underlies processing of both external sensory input and internal cognitive mechanisms. Accordingly, neuron populations should be arranged into groups whose synchrony exceeds that predicted by common modulation by sensory input. Here we find that the spike times of hippocampal pyramidal cells can be predicted more accurately by using the spike times of simultaneously recorded neurons in addition to the animals location in space. This improvement remained when the spatial prediction was refined with a spatially dependent theta phase modulation. The time window in which spike times are best predicted from simultaneous peer activity is 10-30 ms, suggesting that cell assemblies are synchronized at this timescale. Because this temporal window matches the membrane time constant of pyramidal neurons, the period of the hippocampal gamma oscillation and the time window for synaptic plasticity, we propose that cooperative activity at this timescale is optimal for information transmission and storage in cortical circuits.</abstract>
+<pubmed_id>12891358</pubmed_id>
+</detail>
+</item>

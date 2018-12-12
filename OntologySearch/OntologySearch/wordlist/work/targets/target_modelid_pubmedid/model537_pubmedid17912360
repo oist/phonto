@@ -1,0 +1,42 @@
+1. PLoS One. 2007 Oct 3;2(10):e983.
+
+Investigating the role of islet cytoarchitecture in its oscillation using a new
+beta-cell cluster model.
+
+Nittala A(1), Ghosh S, Wang X.
+
+Author information: 
+(1)Max McGee National Research Center for Juvenile Diabetes, Medical College of
+Wisconsin, Milwaukee, Wisconsin, United States of America.
+
+The oscillatory insulin release is fundamental to normal glycemic control. The
+basis of the oscillation is the intercellular coupling and bursting
+synchronization of beta cells in each islet. The functional role of islet beta
+cell mass organization with respect to its oscillatory bursting is not well
+understood. This is of special interest in view of the recent finding of islet
+cytoarchitectural differences between human and animal models. In this study we
+developed a new hexagonal closest packing (HCP) cell cluster model. The model
+captures more accurately the real islet cell organization than the simple cubic
+packing (SCP) cluster that is conventionally used. Using our new model we
+investigated the functional characteristics of beta-cell clusters, including the 
+fraction of cells able to burst f(b), the synchronization index lambda of the
+bursting beta cells, the bursting period T(b), the plateau fraction p(f), and the
+amplitude of intracellular calcium oscillation [Ca]. We determined their
+dependence on cluster architectural parameters including number of cells n(beta),
+number of inter-beta cell couplings of each beta cell n(c), and the coupling
+strength g(c). We found that at low values of n(beta), n(c) and g(c), the
+oscillation regularity improves with their increasing values. This functional
+gain plateaus around their physiological values in real islets, at n(beta)
+approximately 100, n(c) approximately 6 and g(c) approximately 200 pS. In
+addition, normal beta-cell clusters are robust against significant perturbation
+to their architecture, including the presence of non-beta cells or dead beta
+cells. In clusters with n(beta)> approximately 100, coordinated beta-cell
+bursting can be maintained at up to 70% of beta-cell loss, which is consistent
+with laboratory and clinical findings of islets. Our results suggest that the
+bursting characteristics of a beta-cell cluster depend quantitatively on its
+architecture in a non-linear fashion. These findings are important to understand 
+the islet bursting phenomenon and the regulation of insulin secretion, under both
+physiological and pathological conditions.
+
+PMCID: PMC1991600
+PMID: 17912360  [PubMed - indexed for MEDLINE]

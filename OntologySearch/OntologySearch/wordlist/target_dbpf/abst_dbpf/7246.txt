@@ -1,0 +1,43 @@
+Animals
+Electric Stimulation
+methods
+Excitatory Amino Acid Agonists
+pharmacology
+Glutamic Acid
+metabolism
+Glycine
+analogs
+&
+derivatives
+pharmacology
+Hippocampus
+cytology
+drug effects
+metabolism
+Long-Term Potentiation
+drug effects
+physiology
+Long-Term Synaptic Depression
+drug effects
+physiology
+Male
+Neural Pathways
+cytology
+drug effects
+metabolism
+Rats
+Rats
+Wistar
+Receptors
+Metabotropic Glutamate
+drug effects
+metabolism
+Resorcinols
+pharmacology
+Synapses
+drug effects
+metabolism
+Synaptic Transmission
+drug effects
+physiology
+Synaptically released glutamate binds to ionotropic or metabotropic glutamate receptors. Metabotropic glutamate receptors (mGluRs) are G-protein-coupled receptors and can be divided into three subclasses (Group I-III) depending on their pharmacology and coupling to signal transduction cascades. Group I mGluRs are coupled to phospholipase C and are implicated in several important physiological processes, including activity-dependent synaptic plasticity, but their exact role in synaptic plasticity remains unclear. Synaptic plasticity can manifest itself as an increase or decrease of synaptic efficacy, referred to as long-term potentiation (LTP) and long-term depression (LTD). The likelihood, degree and direction of the change in synaptic efficacy depends on the history of the synapse and is referred to as 'metaplasticity'. We provide direct experimental evidence for an involvement of group I mGluRs in metaplasticity in CA1 hippocampal synapses. Bath application of a low concentration of the specific group I agonist 3,5-dihydroxyphenylglycine (DHPG), which does not affect basal synaptic transmission, resulted in a leftward shift of the frequency-response function for the induction of LTD and LTP in naïve synapses. DHPG resulted in the induction of LTP at frequencies which induced LTD in control slices. These alterations in the induction of LTD and LTP resemble the metaplastic changes observed in previously depressed synapses. In addition, in the presence of DHPG additional potentiation could beinduced after LTP had apparently been saturated. These findings provide strong evidence for an involvement of group I mGluRs in the regulation of metaplasticity in the CA1 field of the hippocampus.

@@ -1,0 +1,2098 @@
+Simulation Study of Cellular Electric Properties
+
+in Heart Failure
+
+Leo Priebe, Dirk J. Beuckelmann
+
+Abstract—Patients with severe heart failure are at high risk of sudden cardiac death. In the majority of these patients,
+sudden cardiac death is thought to be due to ventricular tachyarrhythmias. Alterations of the electric properties of single
+myocytes in heart failure may favor the occurrence of ventricular arrhythmias in these patients by inducing early or
+delayed afterdepolarizations. Mathematical models of the cellular action potential and its underlying ionic currents could
+help to elucidate possible arrhythmogenic mechanisms on a cellular level. In the present study, selected ionic currents
+based on human data are incorporated into a model of the ventricular action potential for the purpose of studying the
+cellular electrophysiological consequences of heart failure. Ionic currents that are not yet sufficiently characterized in
+human ventricular myocytes are adopted from the action potential model developed by Luo and Rudy (LR model). The
+main results obtained from this model are as follows: The action potential in ventricular myocytes from failing hearts
+is longer than in nonfailing control hearts. The major underlying mechanisms for this prolongation are the enhanced
+activity of the Na⫹-Ca2⫹ exchanger, the slowed diastolic decay of the [Ca2⫹]i transient, and the reduction of the inwardly
+rectifying K⫹ current and the Na⫹-K⫹ pump current in myocytes of failing hearts. Furthermore, the fast and slow
+components of the delayed rectifier K⫹ current (IKr and IKs, respectively) are of utmost importance in determining
+repolarization of the human ventricular action potential. In contrast, the influence of the transient outward K⫹ current
+on APD is only small in both cell groups. Inhibition of IKr promotes the development of early afterdepolarizations in
+failing, but not nonfailing, myocytes. Furthermore, spontaneous Ca2⫹ release from the sarcoplasmic reticulum triggers
+a premature action potential only in failing myocytes. This model of the ventricular action potential and its alterations
+in heart failure is intended to serve as a tool for investigating the effects of therapeutic interventions on the electric
+excitability of the human ventricular myocardium. (Circ Res. 1998;82:1206-1223.)
+
+Key Words: action potential 䡲 computer model 䡲 arrhythmia 䡲 heart failure
+
+Patients with severe heart failure are at high risk of sudden
+
+cardiac death. More than 50% of these patients die
+suddenly.1 In the majority of these patients, sudden cardiac
+death is thought to be due to ventricular tachyarrhythmias.
+The mechanisms underlying these lethal arrhythmias are
+largely unknown. However, in animal models of heart failure
+and in humans, there is evidence that reentry as well as
+nonreentrant mechanisms may play a role.2– 4 Triggered ac-
+tivity arising from EADs or DADs and abnormal automaticity
+are possible cellular mechanisms underlying nonreentrant
+arrhythmias.5– 8 In animal studies, Ca2⫹ influx through volt-
+age-gated ICa was demonstrated to cause EADs.9,10 Cation
+influx through Ins(Ca) or Na⫹ influx via the electrogenic INaCa
+was found to underlie DADs.11,12 However, it is unknown
+what influence these currents may have on triggered activity
+in human ventricular myocardium. In recent years, quantita-
+tive studies of ionic currents in human ventricular cells have
+greatly enlarged our knowledge about the characteristics of
+the human AP in patients with and without heart failure.13–25
+In some of these studies, great variations in shape and
+duration of the APs have been found. Nevertheless, an
+
+unequivocal result was that the AP is prolonged in human
+ventricular myocytes isolated from patients with heart failure
+compared with control subjects. Various ionic currents have
+13,19
+been shown to be altered in heart failure. IK1
+have been found to be reduced by some groups, although this
+finding was not undisputed. Wettwer et al14 have found no
+significant alterations in current densities and kinetics of Ito in
+failing compared with nonfailing myocytes. Current densities
+and kinetics of ICa, however, have been shown to be unaltered
+by most groups.15,16,18
+
+13,22 and Ito
+
+A prominent feature of the single myocyte of the failing
+heart is an alteration of [Ca2⫹]i handling26,27 and an enhanced
+activity of the Na⫹-Ca2⫹ exchanger.28,29 It has been postulated
+that these abnormalities may give rise to arrhythmias in heart
+failure, but proof for this hypothesis remains lacking. Math-
+ematical models of the cellular AP and its underlying ionic
+currents may help to elucidate possible arrhythmogenic
+mechanisms on a cellular level. For this purpose, a model of
+the ventricular AP based on Hodgkin-Huxley formalisms30
+was developed. Selected depolarizing and repolarizing ionic
+currents and the [Ca2⫹]i handling incorporated into this model
+
+Received January 5, 1998; accepted April 6, 1998.
+From the Department of Medicine III, University of Cologne, Cologne, Germany.
+Correspondence to Dirk J. Beuckelmann, MD, University of Cologne, Department of Medicine III, Joseph-Stelzmann-Str.9, D-50924 Cologne,
+
+Germany. E-mail Dirk.Beuckelmann@uni-koeln.de
+
+© 1998 American Heart Association, Inc.
+
+Downloaded from 
+
+ by guest on June 29, 2015
+
+http://circres.ahajournals.org/
+
+1206
+
+Priebe and Beuckelmann
+
+June 15, 1998
+
+1207
+
+Selected Abbreviations and Acronyms
+
+[A] ⫽ maximum concentration of [A]
+AP ⫽ action potential
+
+APD ⫽ action potential duration
+APD25, APD50, APD90 ⫽ APD at 25%, 50%, and
+
+90% repolarization
+
+CICR ⫽ Ca2⫹-induced Ca2⫹ release
+DAD ⫽ delayed afterdepolarization
+EAD ⫽ early afterdepolarization
+gmax ⫽ maximal conductance
+ICa ⫽ L-type Ca2⫹ current
+ICa,b ⫽ Ca2⫹ background current
+
+IK ⫽ delayed rectifier K⫹ current
+IK1 ⫽ inward rectifier K⫹ current
+
+IKr, IKs ⫽ rapid and slow component of IK
+
+IKtail ⫽ K⫹ tail current
+INa ⫽ fast Na⫹ current
+INa,b ⫽ Na⫹ background current
+INaCa ⫽ Na⫹-Ca2⫹ exchanger current
+INaK ⫽ Na⫹-K⫹ pump current
+Ins(Ca) ⫽ Ca2⫹-dependent nonspecific cation current
+
+Ist ⫽ stimulus current
+Ito ⫽ transient outward K⫹ current
+
+JSR ⫽ junctional sarcoplasmic reticulum
+
+k ⫽ slope factor
+
+Kleak ⫽ rate of Ca2⫹ leakage out of NSR
+Km,i ⫽ half-saturation concentration of channel i
+kNaCa ⫽ scaling factor of INaCa
+LR ⫽ Luo-Rudy
+
+NSR ⫽ network sarcoplasmic reticulum
+
+SR ⫽ sarcoplasmic reticulum
+V0.5 ⫽ 50% activation voltage
+
+were based on quantitative measurements in single ventricu-
+lar myocytes isolated from nonfailing and terminally failing
+human hearts.
+
+Using this model, we evaluated which ionic currents may
+affect the AP in human myocardium and which cellular
+abnormalities in human ventricular myocytes from failing
+hearts may contribute to arrhythmogenesis in heart failure.
+
+Materials and Methods
+
+A variety of ionic currents and electrogenic ion pumps and exchang-
+ers that have been described in animals have not been sufficiently
+characterized in human ventricular myocytes. Therefore, these cur-
+rents have to be calculated by equations used in an AP model
+developed for guinea pig ventricular myocytes by Luo and Rudy31
+(LR model). However, the major ionic currents, ICa, Ito, IK with its two
+components (IKr and IKs), and IK1, are based on human data. In
+addition, the [Ca2⫹]i transients in human myocytes and their alter-
+ations in failing myocytes observed experimentally27 can be simu-
+lated by this model. The other currents included into the model, INa,
+INaCa, and INaK, have to be adopted from the LR model and modulated
+in such a way that simulations are widely consistent with available
+human data.
+
+Voltage-clamp data for ICa, Ito, and IK1 and Ca2⫹ measurements are
+as described in our previous studies.13,16,19,20,27 Experiments were
+carried out at 37°C. (See References 13, 16, 19, 20, and 27 for a
+detailed description of the experimental conditions.)
+
+Under space-clamp conditions, the differential equation describing
+the time-dependent changes in membrane potential (V) is as follows:
+
+dV/dt⫽⫺共1/C m)(INa⫹ICa⫹Ito⫹IKr⫹IKs⫹IK1⫹INaCa
+
+⫹INaK⫹INa,b⫹ICa,b⫹Ist)
+
+Figure 1. Steady-state activation (⽧) and inactivation (F) of
+simulated Ito at indicated voltages. Computed curves are a
+Boltzmann ﬁt to the data according the following equation:
+I/Imax⫽Imax/{1⫹exp[(v⫺V0.5)/k]}, where I indicates current, and v is
+the membrane potential.
+
+where Cm is the membrane capacitance and Ist is an externally applied
+stimulus current. The ionic currents IX are calculated by ionic gates
+using Hodgkin-Huxley–type formalisms.30 All ionic currents are
+computed for 1 pF of cell membrane capacitance.
+
+The complete set of equations of all ionic currents, ionic ex-
+changer currents, and [Ca2⫹]i handling is provided in the Appendix.
+
+Fast Naⴙ Current: INa
+INa is calculated using equations of the LR model.31 Sakakibara et al25
+have demonstrated that the characteristics of INa in isolated human
+ventricular myocytes are similar to those of other mammalian species
+and that INa kinetics are identical in several different disease states.
+Therefore, we use the same equations for INa in both cell groups.
+
+L-Type Ca2ⴙ Current: ICa
+The kinetics of ICa have been shown to be unaltered in myocytes from
+failing hearts.15,16,18 Therefore, for calculating ICa the same gating
+parameters are used in both groups. In animal and human studies, it
+has been clearly demonstrated that the inactivation of ICa is voltage
+dependent. In addition, there is experimental evidence indicating that
+inactivation of ICa is also Ca2⫹ dependent.32,33 This type of regulation
+of ICa seems also to exist in human ventricular myocytes.17 Conse-
+quently, we integrate a proportional factor, fCa, in the equation of ICa
+is formulated as follows: fCa⫽[1⫹([Ca2⫹]i/600 nmol/L)]⫺1.
+that
+is performed with simulated [Ca2⫹]i
+Fitting of experimental ICa
+transients formulated as follows: A 䡠 [exp(⫺t/␶1)⫺exp(⫺t/␶2)]⫹R. A
+is a proportional factor, ␶1 and ␶2 are time constants, and R is the
+basal Ca2⫹ level. By this approach, the important Ca2⫹-dependent
+inactivation of ICa may be sufficiently incorporated into this model as
+the simulations of ICa indicate.
+
+Transient Outward Kⴙ Current: Ito
+No significant alterations of the kinetics of Ito have been found in
+failing compared with control myocytes.14 Therefore,
+the same
+gating parameters for simulating Ito are used in both groups. On the
+basis of experimental data,20 the current density of Ito is assumed to
+be 64% of the value measured in nonfailing myocytes. The steady-
+state activation and inactivation curves of Ito obtained from fitting the
+experimental voltage clamp traces are shown in Figure 1.
+
+Data are fitted by a Boltzmann distribution. The parameters V0.5
+and k of the Boltzmann equation in the model are compared with
+those from experimental voltage-clamp studies (Table 1). The
+differences are negligible and can be explained by the different
+solutions used in the experiments to block interfering currents.
+
+Delayed Rectifier Kⴙ Current: IK
+The existence of two components of the delayed rectifier, a rapidly
+activating component (IKr) and a slowly activating component (IKs),
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1208
+
+Cellular Electric Properties in Heart Failure
+
+TABLE 1. Parameters of Steady-State Activation and
+Inactivation of Ito (Experimental Data and Model)
+
+Steady-State Activation
+
+Steady-State Inactivation
+
+Studies
+
+V0.5, mV
+⫹9.2⫾1.8 ⫺13.0⫾0.6
+
+k, mV
+
+⫺34.1⫾2.0 ⫹4.5⫾0.2
+Wettwer et al14
+Na¨ bauer et al19 ⫹16.7⫾1.6 ⫺8.4⫾0.43 ⫺34.5⫾2.3 ⫹5.5⫾0.5
+Model
+
+⫺34.4
+
+⫹16.7
+
+⫺8.4
+
+⫹5.6
+
+V0.5, mV
+
+k, mV
+
+has been documented by Li et al.21 On the basis of their data, both
+currents are incorporated into the model. The method for simulating
+IKr in human ventricular myocytes is the same as that used by
+Sanguinetti and Jurkiewicz34 in guinea pig myocytes. For simplifi-
+cation, the slow inactivation of IKr during depolarization at ⫹50 mV
+observed experimentally (Li et al21) is not considered. Quantitative
+values of IKs are calculated by fitting the experimental voltage-clamp
+traces recorded in the study of Li et al to a single exponential
+function. On depolarization, the activation of IKs in human ventric-
+ular myocytes follows a sigmoidal time course, as has been reported
+in guinea pig ventricular myocytes.34 This strong sigmoidal activa-
+tion has also been found in wild-type IKs.35 Therefore, the second
+power of activation in the Hodgkin-Huxley formalism of IKs is used
+to obtain an adequate fit to the measured traces. In animal studies, IKs
+has been shown to be sensitive to intracellular Ca2⫹ 36,37, and IKr has
+been shown to be sensitive to extracellular K⫹.37 In the only study
+investigating IKs and IKr in human ventricular myocytes (ie, that of Li
+et al21), experiments were performed only with 5.0 mmol/L EGTA in
+the pipette solution and with one extracellular K⫹ concentration.
+Thus, it is unclear whether this type of regulation found in animal
+ventricular myocytes also exists in human ventricular myocytes.
+Consequently, we do not consider such a regulation of IKs and IKr in
+our model. At the present time, the properties of IKr and IKs in heart
+failure are unknown. Therefore, we assume that IKs and IKr are
+unchanged in heart failure.
+
+Inward Rectifier Kⴙ Current: IK1
+The simulated current density of IK1 is assumed to be reduced by 25%
+at ⫺70 mV in the failing myocyte compared with control myocytes
+on the basis of results of experimental studies.13,22 Since the time-
+inactivation of IK1 can be observed only at voltages
+dependent
+negative to ⫺110 mV,22 IK1 is assumed to be time independent. As in
+animal ventricular myocytes, IK1 is also almost solely carried by K⫹
+ions in human ventricular myocytes.22 Therefore, the reversal poten-
+tial of IK1 is calculated by Nernst’s equation for K⫹.
+
+Naⴙ-Ca2ⴙ Exchanger Current: INaCa
+INaCa is integrated into the model using values from the LR model
+because data in human ventricular myocytes are not available at
+present. To compute INaCa in a nonfailing myocyte, only kNaCa is
+changed to 50% of the value used in the LR model, taking into
+account the smaller activity of INaCa in human myocytes compared
+with different animal species.38 With such a value of kNaCa, INaCa
+simulated in a nonfailing myocyte with a protocol similar to that in
+experiments by Sham et al38 is in the range of the experimental data
+(model, 0.50 pA/pF; experiment, 0.54⫾0.1 pA/pF). In a failing
+myocyte, we assume 65% greater INaCa than in a nonfailing myocyte.
+This assumption is based on the observation of an increase of
+Na⫹-Ca2⫹ exchanger activity in myocardium from patients with heart
+failure.28
+
+Naⴙ-Kⴙ Pump Current: INaK
+For simulation of INaK, we use the equation of the LR model. The
+magnitude of INaK has been chosen in a way such that APD in a
+nonfailing myocyte at a stimulation frequency of 1 Hz is in the range
+measured experimentally in single human myocytes from nonfailing
+heart by our group (unpublished data) and by Peeters et al.39 There is
+a report suggesting that the concentration of the Na⫹,K⫹-ATPase is
+
+decreased by 42% in failing hearts.40 This alteration is assumed to
+represent a proportional decrease in INaK. Therefore, a 42% reduction
+in INaK of a failing myocyte is incorporated into the model.
+
+[Ca2ⴙ]i Transient
+To simulate the [Ca2⫹]i transients in both groups, the approach of the
+LR model has been chosen.31 In some equations for calculating the
+Ca2⫹ homeostasis, the parameters are changed in a way such that
+simulated [Ca2⫹]i
+transients closely resemble those measured in
+nonfailing and failing human ventricular myocytes.27 The differences
+in simulations of the intracellular Ca2⫹ fluxes to the LR model are
+described below. For more details, see Reference 31.
+
+CICR by the SR
+The threshold for CICR from the cardiac SR is reduced from 0.18 to
+0.005 ␮mol/L because of the smaller size of the peak ICa in human
+compared with animal myocytes. The time constants for the activa-
+tion and deactivation of the release process is set to 4 ms. Experi-
+mental studies have revealed that the function and number of the
+ryanodine channels are widely unaltered in heart failure.41,42 There-
+fore, the CICR mechanism is assumed to be equal in nonfailing and
+failing myocytes.
+
+Ca2ⴙ Buffers in the Myoplasm and the SR
+There are reports that the affinity of troponin C to Ca2⫹ is unaltered
+in heart failure.43 Consequently, because of the great contribution of
+troponin C to the total myoplasmic Ca2⫹ buffer capacity, we have
+used equal myoplasmic buffer concentrations in nonfailing and
+failing myocytes. For simulating the Ca2⫹ buffering in the JSR
+(calsequestrin), we adopted the values of the LR model for our
+model. There is no evidence of differences in the level of calseques-
+trin in heart failure.44 Therefore, equal concentrations of calseques-
+trin have been used in both cell groups. With the approach of
+Hilgemann and Noble,45 we compute the steady-state buffering
+process numerically by using Newton’s iterative method.
+
+Ca2ⴙ Uptake and Leakage by the NSR
+Reduction of the activity of Ca2⫹-ATPase of the SR in heart failure,
+as shown in experimental studies,46,47 is integrated into the model. To
+obtain the characteristic Ca2⫹ transients in both cell groups, the
+scaling factor for Ca2⫹ uptake, I¯
+up, is set to 0.0045 mmol/(L 䡠 ms) in
+a nonfailing and 0.0015 mmol/(L 䡠 ms) in failing myocytes. The Kleak
+value in both cell groups was chosen in way such that Ca2⫹ leakage
+out of the NSR is equal to the Ca2⫹ uptake in the NSR at basal [Ca2⫹]i
+(nonfailing, Kleak⫽0.00026 ms⫺1; failing, Kleak⫽0.00017 ms⫺1).
+Sarcolemmal Ca2ⴙ Pump
+The contribution of the sarcolemmal Ca2⫹ pump to the extrusion of
+Ca2⫹ out of the cell has been shown to be very small.48 Therefore, we
+do not consider this pump in our model.
+
+Background Currents
+A linear Ca2⫹ background current, ICa,b, is incorporated into the
+model for balancing the Ca2⫹ extrusion through INaCa at resting
+potential in both cell groups. By this mechanism, the resting level of
+[Ca2⫹]i is maintained at 0.12 ␮mol/L in a nonfailing myocyte and at
+0.15 ␮mol/L in a failing myocyte.
+
+A linear Na⫹ background current, INa,b, is also incorporated into the
+model of a nonfailing myocyte for maintaining the resting level of
+[Na⫹]i (10 mmol/L in both cell groups). In a failing myocyte, Na⫹ ion
+extrusion by INaK balances the Na⫹ ion entry by INaCa so that
+incorporation of INa,b into this model is not necessary in that cell.
+
+The model is written in Pascal and tested using a Turbo-Pascal
+compiler (Borland International) on an IBM-compatible computer
+with an Intel Pentium central processing unit. A fourth-order
+Runge-Kutta method with fixed time intervals is used for numerical
+integration of differential equations.
+
+For the simulations in the present study, the fixed time interval for
+voltage-clamp simulations is 0.01 to 0.1 ms. The time interval for AP
+simulations is held at 0.0001 ms during the stimulus current and then
+set at 0.01 to 0.1 ms. APs are elicited in all simulations with 10
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Priebe and Beuckelmann
+
+June 15, 1998
+
+1209
+
+Figure 2. Ca2⫹ current through ICa and intracellular [Ca2⫹] transients ([Ca2⫹]i) of a nonfailing myocyte at various depolarizations in the
+model and in the experiment27 (insets). Holding potential was ⫺40 mV. As in the experimental study, INaCa was present in these simula-
+tions. [Na⫹]i was 5 mmol/L.
+
+pA/pF of Ist for 0.7 ms. Standard software is used to convert the
+simulated data in ASCII format and to prepare the figures. Fitting of
+the voltage-clamp traces is performed with a commercial software
+using a nonlinear least-squares algorithm.
+
+Results
+
+Simulations of Voltage-Clamp Experiments
+An important test for the validity of an AP model is the
+accurate simulation of voltage-clamp experiments. Therefore,
+we have simulated the ionic currents ICa, Ito, IKr, IKs, and IK1
+under voltage-clamp conditions using pulse protocols similar
+to those used in the experiments previously performed by our
+group13,27 and by Li et al.21 Figures 2 and 3 show ICa and
+[Ca2⫹]i
+transients in a nonfailing and a failing myocyte,
+respectively. Experimental data are shown as insets. Simula-
+tions of [Ca2⫹]i transients at various depolarizations were
+started with [Ca2⫹]NSR⫽[Ca2⫹]JSR⫽2.5 mmol/L in a nonfailing
+myocyte and [Ca2⫹]NSR⫽[Ca2⫹]JSR⫽1.0 mmol/L in a failing
+myocyte on the basis of experimental data.49 Under these
+conditions, simulated and experimentally found ICa and
+[Ca2⫹]i transients were similar in both cell groups. In partic-
+ular, peak [Ca2⫹]i was maximal when ICa reached its maxi-
+mum at ⫹10 mV in both cell groups. Values of resting and
+peak [Ca2⫹]i (Table 2) at ⫹10 mV are in the range of
+
+experimental data.27 Although peak ICa was slightly greater in
+a failing than in a nonfailing myocyte, the triggered [Ca2⫹]i
+transient was smaller than in a nonfailing myocyte because of
+the lower Ca2⫹ content of the SR.
+
+Figure 4 shows Ito simulated in a failing myocyte. The
+corresponding experimental traces are depicted in Figure 4B.
+The pulse protocol is shown as an inset. The current density of
+Ito at ⫹40 mV (difference between peak current and maintained
+current at the end of the pulse) was 8.9 pA/pF. The time course
+of inactivation of Ito was largely independent of voltage. The
+time constant of its monoexponential decay in the voltage range
+of ⫹10 to ⫹80 mV was 13⫾0.9 ms. These values of Ito are in
+accordance with experimental data measured at 37°C.20 Figures
+2, 3, and 4 demonstrate that simulated ICa, [Ca2⫹]i transients, and
+Ito resemble the experimental recordings closely with regard to
+their magnitude and kinetics.
+
+The simulations of voltage-clamp experiments of IKr and IKs
+are depicted in Figure 5. Depolarizations from a holding
+potential of ⫺60 mV to the various clamp pulse potentials
+generate a rapidly activating (Figure 5A) and a slowly
+activating (Figure 5B) K⫹ current through delayed rectifier
+channels with close approximation to experimental data.21 To
+validate simulations of IKr and IKs, current-voltage relations
+for IKtail of IKr and IKs are shown in Figure 5C. The values are
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1210
+
+Cellular Electric Properties in Heart Failure
+
+Figure 3. Ca2⫹ current through L-type Ca2⫹ channels (ICa) and intracellular [Ca2⫹] transients ([Ca2⫹]i) of a failing myocyte at various
+depolarizations in the model and in the experiment27 (insets). Holding potential was ⫺40 mV. As in the experimental study, INaCa was
+present in these simulations. [Na⫹]i was 5 mmol/L.
+
+very close to experimental data.21 Activation voltage depen-
+dence was determined by normalizing IKtail at each test
+potential in Figure 5C to the current at the most positive
+potential. Results are shown in Figure 5D. Curves are fitted to
+a Boltzmann distribution function. V0.5 and k values are
+consistent with experimental results (Table 3).
+
+Data of IK1 are shown in Figure 6. Experimental traces of
+IK1 in failing myocytes are depicted in Figure 6A. Currents
+were elicited from a holding potential of ⫺30 mV to the
+indicated voltages. On the basis of these experimental data,
+IK1 was simulated using the same pulse protocol. The current-
+voltage relations of simulated IK1 in a nonfailing and a failing
+myocyte are shown in Figure 6B. The whole-cell current
+slope conductance at the reversal potential of IK1 in a failing
+myocyte is smaller (0.23 nS/pF) than that in a nonfailing
+myocyte (0.4 nS/pF). In addition, the current density of IK1 at
+⫺70 mV (0.6 pA/pF [failing myocyte] versus 0.8 pA/pF
+[nonfailing myocyte]) and at ⫺100 mV (⫺10 pA/pF [failing
+myocyte] versus ⫺15 pA/pF [nonfailing myocyte]) is as-
+sumed to be smaller in a failing than in a nonfailing myocyte.
+
+nonfailing and of a failing myocyte were simulated. To obtain
+a steady state in [Ca2⫹]i transients, 10 APs were elicited at a
+frequency of 1 Hz. Under these conditions, both APs are
+distinctly different (Figure 7, top; nonfailing, dashed line;
+failing, solid line).
+
+APD90 was significantly longer in a failing than in a
+nonfailing myocyte (548.8 versus 374.0 ms, respectively). In
+contrast to this, differences in APD25 and APD50 between both
+cell groups were smaller (APD25: nonfailing, 262.9 ms;
+failing, 305.7 ms; APD50: nonfailing, 310.2 ms; failing, 374.5
+ms). Therefore, the prolongation of APD in heart failure was
+mainly due to the slower rate of repolarization in the late
+phase of AP in a failing compared with a nonfailing myocyte,
+which was also found in an experimental study on human
+myocardium.50 The ionic currents and the [Ca2⫹]i transients
+
+TABLE 2.
+
+[Ca2ⴙ]i Regulation (Experimental Data and Model)
+
+Nonfailing
+
+Failing
+
+Resting,
+nmol/L
+96⫾47
+
+120
+
+Peak,
+nmol/L
+746⫾249
+
+614
+
+Resting,
+nmol/L
+165⫾61
+
+136
+
+Peak,
+nmol/L
+367⫾109
+
+334
+
+Simulated AP Is Prolonged in Heart Failure
+After showing that simulated ionic currents and [Ca2⫹]i
+transients resemble experimental measurements, APs of a
+
+Beuckelmann et al27
+Model
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Priebe and Beuckelmann
+
+June 15, 1998
+
+1211
+
+Figure 4. Ito of a failing myocyte in the model (A) and in the experiment (B). The pulse protocol is shown as an inset.
+
+during the AP are shown in Figures 7 and 8 (nonfailing,
+dashed line; failing, solid line). At 4 mmol/L [K⫹]o and
+140 mmol/L [K⫹]i, the resting membrane potential in this
+model was only slightly different in both cell groups (non-
+failing, ⫺89.7 mV; failing, ⫺85.6 mV). A greater discrep-
+ancy in resting membrane potential between both cell groups
+was prevented by IK1. Although the current density of IK1 was
+reduced in a failing compared with a nonfailing myocyte, the
+increase of IK1 in these cells when the resting potential
+becomes more positive limits the depolarization of the cell
+membrane in a failing myocyte (Figure 7, IK1).
+
+After depolarization of the cell membrane by a suprath-
+reshold stimulus, INa depolarized the membrane to an over-
+shoot potential of 50 mV and inactivated immediately (not
+shown). Subsequently, ICa, Ito, IKs, and IKr were activated, and
+INaK increased. The fast activation of ICa (5 ms) was followed
+by a rapid incomplete inactivation to 12% of its peak value
+(Figure 7). Repolarization was initiated by the activation of
+Ito. In both cell groups, Ito activated and inactivated rapidly
+(Figure 7). Thereafter, IKr and, subsequently, IKs were com-
+pletely activated and accelerated the repolarization, which
+was completed by the opening of IK1 channels (Figure 7).
+
+Figure 5. A and B, Simulation of the fast
+(IKr, A) and the slow (IKs, B) component of
+IK based on the study by Li et al.21 Time-
+dependent step currents were elicited by
+depolarizations ove r 3 s to theindicated
+potentials from a holding potential of
+⫺60 mV. Tail currents were elicited by
+repolarizations to ⫺30 mV over 2 s. Note
+the reduction of step current density of
+IKr at voltages negative to 0 mV. C, Cur-
+rent-voltage relations for IKtail of IKr ((cid:131))
+and IKs (F). IKtail was elicited by the same
+pulse protocol as described above. D,
+Activation curve of IKr and IKs based on
+analysis of IKtail in panel C.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1212
+
+Cellular Electric Properties in Heart Failure
+
+TABLE 3. Parameters of Steady-State Activation of IKr and IKs
+(Experimental Data and Model)
+
+IKs
+
+IKr
+
+Studies
+
+Li et al21
+Model
+
+V0.5, mV
+⫹9.4⫾2.5
+
+⫹10.6
+
+k, mV
+
+⫹11.8⫾2.9
+
+⫹11.5
+
+V0.5, mV
+⫺14⫾4
+⫺18.9
+
+k, mV
+
+⫹7.7⫾2.7
+
+⫹6.1
+
+When these repolarizing currents increased, ICa deactivated
+completely. During the plateau and repolarization phase of
+AP, INaK counteracted the depolarization of the cell membrane
+(Figure 8).
+
+The total current of the background currents, ICa,b and INa,b,
+during an AP was slightly higher in a nonfailing myocyte
+(Figure 8), so that the alterations in APD in heart failure may
+even be underestimated.
+
+In this model, INaCa was a repolarizing current during most
+of the AP plateau in a failing myocyte (Figure 7). During the
+late plateau and repolarization phase, INaCa carried an inward
+current in its forward mode and extruded Ca2⫹ ions out of the
+myocyte. By this means, INaCa becomes a depolarizing current.
+Therefore, it slows down the rate of membrane repolarization
+during the late phase of membrane repolarization, especially
+
+Figure 7. Simulated APs and major ionic currents determining
+the AP shape in a nonfailing myocyte (dashed line) and in a fail-
+ing myocyte (solid line). For details, see text. Peak values of ICa
+and of Ito in a failing myocyte are indicated by arrows.
+
+in a failing myocyte, because of its higher activity and the
+slowed decay of the [Ca2⫹]i transient. In this myocyte, the
+final repolarization phase was also prolonged because of the
+decrease of IK1 (0.68 versus 0.85 pA/pF in a nonfailing
+myocyte) and of INaK.
+
+The [Ca2⫹]i transient during the AP was markedly different
+in both cell groups (Figure 8). As a result of the higher Ca2⫹
+content in the SR, the maximum of the Ca2⫹ transient was
+higher in a nonfailing than in a failing myocyte (nonfailing,
+1100 nmol/L; failing, 569 nmol/L). The faster inactivation of
+in the nonfailing myocyte was caused by enhanced
+ICa
+Ca2⫹-dependent inactivation of this current and led, together
+with higher Ito and INaK, to a reduction of the plateau phase of
+the AP in this myocyte compared with a failing myocyte
+(nonfailing, ⫹19.0 mV; failing, ⫹29.2 mV).
+
+In conclusion, these simulations of APs in both groups
+demonstrate that the prolongation of the AP in a failing
+myocyte is mainly due to a prolonged late repolarization
+phase caused by an enhanced activity of INaCa and the slowed
+diastolic decay of the [Ca2⫹]i transient. The reduction of IK1
+
+Figure 6. Inward rectiﬁer current: IK1. A, Original experimental
+recording from a holding potential of ⫺30 mV. The cell was
+hyperpolarized to ⫺120 to ⫹ 10 mV over 500 ms. Note that the
+current was time dependent only on hyperpolarizations to
+potentials negative to ⫺100 mV. B, Current-voltage relations of
+simulated IK1 in a nonfailing and a failing myocyte. Currents are
+simulated using the experimental pulse protocol as described
+above.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Priebe and Beuckelmann
+
+June 15, 1998
+
+1213
+
+isolation procedures and recording APs under maintained
+conditions, a significant variability remains. APs measured in
+our laboratory (Dr M. Lindner, unpublished data) vary more
+distinctly in failing than in nonfailing myocytes. Figure 9
+shows measured APs that represent the observed spectrum. It
+is obvious that simulated APs (Figure 7) were generally
+similar to the measured APs in nonfailing (Figure 9A) and
+failing (Figures 9B and 9C) myocytes. However, a group of
+recorded APs in failing myocytes (Figure 9D) characterized
+by a pronounced prolonged plateau phase showed significant
+differences to the simulation. Possible underlying factors will
+be discussed later.
+
+Simulated and Experimental APD Restitution
+Curves Are Similar
+In the human heart, similar to other mammalian hearts,
+increasing the pacing rate or shortening of the coupling
+interval of a premature beat
+leads to shortening of the
+APD.51,52 The reconstruction of this physiological phenome-
+non by this model serves a very important purpose,
+ie,
+validation. Therefore, APD restitution was simulated accord-
+ing to the experimental protocol of Morgan et al.51 For this
+purpose, paired stimuli were used to elicit a second AP (AP2)
+at variable times after the initiation of the first (AP1). Before
+each simulation with a different time interval, 10 APs were
+elicited at a frequency of 1 Hz to obtain a steady state in
+[Ca2⫹]i transients. For clarity, only APs at the following
+extrastimulus intervals are shown: 300, 400, 500, 600, 700,
+and 800 ms (Figure 10A). APD restitution curves are depicted
+in Figure 10B.
+
+APD90 of the second AP obtained in simulations (Figure
+10B, circle) and in the experiment (Figure 10B, square) are
+plotted as function of extrastimulus interval. The similarity of
+both curves substantiates the validity of this model.
+
+The Effect of Ito on the APD in Human
+Myocardium Is Small
+4-Aminopyridine is known to prolong the AP. From this
+result, it has been postulated that reduction of Ito may prolong
+the AP in cardiac myocytes.13,53,54 However, there are addi-
+tional effects of 4-aminopyridine on other currents, especially
+
+Figure 9. Measured APs in nonfailing (A)
+and failing (B to D) myocytes (M. Lindner,
+unpublished data). Note the great variability
+in shape and duration of APs in failing
+myocytes.
+
+Figure 8. Simulations of the intracellular [Ca2⫹] transient ([Ca2⫹]i)
+in a nonfailing myocyte (dashed line) and in a failing myocyte
+(solid line) at a stimulation frequency of 1.0 Hz. In addition, INaK,
+ICa,b, and INa,b are shown.
+
+and INaK in heart failure additionally contribute to the differ-
+ence in the late repolarization phase between nonfailing and
+failing myocytes.
+
+Simulated APs Resemble Those Recorded in
+Human Ventricular Myocytes
+APs in human ventricular myocytes of nonfailing and failing
+hearts measured in different laboratories show a great vari-
+ability in duration and shape. Despite using comparable
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1214
+
+Cellular Electric Properties in Heart Failure
+
+Figure 10. Restitution of APD. Simulations were performed in a
+nonfailing myocyte. A, The myocyte was initially paced 10 times
+at 1 Hz, and then an additional stimulus was applied, triggering
+a second AP (AP2) after variable intervals (IDs), deﬁned as the
+time interval between the initiation of the last paced AP (AP1)
+and the upstroke of AP2. AP1 and AP2 are shown for 6 different
+IDs: 300, 400, 500, 600, 700, and 800 ms. B, APD90 as function
+of ID is shown. Results of simulations (F) and experimental data
+(f) by Morgan et al51 are compared.
+
+23 and IK.55 With our model, we can investigate the
+on ICa
+possible contribution of Ito to the APD in human ventricular
+myocytes. To assess the effect of Ito on APD, we simulated
+the APs in both cell groups under conditions of various
+degrees of Ito inhibition (25%, 50%, 75%, and 100%). As
+described above, the simulations were preceded by 10 stim-
+ulations to obtain steady-state conditions. The simulated APs
+shown in Figure 11 demonstrate that inhibition of Ito does not
+significantly prolong the AP in a nonfailing (Figure 11A) or
+in a failing (Figure 11B) myocyte.
+
+IKr and IKs Control Repolarization in
+Human Myocardium
+Despite their relative small current densities, IKr and IKs
+largely control repolarization of the AP in human ventricular
+myocytes. This effect of IKr and IKs on APD in guinea pig
+ventricular myocytes has already been demonstrated in a
+previous computer simulation study.56 Inhibition of IKr, the
+main mechanism of class III antiarrhythmic agents, has also
+been shown to prolong the AP in in vivo mapping studies.57–59
+Carlsson et al60 have found a pronounced prolongation of
+the AP in nonfailing human ventricular muscles after inhibi-
+tion of IKr by 10⫺6 H 234/09 (almokalant). At this concentra-
+tion, almokalant significantly blocks only IKr.61
+
+We attempted to imitate this effect of IKr on APD in human
+myocardium by varying gmax of IKr to 75%, 50%, 25%, and 0%
+of its original value. To obtain a steady state of the [Ca2⫹]i
+transient, 20 action potentials were elicited. Figure 12A
+shows the prolongation of the AP in a nonfailing cell by
+inhibition of IKr to various degrees (left). As in the experi-
+mental study,60
+increased inhibition of IKr resulted in a
+progressive prolongation of AP. At 100% inhibition of IKr,
+APD90 was lengthened from 374.0 to 689.4 ms, which is in
+the range measured by Carlsson at al.60 This APD prolonga-
+
+Figure 11. Effect of inhibition of Ito on the APD. APs were simu-
+lated at various degrees of inhibition of Ito in a nonfailing myocyte
+(A) and in a failing myocyte (B). These simulations imply that Ito has
+only a small effect on the APD in human myocardium.
+
+tion was, however, larger than that found in single human
+myocytes after 100% inhibition of IKr by Li et al.21 This
+discrepancy may be partially due to the different experimen-
+tal conditions. In contrast to our simulations, the intracellular
+Ca2⫹ was buffered by using 5 mmol/L EGTA, significantly
+influencing ICa and, thereby, the AP. Inhibition of IKr also
+prolonged AP in a failing myocyte (Figure 12B, left). In
+contrast
+to a nonfailing myocyte, 50% inhibition of IKr
+resulted in an incomplete repolarization of the cell membrane
+in a failing myocyte at 1.0 Hz (Figure 12B, left; 50%). At
+75% inhibition of IKr, even an EAD developed after 3
+stimulations. Therefore, a failing myocyte is more sensitive
+than a nonfailing myocyte to IKr inhibition. Simulations with
+various degrees of inhibition of IKs have indicated that this
+current also has a significant impact on APD in both cell
+groups (Figure 12A and 12B, right). However, inhibition of
+IKr had an even greater effect. In a nonfailing myocyte, 100%
+inhibition of IKs prolonged APD90 from 374.0 to 526.1 ms. In
+a failing myocyte,
+incomplete repolarization occurred at
+100% inhibition of IKs.
+
+Complete Inhibition of IKr Induces Development of
+Recurrent EADs in Failing Myocytes
+The previous simulations reveal the critical role of IKr in
+repolarization and, thereby, in the electric stability of the cell
+membrane in a failing myocyte. Therefore, inhibition of IKr
+may facilitate the formation of EADs in failing myocytes. At
+75% inhibition of IKr, we can observe an EAD after 3
+stimulations. To investigate whether there are recurrent EADs
+in a failing myocyte without preconditioning stimulations,
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Priebe and Beuckelmann
+
+June 15, 1998
+
+1215
+
+Figure 12. Simulated APs under control conditions (dashed line) and when gmax of IKr or IKs was reduced by 25%, 50%, 75%, or 100%
+in a nonfailing myocyte (A) and in a failing myocyte (B).
+
+simulation of the action potential in a failing myocytes was
+performed while assuming complete inhibition of IKr. The
+computed AP, [Ca2⫹]i transient, and ICa and INaCa are shown in
+Figure 13. It is obvious that 100% inhibition of IKr leads to
+recurrent EADs in a failing myocyte. IKr inhibition prolonged
+the time when the membrane potential was at ⬇⫺30 mV.
+This allowed for sufficient time for reactivation of ICa and for
+generation of EADs. During the decay phase of EADs, INaCa
+transiently becomes a depolarizing current. However, the
+magnitude of INaCa (⫺0.05 pA/pF) was much smaller than that
+of ICa (⫺0.5 pA/pF). Therefore, it can be concluded that
+EADs are mainly carried by ICa in our model.
+
+The Likelihood of Premature APs Is Enhanced in
+a Failing Myocyte
+Premature APs can be triggered by DADs, which are caused
+by a spontaneous Ca2⫹ release from the SR.62,63 Since INaCa as
+a possible underlying current is enhanced in failing myocytes,
+it can be expected that premature APs occur more frequently
+in these myocytes than in nonfailing cells. However, there is
+evidence that the Ca2⫹ content of SR is decreased in failing
+myocytes, which would lead to a smaller Ca2⫹ increase after
+spontaneous Ca2⫹ release from the SR and, thereby, to a
+reduced driving force for the depolarizing INaCa in these cells.
+
+it should pointed out
+
+Therefore, it remains unclear whether increased INaCa in
+failing myocytes is indeed combined with a higher occur-
+rence of DADs. Additionally,
+that
+DADs are not, per se, arrhythmogenic. One could rather
+imagine that the generation of DADs would result in reduced
+excitability of the myocyte by affecting the availability of
+Na⫹ channels. The generation of DADs exerts a solely
+proarrhythmogenic effect if the depolarization reaches the
+threshold to open Na⫹ channels and trigger a premature AP.
+Consequently, we investigated whether the combined elec-
+trophysiological alterations in heart failure would enhance the
+likelihood of premature APs. For this purpose, a spontaneous
+Ca2⫹ release from the SR was simulated in both cell groups.
+As Luo and Rudy64 have shown, the recovery from the slow
+inactivation of Na⫹ channels, named factor j in their model,
+determines the recovery of the excitability after the AP. To
+investigate the influence of INaCa on the generation of prema-
+ture APs separately, the Na⫹ channels should be completely
+recovered from their slow inactivation at the start of the
+spontaneous Ca2⫹ release from the SR. Therefore, a sponta-
+neous Ca2⫹ release from SR was assumed to occur at least 250
+ms after 90% repolarization of the last AP in both cell groups.
+After this diastolic time interval, the factor j⫽1 (eg, the
+availability of Na⫹ channels) was ⬇100% in both cell groups.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1216
+
+Cellular Electric Properties in Heart Failure
+
+Figure 13. Generation of recurrent EADs in a failing myocyte
+after complete inhibition of IKr. V indicates membrane potential.
+
+We assumed an equal Ca2⫹-independent mechanism of the
+spontaneous Ca2⫹ release from the SR in both cell groups.
+Simulations of spontaneous Ca2⫹ release from the SR were
+preceded by a train of stimulations at 2.0 Hz for elevating the
+Ca2⫹ content of the SR. After 11 stimulations, there were
+differences in Ca2⫹ homeostasis between both cell groups
+(Figures 14 and 15). Before spontaneous Ca2⫹ release oc-
+curred, diastolic [Ca2⫹]i was higher in a failing myocyte (275
+nmol/L) than in a nonfailing myocyte (218 nmol/L). [Ca2⫹]NSR
+was increased from 2.9 to 3.4 mmol/L in a nonfailing
+myocyte and from 1.2 to 1.5 mmol/L in a failing myocyte. As
+expected, the postulated spontaneous Ca2⫹ release from the
+SR resulted in a greater increase of [Ca2⫹]i in a nonfailing
+myocyte (1394 nmol/L) than in a failing myocyte (713
+nmol/L).
+
+As a result, depolarizing peak INaCa was greater in a
+nonfailing than in a failing myocyte (⫺1.35 versus ⫺1.0
+pA/pF, respectively), although the activity of the Na⫹-Ca2⫹
+exchanger was elevated in the failing myocyte. However, a
+premature AP was generated only in a failing myocyte
+(Figure 15).
+
+Discussion
+
+General Findings
+Results of simulations of ionic currents and of the APD
+restitution show that this model can reproduce important
+electrophysiological characteristics of human ventricular
+myocytes. Voltage-clamp simulations of the major ionic
+currents (Figures 2 to 6) and the simulation of AP (Figure 7)
+
+Figure 14. Effect of spontaneous Ca2⫹ release from the SR in a
+nonfailing myocyte. V indicates membrane potential. To
+enhanced Ca2⫹ content concentration of the NSR and JSR
+([Ca2⫹]NSR and [Ca2⫹]JSR), 11 APs were elicited at a frequency of
+2.0 Hz. Spontaneous Ca2⫹ release from the SR was assumed to
+happen 250 ms after the last AP (indicated by an arrow). Subse-
+quently, [Ca2⫹]i increased quickly to a maximum level of 1394
+nmol/L and then declined. This is linked to the generation of a
+DAD through a depolarizing INaCa.
+
+closely resemble experimental data obtained from human
+single myocytes. Simulations of the ionic currents during the
+time course of the action potential (Figures 7 and 8) and
+simulations of ionic current inhibition reveal the important
+role of IKr and IKs in repolarization in human ventricular
+myocytes. INaK may additionally contribute to repolarization
+in human ventricular myocytes and, together with IK1, stabi-
+lize the resting potential (Figure 8). Furthermore, simulations
+of ionic currents during the AP demonstrate that INaCa is an
+important depolarizing current during the late phase of
+repolarization in a failing myocyte (Figure 7) because of the
+enhanced activity of the Na⫹-Ca2⫹ exchanger and the slow
+decay of the [Ca2⫹]i
+in this cell (Figure 8). In
+contrast to the results from an AP model of guinea pig
+ventricular myocytes,56 we have found that the influence of IKr
+on APD is greater than that of IKs. This discrepancy is due to
+a much smaller ratio of gmax of IKs to IKr in the present study
+(1.3) compared with the animal model (7.72). Our value is
+
+transient
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Priebe and Beuckelmann
+
+June 15, 1998
+
+1217
+
+In studies of various animal models of heart failure or
+hypertrophy, a reduction of Ito has been found, and this has
+been assumed to be an important factor causing AP prolon-
+gation in heart failure.54,66,67 In human ventricular myocytes,
+inhibition of Ito has been found to prolong AP.13 Our simula-
+tions of different degrees of inhibition of Ito (Figure 10)
+suggest, however, that inhibition of Ito does not prolong AP in
+nonfailing or failing myocytes in human hearts. A reason for
+this discrepancy could be that 4-aminopyridine, which was
+used in the experimental study,13 also blocked IKs and IKr,
+which would lengthen the AP. Considering this problem in
+experimental conditions, we conclude from the simulations of
+our model that the influence of Ito on APD is negligible in
+human myocardium. Of course, this model cannot prove that
+Ito does not alter APD, but it strongly suggests that reduction
+of the current density of Ito found in failing myocytes of
+human hearts does not seem to contribute significantly to the
+APD prolongation in heart failure. This hypothesis should be
+tested experimentally using a highly specific blocker of Ito in
+the future. In a human atrial AP model, it has been demon-
+strated that the effect of Ito on the AP is largely dependent on
+the magnitude of IK.68
+
+Therefore, the distinctly different influence of Ito on APD
+in human ventricular myocytes compared with other cell
+types and species may be caused mainly by the specific
+kinetics and magnitude of IKr and IKs found in human
+ventricular myocytes. In myocytes, where IK is found to be
+small, Ito may significantly determine the repolarization phase
+of the AP.69
+
+Prolongation of the AP in human ventricular myocytes of
+failing hearts has been well established.13,22,24,26 Most authors
+have found the APD to range between 400 and 1260 ms. In
+most of these studies, intracellular Ca2⫹ was buffered using
+EGTA in the pipette solution. Therefore, the influence of INaCa
+on the prolongation of the AP can be only slight in these
+studies. Our simulations suggest that an APD of ⬎600 ms can
+be explained only by assuming a significant reduction of IKr
+or IKs (Figure 12). In those studies in which APD was very
+long, the authors could indeed detect only a small IKr and no
+IKs.13,24 As in nonfailing myocytes, the variability in shape and
+duration of APs in failing myocytes measured in our labora-
+tory and in others could possibly be explained by a variable
+expression of IKr and IKs (Figure 9B to 9D). Further studies are
+necessary to show whether alterations of IKr and IKs in failing
+myocytes reflect real current changes in heart failure or
+whether they are caused by the isolation procedure.
+
+Conclusions From the Simulated APs for
+Arrhythmogenesis in Heart Failure
+From the results shown in Figures 14 and 15, we conclude
+that in heart failure one important mechanism for triggered
+arrhythmias could be DADs. In our model, DADs were
+initiated by a postulated spontaneous Ca2⫹ release from the
+SR. The resulting [Ca2⫹]i increase depolarized the cell mem-
+brane through INaCa in both cell groups. Therefore, as in
+animal myocytes, this indicates that INaCa may also signifi-
+cantly contribute to the generation of DADs in human
+myocytes.
+
+Figure 15. Effect of spontaneous Ca2⫹ release from the SR in a
+failing myocyte. V indicates membrane potential. As in a nonfail-
+ing myocyte, 11 APs were elicited at a frequency of 2.0 Hz to
+enhanced Ca2⫹ content concentration of NSR and JSR
+([Ca2⫹]NSR and [Ca2⫹]JSR). However, the increase was smaller
+compared with a nonfailing myocyte. Spontaneous Ca2⫹ release
+from the SR was assumed to happen 250 ms after the last AP
+(indicated by an arrow). In contrast to a nonfailing myocyte,
+[Ca2⫹]i increased only to a maximum level of 713 nmol/L. This
+results, however, in a premature AP.
+
+validated by simulations of current-voltage relations of tail
+currents of IKr and IKs, which are very close approximations to
+experimental data (Figure 5C). Although the gmax of IKs is still
+greater than that of IKr in the present study, IKs contributes a
+smaller fraction of the total IK during a ventricular AP
+because of its slow activation kinetics (Figure 5B).
+
+The influence of IKr and IKs on APD may be one reason for
+the wide range of measured APDs in different publications
+(between 233 ms17 and 650 ms13 in single myocytes from
+nonfailing hearts). Yue et al65 have demonstrated that the
+expression of IK in cells isolated from the canine heart is very
+dependent on the isolation technique.
+
+Among other factors, different expressions of IKr and IKs in
+single human myocytes, possibly due to different isolation
+procedures, could be a reason for this divergence of APD.
+However, the AP simulated in a nonfailing myocyte (Figure
+7) in our model very closely resembles the AP measured in
+single cells by our work group (Figure 9A) and by Peeters et
+al.39 When the monophasic AP technique was used in in vivo
+studies,51,52 the observed shape and duration of AP in human
+hearts were very similar to our simulations.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1218
+
+Cellular Electric Properties in Heart Failure
+
+Although the activity of the Na⫹-Ca2⫹ exchanger is en-
+hanced in failing myocytes, INaCa is slightly larger in nonfail-
+ing than in failing myocytes, since the [Ca2⫹]i increase is
+much higher in this cell. Nevertheless, a premature AP can be
+triggered only in a failing myocyte as the repolarizing ionic
+currents, IK1 and INaK, are reduced in this cell. This indicates
+that a reduction of repolarizing currents (IK1 and INaK) rather
+than an increase of the depolarizing current (INaCa) seems to be
+responsible for the enhanced likelihood of triggered APs in
+failing myocytes. In our model, the increase of the Na⫹-Ca2⫹
+exchanger activity in a failing myocyte can only partially
+compensate the smaller [Ca2⫹]i increase as a driving force
+after spontaneous Ca2⫹ release from the SR. It should be
+pointed out that the conclusion of these simulations is limited
+by the assumption that the spontaneous Ca2⫹ release from the
+SR is self-initiated and equal
+in both cell groups. This
+limitation is necessary because our understanding of the
+mechanisms involved in the spontaneous Ca2⫹ release from
+the SR is incomplete. At present, the mechanism of the
+spontaneous Ca2⫹ release from the SR is thought to be a Ca2⫹
+overload of the cell.70,71 Since the Ca2⫹ content of the SR
+increases faster in a nonfailing than in a failing myocyte at 2.0
+Hz (Figures 14 and 15), the spontaneous Ca2⫹ release from
+the SR after pacing burst and resulting DADs is expected to
+occur earlier and more frequently in a nonfailing than in a
+failing myocyte, assuming that spontaneous Ca2⫹ release
+occurs if the Ca2⫹ content of the SR reaches a threshold level.
+This is, however, in contrast to experimental animal studies in
+which DADs and triggered APs were observed more fre-
+quently in failing or hypertrophied animal myocytes.72,73 The
+development of this model
+is inadequate to resolve this
+discrepancy. It cannot predict the occurrence of spontaneous
+Ca2⫹ release from the SR in both cell groups. Nevertheless, it
+may help to elucidate whether there are differences in the
+induction of DAD-triggered APs between both cell groups.
+Indeed, the simulations clearly show that spontaneous Ca2⫹
+release leads to a triggered AP only in a failing myocyte.
+From these triggered APs, triggered arrhythmias may arise.
+Even if we assume a higher incidence of spontaneous Ca2⫹
+the higher
+release from the SR in nonfailing myocytes,
+incidence of resulting DADs would not result in a higher
+incidence of triggered arrhythmias than in failing myocytes.
+in DADs and
+triggered APs does not mean that the Ca2⫹-dependent non-
+specific cation channel has no role in the arrhythmogenesis in
+heart failure. In animal studies, there is evidence for its
+contribution in generating DADs.74,75 Luo and Rudy76 con-
+cluded from the results of their simulations that the contribu-
+tion of Ins(Ca) and INaCa to the induction of DADs depends on
+the level of Ca2⫹ overload. However, at present, the existence
+of a nonspecific cation channel in human ventricular myo-
+cardium is unknown.
+
+The conclusion about
+
+the role of INaCa
+
+EADs are triggered during the plateau phase of an AP and
+are thought to be caused by reactivation of the ICa.6,7 The
+membrane potential has to remain at voltages positive to ⫺35
+mV until the L-type Ca2⫹ channels are able to recover from
+their inactivation and can open again. Detailed models have
+been developed addressing this issue. Nordin and Ming77
+showed that current-induced EADs in guinea pig ventricular
+
+myocytes are mainly due to the L-type Ca2⫹ channel window
+current. Zeng and Rudy78 came to the same conclusion in their
+model simulating the effect of cesium, Bay K 8644, and
+isoproterenol on the AP. In various preparations, specific
+block of IKr has been found to result in EADs in nonfailing
+animal myocytes. However, EADs are not generated by
+inhibition of IKr block in a nonfailing myocyte in this model
+(Figure 12A, left). Even if the gmax of IKr and IKs is changed
+simultaneously, corresponding to the approach of Zeng et al56
+to generate EADs in their model, no EADs can be generated
+in a nonfailing myocyte (not shown). In contrast to this, 75%
+inhibition of IKr can lead to an EAD in a failing myocyte
+(Figure 12B, left; 75%). When the inhibition of IKr is 100%,
+even recurrent EADs develop in this myocyte (Figure 13).
+
+As already demonstrated in previous models,77,78 reacti-
+vated ICa is also the underling inward current of these EADs.
+In conclusion, our results indicate that EADs are difficult to
+induce in human compared with animal myocytes. They can
+be generated only in failing myocytes after blocking IKr by at
+least 75% (Figure 12B, left, and Figure 13). This discrepancy
+in EAD formations between animal models and the present
+model is supported by experimental data. Vermeulen et al73
+have observed that EADs occur only in papillary muscles of
+rabbit hearts but never in human papillary muscles. Further
+studies are required to assess the role of EADs in arrhythmias
+in human ventricular myocytes.
+
+Besides triggered APs, reentry mechanisms may also
+contribute to the increased incidence of tachyarrhythmias in
+heart failure.79 Among many promoting factors, dispersion of
+refractoriness or wide variations in the duration of APs
+observed in hypertrophied myocardium80 can evoke reentry
+arrhythmias.81 Our model can also contribute to the investi-
+gation of this type of arrhythmia in heart failure by identify-
+ing the ionic currents that are important for the APD in human
+ventricular myocytes. The simulations demonstrate that IKs
+has an impact on AP in the human heart. Regional differences
+of IKs reported in canine left ventricle82 could partially explain
+the known heterogeneity of the AP in human left ventricle.83
+This may also hold true to an increased extent in heart failure.
+In addition, the increase of INaCa activity and the alterations of
+[Ca2⫹]i handling may also not be uniform in heart failure,
+thereby increasing the inhomogeneity of the AP across the
+heart wall. Another factor determining dispersion of APs
+along the myocardial wall could be the passive electrical
+properties of the myocardium. Keung et al84 have demon-
+strated that these are different in normal and hypertrophied rat
+myocardium. Further studies are necessary to determine
+whether it also holds true in the human heart.
+
+Limitations of the Model
+A variety of models have been developed previously on the
+basis of the results of animal studies.31,56,85– 88 Since major
+differences exist
+in the characteristics of ionic currents
+between human and animal myocytes, conclusions drawn
+from these models cannot easily be extrapolated to human
+heart cells. However, although the present model has the
+advantage of being based partially on human data, it also has
+several limitations.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Significant uncertainty remains concerning the magnitude
+of INaCa. At present, voltage-clamp data of this current in
+human ventricular myocytes are not available. Comparison of
+INaCa incorporated in the model with the measured data in the
+human atrium suggests that the magnitude of the simulated
+INaCa has been well estimated. Nevertheless, it should be
+pointed out that some results have to be interpreted with
+caution because of their dependence on INaCa. However, the
+simulations clarify that an increase of INaCa could play an
+important role in the arrhythmogenesis in heart failure and
+that
+its quantification in human ventricular myocytes is
+desirable.
+
+To simulate [Ca2⫹]i transients, the approach of the LR
+model is used. Although major components of intracellular
+Ca2⫹ homeostasis are included in this model, this approach is
+only an approximation of the complex nature of the intracel-
+lular Ca2⫹ homeostasis, since some important features, such
+as the CICR from the SR or the mechanism of Ca2⫹ buffering,
+and their potential changes in heart failure are simplified.
+This is mainly due to our incomplete understanding of the
+exact mechanisms involved in these phenomena. Neverthe-
+less, the simulated [Ca2⫹]i transients in both cell groups agree
+largely with experimental observations and provide an inde-
+pendent test of how well our model describes [Ca2⫹]i ho-
+meostasis.
+
+Another assumption of the model
+
+that has not been
+investigated is that IKr and IKs are unaltered in heart failure. In
+addition, information about IKr dependence on [K⫹]o and IKs
+dependence on [Ca2⫹]i is not available at present.
+
+Therefore, it should be stressed that further development of
+this model is needed for simulating alterations of the APs
+under various pathophysiological conditions, such as myo-
+cardial ischemia, as performed by Shaw and Rudy.89 Never-
+theless, the conclusions from the simulations presented here,
+and also their limitations, highlight several important areas
+that deserve future experimental studies.
+
+Appendix: Formulations of Ionic Currents
+
+Inward Current
+Fast Naⴙ Current: INa
+INa⫽16 䡠 m3 䡠 h 䡠 j 䡠 (V⫺ENa)
+ENa⫽(RT/F) 䡠 ln共[Na⫹] o / [Na⫹]i兲
+where m, h, and j are the activation gate, the fast inactivation gate,
+and the slow inactivation gate of INa, respectively, V is the membrane
+potential, ENa is the equilibrium potential for Na⫹, R is the universal
+gas constant, T is the absolute temperature, and F is the
+Faraday constant.
+For Vⱖ⫺40 mV
+␣h⫽␣j⫽0.0
+␤h⫽1/共0.13 䡠 {1⫹exp[(V⫹10.66)/⫺11.1]}兲
+␤j⫽0.3 䡠 exp(⫺2.535 䡠 10⫺7 䡠 V)/{1⫹exp[⫺0.1 䡠 (V⫹32)]}
+For V⬍⫺40 mV
+␣h⫽0.135 䡠 exp[(80⫹V)/⫺6.8]
+␤h⫽3.56 䡠 exp(0.079 䡠 V)⫹3.1 䡠 105 䡠 exp(0.35 䡠 V)
+
+Priebe and Beuckelmann
+
+June 15, 1998
+
+1219
+
+␣j⫽[⫺1.2714 䡠 105 䡠 exp(0.244 䡠 V)⫺3.474 䡠 10⫺5
+䡠 exp(⫺0.04391 䡠 V)] 䡠 (V⫹37.78)/{1⫹exp[0.311 䡠 (V⫹79.23)]}
+
+␤j⫽0.1212 䡠 exp(⫺0.01052 䡠 V)/{1⫹exp[⫺0.1378 䡠 (V⫹40.14)]}
+
+For the total range of V
+␣m⫽0.32 䡠 (V⫹47.13)/{1⫺exp[⫺0.1 䡠 (V⫹47.13)]}
+␤m⫽0.08 䡠 exp(⫺V/11)
+
+Slow Inward Current: ICa
+ICa⫽gCa,max 䡠 d 䡠 f 䡠 fCa 䡠 (V⫺ECa)
+gCa,max⫽0.064 mS/␮F
+ECa⫽(RT/ 2F) 䡠 ln([Ca2⫹]o /[Ca2⫹]i)
+␣d⫽14.98/(16.68 䡠 冑2 䡠 ␲ )exp{⫺[(V⫺22.36)/16.68]2/ 2}
+␤d⫽0.1471⫺5.3/(14.93 䡠 冑2 䡠 ␲)exp{⫺[(V⫺6.27)/14.93]2/2}
+␣f⫽[6.87 䡠 10⫺3]/{1⫹exp[(6.1546⫺V)/⫺6.12]}
+␤f⫽{0.069 䡠 exp[⫺0.11 䡠 (V⫹9.825)]⫹0.011}/
+{1⫹exp[⫺0.278 䡠 (V⫹9.825)]}⫺5.75 䡠 10⫺4
+fCa⫽1/(1⫹([Ca2⫹]i/KCa))
+KCa⫽600 nmol/L
+where gCa,max is gmax for ICa, d is the activation gate of ICa, f is the
+inactivation gate of ICa, ECa is the equilibrium potential for Ca2⫹, fCa
+is a proportional factor for Ca2⫹-dependent inactivation of ICa, and
+KCa is half-maximum Ca2⫹ binding concentration for ICa.
+
+Outward Current
+Transient Outward Current: Ito
+Ito⫽gto,max 䡠 r 䡠 t 䡠 (V⫺Eto)
+Eto⫽(RT/F) 䡠 ln{(0.043 䡠 [Na⫹]o⫹[K⫹]o)/(0.043 䡠 [Na⫹]i⫹[K⫹]i)}
+gto,max: nonfailingf0.3 mS/␮F; heart failuref0.191 mS/␮F
+␣r⫽{0.5266 䡠 exp[⫺0.0166 䡠 (V⫺42.2912)]}/
+{1⫹exp[⫺0.0943 䡠 (V⫺42.2912)]}
+
+␤r⫽{0.5149 䡠 exp[⫺0.1344 䡠 (V⫺5.0027)]⫹5.186 䡠 10⫺5 䡠 V}/
+{1⫹exp[⫺0.1348 䡠 (V⫺5.186 䡠 10⫺5)]}
+
+␣t⫽{0.0721 䡠 exp[⫺0.173 䡠 (V⫹34.2531)]⫹5.612 䡠 10⫺5 䡠 V}/
+{1⫹exp[⫺0.1732 䡠 (V⫹34.2531)]}
+
+␤t⫽{0.0767 䡠 exp[⫺1.66 䡠 10⫺9 䡠 (V⫹34.0235)]⫹1.215 䡠 10⫺4 䡠 V}/
+{1⫹exp[⫺0.1604 䡠 (V⫹34.0235)]}
+
+where gto,max is gmax for Ito, r and t are the activation gate and the
+inactivation gate of Ito, respectively, and Eto is the equilibrium
+potential for Ito.
+
+Delayed Rectifier Current
+
+2 䡠 (V⫺EK)
+
+Slowly Activating Current: IKs
+IKs⫽gKs,max 䡠 Xs
+EKs⫽(RT/F) 䡠 ln{(0.01833 䡠 [Na⫹]o⫹[K⫹]o)/(0.01833 䡠 [Na⫹]i⫹[K⫹]i)}
+gKs,max⫽0.02 mS/␮F
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1220
+
+Cellular Electric Properties in Heart Failure
+
+␣Xs
+
+␤Xs
+
+⫽3.0 䡠 10⫺3/{1⫹exp[(7.44⫺(V⫹10)/14.32]}
+
+⫽5.87 䡠 10⫺3/{1⫹exp[(⫺5.95⫺(V⫹10)/⫺15.82]}
+
+where gKs,max is gmax for IKs, Xs is the activation gate of IKs, and EKs is
+the equilibrium potential for IKs.
+
+Rapidly Activating Current: IKr
+IKr⫽gKr,max 䡠 Xr 䡠 rik 䡠 (V⫺EK)
+EK⫽(RT/F) 䡠 ln([K⫹]o /[K⫹]i)
+gKr, max⫽0.015 mS/␮F
+␣Xr⫽{0.005 䡠 exp[5.266 䡠 10⫺4 䡠 (V⫹4.067)]}/
+{1⫹exp[⫺0.1262 䡠 (V⫹4.067)]}
+
+␤Xr⫽{0.016 䡠 exp[1.6 䡠 10⫺3 䡠 (V⫹65.66)]}/
+{1⫹exp[0.0783 䡠 (V⫹65.66)]}
+
+rik⫽1/{1⫹exp[(V⫹26)/ 23]}
+
+where gKr,max is gmax for IKr, Xr is the activation gate of IKr, rik is the
+inward-rectification factor of IKr, and EK is the equilibrium potential
+for IK.
+
+Inward Rectifier Current: IK1
+IK1⫽gK1, max 䡠 K1⬁ 䡠 (V⫺EK1)
+EK1⫽(RT/F) 䡠 ln([K⫹]o/[K⫹]i)
+gK1, max: nonfailingf2.5 mS/␮F; heart failuref2.0 mS/␮F
+␣K1⫽0.1/{1⫹exp[0.06 䡠 (V⫺EK1⫺200)]}
+␤K1⫽{3 䡠 exp[2 䡠 10⫺4 䡠 (V⫺EK1⫹100)]⫹exp[0.1 䡠 (V⫺EK1⫺10)]}/
+{1⫹exp[⫺0.5 䡠 (V⫺EK1)]}
+K1⬁⫽␣K1/(␣K1⫹␤K1)
+where gK1,max is gmax for IK1, K1⬁ is the inactivation gate of IK1, and EK1
+is the equilibrium potential for IK1.
+
+Background Currents
+Ca2ⴙ Background Current: ICa,b
+ICa,b⫽GCa,b 䡠 (V⫺ECa,b)
+GCa,b: nonfailingf0.00085 mS/␮F; heart failuref0.0013 mS/␮F
+ECa,b⫽ECa
+where GCa,b is gmax for ICa,b, and ECa,b is the equilibrium potential for
+ICa,b.
+Naⴙ Background Current: INa,b
+INa,b⫽GNa,b 䡠 (V⫺ENa,b)
+GNa,b: nonfailingf0.001 mS/␮F; heart failuref0 mS/␮F
+ENa,b⫽ENa
+where GNa,b is gmax for INa,b, and ENa,b is the equilibrium potential for
+INa,b.
+
+Pump and Exchanger
+Naⴙ-Kⴙ Pump: INaK
+INaK⫽INaK 䡠 fNaK 䡠 1/(1⫹(Km,Nai/[Na⫹]i)1.5) 䡠 [[K⫹]o /([K⫹]o⫹Km,Ko)]
+INaK: nonfailingf1.3 pA/pF; heart failuref0.75 pA/pF
+
+fNaK⫽1/[1⫹0.1245 䡠 exp(⫺0.1 䡠 V 䡠 F/RT)
+⫹0.0365 䡠␴ 䡠 exp(⫺V 䡠 F/RT)]
+
+␴⫽1/7 䡠 {exp([Na⫹]o /67.3)⫺1}
+
+Km,Nai
+
+⫽10 mmol/L
+
+⫽1.5 mmol/L
+
+Km,Ko
+where fNaK is the voltage-dependence parameter of INaK, and ␴ is the
+[Na⫹]o-dependence factor of INaK.
+
+m,Na⫹[Na⫹]o
+
+3)⫺1 䡠 (Km,Ca⫹[Ca2⫹]o)⫺1
+
+Naⴙ-Ca2ⴙ Exchanger Current: INaCa
+INaCa⫽kNaCa 䡠 (K3
+䡠 (1⫹ksat 䡠 exp[(␩⫺1) 䡠 V 䡠 F/(RT)])⫺1 䡠 {exp[␩ 䡠 V 䡠 F/(RT)]
+䡠 [Na⫹]i
+kNaCa: nonfailingf1000 pA/pF; heart failuref1650 pA/pF
+Km,Na⫽82.5 mmol/L; Km,Ca⫽1.38 mmol/L; ksat⫽0.1; ␩⫽0.35
+
+3 䡠 [Ca2⫹]o⫺exp[(␩⫺1) 䡠 V 䡠 F/(RT)] 䡠 [Na⫹]o
+
+3 䡠 [Ca2⫹]i}
+
+where ksat is the saturation factor of INaCa at very negative potentials,
+and ␩ is the position of the energy barrier controlling voltage
+dependence of INaCa.
+
+Ca2ⴙ Homeostasis
+
+CICR of JSR
+Irel⫽Grel([Ca⫹]JSR⫺[Ca2⫹]i) in mmol/L per ms
+
+Grel⫽Grel{⌬[Ca2⫹]i,2⫺⌬[Ca2⫹]i,th/(Km,rel⫹⌬[Ca2⫹]i,2⫺⌬[Ca2⫹]i,th)}
+䡠 (1⫺exp[⫺t/␶on]) 䡠 exp[⫺t/␶off]
+⌬[Ca2⫹]i,2⫽兺 calcium⫺influx during first 2 ms after initiation of AP
+⌬[Ca2⫹]i,th⫽0.005 ␮mol/L
+Km,rel⫽0.8 ␮mol/L
+␶on⫽␶off⫽4 ms; t⫽0 at time of CICR
+
+Grel⫽22 ms⫺1
+where Irel is the SR Ca2⫹ release current, and Grel is the rate constant
+of Ca2⫹ release from JSR.
+
+Spontaneous Ca2ⴙ Release of JSR
+Irel⫽Grel([Ca2⫹]JSR⫺[Ca2⫹]i)(1⫺exp[⫺t/␶on]) 䡠 exp[⫺t/␶off]
+
+in mmol/L per ms
+
+Grel⫽3 ms⫺1
+␶on⫽␶off⫽4 ms; t⫽0 at time of CICR
+
+Ca2ⴙ Uptake and Leakage of NSR: Iup and Ileak
+
+Iup⫽Iup[Ca2⫹]i/([Ca2⫹]i⫹Km,up) in mmol/L per ms
+Ileak⫽Kleak[Ca2⫹]NSR mmol/L per ms
+Iup: nonfailingf0.0045; heart failuref0.0015 in mmol/L per ms
+Km,up⫽0.92 ␮mol/L
+Kleak: nonfailingf0.00026 ms⫺1; heart failuref0.00017 ms⫺1
+where Iup is the SR Ca2⫹ uptake current, and Ileak is the leakage
+current.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Translocation of Ca2ⴙ From NSR to JSR: Itr
+Itr⫽([Ca2⫹]NSR⫺[Ca2⫹]JSR)/␶tr in mmol/L per ms
+␶tr⫽180 ms
+where Itr is the SR Ca2⫹ translocation current.
+
+Ca2ⴙ Buffers in the Myoplasm: Troponin (TRPN) and
+Calmodulin (CMDN)
+
+Buffered [TRPN]⫽[TRPN]{[Ca2⫹]i/([Ca2⫹]i⫹Km,TRPN)}
+
+Buffered [CMDN]⫽[CMDN]{[Ca2⫹]i/([Ca2⫹]i⫹Km,CMDN)}
+
+[TRPN]⫽70 ␮mol/L
+
+[CMDN]⫽50 ␮mol/L
+
+Km,TRPN⫽0.5 ␮mol/L
+Km,CMDN⫽2.38 ␮mol/L
+where Km,TRPN is the half-saturation concentration of TRPN, and
+Km,CMDN is the half-saturation concentration of CMDN.
+
+Ca2ⴙ Buffer in JSR: Calsequestrin (CSQN)
+
+Buffered[CSQN]⫽[CSQN]{[Ca2⫹]JSR/([Ca2⫹]JSR⫹Km,CSQN)}
+
+[CSQN]⫽10 mmol/L
+
+Km,CSQN⫽0.8 mmol/L
+where Km,CSQN is the half-saturation concentration of CSQN.
+
+Acknowledgments
+
+This study was supported by the Deutsche Forschungsgemeinschaft
+(Be 1113/2–3) and the Bundesministerium fu¨r Bildung, Wissen-
+schaft, Forschung und Technologie (01 Kans 9502). Special thanks
+go to Dr M. Lindner for recording the APs.
+
+References
+
+1. Kjekshus J. Arrhythmias and mortality in congestive heart failure. Am J
+
+Cardiol. 1990;65:421– 481.
+
+2. Pogwizd SM, Hoyt RH, Saffitz JE, Corr PB, Cox JL, Cain ME. Reentrant
+and focal mechanisms underlying ventricular tachycardia in the human
+heart. Circulation. 1992;86:1872–1887.
+
+3. de Bakker JMT, Coronel R, Tasseron S. Ventricular tachycardia in the
+infarcted Langendorff perfused human heart: role of the arrangement of
+surviving cardiac fibers. J Am Coll Cardiol. 1990;15:1594 – 607.
+
+4. de Bakker JMT, Van Capelle FJL, Janse MJ. Reentry as a cause of
+ventricular tachycardia in patients with chronic heart disease: electro-
+physiological and anatomic correlation. Circulation. 1988;77:589 – 606.
+5. Gilmour JRF, Heger JJ, Prystowsky EN, Zipes DP. Cellular electrophysi-
+ologic abnormalities of diseased human ventricular myocardium. Am J
+Cardiol. 1983;51:137–144.
+
+6. Wiederhold KF, Nilius B. Increased sensitivity of ventricular myocardi-
+um to intracellular calcium overload in Syrian cardiomyopathic hamster.
+Biomed Biochim Acta. 1986;45:1333–1337.
+
+7. Nordin C, Gilat E, Aronson RS. Delayed afterdepolarizations and
+triggered activity in ventricular muscle from rats with streptozotocin-
+induced diabetes. Circ Res. 1985;57:28 –34.
+
+8. Aronson RS. Afterdepolarizations and triggered activity in hypertrophied
+myocardium from rats with renal hypertension. Circ Res. 1981;48:
+720 –727.
+
+9. January CT, Riddle JM, Salata JJ. A model for early afterdepolarizations:
+induction with the Ca2⫹ channel agonist Bay K 8644. Circ Res. 1988;62:
+563–571.
+
+10. January CT, Riddle JM. Early afterdepolarizations: mechanism of
+induction and block: a role for L-type Ca2⫹ current. Circ Res. 1989;64:
+977–990.
+
+Priebe and Beuckelmann
+
+June 15, 1998
+
+1221
+
+11. Ferrier GL, Saunders JH, Mendez C. A cellular mechanism for the
+generation of ventricular arrhythmias by acetylstrophanthidin. Circ Res.
+1973;32:600 – 689.
+
+12. January CT, Fozzard HA. Delayed afterdepolarizations in heart muscle:
+
+mechanisms and relevance. Pharmacol Rev. 1988;40:219 –227.
+
+13. Beuckelmann DJ, Na¨bauer M, Erdmann E. Alterations of K⫹ currents in
+isolated human ventricular myocytes from patients with terminal heart
+failure. Circ Res. 1993;73:379 –385.
+
+14. Wettwer E, Amos G, Gath J, Zerkowski HR, Reidemeister JC, Ravens U.
+Transient outward current in human and rat ventricular myocytes. Car-
+diovasc Res. 1993;27:1662–1669.
+
+15. Mewes T, Ravens U. L-type calcium currents of human myocytes from
+ventricle of non-failing and failing hearts and from atrium. J Mol Cell
+Cardiol. 1994;26:1307–1320.
+
+16. Beuckelmann DJ, Na¨bauer M, Erdmann E. Characteristics of calcium-
+in isolated human ventricular myocytes from patients with
+
+current
+terminal heart failure. J Mol Cell Cardiol. 1991;23:929 –937.
+
+17. Cohen NM, Lederer WJ. Calcium current
+
+in single human cardiac
+
+myocytes. J Cardiovasc Electrophysiol. 1993;4:422– 437.
+
+18. Ouadid H, Albat B, Nargeot J. Calcium currents in diseased human
+
+cardiac myocytes. J Cardiovasc Pharmacol. 1995;25:282–291.
+
+19. Na¨bauer M, Beuckelmann DJ, Erdmann E. Characteristics of transient
+in human ventricular myocytes from patients with
+
+outward current
+terminal heart failure. Circ Res. 1993;73:386 –394.
+
+20. Na¨bauer M, Beuckelmann DJ, U¨ berfuhr P, Steinbeck G. Regional dif-
+ferences in current density and rate-dependent properties of the transient
+outward current in subepicardial and subendocardial myocytes of human
+left ventricle. Circulation. 1996;93:168 –177.
+
+21. Li GR, Feng J, Yue L, Carrier M, Nattel S. Evidence for two components
+of delayed rectifier K⫹ current in human ventricular myocytes. Circ Res.
+1996;78:689 – 696.
+
+22. Koumi S, Backer CL, Arentzen CE. Characterization of inwardly rec-
+tifying K⫹ channel in human cardiac myocytes. Alterations in channel
+behavior in myocytes isolated from patients with idiopathic dilated car-
+diomyopathy. Circulation. 1995;92:164 –174.
+
+23. Be´nitah JP, Bailly P, D’Agrosa MC, Da P, Delgado C, Lorente P. Slow
+inward current in single myocytes isolated from adult human ventricles.
+Pflugers Arch. 1992;421:176 –187.
+
+24. Veldkamp MW, van Ginneken AC, Opthof T, Bouman LN. Delayed
+rectifier channels in human ventricular myocytes. Circulation. 1995;92:
+3497–3504.
+
+25. Sakakibara Y, Furukawa T, Singer DH, Jia H, Backer CL, Arentzen CE,
+Wasserstrom JA. Sodium current in isolated human ventricular myocytes.
+Am J Physiol. 1993;265:H1301–H1309.
+
+26. Gwathmey JK, Copelas L, MacKinnon R, Schoen FJ, Feldman MD,
+Grossman W, Morgan JP. Abnormal intracellular calcium handling in
+myocardium from patients with end-stage heart failure. Circ Res. 1987;
+61:70 –76.
+
+27. Beuckelmann DJ, Na¨bauer M, Erdmann E. Intracellular calcium handling
+in isolated ventricular myocytes from patients with terminal heart failure.
+Circulation. 1992;85:1046 –1055.
+
+28. Reinecke H, Studer R, Vetter R, Holtz J, Drexler H. Cardiac Na⫹/Ca2⫹
+exchange activity in patients with end-stage heart failure. Cardiovasc Res.
+1996;31:48 –54.
+
+29. Flesch M, Schwinger RHG, Schiffer F, Frank K, Su¨dkamp M, Kuhn-
+Regnier F, Arnold G, Bo¨hm M. Evidence for functional relevance of an
+enhanced expression of the Na⫹-Ca2⫹ exchanger in failing human myo-
+cardium. Circulation. 1996;94:992–1002.
+
+30. Hodgkin AL, Huxley AF. A quantitative description of membrane current
+and its application to conduction and excitation in nerve. J Physiol
+(Lond). 1952;117:500 –544.
+
+31. Luo C-H, Rudy Y. A dynamic model of the cardiac ventricular action
+potential, I: simulations of ionic currents and concentration changes. Circ
+Res. 1994;74:1071–1096.
+
+32. Sipido KR, Callewaert G, Carmeliet E. Inhibition and rapid recovery of
+Ca2⫹ current during Ca2⫹ release from sarcoplasmic reticulum in guinea
+pig ventricular myocytes. Circ Res. 1995;76:102–109.
+
+33. De Leon M, Wang Y, Jones L, Perez-Reyes E, Wei X, Wah Soong T,
+Snutch TP, Yue DT. Essential Ca2⫹-binding motif for Ca2⫹-sensitive
+inactivation of L-type Ca2⫹ channels. Science. 1995;270:1502–1505.
+
+34. Sanguinetti MC, Jurkiewicz NK. Two components of cardiac delayed
+rectifier K⫹ current: differential sensitivity to block by class III antiar-
+rhythmic agents. J Gen Physiol. 1990;96:195–215.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1222
+
+Cellular Electric Properties in Heart Failure
+
+35. Splawski I, Tristani-Firouzi M, Lehmann MH, Sanguinetti MC, Keating
+MT. Mutations in the hmink gene cause long QT syndrome and suppress
+IKs function. Nat Genet. 1997;17:338 –340.
+
+36. Those N. Calcium-sensitive delayed rectifier potassium current in guinea
+
+pig ventricular cells. Am J Physiol. 1990;258:H1200 –H1207.
+
+37. Sanguinetti MC, Jurkiewicz NK. Role of external Ca2⫹ and K⫹ in gating
+of cardiac delayed rectifier K⫹ currents. Pflugers Arch. 1992;420:
+180 –186.
+
+38. Sham JSK, Hatem SN, Morad M. Species differences in the activity of the
+Na⫹-Ca2⫹ exchanger in mammalian cardiac myocytes. J Physiol (Lond).
+1995;488:3:623– 631.
+
+39. Peeters GA, Sanguinetti MC, Eki Y, Konarzewska H, Renlund DG,
+Karwande SV, Barry WH. Method for isolation of human ventricular
+myocytes from single endocardial and epicardial biopsies. Am J Physiol.
+1995;268:H1757–H1764.
+
+40. Shamraj OI, Grupp IL, Grupp G, Melvin D, Gradoux N, Kremers W,
+Lingrel JB, De Pover A. Characterisation of Na/K-ATPase, its isoforms,
+and the inotropic response to oubain in isolated failing human hearts.
+Cardiovasc Res. 1993;27:2229 –2237.
+
+41. Holmberg SR, Williams AJ. The calcium-release channel from cardiac
+sarcoplasmic reticulum: function in the failing and acutely ischemic heart.
+Circ Res. 1989;65:1445–1449.
+
+42. Schumacher C, Konigs B, Sigmund M, Kohne B, Schondube F, Vob M,
+Stein B, Weil J, Hanrath P. The ryanodine binding sarcoplasmic reticulum
+calcium release channel in nonfailing and in failing human myocardium.
+Naunyn Schmiedebergs Arch Pharmacol. 1995;353:80 – 85.
+
+43. Gwathmey JK, Hajjar RJ. Relation between steady-state force and intra-
+index of myofibrillar
+
+cellular [Ca2⫹]i
+responsiveness to Ca2⫹. Circulation. 1990;82:1266 –1278.
+
+in intact human myocardium:
+
+44. Meyer M, Schillinger W, Pieske B, Holubarsch C, Heilmann C, Posival
+H, Kuwajima G, Mikoshiba K, Just H, Hasenfuss G. Alterations of
+sarcoplasmic reticulum proteins in failing human dilated cardiomyopathy.
+Circulation. 1995;92:778 –784.
+
+45. Hilgemann DW, Noble D. Excitation-contraction coupling and extra-
+cellular calcium transients in rabbit atrium: reconstruction of basic
+cellular mechanism. Proc R Soc Lond. 1987;230:163–205.
+
+46. Schwinger RH, Bo¨hm M, Schmidt U, Karczewski P, Bavendiek U, Flesch
+M, Krause EG, Erdmann E. Unchanged protein levels of SERCA II and
+phospholamban but reduced Ca2⫹ uptake and Ca2⫹-ATPase activity of
+cardiac sarcoplasmic reticulum from dilated cardiomyopathy patients
+compared with patients with nonfailing hearts. Circulation. 1995;92:
+3220 –3228.
+
+47. Hasenfuss G, Reinecke H, Studer R, Meyer M, Pieske B, Holtz J,
+Holubarsch C, Posival H, Just H, Drexler H. Relation between myo-
+cardial function and expression of sarcoplasmic reticulum Ca2⫹-
+ATPase in failing and nonfailing human myocardium. Circ Res. 1994;
+75:434 – 442.
+
+48. Beuckelmann DJ, Na¨bauer M, Kru¨ger C, Erdmann E. Altered diastolic
+[Ca2⫹]i handling in human ventricular myocytes from patients with
+terminal heart failure. Am Heart J. 1995;129:684 – 689.
+
+49. Lindner M, Erdmann E, Beuckelmann DJ. Calcium content of the sarco-
+plasmic reticulum in isolated ventricular myocytes from patients with
+terminal heart failure. J Mol Cell Cardiol. In press.
+
+50. Coltart DJ, Meldrum SJ. Hypertrophic cardiomyopathy: an electrophys-
+
+iological study. Br Med J. 1970;4:217–218.
+
+51. Morgan JM, Cunningham D, Rowland E. Electrical restitution in the
+endocardium of the intact human right ventricle. Br Heart J. 1992;67:
+42– 46.
+
+52. Franz MR, Swerdlow CD, Liem LB, Schaefer J. Cycle length dependence
+of human action potential duration in vivo: effects of single extrastimuli,
+sudden sustained rate acceleration and deceleration, and different
+steady-state frequencies. J Clin Invest. 1988;82:972–979.
+
+53. Berger F, Borchard U, Hafner D, Kammer T, Weis T. Modulation of
+action potential duration by inhibition of the transient outward current in
+sheep cardiac Purkinje fibers. Basis Res Cardiol. 1995;90:185–191.
+
+54. Ka¨ab S, Nuss HB, Chiamvimonvat N, O’Rourke B, Pak PH, Kass DA,
+Marban E, Tomaselli GF. Ionic mechanism of action potential prolon-
+gation in ventricular myocytes from dogs with pacing-induced heart
+failure. Circ Res. 1996;78:262–273.
+
+55. Navarro-Polanco RA, Sanchez-Chapula JA. 4-Aminopyridine activates
+potassium currents by activation of a muscarinic receptor in feline atrial
+myocytes. J Physiol (Lond). 1997;498:3:663– 678.
+
+56. Zeng J, Laurita KR, Rosenbaum DS, Rudy Y. Two components of the
+delayed rectifier K⫹ current in ventricular myocytes of the guinea pig
+
+type: theoretical formulation and their role in repolarization. Circ Res.
+1995;77:140 –152.
+
+57. Huikuri HV, Yli-Mayry S. Frequency dependent effects of d-sotalol and
+amiodarone on the action potential duration of the human right ventricle.
+Pacing Clin Electrophysiol. 1992;15:2103–2107.
+
+58. Hayward RP, Taggart P. Effect of sotalol on human atrial action potential
+duration and refractoriness: cycle length dependency of class III activity.
+Cardiovasc Res. 1986;20:100 –107.
+
+59. Newman D, Dorian P, Feder-Elituv R. Isoproterenol antagonizes drug-
+induced prolongation of action potential duration in humans. Can
+J Physiol Pharmacol. 1993;71:755–760.
+
+60. Carlsson L, Abrahamsson C, Almgren O, Lundberg C, Duker G.
+Prolonged action potential duration and positive inotropy induced by
+the novel class III antiarrhythmic agent H 234/09 (almokalant) in
+isolated human ventricular muscle. J Cardiovasc Pharmacol. 1991;
+18:882– 887.
+
+61. Wettwer E, Grundke M, Ravens U. Differential effects of the new class
+III antiarrhythmic agents almokalant, E-4031 and D-sotalol, and of
+quinidine, on delayed rectifier currents in guinea pig ventricular
+myocytes. Cardiovasc Res. 1992;26:1145–1152.
+
+62. Fedida D, Noble D, Rankin AC, Spindler AJ. The arrhythmogenic
+transient inward current Iti and related contraction in isolated guinea-pig
+ventricular myocytes. J Physiol (Lond). 1987;392:523–542.
+
+63. Giles W, Shimoni Y. Comparison of sodium-calcium exchanger and
+transient inward currents in single cells from rabbit ventricle. J Physiol
+(Lond). 1989;417:465– 481.
+
+64. Luo CH, Rudy Y. A model of the ventricular cardiac action potential.
+Depolarization, repolarization, and their interaction. Circ Res. 1991;68:
+1501–1526.
+
+65. Yue L, Feng J, Li GR, Nattel S. Transient outward and delayed rectifier
+currents in canine atrium: properties and role of isolation methods. Am J
+Physiol. 1996;270:H2157–H2168.
+
+66. Thuringer D, Deroubaix E, Coulombe A, Coraboeuf E, Mercadier JJ.
+Ionic basis of the action potential prolongation in ventricular myocytes
+from Syrian hamsters with dilated cardiomyopathy. Cardiovasc Res.
+1996;31:747–757.
+
+67. Cerbai E, Barbieri M, Li Q, Mugelli A. Ionic basis of action potential
+prolongation of hypertrophied cardiac myocytes isolated from hyper-
+tensive rats of different ages. Cardiovasc Res. 1994;28:1180 –1187.
+
+68. Nygren A, Fiset C, Clark JW, Lindblad DS, Clark RB, Giles WR.
+Mathematical model of an adult human atrial cell: the role of K⫹ currents
+in repolarization. Circ Res. 1998;82:63– 81.
+
+69. Firek L, Giles WR. Outward currents underlying repolarization in human
+
+atrial myocytes. Cardiovasc Res. 1995;30:31–38.
+
+70. Stern MD, Capogrossi MC, Lakatta EG. Spontaneous calcium release
+from the sarcoplasmic reticulum in myocardial cells: mechanisms and
+consequences. Cell Calcium. 1988;9:247–256.
+
+71. Capogrossi MC, Houser SR, Bahinski A, Lakatta EG. Synchronous
+occurrence of spontaneous localized calcium release from the sarco-
+plasmic reticulum generates action potentials in rat cardiac ventricular
+myocytes at normal resting membrane potential. Circ Res. 1987;61:
+498 –503.
+
+72. Aronson RS. Afterdepolarizations and triggered activity in hypertrophied
+myocardium from rats with renal hypertension. Circ Res. 1981;48:
+720 –727.
+
+73. Vermeulen JT, McGuire MA, Opthof T, Coronel R, de Bakker JMT,
+Klo¨pping C, Janse MJ. Triggered activity and automaticity in ventricular
+trabeculae of failing human and rabbit hearts. Cardiovasc Res. 1994;28:
+1547–1554.
+
+74. Ehara T, Noma A, Ono K. Calcium-activated non-selective cation
+channels in ventricular cells isolated from adult guinea-pig hearts.
+J Physiol (Lond). 1988;403:117–133.
+
+75. Cannell MB, Lederer WJ. The arrhythmogenic current Iti in the absence
+of electrogenic sodium-calcium exchange in sheep cardiac Purkinje
+fibres. J Physiol (Lond). 1986;374:201–219.
+
+76. Luo CH, Rudy Y. A dynamic model of the cardiac ventricular action
+potential, II: afterdepolarizations, triggered activity, and potentiation.
+Circ Res. 1994;74:1097–1113.
+
+77. Nordin C, Ming Z. Computer model of current-induced early afterdepo-
+larizations in guinea pig ventricular myocytes. Am J Physiol. 1995;268:
+H2440 –H2459.
+
+78. Zeng J, Rudy Y. Early afterdepolarizations in cardiac myocytes:
+
+mechanism and rate dependence. Biophys J. 1995;68:949 –964.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Priebe and Beuckelmann
+
+June 15, 1998
+
+1223
+
+79. Cranfield PF, Aronson RS. Cardiac Arrhythmias: The Role of Triggered
+Activity and Other Mechanisms. New York, NY: Futura Publishing Co Inc;
+1988.
+
+80. Keung EC, Aronson RS. Nonuniform electrophysiological properties and
+electrotonic interaction in hypertrophied rat myocardium. Circ Res. 1981;
+49:150 –158.
+
+81. Aronson RS, Ming Z. Cellular mechanisms of arrhythmias in hyper-
+trophied and failing myocardium. Circulation. 1993;87[suppl VII]:VII-
+76 –VII-83.
+
+82. Gintant GA. Regional differences in IK density in canine left ventricle: role of
+
+IK,s in electrical heterogeneity. Am J Physiol. 1995;268:H604–H613.
+
+83. Drouin E, Charpentier F, Gauthier C, Laurent K Le Marec H. Electro-
+physiologic characteristics of cells spanning the left ventricular wall of
+human heart: evidence for presence of M cells. J Am Coll Cardiol.
+1995;26:185–192.
+
+84. Keung ECH, Keung CS, Aronson RS. Passive electrical properties of normal
+
+and hypertrophied rat myocardium. Am J Physiol. 1982;243:H917–H926.
+
+85. Nordin C. Computer model of membrane current and intracellular Ca2⫹
+flux in the isolated guinea pig ventricular myocyte. Am J Physiol. 1993;
+265:H2117–H2136.
+
+86. DiFrancesco D, Noble D. A model of cardiac electrical activity incorpo-
+rating ionic pumps and concentration changes. Philos Trans R Soc Lond.
+1985;307:353–398.
+
+87. Rasmusson RL, Clark JW, Giles WR, Robinson K, Clark RB, Shibata EF,
+Campbell DL. A mathematical model of electrophysiological activity in
+a bullfrog atrial cell. Am J Physiol. 1990;259:H370 –H389.
+
+88. Lindblad DS, Murphey CR, Clark JW, Giles WR. A model af the action
+potential and underlying membrane currents in a rabbit atrial cell. Am J
+Physiol. 1996;271:H1666 –H1696.
+
+89. Shaw RB, Rudy Y. Electrophysiologic effects of acute myocardial ische-
+mia: a theoretical study of altered cell excitability and action potential
+duration. Cardiovasc Res. 1997;35:256 –272.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Simulation Study of Cellular Electric Properties in Heart Failure
+
+Leo Priebe and Dirk J. Beuckelmann
+
+Circ Res.(cid:160)
+
+1998;82:1206-1223
+
+doi: 10.1161/01.RES.82.11.1206
+
+Circulation Research 
+
+is published by the American Heart Association, 7272 Greenville Avenue, Dallas, TX 75231
+Copyright © 1998 American Heart Association, Inc. All rights reserved.
+
+Print ISSN: 0009-7330. Online ISSN: 1524-4571 
+
+The online version of this article, along with updated information and services, is located on the
+
+World Wide Web at: 
+
+ 
+http://circres.ahajournals.org/content/82/11/1206
+
+Circulation Research
+
+ Requests for permissions to reproduce figures, tables, or portions of articles originally published
+
+Permissions:
+in
+ can be obtained via RightsLink, a service of the Copyright Clearance Center, not the
+Editorial Office. Once the online version of the published article for which permission is being requested is 
+located, click Request Permissions in the middle column of the Web page under Services. Further information
+about this process is available in the
+(cid:160) 
+Reprints:
+http://www.lww.com/reprints
+(cid:160) 
+Subscriptions:
+http://circres.ahajournals.org//subscriptions/
+ 
+(cid:160) 
+
+ Information about reprints can be found online at: 
+
+ Information about subscribing to 
+
+Permissions and Rights Question and Answer 
+
+document. 
+
+Circulation Research 
+
+is online at: 
+
+ 
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+

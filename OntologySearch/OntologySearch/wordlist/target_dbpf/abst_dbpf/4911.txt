@@ -1,0 +1,20 @@
+Action Potentials
+Anesthesia
+Animals
+Behavior
+Animal
+physiology
+Electroencephalography
+Hippocampus
+physiology
+Locomotion
+Male
+Neurons
+classification
+physiology
+Rats
+Rats
+Inbred Strains
+Theta Rhythm
+Urethane
+Recordings were taken from single neurons in the hippocampus and dentate gyrus of rats during walking and urethane anesthesia. Firing histograms for these cells were constructed as a function of the phase of the concurrent extracellularly recorded hippocampal slow wave theta rhythm. Care was taken to be sure of the site of recording of the theta rhythm and its phase with respect to a reliable reference, so that comparisons of the phases of firing could be made across animals. The firing of most of these neurons is deeply modulated as a function of the phase of the theta rhythm. This is true whether the theta rhythm occurs during walking or during urethane anesthesia, but for some types of cells the mean phases of firing are different in the two types of theta rhythm. During walking, pyramidal cells and interneurons in all hippocampal subregions and dentate granule cells have a maximum probability of firing near the positive peak of the theta rhythm recorded in the outer molecular layer of the dentate (dentate theta). During urethane anesthesia, the maximum firing probability for interneurons in CA1 and for dentate granule cells occurs near the negative peak of the dentate theta, while the phases of maximum firing for pyramidal cells and interneurons in CA3 and CA4 become widely distributed. The phases of maximum firing of pyramidal cells in CA1 are, if anything, more narrowly distributed around the positive peak of the dentate theta during urethane anesthesia than during walking. These differences in the firing of hippocampal cells during walking and urethane anesthesia represent some of the differences in cellular mechanisms distinguishing two kinds of hippocampal theta rhythm.

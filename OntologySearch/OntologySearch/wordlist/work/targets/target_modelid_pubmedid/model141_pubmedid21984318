@@ -1,0 +1,40 @@
+1. J Comput Neurosci. 2012 Jun;32(3):499-519. doi: 10.1007/s10827-011-0366-4. Epub
+2011 Oct 5.
+
+Relative contributions of local cell and passing fiber activation and silencing
+to changes in thalamic fidelity during deep brain stimulation and lesioning: a
+computational modeling study.
+
+So RQ(1), Kent AR, Grill WM.
+
+Author information: 
+(1)Department of Biomedical Engineering, Duke University, Box 90281, Durham, NC
+27708-0281, USA.
+
+Deep brain stimulation (DBS) and lesioning are two surgical techniques used in
+the treatment of advanced Parkinson's disease (PD) in patients whose symptoms are
+not well controlled by drugs, or who experience dyskinesias as a side effect of
+medications. Although these treatments have been widely practiced, the mechanisms
+behind DBS and lesioning are still not well understood. The subthalamic nucleus
+(STN) and globus pallidus pars interna (GPi) are two common targets for both DBS 
+and lesioning. Previous studies have indicated that DBS not only affects local
+cells within the target, but also passing axons within neighboring regions. Using
+a computational model of the basal ganglia-thalamic network, we studied the
+relative contributions of activation and silencing of local cells (LCs) and
+fibers of passage (FOPs) to changes in the accuracy of information transmission
+through the thalamus (thalamic fidelity), which is correlated with the
+effectiveness of DBS. Activation of both LCs and FOPs during STN and GPi-DBS were
+beneficial to the outcome of stimulation. During STN and GPi lesioning, effects
+of silencing LCs and FOPs were different between the two types of lesioning. For 
+STN lesioning, silencing GPi FOPs mainly contributed to its effectiveness, while 
+silencing only STN LCs did not improve thalamic fidelity. In contrast, silencing 
+both GPi LCs and GPe FOPs during GPi lesioning contributed to improvements in
+thalamic fidelity. Thus, two distinct mechanisms produced comparable improvements
+in thalamic function: driving the output of the basal ganglia to produce tonic
+inhibition and silencing the output of the basal ganglia to produce tonic
+disinhibition. These results show the importance of considering effects of
+activating or silencing fibers passing close to the nucleus when deciding upon a 
+target location for DBS or lesioning.
+
+PMCID: PMC3288232
+PMID: 21984318  [PubMed - indexed for MEDLINE]

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6704">
+<itemtype>xnppaper</itemtype>
+<titles><title>Medial temporal lobe activation during encoding and retrieval of novel face-name pairs.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Association Learning</keyword>
+<keyword>Face</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:28:12Z</last_update_date>
+<creation_date>2013-02-26T07:28:12Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6704</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6704" version="1.02">
+<authors><author>Kirwan CB</author><author>Stark CE</author></authors>
+<journal>Hippocampus</journal>
+<volume>14</volume>
+<number>7</number>
+<page>919-30</page>
+<abstract>The human medial temporal lobe (MTL) is known to be involved in declarative memory, yet the exact contributions of the various MTL structures are not well understood. In particular, the data as to whether the hippocampal region is preferentially involved in the encoding and/or retrieval of associative memory have not allowed for a consensus concerning its specific role. To investigate the role of the hippocampal region and the nearby MTL cortical areas in encoding and retrieval of associative versus non-associative memories, we used functional magnetic resonance imaging (fMRI) to measure brain activity during learning and later recognition testing of novel face-name pairs. We show that there is greater activity for successful encoding of associative information than for non-associative information in the right hippocampal region, as well as in the left amygdala and right parahippocampal cortex. Activity for retrieval of associative information was greater than for non-associative information in the right hippocampal region also, as well as in the left perirhinal cortex, right entorhinal cortex, and right parahippocampal cortex. The implications of these data for a clear functional distinction between the hippocampal region and the MTL cortical structures are discussed.</abstract>
+<pubmed_id>15382260</pubmed_id>
+</detail>
+</item>

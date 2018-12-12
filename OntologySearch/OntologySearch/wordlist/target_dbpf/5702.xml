@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5702">
+<itemtype>xnppaper</itemtype>
+<titles><title>Theta oscillations index human hippocampal activation during a working memory task.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Blinking</keyword>
+<keyword>physiology</keyword>
+<keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Somatosensory</keyword>
+<keyword>Gyrus Cinguli</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetoencephalography</keyword>
+<keyword>Memory</keyword>
+<keyword>Short-Term</keyword>
+<keyword>physiology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>Task Performance and Analysis</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>Time Factors</keyword>
+<keyword>Visual Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T04:05:06Z</last_update_date>
+<creation_date>2011-09-22T04:05:06Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5702</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5702" version="1.02">
+<authors><author>Tesche CD</author><author>Karhu J</author></authors>
+<journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+<volume>97</volume>
+<number>2</number>
+<page>919-24</page>
+<abstract>Working memory (WM) is the ability to retain and associate information over brief time intervals. Functional imaging studies demonstrate that WM is mediated by a distributed network including frontal and posterior cortices, hippocampus, and cerebellum. In rodents, the presentation of stimuli in a WM task is followed by a reset of the phase of hippocampal theta. In this paper we report the observation of a similar phenomenon in normal human subjects. Neuromagnetic responses were recorded during presentation of a set of digits and a subsequent probe of the retained items. All stimuli were presented with a fixed temporal pattern. We observed phase reset of approximately 7 Hz theta in left hippocampus approximately 120 ms after probe stimuli, whereas reset of theta in right hippocampus was visible approximately 80 ms prior to these anticipated stimuli. The duration of stimulus-locked theta increased with memory load, with a limiting value of approximately 600 ms for 5-7 retained items. We suggest that, as in rats, stimulus-locked theta may index involvement of human hippocampal networks in the cognitive processing of sensory input. The anticipatory phase reset of theta indicates involvement of hippocampus in right hemisphere and cerebellar timing networks. Hippocampal structures are essential for orientation to perturbations in the sensory scene, a function that requires use of a context established by a constellation of stimuli. We suggest that the initiation and maintenance of stimulus-locked hippocampal theta observed here may facilitate processing of potentially salient and/or novel input with respect to a context established by the contents of WM.</abstract>
+<pubmed_id>10639180</pubmed_id>
+</detail>
+</item>

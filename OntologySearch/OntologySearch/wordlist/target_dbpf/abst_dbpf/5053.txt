@@ -1,0 +1,36 @@
+Adenoviridae
+genetics
+metabolism
+Animals
+Animals
+Newborn
+Cell Lineage
+Dentate Gyrus
+cytology
+Female
+Green Fluorescent Proteins
+genetics
+metabolism
+Hippocampus
+physiology
+ultrastructure
+Intermediate Filament Proteins
+genetics
+metabolism
+Mice
+Mice
+Inbred C57BL
+Mice
+Transgenic
+Mitosis
+physiology
+Nerve Tissue Proteins
+genetics
+metabolism
+Neurons
+physiology
+ultrastructure
+Stem Cells
+cytology
+physiology
+Newborn dentate gyrus granule cells (DGCs) are integrated into the hippocampal circuitry and contribute to the cognitive functions of learning and memory. The dendritic maturation of newborn DGCs in adult mice occurs by the first 3-4 weeks, but DGCs seem to receive a variety of neural inputs at both their dendrites and soma even shortly after their birth. However, few studies on the axonal maturation of newborn DGCs have focused on synaptic structure. Here, we investigated the potentiality of output and input in newborn DGCs, especially in the early period after terminal mitosis. We labeled nestin-positive progenitor cells by injecting GFP Cre-reporter adenovirus into Nestin-Cre mice, enabling us to trace the development of progenitor cells by their GFP expression. In addition to GABAergic input from interneurons, we observed that the young DGCs received axosomatic input from the medial septum as early as postinfection day 7 (PID 7). To evaluate the axonal maturation of the newborn DGCs compared with mature DCGs, we performed confocal and electron microscopic analyses. We observed that newborn DGCs projected their mossy fibers to the CA3 region, forming small terminals on hilar or CA3 interneurons and large boutons on CA3 pyramidal cells. These terminals expressed vesicular glutamate transporter 1, indicating they were glutamatergic terminals. Intriguingly, the terminals at PID 7 had already formed asymmetric synapses, similar to those of mature DGCs. Together, our findings suggest that newborn DGCs may form excitatory synapses on both interneurons and CA3 pyramidal cells within 7 days of their terminal mitosis.

@@ -1,0 +1,97 @@
+=== eclipse-python other install ===
+eclipse-python place
+    C:\pleiades-py-4.4\python\2
+
+eclipse-python site-packages place
+    C:\pleiades-py-4.4\python\2\Lib\site-packages
+
+django   (pip install Django==1.7.1)
+django_extensions
+isodate
+rdflib_django
+rdflib
+six
+pyparsing
+mysql-python(mysqldb)?(https://sourceforge.net/projects/mysql-python/)
+
+PDFMiner(Python 3 is not supported.)
+lxml
+=== eclipse-python other install end ===
+
+
+=== sample data ===
+data at
+D:\job\java_stand\eclipse_luna_py\OntologySearch\OntologySearch\static\data
+
+http://www.uniprot.org/uniprot/P17677.rdf
+
+=== sample data end ===
+
+
+=== get pubmed info ===
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=17284678&retmode=text&rettype=abstract
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=21984318,10643740,12991237,874889,1709839,836920,17110776,17008376,9053795,17158566,8815919,1661326,2850029,2174274,1850840,19431309,6305437,12644446,19281836,267326,19584944,14766974,12932323,21721763,9405551,2578676,1252578,2996634,7948220,15830162,6391804,18635251,21099125,11923461,1912008,17912360,15783604,7260316,2431725,15114047,22805067,18764509,18244602,10400966,1663538,10444678,21281569,10777735,25279776,7514509,15189761,18690032,22020101,9633920,21637795,8974733,9688927,17220183,7265560,24416228,14656705,16040746,21810471,7538806,15103017,12574468,24152110&retmode=text&rettype=abstract
+
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=21984318,10643740,12991237,874889,1709839,836920,17110776,17008376,9053795,17158566,8815919,1661326,2850029,2174274,1850840,19431309,6305437,12644446,19281836,267326,19584944,14766974,12932323,21721763,9405551,2578676,1252578,2996634,7948220,15830162,6391804,18635251,21099125,11923461,1912008,17912360,15783604,7260316,2431725,15114047,22805067,18764509,18244602,10400966,1663538,10444678,21281569,10777735,25279776,7514509,15189761,18690032,22020101,9633920,21637795,8974733,9688927,17220183,7265560,24416228,14656705,16040746,21810471,7538806,15103017,12574468,24152110
+
+
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer&reldate=60&datetype=edat&retmax=100&usehistory=y
+=== get pubmed info end ===
+
+=== doi
+http://dx.doi.org/10.1007/s10827-011-0366-4
+
+http://link.springer.com/content/10.1007%2Fs10827-011-0366-4
+http://link.springer.com/article/10.1007%2Fs10827-011-0366-4
+*'/'->'%2F'
+
+=== pii
+
+<Item Name="NlmUniqueID" Type="String">8700181</Item>
+<Item Name="ISSN" Type="String">0887-3585</Item>
+<Item Name="ESSN" Type="String">1097-0134</Item>
+<Item Name="PubTypeList" Type="List">
+<Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+<Item Name="ArticleIds" Type="List">
+<Item Name="DOI" Type="String">10.1002/prot.24127</Item>
+<Item Name="History" Type="List">
+<Item Name="References" Type="List" />
+<Item Name="HasAbstract" Type="Integer">1</Item>
+<Item Name="PmcRefCount" Type="Integer">0</Item>
+<Item Name="FullJournalName" Type="String">Proteins</Item>
+<Item Name="ELocationID" Type="String">doi: 10.1002/prot.24127</Item>
+<Item Name="SO" Type="String">2012 Oct;80(10):2426-36</Item>
+
+python manage.py migrate
+
+
+/**********************************************************************************************************************
+example word for PHDatabase
+basal ganglia <-> basal nuclei
+**********************************************************************************************************************/
+
+20160309 pip
+Django (1.7)
+django-extensions (1.6.1)
+html5lib (0.9999999)
+isapi (1.4.4)
+isodate (0.5.4)
+keepalive (0.5)
+libxml2-python (2.7.7)
+lxml (3.4.4)
+numpy (1.6.2)
+pdfminer (20140328)
+pip (8.1.0)
+protobuf (2.3.0)
+protobuf.socketrpc (1.3.2)
+pyparsing (2.1.0)
+pyqtgraph (0.9.10)
+rdflib (4.2.1)
+rdflib-django (0.3)
+scipy (0.11.0)
+setuptools (18.2)
+six (1.10.0)
+SPARQLWrapper (1.7.6)
+sympy (0.7.1)
+20160309

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4931">
+<itemtype>xnppaper</itemtype>
+<titles><title>Interpreting neural representations of aged animals.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Aging</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>growth</keyword>
+<keyword>&amp;</keyword>
+<keyword>development</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>growth</keyword>
+<keyword>&amp;</keyword>
+<keyword>development</keyword>
+<keyword>physiology</keyword>
+<keyword>Limbic System</keyword>
+<keyword>growth</keyword>
+<keyword>&amp;</keyword>
+<keyword>development</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:23:54Z</last_update_date>
+<creation_date>2011-05-09T02:23:54Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4931</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4931" version="1.02">
+<authors><author>Mizumori SJ</author><author>Leutgeb S</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>5</number>
+<page>607-8</page>
+<abstract></abstract>
+<pubmed_id>10560932</pubmed_id>
+</detail>
+</item>

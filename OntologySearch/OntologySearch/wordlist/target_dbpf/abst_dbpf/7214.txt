@@ -1,0 +1,44 @@
+2-Amino-5-phosphonovalerate
+pharmacology
+Animals
+Enzyme Inhibitors
+pharmacology
+Excitatory Amino Acid Agonists
+pharmacology
+Excitatory Amino Acid Antagonists
+pharmacology
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+Genistein
+pharmacology
+Glutamic Acid
+pharmacokinetics
+Hippocampus
+cytology
+physiology
+Immunologic Factors
+pharmacology
+Interferon-alpha
+pharmacology
+Long-Term Potentiation
+drug effects
+N-Methylaspartate
+pharmacology
+Neural Inhibition
+drug effects
+Neuronal Plasticity
+drug effects
+physiology
+Pyramidal Cells
+drug effects
+physiology
+Rats
+Receptors
+GABA-A
+physiology
+Synapses
+physiology
+gamma-Aminobutyric Acid
+pharmacokinetics
+Interferons (IFN) appear to have various neuromodulatory actions. Here, we characterized the actions of IFN-alpha on the electrophysiological properties of CA1 hippocampal neurons using intracellular recordings. Superfusion of this cytokine did not alter the resting membrane potential, cell input resistance, action potentials, nor GABA-mediated fast synaptic potentials. IFN-alpha inhibited glutamate-mediated excitatory postsynaptic potentials (gEPSPs) and reversed or prevented long-term potentiation (LTP) induced by high-frequency tetanic stimulation. IFN-alpha reduced gEPSP amplitude far below its control value. Only a short-term potentiation (STP) was observed when either IFN-alpha or D-2-amino-5-phosphonovalerato (APV; NMDA receptor antagonist) were present during tetanic stimulation. After this STP in presence of APV, IFN-alpha had no effect on gEPSPs. APV had no effect on LTP when applied after tetanic stimulation and did also not prevent IFN-alpha effect on LTP. Genistein (a tyrosine kinase inhibitor) or heat inactivation prevented IFN-alpha effects. IFN-alpha also decreased the depolarization induced by local application of glutamate but did not modify those induced by NMDA. Similarly, IFN-alpha reversed the potentiation (induced by tetanic stimulation) of glutamate-induced depolarizations. IFN-alpha did not affect long-term depression (LTD) induced by low-frequency tetanic stimulation. In conclusion, IFN-alpha-induced inhibition of LTP is, at least in part, mediated by a postsynaptic effect, by tyrosine kinase activity, and by non-NMDA glutamate receptors. Inhibition of LTP by IFN-alpha unmasks LTD which is induced by the same high-frequency tetanic stimulation.

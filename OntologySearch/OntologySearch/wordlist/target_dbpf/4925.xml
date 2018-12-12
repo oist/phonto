@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4925">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampectomized rats are impaired in homing by path integration.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cues</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>pathology</keyword>
+<keyword>physiology</keyword>
+<keyword>Ibotenic Acid</keyword>
+<keyword>toxicity</keyword>
+<keyword>Male</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Regression Analysis</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Video Recording</keyword>
+<keyword>Visual Perception</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:16:03Z</last_update_date>
+<creation_date>2011-05-09T02:16:03Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4925</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4925" version="1.02">
+<authors><author>Maaswinkel H</author><author>Jarrard LE</author><author>Whishaw IQ</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>5</number>
+<page>553-61</page>
+<abstract>Theoretical, behavioral, and electrophysiologic evidence suggests that the hippocampal formation may play a role in path integration, a form of spatial navigation in which an animal can return to a starting point by integrating self-movement cues generated on its outward journey. The present study examined whether the hippocampus (Ammon&#039;s horn and the dentate gyrus) is involved in this form of spatial behavior. Control rats and rats with selective ibotenic acid lesions of the hippocampus were tested in a foraging task in which they retrieved large food pellets from an open field, which when found, they carried to a refuge for consumption. The experiments measured the rats&#039; homing accuracy, returning to the starting location, under conditions in which visual, surface, and self-movement cues; surface and self-movement cues; or only self-movement cues were available. Although both control rats and rats without a hippocampus could use visual and surface cues, only control rats appeared to be able to use self-movement cues. The finding that hippocampal rats are impaired under conditions requiring the use of self-movement cues suggests that the hippocampus plays an essential role in path integration.</abstract>
+<pubmed_id>10560926</pubmed_id>
+</detail>
+</item>

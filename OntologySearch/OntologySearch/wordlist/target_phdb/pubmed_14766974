@@ -1,0 +1,925 @@
+Detection of multistability, bifurcations, and
+hysteresis in a large class of biological
+positive-feedback systems
+
+David Angeli*, James E. Ferrell, Jr.†, and Eduardo D. Sontag‡§
+
+*Dipartimento di Sistemi e Informatica, University of Florence, 50139 Florence, Italy; †Departments of Molecular Pharmacology and Biochemistry, Stanford
+University School of Medicine, Stanford, CA 94305-5174; and ‡Department of Mathematics, Rutgers, The State University of New Jersey, Hill Center,
+110 Frelinghuysen Road, Piscataway, NJ 08854-8019
+
+Communicated by Joel L. Lebowitz, Rutgers, The State University of New Jersey, Piscataway, NJ, December 12, 2003 (received for review August 29, 2003)
+
+It is becoming increasingly clear that bistability (or, more generally,
+multistability) is an important recurring theme in cell signaling.
+Bistability may be of particular relevance to biological systems that
+switch between discrete states, generate oscillatory responses, or
+‘‘remember’’ transitory stimuli. Standard mathematical methods al-
+low the detection of bistability in some very simple feedback systems
+(systems with one or two proteins or genes that either activate each
+other or inhibit each other), but realistic depictions of signal trans-
+duction networks are invariably much more complex. Here, we show
+that for a class of feedback systems of arbitrary order the stability
+properties of the system can be deduced mathematically from how
+the system behaves when feedback is blocked. Provided that this
+open-loop, feedback-blocked system is monotone and possesses a
+sigmoidal characteristic, the system is guaranteed to be bistable for
+some range of feedback strengths. We present a simple graphical
+method for deducing the stability behavior and bifurcation diagrams
+for such systems and illustrate the method with two examples taken
+from recent experimental studies of bistable systems: a two-variable
+Cdc2兾Wee1 system and a more complicated ﬁve-variable mitogen-
+activated protein kinase cascade.
+
+One of the most important and formidable challenges facing
+
+biologists and mathematicians in the postgenomic era is to
+understand how the behaviors of living cells arise out of the
+properties of complex networks of signaling proteins. One inter-
+esting systems-level property that even relatively simple signaling
+networks have the potential to produce is bistability. A bistable
+system is one that toggles between two discrete, alternative stable
+steady states, in contrast to a monostable system, which slides along
+a continuum of steady states (1–9). Early biological examples of
+bistable systems included the lambda phage lysis-lysogeny switch
+and the hysteretic lac repressor system (10–12). More recent
+examples have included several mitogen-activated protein kinase
+(MAPK) cascades in animal cells (13–15), and cell cycle regulatory
+circuits in Xenopus and Saccharomyces cerevisiae (16–18). Bistable
+systems are thought to be involved in the generation of switch-like
+biochemical responses (13, 14, 19), the establishment of cell cycle
+oscillations and mutually exclusive cell cycle phases (17, 18), the
+production of self-sustaining biochemical ‘‘memories’’ of transient
+stimuli (20, 21), and the rapid lateral propagation of receptor
+tyrosine kinase activation (22).
+
+Bistability arises in signaling systems that contain a positive-
+feedback loop (Fig. 1a) or a mutually inhibitory, double-
+negative-feedback loop (which, in some regards, is equivalent to a
+positive-feedback loop) (Fig. 1b). Indeed, Thomas (23) conjectured
+that the existence of at least one positive-feedback loop is a
+necessary condition for the existence of multiple steady states;
+alternative proofs of this conjecture are given in refs. 24–27.
+However, the existence of positive loops is far from being sufficient;
+positive feedback does not guarantee bistability. A standard graph-
+ical test, termed phase plane analysis, can be used to visualize under
+what conditions a particular positive-feedback system will exhibit
+bistability, but this test is valid only if the system contains no more
+
+Feedback systems that may exhibit bistability. (a) A two-component
+Fig. 1.
+positive-feedback loop, which can be analyzed by classical phase plane tech-
+niques. (b) A two-component, mutually inhibitory feedback loop, which can also
+be analyzed by classical phase plane techniques. (c) A longer mutually inhibitory
+feedback loop, which cannot be analyzed by classical phase plane techniques.
+
+than two variables. Realistic biological networks generally contain
+more proteins and more variables (e.g., Fig. 1c), precluding the use
+of phase plane analysis.
+
+Here, we present a method for analyzing positive-feedback
+systems of arbitrary order for the presence of bistability or multi-
+stability (i.e., more than two alternative stable steady states),
+bifurcation, and associated hysteretic behavior, subject to two
+conditions that are frequently satisfied even in complicated, realistic
+models of cell signaling systems: monotonicity and existence of
+steady-state characteristics (28–34). The main ideas of this article
+can be illustrated through two examples drawn from recent exper-
+imental studies: the Cdc2-cyclin B兾Wee1 system, which can be
+considered to be a two-variable system, and the Mos兾MAPK kinase
+p42 MAPK cascade, a five-variable system.
+A Two-Variable Example: The Cdc2-Cyclin B兾Wee1 System
+As a first example, we will use our methods to determine the
+stability behavior and bifurcation diagram for a two-variable
+double-negative or mutually inhibitory feedback loop (Fig. 1b).
+Of course, this example can be treated without recourse to our
+theoretical developments, because it is generally straightforward
+to derive results for 2D systems through classical phase plane
+analysis (see Supporting Text, which is published as supporting
+information on the PNAS web site, for further discussion of the
+present method vs. phase plane analysis for two-variable sys-
+tems). But precisely because it is possible to visualize phase plane
+behavior, the example affords us a way to compare our frame-
+work with classical approaches.
+
+To put the example into concrete terms, we suppose that one of
+the proteins is the Cdc2-cyclin B complex, and the other is the Wee1
+protein (Fig. 2a) (17, 18, 35–38), and we make a number of
+simplifications to allow the interplay between Cdc2-cyclin B and
+Wee1 to be treated as a two-variable problem. First, we assume that
+Cdc2-cyclin B and Wee1 each exist in only two forms (rather than
+
+Abbreviations: MAPK, mitogen-activated protein kinase; I兾O, input兾output.
+§To whom correspondence should be addressed. E-mail: sontag@math.rutgers.edu.
+
+© 2004 by The National Academy of Sciences of the USA
+
+1822–1827 兩 PNAS 兩 February 17, 2004 兩 vol. 101 兩 no. 7
+
+www.pnas.org兾cgi兾doi兾10.1073兾pnas.0308265100
+
+Fig. 2. Analysis of the Cdc2-cyclin B兾Wee1 system by numerical simulation. (a) Schematic depiction of the system. (b–d) Phase plane plots of the Cdc2-cyclin B system.
+Constants are: ␣1 ⫽ ␣2 ⫽ 1, ␤1 ⫽ 200, ␤2 ⫽ 10, ␥1 ⫽ ␥2 ⫽ 4, K1 ⫽ 30, K2 ⫽ 1. Three different feedback gains are shown: v ⫽ 1 (b), v ⫽ 1.9 (c), and v ⫽ 0.75 (d).
+
+multiple forms, as is actually the case): an active form (with x1
+denoting active Cdc2 and y1 denoting active Wee1) and an inactive
+form (x2 and y2 denoting inactive Cdc2 and Wee1, respectively).
+Second, we assume that the phosphorylations of Cdc2 and Wee1
+are reversed by some constitutively active phosphatases (which
+ignores the contribution of Cdc25 regulation to the bistability of the
+Cdc2 system). Finally, we assume that the inhibition of each kinase
+by the other is approximated by a Hill equation. The equations for
+this model system are:
+
+x˙1 ⫽ ␣1x2 ⫺
+
+␤1x1共␯䡠y1兲␥
+1,
+K1 ⫹ 共␯䡠y1兲␥
+
+1
+
+x˙2 ⫽ ⫺␣1x2 ⫹
+
+␤1x1共␯䡠y1兲␥
+K1 ⫹ 共␯䡠y1兲␥
+
+1
+
+1
+
+y˙1 ⫽ ␣2y2 ⫺
+
+␥
+2
+
+␤2y1x1
+K2 ⫹ x1
+
+␥
+
+2,
+
+y˙2 ⫽ ⫺␣2y2 ⫹
+
+␥
+2
+
+␤2y1x1
+K2 ⫹ x1
+
+␥
+
+2 .
+
+The ␣s and ␤s are rate constants; the Ks are Michaelis (saturation)
+constants; the ␥s are Hill coefficients; and v is a coefficient that
+reflects the strength of the influence of Wee1 on Cdc2-cyclin B, in
+control-theory terms, the ‘‘gain’’ of the system. (One could also
+define the gain of this feedback loop as ⭸x1兾⭸y1, or alternatively as
+⭸ ln x1兾⭸ ln y1; all three measures provide a sense of the strength of
+the inhibition of Cdc2 by Wee1.) If we take x2 ⫽ 1 ⫺ x1 and y2 ⫽
+1 ⫺ y1 (that is, assume that the total concentrations of Wee1 and
+Cdc2-cyclin B are unchanging and measure concentrations in
+fractional terms), we can eliminate two variables from these equa-
+tions and simplify them, yielding system 1:
+
+inputs and outputs. An outline of this theory is provided in
+Supporting Text; proofs and details can be found elsewhere (28, 29).
+The key to our approach is to view system 1 as a feedback closure
+of the following open-loop system (2) in which the variable ␻is seen
+as an input or ‘‘stimulus’’ variable, and ␩ ⫽ y1 is the output or
+‘‘response’’ variable:
+
+x˙1 ⫽ ␣1共1 ⫺ x1兲 ⫺
+
+1
+
+␤1x1␻␥
+1,
+K1 ⫹ ␻␥
+
+y˙1 ⫽ ␣2共1 ⫺ y1兲 ⫺
+
+␥
+2
+
+␤2y1x1
+K2 ⫹ x1
+
+␥
+
+2.
+
+In other words, we analyze the system by ‘‘breaking’’ the feedback
+loop at the step of the inhibition of Cdc2 by Wee1, viewing the effect
+of Wee1 on Cdc2 as an input signal ␻ to be experimentally
+manipulated (Fig. 3 a), and only later, after analyzing the behavior
+of output ␩as a function of input ␻, do we reclose the loop by letting
+␻ ⫽ ␩ (and hence recovering the original, intact, system).
+
+Y
+R
+T
+S
+I
+M
+E
+H
+C
+O
+I
+B
+
+x˙1 ⫽ ␣1共1 ⫺ x1兲 ⫺
+
+␤1x1共␯䡠y1兲␥
+1,
+K1 ⫹ 共␯䡠y1兲␥
+
+1
+
+y˙1 ⫽ ␣2共1 ⫺ y1兲 ⫺
+
+␥
+2
+
+␤2y1x1
+K2 ⫹ x1
+
+␥
+
+2.
+
+Phase Plane Diagrams for the Cdc2-Cyclin B兾Wee1 System,
+Deduced from Numerical Simulations
+We can then choose values for the constants ␣, ␤, ␬, ␥, and v, and
+numerically compute the time evolution of x1 and y1 for various
+choices of their initial values. As shown in Fig. 2b, when v ⫽ 1, the
+system exhibits bistability, with two attracting steady states, a high
+Cdc2-cyclin B-activity state (M phase-like) and a high Wee1 activity
+state (interphaselike), that essentially compete for trajectories. For
+values of v ⬎ ⬇1.8, only the low Cdc2-cyclin B兾high Wee1 state
+persists (Fig. 2c), and the system changes from bistable to monos-
+table. Likewise, for v ⬍ ⬇0.83, only the high Cdc2-cyclin B兾low
+Wee1 state is present (Fig. 2d).
+Global Stability Analysis of the Cdc2-Cyclin B兾Wee1 System:
+The Open-Loop Approach
+We will next explain how the bistability of the system at interme-
+diate values of v, as well as the bifurcation diagram, can be deduced
+from the general theoretical framework presented in this article.
+This framework draws on the theory of monotone systems with
+
+Fig. 3. Mathematical analysis of the Cdc2-cyclin B兾Wee1 system, by breaking
+the feedback loop. (a) Schematic view of a feedback system before (Left) and
+after (Right) breaking the feedback loop. ␻is the input of the open-loop system;
+␩ is the output. (b) Incidence graph for system 2. (c) Steady-state I兾O static
+characteristic curve (k␩is a function of ␻) for system 2 (red), with constants chosen
+as in Fig. 2 b–d. The solid blue line represents ␻ as a function of ␩ for unitary
+feedback. There are three intersection points (I, II, and III), which represent two
+stable steady states (I and III) and one unstable steady state (II). The dashed blue
+lines represent ␻as a function of ␩for the values of the feedback gain v above
+which (v ⲏ 1.8) and below which (v ⱗ 0.83) the system becomes monostable. (d)
+Bifurcation diagram for the system, showing bistability when the feedback
+strength v is between ⬇0.83 and ⬇1.8. The bifurcation diagram is obtained from
+the characteristic as the plot of the curve [␻兾k(␻),k(␻)], with ␻ranging over the
+allowed range of inputs.
+
+Angeli et al.
+
+PNAS 兩 February 17, 2004 兩 vol. 101 兩 no. 7 兩 1823
+
+Two critical properties are necessary for our methodology to
+apply, and they must be verified before the application of our
+theorem. These properties can be summarized as follows: (A) the
+open-loop system has a monostable steady-state response to con-
+stant inputs [we then say that the system has a well-defined
+steady-state input兾output (I兾O) characteristic]; and (B) there are
+no possible negative feedback loops, even when the system is closed
+under positive feedback (we then say that the system is strongly I兾O
+monotone).
+
+Property A means that, for each constant-in-time input signal
+␻(t) ⬅ a for t ⬎ 0 (i.e., a step-function input stimulus), and for any
+initial conditions x1(0), y1(0), the solution of the system of differ-
+ential equations (2) converges to a unique steady state (which
+depends on the particular step magnitude a, but not on the initial
+states). When this property holds, we write kx,y(a) to indicate the
+steady-state vector limt
+3⫹⬁[x1(t), y1(t)] corresponding to the signal
+␻(t) ⬅ a, and k␩(a) to indicate the corresponding asymptotic value
+␩(⫹⬁) for the corresponding output signal.
+
+One of the main steps in verifying the applicability of our analysis
+method to a particular system is that of checking that this property
+is satisfied. To a biochemist, property A might seem self-evident.
+However, it is not trivial to prove it rigorously, even for systems of
+differential equations that describe relatively simple signaling net-
+works. In the example of the MAPK cascade treated later in this
+article, we appeal to a theorem proved in ref. 29 to establish this fact.
+But for system 2, it is straightforward to verify the condition. For any
+constant input ␻, k␩(␻) ⫽ ␩(⫹⬁) ⫽ y1(⫹⬁) is given by the following
+formula:
+
+␣2共K2 ⫹ 共␣1共K1 ⫹ ␻␥
+
+1兲兲兾共␣1K1 ⫹ ␣1␻␥
+
+1 ⫹ ␤1␻␥
+
+1兲兲␥
+1 ⫹ ␤1␻␥
+
+2
+
+2.
+1兲兲␥
+
+␣2K2 ⫹ 共␣2 ⫹ ␤2兲共␣1共K1 ⫹ ␻␥
+
+1兲兾共␣1K1 ⫹ ␣1␻␥
+
+This function has a single value for every value of ␻; a plot of k␩ is
+shown in Fig. 3c (red curve). Note the sigmoidal character of the
+curve, which is caused by our having assumed that ␥1, ␥2 ⬎1. This
+assumption will be critical for bistability.
+
+The second of the properties to be verified before applying our
+theoretical results, property B (monotonicity), refers to the graph-
+ical structure of the interconnection among the dynamic variables.
+To make it precise, we introduce the incidence graph of a system,
+as follows (see Fig. 6, which is published as supporting information
+on the PNAS web site). For a system with n variables pi, the
+incidence graph has n ⫹ 2 nodes (so, in the example in Eq. 2, where
+n ⫽ 2, there are four nodes). The nodes are labeled ␻, ␩, and pi, i ⫽
+1, . . . , n. A labeled edge (an arrow with a ⫹ or ⫺ sign attached to
+it) is drawn whenever a variable pi (or input ␻) affects directly the
+rate of change of a variable pj (or the value of the output), and a sign
+is attached to each label: a ⫹ sign whenever the effect is positive
+and ⫺ if the effect is negative. If the effect is ambiguous, because
+the sign of its effect depends on the actual values of the input or
+state variables, then our method does not apply.
+For our example 2, the graph is shown in Fig. 3b. The negative
+arrow ␻3
+represents the fact that the function ␣1(1 ⫺ x1) ⫺
+␤1x1␻␥
+1) in the first of the equations (2), which determines
+the rate of change of x1, is a decreasing function of ␻; i.e., ␻inhibits
+x1. The same holds for the influence of x1 on y1 (Eq. 2). On the other
+hand, the choice of output ␩⫽ y1 is represented by a positive arrow.
+Autocatalytic or degradation effects (self-loops) are not reflected
+in the graph: for example, the decay term ⫺␣1x1 in the first equation
+makes the rate of change of x1 be smaller if x1 is greater, but it is not
+included in the graph.
+
+1兾(K1⫹␻␥
+
+Given any path in an incidence graph (such as the path ␻, x1, y1
+in the graph shown in Fig. 3b), we define its sign as the product of
+the signs along the path (in the example, the sign of ␻, x1, y1 is
+positive, being the product of two negatives). We say that a path is
+positive or negative depending on its sign.
+
+The property of monotonicity that we need amounts to checking
+these requirements: (i) every loop in the graph, directed or not, is
+
+positive; (ii) all of the paths from the input to the output node are
+positive; (iii) there is a directed path from the input node to each
+node pi; and (iv) there is a directed path from each pi to the output
+node. Note that i together with ii amounts to the requirement that
+every possible loop is positive, even after closing under any positive
+feedback. Properties iii and iv are technical conditions needed for
+mathematical reasons.
+
+For our example, i is automatically verified (there are no loops),
+and ii–iv are obvious from the graph shown in Fig. 3b. Thus both
+the prerequisite conditions A and B are satisfied for the example
+system (2), and our method can be applied.
+
+The next step consists of graphing together the characteristic k␩,
+which represents the steady-state output ␩ as a function of the
+constant input ␻(Fig. 3c, red line), with the diagonal ␩⫽ ␻, which
+represents ␻as a function of (Fig. 3c, blue line). Algebraically, this
+amounts to looking for fixed points of the mapping k␩. We find that
+there are three intersections between these graphs, which we will
+refer to as points I, II, and III, respectively. At each of the three
+points of intersection, we consider the slope of the characteristic k
+and ask whether the slope is greater than unity or not. We see from
+the picture that this slope is ⬍1 at I and III and ⬎1 at II.
+
+Our theorem then concludes as follows. First, in the state-space
+of the closed-loop system (1), which is obtained by writing ␻⫽ ␩⫽
+y1 in the system 2, there are three steady states, let us call them xI,
+xII, and xIII, respectively, corresponding to the I兾O pairs associated
+to the points I, II, and III. Second, the states xI and xIII, which
+correspond to the points at which the characteristic has slope ⬍1,
+are attracting (that is to say, stable) steady states, whereas xII is
+unstable. Finally, we can conclude that every trajectory, except
+possibly for an exceptional set of zero measure, converges to either
+xI or xIII. Clearly, these conclusions are consistent with the phase
+plane shown in Fig. 2b, which shows two stable states, whose
+domains of attraction span the whole positive orthant (with the
+exception of the separatrix corresponding to the stable manifold of
+the unstable state, a saddle). This is not only true for a simple
+two-component system like the one illustrated in Eq. 1, but also for
+any n-component system satisfying our monotonicity and open-
+loop steady-state response assumptions.
+
+Note that if the characteristic k␩ had not been sigmoidal (if we
+had assumed both of the Hill coefficients to be 1 or less) there could
+not be three intersections, and the system could not be bistable at
+any feedback strength. This finding suggests an experimental ap-
+proach to the detection of bistability in positive-feedback systems.
+If the feedback can be blocked in such a system, and if the
+feedback-blocked system is known (or correctly intuited) to be
+monotone, then if the experimentally determined steady-state
+stimulus兾response curve of the feedback-blocked system is sigmoi-
+dal, the full feedback system is guaranteed to be bistable for some
+range of feedback strengths. Conversely, if the open-loop system
+exhibits a linear response, a Michaelian response, or any response
+that lacks an inflection point, the feedback system is guaranteed to
+be monostable despite its feedback. Thus, some degree of ‘‘coop-
+erativity’’ or ‘‘ultrasensitivity’’ is essential for bistability in mono-
+tone systems of any order.
+The bifurcation diagram for the Cdc2-cyclin B兾Wee1 system, a
+plot of the possible steady states as a function of the feedback
+strength v, can be determined from the properties of the open-loop
+system as well. To do this, we study the effect of a feedback law ␻⫽
+v ⫻ ␩ which amounts to intersecting the characteristic k␩ with
+lines ␩ ⫽ (1兾v)␻, as shown in Fig. 3d for v ⫽ 0.83 and v ⫽ 1.8.
+Observe that, for v ⬍ ⬇0.83 there is only one intersection (a high
+Cdc2-cyclin B, low Wee1 state), and for v ⬎ ⬇1.8 there will again
+be just one intersection (a low Cdc2-cyclin B, high Wee1 state) (Fig.
+3d, dashed lines). In both cases, our theorem predicts a unique
+globally asumptotically stable steady state in the full system, con-
+sistently with the phase planes corresponding to v ⫽ 1.9 and v ⫽ 0.75
+shown, respectively, in Fig. 2 c and d. In the intermediate range,
+there will be three intersections, one associated with an unstable
+
+1824 兩 www.pnas.org兾cgi兾doi兾10.1073兾pnas.0308265100
+
+Angeli et al.
+
+diagonal, find three intersection points, and classify the three
+associated steady states of the system according to the slopes at the
+intersection. Because there are two intersections with slope ⬍1 and
+one with slope ⬎1, we conclude (erroneously, as it turns out) that
+there are two stable steady states, to which all trajectories (except
+for those in the stable manifold of the one unstable state) converge.
+This conclusion is totally false, as evidenced by the phase plane of
+the system, shown in Fig. 4b. Trajectories do not converge to one
+of two stable states, as expected for a bistable system. In fact, the
+system has no stable steady states, and there is instead a limit cycle
+oscillation. The failure of the system to exhibit the ‘‘expected’’
+bistability is due to the fact that the system is not monotone. As
+shown by its incidence graph (Fig. 4c), the loop x, y, x is negative.
+
+The Modularity of Monotone Systems
+One approach to complex cell signaling networks is to divide the
+network into subsystems or modules of a more tractable size and
+hope that the behavior of the entire system can be deduced from
+the behaviors of these modules (39, 40). However, in real biological
+networks there are interconnections between modules, and under
+such circumstances there is no general guarantee that the behavior
+of an isolated module will bear any resemblance to the behavior of
+the module in its natural context. Thus, although modularity
+remains a potentially important and highly desirable property of cell
+signaling networks, it is not certain whether modularity is rare or
+commonplace.
+
+However, it is straightforward to show that any cascade com-
+posed of subsystems, each of which is monotone and admits a
+well-defined characteristic, will itself be monotone and admit a
+characteristic (28, 29). Thus, there is an intrinsic modularity to
+monotone systems, which is important both conceptually and in
+terms of devising approaches to the dissection of complex signaling
+systems. We make use of this modularity in the example that
+follows.
+A Modular, Five-Variable Example: The Mos兾MEK兾p42
+MAPK Cascade
+Here, we use our approach to analyze a higher dimensional system
+drawn from the experimental literature. The system is a three-tier
+MAPK cascade, based on the Mos兾MEK1兾p42 MAPK cascade
+present in Xenopus oocytes (Fig. 5a). This particular MAPK
+cascade was chosen for several reasons: the cascade is known to be
+embedded in a positive-feedback loop (41–43) and to exhibit
+bistability (13, 21); all of the relevant protein abundances and some
+of the important kinetic parameters have been measured (44–46);
+and experimental studies have been performed on the cascade both
+as a closed-loop system (the normal situation) and an open-loop
+system (where the feedback from p42 MAPK to Mos has been
+blocked) (13, 47).
+
+The key features of the cascade are shown schematically in Fig.
+5a. Active Mos (x) accumulates based on a balance between
+synthesis and degradation and can activate MEK through phos-
+phorylation of two residues (converting unphosphorylated y1 to
+monophosphorylated y2 and then bisphosphorylated y3). Active
+MEK then phosphorylates p42 MAPK (z1) at two residues, result-
+ing in p42 MAPK activation. Active p42 MAPK (z3) can then
+promote Mos synthesis, completing the closed positive-feedback
+loop. In addition, each of the phosphorylation reactions is opposed
+by an unregulated dephosphorylation reaction. Details on the
+rationale behind this model and the assumed protein abundances
+and kinetic constants are provided in Supporting Text and Table 1,
+which is published as supporting information on the PNAS web site.
+We mathematically model the dynamics of the cascade by means
+of a system of seven differential equations (cf. refs. 47 and 48), using
+x(t) to denote the concentration of Mos at time t, y1(t) to denote the
+concentration of unphosphorylated MEK at time t, and so on, as
+illustrated in Fig. 5a (see Supporting Text for the equations). We will
+view this system as the closure under feedback ␻ ⫽ vz3 of the
+
+Y
+R
+T
+S
+I
+M
+E
+H
+C
+O
+I
+B
+
+Fig. 4. Analysis of a system with similar-looking characteristic curves (compare
+Fig. 3c) but qualitatively different stability behavior. (a) Steady-state I兾O static
+characteristic curve for system 4. Constants are: c ⫽ 0.8, b ⫽ 500兾140, K ⫽ 405兾14.
+(b) Phase plane for system 4. (c) Incidence graph for system 4.
+
+state and the others with stable states. Thus, one recovers the
+complete bifurcation diagram (Fig. 3d) from the graph of the I兾O
+steady-state characteristic, not using numerical methods, and even
+if no detailed mathematical model is available.
+
+Finally, the hysteretic behavior of the system can be deduced
+from Fig. 3d: increasing v from low to high results in picking the
+lower branch in the bistable regime, whereas decreasing from high
+to low takes us on the upper branch.
+
+Monotonicity Is Needed
+We should emphasize that the monotonicity assumption B is
+absolutely essential for the validity of our results. The conclusion
+that stable states will be in a one-to-one correspondence with points
+at which the steady-state I兾O characteristic intersects the diagonal
+␩⫽ ␻with slope ⬍1 is, in general, false. To illustrate the need for
+monotonicity, let us consider the following example. We take the
+system described by these equations (4):
+
+x˙ ⫽ x共⫺x ⫹ y兲,
+
+y˙ ⫽ 3y冉⫺x ⫹ c ⫹
+
+k ⫹ y4冊
+
+by4
+
+with output ␩ ⫽ y. This system models a situation in which two
+proteins x and y, whose concentrations are denoted by x(t) and y(t),
+respectively, interact as follows. Protein x can be degraded when it
+is dimeric (hence the ⫺x2 term in the first differential equation), and
+its formation is promoted by protein y (term xy). Protein y is
+degraded by x (term ⫺xy in the second equation) and its synthesis
+is driven by cooperative autocatalysis (positive feedback of y upon
+itself, last term). The state space on which this system evolves is the
+positive orthant (x ⬎0 and y ⬎0). This is an activator兾inhibitor
+system and corresponds to a predator–prey system from population
+biology and ecology. To apply our methodology, we view the system
+as the unitary feedback system that results from setting ␻⫽ ␩⫽ y
+in the following open-loop system:
+
+x˙ ⫽ x共⫺x ⫹ y兲, ␩˙ ⫽ y˙ ⫽ 3y冉⫺x ⫹ c ⫹
+
+K ⫹ ␻4冊.
+
+b␻4
+
+This system admits a well-defined steady-state I兾O static charac-
+teristic k␩ given by: k␩(␻) ⫽ c ⫹ b␻4兾(K⫹␻4) and plotted, for a
+particular choice of constants, in Fig. 4a. Note that this character-
+istic curve is qualitatively very similar to that shown in Fig. 3c.
+Following our method, we intersect the graph of k␩ with the
+
+Angeli et al.
+
+PNAS 兩 February 17, 2004 兩 vol. 101 兩 no. 7 兩 1825
+
+Fig. 5.
+Bistability in a MAPK cas-
+cade. (a) Schematic depiction of the
+Mos-MEK-p42 MAPK cascade, a lin-
+ear cascade of protein kinases em-
+bedded in a positive-feedback loop
+(Left), together with the correspond-
+ing open-loop system (Right). (b) In-
+cidence graph for a 2D subsystem (a
+single level) of a kinase cascade. (c)
+Steady-state I兾O characteristic (k␩as a
+function of ␻) for the MAPK cascade
+(red curve), plotted together with
+the diagonal, representing ␻ as a
+function of ␩ with unity feedback
+(blue line). (d) Experimental demon-
+stration of a sigmoidal response of
+MAPK to Mos. Experimental data are
+taken from ref. 47 and are means ⫾
+SD. (e) Bifurcation diagram for the
+MAPK cascade, showing the stable
+on-state (red curve), the stable off-
+state (green curve), and the unstable
+threshold (black curve) as a function
+of feedback strength (v). (f) Simula-
+tions show that trajectories funnel
+toward one of two stable steady
+states, denoted by red and green
+ticks, as required by our theorem.
+Shown are calculated concentrations
+of Mos (x), active MEK (y3), and active
+MAPK (z3) for 11 choices of initial
+conditions, as a function of time.
+
+erty A is satisfied. Next, monotonicity needs to be verified. This is
+trivial for the first subsystem, whose incidence graph is shown in Fig.
+5b. For each of the two 2D subsystems (the dual phosphorylation
+of MEK and the dual phosphorylation of p42 MAPK) the incidence
+graph is more complicated, but again the monotonicity of these
+subsystems can be inferred by inspection (Fig. 5b and Supporting
+Text). Because each subsystem in the cascade is monotone, the
+entire cascade is guaranteed to be monotone as well, and property
+B is satisfied. Thus, all our theoretical considerations can be applied
+to the system described by Eq. 6.
+Next, we numerically calculate the steady-state I兾O characteris-
+tic, k␩, for the model system. As shown in Fig. 5c, the curve is steeply
+sigmoidal, similar in shape to a Hill equation curve with a Hill
+coefficient of 5. In our model the sigmoidal character of the
+characteristic arises mostly from the assumed nonprocessive dual
+phosphorylation mechanisms for MAPK and MEK activation (49,
+50). As described in Supporting Text, the parameters for the model
+were chosen to reproduce the experimentally observed sigmoidal
+relationship for MAPK activity as a function of Mos concentration
+in an open-loop (feedback-blocked) system (47), lending confi-
+dence that the I兾O characteristic curve for the Mos兾MEK兾p42
+MAPK system is, in fact, sigmoidal, as it is in our model.
+
+Accordingly, we can deduce the global stability behavior of the
+entire five-dimensional system from a plot of the characteristic k␩,
+and the line ␻ ⫽ vz3. Under unitary feedback (v ⫽ 1), the system
+has three steady states (Fig. 5c), and our theoretical framework
+allows us to conclude that the middle one is unstable and the high
+and low states are stable. Moreover, every trajectory (except for a
+zero-measure separatrix corresponding to the stable manifold of
+the unstable steady state) must necessarily converge to one of the
+two stable states.
+
+open-loop system that results when ␻is substituted for vz3 in the first
+equation. Furthermore, we have the following two conservation
+laws: MEK ⫹ MEK-P ⫹ MEK-PP ⫽ MEKtot ⫽ 1,200 nM ⫽ y1 ⫹
+y2 ⫹ y3, and MAPK ⫹ MAPK-P ⫹ MAPKPP ⫽ MAPKtot ⫽ 300
+nM ⫽ z1 ⫹ z2 ⫹ z3, which we can use to reduce the original seven
+equations to the following system of five differential equations (6):
+
+x˙ ⫽ ⫺ V2x
+K2 ⫹ x
+
+⫹ V0␻x ⫹ V1
+
+y˙1 ⫽ V6共1200 ⫺ y1 ⫺ y3兲
+K6 ⫹ 共1200 ⫺ y1 ⫺ y3兲
+y˙3 ⫽ V4x共1200 ⫺ y1 ⫺ y3兲
+K4 ⫹ 共1200 ⫺ y1 ⫺ y3兲
+z˙1 ⫽ V10共300 ⫺ z1 ⫺ z3兲
+K10 ⫹ 共300 ⫺ z1 ⫺ z3兲
+z˙3 ⫽ V8y3共300 ⫺ z1 ⫺ z3兲
+K8 ⫹ 共300 ⫺ z1 ⫺ z3兲
+
+⫺
+
+⫺
+
+⫺
+
+⫺
+
+V3xy1
+K3 ⫹ y1
+V5y3
+K5 ⫹ y3
+V7y3z1
+K7 ⫹ z1
+V9z3
+K9 ⫹ z3
+
+.
+
+We will now use our methodology to analyze this system. The first
+step is to view system 6 as a cascade of three modular subsystems:
+the 1D x (Mos) system, whose input is ␻and output is x; the 2D y1,
+y3 (MEK) system, whose input is x and output is y3; and the 2D z1,
+z3 (MAPK) system, whose input is y3 and output is z3.
+It is straightforward to see that the first (Mos) level of the cascade
+admits a well-defined I兾O characteristic, and in refs. 28 and 29 it was
+proved that the MEK and MAPK subsystems do as well; thus, the
+entire cascade admits a well-defined I兾O characteristic, and prop-
+
+1826 兩 www.pnas.org兾cgi兾doi兾10.1073兾pnas.0308265100
+
+Angeli et al.
+
+The mathematically proven bistability of the MAPK cascade
+model can be illustrated through numerical simulations. We chose
+11 sets of initial conditions for system 6 and solved the differential
+equations numerically (under unity feedback). Fig. 5f shows the
+time evolution of three of the variables (x, the concentration of Mos;
+y3, the concentration of active MEK; and z3, the concentration of
+active MAPK). As required by our theorem, all of the variables
+funnel into one of two discrete, five-dimensional stable steady
+states: an ‘‘on-state’’ (with most of the Mos and MAPK active and
+about half of the MEK active) and an ‘‘off-state’’ (with very low
+concentrations of active Mos, MEK, and MAPK).
+If the feedback gain is not necessarily equal to one, we obtain the
+stability behavior of the system by intersecting the I兾O character-
+istic with the line of slope 1兾v. The result is that the system is
+monostable when v is ⬍⬇0.7 (the on-state vanishes) or when v is
+very large (the off-state vanishes) and is bistable for any value of v
+in between. Therefore, the bistability of this model system is a fairly
+robust function of the feedback gain.
+
+Experimental Studies
+One key question is whether the Mos兾MEK兾p42 MAPK cascade
+actually does exhibit a sigmoidal stimulus response curve, resem-
+bling the characteristic k␩ of the model system, when feedback is
+blocked. If it does, and if the system really is monotone (as is true
+for the model), then it is mathematically guaranteed that the
+closed-loop system will be bistable for some range of feedback
+strengths, irrespective of the exact details and parameters of the
+system. Experimental data are not yet available for the complete
+open-loop system (the experiment is difficult to perform), but data
+are available for the response of p42 MAPK to different concen-
+trations of Mos in the absence of feedback (47). The steady-state
+activity of p42 MAPK as a function of the concentration of added
+recombinant Mos was found to be steeply sigmoidal (Fig. 5d), and
+the model agrees well with the experimental data (Fig. 5d, line).
+The steeply sigmoidal shape for the open-loop Mos兾p42 MAPK
+curve supports the notion that the closed-loop feedback system
+should exhibit bistability, and indeed there is ample experimental
+
+evidence that when feedback is permitted, this system does exhibit
+a bistable response (13).
+
+More Complicated Types of Feedback
+Thus far we have analyzed systems where the output feeds back
+directly to the input. More complicated feedback loops may also be
+studied by using the same basic approach, by a reduction to unity
+feedback. This is discussed further in Supporting Text and Fig. 7,
+which is published as supporting information on the PNAS web site.
+
+Summary
+We have shown that for a large class of biological positive-feedback
+systems of arbitrary order it is possible to determine whether the
+system exhibits bistability, bifurcations, and hysteretic stimulus兾
+response relationships mathematically, without recourse to exten-
+sive numerical simulations. This analysis can be implemented as a
+simple graphical method: a characteristic curve (for the open-loop
+system) and a straight line (which essentially equates the input of the
+open-loop system with the output) are plotted on one set of axes;
+the intersection points determine the steady states of the system;
+and the relative slopes of the two lines at the intersection points
+determine the stability of the steady states. Moreover, this same
+type of analysis can be implemented as an experimental program:
+if it is possible to measure the steady-state I兾O relationship for a
+feedback loop under conditions where the feedback is blocked (e.g.,
+by inhibitors, small interfering RNAs, or other experimental ma-
+nipulations), and it can be demonstrated or safely assumed that the
+system is monotone, then the system’s stability behavior can be
+rigorously inferred from the shape of the I兾O curve, irrespective of
+the details of the biochemical mechanism that led to produced the
+curve. Our hope is that this method will help us to analyze and
+understand the mechanistic basis of important systems-level bio-
+logical behaviors.
+
+This work was supported by grants from Aventis Pharmaceuticals and
+National Institutes of Health Grants GM46383S1, GM61276 and
+GM64375.
+
+1. Glansdorff, P. & Prigogine, I. (1971) Thermodynamics of Structure, Stability, and
+
+Fluctuations (Wiley, New York).
+
+2. Meyer, T. & Stryer, L. (1988) Proc. Natl. Acad. Sci. USA 85, 5051–5055.
+3. Segel, L. A. (1998) Biophys. Chem. 72, 223–230.
+4. Smolen, P., Baxter, D. A. & Byrne, J. H. (1998) Am. J. Physiol. 274, C531–C542.
+5. Laurent, M. & Kellershohn, N. (1999) Trends Biochem. Sci. 24, 418–422.
+6. Ferrell, J. E., Jr., & Xiong, W. (2001) Chaos 11, 227–236.
+7. Thomas, R. & Kaufman, M. (2001) Chaos 11, 170–179.
+8. Gardner, T. S., Cantor, C. R. & Collins, J. J. (2000) Nature 403, 339–342.
+9. Becskei, A., Seraphin, B. & Serrano, L. (2001) EMBO J. 20, 2528–2535.
+10. Novick, A. & Wiener, M. (1957) Proc. Natl. Acad. Sci. USA 43, 553–566.
+11. Cohn, M. & Horibata, K. (1959) J. Bateriol. 78, 601–612.
+12. Ptashne, M. (1992) A Genetic Switch: Phage and Higher Organisms (Blackwell,
+
+13. Ferrell, J. E., Jr., & Machleder, E. M. (1998) Science 280, 895–898.
+14. Bagowski, C. P. & Ferrell, J. E. (2001) Curr. Biol. 11, 1176–1182.
+15. Bhalla, U. S., Ram, P. T. & Iyengar, R. (2002) Science 297, 1018–1023.
+16. Cross, F. R., Archambault, V., Miller, M. & Klovstad, M. (2002) Mol. Biol. Cell 13,
+
+C47–C52.
+
+17. Sha, W., Moore, J., Chen, K., Lassaletta, A. D., Yi, C. S., Tyson, J. J. & Sible, J. C.
+
+(2003) Proc. Natl. Acad. Sci. USA 100, 975–980.
+
+Y
+R
+T
+S
+I
+M
+E
+H
+C
+O
+I
+B
+
+27. Cinquin, O. & Demongeot, J. (2002) J. Theor. Biol. 216, 229–241.
+28. Angeli, D. & Sontag, E. D. (2003) Syst. Control Lett., in press.
+29. Angeli, D. & Sontag, E. D. (2003) IEEE Trans. Autom. Control 48, 1684–1698.
+30. Hirsch, M. (1983) in Differential Equations and Convergence Almost Everywhere in
+Strongly Monotone Flows, ed. Smoller, J. (Am. Math. Soc., Providence, RI), pp.
+267–285.
+
+31. Hirsch, M. (1985) SIAM J. Math. Anal. 16, 423–439.
+32. Smale, S. (1976) J. Math. Biol. 3, 5–7.
+33. Smith, H. L. (1995) Monotone Dynamical Systems: An Introduction to the Theory of
+
+Competitive and Cooperative Systems (A. Math. Soc., Providence, RI).
+
+34. Sontag, E. D. (1998) Mathematical Control Theory: Deterministic Finite Dimen-
+
+sional Systems (Springer, New York).
+
+35. Thron, C. D. (1996) Biophys. Chem. 57, 239–251.
+36. Masui, Y. & Markert, C. L. (1971) J. Exp. Zool. 177, 129–145.
+37. Hunt, T. (1991) Semin. Cell. Biol. 2, 213–222.
+38. Novak, B. & Tyson, J. J. (1993) J. Cell Sci. 106, 1153–1168.
+39. Hartwell, L. H., Hopfield, J. J., Leibler, S. & Murray, A. W. (1999) Nature 402,
+
+40. Bhalla, U. S. & Iyengar, R. (2001) Novartis Found. Symp. 239, 4–13.
+41. Matten, W. T., Copeland, T. D., Ahn, N. G. & Vande Woude, G. F. (1996) Dev.
+
+Oxford).
+
+52–70.
+
+346–351.
+
+315–320.
+
+18. Pomerening, J. R., Sontag, E. D. & Ferrell, J. E., Jr. (2003) Nat. Cell Biol. 5,
+
+42. Gotoh, Y., Masuyama, N., Dell, K., Shirakabe, K. & Nishida, E. (1995) J. Biol.
+
+19. Bagowski, C. P., Besser, J., Frey, C. R. & Ferrell, J. E., Jr. (2003) Curr. Biol. 13,
+
+43. Roy, L. M., Haccard, O., Izumi, T., Lattes, B. G., Lewellyn, A. L. & Maller, J. L.
+
+20. Lisman, J. E. (1985) Proc. Natl. Acad. Sci. USA 82, 3055–3057.
+21. Xiong, W. & Ferrell, J. E., Jr. (2003) Nature 426, 460–465.
+22. Reynolds, A. R., Tischer, C., Verveer, P. J., Rocks, O. & Bastiaens, P. I. (2003) Nat.
+
+44. Ferrell, J. E., Jr. (1996) Trends Biochem. Sci. 21, 460–466.
+45. Sohaskey, M. L. & Ferrell, J. E., Jr. (1999) Mol. Biol. Cell 10, 3729–3743.
+46. Mansour, S. J., Candia, J. M., Matsuura, J. E., Manning, M. C. & Ahn, N. G. (1996)
+
+23. Thomas, R. (1981) in Quantum Noise, Springer Series in Synergetics 9, ed.
+
+47. Huang, C.-Y. F. & Ferrell, J. E., Jr. (1996) Proc. Natl. Acad. Sci. USA 93,
+
+Cell Biol. 5, 447–453.
+
+Gardiner, C. W. (Springer, Berlin), pp. 180–193.
+
+24. Snoussi, E. H. (1998) J. Biol. Sys. 6, 3–9.
+25. Plahte, E., Mestl, T. & Omholt, W. S. (1995) J. Biol. Sys. 3, 409–413.
+26. Gouze´, J. L. (1998) J. Biol. Sys. 6, 11–15.
+
+48. Kholodenko, B. N. (2000) Eur. J. Biochem. 267, 1583–1588.
+49. Ferrell, J. E., Jr., & Bhatt, R. R. (1997) J. Biol. Chem. 272, 19008–19016.
+50. Burack, W. R. & Sturgill, T. W. (1997) Biochemistry 36, 5929–5933.
+
+Biol. 179, 485–492.
+
+Chem. 270, 25898–25904.
+
+(1996) Oncogene 12, 2203–2211.
+
+Biochemistry 35, 15529–15536.
+
+10078–10083.
+
+Angeli et al.
+
+PNAS 兩 February 17, 2004 兩 vol. 101 兩 no. 7 兩 1827
+
+

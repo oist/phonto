@@ -1,0 +1,28 @@
+Animals
+Biological Markers
+Cell Proliferation
+Dentate Gyrus
+cytology
+physiology
+Eye Proteins
+physiology
+Glial Fibrillary Acidic Protein
+metabolism
+Hippocampus
+physiology
+Homeodomain Proteins
+physiology
+Immunohistochemistry
+Microscopy
+Immunoelectron
+Paired Box Transcription Factors
+physiology
+Rats
+Rats
+Sprague-Dawley
+Repressor Proteins
+physiology
+Stem Cells
+physiology
+Time Factors
+Neurogenesis is crucial for brain formation and continues to take place in certain regions of the postnatal brain including the subgranular zone (SGZ) of the hippocampal dentate gyrus (DG). Pax6 transcription factor is a key player for patterning the brain and promoting embryonic neurogenesis, and is also expressed in the SGZ. In the DG of wild-type rats, more than 90% of total BrdU-incorporated cells expressed Pax6 at 30 min time point after BrdU injection. Moreover, approximately 60% of Pax6+ cells in the SGZ exhibited as GFAP+ cells with a radial glial phenotype and about 30% of Pax6+ cells exhibited as PSA-NCAM+ cells in clusters. From BrdU labeling for 3 days, we found that cell proliferation was 30% decreased at postnatal stages in Pax6-deficient rSey2/+ rat. BrdU pulse/chase experiments combined with marker staining revealed that PSA-NCAM+ late progenitor cells increased at the expense of GFAP+ early progenitors in rSey2/+ rat. Furthermore, expression of Wnt ligands in the SGZ was markedly reduced in rSey2/+ rat. Taken all together, an appropriate dosage of Pax6 is essential for production and maintenance of the GFAP+ early progenitor cells in the postnatal hippocampal neurogenesis.

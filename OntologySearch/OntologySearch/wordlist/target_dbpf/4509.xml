@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4509">
+<itemtype>xnppaper</itemtype>
+<titles><title>High-frequency oscillations in human brain.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>cytology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Epilepsy</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Humans</keyword>
+<keyword>Interneurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Microelectrodes</keyword>
+<keyword>Neurons</keyword>
+<keyword>Afferent</keyword>
+<keyword>physiology</keyword>
+<keyword>Periodicity</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T05:02:33Z</last_update_date>
+<creation_date>2011-01-28T05:02:33Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4509</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4509" version="1.02">
+<authors><author>Bragin A</author><author>Engel J</author><author>Wilson CL</author><author>Fried I</author><author>Buzsáki G</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>2</number>
+<page>137-42</page>
+<abstract>Ripples are 100-200 Hz short-duration oscillatory field potentials that have recently been recorded in rat hippocampus and entorhinal cortex. They reflect fast IPSPs on the soma of pyramidal cells, which occur during synchronous afferent excitation of principal cells and interneuron networks. We now describe two similar types of high-frequency field oscillations recorded from the entorhinal cortex and hippocampus of patients with mesial temporal lobe epilepsy. The first type appears be the human equivalent of normal ripples in the rat. The second, which we have termed fast ripples (FR), are in the frequency range of 250-500 Hz. FR are found in the epileptogenic region and may reflect pathological hypersynchronous population spikes of bursting pyramidal cells.</abstract>
+<pubmed_id>10226774</pubmed_id>
+</detail>
+</item>

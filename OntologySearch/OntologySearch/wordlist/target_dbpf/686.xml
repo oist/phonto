@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="686">
+<itemtype>xnppaper</itemtype>
+<titles><title>Dynamically detuned oscillations account for the coupled rate and temporal code of place cell firing.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-04T03:26:24Z</last_update_date>
+<creation_date>2008-07-04T03:26:24Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=686</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="686" version="1.02">
+<authors><author>Lengyel M</author><author>Szatmáry Z</author><author>Erdi P</author></authors>
+<journal>Hippocampus</journal>
+<volume>13</volume>
+<number>6</number>
+<page>700-14</page>
+<abstract>Firing of place cells in the exploring rat conveys doubly coded spatial information: both the rate of spikes and their timing relative to the phase of the ongoing field theta oscillation are correlated with the location of the animal. Specifically, the firing rate of a place cell waxes and wanes, while the timing of spikes precesses monotonically as the animal traverses the portion of the environment preferred by the cell. We propose a mechanism for the generation of this firing pattern that can be applied for place cells in all three hippocampal subfields and that encodes spatial information in the output of the cell without relying on topographical connections or topographical input. A single pyramidal cell was modeled so that the cell received rhythmic inhibition in phase with theta field potential oscillation on the soma and was excited on the dendrite with input depending on the speed of the rat. The dendrite sustained an intrinsic membrane potential oscillation, frequency modulated by its input. Firing probability of the cell was determined jointly by somatic and dendritic oscillations. Results were obtained on different levels of abstraction: a purely analytical derivation was arrived at, corroborated by numerical simulations of rate neurons, and an extension of these simulations to spiking neurons was also performed. Realistic patterns of rate and temporal coding emerged and were found to be inseparable. These results may have implications on the robustness of information coding in place cell firing and on the ways information is processed in structures downstream to the hippocampus.</abstract>
+<pubmed_id>12962315 </pubmed_id>
+</detail>
+</item>

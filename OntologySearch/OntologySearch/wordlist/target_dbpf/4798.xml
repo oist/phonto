@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4798">
+<itemtype>xnppaper</itemtype>
+<titles><title>Studies on single neurons in dorsal hippocampal formation and septum in unrestrained rats. II. Hippocampal slow waves and theta cell firing during bar pressing and other behaviors.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Operant</keyword>
+<keyword>Consummatory Behavior</keyword>
+<keyword>Drinking Behavior</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Feeding Behavior</keyword>
+<keyword>Grooming</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Immobilization</keyword>
+<keyword>Male</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Reinforcement (Psychology)</keyword>
+<keyword>Septum Pellucidum</keyword>
+<keyword>physiology</keyword>
+<keyword>Stereotyped Behavior</keyword>
+<keyword>Volition</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:08:28Z</last_update_date>
+<creation_date>2011-04-28T05:08:28Z</creation_date>
+<publication_year>1973</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4798</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4798" version="1.02">
+<authors><author>Feder R</author><author>Ranck JB</author></authors>
+<journal>Experimental neurology</journal>
+<volume>41</volume>
+<number>2</number>
+<page>532-55</page>
+<abstract></abstract>
+<pubmed_id>4795728</pubmed_id>
+</detail>
+</item>

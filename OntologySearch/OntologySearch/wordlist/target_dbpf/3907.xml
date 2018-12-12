@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3907">
+<itemtype>xnppaper</itemtype>
+<titles><title>Phase shift of subthreshold theta oscillation in hippocampal CA1 pyramidal cell membrane by excitatory synaptic inputs.</title>
+</titles>
+<contributor uname='admin_KWL'>Hiroaki Wagatsuma(admin_KWL)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cell Membrane</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>methods</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-12-08T13:51:28Z</last_update_date>
+<creation_date>2010-09-14T01:16:23Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3907</url>
+<changelogs>
+<changelog date='2010-12-08T13:51:28Z'>インデックス を変更</changelog>
+<changelog date='2010-09-14T01:57:27Z'>インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3907" version="1.02">
+<authors><author>Watanabe H</author><author>Aihara T</author><author>Tsukada M</author></authors>
+<journal>Neuroscience</journal>
+<volume>140</volume>
+<number>4</number>
+<page>1189-99</page>
+<abstract>Hippocampal CA1 neurons receive multiple rhythmical inputs with relatively independent phases during theta activity. It, however, remains to be determined how these multiple rhythmical inputs affect oscillation properties in membrane potential of the CA1 pyramidal cell. In order to investigate oscillation properties in the subthreshold membrane potential, we generated oscillations in the membrane potential of the CA1 pyramidal cells in rat hippocampal slices in vitro with a sinusoidal current injection into the pyramidal soma at theta band frequencies (4-7 Hz), and analyzed effect of rhythmically excitatory synaptic inputs. The Schaffer collaterals were stimulated with a cyclic Gaussian stimulation method, whose pulse intervals were distributed at 10 pulses/cycle (5 cycles/s). We found that the cyclic Gaussian stimulations induced membrane potential oscillations and their phase delays from the mean of the pulse distribution were dependent on membrane potential oscillation amplitude. We applied four pairs of cyclic Gaussian stimulations and somatic sinusoidal current stimulations at the same frequency (5 Hz) with varying phase differences (-pi/2, 0, pi/2, pi rad). The paired stimulations induced phase distributions of the oscillation in the membrane potential, which showed a dependency on an increasing membrane potential oscillation amplitude response to cyclic Gaussian stimulation. This membrane potential dynamic was exhibited by the mixture of the membrane potential oscillation-amplitude-dependent phase delay and the linear summation of the two sinusoidal waves. These suggest that phases of the membrane potential oscillation are modulated by excitatory synaptic inputs. This phase-modulation by excitatory synaptic inputs may play a crucial role for memory operation in the hippocampus.</abstract>
+<pubmed_id>16677773</pubmed_id>
+</detail>
+</item>

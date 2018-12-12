@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7499">
+<itemtype>xnppaper</itemtype>
+<titles><title>Toying with memory in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Dendrites</keyword>
+<keyword>physiology</keyword>
+<keyword>Environment</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Knockout</keyword>
+<keyword>Neocortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Physical Stimulation</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>deficiency</keyword>
+<keyword>genetics</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:05:59Z</last_update_date>
+<creation_date>2013-03-28T02:05:59Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7499</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7499" version="1.02">
+<authors><author>Eichenbaum H</author><author>Harris K</author></authors>
+<journal>Nature neuroscience</journal>
+<volume>3</volume>
+<number>3</number>
+<page>205-6</page>
+<abstract></abstract>
+<pubmed_id>10700247</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,44 @@
+1. PLoS One. 2014 Jan 8;9(1):e84401. doi: 10.1371/journal.pone.0084401. eCollection 
+2014.
+
+A quantitative comparison of the behavior of human ventricular cardiac
+electrophysiology models in tissue.
+
+Elshrif MM(1), Cherry EM(2).
+
+Author information: 
+(1)B. Thomas Golisano College of Computing and Information Sciences, Rochester
+Institute of Technology, Rochester, New York, United States of America. (2)School
+of Mathematical Sciences, Rochester Institute of Technology, Rochester, New York,
+United States of America.
+
+Numerical integration of mathematical models of heart cell electrophysiology
+provides an important computational tool for studying cardiac arrhythmias, but
+the abundance of available models complicates selecting an appropriate model. We 
+study the behavior of two recently published models of human ventricular action
+potentials, the Grandi-Pasqualini-Bers (GPB) and the O'Hara-Virág-Varró-Rudy
+(OVVR) models, and compare the results with four previously published models and 
+with available experimental and clinical data. We find the shapes and durations
+of action potentials and calcium transients differ between the GPB and OVVR
+models, as do the magnitudes and rate-dependent properties of transmembrane
+currents and the calcium transient. Differences also occur in the steady-state
+and S1-S2 action potential duration and conduction velocity restitution curves,
+including a maximum conduction velocity for the OVVR model roughly half that of
+the GPB model and well below clinical values. Between single cells and tissue,
+both models exhibit differences in properties, including maximum upstroke
+velocity, action potential amplitude, and minimum diastolic interval. Compared to
+experimental data, action potential durations for the GPB and OVVR models agree
+fairly well (although OVVR epicardial action potentials are shorter), but maximum
+slopes of steady-state restitution curves are smaller. Although studies show
+alternans in normal hearts, it occurs only in the OVVR model, and only for a
+narrow range of cycle lengths. We find initiated spiral waves do not progress to 
+sustained breakup for either model. The dominant spiral wave period of the GPB
+model falls within clinically relevant values for ventricular tachycardia (VT),
+but for the OVVR model, the dominant period is longer than periods associated
+with VT. Our results should facilitate choosing a model to match properties of
+interest in human cardiac tissue and to replicate arrhythmia behavior more
+closely. Furthermore, by indicating areas where existing models disagree, our
+findings suggest avenues for further experimental work.
+
+PMCID: PMC3885549
+PMID: 24416228  [PubMed - indexed for MEDLINE]

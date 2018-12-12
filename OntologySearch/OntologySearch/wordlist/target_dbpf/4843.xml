@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4843">
+<itemtype>xnppaper</itemtype>
+<titles><title>Learning navigational maps through potentiation and modulation of hippocampal place cells.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Exploratory Behavior</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>chemistry</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Models</keyword>
+<keyword>Psychological</keyword>
+<keyword>Models</keyword>
+<keyword>Theoretical</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T00:39:44Z</last_update_date>
+<creation_date>2011-05-02T00:39:44Z</creation_date>
+<publication_year>1997</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4843</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4843" version="1.02">
+<authors><author>Gerstner W</author><author>Abbott LF</author></authors>
+<journal>Journal of computational neuroscience</journal>
+<volume>4</volume>
+<number>1</number>
+<page>79-94</page>
+<abstract>We analyze a model of navigational map formation based on correlation-based, temporally asymmetric potentiation and depression of synapses between hippocampal place cells. We show that synaptic modification during random exploration of an environment shifts the location encoded by place cell activity in such a way that it indicates the direction from any location to a fixed target avoiding walls and other obstacles. Multiple maps to different targets can be simultaneously stored if we introduce target-dependent modulation of place cell activity. Once maps to a number of target locations in a given environment have been stored, novel maps to previously unknown target locations are automatically constructed by interpolation between existing maps.</abstract>
+<pubmed_id>9046453</pubmed_id>
+</detail>
+</item>

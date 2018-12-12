@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7248">
+<itemtype>xnppaper</itemtype>
+<titles><title>Steroid pregnenolone sulfate enhances NMDA-receptor-independent long-term potentiation at hippocampal CA1 synapses: role for L-type calcium channels and sigma-receptors.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Calcium Channels</keyword>
+<keyword>L-Type</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Dose-Response Relationship</keyword>
+<keyword>Drug</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Organ Culture Techniques</keyword>
+<keyword>Pregnenolone</keyword>
+<keyword>metabolism</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Receptors</keyword>
+<keyword>sigma</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Stress</keyword>
+<keyword>Psychological</keyword>
+<keyword>metabolism</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Up-Regulation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:31:22Z</last_update_date>
+<creation_date>2013-02-28T01:31:22Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7248</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7248" version="1.02">
+<authors><author>Sabeti J</author><author>Nelson TE</author><author>Purdy RH</author><author>Gruol DL</author></authors>
+<journal>Hippocampus</journal>
+<volume>17</volume>
+<number>5</number>
+<page>349-69</page>
+<abstract>Severe stress elevates plasma and CNS levels of endogenous neuroactive steroids that can contribute to the influence of stress on memory formation. Among the neuroactive steroids, pregnenolone sulfate (PREGS) reportedly strengthens memories and is readily available as a memory-enhancing supplement. PREGS actions on memory may reflect its ability to produce changes in memory-related neuronal circuits, such as long-term potentiation (LTP) of excitatory transmission in hippocampus. Here, we report a previously undiscovered pathway by which PREGS exposure promotes activity-dependent LTP of field excitatory postsynaptic potentials at CA1 synapses in hippocampal slices. Thus, application of PREGS, but not the phosphated conjugate of the steroid, selectively facilitates the induction of a slow-developing LTP in response to high-frequency (100 Hz) afferent stimulation, which is not induced in the absence of the steroid. The slow-developing LTP is independent of NMDA-receptor function (i.e., dAP5 insensitive) but dependent on functional L-type voltage-gated calcium channels (VGCC) and sigma-receptors. By contrast, PREGS at the highest concentration tested produces a depression in NMDA-receptor-dependent LTP, which is evident when sigma-receptor function is compromised by the presence of a sigma-receptor antagonist. We found that at early times during the induction phase of L-type VGCC-dependent LTP, PREGS via sigma-receptors transiently enhances presynaptic function. As well, during the maintenance phase of L-type VGCC-dependent LTP, PREGS promotes a further increase in presynaptic function downstream of LTP induction, as evidenced by a decrease in paired-pulse facilitation. The identification of complex regulatory actions of PREGS on LTP, involving sigma-receptors, L-type VGCCs, NMDA-receptors, and inhibitory circuits will aid future research endeavors aimed at understanding the precise mechanisms by which this stress-associated steroid may engage multiple LTP-signaling pathways that alter synaptic transmission at memory-related synapses.</abstract>
+<pubmed_id>17330865</pubmed_id>
+</detail>
+</item>

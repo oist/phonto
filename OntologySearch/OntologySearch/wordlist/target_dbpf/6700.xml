@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6700">
+<itemtype>xnppaper</itemtype>
+<titles><title>Equivalent activation of the hippocampus by face-face and face-laugh paired associate learning and recognition.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Acoustic Stimulation</keyword>
+<keyword>Adult</keyword>
+<keyword>Association Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Face</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:25:44Z</last_update_date>
+<creation_date>2013-02-26T07:25:44Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6700</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6700" version="1.02">
+<authors><author>Holdstock JS</author><author>Crane J</author><author>Bachorowski JA</author><author>Milner B</author></authors>
+<journal>Neuropsychologia</journal>
+<volume>48</volume>
+<number>13</number>
+<page>3757-71</page>
+<abstract>The human hippocampus is known to play an important role in relational memory. Both patient lesion studies and functional-imaging studies have shown that it is involved in the encoding and retrieval from memory of arbitrary associations. Two recent patient lesion studies, however, have found dissociations between spared and impaired memory within the domain of relational memory. Recognition of associations between information of the same kind (e.g., two faces) was spared, whereas recognition of associations between information of different kinds (e.g., face-name or face-voice associations) was impaired by hippocampal lesions. Thus, recognition of associations between information of the same kind may not be mediated by the hippocampus. Few imaging studies have directly compared activation at encoding and recognition of associations between same and different types of information. Those that have have shown mixed findings and been open to alternative interpretation. We used fMRI to compare hippocampal activation while participants studied and later recognized face-face and face-laugh paired associates. We found no differences in hippocampal activation between our two types of stimulus materials during either study or recognition. Study of both types of paired associate activated the hippocampus bilaterally, but the hippocampus was not activated by either condition during recognition. Our findings suggest that the human hippocampus is normally engaged to a similar extent by study and recognition of associations between information of the same kind and associations between information of different kinds.</abstract>
+<pubmed_id>20797401</pubmed_id>
+</detail>
+</item>

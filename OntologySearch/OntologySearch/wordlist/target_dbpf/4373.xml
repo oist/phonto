@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4373">
+<itemtype>xnppaper</itemtype>
+<titles><title>Involvement of inositol-1,4,5-trisphosphate receptors in the bidirectional synaptic plasticity induced in hippocampal CA1 neurons by 1–10 Hz low-frequency stimulation.</title>
+</titles>
+<contributor uname='sfujii'>[en]Satoshi Fujii[/en][ja]藤井 聡[/ja](sfujii)</contributor>
+<keywords><keyword>frequency</keyword>
+<keyword>synaptic plasticity</keyword>
+<keyword>hippocampus</keyword>
+</keywords>
+<description>We suggest that activation of protein kinase C or inositol-1,4,5-trisphosphate receptors, both coupled to group 1 mGluRs, is involved in the bidirectional synaptic plasticity induced in hippocampal CA1 neurons by 1-10 Hz LFS.</description>
+<doi>B01G2</doi>
+<last_update_date>2010-12-06T05:56:02Z</last_update_date>
+<creation_date>2010-11-22T09:19:54Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4373</url>
+<changelogs>
+<changelog date='2010-12-06T05:56:02Z'>インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4373" version="1.02">
+<authors><author>SSatoshi Fujii, Yoshihiko Yamazaki, Yoichiro Kuroda and Katsuhiko Mikoshiba§</author></authors>
+<journal>Neuroscience</journal>
+<volume>168</volume>
+<number></number>
+<page>346-358</page>
+<abstract>In the present study, both potentiation and depression of the synaptic response were induced in hippocampal CA1 neurons by systematically varying the frequency of low frequency afferent stimulation (LFS) between 0.5-25 Hz and the pulse number between 40-1000. The input-response relationship for CA1 synapses showed that LFS at a higher frequency or with a smaller pulse number increased the magnitude of potentiation of the synaptic response by increasing the contribution of N-methyl-D-aspartate receptors (NMDARs) and metabotropic glutamate receptors (mGluRs) to induction of potentiation. One possible mechanism for this bidirectional plasticity was that specific patterns of LFS differentially activate a uniform receptor population in producing depression or potentiation of synaptic responses. However, a pharmacological study indicated that, despite their opposite effects, both the synaptic depression induced by LFS at 1 Hz and the synaptic potentiation induced by LFS at 10 Hz were triggered by co-activation of NMDARs and mGluRs at CA1 synapses.</abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

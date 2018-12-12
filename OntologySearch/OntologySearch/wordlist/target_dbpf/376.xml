@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="376">
+<itemtype>xnppaper</itemtype>
+<titles><title>Spatial information content and reliability of hippocampal CA1 neurons: effects of visual input.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-06-25T03:22:20Z</last_update_date>
+<creation_date>2008-06-25T03:22:20Z</creation_date>
+<publication_year>1994</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=376</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="376" version="1.02">
+<authors><author>Markus EJ</author><author>Barnes CA</author><author>McNaughton BL</author><author>Gladden VL</author><author>Skaggs WE</author></authors>
+<journal>Hippocampus</journal>
+<volume>4</volume>
+<number>4</number>
+<page>410-21</page>
+<abstract>The effects of darkness on quantitative spatial firing characteristics of 235 hippocampal CA1 &quot;complex spike&quot; (CS) cells were studied in young and old Fischer-344 rats during food-motivated performance of a randomized, forced-choice task on an eight-arm radial maze. The room lights were turned on or off on alternate blocks of all eight arms. In the dark, a lower proportion of CS cells had &quot;place fields,&quot; and the fields were less specific and less reliable than in the light. A small number of cells had place fields unique to the dark condition. Like CS cells, Theta cells showed a reduction in spatially related firing in the dark. The specificity and reliability of the place fields under both light and dark conditions were similar for both age groups. Increasing the salience of the environment, by increasing the light level and the number of visual cues in the light condition, did not affect the specificity or reliability of the place fields. Even though all rats had substantial prior experience with the environment, and were placed on the maze center under normal illumination before the first dark trial, the correlation between the firing pattern in the light and dark increased after the rat first traversed the maze in the light. Thus, even after considerable experience with the environment over days, experiencing the illuminated environment from different locations on a given day was a significant factor affecting subsequent location and reliability of place fields in darkness. While the task was simple and errors rare, rats that made fewer errors (i.e., re-entries into the previously visited arm) also had more reliable place cells, but no such correlation was found with place cell specificity. Thus, the reliability of spatial firing in the hippocampus may be more important for spatial navigation than the size of the place fields per se. Alternatively, both spatial memory and place field reliability may be modulated by a common variable, such as attention.</abstract>
+<pubmed_id>7874233 </pubmed_id>
+</detail>
+</item>

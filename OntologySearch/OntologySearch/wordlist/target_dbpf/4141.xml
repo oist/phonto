@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4141">
+<itemtype>xnppaper</itemtype>
+<titles><title>Microcircuits in action--from CPGs to neocortex.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Movement</keyword>
+<keyword>physiology</keyword>
+<keyword>Neocortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Networks (Computer)</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Periodicity</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T07:03:35Z</last_update_date>
+<creation_date>2010-10-08T07:03:35Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4141</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4141" version="1.02">
+<authors><author>Grillner S</author><author>Markram H</author><author>De Schutter E</author><author>Silberberg G</author><author>LeBeau FE</author></authors>
+<journal>Trends in neurosciences</journal>
+<volume>28</volume>
+<number>10</number>
+<page>525-33</page>
+<abstract>To understand the interface between global brain function and molecular neuroscience--that is, the microcircuit level--a major challenge. Such understanding is prerequisite if we are to account for neural function in cellular terms. Very few vertebrate microcircuits are yet understood because their analysis is demanding technically. In this review of the TINS Microcircuits Special Feature, we attempt to shed light on the problem by comparing the operation of four types of microcircuit, to identify common molecular and cellular components. Central pattern generator (CPG) networks underlying rhythmic movements and hippocampal microcircuits that generate gamma and theta rhythms are compared with the neocortical microcircuits used in cognitive tasks and a cerebellar network. The long-term goal is to identify the components of a molecular and synaptic tool kit for the design of different microcircuits.</abstract>
+<pubmed_id>16118022</pubmed_id>
+</detail>
+</item>

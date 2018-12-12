@@ -1,0 +1,9 @@
+Animals
+Cognition
+physiology
+Hippocampus
+physiology
+Models
+Neurological
+Spatial Behavior
+Evidence from single unit and lesion studies suggests that the hippocampal formation acts as a spatial or cognitive map (O'Keefe and Nadel, 1978). In this chapter, I summarise some of the unit recording data and then outline the most recent computational version of the cognitive map theory. The novel aspects of the present version of the theory are that it identifies two allocentric parameters, the centroid and the eccentricity, which can be calculated from the array of cues in an environment and which can serve as the bases for an allocentric polar co-ordinate system. Computations within this framework enable the animal to identify its location within an environment, to predict the location which will be reached as a result of any specific movement from that location, and conversely, to calculate the spatial transformation necessary to go from the current location to a desired location. Aspects of the model are identified with the information provided by cells in the hippocampus and dorsal presubiculum. The hippocampal place cells are involved in the calculation of the centroid and the presubicular direction cells in the calculation of the eccentricity.

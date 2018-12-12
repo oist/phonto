@@ -1,0 +1,23 @@
+Action Potentials
+physiology
+Animals
+Behavior
+Animal
+physiology
+Hippocampus
+cytology
+physiology
+Locomotion
+physiology
+Neurons
+physiology
+Orientation
+physiology
+Rats
+Rats
+Long-Evans
+Reaction Time
+physiology
+Space Perception
+physiology
+Cells in several portions of the hippocampal formation show location-related firing, so that the momentary rate of each cell signals the spatial location of a freely moving rat. Insight into how these signals are generated, and how they travel around the hippocampal circuitry, can be gained by examination of the exact timing of the locational signal. Here, this was investigated for both hippocampal and subicular cells. For this, several aspects of the spatial firing pattern of each cell were examined over a series of time shifts, in which spikes were paired with locations occupied by the animal in either the immediate past, present, or future. Results showed that subicular cells appear to anticipate future locations by approximately 50 to 70 msec, on average. In contrast, hippocampal cells were best correlated with positions about 30 to 40 msec in the future. However, this timing, for hippocampal cells only, was related to the average session running speed, so that the cells were correlated with future locations at slow speeds, but lagged behind (were correlated with past locations) at high speeds. These data support the idea that both subicular and hippocampal cells use a path integration mechanism to generate their spatial signal (since both can anticipate future location). For the hippocampal cells the mechanism does not, apparently, take into account speed information, however. Also, the data suggest that the subicular signal cannot be the result of simple transmission of spatial information from the hippocampus to the subiculum, since this would predict that the subicular signal should correlate with later positions than the hippocampal signal.

@@ -1,0 +1,23 @@
+1. Biophys J. 1976 Mar;16(3):227-44.
+
+Mathematical description of a bursting pacemaker neuron by a modification of the 
+Hodgkin-Huxley equations.
+
+Plant RE, Kim M.
+
+Modifications based on experimental results reported in the literature are made
+to the Hodgkin-Huxley equations to describe the electrophysiological behavior of 
+the Aplysia abdominal ganglion R15 cell. The system is then further modified to
+describe the effects with the application of the drug tetrodotoxin (TTX) to the
+cells' bathing medium. Methods of the qualitative theory of differential
+equations are used to determine the conditions necessary for such a system of
+equations to have an oscillatory solution. A model satisfying these conditions is
+shown to preduct many experimental observations of R15 cell behavior. Numerical
+solutions are obtained for differential equations satisfying the conditions of
+the model. These solutions are shown to have a form similar to that of the
+bursting which is characteristic of this cell, and to preduct many results of
+experiments conducted on this cell. The physiological implications of the model
+are discussed.
+
+PMCID: PMC1334834
+PMID: 1252578  [PubMed - indexed for MEDLINE]

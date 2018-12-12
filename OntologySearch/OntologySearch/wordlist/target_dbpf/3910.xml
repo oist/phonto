@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3910">
+<itemtype>xnppaper</itemtype>
+<titles><title>Spatial localization of synapses required for supralinear summation of action potentials and EPSPs.</title>
+</titles>
+<contributor uname='admin_KWL'>Hiroaki Wagatsuma(admin_KWL)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Dendrites</keyword>
+<keyword>physiology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>methods</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Conduction</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Potassium Channels</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-09-14T01:54:30Z</last_update_date>
+<creation_date>2010-09-14T01:36:05Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3910</url>
+<changelogs>
+<changelog date='2010-09-14T01:54:30Z'>インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3910" version="1.02">
+<authors><author>Urakubo H</author><author>Aihara T</author><author>Kuroda S</author><author>Watanabe M</author><author>Kondo S</author></authors>
+<journal>Journal of computational neuroscience</journal>
+<volume>16</volume>
+<number>3</number>
+<page>251-65</page>
+<abstract>Although the supralinear summation of synchronizing excitatory postsynaptic potentials (EPSPs) and backpropagating action potentials (APs) is important for spike-timing-dependent synaptic plasticity (STDP), the spatial conditions of the amplification in the divergent dendritic structure have yet to be analyzed. In the present study, we simulated the coincidence of APs with EPSPs at randomly determined synaptic sites of a morphologically reconstructed hippocampal CA1 pyramidal model neuron and clarified the spatial condition of the amplifying synapses. In the case of uniform conductance inputs, the amplifying synapses were localized in the middle apical dendrites and distal basal dendrites with small diameters, and the ratio of synapses was unexpectedly small: 8-16% in both apical and basal dendrites. This was because the appearance of strong amplification requires the coincidence of both APs of 3-30 mV and EPSPs of over 6 mV, both of which depend on the dendritic location of synaptic sites. We found that the localization of amplifying synapses depends on A-type K+ channel distribution because backpropagating APs depend on the A-type K+ channel distribution, and that the localizations of amplifying synapses were similar within a range of physiological synaptic conductances. We also quantified the spread of membrane amplification in dendrites, indicating that the neighboring synapses can also show the amplification. These findings allowed us to computationally illustrate the spatial localization of synapses for supralinear summation of APs and EPSPs within thin dendritic branches where patch clamp experiments cannot be easily conducted.</abstract>
+<pubmed_id>15114049</pubmed_id>
+</detail>
+</item>

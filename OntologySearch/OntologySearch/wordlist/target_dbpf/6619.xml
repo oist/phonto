@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6619">
+<itemtype>xnppaper</itemtype>
+<titles><title>Reduced hippocampal activation during encoding and recognition of words in schizophrenia patients.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Female</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Schizophrenia</keyword>
+<keyword>diagnosis</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Schizophrenic Psychology</keyword>
+<keyword>Semantics</keyword>
+<keyword>Verbal Learning</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:19:34Z</last_update_date>
+<creation_date>2013-02-26T06:19:34Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6619</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6619" version="1.02">
+<authors><author>Jessen F</author><author>Scheef L</author><author>Germeshausen L</author><author>Tawo Y</author><author>Kockler M</author><author>Kuhn KU</author><author>Maier W</author><author>Schild HH</author><author>Heun R</author></authors>
+<journal>The American journal of psychiatry</journal>
+<volume>160</volume>
+<number>7</number>
+<page>1305-12</page>
+<abstract>In patients with schizophrenia, impaired hippocampal activation either during encoding or recognition tasks has been observed in a few functional imaging experiments. In this fMRI study, the authors report results of word encoding and recognition in schizophrenia patients and healthy comparison subjects, with a special focus on correcting for behavioral recognition success in order to prevent a bias related to lower task performance in the schizophrenia patients.The verbal encoding and recognition tasks were both first analyzed irrespective of recognition success. In a second analysis, recognition success was included in the block-designed encoding task as a covariate of no interest, and incorrectly classified items were rejected from the analysis of the event-related recognition task.Patients performed poorer on the recognition task than the comparison subjects. Bilateral hippocampal activation during encoding and recognition was observed in both groups. Right hippocampal activation in patients during recognition became significant only after exclusion of wrongly classified items. Group comparison revealed greater activation in the healthy comparison subjects in the left anterior hippocampus during encoding and bilaterally during recognition. Greater bilateral hippocampal activation in the healthy subjects and greater activation in the right anterior hippocampus in the schizophrenic patients were revealed after presentation of novel words, which were intermixed with previously encoded words in the recognition task. After exclusion of incorrectly classified items, the differences in the right hippocampus remained significant.This study provides evidence for disturbed hippocampal function during verbal encoding and recognition in patients with schizophrenia. It extends previous studies by correcting for the possible confound of differences in behavioral task performance. This approach further supports the concept of hippocampal dysfunction in schizophrenia.</abstract>
+<pubmed_id>12832246</pubmed_id>
+</detail>
+</item>

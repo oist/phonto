@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3747">
+<itemtype>xnppaper</itemtype>
+<titles><title>Subsequent memory-dependent EEG theta correlates to parahippocampal blood oxygenation level-dependent response.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEI2010_04</keyword>
+<keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>methods</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Interpretation</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-07-01T05:09:22Z</last_update_date>
+<creation_date>2010-07-01T05:09:22Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3747</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3747" version="1.02">
+<authors><author>Sato N</author><author>Ozaki TJ</author><author>Someya Y</author><author>Anami K</author><author>Ogawa S</author><author>Mizuhara H</author><author>Yamaguchi Y</author></authors>
+<journal>Neuroreport</journal>
+<volume>21</volume>
+<number>3</number>
+<page>168-72</page>
+<abstract>The 4-12 Hz (theta rhythm)-dependent neural dynamics play a fundamental role in the memory formation of the rat hippocampus. Although the power of human scalp electroencephalography theta (EEG theta) is known to be associated with a hippocampus-dependent memory encoding, it remains unclear whether the human hippocampus uses theta rhythm. In this study, we aim to identify the scalp EEG theta-related neural regions during memory encoding by using a simultaneous EEG-functional magnetic resonance imaging recording. We showed that the parahippocampal and the medial frontal and posterior regions were significantly correlated to subsequent memory-dependent EEG theta power. This evidence suggests that the human parahippocampal region and associated structures use theta rhythm during hippocampal memory encoding as in rodents.</abstract>
+<pubmed_id>20084036</pubmed_id>
+</detail>
+</item>

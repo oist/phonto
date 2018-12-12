@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5455">
+<itemtype>xnppaper</itemtype>
+<titles><title>Oscillatory models of the hippocampus: a study of spatio-temporal patterns of neural activity.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Models</keyword>
+<keyword>Biological</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-13T02:18:52Z</last_update_date>
+<creation_date>2011-06-13T02:18:52Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5455</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5455" version="1.02">
+<authors><author>Borisyuk R</author><author>Hoppensteadt F</author></authors>
+<journal>Biological cybernetics</journal>
+<volume>81</volume>
+<number>4</number>
+<page>359-71</page>
+<abstract>Spatial patterns of theta-rhythm activity in oscillatory models of the hippocampus are studied here using canonical models for both Hodgkin&#039;s class-1 and class-2 excitable neuronal systems. Dynamics of these models are studied in both the frequency domain, to determine phase-locking patterns, and in the time domain, to determine the amplitude responses resulting from phase-locking patterns. Computer simulations presented here demonstrate that phase deviations (timings) between inputs from the medial septum and the entorhinal cortex can create spatial patterns of theta-rhythm phase-locking. In this way, we show that the timing of inputs (not only their frequencies alone) can encode specific patterns of theta-rhythm activity. This study suggests new experiments to determine temporal and spatial synchronization.</abstract>
+<pubmed_id>10541938</pubmed_id>
+</detail>
+</item>

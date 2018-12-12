@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7512">
+<itemtype>xnppaper</itemtype>
+<titles><title>The hippocampus, memory, and place cells: is it spatial memory or a memory space?</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T06:30:58Z</last_update_date>
+<creation_date>2013-03-28T06:30:58Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7512</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7512" version="1.02">
+<authors><author>Eichenbaum H</author><author>Dudchenko P</author><author>Wood E</author><author>Shapiro M</author><author>Tanila H</author></authors>
+<journal>Neuron</journal>
+<volume>23</volume>
+<number>2</number>
+<page>209-26</page>
+<abstract></abstract>
+<pubmed_id>10399928</pubmed_id>
+</detail>
+</item>

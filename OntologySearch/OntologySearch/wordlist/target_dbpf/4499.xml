@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4499">
+<itemtype>xnppaper</itemtype>
+<titles><title>Human spatial navigation: cognitive maps, sexual dimorphism, and neural substrates.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Aging</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Male</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Sex Characteristics</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T04:34:06Z</last_update_date>
+<creation_date>2011-01-28T04:34:06Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4499</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4499" version="1.02">
+<authors><author>Maguire EA</author><author>Burgess N</author><author>O&#039;Keefe J</author></authors>
+<journal>Current opinion in neurobiology</journal>
+<volume>9</volume>
+<number>2</number>
+<page>171-7</page>
+<abstract>Recent research on navigation has been particularly notable for the increased understanding of the factors affecting human navigation and the neural networks supporting it. The use of virtual reality environments has made it possible to explore the effect of environment layout and content on way-finding performance, and it has shown that these effects may interact with the sex and age of subjects. Functional brain imaging, combined with the use of virtual environments, has revealed strong parallels between humans and other animals in the neural basis of navigation.</abstract>
+<pubmed_id>10322179</pubmed_id>
+</detail>
+</item>

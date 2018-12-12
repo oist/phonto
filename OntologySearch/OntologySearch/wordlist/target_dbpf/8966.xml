@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8966">
+<itemtype>xnppaper</itemtype>
+<titles><title>Phase precession of medial prefrontal cortical activity relative to the hippocampal theta rhythm.</title>
+</titles>
+<contributor uname='admin_KWL2'>Hiroaki Wagatsuma(admin_KWL2)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description>Wagatsuma Lab, FY2015, saito</description>
+<doi></doi>
+<last_update_date>2015-03-27T10:27:48Z</last_update_date>
+<creation_date>2015-03-27T10:27:48Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8966</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8966" version="1.02">
+<authors><author>Jones MW</author><author>Wilson MA</author></authors>
+<journal>Hippocampus</journal>
+<volume>15</volume>
+<number>7</number>
+<page>867-73</page>
+<abstract>Theta phase-locking and phase precession are two related phenomena reflecting coordination of hippocampal place cell firing with the local, ongoing theta rhythm. The mechanisms and functions of both the phenomena remain unclear, though the robust correlation between firing phase and location of the animal has lead to the suggestion that this phase relationship constitutes a temporal code for spatial information. Recent work has described theta phase-locking in the rat medial prefrontal cortex (mPFC), a structure with direct anatomical and functional links to the hippocampus. Here, we describe an initial characterization of phase precession in the mPFC relative to the CA1 theta rhythm. mPFC phase precession was most robust during behavioral epochs known to be associated with enhanced theta-frequency coordination of CA1 and mPFC activities. Precession was coherent across the mPFC population, with multiple neurons precessing in parallel as a function of location of the animal. The existence of phase precession beyond the hippocampus implies a more global role for this phenomenon during theta rhythm-mediated coordination of neural activity.</abstract>
+<pubmed_id>16149084</pubmed_id>
+</detail>
+</item>

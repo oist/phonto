@@ -1,0 +1,16 @@
+Animals
+Cognition
+physiology
+Head
+physiology
+Hippocampus
+physiology
+Movement
+physiology
+Neuronal Plasticity
+Rats
+Space Perception
+physiology
+Visual Pathways
+physiology
+Hippocampal 'place' cells and the head-direction cells of the dorsal presubiculum and related neocortical and thalamic areas appear to be part of a preconfigured network that generates an abstract internal representation of two-dimensional space whose metric is self-motion. It appears that viewpoint-specific visual information (e.g. landmarks) becomes secondarily bound to this structure by associative learning. These associations between landmarks and the preconfigured path integrator serve to set the origin for path integration and to correct for cumulative error. In the absence of familiar landmarks, or in darkness without a prior spatial reference, the system appears to adopt an initial reference for path integration independently of external cues. A hypothesis of how the path integration system may operate at the neuronal level is proposed.

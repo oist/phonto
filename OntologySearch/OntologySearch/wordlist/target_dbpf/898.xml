@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="898">
+<itemtype>xnppaper</itemtype>
+<titles><title>Gap junctions synchronize the firing of inhibitory interneurons in guinea pig hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-16T03:42:57Z</last_update_date>
+<creation_date>2008-07-16T03:42:57Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=898</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="898" version="1.02">
+<authors><author>Yang Q</author><author>Michelson HB</author></authors>
+<journal>Brain research</journal>
+<volume>907</volume>
+<number>1</number>
+<page>139-43</page>
+<abstract>The convulsant 4-aminopyridine (4AP) facilitates the synchronous firing of interneurons in the hippocampus, eliciting giant inhibitory postsynaptic potentials (IPSPs) in CA3 pyramidal cells. We used the gap junction blocker carbenoxolone to investigate the role of electrotonic coupling in both the initiation and the maintenance of 4AP-facilitated inhibitory circuit oscillations. Carbenoxolone abolished all synchronized IPSPs in CA3 cells elicited by 4AP in the presence of ionotropic glutamate receptor blockers. Carbenoxolone also blocked the isolated synchronized GABA(B) IPSPs generated in CA3 cells by a subpopulation of interneurons. These data confirm that: (1) the interneurons producing GABA(B) responses in CA3 cells are electrotonically coupled, and (2) gap junctions among interneurons are essential for initiating synchronized interneuron oscillatory firing in 4AP.</abstract>
+<pubmed_id>11430896</pubmed_id>
+</detail>
+</item>

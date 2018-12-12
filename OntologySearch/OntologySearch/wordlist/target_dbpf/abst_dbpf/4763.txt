@@ -1,0 +1,24 @@
+Action Potentials
+drug effects
+Animals
+Atropine
+pharmacology
+Drug Interactions
+Electroencephalography
+Hippocampus
+drug effects
+Neurons
+drug effects
+physiology
+Parasympatholytics
+pharmacology
+Pentobarbital
+pharmacology
+Rabbits
+Scopolamine
+pharmacology
+Septal Nuclei
+drug effects
+physiology
+Theta Rhythm
+The drugs, described as blocking the high-frequency (pentobarbital) or low-frequency (scopolamine, atropine) theta rhythm of the hippocampal electroencephalogram, were tested upon the rhythmically bursting septal cells. Three groups of chronic, unanaesthetized rabbits were used for the experiments: with intact septum; with septohippocampal disconnection; with complete basal undercutting of the septum, depriving it of ascending brainstem influences (MFB lesion). While the frequency and other parameters of theta bursts did not differ in the first two groups (5.2-5.5 Hz), in MFB-lesioned septum their frequency was significantly lower (3.5 Hz). Intravenous injection of pentobarbital suppressed theta bursts in some cells with unstable, periodic rhythmic activity and lowered the frequency of the bursts in continuously bursting cells. The parameters of bursts in intact and hippocampectomized septum under pentobarbital did not differ from those of undercut septum in undrugged state. Acetylcholine-blocking drugs suppressed theta modulation in some intermittently bursting cells, but only slightly decreased regularity of the bursts in some cells with continuous theta bursting even in sublethal doses; physostigmine has the opposite effect. Neither scopolamine and atropine, nor physostigmine influenced frequency of theta bursts in any way. Sensory or reticular stimulation could temporarily restore both the theta rhythm of hippocampal EEG and the rhythmic bursting of some septal cells under pentobarbital or anticholinergic drugs. On the basis of the experiments a unitary concept of theta rhythm origin is proposed. Pentobarbital influences ascending excitatory input to the septum, which results in a decrease of the burst frequency in the limited group of septal cells, regarded as endogenous bursting pacemakers, and in restriction of the population of high-threshold secondary rhythmic cells, synaptically involved in the rhythmic process. Anticholinergic drugs do not influence the pacemaker cells, but block intraseptal and septohippocampal cholinergic transmission. Both cholinergic and non-cholinergic neurons projecting to the hippocampus exist among septal cells synaptically involved in the rhythmic activity.

@@ -1,0 +1,10 @@
+Afferent Pathways
+cytology
+physiology
+Animals
+Hippocampus
+physiology
+Humans
+Neuronal Plasticity
+physiology
+An association between the test and conditioning stimuli is critical for determining the nature of their interaction during learning and memory. Two experimental protocols which result in the induction of associative forms of long-term depression (LTD) at Schaffer collateral synapses onto CA1 pyramidal cells in vitro are reviewed in this article. The requirements for the induction of LTD with these protocols are discussed, as well as the relationship between these forms of associative LTD and so-called homosynaptic LTD. In particular, the biological basis of the experimentally demonstrated necessity for temporal and spatial conjunction between the test and conditioning stimuli is examined.

@@ -1,0 +1,225 @@
+--- java ---
+java 1.7-devel インストール  yumで
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.85.x86_64/bin
+--- java end ---
+
+--- bash_profile ---
+/root/.bash_profile に 行追加
+
+PATH=$PATH:/var/local/apache-jena-fuseki-2.0.0
+FUSEKI_HOME=/var/local/apache-jena-fuseki-2.0.0
+FUSEKI_BASE=$FUSEKI_HOME/run
+
+source ~/.bash_profile
+--- bash_profile end ---
+
+
+===== fuseki =====
+--- fuseki起動 ---
+apache-jena-fuseki-2.0.0.zip ダウンロード
+/home/kamiyoshi/ に解凍した
+mv /home/kamiyoshi/apache-jena-fuseki-2.0.0 /var/local
+*version2.3.0は動かない
+
+/var/local/apache-jena-fuseki-2.0.0/fuseki-server --loc=/var/local/apache-jena-fuseki-2.0.0/NIF /ds
+↑ コンソールで繋いで窓を残しておく必要がある。
+--- fuseki起動 end ---
+
+--- fuseki起動(nohup) ---
+cd /var/local/apache-jena-fuseki-2.0.0
+nohup ./fuseki-server --loc=NIF /ds &
+↑ 最後の"&"大事 コンソール窓を閉じてもプロセスは残る。止めるときは手動でkill
+
+ps aux | grep fuseki
+kill  ****
+ログ:nohupを実行した場所( /var/local/apache-jena-fuseki-2.0.0/ )に nohup.out
+--- fuseki起動(nohup) end---
+
+
+--- DB登録 ---
+/home/kamiyoshi/owl/nif-renew
+にＮＩＦ関連のOWL
+データセット名「default」として設定
+cd /var/local/apache-jena-fuseki-2.0.0/bin
+./s-put http://localhost:3030/ds/data default /home/kamiyoshi/owl/nif-renew/NIF-Cell.owl
+./s-post http://localhost:3030/ds/data default /home/kamiyoshi/owl/nif-renew/BIRNLex_annotation_properties.owl
+./s-post http://localhost:3030/ds/data default /home/kamiyoshi/owl/nif-renew/BIRNLex-OBO-UBO.owl
+./s-post http://localhost:3030/ds/data default /home/kamiyoshi/owl/nif-renew/nif_backend.owl
+./s-post http://localhost:3030/ds/data default /home/kamiyoshi/owl/nif-renew/NIF-GrossAnatomy.owl
+./s-post http://localhost:3030/ds/data default /home/kamiyoshi/owl/nif-renew/NIF-Organism.owl
+./s-post http://localhost:3030/ds/data default /home/kamiyoshi/owl/nif-renew/pato_purl.obolibrary.org.owl
+./s-post http://localhost:3030/ds/data default /home/kamiyoshi/owl/nif-renew/PATO_purl.org.owl
+./s-post http://localhost:3030/ds/data default /home/kamiyoshi/owl/nif-renew/quality_bfo_bridge.owl
+./s-post http://localhost:3030/ds/data default /home/kamiyoshi/owl/nif-renew/ro_bfo1-1_bridge.owl
+./s-post http://localhost:3030/ds/data default /home/kamiyoshi/owl/nif-renew/ro_purl.obolibrary.org.owl
+./s-post http://localhost:3030/ds/data default /home/kamiyoshi/owl/nif-renew/ro_purl.org.owl
+--- DB登録 end ---
+
+--- 件数確認 ---
+/var/local/apache-jena-fuseki-2.0.0/bin/s-query --service http://localhost:3030/ds/query 'SELECT count(*) {?s ?p ?o}'
+./s-query --service http://localhost:3030/ds/query 'SELECT count(*) {?s ?p ?o}'
+結果はjson形式
+--- 件数確認 end ---
+
+--- DB全削除(やり直し用) ---
+./s-delete http://localhost:3030/ds/data default
+./s-delete http://localhost:3030/NIF/data NIF
+--- DB全削除(やり直し用) end ---
+
+===== fuseki end =====
+
+===== django =====
+--- python バージョン ---
+2.7で動かしている
+python -V
+
+/etc/profile.d/python27enable.sh
+を新規作成、有効にする記述を追加
+--- python バージョン end ---
+
+--- django インストール ---
+yum install python-setuptools
+easy_install pip
+pip install -U pip
+pip install Django==1.7.1
+--- django インストール end ---
+
+--- django バージョン確認 ---
+python
+import django
+django.get_version()
+--- django バージョン確認 end---
+
+--- pip で djangoモジュール インストール ---
+python manage.py migrate で確認しながら
+
+pip install rdflib_django
+pip install django_extensions
+yum install  mysql-devel
+pip install mysql-python
+pip  install pdfminer
+-=-= ソース変更??? =-=-
+/opt/rh/python27/root/usr/lib/python2.7/site-packages/django/utils/translation/trans_real.py
+134行目
+            languages=[self.__locale],
+->
+            languages=None,
+
+-=-= ソース変更??? end=-=-
+
+--- pip で djangoモジュール インストール end ---
+
+--- iptable ---
+vim /etc/sysconfig/iptables
+
+-A INPUT -p tcp -m multiport --dports 8000 -m comment --comment "050 django" -j ACCEPT 
+追加
+--- iptable end ---
+
+--- mod_wsgi  インストール ---
+yum groupinstall "Development Tools"
+yum install httpd-devel
+
+mod_wsgi-3.5を取ってくる
+tar vzxf mod_wsgi-3.5.tar.gz
+cd mod_wsgi-3.5
+./configure --with-apxs=/usr/sbin/apxs --with-python=/opt/rh/python27/root/usr/bin/python2.7
+./configure --with-apxs=/usr/sbin/apxs --with-python=/opt/rh/python27/root/usr/bin/
+/opt/rh/python27/root/usr/bin
+make
+sudo make install
+
+ldd /etc/httpd/modules/mod_wsgi.so
+
+/etc/ld.so.conf.d に python.conf 作成
+--- mod_wsgi  インストール end---
+
+-- ソース変更 --
+setteings.py
+ FUSEKI_URL.SOURCE_ADDRESS   '/NIF'->'/ds'
+
+OntologySearch/OntologySearch/OntologySearch/static/data.zip
+を解凍
+-- ソース変更 end--
+
+
+--- httpd.conf ---
+/etc/httpd/conf.d/wsgi.conf
+service httpd restart
+
+http://phonto.unit.oist.jp/onto
+cat /var/log/httpd/error_log
+
+--- httpd.conf end ---
+
+
+===== django end =====
+
+=== xwindow ===
+※linux 内のブラウザから設定・データ追加する場合に必要？
+　結局使わなかった
+
+yum groupinstall "X Window System"
+yum groupinstall "Desktop" "Desktop Platform" "General Purpose Desktop" "Fonts"
+yum groupinstall "KDE Desktop"
+yum install tigervnc-server
+
+vi /etc/inittab
+id:5:initdefault:
+reboot
+
+--- /etc/sysconfig/vncservers 編集---
+
+ VNCSERVERS="1:root"
+ VNCSERVERARGS[1]="-geometry 800x600 -nolisten tcp -localhost"
+
+--- /etc/sysconfig/vncservers 編集 end---
+
+vncpasswd
+
+--- ~/.vnc/xstartup 編集---
+vim ~/.vnc/xstartup
+コメントアウト
+#twm &
+最終行に追加
+exec gnome-session
+--- ~/.vnc/xstartup 編集 end---
+
+--- 起動・停止・確認(各ユーザーで) --
+vncserver :1
+vncserver :1 -geometry 1200x960
+vncserver :1 -geometry 800x600
+
+vncserver -kill :1
+
+ps ax | grep vnc
+less ~/.vnc/phonto.unit.oist.jp:1.log
+--- 起動・停止・確認(各ユーザーで) end--
+
+L5901でポートフォワーディング
+vncからlocalhost::5901
+
+
+=== xwindow end ===
+
+=== djabgoソース ===
+/var/www/OntologySearch
+
+vim /var/www/OntologySearch/OntologySearch/settings.py
+ FUSEKI_URL.SOURCE_ADDRESS   '/NIF'->'/ds'
+ DEBUG = False
+
+OntologySearchディレクトリとdb.sqlite3をapacheから書き込めるようにしておく
+
+chmod 777 /var/www/OntologySearch/
+chmod 777 /var/www/OntologySearch/db.sqlite3
+chmod 777 /var/www/OntologySearch/OntologySearch/keywordlist/target/
+
+=== djabgoソース end===
+
+
+=== mysql ===
+OntologySearch/settings.py  SEARCH_TARGET_DB に沿ってＤＢ・ユーザーを作る
+db_backup_20151007.sql　をリストアする
+=== mysql end ===
+

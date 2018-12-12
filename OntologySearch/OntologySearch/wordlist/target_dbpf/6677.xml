@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6677">
+<itemtype>xnppaper</itemtype>
+<titles><title>Memory encoding and hippocampally-based novelty/familiarity discrimination networks.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Cerebrovascular Circulation</keyword>
+<keyword>physiology</keyword>
+<keyword>Discrimination (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>radionuclide imaging</keyword>
+<keyword>Humans</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Task Performance and Analysis</keyword>
+<keyword>Tomography</keyword>
+<keyword>Emission-Computed</keyword>
+<keyword>Vocabulary</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T06:47:47Z</last_update_date>
+<creation_date>2013-02-26T07:09:44Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6677</url>
+<changelogs>
+<changelog date='2013-03-28T06:47:47Z'>Modified; Item Description, Index.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6677" version="1.02">
+<authors><author>Habib R</author><author>McIntosh AR</author><author>Wheeler MA</author><author>Tulving E</author></authors>
+<journal>Neuropsychologia</journal>
+<volume>41</volume>
+<number>3</number>
+<page>271-9</page>
+<abstract>Novelty discrimination refers to the ability to decide whether information is new or has been previously encountered. Recent functional neuroimaging work has demonstrated that the hippocampus plays an important function in novelty discrimination. In the study described here, we explored the idea that novelty discrimination does not depend on the hippocampus alone but involves large-scale functional neural networks consisting of spatially remote brain regions. We measured blood flow with positron emission tomography (PET) while subjects semantically encoded visually and auditorily presented situationally novel and familiar words. Following each PET scan, subjects&#039; memory was tested with a standard yes/no recognition test. Blood flow data were analyzed with the covariance-based seed partial least squares (PLS) method. Behaviorally, subjects&#039; recognition performance was higher for novel than familiar words. Neurally, two large-scale functional networks involving the same region of the hippocampus were identified which showed coherent activity either during the encoding of situationally novel (but not familiar) items or situationally familiar (but not novel) items. These findings indicate that different neural networks are active in the processing of situationally novel and familiar information. The observation that the hippocampus participates in both networks supports the principle of neural context.</abstract>
+<pubmed_id>12457753</pubmed_id>
+</detail>
+</item>

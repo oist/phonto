@@ -1,0 +1,21 @@
+Animals
+Head
+physiology
+Hippocampus
+cytology
+physiology
+Learning
+physiology
+Memory
+physiology
+Models
+Neurological
+Neurons
+physiology
+Rats
+Robotics
+Space Perception
+physiology
+Spatial Behavior
+physiology
+In this report we describe a model that applies Marr's theory of hippocampal function to the problem of map-based navigation. Like many others we attribute a spatial memory function to the hippocampus, but we suggest that the additional functional components required for map-based navigation are located elsewhere in the brain. One of the key functional components in this model is an egocentric map of space, located in the neocortex, that is continuously updated using ideothetic (self-motion) information. The hippocampus stores snapshots of this egocentric map. The modeled activity pattern of head direction cells is used to set the best egocentric map rotation to match the snapshots stored in the hippocampus, resulting in place cells with a nondirectional firing pattern. We describe an evaluation of this model using a mobile robot and demonstrate that with this model the robot can recognize an environment and find a hidden goal. This model is discussed in the context of prior experiments that were designed to discover the map-based spatial processing of animals. We also predict the results of further experiments.

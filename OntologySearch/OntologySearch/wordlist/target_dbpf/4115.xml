@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4115">
+<itemtype>xnppaper</itemtype>
+<titles><title>Awake replay of remote experiences in the hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Electrodes</keyword>
+<keyword>Implanted</keyword>
+<keyword>Environment</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Microelectrodes</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Wakefulness</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T06:27:57Z</last_update_date>
+<creation_date>2010-10-08T06:27:57Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4115</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4115" version="1.02">
+<authors><author>Karlsson MP</author><author>Frank LM</author></authors>
+<journal>Nature neuroscience</journal>
+<volume>12</volume>
+<number>7</number>
+<page>913-8</page>
+<abstract>Hippocampal replay is thought to be essential for the consolidation of event memories in hippocampal-neocortical networks. Replay is present during both sleep and waking behavior, but although sleep replay involves the reactivation of stored representations in the absence of specific sensory inputs, awake replay is thought to depend on sensory input from the current environment. Here, we show that stored representations are reactivated during both waking and sleep replay. We found frequent awake replay of sequences of rat hippocampal place cells from a previous experience. This spatially remote replay was as common as local replay of the current environment and was more robust when the rat had recently been in motion than during extended periods of quiescence. Our results indicate that the hippocampus consistently replays past experiences during brief pauses in waking behavior, suggesting a role for waking replay in memory consolidation and retrieval.</abstract>
+<pubmed_id>19525943</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,34 @@
+1. Biophys J. 2000 May;78(5):2392-404.
+
+Action potential and contractility changes in [Na(+)](i) overloaded cardiac
+myocytes: a simulation study.
+
+Faber GM(1), Rudy Y.
+
+Author information: 
+(1)Cardiac Bioelectricity Research and Training Center and Department of
+Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio
+44106-7207 USA.
+
+Sodium overload of cardiac cells can accompany various pathologies and induce
+fatal cardiac arrhythmias. We investigate effects of elevated intracellular
+sodium on the cardiac action potential (AP) and on intracellular calcium using
+the Luo-Rudy model of a mammalian ventricular myocyte. The results are: 1) During
+rapid pacing, AP duration (APD) shortens in two phases, a rapid phase without
+Na(+) accumulation and a slower phase that depends on [Na(+)](i). 2) The rapid
+APD shortening is due to incomplete deactivation (accumulation) of I(Ks). 3) The 
+slow phase is due to increased repolarizing currents I(NaK) and reverse-mode
+I(NaCa), secondary to elevated [Na(+)](i). 4) Na(+)-overload slows the rate of AP
+depolarization, allowing time for greater I(Ca(L)) activation; it also enhances
+reverse-mode I(NaCa). The resulting increased Ca(2+) influx triggers a greater
+[Ca(2+)](i) transient. 5) Reverse-mode I(NaCa) alone can trigger Ca(2+) release
+in a voltage and [Na(+)](i)-dependent manner. 6) During I(NaK) block, Na(+) and
+Ca(2+) accumulate and APD shortens due to enhanced reverse-mode I(NaCa);
+contribution of I(K(Na)) to APD shortening is negligible. By slowing AP
+depolarization (hence velocity) and shortening APD, Na(+)-overload acts to
+enhance inducibility of reentrant arrhythmias. Shortened APD with elevated
+[Ca(2+)](i) (secondary to Na(+)-overload) also predisposes the myocardium to
+arrhythmogenic delayed afterdepolarizations.
+
+PMCID: PMC1300828
+PMID: 10777735  [PubMed - indexed for MEDLINE]

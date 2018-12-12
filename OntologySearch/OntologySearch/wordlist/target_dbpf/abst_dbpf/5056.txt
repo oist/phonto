@@ -1,0 +1,85 @@
+4-Aminopyridine
+pharmacology
+Animals
+Basic Helix-Loop-Helix Transcription Factors
+metabolism
+Bicuculline
+pharmacology
+Bromodeoxyuridine
+metabolism
+Calcium
+metabolism
+Calcium-Binding Protein
+Vitamin D-Dependent
+metabolism
+Cell Count
+methods
+Cell Differentiation
+drug effects
+physiology
+Drug Interactions
+Electric Stimulation
+methods
+Excitatory Amino Acid Agonists
+pharmacology
+GABA Antagonists
+pharmacology
+Glycine
+pharmacology
+Green Fluorescent Proteins
+biosynthesis
+Hippocampus
+cytology
+History
+Ancient
+Immunohistochemistry
+methods
+Intermediate Filament Proteins
+genetics
+Ki-67 Antigen
+metabolism
+Membrane Potentials
+drug effects
+physiology
+Mice
+Mice
+Transgenic
+Microscopy
+Immunoelectron
+methods
+N-Methylaspartate
+pharmacology
+Nerve Tissue Proteins
+genetics
+metabolism
+Neural Cell Adhesion Molecule L1
+metabolism
+Neurons
+classification
+drug effects
+metabolism
+ultrastructure
+Nickel
+pharmacology
+Patch-Clamp Techniques
+methods
+Phosphopyruvate Hydratase
+metabolism
+Potassium Channel Blockers
+pharmacology
+Sialic Acids
+metabolism
+Sodium-Potassium-Chloride Symporters
+metabolism
+Stem Cells
+drug effects
+Tetrodotoxin
+pharmacology
+Vesicular Inhibitory Amino Acid Transport Proteins
+metabolism
+alpha-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic Acid
+pharmacology
+gamma-Aminobutyric Acid
+metabolism
+pharmacology
+Hippocampal activity influences neurogenesis in the adult dentate gyrus; however, little is known about the involvement of the hippocampal circuitry in this process. In the subgranular zone of the adult dentate gyrus, neurogenesis involves a series of differentiation steps from radial glia-like stem/progenitor (type-1) cells, to transiently amplifying neuronal progenitor (type-2) cells, to postmitotic neurons. In this study, we conducted GFP-targeted recordings of progenitor cells in fresh hippocampal slices from nestin-GFP mice and found that neuronal progenitor (type-2) cells receive active direct neural inputs from the hippocampal circuitry. This input was GABAergic but not glutamatergic. The GABAergic inputs depolarized type-2 cells because of their elevated [Cl(-)](i). This excitation initiated an increase of [Ca(2+)](i) and the expression of NeuroD. A BrdU-pulse labeling study with GABA(A)-R agonists demonstrated the promotion of neuronal differentiation via this GABAergic excitation. Thus, it appears that GABAergic inputs to hippocampal progenitor cells promote activity-dependent neuronal differentiation.

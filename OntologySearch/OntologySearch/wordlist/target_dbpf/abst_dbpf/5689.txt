@@ -1,0 +1,15 @@
+Animals
+Aptitude Tests
+Calcium-Calmodulin-Dependent Protein Kinases
+Electrophysiology
+Hippocampus
+physiology
+Learning
+physiology
+Mice
+Mice
+Mutant Strains
+Protein Kinases
+deficiency
+physiology
+Although long-term potentiation (LTP) has been studied as the mechanism for hippocampus-dependent learning and memory, evidence for this hypothesis is still incomplete. The mice with a mutation in the alpha-calcium-calmodulin-dependent kinase II (alpha-CaMKII), a synaptic protein enriched in the hippocampus, are appropriate for addressing this issue because the hippocampus of these mice is deficient in LTP but maintains intact postsynaptic mechanisms. These mutant mice exhibit specific learning impairments, an indication that alpha-CaMKII has a prominent role in spatial learning, but that it is not essential for some types of non-spatial learning. The data considerably strengthen the contention that the synaptic changes exhibited in LTP are the basis for spatial memory.

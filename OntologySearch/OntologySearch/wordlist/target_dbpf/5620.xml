@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5620">
+<itemtype>xnppaper</itemtype>
+<titles><title>Firing of inferior colliculus auditory neurons is phase-locked to the hippocampus theta rhythm during paradoxical sleep and waking.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Auditory Pathways</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Guinea Pigs</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Inferior Colliculi</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Sleep</keyword>
+<keyword>REM</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>Wakefulness</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-07-28T02:07:08Z</last_update_date>
+<creation_date>2011-07-28T02:07:08Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5620</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5620" version="1.02">
+<authors><author>Pedemonte M</author><author>Peña JL</author><author>Velluti RA</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>112</volume>
+<number>1</number>
+<page>41-6</page>
+<abstract>The activity of 52 single auditory units in the central nucleus of the inferior colliculus (IC) was recorded along with cortical and hippocampal (CA1) electrograms and neck muscle electromyograms in behaving, head-restrained guinea pigs during paradoxical sleep (PS) and wakefulness. Sixteen (30%) of the IC auditory units showed positive correlation with the hippocampal theta (theta) rhythm: 8 (15%) were theta rhythmic with theta phase-locking (type 1), 8 (15%) showed only theta phase-locking with no rhythmicity (type 2), while 70% did not show any correlation to hippocampal theta rhythm (type 3). During wakefulness IC neurons (4 of 13) showed a higher synchrony with hippocampal theta when sound-stimulated at the unit&#039;s characteristic frequency. During PS all IC auditory neurons recorded presented some hippocampal theta correlation: 40% were rhythmic and phase-locked to the theta frequency and 60% were nonrhythmic maintaining the theta phase-locking. Shifts in the angle of phase-locking to the theta rhythm were observed during PS. It is suggested that the hippocampal theta rhythm may play the part of an internal clock, adding a temporal dimension to the processing of auditory sensory information.</abstract>
+<pubmed_id>8951405</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,29 @@
+Aged
+Dementia
+pathology
+physiopathology
+psychology
+Functional Laterality
+physiology
+Hippocampus
+pathology
+physiopathology
+Humans
+Magnetic Resonance Imaging
+Memory
+physiology
+Memory Disorders
+pathology
+physiopathology
+psychology
+Middle Aged
+Models
+Neurological
+Neural Pathways
+pathology
+physiopathology
+Neuropsychological Tests
+Prefrontal Cortex
+pathology
+physiopathology
+It has been convincingly demonstrated that patients with semantic dementia (the temporal variant of frontotemporal dementia) can show intact recognition memory for pictorial stimuli. As yet, the contribution made by recollective processes to this ability and the status of associated neural regions have not been investigated in the disease. Here, we used both a source monitoring paradigm and an associative memory test to evaluate the ability of patients with semantic dementia to use recollection-based memory processes, and a volumetric MRI technique to assess the extent of atrophy in the hippocampus. Although some patients showed impaired source and associative memory, many performed as well as control participants. Importantly, status of semantic knowledge, as measured by tests of comprehension and production, did not predict recollection-based memory ability. There was no significant positive correlation between recollection and volume of the hippocampus; instead, both source discrimination and associative memory correlated highly with performance on a battery of frontal lobe tests. Consistent with the view that damage to the prefrontal cortex might influence recollection performance, patients with the frontal variant of frontotemporal dementia, with atrophy largely confined to the frontal lobes, all performed at floor level on source discrimination. These results provide further compelling evidence in favour of the multiple input model of long-term memory and highlight the role of frontal lobe systems in recollection-based memory.

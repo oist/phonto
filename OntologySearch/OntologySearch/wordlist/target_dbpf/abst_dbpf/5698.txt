@@ -1,0 +1,33 @@
+Animals
+Denervation
+Entorhinal Cortex
+anatomy
+&
+histology
+physiology
+Hippocampus
+anatomy
+&
+histology
+physiology
+Male
+Maze Learning
+physiology
+Memory
+physiology
+Memory Disorders
+pathology
+physiopathology
+Neural Pathways
+anatomy
+&
+histology
+physiology
+Neurons
+physiology
+Rats
+Rats
+Long-Evans
+Space Perception
+physiology
+The extensive connections of the entorhinal cortex with the hippocampus and the neocortex point to this region as a major interface in the hippocampal-neocortical interactions underlying memory. We asked whether hippocampal-dependent recall of spatial memory depends on the entorhinal cortex, and, if so, which parts are critical. After training in a Morris water maze, rats received fiber-sparing lesions in the dorsolateral band of the entorhinal cortex, which mediates much of the visuospatial input to the dorsal hippocampus. These lesions entirely disrupted retention and retarded new learning. Spatial memory was spared by lesions in the ventromedial band, which connects primarily with ventral hippocampus, but these lesions reduced defensive behavior on an elevated plus maze, mirroring the effects of damage to ventral hippocampus. The results suggest that the functional differences between dorsal and ventral hippocampus reflect their connectivity with modules of the entorhinal cortex that are differently linked to the rest of the cortex.

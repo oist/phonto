@@ -1,0 +1,12 @@
+Animals
+Electrophysiology
+Hippocampus
+physiology
+Long-Term Potentiation
+Mice
+Neuronal Plasticity
+physiology
+Patch-Clamp Techniques
+Synapses
+physiology
+Activity-dependent synaptic plasticity is critical for learning and memory. Considerable attention has been paid to mechanisms that increase or decrease synaptic efficacy, referred to as long-term potentiation (LTP) and long-term depression (LTD), respectively. It is becoming apparent that synaptic activity also modulates the ability to elicit subsequent synaptic changes. We provide direct experimental evidence that this modulation is attributable, at least in part, to variations in the level of postsynaptic depolarization required for inducing plasticity. In slices from adult hippocampal CA1, a brief pairing protocol known to produce LTP can also induce LTD. The voltage-response function for the induction of LTD and LTP in naive synapses exhibits three parts: at a postsynaptic membrane potential during pairing (V(m))</= -40 mV, no synaptic modification is obtained; at V(m) between -40 and -20 mV, LTD is induced; and, finally, at V(m)>-20 mV, LTP is generated. This function varies with initial synaptic efficacy. In depressed synapses, Theta(-), the V(m) above which LTD is generated, is shifted toward more depolarized V(ms) and Theta(+), the LTD-LTP crossover point or, equivalently, the V(m) above which LTP is induced, toward more polarized V(ms). Conversely in potentiated synapses, Theta(-) is shifted toward more polarized V(ms). Therefore synaptic activity changes synaptic efficacy and accordingly adjusts the voltages for eliciting subsequent synaptic modifications. The concomitant shifts in the voltages for inducing LTD and LTP in opposite directions promote synaptic potentiation and inhibit synaptic depression in depressed synapses and vice versa in potentiated synapses.

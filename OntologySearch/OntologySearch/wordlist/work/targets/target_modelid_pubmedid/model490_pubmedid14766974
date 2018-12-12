@@ -1,0 +1,31 @@
+1. Proc Natl Acad Sci U S A. 2004 Feb 17;101(7):1822-7. Epub 2004 Feb 6.
+
+Detection of multistability, bifurcations, and hysteresis in a large class of
+biological positive-feedback systems.
+
+Angeli D(1), Ferrell JE Jr, Sontag ED.
+
+Author information: 
+(1)Dipartimento di Sistemi e Informatica, University of Florence, 50139 Florence,
+Italy.
+
+It is becoming increasingly clear that bistability (or, more generally,
+multistability) is an important recurring theme in cell signaling. Bistability
+may be of particular relevance to biological systems that switch between discrete
+states, generate oscillatory responses, or "remember" transitory stimuli.
+Standard mathematical methods allow the detection of bistability in some very
+simple feedback systems (systems with one or two proteins or genes that either
+activate each other or inhibit each other), but realistic depictions of signal
+transduction networks are invariably much more complex. Here, we show that for a 
+class of feedback systems of arbitrary order the stability properties of the
+system can be deduced mathematically from how the system behaves when feedback is
+blocked. Provided that this open-loop, feedback-blocked system is monotone and
+possesses a sigmoidal characteristic, the system is guaranteed to be bistable for
+some range of feedback strengths. We present a simple graphical method for
+deducing the stability behavior and bifurcation diagrams for such systems and
+illustrate the method with two examples taken from recent experimental studies of
+bistable systems: a two-variable Cdc2/Wee1 system and a more complicated
+five-variable mitogen-activated protein kinase cascade.
+
+PMCID: PMC357011
+PMID: 14766974  [PubMed - indexed for MEDLINE]

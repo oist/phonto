@@ -1,0 +1,27 @@
+Animals
+Behavior
+Animal
+physiology
+Biomedical Engineering
+Cognition
+physiology
+Computer Simulation
+Habituation
+Psychophysiologic
+physiology
+Hippocampus
+physiology
+Male
+Maze Learning
+physiology
+Models
+Neurological
+Models
+Psychological
+Rats
+Robotics
+instrumentation
+statistics
+&
+numerical data
+In this paper we present a comparative behavioral analysis of spatial cognition in rats and robots by contrasting a similar goal-oriented task in a cyclical maze, where a computational system-level model of rat spatial cognition is used integrating kinesthetic and visual information to produce a cognitive map of the environment and drive robot experimentation. A discussion of experiments in rats and robots is presented contrasting learning latency while characterizing behavioral procedures such as body rotations during navigation and election of routes to the goal.

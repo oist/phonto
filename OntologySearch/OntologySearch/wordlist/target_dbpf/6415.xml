@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6415">
+<itemtype>xnppaper</itemtype>
+<titles><title>Changing the criteria for old/new recognition judgments can modulate activity in the anterior hippocampus.</title>
+</titles>
+<contributor uname='tfujii'>[en]Toshikatsu Fujii[/en][ja]藤井 俊勝[/ja](tfujii)</contributor>
+<keywords><keyword>B01G3</keyword>
+</keywords>
+<description>原著論文</description>
+<doi></doi>
+<last_update_date>2012-05-08T18:57:53Z</last_update_date>
+<creation_date>2012-05-08T18:57:53Z</creation_date>
+<publication_year>2012</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6415</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6415" version="1.02">
+<authors><author>Ryusaku Hashimoto</author><author>Nobuhito Abe</author><author>Aya Ueno</author><author>Toshikatsu Fujii</author><author>Shoki Takahashi</author><author>Etsuro Mori</author></authors>
+<journal>Hippocampus</journal>
+<volume>22</volume>
+<number>2</number>
+<page>141-8</page>
+<abstract>Numerous functional magnetic resonance imaging (fMRI) studies have reported that the medial temporal lobe (MTL) is activated to a greater extent when subjects encounter novel items as compared with familiar ones. However, it remains unclear whether the novelty signals in the MTL are modulated by the criteria for old/new recognition judgments. In this study, we used fMRI to test our hypothesis that when subjects encounter items similar to previously encountered ones, the novelty signals in the MTL will differ depending on whether the subjects focus on the perceptual features or the semantic aspects of the items. The subjects studied a series of photographs and were later asked to make a recognition judgment of (a) Same items (items identical to those seen during encoding), (b) Similar items (items similar to but not identical to those seen during encoding), and (c) New items (unstudied items) in two types of tasks: Perceptual and Semantic. The subjects judged whether the items were perceptually identical to those seen during encoding in the Perceptual task and whether the items were semantically identical to those seen during encoding in the Semantic task. The left anterior hippocampus was activated when subjects were presented with New items relative to Same items in both tasks. In addition, the hippocampal activity in response to the Similar items was increased only in the Perceptual, but not the Semantic task. Our results indicate that the novelty signals in the hippocampus can be modulated by criteria for old/new recognition judgments.</abstract>
+<pubmed_id>20882553</pubmed_id>
+</detail>
+</item>

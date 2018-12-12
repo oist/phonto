@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7225">
+<itemtype>xnppaper</itemtype>
+<titles><title>Nicotine-induced switch in the nicotinic cholinergic mechanisms of facilitation of long-term potentiation induction.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Acetylcholinesterase</keyword>
+<keyword>metabolism</keyword>
+<keyword>Aconitine</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Animals</keyword>
+<keyword>Newborn</keyword>
+<keyword>Antibodies</keyword>
+<keyword>Monoclonal</keyword>
+<keyword>toxicity</keyword>
+<keyword>Cholinergic Fibers</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Denervation</keyword>
+<keyword>methods</keyword>
+<keyword>Dihydro-beta-Erythroidine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Dose-Response Relationship</keyword>
+<keyword>Drug</keyword>
+<keyword>Dose-Response Relationship</keyword>
+<keyword>Radiation</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Excitatory Amino Acid Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>GABA Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>Immunohistochemistry</keyword>
+<keyword>methods</keyword>
+<keyword>Immunotoxins</keyword>
+<keyword>toxicity</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>N-Glycosyl Hydrolases</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Nicotine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Nicotinic Agonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Nicotinic Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>methods</keyword>
+<keyword>Phosphinic Acids</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Picrotoxin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Propanolamines</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Quinoxalines</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Receptors</keyword>
+<keyword>Nicotinic</keyword>
+<keyword>physiology</keyword>
+<keyword>Ribosome Inactivating Proteins</keyword>
+<keyword>Type 1</keyword>
+<keyword>Valine</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>metabolism</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:15:57Z</last_update_date>
+<creation_date>2013-02-28T01:15:57Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7225</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7225" version="1.02">
+<authors><author>Yamazaki Y</author><author>Jia Y</author><author>Hamaue N</author><author>Sumikawa K</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>22</volume>
+<number>4</number>
+<page>845-60</page>
+<abstract>Nicotine facilitates the induction of long-term potentiation (LTP) in the hippocampal CA1 region. The present study reveals the potential mechanisms underlying this effect of nicotine. Timed ACh-mediated activation of alpha7 nicotinic acetylcholine receptors (nAChRs) on pyramidal cells is known to promote LTP induction. Nicotine could suppress this timing-dependent mechanism by desensitizing nAChRs. Timed ACh-mediated activation of alpha7 nAChRs on feedforward interneurons can prevent LTP induction by inhibiting pyramidal cells. Nicotine diminished this ACh-mediated inhibition by desensitizing alpha7 nAChRs, thereby reducing the inhibitory influence on pyramidal cells. In addition to these desensitizing effects, nicotine activated presynaptic non-alpha7 nAChRs on feedforward interneurons to decrease the evoked release of gamma-aminobutyric acid (GABA) onto pyramidal cells. Furthermore, nicotine increased the frequency of spontaneous inhibitory postsynaptic currents (IPSCs) in pyramidal cells, and concomitantly caused a reduction in the size of responses to focal GABA application onto the dendrites of pyramidal cells, suggesting that the nicotine-induced increase in interneuronal activity leads ultimately to a use-dependent depression of evoked IPSCs in pyramidal cells. These nicotine-induced suppressions of inhibition of pyramidal cells were accompanied by enhanced N-methyl-D-aspartate (NMDA) responses in pyramidal cells. Thus, our results suggest that nicotine promotes the induction of LTP by diminishing inhibitory influences on NMDA responses while suppressing the ACh-mediated mechanisms. These ACh-independent mechanisms probably contribute to the nicotine-induced cognitive enhancement observed in the presence of cholinergic deficits, such as those in Alzheimer&#039;s disease patients.</abstract>
+<pubmed_id>16115208</pubmed_id>
+</detail>
+</item>

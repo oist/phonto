@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7241">
+<itemtype>xnppaper</itemtype>
+<titles><title>Timing and balance of inhibition enhance the effect of long-term potentiation on cell firing.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Kinetics</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Receptors</keyword>
+<keyword>GABA-A</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:26:40Z</last_update_date>
+<creation_date>2013-02-28T01:26:40Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7241</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7241" version="1.02">
+<authors><author>Marder CP</author><author>Buonomano DV</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>24</volume>
+<number>40</number>
+<page>8873-84</page>
+<abstract>The role of a neuron in neural processing is ultimately determined by whether or not it fires an action potential in a given context. Studies on synaptic plasticity have focused primarily on changes in EPSPs, and not on whether plasticity translates into changes in firing. However, this issue has been addressed by examining EPSP-spike (E-S) potentiation, which enhances the ability of an EPSP of a fixed slope to elicit spikes after long-term potentiation (LTP). Although LTP is thought to underlie learning and memory, E-S potentiation could play an equally important role by potentiating the neuronal input-output function. Here, we used a combined experimental and theoretical approach to examine both the mechanisms underlying E-S potentiation as well as the role of inhibition in shaping the input-output function of neurons. Whereas previous studies examined tetanus-LTP, in which inhibitory synapses may have undergone plasticity, here we examined pairing-induced associative LTP. We determined that although intact inhibition was necessary for pairing-induced E-S potentiation, inhibitory plasticity was not. We further established using computer simulations that a primary mechanism of E-S potentiation was a change in the relative recruitment and latency of inhibitory neurons. Although these studies do not exclude the presence of additional mechanisms of E-S potentiation that may be engaged depending on the induction protocol, they do establish that under intact pharmacology, LTP of the Schaffer collateral to CA1 pyramidal neuron synapses will produce E-S potentiation as a result of changes in the balance and timing of excitation and inhibition.</abstract>
+<pubmed_id>15470154</pubmed_id>
+</detail>
+</item>

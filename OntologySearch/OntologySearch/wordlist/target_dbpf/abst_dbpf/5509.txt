@@ -1,0 +1,12 @@
+Action Potentials
+Adaptation
+Physiological
+Animals
+Electric Stimulation
+Hippocampus
+physiology
+Neural Inhibition
+Rats
+Synapses
+physiology
+In slices of rat hippocampus, a train of conditioning pulses that would produce long-term potentiation (LTP) if applied to afferent inputs was found to produce a long-lasting depression of Schaffer collateral/commissural synapses on CA1 cells when instead it was applied to the CA1 axons. The depression lasted undiminished for up to 2 h (the maximum duration of recording). Intracellular recording showed that long-term depression (LTD) of e.p.s.p. amplitude occurred in 66% of cells when this antidromic conditioning stimulation was delivered in normal medium, and in 100% of cells when the antidromic stimulation was delivered in medium containing sufficient Mg++ to block all synaptic transmission. We infer that the difference is because conditioning stimuli sometimes activated test synapses in normal Mg++ but could not in high Mg++. The fact that LTD could be induced in high Mg++ eliminates enhanced inhibitory feedback as a possible mechanism of the long lasting synaptic depression and demonstrates that the mechanism is probably postsynaptic. Resting membrane potential and cell input resistance were the same before and after conditioning, so persisting changes in these postsynaptic parameters can not be the explanation for LTD. LTD of the sort described in this paper could have significant implications for models of learning and memory.

@@ -1,0 +1,597 @@
+
+
+{% extends "site/base.tpl.html" %}
+
+{%load static %}
+
+{% load i18n %}
+
+{% block extrajs %}
+{% endblock %} {# end of extrajs block #}
+
+{% block handstyle %}
+<style type="text/css">
+<!--
+/* base object style */
+html,body { height:100%; }
+html body *{
+	font-family: "Meiryo UI","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+	font-size:12px;
+}
+#container{padding:1%;}
+span { white-space: nowrap; }
+#debug{
+position:absolute;
+	bottom:0px;
+	border: 1px solid gray
+}
+
+/* css for each library */
+.ui-autocomplete .ui-menu-item a{
+	font-size:12px;
+}
+
+/* css for each class */
+.floatleft{float:left;}
+.clearboth{clear:both;}
+.padb2{padding-bottom:2px;}
+.pagetitle{
+	font-size:16px;
+	font-weight:bold;
+	padding-left:1%;
+	padding-top:8px;
+	height:32px;
+}
+.title , .resulttitle{
+	font-size:14px;
+}
+.title{
+	margin-bottom:4px;
+}
+.closebtn{
+	padding:5px;
+	font-weight:bold;
+	color:gray;
+}
+.closebtn:hover{
+	color:black;
+	cursor:pointer;
+}
+.treens{
+	cursor:pointer;
+}
+
+/* css for each object */
+#qbox{width:100%;}
+#q{width:99%;}
+#restable , #canditable{
+	width:99%;
+}
+
+#contentstitlediv{
+	padding:10px;
+}
+
+#data4par {
+	margin:10px;
+	padding:5px;
+	border:1px solid gray;
+	background-color:white;
+	box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+	position:absolute;
+}
+#data4 table {
+	margin-right: auto;
+	margin-left : auto;
+}
+#data4 table thead td {
+	background-color:#888888;
+	color:white;
+}
+#data4 table td{
+	padding:1px 10px;
+}
+#data4 table tr.even {
+	background-color:#eeeeee;
+}
+#data1 li b,#data2 li b,#data3 li b{
+	cursor:pointer;
+}
+#synonymdiv{
+	margin-top:5px;
+}
+#synonymresult{
+	padding:4px;
+}
+-->
+</style>
+{% endblock %}{# end of handstyle block #}
+
+{% block handscript %}
+<script type="text/javascript">
+<!--
+	var pretext="";
+	var pretext_s="";
+	var prefixes={};
+	var staticurl = "{% static '' %}";
+	var initword="{{ initword }}";
+	$(document).ready(function(){
+
+		$.ajaxSetup( {data: {
+		    csrfmiddlewaretoken: '{{ csrf_token }}'
+		}});
+		$("#q").autocomplete({
+			source: function(req, resp){
+				$.ajax({
+				    url: "/apps/synonymcomplete",
+				    type: "POST",
+				    cache: false,
+				    dataType: "json",
+				    data: {
+				      param1: req.term,
+				      query:$("#q").val()
+				    },
+				    success: function(o){
+						if(o && o.payload && o.payload.result){
+							resp(o.payload.result);
+						}else{
+							resp(['']);
+						}
+				    },
+				    error: function(xhr, ts, err){
+				    	resp(['']);
+				    }
+				  });
+
+			}
+			,delay: 500
+		});
+
+		//Image
+		$(".loader").attr({"src":staticurl + "img/loader.gif"})
+
+		//event
+		$("#q").keypress(function(e){
+			onQKeyPress(e);
+		});
+		$("#q_s").keypress(function(e){
+			onQ_SKeyPress(e);
+		});
+		$("#data4par").draggable();
+
+		//getprefixes
+		request(
+			"/apps/getprefixes"
+			,{}
+			,function(msg){
+				var res={};
+				eval("res=" + msg.responseText);
+				var result={};
+				if(res && res.payload && res.payload.result){
+					result= res.payload.result;
+
+					prefixes = result;
+				}
+			}
+		);
+
+		//default word(if exists)
+		if(initword){
+			$("#q").val(initword);
+			getHierarchy();
+		}
+
+	});
+
+
+/*
+ * Hierarchy search
+ */
+	function searchOnChenge(event){
+		if($("#q").val() != pretext){
+			pretext = $("#q").val();
+		}
+    }
+	function onQKeyPress(event){
+		if (isEnterKey(event)) {
+			if (!$("#q").val()) {
+			}else{
+				getHierarchy();
+			}
+		}
+	}
+	function getHierarchy(){
+		$("#data1").html("");
+		$("#data2").html("");
+		$("#data3").html("");
+		$("#synonymresult").html("");
+		$("#q").autocomplete("close");
+		$(".loaderdiv").show();
+
+		var param = {
+			 "query":$("#q").val().trim()
+		};
+		request(
+			"/apps/getowldata"
+			,param
+			,function(msg){
+				var res={};
+				eval("res=" + msg.responseText);
+				var result={};
+				if(res && res.payload && res.payload.result){
+					result = res.payload.result;
+				}
+				if(result ){
+					setResult(result);
+				}
+			}
+		);
+	}
+
+	function setResult(result){
+		if(!result){return;}
+
+		var ansesterhtml="";
+		var brothershtml="";
+		var childrenhtml="";
+		var synonyms = {};
+		var synonymhtml="";
+		for(var i=0,len = result.length ; i<len ; i++){
+			var row = result[i];
+			if(!row){continue;}
+
+			//ancestor
+			if (row.ancestor )
+			ansesterhtml += "<div>";
+			ansesterhtml += makeAncestorLi(row);
+			ansesterhtml += "</div>";
+
+			//brothers
+			brothershtml += "<div>";
+			brothershtml += makeBrothersLi(row);
+			brothershtml += "</div>";
+
+			//brothers
+			childrenhtml += "<div>";
+			childrenhtml += makeChildrenLi(row);
+			childrenhtml += "</div>";
+
+			//synonyms
+			if(row.synonyms && row.synonyms.length){
+				for(var key in row.synonyms){
+					synrow = row.synonyms[key];
+					if(!synrow || !synrow.synonym){continue;}
+					synkey = synrow.synonym.value;
+					synonyms[synkey] = synkey;
+				}
+			}
+		}
+
+		// ansester
+		$("#data1").html(ansesterhtml);
+		$("#data1 div").treeview({});
+
+		// brother
+		$("#data2").html(brothershtml);
+		$("#data2 div").treeview({});
+
+		// children
+		$("#data3").html(childrenhtml);
+		$("#data3 div div.inner").treeview({});
+
+		// synonym
+		for(var key in synonyms){
+			row = synonyms[key];
+			if(!row){continue;}
+			synonymhtml += " , <span>" + row + "</span>";
+		}
+		if(synonymhtml.length){
+			synonymhtml = synonymhtml.substr(2);
+		}
+		$("#synonymresult").html(synonymhtml);
+
+		$(".loaderdiv").hide();
+
+	}
+
+	function makeBrothersLi(row){
+		if(!row || !row.brothers){
+			return "";
+		}
+
+		var ret ="";
+		for(var i=0,len = row.brothers.length;i<len;i++){
+			var bro = row.brothers[i];
+			ret += makeBrothersLiBranch(bro , row.myns);
+		}
+		return ret;
+
+	}
+	function makeBrothersLiBranch(row , myns){
+		if(!row || !row.brothers){
+			return "";
+		}
+
+		var ret = "<br><div class='treens'><b onclick='getOwlContents(event, \"" + escapeHTML_sq(row.parentname) + "\" , \"" + row.parentns + "\");'>";
+		ret +=  valueString(row.parentns) + "</b></div>";
+		ret += "<div class='inner'><ul>";
+//		var ret = "<ul>";
+		ret += "<li title='" + row.parentns + "'>";
+		ret += "<a onclick='pretendsearch(\"" + row.parentname + "\")'>"
+		ret += row.parentname;
+		ret += "</a><ul>";
+		for(var i=0,len = row.brothers.length;i<len;i++){
+			var bro = row.brothers[i];
+			var sb="";
+			var eb="";
+			var cl="";
+			var addstr="";
+			if(bro["class"]){
+				cl = bro["class"].value;
+				if(cl == myns){
+					sb = "<b onclick='getOwlContents(event, \"" + escapeHTML_sq(bro.label.value) + "\" , \"" + myns + "\");'>";
+					eb = "</b>";
+					addstr = " <i>[" + valueString(cl) + "]</i>";
+				}else{
+					sb += "<a onclick='pretendsearch(\"" + bro.label.value + "\")'>";
+					eb = "</a>";
+				}
+			}
+			ret += "<li title='" + cl + "'>";
+			ret += sb + bro.label.value + addstr + eb + "</li>";
+		}
+		ret += "</ul>";
+		ret += "</li>";
+		ret += "</ul>";
+		return ret;
+
+	}
+
+	function makeAncestorLi(row){
+		if(!row || (!row.ancestor)){
+			return "";
+		}
+
+		var ret = "<br><div class='treens'><b onclick='getOwlContents(event, \"" + escapeHTML_sq(row.myname) + "\" , \"" + row.myns + "\");'>";
+		ret += valueString(row.myns);
+		ret += "</b></div>";
+		ret += "<div class='inner'><ul>";
+		ret += "<li title='" + row.myns + "'>";
+		ret += "<b onclick='getOwlContents(event, \"" + escapeHTML_sq(row.myname) + "\" , \"" + row.myns + "\");'>";
+		ret += row.myname;
+//		ret += " <i>[" + valueString(row.myns) + "]</i>";
+		ret += "</b><ul>";
+		for(var i=0,len = row.ancestor.length;i<len;i++){
+			var par = row.ancestor[i];
+			ret += makeAncestorLiBranch(par);
+		}
+		ret += "</ul>";
+		ret += "</li>";
+		ret += "</ul>";
+		return ret;
+
+	}
+	function makeAncestorLiBranch(row){
+		if(!row || !row.parentlabel){
+			return "";
+		}
+
+		var sb="";
+		var eb="";
+		if(row.ommit){
+			sb = "<i>";
+			eb = "</i>";
+		}
+
+		var ret = "<ul>";
+		ret += "<li title='" + row.parent.value + "'>";
+		ret += "<a onclick='pretendsearch(\"" + row.parentlabel.value + "\")'>"
+		ret += sb + row.parentlabel.value + eb;
+		ret += "</a><ul>";
+		if(row.parents){
+			for(var i=0,len = row.parents.length;i<len;i++){
+				var par = row.parents[i];
+				ret += makeAncestorLiBranch(par);
+			}
+		}
+		ret += "</ul>";
+		ret += "</li>";
+		ret += "</ul>";
+		return ret;
+
+	}
+
+	function makeChildrenLi(row){
+		if(!row || !row.children){
+			return "";
+		}
+
+		var ret = "<br><div class='treens'><b onclick='getOwlContents(event, \"" + escapeHTML_sq(row.myname) + "\" , \"" + row.myns + "\");'>";
+		ret +=  valueString(row.myns) + "</b></div>";
+		ret += "<div class='inner'><ul>";
+		ret += "<li title='" + row.myns + "'>";
+		ret += "<b onclick='getOwlContents(event, \"" + escapeHTML_sq(row.myname) + "\" , \"" + row.myns + "\");'>";
+		ret += row.myname;
+//		ret += " <i>[" + valueString(row.myns) + "]</i>";
+		ret += "</b><ul>";
+		for(var i=0,len = row.children.length;i<len;i++){
+			var kid = row.children[i];
+			var cl = (kid["class"] && kid["class"].value) ? kid["class"].value : "";
+			ret += "<li title='"+ cl + "'>";
+			ret += "<a onclick='pretendsearch(\"" + kid.label.value + "\")'>";
+			ret += kid.label.value + "</a></li>";
+		}
+		ret += "</ul>";
+		ret += "</li>";
+		ret += "</ul></div>";
+		return ret;
+
+	}
+	function getOwlContents(event , name , url){
+
+		$("#data4").html("");
+
+		var namehtml = name;
+		namehtml += " <i>[" + valueString(url) + "]</i>";
+
+		$("#contentstitle").html(namehtml);
+
+		var param = {
+				 "query":url
+		};
+		request(
+			"/apps/getcontents"
+			,param
+			,function(msg){
+				var res={};
+				eval("res=" + msg.responseText);
+				var result={};
+				if(res && res.payload && res.payload.result){
+					result= res.payload.result;
+					setOwlContents(result);
+				}
+			}
+		);
+	}
+
+	function setOwlContents(result){
+
+		var valhtml = "<table><thead>";
+		valhtml += "<tr><td>item</td><td>value</td></tr>";
+		valhtml += "</thead><tbody>";
+		for(var i=0,len = result.length;i<len;i++){
+			var row=result[i];
+			var classstr="";
+			if(i%2>0){
+				classstr="class='even'"
+			}
+			valhtml+="<tr "+ classstr + ">";
+			valhtml+="<td>";
+			valhtml+=valueString(row["p"]);
+			valhtml+="</td>";
+			valhtml+="<td>";
+			valhtml+=valueString(row["o"]);
+			valhtml+="</td>";
+			valhtml+="</tr>";
+		}
+		valhtml += "</tbody></table>";
+
+		$("#data4par").show();
+		$("#data4").html(valhtml);
+		setTimeout(function(){centeringContents();},10);
+	}
+
+	function valueString(data){
+		if(!data){return;}
+
+		if(typeof data == "string"){
+			return urlShorten(data);
+
+		}else if(data.type=="uri" ){
+			return urlShorten(data.value);
+
+		}else{
+			return data.value;
+		}
+	}
+	function urlShorten(url){
+		ret = url;
+		if(!prefixes){
+			return url;
+		}
+
+		if(prefixes.owl){
+			for(var i=0,len = prefixes.owl.length;i<len;i++){
+				row = prefixes.owl[i];
+				if(url.indexOf(row.uri)>-1){
+					ret = row.prefix + ":" + url.substr(row.uri.length);
+					return ret;
+				};
+			}
+		}
+		if(prefixes.base){
+			for(var i=0,len = prefixes.base.length;i<len;i++){
+				row = prefixes.base[i];
+				if(url.indexOf(row.uri)>-1){
+					ret = row.prefix + ":" + url.substr(row.uri.length);
+					return ret;
+				};
+			}
+		}
+
+		return ret;
+	}
+
+	function pretendsearch(text){
+		$("#q").val(text);
+		getHierarchy();
+	}
+
+	function closeContents(){
+		$("#data4par").hide();
+	}
+	function centeringContents(){
+		var ww = $(window).width();
+		var wh = $(window).height();
+		var w = ww * 0.9;
+		$("#data4par").width(w);
+		var h = $("#data4par").height();
+		if(h > wh){
+			h = wh - 10;
+		}
+		var sl = $(window).scrollLeft();
+		var st = $(window).scrollTop();
+
+		var ctop = (wh - h)/2 + st;
+		var cleft = (ww - w)/2 + sl;
+		$("#data4par").offset({"left":cleft , "top":ctop});
+	}
+//-->
+</script>
+{% endblock %} {# end of handscript block #}
+
+{% block header %}
+<div>
+	<div class="pagetitle floatleft">Ontology Info</div>
+	<div class="floatleft loaderdiv" style="display:none;"><img class="loader"></div>
+	<div class="clearboth"></div>
+</div>
+{% endblock %} {# end of header block #}
+
+
+{% block content %}
+<div>
+	<div class="title">Word</div>
+	<div class="" id="qbox">
+		<input id="q" autocomplete="off" name="q" tabindex="-1" type="url" onkeydown="searchOnChenge(event);" onkeyup="searchOnChenge(event);">
+	</div>
+	<div class="" id="qlist">
+		<div id="synonymdiv">
+			<div class="resulttitle">Synonyms</div>
+			<div id="synonymresult"></div>
+			<hr>
+		</div>
+		<table id="restable">
+			<tbody>
+				<tr>
+					<td width="33%"><div class="resulttitle">Children</div><div id="data3"></div></td>
+					<td width="33%"><div class="resulttitle">Ancestors</div><div id="data1"></div></td>
+					<td width="33%"><div class="resulttitle">Siblings</div><div id="data2"></div></td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+<br>
+<hr>
+</div>
+<div id="data4par" style="display:none;">
+	<div style="float:right;" class="closebtn" onclick="closeContents();">x</div>
+	<div id="contentstitlediv" style="float:left;"><span>contents of <b id="contentstitle"></b></span></div>
+	<div style="clear:both;"></div>
+	<div id="data4"></div>
+</div>
+<div class="" id="debug"></div>
+{% endblock %} {# end of content block #}
+
+

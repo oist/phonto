@@ -1,0 +1,33 @@
+Adult
+Brain Mapping
+methods
+Cerebral Cortex
+physiology
+Evidence-Based Medicine
+methods
+Evoked Potentials
+Visual
+physiology
+Female
+Hippocampus
+physiology
+Humans
+Image Interpretation
+Computer-Assisted
+methods
+Magnetic Resonance Imaging
+methods
+Male
+Memory
+Short-Term
+physiology
+Pattern Recognition
+Visual
+physiology
+Reaction Time
+physiology
+Recognition (Psychology)
+physiology
+Visual Perception
+physiology
+Subjects (n = 40) performed a delayed item recognition task for visually presented letters with three set sizes (1, 3 or 6 letters). Accuracy was close to ceiling at all set sizes, so we took set size as a proxy for WM load (i.e. the amount of information being maintained in WM). Functional magnetic resonance imaging (fMRI) signal associated with the delay period increased in a nearly linear fashion with WM load in the left inferior frontal gyrus/anterior insula (possibly Broca's area, BA 44/45), right anterior insula, bilateral caudate, bilateral precentral gyrus (BA 6), bilateral middle frontal gyrus (BA 9/46), bilateral inferior parietal lobule (with foci in both BA 39 and 40), left superior parietal lobule (BA 7), medial frontal gyrus (BA 6), anterior cingulate gyrus (BA 32) and bilateral superior frontal gyrus (BA 8). These results lend support to the idea that at least some of the cortical mechanisms of WM maintenance, potentially rehearsal, exhibit a scaling with WM load. In contrast, the delay-related fMRI signal in hippocampus followed an inverted U-shape, being greatest during the intermediate level of WM load, with relatively lower values at the lowest and highest levels of WM load. This pattern of delay-related fMRI activity, orthogonal to WM load, is seemingly not consonant with a role for hippocampus in WM maintenance of phonologically codable stimuli. This finding could possibly be related more to the general familiarity of the letter stimuli than their phonological codability per se.

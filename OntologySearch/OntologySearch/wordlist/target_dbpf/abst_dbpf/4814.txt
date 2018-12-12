@@ -1,0 +1,23 @@
+Animals
+Hippocampus
+cytology
+physiology
+Learning
+physiology
+Male
+Memory
+physiology
+Mice
+Mice
+Inbred BALB C
+Mice
+Inbred C3H
+Mice
+Inbred C57BL
+Mice
+Inbred DBA
+Mice
+Inbred Strains
+Spatial Behavior
+Species Specificity
+One hundred and eight male mice from nine different inbred strains were tested for two aspects of learning in an eight-arm radial maze. In the first experimental arrangement of the maze, measuring spatial working memory, clear strain differences were found on the fifth day of training. Furthermore, this type of learning showed a high positive correlation with the size of the intra- and infrapyramidal hippocampal mossy fiber terminal field as revealed with Timm's staining. In the second experiment, in which non-spatial reference memory was tested, significant strain differences were found for the learning variables, but there were no significant covariations with the sizes of the intra- and infrapyramidal mossy fiber terminal fields. These results, combined with previous data, suggest that heritable variations of the hippocampal intra- and infrapyramidal mossy fiber projection influence processes determining spatial learning capabilities in mice.

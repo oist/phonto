@@ -1,0 +1,48 @@
+6-Cyano-7-nitroquinoxaline-2
+3-dione
+pharmacology
+Alternative Splicing
+Animals
+Anisomycin
+pharmacology
+Carcinogens
+pharmacology
+Carrier Proteins
+analysis
+genetics
+metabolism
+Cells
+Cultured
+Excitatory Amino Acid Antagonists
+pharmacology
+Hippocampus
+cytology
+Microscopy
+Immunoelectron
+Neurons
+cytology
+drug effects
+metabolism
+Neuropeptides
+analysis
+genetics
+metabolism
+Phorbol 12
+13-Dibutyrate
+pharmacology
+Potassium
+pharmacology
+Protein Synthesis Inhibitors
+pharmacology
+Rats
+Rats
+Wistar
+Synaptic Membranes
+chemistry
+metabolism
+ultrastructure
+Tetradecanoylphorbol Acetate
+pharmacology
+Tetrodotoxin
+pharmacology
+We examined effects of phorbol esters on the amount and the subcellular distribution of the activity-regulated protein Vesl-1S/Homer-1a in cultured hippocampal neurons. Major Vesl-1S immunoreactivity (IR) was detected throughout neuronal somata under control conditions. Bath application of phorbol esters, PMA and PDBu resulted in the increase in the amount of Vesl-1S proteins and promoted punctate distribution of Vesl-1S IR at the cortical regions of the neuronal somata. Immunofluorescent observations using antisynaptophysin and anti-Vesl-1S antibodies, and electron microscopic observations, revealed that Vesl-1S accumulated at postsynaptic regions following PMA application. Membrane depolarization with high concentrations of external potassium also promoted the punctate distribution of Vesl-1S IR. These results demonstrate that phorbol-triggered reaction cascades result in the accumulation of Vesl-1S protein at postsynaptic regions, and suggest that these phorbol effects may mimic those caused by synaptic activities.

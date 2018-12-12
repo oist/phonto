@@ -1,0 +1,16 @@
+1. IEEE Trans Neural Netw. 2003;14(6):1569-72. doi: 10.1109/TNN.2003.820440.
+
+Simple model of spiking neurons.
+
+Izhikevich EM(1).
+
+Author information: 
+(1)The Neurosciences Inst., San Diego, CA, USA.
+
+A model is presented that reproduces spiking and bursting behavior of known types
+of cortical neurons. The model combines the biologically plausibility of
+Hodgkin-Huxley-type dynamics and the computational efficiency of
+integrate-and-fire neurons. Using this model, one can simulate tens of thousands 
+of spiking cortical neurons in real time (1 ms resolution) using a desktop PC.
+
+PMID: 18244602  [PubMed]

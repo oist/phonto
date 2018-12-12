@@ -1,0 +1,10 @@
+Animals
+Hippocampus
+physiology
+Humans
+Memory
+physiology
+Space Perception
+physiology
+Theta Rhythm
+The past 18 months have witnessed interesting developments in several areas of hippocampal research. First, the mechanisms of hippocampal theta are becoming clear, as is its role in spatial coding; each theta cycle appears to act as a clock mechanism against which the firing of the place cells can be timed. Second, there has been a continued strengthening in the support for the spatial theory of hippocampal function from single unit and lesion experiments; particularly important is the finding that the deficit in (non-spatial) delayed non-match to sample memory experiments in the monkey following medial temporal lobe damage stems from the part of the cortex which surrounds the hippocampus, and not from the hippocampus itself. Third, in contrast, it is proving more difficult than originally thought to show a causal relationship between long-term potentiation at the synaptic level and place learning-induced changes in hippocampal synapses.

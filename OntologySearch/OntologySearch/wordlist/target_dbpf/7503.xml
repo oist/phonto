@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7503">
+<itemtype>xnppaper</itemtype>
+<titles><title>Multiple trace theory of human memory: computational, neuroimaging, and neuropsychological results.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Epilepsy</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>psychology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Models</keyword>
+<keyword>Psychological</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>surgery</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:38:36Z</last_update_date>
+<creation_date>2013-03-28T02:38:36Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7503</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7503" version="1.02">
+<authors><author>Nadel L</author><author>Samsonovich A</author><author>Ryan L</author><author>Moscovitch M</author></authors>
+<journal>Hippocampus</journal>
+<volume>10</volume>
+<number>4</number>
+<page>352-68</page>
+<abstract>Hippocampal-neocortical interactions in memory have typically been characterized within the&quot;standard model&quot;of memory consolidation. In this view, memory storage initially requires hippocampal linking of dispersed neocortical storage sites, but over time this need dissipates, and the hippocampal component is rendered unnecessary. This change in function over time is held to account for the retrograde amnesia (RA) gradients often seen in patients with hippocampal damage. Recent evidence, however, calls this standard model into question, and we have recently proposed a new approach, the&quot;multiple memory trace&quot;(MMT) theory. In this view, hippocampal ensembles are always involved in storage and retrieval of episodic information, but semantic (gist) information can be established in neocortex, and will survive damage to the hippocampal system if enough time has elapsed. This approach accounts more readily for the very long RA gradients often observed in amnesia. We report the results of analytic and connectionist simulations that demonstrate the feasibility of MMT. We also report a neuroimaging study showing that retrieval of very remote (25-year-old) memories elicits as much activation in hippocampus as retrieval of quite recent memories. Finally, we report new data from the study of patients with temporal lobe damage, using more sensitive measures than previously the case, showing that deficits in both episodic and spatial detail can be observed even for very remote memories. Overall, these findings indicate that the standard model of memory consolidation, which views the hippocampus as having only a temporary role in memory, is wrong. Instead, the data support the view that for episodic and spatial detail the hippocampal system is always necessary.</abstract>
+<pubmed_id>10985275</pubmed_id>
+</detail>
+</item>

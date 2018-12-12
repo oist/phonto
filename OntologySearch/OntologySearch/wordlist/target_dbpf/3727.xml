@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3727">
+<itemtype>xnpconference</itemtype>
+<titles><title>Path intergration and cognitive map formation in cortico-hippocampal theta networks</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEI2009_C01</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-06-24T07:51:58Z</last_update_date>
+<creation_date>2010-06-24T07:51:58Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>9</publication_month>
+<publication_mday>14</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3727</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3727" version="1.02">
+<conference_from_year>2009</conference_from_year>
+<conference_from_month>9</conference_from_month>
+<conference_from_mday>14</conference_from_mday>
+<conference_to_year>2009</conference_to_year>
+<conference_to_month>9</conference_to_month>
+<conference_to_mday>14</conference_to_mday>
+<presentation_type>other</presentation_type>
+<conference_title>RIKEN BSI Symposium on Hippocampus</conference_title>
+<place>Wako,Japan</place>
+<authors><author>Yamaguchi Y</author></authors>
+<abstract>It has been well known that rodent hippocampal neuron increases its firing rate in some specific position in an environment. These neurons, called place cells, are considered to provide neural representation of a cognitive map. Recently, it was found that the entorhinal neurons, giving major inputs to the hippocampus fire at positions distributing in a form of a triangular-grid-like patterns in the environment. They are called &quot;grid cells&quot; and their spatial firing preference is termed &quot;grid fields&quot;. Interestingly, temporal coding of space information, “theta phase precession”in hippocampal place cells were also observed in grid cells in the superficial layer of the entorhinal cortex. To understand cognitive map formation, grid cells, place cells and theta phase precession must be consistently incorporated in the cortico-hippocampal network. Here we propose a simple computational model of cognitive map formation through grid cells by using known properties of the head direction system. This model can robustly compute spatial map. We demonstrate theta theta phase precession in the hippocampus and entorhinal cortex naturally emerges as a consequence of space computation. Generation of memory replay sequence is to be discussed based on our computer experiments.</abstract>
+<attachment_dl_limit>1</attachment_dl_limit>
+<attachment_dl_notify>1</attachment_dl_notify>
+</detail>
+</item>

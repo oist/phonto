@@ -1,0 +1,46 @@
+1. J Neurophysiol. 1991 Sep;66(3):839-50.
+
+A model of the T-type calcium current and the low-threshold spike in thalamic
+neurons.
+
+Wang XJ(1), Rinzel J, Rogawski MA.
+
+Author information: 
+(1)Mathematical Research Branch, National Institute of Diabetes and Digestive and
+Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892.
+
+1. A model of the transient, low-threshold voltage-dependent (T-type) Ca2+
+current is constructed using recent whole-cell voltage-clamp data from
+enzymatically isolated rat thalamocortical relay neurons. The T-type Ca2+ current
+is described according to the Hodgkin-Huxley scheme, using the m3h format, with
+rate constants determined from the experimental data (22-24 degrees C;
+extracellular Ca2+ concentration [Ca2+]o = 3 mM). 2. The T-type Ca2+ current
+inactivates rapidly during maintained depolarization (time constant, Tau h
+approximately 20 ms at -20 mV), yet recovery from inactivation is slow (time
+constant, Tau r approximately 270 ms at -80 mV). To reconcile these observations,
+a two-step kinetic scheme is proposed for the inactivation gate. Each of the time
+constants in this scheme is voltage dependent, with a maximum at about -85 mV (45
+ms for one and 275 ms for the other). 3. Numerical simulations of recovery in a
+two-pulse, voltage-clamp protocol compare favorably with experimental results
+obtained by Coulter et al. as well as those obtained in an independent series of 
+experiments with guinea pig thalamic neurons ([Ca2+]o = 10 mM). 4. For
+current-clamp simulations, a leakage current gL (V-VL) is included; with VL = -65
+mV, the calculated resting membrane potential is -63 mV. 5. It is shown that the 
+T-type Ca2+ current together with the leakage current suffices to describe the
+low-threshold spike (LTS), a slow, triangular-shaped depolarizing event that can 
+be evoked only from relatively hyperpolarized membrane potentials and that
+underlies the burst firing of Na(+)-dependent action potentials in thalamic
+neurons. Outward currents are not required to reproduce the basic shape of the
+LTS. 6. The LTS can be activated with either a depolarizing current step from a
+sufficiently hyperpolarized level or on termination of a hyperpolarizing current 
+step. In either case, the amplitude of the LTS is a monotonically increasing,
+sigmoid-shape function of the hyperpolarizing current step intensity. 7. Because 
+of the slower kinetic step of the channel's inactivation gate, our model predicts
+that recovery of the LTS to greater than one-half amplitude would require a
+prolonged hyperpolarization of greater than 100 ms (at body temperature). This
+imposes an upper limit (approximately 10 Hz) on the frequency of repetitive
+hyperpolarization that can elicit a train of LTSs and hence on the frequency of
+any rhythm that requires LTS-mediated bursting of thalamic neurons.(ABSTRACT
+TRUNCATED AT 400 WORDS)
+
+PMID: 1661326  [PubMed - indexed for MEDLINE]

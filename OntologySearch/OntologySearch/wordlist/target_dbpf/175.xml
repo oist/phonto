@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="175">
+<itemtype>xnppaper</itemtype>
+<titles><title>The hippocampus and declarative memory: cognitive mechanisms and neural codes.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Nerve Net</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T01:40:27Z</last_update_date>
+<creation_date>2008-06-18T07:13:16Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=175</url>
+<changelogs>
+<changelog date='2013-03-28T01:40:27Z'>Modified; Item Description.</changelog>
+<changelog date='2011-05-02T02:11:25Z'>フリーキーワード を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="175" version="1.02">
+<authors><author>Eichenbaum H</author></authors>
+<journal>Behavioural brain research</journal>
+<volume>127</volume>
+<number>1</number>
+<page>199-207</page>
+<abstract>It is widely accepted that the hippocampus and related brain areas mediate declarative (or explicit) memory in humans. However, little is known about the fundamental cognitive mechanisms of hippocampal dependent memory or about the nature of hippocampal neural representations that underlie properties of declarative memory. Here, it is proposed that the hippocampus plays a critical role, when distinct personal experiences must be encoded in relation to one another and linked within an organization that supports flexible, inferential memory expression. This set of fundamental cognitive mechanisms is consistent with key properties of declarative memory as observed in humans. Furthermore, emerging evidence from recordings of hippocampal neural activity shows that hippocampal networks encode episodic memories as sequences of events and the places, where they occur. In addition, hippocampal neuronal networks encode events and places that are common across related episodes. This combination of coding properties suggests that the hippocampus contributes to declarative memory by mediating the construction of a &quot;memory space&quot; composed of a network of linked episodic representations.</abstract>
+<pubmed_id>11718892</pubmed_id>
+</detail>
+</item>

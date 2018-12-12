@@ -1,0 +1,25 @@
+Afferent Pathways
+drug effects
+Animals
+Bicuculline
+pharmacology
+Electric Stimulation
+Evoked Potentials
+drug effects
+Guinea Pigs
+Hippocampus
+drug effects
+Muscle Contraction
+drug effects
+Penicillins
+pharmacology
+Picrotoxin
+pharmacology
+Receptors
+GABA-A
+drug effects
+Synapses
+drug effects
+Synaptic Transmission
+drug effects
+Long-lasting potentiation (LLP) of synaptic transmission in the CAI region of the hippocampal slice preparation has been examined. The effects of reduced postsynaptic inhibition given by application of gamma-aminobutyric acid (GABA) antagonists (mainly picrotoxin) on the generation of LLP were investigated. It was first demonstrated that picrotoxin had little effect on excitatory synaptic transmission itself as judged by the rising phase of the field EPSP. Moreover, there were largely no actions on short-lasting synaptic effects such as paired pulse facilitation and frequency potentiation. On the other hand, following drug application, much fewer afferent volleys were needed to generate a given amount of LLP. Long-lasting potentiation could be produced by trains containing as few as 2-5 impulses, trains that normally give rise to only short-lasting effects. There was no apparent difference in the maximal amount of LLP that could be produced for a given input, suggesting that the GABA antagonists do not operate by enhancing the capacity for LLP production but by facilitating its induction. As in normal solution, the LLP in the presence of the drugs was confined to the tetanized pathway. Tetanization in the treated slices was associated with enhanced somatic firing as well as an increase of the negative extracellular potential recorded in the dendritic layer. It is proposed that part of this increased negativity represents current through synaptically opened N-methyl-D-aspartate (NMDA) receptor channels. Furthermore, it is suggested that the facilitated induction of LLP in the presence of GABA antagonists is related to a facilitated activation of these NMDA receptor channels which is secondary to the higher levels of dendritic depolarization attained during tetanization under conditions of reduced postsynaptic inhibition.

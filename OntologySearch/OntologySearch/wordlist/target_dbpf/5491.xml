@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5491">
+<itemtype>xnppaper</itemtype>
+<titles><title>Influence of neurons of the parafascicular region on neuronal transmission from perforant pathway through dentate gyrus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Mesencephalon</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Raphe Nuclei</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Sleep Stages</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>Wakefulness</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:10:55Z</last_update_date>
+<creation_date>2011-06-14T00:10:55Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5491</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5491" version="1.02">
+<authors><author>Dahl D</author><author>Winson J</author></authors>
+<journal>Brain research</journal>
+<volume>377</volume>
+<number>2</number>
+<page>391-6</page>
+<abstract>We have previously reported that activation of an ascending brainstem pathway by stimulation of the median raphe nucleus (MR) influences neuronal transmission from the perforant pathway through the dentate gyrus in a behaviorally dependent manner. In particular, stimulation of the MR markedly facilitated such transmission when applied during slow-wave sleep (SWS), but was ineffective when applied during the still-alert state (SAL). We present here evidence for a relay in this circuit located rostral to the MR in cells proximal to the fasciculus retroflexus (PF, parafascicular region). In contrast to stimulation of the MR, stimulation of the PF facilitates neuronal transmission from the perforant pathway through the dentate gyrus during both SWS and SAL indicating the presence of a gate at or proximal to the PF that is preferentially closed during SAL.</abstract>
+<pubmed_id>3015354</pubmed_id>
+</detail>
+</item>

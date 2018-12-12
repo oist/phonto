@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="968">
+<itemtype>xnppaper</itemtype>
+<titles><title>Latent synaptic pathways revealed after tetanic stimulation in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-22T03:35:18Z</last_update_date>
+<creation_date>2008-07-22T03:35:18Z</creation_date>
+<publication_year>1987</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=968</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="968" version="1.02">
+<authors><author>Miles R</author><author>Wong RK</author></authors>
+<journal>Nature</journal>
+<volume>329</volume>
+<number>6141</number>
+<page>724-6</page>
+<abstract>Synaptic plasticity may result from changes at existing synapses or from alterations in the number of functional synaptic connections. In the hippocampus excitatory synaptic strength is persistently enhanced after tetanic stimulation. Here we report that latent synaptic pathways may also become functional. Simultaneous intracellular recordings were made from pairs of CA3 pyramidal cells in slices from guinea pig hippocampus. After stimulating afferent fibres repetitively, polysynaptic excitatory pathways between previously unconnected cells became apparent. The efficacy of recurrent inhibitory circuits was also reduced. The loss of inhibitory control is of interest because latent excitatory pathways are revealed after pharmacological suppression of inhibition. This plasticity in local synaptic circuits leads to the emergence of synchronous firing in groups of CA3 cells. The formation of groups of associated cells and the ability of some cells to initiate synchronous firing in a larger cell group through recurrent pathways is reminiscent of several models of information storage and recall in the cortex.</abstract>
+<pubmed_id>3670374</pubmed_id>
+</detail>
+</item>

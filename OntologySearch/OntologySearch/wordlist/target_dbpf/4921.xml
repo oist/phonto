@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4921">
+<itemtype>xnppaper</itemtype>
+<titles><title>Activation of tyrosine receptor kinase plays a role in expression of long-term potentiation in the rat dentate gyrus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cerebral Ventricles</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Cycloleucine</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Enzyme Activation</keyword>
+<keyword>Enzyme Inhibitors</keyword>
+<keyword>administration</keyword>
+<keyword>&amp;</keyword>
+<keyword>dosage</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Injections</keyword>
+<keyword>Intraventricular</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neuroprotective Agents</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Phosphorylation</keyword>
+<keyword>Potassium Chloride</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Receptor Protein-Tyrosine Kinases</keyword>
+<keyword>metabolism</keyword>
+<keyword>Receptor</keyword>
+<keyword>trkA</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptosomes</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Tyrphostins</keyword>
+<keyword>administration</keyword>
+<keyword>&amp;</keyword>
+<keyword>dosage</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:10:15Z</last_update_date>
+<creation_date>2011-05-09T02:10:15Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4921</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4921" version="1.02">
+<authors><author>Maguire C</author><author>Casey M</author><author>Kelly A</author><author>Mullany PM</author><author>Lynch MA</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>5</number>
+<page>519-26</page>
+<abstract>Long-term potentiation (LTP) in perforant path-granule cell synapses has been shown to be accompanied by an increase in glutamate release. The objective of this study was to examine the possibility that nerve growth factor (NGF), by activating tyrosine kinase, modulates glutamate release and, therefore, contributes to expression of LTP in dentate gyrus. The data indicate that NGF, in the presence of trans-1-aminocyclopentyl-1,3-dicarboxylate (ACPD), enhanced KCI-stimulated release and KCI-stimulated calcium influx in vitro and that these effects were blocked by the tyrosine receptor kinase (trk) inhibitor tyrphostin AG879. The data also indicate that NGF increased phosphorylation of trkA and the mitogen-activated protein kinase extracellular signal-regulated kinase (ERK) in dentate gyrus in vitro. In addition to its effects in vitro, tyrphostin AG879 inhibited the expression of LTP in perforant path-granule cell synapses and the accompanying increase in transmitter release. Analysis of phosphorylation of the two tyrosine kinase substrates trkA and ERK in synaptosomes prepared from untetanized and tetanized dentate gyrus revealed that LTP was associated with increased phosphorylation of both proteins; no evidence of such a change was observed in either tetanized or untetanized tissue prepared from tyrphostin-pretreated rats. These findings are consistent with the hypothesis that NGF, by interacting with trkA, triggers a sequence of tyrosine kinase-dependent phosphorylation steps that modulate glutamate release and calcium influx and impact on expression of LTP in dentate gyrus.</abstract>
+<pubmed_id>10560922</pubmed_id>
+</detail>
+</item>

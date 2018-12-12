@@ -1,0 +1,51 @@
+Animals
+Dentate Gyrus
+drug effects
+metabolism
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+GABA Antagonists
+pharmacology
+GABA-A Receptor Antagonists
+Hippocampus
+drug effects
+metabolism
+Long-Term Potentiation
+drug effects
+physiology
+Male
+Mossy Fibers
+Hippocampal
+drug effects
+metabolism
+Neuronal Plasticity
+drug effects
+physiology
+Nickel
+pharmacology
+Organ Culture Techniques
+Perforant Pathway
+drug effects
+metabolism
+Picrotoxin
+pharmacology
+Potassium Channel Blockers
+pharmacology
+Rats
+Rats
+Wistar
+Receptors
+GABA-A
+metabolism
+Synapses
+drug effects
+metabolism
+Synaptic Transmission
+drug effects
+physiology
+Tetraethylammonium
+pharmacology
+gamma-Aminobutyric Acid
+metabolism
+Tetraethylammonium (TEA), a K(+)-channel blocker, reportedly induces long-term potentiation (LTP) of hippocampal CA1 synaptic responses, but at CA3 and the dentate gyrus (DG), the characteristics of TEA-induced plasticity and modulation by inhibitory interneurons remain unclear. This study recorded field EPSPs from CA1, CA3 and DG to examine the involvement of GABAergic modulation in TEA-induced synaptic plasticity for each region. In Schaffer collateral-CA1 synapses and associational fiber (AF)-CA3 synapses, bath application of TEA-induced LTP in the presence and absence of picrotoxin (PTX), a GABA(A) receptor blocker, whereas TEA-induced LTP at mossy fiber (MF)-CA3 synapses was detected only in the absence of GABA(A) receptor blockers. MF-CA3 LTP showed sensitivity to Ni(2+), but not to nifedipine. In DG, synaptic plasticity was modulated by GABAergic inputs, but characteristics differed between the afferent lateral perforant path (LPP) and medial perforant path (MPP). LPP-DG synapses showed TEA-induced LTP during PTX application, whereas at MPP-DG synapses, TEA-induced long-term depression (LTD) was seen in the absence of PTX. This series of results demonstrates that TEA-induced DG and CA3 plasticity displays afferent specificity and is exposed to GABAergic modulation in an opposite manner.

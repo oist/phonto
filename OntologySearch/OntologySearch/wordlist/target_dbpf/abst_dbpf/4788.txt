@@ -1,0 +1,24 @@
+Animals
+Biomechanics
+Cell Membrane
+physiology
+Egtazic Acid
+pharmacology
+Electric Conductivity
+Electrophysiology
+Hippocampus
+cytology
+physiology
+Mammals
+Models
+Neurological
+Neural Inhibition
+Neural Pathways
+physiology
+Neurons
+classification
+physiology
+Synapses
+physiology
+Time Factors
+Under certain circumstances large numbers of neurones in the mammalian central nervous system (CNS) can discharge simultaneously. An example of such activity is recorded from a hippocampal slice in the presence of agents which block synaptic inhibition. This synchronized discharge occurs spontaneously in a rhythmic fashion or may be triggered by stimulation of any afferent pathway. Its generation appears to involve local circuit interactions. The favourable conditions offered by an in vitro preparation have allowed the cellular events during this activity to be examined in some detail. Three factors appear to be critically involved in the synchronization process. Firstly, the intrinsic ability of neurones to generate bursts, secondly, the existence of powerful recurrent excitatory connections, and thirdly the absence of inhibition which normally prevents the spread of bursting activity through the recurrent connections. Computer simulations show that in a sparsely connected network of bursting neurones activity initiated in a few cells may spread through recurrent connections until eventually the whole population discharges simultaneously. Rhythmic discharges similar to those described here also underly various CNS functions including centrally-originating motor patterns. It remains to be determined whether neuronal properties and connectivity found to be important in this hippocampal rhythm may also play a role in the generation of other rhythmic activities in the mammalian CNS.

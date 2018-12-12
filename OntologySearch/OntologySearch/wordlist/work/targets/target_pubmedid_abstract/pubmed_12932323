@@ -1,0 +1,37 @@
+1. Curr Biol. 2003 Aug 19;13(16):1398-408.
+
+Autoinhibition with transcriptional delay: a simple mechanism for the zebrafish
+somitogenesis oscillator.
+
+Lewis J(1).
+
+Author information: 
+(1)Vertebrate Development Laboratory, Cancer Research UK London Research
+Institute, 44 Lincoln's Inn Fields, London WC2A 3PX, United Kingdom.
+julian.lewis@cancer.org.uk
+
+BACKGROUND: The pattern of somites is traced out by a mechanism involving
+oscillating gene expression at the tail end of the embryo. In zebrafish, two
+linked oscillating genes, her1 and her7, coding for inhibitory gene regulatory
+proteins, are especially implicated in genesis of the oscillations, while Notch
+signaling appears necessary for synchronization of adjacent cells.
+RESULTS: I show by mathematical simulation that direct autorepression of her1 and
+her7 by their own protein products provides a mechanism for the intracellular
+oscillator. This mechanism operates robustly even when one allows for the fact
+that gene regulation is an essentially noisy (stochastic) process. The predicted 
+period is close to the observed period (30 min) and is dictated primarily by the 
+transcriptional delay, the time taken to make an mRNA molecule. Through its
+coupling to her1/her7 expression, Notch signaling can keep the rapid oscillations
+in adjacent cells synchronized. When the coupling parameters are varied, however,
+the model system can switch to oscillations of a much longer period, resembling
+that of the mouse or chick somitogenesis oscillator and governed by the delays in
+the Notch pathway. Such Notch-mediated synchronous oscillations are predicted
+even in the absence of direct her1/her7 autoregulation, through operation of the 
+standard Notch signaling pathway that is usually assumed simply to give lateral
+inhibition.
+CONCLUSIONS: Direct autorepression of a gene by its own product can generate
+oscillations, with a period determined by the transcriptional and translational
+delays. Simple as they are, such systems show surprising behaviors. To understand
+them, unaided intuition is not enough: we need mathematics.
+
+PMID: 12932323  [PubMed - indexed for MEDLINE]

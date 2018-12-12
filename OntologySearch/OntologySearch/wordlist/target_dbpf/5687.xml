@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5687">
+<itemtype>xnppaper</itemtype>
+<titles><title>Limbic epilepsy in transgenic mice carrying a Ca2+/calmodulin-dependent kinase II alpha-subunit mutation.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium-Calmodulin-Dependent Protein Kinase Type 2</keyword>
+<keyword>Calcium-Calmodulin-Dependent Protein Kinases</keyword>
+<keyword>genetics</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Epilepsy</keyword>
+<keyword>enzymology</keyword>
+<keyword>genetics</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Isoenzymes</keyword>
+<keyword>genetics</keyword>
+<keyword>Limbic System</keyword>
+<keyword>enzymology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Mutant Strains</keyword>
+<keyword>Mice</keyword>
+<keyword>Transgenic</keyword>
+<keyword>Mutation</keyword>
+<keyword>Protein Kinase C</keyword>
+<keyword>genetics</keyword>
+<keyword>Seizures</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T03:21:55Z</last_update_date>
+<creation_date>2011-09-22T03:21:55Z</creation_date>
+<publication_year>1995</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5687</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5687" version="1.02">
+<authors><author>Butler LS</author><author>Silva AJ</author><author>Abeliovich A</author><author>Watanabe Y</author><author>Tonegawa S</author><author>McNamara JO</author></authors>
+<journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+<volume>92</volume>
+<number>15</number>
+<page>6852-5</page>
+<abstract>Multifunctional Ca2+/calmodulin-dependent protein kinase II (CaMK) phosphorylates proteins pivotally involved in diverse neuronal processes and thereby coordinates cellular responses to external stimuli that regulate intracellular Ca2+ [Hanson, P. I.&amp;Schulman, H. (1992) Annu. Rev. Biochem. 61, 559-664]. Despite extensive study, the impact of this enzyme on control of the excitability of neuron populations in the mammalian nervous system in situ is unknown. To address this question, we studied transgenic mice carrying a null mutation (-/-) for the alpha subunit of CaMK. In contrast to wild-type littermates, null mutants exhibit profound hyperexcitability, evident in epileptic seizures involving limbic structures including the hippocampus. No evidence of increased excitability was detected in mice carrying null mutations of the gamma isoform of protein kinase C, underscoring the specificity of the effect of CaMK. CaMK plays a powerful and previously underappreciated role in control of neuronal excitability in the mammalian nervous system. These insights have important implications for analyses of mechanisms of epilepsy and, perhaps, learning and memory.</abstract>
+<pubmed_id>7624331</pubmed_id>
+</detail>
+</item>

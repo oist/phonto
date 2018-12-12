@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5688">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal long-term potentiation is normal in heme oxygenase-2 mutant mice.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Carbon Monoxide</keyword>
+<keyword>metabolism</keyword>
+<keyword>Enzyme Inhibitors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Female</keyword>
+<keyword>Gene Targeting</keyword>
+<keyword>Heme Oxygenase (Decyclizing)</keyword>
+<keyword>deficiency</keyword>
+<keyword>genetics</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Homozygote</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Mice</keyword>
+<keyword>Mutant Strains</keyword>
+<keyword>Mutagenesis</keyword>
+<keyword>Protoporphyrins</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T03:29:12Z</last_update_date>
+<creation_date>2011-09-22T03:29:12Z</creation_date>
+<publication_year>1995</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5688</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5688" version="1.02">
+<authors><author>Poss KD</author><author>Thomas MJ</author><author>Ebralidze AK</author><author>O&#039;Dell TJ</author><author>Tonegawa S</author></authors>
+<journal>Neuron</journal>
+<volume>15</volume>
+<number>4</number>
+<page>867-73</page>
+<abstract>We have generated mice deficient in HO-2, the major cerebral isoform of heme oxygenase, in order to assess the potential role of carbon monoxide as a retrograde messenger in hippocampal LTP. Cerebral HO catalytic activity was markedly reduced in the HO-2 mutant mice, yet no differences were found between wild types and mutants in gross neuroanatomical structure, in basal hippocampal synaptic transmission, or in the amount of potentiation produced by various LTP induction protocols. Furthermore, zinc protoporphyrin IX, an inhibitor of HO, had nearly identical inhibitory effects on LTP in wild-type and HO-2 mutant hippocampal slices. Our data indicate that carbon monoxide produced endogenously by HO is unlikely to be a neuromodulator required for LTP in the hippocampus.</abstract>
+<pubmed_id>7576635</pubmed_id>
+</detail>
+</item>

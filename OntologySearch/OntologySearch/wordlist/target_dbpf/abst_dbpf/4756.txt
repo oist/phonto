@@ -1,0 +1,20 @@
+Afferent Pathways
+physiology
+Animals
+Hippocampus
+cytology
+physiology
+Interneurons
+physiology
+Neural Inhibition
+Neurons
+Afferent
+cytology
+physiology
+Rats
+Septum Pellucidum
+cytology
+physiology
+gamma-Aminobutyric Acid
+physiology
+The hippocampus, in particular the neocortex-hippocampus-neocortex circuit, is widely believed to be crucial in memory. Information flow in this circuit is strongly influenced by relatively sparse afferents derived from subcortical centres, such as the septum, involved in arousal, emotions and autonomic control. A powerful mechanism, by which numerically small inputs can produce profound effects, is feed-forward inhibition, that is, the activation of local inhibitory interneurons, which, in turn, control the activity of large populations of principal cells in the hippocampus. An example is the cholinergic input to the hippocampus from the septum, which is likely to be involved in feed-forward operations. Here, we demonstrate the existence of a circuit underlying another powerful mechanism of subcortical control of hippocampal information processing. We show that GABA-containing afferents originating in the septum innervate most of the GABA-containing interneurons in the hippocampus, making many synaptic contacts with each of them. Activation of the GABA-containing neurons in the septum is likely to lead to disinhibition of the principal neurons in the hippocampal formation and so this pathway is probably crucial in the induction of hippocampal electrical activity patterns, and may be involved in NMDA (N-methyl-D-aspartate) receptor-mediated functions, such as memory, in a permissive manner.

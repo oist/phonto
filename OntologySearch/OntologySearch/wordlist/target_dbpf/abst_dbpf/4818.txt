@@ -1,0 +1,25 @@
+Action Potentials
+physiology
+Animals
+Hippocampus
+cytology
+physiology
+Male
+Maze Learning
+physiology
+Memory
+physiology
+Neurons
+cytology
+physiology
+Neuropsychological Tests
+Orientation
+physiology
+Psychomotor Performance
+physiology
+Rats
+Rats
+Long-Evans
+Space Perception
+physiology
+Hippocampal place cells were recorded while rats solved a continuous spatial alternation task requiring short-term spatial memory. All cells that had a firing field on the stem of the Y-shaped maze were found to have a very similar pattern of discharge whether the rat was about to make a right or a left turn, and whether the preceding turn was a right or a left turn. Thus, the view that place cells encode a variety of events (including the direction of turns) useful for solving memory tasks is not well supported by the present data. We suggest several possible explanations to account for the discrepancy with other recent studies showing turn-related modulation of place-cell activity.

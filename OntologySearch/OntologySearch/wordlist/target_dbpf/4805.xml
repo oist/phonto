@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4805">
+<itemtype>xnppaper</itemtype>
+<titles><title>Behavioral functions and hippocampal cell types: evidence for two nonoverlapping populations in the rat.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Operant</keyword>
+<keyword>physiology</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Exploratory Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Extinction</keyword>
+<keyword>Psychological</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Pitch Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:21:05Z</last_update_date>
+<creation_date>2011-04-28T05:21:05Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4805</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4805" version="1.02">
+<authors><author>Christian EP</author><author>Deadwyler SA</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>55</volume>
+<number>2</number>
+<page>331-48</page>
+<abstract>Extracellular recordings of individual hippocampal neurons in behaving rats were classified by several different electrophysiological criteria as theta (theta-) or complex spike cells. The firing characteristics of each cell were studied in two different behavioral contexts, each of which contained experimental conditions in which firing correlates of these cells have been demonstrated previously. Forty-eight theta-cells and 68 complex spike cells were classified and studied electrophysiologically as animals performed an operant auditory discrimination task or freely explored an open platform environment for water reward. Spontaneous discharge characteristics, as well as electrically evoked firing patterns following stimulation of hippocampal fiber pathways, consistently differentiated theta-cells from complex spike cells. In agreement with previous reports, these results indicate that theta-cells and complex spike cells represent electrophysiologically and possibly morphologically different types of hippocampal neurons. A clear dichotomy also emerged between the firing correlates of identified theta-cells and complex spike cells in the two behavioral tests. During auditory-discrimination learning and performance, time-locked theta-cell discharges to tone onset were correlated with the emergence of conditioned behavioral responding. Increased activity of theta-cells was also observed during locomotion in the spatial exploration task. Time-locked increases in firing to the tone stimulus were restricted to identified theta-cells. Complex spike cells, in contrast to theta-cells, did not increase activity during any phase of tone-discrimination learning or performance. The same cells, however, fired at markedly increased rates coincident with the animals&#039; presence in specific spatial locations during exploration of the platform but did not fire during other overt behaviors on the platform such as grooming, drinking, or locomotion. Complex spike cells qualified on the basis of positive collision tests and antidromic criteria as hippocampal output neurons. &quot;Spatial firing&quot; was unique to complex spike cells and was not observed from theta-cells recorded from the same animal. Twenty-one theta-cells and 31 complex spike cells studied in both behavioral contexts showed mutually exclusive and nonoverlapping electrophysiological firing correlates. No cell was observed in either category which exhibited spatial and tone discrimination related firing correlates.(ABSTRACT TRUNCATED AT 400 WORDS)</abstract>
+<pubmed_id>3950695</pubmed_id>
+</detail>
+</item>

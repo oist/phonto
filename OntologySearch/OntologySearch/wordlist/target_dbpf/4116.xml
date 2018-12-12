@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4116">
+<itemtype>xnppaper</itemtype>
+<titles><title>Replay of rule-learning related neural patterns in the prefrontal cortex during sleep.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Action Potentials</keyword>
+<keyword>Algorithms</keyword>
+<keyword>Analysis of Variance</keyword>
+<keyword>Animals</keyword>
+<keyword>Electrodes</keyword>
+<keyword>Implanted</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Microelectrodes</keyword>
+<keyword>Periodicity</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+<keyword>Wakefulness</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T06:28:49Z</last_update_date>
+<creation_date>2010-10-08T06:28:49Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4116</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4116" version="1.02">
+<authors><author>Peyrache A</author><author>Khamassi M</author><author>Benchenane K</author><author>Wiener SI</author><author>Battaglia FP</author></authors>
+<journal>Nature neuroscience</journal>
+<volume>12</volume>
+<number>7</number>
+<page>919-26</page>
+<abstract>Slow-wave sleep (SWS) is important for memory consolidation. During sleep, neural patterns reflecting previously acquired information are replayed. One possible reason for this is that such replay exchanges information between hippocampus and neocortex, supporting consolidation. We recorded neuron ensembles in the rat medial prefrontal cortex (mPFC) to study memory trace reactivation during SWS following learning and execution of cross-modal strategy shifts. In general, reactivation of learning-related patterns occurred in distinct, highly synchronized transient bouts, mostly simultaneous with hippocampal sharp wave/ripple complexes (SPWRs), when hippocampal ensemble reactivation and cortico-hippocampal interaction is enhanced. During sleep following learning of a new rule, mPFC neural patterns that appeared during response selection replayed prominently, coincident with hippocampal SPWRs. This was learning dependent, as the patterns appeared only after rule acquisition. Therefore, learning, or the resulting reliable reward, influenced which patterns were most strongly encoded and successively reactivated in the hippocampal/prefrontal network.</abstract>
+<pubmed_id>19483687</pubmed_id>
+</detail>
+</item>

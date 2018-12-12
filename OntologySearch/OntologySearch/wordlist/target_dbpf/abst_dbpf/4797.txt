@@ -1,0 +1,18 @@
+Animals
+Behavior
+Animal
+physiology
+Cues
+Electrophysiology
+methods
+Hippocampus
+cytology
+physiology
+Limbic System
+cytology
+physiology
+Neurons
+physiology
+Rats
+Television
+Hippocampal place cells in the rat are so named because they fire predominantly within circumscribed regions of the environment. This study describes the positional firing properties of cells afferent to hippocampal place cells, in superficial layers of medial entorhinal cortex (MEC). MEC cells in these layers project to the hippocampus via the perforant path and, along with lateral entorhinal cells, are the sole route by which cortical information reaches the hippocampus. MEC cells were recorded from rats while they retrieved pellets in simple geometric enclosures. The behavioral task as well as procedures for data collection and analysis were the same used in previous studies on hippocampal place cells (e.g., Muller et al., 1987) in order to facilitate the direct comparison between hippocampal and entorhinal cells. The firing patterns of MEC cells show pronounced locational variations reminiscent of hippocampal firing fields, but with a lower signal-to-noise ratio. While noisy, MEC firing patterns are stationary in time as evidenced by their reproducibility, and the improvement in spatial signal with long-duration recordings. Furthermore, MEC firing patterns are not due to variations in the rat's behavior. Taken together, these data show that the positional firing variations in MEC cells are due to the location-specificity of MEC cells. These and additional data lead us to conclude that location-specific information exists prior to the hippocampus. MEC cells are similar to hippocampal place cells in that their firing can be controlled by the rotation of a visual cue (a white card attached to the wall), but is not disrupted by removing the cue. An important difference between hippocampal and entorhinal cells was seen when the shape of the recording chamber was changed. In the transition from a cylinder to an equal-area square of similar appearance, MEC firing patterns topologically transformed (or "stretched") while those of hippocampal place cells changed to an unpredictable pattern. We conclude that the positional firing of MEC cells is more "sensory bound" than hippocampal cells, and that the ability to discriminate different environments, while present in the hippocampus, is not yet present in its input from MEC.

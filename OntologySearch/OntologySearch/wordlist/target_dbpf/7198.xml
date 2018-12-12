@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7198">
+<itemtype>xnppaper</itemtype>
+<titles><title>Downregulation of KCC2 following LTP contributes to EPSP-spike potentiation in rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Down-Regulation</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>Male</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>physiology</keyword>
+<keyword>Symporters</keyword>
+<keyword>biosynthesis</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:49:50Z</last_update_date>
+<creation_date>2013-02-27T07:49:50Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7198</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7198" version="1.02">
+<authors><author>Wang W</author><author>Gong N</author><author>Xu TL</author></authors>
+<journal>Biochemical and biophysical research communications</journal>
+<volume>343</volume>
+<number>4</number>
+<page>1209-15</page>
+<abstract>GABAergic synaptic inhibition plays a critical role in regulating long-term potentiation (LTP) of glutamatergic synaptic transmission and circuit output. The K(+)-Cl(-) cotransporter 2 (KCC2) is an important factor in determining inhibitory GABAergic synaptic strength besides the contribution of GABA(A) receptor. Although much knowledge has been gained regarding activity-dependent downregulation of KCC2 in many pathological conditions, the potential change and contribution of KCC2 in LTP expression is still unknown. In this study, we found that downregulation of KCC2 was accompanied with the occurrence of LTP but not that of long-term depression in hippocampal CA1 region. Meanwhile, KCC2 level in CA3/DG and adjacent cortex was stable in the process of LTP expression in Schaffer collateral synapses. Blockade of NMDA receptor with APV not only prevented LTP induction also abolished the reduction of KCC2. Furthermore, the inhibition of KCC2 function with furosemide directly induced EPSP-spike (E-S) potentiation, an important component of LTP in hippocampus. The present data suggest a novel mechanism that LTP formation is accompanied by the downregulation of KCC2, which is underlying GABAergic strength and most likely contributes to the E-S potentiation following LTP.</abstract>
+<pubmed_id>16581019</pubmed_id>
+</detail>
+</item>

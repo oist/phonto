@@ -1,0 +1,19 @@
+Animals
+Computer Simulation
+Hippocampus
+cytology
+physiology
+Learning
+physiology
+Models
+Neurological
+Neurons
+physiology
+Rats
+Sleep
+physiology
+Space Perception
+physiology
+Synapses
+physiology
+During slow-wave sleep (SWS) following periods of spatial activity, hippocampal place cells that were temporally correlated, by virtue of the overlap of their place fields, exhibit enhanced temporal correlations, even though the animal sleeps in a different location (Wilson and McNaughton [1994] Science 267:676-679). The discharge of cells with overlapped place fields is more correlated in subsequent sleep, particularly during sharp waves, than in sleep episodes prior to the behavior, or than cell pairs with non-overlapped place fields. The reactivated correlated states appear during hippocampal sharp waves (SPWs), and are weak or absent in the inter-SPW interval. A simple conceptual hypothesis for this phenomenon is developed, based on the idea that hippocampal place fields reflect a two-dimensional distribution of continuously overlapping dynamic attractors in which each location is represented by the self-sustaining activity of a small subset of neurons with overlapping place fields. A numerical simulation of this hypothesis, based on a simplified representation of the CA8 recurrent network, accounts qualitatively for the main observations, including SPW-like dynamics. It is shown that, under conditions in which the connection patterns have been previously established, either associative or nonassociative mechanisms might underlie the reactivation of recently experienced states. These two alternatives appear, under at least some conditions (e.g., sparse coding), to be indistinguishable.

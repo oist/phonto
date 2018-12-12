@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6610">
+<itemtype>xnppaper</itemtype>
+<titles><title>Anterior medial temporal lobe activation during attempted retrieval of encoded visuospatial scenes: an event-related fMRI study.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Dominance</keyword>
+<keyword>Cerebral</keyword>
+<keyword>physiology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Imaging</keyword>
+<keyword>Three-Dimensional</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Reference Values</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:10:29Z</last_update_date>
+<creation_date>2013-02-26T06:10:29Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6610</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6610" version="1.02">
+<authors><author>Rombouts SA</author><author>Barkhof F</author><author>Witter MP</author><author>Machielsen WC</author><author>Scheltens P</author></authors>
+<journal>NeuroImage</journal>
+<volume>14</volume>
+<number>1</number>
+<page>67-76</page>
+<abstract>Various studies have shown that the medial temporal lobe (MTL), which consists of the hippocampus and parahippocampal gyrus, is important for episodic memory. Earlier fMRI studies substantiated this role by showing activation upon encoding of visuospatial scenes. In this study we used event-related fMRI to study whether the cognitive process of retrieval of visuospatial scenes, tested with the use of a recognition paradigm, also activates the MTL. Nine subjects (mean age 24 years) were presented previously studied color pictures (old) and pictures they had never seen before (new) in a mixed trial design. Data analysis allowed calculation of the fMRI response of correct judgments on new pictures, old pictures, and false judgments. Since we used previously encoded color pictures as old stimuli, we also included an encoding paradigm in the current set of experiments. This allowed us to compare encoding and recognition activation in the MTL of exactly the same pictures in the same subjects. Correct judgments on new pictures showed an increased activation in the anterior parahippocampus bilaterally and the right anterior hippocampus compared to judgments on old pictures in the recognition experiment. The former judgments took significantly longer, indicating that retrieval of successfully stored information is less demanding than the effort to retrieve nonencoded information. A comparison of the two experimental data sets showed evidence for a functional segregation of encoding and retrieving color pictures. We conclude that the left posterior parahippocampal gyrus responds during encoding, while on the other hand the left anterior parahippocampal gyrus and the right anterior hippocampus were more strongly involved in retrieval.</abstract>
+<pubmed_id>11525338</pubmed_id>
+</detail>
+</item>

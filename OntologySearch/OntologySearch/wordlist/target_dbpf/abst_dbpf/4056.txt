@@ -1,0 +1,25 @@
+DEIA
+Amygdala
+physiology
+Corpus Striatum
+physiology
+Diffusion Magnetic Resonance Imaging
+Exploratory Behavior
+physiology
+Hippocampus
+physiology
+Humans
+Limbic System
+physiology
+Motivation
+Nerve Net
+physiology
+Neural Pathways
+physiology
+Personality
+physiology
+Predictive Value of Tests
+Prefrontal Cortex
+physiology
+Reward
+We found that personality characteristics are linked to dissociable connectivity streams in the human brain. Whereas fiber tracts between a subcortical network, including the hippocampus and amygdala, and the ventral striatum predicted individual differences in novelty seeking, tracts between prefrontal cortex and the striatum predicted individual differences in reward dependence. These findings suggest that the strength of limbic-striatal connectivity may, in part, underlie human personality traits.

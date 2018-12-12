@@ -1,0 +1,24 @@
+Animals
+Calcium
+physiology
+Electrophysiology
+Enzyme Activation
+GTP-Binding Proteins
+physiology
+Hippocampus
+cytology
+physiology
+Intracellular Membranes
+metabolism
+Muscarine
+metabolism
+Neurons
+physiology
+Phosphorylation
+Potassium
+physiology
+Protein Kinase C
+metabolism
+Rats
+Signal Transduction
+Central cholinergic (muscarinic) systems play an important role in learning and memory. In mammalian central neurons, muscarinic stimulation depresses several voltage-activated K+ currents and modulates synaptic transmission. Using whole-cell voltage-clamp recordings in hippocampal CA1 neurons of rat brain slices, we report that activation of muscarinic receptors potentiates a voltage-activated, sustained K+ current (IK-type). This potentiation of IK is mediated by activation of protein kinase C and involves a G-protein-linked, intracellular Ca(2+)-dependent process. This underlying second messenger pathway may prove to be important in the mediation of other previously reported muscarinic neuronal actions.

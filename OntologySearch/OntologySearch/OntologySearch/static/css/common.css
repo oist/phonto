@@ -1,0 +1,53 @@
+html body *{
+	font-family: "Meiryo UI","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+	font-size:12px;
+}
+
+/* float / clear */
+.floatleft{float:left;}
+.floatright{float:right;}
+.clearboth{clear:both;}
+
+/* position */
+.posrel{position:relative;}
+.posabs{position:absolute;}
+
+/* padding / margin */
+.padleft2{padding-left:2px;}
+.padleft5{padding-left:5px;}
+.padleft10{padding-left:10px;}
+.padtop2{padding-top:2px;}
+.padtop5{padding-top:5px;}
+.padtop10{padding-top:10px;}
+.magleft2{margin-left:2px;}
+.magleft5{margin-left:5px;}
+.magleft10{margin-left:10px;}
+.magtop2{margin-top:2px;}
+.magtop5{margin-top:5px;}
+.magtop10{margin-top:10px;}
+
+/* color */
+.red{color:red}
+.blue{color:blue}
+
+/* pretend buttton */
+.pretend_btn{
+	border : 1px solid gray;
+	border-radius:2px;
+	padding : 2px 5px;
+	background: linear-gradient(white, #ccc);
+}
+.pretend_btn:hover{
+	border : 1px solid black;
+}
+.pretend_btn.mdown , .pretend_btn:active{
+	background: linear-gradient(#cccccc , white);
+}
+ .pretend_btn:disabled
+,.pretend_btn:disabled:active
+,.pretend_btn:disabled:hover
+,.pretend_btn.disabled
+,.pretend_btn.pretenddisabled{
+	border : 1px solid gray !important;
+	background: linear-gradient(white, #ccc) !important;
+}

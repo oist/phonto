@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7202">
+<itemtype>xnppaper</itemtype>
+<titles><title>At immature mossy-fiber-CA3 synapses, correlated presynaptic and postsynaptic activity persistently enhances GABA release and network excitability via BDNF and cAMP-dependent PKA.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Animals</keyword>
+<keyword>Newborn</keyword>
+<keyword>Brain-Derived Neurotrophic Factor</keyword>
+<keyword>metabolism</keyword>
+<keyword>Bumetanide</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Calcium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cyclic AMP-Dependent Protein Kinases</keyword>
+<keyword>metabolism</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Enzyme Inhibitors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Mossy Fibers</keyword>
+<keyword>Hippocampal</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>methods</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Sodium Potassium Chloride Symporter Inhibitors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>metabolism</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:51:59Z</last_update_date>
+<creation_date>2013-02-27T07:51:59Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7202</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7202" version="1.02">
+<authors><author>Sivakumaran S</author><author>Mohajerani MH</author><author>Cherubini E</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>29</volume>
+<number>8</number>
+<page>2637-47</page>
+<abstract>In the adult rat hippocampus, the axons of granule cells in the dentate gyrus, the mossy fibers (MF), form excitatory glutamatergic synapses with CA3 principal cells. In neonates, MF release into their targets mainly GABA, which at this developmental stage is depolarizing. Here we tested the hypothesis that, at immature MF-CA3 synapses, correlated presynaptic [single fiber-evoked GABA(A)-mediated postsynaptic potentials (GPSPs)] and postsynaptic activity (back propagating action potentials) may exert a critical control on synaptic efficacy. This form of plasticity, called spike-timing-dependent plasticity (STDP), is a Hebbian type form of learning extensively studied at the level of glutamatergic synapses. Depending on the relative timing, pairing postsynaptic spiking and single MF-GPSPs induced bidirectional changes in synaptic efficacy. In case of positive pairing, spike-timing-dependent-long-term potentiation (STD-LTP) was associated with a persistent increase in GPSP slope and in the probability of cell firing. The transduction pathway involved a rise of calcium in the postsynaptic cell and the combined activity of cAMP-dependent PKA (protein kinase A) and brain-derived neurotrophic factor (BDNF). Retrograde signaling via BDNF and presynaptic TrkB receptors led to a persistent increase in GABA release. In&quot;presynaptically&quot;silent neurons, the enhanced probability of GABA release induced by the pairing protocol, unsilenced these synapses. Shifting E(GABA) from the depolarizing to the hyperpolarizing direction with bumetanide failed to modify synaptic strength. Thus, STD-LTP of GPSPs provides a reliable way to convey information from granule cells to the CA3 associative network at a time when glutamatergic synapses are still poorly developed.</abstract>
+<pubmed_id>19244539</pubmed_id>
+</detail>
+</item>

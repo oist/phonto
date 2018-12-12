@@ -1,0 +1,24 @@
+Amnesia
+Retrograde
+physiopathology
+Animals
+Cognitive Science
+methods
+trends
+Hippocampus
+physiology
+Humans
+Memory
+physiology
+Memory Disorders
+physiopathology
+Models
+Neurological
+Neocortex
+physiology
+Neurosciences
+methods
+trends
+Space Perception
+physiology
+The processes and mechanisms implicated in retention and retrieval of memories as they age is an enduring problem in cognitive neuroscience. Research from lesion and functional neuroimaging studies on remote episodic, semantic and spatial memory in humans is crucial for evaluating three theories of hippocampal and/or medial temporal lobe-neocortical interaction in memory retention and retrieval: cognitive map theory, standard consolidation theory and multiple trace theory. Each theory makes different predictions regarding first, the severity and extent of retrograde amnesia following lesions to some or all of the structures mentioned; second, the extent of activation of these structures to retrieval of memory across time; and third, the type of memory being retrieved. Each of these theories has strengths and weaknesses, and there are various unresolved issues. We propose a unified account based on multiple trace theory. This theory states that the hippocampus is needed for re-experiencing detailed episodic and spatial memories no matter how old they are, and that it contributes to the formation and assimilation of semantic memories and schematic spatial maps.

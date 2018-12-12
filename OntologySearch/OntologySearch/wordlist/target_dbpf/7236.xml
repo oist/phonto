@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7236">
+<itemtype>xnppaper</itemtype>
+<titles><title>Persistent synaptic activity produces long-lasting enhancement of endocannabinoid modulation and alters long-term synaptic plasticity.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cannabinoid Receptor Modulators</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>physiology</keyword>
+<keyword>Dose-Response Relationship</keyword>
+<keyword>Radiation</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Endocannabinoids</keyword>
+<keyword>Excitatory Amino Acid Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Inhibitory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>methods</keyword>
+<keyword>Piperidines</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Pyrazoles</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Pyridines</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:23:43Z</last_update_date>
+<creation_date>2013-02-28T01:23:43Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7236</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7236" version="1.02">
+<authors><author>Zhu PJ</author><author>Lovinger DM</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>97</volume>
+<number>6</number>
+<page>4386-9</page>
+<abstract>Learning and memory are thought to involve activity-dependent changes in synaptic efficacy such as long-term potentiation (LTP) and long-term depression (LTD). Recent studies have indicated that endocannabinoid-dependent modulation of inhibitory transmission facilitates induction of hippocampal LTP and that endocannabinoids play a key role in certain forms of LTD. Here, we show that repetitive low-frequency synaptic stimulation (LFS) produces persistent up-regulation of endocannabinoid signaling at hippocampal CA1 GABAergic synapses. This LFS also produces LTD of inhibitory synapses and facilitates LTP at excitatory, glutamatergic synapses. These endocannabinoid-mediated plastic changes could contribute to information storage within the brain.</abstract>
+<pubmed_id>17392410</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5503">
+<itemtype>xnppaper</itemtype>
+<titles><title>Postsynaptic contribution to long-term potentiation revealed by the analysis of miniature synaptic currents.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>6-Cyano-7-nitroquinoxaline-2</keyword>
+<keyword>3-dione</keyword>
+<keyword>Animals</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>N-Methylaspartate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Pyramidal Tracts</keyword>
+<keyword>physiology</keyword>
+<keyword>Quinoxalines</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Tetrodotoxin</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:43:01Z</last_update_date>
+<creation_date>2011-06-14T00:43:01Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5503</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5503" version="1.02">
+<authors><author>Manabe T</author><author>Renner P</author><author>Nicoll RA</author></authors>
+<journal>Nature</journal>
+<volume>355</volume>
+<number>6355</number>
+<page>50-5</page>
+<abstract>Miniature excitatory synaptic currents were recorded from CA1 pyramidal cells in hippocampal slices to study the site of the persistent change in synaptic efficacy during long-term potentiation. Induction of long-term potentiation produced a large increase in the amplitude of these currents. Such a change in amplitude suggests an increase in postsynaptic transmitter sensitivity.</abstract>
+<pubmed_id>1346229</pubmed_id>
+</detail>
+</item>

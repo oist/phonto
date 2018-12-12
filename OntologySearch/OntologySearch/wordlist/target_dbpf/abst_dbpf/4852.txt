@@ -1,0 +1,28 @@
+Animals
+Conditioning (Psychology)
+physiology
+Dendrites
+physiology
+Dentate Gyrus
+physiology
+Electric Conductivity
+Electric Stimulation
+Electrophysiology
+methods
+Entorhinal Cortex
+cytology
+physiology
+Evoked Potentials
+physiology
+Male
+Neural Pathways
+cytology
+physiology
+Neurons
+physiology
+Perforant Pathway
+physiology
+Rats
+Rats
+Inbred Strains
+The physiological interactions between the dentate gyrus (DG) and CA3 were studied in urethane-anesthetized rats by using field potential recording and current source density (CSD) analysis. Stimulation of CA3b resulted in a short-latency (<2.5-ms onset latency) antidromic population spike in both the DG and CA3c. An excitation (current sink) at the middle molecular layer (MML) was observed at 3-ms latency, possibly mediated by the backfiring of perforant path fibers that projected to both DG and CA3. CA3 stimulation also resulted in a sink at the dendritic layers of CA3c, which was likely mediated by excitatory CA3 recurrent collaterals. It was inferred that the DG was excited at the inner molecular layer (IML) after stimulation near the CA3b/CA3c border. This IML excitation (sink) probably resulted from orthodromic CA3 or hilar projections to the IML and not from mossy fiber backfiring. The IML and the CA3c dendritic sinks were blocked by an intracerebroventricular injection of a non-N-methyl-D-aspartate receptor antagonist, 6-cyano-7-nitroquinoxaline-2, 3-dione, but not by a gamma-aminobutyric acid type A (GABA(A)) receptor antagonist, bicuculline. CA3b stimulation evoked population spike bursts (3-7-ms latency) in both DG and CA3c when GABA(A) inhibition was suppressed by bicuculline, thus confirming that the excitatory afferents project from CA3b to DG and CA3c. A CA3 conditioning stimulus pulse given 30-200 ms before a perforant-path test pulse increased the amplitude of the perforant-path-evoked DG population spike (as compared with the test response without conditioning). After a moderate-intensity stimulation of CA3, a late (<20-ms latency) excitation of the MML of the DG was found. The late DG excitation was blocked by procaine injection at the medial perforant path, suggesting its origin from the medial entorhinal cortex. In conclusion, rich interactions between CA3 and other hippocampal structures were studied quantitatively by CSD analysis in vivo. We infer that CA3 provides an early excitatory feedback path to DG through recurrent collaterals or hilar interneurons and a late feedback through the medial entorhinal cortex.

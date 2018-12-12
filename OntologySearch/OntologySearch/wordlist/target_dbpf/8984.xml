@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8984">
+<itemtype>xnppaper</itemtype>
+<titles><title>Reward-spatial view representations and learning in the primate hippocampus.</title>
+</titles>
+<contributor uname='admin_KWL2'>Hiroaki Wagatsuma(admin_KWL2)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Haplorhini</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Microelectrodes</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Reward</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Wagatsuma Lab, FY2015, saito</description>
+<doi></doi>
+<last_update_date>2015-03-27T10:43:59Z</last_update_date>
+<creation_date>2015-03-27T10:43:59Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8984</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8984" version="1.02">
+<authors><author>Rolls ET</author><author>Xiang JZ</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>25</volume>
+<number>26</number>
+<page>6167-74</page>
+<abstract>The primate anterior hippocampus (which corresponds to the rodent ventral hippocampus) receives inputs from brain regions involved in reward processing, such as the amygdala and orbitofrontal cortex. To investigate how this affective input may be incorporated into primate hippocampal function, we recorded neuronal activity while rhesus macaques performed a reward-place association task in which each spatial scene shown on a video monitor had one location that, if touched, yielded a preferred fruit juice reward and a second location that yielded a less-preferred juice reward. Each scene had different locations for the different rewards. Of 312 neurons analyzed in the hippocampus, 18% responded more to the location of the preferred reward in different scenes, and 5% responded to the location of the less-preferred reward. When the locations of the preferred rewards in the scenes were reversed, 60% of 44 hippocampal neurons tested reversed the location to which they responded, showing that the reward-place associations could be altered by new learning in a few trials. The majority (82%) of these 44 hippocampal neurons tested did not respond to reward associations in a visual discrimination, object-reward association task. Thus, the primate hippocampus contains a representation of the reward associations of places&quot;out there&quot;being viewed. By associating places with the rewards available, the concept that the primate hippocampus is involved in object-place event memory is now extended to remembering goals available at different spatial locations. This is an important type of association memory.</abstract>
+<pubmed_id>15987946</pubmed_id>
+</detail>
+</item>

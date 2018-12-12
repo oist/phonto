@@ -1,0 +1,220 @@
+2, Rybak_PF_neuron_V
+141, JCN_2012_So_et_al_GP_Neuron
+145, JCN_2012_So_et_al_STN_Neuron
+428, Leloup Goldbeter Neurospora Circadian Clock Model
+429, voltage_step_generator
+430, current_step_generator
+431, voltage_pulse_generator
+432, current_pulse_generator
+433, Hodgkin_Huxley_1952_Model
+434, Beeler_Reuter_1977_Model
+435, Luo_Rudy_1991_model
+436, Traub_1977_7compartment_large
+437, Diffusively_coupled_Luo_Rudy_PhaseI_model
+438, TNNPre_2006_model_endo
+439, TNNPre_2006_model_epi
+440, TNNPre_2006_model_M
+441, TNNPre_2006_current_pulse_generator
+442, Rybak_RG_neuron_V
+443, Rybak_PF_neuron_V
+444, Rybak_current_generator_for_RG_and_PF_neuron
+445, Rinzel_1996_dopamin_minimal_model_Fig_3B
+446, Rinzel_1996_dopamin_model_Fig_6A
+447, Rinzel_1996_dopamin_model_Fig_6B
+448, Rinzel_1996_dopamin_model_Fig_6C
+449, current_step_generator_membrane
+450, sinusoidal_wave_current_generator_membrane
+451, current_pulse_generator_membrane
+453, Faber_Rudy_2007_Model
+454, Rybak_Motoneurone_V
+455, Chay_TR_1985_model
+457, Faber_Rudy_2007_VoltageClamp_model
+458, Wang_Buzsaki_1996_interneuron_model
+459, Hayashi_Ishizuka_1992_pacemaker_neuron_model
+460, periodic_current_pulse_generator
+461, sinusoidal_wave_voltage_generator
+462, sinusoidal_wave_current_generator
+463, Wang_1991_Thalamic_Neuron_Fig_3_B
+464, Wang_1991_Thalamic_Neuron_Fig_5
+465, Wang_Buzsaki_1996_hippocampal_interneuron_network_30
+466, Sherman_Rinzel_Keizer_1988
+467, Sherman_Rinzel_Keizer_1990
+468, Keizer_Smolen_1991
+469, Periodically_Stimulated_BVP_Model
+470, nmh_Gating_Dynamics
+471, n_Gate_Model
+472, HH_Sodium_Current_Clamp
+473, Three_Coupled_FHN
+474, Simple_Channel_Model
+475, single_BVP_with_step_current_stimulus
+476, simple_hard_wired_central_pattern_generator_model
+477, Chay-Keizer_1983_Fig.1b
+478, Chicago_2003_pancreatic_beta-cell
+481, Rybak_Rhythm_Generator_Network
+482, A_single_compartment_model_of_the_rod_photoreceptor
+484, mackay_glass_1977_287_9_b
+485, mackay_glass_1977_287_9_c
+486, Asai_2009_Inverted_Pendulum_Model_1_Fig7
+487, Asai_2009_Inverted_Pendulum_Model_2_Fig7
+488, Asai_2009_Inverted_Pendulum_Model_3_Fig7
+489, Asai_2009_Inverted_Pendulum_Model_4_Fig7
+490, Cdc2_-_Wee1_Bistability_Angeli_PNAS_2004
+491, MAPK_cascades_Bistability_Angeli_PNAS_2004
+492, Lorenz_attractor
+493, Rossler_attractor
+494, Her1_oscillatory_expression_Lewis_Curr_Biol_2003
+495, LR1-ring_reentry_initiate
+496, LR1-ring_reentry_initiate_terminate
+497, Wang_1991_Thalamic_Neuron_Fig_8
+498, Booth_1997_Motoneuron
+499, DiFrancesco_Noble_1984_cardiac_cell
+500, BJ1976_Plant_Kim
+501, BC1985_Matsuoka_fig2
+502, BJ1994_Rush_Rinzel_Thalamic_neuron_Fig2C_top
+503, BJ1994_Rush_Rinzel_Thalamic_neuron_Fig2C_middle
+504, BJ1994_Rush_Rinzel_Thalamic_neuron_Fig2C_bottom
+505, JCN2005_Cymbalyuk_Shilnikov_leech_neuron_Fig3-A2
+506, JCN2005_Cymbalyuk_Shilnikov_leech_neuron_Fig3-A3
+507, JCN2005_Cymbalyuk_Shilnikov_leech_neuron_Fig3-D2
+508, JCN2005_Cymbalyuk_Shilnikov_leech_neuron_Fig3-D3
+509, CBR1984_Nomura_Abe_Insulin_Secretion
+510, FSK 2008 Endocardial Ventricular Myocyte
+511, FSK 2008 Midcardial Ventricular Myocyte
+512, FSK 2008 Epicardial Ventricular Myocyte
+513, FSK 2008 Endo Ventricular Myocyte Quinidine
+514, FSK 2008 Mid Ventricular Myocyte Quinidine
+515, FSK 2008 Epi Ventricular Myocyte Quinidine
+516, FSK 2008 Endo Ventricular Myocyte Vesnarinon
+517, FSK 2008 Mid Ventricular Myocyte Vesnarinon
+518, FSK 2008 Epi Ventricular Myocyte Vesnarinon
+519, FSK 2008 Endo Ventricular Myocyte Dofetilide
+520, FSK 2008 Endo Ventricular Myocyte Nifekalant
+521, FSK 2008 Epi Ventricular Myocyte Dofetilide
+522, FSK 2008 Epi Ventricular Myocyte Nifekalant
+523, FSK 2008 Mid Ventricular Myocyte Dofetilide
+524, FSK 2008 Mid Ventricular Myocyte Nifekalant
+526, BC1985_Matsuoka_fig3a
+528, BC1985_Matsuoka_fig3b
+529, BC1985_Matsuoka_fig4a
+530, BC1985_Matsuoka_fig4b
+531, BC1985_Matsuoka_fig4c
+532, BC1985_Matsuoka_fig4d
+535, JNS2002_Terman_STN_neuron
+537, PLoSone2007_Nittala_BetaCell_bursting
+538, PLoSone2007_Nittala_BetaCell_spiking
+539, PLoSone2007_Nittala_BetaCell_network
+540, BC1985_Matsuoka_fig5a
+541, BC1985_Matsuoka_fig5b
+542, BC1985_Matsuoka_fig5c
+543, BC1985_Matsuoka_fig5e
+544, PD2004_Wei_delay_neural_network
+545, PRL2005_Shilnikov_Cymbalyuku_fig2_1
+546, PRL2005_Shilnikov_Cymbalyuk_fig2_2
+547, PRL2005_Shilnikov_Cymbalyuk_fig2_3
+548, PRL2005_Shilnikov_Cymbalyuk_fig2_4
+549, BJ1981_Morris_Lecar_Fig6
+550, BJ1981_Morris_Lecar_fig9_1
+551, BJ1981_Morris_Lecar_fig9_2
+552, BJ1981_Morris_Lecar_fig9_3
+553, BJ1981_Morris_Lecar_fig9_4
+554, BJ1986_Chay_beta_cell_membrane_fig1
+555, JCN_2004_Rubin_Terman_Thalamic_Neuron
+556, JCN_2004_Rubin_Terman_STN_Neuron
+557, JCN_2004_Rubin_Terman_GPe_Neuron
+558, JNC_2004_Rubin_Terman_Network_Normal
+559, JNC_2004_Rubin_Terman_Network_Parkisonian
+560, EJN_2012_Pavlides_STN_GP_network_Normal
+561, EJN_2012_Pavlides_STN_GP_network_Parkinson
+563, PRL_2008_Kramer_Purkinje_Cell
+564, SIAM_2005_Best_respiratory_cell
+568, IEEE2003_Izhikevich_Spiking_Neurons_Resonator
+569, IEEE2003_Izhikevich_Spiking_Neurons_Chattering
+570, JNP1999_Butera_Pacemaker_Neurons
+617, JNP1991_Traub_CA3_Fig4C
+618, JNP1999_Schweighofer_Inferior_Olive_Neuron
+619, Modified FSK 2008 Epicardial Ventricular Myocyte
+623, FSK 2008 Midcardial Ventricular Myocyte with Quinidine
+624, FSK 2008 Midcardial Ventricular Myocyte with Nifekalant
+625, FSK 2008 Midcardial Ventricular Myocyte with Dofetilide
+627, FSK 2008 Epicardial Ventricular Myocyte with Vesnarinon
+628, FSK 2008 Epicardial Ventricular Myocyte with Quinidine
+629, FSK 2008 Epicardial Ventricular Myocyte with Nifekalant
+630, FSK 2008 Epicardial Ventricular Myocyte with Dofetilide
+632, FSK 2008 Endocardial Ventricular Myocyte with Vesnarinon
+633, FSK 2008 Endocardial Ventricular Myocyte with Quinidine
+634, FSK 2008 Endocardial Ventricular Myocyte with Nifekalant
+635, FSK 2008 Endocardial Ventricular Myocyte with Dofetilide
+642, Ohara-Rudy Human Endocardial Ventricular Myocyte
+665, FSK 2008 Midcardial Ventricular Myocyte (reduced version)
+666, FSK 2008 Epicardial Ventricular Myocyte (reduced version)
+667, FSK 2008 Endocardial Ventricular Myocyte (reduced version)
+756, Hodgkin-Huxley model
+757, Coupled HH model
+760, FSK 2008 Midcardial Ventricular Myocyte
+761, FSK 2008 Endocardial Ventricular Myocyte
+762, FSK 2008 Epicardial Ventricular Myocyte
+763, FSK 2008 Midcardial Ventricular Myocyte with Vesnarinon
+764, Ohara-Rudy Human Epicardial Ventricular Myocyte
+765, Ohara-Rudy Human Midcardial Ventricular Myocyte
+766, reduced FSK 2008 Endocardial Ventricular Myocyte with Dofetilide
+767, reduced FSK 2008 Epicardial Ventricular Myocyte with Dofetilide
+768, reduced FSK 2008 Midcardial Ventricular Myocyte with Dofetilide
+769, reduced FSK 2008 Epicardial Ventricular Myocyte with Quinidine
+770, reduced FSK 2008 Endocardial Ventricular Myocyte with Quinidine
+771, reduced FSK 2008 Midcardial Ventricular Myocyte with Quinidine
+772, reduced FSK 2008 Epicardial Ventricular Myocyte with Vesnarinon
+773, reduced FSK 2008 Endocardial Ventricular Myocyte with Vesnarinon
+774, reduced FSK 2008 Midcardial Ventricular Myocyte with Vesnarinon
+775, reduced FSK 2008 Epicardial Ventricular Myocyte with Nifekalant
+776, reduced FSK 2008 Endocardial Ventricular Myocyte with Nifekalant
+777, reduced FSK 2008 Midcardial Ventricular Myocyte with Nifekalant
+779, Pharmacokinetics of quinidine administered orally
+796, CYP3A4 induction mediated drug-drug interaction (rifampicin and alprazolam
+797, The Lorenz system
+800, damping_oscillation
+809, courtemanche_1998 atrial action potential
+810, modified courtemanche_1998  with quinidine
+811, modified courtemanche_1998
+812, modified courtemanche_1998 with vesnarinon
+813, modified courtemanche_1998 with dofetilide
+814, YNI_1980_model
+816, Ohara-Rudy Human Endocardial Ventricular Myocyte (modified INa)
+817, Ohara-Rudy Human Epicardial Ventricular Myocyte (modified INa)
+818, Ohara-Rudy Human Midcardial Ventricular Myocyte (modified INa)
+819, Kurata 2005 Human Ventricular Myocyte Model (Endocardial cell)
+820, Kurata 2005 Human Ventricular Myocyte Model (Epicardial cell)
+821, Kurata 2005 Human Ventricular Myocyte Model (Midcardial cell)
+824, Kurata 2005 Human Ventricular Myocyte Model (Midcardial cell) EAD generation condition
+825, Pribe-Beuckelmann human ventricular myocyte model
+826, Pribe-Beuckelmann human ventricular myocyte model (heart failure condition)
+827, Pribe-Beuckelmann human ventricular endocardial cell model
+828, Pribe-Beuckelmann human ventricular midcardial cell model
+829, Pribe-Beuckelmann human ventricular epicardial cell model
+845, MAT model driven by stocahstic spike train
+849, Reduced Cunningham model of first spiking interneuron
+850, Calcium ion kinetics in Traub model (2003)
+851, L-type calcium channel in Traub model (2003)
+854, Calcium dependent Big Potassium (BK) channel in Cunningham model (2004)
+855, Delayed rectifier potassium channel in Cunningham model (2004)
+856, Leak channel in Traub model (2003)
+857, Fast sodium channel in Cunningham model (2004)
+858, T-type calcium channel in Cunningham model (2004)
+860, Small conductance calcium-activated potassium (SK) channel in Cunningham model (2004)
+866, Asai_2009_Inverted_Pendulum_Model_4_Fig7A_with_Noise
+867, Asai_2009_Inverted_Pendulum_Model_4_Fig7B_with_Noise
+868, Asai_2009_Inverted_Pendulum_Model_4_Fig7C_with_Noise
+869, Asai_2009_Inverted_Pendulum_Model_4_Fig7D_with_Noise
+870, Fast Na channel in Traub model (2003)
+871, Persistent Na channel in Traub model (2003)
+872, Delayed rectifier K channel in Traub model (2003)
+873, Ca dependent BK channel in Traub model (2003)
+874, Ca dependent SK channel in Traub model (2003)
+875, A type K channel in Traub model (2003)
+876, M type K channel in Traub model (2003)
+877, K2 channel in Traub model
+878, T type Ca channel in Traub model (2003)
+879, Anomalous rectifier channel in Traub model (2003)
+880, taste_bud
+882, MAT model driven by stocahstic spike train
+884, Reduced Traub model of regular spiking neuron
+885, Reduced Low Threshold Spiking interneuron model

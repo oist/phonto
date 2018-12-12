@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3973">
+<itemtype>xnppaper</itemtype>
+<titles><title>Input-specific spine entry of soma-derived Vesl-1S protein conforms to synaptic tagging.</title>
+</titles>
+<contributor uname='inokuchi'>[en]Kaoru Inokuchi[/en][ja]井ノ口 馨[/ja](inokuchi)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Carrier Proteins</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>Dendrites</keyword>
+<keyword>metabolism</keyword>
+<keyword>Dendritic Spines</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>metabolism</keyword>
+<keyword>Mice</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>Plasmids</keyword>
+<keyword>Protein Transport</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>metabolism</keyword>
+<keyword>Recombinant Fusion Proteins</keyword>
+<keyword>metabolism</keyword>
+<keyword>Signal Transduction</keyword>
+<keyword>Synapses</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>Transfection</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-12T08:13:27Z</last_update_date>
+<creation_date>2010-10-05T07:17:39Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3973</url>
+<changelogs>
+<changelog date='2011-09-12T08:13:27Z'>インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3973" version="1.02">
+<authors><author>Okada D</author><author>Ozawa F</author><author>Inokuchi K</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>324</volume>
+<number>5929</number>
+<page>904-9</page>
+<abstract>Late-phase synaptic plasticity depends on the synthesis of new proteins that must function only in the activated synapses. The synaptic tag hypothesis requires input-specific functioning of these proteins after undirected transport. Confirmation of this hypothesis requires specification of a biochemical tagging activity and an example protein that behaves as the hypothesis predicts. We found that in rat neurons, soma-derived Vesl-1S (Homer-1a) protein, a late-phase plasticity-related synaptic protein, prevailed in every dendrite and did not enter spines. N-methyl-d-aspartate receptor activation triggered input-specific spine entry of Vesl-1S proteins, which met many criteria for synaptic tagging. These results suggest that Vesl-1S supports the hypothesis and that the activity-dependent regulation of spine entry functions as a synaptic tag.</abstract>
+<pubmed_id>19443779</pubmed_id>
+</detail>
+</item>

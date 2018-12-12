@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4812">
+<itemtype>xnppaper</itemtype>
+<titles><title>The primate hippocampal formation: evidence for a time-limited role in memory storage.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Discrimination (Psychology)</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>Macaca fascicularis</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>Reference Values</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:29:55Z</last_update_date>
+<creation_date>2011-04-28T05:29:55Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4812</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4812" version="1.02">
+<authors><author>Zola-Morgan SM</author><author>Squire LR</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>250</volume>
+<number>4978</number>
+<page>288-90</page>
+<abstract>Clinical and experimental studies have shown that the hippocampal formation and related structures in the medial temporal lobe are important for learning and memory. Retrograde amnesia was studied prospectively in monkeys to understand the contribution of the hippocampal formation to memory function. Monkeys learned to discriminate 100 pairs of objects beginning 16, 12, 8, 4, and 2 weeks before the hippocampal formation was removed (20 different pairs at each time period). Two weeks after surgery, memory was assessed by presenting each of the 100 object pairs again for a single-choice trial. Normal monkeys exhibited forgetting; that is, they remembered recently learned objects better than objects learned many weeks earlier. Monkeys with hippocampal damage were severely impaired at remembering recently learned objects. In addition, they remembered objects learned long ago as well as normal monkeys did and significantly better than they remembered objects learned recently. These results show that the hippocampal formation is required for memory storage for only a limited period of time after learning. As time passes, its role in memory diminishes, and a more permanent memory gradually develops independently of the hippocampal formation, probably in neocortex.</abstract>
+<pubmed_id>2218534</pubmed_id>
+</detail>
+</item>

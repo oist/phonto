@@ -1,0 +1,43 @@
+Animals
+Anisomycin
+administration
+&
+dosage
+pharmacology
+CA1 Region
+Hippocampal
+drug effects
+physiology
+Cyclic AMP-Dependent Protein Kinases
+antagonists
+&
+inhibitors
+Electric Stimulation
+methods
+Isoquinolines
+administration
+&
+dosage
+pharmacology
+Long-Term Potentiation
+drug effects
+physiology
+Long-Term Synaptic Depression
+drug effects
+physiology
+Male
+Microinjections
+Protein Synthesis Inhibitors
+administration
+&
+dosage
+pharmacology
+Rats
+Rats
+Long-Evans
+Sulfonamides
+administration
+&
+dosage
+pharmacology
+It is generally assumed that long lasting synaptic potentiation (long-term potentiation, LTP) and depression (long-term depression, LTD) result from distinct patterns of afferent activity, with high and low frequency activity favouring LTP and LTD, respectively. However, a novel form of N-methyl-d-aspartate (NMDA) receptor-dependent synaptic potentiation in the hippocampal CA1 area in vivo induced by low frequency afferent stimulation has recently been demonstrated. Here, we further characterize the mechanisms mediating this low frequency stimulation (LFS)-induced LTP in area CA1 of intact, urethane-anesthetized preparations. Consistent with previous reports, alternating, low frequency (1 Hz) stimulation of CA1 afferents originating in the contralateral CA3 area and the medial septum resulted in gradually developing, long lasting (>2 h) LTP of field excitatory postsynaptic potentials (fEPSPs) recorded in CA1. Local application of the protein synthesis inhibitor anisomycin in CA1 blocked LFS-induced LTP, as did application of H89, an inhibitor of protein kinase A. Given the apparent overlap in molecular mechanisms mediating LFS-LTP and"classic"high-frequency stimulation (HFS)-induced LTP in CA1, we examined the relation between these forms of LTP by means of occlusion experiments. LFS, delivered to synapses saturated by initial HFS, resulted in a gradually developing LTD, rather than the normally seen LTP. Conversely, initial induction of LFS-LTP reduced the amount of subsequent HFS-LTP. Together, these experiments reveal a surprising similarity in the molecular mechanisms (dependence on NMDA receptors, protein kinase A, protein synthesis) mediating LTP induced by highly distinct (1 vs. 100 Hz) induction protocols. Importantly, these findings further challenge the"high-frequency-LTP, low-frequency LTD"dogma by demonstrating that this dichotomy does not account for all types of plasticity phenomena at central synapses.

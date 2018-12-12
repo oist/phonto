@@ -1,0 +1,32 @@
+1. J Neurosci. 2002 Apr 1;22(7):2963-76.
+
+Activity patterns in a model for the subthalamopallidal network of the basal
+ganglia.
+
+Terman D(1), Rubin JE, Yew AC, Wilson CJ.
+
+Author information: 
+(1)Department of Mathematics, The Ohio State University, Columbus, Ohio 43210,
+USA. terman@math.ohio-state.edu
+
+Based on recent experimental data, we have developed a conductance-based
+computational network model of the subthalamic nucleus and the external segment
+of the globus pallidus in the indirect pathway of the basal ganglia. Computer
+simulations and analysis of this model illuminate the roles of the coupling
+architecture of the network, and associated synaptic conductances, in modulating 
+the activity patterns displayed by this network. Depending on the relationships
+of these coupling parameters, the network can support three general classes of
+sustained firing patterns: clustering, propagating waves, and repetitive spiking 
+that may show little regularity or correlation. Each activity pattern can occur
+continuously or in discrete episodes. We characterize the mechanisms underlying
+these rhythms, as well as the influence of parameters on details such as spiking 
+frequency and wave speed. These results suggest that the subthalamopallidal
+circuit is capable both of correlated rhythmic activity and of irregular
+autonomous patterns of activity that block rhythmicity. Increased striatal input 
+to, and weakened intrapallidal inhibition within, the indirect pathway can switch
+the behavior of the circuit from irregular to rhythmic. This may be sufficient to
+explain the emergence of correlated oscillatory activity in the
+subthalamopallidal circuit after destruction of dopaminergic neurons in
+Parkinson's disease and in animal models of parkinsonism.
+
+PMID: 11923461  [PubMed - indexed for MEDLINE]

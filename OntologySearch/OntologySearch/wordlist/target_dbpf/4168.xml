@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4168">
+<itemtype>xnppaper</itemtype>
+<titles><title>The mammalian subiculum: contrasting and complementary in vivo and in vitro approaches to subicular function.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Research</keyword>
+<keyword>methods</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T07:43:52Z</last_update_date>
+<creation_date>2010-10-08T07:43:52Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4168</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4168" version="1.02">
+<authors><author>O&#039;Mara S</author></authors>
+<journal>Behavioural brain research</journal>
+<volume>174</volume>
+<number>2</number>
+<page>197</page>
+<abstract></abstract>
+<pubmed_id>16979763</pubmed_id>
+</detail>
+</item>

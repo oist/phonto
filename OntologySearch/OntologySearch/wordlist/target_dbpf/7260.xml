@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7260">
+<itemtype>xnppaper</itemtype>
+<titles><title>Heterosynaptic LTD of hippocampal GABAergic synapses: a novel role of endocannabinoids in regulating excitability.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cannabinoid Receptor Modulators</keyword>
+<keyword>Cannabinoids</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Chelating Agents</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Endocannabinoids</keyword>
+<keyword>Enzyme Inhibitors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Amino Acid Agonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Fatty Acids</keyword>
+<keyword>Unsaturated</keyword>
+<keyword>agonists</keyword>
+<keyword>metabolism</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Long-Term Synaptic Depression</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Methoxyhydroxyphenylglycol</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Organ Culture Techniques</keyword>
+<keyword>Presynaptic Terminals</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Receptors</keyword>
+<keyword>Cannabinoid</keyword>
+<keyword>Receptors</keyword>
+<keyword>Drug</keyword>
+<keyword>agonists</keyword>
+<keyword>metabolism</keyword>
+<keyword>Receptors</keyword>
+<keyword>Metabotropic Glutamate</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>metabolism</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:45:05Z</last_update_date>
+<creation_date>2013-02-28T01:45:05Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7260</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7260" version="1.02">
+<authors><author>Chevaleyre V</author><author>Castillo PE</author></authors>
+<journal>Neuron</journal>
+<volume>38</volume>
+<number>3</number>
+<page>461-72</page>
+<abstract>Neuronal excitability and long-term synaptic plasticity at excitatory synapses are critically dependent on the level of inhibition, and accordingly, changes of inhibitory synaptic efficacy should have great impact on neuronal function and neural network processing. We describe here a form of activity-dependent long-term depression at hippocampal inhibitory synapses that is triggered postsynaptically via glutamate receptor activation but is expressed presynaptically. That is, glutamate released by repetitive activation of Schaffer collaterals activates group I metabotropic glutamate receptors at CA1 pyramidal cells, triggering a persistent reduction of GABA release that is mediated by endocannabinoids. This heterosynaptic form of plasticity is involved in changes of pyramidal cell excitability associated with long-term potentiation at excitatory synapses and could account for the effects of cannabinoids on learning and memory.</abstract>
+<pubmed_id>12741992</pubmed_id>
+</detail>
+</item>

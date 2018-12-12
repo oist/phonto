@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4777">
+<itemtype>xnppaper</itemtype>
+<titles><title>Mnemonic correlates of unit activity in the hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Association</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Haplorhini</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>Short-Term</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Species Specificity</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:37:26Z</last_update_date>
+<creation_date>2011-04-28T04:37:26Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4777</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4777" version="1.02">
+<authors><author>Wible CG</author><author>Findling RL</author><author>Shapiro M</author><author>Lang EJ</author><author>Crane S</author><author>Olton DS</author></authors>
+<journal>Brain research</journal>
+<volume>399</volume>
+<number>1</number>
+<page>97-110</page>
+<abstract>The role of the hippocampus in memory processing was examined by recording single unit activity while rats performed two different types of memory tasks. The same apparatus was used for all tasks; it consisted of two goal boxes, side by side, on the end of a runway. One goal box was white, the other was black. Experiment I used a working memory, delayed match-to-sample (DMTS) task. A trial began with a sample phase in which the rat was forced to a goal box containing a reward. The rat was then placed at the beginning of the runway again for the choice phase and allowed to enter either of the two goal boxes. Entering the goal box with the same color as that entered during the sample phase was rewarded. Experiment II used a within-subjects, within-units, design to test rats in two reference memory tasks, a cue task and a spatial task. During the cue task, the rat was rewarded for choosing the same colored goal box on each trial regardless of its spatial location. During the spatial task, the rat was rewarded for choosing the goal box in a specific location on each trial regardless of its color. During all tasks, the location of the goal boxes was changed between trials in a pseudorandom, counterbalanced fashion so that each colored goal box was on the right for half of the trials and on the left for half of the trials. During performance of the DMTS task, activity of most units was correlated with a combination of factors such as color and location, or color and phase. For example, most units showing differential activity in one of the colored goal boxes fired more when that box was in a certain spatial location, or during either the sample or choice phase. During performance of the reference memory tasks, the activity of most units was not correlated with behavior. However, the rate for some units changed between the cue and spatial tasks. When unit activity was correlated with behavior, it was dependent on a combination of dimensions such as color and spatial location. These results demonstrate that units in the hippocampus respond to combinations of stimulus dimensions such as color and spatial location, and to the temporal context necessary to solve a working memory task.</abstract>
+<pubmed_id>3099978</pubmed_id>
+</detail>
+</item>

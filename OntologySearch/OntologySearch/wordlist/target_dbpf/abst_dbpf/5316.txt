@@ -1,0 +1,21 @@
+Actin Depolymerizing Factors
+Animals
+Dendritic Spines
+ultrastructure
+Electrophysiology
+Hippocampus
+physiology
+ultrastructure
+Long-Term Synaptic Depression
+physiology
+Microfilament Proteins
+physiology
+Rats
+Rats
+Sprague-Dawley
+Signal Transduction
+physiology
+Synapses
+physiology
+ultrastructure
+Activity-induced modification of neuronal connections is essential for the development of the nervous system and may also underlie learning and memory functions of mature brain. Previous studies have shown an increase in dendritic spine density and/or enlargement of spines after the induction of long-term potentiation (LTP). Using two-photon time-lapse imaging of dendritic spines in acute hippocampal slices from neonatal rats, we found that the induction of long-term depression (LTD) by low-frequency stimulation is accompanied by a marked shrinkage of spines, which can be reversed by subsequent high-frequency stimulation that induces LTP. The spine shrinkage requires activation of NMDA receptors and calcineurin, similar to that for LTD. However, spine shrinkage is mediated by cofilin, but not by protein phosphatase 1 (PP1), which is essential for LTD, suggesting that different downstream pathways are involved in spine shrinkage and LTD. This activity-induced spine shrinkage may contribute to activity-dependent elimination of synaptic connections.

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7492">
+<itemtype>xnppaper</itemtype>
+<titles><title>Memory trace reactivation in hippocampal and neocortical neuronal ensembles.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neocortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Periodicity</keyword>
+<keyword>Rats</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+<keyword>Sleep</keyword>
+<keyword>REM</keyword>
+<keyword>physiology</keyword>
+<keyword>Wakefulness</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T01:31:20Z</last_update_date>
+<creation_date>2013-03-28T01:31:20Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7492</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7492" version="1.02">
+<authors><author>Sutherland GR</author><author>McNaughton B</author></authors>
+<journal>Current opinion in neurobiology</journal>
+<volume>10</volume>
+<number>2</number>
+<page>180-6</page>
+<abstract>During active behavior, patterns of hippocampal and neocortical neuronal activity reflect ongoing inputs and their contexts. Recent neurophysiological investigations have shown that during &#039;off-line&#039; periods, traces of these experiences are spontaneously reactivated in both structures. Although the functional importance of this phenomenon remains to be demonstrated, it does provide clues about the nature and mechanisms of memory retrieval and consolidation.</abstract>
+<pubmed_id>10753801</pubmed_id>
+</detail>
+</item>

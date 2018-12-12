@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="2614">
+<itemtype>xnpbook</itemtype>
+<titles><title>The Hippocampus as a Cognitive Map</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>0198572069</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2009-07-28T01:46:35Z</last_update_date>
+<creation_date>2009-07-27T03:11:39Z</creation_date>
+<publication_year>1978</publication_year>
+<publication_month>1</publication_month>
+<publication_mday>1</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=2614</url>
+<changelogs>
+<changelog date='2009-07-28T01:46:35Z'>フリーキーワード を変更</changelog>
+<changelog date='2009-07-27T03:17:53Z'>著者, 出版社, ISBN, URL を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="2614" version="1.03">
+<authors><author>John O&#039;Keefe</author><author>Lynn Nadel</author></authors>
+<editor></editor>
+<publisher>Oxford University Press, USA</publisher>
+<isbn>0198572069</isbn>
+<url>http://www.amazon.com/Hippocampus-as-Cognitive-Map/dp/0198572069%3FSubscriptionId%3D18SQ7EGXWJARBA4JX382%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0198572069</url>
+<attachment_dl_limit>0</attachment_dl_limit>
+<attachment_dl_notify>0</attachment_dl_notify>
+</detail>
+</item>

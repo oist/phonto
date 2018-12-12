@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7350">
+<itemtype>xnppaper</itemtype>
+<titles><title>Axonal plasticity elicits long-term changes in oligodendroglia and myelinated fibers.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Antigens</keyword>
+<keyword>metabolism</keyword>
+<keyword>Antigens</keyword>
+<keyword>CD11b</keyword>
+<keyword>metabolism</keyword>
+<keyword>Axons</keyword>
+<keyword>physiology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Axotomy</keyword>
+<keyword>methods</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>injuries</keyword>
+<keyword>metabolism</keyword>
+<keyword>pathology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Male</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Mice</keyword>
+<keyword>Transgenic</keyword>
+<keyword>Microscopy</keyword>
+<keyword>Electron</keyword>
+<keyword>Transmission</keyword>
+<keyword>methods</keyword>
+<keyword>Myelin Basic Protein</keyword>
+<keyword>genetics</keyword>
+<keyword>Myelin Sheath</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Nerve Fibers</keyword>
+<keyword>Myelinated</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Nerve Regeneration</keyword>
+<keyword>genetics</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>genetics</keyword>
+<keyword>physiology</keyword>
+<keyword>Oligodendroglia</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Perforant Pathway</keyword>
+<keyword>injuries</keyword>
+<keyword>metabolism</keyword>
+<keyword>Proteoglycans</keyword>
+<keyword>metabolism</keyword>
+<keyword>Silver Staining</keyword>
+<keyword>methods</keyword>
+<keyword>Statistics</keyword>
+<keyword>Nonparametric</keyword>
+<keyword>beta-Galactosidase</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T02:38:15Z</last_update_date>
+<creation_date>2013-02-28T02:38:15Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7350</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7350" version="1.02">
+<authors><author>Drøjdahl N</author><author>Nielsen HH</author><author>Gardi JE</author><author>Wree A</author><author>Peterson AC</author><author>Nyengaard JR</author><author>Eyer J</author><author>Finsen B</author></authors>
+<journal>Glia</journal>
+<volume>58</volume>
+<number>1</number>
+<page>29-42</page>
+<abstract>Axons are linked to induction of myelination during development and to the maintenance of myelin and myelinated tracts in the adult CNS. Currently, it is unknown whether and how axonal plasticity in adult CNS impacts the myelinating cells and their precursors. In this article, we report that newly formed axonal sprouts are able to induce a protracted myelination response in adult CNS. We show that newly formed axonal sprouts, induced by lesion of the entorhino-hippocampal perforant pathway, have the ability to induce a myelination response in stratum radiatum and lucidum CA3. The lesion resulted in significant recruitment of newly formed myelinating cells, documented by incorporation of the proliferation marker bromodeoxyuridine into chondroitin sulphate NG2 expressing cells in stratum radiatum and lucidum CA3 early after lesion, and the occurrence of a 28% increase in the number of oligodendrocytes, of which some had incorporated bromodeoxyuridine, 9 weeks post-lesion. Additionally, a marked increase (41%) in myelinated fibres was detected in silver stained sections. Interestingly, these apparently new fibres achieved the same axon diameter as unlesioned mice but myelin thickness remained thinner than normal, suggesting that the sprouting axons in stratum radiatum and lucidum CA3 were not fully myelinated 9 weeks after lesion. Our combined results show that sprouting axons provide a strong stimulus to oligodendrocyte lineage cells to engage actively in the myelination processes in the adult CNS.</abstract>
+<pubmed_id>19455714</pubmed_id>
+</detail>
+</item>

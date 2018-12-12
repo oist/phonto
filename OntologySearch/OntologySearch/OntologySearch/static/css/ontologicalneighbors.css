@@ -1,0 +1,63 @@
+.ontosearcher_defaultdiv{
+border:2px solid gray;
+/* display:none; */
+-moz-user-select: none; -khtml-user-select: none; user-select: none;
+}
+.ontosearcher_defaultdiv .headerparent{
+
+padding: 5px;
+padding-right: 10px;
+vertical-align: middle;
+text-align: left;
+
+border-bottom: #999 1px solid;
+color: #fff;
+background: #447791;
+}
+.ontosearcher_defaultdiv .headerparent .header{
+float:left;
+font-weight:bold;
+}
+.ontosearcher_defaultdiv .headerparent .closebtn{
+float:right;
+font-family: "Hiragino Kaku Gothic ProN","ÉÅÉCÉäÉI", sans-serif !important;
+padding-right:1px;
+}
+.ontosearcher_defaultdiv .closelink {
+float:right;
+padding:5px;
+cursor:pointer;
+color:red;
+}
+.ontosearcher_defaultdiv .headerparent .closebtn:hover{
+font-weight:bold;
+cursor:pointer;
+padding-right:0;
+}
+.ontosearcher_defaultdiv .content{
+padding: 5px;
+overflow:scroll;
+
+}
+
+.ontosearcher_defaultdiv .content ul {
+list-style:none;
+padding-start: 20px;
+-webkit-padding-start: 20px;
+padding-left: 20pt;
+}
+.ontosearcher_defaultdiv .content ul .dbname {
+font-weight:bold;
+}
+.ontosearcher_defaultdiv .content ul li {
+padding-left:20px;
+padding-right:10px;
+}
+
+.ontosearcher.linka{
+color:blue;
+}
+.ontosearcher.linka:hover{
+text-decoration: underline;
+cursor:pointer;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="945">
+<itemtype>xnppaper</itemtype>
+<titles><title>Possible physiological role of the perforant path-CA1 projection.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-03T07:44:05Z</last_update_date>
+<creation_date>2008-07-16T06:43:46Z</creation_date>
+<publication_year>1995</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=945</url>
+<changelogs>
+<changelog date='2011-02-03T07:44:05Z'>フリーキーワード, PubMedID を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="945" version="1.02">
+<authors><author>Buzsáki G</author><author>Penttonen M</author><author>Bragin A</author><author>Nádasdy Z</author><author>Chrobak JJ</author></authors>
+<journal>Hippocampus</journal>
+<volume>5</volume>
+<number>2</number>
+<page>141-6</page>
+<abstract></abstract>
+<pubmed_id>7633517</pubmed_id>
+</detail>
+</item>

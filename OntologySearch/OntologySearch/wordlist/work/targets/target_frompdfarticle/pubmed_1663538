@@ -1,0 +1,5391 @@
+JOURNALOFNEUROPHYSIOLOGY 
+Vol.  66,  No.  2,  August 
+
+199  1. Printed 
+
+in  U.S.A. 
+
+A  Model  of  a  CA3  Hippocampal  Pyramidal  Neuron 
+Voltage-Clamp  Data  on  Intrinsic  Conductances 
+
+Incorporating 
+
+ROBERT 
+
+ROGER  D.  TRAUB, 
+IBM  Research  Division, 
+Columbia  University,  New  York  10032;  Department 
+New  York,  11203;  and  Laboratoire 
+de  Neurobiologie 
+
+of  Pharmacology, 
+Cellulaire, 
+
+State  University  of  New  York,  Brooklyn, 
+
+Institut  Pasteur,  75 724  Paris  Cedex  15,  France 
+
+K.  S.  WONG,  RICHARD 
+
+MILES, 
+
+AND  HILLARY 
+
+MICHELSON 
+
+IBM  T.  J.  Watson  Research  Center,  Yorktown  Heights  10598;  Department 
+
+of Neurology, 
+
+SUMMARY 
+
+AND 
+
+CONCLUSIONS 
+
+1.  We have developed a  19-compartment cable model of  a 
+guinea pig CA3 pyramidal neuron. Each compartment is allowed 
+to contain six active ionic conductances: gNa, gca, gKcDRJ (where 
+DR stands for delayed rectifier), g,,,,  , gktAHP), and gkcc). The con- 
+ductance gca is of the high-voltage activated type. The model ki- 
+netics for the first five of these conductances incorporate voltage- 
+clamp data obtained from isolated hippocampal pyramidal neu- 
+rons. The  kinetics of  gKcc) are based on  data  from  bullfrog 
+sympathetic neurons. The time constant for  decay of submem- 
+brane calcium derives from optical imaging of Ca signals in Pur- 
+kinje cell dendrites. 
+
+2.  To construct the model from available voltage-clamp data, 
+we first reproduced current-clamp records from a model isolated 
+neuron (soma plus proximal dendrites). We next assumed that 
+ionic channel kinetics in the dendrites were the same as in the 
+soma. In accord with  dendritic recordings and calcium-imaging 
+data, we also assumed that significant gca occurs in dendrites. We 
+then attached sections of basilar and apical dendritic cable. By trial 
+and error, we found a distribution (not necessarily unique) of ionic 
+conductance densities that  was consistent with  current-clamp 
+records from the soma and dendrites of whole neurons and from 
+isolated apical dendrites. 
+
+3.  The resulting model reproduces the Ca2+-dependent spike 
+depolarizing afterpotential  (DAP)  recorded after  a  stimulus 
+subthreshold for burst elicitation. 
+
+4.  The model also reproduces the behavior of CA3 pyramidal 
+neurons injected with  increasing somatic depolarizing currents: 
+low-frequency (0.3- 1 .O Hz) rhythmic bursting for small currents, 
+with  burst frequency increasing with  current  magnitude; then 
+more irregular bursts followed by afterhyperpolarizations (AHPs) 
+interspersed with brief bursts without AHPs; and finally, rhythmic 
+action potentials without bursts. 
+
+5. The model predicts the existence of still another firing pat- 
+tern during tonic depolarizing dendritic stimulation: brief bursts 
+at 4 
+to -  12 Hz, a pattern not observed during somatic stimula- 
+tion.  These bursts correspond to  rhythmic  dendritic  calcium 
+spikes. 
+
+6.  The model CA3 pyramidal neuron can be made to resemble 
+functionally  a CA1 pyramidal neuron by increasing eKcDR) and 
+decreasing dendritic &  and &).  Specifically, after these alter- 
+ations, tonic depolarization of the soma leads to adapting repeti- 
+tive  firing, whereas stimulation of the distal dendrites leads to 
+bursting. 
+
+7. A  critical set of parameters concerns the regulation of the 
+pool of intracellular [Ca2’] that interacts with membrane channels 
+(8 K(c) and gK(AHP)), particularly in the dendrites. For dendritic cal- 
+cium spikes to occur at -  12 Hz, it appears necessary to postulate a 
+time constant of ~20 ms for decay of the intracellular [Ca2’] in 
+this pool. 
+
+8.  This revised cellular model has been incorporated into a net- 
+work of neurons with mutual excitation via-both quisqualate and 
+N-methyl-o-aspartate receptor types. Such a model network is 
+able to  reproduce picrotoxin-induced  synchronized multiple 
+bursts. Repetitive dendritic calcium spikes appear to be crucial for 
+the phenomenon of multiple bursts. 
+
+INTRODUCTION 
+Modeling 
+
+inputs 
+
+impinging 
+
+the  electrotonic 
+
+between  neurons 
+
+behaviors.  Modeling 
+
+on  different  membrane 
+
+of  connections 
+population 
+
+cellular  properties  combine  with 
+
+and  active  properties  of  neu- 
+rons  is  a  useful  exercise.  It  helps  one  to  understand  how 
+synaptic 
+regions 
+are  integrated 
+to  produce  an  output  signal.  Models  of  neu- 
+rons  are  also  useful  as building  blocks 
+for  the  construction 
+of  network  models.  A  network  model  helps  one  to  under- 
+stand  how  intrinsic 
+the 
+to  generate 
+properties 
+meaningful 
+of  hippocam- 
+is  helpful  because 
+pal  pyramidal 
+these  cells  contain  active  dendritic  currents 
+that  can  gener- 
+ate  high-frequency  bursts  of  action  potentials,  giving  rise  to 
+and 
+complex 
+(Masukawa 
+Prince  1984;  Wong  et  al.  1979).  At  the  population 
+level, 
+neurons  generate  a variety  of  inter- 
+groups  of  hippocampal 
+epileptiform 
+esting  behaviors, 
+bursts  (Schwartzkroin  and  Prince  1977)  and  low-amplitude 
+oscillations 
+1986;  Schwartzkroin  and  Hag- 
+lund  1986).  Such  behaviors  can  be  seen in  vitro  in  groups  of 
+only  a  few thousand  cells,  offering 
+the  hope  of  a  detailed 
+analysis. 
+
+(Schneiderman 
+
+characteristics 
+
+in  particular, 
+
+synchronized 
+
+integrational 
+
+neurons, 
+
+including 
+
+to  model 
+
+We  have  already  twice  attempted 
+
+pyramidal 
+in  analogy  with  Purkinje 
+
+the  electrical 
+cell.  In  the  first  at- 
+cells,  a calcium  con- 
+in  the  dendrites,  whereas a 
+K  conductance  were  lo- 
+“hot 
+re- 
+(with  sodium-  and  cal- 
+could  be  independently 
+
+properties  of  a hippocampal 
+tempt,  partly 
+ductance  was located  exclusively 
+sodium-  and  voltage-dependent 
+cated  in  the  somatic 
+region  and  in  isolated  dendritic 
+spots”  (Traub  and  Llinas  1979).  Because  intradendritic 
+cordings  suggested  that  bursting 
+cium-dependent 
+action  potentials) 
+in  both  soma  and  dendrites,  a second  model  was 
+produced 
+(Traub  1982).  Dis- 
+constructed  using  a  different  approach 
+regions  were assumed  to  contain  all  of  the 
+tinct  membrane 
+to  generate  a burst  and  its associated 
+requisite  conductances 
+long  afterhyperpolarization 
+and  Prince 
+1980).  Four  active  conductances  were  used  in  each  active 
+membrane 
+the  ki- 
+records.  To  pro- 
+netics  were  inferred 
+
+,  g,,  ,  gk,  and  gKlcal--and 
+
+from  current-clamp 
+
+region---g,, 
+
+(Hotson 
+
+(AHP) 
+
+0022-3077/9  1 $1 SO Copyright  0  199 1 The  American  Physiological  Society 
+
+635 
+
+636 
+
+TRAUB 
+
+ET  AL. 
+
+region, 
+
+it  was neces- 
+
+(tens  of  millisec- 
+
+inactivation 
+[Ca”],  an  assumption 
+(A.  Kay,  personal  communication); 
+
+duce  bursts  in  a  localized  membrane 
+sary  to  postulate  1)  a  rapid 
+onds)  of g,,  by  intracellular 
+seems  unlikely 
+voltage-dependent 
+of gk.  The  bursts  produced 
+by this  model  appeared  realistic,  and  the  frequency  of burst- 
+ing 
+with  progressive  depolariza- 
+tion.  The  model  did  not,  however,  switch  from  repetitive 
+bursting 
+single-action  potentials  with  further 
+depolarization, 
+cells  recorded 
+in  vitro  (Wong  and  Prince  198 1). 
+
+in  contrast  to  CA3  pyramidal 
+
+increased  appropriately 
+
+to  repetitive 
+
+inactivation 
+
+that  now 
+and  2)  a 
+
+rapid 
+
+including 
+
+simulations 
+
+and  Haglund 
+
+1) the  ability  of  a 
+
+the  entire  population 
+
+1986;  Schwartzkroin 
+
+The  model  pyramidal 
+
+also  made  some  predictions 
+
+cell  was  nevertheless  useful  as  a 
+building  block 
+in  network  models.  Network  models  were 
+able  to  reproduce  synchronized  bursts  in  disinhibited 
+slices 
+(Traub  and  Wong  1982),  the  varying  effects one  cell  exerts 
+is reduced  (Traub  et 
+on  another 
+in  the  network  as inhibition 
+al.  1987),  and  spontaneous  population 
+oscillations 
+that  oc- 
+cur  in  partially  disinhibited 
+slices  (Miles  and  Wong  1987a; 
+Schneiderman 
+1986; 
+Traub  et al.  1989),  to  name  a few (Traub  and  Miles,  199 1 b). 
+These  network 
+that  were  subsequently  verified, 
+burst  in  one  CA3  cell  to  evoke  a  burst  in  a  postsynaptic 
+pyramidal 
+a single  cell  to  synchronize 
+Wong  1983).  Nevertheless, 
+quacies.  In  addition 
+firing  mode  when  sufficiently  depolarized, 
+when  incorporated 
+synchronized  multiple 
+are  bathed  in  the  y-aminobutyric 
+picrotoxin 
+conduction 
+(Traub  et  al.  1984).  Possibly 
+the  inability  of  the  model  neuron 
+cium  spikes  at  the  requisite 
+
+cell  (Miles  and  Wong  1986)  and  2)  the  ability  of 
+(Miles  and 
+inade- 
+to  switch  to  a repetitive 
+the  1982  model 
+the 
+bursts  that  are  observed  when  slices 
+acid-A  (GABA,)  blocker 
+1984;  Miles  et  al.  1984)  unless  axonal 
+recovery  was  postulated 
+this  failure  could  be  related  to 
+to  generate  dendritic  cal- 
+lo-  15 Hz). 
+We  therefore  wondered  whether  a more  accurate  cellular 
+model  would  help  to  understand 
+these  (and  other)  scientific 
+issues: why  and  how  pyramidal  neurons  can  switch  between 
+firing  modes  and  what  neuronal  properties  might 
+different 
+be  critical 
+of  synchronized  multiple 
+bursts  in  a  population 
+
+into  networks  would  not  generate 
+
+the  generation 
+of  cells. 
+
+the  model  had  certain 
+
+frequency  (roughly 
+
+to  its  inability 
+
+block  with 
+
+(Hablitz 
+
+Two  additional 
+
+recording  of  membrane 
+
+in  these  neurons.  Furthermore, 
+
+types  of  data  have  become  available  and 
+cell  model. 
+the  iso- 
+
+(Kay  and  Wong  1986)  has permitted 
+of  many  of the  voltage-de- 
+calcium- 
+studies  suggest  that  gca is  widely  spread  over  the 
+(Regehr  et al.  1989).  Our  approach  has been 
+data  to  define  or  at  least  constrain 
+of 
+the  cell  membrane 
+that  was 
+records  from  both  soma  and 
+features  of  both 
+the  single  type  of 
+
+prompted  us  to  attempt  yet  another  pyramidal 
+Whole-cell 
+currents 
+lated  cell  preparation 
+a more  precise  characterization 
+pendent  currents 
+imaging 
+cell  membrane 
+to  use the  voltage-clamp 
+the  current  kinetics  and  then  to  search  for  a distribution 
+conductance  densities  over 
+consistent  with  current-clamp 
+dendrites.  The  resulting  model  has  certain 
+previous  models.  As  in  the  1979  version, 
+gca  used  is  predominantly 
+localized 
+the  1982  version, 
+bursts,  although 
+gion  of  the  cell.  The  new  model  exhibits  either  repetitive 
+
+is  relatively 
+regions;  in  addition,  as in 
+localized  parts  of  the  cell  can  produce 
+depends  on  the  re- 
+
+to  particular  membrane 
+
+the  burst  morphology 
+
+dendritic 
+
+and  g,, 
+
+from 
+
+for 
+
+potential 
+
+of  the  membrane 
+
+conductance  densities. 
+
+level.  A  large  number  of simulations 
+
+bursting  or  repetitive  single  action  potentials  as a function 
+of  membrane 
+in  a  realistic  way.  Both  CA3  and 
+CA1  types  of  firing  behavior  can  be  reproduced  by  proper 
+manipulation 
+In 
+addition,  networks  of  the  new  model  neurons,  with  mutual 
+excitation  mediated  by  quisqualate 
+(QUIS)  and  N-methyl- 
+D-aspartate  (NMDA) 
+types  of synaptic  actions,  are also  able 
+to  generate  synchronized  multiple  bursts.  Two  well-defined 
+experimental 
+predictions  are  suggested  by  the  new  model, 
+cells  and  the  other  at the  popu- 
+one  at  the  level  of individual 
+lation 
+suggest that  net- 
+that  were  exhibited  by  the  1982  model, 
+work  behaviors 
+such  as  synchronized  population 
+are  still  re- 
+produced  using  the  new  model  as a cellular  building  block. 
+that,  despite  the  wealth  of  data  on 
+neurons,  the  data  are 
+that  one  would 
+some  of the  data  from  different  laborato- 
+contradictory.  We  have  at- 
+to  construct  a model  consistent  with  as many  data 
+(in  terms  of  the 
+for  exam- 
+feature  of  the  be- 
+the  construc- 
+
+membrane  properties  of hippocampal 
+not  sufficient 
+like.  Furthermore, 
+ries  appear 
+tempted 
+as we could,  but  our  model 
+membrane  distribution 
+ple),  nor  does  it  reproduce  every  known 
+havior  of  these  cells.  In  addition 
+tion  and  properties  of the  cell  model,  we shall  try 
+ODS) 
+certain  parameter  choices. 
+
+to  give  some  feel  for  how  the  behavior  depends  on 
+
+to  define  all  the  parameters 
+
+of conductance  densities, 
+
+We  wish  to  emphasize 
+
+to  be  mutually 
+
+is  not  unique 
+
+to  describing 
+
+oscillations, 
+
+(in  METH- 
+
+Some  of  these  data  have  been  presented 
+
+in  abstract  form 
+
+(Traub  et  al.  1990). 
+
+Glossary 
+
+ck 
+
+g,,k 
+Yk,l 
+
+- 
+gNa,k 
+
+&a,k 
+
+&(DR),k 
+
+&W 
+
+- 
+h(AHP),k 
+
+- 
+gWC),k 
+
+mk 
+
+hk 
+
+sk 
+
+rk 
+
+nk 
+
+ak 
+
+bk 
+
+qk 
+
+k 
+
+k 
+
+of  compartment 
+
+k  (k  =  1, . . . ,  19)  (nF) 
+
+for  compartment 
+
+k (pS) 
+
+between  compartments 
+
+k  and  I (=  0, un- 
+
+capacitance 
+leakage  conductance 
+conductance 
+
+lessk= 
+maximum 
+
+I+  1) 
+conductance 
+
+for  sodium 
+
+in  compartment 
+
+(EL% 
+
+maximum 
+
+&a 
+
+w* 
+ing 
+
+conductance 
+is  high-voltage 
+
+for  calcium 
+activated 
+
+n compartment 
+slowly 
+
+inactivat- 
+
+maximum 
+
+conductance 
+
+for  delayed 
+
+rectifier  K  current 
+
+in  compartment 
+
+k  (pS) 
+
+maximum 
+current 
+maximum 
+
+conductance 
+
+in  compartment 
+
+for  A-type 
+k  (pS) 
+
+of  transient 
+
+K 
+
+conductance 
+dent  AHP  K  current 
+conductance 
+
+maximum 
+
+activation 
+
+and  Ca-dependent 
+variable 
+k  (dimensionless) 
+
+for  long-duration 
+
+Ca-depen- 
+
+in  compartment 
+
+k  (pS) 
+
+for  short-duration 
+
+K  current 
+
+in  compartment 
+
+voltage- 
+k  (pS) 
+
+for  sodium  current 
+
+in  compartment 
+
+inactivation 
+
+variable 
+
+for  sodium 
+
+ment  k  (dimensionless) 
+
+activation 
+
+variable 
+
+for  calcium 
+
+ment  k  (dimensionless) 
+
+inactivation 
+
+variable 
+
+for  calcium 
+
+ment  k  (dimensionless) 
+
+activation 
+
+variable 
+
+compartment 
+
+for  delayed 
+k  (dimensionless) 
+
+current 
+
+in  compart- 
+
+current 
+
+in  compart- 
+
+current 
+
+in  compart- 
+
+rectifier  K  current 
+
+in 
+
+activation 
+
+variable 
+
+for  transient  K  current 
+
+in  compart- 
+
+ment  k  (dimensionless) 
+
+inactivation 
+partment 
+
+variable 
+k  (dimensionless) 
+
+activation 
+
+variable 
+k  (dimensionless) 
+
+for  transient  K  current 
+
+in  com- 
+
+for  AHP  K  current 
+
+in  compartment 
+
+MODEL  CA3  CELL  WITH  MEMBRANE 
+
+CONDUCTANCES 
+
+637 
+
+ck 
+
+I Ca,k 
+I- ionic,  k 
+
+I synaptic,k 
+t 
+
+vk 
+
+FVaTVCa9 
+VK 
+
+Xk 
+
+P X 
+
+4k 
+
+activation variable for voltage- and calcium-dependent 
+
+K current in compartment k (dimensionless) 
+
+calcium current of compartment k (nA) 
+transmembrane ionic current of compartment k (un- 
+derstood to be at time t, but time dependence not 
+written explicitly)  (nA) 
+
+total synaptic current for compartment k (nA) 
+time (ms) 
+transmembrane potential of compartment, relative to 
+
+rest, mV 
+
+reversal potentials, relative  to  resting potential, for 
+Na+, Ca2+, and K+ ions, respectively. Values are 115, 
+140, and -  15 mV, respectively. These are held con- 
+stant (i.e., Vca does not depend on x) 
+
+Ca+2 concentration  in  shell beneath membrane of 
+compartment k. For the present model, the units are 
+arbitrary (because the depth of the appropriate shell 
+is unknown) 
+
+Inverse time constant for (lst-order) relaxation of the 
+&.  Assumed to be the same for all compartments. 
+Value is 0.075 ms-‘, corresponding to a time con- 
+stant of 13.33 ms 
+
+scaling constant for  compartment k  to  convert  Ca 
+current to Ca concentration in a shell beneath mem- 
+brane; may be different for different compartments, 
+depending on dimensions of shell. Units arbitrary. 
+Values used were 4i = 7,769 (i  =  1, . . . , 7); &  = 
+34,530; 49 =  17,402, $10 = 26,404; @i = 5,941. The 
+different values result from different dendritic mem- 
+brane areas, as well as different shell thickness for the 
+soma and adjacent,membrane (compartments 8- 10) 
+compared with  remainder of  the  dendrites. The 
+larger 6 for the soma and adjacent membrane means 
+that a given Ica leads to a larger and faster calcium 
+transient in the corresponding shell 
+
+METHODS 
+
+Acutely 
+
+isolated  cells 
+
+CA3 pyramidal neurons were isolated from adult guinea pigs 
+(weight 200-400g) and whole-cell recordings were obtained by the 
+use of methods described by Kay and Wong (1986) and Numann 
+et al. (1987). 
+
+Structure  of model  and  electrotonic  parameters 
+
+The structure of the compartmental model is illustrated at the 
+bottom of Fig. 1. It  is the same structure as before (Traub 1982) 
+except that dendritic branching is omitted. The basilar (left) and 
+apical (right) dendrites are each represented by an equivalent cylin- 
+der (Rall 1962a). This is a reasonable description in view of the 
+approximate 3/2 power branching of hippocampal pyramidal cell 
+dendrites (Turner and Schwartzkroin 1980). As before, we do not 
+consider the  nonuniform  electrotonic length of  different den- 
+drites. Each dendritic compartment represents 0.1 X of membrane, 
+and there are 19 compartments in all (8 for the basilar dendrites, 1 
+for the soma, and 10 for the apical dendrites). The parameters that 
+define the structure and electrotonic properties of the model are as 
+follows: Ri  =  100 Q-cm, R,  =  10,000 Q-cm2, Cm =  3 pF/cm2 
+(Turner and Schwartzkroin 1980), 7M =  30 ms, input resistance 
+apical dendrite = 60 MQ,  input resistance basilar dendrite = 90 
+MQ, and input resistance of the whole cell = 32 Ma.  The whole- 
+cell input resistance is in the observed range (at least as recorded 
+with sharp electrodes); Turner and Schwartzkroin ( 1983) obtained 
+an average input  resistance of  33 R/IQ for CA3  pyramidal cells. 
+Horseradish peroxidase injections of CA3  cells combined with 
+electrical measurements led to  an estimate of  ~67  MQ  for the 
+
+%(DR) 
+
+%a 
+
+gK(C) 
+
+I 
+
+’ 
+
+I 
+
+9 
+
+u 
+
+5&l 
+
+I 10  mS/cm* 
+
+I 
+
+- 
+
+19 
+
+2  C’ 
+
+I 
+
+FIG.  1.  Densities  of 4 of the ionic  conductances  in  the CA3  pyramidal 
+cell  model.  Electrotonic  structure  of the  model  is shown  below;  note  the 
+different  horizontal  and  vertical  scales. Basilar  dendrites  are to the  left and 
+apical  dendrites  to the right.  Conductance  density is drawn  over each com- 
+partment  according  to the scale on  the right.  Numbers  of certain  compart- 
+ments  are indicated 
+
+in  the  bottom 
+
+part. 
+
+average input resistance of the apical dendrites and 94 MQ for the 
+basilar dendrites (D. A.  Turner, personal communication). 
+
+The soma dimensions were radius 4.23 pm, length 125 pm, area 
+3,320 pm2. Although the shape of the soma is not realistic (it is too 
+long and narrow), its area is reasonable. For example, if the soma 
+were approximated by  a cone of  basal radius 12.5 pm (r)  and 
+height 75 pm (h), the area would be arfm 
++ rr2 = 3,477 pm2. 
+The dimensions of an apical compartment were radius 2.89 
+pm, length 120 pm (hence 1 X = 1,200 pm = 0.12 cm), area 2,188 
+pm’*  Because 
+= 0.120 cm, these numbers are consistent with each other. 
+
+in  Cm  =  vrR,I2Ri 
+
+=  v(O.000289 
+
+lO,OOO)/2OO 
+
+I 
+
+, 
+
+X 
+
+’ 
+
+The dimensions of a basilar compartment were radius 2.42 pm, 
+length 110 pm, area = 1,673 pm2. The reader should recall that the 
+equivalent cylinder  corresponding to  a branching dendrite is 
+longer than the original dendrite (Rall 1962b), so that distances 
+along the equivalent cylinder do  not  directly  match distances 
+alongside the actual neuron. A coordinate transformation must be 
+applied for the match. 
+
+Simulations were run not only in the entire structure shown in 
+Fig.  1, but also in pieces of it.  We simulated an acutely isolated 
+neuron as a soma with an adjacent basilar and apical dendritic 
+compartment. Isolated apical and dendritic cables were simulated, 
+as were neurons with the apical and/or basilar cylinders truncated. 
+In all such cases, the ends of the dendritic cylinders were sealed. 
+We did not correct for the apparent increase in membrane resistiv- 
+ity that occurs in isolated cells (Kay and Wong 1986; Storm 1990). 
+
+Physics  of the  model 
+
+Voltage excursions in a cable model, in general, are described by 
+the cable equation (Rall 1989). For a compartmental model, we of 
+
+638 
+
+TRAUB 
+
+ET  AL. 
+
+course  use a version  of the  cable equation  that  is discrete  in  space 
+and  continuous 
+in  time.  First,  let  us  outline  our  system  of  units 
+and our  notation.  We  use a consistent  set of units:  mV,  nA,  ms,  nF, 
+relative  to resting  poten- 
+and pS. Membrane  potentials  are written 
+tial.  The  extracellular  space  is  assumed  to  be isopotential. 
+In  our 
+notation,  the second  subscript  (k  or  i) is used to index  the compart- 
+ment  number  (Fig.  1, bottom).  The letter C is used for a capaci- 
+tance. Subscript L  refers to the leakage conductance or current; 
+and Na, Ca, and K refer to the respective ions. &a)  I?&, and & 
+are constants that represent the respective equilibrium potentials. 
+The bar superscript, as in &,  denotes the maximum ionic con- 
+ductance of a particular type in  a particular compartment; the 
+actual conductance at a given time will  be the product  of the 
+(constant) g term with  appropriate voltage- and/or calcium-de- 
+pendent dimensionless variables. The subscripts K(DR),  K(A), 
+K(AHP),  and K(C)  refer to the four  types of K  currents in the 
+model: DR stands for delayed rectifier, A  for the A-type  of tran- 
+sient current,  AHP  for  the  long-duration Ca-dependent AHP 
+current (Hotson and Prince 1980; Lancaster and Adams 1986; 
+Lancaster and Nicoll  1987; Numann et al. 1987), and C for the 
+short-duration Ca- and voltage-dependent current (Adams et al. 
+1982; Alger and Williamson 1988; Lancaster and Nicoll  1987). 
+The letters m,  h, s, r, ~1, a,  b,  4, and c denote dimensionless mem- 
+brane-state variables that control the various ionic conductances; 
+their values lie between 0 and 1. x is the calcium concentration in 
+a “shell” beneath the membrane. This shell can be considered as a 
+cytoplasmic compartment attached to the inside of each mem- 
+brane compartment. x grows by transmembrane influx  of Ca (in- 
+tracellular Ca release not being considered) and declines by first- 
+order decay with time constant &-‘.  x  in turn regulates the local 
+AHP  and C conductances. Radial and axial diffusion of calcium 
+are not simulated in the model, nor are cytoplasmic uptake and 
+buffering of calcium explicitly simulated. Many  of these terms are 
+recapitulated in the equations below and in the Glossary 
+TRODUCTION). 
+
+(see  IN- 
+
+The spatially discrete form of the cable equation can then be 
+
+written 
+
+c 
+
+dvk 
+- 
+k  dt 
+
+= 
+
+Yk-l,k(Vk-l 
+
+- 
+
+vk) 
+
++ 
+
+Yk+l,k(vk+l 
+
+- 
+
+vk) 
+
+- 
+
+lionic,k 
+
+(0 
+
+The ionic current to  compartment k  is a sum of the leakage 
+current (with leakage conductance assumed to be independent of 
+membrane potential), possibly synaptic currents, various voltage- 
+dependent “active”  currents, and perhaps an injected current 
+
+I* lonic,k 
+
+= 
+
+&,kVk 
+
++ 
+
+lsynaptic,k 
+
++ 
+
+&amk2hk( 
+
++ 
+
+&(Dl+( 
+
+vk 
+
+- 
+
+vK) 
+
++ 
+
+!?K(,+@ 
+
+vk 
+
+vk 
+
+- 
+
+- 
+
+vNa) 
+
++ 
+
+&ask2rk( 
+
+b) 
+
++ 
+
+&(AHP)d 
+
+vk 
+
+vk 
+
+- 
+
+- 
+
+vCa) 
+
+VK) 
+
+x 
+
+(  vk 
+
+- 
+
+vK) 
+
+- 
+
+&njected,k 
+
+(2) 
+
+The above equation describes the relation of specific membrane- 
+state variables and submembrane Ca to ionic conductances. 
+
+The synaptic currents that we shall consider in this paper are 
+excitatory only and occur onto two compartments: numbers 3 and 
+15, each 0.6X from the soma in the basilar or apical direction, 
+respectively (the compartment numbering is indicated in Fig. 1). 
+A presynaptic action potential induces a fast excitatory postsynap- 
+tic potential (EPSP) in compartments 3 and 15 (corresponding to 
+QUIS receptor activation) and a slow voltage-dependent EPSP in 
+compartment 15 (corresponding to NMDA  receptor activation). 
+The QUIS synaptic current in each compartment is cQuIstPi2 
+X 
+(V -  60), where V is the local membrane potential and 60 mV is 
+the EPSP reversal potential relative to rest. The 2-ms time con- 
+stant is consistent with the voltage-clamp data of Brown and John- 
+ston (1983) on the mossy fiber EPSP; this QUIS component may 
+correspond to the rapidly inactivating quisqualate-activated con- 
+
+ductance reported by Tang et al. (1989) in cultured hippocampal 
+neurons. The NMDA  EPSP is more complicated (Nowak et al. 
+1984). A presynaptic action potential induces a ligand-gated “vir- 
+tual  conductance,” g(t), which peaks at 2 ms in the model an 
+decays with  time constant of  lOO- 150 ms (Forsythe and West- 
+brook 1988). Both the onset and decay kinetics that we used may 
+be, if anything, too rapid (Lester et al. 1990). The actual synaptic 
+conductance is the virtual conductance (ligand-dependent) times 
+a voltage- and magnesium-dependent Boltzmann term. The form 
+of the Boltzmann term that we use is similar to that reported by 
+Jahr and Stevens (1990). The model NMDA  current is thus 
+
+do  x 
+
+1 
+
+x 
+
+(V- 
+
+60), 
+
+1 +  9 
+
+X  exp[-0.07( 
+
+V  - 
+
+t)] 
+
+where 2: is either 50 or 60 mV. We take [Mg2’]  to be 2 mM,  the 
+external concentration often used in hippocampal slice experi- 
+ments. The current-voltage relation of the NMDA  current so simu- 
+lated has the characteristic negative dip at potentials between rest 
+and the EPSP equilibrium potential (Nowak et al. 1984), in the 
+present case being a minimum at 40.5 mV positive to rest when 
+4‘ = 60 mV. QUIS postsynaptic conductances onto a given neuron 
+that are caused by multiple presynaptic action potentials (arriving 
+at the same time as each other, or at different times) add linearly. 
+Likewise, NMDA  postsynaptic conductances onto a given neu- 
+ron, caused by  multiple presynaptic action potentials, add lin- 
+early. In each cell, the total NMDA  conductance saturates: it is not 
+allowed to exceed a predetermined maximum value. 
+
+The equation for intracellular [Ca2’] in compartment i, xi,  is as 
+
+follows 
+
+dxi 
+-= 
+dt 
+
+-4JQ,i 
+
+- 
+
+PxXi 
+
+where @i is a scaling constant (defined in the Glossary  at the end of 
+the INTRODUCTION), 
+and p, = 0.075 = l/13.33 ms-‘. Such a rapid 
+time constant ( 13.33 ms) for decay of intracellular Ca is consistent 
+with  the time constants determined for the decay of optical Ca 
+signals in fine Purkinje cell dendrites: ~20  ms (W. N. Ross, per- 
+sonal communication) or even less than this (Sugimori and Llinas 
+1990). A  negative value for -Ica,i in Eq. 3 corresponds to inward 
+current. 
+
+We did not attempt to include all of the ionic currents that have 
+been described in hippocampal neurons. For example, we did not 
+include the M  type of K current (Halliwell and Adams 1982), the 
+so-called anomalous inward rectifier  (Hotson et al.  1979), the 
+slowly inactivating 1k reported by Storm (1988), or the persistent 
+Na current reported by French et al. ( 1990). It is not possible for us 
+to be certain of the consequences of these omissions until a new 
+model is developed that includes these currents. All we can say is 
+that  certain cellular firing properties can be reproduced with  a 
+limited repertoire of currents. 
+
+Kinetics  of the  active  channels 
+
+The general formalism derives from the Hodgkin-Huxley equa- 
+tions. Thus, if xk is a membrane state variable for compartment k, 
+and fik is either vk or Xk (depending on &),  then 
+
+dx, 
+- 
+dt 
+
+=  %(rc/k)( 
+
+1 
+
+- 
+
+xk) 
+
+- 
+
+&t+k)Xk 
+
+(4) 
+
+Note that the rate functions cy, and P, do not themselves depend 
+on  k  in  our  model; that  is, we need not write  a,& or &k.  To 
+emphasize: we assume that  the  kinetics of  voltage-dependent 
+membrane channels are the same in the dendrites as in the soma. 
+This is an assumption of the model made for the sake of simplicity 
+and because of the lack of kinetic data on dendritic ionic channels. 
+
+MODEL  CA3  CELL  WITH  MEMBRANE 
+
+CONDUCTANCES 
+
+639 
+
+The reader will recall the steady-state value of x, X,  = ar.J(c~, + &) 
+and the time constant for relaxation to X,  ,T,  =  1/(0r, + &).  Thus, 
+if X,  and 7, are known as functions of voltage, then the rate func- 
+tions cy, and &  can be reconstructed. 
+
+The rate functions that we use are shown in Tables 1 and 2. 
+Some justification and comments on these rate functions now 
+follow. 
+
+I)  gNa*  Our m,  and h,  are similar to the steady-state “activa- 
+tion”  and “inactivation”  variables plotted by  Sah et al. (1988a), 
+allowing for the fact that h(v)  shifts to the right on the voltage axis 
+at higher temperature (Sah et al. performed their experiments on 
+isolated cells at 22°C  whereas most slice experiments are per- 
+formed at 232°C). The rate functions for m and h were scaled so 
+that dV/dt  during an action potential was 2 100 V/s with &a = 30 
+mS/cm2 on the soma. 
+
+2) gca. a, and & are taken directly from Kay and Wong (1987) 
+(our activation variable s is called “m”  in that paper; we have also 
+corrected printing errors in the equations of Kay and Wong). Our 
+model resting potential, called “0 mV”  in our mathematical nota- 
+tion, is assumed to correspond to -60  mV. Note that this calcium 
+current is of  the high-voltage-activated type.  Although  we are 
+aware of data suggesting the existence of multiple types of calcium 
+channels in CA3 cells (Fisher et al. 1990), the high-voltage-acti- 
+vated type is both the best characterized and is sufficient to ac- 
+count for depolarizing afterpotentials (DAP) and for bursting. The 
+second power of the activation variable (s2) is also taken from Kay 
+and Wong (1987). The inactivation  of gca is complicated (Kay 
+199 l),  having fast and slow voltage-dependent phases and a cal- 
+cium-dependent component as well. Because the slow voltage-de- 
+pendent inactivation process and the calcium-dependent inactiva- 
+tion process take so long (7 of hundreds of milliseconds or more), 
+we have omitted these processes. We approximate the fast inacti- 
+vation with kinetics such that Y,  =  1 at potentials hyperpolarized 
+to rest and such that roe is proportional to e-V20 for vabove resting 
+potential. 
+
+TABLE 
+
+1.  Activation  variable rate functions 
+
+Channel/Variable 
+
+Forward  (CU) 
+
+htlm 
+
+gcals 
+
+Sk(m) 
+
+ln 
+
+0.32(13.1 
+
+-  V) 
+
+Backward  (p) 
+0.28( v -  40.1) 
+
+exp(13’lq 
+
+“)- 
+
+1 
+
+exp(F)- 
+
+1 
+
+1.6 
+1 +  exp(-O.O72(V- 
+
+65)) 
+
+0.016(35.1  -  V) 
+
+&(AHP)h? 
+
+min  (0.2  X  1O-4~,O.O 1) 
+
+0.00 1 
+
+&(C) lc 
+
+‘““[(y) 
+
+18.975 
+
+- 
+
+(T)] 
+
+2  x  exp(- 
+
+(V-  27 6.5)) 
+
+-  a, 
+
+[VI 
+
+501 
+
+2  X  exp(-v) 
+
+0 
+
+[V>  501 
+
+&(*)/a 
+
+0.02(13.1  -  V) 
+
+exp(y)- 
+
+1 
+
+O.O175(V-  40.1) 
+
+exp(y)- 
+
+1 
+
+For  abbreviations  see Glossary. 
+
+TABLE  2. 
+
+Inactivation variable rate functions 
+
+Channel/Variable 
+
+Forward 
+
+(cy) 
+
+Backward  (/3) 
+
+gdh 
+
+aaIr 
+
+0.128  exp 
+
+0.005 
+
+exp( -  V/20) 
+
+200 
+
+9K(A)Ib 
+
+0.0016  exp 
+
+4 
+
+1 +  exp 
+
+0 
+
+[Vc  O] 
+
+0.005  -  a!, 
+
+[V>  O] 
+
+0.05 
+
+Note:  we  are assuming  that  Y, =  1 if  V  <  0; otherwise  Y,  =  e-v/2o, with 
+
+7 -  200  ms. For  abbreviations  see Glossary. 
+
+3,  &(DR)* 
+
+n,  and 7, are close to those reported by  Sah et al. 
+(1988b), except that 7, has been shifted to the right on the voltage 
+axis by -  15 mV, in accord with data obtained from isolated CA3 
+cells (Numann et al.  1987) [the data of Sah et al. (1988b) were 
+from isolated CA1 cells]. The use of the first power of n, rather 
+than the usual higher powers, is also taken from Sah et al. (1988b). 
+We did not include inactivation of this current. By using a higher 
+power of n, it  was possible to obtain narrower and larger action 
+potentials than occur in the model as presented. We nevertheless 
+chose to adhere to the formalism published by Sah et al. (1988b). 
+a,  and b,  are consistent with the data of Numann et al. 
+(1987, Fig. 4). The rate functions were scaled to be consistent with 
+the few points given by these authors for 7, and the point for 7b (25 
+ms at - 10 mV absolute potential). 
+
+4)&(A)* 
+
+@ 
+
+5>  gK(AHP) 
+
+l  The forward rate function is calcium dependent but 
+not voltage dependent (Lancaster and Adams 1986). It is scaled so 
+that after a burst the peak AHP  conductance is delayed for lOO- 
+200 ms (Lancaster and Adams 1986). The backward rate function, 
+l/l,000  ms-‘, is somewhat faster than the l/2,000 ms-’ reported 
+by Numann et al. (1987), allowing for the temperature difference. 
+gK(C)*  We could not find sufficient data from hippocampal 
+neurons to characterize the kinetics of this current, although it is 
+known to  be present in hippocampal neurons (Numann et al. 
+1987; Storm  1987). We therefore used data from Adams et al. 
+(1982) from bullfrog sympathetic neurons. The conductance is 
+increased by intracellular calcium. We assumed the conductance 
+was proportional to a voltage-dependent term times a saturating 
+calcium-dependent term. [This formalism is different from that of 
+Yamada et al. (1989), who made the forward rate function depen- 
+dent on both Vand calcium]. A linear dependence of equilibrium 
+gK(C) on intracellular calcium is consistent with data from ApZysia 
+neurons, although in the latter case a dependence of channel ki- 
+netics on  calcium  seems likely  (Zucker  1989). Furthermore, 
+Zucker (1989) did not observe a saturation of the K  current for 
+intracellular calcium concentrations up to  20 PM,  but this was 
+under conditions in which calcium was released from an intracel- 
+lular chelator by flash photolysis, rather than under physiological 
+conditions. Adams et al. (1982) noted that 7, increased e-fold for 
+27 mV of depolarization, that c,  increased e-fold for  11 mV of 
+depolarization, and that c,  saturates abruptly (at a potential we 
+take as 50 mV positive to rest). Our kinetics are the simplest that 
+we could construct that are consistent with these data. The rate 
+functions were scaled so that 7, was fast enough for the conduc- 
+tance to be partially activated during a single action potential (7, = 
+3.62 ms at 60 mV relative to rest). We did not include inactivation 
+of this current. 
+
+640 
+
+Ionic  conductance  densities 
+
+TRAUB  ET  AL. 
+
+This study proceeded in two phases. First was a general explora- 
+tion of the effects of different soma-dendritic distributions of ionic 
+conductance densities, together with some fine-tuning of the rate 
+functions and the &  (i.e., the coupling of &a to intracellular Ca 
+concentration). We  shall not describe this exploration in  great 
+detail, but rather present two particular sets of conductance densi- 
+ties, for CA3 and CA1 pyramidal cells, respectively (Tables 3 and 
+4; Figs. 1 and 2). The second phase was a detailed examination of 
+the properties of the CA3 and CA 1 models with fixed parameters. 
+These properties will be presented in RESULTS. 
+
+Figure 3 shows the current-voltage relations for  three of the 
+model compartments. These curves reflect both the voltage- and 
+calcium-dependent kinetics and the conductance densities. It  is 
+customary to present current-voltage relations in the steady state, 
+when all of the membrane state variables have assumed their equi- 
+librium  values. For  understanding bursting, however, we have 
+found it more useful to use a pseudo-steady state in which all of 
+the membrane state variables are in equilibrium except for one of 
+the slowest ones, r (representing gca inactivation); Y is assumed to 
+be 1. The reason for doing this is as follows. The current-voltage 
+relation provides physical insight if  one can approximate the 
+membrane dynamics at a particular membrane voltage as an ap- 
+proach to  the steady-state characteristic of  that  voltage, even 
+though membrane currents keep changing the membrane voltage. 
+In the “true”  steady state of the model, gca is largely inactivated at 
+depolarized membrane potentials. Thus the steady-state approxi- 
+mation is not appropriate for the understanding of bursting, which 
+critically depends on the occurrence of calcium-dependent action 
+potentials taking place from a state without gca inactivation.  On 
+the other hand, a typical burst of action potentials itself leads to 
+negligible gca inactivation, because the time constant of gca inacti- 
+vation is long relative to the depolarized part of a burst. The ap- 
+proximation r = 1 is therefore appropriate in this context. (Were a 
+low-threshold Ca current to be included in  the model, this ap- 
+proach would become more complicated.) We plot the current- 
+voltage relation at a number of different “clamped” values of x, 
+the intracellular Ca concentration. These different x values deter- 
+mine the extent to which gKccj and gKcAHP) are activated. The cusps 
+that occur in some of the curves at 50 mV positive to rest reflect the 
+postulated sudden saturation of g,,,,  at this potential. 
+
+3. 
+
+TABLE 
+jt3r CA3 cell model 
+
+Ionic conductance densities (mS/cm”, 
+
+Compartment  gNa 
+
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 (soma) 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+20.0 
+0.0 
+15.0 
+30.0 
+15.0 
+0.0 
+20.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+
+&a 
+
+0.0 
+5.0 
+5.0 
+12.0 
+12.0 
+12.0 
+5.0 
+8.0 
+4.0 
+8.0 
+5.0 
+17.0 
+17.0 
+17.0 
+10.0 
+10.0 
+5.0 
+5.0 
+0.0 
+
+For  abbreviations  see Glossary. 
+
+gK( 
+
+DR) 
+
+gK(AHP) 
+
+kc) 
+
+gK(A) 
+
+gL 
+
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+20.0 
+0.0 
+5.0 
+15.0 
+5.0 
+0.0 
+20.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+
+0.0 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.0 
+
+0.0 
+5.0 
+5.0 
+10.0 
+10.0 
+10.0 
+5.0 
+20.0 
+10.0 
+20.0 
+5.0 
+15.0 
+15.0 
+15.0 
+15.0 
+15.0 
+5.0 
+5.0 
+0.0 
+
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+5.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+
+TABLE  4. 
+for  CA1 cell model 
+
+Ionic conductance densities (mS/cm”, 
+
+compartment 
+
+gNa  gca 
+
+gK(DR) 
+
+gK(AHP) 
+
+gWC) 
+
+gK(A) 
+
+gL 
+
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 (soma) 
+10 
+11 
+12 
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+20.0 
+0.0 
+15.0 
+30.0 
+15.0 
+0.0 
+20.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+
+0.0 
+5.0 
+5.0 
+7.0 
+7.0 
+12.0 
+5.0 
+8.0 
+4.0 
+8.0 
+5.0 
+17.0 
+7.0 
+7.0 
+7.0 
+5.0 
+5.0 
+5.0 
+0.0 
+
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+20.0 
+5.0 
+10.0 
+25.0 
+10.0 
+5.0 
+20.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+
+0.0 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.8 
+0.0 
+
+0.0 
+5.0 
+5.0 
+5.0 
+5.0 
+10.0 
+5.0 
+20.0 
+10.0 
+20.0 
+5.0 
+15.0 
+5.0 
+5.0 
+5.0 
+5.0 
+5.0 
+5.0 
+0.0 
+
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+5.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+0.0 
+
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+0.1 
+
+Numerical  methods.  The  differential  equations  were  integrated  using  a 
+2nd-order  Taylor  series method  (Daniel  and  Moore  1970; Traub  and  Miles 
+199 lb)  with  a fixed  time  step of 50  ps. Programs  were  written 
+in  FOR- 
+TRAN  and  run  on  an IBM  3090  computer.  For  making  figures, data were 
+stored  every 0.25  ms of a simulation. 
+
+Several features of the current-voltage relations are worthy  of 
+note. The soma has a “well”  of inward current at 25 mV positive to 
+rest, as a result of gNa. The relatively small gca appears as an inflec- 
+tion  on the current-voltage curve at 60 mV when x  is small. In 
+contrast, at 0.3X from the soma, there are two distinct wells, one 
+for gNa and one for gca, with  the latter disappearing as x  is in- 
+creased. We remind the reader that gca inactivation was not in- 
+cluded in this figure, so that disappearance of the gca well with 
+increasing x  is caused by activation of g,,,.  One expects that Na 
+
+@WV 
+
+gCa 
+I 
+’ 
+gK(C) 
+
+I 10  ms/cm2 
+
+I 
+
+9 
+
+- 
+
+19 
+
+*P 
+
+I 
+
+FIG.  2.  Densities  of 3 of the  ionic  conductances  in  the CA1  pyramidal 
+is the  same as in  the  CA3  model.  Electrotonic 
+
+cell  model.  Density  for & 
+architecture  (below)  is also the  same. 
+
+MODEL  CA3  CELL  WITH  MEMBRANE 
+
+CONDUCTANCES 
+
+641 
+
+Apical  Dendrite, 
+
+0.6L 
+
+from 
+
+soma 
+
+/ 
+
+/ 
+
+Apical  Dendrite, 
+
+0.3il 
+
+from 
+
+soma 
+
+1200 
+
+t 
+
+1600 
+
+- 
+
+1200 
+
+.’ 
+
+800 -* 
+
+250 
+
+200 
+
+150 
+
+100 
+
+50 
+
+= 
+
+0 
+
+x 
+
+x  =0 
+
+-20 
+
+0 
+
+20 
+
+Voltage 
+
+(mV 
+
+40 
+relative 
+
+60 
+to 
+
+rest) 
+
+80 
+
+I  
+
+100 
+
+FIG.  3.  Current-voltage 
+
+in  the 
+CA3  model,  plotted  for 6 different  values of x (submembrane  Ca concen- 
+tration).  All  ionic  conductances  assume  their  steady-state value  at  each 
+voltage,  except that  Y =  1 (i.e., there  is no  inactivation  of g&. 
+
+relations  for  3 different  compartments 
+
+partment in each dendritic cylinder with sufficient gNa to generate 
+an action potential (20 mS/cm2). 
+
+2) &a*  The density of gca was estimated by  Kay  and Wong 
+to be -7  mS/cm2 in isolated CA 1 cells. We have kept gca 
+(1987) 
+density near to this value on and next to the soma, the average 
+density on the soma and adjacent compartments being 6.15 mS/ 
+cm2. If this density is too large at the soma, action potentials be- 
+come too broad or do not repolarize. At  the same time, there must 
+be sufficient gca on and near the soma so that burstlike events 
+(usually without slow Ca-mediated action potentials) can occur in 
+isolated cells as illustrated in Fig. 4. In the model, gca is critical for 
+generation of the depolarizing envelope of such bursts. Intraden- 
+dritic recordings from isolated dendrites (Masukawa and Prince 
+1984) and from whole cells (Poolos et al. 1990; Wong et al. 1979; 
+Michelson and Wong, unpublished data) indicate that  calcium 
+spikes and bursts can be generated in the dendrites independent of 
+the soma. This is the case in both CA1 and CA3 cells. Calcium 
+spikes may be as large as 65 mV and are larger in the middle 
+dendrites than in the soma (Wong et al. 1979). Calcium-imaging 
+
+EXPERIMENT 
+
+SIMULATION 
+
+B 
+
+A til*m”u 
+50  ms  A  IlOmV 
+
+50  ms 
+
+50:s 
+
+spikes would occur readily at this dendritic location but that Ca 
+spikes would occur only in a “resting” condition of low intracellu- 
+lar Ca. Finally,  at 0.6X from the soma, gNa is absent. There is a 
+large &a well corresponding to the high gca density; this well per- 
+sists until x >  150, reflecting the absence of gK(DR) in this region of 
+the model membrane. One expects, therefore, that repetitive Ca 
+spikes might be generated here, provided that membrane potential 
+can be held depolarized enough and that at the same time the cell 
+is not too overloaded with Ca. A rapid time constant for removal 
+of intracellular calcium (i.e., a large value of &)  favors the occur- 
+rence of repetitive calcium spikes. 
+
+Some of  the justification  for  the conductance densities is as 
+
+follows. These comments apply to our CA3 model. 
+
+I) gNa. The data of Sah et al. (1988a) indicate that the density of 
+this conductance in an isolated cell can be as high as 40 mS/cm2. 
+For both CA3 and CA 1 models, we use a density of 30 mS/cm2 on 
+the soma and a somewhat smaller density on the adjacent mem- 
+brane. Because the apical dendrites in CA1 and CA3 cells (Masu- 
+kawa and Prince 1984; Wong et al. 1979) can generate Na spikes, 
+as can CA 1 basilar dendrites (Lacaille et al. 1987), we have a com- 
+
+(Simulation, 
+
+acid  (EGTA) 
+
+right). 
+
+In  the  experiment, 
+
+FIG.  4.  Bursts and repetitive  firing  in acutely  isolated  CA3  neuron  (Ex- 
+left) and  in  model  isolated  cell  containing  soma  and  1 basilar 
+periment, 
+the 
+and  1 apical  compartment 
+recording  electrode  contained  11  mM  ethylene  glycol-bis 
+whole-cell 
+(P-aminoethyl  ether)-N,N,N’,N’-tetraacetic 
+to  block  Ca-de- 
+pendent  currents.  In  the  model,  $&)  and  gKtAHP) were  each reduced  20- 
+fold.  Passive membrane  properties  in  the  model  were  not  altered  to agree 
+with  the much  higher  R,  and  smaller  Cm of the isolated  cell. Experimental 
+traces are A:  spontaneous  bursts; B: repetitive  single  action  potentials  (dif- 
+ferent  cell);  C: burst  in  the  same cell as B; the cell was held  hyperpolarized 
+and  then  a sustained  depolarizing  pulse  delivered.  Model  traces: A: repeti- 
+tive  bursting  during  passage of  steady 0.015nA 
+into  soma.  B: 
+rhythmic  action  potentials  during  passage of 0. 1-nA  current  into  soma. C: 
+cell  was hyperpolarized  with  a steady -0.05  nA  current,  and  then  a 0.07 
+nA  current  pulse  was applied;  current  trace below.  Note  that gc, appears to 
+be  activated  faster than  in  the  corresponding  experimental 
+trace,  and  it 
+produces  a plateau  rather  than  a discrete  slow action  potential.  Horizontal 
+they mark  injected 
+lines  in  simulation 
+current 
+traces  may  be 
+caused by spontaneous  openings  of single  membrane  channels,  the  effect 
+of  this  being  apparent  because  of the  very high  input  resistance  of  the 
+isolated  cell, up  to  1,000 MQ  (Kay  and  Wang  1986). 
+
+traces mark  the  resting  potential; 
+
+records.  Noise  in  experimental 
+
+in  experimental 
+
+current 
+
+642 
+
+TRAUB  ET  AL. 
+
+3,  &(DR)* 
+
+experiments likewise indicate the existence of voltage-dependent 
+gca channels in basilar and apical dendrites (Regehr et al. 1989), 
+although perhaps not in  the most extreme distal dendrites. We 
+have therefore placed sufficient gca in both sets of dendrites so that 
+large calcium spikes can be locally generated (see later). By modify- 
+ing the amount of dendritic gca together with somatic gK(pRJ, we 
+can regulate how the cell responds to somatic injection of current: 
+either with bursting or with trains of action potentials. 
+
+Although several outward currents may contribute to 
+repolarization of the action potential (Storm 1987), &@R) should 
+be sufficient to repolarize the action potential unassisted at least in 
+an isolated CA1 cell (Sah et al. 1988b). We chose to follow Sah et 
+al. (1988b) in this respect. If gk(PR) density is too small, the action 
+potential becomes too broad or does not repolarize at all; if the 
+density is too large, the action potential is too small or there is a 
+large immediate AHP  (although this latter might be masked by 
+I&.  Because the model contains regions of dendritic gNa, gk(DR) 
+must be located in the dendrites to repolarize dendritic Na action 
+potentials. On the other hand, significant &@R) in the more distal 
+dendrites would suppress the generation of Ca spikes. This in turn 
+meant that gKccJ was the main outward current for repolarization 
+of calcium spikes. This current was especially important because 
+the voltage-dependent inactivation of Ica is slow. 
+
+4, 
+
+gK(C) 
+
+5  >  &(AHP) 
+
+l  The density of this conductance approximately fol- 
+lowed that of gca to ensure repolarization of Ca spikes. The relative 
+density of the two conductances was reflected in the width of the 
+calcium spikes. Inclusion of additional dendritic K currents (e.g., 
+M  current, A  current) might have altered the requisite balance 
+between gca and gKtc). 
+
+l  A  constant density was used (except where gca was 
+absent) sufficient that a post-burst AHP was in the range 5- 10 mV. 
+@  gK(A)  was located only at the soma, an assumption that may 
+not be accurate. The density was sufficient to produce a character- 
+istic lag in the response to a depolarizing current after the cell had 
+been hyperpolarized  for  several hundred  milliseconds (not 
+shown). Although this current produced some effects on repetitive 
+bursting (some prolongation of the interburst interval), its contri- 
+bution to the model behavior appeared to be rather subtle. By 
+“titrating”  the density of &(A)) we noted that increasing this den- 
+sity led to a delay in onset of a current-evoked action potential, as 
+well as to a smaller amplitude of the action potential. This implies 
+that the current was activated on the upstroke of the action poten- 
+tial.  Perhaps if  we had used somewhat slower kinetics for  this 
+conductance, it  might instead have made more contribution  to 
+action-potential repolarization. 
+
+RESULTS 
+Somatic  action  potential 
+
+somatic 
+
+injection 
+
+conditions: 
+
+Figure  5  illustrates  superimposed 
+
+somatic  action  poten- 
+tials  generated  by  the  whole  neuron  model  under  three  dif- 
+ferent  stimulation 
+of  0. l-, 
+0.4-,  and  0.5-nA  currents.  The  spikes  are  aligned  at  the 
+to  rest  on  the  initial  phase.  The 
+point  10.5  mV  depolarized 
+width  of  this  spike  at  half-amplitude 
+is  1.25 ms,  somewhat 
+(1990)  (0.8  ms).  This 
+wider  than 
+that  observed  by  Miles 
+may  be  a reflection  of  too-slow  DR  kinetics 
+in  the  model  or 
+of the  model’s  use  of first-power  kinetics  (IKcr,RJ CC n) rather 
+than  higher-power  kinetics 
+The  spike  afterpotential 
+
+(such  as IkcDR)  oc n3). 
+is  sensitive 
+
+to  the  stimulating 
+
+conditions.  A  single  spike  evoked  by  an  on-off  current  pulse 
+may  be  followed  by  a  DAP  (see below  and  Fig.  6).  On  the 
+other  hand,  spikes  that  occur  from  depolarized  holding  po- 
+tentials  are  often  followed  by  a  brief  AHP 
+(see below  and 
+bottom  2  traces  of  Fig.  8). 
+
+Calcium  dependence  of  the  DAP  and  contribution 
+to  burst  generation 
+
+of DAP 
+
+Two  important 
+
+observations  of  Wong  and  Prince  (198  1) 
+on  CA3  cell  bursts  were  these:  a burst  could  sometimes  be 
+pulse,  whereas  the  same 
+elicited  by  a  brief  depolarizing 
+pulse  followed  by  a  hyperpolarizing 
+pulse  could  abort  the 
+instead  a single  spike  followed  by  a DAP  last- 
+burst,  leaving 
+ing  some 
+turn,  was 
+shown  to  be  in  large  part  dependent  on  a calcium  current. 
+These  behaviors  also  occur  in  our  model  (Fig.  6).  On  the  left 
+of  Fig.  6,  a  depolarizing-hyperpolarizing 
+current  pulse  is 
+an  action  potential.  The 
+injected 
+into 
+electrotonically 
+response  in  the  dendrites  also 
+
+tens  of  milliseconds. 
+
+the  soma,  eliciting 
+
+propagated 
+
+The  DAP, 
+
+in 
+
+Deferent  Ca  dynamics 
+
+in  the  soma  and  dendrites 
+
+Assuming that  C-current kinetics are the same in  soma and 
+dendrites, we then found it necessary to delay the coupling of Ca 
+entry to C-current activation in the dendrites. This was necessary 
+for the occurrence of large dendritic calcium spikes. Our finding 
+may be an artifact of the C-conductance formalism that we use in 
+that intracellular calcium is always in equilibrium with the con- 
+ductance (because the  conductance is proportional to  x).  We 
+make the assumption that the dendritic shell in which calcium 
+interacts with K  channels is larger (by a factor of 4.44) than the 
+corresponding shell for the soma and immediately adjacent com- 
+partments. The relevant parameter in the model is called 4i (see 
+the Glossary and Eq. 3). Thus more calcium entry must occur in 
+the dendrites compared with the somatic region to raise x by the 
+same extent. This assumption is equivalent formally to assuming 
+stronger buffering of calcium in the dendrites than in the soma. 
+The approach of  Yamada et  al. (1989) is an alternative one, 
+whereby calcium is not  in equilibrium with  the C-channel but 
+rather influences the kinetics of channel opening. 
+
+20  mV 
+
+FIG.  5.  Single action potentials in CA3 cell model at 3 different somatic 
+
+bias currents (0.1,0.4, and 0.5 nA).  Action potentials were aligned at 10.5 
+mV positive to resting potential. Action potential peaks are all within  1 mV 
+of each other.  Afterpotentials  do not  reflect differences in  intrinsic  currents 
+but rather  the effect of the bias current,  with  a larger  bias current  associated 
+with  a more  depolarized  afterpotential. 
+
+Apical 
+
+dendrite 
+
+0.6 
+
+k 
+
+from 
+
+soma 
+
+dendrite 
+
+Apical 
+0.3 
+
+1.  from 
+
+soma 
+
+MODEL  CA3  CELL  WITH  MEMBRANE 
+
+CONDUCTANCES 
+
+643 
+
+I3 
+
+C 
+
+W=k 
+
+gca) 
+
+FIG.  6.  Calcium  dependence  of the  depolarizing 
+
+afterpotential  (DAP)  and  details  of bursts initiated  by 
+somatic  stimulation.  A: a depolarizing/hyperpolariz- 
+trace)  elicits  a  somatic  and 
+ing  pulse  (bottommost 
+proximal  dendritic 
+fast spike, but  no  Ca spike and  no 
+burst.  Potential  developing  in  the  dendrite  has, how- 
+ever, a slow  regenerative  (but  subthreshold)  compo- 
+nent-compare 
+the  slow  relaxation  of the  0.6X  po- 
+tential  with  the corresponding  potential 
+in  C (where 
+g,,  is  blocked).  This  slow  Ca-dependent  potential 
+produces  a spike  DAP  in  the  soma (*)  and  proximal 
+dendrites.  B: same depolarizing  current  as in A, with- 
+out  the hyperpolarizing 
+current,  allows  the more  dis- 
+tal dendrite 
+to generate  a full  Ca spike, and  the soma 
+and  proximal  dendrites  burst  (compare  Wong  and 
+Prince  198 1). C: same stimulus  was applied  as in  B, 
+but  with  gc,  blocked.  Without  gc,,  a burst  cannot 
+develop,  and  the  spike DAP  is smaller  than  in A  (so- 
+matic  traces from  A  and  C superimposed 
+in  bottom 
+right  inset). 
+
+c 
+
+h 
+
+L 
+
+; 
+
+I50mV 
+
+L13nA 
+
+50  ms 
+
+Superimpose 
+
+A  &  C 
+
+in  proximal 
+
+as is  evident 
+
+large  amplitude 
+
+to  the  DAP,  both 
+
+and  slow relaxation 
+
+from 
+(compare 
+
+its 
+contains  a  regenerative  component, 
+relatively 
+the 
+top  trace  in  Fig.  6A  with  the  top  trace  in  Fig.  6C,  gca having 
+been  blocked 
+in  the  latter).  The  Ica  so generated  contributes 
+in  turn 
+dendrites  and  the 
+soma  (Fig.  6A,  bottom  2  traces).  The  DAP,  after  a  single 
+spike  with  g,,  blocked, 
+(Fig.  6C), 
+in  soma  and  proximal  dendrites 
+even  though 
+are  very  close  to  the  same  amplitude.  A  residual  DAP 
+inde- 
+pendent  of  gc,  has been  noted  experimentally 
+(Konnerth  et 
+al.  1986),  and  simulations 
+in  an  earlier  model  suggested 
+the  residual  DAP  was caused  by  discharging  of  den- 
+that 
+dritic  capacitance  originally 
+charged  by  the  Na  spike  (Traub 
+1982). 
+
+is  considerably 
+
+the  Na-spikes 
+
+smaller 
+
+stimulus 
+
+conditions, 
+
+When  only  the  depolarizing 
+
+that  small  dendritic  membrane 
+
+is given,  the  regener- 
+ative  Ca  event  is just  able  to  evoke  a dendritic  Ca  spike  (Fig. 
+6B)  and  hence  a burst.  In  these  near-threshold 
+shunts  or 
+one  can  imagine 
+such  as might  occur  in  the  slice  from 
+hyperpolarizations, 
+postsynaptic  potentials 
+(IPSPs),  would 
+dendritic 
+inhibitory 
+prevent 
+the  complete  burst.  Note  that,  in  the  proximal  den- 
+drites,  the  burst  contains  both  rapid  and  slower  action  po- 
+tentials,  as occurs  experimentally 
+trace). 
+Under  conditions 
+shunts  are pres- 
+ent  at  the  soma  (to  block  action  potentials)  and  in  the  mid- 
+dle  dendrites 
+(to  block  Ca  spikes),  single  action  potentials 
+can  be  evoked  at  0.3X  from 
+tentials  appear 
+(Schwartzkroin 
+
+these  Na  action  po- 
+then  at  the  soma  as d-spikes  (not  shown) 
+1977;  Spencer  and  Kandel  1961). 
+
+in  which  tonic-inhibitory 
+
+(Fig.  6B,  middle 
+
+the  soma; 
+
+Membrane 
+
+events  during  a  burst 
+
+Figure  7  provides 
+
+insight 
+
+into  some  of  the  membrane 
+
+events  during  a burst  (evoked  by  a steady  current  of  0.3  nA 
+the  soma).  We  have  plotted  certain  variables 
+injected 
+from 
+(right)  at  a 
+location  where  g,,,  gkcAHP), and  g,,,,  are  the  only  active 
+
+the  soma  (left)  and  middle  apical  dendrite 
+
+into 
+
+to  the  different  active  membrane 
+
+conductances.  Below  the  voltages  (v)  are plotted  quantities 
+that  are proportional 
+con- 
+ductances*  Thus  &(AHP)  K  4, gK(DIX) E  n, &C(C) K  %  &a  K 
+s2r, and  g,,  oc m2h.  The  sequence  of  events  during  a burst, 
+is as follows:  a brief  series 
+with  these  stimulating 
+of  action  potentials 
+in  the 
+the  dendrites.  The  elec- 
+soma  and  propagates  distally 
+trotonic  potentials 
+in  turn  evoke  Ca  elec- 
+trogenesis 
+(see the  2  discrete 
+trace  of  Fig.  7).  The  dendritic 
+humps 
+
+(2  in  the  present  case) develops 
+
+into 
+in  the  dendrites 
+
+in  the  right  voltage 
+
+is  subthreshold 
+
+conditions, 
+
+initially 
+
+that 
+
+Soma 
+
+Apkal 
+0.6 
+
+Dendrite 
+
+;1 from 
+
+soma 
+
+50  ms 
+
+FIG.  7.  State variables  during  a burst  (CA3  cell  model).  Combinations 
+
+of  variables  were  chosen  to  which 
+the  different  ionic  conductances  are 
+proportional.  Thus  gca oc q, gktDR) CC n, gKtc) cc cx (provided  x remains  below 
+saturation;  see Eq. 2), gcaE s2r, and g,,cc  m2h. Burst  occurred  during  injec- 
+tion  of 0.3  nA  current 
+into  the  soma.  Note  the  large  dendritic  Ca  spike, 
+with  multiple  components.  First  2  Ca  events  follow  somatic  Na  spikes 
+whereas  the  large  component  of the  Ca  spike  in  turn  contributes 
+to  the 
+somatic  burst  envelope.  A  full  Ca spike  does not  occur  in  the  soma, al- 
+though  transient  Ca currents  flow  (compare  the  s2r signals  at the  2 loca- 
+tions).  Because gk(DR) and g,,  are absent 0.6X  from  the soma in  the model, 
+n and  m2h are not  shown  on  the  right. 
+
+TRAUB  ET  AL. 
+
+iors  are  seen  experimentally, 
+for  cells  in  the  slice 
+one  can  see more  action  potentials  between  bursts  than  oc- 
+curs  in  the  model. 
+In  the  model,  such  a brief  run  of  spikes, 
+as “recorded”  at  the  soma,  is not  associated  with  a dendritic 
+
+although 
+
+to  this  envelope:  note  Ca  spike  (not  shown);  this  is the  reason  that  a full  AHP  does 
+
+not  follow 
+
+the  brief  train. 
+
+- -_ 
+
+significantly 
+
+if  depolarized  sufficiently 
+
+membrane, 
+long  and  if  not  exces- 
+sively  shunted,  can  develop  a large  Ca  spike  (Fig.  7,  right) 
+that  in  turn  propagates  back  to  the  soma  and  contributes 
+to 
+the  depolarizing 
+envelope  of the  burst.  In  contrast,  somatic 
+g,,  does  not  contribute 
+that  somatic  s2r consists  of  a series  of  transient  deflections 
+rather  than  the  sustained  wave  of gca in  the  apical  dendrite. 
+Somatic  action  potentials  are  repolarized  by  both 
+the  DR 
+(oc cx),  with  the  DR  being  more 
+(n)  and  the  C-conductance 
+activated 
+is  fol- 
+lowed  by  a  prolonged  AHP. 
+in  the 
+gKtAHP) is  activated  sooner  and  to  a  greater  extent 
+dendrites 
+than  at  the  soma.  Our  model  did  not  produce 
+slow  Ca-dependent  spikes  at the  soma;  such  events  could  be 
+seen in  the  proximal 
+
+(and  also  denser)  at  the  soma.  The  burst 
+
+dendrites,  however  (Fig.  6B). 
+
+the  burst  here  illustrated, 
+
+In 
+
+Low-frequency 
+repetitive  action  potentials 
+
+rhythmic  bursting  and  high-frequency 
+
+into 
+
+the  soma,  depending  on  the  magnitude 
+
+Another  basic  property  of  CA3  cells  is  that  they  express 
+in  response  to  steady  injection  of 
+different  modes  of  firing 
+current 
+of  the 
+injected  current  (Wong  and  Prince  198 1).  For  small  depo- 
+larizing  currents,  rhythmic  bursting  at  low  frequency 
+is  ob- 
+served,  whereas  for  large  injected  currents,  only  rhythmic 
+(or  small  groups  of  spikes)  are  seen. 
+single  action  potentials 
+(198  1) studied  burst  frequency  as a 
+Hablitz  and  Johnston 
+to 
+function  of  membrane 
+to  -  1 .O 
+-5  1 mV,  burst  frequency 
+this 
+Hz.  Figure  8 demonstrates 
+of 
+type  of  behavior.  The  bursting 
+currents  x0.2  nA  is  stable  and  rhythmic. 
+for  in- 
+jected  currents  of  20.5  nA,  the  initial  burst  is  a  transient, 
+whereas  the  repetitive 
+is  stable  and  persistent.  More 
+complicated 
+currents,  consisting  of  full  bursts  (with  dendritic  Ca  spikes 
+and  prominent  AHPs) 
+intermixed  with  brief  runs  of  spikes 
+(as  in  the 
+that  are  on  occasion 
+followed  by  a  small  AHP 
+0.3.nA 
+behav- 
+
+increased 
+that  our  model  also  exhibits 
+induced  by  injection 
+
+trace  in  Fig.  8).  Similar 
+
+types  of  intermediate 
+
+potential.  Over 
+
+the  range  -59 
+
+are  observed 
+
+intermediate 
+
+behaviors 
+
+Likewise, 
+
+-0.28 
+
+firing 
+
+from 
+
+at 
+
+0.1  nA 
+
+0.2  nA 
+
+)4 
+
+0.3  nA 
+
+0.4  nA 
+
+0.5  nA 
+
+I 
+
+)( 
+
+I  50  mV 
+
+m 
+
+100  ms 
+
+FIG.  8.  Different  firing  modes  of the CA3  model  during  tonic  depolar- 
+izing  stimulation  at the  soma.  For  smaller  stimulating  currents,  the  cell 
+generates rhythmic  bursts at low  frequency  (see also Fig.  10). At  somewhat 
+higher  currents  (e.g., 0.3 nA)  rhythmic  bursts occur,  but  with  intercalated 
+runs  of fast spikes; these  runs  have  little  depolarizing  envelope,  a small 
+AHP,  and  no  concurrent  dendritic  Ca spike  (not  shown).  At  sufficiently 
+large  currents  (e.g. 0.5 nA),  after an initial  burst,  the cell settles into  rhyth- 
+mic  single  action  potentials  (see also Fig.  10). 
+
+calcium 
+
+repetitive 
+
+the  stimulus 
+
+the  injection 
+
+is excited  tonically 
+
+The  model  predicts 
+
+the  AHP  has diminished 
+
+The  firing  modes  illustrated 
+
+ThirdJiring  mode:  rhythmic  dendritic  Ca  spikes 
+in  Fig.  8 are  known 
+
+to  occur 
+the  occurrence  of  an- 
+experimentally. 
+in  the 
+other  mode  of  firing  behavior  when  a compartment 
+(Fig.  9). In  this 
+middle  or  distal  dendrites 
+third  mode, 
+spikes  are  generated,  each 
+being  correlated  with  a brief  burst  of action  potentials  at the 
+soma.  Figure  9 depicts  some  of the  mechanisms  underlying 
+firing  modes.  1) With  a small  somatic  depo- 
+these  different 
+larizing  current 
+(Fig.  9,  left),  a  large  and  prolonged  AHP 
+follows  a  burst.  Because  of  the  small  stimulus,  no  somatic 
+action  potentials  occur  until 
+suffi- 
+ciently.  When  somatic  action  potentials 
+finally  do  occur, 
+they  are  able  to  propagate  back  to  the  dendrites  and  elicit 
+of  large  somatic 
+regenerative  g,,  .  2)  During 
+currents  (Fig.  9,  middle), 
+to 
+in  spite  of the  local  dendritic 
+elicit  somatic  action  potentials 
+shunt  from  gKcAHP) and  other  outward  currents. 
+membrane 
+they  find 
+When 
+full  Ca  elec- 
+the  dendritic  membrane 
+trogenesis.  Nevertheless,  enough  Ca  entry  still  occurs  to 
+the  dendritic  shunt  via  gktAHP) and  gKcc). This  pat- 
+maintain 
+firing  continues.  3)  During 
+tern 
+the  dendrites, 
+current 
+injection 
+the  local  membrane 
+is  overcome. 
+fast 
+spikes  are  initiated 
+(Fig.  9, 
+to  initiate  Ca  spikes.  The  sus- 
+right),  propagating 
+allows  this  process  to  occur 
+tained  dendritic  depolarization 
+at  much  higher 
+than  will  be  seen during  burst- 
+ing  caused  by  somatic  stimulation. 
+the  latter  case, the 
+long  AHP 
+frequency  because  of  the  dendritic 
+shunt.  In  the  case of dendritic 
+limited 
+stant  for  removal  of Ca  from  the  submembrane 
+ms  in  the  present  model). 
+
+in  the  soma  in  these  conditions 
+distally 
+
+is  stable  and  so  rhythmic 
+of  large  depolarizing 
+
+is 
+the  time  con- 
+shell  (13.33 
+
+by  more  rapid  processes,  including 
+
+into 
+In  the  model, 
+
+these  spikes  propagate 
+
+is  strong  enough 
+
+the  dendrites, 
+
+the  frequency 
+
+too  shunted 
+
+frequencies 
+
+stimulation, 
+
+to  permit 
+
+shunt 
+
+limits 
+
+into 
+
+the 
+
+In 
+
+How  much  cell  membrane 
+transition 
+action  potentials? 
+
+from 
+
+repetitive  bursting 
+
+is  required 
+
+to  observe  the 
+to  rhythmic  single 
+
+from  bursting 
+
+Given  a  set  of  ionic  conductance 
+
+densities  and  mem- 
+is 
+brane  kinetics,  one  can  ask  how  much  cell  membrane 
+to  repeti- 
+necessary  to  generate  a  transition 
+in  the  model  by  dis- 
+tive  firing.  We  addressed  this  question 
+larger  pieces  of  the  distal  apical 
+connecting  progressively 
+in  each  case, a range  of  currents  was 
+and  basilar  dendrites; 
+to 
+then  injected 
+firing  shown  in  Fig.  8  was little  altered  when  the 
+repetitive 
+basilar  dendrites  were  0.6X  and  the  apical  dendrites  were 
+also  0.6X  in  electrotonic 
+the  case was dif- 
+ferent  with  much  shorter  dendrites.  For  example,  when 
+each  set of dendrites  was only  0.4X,  the  cell  would  generate 
+only  bursts  until 
+the  current  was large  enough  (1 .O nA)  to 
+drive  the  membrane 
+
+into  a sustained  steady  depolarization. 
+
+into  the  soma.  The  transition 
+
+length.  However, 
+
+from  bursting 
+
+MODEL  CA3  CELL  WITH  MEMBRANE 
+
+CONDUCTANCES 
+
+645 
+
+0.3  nA 
+
+to  soma 
+
+0.5  nA 
+
+to  soma 
+
+1.5  nA 
+
+to  apical 
+
+dendrite, 
+
+0.6R 
+
+from 
+
+soma 
+
+dendrite 
+
+Apical 
+0.6 
+
+il  from 
+
+soma 
+
+Apical 
+0.3 
+
+dendrite 
+
+il  from 
+
+soma 
+
+Soma 
+
+50  ms 
+
+regions  of the  CA3  model.  Left:  burst  initiated  by  somatic  current 
+
+FIG.  9.  Events in different  membrane  regions  help  to explain  why  different  firing  modes  exist. Maintained  currents  were 
+applied  to  different  membrane 
+injection  begins  with 
+somatic  action  potentials.  These  propagate  distally.  Provided  that  the dendrite  is not  too  hyperpolarized  or shunted  (which 
+will  be true  if no firing  has taken  place  for > 1 s), the induced  den&& 
+This  in 
+turn  leads to a burst  more  proximally  and  in the soma itself. Middle:  with  a larger  somatic  injected  current,  somatic  spikes are 
+induced  despite  the membrane  shunt.  Distal  dendritic  membrane 
+is too  shunted  for full  Ca spikes to develop,  but  enough 
+subthreshold  Ca  current  flows  to  maintain 
+the  shunt.  Right:  injection  of a large  current  directly  into  the  dendrite  allows 
+dendritic  Ca spikes to  occur  despite  the  local  membrane  shunt.  Note  that,  even with  dendritic  stimulation,  each calcium 
+spike is initiated  by a Na  spike  in  the  soma/proximal  dendrites. 
+
+can become  fully  regenerative. 
+
+depolarization 
+
+fragment, 
+
+cell  might 
+
+that  CA3  recurrent  excitatory 
+
+possible 
+pyramidal 
+of  the  apical  and  basilar  dendrites 
+
+to  any  given 
+impinge  on  relatively  discrete  regions 
+(Ishizuka  et  al.  1990). 
+as few as two  action  potentials.  Runs  of  Therefore,  during  a  synchronized  burst  occurring  during 
+synapses  (Miles  et  al.  1984),  discrete 
+in  an  intense  but  basi- 
+could  elicit  re- 
+to  this  issue later  in 
+
+blockade  of  GABA, 
+dendritic 
+tally  physiological  manner.  This  excitation 
+petitive  calcium  spikes.  We  shall  return 
+the  context  of  synchronized  multiple 
+
+As  the  injected  current  was increased  up  to  0.8  nA  in  the 
+the  average  frequency  of  bursts  increased, 
+cell 
+and  long  (-200  ms)  bursts  became 
+intermixed  with  short 
+bursts  containing 
+single  action  potentials  were not  sustained  more  than  -  100 
+ms.  The  exact  dendritic 
+tive  firing 
+tive 
+example, 
+duced  20=fold,  then  even  the  model 
+with  an  attached  basilar  and  apical  compartment) 
+hibit  a burst/repetitive 
+is  increased  (Fig.  4). 
+
+transition  becomes  blurred  or  lost  is clearly  sensi- 
+of  outward  current  densities.  For 
+if  the  densities  of  gKtc)  and  gKtAHP) are  each  re- 
+“isolated  soma”  (soma 
+
+length  at which  the  bursting/repeti- 
+
+aspects  of  three  modes  ofJiring 
+
+transition  as injected  current 
+
+can  ex-  Quantitative 
+
+regions  might  be  excited 
+
+to  the  distribution 
+
+bursts. 
+
+inputs 
+
+firing 
+
+Rhythmic 
+
+pocampal  physiology 
+ents  to  hippocampal 
+
+dendritic  Ca  spikes  might  be  relevant 
+
+to  hip- 
+in  the  following  way.  Because  affer- 
+neurons 
+
+to  be  laminated, 
+
+tend 
+
+Figures  10 and  11 summarize, 
+
+(f1)  curves,  the  three  different 
+
+in  the  form  of  frequency- 
+firing  modes  pre- 
+current 
+sented  above.  Figure  10,  left,  shows  that 
+low-frequency 
+bursting  occurs  over  the  same  frequency  range  as observed 
+.O 
+
+by  Hablitz  and  Johnston 
+
+(198  1),  -0.3-l 
+
+it  is  experimentally 
+
+L 
+
+0.1 
+
+0.2 
+
+Somatic 
+
+Injected 
+
+Current 
+
+(nA) 
+
+0.8 
+
+0.8 
+
+1.0 
+
+Somatic 
+
+Injected  Current 
+
+(nA) 
+
+FIG.  10.  Frequency-current 
+
+(fl)  curves for  2 firing  modes  induced  by somatic  current  injection.  CA3  model.  Note  the 
+different  frequency  ranges. Burst  frequencies  correspond  to those observed experimentally 
+(Hablitz  and Johnston  198 1). We 
+did  not  count  action  potentials  during  repetitive  bursting  to  derive  mean  action  potential  rate  during  repetitive  bursting. 
+Insets: representative  voltage tracings  for the 2 firing  modes;  bottom  trace is somatic  potential  and top trace is potential  in  the 
+apical  dendrite  0.6X  from  the  soma. Calibrations 
+
+for insets are 25  mV  and  500  ms. 
+
+646 
+
+TRAUB  ET  AL. 
+
+firing 
+
+[Large  currents,  >  1.15  nA,  cause higher- 
+voltage  transients. 
+in  which  is  embedded  a burst  with  a depo- 
+frequency 
+lacking  a significant  AHP  (not  shown).  A 
+larizing  envelope, 
+transient 
+initial  acceleration  of  firing  is seen in  the  slice  also 
+in  CA1  cells  stimulated  with  large  currents  (see the  raster 
+plots  of Lanthorn  et al.  1984).]  Stimulation 
+at 0.3X  from  the 
+to  that  seen  when  the  soma 
+soma  elicits  behavior  similar 
+the  distal  den- 
+itself  is  excited  (Fig.  12,  middle),  although 
+dritic  depolarization 
+fur- 
+ther  out  in  the  dendrites  (Fig.  12, right)  elicits  a full  calcium 
+spike  associated  with  a somatic  burst,  as occurs  experimen- 
+tally  (Wong  and  Traub  1982).  Note 
+that  the  somatic  depo- 
+in  this  case.  We  should 
+larizing  burst  envelope 
+point  out  that,  unlike 
+the  dendritic  cal- 
+cium  spike  so elicited 
+cally  during  a  sustained  depolarizing 
+Rather, 
+the  calcium 
+after  which  rhythmic 
+shown). 
+
+in  the  CA3  model, 
+in  our  model  does  not  recur  rhythmi- 
+current. 
+
+spike  is  followed  by  a  pause  of  -  1 s, 
+somatic  action  potentials  occur  (not 
+
+is  now  larger.  Finally,  stimulation 
+
+dendritic 
+
+is  small 
+
+Quantitative 
+
+aspects  of  CA1  cell  repetitive  firing 
+
+linear. 
+
+somewhat 
+
+currents  >0.25  nA,  the  plot  is roughly 
+
+The  fI  plot  for  our  model  CA  1 cell  is shown  in  Fig.  13. At 
+In 
+larger 
+et  al.  (1984),  who  give  average 
+for  the  two 
+the  lack  of 
+intervals 
+data  (Lanthorn  et 
+1978).  This  occurs  in  the  model 
+of a tonic  dendritic  depo- 
+(Fig.  12) that  initially  accelerates  firing  before  the 
+
+stimulating 
+the  adapted  state,  the  slope  is  74  Hz/nA, 
+than  reported  by  Lanthorn 
+values  of  34.1  and  19.7  Hz/nA, 
+classes of  CA1  cells  that  they  distinguish.  Note 
+adaptation  between  the  first  and  second  interspike 
+in  the  model, 
+al.  1984;  Schwartzkroin 
+because  of the  rapid  development 
+larization 
+AHP  current  develops  enough 
+
+in  contrast  to  experimental 
+
+to  slow  down  the  firing. 
+
+respectively, 
+
+Stimulate 
+
+soma 
+
+Stimulate 
+from 
+
+0.3  A 
+
+Stimulate 
+
+0.6 
+
+L 
+
+soma 
+
+from 
+
+soma 
+
+JWUNLA 
+
+m 
+
+0.6  A 
+soma 
+
+from 
+
+0.3 
+
+il 
+
+from 
+
+soma 
+
+.h 
+
+h 
+
+15OmV 
+
+Soma 
+
+lll/ll 
+
+u/L 
+
+JJIIJ.c 
+
+50  ms 
+
+FIG.  12.  CA1  cell model:  different  responses for somatic  and  dendritic 
+stimulation.  A  constant  current  (0.25  nA  in  each case) was injected  into  1 
+of 3 different  locations.  During  injection 
+into  the soma or  into  a site 0.3X 
+out  in the apical  dendrites  (left and  m&de,  respectively), repetitive  firing  is 
+elicited.  This  repetitive  firing  is superimposed,  in  the dendrites,  on  a tonic 
+depolarization. 
+injection  of  0.25  nA  into  the  apical 
+dendrite  0.6X  from  the  soma (right),  a full  dendritic  Ca spike occurs, asso- 
+ciated  with  bursting  in  the soma and  more  proximal  dendrites.  Burst  enve- 
+lope  in  the model  CA1  is smaller  than  in  the  model  CA3  cell, presumably 
+because of smaller  total  g,  in  the CA 1 model.  CA 1 model,  unlike  the CA3 
+model,  does  not  exhibit  periodic  bursting  during 
+injection  of  a  steady 
+current,  even into  the  dendrites. 
+
+In  contrast,  during 
+
+1.6 
+
+(nA) 
+
+Current 
+for  dendritic  current 
+
+Dendritic 
+
+Injected 
+f1 curve  in  CA3  cell  model 
+
+FIG.  11. 
+
+injections. 
+Bursting  can now  be induced  at frequencies  observed during  synchronized 
+multiple  bursts.  Note  the  1 and  2”  ranges  in  the  curve,  an  interesting 
+feature to check experimentally. 
+Insets: representative  voltage  tracings  for 
+the  1 and  2”  ranges:  bottom  trace  is  somatic  potential  and  top  trace  is 
+potential 
+for insets 
+are 25  mV  and  500  ms. 
+
+in the apical  dendrite  0.6X  from  the soma. Calibrations 
+
+that  determine 
+
+increases  at  -  80  Hz/nA 
+
+Hz.  Repetitive  action  potentials  elicited  by  somatic  depolar- 
+frequency  at  -25  Hz,  and  the 
+ization  occur  with  minimum 
+frequency 
+(Fig.  10,  right);  we are 
+this  frequency-de- 
+not  aware  of experiments 
+pendence  quantitatively.  With  somatically 
+injected  current 
+of  1.4  nA  and  above,  the  soma  enters  a state  of  depolariza- 
+tion  block  (not  shown).  The  fI  curve  for  dendritic 
+injection 
+current  exhibits  a  primary  and  secondary 
+of  depolarizing 
+range  (Fig.  11).  This  probably 
+reflects  the  fact  that  low-fre- 
+by  the  AHP  duration,  whereas 
+quency  bursting 
+on  an 
+high-frequency 
+approximately 
+fre- 
+quency  in  the  latter  case should 
+by  the 
+large  den- 
+kinetics  of the  gc,-x-gK~c~ s y stem.  For  sufficiently 
+dritic 
+the  dendritic  membrane 
+enters  a 
+state  of  sustained  depolarization 
+
+is  limited 
+bursting 
+constant  AHP  membrane 
+
+takes  place  superimposed 
+
+then  be  determined 
+
+injected  currents, 
+
+(not  shown). 
+
+shunt.  The 
+
+that 
+
+the  kinetics  of  the  membrane 
+
+We  shall  now  consider  briefly  our  CA1  pyramidal 
+
+model.  Recall 
+and  of  submembrane 
+same  as in  the  CA3  model,  but  that  the  distribution 
+ductance  densities 
+ent  conductance 
+spike  afterpotential 
+ms)  spike  AHP  before  a small  DAP 
+
+cell 
+currents 
+this  model  are  the 
+of  con- 
+(Table  4;  Fig.  2).  The  differ- 
+affects  the  simulated  CA1 
+(5-  10 
+
+(not  shown):  there  is  a transient 
+
+is  different 
+distribution 
+
+that  lasts  -20  ms. 
+
+calcium 
+
+(x)  in 
+
+CA1  cell  modeljking 
+of stimulation 
+
+behavior  depends 
+
+on  site 
+
+A  range  of different  steady  currents  was injected 
+
+into  dif- 
+ferent  regions  of  the  CA  1 cell  model.  Figure  12  illustrates 
+the  behavior  when  a steady  depola  rizing  current  of  0.2 5nA 
+i .nto  the  soma  (left)  or  0.3  or  0.6X , into 
+was injected  either 
+the  soma.  For  currents  <l 
+the  apical  dendrite  away  from 
+nA  injected 
+trains  of  action  poten- 
+tials  occur  (Fig.  12,  left),  associated  in  the  distal  dendrites 
+subthreshold 
+with  a tonic  depolarization 
+
+the  soma,  rhythmic 
+
+and  superimposed 
+
+into 
+
+MODEL  CA3  CELL  WITH  MEMBRANE 
+
+CONDUCTANCES 
+
+647 
+
+A 
+
+t 
+
+cl 
+
+A 
+
++ 
+
+Cl 
+
+T 
+
+4 
+
+A 
+t 
+
+0 
+
+4 
+
+0 
+
+. 
+
+. 
+
+0.. 
++ 
+
+A 
+
+@ 
+
+Cl0 
+
+Cl 
+
+cl 
+
+0 
+
+t  1st  ISI 
+ISI 
+A  2nd 
+0  Last 
+ISI  in  500  ms 
+
+A 
+- 
+0.0 
+
+. 
+
+- 
+0.2 
+
+. 
+0.4 
+
+. 
+
+- 
+0.6 
+
+. 
+
+. 
+0.8 
+
+- 
+
+- 
+1.0 
+
+Somatic 
+
+Injected  Current 
+
+(nA) 
+
+FIG.  13. 
+
+f1 curves for  CA 1 cell  model,  showing  data  for  the  1 st, 2nd, 
+and  steady-state interspike 
+interval  (ISI).  There  is significant  adaptation 
+between  the  1st and  last  ISI, but,  unlike  most  CA1  cells in  the  slice, not 
+this discrepancy  to the  model’s 
+between  the  1st and  2nd  ISI. We attribute 
+development  of a dendritic  depolarization 
+that transiently  tends to acceler- 
+ate firing  before  outward  currents  (e.g. gKcAHPJ slow  it  down. 
+
+Synchronized  multiple  bursts:  the  problem 
+
+We  now  turn  to  the  issue  of  networks  of  CA3  pyramidal 
+
+of  about 
+
+excitatory 
+
+interconnected 
+
+these  network 
+
+that,  with  probability 
+
+by  their  recurrent  excitatory  syn- 
+neurons 
+apses. This 
+is a  matter  about  which  we have  written  exten- 
+sively  (for  review  see Traub  and  Miles  199 1 b;  Wong  et  al. 
+1986).  The  essential  ideas  are  these:  1) the  density  of  CA3 
+the  slice  is  high  enough 
+recurrent  excitatory 
+synapses  in 
+that,  on  average,  each  pyramidal 
+cell  excites  many  other 
+cells  (Miles  and  Wong  1987a;  Traub  and  Miles, 
+pyramidal 
+connections  are 
+199 lb).  2)  The  monosynaptic 
+powerful  enough 
+l/2,  a pre- 
+synaptic  burst  of  action  potentials  can  elicit  a postsynaptic 
+(Miles  and  Wong  1986,  1987;  Traub  and  Miles 
+burst 
+199 lb).  3)  With 
+features  and  with  GABA, 
+inhibition 
+per- 
+haps  even  to  one  cell,  should  elicit  a chain  reaction  of  rap- 
+idly  spreading  excitation, 
+in  the  synchronized 
+firing  of  all  of  the  cells-the 
+shift 
+(PDS).  Such  events  do  occur  (Miles  and  Wong  1983;  Wong 
+and  Traub  1983)  and  are  associated  with  the  large  synaptic 
+excitation 
+fir- 
+inputs  (Johnston  and  Brown  198 1). 
+ing  of  all  of its  synaptic 
+one  can  readily 
+Furthermore, 
+this  type  of  net- 
+in  great  detail  with  a  single-cell  mod  .el  that 
+work  behavior 
+does  not  incorporate 
+vo ltage-clamp  data  (Traub  and  Wong 
+1982;  Traub  et al.  1987),  even  in  a model  without  a descrip- 
+tion  of  distinct  membrane 
+ionic  currents  at  all  (Traub  and 
+Wong  1983). 
+
+blocked,  one  expects  that  local  stimulation, 
+
+paroxysmal  depolarizing 
+
+to  each  cell  expected 
+
+the  simultaneous 
+
+culminating 
+
+reproduce 
+
+In  the  presence  of  GABA*  blocking  agents,  however,  a 
+type  of  network  behavior  often  occurs,  a 
+more  complex 
+In  this  behavior,  synchro- 
+behavior  not  so readily  explained. 
+1984;  Miles  et  al. 
+nized  multiple 
+1984).  The  first  burst  is  longer 
+than  subsequent  ones.  The 
+later  bursts  appear  at  intervals  of  -60  ms.  These  events 
+occur 
+ulating  a 
+required 
+single 
+
+spontaneously 
+cell.  A  critical 
+
+be  evoked 
+of  cells,  -  1 
+
+bursts  occur  (Hablitz 
+
+and  can 
+number 
+
+by  stim 
+,000,  is 
+
+from 
+
+for 
+
+synaptic 
+
+transmission 
+
+the  generation 
+
+of  synchronized  multiple 
+
+for  their  appearance.  Excitatory 
+necessary 
+bursts,  and  a transient  synaptic  signal  appears  in  phase  with 
+each  burst  (Miles  et  al.  1984).  We  could  not  succeed  in 
+reproducing 
+bursts  with  our 
+previous  single-cell  model  unless  rather  ad  hoc  properties  of 
+the  excitatory  synapses  or  recurrent  axons  were  postulated 
+(Traub  et  al.  1984). 
+
+synchronized 
+
+multiple 
+
+is 
+
+Synchronized  multiple 
+interaction  between  dual-action  excitatory  synapses 
+and  intrinsic  dendritic  conductances 
+
+bursts  represent  a  complex 
+
+involve  both  QUIS 
+
+The  present  single-cell  model 
+
+is  able  to  generate  brief 
+bursts  at  -  15  Hz  (Figs.  9  and  11)  when  the  dendrites  are 
+the  NMDA 
+excited.  Furthermore, 
+since  our  1984  study, 
+receptor  has been  at  least  partially  characterized. 
+In  particu- 
+lar,  the  conductance  produced  by  activation  of the  NMDA 
+receptor  when  the  cell  is  depolarized 
+can  relax  with  a time 
+constant  of  >  100  ms  (Forsythe  and  Westbrook 
+1988).  Let 
+that  recurrent  excitatory  synapses  between 
+us  hypothesize 
+CA3  neurons 
+re- 
+receptors  occur,  be- 
+ceptors. 
+cause  6-cyano-7-nitroquinoxaline-2,3-dione 
+can 
+abolish 
+et  al. 
+in  CA3 
+1990).  Although  we  are  not  aware  of  direct  experimental 
+receptors  at  recurrent  CA3  excitatory 
+evidence 
+synapses,  this  is a plausible  assumption 
+in  view  of  the  likely 
+receptors  at  Schaffer  collateral  syn- 
+occurrence  of  NMDA 
+1989)  and  of  the  results  of 
+apses  (Davies  and  Collingridge 
+binding 
+and  Cot- 
+man  1985). 
+
+studies  in  the  hippocampus 
+
+receptors  and  NMDA 
+
+synchronized 
+
+(Chamberlin 
+
+It  appears 
+
+(Monaghan 
+
+that  QUIS 
+
+for  NMDA 
+
+(CNQX) 
+
+firing 
+
+likely 
+
+the  spread  of bursting 
+
+If  it  is  true  that 
+component, 
+tonic  dendritic 
+
+the  recurrent  CA3  synapses  contain  an 
+then  recurrent  excitation 
+could  pro- 
+excitation.  QUIS  EPSPs  would  not 
+the  popula- 
+to  unblock 
+of  dendritic 
+
+NMDA 
+vide 
+only  mediate 
+tion,  but  also  depolarize 
+the  NMDA-activated 
+NMDA 
+then  elicit  repetitive  dendritic  cal- 
+cium  spikes,  expressed  at  the  soma  as brief  bursts.  Short- 
+duration  EPSPs  could  help  to  maintain 
+synchrony  of  these 
+brief  bursts. 
+
+throughout 
+the  dendrites  enough 
+
+channels.  Activation 
+
+receptors  would 
+
+small, 
+
+cells.  Although 
+
+Figure  14 demonstrates 
+
+that  these  ideas  are  at  least  con- 
+this  simulation,  we constructed  a  net- 
+this 
+the  number  of  inputs  per  cell, 
+
+sistent.  To  generate 
+work  of  100  identical  model  pyramidal 
+may  be  unrealistically 
+20,  was about  right 
+cells.  The  parameter 
+NMDA  EPSP  was 3  nS.  The  mathematical 
+We  found 
+EPSPs  is  described 
+include  saturation  of  the  NMDA 
+conductance, 
+the  present  case) no  cell  could  develop  a total  NMDA 
+ductance  of  >  187.5  nS.  Without 
+this  saturation, 
+NMDA 
+ing  to  temporal 
+tary  events.  A  holding  current  of  -0.05  nA  was applied 
+all  of  the  cells  to  suppress  spontaneous 
+cell  was stimulated  with  a  0.1 -nA  steady  current. 
+
+for  a network  of  1,000  CA3  pyramidal 
+cobIs  was  4  nS  and  a  peak  unitary 
+form  of  these 
+it  necessary  to 
+so that  (in 
+con- 
+the 
+conductance  would  become  excessively  large  ow- 
+of the  very  slowly  decaying  uni- 
+to 
+firing,  and  a  single 
+
+in  METHODS. 
+
+summation 
+
+What  develops  under 
+
+these  conditions 
+
+is  a synchronized 
+
+series  of  cellular  bursts,  terminated 
+AHP  (Fig.  14).  Note  that  the  QUIS  synaptic  input 
+
+(as  appropriate)  by  an 
+is modu- 
+
+648 
+
+TRAUB  ET  AL. 
+
+Number 
+
+Firing 
+
+50  cells 
+
+I 
+
+25  mV 
+
+25  mV 
+
+I -  
+
+QUIS 
+
+\  
+
+\  
+
+\NMDA 
+
+50 
+
+1 
+
+50  nS 
+nS 
+
+250 
+
+(NMDA) 
+(QUIS) 
+
+FIG.  14.  Synchronized  multiple  bursts  in  a randomly  connected  net- 
+work  of  100  model  CA3  neurons.  Each  neuron  receives input 
+from  20 
+others.  All  synapses are  excitatory  and  contain  quisqualate  (QUIS,  rapid 
+time  course, not  voltage dependent)  and NMDA 
+(slow  time  course, voltage 
+dependent)  components.  Synaptic  excitation  occurs onto  compartments  3 
+and  15 (see the  bottom  of Fig.  1). Parameter  t  in  the  NMDA  voltage-de- 
+pendence  was 50 mV  (see text). The  NMDA 
+(that  is, 
+ignoring  the voltage-dependent 
+factor) saturates in the model.  This  simula- 
+tion  has no  synaptic  inhibition.  A  stimulus  was given to  one cell.  There  is 
+the  rapid  (tens  of ms)  development  of a synchronized  population  burst 
+followed  by a series of less synchronized  bursts. These bursts  are apparent 
+in  the  soma  of  a particular  cell  (Soma),  whereas,  0.6X  apically  (Apical 
+Dendrite),  slow  rhythmic  waves occur. These  waves are partly  regenerative 
+calcium  spikes, partly  synaptic.  Synaptic  conductances  plotted  below  for 
+this  cell  are  local  dendritic  conductances.  NMDA 
+is the 
+virtual  conductance. 
+
+“virtual  conductance” 
+
+signal  plotted 
+
+the  simulation 
+
+is  plausible.  Nevertheless, 
+
+activity.  The  simula- 
+lated  in  phase with  the  total  population 
+that  our  hypothesis  on  multiple-b  urst 
+tion  demonstrates 
+generation 
+is  not 
+perfect:  the  initial  burst  is too  short  (durations  of  ~200  ms 
+ly),  and  the  depolarizing  envelope 
+often  occur  experimental 
+of  the  somatic  bursts 
+is  too  small.  Nor  could  we  readily 
+adjust  the  parameters  so as to  generate  a larger  number  of 
+bursts.  Presumably, 
+this  simulation  will  become  more  real is- 
+tic  as more  of the  relevant  parameters  are determined  exper- 
+imentally.  We  note  that 
+of  syn- 
+bursts  in  the  present  model  does  not 
+chronized  multiple 
+that  is,  cobIs,  the 
+require  a  “critical” 
+choice  of  parameters; 
+unitary  NMDA 
+satu- 
+ration  can  all  be  varied. 
+
+conductance,  and  the  level  of NMDA 
+
+the  general  phenomenon 
+
+DISCUSSION 
+
+incorporate, 
+
+to  the  best  of  our  ability, 
+
+We  have  presented  models  of  CA3  and  CA1  pyramidal 
+voltage- 
+cells  that 
+clamp  data  from  Na,  high-voltage-activated 
+Ca,  and  four 
+different  K  currents.  The  densities  of  channels  on  the  soma 
+were  also  constrained  by  experimental 
+data.  The  densities 
+of channels  in  the  dendrites  and  the  kinetics  of intracell  ular 
+calcium 
+(in  a thin  submembran  e shell)  were treated  as free 
+parameters  and  were  tuned  so  as to  reproduce  as wide  a 
+variety  as possible  of  current-clamp 
+
+experiments. 
+
+The  model 
+
+the  different 
+
+is successful  at reproducing 
+
+types 
+of firing  behavior  elicited  by  brief  current  pulses  or by  small 
+In 
+or  large  depolarizing 
+particular, 
+simulations 
+of low- 
+frequency  bursting  during 
+current,  higher-frequency 
+current,  and  a  mixture 
+
+firing  with  a  large 
+in  between.  The  model’s  success 
+
+injection  of  a small  depolarizing 
+repetitive 
+
+currents 
+reproduce 
+
+the  phenomenon 
+
+the  soma. 
+
+injected 
+
+into 
+
+ionic  channels 
+
+to  depend  on  the  different  densities  of  the 
+here  appears 
+in  different  parts  of  the  cell  mem- 
+various 
+in  the  con- 
+brane,  an  idea  long  advanced  by  Rodolfo  Llinas 
+text  of  other  cells.  Of  particular 
+is  the  ability  of 
+the  cell  to  generate  large  dendritic  calcium  spikes  in  a man- 
+ner  susceptible 
+to  blockade  by  local  shunting  of  the  mem- 
+brane. 
+
+relevance 
+
+This  model  predicts  that  such  a mode  of  repetitive 
+
+firing, 
+
+it  may  not  be  trivial 
+
+(either  apical  or  basilar). 
+test  of  the  model. 
+for 
+
+with  dendritic  calcium  spikes,  can  occur  during  stimulation 
+of  the  middle  or  distal  dendrites 
+This  provides  a  possible  experimental 
+Nevertheless, 
+the  occurrence  of  this  mode  of  firing,  because  stimulation 
+of  a  dendritic 
+lent  cylinder 
+sponds  to  stimulation 
+not  be  spatially 
+glutamate  microdrops  might  be  one  approach. 
+
+(with  its  equiva- 
+compartment 
+representation  of  each  set of  dendrites)  corre- 
+of  numerous  dendritic  sites that  may 
+of 
+
+in  an  actual  cell.  Application 
+
+to  test  experimentally 
+
+in  the  model 
+
+localized 
+
+is  critical 
+
+We  propose 
+
+that  this  “dendritic”  mode  of  firing, 
+
+fibers  (Miles  and  Wong  1987b).  A 
+the  dendrites  also  appears  neces- 
+re- 
+
+if  con- 
+for  the  generation  of  synchronized  after- 
+in 
+slices,  as well  as after  repeated  tetanic  stimula- 
+
+firmed, 
+discharges  that  occur  often  in  the  presence  of  picrotoxin 
+hippocampal 
+tion  of  CA3  afferent 
+means  of tonically  exciting 
+sary  for  afterdischarges.  Collective  activation  of NMDA 
+this  role  (as  in  Fig.  14).  Conceivably, 
+ceptors  could  play 
+however,  a  slowly  inactivating, 
+depo- 
+larizing  current  could  serve just  as well.  The  presumed  oc- 
+spikes  under  conditions 
+currence  of  repetitive 
+is,  repetitive 
+known 
+stimulation 
+func- 
+tional  role  of these  membrane  events  in  learning  and  mem- 
+ory.  There  are,  however,  too  many  gaps  in  our  knowledge 
+to  permit  us to  speculate  usefully  on  this  issue. 
+
+of  afferent  fibers)  suggests  an  important 
+
+to  produce  synaptic  plasticity 
+
+intrinsic  membrane 
+
+calcium 
+
+(that 
+
+If,  as our  model  suggests, a long-lasting  dendritic  NMDA 
+
+leads  to  repetitive  dendritic  Ca  spikes  during  syn- 
+bursts,  then  N-MDA  blockers  such  as 
+sup- 
+
+current 
+chronized  multiple 
+o-2=amino-5-phosphonovaleric 
+press  the  secondary  bursts  while  not  blocking 
+the  initial 
+port  for  this  prediction 
+multiple 
+1990).  A  similar  experiment  on  hippocampal 
+in  picrotoxin  would  help  to  test  our  model. 
+
+synchronized  burst.  There 
+in  rat  amygdala 
+
+sup- 
+to  generate 
+(Fig.  5  of  Gean  et  al. 
+slices  bathed 
+
+is  experimental 
+induced 
+
+bursts  by  4-aminopyridine 
+
+completely 
+
+should 
+
+(APV) 
+
+acid 
+
+our  simulation 
+
+For  comparing 
+
+to  recall  that  calcium-imaging 
+
+results  with  calcium- 
+FURA  or  Arsenazo), 
+experiments 
+In  con- 
+is  x,  the  calcium 
+
+the  entire  cell  interior. 
+in  our  model 
+
+imaging  data  (with,  e.g.,  intracellular 
+it  is  important 
+“see” 
+free  calcium  within 
+trast,  the  relevant  quantity 
+concentration  within  a small  submembrane 
+of  bridging 
+include 
+lar  calcium  movement 
+et  al.  1989;  Zucker  1989).  Such  an  approach,  however, 
+computationally 
+bling  uncertainties, 
+cium 
+1990). 
+
+in  the  model  a theoretical  description  of  intracellu- 
+(Ahmed  and  Connor  1988;  Yamada 
+
+is 
+trou- 
+release  of  cal- 
+et  al. 
+
+shell.  One  way 
+is  to 
+
+involved  and  involves  many 
+
+theory  and  experiment 
+
+this  gap  between 
+
+(Hernandez-Cruz 
+
+the  stimulated 
+
+intracellular 
+
+organelles 
+
+including 
+
+quite 
+
+from 
+
+A  final  issue  concerns  the  extent  to  which  network  results 
+obtained  with  our  previous  simpler  single-cell  model  have 
+that  is.  are  dependent  on  details  of the  sin- 
+general  validitv. 
+
+MODEL 
+
+CA3  CELL  WITH 
+
+MEMBRANE 
+
+CONDUCTANCES 
+
+649 
+
+inhibition, 
+
+of  inhibitory 
+
+acid-B  (GABA,) 
+
+gle-cell  model.  Many  simulations 
+of  networks  of  100  and 
+1,000  neurons  using  the  present  single-cell  model,  and  with 
+cells  that  generate  either  GABA, 
+populations 
+suggest  that 
+or  y-aminobutyric 
+the  basic  results  on  population 
+in  CA3  networks, 
+in  Traub  and  Miles  ( 199 1 b),  still  occur.  In  par- 
+summarized 
+ticular,  we are  still  able  to  observe  low-amplitude 
+popula- 
+tion  oscillations, 
+regular  population 
+in 
+rhythm 
+in  indi- 
+single  cells)  occurs,  with  irregular  patterns  of  firing 
+1986; 
+vidual  cells  (Miles  and  Wong  1987;  Schneiderman 
+Schwartzkroin  and  Haglund 
+1986;  Traub  et  al.  1989).  The 
+paper  of Traub  and  Miles  ( 199 1 a) provides  some  examples. 
+
+(expressed  as synchronized 
+
+in  which  a  relatively 
+
+synaptic  potentials 
+
+behaviors 
+
+ideas  stemming 
+Dr.  Alan  Kay 
+data  on 
+
+thank 
+unpublished 
+
+from 
+
+earlier 
+
+for  many 
+its  inactivation 
+
+helpful 
+
+collaboration 
+
+discussions 
+
+and  C.  E.  Jahr 
+
+aspects  of  NMDA 
+
+for  sharing 
+
+for  sharing 
+conductance 
+some  unpublished 
+
+R.  D.  Traub 
+
+acknowledges 
+
+for  sharing 
+
+the  quantitative 
+
+Drs.  C.  F.  Stevens 
+
+with  Dr.  R.  Llinas.  We 
+on  g,,  and 
+thank 
+on 
+Ross  and  N.  L.  Ross 
+ing  of  Purkinje 
+the  electrotonic 
+Jefferys 
+
+and  A. 
+
+cells;  and  Dr.  D.  A.  Turner 
+properties 
+Ives 
+
+of  CA3  pyramidal 
+discussions. 
+
+for  helpful 
+
+was  supported 
+the  Klingenstein 
+
+IBM, 
+
+by 
+Foundation, 
+
+requests:  R.  D.  Traub, 
+
+reprint 
+Research 
+
+(NS-245 
+
+This  work 
+19), 
+for 
+
+Address 
+
+T.  J.  Watson 
+
+kinetics.  We 
+data 
+Drs.  W.  N. 
+
+then-unpublished 
+activation; 
+data  on  calcium-imag- 
+
+for  sharing 
+
+unpublished 
+
+cells.  We 
+
+thank 
+
+data  on 
+Drs.  J.  G.  R. 
+
+the  National 
+
+Institutes 
+
+of  Health 
+
+INSERM. 
+
+and 
+IBM  Research 
+
+Division, 
+
+IBM 
+
+Center, 
+
+Yorktown 
+
+Heights, 
+
+NY 
+
+10598. 
+
+Received 
+
+29  November 
+
+1990,  accepted 
+
+in  final 
+
+form 
+
+28  March 
+
+199  1. 
+
+BROWN, 
+
+synaptic 
+1983. 
+
+initiation 
+neurons 
+1990. 
+DANIEL, 
+
+REFERENCES 
+
+ADAMS,  P.  R.,  CONSTANTI, 
+
+lular  Ca2+  activates 
+pathetic 
+
+A.,  BROWN,  D.  A.,  AND  CLARK,  R.  B.  Intracel- 
+sym- 
+
+in  vertebrate 
+
+K+  current 
+
+a fast  voltage-sensitive 
+
+neurones.  Nature  Lond.  296:  746-749,  1982. 
+
+AHMED, 
+
+Z.  AND  CONNOR, 
+
+neurons 
+
+J.  A.  Calcium 
+calcium 
+
+during 
+
+regulation 
+transients. 
+
+by  and  buffer 
+capacity 
+Cell  Calcium  9: 57-69, 
+
+of  molluscan 
+1988. 
+
+ALGER,  B.  E.  AND  WILLIAMSON, 
+
+A.  A  transient 
+
+calcium-dependent 
+
+sium  component 
+hippocampus. 
+
+of  the  epileptiform 
+
+burst  after-hyperpolarization 
+
+J. Physiol.  Land.  399:  19 l-205, 
+D.  Voltage-clamp 
+
+1988. 
+analysis 
+
+T.  H.  AND  JOHNSTON, 
+to  hippocampal 
+
+input 
+
+neurons. 
+
+fiber 
+J. Neurophysiol.  50: 487-507, 
+
+of  mossy 
+
+potas- 
+in  rat 
+
+CHAMBERLIN, 
+
+N.  L.,  TRAUB,  R.  D.,  AND  DINGLEDINE, 
+
+of  spontaneous 
+bathed 
+
+in  high 
+
+synchronized 
+potassium. 
+
+R.  Role  of  EPSPs 
+in  rat  hippocampal 
+J.  Neurophysiol.  64:  1000-1008, 
+
+burst 
+
+firing 
+
+in 
+
+J.  W.  AND  MOORE, 
+
+R.  E.  Computation  and  Theory  in  Ordinary 
+
+Dtflerential  Equations.  San  Francisco, 
+
+CA:  Freeman, 
+
+1970. 
+
+DAVIES,  S.  N.  AND  COLLINGRIDGE, 
+
+G.  L.  Role  of  excitatory 
+
+amino 
+
+acid 
+
+in  synaptic 
+
+transmission 
+
+receptors 
+of 
+Proc.  R. Sot.  Land.  B Biol.  Sci. 236:  373-384,  1989. 
+D.  Properties 
+in  adult 
+
+FISHER,  R.  E.,  GRAY,  R.,  AND  JOHNSTON, 
+channels 
+
+of  single  voltage-gated 
+J. Neurophysioi.  64:  9 I-  104,  1990. 
+
+in  area  CA1 
+
+calcium 
+
+FORSYTHE, 
+currents 
+mouse 
+FRENCH, 
+
+I.  D.  AND  WESTBROOK, 
+mediated 
+by  N-methyl-D 
+
+G.  L.  Slow  excitatory 
+receptors 
+J. Physiol.  Land.  396:  5 15-533, 
+
+aspartate 
+
+neurones. 
+
+central 
+C.  R.,  SAH,  P.,  BUCKETT, 
+
+rat  hippocampus. 
+
+and  distribution 
+
+hippocampal 
+
+neurons. 
+
+postsynaptic 
+on 
+cultured 
+1988. 
+
+K.  J.,  AND  GAGE,  P.  W.  A  voltage-de- 
+
+in  mammalian 
+
+hippocampal 
+
+neu- 
+
+157,  1990. 
+
+AND  CHANG, 
+in  rat  amygdala 
+
+F.-C.  Epileptiform 
+the 
+Eur.  J.  Pharmacol. 
+
+neurons: 
+
+activity 
+involvement 
+184: 
+
+in- 
+of 
+2 13-22  1, 
+
+receptors. 
+
+pendent 
+rons.  J. Gen. Physiol.  95:  1139-l 
+
+persistent 
+
+sodium 
+
+current 
+
+GEAN,  P.-W., 
+
+CHOU,  S.-M., 
+
+duced  by  4-aminopyridine 
+N-methyl-D-aspartate 
+1990. 
+HABLITZ, 
+
+J.  J.  Picrotoxin-induced 
+
+role  of  endogenous 
+
+versus 
+
+pus: 
+101  l-1027, 
+
+1984. 
+
+HABLITZ, 
+bursting 
+325-334, 
+
+J.  J.  AND  JOHNSTON, 
+in  hippocampal 
+1981. 
+
+epileptiform 
+synaptic 
+
+activity 
+
+in  the  hippocam- 
+
+factors. 
+
+J. Neurophysiol.  5 1: 
+
+stimulation 
+
+tetanic 
+1987b. 
+
+MILES, 
+
+R.,  WONG, 
+
+D.  Endogenous 
+neurons. 
+
+pyramidal 
+
+of  spontaneous 
+nature 
+Cell.  Mol.  Neurobiol. 
+
+1: 
+
+in  the  hippocampus: 
+
+charges 
+Neuroscience  12:  1179- 
+
+1189, 
+
+1984. 
+
+R.  K.  S.,  AND  TRAUB, 
+contribution 
+
+R.  D.  Synchronized 
+of  local  synaptic 
+
+afterdis- 
+interactions. 
+
+MONAGHAN, 
+
+D.  T.  AND  COTMAN, 
+
+C.  W.  Distribution 
+
+of  N-methyl-D- 
+
+HALLIWELL, 
+excitation 
+
+J.  V.  AND  ADAMS,  P.  R.  Voltage-clamp 
+in  hippocampal 
+
+neurons. 
+
+Brain  Res. 250:  7 l-92, 
+
+analysis 
+
+of  muscarinic 
+
+HERNANDEZ-CRUZ, 
+
+A.,  SALA,  F.,  AND  ADAMS, 
+
+transients 
+brate  neuron. 
+
+visualized 
+
+by  confocal  microscopy 
+
+Science  Wash. DC  247:  858-862,  1990. 
+
+P.  R.  Subcellular 
+in  a voltage-clamped 
+
+1982. 
+
+calcium 
+verte- 
+
+HOTSON, 
+follows 
+409-419, 
+
+J.  R.  AND  PRINCE,  D.  A.  A  calcium-activated 
+repetitive 
+neurons. 
+1980. 
+
+in  hippocampal 
+
+firing 
+
+hyperpolarization 
+
+J. Neurophysiol.  43: 
+
+HOTSON, 
+inward 
+895,  1979. 
+
+J.  R.,  PRINCE,  D.  A.,  AND  SCHWARTZKROIN, 
+rectification 
+
+in  hippocampal 
+
+neurons. 
+
+P.  A.  Anomalous 
+
+J. Neurophysiol.  42: 889- 
+
+originating 
+
+N.,  WEBER,  J.,  AND  AMARAL, 
+projections 
+
+ISHIZUKA, 
+campal 
+Comp.  Neurol.  295:  580-623,  1990. 
+JAHR,  C.  E.  AND  STEVENS,  C.  F.  Voltage 
+predicted 
+
+macroscopic 
+Neurosci.  10:  3 178-3  182,  1990. 
+
+conductances 
+
+D.  G.  Organization 
+
+of  intrahippo- 
+
+from  CA3 
+
+pyramidal 
+
+cells 
+
+in  the 
+
+rat.  J. 
+
+dependence 
+
+by 
+
+single-channel 
+
+of  NMDA-activated 
+kinetics. 
+
+JOHNSTON, 
+
+D.  AND  BROWN, 
+
+T.  H.  Giant 
+
+synaptic 
+
+potential 
+
+Science  Wash. DC  2 11:  294-297, 
+kinetics 
+current 
+cells  of 
+
+of 
+the  mature 
+
+the  calcium 
+
+guinea 
+
+hypothesis 
+198  1. 
+of  acutely 
+
+pig  hippocampus. 
+
+disso- 
+J. 
+
+J. 
+
+for 
+
+epileptiform 
+KAY,  A.  R. 
+
+activity. 
+Inactivation 
+ciated  CA  1  pyramidal 
+Physiol.  Lond.  In  press. 
+
+KAY,  A.  R.  AND  WONG, 
+
+from 
+
+clamping 
+Methods  16:  227-238, 
+KAY,  A.  R.  AND  WONG, 
+
+isolated 
+hippocampus. 
+
+pyramidal 
+
+KONNERTH, 
+
+A., 
+generation 
+
+R.  K.  S.  Isolation 
+central 
+
+adult  mammalian 
+
+of  neurons 
+nervous 
+
+suitable 
+
+systems. 
+
+1986. 
+R.  K.  S.  Calcium 
+
+neurones 
+
+of  the  CA  1 region 
+
+J. Physiol.  Lond.  392:  603-6  16,  1987. 
+Lux, 
+
+AND  HEINEMANN, 
+
+H.-D., 
+
+U. 
+
+current 
+
+activation 
+of  the  mature 
+
+for  patch- 
+J. Neurosci. 
+
+kinetics 
+guinea-pig 
+
+in 
+
+pyramidal 
+
+somata 
+
+‘in  vitro.’ 
+
+Ionic 
+
+properties 
+
+of 
+Exp. 
+
+burst 
+Brain  Res. Suppl.  14: 368-374,  1986. 
+
+in  hippocampal 
+
+LACAILLE, 
+
+J.-C.,  MUELLER, 
+
+circuit 
+
+interactions 
+
+A.  L.,  KUNKEL, 
+between 
+
+D.  D.,  AND  SCHWARTZKROIN, 
+
+oriens/alveus 
+
+interneurons 
+
+P.  A.  Local 
+CA  1 pyramidal 
+phology. 
+
+cells 
+
+in  hippocampal 
+J. Neurosci.  7:  1979-1993, 
+
+slices:  electrophysiology 
+1987. 
+
+and 
+and  mor- 
+
+P.  R.  Calcium-dependent 
+of  hippocampal 
+
+neurons. 
+
+current 
+
+generating 
+
+J.  Neurophysiol. 
+
+in  rat  hippocampal 
+
+R.  A.  Properties 
+
+of 
+neurones. 
+
+calcium-activated 
+
+two 
+J. Physiol.  Land.  389: 
+
+LANCASTER, 
+
+B.  AND  ADAMS, 
+
+the  afterhyperpolarization 
+55:  1268-1282, 
+
+1986. 
+
+LANCASTER, 
+
+B.  AND  NICOLL, 
+
+hyperpolarizations 
+187-203, 
+LANTHORN, 
+
+1987. 
+T.  H.,  STORM, 
+
+transduction 
+dominate 
+
+in  CA  1  hippocampal 
+
+the  primary 
+
+range 
+
+LESTER,  R.  A.  J.,  CLEMENTS, 
+determine 
+
+kinetics 
+
+J.,  AND  ANDERSEN, 
+pyramidal 
+
+P.  Current-to-frequency 
+cells:  slow  prepotentials 
+
+firing.  Exp.  Brain  Res. 53: 43 l-443, 
+J.  D.,  WESTBROOK, 
+course 
+
+1984. 
+G.  L.,  AND  JAHR,  C.  E. 
+
+receptor-me- 
+
+of  NMDA 
+
+time 
+
+the 
+
+synaptic 
+
+currents.  Nature  Lond.  346:  565-567,  1990. 
+
+MASUKAWA, 
+
+L.  M.  AND  PRINCE,  D.  A.  Synaptic 
+
+dendrites 
+
+of  hippocampal 
+
+neurons. 
+
+control 
+J. Neurosci.  4:  2 17-227, 
+
+of  excitability 
+
+in 
+
+Channel 
+diated 
+
+isolated 
+1984. 
+
+MAYER,  M.  L.,  WESTBROOK, 
+
+G.  L.,  AND  GUTHRIE, 
+
+P.  B.  Voltage-depen- 
+
+responses 
+
+in  spinal  cord  neurones.  Nature 
+
+dent  block  by  Mg” 
+Land.  309:  26 l-263, 
+
+MILES,  R.  Variation 
+
+of  NMDA 
+1984. 
+in  strength 
+
+guinea 
+
+pig  hippocampus 
+
+in  vitro. 
+
+MILES,  R.  AND  WONG, 
+discharge 
+
+population 
+1983. 
+
+MILES,  R.  AND  WONG, 
+
+the  guinea-pig 
+1984. 
+
+of  inhibitory 
+
+synapses 
+
+in  the  CA3 
+
+region 
+
+J. Physiol.  Lond.  43 1:  659-676, 
+
+of 
+1990. 
+
+R.  K.  S.  Single  neurones 
+in  the  hippocampus. 
+
+can 
+
+initiate 
+
+synchronized 
+
+Nature  Land.  306:  37 l-373, 
+
+R.  K.  S.  Unitary 
+in  vitro. 
+
+hippocampus 
+
+inhibitory 
+potentials 
+J.  Physiol.  Land.  356:  97-l 
+
+synaptic 
+
+in 
+13, 
+
+MILES, 
+CA3 
+397-418, 
+
+R.  AND  WONG, 
+neurones 
+
+in 
+
+1986. 
+
+R.  K.  S.  Excitatory 
+
+synaptic 
+
+interactions 
+
+between 
+
+the  guinea-pig 
+
+hippocampus. 
+
+J. Physiol.  Land.  373: 
+
+MILES,  R.  AND  WONG, 
+the  guinea-pig 
+
+in 
+
+cuits 
+1987a. 
+
+R.  K.  S.  Inhibitory 
+
+hippocampus. 
+
+control 
+
+of  local  excitatory 
+
+cir- 
+
+J. Physiol.  Lond.  388:  61  l-629, 
+
+MILES, 
+
+R.  AND  WONG, 
+
+R.  K.  S.  Latent 
+the  hippocampus. 
+
+in 
+
+synaptic 
+
+pathways 
+
+after 
+Nature  Lond.  329:  724-726, 
+
+revealed 
+
+sites in  rat  brain.  J. Neuro- 
+
+TRAUB,  R. D.  Simulation  of intrinsic  bursting  in  CA3  hippocampal  neu- 
+
+650 
+
+TRAUB 
+
+ET  AL. 
+
+aspartate-sensitive  L-[3H]glutamate-binding 
+sci. 5: 2909-2919,  1985. 
+L.,  BREGESTOVSKI, 
+
+NOWAK, 
+
+NUMANN, 
+
+P.,  ASCEIER,  P.,  HERBERT,  A.,  AND  PRO- 
+CHIANTZ,  A.  Magnesium  gates glutamate-activated  channels  in  mouse 
+central  neurones.  Nature  Lond.  307:  462-465,  1984. 
+
+R.  E.,  WADMAN,  W. J., AND  WONG,  R. K.  S. Outward  currents 
+of single hippocampal  cells obtained  from  the  adult  guinea-pig.  J. Phys- 
+iol.  Land.  393:  33 l-353,  1987. 
+
+POOLOS,  N. P., KOCSIS,  J. D.,  PONGRACZ, 
+
+dendritic 
+hippocampal  pyramidal  cells. Sot.  Neurosci.  Abstr.  16: 737,  1990. 
+
+recordings  of  NMDA 
+
+receptor-mediated 
+
+RALL,  W. Theory  of physiological  properties  of dendrites.  Ann.  NY Acad. 
+
+F.,  AND  SHEPHERD,  G. M.  Intra- 
+in  CA1 
+
+potentials 
+
+RALL,  W.  Electrophysiology  of a dendritic  neuron  model.  Biophys.  J. 2: 
+
+rons.  Neuroscience  7:  1233-1242,  1982. 
+
+TRAUB,  R. D.,  KNOWLES,  W.  D.,  MILES,  R., AND  WONG,  R. K. S. Synchro- 
+nized  afterdischarges  in  the  hippocampus:  simulation  studies of the cel- 
+lular  mechanism.  Neuroscience  12: 119 l-1200,  1984. 
+
+TRAUB,  R. D.  AND  LLIN~, 
+
+of dendritic  ionic  conductances  for neuronal 
+sis. J. Neurophysiol.  42:  476-496,  1979. 
+
+R. Hippocampal  pyramidal  cells: significance 
+function  and epileptogene- 
+
+TRAUB,  R.  D.  AND  MILES,  R.  Multiple  modes  of neuronal  population 
+activity  emerge  after modifying  specific synapses in  a model  of the CA3 
+region  of the  hippocampus.  Ann.  NY Acad.  Sci.  199 la. 
+
+TRAUB,  R.  D.  AND  MILES,  R.  Neuronal  Networks  of  the  Hippocampus. 
+
+New  York:  Cambridge  Univ.  Press, 199 1 b. 
+
+TRAUB,  R. D.,  MILES,  R.,  AND  WONG,  R.  K.  S. Models  of synchronized 
+I. Single  population 
+
+hippocampal  bursts  in  the  presence  of inhibition. 
+events. J. Neurophysiol.  58: 739-75  1, 1987. 
+
+TRAUB,  R.  D.,  MILES,  R.,  AND  WONG,  R.  K.  S. Model  of the  origin  of 
+slice.  Science 
+
+in  the  hippocampal 
+
+rhythmic  population 
+oscillations 
+Wash. DC243:  1319-1325,  1989. 
+
+TRAUB,  R. D.  AND  WONG,  R. K.  S. Cellular  mechanism  of neuronal  syn- 
+
+chronization 
+
+in  epilepsy.  Science  Wash. DC  2 16: 745-747,  1982. 
+
+TRAUB,  R. D. AND  WONG,  R. K.  S. Synchronized  burst  discharge  in disin- 
+hibited  hippocampal  slice. II.  Model  of cellular  mechanism.  J. Neuro- 
+physiol.  49:  459-47  1,  1983. 
+
+TRAUB,  R.  D.,  WONG,  R.  K.  S.,  AND  MILES,  R.  A  model  of the  CA3 
+hippocampal  pyramidal  cell  based  on  voltage-clamp  data.  Sot.  Neuro- 
+sci. Abstr.  16:  1297, 
+
+TURNER,  D. A.  AND  SCHWARTZKROIN, 
+
+P. A. Steady-state electrotonic  anal- 
+ysis of intracellularly  stained  hippocampal  neurons.  J. Neurophysiol.  44: 
+184-199, 
+
+TURNER,  D. A.  AND  SCHWARTZKROIN, 
+
+P. A.  Electrical  characteristics  of 
+dendrites  and  dendritic  spines in  intracellularly-stained  CA3  and  den- 
+tate  neurons.  J. Neurosci.  3: 2381-2394, 
+
+1990. 
+
+1980. 
+
+1983. 
+
+WILLIAMSON, 
+
+A.  AND  ALGER,  B. E. Characterization 
+
+of an early  afterhy- 
+
+perpolarization 
+neurons  in  vitro.  J. Neurophysiol.  63: 72-8  1, 1990. 
+
+after a brief train  of action  potentials  in  rat hippocampal 
+
+WONG,  R. K.  S. AND  PRINCE,  D.  A.  Afterpotential  generation 
+campal  pyramidal  cells. J. Neurophysiol.  45:  86-97,  198  1. 
+
+in  hippo- 
+
+1979. 
+
+WONG,  R. K. S., PRINCE,  D. A.,  AND  BASBAUM,  A. I. Intradendritic 
+
+record- 
+ings  from  hippocampal  neurons.  Proc.  Natl.  Acad.  Sci.  USA  76: 986- 
+990, 
+
+WONG,  R. K.  S. AND  TRAUB,  R. D.  The  dendrites  and  somata  of hippo- 
+campal  pyramidal  cells generate  different  action  potential  patterns.  Sot. 
+Neurosci.  Abstr.  8: 4 12,  1982. 
+
+WONG,  R. K.  S. AND  TFUUB,  R. D. Synchronized  burst  discharge  in disin- 
+region.  J. Neuro- 
+
+in  CA2-CA3 
+
+hibited  hippocampal  slice.  I. Initiation 
+physiol.  49:  442-458,  1983. 
+
+WONG,  R. K.  S., TRAUB,  R. D., AND  MILES,  R. Cellular  basis of neuronal 
+synchrony  in  epilepsy.  In: Basic  Mechanisms  of  the Epilepsies.  Molecu- 
+lar  and  Cellular  Approaches.  Advances  in  Neurology,  edited  by A.  V. 
+Delgado-Escueta,  A.  A.  Ward,  Jr., D.  M.  Woodbury,  and  R. J. Porter. 
+New  York:  Raven,  1986, vol. 44,  p. 583-592. 
+
+YAMADA, 
+
+W.  M.,  KOCH,  C.,  AND  ADAMS,  P. R.  Multiple  channels  and 
+in  Neuronal  Modeling,  edited  by  C. 
+
+calcium  dynamics.  In:  Methods 
+Koch  and  I. Segev. Cambridge,  MA:  MIT  Press, 1989, p. 97-l  34. 
+
+ZUCKER,  R. S. Models  of calcium  regulation 
+
+in  neurons.  In: Neural  Mod- 
+els of  Plasticity,  edited  by J. H.  Byrne  and  W. 0.  Berry.  San Diego,  CA: 
+Academic,  1989, p. 403-422. 
+
+Sci. 96:  1071-1092,  1962a. 
+
+145-167,  1962b. 
+
+RALL,  W.  Cable  theory  for  dendritic  neurons.  In:  Methods 
+
+in  Neuronal 
+
+Modeling:  From  Synapses to Networks,  edited  by C. Koch  and  I. Segev. 
+Cambridge,  MA:  MIT  Press, 1989,  p. 9-62. 
+
+REGEHR,  W.  G.,  CONNOR, 
+
+calcium  accumulation 
+activation.  Nature  Land.  341:  533-536,  1989. 
+
+J. A.,  AND  TANK,  D.  W.  Optical  imaging  of 
+in  hippocampal  pyramidal  cells during  synaptic 
+
+SAH,  P.,  GIBB,  A.  J., AND  GAGE,  P. W.  The  sodium  current  underlying 
+action  potentials  in  guinea  pig hippocampal  CA 1 neurons.  J. Gen. Phys- 
+iol.  9 1: 373-398,  1988a. 
+
+SAH,  P.,  GIBB,  A.  J., AND  GAGE,  P. W.  Potassium  current  activated  by 
+
+depolarization 
+pus. J. Gen. Physiol.  92: 263-278,  1988b. 
+
+of dissociated  neurons  from  adult  guinea  pig  hippocam- 
+
+SCHNEIDERMAN, 
+
+synchronous  synaptic  potentials 
+231-241,  1986. 
+
+J. H.  Low  concentrations  of penicillin 
+
+reveal  rhythmic, 
+in  hippocampal  slice. Brain  Res. 398: 
+
+SCHWARTZKROIN, 
+
+P. A.  Further  characteristics  of hippocampal  CA 1 cells 
+
+in  vitro.  Brain  Rex  128: 53-68,  1977. 
+
+SCHWARTZKROIN, 
+
+P. A.  Secondary  range  rhythmic  spiking  in  hippocam- 
+
+pal  neurons.  Brain  Res.  149: 247-250,  1978. 
+
+SCHWARTZKROIN, 
+
+M.  M.  Spontaneous  rhythmic 
+synchronous  activity  in  epileptic  human  and  normal  monkey  temporal 
+lobe.  Epilepsia  27:  523-533,  1986. 
+
+P. A.  AND  HAGLUND, 
+
+SCHWARTZKROIN, 
+
+form  activity  in  the  hippocampal 
+463-469, 
+
+1977. 
+
+P. A.  AND  PRINCE,  D.  A.  Penicillin-induced 
+
+epilepti- 
+in  vitro  preparation.  Ann.  Neural.  1: 
+
+SPENCER,  W.  A.  AND  KANDEL, 
+
+STORM,  J. Action  potential 
+
+E.  R. Electrophysiology  of hippocampal 
+neurons  IV.  Fast prepotentials.  J. Neurophysiol.  24:  272-285,  196 1. 
+and  a fast after-hyperpolariza- 
+tion  in  rat hippocampal  pyramidal  cells. J. Physiol.  Land.  38 5: 7 33-759, 
+1987. 
+STORM, 
+
+integration  by  a slowly  inactivating  K+  current 
+
+repolarization 
+
+J. Temporal 
+
+in 
+
+hippocampal  neurons.  Nature  Lond.  336:  379-38  1, 1988. 
+
+STORM, 
+
+J. An  after-hyperpolarization 
+
+of medium  duration 
+
+in  rat  hippo- 
+
+campal  pyramidal  cells. J. Physiol.  Lond.  409:  17 I-  190,  1989. 
+
+STORM, 
+
+J.  F. Why  is  the  input  conductance  of  hippocampal  neurones 
+impaled  with  microelectrodes  so much  higher  than  when  giga-seal patch 
+pipettes  are used? Sot.  Neurosci.  Abstr.  16:  506, 
+
+1990. 
+
+SUGIMORI,  M.  AND  LLIN~, 
+
+R. R. Real-time  imaging  of calcium  influx  in 
+mammalian  cerebellar  Purkinje  cells in  vitro. Proc. Natl. Acad.  Sci. USA 
+87:  5084-5088, 
+
+TANG,  C.-M.,  DICHTER,  M.,  AND  MORAD,  M.  Quisqualate  activates a rap- 
+ionic  channel  in  hippocampal  neu- 
+
+idly  inactivating  high  conductance 
+rons.  Science  Wash. DC  243:  1474-1477,  1989. 
+
+1990. 
+
+

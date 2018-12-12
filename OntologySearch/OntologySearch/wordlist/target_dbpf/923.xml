@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="923">
+<itemtype>xnppaper</itemtype>
+<titles><title>Theta oscillations in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-16T05:54:47Z</last_update_date>
+<creation_date>2008-07-16T05:54:47Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=923</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="923" version="1.02">
+<authors><author>Buzsáki G</author></authors>
+<journal>Neuron</journal>
+<volume>33</volume>
+<number>3</number>
+<page>325-40</page>
+<abstract>Theta oscillations represent the &quot;on-line&quot; state of the hippocampus. The extracellular currents underlying theta waves are generated mainly by the entorhinal input, CA3 (Schaffer) collaterals, and voltage-dependent Ca(2+) currents in pyramidal cell dendrites. The rhythm is believed to be critical for temporal coding/decoding of active neuronal ensembles and the modification of synaptic weights. Nevertheless, numerous critical issues regarding both the generation of theta oscillations and their functional significance remain challenges for future research.</abstract>
+<pubmed_id>11832222 </pubmed_id>
+</detail>
+</item>

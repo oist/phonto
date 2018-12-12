@@ -1,0 +1,11 @@
+Animals
+Electrophysiology
+Evoked Potentials
+Guinea Pigs
+Hippocampus
+cytology
+Pyramidal Tracts
+cytology
+Synapses
+cytology
+Simultaneous intracellular recordings were obtained from stratum lacunosum-moleculare (L-M) interneurons and CA1 cells, and their local circuit synaptic interactions were examined. Synaptic interactions with pyramidal cells were evaluated in both intrasomatic and intradendritic pyramidal cell recordings. Stimulation of L-M interneurons evoked small-amplitude IPSPs in 21% of intrasomatic (9/42 cell pairs) and in 26% of intradendritic (11/43) pyramidal cell recordings. The IPSP mean peak amplitude was 0.91 mV for intrasomatic and 0.67 mV for intradendritic recordings. IPSPs had slow onset and decay (approximately 80-90 msec), decreased in amplitude with membrane hyperpolarization, and were not associated with any apparent change in input resistance. No physiologic evidence of synaptic connections was found from pyramidal cells to L-M interneurons. Inhibitory synaptic interactions were also seen between L-M interneurons and stratum pyramidale interneurons (2 of 4 cell pairs). The IPSPs recorded in pyramidale interneurons were similar to the IPSPs recorded in pyramidal cells. During simultaneous recordings, L-M interneurons were activated at a shorter latency, i.e., in a feedforward manner with respect to pyramidal cells. Thus, L-M interneurons may mediate feedforward inhibition of CA1 pyramidal cells. The L-M interneuron-evoked IPSPs in pyramidal cells share some characteristics of the late IPSP recorded in CA1 pyramidal cells and may therefore contribute to this component of the IPSP.

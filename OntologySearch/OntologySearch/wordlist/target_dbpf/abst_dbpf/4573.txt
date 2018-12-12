@@ -1,0 +1,35 @@
+Animals
+Brain Mapping
+Calcium
+physiology
+Calcium Channels
+physiology
+Dendrites
+physiology
+Electromagnetic Fields
+Electrophysiology
+Hippocampus
+cytology
+physiology
+ultrastructure
+Male
+Nerve Regeneration
+physiology
+Neuronal Plasticity
+physiology
+Potassium
+physiology
+Pyramidal Cells
+physiology
+ultrastructure
+Rats
+Rats
+Wistar
+Refractory Period
+Electrophysiological
+physiology
+Sodium
+physiology
+Sodium Channels
+physiology
+The regenerative properties of CA1 pyramidal neurons were studied through differential polarization with external electrical fields. Recordings were obtained from somata and apical dendrites in the presence of 6-cyano-7-nitroquinoxaline-2,3-dione (CNQX), DL-2-amino-5-phosphonovaleric acid (APV), and bicuculline. S+ fields hyperpolarized the distal apical dendrites and depolarized the rest of the cell, whereas S divided by fields reversed the polarization. During intradendritic recordings, S+ fields evoked either fast spikes or compound spiking. The threshold response consisted of a low-amplitude fast spike and a slow depolarizing potential. At higher field intensities the slow depolarizing potential increased in amplitude, and additional spikes of high amplitude appeared. During intrasomatic recordings, S+ field evoked repetitive firing of fast spikes, whereas S divided by fields evoked a slow depolarizing potential on top of which high- and low-amplitude spikes were evoked. Tetrodotoxin (TTX) blocked all types of responses in both dendrites and somata. Perfusion with Ca(2+)-free, Co(2+)-containing medium increased the frequency and amplitude of fast spikes evoked by S+ field and substantially reduced the slow depolarizing potential evoked by S+ field and substantially reduced the slow depolarizing potential evoked by S divided by fields. Antidromic stimulation revealed that an all-or-none dendritic component was activated in the distal apical dendrites by back-propagating somatic spikes. The dendritic component had an absolute refractory period of about 4 ms and a relative refractory period of 10-12 ms. Ca(2+)-dependent spikes in the dendrites were followed by a long-lasting afterhyperpolarization (AHP) and a decrease in membrane input resistance, during which dendritic excitability was selectively reduced. The data suggest that generation of fast Na+ currents and slow Ca2+ currents in the distal part of apical dendrites is highly sensitive to the dynamic state of the dendritic membrane. Depending on the mode and frequency of activation these currents can exert a substantial influence on the input-output behavior of the pyramidal neurons.

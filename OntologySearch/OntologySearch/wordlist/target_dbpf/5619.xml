@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5619">
+<itemtype>xnppaper</itemtype>
+<titles><title>Eye movements modulate activity in hippocampal, parahippocampal, and inferotemporal neurons.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Attention</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Eye Movements</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Macaca mulatta</keyword>
+<keyword>Macaca nemestrina</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Saccades</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Visual Pathways</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-07-28T02:03:47Z</last_update_date>
+<creation_date>2011-07-28T02:03:47Z</creation_date>
+<publication_year>1994</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5619</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5619" version="1.02">
+<authors><author>Ringo JL</author><author>Sobotka S</author><author>Diltz MD</author><author>Bunce CM</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>71</volume>
+<number>3</number>
+<page>1285-8</page>
+<abstract>1. Inferotemporal, hippocampal, and parahippocampal units were recorded while monkeys were alert (as judged by eye movements) but resting, in both light and dark. 2. Spontaneous saccadic eye movements produced significant changes in unit activity for 108 of 308 cells. This activity is shown to be extraretinal either because it occurred in complete darkness or because of its timing relative to the eye movement. 3. The total saccadic modulation in the ventral temporal lobe is estimated to be over ten million action potentials.</abstract>
+<pubmed_id>8201422</pubmed_id>
+</detail>
+</item>

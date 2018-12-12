@@ -1,0 +1,35 @@
+Adult
+Arousal
+physiology
+Association Learning
+physiology
+Attention
+physiology
+Brain Mapping
+Color Perception
+physiology
+Discrimination Learning
+physiology
+Female
+Hippocampus
+physiology
+Humans
+Image Processing
+Computer-Assisted
+Imaging
+Three-Dimensional
+Intention
+Magnetic Resonance Imaging
+Male
+Nerve Net
+physiology
+Orientation
+physiology
+Pattern Recognition
+Visual
+physiology
+Reaction Time
+physiology
+Temporal Lobe
+physiology
+The establishment of a role for medial temporal lobe (MTL) structures in episodic memory has led to an investigative focus on the specific contributions and interactions between constituent MTL regions, including the hippocampus and surrounding medial temporal cortices. By dissociating an intentional stimulus-category learning condition from a passive viewing condition, we demonstrate, using fMRI, that novelty- and familiarity-driven responses in human anterior and posterior hippocampus, respectively, only occur during intentional learning. With increasing familiarity of stimulus-category associations, there is a shift in neuronal responses from anterior to posterior hippocampal regions. This anterior/posterior response gradient may reflect a weighting of functional hippocampal architecture related to encoding of novel and retrieval of familiar information. By contrast, perirhinal cortex is engaged by novel stimuli irrespective of task, highlighting this region as a component of a generic familiarity discrimination system. By introducing distinct stimulus types, we further demonstrate that these MTL responses are independent of stimulus complexity. Different patterns of activity for intentional learning vs. passive viewing indicate that intentional encoding/retrieval of stimulus-category associations and automatic novelty/familiarity assessment of stimuli are processed in anatomically dissociable neuronal ensembles within the MTL memory system.

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3333">
+<itemtype>xnpconference</itemtype>
+<titles><title>Chaotic dynamics, episodic memory, and the dynamic model for the hippocampus</title>
+</titles>
+<contributor uname='tsuda'>[en]Ichiro Tsuda[/en][ja]津田 一郎[/ja](tsuda)</contributor>
+<keywords><keyword>A01G1</keyword>
+</keywords>
+<description>国際会議oralInvited</description>
+<doi></doi>
+<last_update_date>2010-03-19T08:50:41Z</last_update_date>
+<creation_date>2010-03-19T08:27:58Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>10</publication_month>
+<publication_mday>7</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3333</url>
+<changelogs>
+<changelog date='2010-03-19T08:50:41Z'>開催地 を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3333" version="1.02">
+<conference_from_year>2009</conference_from_year>
+<conference_from_month>10</conference_from_month>
+<conference_from_mday>7</conference_from_mday>
+<conference_to_year>2009</conference_to_year>
+<conference_to_month>10</conference_to_month>
+<conference_to_mday>9</conference_to_mday>
+<presentation_type>other</presentation_type>
+<conference_title>12th JAPAN - SLOVENIA SEMINAR ON NONLINEAR SCIENCE</conference_title>
+<place>Slovenia</place>
+<authors><author>I. Tsuda</author></authors>
+<abstract></abstract>
+<attachment_dl_limit>0</attachment_dl_limit>
+<attachment_dl_notify>0</attachment_dl_notify>
+</detail>
+</item>

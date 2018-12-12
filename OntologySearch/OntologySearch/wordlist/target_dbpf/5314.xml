@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5314">
+<itemtype>xnppaper</itemtype>
+<titles><title>A truncated tropomyosin-related kinase B receptor, T1, regulates glial cell morphology via Rho GDP dissociation inhibitor 1.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Amino Acid Motifs</keyword>
+<keyword>Amino Acid Sequence</keyword>
+<keyword>Animals</keyword>
+<keyword>Astrocytes</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Bacterial Toxins</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Brain</keyword>
+<keyword>metabolism</keyword>
+<keyword>Brain-Derived Neurotrophic Factor</keyword>
+<keyword>pharmacology</keyword>
+<keyword>physiology</keyword>
+<keyword>Cell Shape</keyword>
+<keyword>drug effects</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Cytoskeleton</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Guanine Nucleotide Dissociation Inhibitors</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Humans</keyword>
+<keyword>Kidney</keyword>
+<keyword>Molecular Sequence Data</keyword>
+<keyword>Nerve Tissue Proteins</keyword>
+<keyword>physiology</keyword>
+<keyword>Protein Binding</keyword>
+<keyword>Protein Interaction Mapping</keyword>
+<keyword>Protein Isoforms</keyword>
+<keyword>chemistry</keyword>
+<keyword>physiology</keyword>
+<keyword>Protein Structure</keyword>
+<keyword>Tertiary</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Receptor</keyword>
+<keyword>trkB</keyword>
+<keyword>chemistry</keyword>
+<keyword>genetics</keyword>
+<keyword>physiology</keyword>
+<keyword>Recombinant Fusion Proteins</keyword>
+<keyword>physiology</keyword>
+<keyword>Signal Transduction</keyword>
+<keyword>Transfection</keyword>
+<keyword>rho GTP-Binding Proteins</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-03T04:42:50Z</last_update_date>
+<creation_date>2011-06-03T04:42:50Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5314</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5314" version="1.02">
+<authors><author>Ohira K</author><author>Kumanogoh H</author><author>Sahara Y</author><author>Homma KJ</author><author>Hirai H</author><author>Nakamura S</author><author>Hayashi M</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>25</volume>
+<number>6</number>
+<page>1343-53</page>
+<abstract>Through tropomyosin-related kinase B (TrkB) receptors, brain-derived neurotrophic factor (BDNF) performs many biological functions such as neural survival, differentiation, and plasticity. T1, an isoform of TrkB receptors that lacks a tyrosine kinase, predominates in the adult mammalian CNS, yet its role remains controversial. In this study, to examine whether T1 transduces a signal and to determine its function, we first performed an affinity purification of T1-binding protein with the T1-specific C-terminal peptide and identified Rho GDP dissociation inhibitor 1 (GDI1), a GDP dissociation inhibitor of Rho small G-proteins, as a signaling protein directly associated with T1. The binding of BDNF to T1 caused Rho GDI1 to dissociate from the C-terminal tail of T1. Astrocytes cultured for 30 d expressed only endogenous T1 among the BDNF receptors. In 30 d cultured astrocytes, Rho GDI1, when dissociated in a BDNF-dependent manner, controlled the activities of the Rho GTPases, which resulted in rapid changes in astrocytic morphology. Furthermore, using 2 d cultured astrocytes that were transfected with T1, a T1 deletion mutant, or cyan fluorescent protein fusion protein of the T1-specific C-terminal sequence, we demonstrated that T1-Rho GDI1 signaling was indispensable for regulating the activities of Rho GTPases and for the subsequent morphological changes among astrocytes. Therefore, these findings indicate that the T1 signaling cascade can alter astrocytic morphology via regulation of Rho GTPase activity.</abstract>
+<pubmed_id>15703388</pubmed_id>
+</detail>
+</item>

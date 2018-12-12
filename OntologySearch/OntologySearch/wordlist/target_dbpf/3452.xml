@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3452">
+<itemtype>xnppaper</itemtype>
+<titles><title>Glutamatergic synapses on oligodendrocyte precursor cells in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>neuron-glia</keyword>
+</keywords>
+<description></description>
+<doi>644</doi>
+<last_update_date>2010-03-27T08:37:22Z</last_update_date>
+<creation_date>2010-03-27T08:37:22Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3452</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3452" version="1.02">
+<authors><author>Bergles DE</author><author>Roberts JD</author><author>Somogyi P</author><author>Jahr CE</author></authors>
+<journal>Nature</journal>
+<volume>405</volume>
+<number>6783</number>
+<page>187-91</page>
+<abstract>Fast excitatory neurotransmission in the central nervous system occurs at specialized synaptic junctions between neurons, where a high concentration of glutamate directly activates receptor channels. Low-affinity AMPA (alpha-amino-3-hydroxy-5-methyl isoxazole propionic acid) and kainate glutamate receptors are also expressed by some glial cells, including oligodendrocyte precursor cells (OPCs). However, the conditions that result in activation of glutamate receptors on these non-neuronal cells are not known. Here we report that stimulation of excitatory axons in the hippocampus elicits inward currents in OPCs that are mediated by AMPA receptors. The quantal nature of these responses and their rapid kinetics indicate that they are produced by the exocytosis of vesicles filled with glutamate directly opposite these receptors. Some of these AMPA receptors are permeable to calcium ions, providing a link between axonal activity and internal calcium levels in OPCs. Electron microscopic analysis revealed that vesicle-filled axon terminals make synaptic junctions with the processes of OPCs in both the young and adult hippocampus. These results demonstrate the existence of a rapid signalling pathway from pyramidal neurons to OPCs in the mammalian hippocampus that is mediated by excitatory, glutamatergic synapses.</abstract>
+<pubmed_id>10821275</pubmed_id>
+</detail>
+</item>

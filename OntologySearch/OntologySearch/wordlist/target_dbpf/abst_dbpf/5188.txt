@@ -1,0 +1,45 @@
+Amygdala
+physiopathology
+Animals
+Behavior
+Animal
+Brain
+pathology
+physiopathology
+Cerebellum
+pathology
+physiopathology
+Conditioning (Psychology)
+DNA-Binding Proteins
+biosynthesis
+genetics
+Fear
+Gene Expression Regulation
+Developmental
+Gene Targeting
+Hippocampus
+pathology
+physiopathology
+Homozygote
+In Situ Hybridization
+Kruppel-Like Transcription Factors
+Learning Disorders
+genetics
+pathology
+Memory Disorders
+genetics
+pathology
+Mice
+Mice
+Knockout
+Mice
+Neurologic Mutants
+Motor Activity
+genetics
+Psychomotor Performance
+Purkinje Cells
+pathology
+Transcription Factors
+biosynthesis
+genetics
+Basic transcription element binding protein (BTEB) is a transcription factor with a characteristic zinc finger motif and is most remarkably enhanced by thyroid hormone T(3) treatment (R. J. Denver et al., J. Biol. Chem. 272:8179-8188, 1997). To investigate the function of BTEB per se and to touch on the effects of T(3) (3,5,3'-triiodothyronine) on mouse development, we generated BTEB-deficient mice by gene knockout technology. Homologous BTEB(-/-) mutant mice were bred according to apparently normal Mendelian genetics, matured normally, and were fertile. Mutant mice could survive for at least 2 years without evident pathological defects. From the expression of lacZ, which was inserted into the reading frame of the BTEB gene, BTEB showed a characteristic tissue-specific expression profile during the developmental process of brain and bone. Dramatically increased expression of BTEB was observed in Purkinje cells of the cerebellum and pyramidal cell layers of the hippocampus at P7 when synapses start to form in the brain. Although general behavioral activities such as locomotion, rearing, and speed of movement were not so much affected in the BTEB(-/-) mutant mice, they showed clearly reduced activity levels in rotorod and contextual fear-conditioning tests; this finding was probably due to defective functions of the cerebellum, hippocampus, and amygdala.

@@ -1,0 +1,20 @@
+Action Potentials
+Cerebral Cortex
+physiology
+Electric Stimulation
+Evoked Potentials
+Hippocampus
+physiology
+Neural Pathways
+physiology
+Sleep
+physiology
+Sleep
+REM
+physiology
+Synapses
+physiology
+Synaptic Transmission
+Wakefulness
+physiology
+Electrical stimuli were applied to the angular bundle of the freely moving rat, and the neuronal responses were recorded ipsilaterally in the dentate gyrus and the CA1 field of the hippocampus. The number of neurons responding monosynaptically in the dentate gyrus was relatively small when the animal was alert and not moving but was much greater both during slow-wave sleep and during rapid eye movement sleep. In Ca1, however, the trisynaptic population response was considerably smaller during rapid eye movement sleep and when the animal was alert than during slow-wave sleep. These findings are interpreted in terms of a set of behaviorally dependent "neural gates". Measurement of the synaptic current at the dentate gyrus induced monosynaptically by stimulation of the angular bundle further suggests that the mechanism by which gating occurs at this level is either a tonic inhibitory synaptic influence exerted upon the granule cells during the alert state, a tonic excitatory influence during slow-wave sleep, or both.

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4947">
+<itemtype>xnppaper</itemtype>
+<titles><title>Place memory and scene memory: effects of fornix transection in the monkey.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Macaca</keyword>
+<keyword>physiology</keyword>
+<keyword>Macaca fascicularis</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Visual Pathways</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:50:08Z</last_update_date>
+<creation_date>2011-05-09T02:50:08Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4947</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4947" version="1.02">
+<authors><author>Gaffan D</author><author>Harrison S</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>74</volume>
+<number>1</number>
+<page>202-12</page>
+<abstract>Five experiments examined the effects of fornix transection upon some spatial and visual learning tasks in monkeys (Macaca fascicularis). For each trial of each task, the monkey was brought to a test tray and allowed to choose between 2 objects on the tray. In different tasks, different cues were provided by the experimenter to guide the monkey&#039;s choices. In total 5 different tasks were run (Experiments 1 to 5) and the results showed that the effects of fornix transection varied markedly between tasks: the animals with fornix transection were severely impaired in experiments 1, 3 and 5 but learned normally in experiments 2 and 4. It is concluded that the results cannot be explained by the simple hypothesis of a deficit in place learning, since some forms of place learning are unimpaired by fornix transection. A better general hypothesis is that the memory disrupted by fornix transection is like a snapshot memory, which stores the spatial arrangement of items in a witnessed scene.</abstract>
+<pubmed_id>2924836</pubmed_id>
+</detail>
+</item>

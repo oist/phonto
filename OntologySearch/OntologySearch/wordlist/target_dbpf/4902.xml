@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4902">
+<itemtype>xnppaper</itemtype>
+<titles><title>Exposure to acute stress blocks the induction of long-term potentiation of the amygdala-prefrontal cortex pathway in vivo.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Acute Disease</keyword>
+<keyword>Amygdala</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Analysis of Variance</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>Male</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>metabolism</keyword>
+<keyword>Stress</keyword>
+<keyword>Physiological</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T01:31:18Z</last_update_date>
+<creation_date>2011-05-09T01:31:18Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4902</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4902" version="1.02">
+<authors><author>Maroun M</author><author>Richter-Levin G</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>23</volume>
+<number>11</number>
+<page>4406-9</page>
+<abstract>In recent years, attention has been given to the interaction between the emotional state of the animal and its ability to learn and remember. Studies into the neural mechanisms underlying these interactions have focused on stress-induced synaptic plasticity impairments in the hippocampus. However, other brain areas, including the amygdala and the prefrontal cortex (PFC), have been implicated in relation to stress-mediated effects on memory. The present study examined whether stress, which impairs hippocampal long-term potentiation (LTP), also affects LTP of the basolateral amygdala (BLA)-PFC pathway in vivo. We first confirmed that the stress protocol we used, i.e., the elevated platform stress, was effective in blocking LTP in the CA1 area of the hippocampus. We then characterized activity and established the ability to induce LTP at the BLA-PFC pathway. Finally, we examined the effects of an exposure to the elevated platform stress on the ability to induce LTP in this pathway. The results indicate that, at the same time when LTP is blocked in the hippocampus, it is also inhibited in the BLA-medial PFC pathway. These results call for a shift from a focused attention on the effects of stress on plasticity in the hippocampus to a system level approach that emphasizes the possible modification of interactions between relevant brain areas after an exposure to a stressful experience.</abstract>
+<pubmed_id>12805280</pubmed_id>
+</detail>
+</item>

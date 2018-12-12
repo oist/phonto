@@ -1,0 +1,30 @@
+2-Amino-5-phosphonovalerate
+Animals
+Convulsants
+pharmacology
+Electric Stimulation
+Electroencephalography
+Evoked Potentials
+drug effects
+Hippocampus
+physiology
+Male
+Neurons
+physiology
+Rats
+Rats
+Inbred Strains
+Receptors
+N-Methyl-D-Aspartate
+Receptors
+Neurotransmitter
+physiology
+Synapses
+physiology
+Theta Rhythm
+Valine
+analogs
+&
+derivatives
+pharmacology
+Short bursts of high frequency stimulation produce maximal long-term potentiation (LTP) at Schaffer-commissural synapses on CA1 neurons in hippocampal slices when the bursts are spaced 200 ms apart. A burst to one input (S1) does not induce LTP but 'primes' the postsynaptic neurons such that 200 ms later the postsynaptic response to a burst to a second input (S2) is greatly enhanced and LTP is induced. The role of N-methyl-D-aspartate (NMDA) receptors in this response enhancement and LTP induction was studied by perfusing slices with the NMDA antagonist, 2-amino-5-phosphonovalerate (AP5). AP5 (100 microM) had no effect on the field excitatory postsynaptic potential evoked by single pulse stimulation, but completely eliminated both the decremental short-term potentiation (lasting less than 10 min) and stable LTP effects elicited by burst stimulation. AP5 reduced the response to a non-primed burst by about 10% and reduced the relative enhancement of a primed burst response by about 35%. These results indicate that part of the postsynaptic response to a primed burst is mediated by NMDA receptors and that this component is necessary for all forms of synaptic potentiation (including LTP) resulting from burst stimulation. The similarity of the short bursts with the complex-spike discharges of hippocampal neurons as well as the 200 ms optimal interval with the period of the hippocampal theta-rhythm suggest links between theta and the NMDA receptor in the induction of hippocampal synaptic plasticity.

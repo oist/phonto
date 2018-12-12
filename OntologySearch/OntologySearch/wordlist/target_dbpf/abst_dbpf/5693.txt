@@ -1,0 +1,36 @@
+Adult
+Brain Mapping
+Evoked Potentials
+physiology
+Female
+Functional Laterality
+physiology
+Hippocampus
+anatomy
+&
+histology
+physiology
+Humans
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Neocortex
+anatomy
+&
+histology
+physiology
+Nerve Net
+anatomy
+&
+histology
+physiology
+Neural Pathways
+anatomy
+&
+histology
+physiology
+Neuropsychological Tests
+Problem Solving
+physiology
+Since the work of Wolfgang Kohler, the process of "insight" in problem solving has been the subject of considerable investigation. Yet, the neural correlates of "insight" remain unknown. Theoretically, "insight" means the reorientation of one's thinking, including breaking of the unwarranted "fixation" and forming of novel, task-related associations among the old nodes of concepts or cognitive skills. Processes closely related to these aspects have been implicated in the hippocampus. In this research, the neural correlates of "insight" were investigated using Japanese riddles, by imaging the answer presentation and comprehension events, just after participants failed to resolve them. The results of event-related functional magnetic resonance imaging (fMRI) analysis demonstrated that the right hippocampus was critically highlighted and that a wide cerebral cortex was also involved in this "insight" event. To the best of our knowledge, this work is the first neuroimaging study to have investigated the neural correlates of "insight" in problem solving.

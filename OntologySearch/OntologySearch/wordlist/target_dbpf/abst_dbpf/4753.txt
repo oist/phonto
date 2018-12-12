@@ -1,0 +1,17 @@
+Action Potentials
+drug effects
+Animals
+Hippocampus
+physiology
+Lidocaine
+pharmacology
+Male
+Neural Inhibition
+drug effects
+Rats
+Rats
+Inbred F344
+Septal Nuclei
+drug effects
+physiology
+The contribution of septal afferents to spontaneous hippocampal single unit activity was examined by reversibly inactivating the medial septal nucleus using microinjections of the local anesthetic lidocaine. Septal inactivation reduced spontaneous firing of cells in stratum granulosum and in the hilar/CA3 region for periods of up to about 15 min. The firing rates of CA1 complex-spike (pyramidal) cells, however, were not changed, although CA1 theta cells (inhibitory interneurons) exhibited a significant reduction in spontaneous rate. One interpretation of this pattern of results is that the output of CA1 pyramidal cells is maintained roughly constant in spite of reduced input from CA3 because of a proportional reduction in feedforward inhibition. This interpretation is consistent with Marr's 22 formulation of the manner in which the hippocampus implements distributed associative memory. Alternatively, afferents to CA1 originating from regions other than CA3 may play a larger role in regulating CA1 output than previously assumed.

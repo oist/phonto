@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4800">
+<itemtype>xnppaper</itemtype>
+<titles><title>Studies on single neurons in dorsal hippocampal formation and septum in unrestrained rats. I. Behavioral correlates and firing repertoires.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Appetitive Behavior</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Consummatory Behavior</keyword>
+<keyword>Drinking Behavior</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Feeding Behavior</keyword>
+<keyword>Grooming</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Septal Nuclei</keyword>
+<keyword>physiology</keyword>
+<keyword>Septum Pellucidum</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Sleep Stages</keyword>
+<keyword>Sleep</keyword>
+<keyword>REM</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:13:22Z</last_update_date>
+<creation_date>2011-04-28T05:13:22Z</creation_date>
+<publication_year>1973</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4800</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4800" version="1.02">
+<authors><author>Ranck JB</author></authors>
+<journal>Experimental neurology</journal>
+<volume>41</volume>
+<number>2</number>
+<page>461-531</page>
+<abstract></abstract>
+<pubmed_id>4355646</pubmed_id>
+</detail>
+</item>

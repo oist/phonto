@@ -1,0 +1,35 @@
+Animals
+Avoidance Learning
+physiology
+Brain Mapping
+Cerebral Cortex
+physiology
+Conditioning
+Classical
+physiology
+Discrimination Learning
+physiology
+Escape Reaction
+physiology
+Fear
+physiology
+Hippocampus
+physiology
+Male
+Mental Recall
+physiology
+Motor Activity
+physiology
+Neural Pathways
+physiology
+Neurons
+physiology
+Orientation
+physiology
+Rats
+Retention (Psychology)
+physiology
+Social Environment
+Taste
+physiology
+Previous studies have identified a population of neurons in the postsubiculum that discharge as a function of the rat's head direction in the horizontal plane (Taube, Muller,&Ranck, 1990a). To assess the contribution of these cells in spatial learning, Long-Evans rats were tested in a variety of spatial and nonspatial tasks following bilateral electrolytic or neurotoxic lesions of the postsubiculum. Compared to unlesioned control animals, lesioned animals were impaired on two spatial tasks, a radial eight-arm maze task and a Morris water task, although the performance scores of both lesion groups improved over the course of behavioral testing. In contrast, lesioned animals were unimpaired on two nonspatial tasks, a cued version of the water maze task and a conditioned taste-aversion paradigm. In addition, lesioned animals showed transient hyperactivity in an open-field activity test. These results support the concept that neurons in the postsubiculum are part of a neural network involved in the processing of spatial information.

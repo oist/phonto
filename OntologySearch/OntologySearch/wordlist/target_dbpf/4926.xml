@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4926">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal formation lesions produce memory impairment in the rhesus monkey.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Color Perception</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>pathology</keyword>
+<keyword>physiology</keyword>
+<keyword>Ibotenic Acid</keyword>
+<keyword>toxicity</keyword>
+<keyword>Learning</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Macaca mulatta</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory Disorders</keyword>
+<keyword>chemically induced</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Seizures</keyword>
+<keyword>chemically induced</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:17:41Z</last_update_date>
+<creation_date>2011-05-09T02:17:41Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4926</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4926" version="1.02">
+<authors><author>Beason-Held LL</author><author>Rosene DL</author><author>Killiany RJ</author><author>Moss MB</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>5</number>
+<page>562-74</page>
+<abstract>There is much debate over the role of temporal lobe structures in the ability to learn and retain new information. To further assess the contributions of the hippocampal formation (HF), five rhesus monkeys received stereotactically placed ibotenic acid lesions of this region without involvement of surrounding ventromedial temporal cortices. After surgery, the animals were trained on two recognition memory tasks: the Delayed Non-Match to Sample (DNMS) task, which tests the ability to remember specific trial unique stimuli, and the Delayed Recognition Span Task (DRST), which tests the ability to remember an increasing array of stimuli. Relative to normal control monkeys, those with HF lesions demonstrated significant impairments in both learning and memory stages of the DNMS task. Additionally, the HF group was significantly impaired on spatial, color, and object versions of the DRST. Contrary to suggestions that damage to the entorhinal and parahippocampal cortices is required to produce significant behavioral deficits in the monkey, these results demonstrate that selective damage to the HF is sufficient to produce impairments on tasks involving delayed recognition and memory load. This finding illustrates the importance of the HF in the acquisition and retention of new information.</abstract>
+<pubmed_id>10560927</pubmed_id>
+</detail>
+</item>

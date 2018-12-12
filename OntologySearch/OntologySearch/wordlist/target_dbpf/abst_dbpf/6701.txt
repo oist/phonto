@@ -1,0 +1,20 @@
+Adult
+Association Learning
+physiology
+Female
+Hippocampus
+physiology
+Humans
+Magnetic Resonance Imaging
+Male
+Occipital Lobe
+physiology
+Parahippocampal Gyrus
+physiology
+Prosencephalon
+physiology
+Recognition (Psychology)
+physiology
+Temporal Lobe
+physiology
+The temporal lobe regions involved in memory retrieval were examined using fMRI. During an associative recognition test, participants made memory judgments about the study color of previously presented drawings of objects, and during item recognition tests they made old/new judgments about previously studied objects or new objects. Associative recognition compared with old item recognition led to activations in bilateral hippocampal and parahippocampal regions, as well as in the left middle occipital gyrus. Old item recognition compared with new item recognition led to activation in the left middle occipital gyrus and the left middle temporal gyrus, and relative deactivations in bilateral hippocampal regions. The results indicate that partially distinct temporal lobe regions are involved during recognition memory for item and associative information.

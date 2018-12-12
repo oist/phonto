@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="2553">
+<itemtype>xnppaper</itemtype>
+<titles><title>The temporal structure of the memory storage in the theta phase precessing model of the hippocampus</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2009-06-30T06:37:20Z</last_update_date>
+<creation_date>2009-06-30T06:37:20Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=2553</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="2553" version="1.02">
+<authors><author>Sato N</author><author>Haga N</author><author>Yamaguchi Y</author></authors>
+<journal>he Seventh International Conference on Neural Information Processing</journal>
+<volume>1</volume>
+<number></number>
+<page>53-54</page>
+<abstract></abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

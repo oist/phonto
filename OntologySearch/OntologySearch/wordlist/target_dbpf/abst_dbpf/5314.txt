@@ -1,0 +1,59 @@
+Amino Acid Motifs
+Amino Acid Sequence
+Animals
+Astrocytes
+drug effects
+metabolism
+ultrastructure
+Bacterial Toxins
+pharmacology
+Brain
+metabolism
+Brain-Derived Neurotrophic Factor
+pharmacology
+physiology
+Cell Shape
+drug effects
+Cells
+Cultured
+drug effects
+metabolism
+ultrastructure
+Cytoskeleton
+ultrastructure
+Guanine Nucleotide Dissociation Inhibitors
+physiology
+Hippocampus
+cytology
+Humans
+Kidney
+Molecular Sequence Data
+Nerve Tissue Proteins
+physiology
+Protein Binding
+Protein Interaction Mapping
+Protein Isoforms
+chemistry
+physiology
+Protein Structure
+Tertiary
+Rats
+Rats
+Sprague-Dawley
+Rats
+Wistar
+Receptor
+trkB
+chemistry
+genetics
+physiology
+Recombinant Fusion Proteins
+physiology
+Signal Transduction
+Transfection
+rho GTP-Binding Proteins
+antagonists
+&
+inhibitors
+physiology
+Through tropomyosin-related kinase B (TrkB) receptors, brain-derived neurotrophic factor (BDNF) performs many biological functions such as neural survival, differentiation, and plasticity. T1, an isoform of TrkB receptors that lacks a tyrosine kinase, predominates in the adult mammalian CNS, yet its role remains controversial. In this study, to examine whether T1 transduces a signal and to determine its function, we first performed an affinity purification of T1-binding protein with the T1-specific C-terminal peptide and identified Rho GDP dissociation inhibitor 1 (GDI1), a GDP dissociation inhibitor of Rho small G-proteins, as a signaling protein directly associated with T1. The binding of BDNF to T1 caused Rho GDI1 to dissociate from the C-terminal tail of T1. Astrocytes cultured for 30 d expressed only endogenous T1 among the BDNF receptors. In 30 d cultured astrocytes, Rho GDI1, when dissociated in a BDNF-dependent manner, controlled the activities of the Rho GTPases, which resulted in rapid changes in astrocytic morphology. Furthermore, using 2 d cultured astrocytes that were transfected with T1, a T1 deletion mutant, or cyan fluorescent protein fusion protein of the T1-specific C-terminal sequence, we demonstrated that T1-Rho GDI1 signaling was indispensable for regulating the activities of Rho GTPases and for the subsequent morphological changes among astrocytes. Therefore, these findings indicate that the T1 signaling cascade can alter astrocytic morphology via regulation of Rho GTPase activity.

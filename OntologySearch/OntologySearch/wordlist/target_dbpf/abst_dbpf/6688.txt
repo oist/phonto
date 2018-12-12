@@ -1,0 +1,34 @@
+Adult
+Aging
+physiology
+psychology
+Analysis of Variance
+Child
+Color Perception
+physiology
+Female
+Hippocampus
+physiology
+Humans
+Image Processing
+Computer-Assisted
+Imagination
+physiology
+Judgment
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Occipital Lobe
+physiology
+Prefrontal Cortex
+physiology
+Psychomotor Performance
+physiology
+Recognition (Psychology)
+physiology
+Semantics
+Temporal Lobe
+physiology
+Young Adult
+A known contributor to adults' superior memory performance compared to children is their differential reliance on an existing knowledge base. Compared to those of adults, children's semantic networks are less accessible and less established, a difference that is also thought to contribute to children's relative resistance to semantically related false alarms. Using the"congruency effect"- the memory advantage of congruity, we manipulated the encoded stimuli in the present experiment such that the use of the knowledge base at encoding was more - or less - accessible in both children and adults. While being scanned, 15 children (ages 8-11) and 18 young adults saw printed noun/color combinations and were asked to indicate whether each combination existed in nature. A subsequent recognition test was administered outside of the scanner. Behaviorally, although overall memory was higher in the adult group compared to the children, both age groups showed the congruency effect to the same extent. A comparison of the neural substrates supporting the congruency effect between adults and children revealed that whereas adults recruited regions primarily associated with semantic-conceptual processing (e.g., the left PFC and parietal and occipito-temporal cortices), children recruited regions earlier in the processing stream (e.g., the right occipital cortex). This evidence supports the hypothesis that early in development, episodic encoding depends more on perceptual systems, whereas top-down frontal control and parietal structures become more prominent in the encoding process with age. This developmental switch contributes to adults' superior memory performance but may render adults more vulnerable to committing semantically based errors.

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7211">
+<itemtype>xnppaper</itemtype>
+<titles><title>Rapid plasticity at inhibitory and excitatory synapses in the hippocampus induced by ictal epileptiform discharges.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>6-Cyano-7-nitroquinoxaline-2</keyword>
+<keyword>3-dione</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Biophysics</keyword>
+<keyword>Calcium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>adverse effects</keyword>
+<keyword>Epilepsy</keyword>
+<keyword>etiology</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Excitatory Amino Acid Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>GABA Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>GABA-B Receptor Antagonists</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Inhibitory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Magnesium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Male</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Potassium</keyword>
+<keyword>adverse effects</keyword>
+<keyword>Pyridazines</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Receptors</keyword>
+<keyword>GABA-B</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>Sodium Channel Blockers</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Tetrodotoxin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Valine</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:57:48Z</last_update_date>
+<creation_date>2013-02-27T07:57:48Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7211</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7211" version="1.02">
+<authors><author>Lopantsev V</author><author>Both M</author><author>Draguhn A</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>29</volume>
+<number>6</number>
+<page>1153-64</page>
+<abstract>Epileptic seizures can induce pathological processes of plasticity in the brain that tend to promote the generation of further seizures. However, the immediate impact of epileptic seizures on cellular excitability remains poorly understood. In order to unravel such early mechanisms of epilepsy-induced plasticity, we studied synaptic transmission before and shortly after three ictal discharges induced by transient elevation of extracellular K(+) in mouse hippocampal slices. Discharges were initiated in the CA3 region and propagated via the Schaffer collaterals into CA1 where they were associated with sustained membrane depolarization and bursts of action potentials in CA1 pyramidal cells. Subsequently, discharges were followed by long-term potentiation (LTP) of Schaffer collateral-evoked field excitatory post-synaptic potentials (EPSPs) in the CA1. The ability to generate epileptiform activity in response to repetitive stimulation was enhanced during LTP. Changes in both inhibitory and excitatory synaptic transmission contributed to LTP in CA1 pyramidal cells. Discharges reduced gamma-aminobutyric acid-A receptor-mediated hyperpolarizing inhibitory post-synaptic potentials by shifting their reversal potentials in a positive direction. At the same time, the amplitudes of Schaffer collateral-evoked RS-alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor-mediated EPSPs and action potential-independent miniature EPSPs were enhanced. However, N-methyl-d-aspartate receptor-mediated EPSPs remained unchanged. Paired-pulse stimulation revealed a reduced probability of glutamate release. Together, these changes in synaptic transmission produce a sustained increase in hippocampal excitability. We conclude that a few seizure-like ictal episodes are sufficient to cause fast and lasting changes in the excitation/inhibition balance in hippocampal networks, and therefore may contribute to early phases of progressive epileptogenesis.</abstract>
+<pubmed_id>19302151</pubmed_id>
+</detail>
+</item>

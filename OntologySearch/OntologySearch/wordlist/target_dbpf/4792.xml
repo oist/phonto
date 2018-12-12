@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4792">
+<itemtype>xnppaper</itemtype>
+<titles><title>Low-calcium field burst discharges of CA1 pyramidal neurones in rat hippocampal slices.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Animals</keyword>
+<keyword>Calcium</keyword>
+<keyword>physiology</keyword>
+<keyword>Dose-Response Relationship</keyword>
+<keyword>Drug</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Magnesium</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Male</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Potassium</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:58:16Z</last_update_date>
+<creation_date>2011-04-28T04:58:16Z</creation_date>
+<publication_year>1984</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4792</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4792" version="1.02">
+<authors><author>Haas HL</author><author>Jefferys JG</author></authors>
+<journal>The Journal of physiology</journal>
+<volume>354</volume>
+<number></number>
+<page>185-201</page>
+<abstract>Incubation of rat hippocampal slices in solutions containing low Ca2+ and increased Mg2+ rapidly blocked synaptic responses and increased spontaneous firing of all the principal neurones. More remarkably, a rhythmic and synchronous bursting discharge developed, which was restricted to the CA1 population of pyramidal neurones. These &#039;field bursts&#039; or &#039;spreading excitation&#039; were rapidly abolished by restoring the Ca2+ to 2 mM, by increasing the Mg2+ to 6 mM or by decreasing K+ from 6 to 3 mM. The CA1 pyramidal cells depolarized after the change to the low-Ca2+ solution by about 10-20 mV. Individual field bursts were associated with a further depolarization of 10-12 mV surmounted by a burst of action potentials at about 20/s. This transient depolarization shift, recorded extracellularly as a negative field, could be attributed to the increase of [K+]o during the bursts, reaching 9-10 mM as measured by ion-sensitive electrodes. The bursts were followed by a hyperpolarization, seen extracellularly as a small soma-positive field, which was attributed to an electrogenic pump and/or a Ca2+-activated K+ conductance. Stimulation of the tightly packed pyramidal cell axons in the alveus elicited a train of population spikes, instead of the single spike normally seen, and could trigger a full field burst. Recordings of the alvear tract volley suggested that the repeated spikes arose within the pyramidal cells. Multiple recordings from CA1 revealed that field bursts usually, but by no means always, started near the caudal (subicular) end of the area. They spread through the cell layer at 0.04-0.12 m/s. The most rapid propagation was seen when the bursts had an abrupt onset; slower propagation (1-10 mm/s) occurred when the bursts started gradually, which generally was the case near the sites of burst initiation and termination. Usually the action potentials within each burst were synchronized into population spikes which spread across CA1 at 0.04-0.15 m/s. The site of initiation and the extent of the spread of these population spikes varied during each burst, as did their amplitude. The degree of spike synchronization was enhanced by various treatments expected to increase neuronal excitability. Measurements of transmembrane potential during the burst confirmed the role in the generation of population spikes of ephaptic or field interactions between the pyramidal cells. It is proposed that the increased firing of all neurones is due to the block of tonic inhibition, depression of after-hyperpolarization and to increased membrane excitability.(ABSTRACT TRUNCATED AT 400 WORDS)</abstract>
+<pubmed_id>6481633</pubmed_id>
+</detail>
+</item>

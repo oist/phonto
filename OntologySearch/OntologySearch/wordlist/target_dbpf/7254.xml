@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7254">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal long-term synaptic plasticity and signal amplification of NMDA receptors.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium Signaling</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+<keyword>src-Family Kinases</keyword>
+<keyword>metabolism</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:34:36Z</last_update_date>
+<creation_date>2013-02-28T01:34:36Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7254</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7254" version="1.02">
+<authors><author>MacDonald JF</author><author>Jackson MF</author><author>Beazely MA</author></authors>
+<journal>Critical reviews in neurobiology</journal>
+<volume>18</volume>
+<number>1</number>
+<page>71-84</page>
+<abstract>The direction of plasticity at CA3-CA1 hippocampal synapses is determined by the strength of afferent stimulation. Weak stimuli lead to long-term depression (LTD) and strong stimuli to long-term potentiation (LTP), but both require activation of synaptic N-methyl-D-aspartate receptors (NMDARs). These receptors are therefore necessary and required for the induction of plasticity at CA3-CA1 synapses even though they carry little of the current responsible for the basal excitatory post-synaptic potential (EPSP). The influx of Ca(2+) via NMDARs triggers the subsequent and persistent changes in the expression of alpha-amino-3-hydroxy-5 methylisoxazole-4-proprionic acid receptors (AMPARs) and these receptors are responsible for the major part of the basal EPSP. The degree of activity of NMDARs is determined in part by extracellular Mg(2+) and by the co-agonists for this receptor, glycine and D-serine. During strong stimulation, a relief of the voltage-dependent block of NMDARs by Mg(2+) provides a positive feedback for NMDAR Ca(2+) influx into postsynaptic CA1 spines. In this review, we discuss how the induction of LTP at CA3-CA1 synapses requires further signal amplification of NMDAR activity. We discuss how the regulation of NMDARs by protein kinases and phosphatases is brought into play. Evidence is presented that Src family kinases (SFKs) play a&quot;core&quot;role in the induction of LTP by enhancing the function and expression of NMDARs. At CA3-CA1 synapses, NMDARs are largely composed of NR1 (NMDA receptor subunit 1)-NR2A or NR1-NR2B containing subunits. Recent, but controversial, evidence has correlated NR1-NR2A receptors with the induction of LTP and NR1-NR2B receptors with LTD. However, LTP can be induced by activation of either subtype of NMDAR and the ratio of NR2A:NR2B receptors has been proposed as an alternative determinant of the direction of synaptic plasticity. Many transmitters and signal pathways can modify NMDAR function and expression and, for a given stimulus strength, they can potentially lead to a change in the balance between LTP and LTD. As opposed to the&quot;core&quot;mechanisms of LTP and LTD, the resulting alterations in this balance underlie&quot;meta-plasticity.&quot;Thus, in addition to their contribution to core mechanisms, we will also discuss how Src-family kinases could preferentially target NR1-NR2A or NR1-NR2B receptors to alter the relative contribution of these receptor subtypes to synaptic plasticity.</abstract>
+<pubmed_id>17725510</pubmed_id>
+</detail>
+</item>

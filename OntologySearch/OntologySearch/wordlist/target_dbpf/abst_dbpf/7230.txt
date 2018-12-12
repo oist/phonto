@@ -1,0 +1,44 @@
+Animals
+Benzoates
+pharmacology
+Electrophysiology
+Excitatory Amino Acid Agonists
+pharmacology
+Excitatory Amino Acid Antagonists
+pharmacology
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+Glycine
+analogs
+&
+derivatives
+pharmacology
+Hippocampus
+cytology
+drug effects
+metabolism
+Interneurons
+drug effects
+metabolism
+Long-Term Potentiation
+drug effects
+Methoxyhydroxyphenylglycol
+analogs
+&
+derivatives
+pharmacology
+Mice
+Mice
+Knockout
+Patch-Clamp Techniques
+Pyridines
+pharmacology
+Receptors
+Metabotropic Glutamate
+biosynthesis
+genetics
+Synapses
+drug effects
+metabolism
+Synaptic plasticity in inhibitory interneurons is essential to maintain a proper equilibrium between excitation and inhibition in hippocampal network. Recent studies showed that theta-burst-induced long-term potentiation (LTP) at excitatory synapses of oriens/alveus (O/A) interneurons in CA1 hippocampal region required the activation of metabotropic glutamate receptor (mGluR) 1. However these interneurons also express mGluR5 and the contribution of this receptor subtype in interneuron synaptic plasticity remains unexplored. We combined pharmacological and transgenic approaches to examine the relative contribution of mGluR1/5 in LTP at excitatory synapses on O/A interneurons. Bath-application of the selective mGluR1/5 agonist (s)-3,5-dihydroxyphenylglycine (DHPG) induced LTP of compound excitatory postsynaptic potentials. DHPG-induced LTP was not prevented by application of either mGluR1 or mGluR5 antagonists, was still present in mGluR1 knockout mice, but was blocked by co-application of both antagonists. These results indicate that LTP can be induced at O/A interneuron synapses by either mGluR1 or mGluR5 activation. As previously reported for mGluR1-dependent LTP, the mGluR5-dependent LTP was independent of N-methyl-d-aspartate receptors. Pairing DHPG application with postsynaptic depolarization induced mGluR1- and mGluR5-dependent LTP of minimally-evoked excitatory postsynaptic currents, which were composed of calcium-permeable AMPA receptor and presynaptically modulated by group II mGluRs, hence confirming that both forms of LTP occurred directly at interneuron excitatory synapses. These findings uncover a new mGluR5-dependent form of LTP at O/A interneuron synapses and indicate that activation of mGluR1 or mGluR5 is sufficient to induce LTP at these synapses. Thus, a rich repertoire of adaptive changes may take place at these interneuron synapses to regulate hippocampal feedback inhibition.

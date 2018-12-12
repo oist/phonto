@@ -1,0 +1,31 @@
+1. Neural Comput. 1995 Mar;7(2):307-37.
+
+Synchrony in excitatory neural networks.
+
+Hansel D(1), Mato G, Meunier C.
+
+Author information: 
+(1)Centre de Physique Théorique, UPR014 CNRS, Ecole Polytechnique, Palaiseau,
+France.
+
+Synchronization properties of fully connected networks of identical oscillatory
+neurons are studied, assuming purely excitatory interactions. We analyze their
+dependence on the time course of the synaptic interaction and on the response of 
+the neurons to small depolarizations. Two types of responses are distinguished.
+In the first type, neurons always respond to small depolarization by advancing
+the next spike. In the second type, an excitatory postsynaptic potential (EPSP)
+received after the refractory period delays the firing of the next spike, while
+an EPSP received at a later time advances the firing. For these two types of
+responses we derive general conditions under which excitation destabilizes
+in-phase synchrony. We show that excitation is generally desynchronizing for
+neurons with a response of type I but can be synchronizing for responses of type 
+II when the synaptic interactions are fast. These results are illustrated on
+three models of neurons: the Lapicque integrate-and-fire model, the model of
+Connor et al., and the Hodgkin-Huxley model. The latter exhibits a type II
+response, at variance with the first two models, that have type I responses. We
+then examine the consequences of these results for large networks, focusing on
+the states of partial coherence that emerge. Finally, we study the Lapicque model
+and the model of Connor et al. at large coupling and show that excitation can be 
+desynchronizing even beyond the weak coupling regime.
+
+PMID: 8974733  [PubMed - indexed for MEDLINE]

@@ -1,0 +1,19 @@
+Adult
+Brain Mapping
+Cognition
+Evoked Potentials
+Female
+Hippocampus
+physiology
+Humans
+Judgment
+Magnetic Resonance Imaging
+Male
+Mental Recall
+physiology
+Photic Stimulation
+Prefrontal Cortex
+physiology
+Reaction Time
+Young Adult
+Hippocampal activity is modulated during episodic memory retrieval. Most consistently, a relative increase in activity during confident retrieval is observed. Dorsolateral prefrontal cortex (DLPFC) is also activated during retrieval, but may be more generally activated during cognitive-control processes. The"default network,"regions activated during rest or internally focused tasks, includes the hippocampus, but not DLPFC. Therefore, DLPFC and the hippocampus should diverge during difficult tasks suppressing the default network. It is unclear, however, whether a difficult episodic memory retrieval task would suppress the default network due to difficulty or activate it due to internally directed attention. We hypothesized that a task requiring episodic retrieval followed by rumination on the retrieved item would increase DLPFC activity, but paradoxically reduce hippocampal activity due to concomitant suppression of the default network. In the present study, blocked and event-related fMRI were used to examine hippocampal activity during episodic memory recollection and postretrieval processing of paired associates. Subjects were asked to make living/nonliving judgments about items visually presented (classify) or items retrieved from memory (recall-classify). Active and passive baselines were used to differentiate task-related activity from default-network activity. During the"recall-classify"task, anterior hippocampal activity was selectively reduced relative to"classify"and baseline tasks, and this activity was inversely correlated with DLPFC. Reaction time was positively correlated with DLPFC activation and default-network/hippocampal suppression. The findings demonstrate that frontal and hippocampal activity are dissociated during difficult episodic retrieval tasks and reveal important considerations for interpreting hippocampal activity associated with successful episodic retrieval.

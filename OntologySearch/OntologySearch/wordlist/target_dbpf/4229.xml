@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4229">
+<itemtype>xnppaper</itemtype>
+<titles><title>Behavioral match evaluation of spatial cognition in rats and robots.</title>
+</titles>
+<contributor uname='waga'>[en]Hiroaki Wagatsuma[/en][ja]我妻 広明[/ja](waga)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Biomedical Engineering</keyword>
+<keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Habituation</keyword>
+<keyword>Psychophysiologic</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Models</keyword>
+<keyword>Psychological</keyword>
+<keyword>Rats</keyword>
+<keyword>Robotics</keyword>
+<keyword>instrumentation</keyword>
+<keyword>statistics</keyword>
+<keyword>&amp;</keyword>
+<keyword>numerical data</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-14T04:43:18Z</last_update_date>
+<creation_date>2010-10-14T04:43:18Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4229</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4229" version="1.02">
+<authors><author>Barrera A</author><author>Weitzenfeld A</author></authors>
+<journal>Conference proceedings : ... Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Conference</journal>
+<volume>2009</volume>
+<number></number>
+<page>7188-91</page>
+<abstract>In this paper we present a comparative behavioral analysis of spatial cognition in rats and robots by contrasting a similar goal-oriented task in a cyclical maze, where a computational system-level model of rat spatial cognition is used integrating kinesthetic and visual information to produce a cognitive map of the environment and drive robot experimentation. A discussion of experiments in rats and robots is presented contrasting learning latency while characterizing behavioral procedures such as body rotations during navigation and election of routes to the goal.</abstract>
+<pubmed_id>19965274</pubmed_id>
+</detail>
+</item>

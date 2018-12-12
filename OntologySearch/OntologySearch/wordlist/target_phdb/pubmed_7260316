@@ -1,0 +1,1566 @@
+VOLTAGE OSCILLATIONS IN THE BARNACLE GIANT
+MUSCLE FIBER
+
+CATHERINE MORRIS AND HAROLD LECAR, Laboratory ofBiophysics, National
+
+Institute ofNeurological and Communicative Disorders and Stroke, National
+Institutes ofHealth, Bethesda, Maryland 20205
+
+Barnacle muscle fibers subjected to constant current stimulation produce a
+ABSTRACT
+variety of types of oscillatory behavior when the internal medium contains the Ca"+ chelator
+EGTA. Oscillations are abolished if Ca"+ is removed from the external medium, or if the K+
+conductance is blocked. Available voltage-clamp data indicate that the cell's active conduc-
+tance systems are exceptionally simple. Given the complexity of barnacle fiber voltage
+behavior, this seems paradoxical. This paper presents an analysis of the possible modes of
+behavior available to a system of two noninactivating conductance mechanisms, and indicates
+a good correspondence to the types of behavior exhibited by barnacle fiber. The differential
+equations of a simple equivalent circuit for the fiber are dealt with by means of some of the
+mathematical techniques of nonlinear mechanics. General features of the system are (a) a
+propensity to produce damped or sustained oscillations over a rather broad parameter range,
+and (b) considerable latitude in the shape of the oscillatory potentials. It is concluded that for
+cells subject to changeable parameters (either from cell to cell or with time during cellular
+activity), a system dominated by two noninactivating conductances can exhibit varied
+oscillatory and bistable behavior.
+
+INTRODUCTION
+
+Voltage-clamp studies of the barnacle muscle (Keynes et al., 1973; Hagiwara et al., 1969;
+Hagiwara et al., 1974; Murayama and Lakshminarayanaiah, 1977; Beirao and Lakshmina-
+rayanaiah, 1979) indicate that the fiber possesses a simple conductance system consisting of
+voltage dependent Ca"+ and K+ channels, neither of which inactivates appreciably. Current-
+clamp studies, however, show complicated oscillatory voltage behavior (Hagiwara and
+Nakajima, 1966; Murayama and Lakshminarayanaiah, 1977). In this paper we ask whether a
+system of two noninactivating conductances can, in fact, account for such phenomena. A
+mathematical study shows that this simple system can predict much of the barnacle fiber
+behavior, although the simplest model fails to explain some areas of behavior.
+
+Of the two species of ion conductances in barnacle muscle (voltage- and time-dependent),
+neither shows fast inactivation, although accumulation of permeating ions produces time-
+dependent reduction of K+ currents (Keynes et al., 1973) and may also account for the slow
+but variable decay of Ca"+ channel currents. Two noninactivating conductances would
+constitute an unusually simple conductance apparatus, compared with other crustaceans (cf.
+Mounier and Vassort, 1975; Hencek and Zachar, 1977). There is preliminary evidence for a
+Ca++-activated gK in the barnacle fiber (Murayama and Lakshminarayanaiah, 1977). In our
+analysis this process would not enter into consideration of the primary oscillation, but it might
+effect slow modulations to produce "bursting" phenomena similar to those modelled for
+
+BIOPHYS. J. © Biophysical Society
+Volume35
+
+July 1981
+
+193-213
+
+*
+
+0006-3495/81/07/193/21
+
+$1.00
+
+193
+
+Aplysia neuron (Plant and Kim, 1976; Plant, 1976). Since our current clamp records were
+obtained from EGTA-perfused fibers, any Ca++-dependent slow processes would necessarily
+be depressed. We do, however, indicate how Ca"+ accumulation at the inner surface of the
+membrane may act as a very slow "inactivation" process.
+
+With IK and ICa dominating the membrane, it would be reasonable to anticipate a limited
+repertoire of voltage behavior in barnacle fibers. Under physiological conditions this is indeed
+the case: the barnacle fiber responds to nerve stimulation like other crustaceans, with graded
+depolarizations. But EGTA-perfused fibers subjected to constant current stimulation exhibit
+a variety of complicated voltage responses. One is compelled to ask whether the two
+noninactivating conductances would be sufficient to produce voltage oscillations as variable in
+character as those illustrated in the literature (cf. Hagiwara and Nakajima, 1966; Murayama
+and Lakshiminarayanaiah, 1977). Other factors, such as failure of radial space clamp (caused
+by membrane invaginations), ion accumulation, slow inactivation, inhomogeneous distribu-
+tion of channel types, and further species of conductances, could all lend additional
+complexity to the system and perhaps even cause additional oscillations.
+
+In this paper we consider the voltage oscillations induced under current clamp, and explore
+the possibility that they are produced by nothing more than two noninactivating conductances
+distributed homogeneously in a well space-clamped membrane. The observed behavior is
+compared with that predicted from a simple theoretical model. Although the model will be
+seen to give a reasonably good quantitative account of the current-clamp data, accurate fitting
+of the data for a limited set of conditions is not our main concern, since the extant
+voltage-clamp data are variable (cf. Keynes et al., 1973; Hagiwara et al., 1974). Rather, we
+study the range of behavior available to an excitable system of two nonlinear, noninactivating
+conductances, showing how the system predicts not only oscillations, but also pronounced
+qualitative variations in the character of the oscillations for different sets of parameters.
+Although this does not, of course, preclude involvement of other factors, it suggests that they
+have only a modulating influence, and are not fundamental to the oscillations.
+
+LIST OF ABBREVIATIONS OF MODEL PARAMETERS
+
+I = applied current (,uA/cm2)
+IL, IC, IK = leak, Ca++, and K+ currents, respectively (ALA/cm2)
+gL. gca. gK = maximum or instantaneous conductance values for leak, Ca", and K+ pathways,
+respectively (mmho/cm2)
+gC, = conductance constant for nonlinear Ica (mmho/cm2)
+V = membrane potential (mV)
+VL, VCa, VK = equilibrium potential corresponding to leak, Ca++, and K+ conductances, respectively
+(mV)
+M = fraction of open Ca"+ channels
+N = fraction of open K+ channels
+MX(V), N_(V) = fraction of open Ca"+ and K+ channels, at steady state
+XM(V), XN(V) = rate constant for opening of Ca"+ and K+ channels (s-')
+AM, AN = maximum rate constants for Ca++ and K+ channel opening (s-')
+VI = potential at which M_ = 0.5 (mV)
+V2 = reciprocal of slope of voltage dependence of Mz. (mV)
+V3 = potential at which N. = 0.5 (mV)
+V4 = reciprocal of slope of voltage dependence of NCO (mV)
+
+194
+
+BIOPHYSICAL JOURNAL VOLUME 35
+
+1981
+
+[Ca++]i, [Ca++], = internal and external Ca++ concentration (mM)
+K = accumulation-layer constant (cm- ')
+F = Faraday constant
+C = membrane capacitance (iuF/cm2)
+
+METHODS
+
+Large specimens of the barnacle Balanus nubilus (Pacific Bio-Marine Laboratories Inc., Venice, Calif.)
+were used. The barnacle was sawed into lateral halves, and the depressor scutorum rostralis muscles
+were carefully exposed. Individual fibers were dissected, the incision starting from the tendon. The other
+end of the muscle was cut close to its attachment on the shell and ligatured. Isolated fibers were either
+used immediately or kept for up to 30 min in standard artifical seawater (ASW; see below) before use.
+Experiments were carried out at room temperature of -220C.
+
+The muscle chamber, internal and external electrodes, internal perfusion system and current
+
+clamping system were essentially similar to those described by Keynes et al. (1973).
+
+The composition of the normal internal solution was: K acetate (180 mM), glucose (600 mM), Tris
+OH (12.5 mM), and EGTA (2.5 mM). For some experiments the internal solution consisted of Cs
+acetate (180 mM), TEA chloride (60 mM), glucose (485 mM), Tris OH (12.5 mM), and EGTA (2.5
+mM). The external solutions were either normal ASW (385 mM NaCl, 10 mM KCI, 10 mM CaC12, 50
+mM MgCl2, and 10 mM TES), high-Ca++ ASW (325 mM NaCI, 10 mM KCI, 100 mM CaC12, and 10
+mM TES, or Ca++-free ASW as normal ASW except CaC12 substituted by MgCI2).
+
+Most of the results are presented in conjunction with theoretical computations of voltage oscillations.
+The differential equation systems were integrated using the MLAB program developed at National
+Institutes of Health (NIH) (Knott, 1979). This program employs the Geary-Nordsieck algorithm for
+numerical integration, which is adequate for our problem. Much of the analysis makes use of methods of
+nonlinear mechanics, and various analytical results are given in the text in order to gain insight into the
+requirements for oscillation.
+
+The Model
+
+In accord with the voltage-clamp experiments of Keynes et al. (1973), the model is assigned two
+independent voltage-dependent conductances, gK and gca, each having a sigmoid voltage dependence.
+The relaxation times with which these conductances approach new values after voltage changes are
+given as bell-shaped functions of voltage. We shall assume for simplicity that the relaxation kinetics are
+first order, since precise kinetics are not essential for the description of all excitation effects (cf. Lecar
+and Nossal, 1971; FitzHugh, 1961). In general we have used linear relations for the instantaneous
+current-voltage curves through open-channels. Although our own experiments on the instantaneous
+Ca"+ current in barnacle muscle (unpublished data) show departures from linearity, under situations of
+high permeable-ion gradient, in all but one instance we stick for the sake of simplicity to the linear
+driving force approximation. The exception occurs when we look at the Ca++ conductance system in
+isolation from gK, for under these circumstances there is no countering force to keep the system in the
+nearly linear region.
+
+Fig. I shows the equivalent circuit hypothesized for a space-clamped patch of sarcolemma membrane.
+
+The equations describing the membrane behavior are:
+
+I C V +gL(VL) + gcaM(V- Vca) + gKN(V- VK)
+M= XM(V) [M(V) - M
+N= XN(V) [N(V) - N].
+
+(1)
+
+The parameters and variables are defined in the list of abbreviations. The variables M and N are
+
+MORRIS AND LECAR
+
+Voltage Oscillations in the Barnacle Giant Muscle Fiber
+
+195
+
+--c~ ~ ~~g
+
+VL
+
+VCa
+
+VK
+
+FIGURE 1
+
+Equivalent circuit for a patch of space-clamped barnacle sarcolemma.
+
+m"n" and "n" parameters. M and N are the fraction of
+analogous to the Hodgkin-Huxley (1952)
+channels open at any given time and, by rather elementary statistical arguments, are given the forms
+(e.g., Lecar et al., 1975; Ehrenstein and Lecar, 1977):
+
+M.(V)= 1/2 {1 + tanh [(V- V1)/V2]}
+XM(V) = AMcosh ([V- V1]/2V2)
+N.(V) = 1/2 Il + tanh [(V - V3)/V4]}
+XN(V) =XN cosh ([V- V3]/2V4).
+
+Eqs. 1 and 2 represent a third-order nonlinear system of the Hodgkin-Huxley form, which we shall use
+to explain the excitation behavior of the barnacle muscle. Values for the parameters were drawn from
+the voltage-clamp literature or from our own voltage-clamp data. In many cases we shall focus on the
+way in which the character of the solutions changes as the parameters are made to vary.
+
+RESULTS
+
+Experimental Observations
+
+Voltage behavior of current-clamped fibers was observed under three different conditions:
+with Ca++-free external solution (to minimize gCa), with Cs/TEA-containing internal
+perfusion solution (to minimize g90, and with solutions that optimize both gK and gca.
+
+K+ Conductance
+
+In Ca++-free solutions fibers produce no voltage oscillations. The membrane response to small
+stimuli is not discernably different from a passive RC circuit, but as the stimuli increase, a
+small active response is seen (Fig. 2a); instead of maintaining a voltage that would be
+dominated by the drop across the leakage resistance, the membrane partially repolarizes,
+leaving a small peak where the purely RC-response is truncated. At the end of the stimulus the
+voltage (which has usually slightly depolarized again) returns almost exponentially to rest.
+The straightforward interpretation is that the larger stimuli activate a nonlinear K+
+conductance, thereby producing an outward, hyperpolarizing current. The subsequent slow
+polarization of the K+ plateau is probably due to K+ accumulation during the prolonged
+stimulus (Keynes et al., 1973) and/or to a small residual Ca++ current, but not to gK
+inactivation.
+
+196
+
+BIOPHYSICAL JOURNAL VOLUME 35
+
+1981
+
+C__.__.._..........sr
+
+1o0
+
+I.
+
+O
+
+.-
+
+Ito
+
+.
+
+ALL-K# sYTEM
+
+b
+
+go
+
+310
+
+30
+
+20i
+
+V IflY
+-10
+
+-20\
+
+-10 ?
+__4
+
+4
+
+-- +
+SO
+
+4-I^-+
+1W
+
+*5
+
+toe
+
+-
+`
+
+O
+
+4
+*
+
+Plateau potentials of the K+ system. (a) Voltage responses (in millivolts) of a fiber to
+FIGURE 2
+increasing current stimulus (480, 960, and 1200 gA/cm2). External saline: Ca++-free ASW. Internal
+saline: K+ perfusate. In this and subsequent records, the duration (in milliseconds) of the current stimulus
+is indicated by arrowheads. (b) Computed voltage response of model to increasing currents. These curves
+represent numerical solutions to Eq. 3 for I = 25, 100, and 400. Other parameters were as follows: gca - 0,
+gK = 8, gL = 3, VK = -70, VL = -50, XN =
+1/15, C - 20, V3 - -1.0, V4 = 14.5. Initial conditions:
+V(O) = - 50, N(0) = N, (- 50). The value for gL was set at 3 instead of 2 to simulate roughly the increased
+leak frequently encountered in Ca++-free solutions.
+
+Ca++ Conductance
+
+The behavior of gK-blocked fibers is somewhat more complex. Again, no oscillations are
+observed, and very small stimuli produce simple RC-like responses. With increasing stimuli,
+however, a threshold is reached and bistability in the membrane voltage becomes evident.
+Beyond a threshold (- - 17 mV) the membrane voltage shoots rapidly to about + 20 mV and
+remains in a depolarized state with a slow repolarizing droop. This is a "Ca"+ plateau action
+potential" (Fig. 3a, top trace). When the stimulus pulse ends, the fiber does not return to rest,
+but simply undergoes a small voltage drop caused by the removal of the stimulating current.
+Between hundreds of milliseconds and several seconds later, as the plateau voltage continues
+to decline, the voltage does reach a threshold and falls precipitously to rest (Fig. 3c). The
+threshold for returning to rest occurs at a more depolarized voltage (- 0 mV) than for
+activation.
+
+The plateau action potential is readily interpreted as indicating that the only operative
+conductance system of significance (when gK is blocked) is a nonlinear gca* Threshold
+behavior would result from the negative resistance provided by the inward, depolarizing ICa;
+bistability would follow from lack of voltage-sensitive inactivation in the negative resistance
+element.
+
+Oscillations: K+ and Ca`+ Conductances Together
+
+The voltage behavior of the current-clamped fiber when either gK or gca is minimized is
+relatively simple and predictable; essentially, stimulation results in one of two types of
+plateaus. One might anticipate that when both conductances are recruited simultaneously, a
+voltage plateau intermediate between those for all K+ and all Ca++ would result. This is not,
+however, the case; the voltage behavior, over a wide range of current stimulus, is oscillatory.
+
+Small stimuli produce small, essentially passive depolarizations, but once a threshold
+voltage (which is in the same range as the all-Ca++ threshold) is reached, oscillations appear.
+
+MORRIS AND LECAR
+
+Voltage Oscillations in the Barnacle Giant Muscle Fiber
+
+197
+
+30
+
+20
+
+35-
+
+0~~~~ ~ ~ ~~~~~~~~~5
+
+V (MV)
+-10
+
+-20b
+
+0
+
+30
+
+20
+
+10
+
+0
+
+50
+
+100
+TInE
+
+150
+IMSEC)
+
+200
+
+40
+
+80
+
+120
+TINE INSEC)
+
+160
+
+200
+
+0
+
+Z5
+
+15
+
+v (tiv I
+
+-to
+
+-20
+
+V (caIc
+
+~~~~~~~~~~~~~~~~~-5
+~~~~~~~~~~~~~~~~-15
+-25
+
+02
+
+4
+
+6
+
+1012 14 16 120
+
+0
+TIME (SEC)
+
+-35
+
+1
+
+a
+
+3
+TINE (SEC)
+
+d
+
+5
+
+4
+
+Plateau potentials of the all-Ca" system. (a) Voltage responses (in millivolts) of a fiber to two
+FIGURE 3
+values of current stimulus, 60 uA/CM2 (lower trace) and 240 jAA/CM2 (upper trace). Note that for the
+smaller current the voltage reaches its plateau value after the stimulus is over. Time is expressed in
+milliseconds. External saline: high-Ca++ ASW (100 mM Ca++). Internal saline: Cs/TEA/EGTA
+perfusate. (b) Voltage response (mV) of the model (nonlinear driving force) to increasing currents. These
+curves represent numerical solutions to eq. 3 and 7, for I = 15, 25, and 50. Other parameters were as
+follows: gK = 0,gc. = 40, gL = 2, [Ca"]i = 0, [Ca ]J = 100, VL = -35. AM = 0. 1, C = 20, VI = 10, V2 =
+15. Initial conditions V(0) = -35, M(O) = MA,, (-35). Time is expressed in milliseconds. (c) Responses of
+a fiber to two subsequent current stimuli (360 ,uA) 1 min apart (upper trace first). Duration of the
+stimulus is 100 ms, so that these records emphasize the poststimulus part of the response. These represent
+particularly long plateau action potentials, but are typical in shape. Voltage, mV; Time, s. (d)
+Poststimulus voltage response of the model with an accumulation term. This curve* represents a solution to
+0, gca = 40, gL - 2,
+Eq.
+[Ca++]. = 100, VL = -35, Vl = 10, V2 = 15, C = 20, K = -10'-. Initial conditions V(0) = +28, [Ca++]i
+(0) = 0.001. Voltage, mV; time, s.
+
+I = 0. Other parameters were as
+
+follows: gK
+
+8
+
+for
+
+Oscillations of barnacle muscle fibers are decidedly not stereotyped (see also Hagiwara and
+Nakajima, 1966; Murayama and Lakshminarayanaiah, 1977); they are variable and some-
+times complex. Depending on experimental parameters such as leakage or Ca`+ conductance,
+the oscillations can either be damped or continuous. Usually, but not always, oscillations cease
+at the end of the stimulus and the fiber returns to rest. Fig. 4a shows a sequence of damped
+oscillations for various values of applied current. Although the amplitude and frequency of the
+oscillations are dependent on stimulus strength, increasing the stimulus does not produce a
+monotonic change in oscillation amplitude and frequency. Eventually, as I increases, the
+voltage excursions decrease and the rate of damping of the oscillations increases.
+
+Factors other than current strength also influence the character of the oscillations. The
+external calcium ion concentration is particularly influential. Fibers that show little or no
+
+198
+
+BIOPHYSICAL JOURNAL VOLUME 35
+
+1981
+
+I
+
+20
+
+20
+
+V (RV)
+
+-20tiO
+
+--I
+
+a.
+
+~~~~~~~~~~~bi
+
+--,K
+
+a.*
+
+I
+
+Mv
+
+0
+
+so50
+
+i
+TIOt "IM
+
+a"
+
+20
+
+*104
+
+TIME iISE.CI
+
+Voltage oscillations in fibers with Ca"+ and K+ conductances. External saline: either ASW
+FIGURE 4
+(ai, aii, aiii, bi, bii, cii), Ca++-free ASW (biv), or, in all others, high Ca++ ASW. Internal saline: K+
+perfusate. Voltage, mV; time, ms. (a) Voltage responses of a fiber to varying current stimulus. Current
+from top to bottom: 180, 540, and 900 AA. (b) Effect of varying [Ca"+]0. Current stimulus, 240 MA. i, ii,
+and iil, iv are from two different fibers. In i and ii, [Ca"+]. is increased from 10 mM (i) to 100 mM (ii).
+In ill and iv it is decreased from 10 mM (i) to 0 mM (iv). The contrast between i and ill also illustrates
+how variable the oscillatory response can be from fiber to fiber. Trace iv illustrates the RC response of the
+fiber in 0 mM Ca"+. (c) Variety of oscillatory characteristics. Current stimuli are 180, 600, 180, 360, 960,
+and 600 MA from i through vi.
+
+MORRIS AND LECAR
+
+Voltage Oscillations in the Barnacle Giant Muscle Fiber
+
+199
+
+oscillations in normal saline (10 mM Ca++) usually will oscillate when 100 mM Ca++ is
+substituted. Fibers which oscillate in normal saline change their mode of oscillation in 100
+mM Ca++ saline (Fig. 4b).
+
+The "piggyback" electrode assembly that perfuses saline through the cell interior produces
+variable degrees of damage to the invaginating membrane, which leads to individual variation
+in the nonspeciric leak. During the voltage-clamp experiments, leak conductance of the
+barnacle fiber tends to increase as the preparation ages (personal observation). Current-
+clamped preparations, as they age, eventually either cease oscillating in response to stimuli or
+produce more and more damped oscillations. The variability of gL from preparation to
+preparation and with time in a given preparation may be a major factor in the lack of
+stereotyped behavior in barnacle fibers.
+
+It is worth pointing out in greater detail the oscillatory behavior types exhibited by the
+fiber, which encompass a broad range. Some fibers produce almost sinusoidal oscillations, and
+these are damped to varying degrees (Fig. 4cii and 4civ). Other fibers produce trains of spikes,
+with the details of their spike shape and their periodicity varying considerably (Fig. 4ci and
+4civ).
+
+Quite frequently, fibers display a bistable type of oscillation: at the end of the stimulus the
+voltage falls to a slightly lower mean level, but continues to oscillate (usually for not
+>100-200 ms) and then falls to rest (Fig. 4ai). Occasionally this bistability appears chaotic,
+with the fiber producing sporadic bursts of activity (Fig. 4cvi).
+
+How the individual conductances can produce the type of plateau behavior shown by the
+barnacle fiber seems fairly clear. It is a bit more difficult to decide intuitively whether these
+two nonlinear conductances, neither of which inactivates appreciably, could interact to create
+the array of behavior that oscillating fibers display. The mathematical analysis which follows
+is consistent with the simplest interpretation of the single-conductance experiments, and
+shows that a system of two noninactivating nonlinear conductances oscillates under a wide
+variety of conditions, and that the oscillations can take many forms, dependent on the values
+of conductance parameters and applied current.
+
+Unlike oscillations observed under current clamp, current oscillations observed under
+voltage clamp cannot occur in a system having only voltage-dependent conductances. Keynes
+et al. (1973) showed that voltage-clamp oscillations diminish or disappear when radial space
+clamp is improved (by "inflating" the fiber to open up the membrane clefts). In our analysis
+we assume perfect space clamp. We have done additional computations using two patches of
+membrane, each obeying Eq. 1, but separated by a series resistance. For current-clamp
+conditions we found that the two-patch model does not give oscillations qualitatively different
+from the space-clamped model, although the detailed quantitative solutions change. For
+voltage-clamp conditions, on the other hand, there is an optimum range of cleft resistance for
+which the cleft membrane shows current oscillations even though the surface membrane is
+under potential control. The oscillations seen under voltage clamp may therefore be induced
+as approximate current-clamp oscillations of the cleft membrane when departure from radial
+space clamp is taken into account. The two-patch computation simulated the voltage-clamp
+oscillations and also their diminution (by varying the cleft-resistance parameters). Thus, it
+seems reasonable to conjecture that, because of the complicated membrane geometry, the
+
+200
+
+BIOPHYSICAL JOURNAL VOLUME 35
+
+1981
+
+system responsible for voltage oscillations under current clamp can also account for current
+oscillations under voltage clamp under conditions that are, by definition, imperfect.
+
+ANALYSIS
+
+To explore the contribution of the components of the overall conductance system, we shall
+examine in turn the behavior of each of the two nonlinear conductances operating in isolation
+from the other. The behavior of the two nonlinear conductances acting in concert will be
+examined afterward. This should demonstrate how the interaction of the two nonlinear
+conductances produces novel behavior.
+
+Responses ofSystem with a Single Voltage-dependent Conductance
+
+Consider a system in which either the Ca"+ or the K+ system is working in isolation. Figs. 2b
+and 3c show that the all-Ca"+ system has bistable responses and a characteristic threshold,
+whereas the all-K+ system exhibits a graded response with a transient peak followed by a
+decay to a voltage plateau.
+
+Let us generalize and write the equation of a single-conductance system as:
+
+I =CV + gL(V- VL) + gi4(V- Vi)
+=X (V) [lMXV) -Al]
+
+Here ,u can be either M or N, and the subscript i stands either for Ca or K. The main
+qualitative difference between the two cases is whether V, is less than or greater than VL. For
+these systems, Vca > VL and VK < VL. Other parameters describing the voltage-dependent
+conductances are not very different for the two systems. Let us study the behavior of Eqs. 3 in
+the V, ,A-phase plane. We can write the equations for the nullclines (that is, the V = 0 and , =
+0 isoclines) explicitly as
+
+(V = 0 nullcline) V(yg) = (I + gLVL ± gijtV)/(gL + giti),
+
+(4a)
+
+(4b)
+Eq. 4 shows that the V = 0 nullcline is a bilinear function of,, which varies between the
+values
+
+(,u = 0 nullcline) 1i(V) = ,ut(V).
+
+and
+
+V(0) = (I + gLVL) /
+
+L,
+
+V(1) = (I + gLVL + gjV) / (gL + gi)*
+
+(5)
+Fig. 5 shows nullclines for typical all-K+ and all-Ca++ conditions, illustrating the qualitative
+difference between the two cases. When V; < VL (all-K+) there can be only one singular point,
+whereas when Vj > VL (all-Ca++) there can be as many as three singular points. The ft = 0
+nullcline is approximately the same in both cases, with slight shifts along the voltage axis and
+slight differences in steepness.
+
+MORRIS AND LECAR
+
+Voltage Oscillations in the Barnacle Giant Muscle Fiber
+
+201
+
+81
+
+b
+
+0. 8-
+
+N
+
+104
+
+Cl
+
+*50-40--0-.-'0-10r 01 *O
+
+c
+
+venvI
+
+V\IF PHASE PLANES
+
+N.4 *0\. 8- FOR TWO VALUES
+
+k |
+
+-~~~~~~~OF':CURRENT
+
+0
+
+0.
+
+° +1
+
+/-
+
+// i10.
+
+Y*
+
+lv
+
+oV
+
+(.V.
+
+(a) V,N phase plane for all-K+ system. Dotted curve shows a typical phase trajectory when
+FIGURE S
+applied current is switched from 0 to 400. Vl = 0 nullclines are shown for various values of applied current,
+I. The intersection of the N = 0 and V = 0 nullcline for each value of current is the sole singular point for
+the all-K+ system for that set of parameters and is always a stable node. Parameters used are gL - 3. gC. =
+°. gK = 8, VL = 50. VK = -70, V3 = - 1.0, V4 = 14.5, AN = I//15, C = 20. Voltage; V is expressed in
+millivolts. (b)V, M phase plane for all-Ca++ system. Parameters are those given for Fig. 3b except for
+values of 1. Dotted curve ig the phase trajectory when I is switched from 0 to 100. The dashed curve is the
+M~= 0 isocline. The two solid curves are the V == 0 isoclines for I = 0 and I = 100. The I = 0 nullclines
+intersect at three points, A, B, and C. The points A and C are stable nodes, whereas B is a saddle point. The
+pattern of the three singular points leads to bistable behavior as explained in the text. When I is switched
+to 100 there is only one singular point, C; this stable node determines the plateau voltage. The line S-S
+represents the threshold separatrix, sketched in approximately. (c) The effects of intracellular Ca++
+accumulation shown on the V, M phase plane. The dotted line is the if = O nullcline and t4e series of solid
+lines are V = O nullclines for increasing degrees of Ca accumulation (from right to left, gc. is decreased
+arbitrarily as follows: 40, 30, 25, 20, 10. Concurrently [Ca++]i is increased as follows: 0.001, 0.1, 0.5, 1.0,
+10. Other parameters are as for Fig. 3b, but with I = 0. Ca++ accumulation causes the V= 0 nullcline to
+shift to the left, ultimately causing the stable point C to disappear, the system reverting to monostable
+behavior about the resting point A.
+
+The computer response of the all-Ca++ system, with a linear instantaneous Ca++ I-V
+relation, gives an unrealistically high voltage plateau. The problem is that, although the linear
+I-V relation implies some outward current, the experiments were done with close to zero
+internal Ca++. Thus, a better quantitative fit to the plateau is obtained by modifying the
+driving force term in Eq. 3. It is more accurate to write:
+
+(6)
+where, in general, the conductance gC wuld be a function of the permeating ion concentra-
+tion, but can be obtained by empirical fit to the instantaneous Ca I-Vcurve; and the function
+
+Ica= -gCaMR(V, [Ca
+
+]i, [Ca+]O),
+
+202
+
+BIOPHYSICAL JOURNAL VOLUME 35
+
+1981
+
+R is derived from some electrodiffusion or barrier model of permeation through an ionic
+channel.
+
+Although our own preliminary data indicate that a two-barrier model provides a better fit
+to the voltage-clamp data, for the present we shall make do with an electrodiffusion
+expression, since the exact form is not crucial for calculating the plateau, as long as the
+expression makes some sense for the case of zero internal Ca +.
+
+With the electrodiffusion form, the driving force function of Eq. 6 becomes:
+
+R(V, [Ca++]i, [Ca++]0) = VI-([Ca`]i/[Ca`+]O)exp (V/12.5)1
+
+[1 - exp (V/ 12.5)](7
+
+The solutions shown in Fig. 3d are ones using this nonlinear expression for ICa, and in
+subsequent discussions of the all-Ca"+ system the nonlinear form is assumed. Later, when we
+study the K+ and Ca"+ systems together, we revert to the linear approximation, because the
+voltage never leaves the linear region.
+
+Let us return to a consideration of the phase planes of the individual conductance systems.
+By definition, the intersection points of two nullclines are equilibrium positions of V and 4,
+that is, singular points of Eqs. 3. The patterns of these singular points and the stability of the
+system in the neighborhood of each singular point can qualitatively explain the observed
+behavior.
+
+For the all-K+ system, each nullcline pair shown in Fig. 5a intersects only once, at a
+singular point which is stable (V = 0 nullclines for several values of applied current are
+illustrated; the ,u = 0 nullcline does not change as I is varied). For the larger currents (I = 100,
+I = 400), the trajectories reach a voltage peak as they cross the V = 0 nullcline. This
+represents the early peak seen in Fig. 2b; note that the peak occurs before V reaches its steady
+state and that the voltage then declines. Such behavior, sometimes referred to as a graded
+action potential, has been observed and discussed for synthetic systems having a single
+voltage-dependent conductance (Mueller and Rudin, 1967; Muller and Finkelstein, 1972).
+
+Consider now the all-Ca++ system (Fig. 5b). There are three singular points in the phase
+plane for the value I = 0. Stability analysis shows that the points A and C are stable and that
+B is a saddle point. What happens when we go from I = 0 to, for example, I = 100? Because of
+the change in I, the system is described by a new V = 0 nullcline, to the right of the original
+one, but the M = 0 nullcline is not altered. The system now has only one singular point (C'),
+which is approached as the potential is depolarized under the influence of I (the trajectory for
+the depolarization is shown as a dotted line). This singular point is stable, representing a
+plateau voltage of the sort shown in Fig. 3d. What happens to the system when we return from
+I = 100 to I = O? The initial conditions are now C' rather than A. The phase plane reverts to
+the original one with three singular points, including the saddle point, B. Saddle points always
+give rise to limiting curves called "separatrices," which cannot be crossed by phase trajecto-
+ries. Thus, when the current is returned abruptly to zero, the system cannot cross the
+separatrix and return to the stable point, A. The only singular point available to the system is
+C, so that when the stimulus is turned off, the phase trajectory simply runs between C' and C,
+which leaves the system in a depolarized state. Thus, the observed persistence of the voltage
+plateau when the stimulus is turned off is a manifestation of bistability. Were an impulse of
+current used to raise instantaneously the voltage past the region where the separatrix
+
+MORRIS AND LECAR
+
+Voltage Oscillations in the Barnacle Giant Muscle Fiber
+
+203
+
+intersects the V-axis, bistability would be demonstrable in the I = 0 phase plane alone. Except
+for the use of a nonlinear term for the driving force, the behavior of the all-Ca"+ system is
+exactly that of the theoretical V,m-reduced Hodgkin-Huxley equations devised by FitzHugh
+(1961) to explain threshold behavior in a qualitative way. FitzHugh's V,m-reduced system
+describes the discontinuous threshold behavior of a hypothetical system with a single
+activating conductance and no inactivation. The all-Ca"+ barnacle fiber is a realization of this
+mathematical possibility.
+
+Perturbations Caused by Ca"+ Accumulation
+
+The all-Ca"+ version of Eq. 3 predicts stable plateau action potentials, but the real fiber does
+eventually repolarize. The mechanism directly responsible for repolarization has not been
+isolated. As it could be simple Ca"+ accumulation or some form of slow inactivation, we now
+breifly describe in terms of the phase plane analysis how a slow process like Ca"+
+accumulation brings about repolarization. Accumulation of Ca++ intracellularly will simulta-
+neously cause *ca to decrease and [Ca++]i to increase. To get a qualitative idea how this will
+affect the response, we need only look at the V = 0 nullclines as we alter these two parameters
+(changes in these parameters do not change the M = 0 nullcline since they do not appear in
+Eq. 4b). Note (Fig. 5c) that the upper stable point and the unstable point converge and then
+disappear as Ca"+ accumulation proceeds (i.e., as *
+decreases and [Cal]i increases; the
+decrements and increments in these parameters are arbitrarily chosen). When the unstable
+point drops out, along with its separatrix, only one stable point remains and the system moves
+toward it, repolarizing as it does.
+
+A more direct way to demonstrate the termination of the plateau is to include an equation
+for Ica-dependent intracellular Ca"+ accumulation. We substitute the steady-state value of
+M. for the term M(t), since ion accumulation has very much slower kinetics than gating. The
+resultant differential equations are:
+
+dt = C {I - gL(V
+
+VL) + gcaM-( V)VR(V, [Ca++ ]i, [Ca++ ])I,
+
+and
+
+d[Cad
+dt
+
+]i KI(CF)- cgcaM.(V)VR(V, [Ca++i], [Ca++]O)}.
+
+K{C)
+
+(8)
+
+Although the second equation is oversimplified (it does not take into account various sinks for
+intracellular Ca`+), it describes the major feature of accumulation. The value for the constant
+K was chosen to represent a Ca+ +-accumulating compartment of I ,m on the inner side of the
+membrane. Fig. 3d is the computed solution of Eqs. 8, which uses initial conditions that
+simulate the end of a stimulus pulse. After a gradual decline in voltage, there is a precipitous
+fall to rest. The actual mechanism for repolarization could be more complex than Ca"+
+accumulation, since Hagiwara and Nakajima (1966) have shown that Ca`+ modulates the
+height of the Ca`+ spike in a manner not consistent with simple changes in the driving force.
+As in some other Ca++-excitable membranes (Eckert and Brehm, 1979), the Ca++ conduc-
+tance in barnacle muscle may be inactivated by elevated [Caf+]i. Such a mechanism,
+however, would also be modelled, qualitatively, by concomitantly increasing [Ca++]i and
+decreasing gc2-
+
+dc *
+
+204
+
+BIOPHYSICAL JOURNAL VOLUME 35
+
+1981
+
+Limit-cycle oscillations
+
+The most interesting feature of the barnacle muscle behavior under current clamp is the
+voltage oscillation, which occurs only when the Ca"+ and K+ system are both operative. As
+different explanations have been adduced for the oscillations, we wish to explore how well the
+oscillations are explained by the two-conductance system itself with no additional mecha-
+nisms.
+
+It can be shown (Fig. 6) that the V, M, N system of Eq. 1 predicts current-induced
+oscillations resembling the observed behavior. Numerical simulations, however, such as those
+of Fig. 6, require the simultaneous adjustment of several parameters, and it is not easy to learn
+the exact requirements for oscillation from numerical study of the full third-order system.
+
+To study the oscillating state in some generality, we make use of the different relaxation
+times of the Ca"+ and K+ conductances. We study a reduced set of equations, in which the
+Ca++ system is assumed to be so much faster than the K+ system that gCa is instantaneously in
+steady state at all times [i.e., M = M=(V)]. For this approximation Eq. 1 becomes
+
+I = C d +gL(V- VL) + gCaMJ(V) (V- VCa) + gkN(V- Vk),
+
+dt
+
+and
+
+ad=d XN(V) (NJ(V) - N).
+dt
+
+(9)
+
+We shall call this the V,N reduced system, following the terminology of FitzHugh (1969). Eq.
+9 describes a second-order system, whose properties can be visualized on the V,N-phase plane.
+It might be asked why we expect Eq. 9 to be a reasonable approximation to the full system.
+The justification lies in Tikhonov's theorem, utilized by Plant and Kim (1976; see their
+appendix). Eqs. I are of the proper form for the V and N differential equations to satisfy an
+
+20
+
+-10
+30
+
+-30
+
+-40
+
+-50
+
+0
+
+40
+
++ +
+
+80
+
+T I ME (IMSEC)
+
+120
+
+160
+
+200
+
+Examples of oscillations computed from the full V, M, N third-order system (Eq. 1). The
+FIGURE 6
+parameters used for these computations are: gL = 2, VL = - 50, Vc. = 100, VK = -70, AM = 1-0, XN = 0.1,
+VI = 0, V2 = 15, V3 = 10, V4 = 10, C = 20. The resting potential was taken to be -50 mV. For the
+broken line (+), g&, = 6 and gK = 12, and for the solid line, gCa = 4 and gK = 8. These figures are to be
+compared with the experimental data of Fig. 4. Voltage, V, mV; time, ms.
+
+MORRIS AND LECAR
+
+Voltage Oscillations in the Barnacle Giant Muscle Fiber
+
+205
+
+inequality of Tikhonov that allows reduction of the dimension of the phase space without
+changing the character of the singular point.
+
+Under what conditions will the system defined by Eq. 9 have a stable limit cycle? The
+Poincare-Bendixon theorem (Minorsky, 1962, p. 78; Pavlides, 1973, p. 7) states that if a phase
+trajectory remains in a finite domain of phase space for all time without approaching an
+equilibrium point, the trajectory is periodic or approaches a periodic trajectory.
+
+To show that the solutions of Eqs. 9 remain in a finite domain of the V,N phase plane, we
+note that for both equations the derivatives of the dynamical variables change sign when the
+phase trajectory approaches the boundaries of a rectangle determined by the physical limits of
+the Vand N variables. This is obvious for the N variable, which represents the fraction of open
+K+ channels, and hence can vary only between 0 and 1. V, too, however, is bounded, for V
+cannot go beyond two limiting potentials, for which V = 0:
+
+V
+
+gLVL + gKVK + I < V< gLVL + gCaVca + I
+
+V
+
+(10)
+
+gL + gK
+
+gL + gCa
+
+Since the trajectories are confined to this rectangle, it will be sufficient to find one unstable
+singular point in this region to ensure a stable limit cycle.
+
+We next examine the character of the singular point for the reduced system. Fig. 7 shows
+the nullclines for Eqs. 9. The nullclines intersect once. The intersection point is given by S =
+(V,,N,) such that:
+
+Ns = N(Vs) =I -gL(V - VK) -gCaM-(Vs) (V,- VCa)
+
+gK(Vs -VK)
+
+(1
+
+In the usual fashion (Minorsky, 1962), Eqs. 9, when thought of as a general second order
+
+system of the form
+
+V=f,(V,N), N =f2(V,N),
+
+(12)
+
+will have stability properties determined by the character of the eigenvalues of the pair of
+equations linearized about the singular point, S. The eigenvalues (p), in turn, are the solutions
+of the characteristic equation:
+
+2
+D -i
+
+(fI + af2
++nA
+aOV
+aN,S
+
++ VN-- = 0.
+
+(f,If2 _f2 afI
+aVaNIs
+
+V9
+
+(13)
+
+In order to have a stable limit cycle, both roots must be positive if they are real or have a
+positive real part if they are complex. Since the first term in brackets in Eq. 13 is equal to the
+sum of the roots, and the second term in brackets is the product of the roots, the necessary
+condition for both roots positive is:
+
++9fI9f2I
+(aV
+
+0
+
+aN;s
+af
+
+OlVON S
+
+Of1I0f f2
+(aVaN
+
+>0.
+
+(14)
+
+206
+
+BIOPHYSICAL JOURNAL VOLUME 35
+
+1981
+
+*f .
+
+- o,DjP
+
+0.
+
+*4*W,t .. , ..v
+Ar
+
+.
+
+Ao
+
+v'tMv
+V
+
+1M
+
+o
+
+':s
+
+-O-
+
+IIA
+
+i?:
+
+FIGURE 7
+
+FIGURE 8
+
+Nullclines in V, N that give a stable limit cycle. The nullclines are labeled; the spiral traces the
+FIGURE 7
+trajectory of the system when I is changed from 0 to 300. The point at the intersection is an unstable node.
+Vertical and horizontal bars on the nullclines indicate the direction in which the trajectory must cross.
+Computations are based on the parameters used in Fig. 9, but with I = 300. The sufficient condition for
+oscillation is given by Eq. 15. Essentially, the condition states that the intersection must occur somewhere
+in the negative-resistance part of the Ca"+ current-voltage curve. This is the ascending limb of the bump
+in the V = 0 nullcline, as shown in the figure. An analogous condition for a somewhat different reduced
+system is given by Plant and Kim (1976). Voltage, V, mV.
+Plot of real and imaginary parts of eigenvalue (p, in Eq. 13) of the linearized V, N-reduced
+FIGURE 8
+equations as current is varied. The curve shown is the root with plus sign, the negative root leading to a
+mirror reflection (not shown) across the real axis. When the eigenvalues are real, they are represented by
+points on the real line. The shaded loop marks the range of current values for which the real part is
+positive, so that there is a stable limit cycle. The imaginary part of the eigenvalue is approximately equal to
+the oscillation frequency, so that the value on the imaginary axis shows the pattern of frequency variation
+with applied current. Parameters used in these computations are those of Fig. 9, but with I varied as
+indicated by the numbers adjacent to the curve.
+
+The first inequality guarantees at least one positive root and the second guarantees that both
+roots have the same sign.
+
+From Eq. 9 we can substitute the explicit expressions for the partial derivatives of Eq. 14, to
+
+obtain the following inequalities:
+
+(M.
+
+gca k dV) (Vca - Vs) > gL + gKNs + gCaM-(Vs) + CXN(VS),
+
+and
+
+gca (
+
+(VCa - Vs) < gL + gKNs + gCaM-(Vs) + gK (NV
+
+(Vs - VK)
+
+(15)
+
+Eqs. 15 define the conditions on the various conductance parameters for a stable limit cycle.
+The inequalities can be given physical meaning if one notes that the term on the left hand side
+of Eqs. 15 is essentially proportional to the negative dynamic conductance contributed by the
+inward Ca current, and that the right hand side contains the term g = gL + gK N + gca M,
+which is the equivalent conductance at the operating point. Thus, Eqs. 15 can be rewritten as:
+
+(g + CN)s C [gCa am (Vca- V)is< [N+ 9K dV (V 1-VK)S.
+
+MORRIS AND LECAR
+
+Voltage Oscillations in the Barnacle Giant Muscle Fiber
+
+(16)
+
+207
+
+which says that the system will undergo a limit cycle oscillation, provided that the Ca`+
+negative resistance can overcome the losses, but also provided that there is enough restorative
+K+ voltage-dependent conductance so that the system is not driven straight to the Ca`+
+plateau. Thus, the oscillatory state is an intermediate between the single-system extremes
+discussed earlier; to oscillate there must be a balance between ICa and IK that will yield a single
+singular point in place of the saddle point of the all-Ca`+ system. Since for values of I
+satisfying Eq. 16, this singular point is unstable, we obtain a stable limit cycle.
+
+In addition to limit-cycle oscillations, the system of Eq. 9 (and the real barnacle muscle)
+can undergo damped "small" oscillations about a stable plateau. The condition for oscillatory
+transients is that the relevant singular point be a stable focus; that is, that p be complex and
+have a negative real part. From Eq. 13, the condition for complex roots is
+
+(Of1
+aV
+
+0f2 V
+aN;s
+
+4(Ofl Of2 0f f
+
+aVON
+
+aVaN s
+
+O
+
+(17)
+
+Examination of the equivalent circuit for eq. 9 linearized about S shows that Eq. 17 is
+precisely the condition on the various reactance parameters of the equivalent parallel resonant
+circuit needed to get an underdamped response.
+
+By studying how the eigenvalue, p, changes as experimental parameters are varied, we can
+see how the system goes through various forms of behavior. Fig. 8 shows how, as I is varied,
+there is a current interval for which the real part of p becomes positive. This is what is
+observed experimentally: the fiber begins to oscillate at some threshold of applied current and,
+eventually, as current is increased, the oscillations diminish in amplitude. For high Ca`+
+concentrations, the oscillations become nearly sinusoidal about a voltage near to the all-Ca++
+plateau. Examples of how the oscillations change for various changes of parameters are shown
+in Figs. 9, 10, and 1 1. Fig. 9 shows the change as I is varied and the corresponding changes in
+the V = 0 nullcline. Fig. 10, in which gCa, gK, gL, XN, and N:. are varied substantially,
+
+$0~ ~ ~~~~~~~.
+
+I I MVoo0
+
+;
+
+*0
+
+V s c
+
+i
+
+;!.A,
+
+4N
+
+*
+
+*
+
+*
+
+i
+
+*
+
+-5 X
+
+2S
+
+50
+
+FIGURE 9 HOW system goes in and out of oscillation as current (I) is varied between 100 and 500.
+Parameters used aregL = 2,gC.= 4.gK = 8, VL = -50, VCI, = 100, VK - 70.AM = 0-.lXN= 1/15S, V1
+10,s V2 5 -15, V3 = -1, V4 = 14.5, C =20. I iS varied as indicated. (a) shows the voltage oscillations
+computed from the V, N-reduced system (Eq. 9). (b) shows the change in the V = 0 isocline as current is
+varied. Note by comparing with (a) that the range of stable oscillatory behavior coincides with the range
+of current for which the "negative resistance" portion of the V = 0 isocline intersects the N = 0 isocline.
+Voltage, V, mV; time, T, ms.
+
+208
+
+BIOPHYSICAL JOURNAL VOLUME 35
+
+1981
+
+IV.
+
+A
+
+.
+
+..
+
+JAU K DOLJLED
+
+OL REU eD Y 1/2.
+
+-t
+
+0 A
+
+I.1S*.A Fb'-I0I1t9_16_'i<
+O
+-.
+
+i4
+12
+-.rlE (tl$EC)
+
+16'L
+
+S
+
+'.1}5t.
+~
+
+.tL4 IJK'if
+
+izo 1-ZO
+TImc-IE.A- --
+
+f
+
+Effects of various parameter changes on the oscillation behavior. Although parameter
+FIGURE 10
+changes alter the character of the oscillations, sustained oscillations occur over a wide range of parameters.
+In each graph the "control" solution (shown as a solid line) is that computed in Fig. 9 for I = 300. The
+dashed line is the solution after a single parameter change as indicated. (a) Increase in gca (gca = 8)
+changes shape of voltage oscillations from sinusoids to more rectangular spikes, and decreases the
+frequency. (b) A 13-mV depolarizing shift of the N,. (V3 = 12) curve increases the frequency of the
+oscillations and lowers the amplitude. (c) Increase in TK (= XN; AN - 1/30) slows the oscillation,
+illustrating that the kinetics of gK have a pronounced effect on the frequency. (d) Reducing leakage (gL =
+I) increases amplitude and introduces phase shift with little or no change in frequency. Voltage, mV; time,
+ms.
+
+illustrates that the numerical requirements for oscillation are not stringent. Fig. 11 further
+illustrates this point, showing pacemaker-like oscillations obtained by changing the relative
+positions of M and N on the voltage axis.
+
+Domains of Oscillatory Behavior
+
+To give a fuller account of the type of variability encountered experimentally, we can assess
+the character of the singular point as different pairs of parameters are varied. Two-
+dimensional manifolds obtained by evaluating p from Eq. 13 give a qualitative map of system
+behavior and illustrate some of the phenomena which occur.
+
+For example, Fig. 12 a shows how the system changes with varying gca and gK, with all
+other parameters held constant. In the figure we see a peninsula of oscillatory behavior when
+gC. and gK are in more-or-less equal competition, as well as the other forms of behavior when
+one or the other conductance dominates. This particular map was done for a value of I that
+shows both types of oscillation but for which no combination of gca and gK can give bistable
+
+MORRIS AND LECAR
+
+Voltage Oscillations in the Barnacle Giant Muscle Fiber
+
+209
+
+400
+
+600
+
+TIME (MSEC)
+
+Pacemaker behavior based on two noninactivating conductances. For this solution the
+FIGURE 11
+parameters were set to: gL = 2, gca = 4, gK = 8, VL = - 50, Vca = 100. VK = - 70, XM = 0. 1, XN = 1/1 5, V1
+= - 1, V2 = 15, V3 = 10, V4 = 14.5, I = 50, C = 20. Note that this behavior (compared with that of Figs.
+9 and 10) is brought about when gCa is activated at a lower voltage than gK. Voltage, V, mV; time, ms.
+
+behavior. Fig. 12 b shows part of a map done for I = 0, where we can see the boundary
+between bistable and monostable behavior, but no oscillation. In general, different two-
+parameter manifolds will show different aspects of the barnacle response, but no single
+two-parameter map is adequate to describe all of the possibilities.
+
+One use for the two-parameter manifolds is to illustrate qualitatively some of the
+
+a.
+
+I= 300
+
+b.
+
+I= 0
+
+20
+
+15-
+
+NODE
+
+(Ca PLATEAU)
+
+20 =BISTABLE
+I
+(SADDLE)
+
+15
+
+gcao
+
+-9c/ 10
+
+MONOSTABLE
+
+(KRESTING)
+
+~
+
+~
+
+( RSTNG
+
+O
+
+5
+
+10
+9K
+
+15
+
+I J~~~~~~~~~~~~~~
+5
+
+20
+
+O
+
+15
+
+20
+
+10
+9K
+
+Parameter manifolds showing character of singular point for different combinations of gc.
+FIGURE 12
+and gK. Except for varying gca, gK and 1, the parameters used are those of Fig. 9. (a) I = 300. For this
+value of stimulating current the system can either be monostable as in the unshaded regions, or show
+oscillatory behavior, as in the shaded regions. Stable (limit cycle) oscillations occur only for the
+combinations of gC. and gK that give an unstable equilibrium point. All such values fall in the crosshatched
+region. In the lower shaded region, the singular points are complex but have negative real parts; hence, the
+system has an oscillatory response to current transients, which then decays to a steady voltage. The
+unshaded regions have single equilibrium points which are stable nodes. (b) I = 0. With no injected
+current the system cannot oscillate. When gc. and gK are varied, the two-parameter manifold divides into
+two regions. The unshaded region represents single stable nodes, whereas any combination in the shaded
+half-plane has three singular points, constituting two stable nodes and a saddle point, and therefore can
+exhibit bistable behavior.
+
+210
+
+BIOPHYSICAL JOURNAL VOLUME 35
+
+1981
+
+phenomena which can occur when a slow variable, such as Ca"+ accumulation, comes into
+play. One might expect a slow change to act as a secular perturbation bringing the system
+across the boundaries between two regions on a parameter map. Thus, a system with high
+external Ca"+ might show oscillatory behavior near the all-Ca"+ plateau until the Ca"+
+buildup knocks the system out of oscillation. Such a set of double relaxation oscillations is
+shown experimentally in Fig. 4cvi. This behavior is clearly too complicated for the approxi-
+mate phase plane system, but the maps give a hint as to what might be happening.
+
+DISCUSSION
+
+This analysis was motivated by a wish to explore the variable behavior originating for a simple
+system of two noninactivating gated conductances. Our results indicate that a good part of the
+oscillatory voltage behavior of EGTA-perfused barnacle muscle can be anticipated from the
+two noninactivating conductances, without recourse to more complex conductance systems.
+Two important features of the simple system are that oscillatory solutions occur over a
+relatively wide region of the parameter space and that the character of the oscillations varies
+through this space. This coincides nicely with the barnacle fiber which displays variable
+oscillations (some sustained, some damped) and has extremely variable conductance magni-
+tudes (see e.g., Keynes et al., 1973). The first feature-that the parameter requirements for
+oscillation are not rigorous-is fortunate, because parameters like the time and voltage
+dependence of the excitability mechanisms in barnacle are either poorly known or not agreed
+upon by different workers. Because numerical requirements for oscillations proved not to be
+tightly restricted, the generality of the model is enhanced.
+
+Two modes of oscillation are produced by the system: damped oscillations and sustained or
+limit cycle oscillations. The barnacle apparently produces both kinds, although it is difficult,
+with a finite stimulating pulse, to distinguish between slowly damping oscillations and
+sustained ones. A point worth noting is the manner in which solutions may change in
+character as a parameter is monotonically varied. We illustrated a case for varying current in
+which the system went in turn from no oscillations to damped oscillations, to limit-cycle
+oscillations, to damped oscillation, and, finally, back again to no oscillations. This example
+should emphasize the complexity of behavior inherent in this mechanistically simple system.
+There are, clearly, aspects of barnacle fiber voltage behavior which are not encompassed by
+the two conductance, perfect space-clamp model we have used. It cannot, for example,
+produce the sort of oscillations that start small and grow, or the bistable oscillation pattern.
+Nor can it produce the amplitude-modulated oscillations that are occasionally seen. It is not
+clear whether these phenomena result from artifacts (e.g., "patchiness" in the membrane due
+to injury, or failure of radial space clamp) or from processes like ion accumulation or
+additional conductances. Where it is desired to investigate higher order effects without adding
+further equations, graphical analysis is more useful for exploring various possibilities. We
+have illustrated this for the simple example of the possible role of Ca"+ accumulation in the
+plateau action potential. Parameter manifolds can be used to examine variation of two
+parameters simultaneously.
+
+A virtue of the stability analysis is that one can vary parameters and use the eigenvalues to
+predict the nature of the voltage behavior without the necessity of integrating the differential
+equations. This approach may prove useful in analyzing aspects of the behavior of other
+
+MORRIS AND LECAR
+
+Voltage Oscillations in the Barnacle Giant Muscle Fiber
+
+211
+
+systems of a similar nature, such as dendritic calcium spikes of pyramidal cells (Llinas, 1979)
+or the slow voltage oscillations of cells that have states dominated by a gca and a
+calcium-mediated potassium conductance.
+
+As an example of the latter type of system, pancreatic p-cells stimulated with glucose and
+treated with high concentrations of TEA produce sustained trains of spikes (Atwater et al.,
+1 979c), and it seems that the major excitability mechanisms under these conditions are a gca-
+and a [Ca+]i-activated gK (Atwater et al., 1979a; Atwater et al., 1979b). Likewise,
+neuroblastoma cells produce oscillations dependent on a gCa- and a Ca"+-dependent,
+quinine-sensitive gK (Fishman and Spector, 1980). In both these cell types, multiple
+conductance mechanisms, which cannot necessarily be fully blocked pharmacologically,
+complicate the interpretation of results. Moreover, the fl-pancreatic cell, due to its small size,
+is not amenable to voltage-clamp analysis. In order to assess the possible significance of
+interactions of gca and [Ca++]-activated gK, it would be worthwhile to explore, qualitatively,
+the range of behavior predictable on the basis of the two Ca++-dependent mechanisms.
+
+The authors would like to thank Dr. D. L. Gilbert for his aid and instruction during the early stages of the
+experimental work. We also wish to thank Dr. G. Ehrenstein, R. FitzHugh, and T. G. Smith for their comments on
+the manuscript.
+Receivedfor publication 29 July 1980 and in revisedform 26 November 1980.
+
+REFERENCES
+
+Atwater, I., C. M. Dawson, B. Ribalet, and E. Rojas. 1979a. Potassium permeability activated by intracellular
+
+calcium ion concentration in the pancreatic ,8-cell. J. Physiol (Lond.) 288:575-588.
+
+Atwater, I., G. T. Eddlestone, B. Ribalet, and E. Rojas. 1979b. Calcium channel voltage noise across the beta-cell
+
+membrane in islet of Langerhans of mouse. J. Physiol. (Lond.) 291:69P-70P.
+
+Atwater, I., B. Ribalet, and E. Rojas. 1979c. Mouse pancreatic (3-cells: tetraethylammonium blockage of the
+
+potassium permeability increase induced by depolarization. J. Physiol. (Lond.) 288:561-574.
+
+Beirao, P. S., and N. Lakshminarayanaiah. 1979. Calcium carrying system in the giant muscle fibre of the barnacle
+
+species, Balanus nubilus. J. Physiol. (Lond.) 293:319-327.
+
+Eckert, R., and P. Brehm. 1979. Ionic mechanisms of excitation in Paramecium. Annu. Rev. Biophys. Bioeng.
+
+Ehrenstein, G., and H. Lecar. 1977. Electrically gated ionic channels in lipid bilayers. Q. Rev. Biophys.
+
+Fishman, M. C., and I. Spector. 1980. Blockage of a calcium-dependent potassium conductance in neuroblastoma
+
+cells by quinine. J. Supramol. Struct., Suppl. 4:83.
+
+FitzHugh, R. 1961. Impulses and physiological states in theoretical models of nerve membrane. Biophys. J.
+
+8:353-383.
+
+10:1-34.
+
+1:445-466.
+
+FitzHugh, R. 1969. Mathematical models of excitation and propagation in nerve. In Biological Engineering. H. P.
+
+Schwann, editor, McGraw-Hill Publications, New York.
+
+Hagiwara, S., J. Fukuda, and D. C. Eaton. 1974. Membrane currents carried by Ca, Sr, and Ba in barnacle muscle
+
+fiber during voltage clamp. J. Gen. Physiol. 63:564-578.
+
+Hagiwara, S., H. Hayashi, and K. Takahashi. 1969. Calcium and potassium currents of the membrane of a barnacle
+
+muscle fibre in relation to the calcium spike. J. Physiol. (Lond.) 205:115-129.
+
+Hagiwara, S., and S. Nakajima. 1966. Effects of the intracellular Ca ion concentration upon excitability of the
+
+muscle fiber membrane of a barnacle. J. Gen. Physiol. 49:807-818.
+
+Hagiwara, S., and S. Nakajima. 1966. Differences in Na and Ca spikes as examined by application of tetrodotoxin,
+
+procaine, and manganese ions. J. Gen. Physiol. 49:793-806.
+
+Hencek, M., and J. Zachar. 1977. Calcium currents and conductances in the muscle membrane of the crayfish. J.
+
+Physiol. (Lond.) 268:51-71.
+
+Hodgkin, A. L., and A. F. Huxley. 1952. A quantitative description of membrane current and its application to
+
+conduction and excitation in nerve. J. Physiol. (Lond.) 117:500-544.
+
+212
+
+BIOPHYSICAL JOURNAL VOLUME 35
+
+1981
+
+Keynes, R. D., E. Rojas, R. E. Taylor, and J. Vergara. 1973. Calcium and potassium systems of a giant barnacle
+
+muscle fibre under membrane potential control. J. Physiol. (Lond.) 229:409-455.
+
+Knott, G. 1979. MLAB: An On-line Modeling Laboratory. 8th edition. Division of Computer Research and
+
+Technology, National Institutes of Health (NIH), Bethesda, Md.
+
+Lecar, H., G. Ehrenstein, and R. Latorre. 1975. Mechanism for channel gating in excitable bilayers. Ann. N.Y. Acad.
+
+Sci. 264:304-313.
+
+Lecar, H., and R. Nossal. 1971. Theory of threshold fluctuations in nerves. I. Relationships between electrical noise
+
+and fluctuations in axon firing. Biophys. J. 11:1048-1067.
+
+Llinas, R. 1979. The role of calcium in neuronal function. In The Neurosciences, Fourth Study Program. F.O.
+
+Schmitt and F.G. Worden, editors. MIT Press, Cambridge, Mass. 555-571.
+
+Minorsky, N. 1962. Introduction to non-linear oscillators. D. Van Nostrand Co., New York.
+Mounier, Y., and G. Vassort. 1975. Evidence for a transient potassium membrane current dependent on calcium
+
+influx in crab muscle fibre. J. Physiol. (Lond.) 251:609-625.
+
+Mueller, P., and D. 0. Rudin. 1967. Action potential phenomena in experimental bimolecular lipid membranes.
+
+Muller, R. V., and A. Finkelstein. 1972. Voltage-dependent conductance induced in thin lipid membranes by
+
+Nature (Lond.) 213:603-604.
+
+monazomycin. J. Gen. Physiol. 60:263-284.
+
+Murayama, K., and N. Lakshminarayanaiah. 1977. Some electrical properties of the membrane of the barnacle
+
+muscle fibers under internal perfusion. J. Membr. Biol. 35:257-283.
+
+Pavlides, T. 1973. Biological oscillators: their mathematical analysis. Academic Press, Inc., New York.
+Plant, R. E. 1976. The effects of Ca++ on bursting neurons: a modelling study. Biophys. J. 21:217-237.
+Plant, R. E., and M. Kim. 1976. Mathematical description of a bursting pacemaker neuron by a modification of the
+
+Hodgkin-Huxley equations. Biophys. J. 16:227-244.
+
+MORRIS AND LECAR
+
+Voltage Oscillations in the Barnacle Giant Muscle Fiber
+
+213
+
+

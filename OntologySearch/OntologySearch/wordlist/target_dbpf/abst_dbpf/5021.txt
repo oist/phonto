@@ -1,0 +1,29 @@
+Animals
+Bicuculline
+pharmacology
+Cesium
+pharmacology
+Dendrites
+physiology
+Electric Stimulation
+Evoked Potentials
+drug effects
+physiology
+Hippocampus
+physiology
+Kinetics
+Membrane Potentials
+drug effects
+Neurons
+physiology
+Picrotoxin
+pharmacology
+Rats
+Rats
+Inbred Strains
+Receptors
+GABA-A
+drug effects
+Synapses
+physiology
+1. We have investigated the kinetic properties of pharmacologically isolated excitatory synaptic currents in hippocampal CA3 neurons. Two distinct anatomic pathways, the commissural/associational (C/A) and the mossy fiber inputs, were compared to test the hypothesis derived from cable theory that distal inputs have slower kinetics than proximal inputs when measured at the soma. 2. Intracellular recordings were made from adult rat hippocampal slices using a single-electrode voltage clamp and low-resistance microelectrodes. A mixture of 10 microM picrotoxin and 10 microM bicuculine was used to block completely fast GABAergic inhibition. The slow inhibitory input was blocked by intracellular cesium. 3. The mean reversal potential of mossy fiber synaptic currents, -2.8 mV, was not significantly different from that of the C/A synaptic current, -1.4 mV. The mean 10-90% rise time of the mossy-fiber synaptic current [1.7 +/- 0.08 (SE) ms], however, was significantly faster than the C/A synaptic current (3.2 +/- 0.16 ms). Both mossy fiber and C/A synaptic-current decays were fit with a single exponential. The decay time constant of mossy fiber synaptic currents was also faster than that of the C/A excitatory postsynaptic current, 6.5 +/- 0.4 versus 10.1 +/- 0.8 ms. The mossy fiber synaptic current decay time constant showed little voltage dependence. 4. A modified shape index plot of synaptic current rise time versus decay time constant, normalized to membrane time constant, yielded a good linear relation for C/A synapses. A poorer correlation was observed for mossy fiber synapses. 5. Both synaptic currents could be fit by alpha functions. A representative value of alpha for the mossy fiber synapse was 295/s, and for the C/A was 172/s. 6. The rise time of the mossy fiber synaptic potential was significantly faster (5.3 ms) than the C/A (7.5 ms). The decay of both mossy fiber and C/A synaptic potentials was slower than the membrane time constant, suggesting that active currents may contribute to their falling phases. This prolongation was voltage dependent but insensitive to 2-amino-5-phosphonovaleric acid. 7. Our data provide a quantitative comparison of a proximal and a more distal synaptic input to CA3 hippocampal neurons. Distal inputs show slower kinetics than proximal synapses, as predicted. However, the voltage dependence of synaptic potential decays suggests that synaptic integration may be affected by active dendritic conductances.

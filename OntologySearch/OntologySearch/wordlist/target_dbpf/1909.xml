@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1909">
+<itemtype>xnpconference</itemtype>
+<titles><title>Digital VLSI Implementation of a Moving Object Detection Algorithm Based on Neuronal Propagation in the Hippocampus</title>
+</titles>
+<contributor uname='admin2'>DBPF Administrator 2(admin2)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2009-10-14T05:00:54Z</last_update_date>
+<creation_date>2008-11-25T05:11:04Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>12</publication_month>
+<publication_mday>12</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1909</url>
+<changelogs>
+<changelog date='2009-10-14T05:00:54Z'>発表資料 を変更</changelog>
+<changelog date='2009-10-06T06:58:39Z'>発表資料 を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1909" version="1.02">
+<conference_from_year>2006</conference_from_year>
+<conference_from_month>12</conference_from_month>
+<conference_from_mday>12</conference_from_mday>
+<conference_to_year>2006</conference_to_year>
+<conference_to_month>12</conference_to_month>
+<conference_to_mday>15</conference_to_mday>
+<presentation_type>other</presentation_type>
+<conference_title>Intelligent Signal Processing and Communications, 2006. ISPACS &#039;06. International Symposium on</conference_title>
+<place>Yonago</place>
+<authors><author>Liang H</author><author>Nakayama H</author><author>Nakada K</author><author>Morie T</author><author>Hayashi H</author></authors>
+<abstract>In this paper, we propose a moving object detection algorithm for the advanced driver assistance system (ADAS) and its digital VLSI implementation. The algorithm is based on parallel processing inspired by neuronal propagation underlying sequence coding in a model of the hippocampus. We have implemented this algorithm on an FPGA, and have verified the desired operation: detection of the velocity and direction of moving objects at real time.</abstract>
+<attachment_dl_limit>1</attachment_dl_limit>
+<attachment_dl_notify>1</attachment_dl_notify>
+</detail>
+</item>

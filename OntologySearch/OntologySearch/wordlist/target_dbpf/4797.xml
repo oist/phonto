@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4797">
+<itemtype>xnppaper</itemtype>
+<titles><title>The positional firing properties of medial entorhinal neurons: description and comparison with hippocampal place cells.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Cues</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>methods</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Limbic System</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Television</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:07:07Z</last_update_date>
+<creation_date>2011-04-28T05:07:07Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4797</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4797" version="1.02">
+<authors><author>Quirk GJ</author><author>Muller RU</author><author>Kubie JL</author><author>Ranck JB</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>12</volume>
+<number>5</number>
+<page>1945-63</page>
+<abstract>Hippocampal place cells in the rat are so named because they fire predominantly within circumscribed regions of the environment. This study describes the positional firing properties of cells afferent to hippocampal place cells, in superficial layers of medial entorhinal cortex (MEC). MEC cells in these layers project to the hippocampus via the perforant path and, along with lateral entorhinal cells, are the sole route by which cortical information reaches the hippocampus. MEC cells were recorded from rats while they retrieved pellets in simple geometric enclosures. The behavioral task as well as procedures for data collection and analysis were the same used in previous studies on hippocampal place cells (e.g., Muller et al., 1987) in order to facilitate the direct comparison between hippocampal and entorhinal cells. The firing patterns of MEC cells show pronounced locational variations reminiscent of hippocampal firing fields, but with a lower signal-to-noise ratio. While noisy, MEC firing patterns are stationary in time as evidenced by their reproducibility, and the improvement in spatial signal with long-duration recordings. Furthermore, MEC firing patterns are not due to variations in the rat&#039;s behavior. Taken together, these data show that the positional firing variations in MEC cells are due to the location-specificity of MEC cells. These and additional data lead us to conclude that location-specific information exists prior to the hippocampus. MEC cells are similar to hippocampal place cells in that their firing can be controlled by the rotation of a visual cue (a white card attached to the wall), but is not disrupted by removing the cue. An important difference between hippocampal and entorhinal cells was seen when the shape of the recording chamber was changed. In the transition from a cylinder to an equal-area square of similar appearance, MEC firing patterns topologically transformed (or &quot;stretched&quot;) while those of hippocampal place cells changed to an unpredictable pattern. We conclude that the positional firing of MEC cells is more &quot;sensory bound&quot; than hippocampal cells, and that the ability to discriminate different environments, while present in the hippocampus, is not yet present in its input from MEC.</abstract>
+<pubmed_id>1578279</pubmed_id>
+</detail>
+</item>

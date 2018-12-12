@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7205">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal place cell firing patterns can induce long-term synaptic plasticity in vitro.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Biophysics</keyword>
+<keyword>Carbachol</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Cholinergic Agonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>methods</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:54:20Z</last_update_date>
+<creation_date>2013-02-27T07:54:20Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7205</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7205" version="1.02">
+<authors><author>Isaac JT</author><author>Buchanan KA</author><author>Muller RU</author><author>Mellor JR</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>29</volume>
+<number>21</number>
+<page>6840-50</page>
+<abstract>In the hippocampus, synaptic strength between pyramidal cells is modifiable by NMDA receptor (NMDAR)-dependent long-term potentiation (LTP) and long-term depression (LTD), both of which require coincident presynaptic and postsynaptic activity. In vivo, many pyramidal cells exhibit location-specific activity patterns and are known as&quot;place cells.&quot;The combination of these factors suggests that synaptic plasticity will be induced at synapses connecting place cells with overlapping firing fields, because such cells fire coincidentally when the rat is in a specific part of the environment. However, this prediction, which is important for models of how long-term synaptic plasticity can be used to encode space in the hippocampal network, has not been tested. To investigate this, action potential time series recorded simultaneously from place cells in freely moving rats were replayed concurrently into postsynaptic CA1 pyramidal cells and presynaptic inputs during perforated patch-clamp recordings from adult hippocampal slices. Place cell firing patterns induced large, pathway-specific, NMDAR-dependent LTP that was rapidly expressed within a few minutes. However, place-cell LTP was induced only if the two place cells had overlapping firing fields and if the cholinergic tone present in the hippocampus during exploration was restored by bath application of the cholinergic agonist carbachol. LTD was never observed in response to place cell firing patterns. Our findings demonstrate that spike patterns from hippocampal place cells can robustly induce NMDAR-dependent LTP, providing important evidence in support of a model in which spatial distance is encoded as the strength of synaptic connections between place cells.</abstract>
+<pubmed_id>19474311</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4072">
+<itemtype>xnppaper</itemtype>
+<titles><title>Lesions of the mammillary body region severely disrupt the cortical head direction, but not place cell signal.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Head</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Male</keyword>
+<keyword>Mamillary Bodies</keyword>
+<keyword>injuries</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Movement</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Signal Transduction</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T05:46:20Z</last_update_date>
+<creation_date>2010-10-08T05:46:20Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4072</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4072" version="1.02">
+<authors><author>Sharp PE</author><author>Koester K</author></authors>
+<journal>Hippocampus</journal>
+<volume>18</volume>
+<number>8</number>
+<page>766-84</page>
+<abstract>The rat limbic system contains a variety of location (place and grid) cells and directional (head direction; HD) cells, thought to be critical for navigation. The HD cells can be found throughout many portions of the hippocampal formation, as well as additional limbic cortical and subcortical regions. These HD-containing regions are generally strongly interconnected anatomically. Earlier work, along with theoretical considerations, suggest that despite the ubiquitous presence of HD cells, there may be a single region which is critical for the initial formation of this HD signal. Specifically, it has been suggested that the critical HD cell network resides in a reciprocal loop formed by the interconnected lateral mammillary nucleus and dorsal tegmental nucleus of Gudden. Unlike the HD cells, place cells have not been observed in subcortical structures. They are, however, found in various forms throughout much of the hippocampal formation. Theoretical accounts of the place cells suggest that they are partly dependent on a path integration process which is, in turn, dependent on the HD cells. According to the above reasoning, lesions of the mammillary bodies should completely eliminate both HD and place/grid cells in the hippocampal formation. Here, we tested for both HD and place cell activity in various hippocampal formation sub regions following lesions of the mammillary bodies. We found that these lesions caused nearly complete elimination of the HD cell signal, but left the place cell signal largely intact. Our interpretation of these findings is somewhat limited by the fact that we did not provide a thorough test of the path integration abilities of the post lesion place cells. These findings pose a challenge for current theoretical accounts of place and grid cells. They also help to explain the role played by the mammillary bodies in spatial learning and memory.</abstract>
+<pubmed_id>18446828</pubmed_id>
+</detail>
+</item>

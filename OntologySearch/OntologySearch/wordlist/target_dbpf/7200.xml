@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7200">
+<itemtype>xnppaper</itemtype>
+<titles><title>Long-term synaptic plasticity between pairs of individual CA3 pyramidal cells in rat hippocampal slice cultures.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Culture Techniques</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:51:06Z</last_update_date>
+<creation_date>2013-02-27T07:51:06Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7200</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7200" version="1.02">
+<authors><author>Debanne D</author><author>Gähwiler BH</author><author>Thompson SM</author></authors>
+<journal>The Journal of physiology</journal>
+<volume>507</volume>
+<number></number>
+<page>237-47</page>
+<abstract>1. Long-term potentiation (LTP) and depression (LTD) were investigated at synapses formed by pairs of monosynaptically connected CA3 pyramidal cells in rat hippocampal slice cultures. 2. An N-methyl-D-aspartate (NMDA) receptor-mediated component of the unitary EPSP, elicited at the resting membrane potential in response to single action potentials in an individual CA3 cell, could be isolated pharmacologically. 3. Associative LTP was induced when single presynaptic action potentials were repeatedly paired with 240 ms postsynaptic depolarizing pulses that evoked five to twelve action potentials or with single postsynaptic action potentials evoked near the peak of the unitary EPSP. LTP induction was prevented by an NMDA receptor antagonist. 4. Associative LTD was induced when single presynaptic action potentials were repeatedly elicited with a certain delay after either 240 ms postsynaptic depolarizing pulses or single postsynaptic action potentials. The time window within which presynaptic activity had to occur for LTD induction was dependent on the amount of postsynaptic depolarization. LTD was induced if single pre- and postsynaptic action potentials occurred synchronously. 5. Homosynaptic LTD was induced by 3 Hz tetanization of the presynaptic neuron for 3 min and was blocked by an NMDA receptor antagonist. 6. Depotentiation was produced with stimulation protocols that elicit either homosynaptic or associative LTD. 7. Recurrent excitatory synapses between CA3 cells display associative potentiation and depression. The sign of the change in synaptic strength is a function of the relative timing of pre- and postsynaptic action potentials.</abstract>
+<pubmed_id>9490845</pubmed_id>
+</detail>
+</item>

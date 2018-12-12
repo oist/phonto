@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="117">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal place fields: relationship between degree of field overlap and cross-correlations within ensembles of hippocampal neurons.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-06-18T05:06:15Z</last_update_date>
+<creation_date>2008-06-18T05:06:15Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=117</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="117" version="1.02">
+<authors><author>Hampson RE</author><author>Byrd DR</author><author>Konstantopoulos JK</author><author>Bunn T</author><author>Deadwyler SA</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>3</number>
+<page>281-93</page>
+<abstract>The capacity to record from multiple neurons in awake freely moving animals provides a means for characterizing organizational principles of place field encoding within ensembles of hippocampal neurons. In this study, cross-correlations between pairs of hippocampal place cells and degree of overlap between their respective place fields were analyzed during behavioral performance of delayed matching (DMS) or non-matching sample (DNMS) tasks, or while the same rats chased pellets in a different environment. The relationship between field overlap and cross-correlations of neural spike activity within ensembles was shown to be a positive, exponentially increasing, function. Place fields from the same neurons were markedly &quot;remapped&quot; between the Delay and Pellet-chasing tasks, with respect to physical location and size of fields. However individual pairs of place cells within each ensemble retained nearly the same degree of overlap and cross-correlation even though the spatial environment and the tasks differed markedly. This suggested that place cells were organized in functional &quot;clusters&quot; which exhibited the same inter-relations with respect to place field overlap and cross-correlations, irrespective of actual field of location. When cross-correlations between place cells were compared to placement of the array recording electrodes within the hippocampus, the strongest correlations were found along previously defined posterior-projecting fiber gradients between CA3 and CA1 subfields (Ishizuka et al. [1990], J Comp Neurol 295:580-623; Li et al. [1994] (J Comp Neurol 339:181-208). These findings suggest that the functional organization of place fields conforms to anatomical principles suspected to operate within hippocampal ensembles.</abstract>
+<pubmed_id>8841827 </pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6683">
+<itemtype>xnppaper</itemtype>
+<titles><title>Successful verbal encoding into episodic memory engages the posterior hippocampus: a parametrically analyzed functional magnetic resonance imaging study.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Verbal Learning</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:13:54Z</last_update_date>
+<creation_date>2013-02-26T07:13:54Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6683</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6683" version="1.02">
+<authors><author>Fernández G</author><author>Weyerts H</author><author>Schrader-Bölsche M</author><author>Tendolkar I</author><author>Smid HG</author><author>Tempelmann C</author><author>Hinrichs H</author><author>Scheich H</author><author>Elger CE</author><author>Mangun GR</author><author>Heinze HJ</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>18</volume>
+<number>5</number>
+<page>1841-7</page>
+<abstract>The medial temporal lobe (MTL) is essential for episodic memory encoding, as evidenced by memory deficits in patients with MTL damage. However, previous functional neuroimaging studies have either failed to show MTL activation during encoding or they did not differentiate between two MTL related processes: novelty assessment and episodic memory encoding. Furthermore, there is evidence that the MTL can be subdivided into subcomponents serving different memory processes, but the extent of this functional subdivision remains unknown. The aim of the present functional magnetic resonance imaging (fMRI) study was to investigate the role of the MTL in episodic encoding and to determine whether this function might be restricted to anatomical subdivisions of the MTL. Thirteen healthy volunteers performed a word list learning paradigm with free recall after distraction. Functional images acquired during encoding were analyzed separately for each participant by a voxel-wise correlation (Kendall&#039;s tau) between the time series of the T2*-signal intensity and the number of subsequently recalled words encoded during each particular scan. Of the 13 participants, 11 showed voxel clusters with statistically significant, positive correlations in the posterior part of the hippocampus. Across participants, an ANOVA on the number of voxels with significant, positive correlations within individually defined volumes of interest confirmed a statistically significant difference in activation for anterior versus posterior regions of the hippocampus. However, no differences between left and right hippocampal activation were revealed. Thus, these findings demonstrate that successful encoding into episodic memory engages neural circuits in the posterior part of the hippocampus.</abstract>
+<pubmed_id>9465008</pubmed_id>
+</detail>
+</item>

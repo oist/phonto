@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4858">
+<itemtype>xnppaper</itemtype>
+<titles><title>Reconciling Barnes et al. (1997) and Tanila et al. (1997a,b).</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Aging</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T02:16:11Z</last_update_date>
+<creation_date>2011-05-02T02:16:11Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4858</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4858" version="1.02">
+<authors><author>Redish AD</author><author>McNaughton BL</author><author>Barnes CA</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>5</number>
+<page>438-43</page>
+<abstract></abstract>
+<pubmed_id>9825956</pubmed_id>
+</detail>
+</item>

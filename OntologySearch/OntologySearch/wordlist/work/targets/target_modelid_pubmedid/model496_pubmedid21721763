@@ -1,0 +1,30 @@
+1. Chaos. 2011 Jun;21(2):023121. doi: 10.1063/1.3597645.
+
+Reentrant excitation in an analog-digital hybrid circuit model of cardiac tissue.
+
+Mahmud F(1), Shiozawa N, Makikawa M, Nomura T.
+
+Author information: 
+(1)Graduate School of Engineering Science, Osaka University, Osaka 5608534,
+Japan.
+
+We propose an analog-digital hybrid circuit model of one-dimensional cardiac
+tissue with hardware implementation that allows us to perform real-time
+simulations of spatially conducting cardiac action potentials. Each active nodal 
+compartment of the tissue model is designed using analog circuits and a dsPIC
+microcontroller, by which the time-dependent and time-independent nonlinear
+current-voltage relationships of six types of ion channel currents employed in
+the Luo-Rudy phase I (LR-I) model for a single mammalian cardiac ventricular cell
+can be reproduced quantitatively. Here, we perform real-time simulations of
+reentrant excitation conduction in a ring-shaped tissue model that includes
+eighty nodal compartments. In particular, we show that the hybrid tissue model
+can exhibit real-time dynamics for initiation of reentries induced by
+uni-directional block, as well as those for phase resetting that leads to
+annihilation of the reentry in response to impulsive current stimulations at
+appropriate nodes and timings. The dynamics of the hybrid model are comparable to
+those of a spatially distributed tissue model with LR-I compartments. Thus, it is
+conceivable that the hybrid model might be a useful tool for large scale
+simulations of cardiac tissue dynamics, as an alternative to numerical
+simulations, leading toward further understanding of the reentrant mechanisms.
+
+PMID: 21721763  [PubMed - indexed for MEDLINE]

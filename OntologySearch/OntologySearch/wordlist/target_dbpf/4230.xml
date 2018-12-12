@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4230">
+<itemtype>xnppaper</itemtype>
+<titles><title>Simulation of spatial learning in the Morris water maze by a neural network model of the hippocampal formation and nucleus accumbens.</title>
+</titles>
+<contributor uname='waga'>[en]Hiroaki Wagatsuma[/en][ja]我妻 広明[/ja](waga)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Networks (Computer)</keyword>
+<keyword>Nucleus Accumbens</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-14T05:15:24Z</last_update_date>
+<creation_date>2010-10-14T05:15:24Z</creation_date>
+<publication_year>1995</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4230</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4230" version="1.02">
+<authors><author>Brown MA</author><author>Sharp PE</author></authors>
+<journal>Hippocampus</journal>
+<volume>5</volume>
+<number>3</number>
+<page>171-88</page>
+<abstract>Cells in the hippocampal formation show spatial firing correlates thought to be critical to the role played by this structure in spatial learning. Place cells in the hippocampus proper show location-specific activity, whereas cells in the postsubiculum fire as a function of momentary directional heading. One question which has received little attention is how these spatial signals are used by motor structures to actually guide spatial behavior. Here we present a model of how one kind of spatial behavior, instrumental learning in the Morris water maze, could be guided by the spatial information in the hippocampal formation. For this, we concentrate on the hippocampal projection to the nucleus accumbens, which is strongly implicated in instrumental learning. In the model, simulated firing patterns of place cells and head direction cells activate &quot;motor&quot; cells in the &quot;accumbens.&quot; Each motor cell causes a particular locomotor movement in a simulated rat. In this way, the &quot;rat&quot; locomotes through the simulated environment. Each step places the animal in a slightly different location and directional orientation, which, in turn, activates a different set of place and head direction cells, thus causing the next locomotor response, and so on. Connection strengths between cells are initially set randomly. When the animal encounters the reward location, however, connections are altered, so that recently active synapses are strengthened. Thus, successful moves in a particular locational and directional context are &quot;stamped in.&quot; Simulated rats show rapid learning, similar in many ways to that of actual rats. In particular, they generate efficient routes to the goal after minimal experience, and can do so from somewhat novel starting positions. Consideration of the model architecture shows that 1) combined use of directional and place information is an example of a linearly inseparable problem and that 2) some types of novel route generation, often thought to require a &quot;cognitive mapping&quot; strategy, can be generated from the S-R type model used here.</abstract>
+<pubmed_id>7550613</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1021">
+<itemtype>xnppaper</itemtype>
+<titles><title>Local synaptic circuits in rat hippocampus: interactions between pyramidal cells.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-22T06:32:30Z</last_update_date>
+<creation_date>2008-07-22T06:32:30Z</creation_date>
+<publication_year>1980</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1021</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1021" version="1.02">
+<authors><author>MacVicar BA</author><author>Dudek FE</author></authors>
+<journal>Brain research</journal>
+<volume>184</volume>
+<number>1</number>
+<page>220-3</page>
+<abstract></abstract>
+<pubmed_id>6244052</pubmed_id>
+</detail>
+</item>

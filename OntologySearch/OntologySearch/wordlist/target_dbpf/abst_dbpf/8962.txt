@@ -1,0 +1,30 @@
+Action Potentials
+physiology
+Animals
+Behavior
+Animal
+physiology
+Feeding Behavior
+physiology
+Hippocampus
+physiology
+Learning
+physiology
+Male
+Memory
+physiology
+Motor Activity
+physiology
+Neural Pathways
+physiology
+Neurons
+physiology
+Orientation
+physiology
+Prefrontal Cortex
+physiology
+Rats
+Rats
+Long-Evans
+Theta Rhythm
+Both the hippocampus and the medial prefrontal cortex are essential for successful performance in learning- and memory-related tasks. Within the hippocampus the theta rhythm plays an integral role in the timing of action potentials of hippocampal neurons responding to elements of any given task. Medial prefrontal cortex (mPFC) neurons display firing rate changes to specific facets of behavioral tasks (Jung et al., 1998. Cereb Cortex 8:437--450). We recorded units in the mPFC and field potentials in the hippocampus to determine whether behaviorally correlated mPFC cells fired with phase relationships to the hippocampal theta rhythm. In two different behavioral tasks (running a linear track and foraging in two distinct environments) we found mPFC cells that alternated between theta entrained firing and nonphasic firing depending on the ongoing behavior, while other cells were modulated during all conditions in both tasks. The majority of the mPFC cells with a significant correlation of firing rate changes with behavior were entrained to hippocampal theta. Cells that fired to specific events during only one direction of running were predisposed to theta modulation only in that direction. mPFC neurons have the capability to respond to behaviorally relevant elements by dynamically alternating between hippocampal theta entrained and nonphasic firing.

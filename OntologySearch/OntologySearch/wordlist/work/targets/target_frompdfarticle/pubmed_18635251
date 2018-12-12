@@ -1,0 +1,1034 @@
+Progress in Biophysics and Molecular Biology 98 (2008) 52–60
+
+Contents lists available at ScienceDirect
+
+Progress in Biophysics and Molecular Biology
+
+j o u r n a l h o m e p a g e : w w w . e l s e v i e r . c o m / l o c a t e / p b i o m o l b i o
+
+Review
+In silico risk assessment for drug-induction of cardiac arrhythmia
+
+Shingo Suzuki a, Shingo Murakami a,b, Kenji Tsujimae a, Ian Findlay c, Yoshihisa Kurachi a,b, *
+a Division of Molecular and Cellular Pharmacology, Department of Pharmacology, Graduate School of Medicine, Osaka University, 2-2 Yamada-oka, Suita, Osaka 565-0871, Japan
+b The Center for Advanced Medical Engineering and Informatics, Osaka University, 2-2 Yamada-oka, Suita, Osaka 565-0871, Japan
+c CNRS UMR 6542, Faculte´ des Sciences, Universite´ François-Rabelais de Tours, France
+
+a r t i c l e i n f o
+
+a b s t r a c t
+
+Article history:
+Available online 29 May 2008
+
+Keywords:
+Cardiac action potential
+IKr blocker
+Mapping
+Cardiac arrhythmia
+
+Contents
+
+The main components of repolarization reserve for the ventricular action potential (AP) are the rapid (IKr)
+and slow (IKs) delayed outward Kþ currents. While many drugs block IKr and cause life-threatening
+arrhythmias including torsades de pointes, the frequency of arrhythmias varies between different IKr-
+blockers. Different types of block of IKr cause distinct phenotypes of prolongation of action potential
+duration (APD), increase in transmural dispersion of repolarization (TDR) and, accordingly, occurrence of
+torsades de pointes. Therefore the assessment of a drug’s proarrhythmic risk requires a method that provides
+quantitative and comprehensive comparison of the effects of different forms of IKr-blockade upon APDs and
+TDR. However, most currently available methods are not adapted to such an extensive comparison. Here, we
+introduce IKr–IKs two-dimensional maps of APD and TDR as a novel risk-assessment method. Taking the
+kinetics of IKr-blockade into account, APDs can be calculated upon a ventricular AP model which system-
+atically alters the magnitudes of IKr and IKs. The calculated APDs are then plotted on a map where the x axis
+represents the conductance of IKr while the y axis represents that of IKs. TDR is simulated with models
+corresponding to APs in epicardial, midcardial and endocardial myocardium. These two-dimensional
+maps of APD and TDR successfully account for differences in the risk resulting from three distinct types of
+IKr-blockade which correspond to the effects of dofetilide, quinidine and vesnarinone. This method may be
+of use to assess the arrhythmogenic risk of various IKr-blockers.
+
+Ó 2008 Elsevier Ltd. All rights reserved.
+
+1.
+2.
+
+3.
+
+4.
+
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Experimental risk assessments for drug-induced torsades de pointes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.1.
+2.2.
+
+Relationship between APD prolongation and drug-induced torsades de pointes . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Emerging predictors of drug-induced torsades de pointes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.2.1.
+2.2.2.
+2.2.3.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+. . . . . . . . . . . . . . . . . . . . . . . . . 53
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+Transmural dispersion of repolarization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+Triangulation and early afterdepolarization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+Reverse frequency dependence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+Problems with current risk assessment with electrophysiology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+Currently available in silico risk-assessment methods for selective IKr-blockade-induced cardiac arrhythmias . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . 54
+Two-dimensional maps of action potential duration depending on IKr and IKs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
+2D map analysis of the different types of IKr-blockade on the ventricular APD . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57
+Transmural ventricular AP models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+Two dimension map analysis of the effects of different types of IKr-blockade on ventricular transmural dispersion of repolarization . . . . . . . . 58
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 59
+
+In silico risk assessment of drug-induced torsades de pointes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.1.
+3.2.
+3.3.
+3.4.
+3.5.
+3.6.
+Limitations and further directions for 2D map expression . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Supplementary data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+* Corresponding author. Division of Molecular and Cellular Pharmacology, Department of Pharmacology, Graduate School of Medicine, Osaka University, 2-2 Yamada-oka, Suita,
+Osaka 565-0871, Japan. Tel: þ81 6 6879 3512; fax: þ81 6 6879 3519.
+
+E-mail address: ykurachi@pharma2.med.osaka-u.ac.jp (Y. Kurachi).
+
+0079-6107/$ – see front matter Ó 2008 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.pbiomolbio.2008.05.003
+
+S. Suzuki et al. / Progress in Biophysics and Molecular Biology 98 (2008) 52–60
+
+53
+
+1. Introduction
+
+A number of drugs in clinical use and during development have
+had to be withdrawn because of their proarrhythmic side effects.
+These otherwise promising compounds are a risk for patients and
+force the pharmaceutical industry to bear enormous costs. Torsades
+de pointes is a malignant polymorphic ventricular tachyarrhythmia
+which is particularly associated with drug therapy and drugs with
+this adverse effect have been either withdrawn or labeled with
+strict use restrictions (Roden, 2004).
+The delayed rectiﬁer Kþ current, IK, contributes to phase-2 and
+phase-3 repolarization of the cardiac ventricular action potential
+(AP) and inﬂuences action potential duration (APD). The rapidly
+activating Kþ current (IKr) and the slowly activating Kþ current (IKs)
+are two distinct components of IK in many mammals including man
+(Sanguinetti and Jurkiewicz, 1990; Sanguinetti and Jurkiewicz,
+1991; Wang et al., 1997). Many cardiac and non-cardiac drugs that
+cause life-threatening cardiac arrhythmias including torsades de
+pointes block IKr. Blockade of IKr prolongs cardiac APD and QT
+interval. The pore subunit of IKr is encoded by HERG (human ether-
+a-go-go-related gene) and several types of congenital long QT
+syndrome, which is often associated with torsades de pointes, are
+caused by loss of
+function mutants of HERG. Therefore, the
+compounds causing IKr-blockade were considered to have torsa-
+dogenic risk by prolonging QT interval.
+
+Although the precise mechanism for drug-induction of cardiac
+arrhythmias is not yet understood,
+it is widely accepted that
+prominent prolongation of APD and QT interval due to IKr-blockade,
+especially in bradycardia, forms the substrate for the phenomena.
+However, an increasing mass of evidence shows that
+the
+occurrence of cardiac arrhythmias varies greatly between different
+IKr-blockers. The IKr-blockade potential of drugs, which is usually
+measured by testing their effects against the HERG channel
+expressed in either mammalian cells or Xenopus oocytes, and the
+drug-induced prolongation of APD and QT interval in animals are
+now not considered to be as closely associated with the torsado-
+genic risk as before (Belardinelli et al., 2003; Shah and Hondeghem,
+2005; Lawrence et al., 2005; Hoffmann and Warner, 2006;
+Kannankeril and Roden, 2007; Hondeghem, 2006, 2007).
+
+In addition to the prolongation of APD a number of other
+indicators of risk for torsades de pointes have been proposed. These
+include worsening of transmural dispersion of repolarization (TDR),
+triangulation of the cardiac AP, early afterdepolarization (EAD), and
+reverse frequency dependence effects of drugs. Accordingly, the
+methods of in silico prediction for drug-induced cardiac arrhyth-
+mias using cardiac AP models need to be reconsidered. Here we
+brieﬂy review current understanding of the mechanisms for
+proarrhythmic action of drugs and the existing risk-assessment
+methods, and then introduce a new in silico method which has
+been developed in our laboratory for quantitative and compre-
+hensive prediction.
+
+2. Experimental risk assessments for drug-induced
+torsades de pointes
+
+2.1. Relationship between APD prolongation
+and drug-induced torsades de pointes
+
+For assessment of potential risk of drug-induced cardiac
+arrhythmia, the effects of a drug on the HERG channel expressed
+in either mammalian cells or Xenopus oocytes, and the pro-
+longation of APD and QT interval in animals is now routinely
+measured. However, there are enough examples to indicate that
+these tests are not accurate or sufﬁcient to assess the torsadogenic
+risk of drugs (Belardinelli et al., 2003; Shah and Hondeghem,
+2005; Lawrence et al., 2005; Hoffmann and Warner, 2006;
+
+Hondeghem, 2006, 2007; Kannankeril and Roden, 2007). (1) Drug-
+effect prediction using expressed HERG channels can be in-
+adequate in some cases. For example, the HERG channel current
+can be strongly blocked by clozapine which has no effect on
+frequency corrected QT interval (QTc) and lacks torsadogenic
+potential in human (Hoffmann and Warner, 2006; Warner and
+Hoffmann, 2002). Granisetron, ondansetron and dolasetron also
+block HERG channel current, but no cases of torsades de pointes
+associated with their use have been reported (Shah and
+Hondeghem, 2005; Kuryshev et al., 2000). (2) The blockade of IKr
+in ventricular tissue may not always be associated with torsado-
+genic risk. Tamoxifen potently blocks IKr in the ventricle but does
+not cause torsades de pointes (Liu et al., 1998). (3) Drug-induced
+prolongation of QT interval is not always associated with torsades
+de pointes. For example, ziprasidone prolongs QTc to a great extent
+but it has not been associated with torsades de pointes (Taylor,
+2003). The reverse association is also not always true. Drugs that
+have been associated with torsades de pointes do not necessarily
+signiﬁcantly prolong QT interval (Shah and Hondeghem, 2005;
+Morganroth, 1993). Sotalol can induce arrhythmia before any
+prolongation of the AP (Shah and Hondeghem, 2005; Hondeghem,
+2000; Hondeghem and Hoffmann, 2003). On the contrary,
+prolongation of the QT interval can be antiarrhythmic in some
+cases as shown by the antiarrhythmic effects of amiodarone (Van
+Opstal et al., 2001). Therefore, it is possible that false screening has
+been conducted, based on the questionable association between
+IKr-blockade and proarrhythmic side effects.
+
+2.2. Emerging predictors of drug-induced torsades de pointes
+
+In addition to prominent prolongation of APD,
+
+it is now
+recognized that transmural dispersion of ventricular repolarization
+(TDR) and other properties, such as early afterdepolarization (EAD),
+reverse frequency dependence, and triangulation of the AP are
+associated with torsades de pointes (Belardinelli et al., 2003; Shah
+and Hondeghem, 2005).
+
+Prolonged APD forms the substrate for increases in TDR and
+EAD, and not directly for torsades de pointes. An increase in TDR
+leads to heterogeneity of refractoriness in the ventricular tissue,
+which may serve as a substrate for re-entry which is an underlying
+mechanism for the perpetuation of torsades de pointes. EAD leads to
+ectopic beats which may be a trigger for re-entry, but TDR may be
+increased by EAD. Triangulation of the AP and prolonged APD in
+a reverse frequency-dependent manner are now recognized to be
+proarrhythmic because EADs can be easily evoked in these
+conditions. Therefore, phenotypes of a drug effects more complex
+than APD prolongation may determine the occurrence of life-
+threatening arrhythmia.
+
+2.2.1. Transmural dispersion of repolarization
+
+A drug-induced prominent prolongation of APD and an increase
+in TDR may be related or independent components of the substrate
+for re-entrant ventricular tachycardia, and an increase in TDR is
+associated with drug-induced torsades de pointes (Belardinelli et al.,
+2003). For example, sotalol prolongs APD more prominently in M
+cells than in epicardial or endocardial cells and thus may worsen
+TDR, leading to torsades de pointes (Yan and Antzelevitch, 1998). A
+good example illustrating the complex relationship between
+prolongation of APD, TDR and drug-induced torsades de pointes is
+the comparison of the effects of dofetilide and amiodarone: dofe-
+tilide prolongs APD during bradycardia and worsens TDR, while
+amiodarone causes prominent prolongation of APD but does not
+worsen TDR. This difference may explain why amiodarone rarely
+causes torsades de pointes while dofetilide often does so. Similar
+associations between TDR rather than APD prolongation and tor-
+sades de pointes can be found in many other drugs (Belardinelli et al.,
+
+54
+
+S. Suzuki et al. / Progress in Biophysics and Molecular Biology 98 (2008) 52–60
+
+2003). Therefore, TDR should be considered as a predictor for drug-
+induced torsades de pointes, independently of APD prolongation.
+
+2.2.2. Triangulation and early afterdepolarization
+
+Triangulation of the AP is usually deﬁned as prolongation of
+APD30–90 and as the name suggests this replaces the notch-and-
+dome morphology of the AP with an almost linear phase of
+repolarization (Shah and Hondeghem, 2005). Triangulation is
+reported to be a strong proarrhythmic predictor and may appear in
+the ECG as widened, ﬂattened, or notched T waves. Drug-induced
+triangulation can be caused by blockade of IKr, but it can also be
+caused by blockade of other inward and outward currents.
+Triangulation results in a delayed and slower repolarization that
+means that a number of time-dependent elements in ion currents
+may be brought into play (Shah and Hondeghem, 2005). Among
+those that may lead to EAD, oscillations during repolarization, and
+possibly torsades de pointes are: longer time in the calcium and
+sodium current windows, longer time allowing reactivation of the
+calcium and sodium currents, and more time for depolarization by
+the sodium calcium exchange current (Hondeghem, 2007).
+
+EAD can develop with prolonged APD and repetitive EADs may
+lead to triggered activity, which may perpetuate torsades de pointes.
+Moreover, EAD may also contribute to heterogeneity of AP conﬁg-
+uration in the ventricle, and consequently to an increase in TDR.
+Therefore, EAD is also considered to play an important role in
+triggering torsades de pointes (Belardinelli et al., 2003).
+
+2.2.3. Reverse frequency dependence
+
+Many IKr-blockers prolong APD at low heart rate and the
+prolongation is less as heart rate is increased. This reverse
+frequency dependence is considered as a predictor of proar-
+rhythmia (Shah and Hondeghem, 2005). During tachycardia the
+amplitude of IKs increases due to its slow deactivation while the
+amplitude of
+IKr remains nearly the same (Jurkiewicz and
+Sanguinetti, 1993). The contribution of IKr relative to IKs in AP
+repolarization is larger during bradycardia than during tachycardia.
+Therefore, IKr-blockers such as dofetilide and E4031 prolong APD
+more prominently during bradycardia (Martin et al., 1996; Matsuda
+et al., 2005; Toyama et al., 1997). However, IKr-blockers do not
+necessarily prolong APD in a reverse frequency-dependent manner.
+For example, amiodarone lacks reverse use dependence and
+torsadogenic risk. The positive inotropic agent vesnarinone inhibits
+HERG current in a voltage- and time-dependent manner (Katayama
+et al., 2000; Tsujimae et al., 2004), but, does not causes a reverse
+frequency-dependent prolongation of APD, while dofetilide and
+quinidine cause a reverse frequency-dependent prolongation of
+APD (Hatem et al., 1992; Toyama et al., 1997; Roden et al., 1987).
+Clinically, vesnarinone does not cause torsades de pointes but
+quinidine often does so (Feldman et al., 1991; Smith and Gallagher,
+1980). Since both quinidine and vesnarinone inhibit HERG current
+in a voltage- and time-dependent manner (Katayama et al., 2000;
+Tsujimae et al., 2004), their different effects may be due to
+differences in their kinetics of HERG blockade where the
+development of block is much faster with quinidine than with
+vesnarinone (Katayama et al., 2000; Tsujimae et al., 2004). There-
+fore, the reverse frequency dependence of APD prolongation may
+reﬂect a speciﬁc aspect of IKr-blockade by drugs.
+
+3. In silico risk assessment of drug-induced
+torsades de pointes
+
+3.1. Problems with current risk assessment with electrophysiology
+
+In the previous section, we presented an overview of current
+understanding of drug-induced cardiac arrhythmia, and in
+
+particular the electrophysiological indicators of the risk of torsades
+de points. But the accuracy of prediction of torsadogenic risk varies
+between different drugs and the outcome based on these predictive
+indicators is not satisfactory. There may be two major possible
+explanations for these discrepancies. The ﬁrst explanation is that
+even if these drugs selectively inhibit IKr, they do so with distinct
+kinetics and thus the phenotype of alteration of the AP may differ.
+This can affect their torsadogenic potential (see Section 2.2.3). The
+other explanation is that some drugs may not be selective for IKr
+and that the cardiac arrhythmias could be generated not by a single
+mechanism but by multiple mechanisms.
+
+Therefore, the further development of prediction methods for risk
+assessment is awaited to increase safety in drug usage in clinics and
+new drug development. An in silico strategy has particular merits for
+this purpose, because, different from purely experimental ap-
+proaches, it can deal separately with the diverse actions of the drugs.
+For example, ﬁrstly, one can develop comprehensive and quantitative
+methods for assessing the risk caused by selective IKr-blockade and
+then, the method can be extended step by step to include the risks due
+to complex and/or non-speciﬁc actions of the drugs.
+
+In this section, we will overview the current in silico methods for
+the assessment of the risks caused by selective IKr-blockade and
+their limitations, then we shall introduce a novel method for
+comprehensive assessment which we have developed recently.
+Future development of this method for more complex actions of
+drugs will also be discussed.
+
+3.2. Currently available in silico risk-assessment methods
+for selective IKr-blockade-induced cardiac arrhythmias
+
+In order to predict the risk of selective IKr-blockade inducing
+torsades de pointes, in silico approaches, including the prediction
+of an HERG channel blocking pharmacophore, have been used
+for a long time. However, pharmacophores determined from the
+ability of diverse structural compounds shown to block IKr
+cannot distinguish between those aspects of the compounds
+which cause IKr block, APD elongation and torsades de pointes
+from those that cause IKr block and APD elongation without any
+clinical association with torsades de pointes. Therefore, this
+method may overestimate the torsadogenic potential of chem-
+ical compounds. It is thus clear that more complex assays for
+the effects of IKr blocking drugs are required to more accurately
+evaluate any proarrhythmic risk.
+
+On the other hand, in silico constructions of ventricular APs
+can provide some estimate of the mechanisms which could
+underlie proarrhythmic indicators such as AP triangulation and
+the production of EADs (e.g. Noble and Varghese, 1998; Vis-
+wanathan and Rudy, 1999; Noble and Noble, 2006). However,
+conventional approaches with AP models have problems with
+the new criteria of proarrhythmic risk mentioned above. For
+example, in the original formulation of IKr and IKs in the Luo–
+Rudy model (Faber and Rudy, 2000), IKr-blockade cannot sub-
+stantially elongate APD at cycle lengths of 0.3, 1 or 3 s because
+the original
+large IKs conductance provides a too large re-
+polarization reserve (Fig. 1, top). Only after the density of IKs is
+reduced to 40% of the original can IKr-blockade signiﬁcantly
+elongate APD and induce EAD (Fig. 1, bottom). Therefore, with
+a single model with a single set of maximal conductance values,
+it is difﬁcult to perform risk assessment for various IKr-blockers
+in a quantitative manner.
+
+Also, worsening TDR is a substrate for cardiac arrhythmias
+independently of APD prolongation. To conduct analysis of TDR
+requires at least three different cardiac AP models representing
+endocardial, midcardial and epicardial myocytes in the ventricular
+wall. The role of TDR in cardiac arrhythmias may be related to dif-
+ferential reactions to IKr-blockade in the different types of myocytes.
+
+S. Suzuki et al. / Progress in Biophysics and Molecular Biology 98 (2008) 52–60
+
+55
+
+CL 300ms
+
+CL 1000ms
+
+CL 3000ms
+
+100% IKs
+
+40% IKs
+
+50mV
+
+200ms
+
+Fig. 1. Ventricular action potentials simulated with different conductance levels for IKr and IKs. Simulated action potentials at cycle lengths of 0.3, 1, 3 s with (top, black) IKs ¼ 100%
+and IKr ¼ 100%, (top, red) IKs ¼ 100% and IKr ¼ 20%, (bottom, black) IKs ¼ 40% and IKr ¼ 100% and (bottom, red) IKs ¼ 40% and IKr ¼ 20%.
+
+Also, considering that different IKr-blockers exhibit different
+blockade kinetics and proarrhythmic risk (see Section 2.2.3),
+a detailed knowledge of the kinetics of action of blockers of IKr is
+required in order to more adequately evaluate their effects on
+different types of ventricular myocyte and at different cycle lengths.
+Therefore, there is a clear need for developing a method that
+provides quantitative and comprehensive comparison of the effects
+of different forms of IKr-blockade upon APDs and TDR.
+
+3.3. Two-dimensional maps of action potential
+duration depending on IKr and IKs
+
+To assess the risk of drugs inducing life-threatening cardiac
+arrhythmias in silico, it is necessary to compare their effects on at
+
+least two points: (1) APDs in cardiac myocytes and (2) TDR in
+cardiac tissue. This review will introduce a novel method that can
+quantitatively and comprehensively evaluate cardiac electrical
+stability with drug-induced APD prolongation and TDR. This
+method is also able to explain the difference in the risk of different
+IKr-channel blockers. We propose a two-dimensional mapping
+method to interpret the effects of various drugs on APD and TDR in
+cardiac tissue (Suzuki et al., 2007). Computer models are used to
+calculate APD and TDR which are then plotted on a map whose axes
+are IKr and IKs. The different voltage- and time-dependent block of
+IKr is selected as being characteristic of different drug action. IKr-
+blockade can be classiﬁed into three representative groups: volt-
+age- and time-independent blockade (e.g. dofetilide, E4031), fast
+voltage- and time-dependent blockade (e.g. quinidine), and slow
+
+Fig. 2. The effects of varying the conductance of IKr and IKs upon APD. (A) Examples of action potentials simulated with different levels of IKr and IKs conductance (a) IKr ¼ 100%,
+IKs ¼ 100%; (b) IKr ¼ 30%, IKs ¼ 100%; (c) IKr ¼ 30%, IKs ¼ 10%; (d) IKr ¼ 30%, IKs ¼ 4%. Arrow heads indicate 0 mV membrane potential. (B) A two-dimensional map of APD simulated at
+a cycle length of 1 s. Vertical and horizontal axes represent the relative conductance of IKs and IKr, respectively, where a value of 1.0 represents those of the control model. Isolines
+linking equal APD were drawn at 20 ms intervals between 100 and 400 ms and the spaces between them were shaded from blue to red. APDs greater than 400 ms are shaded
+brown. Grey areas indicate regions where one or more AP simulations were longer than cycle length (Fig. 2A(d)).
+
+56
+
+S. Suzuki et al. / Progress in Biophysics and Molecular Biology 98 (2008) 52–60
+
+Fig. 3. A comparison of the effects of dofetilide, quinidine and vesnarinone blockade of IKr upon APD. (A) Simulated action potentials at cycle lengths of 0.3, 1, 3 s with IKs ¼ 100 or 6%
+and ydepolarization ¼ 30%. (B) 2D maps of APD for each blockade type and maps of the difference between the effects of dofetilide and quinidine or vesnarinone. The horizontal axis
+represents the limit set for the minimum of unblocked IKr in the presence of drug i (ydepolarization,i). For dofetilide blockade, ydepolarization and the fraction of IKr that is not blocked by
+drug i (y(t)) are the same at any time and voltage.
+
+Fig. 4. Action potentials simulated in myocytes in the epicardial (Epi), midcardial (M), and endocardial (Endo) regions of the ventricle. (A) Simulated action potentials in the three
+types of myocyte and in the presence of IKr and/or IKs blockers at a cycle length of 2 s. The unblocked fraction of IKs was 29.74% and that of IKr was 7.431%. (B) Deﬁnition of the
+pseudo-QT and TDR. The pseudo-QT was deﬁned as the interval between the ﬁrst depolarization (blue) and the last repolarization in the myocardium (green), and the TDR was the
+interval between the ﬁrst repolarization (blue) and the last repolarization in the myocardium (green). The pseudo ECG was calculated by summing the current ﬂowing along 55
+endo-, 55 M-, and 55 endo-myocytes, connected in a line. (C) 2D maps of APD in each type of myocyte and QT and TDR. White areas in QT and TDR maps indicate zones where at
+least one of the simulated APs was longer than the cycle length and it was not possible to calculate either QT or TDR.
+
+S. Suzuki et al. / Progress in Biophysics and Molecular Biology 98 (2008) 52–60
+
+57
+
+voltage- and time-dependent blockade (e.g. vesnarinone). When
+the model is modiﬁed to reproduce APs in the epicardial, mid-
+cardial and endocardial myocardium, pseudo-electrocardiogram,
+QT interval and TDR can be simulated and the effects of drugs can
+be determined and the difference in the risk of a drug inducing
+life-threatening cardiac arrhythmias can be accounted for.
+
+To develop 2D mapping of APD, we used a modiﬁed version of
+the Luo and Rudy phase II (LRd) ventricular myocyte model (Luo and
+Rudy, 1994; Zeng et al., 1995; Viswanathan et al., 1999; Faber and
+Rudy, 2000) where the L-type Ca2þ channel formulation was
+replaced by a model that can differentiate the VDI and CDI
+mechanisms (Findlay et al., 2008 and see Appendix 1). Equilibrium
+was achieved by running the model for 30 cycles. ADP was mea-
+sured at  75 mV (close to APD90) and the longest APD value
+recorded from the ﬁnal 10 APs was used for the construction of the
+map. The 2D map was constructed by repeating the cycle of 30 AP
+simulations and systematically varying the maximum possible
+conductance of IKs in increments of 1% and systematically varying IKr
+according to the type of blockade. We adopted the relatively small
+number of APs (30) because of common intrinsic problems with
+a steady state in many ventricular models, including the LRd model
+and its many variants such as ours in this study. For example,
+steady-state intracellular Naþ concentration is very high and this
+strongly affects Naþ dependent currents (e.g. INaK and INaCa) and
+consequently steady-state APD, which is not very likely in normal
+physiological conditions. Therefore, we decided to use a compro-
+mise between the initial and the steady-state, i.e. 30 cycles, where
+intracellular Naþ concentration is not too high and tuning the AP by
+varying Kþ channel currents could reproduce the experiments of
+Aiba et al. (2005). This compromise did not affect the purpose and
+conclusion in this study which shows how to pull out the systematic
+features of the AP under application of IKr-blockers and use them for
+the assessment of the risk of drug-induced cardiac arrhythmias.
+
+Fig. 2 illustrates individual simulated APs and the basic 2D map
+of APD resulting from varying the relative conductance of IKr
+(horizontal axis) and IKs (vertical axis) with a cycle length of 1 s. The
+two-dimensional display clearly shows that alterations of IKr and IKs
+have different degrees of effect on APD. The steeper the slope of an
+isoline, the larger is the relative contribution of IKr to APD. The
+shallower the slope of an isoline, the larger is the relative
+contribution of IKs to APD. The space between the isolines reﬂects
+the degree of stability of APD. In areas where isolines are widely
+spaced, APD is
+relatively insensitive to alterations in the
+conductance of IKr and/or IKs. On the other hand, when isolines are
+close together, APD can be altered by even slight modulation of IKr
+and/or IKs. Thus, in this method, the systematic property of APD
+depending on repolarization reserve (i.e.
+IKr and IKs) can be
+evaluated quantitatively and comprehensively.
+
+3.4. 2D map analysis of the different types of IKr-blockade
+on the ventricular APD
+
+We examined the usefulness of this method to evaluate the
+difference between various types of IKr-blockade (Fig. 3). We
+constructed models (Appendix 2) of three representative types of
+blockade typiﬁed by dofetilide, quinidine and vesnarinone. Fig. 3A
+illustrates the effects of the three types of blockade of IKr on APs at
+different cycle length. When the model used the original IKr and IKs
+conductance values (Faber and Rudy, 2000), none of the agents
+substantially prolonged APD at any cycle length (Fig. 3A, 100% IKs).
+The absence of an effect of IKr-blockade was due to the original large
+IKs conductance which provided a repolarization reserve in the
+model
+IKr. When
+the maximum value for the IKs conductance was reduced to 6% of
+the original, this effect was lost and each of the agents affected APD.
+Dofetilide and quinidine blockade prolonged APD more than
+
+that compensated for strong inhibition of
+
+vesnarinone. It is therefore clear that in order to properly evaluate
+the proarrhythmic effect of an ‘‘HERG-channel-blocker’’,
+it is
+necessary to measure not only its effect upon IKr but also the
+inﬂuence of variation of IKs. The 2D map incorporates variation of
+IKs, with both inhibition (relative conductance < 1) and excitation
+(relative conductance > 1).
+
+Fig. 3B illustrates 2D maps of APD showing the effects of the
+three types of IKr-blockade at three different cycle lengths (0.3,1 and
+3 s). In dofetilide blockade the red areas corresponding to long APD
+increased with increasing cycle length and the slopes of the isolines
+became steeper. This indicates that the relative contribution of IKr
+over IKs for AP repolarization increases with an increase in cycle
+length. This change of isoline slope is an expression of reverse fre-
+quency-dependent prolongation of APD by a drug. The reverse
+frequency dependence of APD prolongation is a critical indicator of
+drug-induced cardiac arrhythmia which simple simulations of an
+AP would miss in the presence of a large repolarization reserve due
+to abundant IKs. The 2D map analysis of IKr–IKs eliminates this defect.
+The voltage- and time-dependent blockade of IKr by quinidine
+induced curvature of the isolines which was even more prominent
+
+QT
+
+TDR
+
+0.3 s
+
+1 s
+
+1.0
+
+/Ks
+
+0.5
+
+3 s
+
+0
+
+0.5
+
+1.0
+
+y depolarization
+
+300
+
+400
+
+500
+
+600
+
+QT (ms)
+
+TDR (ms)
+
+0
+
+100
+
+200
+
+300
+
+Fig. 5. The effects of cycle length upon 2D maps of QT and TDR.
+
+58
+
+S. Suzuki et al. / Progress in Biophysics and Molecular Biology 98 (2008) 52–60
+
+under vesnarinone blockade. This was particularly evident at
+a cycle length of 3 s. This means that the blockade of IKr by
+vesnarinone may not cause signiﬁcant prolongation of APD until
+ydepolarization is reduced to w0.2 and since the isolines were almost
+horizontal over a considerable range of inhibition of IKr (from 1 to
+0.3 of ydepolarization) APD prolongation depended mainly on IKs and
+not on IKr. Therefore, it is expected that vesnarinone-type IKr-
+blockers would show little effect on APD in this range.
+
+This characteristic of the time- and voltage-dependent drugs was
+further analyzed by subtracting the effect of voltage- and time-
+independent block (Fig. 3B, right). Negative values indicate where
+these drugs had less of an effect upon APD than dofetilide. It was
+noticeable that vesnarinone blockade was weaker at longer cycle
+length and since less APD prolongation at slow stimulus frequency is
+a preferable character for a drug, this analysis suggests that a ves-
+narinone-type of blocker may be safer than the other drugs. Indeed,
+vesnarinone is not associated with ventricular arrhythmias (Feld-
+man et al., 1991) while dofetilide and quinidine often cause torsades
+de pointes (Smith and Gallagher, 1980; Torp-Pedersen et al., 2000).
+These results indicate the utility of 2D mapping with a single
+standardized ventricular myocyte. But, the idea can also be extended
+to a more physiologically relevant model involving the variation of
+AP types and the transmission of APs across the ventricular wall.
+
+3.5. Transmural ventricular AP models
+
+The 2D maps of APD dependent upon variation in IKs and IKr for
+each layer of the myocardium are shown in Fig. 4C. The different
+orientations of the isolines in these maps reveal a divergent
+dependence of APD on IKr and IKs in each layer. Pseudo-QT and TDR
+values were obtained for each combination of IKr and IKs (Fig. 4C).
+Since these three models were not assembled to represent a 3D
+cross-section of the ventricle wall, to construct the QT and TDR maps
+the timing of the excitation of each type of myocyte corresponded to
+their approximate position and transmural conduction (Aiba et al.,
+2005). Thus the endocardium model was stimulated ﬁrst, the M cell
+after 9 ms and the epicardium after a further 9 ms. The QT interval
+was easily prolonged by the reduction of either IKr and/or IKs while
+a serious elongation of TDR required both IKr and IKs to be reduced to
+less than approximately half of the control values. The very narrow
+area of the 2D map over which TDR then elongated (yellow to red
+scale in Fig. 4C) may represent a critical zone of proarrhythmic risk.
+Fig. 5 shows 2D maps of QT interval and TDR at three different
+cycle lengths. At a cycle length of 0.3 s, simulations of APD with
+reduced IKr and/or IKs easily overran the cycle length (white areas).
+At cycle lengths of 1 and 3 s there were no marked differences be-
+tween the 2D maps for either QT interval or TDR. There was a slight
+tendency for an expansion of the distance between isolines at
+a cycle length of 3 s. This analysis clearly indicates that the effects of
+changing cycle length upon QT interval and TDR (Fig. 5) are different
+from those upon APD in a standardized ventricular myocyte (Fig. 3).
+
+Based on the general ventricular myocyte model, we developed
+three models representative of cardiomyocytes in the epicardium
+(Epi), mesocardium (M), and endocardium (Endo) of the ventricle.
+Fig. 4A shows simulated APs for cardiomyocytes in the Epi, M, and
+Endo regions in control conditions, in the presence of IKs block, and
+in the presence of both IKr and IKs block. These models were derived
+by adjusting the parameters of the maximum conductances of Kþ
+channel currents (IKr, IKs, Ito, IKp) to reproduce the experimental data
+of Aiba et al. (2005) (Table 1) so that in control and in the presence
+of IKs block, APDs of M cells are slightly longer than those of the
+other myocyte types; and in the presence of IKr and IKs block the
+APD in Epi is the most prolonged.
+
+3.6. Two dimension map analysis of the effects of different types of
+IKr-blockade on ventricular transmural dispersion of repolarization
+
+Fig. 6A displays 2D maps of QT interval and TDR obtained
+under blockade of IKr by dofetilide, quinidine, and vesnarinone.
+The drugs showing time- and voltage-dependent block of IKr
+induced less QT prolongation,
+in particular vesnarinone. The
+TDR map shows alterations in the proarrhythmic risk for each
+drug more clearly. The area at risk (yellow to red scale) is re-
+duced and shifted to the left by vesnarinone. The reduction of
+TDR related to time- and voltage-dependent blockade of IKr at
+different cycle lengths is shown in Fig. 6B. Vesnarinone induced
+
+dof.
+
+qui.
+
+ves.
+
+A
+CL = 2 s
+
+QT
+
+1.0
+
+TDR
+
+0.5
+
+I
+
+Ks
+
+0
+
+0.5
+
+1.0
+
+y
+
+depolarization
+
+300
+
+QT (ms)
+
+400
+
+500
+
+600
+
+0
+
+TDR (ms)
+
+100
+
+200 300
+
+qui.-dof.
+
+ves.-dof.
+
+B
+
+1 s
+
+2 s
+
+1.0
+
+3 s
+
+0.5
+
+I
+
+Ks
+
+0
+
+0.5
+
+1.0
+
+y
+
+depolarization
+
+ΔTDR (ms)
+
+-50 -40 -30 -20 -15 -10 -5 0
+
+Fig. 6. The effects of dofetilide, quinidine and vesnarinone on QT and TDR. (A) 2D maps of QT and TDR in the presence of each drug type (cycle length 2 s). (B) 2D maps of differences
+between TDR (quinidine)   TDR (dofetilide) and TDR (vesnarinone)   TDR (dofetilide) at cycle lengths of 1, 2 and 3 s, respectively.
+
+S. Suzuki et al. / Progress in Biophysics and Molecular Biology 98 (2008) 52–60
+
+59
+
+less TDR dispersion than quinidine at each cycle length. In-
+creasing cycle length reduced TDR dispersion in particular un-
+der vesnarinone. Therefore, according to these simulations, the
+strength of the drugs’ reverse frequency-dependent effects on
+TDR are dofetilide > quinidine > vesnarinone.
+
+4. Limitations and further directions for 2D map expression
+
+One of the advantages of the 2D mapping method is that this
+technique can be applied to any cardiac cell model. For example, this
+approach could be useful to analyze the effects of channel modula-
+tion on atrial excitability. In human atrial myocytes the short APD is
+due more to IKur and Ito than IKr and IKs (Courtemanche et al.,1999). In
+which case, IKur and Ito could form the axes of 2D maps. The database
+of CellML models (http://www.cellml.org/) is a great resource for
+testing this method upon a variety of cardiac myocyte models.
+
+With this 2D map method, the inﬂuence of other ion channels
+on APD can also be examined systematically. This type of analysis
+should also be useful to assess the proarrhythmic or antiarrhythmic
+effects of modulation of multiple ion channels and therefore aid to
+evaluate treatment
+strategies for drug-induction of cardiac
+arrhythmias. In preliminary tests, 2D maps of IKs/IKr showed that
+TDR due to an IKr blocker was decreased in the presence of a Ca2þ
+channel blocker and increased in the presence of a Naþ channel
+blocker (not shown). This suggests that these types of analysis may
+be useful to analyze interactions between drugs’ effects.
+
+The major limitation of this method at present is that the
+effect of conduction through the heart wall has not been in-
+cluded in the calculation of TDR. The simple method to calcu-
+late TDR used here is clearly not enough and should be
+improved. This will require the development of a 3D ventricular
+wall model which is composed of endocardial, midcardial and
+epicardial layers with conduction of APs across the wall.
+
+The 2D map analysis method and its application to a proper
+model for the conducting ventricular wall model will provide
+valuable information concerning the relationship between APD, ion
+channel density, and the characteristics of the effects of ion channel
+blockers on APD, and TDR.
+
+Appendix. Supplementary data
+
+Supplementary data associated with this article can be found, in
+
+the online version, at doi:10.1016/j.pbiomolbio.2008.05.003.
+
+References
+
+Aiba, T., Shimizu, W., Inagaki, M., Noda, T., Miyoshi, S., Ding, W.G., Zankov, D.P.,
+Toyoda, F., Matsuura, H., Horie, M., Sunagawa, K., 2005. Cellular and ionic
+mechanism for drug-induced long QT syndrome and effectiveness of verapamil.
+J. Am. Coll. Cardiol. 45, 300–307.
+
+Belardinelli, L., Antzelevitch, C., Vos, M.A., 2003. Assessing predictors of drug-in-
+
+duced torsade de pointes. Trends Pharmacol. Sci. 24, 619–625.
+
+Courtemanche, M., Ramirez, R.J., Nattel, S., 1999. Ionic targets for drug therapy and
+atrial ﬁbrillation-induced electrical remodeling: insights from a mathematical
+model. Cardiovasc. Res. 42, 477–489.
+Faber, G.M., Rudy, Y., 2000. Action potential and contractility changes in [Naþ]i
+
+overloaded cardiac myocytes: a simulation study. Biophys. J. 78, 2392–2404.
+
+Feldman, A.M., Baughman, K.L., Lee, W.K., Gottlieb, S.H., Weiss, J.L., Becker, L.C.,
+Strobeck,
+J.E., 1991. Usefulness of OPC-8212, a quinolinone derivative, for
+chronic congestive heart failure in patients with ischemic heart disease or id-
+iopathic dilated cardiomyopathy. Am. J. Cardiol. 68, 1203–1210.
+
+Findlay, I., Suzuki, S., Murakami, S., Kurachi, Y., 2008. Physiological modulation of
+voltage-dependent inactivation in the cardiac muscle L-type calcium channel:
+a modelling study. Prog. Biophys. Mol. Biol. 96, 482–498.
+
+Hatem, S., Le Grand, B., Le Heuzey, J.Y., Couetil, J.P., Deroubaix, E., 1992. Differential
+effects of quinidine and ﬂecainide on plateau duration of human atrial action
+potential. Basic Res. Cardiol. 87, 600–609.
+
+Hoffmann, P., Warner, B., 2006. Are hERG channel inhibition and QT interval pro-
+longation all there is in drug-induced torsadogenesis? A review of emerging
+trends. J. Pharmacol. Toxicol. Methods 53, 87–105.
+
+Hondeghem, L.M., 2000. Frequency dependence of class I and class III antiar-
+rhythmic agents explaining their antiarrhythmic and proarrhythmic properties.
+In: Franz, M.R. (Ed.), Monophasic Action Potentials. Futura Publishing, Mount
+Kisco, NY, pp. 381–394.
+
+Hondeghem, L.M., 2006. Thorough QT/QTc not so thorough: removes torsadogenic
+predictors from the T-wave, incriminates safe drugs, and misses proﬁbrillatory
+drugs. J. Cardiovasc. Electrophysiol. 17, 337–340.
+
+Hondeghem, L.M., 2007. Relative contributions of TRIaD and QT to proarrhythmia. J.
+
+Cardiovasc. Electrophysiol. 18, 655–657.
+
+Hondeghem, L.M., Hoffmann, P., 2003. Blinded test in isolated female rabbit heart
+reliably identiﬁes action potential duration prolongation and proarrhythmic
+drugs: importance of triangulation, reverse use dependence, and instability. J.
+Cardiovasc. Pharmacol. 41, 14–24.
+
+Jurkiewicz, N.K., Sanguinetti, M.C., 1993. Rate-dependent prolongation of cardiac
+action potentials by a methanesulfonanilide class III antiarrhythmic agent.
+Speciﬁc block of rapidly activating delayed rectiﬁer Kþ current by dofetilide.
+Circ. Res. 72, 75–83.
+
+Kannankeril, P.J., Roden, D.M., 2007. Drug-induced long QT and torsade de pointes:
+
+recent advances. Curr. Opin. Cardiol. 22, 239–243.
+Katayama, Y., Fujita, A., Ohe, T., Findlay, I., Kurachi, Y., 2000. Inhibitory effects of
+vesnarinone on cloned cardiac delayed rectiﬁer Kþ channels expressed in
+a mammalian cell line. J. Pharmacol. Exp. Ther. 294, 339–346.
+
+Kuryshev, Y.A., Brown, A.M., Wang, L., Benedict, C.R., Rampe, D., 2000. Interactions
+of the 5-hydroxytryptamine 3 antagonist class of antiemetic drugs with human
+cardiac ion channels. J. Pharmacol. Exp. Ther. 295, 614–620.
+
+Lawrence, C.L., Pollard, C.E., Hammond, T.G., Valentin,
+
+J.P., 2005. Nonclinical
+proarrhythmia models: predicting torsades de pointes. J. Pharmacol. Toxicol.
+Methods 52, 46–59.
+
+Liu, X.K., Katchman, A., Ebert, S.N., Woosley, R.L., 1998. The antiestrogen tamoxifen
+blocks the delayed rectiﬁer potassium current, IKr, in rabbit ventricular my-
+ocytes. J. Pharmacol. Exp. Ther. 287, 877–883.
+
+Luo, C.H., Rudy, Y., 1994. A dynamic model of the cardiac ventricular action po-
+tential. I. Simulations of ionic currents and concentration changes. Circ. Res. 74,
+1071–1096.
+
+Martin, C.L., Palomo, M.A., Mcmahon, E.G., 1996. Comparison of bidisomide, ﬂe-
+cainide and dofetilide on action potential duration in isolated canine atria:
+effect of isoproterenol. J. Pharmacol. Exp. Ther. 278, 154–162.
+
+Matsuda, T., Takeda, K.,
+
+Ito, M., Yamagishi, R., Tamura, M., Nakamura, H.,
+Tsuruoka, N., Saito, T., Masumiya, H., Suzuki, T., Iida-Tanaka, N., Itokawa-
+Matsuda, M., Yamashita, T., Tsuruzoe, N., Tanaka, H., Shigenobu, K., 2005. Atria
+selective prolongation by NIP-142, an antiarrhythmic agent, of refractory period
+and action potential duration in guinea pig myocardium. J. Pharmacol. Sci. 98,
+33–40.
+
+Morganroth,
+
+J., 1993. Relations of QTc prolongation on the electrocardiogram
+J. Cardiol. 72,
+
+to torsades de pointes: deﬁnitions and mechanisms. Am.
+10B–13B.
+
+Noble, D., Noble, P.J., 2006. Late sodium current in the pathophysiology of cardio-
+vascular disease: consequences of sodium–calcium overload. Heart 92, iv1–iv5.
+Noble, D., Varghese, A., 1998. Modeling of sodium–calcium overload arrhythmias
+
+and their suppression. Can. J. Cardiol. 14, 97–100.
+
+Roden, D.M., 2004. Drug-induced prolongation of the QT interval. N. Engl. J. Med.
+
+350, 1013–1022.
+
+Roden, D.M., Iansmith, D.H., Woosley, R.L., 1987. Frequency-dependent interactions
+of mexiletine and quinidine on depolarization and repolarization in canine
+Purkinje ﬁbers. J. Pharmacol. Exp. Ther. 243, 1218–1224.
+Sanguinetti, M.C., Jurkiewicz, N.K., 1990. Two components of cardiac delayed rec-
+tiﬁer Kþ current. Differential sensitivity to block by class III antiarrhythmic
+agents. J. Gen. Physiol. 96, 195–215.
+Sanguinetti, M.C., Jurkiewicz, N.K., 1991. Delayed rectiﬁer outward Kþ current is
+composed of two currents in guinea pig atrial cells. Am. J. Physiol. 260, H393–
+H399.
+
+Shah, R.R., Hondeghem, L.M., 2005. Reﬁning detection of drug-induced proar-
+
+rhythmia: QT interval and TRIaD. Heart Rhythm 2, 758–772.
+
+Smith, W.M., Gallagher, J.J., 1980. ‘‘Les torsades de pointes’’: an unusual ventricular
+
+arrhythmia. Ann. Intern. Med. 93, 578–584.
+
+Suzuki, S., Tsujimae, K., Murakami, S., Findlay, I., Kurachi, Y., 2007. Two-dimensional
+mapping of cardiac action potential duration for assessing the risk of drug-in-
+duced arrhythmia. The Proceedings of the 80th Annual Meeting of the Japanese
+Pharmacological Society, March 14–16, 2007, Nagoya, Japan. Abst. J. Pharmacol.
+Sci. 103 (Suppl. I), 196.
+
+Taylor, D., 2003. Ziprasidone in the management of schizophrenia. CNS Drugs 17,
+
+423–430.
+
+Torp-Pedersen, C., Brendorp, B., Kober, L., 2000. Dofetilide: a class III anti-ar-
+rhythmic drug for the treatment of atrial ﬁbrillation. Expert. Opin. Investig.
+Drugs 9, 2695–2704.
+
+Toyama, J., Kamiya, K., Cheng, J., Lee, J.K., Suzuki, R., Kodama, I., 1997. Vesnarinone
+prolongs action potential duration without reverse frequency dependence in
+rabbit ventricular muscle by blocking the delayed rectiﬁer Kþ current. Circu-
+lation 96, 3696–3703.
+
+Tsujimae, K., Suzuki, S., Yamada, M., Kurachi, Y., 2004. Comparison of kinetic
+properties of quinidine and dofetilide block of HERG channels. Eur. J. Pharmacol.
+493, 29–40.
+
+Van Opstal, J.M., Schoenmakers, M., Verduyn, S.C., de Groot, S.H., Leunissen, J.D., van
+Der Hulst, F.F., Molenschot, M.M., Wellens, H.J., Vos, M.A., 2001. Chronic
+amiodarone evokes no torsade de pointes arrhythmias despite QT lengthening
+in an animal model of acquired long-QT syndrome. Circulation 104, 2722–2727.
+
+60
+
+S. Suzuki et al. / Progress in Biophysics and Molecular Biology 98 (2008) 52–60
+
+Viswanathan, P.C., Rudy, Y., 1999. Pause induced early afterdepolarizations
+in the long QT syndrome: a simulation study. Cardiovasc. Res. 42, 530–
+542.
+
+Viswanathan, P.C., Shaw, R.M., Rudy, Y., 1999. Effects of IKr and IKs heterogeneity on
+action potential duration and its rate dependence: a simulation study. Circu-
+lation 99, 2466–2474.
+
+Wang, S., Liu, S., Morales, M.J., Strauss, H.C., Rasmusson, R.L., 1997. A quantitative
+analysis of the activation and inactivation kinetics of HERG expressed in Xen-
+opus oocytes. J. Physiol. 502, 45–60.
+
+Warner, B., Hoffmann, P., 2002. Investigation of the potential of clozapine to cause
+
+torsade de pointes. Adverse Drug React. Toxicol. Rev. 21, 189–203.
+
+Yan, G.X., Antzelevitch, C., 1998. Cellular basis for the normal T wave and the
+electrocardiographic manifestations of the long-QT syndrome. Circulation 98,
+1928–1936.
+Zeng, J., Kenneth, R., Laurita, K.R., Rosenbaum, D.S., Rudy, Y., 1995. Two components
+of the delayed rectiﬁer Kþ current in ventricular myocytes of the guinea-pig
+type. Theoretical formulation and their role in repolarization. Circ. Res. 77,
+140–152.
+
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7243">
+<itemtype>xnppaper</itemtype>
+<titles><title>Cell type-specific long-term plasticity at glutamatergic synapses onto hippocampal interneurons expressing either parvalbumin or CB1 cannabinoid receptor.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium Signaling</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Cell Polarity</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Cell Shape</keyword>
+<keyword>physiology</keyword>
+<keyword>Dendrites</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Glutamic Acid</keyword>
+<keyword>metabolism</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Immunohistochemistry</keyword>
+<keyword>Interneurons</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Synaptic Depression</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Organ Culture Techniques</keyword>
+<keyword>Parvalbumins</keyword>
+<keyword>metabolism</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>Presynaptic Terminals</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Receptor</keyword>
+<keyword>Cannabinoid</keyword>
+<keyword>CB1</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Receptors</keyword>
+<keyword>AMPA</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>metabolism</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:27:49Z</last_update_date>
+<creation_date>2013-02-28T01:27:49Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7243</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7243" version="1.02">
+<authors><author>Nissen W</author><author>Szabo A</author><author>Somogyi J</author><author>Somogyi P</author><author>Lamsa KP</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>30</volume>
+<number>4</number>
+<page>1337-47</page>
+<abstract>Different GABAergic interneuron types have specific roles in hippocampal function, and anatomical as well as physiological features vary greatly between interneuron classes. Long-term plasticity of interneurons has mostly been studied in unidentified GABAergic cells and is known to be very heterogeneous. Here we tested whether cell type-specific plasticity properties in distinct GABAergic interneuron types might underlie this heterogeneity. We show that long-term potentiation (LTP) and depression (LTD), two common forms of synaptic plasticity, are expressed in a highly cell type-specific manner at glutamatergic synapses onto hippocampal GABAergic neurons. Both LTP and LTD are generated in interneurons expressing parvalbumin (PV+), whereas interneurons with similar axon distributions but expressing cannabinoid receptor-1 show no lasting plasticity in response to the same protocol. In addition, LTP or LTD occurs in PV+ interneurons with different efferent target domains. Perisomatic-targeting PV+ basket and axo-axonic interneurons express LTP, whereas glutamatergic synapses onto PV+ bistratified cells display LTD. Both LTP and LTD are pathway specific, independent of NMDA receptors, and occur at synapses with calcium-permeable (CP) AMPA receptors. Plasticity in interneurons with CP-AMPA receptors strongly modulates disynaptic GABAergic transmission onto CA1 pyramidal cells. We propose that long-term plasticity adjusts the synaptic strength between pyramidal cells and interneurons in a cell type-specific manner and, in the defined CA1 interneurons, shifts the spatial pattern of inhibitory weight from pyramidal cell dendrites to the perisomatic region.</abstract>
+<pubmed_id>20107060</pubmed_id>
+</detail>
+</item>

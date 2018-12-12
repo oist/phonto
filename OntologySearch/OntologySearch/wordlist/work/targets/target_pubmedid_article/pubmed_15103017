@@ -1,0 +1,568 @@
+A role for fast rhythmic bursting neurons in cortical
+gamma oscillations invitro
+
+Mark O. Cunningham*, Miles A. Whittington*†, Andrea Bibbig‡, Anita Roopun*, Fiona E. N. LeBeau*, Angelika Vogt§,
+Hannah Monyer§, Eberhard H. Buhl*¶, and Roger D. Traub‡储
+
+*School of Biomedical Sciences, The Worsley Building, University of Leeds, Leeds LS2 9JT, United Kingdom; ‡Department of Physiology and Pharmacology,
+State University of New York Downstate Medical Center, 450 Clarkson Avenue, Box 31, Brooklyn, NY 11203; and §Department of Clinical Neurobiology,
+University Hospital of Neurology, Im Neuenheimer Feld 364, 69120 Heidelberg, Germany
+
+Communicated by Nancy J. Kopell, Boston University, Boston, MA, March 24, 2004 (received for review January 19, 2004)
+
+Basic cellular and network mechanisms underlying gamma fre-
+quency oscillations (30 – 80 Hz) have been well characterized in the
+hippocampus and associated structures. In these regions, gamma
+rhythms are seen as an emergent property of networks of principal
+cells and fast-spiking interneurons. In contrast, in the neocortex a
+number of elegant studies have shown that speciﬁc types of
+principal neuron exist that are capable of generating powerful
+gamma frequency outputs on the basis of their intrinsic conduc-
+tances alone. These fast rhythmic bursting (FRB) neurons (some-
+times referred to as ‘‘chattering’’ cells) are activated by sensory
+stimuli and generate multiple action potentials per gamma period.
+Here, we demonstrate that FRB neurons may function by providing
+a large-scale input to an axon plexus consisting of gap-junctionally
+connected axons from both FRB neurons and their anatomically
+similar counterparts regular spiking neurons. The resulting net-
+work gamma oscillation shares all of the properties of gamma
+oscillations generated in the hippocampus but with the additional
+critical dependence on multiple spiking in FRB cells.
+
+Gamma frequency oscillations are readily recordable from
+
+scalp and depth electroencephalogram electrodes placed
+over or in the neocortex of humans and laboratory animals. They
+occur spontaneously at low amplitude or transiently at larger
+amplitudes in response to sensory stimuli (1, 2). Their role in
+processing of sensory information has been proposed to involve
+the establishment of a temporal framework within which long-
+range synchronization of individual neuronal elements coding
+for specific sensory events can occur (3). Qualitatively similar
+oscillations also occur in the hippocampus (4) and entorhinal
+cortex (5), where their generation can be ascribed to the phasic
+or tonic (or a combination of both) excitation of fast spiking (FS)
+interneurons, the outputs of which, in turn, provide a temporal
+framework for controlling the outputs of principal cells (6, 7).
+Although much is known of the mechanisms underlying
+gamma oscillations in the archicortex and entorhinal cortex,
+relatively little evidence is available to suggest a mechanism (or
+mechanisms) involved in generating neocortical gamma oscilla-
+tions. What is known is that specific neurons exist within the
+neocortical mantle that are capable of generating outputs within
+the gamma frequency range on the basis of intrinsic properties
+alone (in the absence of influences from local networks). Such
+neurons exhibit fast rhythmic bursting (FRB), with interburst
+frequencies of 20 Hz and upward, in response to depolarizing
+current injection alone (8–10). These FRB neurons (sometimes
+called ‘‘chattering cells’’) have also been shown to participate in
+visually evoked gamma (25–70 Hz) oscillations in vivo (8), with
+the FRB cells morphologically identified as spiny layer II兾III
+pyramidal neurons. Other principal neocortical neurons also
+possess the ability to generate activity within the gamma band on
+the basis of intrinsic properties alone in layer IV (11), and some
+interneurons also demonstrate this ability (9).
+
+A number of similar types of interneuron exist in neo- and
+archicortex, and phenomena associated with gap junctional
+activity within principal cell networks has been shown in neo-
+
+cortex (12, 13). It therefore appears that all of the components
+shown to be important in generating archicortical gamma also
+exist in neocortex alongside the above intrinsic gamma genera-
+tors. Here, we used an experimental in vitro model of cortical
+gamma oscillations and network simulations to investigate how
+FRB neurons could contribute mechanistically to gamma oscil-
+lations. Specifically, we investigated whether these neurons were
+necessary for neocortical gamma oscillations and how they would
+interact with phylogenetically older network mechanisms of
+gamma rhythmogenesis.
+
+Methods
+Slice Methods. Horizontal 450-␮m-thick slices were prepared
+from adult male Wistar rats (150–250 g). Neocortical slices
+containing primary and secondary auditory areas and secondary
+parietal areas were maintained at 34°C at the interface between
+warm wetted 95% O2兾5% CO2 and artificial cerebrospinal fluid
+containing (in mM): 3 KCl, 1.25 NaH2PO4, 1 MgSO4, 1.2 CaCl2,
+24 NaHCO3, 10 glucose, and 126 NaCl. Extracellular recordings
+from primary auditory cortex were obtained by using glass
+micropipettes containing the above artificial cerebrospinal fluid
+(resistance ⬍0.5 M⍀). Intracellular recordings were taken with
+sharp microelectrodes filled with potassium acetate (resistance
+30–90 M⍀). Signals were analogue filtered at 2 kHz and digitized
+at 10 kHz. All neuronal recordings illustrated were taken from
+layer III (including layer II兾III and layer III兾IV borders).
+
+Simulation Methods. The network model contains 1,152 pyramidal
+cells, 192 FS (fast-spiking) interneurons, and 96 LTS (low-
+threshold spiking) interneurons. The proportions of pyramidal
+cells which were RS (regular spiking), or FRB were varied
+between simulations. RS and FS cells did not have any intrinsic
+capability of generating gamma frequency outputs. There are
+chemical synaptic interactions mediated by ␣-amino-3-hydroxy-
+5-methyl-4-isoxazolepropionic acid (AMPA)兾kainate receptors
+and ␥-aminobutyric acid type A (GABAA) receptors, as well as
+electrical coupling between the axons of some of the pyramidal
+cells and the dendrites of some of the interneurons. Half of the
+FS interneurons are basket cells, synaptically contacting the
+soma and proximal dendrites of pyramidal cells; the other half
+of the FS interneurons are axoaxonic (chandelier) cells, con-
+tacting the most proximal axon of pyramidal cells, and not
+synaptically contacting any interneurons. Connections, both
+synaptic and electrical, were formed randomly, so far as the
+identity of cells was concerned; that is, the spatial location of cell
+
+Abbreviations: FRB, fast rhythmic bursting; FS, fast spiking; LTS, low-threshold spiking; RS,
+regular spiking; AMPA, ␣-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid; GABAA,
+␥-aminobutyric acid type A; EPSP, excitatory postsynaptic potential.
+†To whom correspondence should be addressed for questions on electrophysiology. E-mail:
+m.a.whittington@leeds.ac.uk
+¶Deceased January 18, 2003.
+储To whom correspondence should be addressed. E-mail: roger.traub@downstate.edu.
+© 2004 by The National Academy of Sciences of the USA
+
+7152–7157 兩 PNAS 兩 May 4, 2004 兩 vol. 101 兩 no. 18
+
+www.pnas.org兾cgi兾doi兾10.1073兾pnas.0402060101
+
+bodies was not considered. On the other hand, there were
+constraints as to where on each neuron particular sorts of
+connections were allowed to form. Further simulation details
+can be found in Supporting Text, further information on prop-
+erties of pyramidial cells can be found in Fig. 5, characteristics
+of interneurons can be found in Fig. 6 and Table 1, which are
+published as supporting information on the PNAS web site.
+
+InSituHybridization Methods. Adult female rats were anesthetized
+and perfused with 4% paraformaldehyde in phosphate buffer
+(pH 7.4). Brains were removed and postfixed overnight at 4°C
+before 50-␮m-thick sections were cut. In situ hybridization was
+performed by using sense (control) and antisense RNAs for Px2.
+DNA templates for px2 spanned the entire ORF (14) and were
+cloned into pBluescript SK⫺. For riboprobe synthesis, the
+recombinant plasmids were linearized and in vitro transcription
+was performed with T3(sense) and T7(antisense) polymerase.
+Riboprobes were purified by using miniquick-spin RNA columns
+(Roche Diagnostics, Mannheim, Germany) and stored at ⫺70°C.
+In situ hybridization was performed as described in ref 15.
+
+Results
+We produced persistent field potential gamma oscillations in rat
+auditory cortex slices, in an interface slice preparation, by adding
+400 nM kainate to the bathing medium (Fig. 1A). Power spectra,
+obtained through different layers in the cortex, indicated that the
+maximum gamma power occurred approximately in layer III.
+The oscillations persisted for hours, as has been reported for
+other in vitro preparations, including carbachol兾kainate oscilla-
+tions in cortex (16), carbachol oscillations in hippocampus (17),
+and kainate oscillations in hippocampus (18, 19). For persistent
+hippocampal oscillations, driven by kainate application, the
+rhythm appears to be generated as a consequence of a large
+increase in ectopic spike generation within an axon plexus. These
+spikes drive large compound, phasic, AMPA receptor-mediated
+excitatory postsynaptic potentials (EPSPs) to FS interneurons
+which, in turn, feed back onto principal cells to modulate axonal
+activity (19).
+To analyze in vitro cortical gamma oscillations, we constructed
+a network simulation model of layers II兾III, by using four types
+of multicompartment neurons: RS and FRB pyramidal cells
+(modeled as in ref. 20, with 1,152 pyramidal neurons in all,
+having a variable proportion of FRB cells); 192 FS interneurons,
+divided between basket cells and axoaxonic cells; and 96 LTS
+interneurons, which contacted dendrites of other cells. FRB cells
+were distinguished from RS cells by being more depolarized,
+having greater persistent gNa density, and fewer BK channels
+(20). The cells were interconnected synaptically, through AMPA
+and GABAA receptors, and by means of electrical coupling.
+Electrical coupling occurred between the axons of principal cells,
+as in our models of hippocampal persistent gamma (21); between
+the dendrites of FS cells; and between the dendrites of LTS cells
+(22–25). Further structural details are in Supporting Text. The
+network generated gamma oscillations in the presence of a low
+frequency (1 Hz per axon) of ectopic spikes in pyramidal cell
+axons (26). In control simulations, 5% of pyramidal cells were
+FRB. In ‘‘wiring’’ the model, both for synaptic and also electrical
+connections, no distinction was made in the simulation program
+between RS and FRB cells.
+
+The network model and cortical slice oscillations shared a
+qualitatively similar ‘‘pharmacology.’’ In the model, blocking
+electrical coupling, or AMPA receptors, or GABAA receptors,
+all reduced peak gamma power 500-fold, while prolonging
+GABAA decay time constant 2-fold reduced the peak frequency
+from 34.8 to 26.9 Hz. Experimentally, the gap-junction blocker
+carbenoxolone (0.1 mM) reduced gamma power (from layer III)
+2.4-fold (control 6.4 ⫾ 2.7 nV2 Hz, carbenoxolone 2.6 ⫾ 1.3 nV2
+Hz, n ⫽ 5); the specific AMPA receptor blocker SYM2206 (10
+
+E
+C
+N
+E
+I
+C
+S
+O
+R
+U
+E
+N
+
+Fig. 1. Kainate-induced gamma oscillations in rat auditory cortex in vitro. (A)
+Mean power spectra (60-s epochs, n ⫽ 10 slices) of persistent ﬁeld oscillatory
+activity generated by bath application of 400 nM kainate. The maximum ﬁeld
+gamma power was found in layer III (mean frequency 33 ⫾ 4 Hz). Scwm, subcor-
+tical white matter. Sample ﬁeld potentials from layers I, III, and V are shown on
+the left (scale bars: 50 ␮V, 200 ms). (B) Firing patterns of the different neuronal cell
+types are similar in the network model and in vitro experiments. Data show 1-s
+epochs of activity. In each case, FS interneurons ﬁre on the majority of the waves.
+LTS interneurons ﬁre on a minority of the waves, with subthreshold synaptic
+potentials clearly visible. FRB cells ﬁre on approximately half the waves, usually in
+spike multiplets, and with synaptic potentials visible between spikes (Note that
+FRB spike patterns were not stereotyped, consisting of one to four spikes per
+active phase; e.g., see also Fig. 3). RS pyramidal cells ﬁre sparsely, again with
+clearly visible synaptic potentials. Scale bars: 25 mV, 200 ms.
+
+Cunningham et al.
+
+PNAS 兩 May 4, 2004 兩 vol. 101 兩 no. 18 兩 7153
+
+␮M) reduced it 6.2-fold (control 7.0 ⫾ 3.1 nV2 Hz, SYM2206
+1.1 ⫾ 0.3 nV2 Hz, n ⫽ 5); bicuculline (10 ␮M) reduced it 6.0-fold
+(control 1.2 ⫾ 0.3 nV2 Hz, bicuculline 0.2 ⫾ 0.2 nV2 Hz, n ⫽ 5);
+and pentobarbital (20 ␮M) reduced the peak frequency from
+33 ⫾ 4 Hz to 20 ⫾ 2 Hz (n ⫽ 6); all with P ⬍ 0.05.
+
+Firing patterns of the various cell types, presumably recorded
+in the soma, were also strikingly similar, comparing model with
+experiment (Fig. 1B). FS cells fired on the highest proportion of
+
+field gamma periods (28.5 Hz average firing rate in two model
+FS cells, overall model oscillation frequency 34.8 Hz), whereas
+LTS firing was sparser (15.5 Hz average firing rate in two model
+LTS cells). FRB cells either skipped periods, or fired a spike
+singlet, doublet, or triplet; in the model, two FRB cells fired a
+spike or a doublet at 17 Hz, i.e., on 50% of the waves. RS cells
+fired sparsely (8.8 Hz average rate in 12 model cells), but with
+clear subthreshold gamma oscillation consisting of synaptic
+
+Fig. 2. RS cells ﬁre sporadically but exhibit evidence of axonal activity, whereas FRB cells are predicted to help generate the gamma oscillation. (A) In both model
+and experiment, RS cells would on occasion exhibit spikelets at resting membrane potential during the oscillation (asterisks), having the appearance of miniature
+action potentials, and corresponding in the model to decrementally conducted antidromic spikes. Depolarization of RS cells to more than ⫺50 mV abolished full
+somatic spikes but left spikelets intact (lower trace). (Inset) Shown are superimposed averages (n ⫽ 10) of RS cell spikelets and EPSPs to demonstrate differences
+in kinetics. Spikelets were not observed in FRB cells in either this model or experiment. Scale bars: 10 mV (model), 5 mV (experiment), and 100 ms (Inset 40 ms).
+(B) In contrast, the model predicts that FRB cells contribute to pacing the gamma rhythm. Gamma power rises as the percentage of FRB cells increases, with a
+threshold at ⬇4% and leveling off of the power between ⬇8% and 15% FRB cells. In these simulations, oscillation frequency ranged from 30.0 to 37.0 Hz, and
+was not correlated with the percent of FRB cells (r2 ⫽ 0.24). (C) Evidence for a substrate for the sensitivity of the oscillation to gap-junction blockers has as yet
+to be found. However, mRNA for the gap-junction forming pannexin Px2 are present on neurons in auditory cortex. Shown are mRNA expression for Px2 by using
+nonradioactive in situ hybridization at low magniﬁcation (Upper: scale bar, 0.2 mm) and high magniﬁcation in LII-VI (Lower: scale bar, 10 ␮m).
+
+7154 兩 www.pnas.org兾cgi兾doi兾10.1073兾pnas.0402060101
+
+Cunningham et al.
+
+E
+C
+N
+E
+I
+C
+S
+O
+R
+U
+E
+N
+
+Fig. 3.
+Phenytoin blocks kainate-induced gamma oscillations in auditory cortex, but not in hippocampus, in vitro. (A) Field potential recordings (1-s epoch) of
+persistent gamma oscillations in the hippocampal CA3 stratum radiatum subﬁeld (Left) and auditory cortical layer III (Right) are shown before (con) and after
+(phenytoin) bath application of 50 ␮M phenytoin. Scale bars: 0.5 mV (hippocampus), 0.1 mV (neocortex), 200 ms. Pooled mean power spectra (60-s epochs) show
+lack of signiﬁcant effect of phenytoin on hippocampal persistent gamma (n ⫽ 5, P ⬎ 0.05), but abolition of neocortical gamma (n ⫽ 6). (B) Effects of phenytoin
+on FRB spike generation during kainate-induced gamma oscillations in neocortex. Upper shows 0.5-s epoch of FRB behavior in control conditions (ﬁeld gamma
+present), and Lower shows single spiking in the same neuron after bath application of phenytoin (50 ␮M), at a time when ﬁeld gamma was completely suppressed.
+Phenytoin (a blocker of persistent gNa) suppressed FRB, and, because FRB cells are present in cortex but not in hippocampus, this ﬁnding suggests that FRB cells
+contribute to persistent gamma oscillations in cortex. [Note that phenytoin reduces persistent Na⫹ conductance both in cortex (31) and in hippocampus (33).]
+
+Cunningham et al.
+
+PNAS 兩 May 4, 2004 兩 vol. 101 兩 no. 18 兩 7155
+
+potentials (mostly inhibitory postsynaptic potentials, in both
+model and experiment, e.g., Fig. 2). Experimental values for
+mean number of spikes per wave were FS cells: 0.82 ⫾ 0.11 (n ⫽
+5); LTS cells: 0.13 ⫾ 0.05 (n ⫽ 6); FRB cells: 1.84 ⫾ 0.26 (n ⫽
+4); and RS cells: 0.09 ⫾ 0.02 (n ⫽ 10). Both in model and
+experiment, we found spikelets in some of the RS cells (Fig. 2 A),
+but never in FRB cells experimentally. However, simulations
+showed that occasional spikelets could occur in FRB cells with
+lower tonic drive and altered network connectivity (data not
+shown). In the model, RS spikelets occurred on average at 2.2 Hz
+(12 cells) and corresponded to axonal spikes that conducted
+antidromically with decrement (ref. 27 and Fig. 2 A), whereas
+axonal spikes in FRB cells mainly led to full spikes or multiplets,
+presumably because of the relative depolarization and altered
+intrinsic currents in FRB cells. Spikelets in RS cells were clearly
+distinct from EPSPs. First, their rise and decay times were some
+10-fold faster than excitatory postsynaptic events (Fig. 2 A).
+Second, depolarization of RS neurons led to an increase in
+spikelet amplitude, whereas EPSPs could no longer be seen
+above the inhibitory postsynaptic potential train. No evidence
+exists yet as to the substrate for spikelet formation. The model
+predicts that sharing of antidromic spikes by means of gap
+junctions in an axonal plexus may be responsible. Neuronal gap
+junctions in neocortex may be made up of connexin proteins
+(mainly connexin 36; ref. 18) or pannexins (14). Neurons in the
+superficial and deep layers of the primary auditory cortex
+contained large quantities of mRNA for pannexin 1 (data not
+shown) and pannexin 2 (Fig. 2C). Heteromeric hemichannels
+made up of pannexins 1 and 2 form functional ionophores when
+expressed in oocytes (14).
+
+Given the multiple similarities between model and experi-
+ment, we used the model to try to predict how the presence of
+FRB neurons would affect gamma power (Fig. 2B). We found
+that a critical minimum of FRB cells needed to be present, ⬇4%
+or 5% of the neuronal population with our parameter choices, to
+obtain a coherent gamma oscillation. This value was not statis-
+tically significant from the incidence of FRB cells derived from
+experimental data (four cells from 200 impalements, P ⬎ 0.05).
+We examined FRB percentages up to 15%, which is approxi-
+mately the percentage of FRB neurons found in cat visual cortex
+in vivo (28), although even higher percentages have been re-
+ported under natural waking conditions (29). Peak gamma
+power leveled off, in our simulations, above ⬇8% FRB cells. The
+threshold fraction of FRB cells required for coherent gamma is
+parameter-dependent: if the tonic depolarization of RS cells is
+elevated enough, then a gamma oscillation occurs with ⬍ 1%
+FRB neurons, although with a higher fraction of RS spikes per
+oscillation wave (data not shown).
+
+If FRB cells are necessary for cortical gamma in vitro, one
+would predict that phenytoin, an anticonvulsant drug that blocks
+persistent sodium conductance, should suppress the oscillation.
+Because phenytoin suppresses FRB behavior (30, 31), and
+because FRB cells do not occur in hippocampus, this finding
+would suggest that FRB activity may be necessary for cortical
+gamma, but not for hippocampal gamma. This selective effect on
+gamma frequency oscillations was seen experimentally (Fig. 3A).
+Peak neocortical gamma power was reduced from 0.084 ⫾ 0.013
+nV2 to 0.007 ⫾ 0.002 nV2 (P ⬍ 0.05, n ⫽ 6). Fig. 3B demonstrates
+that phenytoin indeed converts neocortical FRB behavior to RS,
+during bath application of kainate. As a control for effects on
+network components other than FRB neuronal spiking, we
+examined the effects of phenytoin on kainate-induced hip-
+pocampal persistent gamma oscillations, wherein FRB neurons
+have not been observed. Phenytoin did not suppress persistent
+gamma oscillations in hippocampus in vitro: mean gamma power
+went from 0.59 ⫾ 0.12 nV2 to 0.82 ⫾ 0.34 nV2 (n ⫽ 5, P ⬎ 0.05).
+
+Discussion
+The experimental observations demonstrated a profile of
+gamma frequency oscillations qualitatively similar to that seen in
+archicortex. The rhythm generated by kainate application con-
+sisted of trains of inhibitory postsynaptic potentials in principal
+cells and, with smaller amplitude, in interneurons. The rhythm
+depended on gap-junctional transmission, and ectopic spikes
+were seen in most RS neurons. Such ectopic spikes, along with
+electrical coupling between pyramidal neurons, lead to barrages
+of EPSPs in interneurons that are necessary for the oscillation in
+the hippocampus (19). This pattern of phasic excitation driving
+inhibition appears also to occur in the neocortex as blockade of
+phasic AMPA receptor-mediated excitation, and GABAA re-
+ceptor-mediated synaptic inhibition also destroy the oscillation.
+The frequency of the field oscillation also depended on the
+kinetics of GABAA receptor-mediated synaptic events as was
+also seen for hippocampal gamma oscillations (4, 17). However,
+one striking difference between neocortical gamma oscillations
+and hippocampal gamma oscillations was the sensitivity to
+blockade of persistent sodium channels. The observation that
+FRB behavior could be concomitantly reduced with field gamma
+power in neocortex but not archicortex strongly suggested that
+FRB cells play a critical role in generating neocortical gamma.
+Blockade of FRB behavior still allowed FRB cells to generate
+rhythmic action potential outputs but, in the presence of phe-
+
+Fig. 4.
+FRB cells are predicted to generate ﬁeld gamma oscillations through
+their electrical coupling with RS axons. Power spectra are shown for three
+simulations, each in a network with 6.5% FRB cells, and with blockade of
+recurrent synaptic excitation between pyramidal neurons (both RS and FRB).
+In the control run (i.e., no other manipulations), there is a large gamma peak,
+indicating that recurrent synaptic excitation between pyramidal cells is not
+required for the simulated oscillation. If, in addition, FRB neurons do not
+synaptically excite interneurons, there is still a large gamma peak. Hence, FRB
+cells can pace gamma activity without having any (chemical) synaptic output.
+In contrast, if FRB axons are not allowed to couple electrically with RS axons
+(but are allowed to couple with each other and directly synaptically excite
+interneurons), then the gamma oscillation is virtually abolished. Thus, in our
+model, the contribution of FRB cells to maintaining gamma is mediated by
+means of electrical coupling.
+
+7156 兩 www.pnas.org兾cgi兾doi兾10.1073兾pnas.0402060101
+
+Cunningham et al.
+
+nytoin, only action potential singlets were seen, as opposed to
+(predominantly) multiplets in control conditions. Lowering the
+proportion of FRB cells in the model was also accompanied by
+a collapse in gamma power (Fig. 2B). These observations suggest
+that it is the large, high-frequency, barrage of output from FRB
+cells on many underlying gamma periods that is critical for their
+role in neocortical rhythmogenesis.
+
+By what mechanism is this large FRB neuron output favoring
+gamma oscillations? The model, and observed experimental
+effects of the gap-junction blocker carbenoxolone, provided
+several suggestive insights. First, synaptic excitation of pyra-
+midal cells (either RS or FRB) by the FRB cells (9) was not
+sufficient for the permissive effect of the FRB neurons in the
+model (control power spectrum in Fig. 4). Indeed, synaptic
+excitation of interneurons by FRB neurons (9) was also not
+sufficient (Fig. 4). The only other possible interaction in the
+model between FRB cells and other neurons is mediated by
+means of electrical coupling. Neurons in the auditory cortex
+strongly express mRNA for the px2 gap-junction-forming
+protein (Fig. 2C) that can form channels in conjunction with
+px1 (14), which is also present (data not shown), but as yet, a
+substrate for axonal gap junctions in this region remains
+elusive. However, we reconfigured the network so that no
+electrical couplings occurred between FRB兾RS axonal pairs,
+while maintaining the total number of pyramidal cell electrical
+
+couplings constant. In this case, even with 6.5% of pyramidal
+cells being FRB cells, and with synaptic connections between
+FRB cells and interneurons intact, the gamma oscillation
+collapsed (Fig. 4). Hence, in the model, FRB neurons exerted
+a permissive effect on gamma oscillations because their axons
+were electrically coupled not only with each other, but also
+with RS axons (and vice versa).
+In conclusion, our combined experimental兾simulation study
+demonstrated that field gamma oscillations depended on expres-
+sion of FRB in a small subset of cortical neurons. The reduction
+in gamma power by the gap-junction blocking agent carbenox-
+olone suggested that the axons of layer II兾III are electrically
+coupled, as appears to be the case for pyramidal neurons in
+hippocampus (27, 32). Finally, although not a comprehensive
+computational model of neocortical networks as yet, the model
+predicted accurately the physiological and pharmacological ex-
+perimental data presented, and suggested that RS neurons and
+FRB neurons are electrically interconnected, and that such
+interconnections are critical for persistent neocortical gamma
+oscillations.
+
+We thank Robert Walkup of the IBM T.J. Watson Research Center
+(Yorktown Heights, NY) for assistance with parallel computing. This
+work was supported by National Institute of Neurological Disorders and
+Stroke兾National Institutes of Health, Volkswagen Stiftung, Medical
+Research Council (United Kingdom), and the Wellcome Trust.
+
+1. Tallon-Baudry, C. & Bertrand, O. (1999) Trends Cogn. Sci. 4, 151–162.
+2. Engel, A. K., Ko¨nig, P., Gray, C. M. & Singer, W. (1990) Eur. J. Neurosci. 7,
+
+588–606.
+
+3. Engel, A. K. & Singer, W. (2001) Trends Cogn. Sci. 1, 16–25.
+4. Whittington, M. A., Traub, R. D. & Jefferys, J. G. (1995) Nature 373, 612–615.
+5. Cunningham, M. O., Davies, C. H., Buhl, E. H., Kopell, N. & Whittington,
+
+M. A. (2003) J. Neurosci. 23, 9761–9769.
+
+6. Whittington, M. A., Traub, R. D., Kopell, N., Ermentrout, B. & Buhl, E. H.
+
+(2000) Int. J. Psychophysiol. 38, 315–336.
+7. Varela, F. J. (1995) Biol. Res. 28, 81–95.
+8. Gray, C. M. & McCormick, D. A. (1996) Science 274, 109–113.
+9. Steriade, M., Timofeev, I., Du¨rmu¨ller, N. & Grenier, F. (1998) J. Neurophysiol.
+
+79, 483–490.
+
+897–901.
+
+10. Steriade, M. (2001) The Intact and Sliced Brain (MIT Press, Cambridge, MA).
+11. Llina´s, R. R., Grace, A. A. & Yarom, Y. (1991) Proc. Natl. Acad. Sci. USA 88,
+
+12. Tama´s, G., Buhl, E. H. & Somogyi, P. (1997) J. Physiol. (London) 500, 715–738.
+13. Grenier, F., Timofeev, I. & Steriade, M. (2003) J. Neurophysiol. 89, 841–852.
+14. Bruzzone, R., Hormuzdi, S. G., Barbe, M., Herb, A. & Monyer, H. (2003) Proc.
+
+Natl. Acad. Sci. USA 100, 13644–13649.
+
+15. Catania, M. A., Tolle, T. R. & Monyer, H. (1995) J. Neurosci. 15, 7046–7061.
+16. Buhl, E. H., Tama´s, G. & Fisahn, A. (1998) J. Physiol. (London) 513, 117–126.
+17. Fisahn, A., Pike, F. G., Buhl, E. H. & Paulsen, O. (1998) Nature 394, 186–189.
+18. Hormuzdi, S. G., Pais, I., LeBeau, F. E., Towers, S. K., Rozov, A., Buhl, E. H.,
+
+Whittington, M. A. & Monyer, H. (2001) Neuron 31, 487–495.
+
+19. Traub, R. D., Cunningham, M. O., Gloveli, T., LeBeau, F. E. N., Bibbig, A.,
+Buhl, E. H. & Whittington, M. A. (2003) Proc. Natl. Acad. Sci. USA 100,
+11047–11052.
+
+20. Traub, R. D., Buhl, E. H., Gloveli, T. & Whittington, M. A. (2003) J. Neuro-
+
+physiol. 89, 909–921.
+
+21. Traub, R. D., Pais, I., Bibbig, A., LeBeau, F. E. N., Buhl, E. H., Hormuzdi, S. G.,
+Monyer, H. & Whittington, M. A. (2003) Proc. Natl. Acad. Sci. USA 100,
+1370–1374.
+
+22. Galarreta, M. & Hestrin, S. (1999) Nature 402, 72–75.
+23. Gibson, J. R., Beierlein, M. & Connors, B. W. (1999) Nature 402, 75–79.
+24. Venance, L., Rozov, A., Blatow, M., Burnashev, N., Feldmeyer, D. & Monyer,
+
+H. (2000) Proc. Natl. Acad. Sci. USA 97, 10260–10265.
+
+25. Tama´s, G., Buhl, E. H., Lo¨rincz, A. & Somogyi, P. (2000) Nat. Neurosci. 3,
+
+366–371.
+
+26. Traub, R. D., Bibbig, A., Fisahn, A., LeBeau, F. E. N., Whittington, M. A. &
+
+Buhl, E. H. (2000) Eur. J. Neurosci. 12, 4093–4106.
+
+27. Schmitz, D., Schuchmann, S., Fisahn, A., Draguhn, A., Buhl, E. H., Petrasch-
+Parwez, R. E., Dermietzel, R., Heinemann, U. & Traub, R. D. (2001) Neuron
+31, 831–840.
+
+28. Nowak, L. G., Azouz, R., Sanchez-Vives, M. V., Gray, C. M. & McCormick,
+
+D. A. (2003) J. Neurophysiol. 89, 1541–1566.
+
+29. Steriade, M., Timofeev, I. & Grenier, F. (2001) J. Neurophysiol. 85,
+
+1969–1985.
+
+30. Lampl, I., Schwindt, P. & Crill, W. (1998) J. Pharmacol. Exp. Ther. 284,
+
+228–237.
+
+31. Brumberg, J. C., Nowak, L. G. & McCormick, D. A. (2000) J. Neurosci. 20,
+
+4829–4843.
+
+32. Draguhn, A., Traub, R. D., Schmitz, D. & Jefferys, J. G. R. (1998) Nature 394,
+
+189–192.
+
+33. Segal, M. M. & Douglas, A. F. (1997) J. Neurophysiol. 77, 3021–3034.
+
+E
+C
+N
+E
+I
+C
+S
+O
+R
+U
+E
+N
+
+Cunningham et al.
+
+PNAS 兩 May 4, 2004 兩 vol. 101 兩 no. 18 兩 7157
+
+

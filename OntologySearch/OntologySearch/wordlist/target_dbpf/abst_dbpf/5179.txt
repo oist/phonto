@@ -1,0 +1,46 @@
+Actins
+metabolism
+Animals
+Brain-Derived Neurotrophic Factor
+pharmacology
+Carrier Proteins
+genetics
+metabolism
+Cells
+Cultured
+Cysteine Endopeptidases
+metabolism
+Hippocampus
+cytology
+metabolism
+Long-Term Potentiation
+genetics
+Multienzyme Complexes
+antagonists
+&
+inhibitors
+metabolism
+Neuronal Plasticity
+genetics
+Neurons
+cytology
+metabolism
+Neuropeptides
+genetics
+metabolism
+Proteasome Endopeptidase Complex
+Protein Isoforms
+genetics
+metabolism
+Rats
+Seizures
+genetics
+metabolism
+Synaptic Membranes
+genetics
+metabolism
+Synaptic Transmission
+genetics
+Up-Regulation
+genetics
+In cultured rat hippocampal neurons, overexpression of Homer1a/Vesl-1S, an inducible protein upregulated by seizure or long-term potentiation, caused a reduction of punctate distribution of a postsynaptic protein Homer1c/Vesl-1L, without significant decrease in its total amount. Clusters of F-actin were also decreased. Treatments of cells with BDNF or a proteasome inhibitor, which cause increase in the expression level of endogenous Homer1a, also resulted in the reduction of Homer1c puncta. These results indicate that the accumulation of Homer1a, either exogenously expressed or endogenously induced, caused redistribution and dispersion of postsynaptic clusters of Homer1c and F-actin, suggesting an important role of Homer1a in synaptic remodeling.

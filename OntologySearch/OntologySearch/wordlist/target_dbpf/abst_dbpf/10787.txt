@@ -1,0 +1,20 @@
+Action Potentials
+physiology
+Algorithms
+Animals
+Brain Mapping
+methods
+Electroencephalography
+methods
+Hippocampus
+physiology
+Nerve Net
+physiology
+Principal Component Analysis
+Rats
+Rats
+Wistar
+Time Factors
+EEG data analysis
+Balbir
+In this paper, we propose a method for observing frequency contents of independent hippocampal signals in time. The method is based on calculating independent component analysis (ICA) on electrophysiological multielectrode field potential measurements (MFPMs) in a running window. We have previously proposed a method for observing independently operating neural populations, i.e., functional populations (FUPOs) from MFPMs and outlined the concept, which is elaborated upon and extended in this paper, in order to facilitate analysis of functioning of the target brain area. In this paper, the proposed method is demonstrated with an example with three concurrent hippocampal measurements from an anesthetized rat brain. The proposed method can be applied in analysis of any recordings of neural networks in which contributions from a number of neural populations (NPs) are simultaneously recorded via a number of measurement points (MPs), as well in vivo as in vitro.

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5691">
+<itemtype>xnppaper</itemtype>
+<titles><title>Phorbol ester effects at hippocampal synapses act independently of the gamma isoform of PKC.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>Enzyme Activation</keyword>
+<keyword>physiology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>enzymology</keyword>
+<keyword>Isoenzymes</keyword>
+<keyword>drug effects</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Mice</keyword>
+<keyword>Knockout</keyword>
+<keyword>genetics</keyword>
+<keyword>Phorbol Esters</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Protein Kinase C</keyword>
+<keyword>drug effects</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>enzymology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T03:35:53Z</last_update_date>
+<creation_date>2011-09-22T03:35:53Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5691</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5691" version="1.02">
+<authors><author>Goda Y</author><author>Stevens CF</author><author>Tonegawa S</author></authors>
+<journal>Learning&amp;memory (Cold Spring Harbor, N.Y.)</journal>
+<volume>3</volume>
+<number>2</number>
+<page>182-7</page>
+<abstract>Ca2+/phospholipid-dependent protein kinase has long been thought to play an important role in modulating synaptic efficacy. It has been shown previously that mice lacking the brain-specific gamma subtype of PKC display abnormal long-term potentiation (LTP), whereas ordinary synaptic transmission is unaffected by the mutation. We now examine the effects of phorbol esters, which are nonselective activators of PKC, on synaptic modulation in these mutant mice. In wild-type mice, phorbol esters produce marked enhancement of synaptic transmission that is largely presynaptic in origin, an effect that has been thought to share mechanisms with LTP. In mutant mice, phorbol ester-mediated potentiation is normal despite the absence of the major PKC isoform. As in wild-type mice, this synaptic enhancement is at least partly attributable to presynaptic changes. Our results demonstrate that the gamma isotype of PKC is not essential for phorbol ester-mediated synaptic facilitation, and place limitations on the possible roles of PKC in LTP.</abstract>
+<pubmed_id>10456088</pubmed_id>
+</detail>
+</item>

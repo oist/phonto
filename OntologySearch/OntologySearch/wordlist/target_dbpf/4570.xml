@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4570">
+<itemtype>xnppaper</itemtype>
+<titles><title>Homosynaptic LTD and depotentiation: do they differ in name only?</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-03T01:25:36Z</last_update_date>
+<creation_date>2011-02-03T01:25:36Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4570</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4570" version="1.02">
+<authors><author>Wagner JJ</author><author>Alger BE</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>1</number>
+<page>24-9</page>
+<abstract>Long-term depression (LTD) now occupies a major place in theories of the cellular basis of learning and memory and other nervous system phenomena involving persistent changes in synaptic responsiveness. LTD can be induced using a variety of stimulation paradigms. Homosynaptic LTD in this review refers to a depression of basal responses that is restricted to the pathway that has been stimulated by a low-frequency (1 Hz) stimulus train. Despite the intensive interest in LTD, there has been controversy about the ease with which LTD can be induced and reports range from no success to routine success. There has been much less controversy about a related form of response depression now called &quot;depotentiation&quot; which shares many similarities with LTD. Depotentiation is the response reduction that affects, not the basal responses affected by LTD, but responses that have been increased by the process of long-term potentiation (LTP). LTD and depotentiation can be induced by similar stimulation and have many biochemical properties in common, but it has not been clear whether or not they represent the same phenomenon, in part because it often occurs that the same preparation that does not undergo LTD readily expresses depotentiation. We review work that indicates that the major differences between LTD and depotentiation involve age-dependence, the need for priming stimulation and sensitivity to GABA receptor antagonists. We present a hypothetical model that can reconcile the apparent disparities between LTD and depotentiation.</abstract>
+<pubmed_id>8878738</pubmed_id>
+</detail>
+</item>

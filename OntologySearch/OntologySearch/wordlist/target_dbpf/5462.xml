@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5462">
+<itemtype>xnppaper</itemtype>
+<titles><title>Single unit activity in the rat hippocampus during a spatial memory task.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cues</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-13T02:36:46Z</last_update_date>
+<creation_date>2011-06-13T02:36:46Z</creation_date>
+<publication_year>1987</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5462</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5462" version="1.02">
+<authors><author>O&#039;Keefe J</author><author>Speakman A</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>68</volume>
+<number>1</number>
+<page>1-27</page>
+<abstract>Single unit activity was recorded from complex spike cells in the hippocampus of the rat while the animal was performing a spatial memory task. The task required the animal to choose the correct arm of a 4 arm plus-shaped maze in order to obtain reward. The location of the goal arm was varied from trial to trial and was identified by 6 controlled spatial cues which were distributed around the enclosure and which were rotated in step with the goal. On some trials these spatial cues were present throughout the trial (spatial reference memory trials) while on other trials they were present during the first part of the trial but were removed before the rat was allowed to choose the goal (spatial working memory trials). On these latter trials the animal had to remember the location of the cues and/or goal during the delay in order to choose correctly. 55 units were recorded during sufficient reference memory trials for the relationship between their firing pattern and different spatial aspects of the environment to be determined. 33 units had fields with significant relations to the controlled cues while 16 had significant relations to the static background cues, those cues in the environment which did not change position from trial to trial. Of 43 units which could be tested for their relation to the shape of the maze arms themselves, 15 showed such a relationship. Therefore the place units can be influenced by different aspects of the spatial environment but those related to the task requirement appear to be more potent. Interaction effects between the different spatial factors also influenced the firing pattern of some units. Of particular interest was the interaction between the controlled cues and the static background cues found in some cells since this might shed some light on how the hippocampus enables the rat to solve the memory task. 30 units with place fields related to the controlled cues were recorded during successful performance on spatial working memory trials as well as during spatial reference memory trials. The place fields of 90% of these units were maintained during the retention phase of the memory trials. During the recording of some units, other types of trial were given as well. On control trials, the cues were removed before the rat was placed on the maze. These trials provided controls for the potential influence of information left behind by the controlled cues and for the influence of the animal&#039;s behaviour on the unit activity.(ABSTRACT TRUNCATED AT 400 WORDS)</abstract>
+<pubmed_id>3691688</pubmed_id>
+</detail>
+</item>

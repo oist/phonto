@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="969">
+<itemtype>xnppaper</itemtype>
+<titles><title>Differences between somatic and dendritic inhibition in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-22T03:36:20Z</last_update_date>
+<creation_date>2008-07-22T03:36:20Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=969</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="969" version="1.02">
+<authors><author>Miles R</author><author>Tóth K</author><author>Gulyás AI</author><author>Hájos N</author><author>Freund TF</author></authors>
+<journal>Neuron</journal>
+<volume>16</volume>
+<number>4</number>
+<page>815-23</page>
+<abstract>Hippocampal synaptic inhibition is mediated by distinct groups of inhibitory cells. Some contact pyramidal cells perisomatically, while others terminate exclusively on their dendrites. We examined perisomatic and dendritic inhibition by recording from CA3 inhibitory and pyramidal cells and injecting biocytin to visualize both cells in light and electron microscopy. Single perisomatic inhibitory cells made 2-6 terminals clustered around the soma and proximal pyramidal cell processes. Dendritic cells established 5-17 terminals, usually on different dendrites of a pyramidal cells. Perisomatic terminals were larger than those facing dendritic membrane. Perisomatic inhibitory cells initiated the majority of simultaneous IPSPs seen in nearby pyramidal cells. Single IPSPs initiated by perisomatic sodium-dependent action potentials. Activation of inhibitory fibers terminating on dendrites could suppress calcium-dependent spikes. Thus, distinct inhibitory cells may differentially control dendritic electrogenesis and axonal output of hippocampal pyramidal cells.</abstract>
+<pubmed_id>8607999</pubmed_id>
+</detail>
+</item>

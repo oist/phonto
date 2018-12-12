@@ -1,0 +1,27 @@
+Animals
+Calcium
+metabolism
+Enzyme Inhibitors
+pharmacology
+Hippocampus
+metabolism
+physiology
+Indoles
+pharmacology
+Intracellular Membranes
+metabolism
+Long-Term Potentiation
+drug effects
+Male
+Presynaptic Terminals
+metabolism
+Rats
+Rats
+Sprague-Dawley
+Ryanodine
+pharmacology
+Synapses
+metabolism
+Thapsigargin
+pharmacology
+Studies have suggested that an increase in intracellular [Ca2+] is necessary for the induction of both long-term potentiation (LTP) and long-term depression (LTD) of synaptic transmission, and that release of Ca2+ from intracellular storage pools can be necessary to induce LTP. We investigated whether release of Ca2+ from intracellular stores also is required for the induction of LTD at Schaffer collateral-CA1 synapses in hippocampal slices. Both thapsigargin (1 microM) and cyclopiazonic acid (1 microM), compounds that deplete all intracellular Ca2+ pools by blocking LTP-dependent Ca2+ uptake into intracellular compartments, blocked the induction, but not maintenance, of LTD by low-frequency stimulation (LFS) (1 Hz/15 min) without affecting baseline synaptic transmission. Washout of the reversible inhibitor cyclopiazonic acid restored the ability to induce LTD. In contrast, thapsigargin did not block depotentiation of LTP by 1 Hz LFS, suggesting that LTP causes a reduction in the threshold [Ca2+] necessary for LTD. Selective depletion of the ryanodine receptor-gated Ca2+ pool by bath application of ryanodine (10 microM) also blocked the induction of LTD, indicating a requirement for Ca(2+)-induced Ca2+ release. Impalement of CA1 pyramidal neurons with microelectrodes containing thapsigargin (500 nM to 200 microM) prevented the induction of LTD at synapses on that neuron without blocking LTD in the rest of the slice. In contrast, similar filling of CA1 pyramidal neurons with ryanodine (2 microM to 5 mM) did not block the induction of LTD. From these data, we conclude that the induction of LTD requires release of Ca2+ both from a presynaptic ryanodine-sensitive pool and from postsynaptic (presumably IP3-gated) stores.

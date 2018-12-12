@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4803">
+<itemtype>xnppaper</itemtype>
+<titles><title>Learning and behavioral-long-term potentiation: importance of controlling for motor activity.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Avoidance Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:18:37Z</last_update_date>
+<creation_date>2011-04-28T05:18:37Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4803</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4803" version="1.02">
+<authors><author>Hargreaves EL</author><author>Cain DP</author><author>Vanderwolf CH</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>10</volume>
+<number>5</number>
+<page>1472-8</page>
+<abstract>A series of brief, high-frequency trains of electrical stimulation delivered to the perforant-path results in long-term potentiation (LTP) of the dentate gyrus as measured by average evoked potentials (EPs). Similar increases in dentate evoked potentials have been reported after natural learning. Previous studies of this behavioral LTP have not adequately controlled for ongoing behavior at the time of recording, even though motor activity also influences the amplitude of EPs. Chronically implanted rats were trained in both a radial-arm maze and an avoidance task using a crossover design. EPs in the dentate gyrus following perforant-path stimulation were recorded daily under 3 different behavioral conditions: immobility, movement, and freely behaving. After completion of both tasks, animals were given tetanizing stimulation of the perforant path. Results indicated strong improvements in the performance of both tasks. Tetanization induced significant LTP, which was still present at the end of 5 d. Significant differences were found between EPs collected during immobility and movement throughout the experiment. No evidence of behavioral LTP was observed, and the EPs remained consistent with baseline measures. These data show the necessity of controlling for ongoing behavior at the time of recording in electrophysiological studies of learning. The data also indicate that the phenomenon of behavioral LTP, as assessed by hippocampal EPs, is not universal to all learning experiences.</abstract>
+<pubmed_id>2332791</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="694">
+<itemtype>xnppaper</itemtype>
+<titles><title>Reactivation of behavioral activity during sharp waves: a computational model for two stage hippocampal dynamics.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-04T03:30:48Z</last_update_date>
+<creation_date>2008-07-04T03:30:48Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=694</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="694" version="1.02">
+<authors><author>Molter C</author><author>Sato N</author><author>Yamaguchi Y</author></authors>
+<journal>Hippocampus</journal>
+<volume>17</volume>
+<number>3</number>
+<page>201-9</page>
+<abstract>The rodent hippocampus is known to exhibit two very distinctive patterns of activity: theta with place selective cells firing during exploratory behavior and sharp waves (SPWs) associated with collective discharges in the CA3 during slow wave sleep (SWS), inactivity while awake and consummatory behavior. A great deal of evidence has demonstrated that the cells activated during SPWs events are representative of previous behavioral activity, which suggests an important functional role of off-line learning and consolidation for these SPWs events. Supporting this view, forward, and more recently, reverse replay of linear track behavioral sequences have been reported in rodent&#039;s hippocampal place cells during SPWs. We demonstrate here that these patterns of reactivation can be successfully reproduced by relying on a computational model of the hippocampus with theta phase precession and synaptic plasticity during theta rhythm. Two mechanisms are proposed to initiate SPWs events: random reactivation in the presence of rapid, irregular subthreshold inputs and place selective cell activations. In 2D navigation computational experiments, rather than observing the perfect replay of experienced pathways, new pathways &quot;experienced during immobility&quot; emerge. This suggests a neural mechanism for shortcut navigation.</abstract>
+<pubmed_id>17294461 </pubmed_id>
+</detail>
+</item>

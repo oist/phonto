@@ -1,0 +1,1023 @@
+Journal of Computational Neuroscience 18, 255–263, 2005
+c(cid:1) 2005 Springer Science + Business Media, Inc. Manufactured in The Netherlands.
+
+Coexistence of Tonic Spiking Oscillations in a Leech Neuron Model
+
+Department of Physics and Astronomy, Georgia State University, Atlanta, GA 30303, USA
+
+GENNADY CYMBALYUK
+
+gcym@phy-astr.gsu.edu
+
+ANDREY SHILNIKOV
+
+Department of Mathematics and Statistics, Georgia State University, Atlanta, GA 30303, USA
+
+ashilnikov@gsu.edu
+
+Received January 6, 2005; Revised January 18, 2005; Accepted January 19, 2005
+
+Abstract. The leech neuron model studied here has a remarkable dynamical plasticity. It exhibits a wide range
+of activities including various types of tonic spiking and bursting. In this study we apply methods of the qualitative
+theory of dynamical systems and the bifurcation theory to analyze the dynamics of the leech neuron model with
+emphasis on tonic spiking regimes. We show that the model can demonstrate bi-stability, such that two modes of
+tonic spiking coexist. Under a certain parameter regime, both tonic spiking modes are represented by the periodic
+attractors. As a bifurcation parameter is varied, one of the attractors becomes chaotic through a cascade of period-
+doubling bifurcations, while the other remains periodic. Thus, the system can demonstrate co-existence of a periodic
+tonic spiking with either periodic or chaotic tonic spiking. Pontryagin’s averaging technique is used to locate the
+periodic orbits in the phase space.
+
+Keywords: Pontryagin’s averaging method, chaos, chaotic tonic spiking, bi-stability, bifurcation, transition,
+period-doubling
+
+1.
+
+Introduction
+
+Neurons can be viewed as strongly non-linear dy-
+namical systems capable of generating complex pat-
+terns of activity. A ubiquitously observed pattern is
+tonic spiking. Tonically spiking neurons have been
+related to different functions of the nervous system,
+such as coding of sensory information, information
+processing, memory formation, attention and motor
+control (Gray and Singer, 1989; Bazhenov et al.,
+2000; Hoppensteadt and Izhikevich, 1998; Marder and
+Calabrese, 1996; Marder et al., 1996; Vinogradova,
+2001; Borisyuk and Kazanovich, 2004; Hounsgaard
+and Kiehn, 1989; Schwarz and Thier, 1999; Hopﬁeld
+and Brody, 2001).
+
+Neurons can exhibit multistability of activity like
+bursting and tonic spiking as well as rest states. In
+
+terms of dynamical systems, multi-stability means
+coexistence of several attractors in the phase space
+of a system. The particular attractor (mode) exhib-
+ited by the neuron is determined by initial con-
+ditions. The initial conditions of the model rep-
+resent membrane potential and the states of the
+ion conductances. The multistability of activity
+modes has been observed in modelling studies
+(Bertram, 1993; Canavier et al., 1993; Cymbalyuk
+and Calabrese, 2001) and neurophysiological experi-
+ments (Hounsgaard and Kiehn, 1989; Lechner et al.,
+1996; Turrigiano et al., 1996). It sets a remarkable
+framework for potential dynamical plasticity of neu-
+rons with implications for dynamical memory, in-
+formation processing and motor control (Canavier
+et al., 1993; Turrigiano et al., 1996; Marder et al.,
+1996; Hounsgaard and Kiehn, 1989; Hoppensteadt and
+
+256
+
+Cymbalyuk and Shilnikov
+
+Izhikevich, 1998). In a model, multistability may oc-
+cur within a speciﬁc parameter range. Neuromodula-
+tors can alter drastically the dynamics of the neuron
+and it is plausible to suggest that they play an impor-
+tant role in control of the multistability (Canavier et al.,
+1994).
+
+The coexistence of
+
+tonic spiking modes
+
+in
+neurons has been experimentally demonstrated in
+Lechner et al. (1996). Here we explain how this kind
+of bi-stability can occur in a model of a leech neu-
+ron. We study the model of a leech neuron under spe-
+ciﬁc pharmacological conditions such that all known
+currents, but the transient sodium current and non-
+inactivating potassium current, are blocked. This model
+possesses rich dynamics and shows a variety of dif-
+ferent activities. Our previous studies demonstrated
+that this model could explain long plateau-like oscil-
+lations, observed in leech neurons under these phar-
+macological conditions (Cymbalyuk and Calabrese,
+2001). Under different parametric conditions it can also
+show tonic spiking activity, bursting or silence. Re-
+cently, we have reported and analyzed two novel sce-
+narios of transition between tonic spiking and bursting
+(Shilnikov et al., 2004, 2005a, b). One of these scenar-
+ios (Shilnikov et al., 2005a) describes a smooth and re-
+versible transition between tonic spiking and bursting.
+The other (Shilnikov et al., 2004, 2005b) explains the
+co-existence of bursting and tonic spiking modes which
+are separated by a saddle periodic orbit. This mecha-
+nism is based on a Lukyanov-Shilnikov bifurcation for
+a saddle-node periodic orbit with non-central homo-
+clinic orbits. To locate these periodic orbits and study
+their bifurcations we developed a geometrical frame-
+work for Pontryagin’s averaging method of singularly
+perturbed systems. Here we report the conditions un-
+der which this model demonstrates another kind of
+bi-stability with two coexistent tonic spiking modes.
+The developed averaging technique gives us a clear
+geometrical interpretation of the phenomenon. More-
+over, as a bifurcation parameter is varied we can ob-
+serve the evolution of one of the tonic spiking regimes
+from periodic spiking through a cascade of period-
+doubling bifurcations into the chaotic tonic spiking
+mode.
+
+2. Model
+
+Here we employ our previously developed model of
+a leech neuron under certain pharmacological condi-
+tions (Cymbalyuk and Calabrese, 2001). It is based
+
+on the canonical model of identiﬁed leech oscil-
+lator interneurons that are part of the leech heart-
+beat central pattern generator (Hill et al., 2001).
+It utilizes dynamics of the seven voltage-dependent
+ionic currents quantiﬁed in the voltage-clamp ex-
+periment and incorporated into a system of differ-
+ential equations through Hodgkin-Huxley formalism,
+see (Hill et al., 2001; Opdyke and Calabrese, 1994)
+and references therein. In addition to these currents,
+the model adopts the transient sodium current from
+the original work by Hodgkin and Huxley (1952).
+The canonical model has been shown to replicate
+the activity of the leech oscillator interneurons under
+different pharmacological conditions and treatments
+(Hill et al., 2001; Cymbalyuk and Calabrese, 2001;
+Cymbalyuk et al., 2002). The complete, canonical neu-
+ron model appears to be quite a challenge for a com-
+prehensive analysis. For the reason of simplicity we
+use the pharmacologically reduced model. It represents
+the activity of the single neuron under pharmacological
+conditions such that all Ca currents, hyperpolarization-
+activated current, persistent, non-inactivating sodium
+current and two potassium currents, a delayed rectiﬁer-
+like potassium current and a fast transient potassium
+current, are blocked, while a persistent potassium cur-
+rent (IK2) is partially blocked.
+
+Our simpliﬁed model, based on the dynamics of INa
+and IK2 currents, is described by a system of the fol-
+lowing three differential equations:
+
+¯gK2 m2
+
+C ˙V = −(cid:1)
+K2(V − EK
+(cid:1)−83, 0.018 + V shift
++ ¯gNa f (−150, 0.0305, V )3hNa(V − ENa)),
+˙mK2 = f
+˙hNa = f (500, 0.0333, V ) − hNa
+
+(cid:2) + gl (V − El)
+(cid:2) − mK2
+
+τK2
+
+,
+
+, V
+
+K2
+
+τNa
+
+,
+
+(1)
+
++
+
+where the variables V , mK2, and hNa are the mem-
+brane potential, activation of IK2 and inactivation of
+INa, respectively. The parameters are: C is the mem-
+brane capacitance, ¯gK2 is the maximum conductance
++
+of IK2; EK and ENa are the reversal potentials of K
+, respectively; ¯gNa is the maximal conductance
+and Na
+of INa; gl and El are the conductance and reversal po-
+tential of the leak current, respectively; τK2 and τNa
+are the time constants of activation of IK2 and inac-
+tivation of INa, respectively; V shift
+is the shift of the
+K2
+membrane potential of half-activation of IK2 from its
+
+Coexistence of Tonic Spiking Oscillations in a Leech Neuron Model
+
+257
+
+canonical value. The function f is a Boltzman func-
+f (A, B, V ) = 1/(1 + e A(B+V )). The values of
+tion:
+the parameters used in this study are C = 0.5 nF,
+¯gK2 = 30 nS, EK = −0.07 V, ENa = 0.045 V, ¯gNa =
+200 nS, gl = 8 nS, El = −0.046 V, τK2 = 0.25 sec
+and τNa = 0.0405 sec. We use V shift
+as a bifurcation
+parameter.
+
+K2
+
+3. Finding Periodic Orbits
+
+In the model (1), the activation of IK2 is almost ten
+times slower than V and the inactivation of INa. Hence,
+we may treat it as the slow state variable. The other
+variables,V and hNa, will be treated as the fast state
+variables. Thus, we can view (1) as a singularly per-
+turbed system that is recast in the following appropriate
+form:
+
+˙x = f(x, z)
+
+˙z = µ[g(x, α) − z],
+
+(2)
+where x = (x, y) and z ∈ R1, α is a single control
+parameter, and 0 < µ (cid:2) 1. Since the rate of change
+of the z-variable is much smaller than that of x, the
+equations in (2) are called fast and slow subsystems,
+respectively. In terms of the model (1), x ≡ V , y ≡
+hNa, z ≡ mK2 and α ≡ V shift
+K2 .
+Let the functions, f and g, be smooth enough. Note
+that the way the righthand side of the slow equation
+is written is quite typical for neuron models of the
+Hodgkin-Huxley type. The surfaces, f(x, z) = 0 and
+z = g(x, α), are called the nullclines, fast and slow,
+respectively. By varying α, we can move the slow null-
+cline in the phase space of the system. Let its projec-
+tion onto the (z, x)-plane have a typical logarithmic
+shape like a biophysically realistic one in a Hodgkin-
+Huxley-type model. This slow nullcline will be labelled
+as ˙z = 0 in Fig. 1. It states the fact that the z-component
+of the vector ﬁeld generated by Eqs. (2) equals to zero
+on it. Above the slow nullcline, the z-component of
+the vector ﬁeld is oriented rightward because ˙z > 0,
+and leftward underneath it where ˙z < 0 . In the pro-
+jection onto the (z, x)-space, the fast nullcline (Meq
+in Fig. 1) has a distinct Z-shape with the two knee
+sn. When µ = 0, the slow z-variable
+points at z1
+becomes a parameter in the independent fast subsys-
+tem. By varying z, one can trace the curve of equilibria
+of the fast subsystem. Its knee point corresponds to a
+saddle-node bifurcation where two equilibrium states
+merge and annihilate themselves. The lower branch of
+the fast nullcline, which corresponds to the hyperpolar-
+
+sn and z2
+
+ized state of the neuron, is formed by stable equilibria
+of the fast subsystem. The middle one consists of sad-
+dles, and the upper branch, which corresponds to the
+depolarized state of the neuron, consists of totally un-
+stable equilibria of the fast subsystem.
+
+The upper branch is surrounded by a cylindric sur-
+face Mlc comprised of the stable, M s
+lc, and unstable, M u
+lc
+limit cycles of the fast subsystem, see Fig. 1. The sur-
+face Mlc has an edge at zlc
+sn where both branches merge,
+which corresponds to a saddle-node bifurcation of the
+limit cycles of the fast subsystem.
+Let us consider the full system at small µ (cid:4)= 0.
+An equilibrium state of (2) lies in the intersection of
+the fast and slow nullclines. When the slow nullcline
+crosses transversally the hyperpolarized branch of the
+Z-shaped fast nullcline from below, the equilibrium
+state, which is already stable in the x-subspace, is sta-
+ble in the z-direction as well. This is because the inter-
+section point divides the stable hyperpolarized branch
+so that to the right of the point, ˙z < 0 in Meq, and ˙z > 0
+on the left of it. As α is varied, the intersection point
+moves along the nullcline Meq. Let the slopes of both
+the nullclines be such that there is a single intersection
+point. However, this equilibrium state may change its
+stability when the slow nullcline ˙z = 0 passes through
+the left knee point at z1
+sn. Observe that at this point
+the equilibrium state of the full system at µ = 0 has
+two zero characteristic exponents. When 0 < µ (cid:2) 1,
+the slow and fast equations are linked, and so are the
+characteristic exponents of the equilibrium state resid-
+ing near the fold. The characteristic exponents become
+complex conjugates remaining close to the origin in
+the complex plane. Their real part is negative when the
+equilibrium state is on the hyperpolarized branch, but
+becomes positive when the points move onto the mid-
+dle branch of Meq. Therefore, just as the equilibrium
+state passes through the knee point, it losses its stability
+through an Andronov-Hopf bifurcation, which can be
+either super- or sub-critical. A small amplitude stable
+or unstable periodic orbit emerges from or collapses
+into the equilibrium state respectively. It is shown in
+Arnold et al. (1994), that the type of criticality, i.e. sub-
+or super-, of this bifurcation in a singularly perturbed
+system is determined by the sign of f(cid:5)(cid:5)(cid:5)
+at a fold in ap-
+proximation of µ = 0. This criterion is extremely sim-
+ple and easily applicable for all neuron models of the
+considered type. After the bifurcation, the equilibrium
+state becomes a saddle-focus with a two-dimensional
+unstable manifold and one dimensional stable mani-
+fold. The latter is due to a third characteristic exponent
+
+258
+
+Cymbalyuk and Shilnikov
+
+Figure 1. Bifurcation diagram of the fast subsystem in the (z, x)-
+phase space. Here, Meq and Mlc are the α-parametric manifolds com-
+prised of equilibria and periodic orbits, respectively. The intersection
+point of the slow nullcline, ˙z = 0 and Meq, yields an unstable equi-
+librium state; curves (cid:6)x(cid:7) and (cid:6)˙z(cid:7) = 0 are the average nullclines.
+Their three intersection points correspond to three periodic orbits:
+stable Ln and saddle Ls on the attracting branch M s
+lc, and one of un-
+determined stability that lies on the unstable branch M u
+lc. The latter
+is foliated by the repelling limit cycles of the fast subsystem. The
+stable manifold W s of the saddle orbit bounds the attraction basin of
+Ls corresponding to the periodic tonic spiking in the neuron system.
+Compare this ﬁgure with the phase portrait of the neuron model (1)
+shown in Fig. 2.
+
+= −0.026V , (B) V shift
+
+K2 : (A) V shift
+= −0.0255V , (D) V shift
+K2
+
+Figure 3. Bi-stability of two tonic spiking attractors for the different
+= −0.02555V ,
+values of V shift
+= −0.025361V . The smaller
+(C) V shift
+K2
+amplitude spiking does not change much as the parameter is varied
+(A2, B2, C2, D2), while the larger amplitude spiking undergoes a
+series of period-doubling bifurcations. Initial conditions are provided
+in the Appendix.
+
+K2
+
+K2
+
+which is negative. Recall that in the restriction to the
+subspace of the fast subsystem at µ = 0, the given
+equilibrium state is a saddle. Following the terminol-
+ogy of Shilnikov et al. (1998, 2001), we emphasize that
+the point is a saddle-focus not because it has a pair of
+complex exponents but because this pair is closer to
+the imaginary axes in the complex plane than its third
+negative exponent. This implies that shall the saddle-
+focus possess a homoclinic orbit, the fulﬁlment of the
+Shilnikov conditions is guaranteed (in the backward
+time). Hence, the system should have a chaotic set with
+narrow islands containing weakly stable periodic or-
+bits. This follows from the fact that the divergence of
+the vector ﬁeld is negative.
+
+As the equilibrium state climbs the middle branch
+of Meq up further away from the fold, its characteristic
+exponents become real and distinct. One characteris-
+tic exponent of this simple saddle remains positive and
+small, of order µ (it is due to the contribution of the
+slow subsystem) while the other two are large and of
+
+K2
+
+∪ M u
+
+Figure 2. Numerical phase portrait of the neuron model (1) and the
+bifurcation diagram of its fast subsystem (A) and the graph of the
+function (cid:6)G(mK2)(cid:7) (B) for V s
+= −0.0254 V. The blue z-shaped
+line, Meq, consists of the equilibrium states of the fast subsystem
+(dotted and solid segments represent unstable and stable ones). The
+green cylinder-shaped surface Mlc = M s
+LC is comprised of the
+stable and unstable limit cycles of the fast subsystem. The line (cid:6)V(cid:7)
+shows the dependence of the V -coordinate of the limit cycle averaged
+over its period on mK2. The dashed, blue line is the average nullcline
+(cid:6) ˙mK2(cid:7) = 0. The intersection points of(cid:6)V(cid:7) and(cid:6) ˙mK2(cid:7) = 0 correspond
+to the periodic orbits presented by black solid closed curves. (B) The
+sign of the derivative (cid:6) ˙G(cid:7)|z0 determines the stability of this periodic
+orbit in the mK2-direction. It is stable when the derivative is negative
+(the left point), and unstable when it is positive (the middle and right
+points).
+
+LC
+
+Coexistence of Tonic Spiking Oscillations in a Leech Neuron Model
+
+259
+
+opposite signs. This means that if one of its two stable
+one-dimensional separatrix of the saddle becomes ho-
+moclinic to it, only a saddle periodic orbit may emerge
+from the loop. These conditions ensure that no stable
+periodic orbit may emerge as a result of a homoclinic
+bifurcation of such a saddle of the full system. As far as
+homoclinic bifurcations of its fast subsystem are con-
+cerned, the problem is also reduced to evaluating the
+sign of the saddle-value, which is a sum of the positive
+and negative characteristic exponents of the 2D saddle.
+By the proposed construction, this saddle value is to be
+positive in our case, which means that only a repelling
+limit cycle emerges from this bifurcation at zh. As the
+parameter is increased, this unstable limit cycle traces
+out the surface M u
+lc, then meets the stable limit cycle at
+zlc
+sn and vanishes. Let such a periodic solution of the fast
+subsystem be given by x = ϕ(t, z) of period T (z). The
+exponential stability of the limit cycle is determined by
+the magnitude of the single positive Floquet multiplier
+
+(cid:3)
+
+ρ1(z) = e
+
+T (z)
+0
+
+Di v f(ϕ(t,z)) dt .
+
+(3)
+
+If it is strictly inside of a unit circle, then the limit cy-
+cle is exponentially stable, otherwise it is repelling. The
+other multiplier of the limit cycle is always +1 because
+it corresponds to the zero Lyapunov characteristic ex-
+ponent along the cycle (Shilnikov et al., 1998, 2001).
+Observe from (3) that a saddle-node bifurcation occurs
+when the multiplier ρ1 of the half-stable limit cycle
+equals one, i.e. the average divergence of the vector
+ﬁeld on this orbit equals zero.
+Let the slow nullcline ˙z = 0 pass underneath the sur-
+lc in the phase space of system (2) at 0 < µ(cid:2) 1
+face M s
+and intersect the middle segment of fast nullcline Meq.
+In this case a bursting activity is observed (Cymbalyuk
+and Calabrese, 2001; Shilnikov et al., 2004, 2005a) of
+“fold/fold cycle” type according to the classiﬁcation
+suggested in Izhikevich (2000). A neighboring trajec-
+tory gets attracted to this cylinder-shaped surface so
+that it starts coiling around M s
+lc while translating right-
+wards. This part of the trajectory is the spiking phase
+of bursting waveform. Having reached the fold of the
+surface Mlc the phase point falls down to the hyperpo-
+larized state and moves leftward. This part of trajectory
+is the quiescent phase of bursting. Then, the phase point
+returns to the spiking phase after passing the left knee
+point of the curve Meq and thus completes the bursting
+cycle.
+
+However, if the nullcines intersect, the situation be-
+comes less clear. Namely, while the phase point moves
+
+about the surface Mlc above the nullcline ˙z = 0, its z-
+component increases so that the point translates slowly
+to the right. However, when it moves below the slow
+nullcline, the vector ﬁeld pushes it to the left because
+here ˙z < 0. If these factors cancel each other out, the
+z-component of the phase point stays the same on aver-
+age, and the phase point repeats the path over and over
+again. As a result, a periodic orbit of the full system is
+born near the surface Mlc. To draw a parallel with the
+evolution of the equilibrium states described above, be-
+low we introduce a slow, “average” nullcline(cid:6)˙z(cid:7) = 0 as
+follows. It comes from Pontryagin and Rodygin (1960)
+that the overall normalized contribution of the slow
+subsystem on the trajectory on Mlc is given by
+
+(cid:4)
+(cid:6)G(z; α)(cid:7)= µ
+
+(cid:5)
+
+1
+
+T (z)
+
+0
+
+T (z)
+
+g(x(t; z), α) dt − z
+
+(cid:6)
+
+≡ (cid:6)˙z(cid:7).
+
+(4)
+
+lc. Otherwise, if (cid:6) ˙G(cid:7)|z0
+
+One can see that this “averaged” equation describes
+the dynamics of the z-component of trajectories on
+Mlc. After integration, we obtain a function (cid:6)G(z)(cid:7) of
+a single variable z. The domain of this double-valued
+function is deﬁned by the range of Mlc. By construc-
+tion, a zero z0 of (cid:6)G(z)(cid:7) is an equilibrium state of the
+system (4) and hence corresponds to a periodic orbit
+of the full system. The sign of the derivative (cid:6) ˙G(cid:7)|z0
+determines the stability of this periodic orbit in the z-
+direction (Fig. 2B). It is stable when the derivative is
+negative, and unstable when it is positive. The periodic
+orbit of the full system corresponding to a zero is stable
+if it lies in the intersection of the plane z = z0 and the
+stable branch M s
+> 0, the peri-
+odic orbit is of saddle type. It has two two-dimensional
+manifolds, stable W s and unstable W u. Locally, the un-
+stable manifold W u is a cylinder which is a part of M s
+lc.
+The stable manifold of a saddle periodic orbit is formed
+by the trajectories that converge to the orbit in the for-
+ward time. If µ is small enough, then the plane tangent
+to W s is given by z = z0. When zh < z0 < zlc
+sn, there
+is another periodic orbit on the unstable branch M u
+lc. It
+is an unstable, either saddle or repelling, periodic orbit
+depending on the sign of the derivative (cid:6) ˙G(cid:7)|z0.
+(cid:4)= 0),
+Thus, if there are two simple zeros ((cid:6) ˙G(cid:7)|z0
+then there are two periodic orbits on the manifold M s
+lc:
+stable L n and saddle L s. The stable manifold of the
+saddle periodic orbit bounds the attraction basin of the
+stable one. This periodic attractor represents observ-
+able periodic tonic spiking activity of the neuron, see
+Figs. 2 and 3.
+
+260
+
+Cymbalyuk and Shilnikov
+
+Also, the system can demonstrate bi-stability, if there
+is a second attractor. In the next section, we discuss
+possible scenarios of its formation and the role of the
+third periodic orbit in it.
+
+3.1. Average Nullclines
+
+To make the idea of Pontryagin’s averaging technique
+more illustrative, let us introduce the notion of the
+average nullclines. For the sake of simplicity, sup-
+pose that the function g(x, α) is linear, i.e. the slow
+nullcline is a straight line. Variation of α governs ei-
+ther its slope or translates it in (z, x)-plane. Let the
+system (2) have a periodic orbit on Mlc at some α,
+which lies in the plane z = z0(α), then the aver-
+age value of its fast x-coordinate can be deﬁned as
+(cid:6)x(α)(cid:7) = 1
+ϕ(t; z(α)) dt. So, by varying α, a
+parametric curve (z0(α),(cid:6)x(α)(cid:7)) can be deﬁned. This
+curve is labelled (cid:6)x(cid:7) and (cid:6)V(cid:7) in Figs. 1 and 2, respec-
+tively. Note that it has an easily recognizable fold point
+and terminates at the homoclinic bifurcation on the
+middle branch of the fast Z-shaped nullcline. It is worth
+noticing that the shape of the curve (cid:6)x(cid:7) does not depend
+on the choice of the shape of the slow nullcline.
+
+T (z)
+0
+
+(cid:3)
+
+T (z)
+
+By introducing
+
+(cid:6)g(α)(cid:7) = 1
+T (z)
+
+(cid:5)
+
+0
+
+T (z)
+
+g(ϕ(t; z(α))) dt,
+
+(5)
+
+we can deﬁne the slow averaged nullcline as follows:
+it is a parametrically set curve ((cid:6)g(α)(cid:7),(cid:6)x(α)(cid:7)). Ob-
+serve that (cid:6)g(cid:7) = C(α) · (cid:6)x(cid:7), where C(α) is the slope
+of the nullcline ˙z = 0. In other words, in the linear
+case, the slow average nullcline coincides with the slow
+nullcline.
+
+Typically, since the function on the righthand side of
+the slow subsystem is not linear, the shape of the aver-
+aged slow nullcline can be strongly nonlinear as well
+and thus can differ from the slow nullcline, as shown in
+Fig. 2 where it is labelled by (cid:6) ˙mK2(cid:7) = 0. Observe that
+the slow average nullcline and (cid:6)V(cid:7) has the same range
+in the second variable by construction. An intersection
+point of both curves is a sought zero of (4) provided it
+occurs at the same α. Note that the overlapping may oc-
+cur at different values of the parameter α, see Fig. 1; the
+same is true for the neuron model (1) whose nullclines
+are shown in Fig. 2.
+
+Assume that variation of the parameter α preserves
+the ﬁrst two intersections on the left, i.e. the sta-
+ble L n and saddle L s periodic orbits persist. The
+
+< z < zlc
+
+lc within z1
+sn
+
+stable orbit represents the periodic tonic spiking in
+the neuron. If there are no intersection points on
+M s
+sn, then this attracting cylin-
+drical manifold becomes transient for the trajecto-
+ries of the system. This supports the bursting activ-
+ity. Such behavior may take place when the periodic
+orbits vanish off the manifold M s
+lc through the saddle-
+node bifurcation. Depending on the global structure
+of the bifurcation, two distinct scenarios are possible
+(Shilnikov et al., 2004, 2005a). In the ﬁrst case, the
+tonic spiking is replaced by the bursting as a result
+of the blue sky catastrophe. This transition is smooth
+and reversible. Its key signature is that the bursting
+√
+is periodic, and, moreover, burst duration is regu-
+α − α∗, where α∗
+lated as 1/
+is the critical param-
+eter value. In the second case, where the saddle-node
+periodic orbit has noncentral homoclinics, the transi-
+tion is characterized by bi-stability of co-existent tonic
+spiking and bursting modes. Also, in contrast to the
+former case, the duration of the bursting is estimated
+as |1 log /(α − α∗
+)|. Furthermore, the bursting can be
+weakly chaotic (Shilnikov et al., 2005b).
+
+Here, we report that in the neuron model (1) the
+averaged nullclines may indeed intersect three times,
+as shown in Fig. 2. The third intersection point may
+correspond to another stable periodic orbit, as long as
+it belongs to the upper branch of the curve (cid:6)x(cid:7). This
+periodic orbit is unstable when the intersection point is
+on the low branch of the curve (cid:6)x(cid:7) below the fold point.
+Recall that the only way a stable periodic orbit may
+become repelling is through the secondary Andronov-
+Hopf bifurcation, also called the torus bifurcation. Note
+that the torus bifurcation may not occur in a 3D system
+with the sign-constant divergency. This condition may
+not be fulﬁlled near the fold of the manifold Mlc as fol-
+lows from (3) provided that the contribution of the slow
+subsystem into the divergency is small when |µ| (cid:2) 1.
+This yields that another multiplier of the periodic or-
+bit is close to +1 as well. This torus can be called a
+Hopf-initiated canard (Guckenheimer et al., 2000), as
+it is extremely thin and breaks down quickly thereby
+leading to the onset of chaos (Shilnikov and Rulkov,
+2003, 2004; Shilnikov et al., 2004). As a parameter
+governing the averaged slow nullcline is changed, a
+pair of complex-conjugate multipliers with a positive
+real part, cross the unit circle inwards while the 2D
+torus collapses and the periodic orbit regains stability.
+So, by lowering the slow averaged nullcline (cid:6)˙z(cid:7) = 0,
+the third intersection point slips towards the the homo-
+clinic bifurcation of the saddle equilibrium state on the
+
+Coexistence of Tonic Spiking Oscillations in a Leech Neuron Model
+
+261
+
+middle branch of Meq. It follows from the discussion
+above that no stable, but saddle periodic orbit can ter-
+minate at this homoclinic orbit. Therefore, the stable
+periodic orbit undergoes some evolution to become of
+saddle type.
+
+The presence of the two stable periodic orbits in the
+phase space means bi-stability of tonic spiking activ-
+ities of the neuron model, see Fig. 3A. The attraction
+basins of both the attractors are separated by the stable
+manifold of the saddle periodic orbit. This remains true
+even when the second periodic orbit becomes a saddle
+through a period-doubling bifurcation, see Fig. 3. After
+the bifurcation its stability is inherited by a stable peri-
+odic orbit of the doubled period (Fig. 3B1 and B2). In
+turn, the stable orbit of doubled period loses its stabil-
+ity through a consequent period-doubling bifurcation
+so that a stable periodic orbit of period four is born
+(Fig. 3C2) and so forth. This gives rise to a period-
+doubling cascade leading to chaos (Fig. 3D). Thus, the
+model can demonstrate coexistence of two tonic spik-
+ing modes. One is always periodic, the other can be
+either periodic or chaotic depending on the value of
+the control parameter (Fig. 3). There are two cases of
+how a chaotic tonic spiking attractor may vanish. In the
+ﬁrst case, it undergoes an internal crisis when its trajec-
+tories reach the fold of the manifold Mlc and fall down
+onto the hyperpolarized branch Meq that tunnels them
+into the attraction basin of the primary periodic tonic
+spiking attractor. In the second case, the trajectories of
+the chaotic attractor start deserting through the separat-
+ing saddle periodic orbit when the chaotic attractor on
+M u
+lc touches the stable manifold of the saddle periodic
+orbit. In either case, after the chaotic attractor has van-
+ished, the system becomes mono-stable so that the pe-
+riodic tonic spiking activity is observed for most initial
+conditions.
+
+4. Conclusions
+
+Bi-stability of tonic spiking has been observed in neuro-
+physiological experiments (Lechner et al., 1996). Here
+we found bi-stability of tonic spiking in the model
+of leech oscillatory interneurons. We have shown that
+this model
+(1) can demonstrate bi-stability where
+two types of tonic spiking activity co-exist. Under
+control parameter variation one tonic spiking mode
+stays always periodic while the other undergoes a
+complex evolution so that it ranges from periodic to
+chaotic, experiencing a cascade of period-doubling
+bifurcations.
+
+This cascade is one of the typical routes to chaos.
+The period-doubling cascade has been frequently ob-
+served in various neuron models (Terman, 1992; Feudel
+et al., 2000; Rowat and Elson, 2004; Wang, 1993;
+Rinzel and Ermentrout, 1989). A distinction of the
+model under consideration is that the chaotic attractor
+represents a co-existent alternative to the periodic tonic
+spiking activity. The period-doubling cascade is also a
+characteristic feature for transitions from tonic spik-
+ing into bursting described in Terman (1992), Feudel
+et al. (2000), Rowat and Elson (2004), Wang (1993),
+and Rinzel and Ermentrout (1989).
+
+Pontryagin’s averaging method provides us with a
+clear geometrical interpretation of the bi-stability phe-
+nomenon for the case of coexisting oscillatory modes.
+The mechanism which we present here differs from
+bi-stability reported in the same model (Shilnikov et
+al., 2005a, b) where a periodic tonic spiking and a
+bursting activities co-exist. Similarly to the bi-stability
+considered in Shilnikov et al. (2004, 2005b), the sys-
+tem has several periodic orbits and two of them di-
+rectly correspond to the stable periodic orbit and the
+unstable periodic orbit of saddle type. In our previous
+work (Shilnikov et al., 2004) the unstable periodic or-
+bit separates the basins of attraction of two co-existing
+modes: the tonic spiking periodic orbit and bursting
+regime. Here, it separates two modes in a similar fash-
+ion, except it has a tonic spiking regime coexisting
+with another spiking regime rather than with a bursting
+regime.
+
+Appendix
+
+The initial conditions for the two tonic spiking regimes
+presented in Fig. 3 are provided in the form (V , mK2,
+hNa) as follows:
+
+(A) V shift
+K2
+
+(B) V shift
+K2
+
+(C) V shift
+K2
+
+and
+
+=−0.02555V ,
+
+=−0.026V , for (A2) and (A3) the ini-
+tial conditions are (−0.0293215, 0.0955228,
+0.0997786) and (0.0259645, 0.356993, 0.197492)
+respectively;
+the
+initial conditions are (−0.00893104, 0.103985,
+0.331244,
+0.0380690)
+0.200898) respectively;
+=−0.0255V , for (C2) and (C3)the ini-
+tial conditions are (−0.0179769, 0.0986789,
+0.0683255)
+0.370310,
+0.0182421) respectively;
+
+for
+(−0.0353596,
+
+and
+
+(−0.0227637,
+
+(B2) and (B3)
+
+262
+
+Cymbalyuk and Shilnikov
+
+(D) V shift
+K2
+
+=−0.025361V ,
+
+(D3)
+(−0.0252204,
+and
+(−0.0376925, 0.297170, 0.524276) respectively.
+
+(D2)
+and
+0.00855340)
+
+for
+0.115693,
+
+Acknowledgment
+
+The numeric analysis of the periodic solutions of sys-
+tem (1) is based on CONTENT (CONTENT) A.S.
+acknowledges the RFBR grants No. 02-01-00273 and
+No. 01-01-00975. G.C. was supported by NIH grants
+NS43098. A.S and G.C. appreciate a GSU internal re-
+search team and Brains & Behaviors research initiative
+grants.
+
+References
+
+Arnold VI, Afrajmovich VS, Ilyashenko YuS, Shilnikov LP (1994)
+Bifurcation Theory, Dynamical Systems V. Encyclopaedia of
+Mathematical Sciences. Springer-Verlag.
+
+Bazhenov M, Timofeev I, Steriade M, Sejnowski TJ (2000) Spiking-
+bursting activity in the thalamic reticular nucleus initiates se-
+quences of spindle oscillations in thalamic networks. J. Neuro-
+physiology 84: 1076–1087.
+
+Bertram R (1993) A computational study of the effects of serotonin
+
+on a molluscan burster neuron. Biol. Cybern. 69: 257–267.
+
+Borisyuk RM, Kazanovich YB (2004) Oscillatory model of
+attention-guided object selection and novelty detection. Neural
+Netw. 17: 899–915.
+
+Canavier CC, Baxter DA, Clark L, Byrne J (1993) Nonlinear dynam-
+ics in a model neuron provide a novel mechanism for transient
+synaptic inputs to produce long-term alterations of postsynaptic
+activity. J. Neurophysiol. 69: 2252.
+
+Canavier CC, Baxter DA, Clark JW, Byrne JH (1994) Multiple modes
+of activity in a model neuron suggest a novel mechanism for the
+effects of neuromodulators. Multiple modes of activity in a model
+neuron suggest a novel mechanism for the effects of neuromodu-
+lators. J. Neurophysiol. 72: 872–882.
++
+oscillations based upon the fast Na
+Neurocomputing 38–40: 159–166.
+
+Cymbalyuk GS, Calabrese RL (2001) A model of slow plateau-like
+current in a window mode.
+
+Cymbalyuk GS, Gaudry Q, Masino MA, Calabrese RL (2002) A
+model of a segmental oscillator in the leech heartbeat neuronal
+network. J. Neuroscience 22: 10580.
+
+Feudel U, Neiman A, Pei X, Wojtenek W, Braun H, Huber M, Moss
+F (2000) Homoclinic bifurcation in a Hodgkin-Huxley model of
+thermally sensitive neurons. Chaos 10(1): 231–239.
+
+Gray CM, Singer W (1989) Stimulus-speciﬁc neuronal oscillations
+in orientation columns of cat visual cortex. Proc. Natl. Acad. Sci.
+USA. 86: 1698–1702.
+
+Guckenheimer J, Hofman K, Weckesserand W (2000) Numerical
+computations of canards. Int. J. Bifurcation and Chaos 2: 2669–
+2689.
+
+Hill A, Lu J, Masino M, Olsen O, Calabrese RL (2001) A model of
+a segmental oscillator in the leech heartbeat neuronal network. J.
+Comput. Neuroscience 10, 281.
+
+Hodgkin AL, Huxley AF (1952) A quantitative description of mem-
+brane current and its application to conduction and excitation in
+nerve. J. Physiol. 117: 500.
+
+Hopﬁeld JJ, Brody CD (2001) What is a moment? Transient syn-
+chrony as a collective mechanism for spatiotemporal integration.
+Proc. Natl. Acad. Sci. USA. 98: 1282–1287.
+
+Hoppensteadt FC, Izhikevich EM (1998) Thalamo-cortical interac-
+tions modeled by weakly connected oscillators: Could the brain
+use FM radio principles? Biosystems. 48: 85–94.
+
+Izhikevich EM (2000) Neural Excitability, spiking, and bursting. In-
+
+ternational. Journal of Bifurcation and Chaos. 10: 1171–1266.
+
+Hounsgaard J, Kiehn O (1989) Serotonin-induced bistability of turtle
+motoneurones caused by a nifedipine-sensitive calcium plateau
+potential. J. Physiol. 414: 265–282.
+
+CONTENT is available at ftp://ftp.cwi.nl/pub/CONTENT.
+Lechner H, Baxter D, Clark C, Byrne J (1996) Bistability and its
+regulation by serotonin in the endogenously bursting neuron R15
+in Aplysia. J. Neurophysiol. 75: 957.
+
+Marder E, Calabrese RL (1996) Principles of rhythmic motor pattern
+
+generation. Physiol. Rev. 76: 687.
+
+Marder E, Abbott L, Turrigiano G, Liu Z, Golowasch J (1996) Mem-
+ory from the dynamics of intrinsic membrane currents. Proc. Natl.
+Acad. Sci. USA 26–93(24), 13481.
+
+Opdyke CA, Calabrese RL (1994) A persistent sodium current con-
+tributes to oscillatory activity in heart interneurons of the medicinal
+leech. J. Comp. Physiol. 175: 781–789.
+
+Pontryagin LS, Rodygin LV (1960) Periodic solution of a system of
+ordinary differential equations with a small parameter in the terms
+containing derivatives. Sov. Math. Dokl. 1: 611–614.
+
+Rinzel J, Ermentrout B (1989) Analysis of neural excitability and
+oscillations. In: C. Koch and I. Segev, eds., Methods of Neu-
+ral Modeling: From Synapses to Networks. MIT Press, pp. 135–
+169.
+
+Rowat PF, Elson RC (2004) State-dependent effects of Na channel
+noise on meuronal burst generation, J. of Computational Neuro-
+science 16: 87–112.
+
+Schwarz C, Thier P (1999) Binding of signals relevant for action:
+Towards a hypothesis of the functional role of the pontine nuclei.
+Trends Neurosci. 22: 443–451.
+
+Shilnikov AL, Cymbalyuk G (2005) Transition between tonic spiking
+and bursting in a neuron model via the blue-sky catastrophe. Phys
+Rev Letters 94: 048101.
+
+Shilnikov AL, Calabrese RL, and Cymbalyuk GS (2004) Mechanism
+of bi-stability: Tonic spiking and bursting in a neuron model. Phys.
+Rev. E. (submitted).
+
+Shilnikov AL, Calabrese RL, Cymbaluyk G (2005) How a neuron
+model can demonstrate coexistence of tonic spiking and bursting?
+Neurocomputing (accepted for publication).
+
+Shilnikov LP, Shilnikov AL, Turaev DV, Chua LO (1998, 2001)
+Methods Qualitative Theory in Nonlinear Dynamics, Volumes I
+and II. World Sci. Publ.
+
+Shilnikov AL, Rulkov NF (2003) Origin of chaos in a two-
+dimensional map modelling spiking-bursting neural activity. Bi-
+furcations and Chaos 13(11): 3325–3340.
+
+Shilnikov AL, Rulkov NF (2004) Subthreshold oscillations in a map-
+
+based neuron model. Physics Letters A328: 177–184.
+
+Shilnikov AL, Shilnikov LP, Turaev DV (2004) Mathematical as-
+pects of classical synchronization theory, Tutorial. Bifurcations
+and Chaos 14(7): 2143–2160.
+
+Coexistence of Tonic Spiking Oscillations in a Leech Neuron Model
+
+263
+
+Terman D (1992) The transition from bursting to continuous spiking
+in an excitable membrane model. J. Nonlinear Science 2, 135–
+182.
+
+Turrigiano G, Marder E, Abbott L (1996) Cellular short-term mem-
+ory from a slow potassium conductance. J. Neurophysiol. 75: 963.
+Vinogradova OS. (2001) Hippocampus as comparator: Role of the
+
+two input and two output systems of the hippocampus in selec-
+tion and registration of information. Hippocampus. 11(5): 578–
+598.
+
+Wang XJ (1993) Genesis of bursting oscillations in the Hindmarsh-
+Rose model and homoclinicity to a chaotic saddle. Physica D 62:
+263–274.
+
+

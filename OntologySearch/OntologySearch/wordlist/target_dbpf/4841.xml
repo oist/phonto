@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4841">
+<itemtype>xnppaper</itemtype>
+<titles><title>Context-Dependent Adaptive Behavior Generated in the Theta Phase Coding Network</title>
+</titles>
+<contributor uname='admin_KWL'>Hiroaki Wagatsuma(admin_KWL)</contributor>
+<keywords><keyword>action-selection amygdala cognitive map hippocampus khepera-robot place cells prefrontal cortex reward-evaluation theta phase precession</keyword>
+</keywords>
+<description>http://dx.doi.org/10.1007/978-3-540-69162-4_19</description>
+<doi></doi>
+<last_update_date>2011-04-29T06:33:12Z</last_update_date>
+<creation_date>2011-04-29T04:16:07Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4841</url>
+<changelogs>
+<changelog date='2011-04-29T06:33:12Z'>アイテムの説明 を変更</changelog>
+<changelog date='2011-04-29T04:18:01Z'>巻 を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4841" version="1.02">
+<authors><author>Wagatsuma H</author><author>Yamaguchi Y</author></authors>
+<journal>LNCS: Lecture Notes In Computer Science</journal>
+<volume>4985</volume>
+<number></number>
+<page>177 - 184</page>
+<abstract>The real world changes in space over time. Our brains need real-time interaction with the external world and will update various internal representations even when events happen only one-time. Such one-time experiences are evaluated in relation to what happens for us in joy and sorrow. Recent brain studies suggest that the dynamic coordination of different representations in brain areas is governed by the synchronization of the brain oscillation, such as theta rhythms. In the rodent hippocampus, the temporal coding mechanism with the theta rhythm, theta phase coding, provides the ability to encode and retrieve behavioral sequences even in the one-time experience, by using successive firing phases in every theta cycle. We here extended the theory to the large-scale brain network and hypothesized that the phase coding not only represents the current behavioral context, but also properly associates it with the evaluation of what happened in the external environment. It is necessary for the animal to predict events in the near future and to update the current and next executive action. In a maze task on our robotic platform, the acquisition of spatial-temporal sequences and spatial-reward associations were demonstrated, even in few trials, and the association contributes to the current action selection. This result suggests that theta rhythms may contribute to coordinate different neural activities to enable contextual decision-making in the real environment.</abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6525">
+<itemtype>xnpconference</itemtype>
+<titles><title>Convergent measures of abstract spatial coding in hippocampus.</title>
+</titles>
+<contributor uname='jan'>[en]Johan Lauwereyns [/en][ja]ﾛｰﾚﾝｽ ﾖﾊﾝ[/ja](jan)</contributor>
+<keywords><keyword>B01P4</keyword>
+</keywords>
+<description>国際会議
+oral
+invited</description>
+<doi></doi>
+<last_update_date>2013-01-08T03:15:44Z</last_update_date>
+<creation_date>2013-01-08T03:15:44Z</creation_date>
+<publication_year>2012</publication_year>
+<publication_month>9</publication_month>
+<publication_mday>3</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6525</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6525" version="1.02">
+<conference_from_year>2012</conference_from_year>
+<conference_from_month>9</conference_from_month>
+<conference_from_mday>3</conference_from_mday>
+<conference_to_year>2012</conference_to_year>
+<conference_to_month>9</conference_to_month>
+<conference_to_mday>6</conference_to_mday>
+<presentation_type>other</presentation_type>
+<conference_title>Dynamic Brain Forum 2012</conference_title>
+<place>Carmona, Spain</place>
+<authors><author>Johan Lauwereyns</author></authors>
+<abstract></abstract>
+<attachment_dl_limit>0</attachment_dl_limit>
+<attachment_dl_notify>0</attachment_dl_notify>
+</detail>
+</item>

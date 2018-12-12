@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6658">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal-neocortical networks differ during encoding and retrieval of relational memory: functional and effective connectivity analyses.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Data Interpretation</keyword>
+<keyword>Statistical</keyword>
+<keyword>Face</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Least-Squares Analysis</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Psychological</keyword>
+<keyword>Models</keyword>
+<keyword>Statistical</keyword>
+<keyword>Neocortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>Oxygen</keyword>
+<keyword>blood</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:52:07Z</last_update_date>
+<creation_date>2013-02-26T06:52:07Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6658</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6658" version="1.02">
+<authors><author>McCormick C</author><author>Moscovitch M</author><author>Protzner AB</author><author>Huber CG</author><author>McAndrews MP</author></authors>
+<journal>Neuropsychologia</journal>
+<volume>48</volume>
+<number>11</number>
+<page>3272-81</page>
+<abstract>Encoding and retrieval of relational information requires interaction between the hippocampus and various neocortical regions, but it is unknown whether the connectivity of hippocampal-neocortical networks is different at input and output stages. To examine this, we conducted a network analysis of event-related fMRI data collected during a face-recognition, remember/know paradigm. Directed analyses in the medial temporal lobe identified a small region in the left hippocampus that showed differential activation for encoding and retrieval of recollected versus familiar items. Multivariate seed partial least squares (PLS) analysis was used to identify brain regions that were functionally connected to this hippocampal region at encoding and retrieval of &#039;remembered&#039; items. Anatomically based structural equation modeling (SEM) was then used to test for differences in effective connectivity of network nodes between these two memory stages. The SEM analysis revealed a reversal of directionality between the left hippocampus (LHC) and left inferior parietal cortex (LIPC) at encoding and retrieval. During encoding, activation of the LHC had a positive influence on the LIPC, whereas during retrieval the reverse pattern was found, i.e., the LIPC activation positively influenced LHC activation. These findings emphasize the importance of hippocampal-parietal connections and underscore the complexity of their interactions in initial binding and retrieval/reintegration of relational memory. We also found that, during encoding, the right hippocampus had a positive influence on the right retrospenial cortex, whereas during retrieval this influence was significantly weaker. We submit that examining patterns of connectivity can be important both to elaborate and constrain models of memory involving hippocampal-neocortical interactions.</abstract>
+<pubmed_id>20637787</pubmed_id>
+</detail>
+</item>

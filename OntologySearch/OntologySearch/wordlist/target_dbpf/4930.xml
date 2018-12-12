@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4930">
+<itemtype>xnppaper</itemtype>
+<titles><title>Perirhinal cortex does not project to the dentate gyrus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Limbic System</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Perforant Pathway</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:22:56Z</last_update_date>
+<creation_date>2011-05-09T02:22:56Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4930</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4930" version="1.02">
+<authors><author>Witter MP</author><author>Naber PA</author><author>Lopes da Silva F</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>5</number>
+<page>605-6</page>
+<abstract></abstract>
+<pubmed_id>10560931</pubmed_id>
+</detail>
+</item>

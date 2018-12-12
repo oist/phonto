@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4827">
+<itemtype>xnppaper</itemtype>
+<titles><title>Characterization, scaling, and partial representation of diffuse and discrete input junctions to CA3 hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cybernetics</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Mathematics</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T06:01:38Z</last_update_date>
+<creation_date>2011-04-28T06:01:38Z</creation_date>
+<publication_year>1995</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4827</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4827" version="1.02">
+<authors><author>Ascarrunz FG</author><author>Kisley MA</author><author>Flach KA</author><author>Hamilton RW</author><author>MacGregor RJ</author></authors>
+<journal>Biological cybernetics</journal>
+<volume>73</volume>
+<number>2</number>
+<page>167-76</page>
+<abstract>This paper applies a general mathematical system for characterizing and scaling functional connectivity and information flow across the diffuse (EC) and discrete (DG) input junctions to the CA3 hippocampus. Both gross connectivity and coordinated multiunit informational firing patterns are quantitatively characterized in terms of 32 defining parameters interrelated by 17 equations, and then scaled down according to rules for uniformly proportional scaling and for partial representation. The diffuse EC-CA3 junction is shown to be uniformly scalable with realistic representation of both essential spatiotemporal cooperativity and coordinated firing patterns down to populations of a few hundred neurons. Scaling of the discrete DG-CA3 junction can be effected with a two-step process, which necessarily deviates from uniform proportionality but nonetheless produces a valuable and readily interpretable reduced model, also utilizing a few hundred neurons in the receiving population. Partial representation produces a reduced model of only a portion of the full network where each model neuron corresponds directly to a biological neuron. The mathematical analysis illustrated here shows that although omissions and distortions are inescapable in such an application, satisfactorily complete and accurate models the size of pattern modules are possible. Finally, the mathematical characterization of these junctions generates a theory which sees the DG as a definer of the fine structure of embedded traces in the hippocampus and entire coordinated patterns of sequences of 14-cell links in CA3 as triggered by the firing of sequences of individual neurons in DG.</abstract>
+<pubmed_id>7662768</pubmed_id>
+</detail>
+</item>

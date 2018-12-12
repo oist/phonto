@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7246">
+<itemtype>xnppaper</itemtype>
+<titles><title>Group I metabotropic glutamate receptors regulate the frequency-response function of hippocampal CA1 synapses for the induction of LTP and LTD.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Excitatory Amino Acid Agonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Glutamic Acid</keyword>
+<keyword>metabolism</keyword>
+<keyword>Glycine</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Synaptic Depression</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Receptors</keyword>
+<keyword>Metabotropic Glutamate</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Resorcinols</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:29:48Z</last_update_date>
+<creation_date>2013-02-28T01:29:48Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7246</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7246" version="1.02">
+<authors><author>van Dam EJ</author><author>Kamal A</author><author>Artola A</author><author>de Graan PN</author><author>Gispen WH</author><author>Ramakers GM</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>19</volume>
+<number>1</number>
+<page>112-8</page>
+<abstract>Synaptically released glutamate binds to ionotropic or metabotropic glutamate receptors. Metabotropic glutamate receptors (mGluRs) are G-protein-coupled receptors and can be divided into three subclasses (Group I-III) depending on their pharmacology and coupling to signal transduction cascades. Group I mGluRs are coupled to phospholipase C and are implicated in several important physiological processes, including activity-dependent synaptic plasticity, but their exact role in synaptic plasticity remains unclear. Synaptic plasticity can manifest itself as an increase or decrease of synaptic efficacy, referred to as long-term potentiation (LTP) and long-term depression (LTD). The likelihood, degree and direction of the change in synaptic efficacy depends on the history of the synapse and is referred to as &#039;metaplasticity&#039;. We provide direct experimental evidence for an involvement of group I mGluRs in metaplasticity in CA1 hippocampal synapses. Bath application of a low concentration of the specific group I agonist 3,5-dihydroxyphenylglycine (DHPG), which does not affect basal synaptic transmission, resulted in a leftward shift of the frequency-response function for the induction of LTD and LTP in naïve synapses. DHPG resulted in the induction of LTP at frequencies which induced LTD in control slices. These alterations in the induction of LTD and LTP resemble the metaplastic changes observed in previously depressed synapses. In addition, in the presence of DHPG additional potentiation could beinduced after LTP had apparently been saturated. These findings provide strong evidence for an involvement of group I mGluRs in the regulation of metaplasticity in the CA1 field of the hippocampus.</abstract>
+<pubmed_id>14750969</pubmed_id>
+</detail>
+</item>

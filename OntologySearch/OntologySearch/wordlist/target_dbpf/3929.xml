@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3929">
+<itemtype>xnppaper</itemtype>
+<titles><title>Functional Differences Between the Spatio-temporal Learning Rule (STLR) and Hebb Type (HEBB) in Single Pyramidal Cells in the Hippocampal CA1 Area</title>
+</titles>
+<contributor uname='admin_KWL'>Hiroaki Wagatsuma(admin_KWL)</contributor>
+<keywords><keyword>Spatio-temporal learning rule</keyword>
+<keyword>Cooperative plasticity</keyword>
+<keyword>Hebb learning rule</keyword>
+<keyword>Dendritic-soma interaction</keyword>
+<keyword>Hippocampus.</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-09-14T06:22:24Z</last_update_date>
+<creation_date>2010-09-14T05:42:40Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3929</url>
+<changelogs>
+<changelog date='2010-09-14T06:22:24Z'>アブストラクト を変更</changelog>
+<changelog date='2010-09-14T06:21:53Z'>インデックス, アブストラクト を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3929" version="1.02">
+<authors><author>Tsukada M</author><author>Yamazaki Y</author></authors>
+<journal>Lecture Notes in Computer Science</journal>
+<volume>4232</volume>
+<number></number>
+<page>72-81</page>
+<abstract>The spatio-temporal learning rule (STLR), proposed as a non-Hebb type by Tsukada et al. (1996 [1], 2005 [2]), consists of two distinctive factors; “cooperative plasticity without a postsynaptic spike,” and its temporal summa-ion. On the other hand, Hebb (1949 [3]) proposed the idea (HEBB) that synaptic modification is strengthened only if the pre- and post-synaptic elements are activated simultaneously. We have shown, experimentally, that both STLR and HEBB coexist in single pyramidal cells of the hippocampal CA1 area. <br />The functional differences between STLR and HEBB in dendrite (local)-soma (global) interactions in single pyramidal cells of CA1 and the possibility of reinforcement learning were discussed.</abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

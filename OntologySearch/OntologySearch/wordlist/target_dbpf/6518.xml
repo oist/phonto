@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6518">
+<itemtype>xnppaper</itemtype>
+<titles><title>Context and the renewal of conditioned taste aversion: The role of rat dorsal hippocampus examined by electrolytic lesion.</title>
+</titles>
+<contributor uname='jan'>[en]Johan Lauwereyns [/en][ja]ﾛｰﾚﾝｽ ﾖﾊﾝ[/ja](jan)</contributor>
+<keywords><keyword>B01P4</keyword>
+</keywords>
+<description>査読
+原著論文
+Hiroki Fujiwara
+2012/10/01</description>
+<doi></doi>
+<last_update_date>2013-01-08T02:46:48Z</last_update_date>
+<creation_date>2013-01-08T02:46:48Z</creation_date>
+<publication_year>2012</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6518</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6518" version="1.02">
+<authors><author>Hiroki Fujiwara</author><author>Kosuke Sawa</author><author>Muneyoshi Takahashi</author><author>Johan Lauwereyns</author><author>Minoru Tsukada</author><author>Takeshi Aihara</author></authors>
+<journal>Cognitive Neurodynamics</journal>
+<volume>6</volume>
+<number>5</number>
+<page>399-407</page>
+<abstract>An extinguished conditioned response can sometimes be restored. Previous research has shown that this renewal effect depends on the context in which conditioning versus extinction takes place. Here we provide evidence that the dorsal hippocampus is critically involved in the representation of context that underscores the renewal effect. We performed electrolytic lesions in dorsal hippocampus, before or after extinction, in a conditioned taste aversion paradigm with rats. Rats that underwent all conditioning, extinction and testing procedures in the same experimental context showed no renewal during testing in the original context. In contrast, rats that underwent extinction procedures in a different experimental context than the one in which they had acquired the conditioned response, showed a reliable renewal effect during testing in the original context. When electrolytic lesion was performed prior to extinction, the context-dependent renewal effect was disrupted. When electrolytic lesion was undertaken after extinction, we observed a complex pattern of data including the blockage of the conventional renewal effect, and the appearance of an unconventional renewal effect. The implications of these results are discussed with respect to current views on the role of the dorsal hippocampus in processing context information.</abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,15 @@
+Animals
+Association Learning
+physiology
+Computer Simulation
+Cybernetics
+Electrophysiology
+Hippocampus
+physiology
+Memory
+physiology
+Models
+Psychological
+Synapses
+physiology
+Long-Term Potentiation (LTP) has three properties: (1) input specificity, (2) cooperativity and (3) associativity. In a previous paper, we proposed an integrated model of the mechanisms of the induction and maintenance of LTP with input specificity. In this paper, a model of the mechanism of cooperative and associative LTP is described. According to computer simulations of the model, its mechanism is based on the spread of synaptic potentials.

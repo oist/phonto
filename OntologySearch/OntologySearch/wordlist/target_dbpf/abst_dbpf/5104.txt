@@ -1,0 +1,18 @@
+Animals
+Behavior
+Animal
+physiology
+Evaluation Studies as Topic
+Hippocampus
+cytology
+physiology
+Learning
+physiology
+Models
+Neurological
+Neurons
+physiology
+Rats
+Spatial Behavior
+physiology
+Our model of the spatial and temporal aspects of place cell firing and their role in rat navigation is reviewed. The model provides a candidate mechanism, at the level of individual cells, by which place cell information concerning self-localization could be used to guide navigation to previously visited reward sites. The model embodies specific predictions regarding the formation of place fields, the phase coding of place cell firing with respect to the hippocampal theta rhythm, and the formation of neuronal population vectors downstream from the place cells that code for the directions of goals during navigation. Recent experiments regarding the spatial distribution of place cell firing have confirmed our initial modeling hypothesis, that place fields are formed from Gaussian tuning curve inputs coding for the distances from environmental features, and enabled us to further specify the functional form of these inputs. Other recent experiments regarding the temporal distribution of place cell firing in two-dimensional environments have confirmed our predictions based on the temporal aspects of place cell firing on linear tracks. Directions for further experiments and refinements to the model are outlined for the future.

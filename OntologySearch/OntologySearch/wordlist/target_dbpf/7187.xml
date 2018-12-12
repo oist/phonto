@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7187">
+<itemtype>xnppaper</itemtype>
+<titles><title>Disinhibition mediates a form of hippocampal long-term potentiation in area CA1.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain</keyword>
+<keyword>metabolism</keyword>
+<keyword>CA1 Region</keyword>
+<keyword>Hippocampal</keyword>
+<keyword>physiology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>metabolism</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synaptic Transmission</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:41:59Z</last_update_date>
+<creation_date>2013-02-27T07:41:59Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7187</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7187" version="1.02">
+<authors><author>Ormond J</author><author>Woodin MA</author></authors>
+<journal>PloS one</journal>
+<volume>4</volume>
+<number>9</number>
+<page>e7224</page>
+<abstract>The hippocampus plays a central role in memory formation in the mammalian brain. Its ability to encode information is thought to depend on the plasticity of synaptic connections between neurons. In the pyramidal neurons constituting the primary hippocampal output to the cortex, located in area CA1, firing of presynaptic CA3 pyramidal neurons produces monosynaptic excitatory postsynaptic potentials (EPSPs) followed rapidly by feedforward (disynaptic) inhibitory postsynaptic potentials (IPSPs). Long-term potentiation (LTP) of the monosynaptic glutamatergic inputs has become the leading model of synaptic plasticity, in part due to its dependence on NMDA receptors (NMDARs), required for spatial and temporal learning in intact animals. Using whole-cell recording in hippocampal slices from adult rats, we find that the efficacy of synaptic transmission from CA3 to CA1 can be enhanced without the induction of classic LTP at the glutamatergic inputs. Taking care not to directly stimulate inhibitory fibers, we show that the induction of GABAergic plasticity at feedforward inhibitory inputs results in the reduced shunting of excitatory currents, producing a long-term increase in the amplitude of Schaffer collateral-mediated postsynaptic potentials. Like classic LTP, disinhibition-mediated LTP requires NMDAR activation, suggesting a role in types of learning and memory attributed primarily to the former and raising the possibility of a previously unrecognized target for therapeutic intervention in disorders linked to memory deficits, as well as a potentially overlooked site of LTP expression in other areas of the brain.</abstract>
+<pubmed_id>19787049</pubmed_id>
+</detail>
+</item>

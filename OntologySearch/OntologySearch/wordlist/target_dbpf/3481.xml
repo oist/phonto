@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3481">
+<itemtype>xnppaper</itemtype>
+<titles><title>Glial contribution to glutamate uptake at Schaffer collateral-commissural synapses in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>neuron-glia</keyword>
+</keywords>
+<description></description>
+<doi>639</doi>
+<last_update_date>2010-03-27T12:52:03Z</last_update_date>
+<creation_date>2010-03-27T12:52:03Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3481</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3481" version="1.02">
+<authors><author>Bergles DE</author><author>Jahr CE</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>18</volume>
+<number>19</number>
+<page>7709-16</page>
+<abstract>Astrocytes in the hippocampus express high-affinity glutamate transporters that are important for lowering the concentration of extracellular glutamate after release at excitatory synapses. These transporters exhibit a permeability to chaotropic anions that is associated with transport, allowing their activity to be monitored in cell-fee patches when highly permeant anions are present. Astrocyte glutamate transporters are highly temperature sensitive, because L-glutamate-activated, anion-potentiated transporter currents in outside-out patches from these cells exhibited larger amplitudes and faster kinetics at 36 degreesC than at 24 degreesC. The cycling rate of these transporters was estimated by using paired applications of either L-glutamate or D-aspartate to measure the time necessary for the peak of the transporter current to recover from the steady-state level. Transporter currents in patches recovered with a time constant of 11.6 msec at 36 degreesC, suggesting that either the turnover rate of native transporters is much faster than previously reported for expressed EAAT2 transporters or the efficiency of these transporters is very low. Synaptically activated transporter currents persisted in astrocytes at physiological temperatures, although no evidence of these currents was found in CA1 pyramidal neurons in response to afferent stimulation. L-glutamate-gated transporter currents were also not detected in outside-out patches from pyramidal neurons. These results are consistent with the hypothesis that astrocyte transporters are responsible for taking up the majority of glutamate released at Schaffer collateral-commissural synapses in the hippocampus.</abstract>
+<pubmed_id>9742141</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,17 @@
+Animals
+Cerebellum
+physiology
+Cerebral Cortex
+physiology
+Dendrites
+metabolism
+Hippocampus
+physiology
+Long-Term Potentiation
+Nerve Growth Factors
+physiology
+Nerve Tissue Proteins
+biosynthesis
+Neuronal Plasticity
+physiology
+Recent studies indicate that synapse addition and/or loss is associated with different types of learning. Other factors influencing synaptogenesis and synapse loss include neurotrophins, hormones, and the induction of long-term potentiation. An emerging view of synaptic plasticity suggests that local neurotrophin action and synaptically associated protein synthesis may promote synaptic remodelling and changes in receptor expression or activation.

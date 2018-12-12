@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="882">
+<itemtype>xnppaper</itemtype>
+<titles><title>Relating hippocampal circuitry to function: recall of memory sequences by reciprocal dentate-CA3 interactions.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T06:03:00Z</last_update_date>
+<creation_date>2008-07-16T03:24:44Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=882</url>
+<changelogs>
+<changelog date='2013-03-28T06:03:00Z'>Modified; Item Description, Index, PubMedID.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="882" version="1.02">
+<authors><author>Lisman JE</author></authors>
+<journal>Neuron</journal>
+<volume>22</volume>
+<number>2</number>
+<page>233-42</page>
+<abstract></abstract>
+<pubmed_id>10069330</pubmed_id>
+</detail>
+</item>

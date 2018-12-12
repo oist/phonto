@@ -1,0 +1,26 @@
+Animals
+Calcium-Calmodulin-Dependent Protein Kinase Type 2
+Calcium-Calmodulin-Dependent Protein Kinases
+genetics
+Electric Stimulation
+Electroencephalography
+Epilepsy
+enzymology
+genetics
+Hippocampus
+physiopathology
+Isoenzymes
+genetics
+Limbic System
+enzymology
+physiopathology
+Mice
+Mice
+Mutant Strains
+Mice
+Transgenic
+Mutation
+Protein Kinase C
+genetics
+Seizures
+Multifunctional Ca2+/calmodulin-dependent protein kinase II (CaMK) phosphorylates proteins pivotally involved in diverse neuronal processes and thereby coordinates cellular responses to external stimuli that regulate intracellular Ca2+ [Hanson, P. I.&Schulman, H. (1992) Annu. Rev. Biochem. 61, 559-664]. Despite extensive study, the impact of this enzyme on control of the excitability of neuron populations in the mammalian nervous system in situ is unknown. To address this question, we studied transgenic mice carrying a null mutation (-/-) for the alpha subunit of CaMK. In contrast to wild-type littermates, null mutants exhibit profound hyperexcitability, evident in epileptic seizures involving limbic structures including the hippocampus. No evidence of increased excitability was detected in mice carrying null mutations of the gamma isoform of protein kinase C, underscoring the specificity of the effect of CaMK. CaMK plays a powerful and previously underappreciated role in control of neuronal excitability in the mammalian nervous system. These insights have important implications for analyses of mechanisms of epilepsy and, perhaps, learning and memory.

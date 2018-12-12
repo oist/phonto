@@ -1,0 +1,21 @@
+Adult
+Association Learning
+Face
+Female
+Hippocampus
+physiology
+Humans
+Image Processing
+Computer-Assisted
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Parahippocampal Gyrus
+physiology
+Photic Stimulation
+Recognition (Psychology)
+physiology
+Temporal Lobe
+physiology
+The human medial temporal lobe (MTL) is known to be involved in declarative memory, yet the exact contributions of the various MTL structures are not well understood. In particular, the data as to whether the hippocampal region is preferentially involved in the encoding and/or retrieval of associative memory have not allowed for a consensus concerning its specific role. To investigate the role of the hippocampal region and the nearby MTL cortical areas in encoding and retrieval of associative versus non-associative memories, we used functional magnetic resonance imaging (fMRI) to measure brain activity during learning and later recognition testing of novel face-name pairs. We show that there is greater activity for successful encoding of associative information than for non-associative information in the right hippocampal region, as well as in the left amygdala and right parahippocampal cortex. Activity for retrieval of associative information was greater than for non-associative information in the right hippocampal region also, as well as in the left perirhinal cortex, right entorhinal cortex, and right parahippocampal cortex. The implications of these data for a clear functional distinction between the hippocampal region and the MTL cortical structures are discussed.

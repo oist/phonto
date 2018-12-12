@@ -1,0 +1,29 @@
+Afferent Pathways
+physiology
+Animals
+Cerebral Cortex
+physiology
+Denervation
+Electric Stimulation
+Electroencephalography
+Evoked Potentials
+Hippocampus
+physiology
+Mesencephalon
+physiology
+Neural Inhibition
+Neurons
+physiology
+Rabbits
+Reaction Time
+physiology
+Reticular Formation
+physiology
+Sensation
+physiology
+Septal Nuclei
+physiology
+Septum Pellucidum
+physiology
+Synaptic Transmission
+In unanaesthetized, conscious rabbits, in unstressful conditions, the neurons of the hippocampus and septum were investigated extracellularly during the presentation of a series of varied sensory stimuli. In the normal hippocampus these stimuli evoke habituating reactions of tonic (more usually, inhibitory) type in field CA3, with the addition of 'specific' patterned, and phasic reactions in field CA1. After complete septo-hippocampal disconnection the proportion of tonic (especially, of inhibitory) reactions in the hippocampus decreases. Theta bursts in the neuronal activity are absent; reactions to repeated sensory stimuli do not habituate. After lesion of the cortical perforant path to the hippocampus the majority of reactions in both fields are of tonic type. The proportion of neurons with regular theta bursts increases. Habituation is completely absent. A high correlation appears between the sensory reactions and the effects of midbrain reticular formation stimulation in the same neurons. The combination of both lesions does not significantly change the spontaneous activity of hippocampal neurons (except for the absence of the theta bursts). An increase in the level of activity of hippocampal neurons (by physostigmine), or rhythmic stimulation of the remaining synaptic systems, does not restore their rhythmic theta activity. In the septum deprived of hippocampal input the normal level of reactivity to sensory stimuli and the normal types of reaction are preserved. The proportion of neurons with theta bursts increases. The typical linear and rapid habituation of reactions disappears and is replaced by an unlimited increment in effects during repeated presentations of sensory stimuli. Discussion concerns the synchronizing and inhibitory influences of the septum on the hippocampus, and the role of the hippocampus in the organization of decremental processes (habituation) in the septum and brainstem structures.

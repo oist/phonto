@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4911">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal theta rhythm and the firing of neurons in walking and urethane anesthetized rats.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Anesthesia</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Locomotion</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>classification</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>Urethane</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T01:55:42Z</last_update_date>
+<creation_date>2011-05-09T01:55:42Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4911</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4911" version="1.02">
+<authors><author>Fox SE</author><author>Wolfson S</author><author>Ranck JB</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>62</volume>
+<number>3</number>
+<page>495-508</page>
+<abstract>Recordings were taken from single neurons in the hippocampus and dentate gyrus of rats during walking and urethane anesthesia. Firing histograms for these cells were constructed as a function of the phase of the concurrent extracellularly recorded hippocampal slow wave theta rhythm. Care was taken to be sure of the site of recording of the theta rhythm and its phase with respect to a reliable reference, so that comparisons of the phases of firing could be made across animals. The firing of most of these neurons is deeply modulated as a function of the phase of the theta rhythm. This is true whether the theta rhythm occurs during walking or during urethane anesthesia, but for some types of cells the mean phases of firing are different in the two types of theta rhythm. During walking, pyramidal cells and interneurons in all hippocampal subregions and dentate granule cells have a maximum probability of firing near the positive peak of the theta rhythm recorded in the outer molecular layer of the dentate (dentate theta). During urethane anesthesia, the maximum firing probability for interneurons in CA1 and for dentate granule cells occurs near the negative peak of the dentate theta, while the phases of maximum firing for pyramidal cells and interneurons in CA3 and CA4 become widely distributed. The phases of maximum firing of pyramidal cells in CA1 are, if anything, more narrowly distributed around the positive peak of the dentate theta during urethane anesthesia than during walking. These differences in the firing of hippocampal cells during walking and urethane anesthesia represent some of the differences in cellular mechanisms distinguishing two kinds of hippocampal theta rhythm.</abstract>
+<pubmed_id>3720881</pubmed_id>
+</detail>
+</item>

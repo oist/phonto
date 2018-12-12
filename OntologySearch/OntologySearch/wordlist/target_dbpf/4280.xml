@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4280">
+<itemtype>xnppaper</itemtype>
+<titles><title>Imaging activity of neuronal populations with new long-wavelength voltage-sensitive dyes.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>methods</keyword>
+<keyword>Fluorescent Dyes</keyword>
+<keyword>diagnostic use</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Microscopy</keyword>
+<keyword>Fluorescence</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Organ Culture Techniques</keyword>
+<keyword>methods</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Signal Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-21T03:32:07Z</last_update_date>
+<creation_date>2010-10-21T03:32:07Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4280</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4280" version="1.02">
+<authors><author>Kee MZ</author><author>Wuskell JP</author><author>Loew LM</author><author>Augustine GJ</author><author>Sekino Y</author></authors>
+<journal>Brain cell biology</journal>
+<volume>36</volume>
+<number>5</number>
+<page>157-72</page>
+<abstract>We have assessed the utility of five new long-wavelength fluorescent voltage-sensitive dyes (VSD) for imaging the activity of populations of neurons in mouse brain slices. Although all the five were capable of detecting activity resulting from activation of the Schaffer collateral-CA1 pyramidal cell synapse, they differed significantly in their properties, most notably in the signal-to-noise ratio of the changes in dye fluorescence associated with neuronal activity. Two of these dyes, Di-2-ANBDQPQ and Di-1-APEFEQPQ, should prove particularly useful for imaging activity in brain tissue and for combining VSD imaging with the control of neuronal activity via light-activated proteins such as channelrhodopsin-2 and halorhodopsin.</abstract>
+<pubmed_id>19219551</pubmed_id>
+</detail>
+</item>

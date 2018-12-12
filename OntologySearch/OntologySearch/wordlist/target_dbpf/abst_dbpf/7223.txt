@@ -1,0 +1,42 @@
+Action Potentials
+Aminoacetonitrile
+analogs
+&
+derivatives
+Animals
+Blotting
+Western
+Butadienes
+pharmacology
+Electrophysiology
+Enzyme Inhibitors
+pharmacology
+Excitatory Postsynaptic Potentials
+drug effects
+GABA-A Receptor Antagonists
+Hippocampus
+enzymology
+metabolism
+physiology
+Long-Term Potentiation
+Mice
+Mice
+Knockout
+Mitogen-Activated Protein Kinases
+metabolism
+physiology
+Nitriles
+pharmacology
+Protease Inhibitors
+pharmacology
+Rats
+Receptors
+GABA-A
+physiology
+Receptors
+N-Methyl-D-Aspartate
+antagonists
+&
+inhibitors
+physiology
+Recent studies demonstrate a requirement for the Extracellular signal Regulated Kinase (ERK) mitogen-activated protein kinase (MAPK) cascade in both the induction of long-lasting forms of hippocampal synaptic plasticity and in hippocampus-dependent associative and spatial learning. In the present studies, we investigated mechanisms by which ERK might contribute to synaptic plasticity at Schaffer collateral synapses in hippocampal slices. We found that long-term potentiation (LTP) induced with a pair of 100-Hz tetani does not require ERK activation in mice whereas it does in rats. However, in mice, inhibition of ERK activation blocked LTP induced by two LTP induction paradigms that mimicked the endogenous theta rhythm. In an additional series of studies, we found that mice specifically deficient in the ERK1 isoform of MAPK showed no impairments in tests of hippocampal physiology. To investigate ERK-dependent mechanisms operating during LTP-inducing stimulation paradigms, we monitored spike production in the cell body layer of the hippocampus during the period of theta-like LTP-inducing stimulation. Theta-burst stimulation (TBS) produced a significant amount of postsynaptic spiking, and the likelihood of spike production increased progressively over the course of the three trains of TBS independent of any apparent increase in Excitatory Post-Synaptic Potential (EPSP) magnitude. Inhibition of ERK activation dampened this TBS-associated increase in spiking. These data indicate that, for specific patterns of stimulation, ERK may function in the regulation of neuronal excitability in hippocampal area CA1. Overall, our data indicate that the progressive increase in spiking observed during TBS represents a form of physiologic temporal integration that is dependent on ERK MAPK activity.

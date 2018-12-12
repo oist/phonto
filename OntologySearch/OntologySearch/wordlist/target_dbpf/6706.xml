@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6706">
+<itemtype>xnppaper</itemtype>
+<titles><title>Rapid consolidation and the human hippocampus: intracranial recordings confirm surface EEG.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>methods</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>methods</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Somatosensory</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:29:28Z</last_update_date>
+<creation_date>2013-02-26T07:29:28Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6706</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6706" version="1.02">
+<authors><author>Nahum L</author><author>Gabriel D</author><author>Spinelli L</author><author>Momjian S</author><author>Seeck M</author><author>Michel CM</author><author>Schnider A</author></authors>
+<journal>Hippocampus</journal>
+<volume>21</volume>
+<number>7</number>
+<page>689-93</page>
+<abstract>Diverse studies demonstrated that although immediately repeated stimuli are better and faster recognized than stimuli repeated after a delay, this comes at the price of less-efficient long-term retention. A recent-evoked potential study using source estimation of high-resolution scalp EEG indicated that while immediate repetition induced a strikingly different electrical activity than new items in the left-medial temporal lobe (MTL) after 200-300 ms, delayed repetition did not. In this study, we recorded evoked potentials in two epileptic patients with intracranial depth electrodes in diverse temporal and frontal areas as they performed the same task as in the previous study. We found that immediate repetition induced increase of neural activity specifically in the left MTL between 250 and 400 ms compared to new items and items repeated after a delay. The findings are important in two ways. First, they support our previous conclusion that novel information immediately initiates a consolidation process involving the left-hippocampal area, which remains vulnerable during active maintenance and increases its effectiveness during off-line processing. Second, they indicate that source estimation based on high-resolution scalp EEG correctly localizes the current source of electrical activity in midline structures like the MTL.</abstract>
+<pubmed_id>20865742</pubmed_id>
+</detail>
+</item>

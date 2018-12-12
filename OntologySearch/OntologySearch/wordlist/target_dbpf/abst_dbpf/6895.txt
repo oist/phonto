@@ -1,0 +1,20 @@
+Animals
+Evoked Potentials
+Hippocampus
+physiology
+Male
+Neural Inhibition
+Neural Pathways
+physiology
+Periodicity
+Raphe Nuclei
+cytology
+physiology
+Rats
+Rats
+Inbred Strains
+Septum Pellucidum
+physiology
+Serotonin
+physiology
+Extracellular single unit recordings were made in the median raphe nucleus from rats anaesthetized with urethane. Spontaneous firing as well as orthodromic and antidromic responses to stimulation of the fornix and the medial septum were studied. One hundred and twelve units (out of a total of 355) with a regular spontaneous firing rate of 0.2-3 spikes/s were classified as serotonin-containing neurons. Fifty nine of them were antidromically invaded from either the fornix or the medial septum (conduction velocity, 0.8 m/s) and 7 additional neurones from both the fornix and the medial septum. Antidromic action potentials were followed by a period of decreased probability of firing, that was already present below threshold for antidromic invasion, were proportional to the stimulation intensity and had a latency similar to orthodromic inhibition. No preferential topographical distribution within the median raphe nucleus was observed for the serotonin neurones, even those invaded antidromically. Twenty six neurones with a clear-cut anatomical location around the borders of the median raphe nucleus showed a spontaneous rhythmic activity (4-20 spikes/s) characterized by the presence of extremely prolonged silent periods (up to 5 min). Only one of these neurones was invaded antidromically from the medial septum and none from the fornix. Of the remaining non-serotonin neurones, 28 showed a very low firing rate consisting of single action potentials every 10-60 s while 189 had a spontaneous activity of 6-30 spikes/s. Regardless of their firing rate they were all antidromically invaded from the fornix and/or the medial septum and had a conduction velocity of 5 m/s. These experiments demonstrate the electrophysiological heterogeneity of the neuronal population of the median raphe nucleus, the presence of strong projections of both putative serotonin and non-serotonin neurones to the medial septum and, via the fornix, to the hippocampus, and the existence of axonal branching in both types of neurones.

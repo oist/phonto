@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7188">
+<itemtype>xnppaper</itemtype>
+<titles><title>Diabetes mellitus concomitantly facilitates the induction of long-term depression and inhibits that of long-term potentiation in hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Dendrites</keyword>
+<keyword>metabolism</keyword>
+<keyword>Diabetes Mellitus</keyword>
+<keyword>Experimental</keyword>
+<keyword>complications</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Disease Models</keyword>
+<keyword>Animal</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>metabolism</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Synaptic Depression</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory Disorders</keyword>
+<keyword>etiology</keyword>
+<keyword>metabolism</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>metabolism</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Organ Culture Techniques</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>Presynaptic Terminals</keyword>
+<keyword>metabolism</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:42:28Z</last_update_date>
+<creation_date>2013-02-27T07:42:28Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7188</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7188" version="1.02">
+<authors><author>Artola A</author><author>Kamal A</author><author>Ramakers GM</author><author>Biessels GJ</author><author>Gispen WH</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>22</volume>
+<number>1</number>
+<page>169-78</page>
+<abstract>Memory impairments, which occur regularly across species as a result of ageing, disease (such as diabetes mellitus) and psychological insults, constitute a useful area for investigating the neurobiological basis of learning and memory. Previous studies in rats found that induction of diabetes (with streptozotocin, STZ) impairs long-term potentiation (LTP) but enhances long-term depression (LTD) induced by high- (HFS) and low-frequency stimulations (LFS), respectively. Using a pairing protocol under whole-cell recording conditions to induce synaptic plasticity at Schaffer collateral synapses in hippocampal CA1 slices, we show that LTD and LTP have similar magnitudes in diabetic and age-matched control rats. But, in diabetic animals, LTD is induced at more polarized and LTP more depolarized membrane potentials (V(ms)) compared with controls: diabetes produces a 10 mV leftward shift in the threshold for LTD induction and 10 mV rightward shift in the LTD-LTP crossover point of the voltage-response curve for synaptic plasticity. Prior repeated short-term potentiations or LTP are known to similarly, though reversibly, lower the threshold for LTD induction and raise that for LTP induction. Thus, diabetes- and activity-dependent modulation of synaptic plasticity (referred to as metaplasticity) display similar phenomenologies. In addition, compared with naïve synapses, prior induction of LTP produces a 10 mV leftward shift in Vms for inducing subsequent LTD in control but not in diabetic rats. This could indicate that diabetes acts on synaptic plasticity through mechanisms involved in metaplasticity. Persistent facilitation of LTD and inhibition ofLTP may contribute to learning and memory impairments associated with diabetes mellitus.</abstract>
+<pubmed_id>16029206</pubmed_id>
+</detail>
+</item>

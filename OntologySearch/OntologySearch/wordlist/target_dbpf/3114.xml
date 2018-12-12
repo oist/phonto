@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3114">
+<itemtype>xnppaper</itemtype>
+<titles><title>Learning induces long-term potentiation in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-03-05T07:15:09Z</last_update_date>
+<creation_date>2010-03-05T07:15:09Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3114</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3114" version="1.02">
+<authors><author>Whitlock JR</author><author>Heynen AJ</author><author>Shuler MG</author><author>Bear MF</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>313</volume>
+<number>5790</number>
+<page>1093-7</page>
+<abstract>Years of intensive investigation have yielded a sophisticated understanding of long-term potentiation (LTP) induced in hippocampal area CA1 by high-frequency stimulation (HFS). These efforts have been motivated by the belief that similar synaptic modifications occur during memory formation, but it has never been shown that learning actually induces LTP in CA1. We found that one-trial inhibitory avoidance learning in rats produced the same changes in hippocampal glutamate receptors as induction of LTP with HFS and caused a spatially restricted increase in the amplitude of evoked synaptic transmission in CA1 in vivo. Because the learning-induced synaptic potentiation occluded HFS-induced LTP, we conclude that inhibitory avoidance training induces LTP in CA1.</abstract>
+<pubmed_id>16931756</pubmed_id>
+</detail>
+</item>

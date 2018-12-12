@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6609">
+<itemtype>xnppaper</itemtype>
+<titles><title>Perception and conception: temporal lobe activity during complex discriminations of familiar and novel faces and objects.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Concept Formation</keyword>
+<keyword>physiology</keyword>
+<keyword>Discrimination (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Face</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Male</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Oxygen</keyword>
+<keyword>blood</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:08:06Z</last_update_date>
+<creation_date>2013-02-26T06:08:06Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6609</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6609" version="1.02">
+<authors><author>Barense MD</author><author>Henson RN</author><author>Graham KS</author></authors>
+<journal>Journal of cognitive neuroscience</journal>
+<volume>23</volume>
+<number>10</number>
+<page>3052-67</page>
+<abstract>Recent studies indicate that medial-temporal lobe (MTL) damage, either from focal lesions or neurodegenerative disease (e.g., semantic dementia), impairs perception as well as long-term declarative memory. Notably, however, these two patient groups show different performance for meaningful versus unfamiliar stimuli. In amnesics with nonprogressive MTL lesions, the use of meaningful stimuli, compared with unfamiliar items, boosted discrimination performance. In semantic dementia, a condition characterized by progressive deterioration of conceptual knowledge in the context of anterolateral temporal lobe damage, performance for meaningful stimuli was equivalent to that for unfamiliar items. To further investigate these findings, we scanned healthy volunteers while they performed odd-one-out discriminations involving familiar (i.e., meaningful/famous) and unfamiliar (i.e., novel) objects and faces and a baseline task of size oddity. Outside the scanner, volunteers&#039; recognition memory was assessed. We found above baseline activity in the perirhinal cortex and hippocampus for all object and face discriminations and above baseline activity in the temporal pole for all face discriminations. The comparison of meaningful, relative to novel, faces and objects, revealed increased activity in the perirhinal cortex and hippocampus. In the temporal pole, we also found activity related to meaningfulness for faces but not for objects. Importantly, these meaningfulness effects were evident even for discriminations that were not subsequently well remembered, suggesting that the difference between meaningful and novel stimuli reflects perceptual or conceptual processes rather than solely incidental encoding into long-term memory. The results provide further evidence that the MTL is recruited during complex perceptual discrimination and additionally suggest that these structures are recruited in semantic processing of objects and faces.</abstract>
+<pubmed_id>21391761</pubmed_id>
+</detail>
+</item>

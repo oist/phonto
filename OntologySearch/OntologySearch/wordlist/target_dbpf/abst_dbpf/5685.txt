@@ -1,0 +1,42 @@
+Amino Acid Substitution
+Animals
+Brain
+physiology
+COS Cells
+Calcium-Calmodulin-Dependent Protein Kinase Type 4
+Calcium-Calmodulin-Dependent Protein Kinases
+chemistry
+genetics
+metabolism
+Cercopithecus aethiops
+Cyclic AMP Response Element-Binding Protein
+metabolism
+Electric Stimulation
+Excitatory Postsynaptic Potentials
+physiology
+Hippocampus
+physiology
+In Situ Hybridization
+Luciferases
+genetics
+Maze Learning
+physiology
+Memory
+physiology
+Mice
+Mice
+Transgenic
+Mutagenesis
+Site-Directed
+Neuronal Plasticity
+Neurons
+physiology
+Prosencephalon
+physiology
+Recombinant Proteins
+chemistry
+metabolism
+Signal Transduction
+physiology
+Transfection
+Calcium/calmodulin-dependent protein kinase IV (CaMKIV) has been implicated in the regulation of CRE-dependent transcription. To investigate the role of this kinase in neuronal plasticity and memory, we generated transgenic mice in which the expression of a dominant-negative form of CaMKIV (dnCaMKIV) is restricted to the postnatal forebrain. In these transgenic mice, activity-induced CREB phosphorylation and c-Fos expression were significantly attenuated. Hippocampal late LTP (L-LTP) was also impaired, whereas basic synaptic function and early LTP (E-LTP) were unaffected. These deficits correlated with impairments in long-term memory, specifically in its consolidation/retention phase but not in the acquisition phase. These results indicate that neural activity-dependent CaMKIV signaling in the neuronal nucleus plays an important role in the consolidation/retention of hippocampus-dependent long-term memory.

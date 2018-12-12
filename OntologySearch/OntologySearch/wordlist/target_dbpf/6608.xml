@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6608">
+<itemtype>xnppaper</itemtype>
+<titles><title>Novelty responses to relational and non-relational information in the hippocampus and the parahippocampal region: a comparison based on event-related fMRI.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Exploratory Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:06:31Z</last_update_date>
+<creation_date>2013-02-26T06:06:31Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6608</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6608" version="1.02">
+<authors><author>Köhler S</author><author>Danckert S</author><author>Gati JS</author><author>Menon RS</author></authors>
+<journal>Hippocampus</journal>
+<volume>15</volume>
+<number>6</number>
+<page>763-74</page>
+<abstract>We conducted two functional magnetic resonance imaging (fMRI) experiments that examined novelty responses in the human medial temporal lobe (MTL) to determine whether the hippocampus makes contributions to memory processing that differ from those of structures in the adjacent parahippocampal region. In light of proposals that such differential contributions may pertain to relational processing demands, we assessed event-related fMRI responses in the MTL for novel single objects and for novel spatial and non-spatial object relationships; subjects were asked to detect these different types of novelties among previously studied items, and they successfully performed this task during scanning. A double dissociation that emerged from the response pattern of regions in the hippocampus and perirhinal cortex provided the strongest support for functional specialization in the MTL. A region in the right middle hippocampus responded to the novelty of spatial and non-spatial relationships but not to the novelty of individual objects. By contrast, a region in right perirhinal cortex, situated in the anterior collateral sulcus, responded to the novelty of individual objects but not to that of either type of relationship. Other MTL regions that responded to novelty in the present study showed no reliable difference in their response to the various novelty types; these regions included anterior parts of the hippocampus and posterior aspects of parahippocampal cortex. Together, our findings indicate that relational processing demands are a critical determinant of functional specialization in the human MTL. They also suggest, however, that a neuroanatomical framework that only distinguishes between the hippocampus and the parahippocampal region is not sufficiently refined to account for all functional differences and similarities observed with respect to relational processes in the human MTL.</abstract>
+<pubmed_id>15999342</pubmed_id>
+</detail>
+</item>

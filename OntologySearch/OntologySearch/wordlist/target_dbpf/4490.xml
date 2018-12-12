@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4490">
+<itemtype>xnppaper</itemtype>
+<titles><title>Bridging the gap: integrating cellular and functional magnetic resonance imaging studies of the hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Computational Biology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T04:14:31Z</last_update_date>
+<creation_date>2011-01-28T04:14:31Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4490</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4490" version="1.02">
+<authors><author>Stern CE</author><author>Hasselmo ME</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>1</number>
+<page>45-53</page>
+<abstract>The importance of the medial temporal lobe in memory has been studied extensively at the neuronal, neural ensemble, and systems level. In this report, we discuss recent systems level neuroimaging results in relation to neurophysiological studies of the hippocampus and related structures within the medial temporal lobe. By combining our knowledge across the cellular and systems levels we sought to gain theoretical insight and a better understanding of the function of the hippocampus and related medial temporal lobe structures. The integration of information from studies carried out at the cellular and neural ensemble level with studies at the systems level is difficult because of the vast differences in spatial and temporal resolution of the different research methodologies, differences in neuroanatomy across species, and differences in the types of behavioral and cognitive paradigms used in rat, nonhuman primate, and human studies. Despite these methodological and species-related differences, the neurophysiological studies offer insight into many of the questions raised by recent neuroimaging studies. For instance, there is physiological evidence that suggests that the hippocampal memory system is functionally heterogeneous, which may explain some of the discrepancies in the location and extent of activation reported by different imaging studies of the medial temporal lobe. In addition, we describe recent computational models of the hippocampus which may be useful for bridging the gap between neurophysiological and neuroimaging data.</abstract>
+<pubmed_id>10088899</pubmed_id>
+</detail>
+</item>

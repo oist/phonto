@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1031">
+<itemtype>xnppaper</itemtype>
+<titles><title>Kindling-like stimulus patterns induce epileptiform discharges in the guinea pig in vitro hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-22T06:47:19Z</last_update_date>
+<creation_date>2008-07-22T06:47:19Z</creation_date>
+<publication_year>1985</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1031</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1031" version="1.02">
+<authors><author>Slater NT</author><author>Stelzer A</author><author>Galvan M</author></authors>
+<journal>Neuroscience letters</journal>
+<volume>60</volume>
+<number>1</number>
+<page>25-31</page>
+<abstract>In the guinea pig in vitro hippocampal slice preparation, we have demonstrated that the repeated tetanic stimulation of the Schaffer collateral-commissural input to CA1 pyramidal neurones produces a progressive increase in the amplitude and duration of postsynaptic potentials, and stimulus-induced and spontaneous paroxysmal depolarization shifts (PDSs). Both the enhancement of synaptic transmission and the genesis of PDSs were reversibly blocked by the N-methyl-D-aspartate (NMDA) receptor antagonist (+/-)-2-amino-5-phosphonovalerate (APV). These results provide evidence that progressive, stimulation-induced long-term potentiation may serve as the trigger for kindling-induced epileptogenesis, and this process is dependent on the repeated activation of an APV-sensitive receptor.</abstract>
+<pubmed_id> 2865705 </pubmed_id>
+</detail>
+</item>

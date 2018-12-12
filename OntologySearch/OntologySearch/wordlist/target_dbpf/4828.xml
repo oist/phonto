@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4828">
+<itemtype>xnppaper</itemtype>
+<titles><title>Models of synchronized hippocampal bursts in the presence of inhibition. I. Single population events.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Axons</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Conduction</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T06:04:56Z</last_update_date>
+<creation_date>2011-04-28T06:04:56Z</creation_date>
+<publication_year>1987</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4828</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4828" version="1.02">
+<authors><author>Traub RD</author><author>Miles R</author><author>Wong RK</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>58</volume>
+<number>4</number>
+<page>739-51</page>
+<abstract>1. We constructed model networks with 520 or 1,020 cells intended to represent the CA3 region of the hippocampus. Model neurons were simulated in enough detail to reproduce intrinsic bursting and the electrotonic flow of currents along dendritic cables. Neurons exerted either excitatory or inhibitory postsynaptic actions on other cells. The network models were simulated with different levels of excitatory and inhibitory synaptic strengths in order to study epileptic and other interesting collective behaviors in the system. 2. Excitatory synapses between neurons in the network were powerful enough so that burst firing in a presynaptic neuron would evoke bursting in its connected cells. Since orthodromic or antidromic stimulation evokes both a fast and a slow phase of inhibition, two types of inhibitory cells were simulated. The properties of these inhibitory cells were modeled to resemble those of two types of inhibitory cells characterized by dual intracellular recordings in the slice preparation. 3. With fast inhibition totally blocked, a stimulus to a single cell lead to a synchronized population burst. Thus the principles of our epileptic synchronization model, developed earlier, apply even when slow inhibitory postsynaptic potentials (IPSPs) are present, as apparently occurs in the epileptic hippocampal slice. The model performs in this way because bursting can propagate through several generations in the network before slow inhibition builds up enough to block burst propagation. This can occur, however, only if connectivity is sufficiently large. With very low connection densities, slow IPSPs will prevent the development of full synchronization. 4. We performed multiple simulations in which the fast inhibitory conductance strength was kept fixed at various levels while the strength of the excitatory synapses was varied. In each simulation, we stimulated either one or four cells. For each level of inhibition, the peak number of cells bursting depended sensitively on excitatory synaptic strength, showing a sudden increase as this strength reached a critical level. The critical excitation, which depended on the level of inhibition, corresponded to the level at which bursting can propagate from cell to cell at the particular level of inhibition. 5. We performed an analogous series of simulations in which the strength of excitatory synapses was held constant while the strength of fast inhibitory synapses was varied, stimulating a single neuron in each case. These simulations correspond to experiments that have been done in the hippocampal slice as low doses of picrotoxin are washed into a slice, gradually abolishing fast inhibition.(ABSTRACT TRUNCATED AT 400 WORDS)</abstract>
+<pubmed_id>3681392</pubmed_id>
+</detail>
+</item>

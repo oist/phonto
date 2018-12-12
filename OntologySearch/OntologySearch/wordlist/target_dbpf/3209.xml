@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3209">
+<itemtype>xnppaper</itemtype>
+<titles><title>Glutamatergic propagation of GABAergic seizure-like afterdischarge in the hippocampus in vitro.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-03-10T07:54:51Z</last_update_date>
+<creation_date>2010-03-10T07:54:51Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3209</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3209" version="1.02">
+<authors><author>Isomura Y</author><author>Fujiwara-Tsukamoto Y</author><author>Takada M</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>90</volume>
+<number>4</number>
+<page>2746-51</page>
+<abstract>Previous investigations have suggested that GABA may act actively as an excitatory mediator in the generation of seizure-like (ictal) or interictal epileptiform activity in several experimental models of temporal lobe epilepsy. However, it remains to be known whether or not such GABAergic excitation may participate in seizure propagation into neighboring cortical regions. In our in vitro study using mature rat hippocampal slices, we examined the cellular mechanism underlying synchronous propagation of seizure-like afterdischarge in the CA1 region, which is driven by depolarizing GABAergic transmission, into the adjacent subiculum region. Tetanically induced seizure-like afterdischarge was always preceded by a GABAergic, slow posttetanic depolarization in the pyramidal cells of the original seizure-generating region. In contrast, the slow posttetanic depolarization was no longer observed in the subicular pyramidal cells when the afterdischarge was induced in the CA1 region. Surgical cutting of axonal pathways through the stratum oriens and the alveus between the CA1 and the subiculum region abolished the CA1-generated afterdischarge in the subicular pyramidal cells. Intracellular loading of fluoride ions, a GABAA receptor blocker, into single subicular pyramidal cells had no inhibitory effect on the CA1-generated afterdischarge in the pyramidal cells. Furthermore, the CA1-generated afterdischarge in the subicular pyramidal cells was largely depressed by local application of glutamate receptor antagonists to the subiculum region during afterdischarge generation. The present results indicate that the excitatory GABAergic generation of seizure-like activity seems to be restricted to epileptogenic foci of origin in the seizure-like epilepsy model in vitro.</abstract>
+<pubmed_id>14534277</pubmed_id>
+</detail>
+</item>

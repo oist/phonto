@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="878">
+<itemtype>xnppaper</itemtype>
+<titles><title>Interdependence of multiple theta generators in the hippocampus: a partial coherence analysis.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-16T03:20:32Z</last_update_date>
+<creation_date>2008-07-16T03:20:32Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=878</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="878" version="1.02">
+<authors><author>Kocsis B</author><author>Bragin A</author><author>Buzsáki G</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>19</volume>
+<number>14</number>
+<page>6200-12</page>
+<abstract>The extracellularly recorded theta oscillation reflects a dynamic interaction of various synaptic and cellular mechanisms. Because the spatially overlapping dipoles responsible for the generation of theta field oscillation may represent different mechanisms, their separation might provide clues with regard to their origin and significance. We used a novel approach, partial coherence analysis, to reveal the various components of the theta rhythm and the relationship among its generators. Hippocampal field activity was recorded by a 16-site silicon probe in the CA1-dentate gyrus axis of the awake rat. Field patterns, recorded from various intrahippocampal or entorhinal cortex sites, were used to remove activity caused by a common source by the partialization procedure. The findings revealed highly coherent coupling between theta signals recorded (1) from the hippocampal fissure and stratum (str.) oriens of the CA1 region and (2) between CA1 stratum radiatum and the dentate molecular layer. The results of partial coherence analysis indicated that rhythmic input from the entorhinal cortex explained theta coherence between signals recorded from the hippocampal fissure and str. oriens but not the coherence between signals derived from str. radiatum and the dentate molecular layer. After bilateral lesions of the entorhinal cortex, all signals recorded from both below and above the CA1 hippocampal pyramidal cell layer became highly coherent. These observations indicate the presence of two, relatively independent, theta generators in the hippocampus, which are mediated by the entorhinal cortex and the CA3-mossy cell recurrent circuitry, respectively. The CA3-mossy cell theta generator is partially suppressed by the dentate gyrus interneuronal output in the intact brain. We suggest that timing of the action potentials of pyramidal cells during the theta cycle is determined by the cooperation between the active CA3 neurons and the entorhinal input.</abstract>
+<pubmed_id>10407056</pubmed_id>
+</detail>
+</item>

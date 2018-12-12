@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4598">
+<itemtype>xnppaper</itemtype>
+<titles><title>Automated analysis of rhythmicity of physiologically identified hippocampal formation neurons.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Computers</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Forelimb</keyword>
+<keyword>innervation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Hypothalamus</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rabbits</keyword>
+<keyword>Recruitment</keyword>
+<keyword>Neurophysiological</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>Touch</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-03T02:27:13Z</last_update_date>
+<creation_date>2011-02-03T02:27:13Z</creation_date>
+<publication_year>1980</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4598</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4598" version="1.02">
+<authors><author>Bland BH</author><author>Andersen P</author><author>Ganes T</author><author>Sveen O</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>38</volume>
+<number>2</number>
+<page>205-19</page>
+<abstract></abstract>
+<pubmed_id>7358104</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6621">
+<itemtype>xnppaper</itemtype>
+<titles><title>Prestimulus hippocampal activity predicts later recollection.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Auditory Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Cues</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+<keyword>Visual Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:21:11Z</last_update_date>
+<creation_date>2013-02-26T06:21:11Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6621</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6621" version="1.02">
+<authors><author>Park H</author><author>Rugg MD</author></authors>
+<journal>Hippocampus</journal>
+<volume>20</volume>
+<number>1</number>
+<page>24-8</page>
+<abstract>Functional magnetic resonance imaging (fMRI) was used to address the question whether medial temporal lobe (MTL) activity prior to a stimulus event is predictive of whether the event will be successfully encoded in an incidental study task. Participants were scanned while making pleasantness judgments on words presented either in written or spoken form. A cue presented at a variable interval before the onset of each word signaled the modality of the upcoming item. Following the study phase, a surprise recognition memory test was administered that required items to be endorsed as&quot;Remembered,&quot;&quot;Known,&quot;or&quot;New.&quot;Activity in the MTL, including the hippocampus, differed during the cue-item interval according to whether the item was later endorsed as Remembered rather than judged as Known or New. Thus, the level of hippocampal activity prior to the onset of an event predicts whether the event will be successfully encoded into episodic memory.</abstract>
+<pubmed_id>19499585</pubmed_id>
+</detail>
+</item>

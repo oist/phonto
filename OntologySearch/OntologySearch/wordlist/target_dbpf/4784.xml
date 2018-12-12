@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4784">
+<itemtype>xnppaper</itemtype>
+<titles><title>Ionic mechanisms of cholinergic excitation in mammalian hippocampal pyramidal cells.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Acetylcholine</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Barium</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Calcium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cholinergic Fibers</keyword>
+<keyword>physiology</keyword>
+<keyword>Culture Techniques</keyword>
+<keyword>Guinea Pigs</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Ion Channels</keyword>
+<keyword>physiology</keyword>
+<keyword>Manganese</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Potassium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Receptors</keyword>
+<keyword>Muscarinic</keyword>
+<keyword>physiology</keyword>
+<keyword>Sodium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+<keyword>Tetrodotoxin</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:48:52Z</last_update_date>
+<creation_date>2011-04-28T04:48:52Z</creation_date>
+<publication_year>1982</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4784</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4784" version="1.02">
+<authors><author>Benardo LS</author><author>Prince DA</author></authors>
+<journal>Brain research</journal>
+<volume>249</volume>
+<number>2</number>
+<page>333-44</page>
+<abstract>Intracellular recordings from CA1 hippocampal pyramidal neurons were obtained using the in vitro hippocampal slice preparation. Responses to ACh were monitored in the presence of blockers of voltage-dependent conductances including Mn2+, TTX and Ba2+. When Mn2+ was used to block voltage-dependent Ca conductance and possible indirect presynaptic cholinergic actions, ACh still induced a significant voltage-sensitive increase in apparent input resistance (Ra) (29%), but only an insignificant depolarization of membrane potential (Vm). When both voltage-dependent Ca and Na conductances were blocked by application of Mn2+ and TTX, respectively, ACh produced voltage-dependent increases in Ra (31%) without significant depolarization. In solutions containing TTX alone, ACh produced voltage-sensitive increases in Ra (32%) as well as a significant depolarization (6.2 +/- 3.1 mV (S.D.)). ACh transiently blocked the conductance increase which followed presumed Ca spikes, suggesting an action on the Ca-activated K-dependent conductance. The effects of Ba2+ application (100-200 microM) on Ra mimicked those of ACh. When ACh was applied to neurons in the presence of Ba2+, Ra remained unchanged, although Vm depolarization of 5-15 mV was still seen. The data indicate that ACh decreases both a voltage-dependent K conductance (distinct from that of the delayed rectifier) and a Ca-activated K conductance. Muscarinic cholinergic depolarization occurs as a result of blockade of K conductance, and is mediated by voltage-dependent Ca and Na conductances, and perhaps by presynaptic actions.</abstract>
+<pubmed_id>6291716</pubmed_id>
+</detail>
+</item>

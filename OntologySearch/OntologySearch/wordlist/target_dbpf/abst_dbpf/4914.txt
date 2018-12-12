@@ -1,0 +1,14 @@
+Animals
+Electroencephalography
+Hippocampus
+physiology
+Membrane Potentials
+Neural Inhibition
+Rats
+Rats
+Inbred Strains
+Synapses
+physiology
+Synaptic Transmission
+Theta Rhythm
+In the urethane-anesthetized rat, intracellular recordings from hippocampal CA1 cells, some of them identified as projection (probably pyramidal) cells, showed oscillations of the resting membrane potential in the theta frequency range ('intracellular theta rhythm') which is phase-locked to the extracellularly recorded theta rhythm. Current injection or acetate ion diffusion, which reversed an inhibitory postsynaptic potential (IPSP) evoked by alvear stimulation, inverted the phase relationship between intracellular and extracellular theta rhythms. A high correlation was also found between amplitudes of the intracellular theta and the evoked IPSP at different membrane potentials. These results indicate that hippocampal theta rhythm in the urethane-anesthetized rat is predominantly caused by a rhythmic modulation of impinging IPSPs on pyramidal cells.

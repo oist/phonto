@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4848">
+<itemtype>xnppaper</itemtype>
+<titles><title>Spatial mapping takes time.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animal Feed</keyword>
+<keyword>Animals</keyword>
+<keyword>Biological Evolution</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Operant</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>injuries</keyword>
+<keyword>pathology</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>Regression Analysis</keyword>
+<keyword>Reward</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T01:56:03Z</last_update_date>
+<creation_date>2011-05-02T01:56:03Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4848</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4848" version="1.02">
+<authors><author>Whishaw IQ</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>2</number>
+<page>122-30</page>
+<abstract>The experiment tested the prediction that spatial mapping takes time and asked whether time use is reflected in the overt behavior of a performing animal. The study examines this question by exploiting the expected behavioral differences of control rats and rats with hippocampal formation damage induced with fimbria-fornix (FF) lesions on a spatial navigation task. Previous studies have shown that control rats use a mapping strategy, in which they use the relative positions of environmental cues to reach places in space, whereas FF rats use a cue-based strategy, in which they are guided by a single cue or their own body orientation. Therefore, control and FF rats were overtrained on a complex foraging task in which they left a burrow to retrieve eight food pellets hidden around the perimeter of a circular table. The control rats retrieved the food pellets in order of their distance from the burrow, took direct routes to the food, and made few errors, all of which suggested they used a spatial strategy. The FF rats were less likely to retrieve food as a function of its distance, took a circular path around the perimeter of the table, and made many errors, suggesting they used a cue-based strategy. Despite taking shorter routes than the FF rats, the control rats had proportionally slower response speeds. Their slow response speeds support the hypothesis that spatial mapping takes time and that mapping time is reflected in behavior. The results are discussed in relation to their relevance to spatial mapping theory, hippocampal function, and the evolution of foraging strategies.</abstract>
+<pubmed_id>9572718</pubmed_id>
+</detail>
+</item>

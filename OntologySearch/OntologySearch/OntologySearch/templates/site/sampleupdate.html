@@ -1,0 +1,310 @@
+
+{% extends "site/base.tpl.html" %}
+
+{%load static %}
+
+{% load i18n %}
+
+{% block extrajs %}
+{% endblock %} {# end of extrajs block #}
+
+{% block handstyle %}
+<style type="text/css">
+<!--
+html body *{
+	font-family: "Meiryo UI","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+	font-size:12px;
+}
+#debug{
+position:absolute;
+bottom:0px;
+border: 1px solid gray
+}
+
+/* css for each class */
+.floatleft{float:left;}
+.clearboth{clear:both;}
+.pagetitle{
+	font-size:16px;
+	font-weight:bold;
+	padding-left:1%;
+	padding-top:8px;
+	height:32px;
+}
+.title , .resulttitle{
+	font-size:14px;
+	margin-bottom:4px;
+}
+.toggleul li{
+	margin:5px;
+}
+.togglecode{
+	background-color:#eeeeee;
+}
+.togglecode.hidden{
+	display:none;
+}
+.toggleul .pointer{
+	cursor:pointer;
+}
+#tabs ul{
+	padding:2px;
+	padding-left:10px;
+	list-style-type: none;
+}
+#tabs ul li{
+	padding:2px;
+	padding-left:10px;
+}
+#usertable{
+	margin-left:10px;
+}
+-->
+</style>
+<link type="text/css" rel="stylesheet" href="{% static 'js/syntaxhighlighter_3.0.83/styles/shCore.css' %}" />
+<!--
+<link type="text/css" rel="stylesheet" href="{% static 'js/syntaxhighlighter_3.0.83/styles/shThemeDjango.css' %}" />
+-->
+<link type="text/css" rel="stylesheet" href="{% static 'js/syntaxhighlighter_3.0.83/styles/shThemeDefault.css' %}" />
+{% endblock %}{# end of handstyle block #}
+
+{% block handscript %}
+<script type="text/javascript" src="{% static 'js/md5/md5.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/syntaxhighlighter_3.0.83/scripts/shCore.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/syntaxhighlighter_3.0.83/scripts/shBrushPhp.js' %}"></script>
+<script type="text/javascript">
+<!--
+	var pretext="";
+	var pretext_s="";
+	var prefixes={};
+	var myhost = "{{myhost}}"
+	$(document).ready(function(){
+
+		$.ajaxSetup( {data: {
+		    csrfmiddlewaretoken: '{{ csrf_token }}'
+		}});
+
+		SyntaxHighlighter.config.clipboardSwf = "{% static 'js/syntaxhighlighter_3.0.83/scripts/clipboard.swf'%}";
+		SyntaxHighlighter.all();
+
+	});
+
+	//get token
+	function test_gettoken(){
+		$("#testres").html("");
+
+		var uname = $("#username").val();
+		var pwd = MD5_hexhash($("#userpass").val())
+		var targ = $("#targetdb").val();
+		var param = {
+				  "username": uname
+				 ,"password": pwd
+				 ,"dbname": targ
+		};
+		request({
+			 "url"     :"apps/gettoken"
+			,"pars"    :param
+			,"type"    :"POST"
+			,"complete":function(msg){
+				aftertoken(msg)
+			 }
+		});
+	}
+
+
+	function aftertoken(msg){
+		var res={};
+		eval("res=" + msg.responseText);
+		var result={};
+		if(res && res.payload){
+			result= res.payload;
+		}
+		$("#testres").html(toJSONString(res));
+
+		if(result.token){
+			$(".sampletoken").hide();
+			var token = result.token
+			$("#a_updatemodel")
+				.attr("href","apps/updatemodel/testdb/1/model1/"+ token)
+				.html(myhost + "apps/updatemodel/testdb/1/model1/"+ token);
+
+			$("#a_deletemodel")
+				.attr("href","apps/deletemodel/testdb/1/"+ token)
+				.html(myhost + "apps/deletemodel/testdb/1/"+ token);
+
+			$("#a_insertkeyword")
+				.attr("href","apps/insertkeyword/testdb/1/signaling/"+ token)
+				.html(myhost + "apps/insertkeyword/testdb/1/signaling/"+ token);
+
+			$("#a_deletekeyword")
+				.attr("href","apps/deletekeyword/testdb/1/signaling/"+ token)
+				.html(myhost + "apps/deletekeyword/testdb/1/signaling/"+ token);
+
+			$("#a_modellist")
+				.attr("href","apps/modellist/testdb/"+ token)
+				.html(myhost + "apps/modellist/testdb/"+ token);
+
+			$("#a_keywordlist")
+				.attr("href","apps/keywordlist/testdb/1/"+ token)
+				.html(myhost + "apps/keywordlist/testdb/1/"+ token);
+		}
+
+	}
+
+	function toggleBlock(id){
+
+		$("#"+id + " .togglecode").toggleClass("hidden");
+	}
+
+//-->
+</script>
+{% endblock %} {# end of handscript block #}
+
+{% block header %}
+<div>
+	<div class="pagetitle">Model/Keyword update sample</div>
+</div>
+{% endblock %} {# end of header block #}
+
+
+{% block content %}
+<br>
+<div style="padding:10px;" id="tabs">
+	<div class="title"><span style="font-size:14px;"><b>Auth</b></span></div>
+	<table id="usertable">
+		<tbody>
+			<tr>
+				<td>User name</td>
+				<td><input type="text" id="username" value="test" readonly>(read only)</td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" id="userpass" value="testpass" readonly>(read only)</td>
+			</tr>
+			<tr>
+				<td>Target DB</td>
+				<td><input type="text" id="targetdb" value="testdb" readonly>(read only)</td>
+			</tr>
+		</tbody>
+	</table>
+	<button onclick="test_gettoken();">Get token</button>
+	<ul><b>Get token architecture</b>
+		<ul><b>Url</b>
+			<li>{{myhost}}apps/gettoken/{dbname}/{username}/{password}</li>
+		</ul>
+		<ul><b>Parameters</b>
+			<li>"username" : user name</li>
+			<li>"password" : password (MD5 encrypted)</li>
+			<li>"dbname"   : target DB</li>
+		</ul>
+		<ul><b>Return as json</b>
+			<li id="testres">{...}</li>
+		</ul>
+	</ul>
+	<hr>
+	<ul><b>Apis (enabled after got token)</b>
+		<li>{{myhost}}apps/updatemodelname/{dbname}/{modelid}/{modelname}/{token}  --  insert or update Model-Information  (return as json)</li>
+		<li>{{myhost}}apps/deletemodel/{dbname}/{modelid}/{token}  --  delete Model-Information and related keyword</li>
+		<li>{{myhost}}apps/insertkeyword/{dbname}/{modelid}/{keyword}/{token}  --  insert keyword for 1 model</li>
+		<li>{{myhost}}apps/deletekeyword/{dbname}/{modelid}/{keyword}/{token}  --  delete keyword for 1 model</li>
+		<li>{{myhost}}apps/modellist/{dbname}/{token}  -- get model list</li>
+		<li>{{myhost}}apps/keywordlist/{dbname}/{modelid}/{token}  -- get keyword list</li>
+	</ul>
+	<ul  id="hrefs"><b>Api Examples</b>
+		<li><a id="a_updatemodel" target="_blank" href="apps/updatemodel/testdb/1/model1">{{myhost}}apps/updatemodelname/testdb/1/model1</a><span class="sampletoken">/{need token}</span></li>
+		<li><a id="a_deletemodel" target="_blank" href="apps/deletemodel/testdb/1">{{myhost}}apps/deletemodel/testdb/1</a><span class="sampletoken">/{need token}</span></li>
+		<li><a id="a_insertkeyword" target="_blank" href="apps/insertkeyword/testdb/1/signaling">{{myhost}}apps/insertkeyword/testdb/1/signaling</a><span class="sampletoken">/{need token}</span></li>
+		<li><a id="a_deletekeyword" target="_blank" href="apps/deletekeyword/testdb/1/signaling">{{myhost}}apps/deletekeyword/testdb/1/signaling</a><span class="sampletoken">/{need token}</span></li>
+		<li><a id="a_modellist" target="_blank" href="apps/modellist/testdb">{{myhost}}apps/modellist/testdb</a><span class="sampletoken">/{need token}</span></li>
+		<li><a id="a_keywordlist" target="_blank" href="apps/keywordlist/testdb/1">{{myhost}}apps/keywordlist/testdb/1</a><span class="sampletoken">/{need token}</span></li>
+	</ul>
+	<hr>
+	<ul><b>Page</b>
+		<li><a href="search/testdb/" target="_blank">testdb Search</a></li>
+	</ul>
+	<hr>
+	<ul><b>Source code sample</b>
+		<ul id="phpcode" class="toggleul"><span class="pointer" onclick="toggleBlock('phpcode');"><b><i>php</i></b></span>
+			<li class="togglecode hidden">...</li>
+			<li class="togglecode"><pre class="brush: php;">
+&lt;?php
+### get token
+
+# set target DataBase Name
+$dbname   = 'testDB';
+
+# set user name
+$username = 'test';
+
+# set password text
+$password = 'testpassword';
+
+# encrypt password text
+$encpass = md5($password);
+
+# make url
+# http://phonto.unit.oist.jp/apps/gettoken/{dbname}/{username}/{encrypted password}
+$baseurl = "http://phonto.unit.oist.jp/apps/";
+$url = $baseurl."gettoken/".$dbname."/".$username."/".$encpass;
+
+# connect to get token
+#
+# if scceed, response should be like...
+# {"header":{"status":200,"message":"Success"},"payload":{"token":"xzgiAgJaD_6UDf2xRZ1n","expiredate":"2015/10/09 17:34"}}
+#
+# fail massage would be like...
+# {"header":{"status":403,"message":"Forbidden"},"payload":{}}
+$responsetext = file_get_contents($url);
+# json decode
+$contents = json_decode ($responsetext);
+
+# token value is set at $contents->payload->token
+$token = $contents->payload->token;
+
+
+# after you got token,
+# you can update Model/Keyword info in database.
+
+### delete model
+$modelid = "2";
+$url = $baseurl."deletemodel/".$dbname."/".$modelid."/".$modelname."/".$token;
+$responsetext = file_get_contents($url);
+
+### insert new modelname
+$modelname = "your modelname";
+# modelname and keyword need urlencoding
+$modelname = rawurlencode($modelname);
+$url = $baseurl."updatemodelname/".$dbname."/".$modelid."/".$modelname."/".$token;
+$responsetext = file_get_contents($url);
+
+# insert keyword
+# keyword has to be in ontology  , you can check at http://phonto.unit.oist.jp/ontology
+$keyword = "Astrocyte";
+$keyword = rawurlencode($keyword);
+$url = $baseurl."insertkeyword/".$dbname."/".$modelid."/".$keyword."/".$token;
+$responsetext = file_get_contents($url);
+
+### get model list
+$url = $baseurl."modellist/".$dbname."/".$token;
+$responsetext = file_get_contents($url);
+
+
+echo $responsetext;
+
+?>
+			</pre></li>
+		</ul>
+<!--
+		<ul id="javacode" class="toggleul"><span class="pointer" onclick="toggleBlock('javacode');"><b><i>java</i></b></span>
+			<li class="togglecode">...</li>
+			<li class="togglecode hidden"><pre><code>
+			preparing now.
+			</code></pre></li>
+		</ul>
+-->
+	</ul>
+</div>
+
+{% endblock %} {# end of content block #}
+
+

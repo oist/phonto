@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5499">
+<itemtype>xnppaper</itemtype>
+<titles><title>Comparison of two forms of long-term potentiation in single hippocampal neurons.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Egtazic Acid</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Fluorides</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Guinea Pigs</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Microelectrodes</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:33:00Z</last_update_date>
+<creation_date>2011-06-14T00:33:00Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5499</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5499" version="1.02">
+<authors><author>Zalutsky RA</author><author>Nicoll RA</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>248</volume>
+<number>4963</number>
+<page>1619-24</page>
+<abstract>In invertebrate nervous systems, some long-lasting increases in synaptic efficacy result from changes in the presynaptic cell. In the vertebrate nervous system, the best understood long-lasting change in synaptic strength is long-term potentiation (LTP) in the CA1 region of the hippocampus. Here the process is initiated postsynaptically, but the site of the persistent change is unresolved. Single CA3 hippocampal pyramidal cells receive excitatory inputs from associational-commissural fibers and from the mossy fibers of dentate granule cells and both pathways exhibit LTP. Although the induction of associational-commissural LTP requires in the postsynaptic cell N-methyl-D-aspartate (NMDA) receptor activation, membrane depolarization, and a rise in calcium, mossy fiber LTP does not. Paired-pulse facilitation, which is an index of increased transmitter release, is unaltered during associational-commissural LTP but is reduced during mossy fiber LTP. Thus, both the induction and the persistent change may be presynaptic in mossy fiber LTP but not in associational-commissural LTP.</abstract>
+<pubmed_id>2114039</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8808">
+<itemtype>xnppaper</itemtype>
+<titles><title>Traveling theta waves along the entire septotemporal axis of the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2014-12-24T02:28:50Z</last_update_date>
+<creation_date>2014-12-24T02:28:50Z</creation_date>
+<publication_year>2012</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8808</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8808" version="1.02">
+<authors><author>Patel J</author><author>Fujisawa S</author><author>Berényi A</author><author>Royer S</author><author>Buzsáki G</author></authors>
+<journal>Neuron</journal>
+<volume>75</volume>
+<number>3</number>
+<page>410-7</page>
+<abstract>A topographical relationship exists between the hippocampus-entorhinal cortex and the neocortex. However, it is not known how these anatomical connections are utilized during information exchange and behavior. We recorded theta oscillations along the entire extent of the septotemporal axis of the hippocampal CA1 pyramidal layer. While the frequency of theta oscillation remained same along the entire long axis, the amplitude and coherence between recording sites decreased from dorsal to ventral hippocampus (VH). Theta phase shifted monotonically with distance along the longitudinal axis, reaching∼180° between the septal and temporal poles. The majority of concurrently recorded units were phase-locked to the local field theta at all dorsoventral segments. The power of VH theta had only a weak correlation with locomotion velocity, and its amplitude varied largely independently from theta in the dorsal part. Thus, theta oscillations can temporally combine or segregate neocortical representations along the septotemporal axis of the hippocampus.</abstract>
+<pubmed_id>22884325</pubmed_id>
+</detail>
+</item>

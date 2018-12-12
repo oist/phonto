@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4944">
+<itemtype>xnppaper</itemtype>
+<titles><title>The hippocampus and memory: a comparative and ethological perspective.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:46:05Z</last_update_date>
+<creation_date>2011-05-09T02:46:05Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4944</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4944" version="1.02">
+<authors><author>Suzuki WA</author><author>Clayton NS</author></authors>
+<journal>Current opinion in neurobiology</journal>
+<volume>10</volume>
+<number>6</number>
+<page>768-73</page>
+<abstract>During the past year, considerable progress has been made in our understanding of the wide-ranging functions of the hippocampus. Highlights include the development of new tasks with which to assess spatial/topographic memory in humans and monkeys, novel tests of relational memory in rats, and episodic-like memory tasks in birds. In addition, novel theories of hippocampal function have been developed that are notable for their applicability to both humans and animal models.</abstract>
+<pubmed_id>11240288</pubmed_id>
+</detail>
+</item>

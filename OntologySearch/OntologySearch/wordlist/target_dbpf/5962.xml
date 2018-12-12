@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5962">
+<itemtype>xnppaper</itemtype>
+<titles><title>Inactivation of alpha7 ACh receptors and activation of non-alpha7 ACh receptors both contribute to long term potentiation induction in the hippocampal CA1 region.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Drug Administration Schedule</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Nicotinic Agonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Nicotinic Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Receptors</keyword>
+<keyword>Nicotinic</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2012-01-25T05:18:33Z</last_update_date>
+<creation_date>2012-01-25T05:18:33Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5962</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5962" version="1.02">
+<authors><author>Fujii S</author><author>Ji Z</author><author>Sumikawa K</author></authors>
+<journal>Neuroscience letters</journal>
+<volume>286</volume>
+<number>2</number>
+<page>134-8</page>
+<abstract>Acute and chronic nicotine exposure differentially facilitate the induction of long-term potentiation (LTP), a synaptic model of learning and memory, in the hippocampal CA1 region. The mechanisms underlying these effects of nicotine, however, are unknown. In the present study, both nicotinic acetylcholine receptor (nAChR) agonists and an alpha7 nAChR antagonist facilitated the induction LTP in the hippocampal CA1 region of naive rat. Furthermore, chronic nicotine treatment lowered the threshold for induction of LTP, and acute application of nicotinic agonists, but not an alpha7 antagonist, further facilitated LTP induction in the chronic-nicotine-treated hippocampus. These results suggest not only that both activation of non-alpha7 nAChRs and inactivation of alpha7 nAChRs contribute to LTP induction, but also that chronic-nicotine-mediated facilitation of LTP induction is due to chronic-nicotine-induced desensitization of alpha7 nAChRs.</abstract>
+<pubmed_id>10825655</pubmed_id>
+</detail>
+</item>

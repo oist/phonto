@@ -1,0 +1,36 @@
+Animals
+Gene Expression Regulation
+physiology
+Glutamate Decarboxylase
+analysis
+Hippocampus
+cytology
+physiology
+Immunohistochemistry
+Interneurons
+cytology
+physiology
+Kinetics
+Male
+Motor Activity
+physiology
+Motor Cortex
+cytology
+physiology
+Neurons
+cytology
+physiology
+Pyramidal Cells
+cytology
+physiology
+RNA
+Messenger
+genetics
+Rats
+Time Factors
+Transcription
+Genetic
+Vasoactive Intestinal Peptide
+analysis
+genetics
+Vasoactive intestinal peptide (VIP) expression is restricted to interneurons in the hippocampus of normal adult rats. However, 3-6 hours after a 60-minute walk in an activity wheel, VIP was transiently expressed in most pyramidal and granular neurons of the hippocampus. Locomotion was also associated with a dramatic increase in VIP immunoreactivity in the motor cortex, primarily in bipolar cells. Reverse transcriptase-polymerase chain reaction analysis indicated that VIP mRNA increases transiently by more than twofold, before the increases in peptide immunoreactivity in both the hippocampus and motor cortex. By comparison, another marker of inhibitory interneurons, glutamate decarboxylase, did not change its expression pattern after locomotion. The calcium binding protein, calbindin-D28K, normally expressed in interneurons, was now found also in glial cells of the hippocampus and motor cortex. Another marker of enhanced electrical activity, the immediate early gene, c-Fos, was expressed in pyramidal and granular neurons at 3 hours but not at 6 hours after locomotion. These results suggest that mapping of peptide expression in the brain of a docile, inactive rat may not reflect the real distribution and functions of a peptide in an active animal.

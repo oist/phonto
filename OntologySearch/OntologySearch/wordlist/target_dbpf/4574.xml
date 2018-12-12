@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4574">
+<itemtype>xnppaper</itemtype>
+<titles><title>The serotonergic and noradrenergic systems of the hippocampus: their interactions and the effects of antidepressant treatments.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Antidepressive Agents</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Biogenic Monoamines</keyword>
+<keyword>physiology</keyword>
+<keyword>Depression</keyword>
+<keyword>drug therapy</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Norepinephrine</keyword>
+<keyword>physiology</keyword>
+<keyword>Serotonin</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-03T01:35:56Z</last_update_date>
+<creation_date>2011-02-03T01:35:56Z</creation_date>
+<publication_year>1997</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4574</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4574" version="1.02">
+<authors><author>Mongeau R</author><author>Blier P</author><author>de Montigny C</author></authors>
+<journal>Brain research. Brain research reviews</journal>
+<volume>23</volume>
+<number>3</number>
+<page>145-95</page>
+<abstract>Previous reviews have well illustrated how antidepressant treatments can differentially alter several neurotransmitter systems in various brain areas. This review focuses on the effects of distinct classes of antidepressant treatments on the serotonergic and the noradrenergic systems of the hippocampus, which is one of the brain limbic areas thought to be relevant in depression: it illustrates the complexity of action of these treatments in a single brain area. First, the basic elements (receptors, second messengers, ion channels, ...) of the serotonergic and noradrenergic systems of the hippocampus are revisited and compared. Second, the extensive interactions occurring between the serotonergic and the noradrenergic systems of the brain are described. Finally, issues concerning the short- and long-term effects of antidepressant treatments on these systems are broadly discussed. Although there are some contradictions, the bulk of data suggests that antidepressant treatments work in the hippocampus by increasing and decreasing, respectively, serotonergic and noradrenergic neurotransmission. This hypothesis is discussed in the context of the purported function of the hippocampus in the formation of memory traces and emotion-related behaviors.</abstract>
+<pubmed_id>9164669</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3250">
+<itemtype>xnppaper</itemtype>
+<titles><title>Effects of adenosine receptors on the synaptic and EPSP-spike components of long-term potentiation and depotentiation in the guinea-pig hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-03-11T07:33:49Z</last_update_date>
+<creation_date>2010-03-11T07:33:49Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3250</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3250" version="1.02">
+<authors><author>Fujii S</author><author>Kuroda Y</author><author>Ito K</author><author>Kaneko K</author><author>Kato H</author></authors>
+<journal>The Journal of physiology</journal>
+<volume>521</volume>
+<number></number>
+<page>451-66</page>
+<abstract>1. Long-term potentiation (LTP) of synaptic efficacy comprises two components: a synaptic component consisting of increased field excitatory postsynaptic potentials (EPSPs), and a component consisting of a larger population spike amplitude for a given EPSP size (E-S potentiation). In hippocampal CA1 neurons, delivery of three weak bursts (5 pulses at 100 Hz, 20 min intervals) induced LTP in both the EPSP and E-S components. In the same cells, reversal of LTP (depotentiation, DP) in the field EPSP and the E-S component was achieved by delivering three trains of low-frequency stimuli (LFS; 200 pulses at 1 Hz, 20 min intervals). 2. The effects of adenosine A1 and A2 receptor antagonists on the synaptic and E-S components of LTP and DP in CA1 neurons were studied by perfusing guinea-pig hippocampal slices with either 8-cyclopentyltheophylline (8-CPT) or CP-66713. 3. When bursts or LFS were applied to CA1 inputs in the presence of the A1 receptor antagonist 8-CPT, the field EPSP was enhanced in LTP and attenuated in DP, while the E-S relationship was not significantly affected in either LTP or DP. 4. When similar experiments were performed using the A2 receptor antagonist CP-66713, the field EPSP was blocked in LTP, but facilitated in DP, while E-S potentiation was enhanced during both LTP and DP. 5. The results show that A1 and A2 adenosine receptors modulate both the synaptic and E-S components of the induction and reversal of LTP. Based on these results, we discuss the key issue of the contribution of these receptors to the dynamics of neuronal plasticity modification in hippocampal CA1 neurons.</abstract>
+<pubmed_id>10581315</pubmed_id>
+</detail>
+</item>

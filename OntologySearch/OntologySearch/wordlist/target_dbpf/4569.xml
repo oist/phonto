@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4569">
+<itemtype>xnppaper</itemtype>
+<titles><title>Associative long-term depression in the hippocampus in vitro.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Afferent Pathways</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-03T01:23:55Z</last_update_date>
+<creation_date>2011-02-03T01:23:55Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4569</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4569" version="1.02">
+<authors><author>Debanne D</author><author>Thompson SM</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>1</number>
+<page>9-16</page>
+<abstract>An association between the test and conditioning stimuli is critical for determining the nature of their interaction during learning and memory. Two experimental protocols which result in the induction of associative forms of long-term depression (LTD) at Schaffer collateral synapses onto CA1 pyramidal cells in vitro are reviewed in this article. The requirements for the induction of LTD with these protocols are discussed, as well as the relationship between these forms of associative LTD and so-called homosynaptic LTD. In particular, the biological basis of the experimentally demonstrated necessity for temporal and spatial conjunction between the test and conditioning stimuli is examined.</abstract>
+<pubmed_id>8878736</pubmed_id>
+</detail>
+</item>

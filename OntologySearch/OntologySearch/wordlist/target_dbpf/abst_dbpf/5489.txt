@@ -1,0 +1,18 @@
+Animals
+Electric Stimulation
+Electroencephalography
+Evoked Potentials
+Hippocampus
+physiology
+Male
+Rats
+Sleep
+physiology
+Sleep
+REM
+physiology
+Synapses
+physiology
+Wakefulness
+physiology
+The possible influence of the sleep-waking cycle on evoked neurotransmission and on the induction of long-term potentiation (LTP) and depression (LTD) was studied in the perforant path-granule cell system. Freely moving rats received a high-frequency stimulus train (8 bursts at 400 Hz) during slow-wave sleep (SWS), rapid eye movement (REM) sleep, and a still-alert (SAL) behavioral state. Trains applied during SAL and REM reliably elicited LTP of the excitatory postsynaptic potential (EPSP) slope, population spike height, and spike onset latency. Granule cell excitability was also enhanced, as indicated by a leftward shift of the EPSP-population spike (E-S) relation. In contrast, tetanization in SWS rarely produced 'classical' LTP and often failed to elicit any lasting change in field potentials. Furthermore, the following types of E-S change occurred almost exclusively after tetanization in SWS: (1) LTP of the EPSP accompanied by depression of the population spike, and (2) E-S potentiation without a change in EPSP. When LTP occurred, however, its magnitude was independent of the animal's behavioral state at the time of the train. In agreement with previous reports, the efficacy of low-frequency neurotransmission varied with behavioral state. A modulation index (MI) was introduced to quantify the difference between field potentials evoked in SAL and SWS. Interestingly, both the occurrence and magnitude of LTP were related to the strength of the MI, as determined in each rat before the train. After trains, the state-dependent modulation of transmission was maintained and was superimposed on LTP and LTD. The results suggest that synaptic plasticity is dynamically modulated during the sleep-wakefulness cycle.

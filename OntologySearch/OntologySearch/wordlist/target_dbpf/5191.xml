@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5191">
+<itemtype>xnppaper</itemtype>
+<titles><title>Phorbol esters promote postsynaptic accumulation of Vesl-1S/Homer-1a protein.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>6-Cyano-7-nitroquinoxaline-2</keyword>
+<keyword>3-dione</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Alternative Splicing</keyword>
+<keyword>Animals</keyword>
+<keyword>Anisomycin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Carcinogens</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Carrier Proteins</keyword>
+<keyword>analysis</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>Excitatory Amino Acid Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Microscopy</keyword>
+<keyword>Immunoelectron</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neuropeptides</keyword>
+<keyword>analysis</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Phorbol 12</keyword>
+<keyword>13-Dibutyrate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Potassium</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Protein Synthesis Inhibitors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Synaptic Membranes</keyword>
+<keyword>chemistry</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Tetradecanoylphorbol Acetate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Tetrodotoxin</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-20T02:23:36Z</last_update_date>
+<creation_date>2011-05-20T02:23:36Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5191</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5191" version="1.02">
+<authors><author>Kato A</author><author>Fukuda T</author><author>Fukazawa Y</author><author>Isojima Y</author><author>Fujitani K</author><author>Inokuchi K</author><author>Sugiyama H</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>13</volume>
+<number>7</number>
+<page>1292-302</page>
+<abstract>We examined effects of phorbol esters on the amount and the subcellular distribution of the activity-regulated protein Vesl-1S/Homer-1a in cultured hippocampal neurons. Major Vesl-1S immunoreactivity (IR) was detected throughout neuronal somata under control conditions. Bath application of phorbol esters, PMA and PDBu resulted in the increase in the amount of Vesl-1S proteins and promoted punctate distribution of Vesl-1S IR at the cortical regions of the neuronal somata. Immunofluorescent observations using antisynaptophysin and anti-Vesl-1S antibodies, and electron microscopic observations, revealed that Vesl-1S accumulated at postsynaptic regions following PMA application. Membrane depolarization with high concentrations of external potassium also promoted the punctate distribution of Vesl-1S IR. These results demonstrate that phorbol-triggered reaction cascades result in the accumulation of Vesl-1S protein at postsynaptic regions, and suggest that these phorbol effects may mimic those caused by synaptic activities.</abstract>
+<pubmed_id>11298789</pubmed_id>
+</detail>
+</item>

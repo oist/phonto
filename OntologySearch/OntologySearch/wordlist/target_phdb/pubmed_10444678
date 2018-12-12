@@ -1,0 +1,1723 @@
+Electrophysiological Properties of Inferior Olive Neurons:
+A Compartmental Model
+
+NICOLAS SCHWEIGHOFER,1 KENJI DOYA,1 AND MITSUO KAWATO1,2
+1ERATO, Kawato Dynamic Brain Project, Japan Science and Technology Corporation; and 2ATR Human Information
+Processing Research Laboratories, Kyoto 619-0288 Japan
+
+Schweighofer, Nicolas, Kenji Doya, and Mitsuo Kawato. Electro-
+physiological properties of inferior olive neurons: a compartmental
+model. J. Neurophysiol. 82: 804 – 817, 1999. As a step in exploring
+the functions of the inferior olive, we constructed a biophysical model
+of the olivary neurons to examine their unique electrophysiological
+properties. The model consists of two compartments to represent the
+known distribution of ionic currents across the cell membrane, as well
+as the dendritic location of the gap junctions and synaptic inputs. The
+somatic compartment includes a low-threshold calcium current (ICa_l),
+an anomalous inward rectiﬁer current (Ih), a sodium current (INa), and
+a delayed rectiﬁer potassium current (IK_dr). The dendritic compart-
+ment contains a high-threshold calcium current (ICa_h), a calcium-
+dependent potassium current (IK_Ca), and a current ﬂowing into other
+cells through electrical coupling (Ic). First, kinetic parameters for
+these currents were set according to previously reported experimental
+data. Next, the remaining free parameters were determined to account
+for both static and spiking properties of single olivary neurons in vitro.
+We then performed a series of simulated pharmacological experi-
+ments using bifurcation analysis and extensive two-parameter
+searches. Consistent with previous studies, we quantitatively demon-
+strated the major role of ICa_l in spiking excitability. In addition, Ih
+had an important modulatory role in the spike generation and period
+of oscillations, as previously suggested by Bal and McCormick.
+Finally, we investigated the role of electrical coupling in two coupled
+spiking cells. Depending on the coupling strength, the hyperpolariza-
+tion level, and the ICa_l and Ih modulation, the coupled cells had four
+different synchronization modes: the cells could be in-phase, phase-
+shifted, or anti-phase or could exhibit a complex desynchronized
+spiking mode. Hence these simulation results support the counterin-
+tuitive hypothesis that electrical coupling can desynchronize coupled
+inferior olive cells.
+
+I N T R O D U C T I O N
+
+Cerebellar Purkinje cells, the sole output of the cerebellar
+cortex, receive two major inputs: the climbing ﬁber input,
+which originates from the inferior olive (IO), and the granule
+cell input, which relays information from the mossy ﬁbers.
+Each Purkinje cell is innervated by one climbing ﬁber, and a
+single IO spike generates a single “complex spike” in a Pur-
+kinje cell. In contrast, a Purkinje cell receives ⱕ200,000 gran-
+ule cell inputs, which generate a high-frequency discharge
+(“simple spikes”). Because IO neurons ﬁre at a very low
+frequency (at most 2 or 3 spikes within a second), there are
+comparatively few complex spikes. Although it is well known
+that simple spikes are involved in motor control, the role of
+
+The costs of publication of this article were defrayed in part by the payment
+of page charges. The article must therefore be hereby marked “advertisement”
+in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+
+complex spikes is more controversial (De Zeeuw et al. 1998;
+Simpson et al. 1996). The view that climbing ﬁber inputs
+function as detectors of control errors is well supported (e.g.,
+Kitazawa et al. 1998; Kobayashi et al. 1998). However, it is
+still unclear whether climbing ﬁbers exert a real-time inﬂuence
+on the targets of the Purkinje cells, and/or exert a short-term
+modulatory action on simple spike patterns, or induce long-
+lasting changes in the potency of granule cell-Purkinje cell
+synapses.
+
+IO neurons exhibit a number of unique electrophysiological
+properties. First, IO cells respond to both injection of depolar-
+izing currents and release from hyperpolarization by generat-
+ing, respectively, dendritic and somatic spikes (Llina´s and
+Yarom 1981a). Second, in vitro IO cells can exhibit 4- to 8-Hz
+rhythmic activity (Bal and McCormick 1997; Benardo and
+Foster 1986; Llina´s and Yarom 1986). This rhythmic activity
+can either take the form of subthreshold sinusoid-like oscilla-
+tions or rhythmic generation of sodium spikes. Furthermore
+these oscillations can occur either spontaneously [in ⬃10% of
+the cells recorded by Llina´s and Yarom (1986); but Benardo
+and Foster (1986) reported a larger proportion of oscillating
+cells] or after harmaline or serotonin administration (Sugihara
+et al. 1995). Third, the cells are coupled by electrotonic gap
+junctions located on the dendrites (Llina´s et al. 1974; Sotelo et
+al. 1974). Through the combined actions of the coupling be-
+tween cells and the underlying rhythmicity of individual neu-
+rons, neighboring IO cells have been shown to ﬁre with some
+rhythmicity in brain slices and acute preparations (Llina´s and
+Yarom 1986; Sasaki et al. 1989). Yarom (1991) suggested that
+the IO is a network of damped oscillators that, when coupled,
+can generate sustained oscillations. However, the oscillatory
+behavior of IO cells in vivo is still under investigation because
+apparently random, rather than periodic, ﬁring has been ob-
+served in behaving animals (Keating and Thach 1995). Thus it
+is probable that synaptic and modulatory inputs inﬂuence the
+oscillating behavior of single as well as group of coupled cells.
+Besides the very strong excitatory dendritic inputs (e.g., De
+Zeeuw et al. 1998), IO cells receive two types of inhibitory
+inputs: the ﬁrst affects the excitability of the cell, whereas the
+second modulates the coupling strength between cells (Lang et
+al. 1996). Moreover, a strong serotonergic input to the IO from
+the midbrain raphe has been identiﬁed (Weiss and Pellet 1982).
+Several studies have described the membrane currents of IO
+neurons and their inﬂuence on cell responses (Bal and McCor-
+mick 1997; Benardo and Foster 1986; Bleasel and Pettigrew
+1994; Llina´s and Yarom 1981b, 1986; Manor 1995; Manor et
+al. 1997; Ruigrok and Voogd 1985; Yarom and Llina´s 1987).
+
+804
+
+0022-3077/99 $5.00 Copyright © 1999 The American Physiological Society
+
+COMPARTMENTAL MODEL OF INFERIOR OLIVARY NEURONS
+
+805
+
+IO neurons exhibit two types of spatially distinct calcium
+currents: a low-threshold current (ICa_l) located in the soma and
+a high-threshold current (ICa_h) located in the dendrites (Llina´s
+and Yarom 1981a,b). IO cells respond to both release from
+hyperpolarization and injection of depolarizing currents via
+these two calcium currents. The low-threshold calcium current
+has a window of conductance around the resting membrane
+potential, which causes the cell to be excited in response to
+hyperpolarizing current pulses. The high-threshold calcium
+current is noninactivating, which results in a prolonged plateau
+potential in response to depolarizing dendritic input. The cal-
+cium inﬂux in the dendrites activates a calcium-dependent
+potassium current (IK_Ca), which abruptly terminates the pla-
+teau potential after ⬃30 ms (Llina´s and Yarom 1981a). The
+inactivation of IK_Ca has a very long time constant (several
+hundred milliseconds), resulting in a long afterhyperpolariza-
+tion (AHP). The AHP deinactivates the low-threshold calcium
+conductance and triggers a postinhibitory rebound. Further-
+more, hyperpolarization activates an anomalous rectifying cur-
+rent (Bleasel and Pettigrew 1994; Yarom and Llina´s 1987). Bal
+and McCormick (1997) recently argued that the h current (Ih),
+which originally was described in thalamocortical relay neu-
+rons (Huguenard and McCormick 1992), may account for
+many IO cell properties. They proposed that Ih, which is
+activated at hyperpolarized potentials, contributes to the pres-
+ence, amplitude, and frequency of the subthreshold oscilla-
+tions. Finally, like most other neurons, IO cells can generate
+somatic sodium spikes (with the sodium current INa) that are
+terminated by a delayed rectiﬁer potassium current (IK_dr).
+However, a single spike is generated during the plateau poten-
+tial, indicating a strong refractoriness of the sodium current
+(Llina´s and Yarom 1981a).
+
+The existence of electrical coupling between IO cell den-
+drites make voltage-clamp recording of individual IO cells
+arduous (Manor 1995). It is thus difﬁcult to analyze the con-
+tribution of individual currents to the response of olivary
+neurons. Conductance-based models of neurons, however, if
+sufﬁciently constrained by biological data, may provide a
+means to test different hypotheses by systematically changing
+their parameters (e.g., maximal conductances of ionic chan-
+nels). In the present study, we extended the single compartment
+model developed by Manor et al. (1997), which included only
+ICa_l and a leak current, and built a two-compartment model of
+IO neurons, where the ﬁrst compartment represented the soma
+and the second compartment represented the lumped dendrites.
+The dendritic compartment permits us to account for the
+known dendritic location of the high-threshold calcium current,
+the gap junctions, and the synaptic inputs. We constrained the
+parameters of our model with experimental data whenever
+possible and reproduced many experimentally observed ﬁnd-
+ings.
+
+First, we further explored how the modulation of individual
+current conductances leads to different asymptotic electrical
+behaviors in single olivary neurons in vitro. Speciﬁcally, we
+quantitatively tested the inﬂuence of the low threshold calcium
+current ICa_l and the h current Ih on single IO cell ﬁring
+patterns. Consistent with previous experimental ﬁndings, we
+quantitatively demonstrated the major role of ICa_l in spiking
+excitability. In addition, in line with the study of Bal and
+McCormick (1997), we found that Ih had an important modu-
+latory role in the spike generation and period of oscillations.
+
+Then we examined the role of electrical coupling on the
+spiking behavior of IO cells. Because IO cells were discovered
+to be extensively coupled by gap junctions (Llina´s et al. 1974;
+Sotelo et al. 1974), researchers have been looking for the
+functional roles of the electrical coupling. In most neurophys-
+iological studies, electrical coupling is thought to be responsi-
+ble for the synchronization of groups of neurons. However, in
+several mathematical studies of simple coupled neuron models,
+anti-phase as well as irregular spiking have been observed
+(Abarbanel et al. 1996; Kawato et al. 1979; Sherman and
+Rinzel 1992). Thus, although counterintuitive, electrical cou-
+pling theoretically could desynchronize rather than synchro-
+nize coupled cells. In the present study, we found that two
+coupled IO cells could have different spiking modes depending
+on the coupling strength, the hyperpolarization level, and the
+modulation of ICa_l and Ih currents: the two cells could be
+in-phase, phase-shifted, or anti-phase or could exhibit a com-
+plex, desynchronized spiking mode. We discuss the robustness
+and signiﬁcance of the desynchronization for the in vivo func-
+tioning of the IO in light of the known effect of serotonin on IO
+neurons.
+
+M E T H O D S
+
+General cell model
+
+The electrotonic properties of the two-compartment model (Fig.
+1A) were determined by two morphological parameters (Pinsky and
+Rinzel 1994): the ratio of the somatic area to total surface area (p) and
+the electrotonic coupling conductance between the two compartments
+(gint). For each compartment, the membrane potential (V) changed
+according to
+
+⫽ ⫺冘
+
+i
+
+Cm
+
+dV
+dt
+
+Ii ⫹ Iapp
+
+Cm is the membrane capacitance, Iapp is the applied current (common
+to both compartments) and 冘
+Ii accounts for the ionic currents, the
+current ﬂowing out into the other compartment, and the current
+ﬂowing through the gap junctions (currents in ␮A/cm2).
+
+i
+
+Somatic currents
+
+The somatic ionic currents included ICa_l, Ih, an inward sodium
+current (INa) and a delayed rectiﬁer outward potassium current (IK_dr),
+as well as the current ﬂowing out into the dendrites (Ids) and the
+
+leakage current (Ils).1冘
+
+Ii ⫽ ICa_l ⫹ Ih ⫹ INa ⫹ IK_dr ⫹ Ids ⫹ Ils
+
+i
+
+To model these currents, we used data obtained from IO cells
+whenever possible; but when not available, we used experimentally
+derived data or models of similar currents from other neural systems.
+Manor (1995) quantiﬁed the activation and inactivation functions of
+ICa_l in the IO cell (see APPENDIX). Ih was modeled in thalamic relay
+neurons by Huguenard and McCormick (1992). The equation for Ids
+was obtained from Rush and Rinzel (1994), as was IK_dr. Because a
+sodium current of the Hodgkin-Huxley type would generate several
+spikes during the plateau potential, whereas IO neurons normally only
+
+1 Yarom and Llina´s (1987) demonstrated that the anomalous rectifying
+current consists of two parts: a time-dependent component and an instanta-
+neous component. Due to the lack of a precise current model, we did not
+include the instantaneous component of the anomalous rectifying current in the
+present model.
+
+806
+
+N. SCHWEIGHOFER, K. DOYA, AND M. KAWATO
+
+FIG. 1. Model of
+
+inferior olive (IO) neurons. A:
+2-compartment biophysical model of an IO cell. Somatic
+ionic currents include a low-threshold calcium inward
+current (ICa_l), an anomalous inward rectiﬁer current (Ih),
+the Hodgkin-Huxley type inward sodium (INa) and out-
+ward delayed rectiﬁer potassium (IK_dr) currents, the cur-
+rent ﬂowing out into the dendritic compartment (Ids), and
+a leakage current (Ils). Dendritic currents include a high-
+threshold inward calcium current (ICa_h), an outward cal-
+cium-dependent potassium current (IK_Ca),
+the current
+ﬂowing into the somatic compartment (Isd), and a leakage
+current (Ild). Because the dendritic potassium Current
+IK_Ca is calcium-dependent, Ca2⫹ concentration dynamics
+is included in the model. gint is the coupling conductance
+between the two compartments. B: 2 cells electrotonically
+coupled by a single hypothetical gap junction with max-
+imal coupling conductance gc. Electrotonic coupling cur-
+rent between the cells is given by Ic.
+
+generate a single spike, we adapted a new type of INa with a long-
+lasting inactivation component. The somatic currents are given by
+
+of gap junctions between two cells can be represented by a single
+conductance, gc.2 Thus the dendritic ionic currents are given by
+
+ICa_l ⫽ gCa_lk3l共Vs ⫺ VCa兲
+
+Ih ⫽ ghq共Vs ⫺ Vh兲
+
+INa ⫽ gNam⬁共Vs兲3h共Vs ⫺ VNa兲
+
+IK_dr ⫽ gK_drn4共Vs ⫺ VK兲
+
+Ids ⫽ 共gint/p兲共Vs ⫺ Vd兲
+
+Ils ⫽ gls共Vs ⫺ Vl兲
+
+where k, l, q, h, and n are activation and inactivation variables, the
+kinetics of which are described in the APPENDIX; Vs is the membrane
+potential of the soma and Vd is the membrane potential of the dendrite.
+VCa, Vh, VNa, and VK are the reversal potentials of the sodium,
+potassium, calcium, and h currents, respectively (potentials in mV);
+gCa_l, gh, gNa, gK_dr, and gls are maximal conductances (in mS/cm2).
+
+Dendritic currents
+
+The dendritic ionic currents include ICa_h, IK_Ca, the current ﬂowing
+into the somatic compartment (Isd), a leakage current (Ild), and the
+current ﬂowing into other cells through electrical coupling (Ic). Thus
+the dendritic currents are given by
+
+冘
+
+Ii ⫽ ICa_h ⫹ IK_Ca ⫹ Isd ⫹ Ild ⫹ Ic
+
+i
+
+Traub et al. (1991) modeled ICa_h, IK_Ca, and the dynamics of calcium
+concentration for CA3 neurons. Rush and Rinzel (1994) described the
+expression of Isd for a two-compartment cell model. Finally, like all
+gap junctions between all mammalian cells thus far evaluated
+(Moreno et al. 1994), the conductance of Ic has been shown recently
+to be voltage dependent (Kogan and Yarom 1997). Precise voltage-
+dependency curves are not yet available for the gap junction protein
+connexin36, which is important for the IO (Condorelli et al. 1998).
+Therefore we adopted the general voltage-dependency model from
+Benett and Versedis (1992), and we set the parameters according to
+the activity of the gap junction protein connexin43 (Moreno et al.
+1994). The number of gap junctions is presumably between 5 and 20
+for any pair of IO cells (De Zeeuw et al. 1996). However, as we
+modeled only a single dendritic compartment per cell, an agglomerate
+
+ICa_h ⫽ gCa_hr2共Vd ⫺ VCa兲
+
+IK_Ca ⫽ gK_Cas共Vd ⫺ VK兲
+
+Ild ⫽ gld共Vd ⫺ Vl兲
+
+Isd ⫽ 关gint/共1 ⫺ p兲兴共Vd ⫺ Vs兲
+
+Ic ⫽ gc f共Vd ⫺ Vde兲共Vd ⫺ Vde兲
+
+where r and s are activation and inactivation variables, respectively
+(see APPENDIX); f represents the transjunctional voltage dependence of
+the gap junction conductance; Vd is the dendritic membrane potential
+of the cell; Vde is the dendritic membrane potential of another IO cell
+in electrotonic contact with the cell; gCa_h, gK_Ca, gld, and gc are
+maximal conductances.
+
+Modeling a “standard” cell
+
+A neural model can have a wide variety of responses when large
+parameter ranges are considered (Rinzel and Ermentrout 1989). Our
+model of IO neurons, although simpliﬁed, contains a large number of
+parameters. Consequently whenever possible, physiologically plausi-
+ble ranges of parameters are ﬁrst taken into account (see Table 1).
+Moreover we use typical values for sodium, potassium, and calcium
+⫽
+reversal potentials and membrane capacitance: VNa
+⫺75 mV, and VCa
+⫽ 1 ␮F/cm2, respectively. We
+⫽ ⫺43 mV, as
+took the reversal potential of the h current to be Vh
+reported by Huguenard and McCormick (1992). The remaining un-
+known parameters were investigated using the simulation software
+package XPPAUT (Ermentrout 1997) to integrate the equations of the
+system. We developed a “standard” cell that possessed most of the
+known electrophysiological properties of IO cells by taking a priori
+ranges of parameters into account when available.
+
+⫽ 120 mV and Cm
+
+⫽ 55 mV, VK
+
+2 The electrotonic coupling conductance gint between the somatic and den-
+dritic compartments mathematically represents the inverse of the cell’s cyto-
+plasmic resistivity. The electrical coupling conductance gc between the cells
+reﬂects the strength of the intercellular electrical coupling. Although these two
+types of coupling are very different physiologically, in two-compartment
+models they are represented similarly, by the coupling conductances gint and
+gc. However, to account for the cell integrity, the value of the former must be
+much higher than the value of the latter.
+
+COMPARTMENTAL MODEL OF INFERIOR OLIVARY NEURONS
+
+807
+
+TABLE 1. A priori ranges of several parameters
+
+Parameter
+
+p
+gint, mS/cm2
+
+gc, mS/cm2
+gCa_l, mS/cm2
+
+gls and gld, mS/cm2
+
+Sensitivity analysis
+
+Range
+
+0.1–0.4
+0.1–3
+
+⬍ gint
+
+gc
+0.1–3
+
+⬍0.5
+
+Source
+
+Manor (1995)
+Pinsky and Rinzel (1994)
+Booth et al. (1997)
+Mainen and Sejnowski (1996)
+
+Manor (1995)
+Manor et al. (1997)
+Manor et al. (1997)
+
+We tracked the stationary and periodic solutions of the system with
+a change in a parameter (such as the input current) using the bifur-
+cation analysis software AUTO (Doedel 1981). AUTO also allowed
+us to compute the frequency of oscillations, detect the bifurcation of
+solutions, and track the bifurcation points (e.g., the onset of oscilla-
+tions) in two-dimensional parameter space. Because it was impossible
+to track the bifurcation of periodic orbits with this software (e.g.,
+points for which 2 periodic solutions, such as subthreshold oscillations
+and spontaneous spiking, coalesce), we developed a custom simulator
+based on the integration simulation package CVODE (Cohen and
+Hindmarsh 1994). Thus we could explore spiking behaviors when one
+or two parameters were varied. By numerically integrating the model
+equations with different parameter values, we uncovered several
+asymptotic cell response domains: return to rest (R) after a period of
+transients, spontaneous subthreshold oscillations (SO), spontaneous
+somatic spiking (SS), spontaneous dendritic spiking (DS). In some
+cases, the cell could stay in different symptotic states depending on
+the initial conditions: the cell was then described bistable, and in this
+case the domains were overlapping.3 For instance, when the SO
+domain overlapped with SS, the cell behavior was denoted to be
+SS/SO bistable. Note that in the sensitivity analysis graphs, we plotted
+both the results obtained with AUTO (for the domain of oscillatory
+behavior emerging from rest) and the results obtained with our sim-
+ulator (for the other domains).
+
+Analyzing the responses of two coupled cells
+
+We examined the behavior of two coupled cells when gc varied
+(Fig. 1B). To describe the extent of synchronization between two
+identical cells that receive identical inputs, we computed the average
+“distance” D(␶, gc), in millivolts, between the somatic membrane
+potentials (Abarbanel et al. 1996). This measure is essentially the root
+mean square difference between the somatic membrane potentials of
+the two cells, Vs1 and Vs2, with a time shift ␶. The time shift between
+the activities of the neurons is necessary to “align” the neurons’
+responses. The average distance is mathematically deﬁned by
+
+D共␶, gc兲 ⫽冑1
+
+N
+
+冘
+
+N
+
+t⫽1
+
+关Vs1共t兲 ⫺ Vs2共t ⫹ ␶兲兴2
+
+where N is the total number of time steps (1 time step was 1 ms). As
+in Abarbanel et al., we plot D(␶
+min, gc), which is the distance for the
+
+3 To detect these cases, current pulses of 21 different intensities (from ⫺8
+␮A/cm2 to ⫹ 8 ␮A/cm2, for 50 ms) were injected into the cell’s soma. We
+considered the cell to be bi-stable if at least one current injection could
+generate sustained spiking (when the cell was not spontaneously spiking before
+the current injection) or stop spiking (when the cell was spontaneously spiking
+before the current injection). Note that this method introduces a resolution limit
+of 0.8 ␮A/cm2, which corresponds to 0.08 nA only for a total cell surface of
+10,000 ␮m2. It is therefore possible that we missed some small ranges of
+bi-stability. However, these very small bi-stability ranges would have negli-
+gible physiological consequences.
+
+min, gc) is zero and the time shift ␶
+
+time shift ␶
+min that yields the minimum value of D(␶, gc), for ﬁxed
+coupling. For instance, if the neurons are anti-phase, the distance
+D(␶
+min equals to half a period.
+Initially a perturbing stimulus input was given at t ⫽ 1 s in cell 1. The
+distance was then computed over 10 s, from t ⫽ 5 s to ignore the
+transients.
+
+R E S U L T S
+
+Standard cell
+
+⫽ gld
+
+⫽ 18, gCA_l
+
+⫽ 1.0, and gh
+
+⫽ 35; leak: gls
+
+⫽ 70, gK_dr
+⫽ 4.0 and gK_Ca
+
+⫽ ⫺10 mV; cell morphology: gint
+
+Using the following parameter values (conductances in mS/
+⫽ 1.5;
+cm2), soma: gNa
+⫽ 0.015
+dendrite: gCa_h
+⫽ 0.13 and p ⫽ 0.20,
+and vl
+data from our standard cell model were consistent with many
+reported experimental ﬁndings from actual IO neurons.
+STEADY-STATE PROPERTIES. The membrane potential with no
+⫽ 0 ␮A/cm2) was ⫺57 mV, whereas the
+input current (Iapp
+input resistance derived from the voltage-current curve was 36
+M⍀. When Iapp
+⫽ ⫺5 ␮A/cm2, the potential was ⫺80.3 mV
+and the input resistance was 14 M⍀, reﬂecting the effect of the
+⫽ ⫹5 ␮A/cm2, the membrane potential
+h current. When Iapp
+was ⫺46 mV and the input resistance was only 10 M⍀ because
+of the effect of the delayed rectiﬁer current. These steady-state
+values are in agreement with published experimental data (see
+for instance Table 1 in Llina´s and Yarom 1981a; Fig. 1A in
+Yarom and Llina´s 1987; Manor 1995). Note that 1 ␮A/cm2
+corresponds to 0.1 nA for a total cell surface of 10,000 ␮m2.
+DEPOLARIZING CURRENT INPUT. We injected depolarizing step
+currents of 50-ms duration, beginning at t ⫽ 200 ms in the cell
+at rest (Fig. 2). When the injected current intensity was ⬎3
+␮A/cm2, the cell ﬁrst responded with a somatic sodium spike
+immediately followed by a dendritic calcium plateau potential
+(Fig. 2A), which lasted for ⬃35 ms. The calcium plateau
+potential, due to activation of ICa_h, created a large calcium ion
+inﬂux in the dendrites, which in turn activated IK_Ca (Fig. 2C).
+This eventually terminated the plateau potential and created a
+large, long-lasting AHP ⬃13 mV below the resting membrane
+potential. At the offset of the dendritic spike, ICa_h, ICa_l, and Ih
+are all completely inactivated (as are INa and IK_dr). Thus the
+only nonzero current is IK_Ca. Because this current is driven by
+relatively slow dendritic calcium dynamics and possesses a
+long inactivation time constant, the AHP is dominated by
+IK_Ca. Note that even though the conductance of IK_Ca is high,
+the amplitude of IK_Ca is small during the AHP because the
+membrane potential is close to the potassium reversal potential.
+The AHP terminated sharply after ⬃300 ms due to rebound
+excitation, which is consistent with published data (see Fig. 7A
+in Llina´s and Yarom 1981b). The time courses of the somatic
+currents (Fig. 2B) revealed that the AHP termination is initially
+due to the activation of Ih, which increases the membrane
+potential. Then when the soma is sufﬁciently depolarized, ICa_l
+starts to be activated, which results in the rebound of excita-
+tion.
+HYPERPOLARIZING CURRENT INPUT. We then studied the re-
+sponse of the standard cell model to a hyperpolarizing current
+pulse (t ⫽ 500 ms, duration ⫽ 100 ms, intensity ⫽ ⫺1.5
+␮A/cm2) superimposed on different tonic hyperpolarizing cur-
+⫽ 0 ␮A/cm2, the activation of the
+rents (Iapp). When Iapp
+low-threshold calcium conductance, as well as the recovery of
+
+808
+
+N. SCHWEIGHOFER, K. DOYA, AND M. KAWATO
+
+Parameter sensitivity analysis
+BIFURCATION ANALYSIS. The steady-state cell responses at dif-
+ferent hyperpolarized membrane potentials can be predicted
+from a bifurcation diagram plotting the minimum and maxi-
+mum values of the somatic membrane potential for Iapp. The
+cell had a stable steady state for all Iapp values except between
+⫺1.17 ␮A/cm2 and ⫺0.37 ␮A/cm2 (Fig. 4; ⫺1.17 and ⫺0.37
+corresponded to the 2 Hopf bifurcation points marked a and b).
+Within this range, the cell exhibited subthreshold oscillations
+⫽ ⫺0.85
+that reached a maximum amplitude of 9.8 mV for Iapp
+␮A/cm2, and the frequency of these subthreshold oscillations
+was 5–7 Hz. These values are similar to those recorded in real
+IO neurons (Benardo and Foster 1986; Lampl and Yarom
+1997; Llina´s and Yarom 1986).
+LOW-THRESHOLD CALCIUM CURRENT. Because the low-thresh-
+old calcium current has a central role in IO oscillatory behav-
+ior, we examined the variation of gCa_l in our model. We ﬁrst
+⫽ 1.2 mS/cm2 and
+analyzed the behavior of a cell with gCa_l
+⫽ 1.0 mS/cm2). The
+compared it to our standard cell (gCa_l
+relatively small increase in gCa_l resulted in a very different
+bifurcation diagram (Fig. 5). The cell had multiple stable
+behaviors, speciﬁcally, SS, SO, and R (an example of SS
+behavior can be seen in Fig. 7D). The spontaneous somatic
+spiking was between the points marked a and b in the ﬁgure,
+which correspond to a large range of input currents (⫺1.48 –
+0.19 ␮A/cm2). Between the points b and c (Iapp between ⫺0.23
+and 0.19 ␮A/cm2), the cell had two stable states, either SS or
+R. This bistability has been observed previously (Bal and
+McCormick 1997 - see their Fig. 1B for instance). Between the
+points c and d, i.e., when Iapp was between ⫺0.73 and ⫺0.23
+
+FIG. 2. Responses of an IO cell model to a dendritic current pulse (inten-
+sity: 8 ␮A/cm2, duration: 50 ms). A: somatic membrane potential: the cell 1st
+responded with a somatic sodium spike immediately followed by a dendritic
+calcium plateau potential ensued by a long-lasting after-hyperpolarization,
+which is terminated by a rebound potential. B: somatic currents; C: dendritic
+currents (note difference in ordinate scale between B and C).
+
+Ih, during the hyperpolarizing step created a rebound sufﬁcient
+to generate a sodium spike (Fig. 3A). This is consistent with
+previous experimental data (Bal and McCormick 1997; see
+their Fig. 2 for instance). ICa_l then became inactivated and
+ICa_h became activated to a moderate degree. The calcium
+inﬂux in the dendritic compartment resulted in the IK_Ca acti-
+vation, creating an AHP. The cycle began again, and another
+spike was generated. After the second spike, however, ICa_l
+was no longer sufﬁciently activated to bring the membrane
+potential above threshold and only a few more subthreshold
+oscillations followed. Thus the standard cell was a damped
+oscillator, as reported by Lampl and Yarom (1997). When a
+⫽ ⫺0.5 ␮A/cm2 was
+tonic bias hyperpolarizing current Iapp
+maintained before the current pulse, the cell was SO (Fig. 3B).
+The cell ﬁred a burst of six spikes after the pulse. When the
+⫽ ⫺1.0 ␮A/cm2 (Fig. 3C), the cell generated two
+bias was Iapp
+sodium spikes in response to the current pulse. Finally, when
+⫽ ⫺1.5 ␮A/cm2 (Fig. 3D), only one spike
+the bias was Iapp
+was generated and the oscillations were rapidly damped.
+
+FIG. 3. Response of an IO cell model to a hyperpolarizing somatic current
+pulse (intensity: ⫺1.5 ␮A/cm2, duration: 100 ms) at different states of tonic
+⫽
+hyperpolarization. A: Iapp
+⫺1.5 ␮A/cm2. Cell is most excitable when Iapp
+⫽ ⫺0.5 ␮A/cm2 and sub-
+threshold oscillations occur only for moderate values of the tonic hyperpolar-
+izing current.
+
+⫽ ⫺1.0; and D: Iapp
+
+⫽ 0.0; B: Iapp
+
+⫽ ⫺0.5; C: Iapp
+
+COMPARTMENTAL MODEL OF INFERIOR OLIVARY NEURONS
+
+809
+
+FIG. 4. Bifurcation diagram of the membrane potential Vs as a function of
+Iapp, which shows the behavior of the standard cell model as a function of the
+injected DC current. Cell has a stable steady state for all Iapp values except
+between the points marked a and b, where the cell exhibits SO. Thin line:
+stable steady state. Thin dotted line: unstable steady state. Thick line: stable
+oscillatory behavior. Hopf bifurcations occur at
+the thin and thick lines
+intersections. R, rest. SO, spontaneous subthreshold oscillations.
+
+␮A/cm2, the stable behaviors were either subthreshold oscil-
+lations or spontaneous somatic spiking. For the domain delim-
+ited by the points d and e (Iapp between ⫺1.30 and ⫺0.73
+␮A/cm2), the only stable state was spontaneous somatic spik-
+ing. Finally, the points e and a (Iapp was ⫺1.47 and ⫺1.30
+␮A/cm2) delimit another zone of bistability, with either sub-
+threshold oscillations or spontaneous spiking.4 The frequencies
+of the spiking oscillations ranged from 3.8 to 9.4 Hz, which is
+similar to that previously recorded in IO neurons (4 – 8 Hz)
+(Bal and McCormick 1997). The frequencies decreased with
+stronger hyperpolarization, a result also consistent with previ-
+ous observations (see Fig. 2A in Bal and McCormick 1997).
+Figure 6 illustrates the domains of asymptotic behaviors as
+a function of both Iapp and the maximal conductance gCa_l. The
+oscillations were very sensitive to gCa_l: when gCa_l was ⬍0.95
+mS/cm2, no oscillation occurred for any applied current value.
+When gCa_l was between 1.05 and 2.50 mS/cm2, the SS domain
+co-existed with the R domain, for applied currents between
+⫺0.75 and 0.15 ␮A/cm2 (bistable SS/R domain). Finally, the
+spontaneous subthreshold oscillation domain (SO) was small
+and mostly overlapped with the somatic spiking domain (where
+the cell is bistable and the domain is described by SS/SO in the
+ﬁgure).
+h CURRENT. Previous in vitro experiments have shown that gh
+is reduced with increasing concentrations of bath-applied Cs⫹
+(Bal and McCormick 1997). To model the effects of Cs⫹, gh
+was decreased from its standard value 1.5 mS/cm2 (Fig. 7A) to
+1.0, 0.5, and 0.0 mS/cm2 (Fig. 7, B–D), while a tonic current of
+⫺0.5 ␮A/cm2 was applied (note that a hyperpolarizing current
+pulse of ⫺1.5 ␮A/cm2 was injected at 500 ms for 100 ms to
+show bistability). The frequency decreased as the conductance
+value became smaller: it was ⬃8 Hz with gh
+⫽ 1.5 mS/cm2,
+and it decreased to 6.2 Hz when Ih was fully suppressed
+(frequency analysis conducted with AUTO, data not shown).
+Similar results have been found in vitro (Bal and McCormick
+
+4 For a very small range, ⫺1.477 ⬍ Iapp
+
+resting state and somatic spiking.
+
+⬍ ⫺1.470, the stable states were the
+
+FIG. 5. Bifurcation diagram of the membrane potential Vs as a function of
+Iapp, which shows the behavior of a different cell in which gCa_l was changed
+⫽ 1 mS/cm2). Cell now has multiple
+to 1.2 mS/cm2 (for the standard cell, gCa_l
+stable behaviors, namely spontaneous somatic spiking (SS), SO, and R. SS
+exists between the points a and b. Between the points b and c, the cell has two
+stable states, SS and R. Between the points c and d, the stable behaviors are
+either SO or SS. For the range delimited by the points d and e, the only stable
+state was SS. Finally, the points e and a delimit another bistability zone with
+either SO or SS. Thin line: stable steady state. Dotted thin line: unstable steady
+state. Thick lines: stable oscillatory behaviors. Open circles: unstable oscilla-
+tory trajectories that are not observable.
+
+⫽ 0.5 mS/cm2
+1997; see their Fig. 7D). Note also that for gh
+⫽ 0.0 mS/cm2, the hyperpolarizing pulse generates a
+and gh
+dendritic spike. In these cases, as discussed by Yarom and
+Llina´s (1987), somatic and dendritic compartments are effec-
+tively more strongly coupled because of higher input resis-
+tance: the sodium spike can invade the dendritic compartment
+enough to generate a dendritic spike.
+
+Next, the effects of systematically varying gh and Iapp were
+examined (Fig. 7E). When no current was injected, spontane-
+⬍ 0.67 mS/cm2.
+ous subthreshold oscillations appeared for gh
+
+FIG. 6. Response domains when both gCa_l and Iapp are varied. Note how
+the low-threshold calcium current is crucial for subthreshold and spiking
+oscillations. In this ﬁgure and in Figs. 7 and 8, the smooth curves were
+obtained by tracking the bifurcation points with AUTO and the segmented
+curves were obtained by performing full two parameter searches (see METH-
+ODS).
+
+810
+
+N. SCHWEIGHOFER, K. DOYA, AND M. KAWATO
+
+⫽ 1 mS/cm2; C: gh
+
+FIG. 7. Effects of varying the conductance of
+⫽ 1.5
+the h current (gh) on cell responses. A: gh
+⫽ 0.5 mS/
+mS/cm2; B: gh
+⫽ 0 mS/cm2. Iapp was held constant
+cm2; D: gh
+at ⫺0.5 ␮A/cm2; and there is a pulse current
+injected at 500 ms (intensity: ⫺1.5 ␮A/cm2,
+duration: 100 ms). Note the dendritic spike in-
+duced by the pulse current in both C and D. E:
+response domains as a function of gh and Iapp.
+Asterisk-labeled points, A, B, C, and D, corre-
+spond to conditions in A, B, C, and D.
+
+For smaller values of the maximal conductance, there was a
+small range of applied current for which the cell was sponta-
+neous somatic spiking and a larger range for which the cell was
+bistable (both SS and SO co-existed).
+
+Behavior of two coupled IO cells
+
+RESPONSES TO A CURRENT PULSE WITH DIFFERENT TONIC
+CURRENTS. To investigate the effect of coupling on the oscil-
+lating behaviors of two cells, we examined the membrane
+potential of cell 1 as a function of both the tonic input current
+injected in cell 2 (Iapp2), and the coupling conductance gc (with
+⫽ 0 ␮A/cm2). The cells were “standard cells,” except that
+Iapp1
+⫽ 1.2 mS/cm2 to increase the excitability of the
+we set gCa_l
+⬍
+cells. The two-parameter diagram (Fig. 8A) shows that for gc
+0.18 mS/cm2, there were two ranges of Iapp2 with subthreshold
+oscillations. In Fig. 8A, to the right of the nearly vertical line
+⫽ ⫺0.2 ␮A/cm2), and the area under the curved
+(around Iapp2
+line, cell 1 was in a stable-steady state. In other regions, the cell
+oscillated.
+
+Next, in Fig. 8, B–E, the membrane potentials of the two
+
+⫽ ⫺1 ␮A/cm2 and B and C: Iapp2
+
+cells were plotted for both noncoupled (C and E) and
+⫽ 0.05 mS/cm2) for two values of
+coupled case (B and D: gc
+⫽ ⫺4
+Iapp2 (D and E: Iapp2
+␮A/cm2). A current pulse (intensity: ⫺1.5 ␮A/cm2, dura-
+tion: 100 ms) was injected in cell 1 at t ⫽ 0.5 s. Note how
+the coupling modiﬁes the cellular responses: In Fig. 8B, SO
+was generated in both cells even though neither of the
+individual cells was SO before coupling (Fig. 8C). This
+result is in agreement with the theory according to which the
+IO is a network of damped oscillators which, when coupled,
+can generate sustained oscillations (Yarom 1991). It is also
+consistent with the results of the modeling study of Manor
+et al. (1997), who showed that, for two cells,
+is not
+necessary for either cell to oscillate spontaneously to obtain
+sustained oscillations when the cells are coupled. In Fig. 8D,
+SO could be generated in cell 1 after coupling, even though
+cell 1 is by itself SS/R (Fig. 8E); also cell 2 became SS/SO
+instead of SS alone. Note that because the cells are standard
+⫽ 1.2 mS/cm2, the results of Fig. 8E already
+cells with gCa_l
+have been summarized in Fig. 5.
+
+it
+
+COMPARTMENTAL MODEL OF INFERIOR OLIVARY NEURONS
+
+811
+
+FIG. 8. Oscillatory response of cell 1 as a function of the
+⫽ 1.2 mS/cm2 and
+input current in cell 2, Iapp2, and gc (gCa_l
+⫽ 0 ␮A/cm2). A: response domains. Note the existence
+Iapp1
+of 2 domains where the cell did not oscillate. B–E: mem-
+brane potentials of the 2 cells were plotted for in both
+⫽
+noncoupled (C and E) and coupled (B and D) case (gc
+⫽ ⫺1 ␮A/cm2 and
+0.05 mS/cm2) for 2 values of Iapp2 (Iapp2
+⫽ ⫺4 ␮A/cm2). Subplot names B–E correspond to the
+Iapp2
+4 asterisks in A. Thin line: somatic membrane potential of
+cell 1. Thick line: somatic membrane potential of cell 2. B:
+⫽ ⫺4.0
+Iapp2
+⫽
+␮A/cm2, gc
+⫽ 0.0 mS/cm2.
+0.05 mS/cm2; E: Iapp2
+Other details as in Fig. 3.
+
+⫽ 0.05 mS/cm2; C: Iapp2
+
+⫽ ⫺1 0.0 ␮A/cm2, gc
+
+⫽ ⫺4.0 ␮A/cm2, gc
+
+⫽ 0.0 mS/cm2; D: Iapp2
+
+⫽ ⫺1.0 ␮A/cm2, gc
+
+RESPONSES TO CURRENT PULSES IN SIMULATED HARMALINE
+APPLICATION CONDITIONS. The drug harmaline is known to
+induce very robust somatic spiking in IO cells via three phar-
+macological effects (Llina´s and Yarom 1986): it increases the
+voltage sensitivity of the conductance of the low-threshold
+calcium current, it hyperpolarizes the cell, and it reduces the
+anomalous rectiﬁcation. In simulations, we approximated the
+increase in voltage sensitivity of the ICa_l conductance by
+increasing gCa_l, the hyperpolarizing effect by injecting a tonic
+hyperpolarizing current in the soma, and the reduction in Ih by
+⫽
+decreasing gh. Thus we set gCa_l
+⫽ 0.7 mS/cm2 (also we further
+Iapp2
+increased gNa to 80 mS/cm2 to ensure robust spiking).5 The
+
+⫽ ⫺0.8 ␮m/cm2, and gh
+
+⫽ 1.2 mS/cm2, Iapp1
+
+5 Harmaline shifts the inactivation curve of the low threshold calcium
+currents to the right (Llina´s and Yarom 1986). In the present model, we chose
+to simulate the modulatory action by adjusting the maximal conductances only,
+in order not to increase the parameter search space. We did however run
+
+cells exhibited strong and robust spontaneous somatic spiking
+with this set of parameters.
+
+After gc ﬁrst was set to 0.03 mS/cm2, a small dendritic pulse
+was applied to cell 1 (0.1 ␮A/cm2 for 1 ms). The cells then
+exhibited nonsynchronous, complex ﬁring patterns, as shown
+in Fig. 9A. The disparity between the membrane potentials was
+due to the occurrence of a somatic spike in one cell just before
+the other cell was to spike. The current ﬂowing from the
+leading cell to the lagging cell had an effect strong enough to
+trigger a dendritic spike in the lagging cell (as seen at about t ⫽
+0.6 s). As a result, a few nonsynchronous somatic spikes
+followed in both cells. When the somatic spikes were sufﬁ-
+ciently close to each other again, a new dendritic spike was
+generated in the lagging cell (as seen around t ⫽ 2.5 s in Fig.
+9A), thereby maintaining the complex spiking pattern. The
+
+preliminary simulations which showed that shifting the inactivation function of
+ICa_l to the right by 5 mV also reproduced robust somatic spiking.
+
+812
+
+N. SCHWEIGHOFER, K. DOYA, AND M. KAWATO
+
+⫽ 0.03 mS/cm2, gCa_l
+
+FIG. 9. Responses of coupled spiking cells in 2 conditions.
+At t ⫽ 0.5 s, a depolarizing pulse was given to the dendrite of
+cell 1 for symmetry breaking. A: complex desynchronized
+⫽ 1.2
+ﬁring patterns obtained for gc
+⫽
+mS/cm2, gh
+⫽ ⫺0.8 ␮m/cm2. B: anti-phasic spiking patterns for
+Iapp2
+⫽
+same parameters as in A, except gCa_l
+0.01 mS/cm2. For a better visualization of the desynchroni-
+zation, we plotted cell 1’s somatic membrane potential vs. cell
+2’s potential of for the complex ﬁring pattern case (C) for the
+anti-phasic case (D).
+
+⫽ 80 mS/cm2, and Iapp1
+
+⫽ 0.7 mS/cm2, gNa
+
+⫽ 1.5 mS/cm2 and gc
+
+nonsynchronous ﬁring can be better visualized by plotting the
+membrane potential of cell 1 as a function of the membrane
+potential of cell 2, as in Fig. 9C.
+
+For gc
+
+⫽ 0.01 mS/cm2 and with a further increase in the
+⫽ 1.5 mS/cm2), the cells exhibited
+strength of ICa_l (gCa_l
+anti-phasic ﬁring (Fig. 9B). Interestingly, anti-phasic so-
+matic ﬁring has been reported in the IO cells by Llina´s and
+Yarom (1986; see their Fig. 5E). Plotting the membrane
+potential of one cell as a function of the membrane potential
+of the other reveals the precise periodicity of this spiking
+pattern (Fig. 9D).
+
+MODULATION OF BOTH COUPLING STRENGTH AND IONIC
+CURRENTS IN SIMULATED HARMALINE APPLICATION. Here we
+show that, in addition to the coupling conductance, the maxi-
+mal conductance values of both ICa_l and Ih have key roles in
+the appearance of complex, desynchronized ﬁring patterns. In
+Fig. 10A, the distance D between the two cells is plotted as a
+function of both gCa_l and gc. The contour D ⫽ 2 mV approx-
+imately corresponds to the appearance of a signiﬁcant phase
+shift. The contour D ⫽ 8 mV corresponds to the induction of
+desynchronizing dendritic spikes by the current ﬂowing
+
+through the gap junction (as in Fig. 9A).6 Very weak coupling
+⬍ 0.003 mS/cm2) had no effect on the phase relationship of
+(gc
+the spiking cells. For a large range of intermediate coupling
+values (gc between 0.003 and 0.15 mS/cm2), spiking was
+⬎ 0.2
+complex. Only very large coupling conductances (gc
+mS/cm2) brought the two cells into the in-phase mode. Because
+these large values are probably not biologically plausible (see
+DISCUSSION), complex ﬁring behavior occurred for almost the
+whole physiological range of gc. The range of gCa_l for which
+ﬁring is complex was 1.15–1.4 mS/cm2. This range should be
+compared with the spontaneous somatic spiking domain: if
+gCa_l was ⬍0.9 mS/cm2 only subthreshold oscillations were
+observed, and if gCa_l was ⬎1.6 mS/cm2, only spontaneous
+dendritic spiking were observed. Thus desynchronization oc-
+
+6 This value might appear small compared with spike amplitudes. However,
+since the maximal ﬁring rate is low (around 3– 4 spikes per s) and since a
+sodium spike lasts only a very short time (in the order of 2–3 ms), the two
+desynchronized cells have similar, hyperpolarized, membrane potentials most
+of the time. During these relatively long-lasting common hyperpolarized
+phases, the instantaneous distance is small; this explains the small values of the
+distance, which was temporally averaged over long duration, compared with
+the spike amplitudes.
+
+COMPARTMENTAL MODEL OF INFERIOR OLIVARY NEURONS
+
+813
+
+FIG. 10. A: average distance between the 2 cells’
+membrane potentials as function of both gCa_l and gc.
+Contours where the distance D is 2 mV and 8 mV are
+shown (D ⫽ 2 mV approximately corresponds to the
+appearance of a signiﬁcant phase shift; D ⫽ 8 mV
+corresponds to the induction of desynchronizing den-
+dritic spikes by the current ﬂowing through the gap
+junction). The point labeled “a” corresponds to the stan-
+dard cell under harmaline condition (Fig. 9A) and the
+point labeled “b” to the anti-phase regime (Fig. 9B).
+Note how increasing both ionic and coupling conduc-
+tances tends to desynchronize the cells. B: Distance
+between the two cells as function of both gh and gc. As
+above, very weak coupling had no effect, but for stron-
+ger coupling values ﬁring became complex and the two
+cells were desynchronized.
+
+curred for more than a third of gCa_l values for which somatic
+spikes were observed.
+
+In Fig. 10B, the distance D between the two cells is plotted
+as a function of both gh and gc. As in the preceding text, very
+weak coupling had no effect, but for stronger coupling values
+ﬁring became complex, and the two cells were desynchronized.
+The spiking was complex and desynchronized for a very large
+range of gc, i.e., 0.005– 0.14 mS/cm2 and when gh was in the
+0.4- to 1-mS/cm2 range. Thus desynchronization occurred for
+more than a fourth of possible gh values. Note that the SS
+domain was limited to 2.45 mS/cm2 ⬎ gh
+⬎ 0.25 mS/cm2:
+between 0.25 and 0.15 S/cm2 spontaneous dendritic spiking
+occurred; ⬍0.15 mS/cm2 the cells were in a hyperpolarized
+steady state; and ⬎2.45 mS/cm2 only subthreshold oscillations
+were observed. For values of gh between 0.25 and 0.40 mS/
+cm2, while one cell is hyperpolarized after a dendritic spike,
+the other cell could not generate a somatic spike because the
+depolarization induced by the h current was weak compared
+with the hyperpolarizing coupling current. The cells generate a
+nearly simultaneous somatic spike at the end of the AHP.
+Therefore in this particular case, dendritic spikes do not lead to
+signiﬁcant desynchronization.
+
+D I S C U S S I O N
+
+We propose a novel two-compartment biophysical model of
+IO neurons that reproduced many reported experimental re-
+sults. The modeled neurons exhibited multiple ﬁring patterns
+that depended on the level of depolarization or hyperpolariza-
+tion, on the relative inﬂuence of the ionic currents ICa_l and Ih,
+and on the strength of the electrotonic coupling.
+
+Comparison with related modeling studies
+
+of several neurons which contain active dendrites (Booth et al.
+1997; Mainen and Sejnowski 1996; Pinsky and Rinzel 1994;
+Rush and Rinzel 1994). The second compartment, correspond-
+ing to the lumped dendrites, allowed us to segregate the soma
+from the dendritic location of the high-threshold calcium cur-
+rent, the gap junctions, and the synaptic inputs. The morpho-
+logical parameters gint and p were critical to the behaviors of
+the two-compartment model. When the coupling conductance
+between the two compartment gint was set to large values (in
+effect lumping the somatic and dendritic compartments into 1
+isopotential compartment), simulations showed that it was im-
+possible to generate somatic spikes: the sodium spikes always
+triggered dendritic spikes. We found that, for proper function-
+ing of the model gint must be set to ⬍0.2 mS/cm2. Moreover,
+because it is reasonable to assume that intracellular coupling
+⬍
+(gint) is stronger than intercellular coupling (gc), we have gc
+⬍ 0.2 mS/cm2 (see Table 2 for plausible ranges of param-
+gint
+eters inferred from simulations). In the present model, p ⫽ 0.2
+was used for the ratio of the somatic area to the total surface
+area. In two compartment models, it is difﬁcult, however, to
+relate directly p to the actual cell morphology due to the
+attenuation of the current ﬂowing from distal dendrites to the
+
+TABLE 2. Plausible ranges of several parameters inferred from
+simulations
+
+Parameter
+
+p
+gint, mS/cm2
+gc, mS/cm2
+gCa_l, mS/cm2
+gh, mS/cm2
+
+Range
+
+0.2–0.3
+0.08–0.2
+⬍ gint
+gc
+0.5–1.5
+
+1–2
+
+Two-compartment models similar to the one described here
+were shown to reproduce successfully many cellular responses
+
+Note how the ranges for the ﬁrst four parameters have been reduced
+
+compared with Table 1.
+
+814
+
+N. SCHWEIGHOFER, K. DOYA, AND M. KAWATO
+
+soma (Pinsky and Rinzel 1994). Thus p should be larger than
+the actual morphological ratio (0.1– 0.2) (Manor 1995).
+
+In the present study, the calcium dynamics and the kinetics
+of the ICa_h and IK_Ca currents were borrowed from Traub et
+al.’s (1991) CA3 hippocampal pyramidal neuron model. These
+kinetics lead to satisfactory performance of our IO model
+because most of the results of the present study are in agree-
+ment with experimental observations. It is possible, however,
+that the very low ﬁring frequency of IO neurons in vivo is due
+to a longer lasting AHP than in the model (⬃350 ms when no
+tonic current is injected). When we used the following calcium
+dynamics equation (instead of Traub et al.’s)
+
+d关Ca2⫹兴
+
+dt
+
+⫽ ⫺1.0ICa_h ⫺ 0.02关Ca2⫹兴
+
+then IK_Ca was activated for a longer period and created an
+AHP that lasts ⬃700 ms (same experimental conditions as in
+Fig. 2). Thus the maximal ﬁring rate of the cell would be ⬃1.4
+spikes/s, in line with in vivo data (at most 2 or 3 spikes within
+a second).
+
+To our knowledge, the model developed by Manor (1995)
+and Manor et al. (1997) is the only other published model of IO
+neurons. Their study focused on the subthreshold oscillations,
+so their model contained only ICa_l and a leakage current
+(because these 2 currents are sufﬁcient to generate subthresh-
+old oscillations). These authors notably showed that when two
+nonidentical cells were coupled, oscillations could be gener-
+ated even though neither of the individual cells was a sponta-
+neous oscillator. For example, the two cells shown in Fig. 8B
+did not oscillate when they were not coupled because the ﬁrst
+cell was too depolarized and the second cell was too hyperpo-
+⫽ 0.05 mS/cm2), however, the
+larized. When coupled (with gc
+two cells oscillated at the same frequency, but at different
+baselines and with a small phase shift. Moreover, if one cell
+started spiking, the oscillations in the other cell increased in
+amplitude.
+
+Our model signiﬁcantly extends the Manor et al. model,
+however, because we incorporated sodium spikes, dendritic
+spikes, and AHP. Thus we could investigate the conditions of
+IO spike generation when input current, electrical coupling
+strength, and the conductances of both ICa_l and Ih were varied.
+We further showed that a two-cell network model can exhibit
+anti-phase spiking (as previously found in simple models of
+coupled neurons) (e.g., Abarbanel et al. 1996; Kawato et al.
+1979; Sherman and Rinzel 1992) and complex, desynchronized
+ﬁring patterns (also observed in the model of Abarbanel et al.
+1996). In the present model, the crucial and novel element is
+the triggering of dendritic spikes by electrical coupling leading
+to desynchronization. Our results suggest that this behavior is
+robust because it can be attained for a large range of coupling
+and ionic conductances.
+
+Finally, our two-compartment model is complex enough to
+reproduce the essential properties of IO cells, such as the
+generation of dendritic and somatic spikes, but computation-
+ally simple enough to be later integrated into models of larger
+networks. Moreover, realistic, time varying inputs could be
+provided to the IO network by incorporating it into a complete
+sensorimotor neural system (see Schweighofer et al. 1998).
+
+Ionic current modulation—rhythmicity in single inferior olive
+cell
+
+As previously described in experiments (Lampl and Yarom
+1988; Llina´s and Yarom 1986) and in the model of Manor et al.
+(1997), simulations showed that the low-threshold calcium
+current had a central role in generating rhythmic behavior. If
+the maximal conductance of ICa_l was below a threshold value,
+then spontaneous subthreshold oscillations did not occur re-
+gardless of the input current. Small changes in gCa_l, around the
+standard cell’s parameter had dramatic effects on the cell
+excitability pattern (R, SO, or SS) as shown in Figs. 5 and 6.
+Depending on the brain slice, or even depending on the cell
+impaled, IO neurons recorded in vitro exhibit a variety of
+responses to the same stimulus, and some cells are more
+excitable than others. Our results show that even a relatively
+narrow distribution of gCa_l in real IO neurons can explain the
+diversity of responses encountered. Figures 4 and 5 suggest
+two new experiments to test further the effect of the low-
+threshold calcium current in single cells, i.e., cells grown in
+culture or isolated (this only will be feasible when speciﬁc gap
+junctions blockers become available). In these experiments,
+both the low-threshold calcium conductance and the injected
+tonic current are controlled independently. In the ﬁrst experi-
+ment (Fig. 4), starting from rest at the depolarized level, a very
+slow continuous decrease in the injected tonic current ﬁrst
+would produce subthreshold oscillations of increasing ampli-
+tudes, then oscillations of decreasing amplitudes, then rest
+again. In a second experiment (Fig. 5), if the maximal conduc-
+tance gCa_l is increased (by harmaline for instance), the se-
+quence of responses to decreasing injected current then would
+be: subthreshold oscillations of
+increasing amplitudes at
+slightly hyperpolarized membrane potential, then spontaneous
+somatic spiking, and ﬁnally rest again for large hyperpolarizing
+currents.
+
+Our results indicate that the anomalous rectiﬁer current Ih
+plays a major role in controlling the frequency of the oscilla-
+tory behavior and the generation of IO somatic spikes. This is
+consistent with the observations of Bal and McCormick
+(1997). ICa_l and Ih play antagonistic roles: while an increase in
+gCa_l makes the cell more excitable (Fig. 6), a decrease in gh
+has similar effects (Fig. 7E). The effect of the anomalous
+rectiﬁer could be tested by controlling simultaneously the
+conductance of Ih (with serotonin and/or Tris artiﬁcial cere-
+brospinal ﬂuid) (see Bleasel and Pettigrew 1994) and the
+membrane potentials. For example, an experiment designed to
+follow a path at a ﬁxed membrane potential similar to
+A3 B3 C3 D in Fig. 7 could be performed.
+
+In the present model, the frequency of all oscillations are
+voltage dependent. In agreements with our model, the results of
+Llina´s and Yarom (1986) and of Bal and McCormick (1997)—
+see their Fig. 2—seem to indicate that somatic spiking oscil-
+lations are voltage dependent. However, the spontaneous sub-
+threshold oscillations, in slices where they occur, are voltage
+independent (Lampl and Yarom 1997; Llina´s and Yarom
+1986). Part of the discrepancy between our results and these
+experimental results may be due to network oscillations as
+opposed to cellular oscillations. Lampl and Yarom (1997)
+showed that the pattern of subthreshold oscillations is network
+speciﬁc rather than cell speciﬁc. Thus injection of current in
+one cell does not change its oscillatory frequency. Only when
+
+COMPARTMENTAL MODEL OF INFERIOR OLIVARY NEURONS
+
+815
+
+an experimental method is available to isolate a single IO cell,
+will it be possible to analyze the voltage dependency of sub-
+threshold oscillations in single cells, as predicted here.
+
+Inﬂuence of coupling and current modulation—synchrony
+and desynchrony of inferior olive cells
+
+Even though gap junction coupling generally is thought to
+bring the membrane potential of the two coupled cells closer to
+each other, we found that, counterintuitively, increasing cou-
+pling strength can desynchronize the two spiking cells. If a
+somatic spike occurred in one cell, a dendritic spike in a
+coupled cell could be triggered by the current ﬂowing through
+the gap junctions. Thus under certain conditions, it appears that
+electrical coupling may induce effects that are similar to those
+induced by chemical synapses, that is, they may trigger den-
+dritic spikes. In addition, the long AHP after the dendritic
+spikes increased the complexity of the ﬁring pattern. Desyn-
+chronization is robust because there were broad ranges of
+electrotonic coupling strengths and maximal conductances,
+gCa_l and gh where desynchronization was observed. Moreover,
+we veriﬁed that desynchronization does not critically depend
+on the voltage dependency of the coupling conductance: Linear
+electrical coupling conductances also can desynchronize the
+cells (however, because of the stronger overall effect of linear
+coupling, the range of gc where desynchronization was ob-
+served is smaller). Note that the occurrence of complex ﬁring
+behavior by a reduction of gh can be understood by the fact that
+a reduction of Ih decreases the electrotonic distance between
+the soma and the dendrites, which,
+increases the
+inﬂuence of a somatic spike in one cell on the dendritic
+compartment of another cell.
+
+in turn,
+
+It might appear puzzling that because a somatic spike in the
+leading cell (or cell 1) triggers a dendritic spike in the lagging cell
+(cell 2), electrical coupling fails to trigger a dendritic spike in cell
+1 as well. However, a close inspection of the currents ﬂowing into
+and out of the two dendritic compartments reveals the following.
+The cell 1’s somatic spike propagates in the dendrite and in turn
+slightly raises the membrane potential of cell 2. If this happens
+simultaneously with a rise in the dendritic membrane potential of
+cell 2 due to the propagation of cell 2’s somatic spike, the
+combined effect is sufﬁcient to trigger a dendritic ICa_h spike in
+cell 2. This, in turn, creates a relatively large current ﬂow through
+the electrical coupling. However, the somatic spike of cell 1 has
+already activated the ICa_h current to some extent (but not suff-
+iently to generate a spike), which in turns lead to some activation
+of IK_Ca. This later current counterbalances the depolarizing effect
+of the coupling current: As a consequence, no dendritic spike is
+generated in cell 1.
+
+To test the effect of coupling on the synchronization, we
+propose the following experiment: two electrodes could be
+inserted into two neighboring olivary cells after harmaline
+application. Because inhibitory inputs from the cerebellar nu-
+clei can decrease signiﬁcantly the gap junction coupling
+strength (Lang et al. 1996), excitation or inhibition of deep
+nuclear cells that project to this region of the IO could be used
+to control the coupling conductance. We predict that, depend-
+ing on the electrical coupling strength, the two recorded cells
+could be in-phase, phase-shifted, anti-phase, or desynchro-
+nized.
+
+Our results imply that neuromodulatory inputs to the IO that
+
+induce relatively small changes in ionic conductances may
+bring IO cells into spontaneous rhythmic ﬁring modes and
+allow neighboring IO cells to be desynchronized. Indeed, se-
+rotonin, released by the raphe nucleus, has been shown to have
+effects very similar to those of harmaline on IO cellular be-
+havior (even though its mode of actions may be different)
+(Sugihara et al. 1995). Thus it is possible that our results under
+simulated harmaline application apply to serotonin neuro-
+modulation. First, because only a slight increase in gCa_l allows
+spontaneous rhythmic somatic spiking (at least at slightly hy-
+perpolarized membrane potentials), IO cells could be exquis-
+itely sensitive to serotonin: by increasing the voltage sensitivity
+of ICa_l, serotonin may allow the control of repetitive spiking.
+Second, because anomalous rectiﬁcation is reduced by seroto-
+nin (Sugihara et al. 1995), it is possible that Ih plays a central
+role, along with ICa_l, in controlling whether the mode of IO
+cell ﬁring is rhythmic or not in vivo. Moreover, as shown in
+Fig. 10, both an increase in ICa_l strength and a decrease in Ih
+strength would make the desynchronization process more
+likely. This prediction could be tested experimentally by re-
+cording two neighboring IO cells and by simultaneously con-
+trolling the serotonin level.
+
+A P P E N D I X
+
+The kinetics equation for the activation and inactivation variables h,
+
+n, k, l, q, and r is
+
+dx
+dt
+
+⫽ 关x⬁共V兲 ⫺ x兴/␶共V兲
+
+Mathematical descriptions of the activation and inactivation functions
+and their time dependence are given by the following equations.
+
+INa
+
+Adapted from Rush and Rinzel (1994).
+
+m⬁共V兲 ⫽
+
+␣m共V兲
+
+␣m共V兲 ⫹ ␤m共V兲 with ␣m共V兲 ⫽
+
+0.1共V ⫹ 41兲
+
+1 ⫺ exp关⫺共V ⫹ 41兲/10兴
+
+and ␤m共V兲 ⫽ 9.0 exp关⫺共V ⫹ 66兲/20兴
+
+h⬁共V兲 ⫽
+
+␣h共V兲
+
+␣h共V兲 ⫹ ␤h共V兲
+
+␶h共V兲 ⫽
+
+170
+
+␣h共V兲 ⫹ ␤h共V兲
+
+with ␣h共V兲 ⫽ 5.0 exp关⫺共V ⫹ 60兲/15兴
+
+and ␤h共V兲 ⫽
+
+共V ⫹ 50兲
+
+1 ⫺ exp关⫺共V ⫹ 50兲/10兴
+
+IK_dr
+
+Adapted from Rush and Rinzel (1994).
+
+n⬁共V兲 ⫽
+
+␣n共V兲
+
+␣n共V兲 ⫹ ␤n共V兲
+
+␶n共V兲 ⫽
+
+5
+
+␣n共V兲 ⫹ ␤n共V兲
+
+共V ⫹ 41兲
+
+with ␣n共V兲 ⫽
+
+1 ⫺ exp关⫺共V ⫹ 41兲/10兴
+and ␤n共V兲 ⫽ 12.5 exp关⫺共V ⫹ 51兲/80兴
+
+ICa_l
+
+Adapted from Manor (1995).
+
+k⬁共V兲 ⫽
+
+1
+
+1 ⫹ exp关⫺共V ⫹ 61兲/4.2兴
+
+␶k ⫽ 5
+
+816
+
+l⬁共V兲 ⫽
+
+Ih
+
+Adapted from Huguenard and McCormick (1992).
+
+q⬁共V兲 ⫽
+
+1
+
+1 ⫹ exp关共v ⫹ 75兲/5.5兴
+
+␶q(V) ⫽
+
+exp共⫺0.086V ⫺ 14.6兲 ⫹ exp共0.07V ⫺ 1.87兲
+
+1
+
+ICa_h
+
+Adapted from Traub et al. (1991).
+
+r⬁共V兲 ⫽
+
+␣r共V兲
+
+␣r共V兲 ⫹ ␤r共V兲
+
+␶r共V兲 ⫽
+
+1
+
+␣r共V兲 ⫹ ␤r共V兲
+
+with ␣r共V兲 ⫽
+
+1.6
+
+1 ⫹ exp关⫺共V ⫺ 5兲/14兴
+
+and ␤r(V) ⫽
+
+0.02共V ⫹ 8.5兲
+
+1 ⫺ exp关共V ⫹ 8.5兲/5兴
+
+IK_Ca
+
+Adapted from Traub et al. (1991).
+
+s⬁共关Ca2⫹兴兲 ⫽
+
+␣s共关Ca2⫹兴兲
+
+␣s共关Ca2⫹兴兲 ⫹ ␤s
+
+␶s共关Ca2⫹兴兲 ⫽
+
+1
+
+␣s共关Ca2⫹兴兲 ⫹ ␤s
+
+with ␣s共关Ca2⫹兴兲 ⫽ min 共210⫺5关Ca2⫹兴, 0.01兲
+
+and ␤s ⫽ 0.015
+The kinetics of the inactivation variable s of IK_Ca is given by
+
+ds
+dt
+
+⫽ 关s⬁共关Ca2⫹兴兲 ⫺ s兴/␶s共关Ca2⫹兴兲
+
+In the dendritic compartment, the calcium concentration (assuming no
+calcium diffusion between compartments) follows the equation
+
+d关Ca2⫹兴
+
+dt
+
+⫽ ⫺3.0ICa_h ⫺ 0.075关Ca2⫹兴
+
+Ic
+
+Adapted from Moreno et al. (1994).
+
+f共V兲 ⫽ 0.6 exp冉 ⫺
+
+502冊 ⫹ 0.4
+
+V2
+
+The authors thank the anonymous referees for valuable comments and
+
+criticisms.
+
+XPPAUT3.0 is available from http://www.pitt.edu/⬃phase. AUTO is avail-
+able from http://indy.cs.concordia.ca/auto/. CVODE is available from http://
+www.netlib.org/ode/cvode.tar.gz.
+
+Address for reprint requests: N. Schweighofer, ERATO, Kawato Dynamic
+Brain Project, 2–2, Hikaridai, Seika-cho, Soraku-gun, Kyoto 619-0288, Japan.
+
+Received 10 December 1998; accepted in ﬁnal form 12 April 1999.
+
+REFERENCES
+
+ABARBANEL, H.D.I., HUERTA, R., RABINOVITCH, M. I., RULKOV, N. F., ROWAT,
+P. F., AND SELVERSTON, A. I. Synchronized action of synaptically coupled
+chaotic model of neurons. Neural Comp. 8: 1567–1602, 1996.
+
+BAL, T. AND MCCORMICK, D. A. Synchronized oscillations in the inferior olive
+are controlled by the hyperpolarization-activated cation current Ih. J. Neu-
+rophysiol. 77: 3145–3156, 1997.
+
+BENARDO, L. S. AND FOSTER, R. E. Oscillatory behavior in inferior olive
+neurons: mechanism, modulation, cell aggregates. Brain Res. Bull. 17:
+773–784, 1986.
+
+N. SCHWEIGHOFER, K. DOYA, AND M. KAWATO
+
+1
+
+1 ⫹ exp关共V ⫹ 85.5兲/8.5兴
+
+␶l共V兲 ⫽
+
+20 exp关共V ⫹ 160兲30兴
+1 ⫹ exp关共V ⫹ 84兲/7.3兴
+
+⫹ 35
+
+BENNETT, M.V.L. AND VERSEDIS, V. K. Biophysics of gap junctions. Semin.
+
+Cell. Biol. 3: 29 – 47, 1992.
+
+BLEASEL, A. F. AND PETTIGREW, A. G. The effect of bicarbonate free artiﬁcial
+cerebrospinal ﬂuid on spontaneous oscillations of the membrane potential in
+inferior olivary neurons of the rat. Brain Res. 639: 8 –20, 1994.
+
+BOOTH, V., RINZEL, J., AND KIEHN, O. Compartmental model of vertebrate
+motorneurons for Ca2⫹-dependent spiking and plateau potentials under
+pharmacological treatment. J. Neurophysiol. 78: 3371–3385, 1997.
+
+COHEN, S. D. AND HINDMARSH, A. C. CVODE User Guide. Lawrence Lever-
+
+more National Laboratory, 1997.
+
+CONDORELLI, D. F., PARENTI, R., SPINELLA, F., SALINARO, A. T., BELLUARDO,
+N., CARDILE, V., AND CICIRATA, F. Cloning of a new gap junction gene
+(Cx36) highly expressed in mammalian brain neurons. Eur. J. Neurosci. 10:
+1202– 8, 1998.
+
+DE ZEEUW, C. I., HOLSTEGE, J. C., RUIGROK, T. J., AND VOOGD, J. Ultrastruc-
+tural study of the GABAergic, cerebellar, and mesodiencephalic innervation
+of the cat medial accessory olive: anterograde tracing combined with im-
+munocytochemistry. J. Comp. Neurol. 284: 12–35, 1989.
+
+DE ZEEUW, C. I., LANG, E. J., SUGIHARA, I., RUIGROK, T. J., EISENMAN, L. M.,
+MUGNAINI, E., AND LLINAS, R. Morphological correlates of bilateral syn-
+chrony in the rat cerebellar cortex. J. Neurosci. 16: 3412–3426, 1996.
+
+DE ZEEUW, C. I., SIMPSON, J. I., HOOGENRAAD, C. C., GALJART, N., KOEKKOEK,
+S. K., AND RUIGROK, T. J. Microcircuitry and function of the inferior olive.
+Trends Neurosci. 21: 391– 400, 1998.
+
+DOEDEL, E. J. AUTO: a program for the automatic bifurcation analysis of
+autonomous systems. Proceedings of the 10th Manitoba Conference on
+Numerical Mathematics and Computation. Winnipeg: University of Mani-
+toba, 1981, p. 265–284.
+
+ERMENTROUT, B. XPPAUT3.0 —The Differential Equations Toll. University of
+
+Pittsburgh, 1997.
+
+HUGUENARD, J. R. AND MCCORMICK, D. A. Simulation of the currents involved
+in rhythmic oscillations in thalamic relay neurons. J. Neurophysiol. 68:
+1373–1383, 1992.
+
+KAWATO, M., SOKABE, M., AND SUZUKI, R. Synergism and antagonism of
+
+neurons caused by an electrical synapse. Biol. Cybern. 34: 81– 89, 1979.
+
+KEATING, J. G. AND THACH, W. T. Non-clock behavior of inferior olive
+neurons: interspike interval of Purkinje cell complex spike discharge in
+the awake behaving monkey is random. J. Neurophysiol. 73: 1329 –1340,
+1995.
+
+KITAZAWA, S., KIMURA, T., AND YIN, P. B. Cerebellar complex spikes encode
+both destinations and errors in arm movements. Nature 392: 494 – 497,
+1998.
+
+KOBAYASHI, Y., KAWANO, K., TAKEMURA, A., INOUE, Y., KITAMA, T., GOMI, H.,
+AND KAWATO, M. Temporal ﬁring patterns of Purkinje cells in the cerebellar
+ventral paraﬂocullus during ocular following responses in monkeys. II.
+Complex spikes. J. Neurophysiol. 80: 832– 848, 1998.
+
+KOGAN, A. AND YAROM, Y. Electrotonic coupling in inferior olivary neurons
+
+revealed by direct measurements. Soc. Neurosci. Abstr. 507: 5, 1997.
+
+LAMPL, I. AND YAROM, Y. Subthreshold oscillations and resonant behavior:
+two manifestations of the same mechanism. Neuroscience 78: 325–341,
+1997.
+
+LANG, E. J., SUGIHARA, I., AND LLIN´AS, R. GABAergic modulation of complex
+spike activity by the cerebellar nucleoolivary pathway in the rat. J. Neuro-
+physiol. 76: 255–275, 1996.
+
+LLIN´AS, R., BAKER, R., AND SOTELO, C. Electrotonic coupling between neurons
+
+in cat inferior olive. J. Neurophysiol. 37: 560 –571, 1974.
+
+LLIN´AS, R. AND YAROM, Y. Electrophysiology of mammalian inferior olivary
+neurons in vitro. Different types of voltage-dependent ionic conductances.
+J. Physiol. (Lond.) 315: 549 –567, 1981a.
+
+LLIN´AS, R. AND YAROM, Y. Properties and distribution of ionic conductances
+generating electroresponsiveness of mammalian inferior olivary neurons in
+vitro. J. Physiol. (Lond.) 315: 569 –584, 1981b.
+
+LLIN´AS, R. AND YAROM, Y. Oscillatory properties of guinea pig inferior olivary
+neurons and their pharmacology modulation: an in-vitro study. J. Physiol.
+(Lond.) 376: 163–182, 1986.
+
+MAINEN, Z. F. AND SEJNOWSKI, T. J. Inﬂuence of dendritic structure on ﬁring
+
+pattern in model neocortical neurons. Nature 382: 363–366, 1996.
+
+MANOR, Y. Construction of an Experimentally Based Neuronal Network Model
+to Explore the Function of the Inferior Olive Nucleus (PhD thesis). Jerusa-
+lem, Israel: Hebrew University, 1995.
+
+MANOR, Y., RINZEL, J., SEGEV, I., AND YAROM, Y. Low-amplitude oscillations
+in the inferior olive: a model based on electrical coupling of neurons with
+heterogeneous channel densities. J. Neurophysiol. 77: 2736 –2752, 1997.
+
+COMPARTMENTAL MODEL OF INFERIOR OLIVARY NEURONS
+
+817
+
+MORENO, A. P., ROOK, M. B., FISHMA, G. I., AND SPRAY, D. C. Gap junction
+channels: distinct voltage-sensitive and -insensitive conductances states.
+Biophys. J. 67: 113–119, 1994.
+
+PINSKY, P. F. AND RINZEL, J. Intrinsic and network rhythmogenesis in a reduced
+
+Traub model for CA3 neurons. J. Comp. Neurosci. 1: 39 – 60, 1994.
+
+RINZEL, J. AND ERMENTROUT, G. B. Analysis of neural excitability and oscil-
+lations. In: Methods in Neuronal Modeling, edited by C. Koch and I. Segev.
+Cambridge, MA: The MIT Press, 1989, p. 135–170.
+
+RUIGROK, T. J. AND VOOGD, J. Cerebellar inﬂuence on olivary excitability in
+
+the cat. Eur. J. Neurosci. 7: 679 – 693, 1995.
+
+RUSH, M. E. AND RINZEL, J. Analysis of bursting in a thalamic neuron model.
+
+Biol. Cybern. 71: 281–284, 1994.
+
+SASAKI, K., BOWER, J. M., AND LLIN´AS, R. Multiple Purkinje cell recording in
+
+rodent cerebellar cortex. Eur. J. Neurosci. 1: 572–586, 1989.
+
+SCHWEIGHOFER, N., SPOELSTRA, J., ARBIB, M. A., AND KAWATO, M. Role of the
+cerebellum in reaching movements in humans. II. A neural model of the
+intermediate cerebellum. Eur. J. Neurosci. 10: 95–105, 1998.
+
+SHERMAN, A. AND RINZEL, J. Rhythmogenic effects of weak electrotonic
+coupling in neuronal models. Proc. Natl. Acad. Sci. USA 89: 2471–2474,
+1992.
+
+SIMPSON, J. I., WYLIE, D. R., AND DE ZEEUW, C. I. On climbing ﬁber functions
+
+and their consequences. Behav. Brain Sci. 19: 384 –398, 1996.
+
+SOTELO, C., LLIN´AS, R., AND BAKER, R. Structural study of inferior olivary
+nucleus of the cat: morphological correlates of electrotonic coupling. J. Neu-
+rophysiol. 37: 541–559, 1974.
+
+SUGIHARA, I., LANG, E. J., AND LLIN´AS, R. Serotonin modulation of inferior
+olivary oscillations and synchronicity: a multiple-electrode study in the rat
+cerebellum. Eur. J. Neurosci. 7: 521–534, 1995.
+
+TRAUB, R. D., WONG, R.K.S., MILES, R., AND MICHELSON, H. A model of a
+CA3 hippocampal pyramidal neuron incorporating voltage-clamp data on
+intrinsic conductances. J. Neurophysiol. 66: 635– 650, 1991.
+
+WEISS, M. AND PELLET, J. Raphe-cerebellum interactions. II. Effects of mid-
+brain raphe stimulation and harmaline administration on single unit activity
+of cerebellar cortical cells in the rat. Exp. Brain Res. 48: 171–176, 1982.
+YAROM Y. Rhythmogenesis in a hybrid system—interconnecting an olivary
+neuron to an analog network of coupled oscillators. Neuroscience 44:
+263–275, 1991.
+
+YAROM, Y. AND LLIN´AS, R. Long term modiﬁability of anomalous and delayed
+rectiﬁcation in guinea pig inferior olivary neurons. J. Neurosci. 7: 1166 –
+1177, 1987.
+
+

@@ -1,0 +1,17 @@
+===== url current (20150914) =====
+http://phonto.unit.oist.jp/search/{word}
+http://phonto.unit.oist.jp/apps/searchdb/{word}
+http://phonto.unit.oist.jp/apps/complete/{word}
+===== url current (20150914) end =====
+
+===== url new(draft) =====
+http://phonto.unit.oist.jp/search/{DBname}/{word}
+http://phonto.unit.oist.jp/apps/searchdb/{DBname}/{word}
+http://phonto.unit.oist.jp/apps/complete/{word} (* no change)
+
+http://phonto.unit.oist.jp/apps/gettoken  {post parameter[username,password]}
+http://phonto.unit.oist.jp/apps/updatemodel/{DBname}/{modelid}/{modelname}  {post parameter[token]}
+http://phonto.unit.oist.jp/apps/deletemodel/{DBname}/{modelid}/{modelname}  {post parameter[token]}
+http://phonto.unit.oist.jp/apps/insertkeyword/{DBname}/{modelid}/{keyword}  {post parameter[token]}
+http://phonto.unit.oist.jp/apps/deletekeyword/{DBname}/{modelid}/{keyword}  {post parameter[token]}
+===== url new(draft) end =====

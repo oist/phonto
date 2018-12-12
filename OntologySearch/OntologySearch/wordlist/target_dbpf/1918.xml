@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1918">
+<itemtype>xnppaper</itemtype>
+<titles><title>A Mathematical Model for the Hippocampus: Towards the Understanding of Episodic Memory and Imagination</title>
+</titles>
+<contributor uname='admin2'>DBPF Administrator 2(admin2)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-11-25T07:42:19Z</last_update_date>
+<creation_date>2008-11-25T07:42:19Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1918</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1918" version="1.02">
+<authors><author>Tsuda I</author><author>Yamaguti Y</author><author>Kuroda S  Fukushima Y</author><author>Tsukada M</author></authors>
+<journal>Progress of Theoretical Physics Supplement</journal>
+<volume></volume>
+<number>173</number>
+<page>99-108</page>
+<abstract>How does the brain encode episode? Based on the fact that the hippocampus is responsible for the formation of episodic memory, we have proposed a mathematical model for the hippocampus. Because episodic memory includes a time series of events, an underlying dynamics for the formation of episodic memory is considered to employ an association of memories. David Marr correctly pointed out in his theory of archecortex for a simple memory that the hippocampal CA3 is responsible for the formation of associative memories. However, a conventional mathematical model of associative memory simply guarantees a single association of memory unless a rule for an order of successive association of memories is given. The recent clinical studies in Maguire&#039;s group for the patients with the hippocampal lesion show that the patients cannot make a new story, because of the lack of ability of imagining new things. Both episodic memory and imagining things include various common characteristics: imagery, the sense of now, retrieval of semantic information, and narrative structures. Taking into account these findings, we propose a mathematical model of the hippocampus in order to understand the common mechanism of episodic memory and imagination.</abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

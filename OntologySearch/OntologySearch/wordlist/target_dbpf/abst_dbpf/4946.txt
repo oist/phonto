@@ -1,0 +1,30 @@
+Amygdala
+drug effects
+physiology
+Animals
+Avoidance Learning
+Behavior
+Animal
+Exploratory Behavior
+Habituation
+Psychophysiologic
+Hippocampus
+drug effects
+physiology
+Male
+Memory
+physiology
+Muscimol
+diagnostic use
+Neurotransmitter Agents
+Prostheses and Implants
+Rats
+Rats
+Inbred Strains
+Receptors
+Neurotransmitter
+Research Design
+Retention (Psychology)
+gamma-Aminobutyric Acid
+diagnostic use
+Rats were trained and tested in habituation to a novel environment and step-down inhibitory avoidance. Immediately after training in each task the animals received intra-amygdala, intraseptal, or intrahippocampal micro-injections of agonists and antagonists of various neurotransmitter receptors. In the habitation task, intrahippocampal, but not intra-amygdala or intraseptal administration of the NMDA receptor antagonist aminophosphornopentanoic acid (AP5, 5.0 micrograms) or of the muscarinic receptor antagonist, scopolamine (2.0 micrograms) caused amnesia and the indirect antagonist of GABA-A receptors, picrotoxin (0.08 microgram), caused retrograde facilitation. Intrahippocampal administration of the respective agonists, glutamate, oxotremorine, and muscimol, had effects of their own opposite to those of the blockers, and norepinephrine (0.3 microgram) caused memory facilitation. In the avoidance task, results obtained with drug infusions given into the three structures were very similar: in all cases, AP5, scopolamine, and muscimol were amnestic, and glutamate, oxotremorine, norepinephrine, and picrotoxin caused memory facilitation. In addition, also in the three structures, picrotoxin counteracted the amnestic effect of AP5 and/or scopolamine and the beta-adrenoceptor blocker, timolol (0.3 microgram), while ineffective on its own, attenuated all the effects of picrotoxin. The results suggest that similar synaptic mechanisms in the amygdala, medial septum, and hippocampus are involved in memory consolidation: NMDA, muscarinic, and beta-noradrenergic receptors stimulate and GABA-A receptors inhibit this process, and beta-noradrenergic receptors modulate the GABAergic synapses. In the avoidance task these mechanisms operate in the three structures: in habituation only those in the hippocampus are operative. Possibly in each structure these mechanisms regulate, if not actually consolidate, a different aspect, component, or form of memory.

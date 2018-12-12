@@ -1,0 +1,39 @@
+Animals
+Blotting
+Western
+Carrier Proteins
+genetics
+metabolism
+Cell Culture Techniques
+Electrophysiology
+Excitatory Postsynaptic Potentials
+physiology
+Gene Expression
+Glutamic Acid
+secretion
+Hippocampus
+physiology
+Immunohistochemistry
+Neuronal Plasticity
+physiology
+Neuropeptides
+genetics
+metabolism
+Organ Culture Techniques
+Patch-Clamp Techniques
+Presynaptic Terminals
+metabolism
+Pyramidal Cells
+physiology
+Rats
+Rats
+Wistar
+Receptors
+AMPA
+metabolism
+Receptors
+N-Methyl-D-Aspartate
+metabolism
+Synaptic Transmission
+physiology
+Homer/Vesl proteins are involved in regulating metabotropic glutamate receptors, synaptogenesis, dendritic spine development and axonal pathfinding. We investigated the potential modulation of glutamatergic synaptic transmission by the immediate early gene product Homer-1a/Vesl-1S and by the constitutively expressed long-form Homer-1c/Vesl-1L in CA1 pyramidal cells from cultured rat hippocampal slices. Semliki Forest virus vector-mediated overexpression of Homer-1a enhanced alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) receptor function, but did not detectably affect N-methyl-d-aspartate (NMDA) receptor function and presynaptic glutamate release. Overexpression of Homer-1c, by contrast, did not alter synaptic transmission. To corroborate our electrophysiological results obtained in slice cultures, we performed quantitative immunocytochemistry in cultures of dissociated hippocampal neurons. Homer-1a also increased synaptic clustering of AMPA but not NMDA receptors, whereas Homer-1c had no detectable effect. Our results show that Homer-1a potentiates synaptic AMPA receptor function, supporting a critical role for Homer-1a in hippocampal synaptic plasticity.

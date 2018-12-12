@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6617">
+<itemtype>xnppaper</itemtype>
+<titles><title>Functional specialisation in the hippocampus and perirhinal cortex during the encoding of verbal associations.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Association Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Reference Values</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Verbal Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:18:02Z</last_update_date>
+<creation_date>2013-02-26T06:18:02Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6617</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6617" version="1.02">
+<authors><author>Greve A</author><author>Evans CJ</author><author>Graham KS</author><author>Wilding EL</author></authors>
+<journal>Neuropsychologia</journal>
+<volume>49</volume>
+<number>9</number>
+<page>2746-54</page>
+<abstract>Functional magnetic resonance imaging (fMRI) was employed to investigate the contributions of medial temporal lobe (MTL) regions to encoding operations underpinning recollection and familiarity. Participants first studied word pairs. Words in pairs were either weakly or strongly semantically related. In a subsequent retrieval task, participants distinguished between studied pairs, unstudied pairs, and recombined pairs formed from words taken from different studied pairs. Greater activity at encoding for correct judgments to studied pairs with strong, rather than weak, semantic relationships was assumed to index processes supporting subsequent familiarity-based responding. Greater activity for correct judgments to studied pairs than for recombined pairs identified incorrectly as studied pairs was assumed to index processes contributing to recollection-based responding. Evidence that these assumptions were reasonable was obtained in independent behavioural studies, while the outcomes of these fMRI contrasts indicated links between perirhinal cortex and familiarity, and anterior hippocampus and recollection. This functional separation is consistent with models in which the hippocampus and perirhinal cortex support two separable processes that contribute to memories for verbal associations.</abstract>
+<pubmed_id>21683723</pubmed_id>
+</detail>
+</item>

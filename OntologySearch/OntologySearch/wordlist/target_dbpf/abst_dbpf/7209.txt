@@ -1,0 +1,16 @@
+Animals
+Electric Stimulation
+methods
+Electrophysiology
+Hippocampus
+physiology
+Male
+Membrane Potentials
+physiology
+Models
+Neurological
+Rats
+Synapses
+physiology
+Time Factors
+1. The induction of long-term potentiation (LTP) at hippocampal mossy-fiber synapses requires an increase in postsynaptic [Ca2+]i but is independent of N-methyl-D-aspartate (NMDA) receptor activation. Voltage-gated Ca2+ channels have been proposed as one alternative source for raising [Ca2+]i during the induction of LTP. We tested the hypothesis that voltage-gated Ca2+ channel activation could mediate the induction of LTP by examining whether 1) the induction of mossy-fiber LTP was dependent on postsynaptic depolarization and 2) depolarization alone, of a magnitude presumably capable of activating Ca2+ channels, was sufficient to induce LTP. 2. Intracellular recordings were made from rat CA3 pyramidal cells in the hippocampal slice preparation under both current- and voltage-clamp conditions. Mossy-fiber postsynaptic potentials and currents were recorded before and after high-frequency stimulation (HFS) in the presence of 20-50 microM D-2-amino-5-phosphonovaleric acid (D-APV), an NMDA-receptor antagonist. 3. Voltage clamping of CA3 neurons between -80 and -100 mV during HFS reversibly blocked the induction of mossy-fiber LTP. Conversely, HFS paired with depolarizing-current steps under current clamp increased the magnitude of LTP compared with controls. These results indicate that mossy-fiber LTP is dependent on postsynaptic depolarization, and presynaptic activation alone was not sufficient to induce mossy-fiber LTP. 4. Depolarizing-current injections, which presumably depolarized CA3 cells to potentials sufficient to activate voltage-gated Ca2+ channels, had no effect on mossy-fiber synaptic responses. These results suggest that synaptic activation, in addition to postsynaptic depolarization, is required for the induction of mossy-fiber LTP. 5. Single mossy-fiber afferent volleys were also paired with depolarizing-current pulses. In the presence of APV, pairing of single-mossy-fiber excitatory postsynaptic potentials (EPSPs) with postsynaptic depolarization did not potentiate synaptic responses, suggesting that some form of HFS is also required for mossy-fiber LTP. In the absence of APV, however, the contamination of mossy-fiber synaptic responses by CA3-recurrent inputs resulted in some potentiation. 6. These results suggest that the induction of mossy-fiber LTP is dependent on both pre- and postsynaptic activity and thus follows a Hebbian rule for synaptic modification. In contrast to that demonstrated at Schaffer-collateral-commissural synapses, however, the induction of mossy-fiber LTP may require HFS in addition to postsynaptic depolarization.(ABSTRACT TRUNCATED AT 400 WORDS)

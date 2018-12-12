@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3280">
+<itemtype>xnppaper</itemtype>
+<titles><title>Direct evidence for mutual interactions between perineuronal astrocytes and interneurons in the CA1 region of the rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-03-12T04:47:29Z</last_update_date>
+<creation_date>2010-03-12T04:47:29Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3280</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3280" version="1.02">
+<authors><author>Yamazaki Y</author><author>Hozumi Y</author><author>Kaneko K</author><author>Li J</author><author>Fujii S</author><author>Miyakawa H</author><author>Kudo Y</author><author>Kato H</author></authors>
+<journal>Neuroscience</journal>
+<volume>134</volume>
+<number>3</number>
+<page>791-802</page>
+<abstract>Recent studies have demonstrated that astrocytes express a variety of ion channels and neurotransmitter receptors and can modulate the activity of neurons. Since a single astrocyte makes tight contacts with many neighboring neuronal cells, they can provide efficient and wide modulation of neuronal networks. Here, we provide direct evidence for mutual interactions between perineuronal astrocytes and interneurons in the stratum radiatum of the rat hippocampus. Direct depolarization of a perineuronal astrocyte suppressed the excitatory postsynaptic currents in an adjacent interneuron and increased the paired-pulse ratio, indicating that perineuronal astrocytes have a suppressive effect on presynaptic elements. Moreover, perineuronal astrocyte activation modulated the directly induced firing pattern of the interneuron, with initial facilitation and subsequent suppression. Conversely, direct firing of the interneuron depolarized the membrane potential and reduced the input resistance of the perineuronal astrocyte. These results directly demonstrate the existence of bidirectional interactions between neurons and perineuronal astrocytes.</abstract>
+<pubmed_id>15990240</pubmed_id>
+</detail>
+</item>

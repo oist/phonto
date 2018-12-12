@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4483">
+<itemtype>xnppaper</itemtype>
+<titles><title>Alteration of NMDA receptor-mediated synaptic responses in CA1 area of the aged rat hippocampus: contribution of GABAergic and cholinergic deficits.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Acetylcholine</keyword>
+<keyword>physiology</keyword>
+<keyword>Aging</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Antibodies</keyword>
+<keyword>Monoclonal</keyword>
+<keyword>toxicity</keyword>
+<keyword>Cholinergic Agents</keyword>
+<keyword>toxicity</keyword>
+<keyword>Denervation</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>GABA-B Receptor Antagonists</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>growth</keyword>
+<keyword>&amp;</keyword>
+<keyword>development</keyword>
+<keyword>physiology</keyword>
+<keyword>Immunotoxins</keyword>
+<keyword>toxicity</keyword>
+<keyword>Male</keyword>
+<keyword>N-Glycosyl Hydrolases</keyword>
+<keyword>Nerve Fibers</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Phosphinic Acids</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Presynaptic Terminals</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Propanolamines</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>physiology</keyword>
+<keyword>Ribosome Inactivating Proteins</keyword>
+<keyword>Type 1</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T03:46:25Z</last_update_date>
+<creation_date>2011-01-28T03:46:25Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4483</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4483" version="1.02">
+<authors><author>Jouvenceau A</author><author>Dutar P</author><author>Billard JM</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>6</number>
+<page>627-37</page>
+<abstract>Synaptic responses mediated by the N-methyl-D-aspartate receptor (NMDAr) and non-NMDAr activation were compared in CA1 hippocampal region of young (3-4 months old) and aged (25-33 months old) Sprague-Dawley rats with the use of ex vivo extracellular recordings techniques. In aged rats, the amplitude of the NMDAr-mediated field excitatory postsynaptic potentials (fEPSPs) was not altered, whereas their duration was significantly increased. In contrast, the magnitude of non-NMDAr-mediated fEPSPs was significantly smaller. The presynaptic fiber volley was not affected by age. Considering that the depression of non-NMDAr-mediated responses was previously attributed to fewer synaptic contacts between glutamatergic afferent fibers and pyramidal cells in aged animals (see Barnes et al., Hippocampus 1992;2:457-468), the absence of age-related changes in the amplitude of NMDAr-mediated fEPSPs suggests that compensatory mechanisms may occur. The contribution of gamma-aminobutyric acid (GABA) and acetylcholine to these mechanisms was addressed. The NMDAr-mediated fEPSPs were then recorded (1) in young and aged rats before and after blockade of the GABA(B) receptor-mediated inhibition by the specific antagonist CGP 55845 and (2) in young rats after a selective cholinergic denervation of the hippocampus by the immunotoxin 192 IgG-saporin. The results did not indicate statistically relevant age-related effects of CGP 55845. In contrast, the loss of the cholinergic innervation by the immunotoxin induced a significant increase in both the amplitude and duration of the NMDAr-mediated fEPSPs. Our results indicate that the functional properties of the ionotropic glutamate receptor subtypes located on CA1 pyramidal cells are differentially affected by aging and suggest that the cholinergic deficit that occurs during aging may be involved in the maintenance of robust NMDAr-mediated synaptic responses.</abstract>
+<pubmed_id>9882020</pubmed_id>
+</detail>
+</item>

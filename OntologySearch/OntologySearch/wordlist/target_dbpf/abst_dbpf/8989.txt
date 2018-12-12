@@ -1,0 +1,32 @@
+Action Potentials
+physiology
+Animals
+Awareness
+physiology
+Biological Clocks
+Brain Mapping
+Cerebral Cortex
+cytology
+physiology
+Electroencephalography
+methods
+Hippocampus
+physiology
+Male
+Neostriatum
+cytology
+physiology
+Neural Pathways
+cytology
+physiology
+Neurons
+classification
+physiology
+Rats
+Rats
+Long-Evans
+Staining and Labeling
+methods
+Theta Rhythm
+Time Factors
+Oscillations and synchrony in basal ganglia circuits may play a key role in the organization of voluntary actions and habits. We recorded single units and local field potentials from multiple striatal and cortical locations simultaneously, over a range of behavioral states. We observed opposite gradients of oscillatory entrainment, with dorsal/lateral striatal neurons entrained to high-voltage spindle oscillations ("spike wave discharges") and ventral/medial striatal neurons entrained to the hippocampal theta rhythm. While the majority of units were likely medium-spiny projection neurons, a second neuronal population showed characteristic features of fast-spiking GABAergic interneurons, including tonic activity, brief waveforms, and high-frequency bursts. These fired at an earlier spindle phase than the main neuronal population, and their density within striatum corresponded closely to the intensity of spindle oscillations. The orchestration of oscillatory activity by networks of striatal interneurons may be an important mechanism in the pathophysiology of neurological disorders such as Parkinson's disease.

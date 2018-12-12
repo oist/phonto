@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4762">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neuronal aspects of septo-hippocampal relations.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Afferent Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Denervation</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Mesencephalon</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rabbits</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Reticular Formation</keyword>
+<keyword>physiology</keyword>
+<keyword>Sensation</keyword>
+<keyword>physiology</keyword>
+<keyword>Septal Nuclei</keyword>
+<keyword>physiology</keyword>
+<keyword>Septum Pellucidum</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T03:56:27Z</last_update_date>
+<creation_date>2011-04-28T03:56:27Z</creation_date>
+<publication_year>1977</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4762</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4762" version="1.02">
+<authors><author>Vinogradova OS</author><author>Brazhnik ES</author></authors>
+<journal>Ciba Foundation symposium</journal>
+<volume></volume>
+<number>58</number>
+<page>145-77</page>
+<abstract>In unanaesthetized, conscious rabbits, in unstressful conditions, the neurons of the hippocampus and septum were investigated extracellularly during the presentation of a series of varied sensory stimuli. In the normal hippocampus these stimuli evoke habituating reactions of tonic (more usually, inhibitory) type in field CA3, with the addition of &#039;specific&#039; patterned, and phasic reactions in field CA1. After complete septo-hippocampal disconnection the proportion of tonic (especially, of inhibitory) reactions in the hippocampus decreases. Theta bursts in the neuronal activity are absent; reactions to repeated sensory stimuli do not habituate. After lesion of the cortical perforant path to the hippocampus the majority of reactions in both fields are of tonic type. The proportion of neurons with regular theta bursts increases. Habituation is completely absent. A high correlation appears between the sensory reactions and the effects of midbrain reticular formation stimulation in the same neurons. The combination of both lesions does not significantly change the spontaneous activity of hippocampal neurons (except for the absence of the theta bursts). An increase in the level of activity of hippocampal neurons (by physostigmine), or rhythmic stimulation of the remaining synaptic systems, does not restore their rhythmic theta activity. In the septum deprived of hippocampal input the normal level of reactivity to sensory stimuli and the normal types of reaction are preserved. The proportion of neurons with theta bursts increases. The typical linear and rapid habituation of reactions disappears and is replaced by an unlimited increment in effects during repeated presentations of sensory stimuli. Discussion concerns the synchronizing and inhibitory influences of the septum on the hippocampus, and the role of the hippocampus in the organization of decremental processes (habituation) in the septum and brainstem structures.</abstract>
+<pubmed_id>215389</pubmed_id>
+</detail>
+</item>

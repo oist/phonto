@@ -1,0 +1,19 @@
+Amygdala
+physiology
+Animals
+Brain
+anatomy
+&
+histology
+physiology
+Caudate Nucleus
+physiology
+Cerebral Cortex
+physiology
+Hippocampus
+physiology
+Learning
+Male
+Memory
+Rats
+Although many brain areas have been implicated in spatial memory processes, recent investigations have focused on the hippocampal formation. The present experiment was designed to determine the relative importance of the hippocampal system as compared to the amygdala, the caudate nucleus, or the frontal cortex. Groups of rats were trained to perform on an eight-arm radial maze and then given lesions in one of these brain areas. The post-operative performance of rats with lesions in the fimbria-fornix was never significantly greater than that expected by chance. In contrast, the performance of rats with lesions in the amygdala, the caudate nucleus or the sucal frontal cortex was not significantly different from that of controls. The performance of rats with lesions in the medial frontal cortex was substantially impaired relative to that of the controls during the first few post-operative test sessions, but improved so that by the end of testing the rats were performing as well as were controls. The recovery of function by the rats with lesions in the medial frontal cortex was a function of experience testing on the maze and not simply the passage of time following surgery. Thus, only rats with functional hippocampal systems were able to perform the maze task accurately while thos rats with lesions in the hippocampal system were not.

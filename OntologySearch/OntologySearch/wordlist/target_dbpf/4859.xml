@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4859">
+<itemtype>xnppaper</itemtype>
+<titles><title>Discharge correlates of hippocampal complex spike neurons in behaving rats passively displaced on a mobile robot.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Darkness</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Light</keyword>
+<keyword>Male</keyword>
+<keyword>Motion</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Robotics</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T02:17:51Z</last_update_date>
+<creation_date>2011-05-02T02:17:51Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4859</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4859" version="1.02">
+<authors><author>Gavrilov VV</author><author>Wiener SI</author><author>Berthoz A</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>5</number>
+<page>475-90</page>
+<abstract>This study investigated location-, movement-, and directional-selectivity of action potential discharges of hippocampal neurons in awake rats subjected to passive displacements in order to estimate vestibular contributions to this activity. Water-deprived rats were habituated to being restrained in a sling mounted on a moving robot. The extracellular activity of single complex-spike cells in area CA1 of the hippocampus was recorded with glass micropipettes in the rats during passive translations, rotations, and immobility. The robot made a standardized series of trajectories starting from each of four corners of a square enclosure surrounded by black curtains. A drop of water was delivered to the rat each time the robot arrived at one designated corner of the arena. The activities of 29 neurons were investigated in 45 recording sessions (16 of which were in total darkness) in four rats. Hippocampal neurons recorded in 31 sessions (9 sessions in the dark) had significant location-selective increases or decreases in firing rate as the rat was passively displaced or immobile within the experimental arena. In 20 sessions (6 in the dark) direction-selective discharges were found when the rat was in the corners. In six sessions, cells discharged selectively during movement initiation or termination. These data suggest that information essential for path integration is present in the hippocampus and that inertial cues could play a vital role in hippocampal spatial functions. These results resemble those of O&#039;Mara et al. ([1994] J Neurosci 14:6511) using the same protocol in macaques, suggesting similarities in hippocampal processing and function.</abstract>
+<pubmed_id>9825959</pubmed_id>
+</detail>
+</item>

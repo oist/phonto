@@ -1,0 +1,22 @@
+Acetylcholine
+physiology
+Afferent Pathways
+physiology
+Animals
+Brain
+physiology
+Brain Mapping
+Cognition
+physiology
+Hippocampus
+physiology
+Models
+Neurological
+Models
+Psychological
+Neurons
+physiology
+Serotonin
+physiology
+Space Perception
+We present a conceptual framework for the role of the hippocampus and its afferent and efferent structures in rodent navigation. Our proposal is compatible with the behavioral, neurophysiological, anatomical, and neuropharmacological literature, and suggests a number of practical experiments that could support or refute it. We begin with a review of place cells and how the place code for an environment might be aligned with sensory cues and updated by self-motion information. The existence of place fields in the dark suggests that location information is maintained by path integration, which requires an internal representation of direction of motion. This leads to a consideration of the organization of the rodent head direction system, and thence into a discussion of the computational structure and anatomical locus of the path integrator. If the place code is used in navigation, there must be a mechanism for selecting an action based on this information. We review evidence that the nucleus accumbens subserves this function. From there, we move to interactions between the hippocampal system and the environment, emphasizing mechanisms for learning novel environments and for aligning the various subsystems upon re-entry into familiar environments. We conclude with a discussion of the relationship between navigation and declarative memory.

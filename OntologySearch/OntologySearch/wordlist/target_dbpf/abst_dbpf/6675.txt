@@ -1,0 +1,24 @@
+Adolescent
+Adult
+Association Learning
+physiology
+Brain Mapping
+Female
+Hippocampus
+physiopathology
+Humans
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Mental Recall
+Parahippocampal Gyrus
+physiopathology
+Prefrontal Cortex
+physiology
+Reading
+Semantics
+Temporal Lobe
+physiology
+Visual Perception
+Using event-related functional magnetic resonance imaging, we identified brain regions involved in successful relational memory (RM) during encoding and retrieval for semantic and perceptual associations or in general, independent of phase and content. Participants were scanned while encoding and later retrieving associations between pairs of words (semantic RM) or associations between words and fonts (perceptual RM). Encoding success activity (ESA) was identified by comparing study-phase activity for items subsequently remembered (hits) versus forgotten (misses) and retrieval success activity (RSA) by comparing test-phase activity for hits versus misses. The study yielded three main sets of findings. First, ESA-RSA differences were found within the medial temporal lobes (MTLs) and within the prefrontal cortex (PFC). Within the left MTL, ESA was greater in the anterior hippocampus, and RSA was greater in the posterior parahippocampal cortex/hippocampus. This finding is consistent with the notion of an encoding-retrieval gradient along the longitudinal MTL axis. Within the left PFC, ESA was greater in ventrolateral PFC, and RSA was greater in dorsolateral and anterior PFC. This is the first evidence of a dissociation in successful encoding and retrieval activity within left PFC. Second, consistent with the transfer-appropriate processing principle, some ESA regions were reactivated during RSA in a content-specific manner. For semantic RM, these regions included the left ventrolateral PFC, whereas for perceptual RM, they included occipitoparietal and right parahippocampal regions. Finally, only one region in the entire brain was associated with RM in general (i.e., for both semantic and perceptual ESA and RSA): the left hippocampus. This finding highlights the fundamental role of the hippocampus in RM.

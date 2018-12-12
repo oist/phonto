@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3991">
+<itemtype>xnppaper</itemtype>
+<titles><title>A mathematical model for Cantor coding in the hippocampus</title>
+</titles>
+<contributor uname='isomura'>[en]Yoshikazu Isomura[/en][ja]礒村 宜和[/ja](isomura)</contributor>
+<keywords><keyword>B01K9</keyword>
+</keywords>
+<description>査読
+原著論文
+Yutaka Yamaguti (corresponding author)
+doi:10.1016/j.neunet.2010.08.006</description>
+<doi></doi>
+<last_update_date>2011-05-19T04:58:18Z</last_update_date>
+<creation_date>2010-10-06T11:50:58Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3991</url>
+<changelogs>
+<changelog date='2011-05-19T04:58:18Z'>Modified; Item Description, Volume, Number, Page, PubMedID.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3991" version="1.02">
+<authors><author>Yutaka Yamaguti</author><author>Shigeru Kuroda</author><author>Yasuhiro Fukushima</author><author>Minoru Tsukada</author><author>Ichiro Tsuda</author></authors>
+<journal>Neural Networks</journal>
+<volume>24</volume>
+<number>1</number>
+<page>43-53</page>
+<abstract>Recent studies suggest that the hippocampus is crucial for memory of sequentially organized information. Cantor coding in hippocampal CA1 is theoretically hypothesized to provide a scheme for encoding temporal sequences of events. Here, in order to investigate this Cantor coding in detail, we construct a CA1 network model consisting of conductance-based model neurons. It is assumed that CA3 outputs temporal sequences of spatial patterns to CA1. We examine the dependence of output patterns of CA1 neurons on input time series by taking each output and combining it with an input sequence. It is shown that the output patterns of CA1 were hierarchically clustered in a self-similar manner according to the similarity of input temporal sequences. The population dynamics of the network can be well approximated by a set of contractive affine transformations, which forms a Cantor set. Furthermore, it is shown that the performance of the encoding scheme sensitively depends on the interval of input sequences. The bursting neurons with NMDA synapses are effective for encoding sequential input with long (over 150 msec) intervals while the non-bursting neurons with AMPA synapses are effective for encoding input with short (less than 30 msec) intervals.</abstract>
+<pubmed_id>20850269</pubmed_id>
+</detail>
+</item>

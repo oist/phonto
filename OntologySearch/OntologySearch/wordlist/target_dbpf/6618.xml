@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6618">
+<itemtype>xnppaper</itemtype>
+<titles><title>fMRI differences in encoding and retrieval of pictures due to encoding strategy in the elderly.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Aged</keyword>
+<keyword>Aged</keyword>
+<keyword>80 and over</keyword>
+<keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>Color Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Frontal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Gyrus Cinguli</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Semantics</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Thalamus</keyword>
+<keyword>physiology</keyword>
+<keyword>Visual Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:18:49Z</last_update_date>
+<creation_date>2013-02-26T06:18:49Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6618</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6618" version="1.02">
+<authors><author>Mandzia JL</author><author>Black SE</author><author>McAndrews MP</author><author>Grady C</author><author>Graham S</author></authors>
+<journal>Human brain mapping</journal>
+<volume>21</volume>
+<number>1</number>
+<page>1-14</page>
+<abstract>Functional MRI (fMRI) was used to examine the neural correlates of depth of processing during encoding and retrieval of photographs in older normal volunteers (n = 12). Separate scans were run during deep (natural vs. man-made decision) and shallow (color vs. black-and-white decision) encoding and during old/new recognition of pictures initially presented in one of the two encoding conditions. A baseline condition consisting of a scrambled, color photograph was used as a contrast in each scan. Recognition accuracy was greater for the pictures on which semantic decisions were made at encoding, consistent with the expected levels of processing effect. A mixed-effects model was used to compare fMRI differences between conditions (deep-baseline vs. shallow-baseline) in both encoding and retrieval. For encoding, this contrast revealed greater activation associated with deep encoding in several areas, including the left parahippocampal gyrus (PHG), left middle temporal gyrus, and left anterior thalamus. Increased left hippocampal, right dorsolateral, and inferior frontal activations were found for recognition of items that had been presented in the deep relative to the shallow encoding condition. We speculate that the modulation of activity in these regions by the depth of processing manipulation shows that these regions support effective encoding and successful retrieval. A direct comparison between encoding and retrieval revealed greater activation during retrieval in the medial temporal (right hippocampus and bilateral PHG), anterior cingulate, and bilateral prefrontal (inferior and dorsolateral). Most notably, greater right posterior PHG was found during encoding compared to recognition. Focusing on the medial temporal lobe (MTL) region, our results suggest a greater involvement of both anterior MTL and prefrontal regions in retrieval compared to encoding.</abstract>
+<pubmed_id>14689505</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,30 @@
+Action Potentials
+physiology
+Animals
+Appetitive Behavior
+physiology
+Behavior
+Animal
+physiology
+Electrodes
+Implanted
+Electroencephalography
+Hippocampus
+physiology
+Male
+Maze Learning
+physiology
+Motor Activity
+physiology
+Neuronal Plasticity
+physiology
+Pyramidal Cells
+physiology
+Rats
+Rats
+Long-Evans
+Signal Processing
+Computer-Assisted
+Spatial Behavior
+physiology
+To explore the plastic representation of information in spatially selective hippocampal pyramidal neurons, we made multiple single-unit recordings in rats trained to find a hidden platform at a constant location in a hippocampal-dependent annular watermaze task. Hippocampal pyramidal cells exhibited place-related firing in the watermaze. Place fields tended to accumulate near the platform, even in probe trials without immediate escape. The percentage of cells with peak activity around the hidden platform was more than twice the percentage firing in equally large areas elsewhere in the arena. The effect was independent of the actual position of the platform in the room frame. It was dissociable from ongoing motor behavior and was not related to linear or angular speed, swim direction, or variation in hippocampal theta activity. There was no accumulation of firing in any particular region in rats that were trained with a variable platform location. These training-dependent effects suggest that regions of particular behavioral significance may be over-represented in the hippocampal spatial map, even when these regions are completely unmarked.

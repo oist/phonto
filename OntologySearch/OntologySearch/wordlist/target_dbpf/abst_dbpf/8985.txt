@@ -1,0 +1,13 @@
+Animals
+Hippocampus
+anatomy
+&
+histology
+physiology
+Humans
+Memory
+physiology
+Models
+Neurological
+Nonlinear Dynamics
+A quantitative computational theory of the operation of the CA3 system as an attractor or autoassociation network is described. Based on the proposal that CA3-CA3 autoassociative networks are important for episodic or event memory in which space is a component (place in rodents and spatial view in primates), it has been shown behaviorally that the CA3 supports spatial rapid one-trial learning and learning of arbitrary associations and pattern completion where space is a component. Consistent with the theory, single neurons in the primate CA3 respond to combinations of spatial view and object, and spatial view and reward. Furthermore, single CA3 neurons reflect the recall of a place from an object in a one-trial object-place event memory task. CA3 neurons also reflect in their firing a memory of spatial view that is retained and updated by idiothetic information to implement path integration when the spatial view is obscured. Based on the computational proposal that the dentate gyrus produces sparse representations by competitive learning and via the mossy fiber pathway forces new representations on the CA3 during learning (encoding), it has been shown behaviorally that the dentate gyrus supports spatial pattern separation during learning, and that the mossy fiber system to CA3 connections are involved in learning but not in recall. The perforant path input to CA3 is quantitatively appropriate to provide the cue for recall in CA3. The concept that the CA1 recodes information from CA3 and sets up associatively learned back-projections to neocortex to allow subsequent retrieval of information to neocortex provides a quantitative account of the large number of hippocampo-neocortical back-projections.

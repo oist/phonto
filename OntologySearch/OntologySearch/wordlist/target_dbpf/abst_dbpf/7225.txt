@@ -1,0 +1,79 @@
+Acetylcholinesterase
+metabolism
+Aconitine
+analogs
+&
+derivatives
+pharmacology
+Animals
+Animals
+Newborn
+Antibodies
+Monoclonal
+toxicity
+Cholinergic Fibers
+drug effects
+physiology
+radiation effects
+Denervation
+methods
+Dihydro-beta-Erythroidine
+pharmacology
+Dose-Response Relationship
+Drug
+Dose-Response Relationship
+Radiation
+Electric Stimulation
+methods
+Excitatory Amino Acid Antagonists
+pharmacology
+GABA Antagonists
+pharmacology
+Hippocampus
+cytology
+drug effects
+Immunohistochemistry
+methods
+Immunotoxins
+toxicity
+Long-Term Potentiation
+drug effects
+N-Glycosyl Hydrolases
+Neural Inhibition
+drug effects
+physiology
+radiation effects
+Neurons
+drug effects
+physiology
+Nicotine
+pharmacology
+Nicotinic Agonists
+pharmacology
+Nicotinic Antagonists
+pharmacology
+Patch-Clamp Techniques
+methods
+Phosphinic Acids
+pharmacology
+Picrotoxin
+pharmacology
+Propanolamines
+pharmacology
+Quinoxalines
+pharmacology
+Rats
+Receptors
+Nicotinic
+physiology
+Ribosome Inactivating Proteins
+Type 1
+Valine
+analogs
+&
+derivatives
+pharmacology
+gamma-Aminobutyric Acid
+metabolism
+pharmacology
+Nicotine facilitates the induction of long-term potentiation (LTP) in the hippocampal CA1 region. The present study reveals the potential mechanisms underlying this effect of nicotine. Timed ACh-mediated activation of alpha7 nicotinic acetylcholine receptors (nAChRs) on pyramidal cells is known to promote LTP induction. Nicotine could suppress this timing-dependent mechanism by desensitizing nAChRs. Timed ACh-mediated activation of alpha7 nAChRs on feedforward interneurons can prevent LTP induction by inhibiting pyramidal cells. Nicotine diminished this ACh-mediated inhibition by desensitizing alpha7 nAChRs, thereby reducing the inhibitory influence on pyramidal cells. In addition to these desensitizing effects, nicotine activated presynaptic non-alpha7 nAChRs on feedforward interneurons to decrease the evoked release of gamma-aminobutyric acid (GABA) onto pyramidal cells. Furthermore, nicotine increased the frequency of spontaneous inhibitory postsynaptic currents (IPSCs) in pyramidal cells, and concomitantly caused a reduction in the size of responses to focal GABA application onto the dendrites of pyramidal cells, suggesting that the nicotine-induced increase in interneuronal activity leads ultimately to a use-dependent depression of evoked IPSCs in pyramidal cells. These nicotine-induced suppressions of inhibition of pyramidal cells were accompanied by enhanced N-methyl-D-aspartate (NMDA) responses in pyramidal cells. Thus, our results suggest that nicotine promotes the induction of LTP by diminishing inhibitory influences on NMDA responses while suppressing the ACh-mediated mechanisms. These ACh-independent mechanisms probably contribute to the nicotine-induced cognitive enhancement observed in the presence of cholinergic deficits, such as those in Alzheimer's disease patients.

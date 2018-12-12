@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4082">
+<itemtype>xnppaper</itemtype>
+<titles><title>The anatomical and computational basis of the rat head-direction cell signal.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Animals</keyword>
+<keyword>Head Movements</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Mamillary Bodies</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T05:57:13Z</last_update_date>
+<creation_date>2010-10-08T05:57:13Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4082</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4082" version="1.02">
+<authors><author>Sharp PE</author><author>Blair HT</author><author>Cho J</author></authors>
+<journal>Trends in neurosciences</journal>
+<volume>24</volume>
+<number>5</number>
+<page>289-94</page>
+<abstract>As a rat navigates through space, neurons called head-direction (HD) cells provide a signal of the rat&#039;s momentary directional heading. Although partly guided by landmarks, the cells also show a remarkable ability to track directional heading based on angular head movement. Theoretical models suggest that the HD cells are linked together to form an attractor network, and that cells which signal angular velocity update the directional setting of the attractor. Recently, cell types similar to those required theoretically have been discovered in the lateral mammillary and dorsal tegmental nuclei. Lesion and anatomical data suggest these nuclei might constitute the postulated attractor-path integration mechanism, and that they provide the HD cell signal to cortical areas where it has been observed.</abstract>
+<pubmed_id>11311382</pubmed_id>
+</detail>
+</item>

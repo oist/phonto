@@ -1,0 +1,34 @@
+1. J Neurophysiol. 1999 Jul;82(1):382-97.
+
+Models of respiratory rhythm generation in the pre-Bötzinger complex. I. Bursting
+pacemaker neurons.
+
+Butera RJ Jr(1), Rinzel J, Smith JC.
+
+Author information: 
+(1)Cellular and Systems Neurobiology Section, Laboratory of Neural Control,
+National Institute of Neurological Disorders and Stroke, National Institutes of
+Health, Bethesda, Maryland 20892-4455, USA.
+
+A network of oscillatory bursting neurons with excitatory coupling is
+hypothesized to define the primary kernel for respiratory rhythm generation in
+the pre-Bötzinger complex (pre-BötC) in mammals. Two minimal models of these
+neurons are proposed. In model 1, bursting arises via fast activation and slow
+inactivation of a persistent Na+ current INaP-h. In model 2, bursting arises via 
+a fast-activating persistent Na+ current INaP and slow activation of a K+ current
+IKS. In both models, action potentials are generated via fast Na+ and K+
+currents. The two models have few differences in parameters to facilitate a
+rigorous comparison of the two different burst-generating mechanisms. Both models
+are consistent with many of the dynamic features of electrophysiological
+recordings from pre-BötC oscillatory bursting neurons in vitro, including
+voltage-dependent activity modes (silence, bursting, and beating), a
+voltage-dependent burst frequency that can vary from 0.05 to >1 Hz, and a
+decaying spike frequency during bursting. These results are robust and persist
+across a wide range of parameter values for both models. However, the dynamics of
+model 1 are more consistent with experimental data in that the burst duration
+decreases as the baseline membrane potential is depolarized and the model has a
+relatively flat membrane potential trajectory during the interburst interval. We 
+propose several experimental tests to demonstrate the validity of either model
+and to differentiate between the two mechanisms.
+
+PMID: 10400966  [PubMed - indexed for MEDLINE]

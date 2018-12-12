@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="361">
+<itemtype>xnppaper</itemtype>
+<titles><title>A model of spatial map formation in the hippocampus of the rat.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-06-25T03:02:40Z</last_update_date>
+<creation_date>2008-06-25T03:02:40Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=361</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="361" version="1.02">
+<authors><author>Blum KI</author><author>Abbott LF</author></authors>
+<journal>Neural computation</journal>
+<volume>8</volume>
+<number>1</number>
+<page>85-93</page>
+<abstract>Using experimental facts about long-term potentiation (LTP) and hippocampal place cells, we model how a spatial map of the environment can be created in the rat hippocampus. Sequential firing of place cells during exploration induces, in the model, a pattern of LTP between place cells that shifts the location coded by their ensemble activity away from the actual location of the animal. These shifts provide a navigational map that, in a simulation of the Morris maze, can guide the animal toward its goal. The model demonstrates how behaviorally generated modifications of synaptic strengths can be read out to affect subsequent behavior. Our results also suggest a way that navigational maps can be constructed from experimental recordings of hippocampal place cells.</abstract>
+<pubmed_id>8564805 </pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4847">
+<itemtype>xnppaper</itemtype>
+<titles><title>Comparisons of head direction cell activity in the postsubiculum and anterior thalamus of freely moving rats.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Female</keyword>
+<keyword>Head Movements</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>Rats</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>Rotation</keyword>
+<keyword>Thalamic Nuclei</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T01:54:45Z</last_update_date>
+<creation_date>2011-05-02T01:54:45Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4847</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4847" version="1.02">
+<authors><author>Taube JS</author><author>Muller RU</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>2</number>
+<page>87-108</page>
+<abstract>Single cells in the rat anterior thalamic nucleus (ATN) and postsubiculum (PoS) discharge as a function of the rat&#039;s directional heading in the horizontal plane, independent of its location. A previous study that compared cell firing during clockwise and counterclockwise head turns concluded that ATN &#039;head direction&#039; (HD) cell discharge anticipates the rat&#039;s future directional heading, while PoS HD cell discharge is in register with the rat&#039;s current directional heading (Blair and Sharp [1995] J Neurosci 15:6260-6270). In the current study we extend these findings by using a different method of analysis. HD cells in the ATN and PoS were first characterized by three different measures: peak firing rate, range width, and information content. We then examined how these measures varied when cell firing was aligned with past (negative time shift) or future (positive time shift) head direction of the rat. We report that all three measures were optimized when ATN cell firing was aligned with the animal&#039;s future directional heading by about +23 msec. In contrast, PoS HD cell firing was optimized when cell firing was aligned with the rat&#039;s past head direction by about -7 msec. When the optimal value was plotted as a function of the amount of time spikes were shifted relative to head orientation, the mean ATN function was shifted to the right of the PoS function only at negative time shifts; at positive time shifts the two functions overlapped. Analysis of two recording sessions from the same cell indicated that each cell in a particular brain area is &#039;tuned&#039; to a specific time shift so that all cells within a brain area are not uniformly tuned to the same time shift. Other analyses showed that the clockwise and counterclockwise tuning functions were not skewed in the direction of the head turn as postulated by Redish et al. ([1996] Network: Computation in Neural Systems 7:671-685) and Blair et al. ([1997] J Neurophysiol 17:145-159). Additional analysis on episodes when the rat happened to continually point its head in the preferred direction indicated that HD cell firing undergoes little adaptation. In the Discussion, we argue that these results are best accounted for by a motor efference copy signal operating on both types of HD cells such that the copy associated with the PoS HD cells is delayed in time by about 30 msec relative to the copy associated with ATN HD cells.</abstract>
+<pubmed_id>9572715</pubmed_id>
+</detail>
+</item>

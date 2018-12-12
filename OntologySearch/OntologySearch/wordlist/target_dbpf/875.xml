@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="875">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neuromodulation: acetylcholine and memory consolidation.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T06:06:41Z</last_update_date>
+<creation_date>2008-07-16T03:15:14Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=875</url>
+<changelogs>
+<changelog date='2013-03-28T06:06:41Z'>Modified; Item Description, Index, PubMedID.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="875" version="1.02">
+<authors><author>Hasselmo ME</author></authors>
+<journal>Trends in cognitive sciences</journal>
+<volume>3</volume>
+<number>9</number>
+<page>351-359</page>
+<abstract>Clinical and experimental evidence suggests that hippocampal damage causes more severe disruption of episodic memories if those memories were encoded in the recent rather than the more distant past. This decrease in sensitivity to damage over time might reflect the formation of multiple traces within the hippocampus itself, or the formation of additional associative links in entorhinal and association cortices. Physiological evidence also supports a two-stage model of the encoding process in which the initial encoding occurs during active waking and deeper consolidation occurs via the formation of additional memory traces during quiet waking or slow-wave sleep. In this article I will describe the changes in cholinergic tone within the hippocampus in different stages of the sleep-wake cycle and will propose that these changes modulate different stages of memory formation. In particular, I will suggest that the high levels of acetylcholine that are present during active waking might set the appropriate dynamics for encoding new information in the hippocampus, by partially suppressing excitatory feedback connections and so facilitating encoding without interference from previously stored information. By contrast, the lower levels of acetylcholine that are present during quiet waking and slow-wave sleep might release this suppression and thereby allow a stronger spread of activity within the hippocampus itself and from the hippocampus to the entorhinal cortex, thus facilitating the process of consolidation of separate memory traces.</abstract>
+<pubmed_id>10461198</pubmed_id>
+</detail>
+</item>

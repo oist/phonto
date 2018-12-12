@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5117">
+<itemtype>xnppaper</itemtype>
+<titles><title>Activin increases the number of synaptic contacts and the length of dendritic spine necks by modulating spinal actin dynamics.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Actins</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Activins</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Animals</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>Dendrites</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>MAP Kinase Signaling System</keyword>
+<keyword>physiology</keyword>
+<keyword>Mitogen-Activated Protein Kinases</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>metabolism</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T05:53:29Z</last_update_date>
+<creation_date>2011-05-16T05:53:29Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5117</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5117" version="1.02">
+<authors><author>Shoji-Kasai Y</author><author>Ageta H</author><author>Hasegawa Y</author><author>Tsuchida K</author><author>Sugino H</author><author>Inokuchi K</author></authors>
+<journal>Journal of cell science</journal>
+<volume>120</volume>
+<number>21</number>
+<page>3830-7</page>
+<abstract>Long-lasting modifications in synaptic transmission depend on de novo gene expression in neurons. The expression of activin, a member of the transforming growth factor beta (TGF-beta) superfamily, is upregulated during hippocampal long-term potentiation (LTP). Here, we show that activin increased the average number of presynaptic contacts on dendritic spines by increasing the population of spines that were contacted by multiple presynaptic terminals in cultured neurons. Activin also induced spine lengthening, primarily by elongating the neck, resulting in longer mushroom-shaped spines. The number of spines and spine head size were not significantly affected by activin treatment. The effects of activin on spinal filamentous actin (F-actin) morphology were independent of protein and RNA synthesis. Inhibition of cytoskeletal actin dynamics or of the mitogen-activated protein (MAP) kinase pathway blocked not only the activin-induced increase in the number of terminals contacting a spine but also the activin-induced lengthening of spines. These results strongly suggest that activin increases the number of synaptic contacts by modulating actin dynamics in spines, a process that might contribute to the establishment of late-phase LTP.</abstract>
+<pubmed_id>17940062</pubmed_id>
+</detail>
+</item>

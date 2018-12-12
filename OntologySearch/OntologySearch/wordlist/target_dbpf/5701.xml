@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5701">
+<itemtype>xnppaper</itemtype>
+<titles><title>Accumulation of hippocampal place fields at the goal location in an annular watermaze task.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Appetitive Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Electrodes</keyword>
+<keyword>Implanted</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Signal Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T03:59:45Z</last_update_date>
+<creation_date>2011-09-22T03:59:45Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5701</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5701" version="1.02">
+<authors><author>Hollup SA</author><author>Molden S</author><author>Donnett JG</author><author>Moser MB</author><author>Moser EI</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>21</volume>
+<number>5</number>
+<page>1635-44</page>
+<abstract>To explore the plastic representation of information in spatially selective hippocampal pyramidal neurons, we made multiple single-unit recordings in rats trained to find a hidden platform at a constant location in a hippocampal-dependent annular watermaze task. Hippocampal pyramidal cells exhibited place-related firing in the watermaze. Place fields tended to accumulate near the platform, even in probe trials without immediate escape. The percentage of cells with peak activity around the hidden platform was more than twice the percentage firing in equally large areas elsewhere in the arena. The effect was independent of the actual position of the platform in the room frame. It was dissociable from ongoing motor behavior and was not related to linear or angular speed, swim direction, or variation in hippocampal theta activity. There was no accumulation of firing in any particular region in rats that were trained with a variable platform location. These training-dependent effects suggest that regions of particular behavioral significance may be over-represented in the hippocampal spatial map, even when these regions are completely unmarked.</abstract>
+<pubmed_id>11222654</pubmed_id>
+</detail>
+</item>

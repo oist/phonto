@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6702">
+<itemtype>xnppaper</itemtype>
+<titles><title>Aging and the neural correlates of successful picture encoding: frontal activations compensate for decreased medial-temporal activity.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Aged</keyword>
+<keyword>Aging</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Drug Combinations</keyword>
+<keyword>Female</keyword>
+<keyword>Frontal Lobe</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Peroxides</keyword>
+<keyword>blood</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Urea</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>blood</keyword>
+<keyword>Visual Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:27:01Z</last_update_date>
+<creation_date>2013-02-26T07:27:01Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6702</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6702" version="1.02">
+<authors><author>Gutchess AH</author><author>Welsh RC</author><author>Hedden T</author><author>Bangert A</author><author>Minear M</author><author>Liu LL</author><author>Park DC</author></authors>
+<journal>Journal of cognitive neuroscience</journal>
+<volume>17</volume>
+<number>1</number>
+<page>84-96</page>
+<abstract>We investigated the hypothesis that increased prefrontal activations in older adults are compensatory for decreases in medial-temporal activations that occur with age. Because scene encoding engages both hippocampal and prefrontal sites, we examined incidental encoding of scenes by 14 young and 13 older adults in a subsequent memory paradigm using functional magnetic resonance imaging (fMRI). Behavioral results indicated that there were equivalent numbers of remembered and forgotten items, which did not vary as a function of age. In an fMRI analysis subtracting forgotten items from remembered items, younger and older adults both activated inferior frontal and lateral occipital regions bilaterally; however, older adults showed less activation than young adults in the left and right parahippocampus and more activation than young adults in the middle frontal cortex. Moreover, correlations between inferior frontal and parahippocampal activity were significantly negative for old but not young, suggesting that those older adults who showed the least engagement of the parahippocampus activated inferior frontal areas the most. Because the analyses included only the unique activations associated with remembered items, these data suggest that prefrontal regions could serve a compensatory role for declines in medial-temporal activations with age.</abstract>
+<pubmed_id>15701241</pubmed_id>
+</detail>
+</item>

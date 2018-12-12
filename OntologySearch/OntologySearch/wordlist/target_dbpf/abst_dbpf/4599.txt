@@ -1,0 +1,12 @@
+Animals
+Electroencephalography
+Hippocampus
+cytology
+physiology
+Membrane Potentials
+physiology
+Neurons
+physiology
+Rats
+Theta Rhythm
+Intracellular recordings were made from hippocampal pyramidal cells identified by their depths and their responses to commissural stimulation. Recordings were made during spontaneous bouts of hippocampal theta rhythm in urethane anesthetized rats. Membrane potentials (Vm) of pyramidal cells varied with the phase of the theta rhythm, that is, there was an "intracellular theta rhythm". The changes in Vm averaged about 2 mV peak to peak. Averaged intracellular theta waves showed that CA1 pyramids were most depolarized at the time of the positive peak of the extracellular theta rhythm recorded in (and superficial to) the CA1 pyramidal cell layer (CA1 theta). Peak depolarizations for CA3/4 pyramids were more broadly distributed, but occurred mainly in the interval just before the positive peak to just before the negative peak of the CA1 theta. Input impedance minima that were measurable at frequencies as high as 100 Hz occurred at about the same phases of the extracellular theta rhythm as the peak depolarizations (positive-going zero crossing to negative-going zero crossing of the CA1 theta). Such impedance changes imply conductance changes on the soma. The magnitude and localization of the conductance changes suggests that somatic IPSPs make major contributions to the intracellular theta rhythm. The phase relation between the intracellular and extracellular theta rhythms could be reversed by long duration current pulses that depolarized the cells slightly. This implies that either the intracellular theta-related IPSPs are depolarizing potential changes, or that they occur simultaneously with EPSPs. The phase of the intracellular theta rhythm was generally unaffected by long duration hyperpolarizing current pulses. Chloride leakage that reversed the evoked IPSPs usually had no effect on the phase of the intracellular theta rhythm, although in one case it appeared to cause its amplitude to increase.

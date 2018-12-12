@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5142">
+<itemtype>xnppaper</itemtype>
+<titles><title>A Mathematical Model for Cantor Coding in the Hippocampus</title>
+</titles>
+<contributor uname='tsudaken-secretary'>[en]Asuko Hira[/en][ja]平 厚子[/ja](tsudaken-secretary)</contributor>
+<keywords><keyword>A01G1</keyword>
+</keywords>
+<description>査読
+原著論文
+Y. Yamaguti
+2011/01</description>
+<doi></doi>
+<last_update_date>2011-05-19T06:04:03Z</last_update_date>
+<creation_date>2011-05-19T06:04:03Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5142</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5142" version="1.02">
+<authors><author>Y. Yamaguti</author><author>S. Kuroda</author><author>Y. Fukushima</author><author>M. Tsukada</author><author>I. Tsuda</author></authors>
+<journal>Neural Networks</journal>
+<volume>24</volume>
+<number></number>
+<page>43-53</page>
+<abstract></abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

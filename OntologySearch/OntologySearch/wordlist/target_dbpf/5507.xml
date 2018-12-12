@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5507">
+<itemtype>xnppaper</itemtype>
+<titles><title>Activation of hippocampal neurons by mossy fiber stimulation in thin brain sections in vitro.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Guinea Pigs</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Magnesium</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Motor Cortex</keyword>
+<keyword>Neural Conduction</keyword>
+<keyword>drug effects</keyword>
+<keyword>Neurofibrils</keyword>
+<keyword>Neurons</keyword>
+<keyword>Synapses</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:49:24Z</last_update_date>
+<creation_date>2011-06-14T00:49:24Z</creation_date>
+<publication_year>1972</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5507</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5507" version="1.02">
+<authors><author>Yamamoto C</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>14</volume>
+<number>4</number>
+<page>423-35</page>
+<abstract></abstract>
+<pubmed_id>4340851</pubmed_id>
+</detail>
+</item>

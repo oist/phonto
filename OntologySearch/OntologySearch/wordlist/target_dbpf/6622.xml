@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6622">
+<itemtype>xnppaper</itemtype>
+<titles><title>Recollection-related hippocampal activity during continuous recognition: a high-resolution fMRI study.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Judgment</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Task Performance and Analysis</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:21:56Z</last_update_date>
+<creation_date>2013-02-26T06:21:56Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6622</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6622" version="1.02">
+<authors><author>Suzuki M</author><author>Johnson JD</author><author>Rugg MD</author></authors>
+<journal>Hippocampus</journal>
+<volume>21</volume>
+<number>6</number>
+<page>575-83</page>
+<abstract>We used high-resolution functional magnetic resonance imaging to investigate whether successful recollection during continuous recognition is associated with relative enhancement of hippocampal activity, consistent with prior findings from experiments employing separate study and test phases. While being scanned, subjects discriminated between new and repeated pictures. Each picture, which was repeated once after an interval of between 10 and 30 items, was surrounded by a frame that was colored gray, blue, or orange. When an item repeated, its frame color determined the correct response. Repeated items surrounded by a gray frame always required an&quot;old&quot;judgment. A repeated item surrounded by a blue or an orange frame required a different response depending whether it was represented in the same (Target) or a different (Nontarget) color from the first presentation. Consistent with the results from previous continuous recognition experiments, robust new&gt;old effects were found in bilateral hippocampus. In addition, an across-subjects correlational analysis identified a cluster of voxels in right hippocampus where recollection-related activity (operationalized by the contrast between correctly vs. incorrectly judged Nontargets) was positively correlated with recollection performance. Thus, successful recollection during continuous recognition is associated with a relative enhancement of hippocampal activity.</abstract>
+<pubmed_id>20232398</pubmed_id>
+</detail>
+</item>

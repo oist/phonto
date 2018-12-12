@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="745">
+<itemtype>xnppaper</itemtype>
+<titles><title>Human hippocampal theta activity during virtual navigation.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-11T01:58:19Z</last_update_date>
+<creation_date>2008-07-11T01:58:19Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=745</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="745" version="1.02">
+<authors><author>Ekstrom AD</author><author>Caplan JB</author><author>Ho E</author><author>Shattuck K</author><author>Fried I</author><author>Kahana MJ</author></authors>
+<journal>Hippocampus</journal>
+<volume>15</volume>
+<number>7</number>
+<page>881-9</page>
+<abstract>This study examines whether 4-8-Hz theta oscillations can be seen in the human hippocampus, and whether these oscillations increase during virtual movement and searching, as they do in rodents. Recordings from both hippocampal and neocortical depth electrodes were analyzed while six epileptic patients played a virtual taxi-driver game. During the game, the patients alternated between searching for passengers, whose locations were random, and delivering them to stores, whose locations remained constant. In both hippocampus and neocortex, theta increased during virtual movement in all phases of the game. Hippocampal and neocortical theta activity were also significantly correlated with each other, but this correlation did not differ between neocortex and hippocampus and within disparate neocortical electrodes. Our findings demonstrate the existence of movement-related theta oscillations in human hippocampus, and suggest that both cortical and hippocampal oscillations play a role in attention and sensorimotor integration.</abstract>
+<pubmed_id>16114040</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5693">
+<itemtype>xnppaper</itemtype>
+<titles><title>Function of hippocampus in &quot;insight&quot; of problem solving.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neocortex</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Problem Solving</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T03:39:07Z</last_update_date>
+<creation_date>2011-09-22T03:39:07Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5693</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5693" version="1.02">
+<authors><author>Luo J</author><author>Niki K</author></authors>
+<journal>Hippocampus</journal>
+<volume>13</volume>
+<number>3</number>
+<page>316-23</page>
+<abstract>Since the work of Wolfgang Kohler, the process of &quot;insight&quot; in problem solving has been the subject of considerable investigation. Yet, the neural correlates of &quot;insight&quot; remain unknown. Theoretically, &quot;insight&quot; means the reorientation of one&#039;s thinking, including breaking of the unwarranted &quot;fixation&quot; and forming of novel, task-related associations among the old nodes of concepts or cognitive skills. Processes closely related to these aspects have been implicated in the hippocampus. In this research, the neural correlates of &quot;insight&quot; were investigated using Japanese riddles, by imaging the answer presentation and comprehension events, just after participants failed to resolve them. The results of event-related functional magnetic resonance imaging (fMRI) analysis demonstrated that the right hippocampus was critically highlighted and that a wide cerebral cortex was also involved in this &quot;insight&quot; event. To the best of our knowledge, this work is the first neuroimaging study to have investigated the neural correlates of &quot;insight&quot; in problem solving.</abstract>
+<pubmed_id>12722972</pubmed_id>
+</detail>
+</item>

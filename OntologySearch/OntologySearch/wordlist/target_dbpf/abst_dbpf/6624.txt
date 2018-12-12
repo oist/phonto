@@ -1,0 +1,32 @@
+Adolescent
+Brain Mapping
+Face
+Female
+Hippocampus
+anatomy
+&
+histology
+physiology
+Humans
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Parahippocampal Gyrus
+anatomy
+&
+histology
+physiology
+Reaction Time
+physiology
+Space Perception
+physiology
+Temporal Lobe
+anatomy
+&
+histology
+physiology
+Visual Perception
+physiology
+Young Adult
+The essential role of the medial temporal lobe (MTL) in long-term memory for individual events is well established, yet important questions remain regarding the mnemonic functions of the component structures that constitute the region. Within the hippocampus, recent functional neuroimaging findings suggest that formation of new memories depends on the dentate gyrus and the CA(3) field, whereas the contribution of the subiculum may be limited to retrieval. During encoding, it has been further hypothesized that structures within MTL cortex contribute to encoding in a content-sensitive manner, whereas hippocampal structures may contribute to encoding in a more domain-general manner. In the current experiment, high-resolution fMRI techniques were utilized to assess novelty and subsequent memory effects in MTL subregions for two classes of stimuli--faces and scenes. During scanning, participants performed an incidental encoding (target detection) task with novel and repeated faces and scenes. Subsequent recognition memory was indexed for the novel stimuli encountered during scanning. Analyses revealed voxels sensitive to both novel faces and novel scenes in all MTL regions. However, similar percentages of voxels were sensitive to novel faces and scenes in perirhinal cortex, entorhinal cortex, and a combined region comprising the dentate gyrus, CA(2), and CA(3), whereas parahippocampal cortex, CA(1), and subiculum demonstrated greater sensitivity to novel scene stimuli. Paralleling these findings, subsequent memory effects in perirhinal cortex were observed for both faces and scenes, with the magnitude of encoding activation being related to later memory strength, as indexed by a graded response tracking recognition confidence, whereas subsequent memory effects were scene-selective in parahippocampal cortex. Within the hippocampus, encoding activation in the subiculum correlated with subsequent memory for both stimulus classes, with the magnitude of encoding activation varying in a graded manner with later memory strength. Collectively, these findings suggest a gradient of content sensitivity from posterior (parahippocampal) to anterior (perirhinal) MTL cortex, with MTL cortical regions differentially contributing to successful encoding based on event content. In contrast to recent suggestions, the present data further indicate that the subiculum may contribute to successful encoding irrespective of event content.

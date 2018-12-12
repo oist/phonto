@@ -1,0 +1,13 @@
+Acoustic Stimulation
+Animals
+Auditory Perception
+physiology
+Electrophysiology
+Hippocampus
+physiology
+Models
+Neurological
+Speech
+Synapses
+physiology
+Presynaptic mechanisms influencing the probability of neurotransmitter release from an axon terminal, such as facilitation, augmentation, and presynaptic feedback inhibition, are fundamental features of biological neurons and are cardinal physiological properties of synaptic connections in the hippocampus. The consequence of these presynaptic mechanisms is that the probability of release becomes a function of the temporal pattern of action potential occurrence, and hence, the strength of a given synapse varies upon the arrival of each action potential invading the terminal region. From the perspective of neural information processing, the capability of dynamically tuning the synaptic strength as a function of the level of neuronal activation gives rise to a significant representational and processing power of temporal spike patterns at the synaptic level. Furthermore, there is an exponential growth in such computational power when the specific dynamics of presynaptic mechanisms varies quantitatively across axon terminals of a single neuron, a recently established characteristic of hippocampal synapses. During learning, alterations in the presynaptic mechanisms lead to different pattern transformation functions, whereas changes in the postsynaptic mechanisms determine how the synaptic signals are to be combined. We demonstrate the computational capability of dynamic synapses by performing speech recognition from unprocessed, noisy raw waveforms of words spoken by multiple speakers with a simple neural network consisting of a small number of neurons connected with synapses incorporating dynamically determined probability of release. The dynamics included in the model are consistent with available experimental data on hippocampal neurons in that parameter values were chosen so as to be consistent with time constants of facilitative and inhibitory processes governing the dynamics of hippocampal synaptic transmission studied using nonlinear systems analytic procedures.

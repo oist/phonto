@@ -1,0 +1,19 @@
+Adenosine Triphosphate
+pharmacology
+Animals
+G(M1) Ganglioside
+pharmacology
+Gangliosides
+pharmacology
+Guinea Pigs
+Hippocampus
+cytology
+drug effects
+physiology
+Long-Term Potentiation
+drug effects
+Male
+Neurons
+drug effects
+physiology
+The effects of the mono- and tetrasialogangliosides, GM1 and GQ1b, on ATP-induced long-term potentiation (LTP) were studied in CA1 neurons of guinea pig hippocampal slices. Application of 5 or 10 microM ATP for 10 min resulted in a transient depression followed by a slow augmentation of synaptic transmission, leading to LTP. LTP induced by treatment with 5 microM ATP was facilitated in hippocampal slices prepared from animals treated for 6 days with a ceramide analog, L-threo-1-phenyl-2-decanoylamino-3-morpholino-1-propranol, which stimulates ganglioside biosynthesis. In addition, LTP induced by 5 microM ATP was significantly enhanced when naive slices were incubated with GQ1b but not with GM1. These results suggest that a cooperative effect between extracellular ATP and GQ1b enhances ATP-induced LTP in hippocampal CA1 neurons. In addition, the LTP induced by 10 microM ATP was blocked by coapplication of the NMDA antagonist AP5 (5 microM or 50 microM), and this effect was partially inhibited by GQ1b pretreatment of the slices, suggesting that in hippocampal CA1 neurons, the enhancing effect of GQ1b on ATP-induced LTP is mediated by modulation of NMDA receptors/Ca(2+) channels.

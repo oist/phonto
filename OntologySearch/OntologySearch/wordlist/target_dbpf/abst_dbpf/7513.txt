@@ -1,0 +1,37 @@
+Animals
+Colchicine
+Denervation
+Dentate Gyrus
+cytology
+physiology
+Hippocampus
+cytology
+physiology
+Male
+Maze Learning
+physiology
+Memory
+physiology
+Memory Disorders
+pathology
+physiopathology
+Mossy Fibers
+Hippocampal
+injuries
+physiology
+surgery
+Motor Activity
+physiology
+Neurotoxins
+Orientation
+physiology
+Perforant Pathway
+injuries
+physiology
+surgery
+Rats
+Rats
+Long-Evans
+Space Perception
+physiology
+The hippocampus is an essential neural structure for spatial memory. Computational models suggest that the CA3 subregion of the hippocampus plays an essential role in encoding and retrieval of spatial memory. The perforant path (PPCA3) and dentate gyrus (DG)-mediated mossy fibers (MFs) compose major afferent inputs into CA3. A possible functional dissociation between these afferent inputs was attempted using a simple navigation test (i.e., the modified Hebb-Williams maze). Behavioral testing was combined with electrolytic lesions of PPCA3 or neurotoxic lesions of the DG, to eliminate each afferent input into CA3. Lesions in either afferent input into CA3 affected learning of an effective navigational path on the maze. The contributions of the two CA3 afferent inputs, however, were different regarding encoding and retrieval of memory measured based on indices operationally defined for the behavioral paradigm (i.e., encoding, the number of errors reduced within a day; retrieval, the number of errors reduced between days). The DG-lesioned animals exhibited deficits regarding the encoding index, but not the retrieval index, whereas the PPCA3-lesioned rats displayed deficits regarding the retrieval index, but not the encoding index. The results suggest that the two major afferent inputs of CA3 may contribute differentially to encoding and retrieval of spatial memory.

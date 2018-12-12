@@ -1,0 +1,3291 @@
+Ionic mechanisms underlying human atrial action potential
+properties: insights from a mathematical model
+
+MARC COURTEMANCHE,1,2 RAFAEL J. RAMIREZ,1 AND STANLEY NATTEL1,3,4
+1Research Center, Montreal Heart Institute, Montreal, Quebec H1T 1C8; De´partements
+de 2Physiologie and 4Me´decine, Universite´ de Montre´al, Montreal, Quebec H3C 3J7; and
+3Department of Pharmacology, McGill University, Montreal, Quebec H3G 1Y6, Canada
+
+Courtemanche, Marc, Rafael J. Ramirez, and Stan-
+ley Nattel. Ionic mechanisms underlying human atrial ac-
+tion potential properties: insights from a mathematical model.
+Am. J. Physiol. 275 (Heart Circ. Physiol. 44): H301–H321,
+1998.—The mechanisms underlying many important proper-
+ties of the human atrial action potential (AP) are poorly
+understood. Using speciﬁc formulations of the K⫹, Na⫹, and
+Ca2⫹ currents based on data recorded from human atrial
+myocytes, along with representations of pump, exchange, and
+background currents, we developed a mathematical model of
+the AP. The model AP resembles APs recorded from human
+atrial samples and responds to rate changes, L-type Ca2⫹
+current blockade, Na⫹/Ca2⫹ exchanger inhibition, and varia-
+tions in transient outward current amplitude in a fashion
+similar to experimental recordings. Rate-dependent adapta-
+tion of AP duration, an important determinant of susceptibil-
+ity to atrial ﬁbrillation, was attributable to incomplete L-type
+Ca2⫹ current recovery from inactivation and incomplete
+delayed rectiﬁer current deactivation at rapid rates. Experi-
+mental observations of variable AP morphology could be
+accounted for by changes in transient outward current den-
+sity, as suggested experimentally. We conclude that this
+mathematical model of the human atrial AP reproduces a
+variety of observed AP behaviors and provides insights into
+the mechanisms of clinically important AP properties.
+action potential morphology; action potential rate depen-
+dence; transient outward current; L-type calcium current;
+sodium/calcium exchanger
+
+THE HUMAN ATRIAL ACTION POTENTIAL (AP) and ionic
+currents that underlie its morphology are of critical
+importance to our understanding of the electrical prop-
+erties of atrial tissues in normal and pathological
+conditions. AP shape and underlying ionic current
+densities are frequency dependent and may be modu-
+lated by speciﬁc pharmacological agents (33). Their
+properties are known to change during the course of
+atrial arrhythmias or as a result of other cardiac
+pathologies (32, 39). In addition, APs have shown
+signiﬁcant variability in morphology, ranging from
+triangular APs with no sustained plateaus to long APs
+with deﬁnite spike-and-dome morphology, even when
+recorded from cells isolated from the same atrial sam-
+ple (4, 33, 54). There is a need to integrate the informa-
+tion obtained from measurements of single currents to
+understand complex current interactions during the AP
+and their role in controlling AP morphology.
+
+Until recently, limited data were available on the
+various currents underlying the AP. New ﬁndings have
+revealed important properties and signiﬁcant interspe-
+cies differences. For example, the transient outward
+current (Ito), present in human and rabbit atrial cells
+
+(8, 16, 25, 47), has been shown to recover from inactiva-
+tion at least two orders of magnitude faster in humans
+than in rabbits (20, 47). A novel delayed rectiﬁer
+current (IKur) has been identiﬁed in human atrial cells
+(1, 18, 41, 48, 53) and is different from the sustained
+current (Isus) observed in rabbit atrial cells (12). IKur
+also differs from delayed rectiﬁers in other species that
+show kinetically similar characteristics (3, 6, 29). Addi-
+tional data have been obtained on the classic delayed
+rectiﬁer currents (IKr and IKs)
+(54, 55), the time-
+independent inward rectiﬁer current (IK1) (30, 31), the
+fast Na⫹ current (INa) (42), the L-type Ca2⫹ current
+(ICa,L) (35) and its inactivation by voltage and intracel-
+lular Ca2⫹ (26, 49), and the Na⫹/Ca2⫹ exchanger cur-
+rent (INaCa) (4).
+
+Models of atrial cells based on animal data only have
+been published (14, 36, 40, 60). Although these models
+have provided valuable insights into the mechanisms
+underlying AP generation in these species, the exis-
+tence of signiﬁcant interspecies differences and the
+amount of human data available indicate a need for an
+AP model based speciﬁcally on direct measurements of
+human atrial currents. To address this issue, we devel-
+oped a mathematical model of the AP based on ionic
+current data obtained directly in human atrial cells.
+When human data were insufficient to characterize a
+given atrial current fully, we supplemented with ani-
+mal data and referred to existing published models of
+atrial and ventricular APs (14, 36, 37, 40, 60). The most
+recent published models of mammalian cardiac cells
+are those of Luo and Rudy (37) (LR2 model) and
+Linblad et al. (36) (LMCG model), based on measure-
+ments from guinea pig ventricular cells and rabbit
+atrial cells, respectively. Our model builds mostly on
+the work of Luo and Rudy to develop a working model of
+the human atrial AP.
+
+Our primary goal was to develop a useful model of the
+AP from which we could gain insights into experimen-
+tal observations made on human atrial cells and tissues
+and make predictions regarding the behavior of these
+cells under previously untested conditions. Throughout
+our description of the model, we clearly indicate the
+sources of data used to derive model parameters, how
+the parameters were obtained, and whether they were
+derived directly from data or modiﬁed to improve our
+representation of the AP. We then use the model to
+investigate the mechanism of experimentally mea-
+sured AP rate dependence, the changes in AP morphol-
+ogy in the presence of pharmaceutical blockers of the
+ICa,L and the Na⫹/Ca2⫹ exchanger, and the variability in
+experimentally observed AP morphology.
+
+0363-6135/98 $5.00 Copyright r 1998 the American Physiological Society
+
+H301
+
+H302
+
+Glossary
+
+V
+R
+T
+F
+Cm
+AP
+V˙ max
+
+APA
+
+APO
+APD
+APD50
+
+APD90
+
+AF
+I-V
+Q10
+
+SR
+JSR
+
+NSR
+Vcell
+Vi
+Vup
+Vrel
+[X]o
+[X]i
+Cmdn
+Trpn
+Csqn
+[Ca2⫹]rel
+
+[Ca2⫹]up
+
+[Ca2⫹]Cmdn
+[Ca2⫹]Trpn
+[Ca2⫹]Csqn
+
+EX
+Iion
+Ist
+␣x
+
+␤x
+
+␶x
+x⬁
+
+INa
+gNa
+m
+h
+
+j
+
+Transmembrane potential
+Gas constant
+Temperature
+Faraday constant
+Membrane capacitance
+Human atrial action potential
+Maximal AP
+
+upstroke
+
+(dV/dtmax)
+
+velocity
+
+AP amplitude (peak AP voltage minus
+
+diastolic voltage at onset of AP)
+
+AP overshoot (peak AP voltage ⬎0 mV)
+AP duration
+APD measured from AP onset to 50% of
+
+total APA repolarization
+
+APD measured from AP onset to 90% of
+
+total APA repolarization
+
+Atrial ﬁbrillation
+Current-voltage
+Temperature adjustment factor, k(T) ⫽
+
+k(T0)Q10
+
+(T ⫺ T0 )/10
+
+Sarcoplasmic reticulum
+Junctional SR, SR release compart-
+
+ment
+
+Network SR, SR uptake compartment
+Cell volume
+Intracellular volume
+SR uptake compartment volume
+SR release compartment volume
+Extracellular concentration of ion X
+Intracellular concentration of ion X
+Calmodulin, sarcoplasmic Ca2⫹ buffer
+Troponin, sarcoplasmic Ca2⫹ buffer
+Calsequestrin, JSR Ca2⫹ buffer
+Ca2⫹ concentration in release compart-
+
+Ca2⫹ concentration in uptake compart-
+
+Ca2⫹-bound calmodulin concentration
+Ca2⫹-bound troponin concentration
+Ca2⫹-bound calsequestrin concentra-
+
+Equilibrium potential for ion X
+Total ionic current
+Stimulus current
+Forward rate constant for gating vari-
+
+Backward rate constant for gating vari-
+
+Time constant for gating variable x
+Steady-state relation for gating vari-
+
+Fast inward Na⫹ current
+Maximal INa conductance
+Activation gating variable for INa
+Fast inactivation gating variable for
+
+ment
+
+ment
+
+tion
+
+able x
+
+able x
+
+able x
+
+INa
+
+INa
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+IK1
+gK1
+Ito
+gto
+KQ10
+oa
+oi
+IKur
+gKur
+ua
+ui
+IKr
+gKr
+xr
+IKs
+gKs
+xs
+ICa,L
+gCa,L
+d
+f
+
+fCa
+
+Ip,Ca
+Ip,Ca(max)
+INaK
+INaK(max)
+fNaK
+␴
+Km,Na(i)
+Km,K(o)
+INaCa
+INaCa(max)
+Km,Na
+Km,Ca
+ksat
+␥
+Ib,Na
+gb,Na
+Ib,Ca
+gb,Ca
+Irel
+krel
+u
+v
+
+w
+
+Fn
+Iup
+Iup(max)
+[Ca2⫹]up(max)
+Itr
+␶tr
+Iup,leak
+[Cmdn]max
+
+[Trpn]max
+
+tor
+
+Inward rectiﬁer K⫹ current
+Maximal IK1 conductance
+Transient outward K⫹ current
+Maximal Ito conductance
+Q10-based temperature adjustment fac-
+
+Activation gating variable for Ito
+Inactivation gating variable for Ito
+Ultrarapid delayed rectiﬁer K⫹ current
+Maximal IKur conductance
+Activation gating variable for IKur
+Inactivation gating variable for IKur
+Rapid delayed rectiﬁer K⫹ current
+Maximal IKr conductance
+Activation gating variable for IKur
+Slow delayed rectiﬁer K⫹ current
+Maximal IKs conductance
+Activation gating variable for IKs
+L-type inward Ca2⫹ current
+Maximal ICa,L conductance
+Activation gating variable for ICa,L
+Voltage-dependent inactivation gating
+
+Ca2⫹-dependent inactivation gating vari-
+
+variable for ICa,L
+
+able for ICa,L
+
+Sarcoplasmic Ca2⫹ pump current
+Maximal Ip,Ca
+Na⫹-K⫹ pump current
+Maximal INaK
+Voltage-dependence parameter for INaK
+[Na⫹]o-dependence parameter for INaK
+[Na⫹]i half-saturation constant for INaK
+[K⫹]o half-saturation constant for INaK
+Na⫹/Ca2⫹ exchanger current
+INaCa scaling factor
+[Na⫹]o saturation constant for INaCa
+[Ca2⫹]o saturation constant for INaCa
+Saturation factor for INaCa
+Voltage-dependence parameter for INaCa
+Background Na⫹ current
+Maximal Ib,Na conductance
+Background Ca2⫹ current
+Maximal Ib,Ca conductance
+Ca2⫹ release current from the JSR
+Maximal Ca2⫹ release rate for Irel
+Activation gating variable for Irel
+Ca2⫹ ﬂux-dependent inactivation gat-
+
+ing variable for Irel
+
+Voltage-dependent inactivation gating
+
+variable for Irel
+
+Sarcoplasmic Ca2⫹ ﬂux signal for Irel
+Ca2⫹ uptake current into the NSR
+Maximal Ca2⫹ uptake rate for Iup
+Maximal Ca2⫹ concentration in NSR
+Ca2⫹ transfer current from NSR to JSR
+Ca2⫹ transfer time constant
+Ca2⫹ leak current from the NSR
+Total calmodulin concentration in myo-
+
+plasm
+
+plasm
+
+Slow inactivation gating variable for
+
+Total troponin concentration in myo-
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+H303
+
+Total calsequestrin concentration in
+
+Ca2⫹ half-saturation constant for cal-
+
+Table 1. Model constants
+
+Deﬁnition
+
+Value
+
+8.3143 J·K⫺1·mol⫺1
+310 K
+96.4867 C/mmol
+100 pF
+20,100 µm3
+13,668 µm3
+
+Gas constant
+Temperature
+Faraday constant
+Membrane capacitance
+Cell volume
+Intracellular volume
+SR uptake compartment volume 1,109.52 µm3
+SR release compartment volume 96.48 µm3
+Extracellular K⫹ concentration 5.4 mM
+Extracellular Na⫹ concentration 140 mM
+1.8 mM
+Extracellular Ca2⫹ concentra-
+
+[Csqn]max
+
+Km,Cmdn
+
+Km,Trpn
+
+Km,Csqn
+
+Vrest
+
+JSR
+
+modulin
+
+nin
+
+questrin
+
+Ca2⫹ half-saturation constant for tropo-
+
+Ca2⫹ half-saturation constant for calse-
+
+Resting membrane potential
+
+MODEL DESCRIPTION
+
+General
+
+We model the cell membrane as a capacitor connected
+in parallel with variable resistances and batteries
+representing the ionic channels and driving forces. The
+time derivative of the membrane potential V (with the
+assumption of an equipotential cell) is given by
+
+dV
+dt
+
+⫽
+
+⫺(Iion ⫹ Ist)
+
+Cm
+
+(1)
+
+where Iion and Ist are the total
+ionic current and
+stimulus current ﬂowing across the membrane and Cm
+is the total membrane capacitance. The total ionic
+current is given by
+Iion ⫽ INa ⫹ IK1 ⫹ Ito ⫹ IKur ⫹ IKr ⫹ IKs ⫹ ICa,L
+
+(2)
+
+⫹ Ip,Ca ⫹ INaK ⫹ INaCa ⫹ Ib,Na ⫹ Ib,Ca
+
+The ionic and pump currents, along with the handling
+of intracellular Ca2⫹ concentration ([Ca2⫹]i) by the
+sarcoplasmic reticulum (SR) system, are described in
+Membrane Currents. The model keeps track of the
+[Ca2⫹]i as well as intracellular concentrations of Na⫹
+([Na⫹]i) and K⫹ ([K⫹]i). No extracellular cleft spaces are
+included in the model (extracellular ion concentrations
+are ﬁxed). Figure 1 shows a schematic representation of
+the currents, pumps, and exchangers included in the
+model. Cm is taken to be 100 pF. The length and
+
+R
+T
+F
+Cm
+Vcell
+Vi
+Vup
+Vrel
+[K⫹]o
+[Na⫹]o
+[Ca2⫹]o
+
+gNa
+gK1
+gto
+gKr
+gKs
+gCa,L
+gb,Ca
+gb,Na
+INaK(max)
+INaCa(max)
+Ip,Ca(max)
+Iup(max)
+KQ10
+
+␥
+
+Km,Na(i)
+
+Km,K(o)
+
+Km,Na
+
+Km,Ca
+
+ksat
+krel
+Kup
+
+tion
+
+Maximal INa conductance
+Maximal IK1 conductance
+Maximal Ito conductance
+Maximal IKr conductance
+Maximal IKs conductance
+Maximal ICa,L conductance
+Maximal Ib,Ca conductance
+Maximal Ib,Na conductance
+Maximal INaK
+Maximal INaCa
+Maximal Ip,Ca
+Maximal Iup
+Temperature scaling factor for
+
+IKur and Ito kinetics
+
+Voltage dependence parameter
+
+[Na⫹]i half-saturation constant
+
+[K⫹]o half-saturation constant
+
+[Na⫹]o half-saturation constant
+
+[Ca2⫹]o half-saturation constant
+
+Saturation factor for INaCa
+Maximal release rate for Irel
+[Ca2⫹]i half-saturation constant
+
+for Iup
+
+for INaCa
+
+for INaK
+
+for INaK
+
+for INaCa
+
+for INaCa
+
+[Ca2⫹]up(max) Maximal Ca2⫹ concentration in
+
+uptake compartment
+
+Total calmodulin concentration
+
+[Cmdn]max
+
+[Trpn]max
+
+[Csqn]max
+
+Km,Cmdn
+
+Km,Trpn
+
+Km,Csqn
+
+Total troponin concentration in
+
+in myoplasm
+
+myoplasm
+
+Total calsequestrin concentra-
+tion in SR release compart-
+ment
+
+[Ca2⫹]i half-saturation constant
+
+for calmodulin
+
+[Ca2⫹]i half-saturation constant
+
+[Ca2⫹]rel half-saturation con-
+
+for troponin
+
+stant for Iup
+
+7.8 nS/pF
+0.09 nS/pF
+0.1652 nS/pF
+0.0294 nS/pF
+0.129 nS/pF
+0.1238 nS/pF
+0.00113 nS/pF
+0.000674 nS/pF
+0.60 pA/pF
+1,600 pA/pF
+0.275 pA/pF
+0.005 mM/ms
+3
+
+0.35
+
+10 mM
+
+1.5 mM
+
+87.5 mM
+
+1.38
+
+0.1
+30 ms⫺1
+0.00092 mM
+
+15 mM
+
+0.05 mM
+
+0.07 mM
+
+10 mM
+
+0.00238 mM
+
+0.0005 mM
+
+0.8 mM
+
+Fig. 1. Schematic representation of currents, pumps, and exchangers
+included in model. Cell
+includes 3 intracellular compartments:
+myoplasm, sarcoplasmic reticulum (SR) release compartment [junc-
+tional SR (JSR)], and SR uptake compartment [network SR (NSR)].
+See Glossary for deﬁnitions.
+
+diameter of the cell are set to 100 and 16 µm, respec-
+tively. Unless otherwise noted, physical units are as
+follows: time (t) is in milliseconds, V is in millivolts, Cm
+is in picofarads, current density is in picoamperes per
+picofarad, conductance is in nanosiemens per pico-
+farad, and concentrations are in millimoles per liter.
+Physical parameters for the model cell are given in
+Table 1. Cell compartment volumes are identical to
+those used by Luo and Rudy (37).
+
+A modiﬁed Euler method is used to integrate Eq. 1
+with a ﬁxed time step ⌬t ⫽ 0.005 ms (see APPENDIX,
+
+H304
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+Numerical Integration). All simulations were per-
+formed on a local workstation (SGI Indigo 2XZ R4400)
+using double-precision arithmetic. A description of the
+model current formulations and their general math-
+ematical representations are given below. A detailed
+listing of all equations and parameters can be found in
+the APPENDIX.
+
+Membrane Currents
+
+Fast Na⫹ current. The model implements INa as a
+modiﬁcation of the widely used Ebihara-Johnson model
+(15) proposed by Luo and Rudy (37). The current is
+given by
+
+gNa ⫽ 7.8
+
+Fig. 3. Current-voltage (I-V ) relationships of major currents in
+model with corresponding experimental data. Model curves (solid
+lines, dashed line without symbols for INa) represent peak current
+measured during 3,000-ms voltage steps to various potentials from a
+holding potential of ⫺80 mV. Experimental data sets (dashed lines
+with symbols) are scaled so that maximum current for a given
+experimental I-V curve matches current amplitude of corresponding
+model I-V curve at that potential. Data sources and scaling factors
+are as follows: Li and Nattel (35) for ICa,L scaled by 0.38, Feng et al.
+(19) for IKur scaled by 0.81 and Ito scaled by 1.2, Wang et al. (55) for IKs
+scaled by 3.0 and IKr scaled by 0.38. Refer to original studies for exact
+experimental voltage-clamp protocols used. Experimental I-V curves
+for IKur and Ito were shifted 10 mV negative before they were scaled,
+matching voltage shift introduced in model to account for known
+effects of divalent cations used experimentally to inhibit ICa,L (13, 28).
+Experimental I-V data for IK (55) were transformed to pA/pF with use
+of Cm ⫽ 100 pF before scaling was performed. No experimental data
+are shown for INa.
+
+given by
+
+IK1 ⫽
+
+gK1(V ⫺ EK)
+
+1 ⫹ exp [0.07(V ⫹ 80)]
+
+,
+
+gK1 ⫽ 0.09
+
+(4)
+
+We assume no temperature dependence of the inward
+rectiﬁer current on the basis of preliminary experimen-
+tal data. The current is assumed to reverse at EK, with
+a voltage-dependent conductance and no additional
+dependence on outward K⫹ concentration ([K⫹]o). Koumi
+et al. (30, 31) reported measurements of IK1 from
+human atrial cells. When incorporated in the model,
+their large conductance value of 0.25 nS/pF at EK
+yielded a low input membrane resistance (⬃40 M⍀ for
+
+INa ⫽ gNam 3hj(V ⫺ ENa),
+
+(3)
+Using the formulation of Luo and Rudy, we ﬁnd that the
+model steady-state inactivation and its time constants
+are shifted 20 mV positive compared with the data of
+Sakakibara et al. (42). However, the formulation for
+steady-state inactivation is consistent with more recent
+human atrial steady-state inactivation data from
+Schneider et al. (46) (see DISCUSSION for a detailed
+evaluation of available human atrial data). Maximum
+Na⫹ conductance (gNa) was adjusted to produce an
+appropriate value for the AP amplitude (APA) and
+maximal upstroke velocity (V˙ max). We use gNa ⫽ 7.8
+nS/pF, which is ⬃1.3 times the temperature-adjusted
+value (with the assumption of Q10 ⫽ 3) reported by
+Sakakibara et al. Figure 2 shows the steady-state
+activation and inactivation curves, as well as time
+constants, used in the model. Data from Sakakibara et
+al., shifted by the amounts described above and tem-
+perature corrected, are overlaid on the model curves.
+For activation time constants, temperature-adjusted
+data from Schneider et al. are shown. The peak current-
+voltage (I-V) relationship for INa is displayed in Fig. 3.
+No experimental I-V curve was included, because avail-
+able data (19, 42, 46), as a result of equal intra- and
+extracellular Na⫹ concentrations, display a nonphysi-
+ological reversal potential for INa close to 0 mV.
+
+Inward rectiﬁer K⫹ current. The model implements
+IK1 on the basis of available current data and resting
+membrane resistance measurements. The current is
+
+Fig. 2. Model representation of param-
+eters describing fast Na⫹ current.
+Steady-state activation and inactiva-
+tion curves (A) and gating variable time
+constants (B) are shown. Experimental
+data from Sakakibara et al. (42) (m⬁,
+h⬁j⬁, ␶h, ␶j) and Schneider et al. (46)
+(␶m), voltage shifted (⫹20 mV) and tem-
+perature corrected (Q10 ⫽ 3), are in-
+cluded for comparison. Experimental
+steady-state relationships are lines ﬁt-
+ted by Sakakibara et al. to their experi-
+mental data.
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+H305
+
+Transient outward and ultrarapid rectiﬁer K⫹ cur-
+rents. The model implements Ito and IKur on the basis of
+data from our laboratory (20, 53). The currents are
+given by
+
+3oi(V ⫺ EK),
+
+gto ⫽ 0.1652
+
+Ito ⫽ gtooa
+IKur ⫽ gKurua
+
+3ui(V ⫺ EK),
+
+gKur ⫽ 0.005 ⫹
+
+0.05
+
+1 ⫹ exp 3(V ⫺ 15)
+⫺13 4
+
+(5)
+
+(6)
+
+Fig. 4. I-V relationships for IK1 and INaK obtained from model. Sum of
+instantaneous time-independent membrane currents (Iv) is also
+shown. For INaK, the amplitude of which depends on Na⫹ and K⫹
+concentrations, resting concentrations from Table 2 are used.
+
+a 100-pF cell). We decreased IK1 conductance to
+compensate for this using gK1 ⫽ 0.09 nS/pF. When the
+latter is used, input resistance calculated for a voltage
+step from ⫺80 to ⫺90 mV is ⬃174 M⍀, closer to
+experimentally recorded values (e.g., ⬃150 M⍀ in Ref.
+52). However, there is a large range of measured values
+for the input resistance of human atrial cells that may
+reﬂect differences in the isolation procedure and its
+effect on isolation-sensitive currents such as IK1. The
+I-V relationship of IK1 is shown in Fig. 4.
+
+Both currents share similar activation kinetics but
+differ in their inactivation properties. Ito has fairly
+rapid inactivation kinetics; IKur displays only partial
+slow inactivation. Currents were modeled at room
+temperature, and Q10 ⫽ 2.2 was used to adjust their
+kinetics to 37°C (53). Current amplitudes were ad-
+justed to match AP morphology. Figure 5 shows steady-
+state activation, inactivation, and corresponding time
+constants for IKur, along with experimental data from
+our laboratory (53). Figure 5 shows similar results for
+Ito. All model ﬁts shown in Fig. 5 are shifted 10 mV
+negative for computations to account for the known
+positive shift (13, 28) induced by divalent cations such
+as Cd2⫹, which was used experimentally to block ICa,L.
+The peak I-V relationship of both currents, along with
+scaled experimental I-V curves from Feng et al. (19),
+are shown in Fig. 3. Figure 6 displays traces for IKur and
+
+Fig. 5. Model representation of param-
+eters describing ultrarapid delayed rec-
+tiﬁer current (A and B) and transient
+outward current (C and D). Steady-
+state activation and inactivation curves
+(A and C) and gating variable time
+constants (B and D) are shown. Experi-
+mental data from Wang et al. (53), to
+which model relations are ﬁtted, are
+included for comparison.
+
+H306
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+Fig. 6. IKur and Ito generated by model in response to voltage-clamp
+steps. Results are shown for combined currents (A), Ito alone (B), and
+IKur alone (C). From resting state, model is held at ⫺80 mV for 1,000
+ms, followed by potential steps to ⫺20, 0, and ⫹20 mV. Experimental
+recordings of IKur ⫹ Ito, from Wang et al. (55), are included for
+comparison (dashed lines in A). Experimental recordings were scaled
+using Cm ⫽ 100 pF to match peak amplitude of model trace at
+⫹20 mV.
+
+Fig. 8. IKr and IKs generated by model in response to voltage-clamp
+steps. Results are shown for combined currents (A), IKs alone (B), and
+IKr alone (C). From resting state, model is held at ⫺80 mV for 1,000
+ms, followed by potential steps to ⫺20, 0, and ⫹20 mV. Experimental
+recordings of IKr and IKs, from Wang et al. (55), are included for
+comparison (dashed lines in B and C). With use of Cm ⫽ 100 pF to
+obtain units of pA/pF, experimental recordings were further scaled by
+a factor of 3.5 (IKs) and 0.47 (IKr) to match peak amplitude of model
+currents at ⫹20 mV.
+
+Ito in response to voltage-clamp steps from a holding
+potential of ⫺80 mV. The traces of Ito ⫹ IKur show typical
+rapid inactivation of Ito followed by a sustained out-
+ward current carried by IKur. The combined model
+current traces are overlaid with scaled experimental
+recordings from Wang et al. (53).
+
+Rapid and slow delayed rectiﬁer K⫹ currents. The
+model implements the two components of the classic
+delayed rectiﬁer, IKr and IKs, on the basis of data from
+our laboratory (54, 55). The currents are given by
+
+,
+
+gKr ⫽ 0.0294
+
+(7)
+
+IKr ⫽
+
+gKrxr(V ⫺ EK)
+1 ⫹ exp 1V ⫹ 15
+22.4 2
+2(V ⫺ EK),
+
+IKs ⫽ gKsxs
+
+gKs ⫽ 0.129
+
+(8)
+Both currents have only a single activation gate, al-
+though IKs activation uses a squared (x2) activation
+gate, as suggested in previous studies (61). Partial
+inactivation of IKr is observed in some experiments (55)
+but is not included in this model. Figure 7 shows the
+steady-state activation curves and time constants for
+both delayed rectiﬁer currents as well as experimen-
+tally measured time constants. The steady-state activa-
+tion parameters are taken directly from ﬁts to experi-
+mental data presented by Wang et al. (55). Some
+experimental evidence (27, 43, 45) suggests that activa-
+tion and deactivation of IKs may be multiexponential. To
+
+account for these measurements and obtain results
+consistent with the overall experimental literature, the
+model computations use time constants for IKs activa-
+tion that are one-half the ﬁtted values shown in Fig. 7.
+In addition, observations of slow deactivation of the
+delayed rectiﬁer at negative potentials (27, 43) were
+considered by using asymmetric relationships to repre-
+sent the dependence of ␶x(r) and ␶x(s) on V. Current
+amplitudes were adjusted to match AP morphology.
+The I-V relationships of both currents, along with
+scaled experimental I-V curves from Wang et al., are
+shown in Fig. 3. Figure 8 displays traces for IKr and IKs
+in response to 3,000-ms voltage-clamp steps from a
+holding potential of ⫺80 mV. The model traces are
+overlaid with scaled experimental recordings from Wang
+et al. The combined model IK trace shows rapid and
+slow activation phases linked to activation of IKr and
+IKs, respectively.
+
+L-type Ca2⫹ current. The model implements the slow
+inward Ca2⫹ current on the basis of previous models
+and data from human atrial cells (35, 37, 40, 49). The
+current is given by
+
+ICa,L ⫽ gCa,Ld f fCa(V ⫺ 65.0),
+
+(9)
+Our formulation follows that of Luo and Rudy (37) and
+includes voltage-dependent activation and inactivation
+gates, as well as a Ca2⫹-dependent inactivation gate.
+The steady-state activation relation was ﬁt to human
+
+gCa,L ⫽ 0.1238
+
+Fig. 7. Model representation of param-
+eters describing rapid and slow delayed
+rectiﬁer currents. A: steady-state activa-
+tion curves; B: gating variable time
+constants. Experimental data from
+Wang et al. (55), to which model rela-
+tions are ﬁtted, are included for com-
+parison (open symbols in B).
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+H307
+
+Fig. 9. Model representation of param-
+eters describing ICa,L. A: steady-state
+activation curves; B: gating variable
+time constants. Experimental data from
+Li and Nattel (35), to which steady-state
+relationships are ﬁtted, are included
+for comparison (open symbols in A).
+
+atrial data from Li and Nattel (35) (Fig. 9) and hence
+differs slightly from that of Luo and Rudy and Rasmus-
+son et al. (40) by providing a better ﬁt to the slower
+onset of activation observed in the experimental data.
+Because of the absence of activation time constant
+measurements from human atrial myocytes, we re-
+tained the activation time constant formulation re-
+ported previously (36, 37, 40). Steady-state voltage-
+dependent inactivation data from Li and Nattel were
+accurately ﬁt by the relation of Rasmusson et al. (40)
+(Fig. 9). Hence, we retained their formulation in our
+model. Our formulation of steady-state Ca2⫹-dependent
+inactivation is slightly modiﬁed from that of Luo and
+Rudy to better match the Ca2⫹ transient and reproduce
+the extent of Ca2⫹-dependent inactivation of ICa,L ob-
+served experimentally. A ﬁxed intrinsic time depen-
+dence (␶f,Ca ⫽ 2 ms) is incorporated into the fCa gate, as
+reported by Friedman et al. (21, 22) (see SR Ca2⫹
+storage and release), to better reproduce the time
+course of Ca2⫹-dependent inactivation of ICa,L.
+
+In experiments on human atrial cells, Sun et al. (49)
+showed two fast Ca2⫹-dependent inactivation time con-
+stants for ICa,L, on the order of 10–40 and 300–400 ms,
+respectively, at room temperature. In addition, when
+monovalent cations or Sr2⫹ was used as charge carrier,
+a very slow voltage-dependent process was apparent
+with inactivation time constants in the range of 600–
+800 ms at room temperature. Our ability to reproduce
+these results is dependent on our formulation of the
+current, which implements two inactivation mecha-
+nisms for ICa,L. We have selected the time constant for
+
+voltage-dependent inactivation in our model to match
+qualitatively the measurements of Sun et al. The
+voltage dependence of the time constant uses the form
+proposed by Luo and Rudy (37), but the magnitude of
+the time constant is scaled to better agree with the data
+of Sun et al. The time constant at 0 mV is ⬃240 ms in
+the model, which is within the experimentally mea-
+sured range with the assumption of a threefold tempera-
+ture correction to 37°C. Ca2⫹-dependent inactivation is
+mediated directly through the fCa gate. We rely on the
+Ca2⫹ transient to drive Ca2⫹-dependent inactivation,
+with its time constants being set indirectly through the
+dynamics of Ca2⫹ release and reuptake. This provides
+rapid inactivation of ICa,L on a time scale on the order of
+10 ms. The model does not account for the existence of a
+slower Ca2⫹-dependent inactivation, as identiﬁed by
+Sun et al. (see DISCUSSION). The I-V relationships for
+ICa,L, along with a scaled experimental I-V curve from
+Li and Nattel (35), are shown in Fig. 3. Figure 10A
+displays model traces for ICa,L in response to voltage-
+clamp steps from a holding potential of ⫺80 mV. The
+current traces exhibit rapid activation, followed by two
+distinct inactivation time scales. Rapid inactivation
+mediated by intracellular Ca2⫹ inactivates a large
+fraction of the current soon after the onset of the voltage
+step and is followed by a slower voltage-dependent
+inactivation. The model response after a voltage-clamp
+step to 0 mV is compared with a scaled averaged
+experimental recording from Sun et al. in Fig. 10B.
+
+Na⫹-K⫹ pump. Our formulation of the Na⫹-K⫹ pump
+follows the model of Luo and Rudy (37). The amplitude
+
+Fig. 10. A: ICa,L generated by model in
+response to voltage-clamp steps. From
+resting state, model is held at ⫺80 mV
+for 1,000 ms, followed by potential steps
+to ⫺40 to ⫹20 mV. B: model response at
+a voltage-clamp potential of ⫹20 mV,
+overlaid with experimental data from
+Sun et al.
+(49). Experimental data
+represent an average experimental
+trace from 7 voltage-clamp current
+recordings to ⫹20 mV. Peak ampli-
+tude of normalized recording was
+scaled to match model peak amplitude
+at ⫹20 mV.
+
+H308
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+of the pump current [INaK(max)] is adjusted to maintain
+stable intracellular ion concentrations at rest (37, 59).
+The pump current is given by
+
+INaK ⫽ INaK(max)fNaK
+
+1
+
+1 ⫹ 5Km,Na(i)/[Na⫹]i61.5
+
+·
+
+[K⫹]o
+
+[K⫹]o ⫹ Km,K(o)
+
+,
+
+INaK(max) ⫽ 0.6
+
+(10)
+
+proaches have been used extensively in previous AP
+models (37, 59). The background currents are given by
+
+Ib,Ca ⫽ gb,Ca(V ⫺ ECa),
+Ib,Na ⫽ gb,Na(V ⫺ ENa),
+
+gb,Ca ⫽ 0.00113
+gb,Na ⫽ 0.000674 (13)
+Ca2⫹ pump current. A sarcolemmal Ca2⫹ pump is
+included in the model to maintain [Ca2⫹]i at physiologi-
+cal levels. The pump current formulation (37, 40) is
+given by
+
+(12)
+
+The voltage dependence of INaK at resting [Na⫹]i ([K⫹]o
+is ﬁxed at 5.4 mM in the model) is shown in Fig. 4.
+
+Na⫹/Ca2⫹ exchanger. The exchanger current follows
+the revised formulation of Luo and Rudy (37). The
+exchanger current is given by
+
+Ip,Ca ⫽ Ip,Ca(max)
+
+[Ca2⫹]i
+
+0.0005 ⫹ [Ca2⫹]i
+
+,
+
+(14)
+
+Ip,Ca(max) ⫽ 0.275
+
+INaCa ⫽
+
+INaCa(max)5exp [␥VF/(RT)][Na⫹]i
+
+3[Ca2⫹]o ⫺ exp [(␥ ⫺ 1)VF/(RT)][Na⫹]o
+
+3[Ca2⫹]i6
+
+(K m,Na
+
+3 ⫹ [Na⫹]o
+
+3)(Km,Ca ⫹ [Ca2⫹]o) · 51 ⫹ ksat exp [(␥ ⫺ 1)VF/(RT)]6
+
+,
+
+INaCa(max) ⫽ 1600.0
+
+(11)
+
+As with INaK, the amplitude is adjusted to maintain
+stable physiological intracellular ion concentrations at
+rest (Table 2). Figure 11 shows the voltage dependence
+of the exchanger current at resting [Na⫹]i for two
+values of [Ca2⫹]i: at rest ([Ca2⫹]i ⫽ 0.1 µM) and near
+peak Ca2⫹ release concentration ([Ca2⫹]i ⫽ 1 µM). The
+downward shift in the curve is associated with a shift
+from Ca2⫹ entry to Ca2⫹ extrusion mode at depolarized
+potentials as Ca2⫹ concentration increases.
+
+Background Ca2⫹ and Na⫹ currents. The Ca2⫹ leak
+current is adjusted to maintain a stable [Ca2⫹]i at rest.
+The Na⫹ leak current is adjusted along with INaK to
+maintain stable [Na⫹]i and [K⫹]i at rest. Both ap-
+
+Figure 4 shows the total time-independent I-V relation-
+ship for the model, which includes the background
+currents, IK1, and the pump and exchanger currents.
+
+SR Ca2⫹ storage and release. SR Ca2⫹ uptake and
+release are implemented using a two-compartment
+model, as reported by Luo and Rudy (37). Intracellular
+Ca2⫹ is taken up into an SR uptake compartment
+[network SR (NSR), 5.52% of cell volume] coupled to a
+release compartment [junctional SR (JSR), 0.48% of
+cell volume]. Uptake is [Ca2⫹]i dependent and includes
+a leak from the uptake compartment back into the
+intracellular space. The main currents (in mM/ms)
+involved in SR Ca2⫹ handling are given by
+
+Table 2. State variables of the AP model at rest
+
+Irel ⫽ krelu2vw([Ca2⫹]rel ⫺ [Ca2⫹]i),
+
+krel ⫽ 30 (15)
+
+State Variable
+
+Vrest
+h
+d
+xr
+[Na⫹]i
+[K⫹]i
+[Ca2⫹]rel
+oi
+ui
+[Cmdn ⫺Ca2⫹]i
+[Csqn ⫺Ca2⫹]i
+v
+m
+j
+f
+xs
+[Ca2⫹]i
+[Ca2⫹]up
+oa
+ua
+fCa
+[Trpn ⫺Ca2⫹]i
+u
+w
+
+Resting Value
+
+⫺8.12 ⫻101
+9.65 ⫻10⫺1
+1.37 ⫻10⫺4
+3.29 ⫻10⫺5
+1.12 ⫻101
+1.39 ⫻102
+
+1.49
+
+9.99 ⫻10⫺1
+9.99 ⫻10⫺1
+2.05 ⫻10⫺3
+
+6.51
+1.00
+
+2.91 ⫻10⫺3
+9.78 ⫻10⫺1
+9.99 ⫻10⫺1
+1.87 ⫻10⫺2
+1.02 ⫻10⫺4
+
+1.49
+
+3.04 ⫻10⫺2
+4.96 ⫻10⫺3
+7.75 ⫻10⫺1
+1.18 ⫻10⫺2
+
+0.00
+
+9.99 ⫻10⫺1
+
+Fig. 11. I-V relationships for INaCa obtained from model. Current
+amplitude depends on Na⫹ and Ca2⫹ concentrations. Resting concen-
+tration shown in Table 2 is used for [Na⫹]i. Two different Ca2⫹
+concentrations are used to illustrate shift from reverse to forward
+exchanger modes at plateau potentials in response to an increase in
+intracellular Ca2⫹.
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+H309
+
+,
+
+␶tr ⫽ 180
+
+(16)
+
+[Ca2⫹]up ⫺ [Ca2⫹]rel
+
+Itr ⫽
+
+␶tr
+Iup(max)
+
+Iup ⫽
+
+1 ⫹ (Kup/[Ca2⫹]i)
+
+,
+
+Iup(max) ⫽ 0.005 (17)
+
+Triggering of Ca2⫹ release from the JSR is modiﬁed
+from the original formulation of Luo and Rudy (37)
+following the work of Friedman et al. (21, 22). Release
+from the JSR is triggered by Ca2⫹ ﬂux into the cell with
+emphasis placed on ﬂux through the closely coupled
+ICa,L and JSR release channels. Release is controlled by
+two Ca2⫹ ﬂux-dependent activation and inactivation
+gates, u and v. Steady-state activation and inactivation
+curves for u and v, as well as their respective time
+constants, are shown in Fig. 12. This trigger mecha-
+nism results in a transient activation of the SR Ca2⫹
+release current in response to a suprathreshold Ca2⫹
+ﬂux. Friedman (21) showed that, for AP simulations,
+this formulation is equivalent to using a threshold on
+[Ca2⫹]i entry, as done by Luo and Rudy (37). The
+formulation used here has the advantage of being a
+continuous analytic representation, thereby avoiding
+possible discontinuities and artifacts in the cellular
+response near the threshold for Ca2⫹ release (21). The
+voltage-dependent inactivation gate w contributes to
+the decrease in SR release current amplitude at posi-
+tive potentials, when membrane voltage approaches the
+ICa,L reversal potential. The steady-state voltage-depen-
+dent inactivation curve for w and its time constant are also
+shown in Fig. 12. Detailed expressions for the ﬂux compu-
+
+Fig. 13. Comparison of model-generated (solid lines) and experimen-
+tally measured (dashed lines) Ca2⫹ transients in response to 150-ms
+voltage-clamp pulses to 0 mV applied at a frequency of 0.1 and 1 Hz.
+Experimental data are based on published measurements of Hatem
+et al. (26) in human atrial myocytes.
+
+tations and gating variables are given in the APPENDIX.
+In a recent experimental study on human atrial myo-
+cytes, Hatem et al. (26) recorded Ca2⫹ transients in
+response to 150-ms voltage-clamp pulses to 0 mV
+applied at frequencies of 0.1 and 1 Hz. Figure 13 shows
+a comparison of experimental data from Hatem et al.
+and model-generated Ca2⫹ transients elicited using the
+same voltage-clamp protocol. A detailed comparison of
+model and experimental Ca2⫹ transient morphologies
+can be found in the DISCUSSION.
+
+Myoplasmic and SR Ca2⫹ buffers. Ca2⫹ buffering
+within the cytoplasm is mediated by troponin and cal-
+modulin. Ca2⫹ buffering in the release compartment is
+mediated by calsequestrin. In particular, calsequestrin
+is essential in providing sufficient Ca2⫹ stores for re-
+
+Fig. 12. Model representation of param-
+eters describing Ca2⫹-induced Ca2⫹ re-
+lease. Steady-state activation and inac-
+tivation curves (A) and corresponding
+time constants (B) for Ca2⫹ ﬂux-depen-
+dent gating variables u and v are shown.
+C: steady-state inactivation curve and
+corresponding inactivation time con-
+stant for voltage-dependent gating vari-
+able w.
+
+H310
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+lease within the limited JSR volume. Buffers are consid-
+ered at equilibrium throughout our simulations, and
+incoming Ca2⫹ in the myoplasm and JSR compartments
+is instantaneously equilibrated into free and buffer-
+bound fractions (see APPENDIX for computational meth-
+ods). Buffer concentrations and binding constants are
+given in Table 1 and follow the models of Luo and Rudy
+(37) and Rasmusson et al. (40).
+
+Table 3. AP characteristics and their rate dependence
+
+Time, ms
+
+AP Property
+
+5,000
+
+1,000
+
+APD90, ms
+APD50, ms
+APA, mV
+V˙ max, V/s
+APO, mV
+
+302
+183
+106
+216
+25
+
+297
+178
+106
+216
+25
+
+500
+
+281
+143
+104
+212
+25
+
+300
+
+238
+113
+88
+132
+12
+
+RESULTS
+
+Resting Properties
+
+The model has a stable resting potential near ⫺81
+mV. All intracellular concentrations are stable at rest
+with [Ca2⫹]i ⫽ 0.1 µM, [Na⫹]i ⫽ 11.2 mM, and [K⫹]i ⫽
+139.0 mM. As stated earlier, the resting input resistance
+measured as the current change from ⫺80 to ⫺90 mV is
+⬃174 M⍀. The ﬁrst 100-ms period of Fig. 14 shows the
+balance of membrane currents in diastole during stimula-
+tion at 1,000 ms. During the diastolic phase the steady
+state involves a balance between the pump and ex-
+changer currents, the background currents, and IK1.
+Model AP
+
+Figure 14 shows a model AP generated during stimu-
+lation at 1,000 ms in response to 2-ms pulses of 2-nA
+amplitude (twice diastolic threshold). The time course
+of membrane currents during the AP is also shown in
+Fig. 14. AP duration (APD) at 50 and 90% repolariza-
+tion (APD50 and APD90), APA, AP overshoot (APO), and
+V˙ max are reported in Table 3. The AP generated with the
+control parameters exhibits a spike-and-dome morphol-
+ogy commonly observed in human atrial AP recordings.
+This morphology is similar to experimentally recorded
+spike-and-dome APs reported by Benardeau et al. (4)
+
+and Wang et al. (53). Intracellular Ca2⫹ dynamics
+during the AP are shown in Fig. 15.
+AP Rate Dependence
+
+Rate dependence of APD and AP refractoriness is an
+essential property of atrial cells that is central to our
+understanding of excitability and propagation patterns
+in the atria, particularly during reentrant arrhyth-
+mias. Table 3 summarizes the main properties of the
+model APs at various pacing periods. Figure 16 dis-
+plays model APs, after 12 s of pacing, for various
+stimulation periods ranging from 1,000 to 300 ms.
+There is no signiﬁcant increase in APD at ⬎1,000 ms.
+This is in agreement with data from Fermini et al. (20)
+that showed no change in AP morphology and APD on
+changing the stimulation period abruptly from 10 to
+1 s. Larger relative rate-dependent changes in APD are
+measured withAPD50 than withAPD90, as in experimental
+preparations (20, 32). Figure 16 also showsAPs obtained in
+
+Fig. 14. Model action potential during stimulation at 1 Hz. Mem-
+brane potential and corresponding ionic currents are shown. Model
+was stimulated from rest at a period of 1,000 ms. Model output from
+12th action potential is depicted.
+
+Fig. 15. Model action potential and intracellular Ca2⫹ dynamics
+during stimulation at 1 Hz. Membrane potential, intracellular Ca2⫹
+ﬂux (trigger for Ca2⫹ release), intracellular, uptake, and release
+compartment Ca2⫹ concentrations, and uptake, transfer, and release
+Ca2⫹ ﬂuxes are shown. Model was stimulated from rest at a fre-
+quency of 1 Hz. Model output from 12th action potential is depicted.
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+H311
+
+similar stage during the AP. For this reason, a small
+rate-dependent change in IK amplitude may have signiﬁ-
+cant effects during late repolarization, when IK is the
+dominant repolarizing current.
+
+To better ascertain the relative importance of IK and
+ICa,L in AP rate adaptation, we use a simulation protocol
+where the rate-induced changes in a speciﬁc current
+are identiﬁed and implemented individually to deter-
+mine its speciﬁc contributions to AP rate dependence.
+We begin with a simulation of pacing at 1,000 ms that is
+interrupted just before the onset of a stimulus. Before
+continuation of the simulation and application of the
+scheduled stimulus, the values of the gating variables
+for the current under study are substituted with their
+values just before a stimulus during pacing at 300 ms.
+When the simulation is continued and the scheduled
+stimulus is applied, the resulting AP displays the
+rate-adaptation properties associated with the current
+under study, the state of which has been reset to its
+value during rapid pacing. We have carried out this
+procedure to examine the rate-dependent effect of ICa,L
+(via the d and f gating variables), IKr (via the xr gating
+variable), IKs (via the xs gating variable), and [Ca2⫹]i
+(via [Ca2⫹]i, [Ca2⫹]up, [Ca2⫹]rel, and the u, v, and w
+gating variables) on the AP.
+
+Figure 17 displays the APs after 12 s of pacing at
+1,000 and 300 ms, along with the APs arising from
+isolating the rate-adaptation effects of ICa,L, IK (IKr ⫹
+IKs), and ICa,L ⫹ IK. We note that when the effect of
+either IKr or IKs alone was examined, the observed
+change in APD90 was ⬃50% of the total reduction seen
+with both currents combined (IK in Fig. 17). Also, the
+effect on APD90 of [Ca2⫹]i and ICa,L combined was
+similar to that of ICa,L alone, which is why the results for
+[Ca2⫹]i were not included in Fig. 17. The limited role of
+[Ca2⫹]i at fast pacing rates may reﬂect the opposing
+effects of a higher resting [Ca2⫹]i and a lower Ca2⫹
+transient amplitude on ICa,L inactivation. Our ﬁrst
+
+Fig. 17. Role of ICa,L and IK in producing rate-dependent shortening
+of action potential on reducing pacing period from 1,000 to 300 ms.
+Steady-state action potentials during pacing at 1,000 and 300 ms are
+shown. In addition, action potentials resulting from rate adaptation
+of ICa,L alone, IK (IKr ⫹ IKs) alone, and ICa,L ⫹ IK are shown. See
+RESULTS for a detailed description of numerical simulation procedure.
+Combination of ICa,L and IK rate adaptation is sufficient to explain full
+extent of rate-dependent action potential shortening on reduction of
+pacing period from 1,000 to 300 ms.
+
+Fig. 16. Rate dependence of action potential duration and morphol-
+ogy. Top left: model action potentials recorded after 12 s of pacing at
+various basic cycle lengths (BCLs). Action potential duration de-
+creases as BCL decreases from 1 to 0.3 s. Top right: experimental
+recordings of action potentials obtained at pacing periods of 1, 0.6,
+and 0.3 s (data from Ref. 56). Bottom panels: currents obtained during
+model action potentials at BCLs of 1 and 0.3 s. Currents during 2
+consecutive action potentials are shown at BCL of 0.3 s to facilitate
+comparison to currents at BCL of 1 s.
+
+a tissue preparation at stimulation periods of 1,000, 600,
+and 300 ms (56). The experimentally observed changes in
+APD and AP morphology with stimulation rate are
+qualitatively similar to those observed in the model.
+
+The mechanism underlying APD changes may be
+investigated by examining the detailed current traces
+for APs at stimulation periods of 1,000 and 300 ms
+depicted in Fig. 16. The traces reveal that an increase
+in stimulation rate conspicuously reduces ICa,L. We
+inspected the time course of gating variables for ICa,L,
+IKr, and IKs to quantify their role in rate-dependent AP
+changes. We ﬁrst consider a comparison of the slow
+2 at the onset of the AP
+gating variables f, fCa, xr, and xs
+for stimulation periods of 1,000 and 300 ms. These slow
+variables are most susceptible to alteration at fast
+rates. For IKr and IKs, we found that incomplete deacti-
+vation at 300 ms resulted in an increase of 0.05 for xr
+2 compared with their values at 1,000
+and 0.004 for xs
+ms. This compares with reductions of 0.2 for f and 0.16
+for fCa. The maximal conductances of ICa,L and IKs are
+comparable, whereas the maximal conductance of IKr is
+four times smaller. Hence, the changes in the f and fCa
+gate result in larger changes in current at the faster
+rate, pointing to ICa,L as an important determinant of
+AP rate dependence. However, the absolute magnitude
+of current changes with rate must be considered rela-
+tive to the amplitude of other currents activating at a
+
+H312
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+observation is that the effect of the rate-dependent
+decrease in available ICa,L alone is to lower the plateau
+potential and to signiﬁcantly accelerate early repolar-
+ization. The lower plateau level reduces IK activation,
+slows terminal repolarization, and results in no net
+change in total APD. Second, we observe that the effect
+of the rate-dependent increase in available IK alone is
+to lower the plateau potential and to compensate for the
+effect of the reduced plateau level on IK activation,
+leaving the rate of terminal repolarization unchanged.
+The effect of IK rate adaptation alone explains less than
+one-half of the total rate-dependent reduction in APD90.
+Third, the effect of ICa,L and IK combined is synergistic,
+lowering the plateau potential and accelerating late
+repolarization relative to the effect of ICa,L alone.
+Changes in these two currents together are sufficient to
+account for the total rate-dependent AP shortening
+observed on reducing the pacing period from 1,000 to
+300 ms. Hence, we conclude that ICa,L and IK act
+together to produce the observed rate-dependent AP
+shortening.
+ICa,L and Rate Dependence
+
+Li and Nattel (35) showed that rate dependence can
+be abolished in isolated human atrial myocytes by
+blocking ICa,L. To compare these experimental data with
+the behavior of the model, we evaluated the effects of a
+strong decrease in L-type Ca2⫹ channel conductance on
+model AP rate dependence. Figure 18A shows model
+APs after 12 s of pacing with stimulation at 5,000 and
+300 ms with a 90% reduction in ICa,L conductance.
+Figure 18B shows corresponding experimental results
+from Li and Nattel in which nifedipine was used to
+block ICa,L. In the model and experiments, block of ICa,L
+abolishes AP rate dependence. Although we have shown
+that ICa,L and IK play a role in rate adaptation, it
+appears that when ICa,L is strongly inhibited, as in Fig.
+18, the plateau level is lowered to the point where IK
+activation is greatly reduced and can no longer contrib-
+ute to rate adaptation.
+Block of INaCa and Role in APD
+
+Recently, Benardeau et al. (4) investigated the role of
+Na⫹/Ca2⫹ exchange in AP morphology and APD. In
+particular, they examined the effect of INaCa block by Li⫹
+on AP morphology. Their results revealed a shortening
+
+Fig. 18. Role of ICa,L in rate dependence of action potential. A: model
+action potentials recorded after 12 s of pacing at various BCLs with
+90% decrease in ICa,L conductance. No rate dependence is observed.
+B: experimentally recorded action potentials during stimulation at
+BCL ⫽ 5 and 0.3 s in presence of 10 µM nifedipine to block ICa,L. No
+rate dependence is observed.
+
+Fig. 19. Model action potentials during stimulation at 1 Hz under
+control conditions and with a 90% decrease in INaCa maximal ampli-
+tude. Block of INaCa is meant to mimic experimental conditions where
+Li⫹ is used to block exchanger. Action potential shortening and slight
+hyperpolarization are observed, as in experimental recordings (see
+Fig. 7A in Ref. 4).
+
+of APD and transient hyperpolarization after the AP in
+the presence of Li⫹. Figure 19 shows control and
+INaCa-blocked (90% decrease in maximum exchanger
+activity compared with control) model APs with stimu-
+lation at 1 s. Model APs display both of the changes
+observed in experimental preparations (see Fig. 7A in
+Ref. 4), i.e., AP shortening and hyperpolarization. In-
+spection of the current records shows that the decrease
+in APD may be related to two mechanisms: 1) an
+increase in Ca2⫹-dependent ICa,L inactivation caused by
+an increase in resting [Ca2⫹]i and Ca2⫹ transient ampli-
+tude and 2) a reduction in depolarizing exchanger
+current during the late phase of the AP. The observed
+membrane hyperpolarization is due to a reduced in-
+ward exchanger current at rest, causing a negative
+shift of the resting membrane potential.
+Variability in AP Morphology
+
+Using the model, we attempted to simulate changes
+in current density that could explain the changes in
+human atrial AP morphology seen experimentally by
+many investigators (1, 4, 17, 24, 50, 51, 54). It has been
+suggested that variations in the relative density of the
+transient outward current may contribute to some of
+the AP variability (17, 54). We concentrated on three
+currents: Ito, IKur, and ICa,L. Figure 20 shows the result
+of varying the density of each of these three currents,
+from one-tenth to three times the control conductance
+value, on AP morphology. Figure 20, A–D, shows a
+continuum of AP morphologies after 12 s of pacing at a
+stimulation period of 1,000 ms for various modiﬁca-
+tions of the current densities. For ICa,L, we observe an
+increase in APD90 as ICa,L conductance increases. There
+is little change in APD90 as IKur conductance decreases.
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+H313
+
+these data for steady-state activation and especially
+inactivation of the current are shifted to negative
+potentials compared with other human (7, 46) and
+animal (57) data. According to the steady-state inactiva-
+tion curves in these studies, ⬃90% of the available INa
+would be inactivated at resting potentials positive to
+⫺80 mV. In conjunction with the small maximum
+conductances measured in these human cells (40 pA/pF
+maximum current in Ref. 19 compared with 200 pA/pF
+in Ref. 57 for rabbit atrial cells), there would be
+insufficient current available to generate the large V˙ max
+(167 V/s in Ref. 56) and nanoampere-range current
+amplitudes typical of the AP upstroke. In their model,
+Lindblad et al. (36) use the temperature correction
+suggested by Colatsky (10) (⫹3 mV/10°C) to shift the
+model curves to more positive potential. In the case of
+the human data reported by Feng et al. (19) and
+Sakakibara et al. (42), the resulting shift of ⬃5–10 mV
+still leaves an inactivation half-maximal potential (V‰)
+well negative of the value observed in other mamma-
+lian cells and insufficient to generate the required fast
+inward current during the AP.
+
+Recent human atrial data from Schneider et al. (46)
+display more realistic values for the V‰ of steady-state
+inactivation. The I-V curve of Schneider et al. resembles
+that measured by Sakakibara et al. (42), and both show
+a proﬁle similar to the model I-V curve of Fig. 3,
+although the data of Sakakibara et al. display a less
+abrupt activation of the current. The time constants of
+activation measured by Schneider et al. agree with
+those of the model; however, rapid inactivation time
+constants are on the order of 1 ms for a wide range of
+potentials (between ⫺60 and ⫹90 mV). The model
+displays fast inactivation time constants in this range
+for potentials positive to ⫺40 mV, but at more negative
+potentials (between ⫺80 and ⫺40 mV), fast inactiva-
+tion time constants increase in the model (to a maxi-
+mum of 25 ms at about ⫺65 mV). The rapid kinetics of
+fast inactivation over a wide voltage range reported by
+Schneider et al. may be due in part to their use of a
+ﬁtting procedure allowing for overlap of activation and
+inactivation processes. It is unclear whether fast inacti-
+vation slows down in the study of Schneider et al. at
+potentials negative to ⫺60 mV. They do not provide any
+fast time constants for recovery from inactivation at
+potentials between ⫺95 and ⫺60 mV, making it difficult
+to determine the value of ␶h at these potentials. On the
+basis of their recovery from inactivation data, there
+appear to be three time constants involved, whereas
+the data of Sakakibara et al. suggest two time con-
+stants. Given the difficulties in interpreting the data in
+these studies within the context of the simple formula-
+tion of Eq. 3, we chose to formulate the kinetics of INa
+exactly as in the work of Luo and Rudy (37), which
+nevertheless matches experimental data quite well, as
+shown in Fig. 2.
+
+Transient outward current. Ito has been shown to
+differ substantially in its faster recovery kinetics in
+humans than in other mammalian species (20, 47). On
+the basis of voltage-clamp current measurements, we
+found that Ito activation was best ﬁt using a cubed
+
+Fig. 20. Effect of varying ICa,L (A), IKur (B), and Ito (C), conductances
+(10, 25, 50, 75, 100, 150, 200, 250, 300% of control) on model action
+potential morphology during stimulation at 1 Hz. D: experimental
+action potential types described by Wang et al. (54).
+
+For Ito, we observe an increase in APD90 as Ito conduc-
+tance decreases for large conductances, then a decrease
+in APD90 as Ito conductance decreases for small conduc-
+tances. Of the three currents we have investigated, it
+appears that only the Ito variations can explain the
+whole spectrum of AP morphologies observed experi-
+mentally (4, 33, 54). This ranges from rectangular APs
+with a short plateau at the lowest Ito conductance
+values to shorter triangular APs at high Ito conductance
+values, through long spike-and-dome morphologies at
+intermediate Ito conductance values. Both IKur and ICa,L
+alone can explain a change from a spike-and-dome to a
+triangular AP shape, but a reduction in Ito is required in
+the model to produce the high plateau and absence of
+notch characteristic of a rectangular AP (54). In addi-
+tion, the relation between Ito and AP morphology in the
+model parallels the relative changes in Ito observed ex-
+perimentally in the AP classiﬁcation of Wang et al. (54).
+
+DISCUSSION
+
+We have developed a mathematical model of the
+human atrial AP. Whenever possible, we used data
+directly measured on human atrial cells to derive model
+parameters. When human data were not available to
+completely characterize a given current, we relied on
+existing AP models based mainly on guinea pig ventricu-
+lar (37) and rabbit atrial (36) data. The model yields AP
+morphologies that are consistent with a variety of
+experimental observations and gives potential insights
+into their underlying ionic mechanisms.
+Model Current Formulations Compared
+with Experimental Data
+
+Fast Na⫹ current. INa is a large, rapid inward current
+that has proved difficult to measure accurately using
+voltage-clamp techniques. Data from isolated human
+atrial cells are available elsewhere (19, 42). However,
+
+H314
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+activation gate. Activation and inactivation were ﬁt to
+data from Wang et al. (55). A single inactivation gate
+was included in the model. In some current traces, slow
+inactivation can be seen, but this was attributed to slow
+inactivation of IKur and was not included directly in our
+formulation of Ito. The simulated current recordings
+shown in Fig. 6 indicate that the model reproduces the
+essential properties of experimental recordings of Ito ⫹
+IKur (55).
+
+Ultrarapid delayed rectiﬁer current or sustained out-
+ward current. IKur has been shown to play an important
+role in AP current balance at plateau potentials in
+human atrial myocytes (1, 47, 55). On the basis of data
+from Wang et al. (55), we found that IKur had activation
+kinetics similar to those of Ito but activated at more
+negative potentials and displayed only partial slow
+inactivation. Those features are included in our formu-
+lation of the model. As with Ito, changes in IKur density
+can have considerable effects on AP morphology, as
+shown in Fig. 20.
+
+L-type Ca2⫹ current. ICa,L has been studied exten-
+sively in human atrial tissue (9, 32, 35, 39, 49). Its
+complex inactivation kinetics, mediated in part by
+intracellular Ca2⫹, are only partially understood (49).
+This has made modeling the current more difficult and
+highly dependent on an accurate formulation of intracel-
+lular Ca2⫹ homeostasis and its control by the SR system
+(see SR Ca2⫹ handling and buffering). Our formulation
+follows that of Luo and Rudy (37) and includes voltage-
+dependent activation and inactivation gates as well as
+a Ca2⫹-dependent inactivation gate. We have made
+modiﬁcations to the original formulation of Luo and
+Rudy on the basis of available experimental data (35,
+49). However, as discussed by Luo and Rudy, fundamen-
+tal questions regarding the complex voltage- and Ca2⫹-
+driven inactivation of ICa,L remain, from an experimen-
+tal and a modeling standpoint. For example, data from
+Sun et al. (49) suggest that strictly voltage-dependent
+inactivation of ICa,L is incomplete even for very long
+inactivation pulses. This suggests that steady-state
+inactivation ( f⬁) saturates at an inactivation fraction
+greater than zero (0.45 measured in Ref. 49). As
+reported by Luo and Rudy, we found that implementing
+such a relationship gave rise to uncharacteristic re-
+sults, such as large ICa,L window currents observed on
+reuptake of Ca2⫹ during long APs. Another example can
+be found in the data of Sun et al., where an apparent
+second Ca2⫹-dependent inactivation time constant, on
+the order of 300–400 ms, could be observed during
+inactivation of ICa,L. This is not accounted for in the
+model, and its origin has not been clariﬁed experimen-
+tally. It may be that additional dynamical complexity in
+ICa,L inactivation arises as a result of a more complex
+time course of the Ca2⫹ transient. This is in agreement
+with data from Hatem et al. (26) that point to rapid and
+slow phases during the rise of the Ca2⫹ transient in
+human atrial myocytes. These factors are related to
+limitations in our modeling of the SR Ca2⫹ handling,
+which represents a simpliﬁed formulation of a tempo-
+rally and spatially complex intracellular process (see
+SR Ca2⫹ handling and buffering and Limitations).
+
+Delayed rectiﬁer current. IK has been characterized
+by Wang et al. (54) in human atrial cells. As in other
+mammalian species (44, 45), IK in human myocytes is
+the sum of a rapid and a slow component. We adopted
+the current formulation of Zeng et al. (61) ﬁt to human
+atrial data (54). Steady-state activation and inactiva-
+tion curves from human atrial cells are similar to those
+in other species (e.g., rabbit atria in Ref. 45). As pointed
+out by Zeng et al., there is conﬂicting evidence regard-
+ing the activation and deactivation kinetics of both
+currents. Wang et al. concluded that activation was
+well ﬁt with a single time constant for both currents;
+however, they measured extremely slow activation
+time constants for IKs. When included in the model,
+these slow kinetics limit the role of IKs during the APO.
+Recent evidence from experiments on rabbit and guinea
+pig ventricular myocytes suggests fast and slow time
+constants for activation and deactivation of IKr and IKs
+(27, 43). Fast time constants for activation of IKs
+reached a maximum of 330 ms at ⫹10 mV and 37°C. We
+account for possible faster kinetics of IKs in the model by
+using time constants that are one-half the values
+measured by Wang et al., putting the maximum time
+constant for IKs activation at ⬃500 ms at ⫹10 mV. By
+use of this formulation, IKs plays a more signiﬁcant role
+in repolarization during the AP but remains much less
+important than IKr at the lower plateau potentials
+typical of the human atrial AP.
+
+SR Ca2⫹ handling and buffering. SR Ca2⫹ handling
+and buffering involve uptake, storage, and release of
+Ca2⫹ from various cellular compartments (58). We
+followed the formulation of Luo and Rudy (37) but
+included a modiﬁcation to the release mechanism sug-
+gested by Friedman et al. (21, 22). Release of Ca2⫹ from
+the JSR compartment depends on the ﬂux of Ca2⫹
+through the sarcolemmal and SR release channels.
+This formulation aims to reﬂect the close coupling of
+L-type Ca2⫹ channels in the sarcolemma and JSR Ca2⫹
+release channel (34). For closely juxtaposed channels,
+one can expect that true local Ca2⫹ concentration in the
+vicinity of the release channel
+is more accurately
+reﬂected by local Ca2⫹ ﬂux than by bulk cellular Ca2⫹
+concentration. The formulation is also adapted to afford
+a greater sensitivity of the release mechanism to ﬂux
+through the L-type Ca2⫹ channel, as opposed to Ca2⫹
+entry through the Na⫹/Ca2⫹ exchanger (22). Release is
+triggered when the computed Ca2⫹ ﬂux exceeds a
+predeﬁned threshold through the opening of an activa-
+tion gate u. Inactivation is mediated through one
+ﬂux-dependent (v) and one voltage-dependent (w) inac-
+tivation gate. An added advantage of this formulation is
+that it is completely analytic and does not require
+identiﬁcation of qualitative trigger events such as the
+occurrence of V˙ max.
+
+As shown in Fig. 13, Ca2⫹ transients elicited in the
+model are qualitatively similar in amplitude and late
+time course to the experimental transients recorded in
+response to voltage-clamp steps to 0 mV (26). The
+discrepancy in the initial rise of the transient has
+potentially complex causes. The experimental tran-
+sients were recorded at room temperature, which may
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+H315
+
+IK, IK1, and INaCa. This may explain some of the variabil-
+ity in APD90 measurements from human atrial cells
+and tissues (5, 23, 24, 32, 33).
+
+in part explain their slower rise. In addition, their
+rising phase included rapid and slow components. It
+was postulated by Hatem et al. (26) that the slow rising
+phase was due to Ca2⫹ release from sites not closely
+juxtaposed to sarcolemmal L-type Ca2⫹ channels. Be-
+cause of the absence of intracellular Ca2⫹ diffusion or
+speciﬁc myoplasmic Ca2⫹ compartments in our model,
+it is unrealistic to expect to be able to directly reproduce
+these features of the transient. We may consider the
+modeled transient as a compromise formulation that
+reproduces the rapid rise in local Ca2⫹ concentration
+expected in the vicinity of the sarcolemma. This en-
+sures our ability to use [Ca2⫹]i as a direct inactivator of
+ICa,L through the fCa gate. An updated formulation of
+intracellular Ca2⫹ handling should include local myo-
+plasmic compartments in an attempt to capture the
+essential features of intracellular Ca2⫹ diffusion.
+
+Inward rectiﬁer K⫹ current. IK1 plays a major role in
+the late repolarization phase of the AP and in determin-
+ing resting membrane potential and resistance. As
+stated earlier, there is considerable variability in the
+measured input resistance of isolated human atrial
+cells (1, 52), with resting potentials often displaced to
+positive potentials compared with multicellular tissue
+preparations (1, 52, 54, 56). Our formulation of IK1 was
+adjusted to reproduce the slow late repolarization rate
+observed in human atrial AP recordings. In doing so, we
+were able to produce a realistic resting membrane
+resistance of 180 M⍀ (52) and a resting potential
+characteristic of healthy human atrial multicellular
+preparations of around ⫺80 mV (56). The model I-V
+relationship for IK1 (Fig. 4) has a shape characteristic of
+direct recordings in human atrial cells (31), but the
+speciﬁc parameters were adjusted to match the AP
+characteristics described above.
+
+Behavior of the Model AP
+
+Control model AP. The control model AP exhibits a
+spike-and-dome morphology. As discussed below, sev-
+eral AP morphologies have been recorded from human
+atrial cells. In the model the transient outward current
+produces the initial phase 1 repolarization after the
+INa-driven upstroke. On inactivation of Ito, ICa,L, which
+remains after rapid Ca2⫹-dependent inactivation, causes
+a slight depolarization of the membrane and produces
+the dome of the AP. This net inward current is eventu-
+ally countered by the slowly activating outward IK,
+resulting in slow repolarization. Slow late repolariza-
+tion is a balance between deactivating IK, time-
+independent IK1, and opposing inward current gener-
+ated by the Na⫹/Ca2⫹ exchanger during the late phase
+of the AP.
+
+Na⫹/Ca2⫹ exchanger. The Na⫹/Ca2⫹ exchanger plays
+an important role in determining APD. As in experi-
+ments, we have shown that the exchanger is partly
+responsible for producing the slow late repolarization
+typical of human atrial APs. Block of the exchanger
+resulted in a signiﬁcant reduction in APD90 (30% in Fig.
+19). Because of the slow repolarization rate and small
+current amplitudes during late repolarization, APD90 is
+sensitive to small changes in late AP currents such as
+
+Rate dependence of model AP. Rate dependence of the
+model AP is described in Fig. 16 and 17 and Table 3.
+The model is consistent with experimental data in
+several respects. First, it exhibits little rate depen-
+dence at frequencies ⬍1 Hz, consistent with data from
+Fermini et al. (20) and Le Grand et al. (32). The model
+predicts greater relative AP shortening at APD50 than
+at APD90. This is seen in the data of Le Grand et al.,
+even though their APD90 values are somewhat greater
+than those of the model. Comparing the top panels of
+Fig. 16, we observe that in experimental recordings and
+model simulations the AP waveforms at various rates
+tend to converge at some positive potential before
+complete recovery. Late repolarization is slowed at
+faster rates, in part because of a reduced activation of
+IK in APs with shorter, more negative plateaus that
+opposes the rate-dependent increase in IK availability.
+This tends to reduce rate adaptation of the model AP
+measured using APD90 and is a direct consequence of
+the sensitivity of late AP repolarization to small changes
+in IK, IK1, and INaCa, as discussed above.
+
+Variability in AP morphology. Variability in AP mor-
+phology is often observed in recordings of human atrial
+APs. Early observations of APs from isolated human
+atrial tissue demonstrated a considerable variability in
+their morphology (17, 24, 50, 51). Some cells showed
+little phase 1 repolarization and a positive plateau;
+others exhibited a prominent phase 1 with a ‘‘spike-and-
+dome’’ morphology (17, 24, 50). It was suggested that
+age-related differences may be due to changes in Ito
+(17). Recently, there have been attempts to deﬁne
+various types of APs on the basis of their morphological
+characteristics and/or underlying ionic current densi-
+ties (1, 4, 54). Wang et al. (54) identiﬁed three ‘‘types’’ of
+APs on the basis of morphology, ranging from type 1, a
+rectangular AP with a positive plateau, through type 2,
+a spike-and-dome AP with a plateau at ⬃0 mV, to type
+3, a triangular AP with little plateau. They associated
+these changes in morphology with a measured increase
+in the relative density of Ito to IK from type 1 to type 3
+APs. Benardeau et al. (4) recently characterized two AP
+types in their isolated human atrial cell preparations:
+type AAPs are spike-and-dome APs with a high plateau
+similar to Wang’s type 1 or 2 APs; type B APs were
+triangular APs similar to Wang’s type 3. In an attempt
+to identify the source of differences in AP morphology
+between types A and B, these investigators found no
+discernible difference in ICa,L density between the two
+cell types. All three AP types have been recorded from
+human atrial multicellular preparations with ﬁne-
+tipped microelectrodes (38).
+
+The control model AP is typical of the type 1 APs
+described previously (38, 54). Our investigation of the
+role of Ito, IKur, and ICa,L in AP morphology in Fig. 20
+reveals that, in our model, variations in Ito alone are
+able to generate many of the variations in AP morphol-
+ogy observed experimentally. AP shapes range from a
+triangular morphology (type 3 in Refs. 38 and 54 and
+
+H316
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+type A in Ref. 4) for large Ito, through a spike-and-dome
+morphology (type 1 in Refs. 38 and 54) at intermediate
+Ito conductances, to a rectangular morphology (type 2 in
+Refs. 38 and 54 and type B in Ref. 4) for small Ito
+amplitudes. In contrast, variations in IKur and ICa,L
+alone cannot reproduce the rectangular morphology
+observed only in the presence of a small Ito. The role of
+Ito as an important determinant of AP morphology is
+supported by current measurements (54) showing that
+changes in AP morphology types (1, 2, and 3) were
+accompanied by changes in the relative amplitude of Ito
+consistent with the results of Fig. 20. An increase in Ito
+density was also shown to accompany the change from
+rectangular to spike-and-dome AP morphology ob-
+served in young vs. adult human atrial myocytes (17).
+Although the amplitude of Ito appears to be an impor-
+tant determinant of AP morphology, it is clear that it
+cannot be considered independently of other membrane
+currents and that AP morphology will depend on the
+relative amplitudes of all currents involved.
+
+Clinical Relevance
+
+Atrial ﬁbrillation (AF) is the most common sustained
+arrhythmia in clinical practice and that for which
+treatment remains the most problematic (38). The AP
+model provides insights into the basic mechanisms
+underlying a variety of important clinical determinants
+of AF. Impaired atrial APD accommodation to rate has
+been observed in patients with AF (5) and likely
+underlies the ﬂat refractory period-heart rate relation-
+ship of patients susceptible to AF (2). Our model points
+to rate-dependent ICa,L inactivation combined with in-
+complete IK deactivation as the basic mechanism of
+APD accommodation to rate. Work by Li and Nattel (35)
+suggests that inhibition of ICa,L alone is sufficient to
+abolish rate adaptation of the human atrial AP, and it
+has been shown that human myocytes from dilated
+atria have a substantially reduced ICa,L (32, 39). In the
+present study, strong ICa,L reduction alone was suffi-
+cient to abolish rate adaptation of the model AP (Fig.
+18). Although IK and ICa,L contribute to model AP rate
+adaptation, important reductions in ICa,L lower plateau
+height to the point where IK is greatly reduced and AP
+accommodation is virtually abolished. The model ex-
+plains how strong reductions in ICa,L, as caused by
+atrial disease in humans or by exposure experimentally
+to ICa,L blockers, can largely abolish AP rate adaptation
+and contribute to the susceptibility to AF.
+
+Another property strongly associated with the occur-
+rence of AF is AP heterogeneity (38). The present model
+indicates that variations in plateau currents (particu-
+larly Ito) over the experimentally measured range can
+account for much of the AP variability reported in
+human atria. These mechanistic insights hold the
+promise of an understanding of how drugs that alter
+ionic currents can affect these important AP properties
+and, thus, may help in the development of improved
+therapeutic approaches to treating atrial reentrant
+arrhythmias like AF.
+
+Potential Limitations
+
+Although we have tried to develop a model that is
+closely based on experimental data, limitations exist
+because of availability of data and considerable variabil-
+ity in existing experimental data. Limitations of this
+work are similar to those discussed for recent ionic
+models (36). The following issues should be considered
+in evaluating the model.
+
+Data from human atrial cells and tissues typically
+display considerable variability, with a wide range of
+current densities having direct consequences on AP
+shape, rate dependence, and response to pharmacologi-
+cal intervention. The use of averaged data from se-
+lected preparations does not take this into consideration
+and introduces possible complications in comparing
+model output with experimental AP recordings under
+various experimental conditions. This is in part why we
+have considered carefully the effect of varying speciﬁc
+current conductances on AP morphology. In addition,
+the temperature dependence of current kinetics and
+amplitude is often poorly characterized and must be
+approximated, with the help of available data, during
+the course of model development.
+
+When possible, we have attempted to show experi-
+mental data along with corresponding simulated behav-
+ior. However, we note that, for voltage-clamp current
+recordings and experimental I-V curves, there may be
+signiﬁcant bias in the measured current amplitudes.
+Selection factors such as the ability to record measur-
+able currents and the viability of cells contribute to
+bias, especially with currents that are difficult to
+measure or display signiﬁcant variability, such as ICa,L
+or IK. These amplitude-dependent selection factors are
+unlikely to bias the measured kinetics of a given
+current. Because of bias in current amplitude measure-
+ments, it is rare that exact current densities reported in
+experimental studies can be incorporated directly into
+a model and produce a realistic AP morphology. When
+necessary, current densities from experimental data
+were adjusted in the model to improve overall AP
+properties. The same limitations apply to direct com-
+parisons of current recordings to corresponding model
+output. Such comparisons can be misleading unless one
+selects a current trace with an amplitude that exactly
+matches the amplitude used in the model or unless a
+scaling factor is used to match the peak current ampli-
+tudes. This is why we chose to present scaled experimen-
+tal data for current recordings and I-V curves, with the
+scaling factor selected to match the maximum current
+amplitudes in the experiments to those in the model.
+Whenever such scaling is carried out, we ensured that
+the corresponding scaling factor was explicitly given to
+allow comparison of current magnitudes between model
+and experimental data.
+
+Limited data are available on intracellular Ca2⫹
+dynamics, Ca2⫹ storage and release kinetics from the
+SR, and its role in the inactivation of ICa,L. We have
+used a modiﬁed version of the intracellular Ca2⫹-
+handling scheme proposed by Luo and Rudy (37). This
+produces a realistic intracellular Ca2⫹ transient in
+response to suprathreshold Ca2⫹ ﬂux into the cell.
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+H317
+
+However, recent experimental results suggest that
+Ca2⫹-dependent ICa,L inactivation may involve complex
+local phenomena requiring an additional level of model
+complexity (49), beyond an accurate representation of
+the average Ca2⫹ transient. This is also important in
+view of the sensitive dependence of the model AP and
+its rate dependence on the dynamics of late repolariza-
+tion, controlled in part by the Ca2⫹-dependent INaCa.
+
+Our formulation of the delayed rectiﬁer current
+represents a compromise between a simple current
+representation and available experimental evidence
+that IKr and IKs may display complex, multiexponential
+deactivation kinetics (27, 43). Slow deactivation of
+these currents may have important effects on late
+repolarization, refractoriness, and AP rate dependence.
+Whenever possible, we have tried to select the simplest
+formulation that captures the essential features of
+available experimental data. It is possible that the
+complex kinetics of some currents, such as IK, require
+more detailed current formulations involving several
+channel states not readily modeled using a simple
+Hodgkin-Huxley formalism.
+
+We have chosen not to consider time-varying extracel-
+lular ion concentrations in our model at this stage.
+Certain currents, such as IK1, are known to depend on
+extracellular ion concentrations. Accumulation of ions
+in the extracellular cleft space may be an important
+modulator of ionic currents and AP characteristics at
+fast pacing rates. These phenomena may be taken into
+account by modifying appropriate current formulations
+and including dynamic extracellular cleft space ion
+concentrations in the model.
+
+Finally, our model was adjusted to produce stable
+ionic concentrations at rest. In response to periodic
+stimulation, ionic balance is disturbed and slow changes
+in intracellular ionic concentrations occur in the model.
+Initial transients due to kinetic rate adaptation of the
+currents dissipate over a few seconds. However, small
+changes in ionic concentrations can take several min-
+utes to develop and result in slow changes in the
+morphology of the AP. These changes are dependent on
+the nature and the formulation of the stimulus. The
+long-term behavior of the model depends on whether
+the charge applied through the stimulus is carried by
+an ion, the balance of which is explicitly included in the
+model. The choice of the ion selected to carry the
+stimulus charge also affects the outcome. We have
+chosen to simulate the model without the stimulus
+having a direct effect on the ion concentrations. The
+sensitivity of long-term ionic concentrations to stimu-
+lus formulation and frequency is a property of ionic
+models that attempt to preserve a detailed ionic bal-
+ance (25a, 50a). When discussing results under periodic
+pacing, we have chosen to present model results after
+initial rapid transients have dissipated, after 12 s of
+pacing from rest. The AP morphology at this point is
+independent of the form and implementation of the
+stimulus and takes into account the kinetic adaptation
+of the currents at the speciﬁed pacing frequency. How-
+ever, it does not include the effect of concentration
+changes occurring on a slower time scale in the model.
+This is also true of the experimental data on which the
+
+model is based. Most frequency-dependent data are
+collected with the assumption that preparations stabi-
+lize within seconds of the onset of stimulation. A
+detailed investigation of the long-term dynamics of the
+model and its dependence on the formulation of the
+stimulus is left for further study.
+
+APPENDIX: MODEL FORMULATION
+
+Some fractional equations require evaluation of a limit to
+determine their values at membrane potentials for which
+their denominator is zero.
+
+Differential Equations
+
+Instantaneous equilibration of Ca2⫹ with buffers is as-
+
+sumed in all cases
+
+dV
+dt
+
+⫽
+
+⫺(Iion ⫹ Ist)
+
+Cm
+
+Iion ⫽ INa ⫹ IK1 ⫹ Ito ⫹ IKur ⫹ IKr ⫹ IKs ⫹ ICa,L
+
+⫹ Ip,Ca ⫹ INaK ⫹ INaCa ⫹ Ib,Na ⫹ Ib,Ca
+
+(18)
+
+(19)
+
+(where y is any gating variable)
+
+(20)
+
+dy
+dt
+
+y⬁ ⫺ y
+
+⫽
+
+␶y
+d[Na⫹]i
+
+⫽
+
+⫺3INaK ⫺ 3INaCa ⫺ Ib,Na ⫺ INa
+
+FVi
+
+dt
+
+2INaK ⫺ IK1 ⫺ Ito ⫺ IKur ⫺ IKr ⫺ IKs ⫺ Ib,K
+
+d[K⫹]i
+
+dt
+
+⫽
+
+FVi
+d[Ca2⫹]i
+
+⫽
+
+B1
+B2
+
+dt
+
+B1 ⫽
+
+2INaCa ⫺ Ip,Ca ⫺ ICa,L ⫺ Ib,Ca
+
+2FVi
+
+⫹
+
+Vup(Iup,leak ⫺ Iup) ⫹ IrelVrel
+
+Vi
+
+B2 ⫽ 1 ⫹
+
+[Trpn]maxKm,Trpn
+([Ca2⫹]i ⫹ Km,Trpn)2
+
+⫹
+
+[Cmdn]maxKm,Cmdn
+([Ca2⫹]i ⫹ Km,Cmdn)2
+
+(21)
+
+(22)
+
+(23)
+
+(24)
+
+(25)
+
+(26)
+
+(27)
+
+(29)
+
+(30)
+
+d[Ca2⫹]up
+
+dt
+
+⫽ Iup ⫺ Iup,leak ⫺ Itr
+
+Vrel
+Vup
+[Csqn]maxKm,Csqn
+
+([Ca2⫹]rel ⫹ Km,Csqn)26⫺1
+
+d[Ca2⫹]rel
+
+dt
+
+⫽ (Itr ⫺ Irel)51 ⫹
+
+Equilibrium Potential
+
+Ex ⫽
+
+RT
+zF
+
+log
+
+[X]o
+[X]i
+
+Fast Na⫹ Current
+
+,
+
+for X ⫽ Na⫹, K⫹, Ca2⫹
+
+(28)
+
+INa ⫽ gNam3hj(V ⫺ ENa)
+
+V ⫹ 47.13
+
+1 ⫺ exp [⫺0.1(V ⫹ 47.13)]
+
+␣m ⫽50.32
+
+3.2, if V ⫽ ⫺47.13
+
+␤m ⫽ 0.08 exp 1⫺
+
+V
+
+112
+
+H318
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+␣h ⫽50.135 exp 1⫺
+
+0, if V ⱖ ⫺40
+
+V ⫹ 80
+
+6.8 2
+
+(31)
+
+␤h ⫽53.56 exp (0.079V) ⫹ 3.1 ⫻ 105 exp (0.35V)
+
+50.1331 ⫹ exp 1⫺
+
+V ⫹ 10.66
+
+246⫺1
+
+11.1
+
+,
+
+if V ⱖ ⫺40
+
+0.05
+
+␣u(a) ⫽ 0.65 3exp 1⫺
+
+gKur ⫽ 0.005 ⫹
+
+V ⫹ 10
+
+1 ⫹ exp 1⫺
+8.5 2 ⫹ exp 1⫺
+␤u(a) ⫽ 0.65 32.5 ⫹ exp 1V ⫹ 82
+17.0 24⫺1
+
+V ⫺ 15
+
+13 2
+59.0 24⫺1
+
+V ⫺ 30
+
+␣j ⫽53⫺127,140 exp (0.2444V) ⫺ 3.474 ⫻ 10⫺5 exp (⫺0.04391V)4
+
+if V ⱖ ⫺40
+
+0,
+
+V ⫹ 37.78
+
+1 ⫹ exp [0.311(V ⫹ 79.23)]
+
+exp (⫺0.01052V)
+
+1 ⫹ exp [⫺0.1378(V ⫹ 40.14)]
+
+␤j ⫽50.1212
+
+0.3
+
+exp [⫺2.535 ⫻ 10⫺7V]
+1 ⫹ exp [⫺0.1(V ⫹ 32)]
+
+(33)
+
+,
+
+if V ⱖ ⫺40
+
+␶␾ ⫽ (␣␾ ⫹ ␤␾)⫺1,
+
+␾⬁ ⫽ ␣␾␶␾,
+
+for ␾ ⫽ m, h, j
+
+(34)
+
+Time-Independent K⫹ Current
+
+IK1 ⫽
+
+gK1(V ⫺ EK)
+
+1 ⫹ exp [0.07(V ⫹ 80)]
+
+Transient Outward K⫹ Current
+
+Ito ⫽ gto oa
+
+3oi(V ⫺ EK)
+
+V ⫺ 30
+
+59.0 24⫺1
+
+␣o(a) ⫽ 0.65 3exp 1⫺
+
+V ⫹ 10
+
+8.5 2 ⫹ exp 1⫺
+␤o(a) ⫽ 0.65 32.5 ⫹ exp 1V ⫹ 82
+17.0 24⫺1
+␶o(a) ⫽ [␣o(a) ⫹ ␤o(a)]⫺1/KQ10
+
+V ⫹ 20.47
+
+17.54 24⫺1
+oa(⬁) ⫽ 31 ⫹ exp 1⫺
+␣o(i) ⫽ 318.53 ⫹ exp 1V ⫹ 113.7
+10.95 24⫺1
+7.44 24⫺1
+
+␤o(i) ⫽ 335.56 ⫹ exp 1⫺
+
+V ⫹ 1.26
+
+␶o(i) ⫽ [␣o(i) ⫹ ␤o(i)]⫺1/KQ10
+oi(⬁) ⫽ 31 ⫹ exp 1V ⫹ 43.1
+24⫺1
+
+5.3
+
+(35)
+
+(36)
+
+(37)
+
+(38)
+
+(39)
+
+(40)
+
+␶u(a) ⫽ [␣u(a) ⫹ ␤u(a)]⫺1/KQ10
+V ⫹ 30.3
+24⫺1
+ua(⬁) ⫽ 31 ⫹ exp 1⫺
+24⫺1
+␣u(i) ⫽ 321 ⫹ exp 1⫺
+
+V ⫺ 185
+
+9.6
+
+28
+
+16
+
+␤u(i) ⫽ exp 1V ⫺ 158
+2
+␶u(i) ⫽ [␣u(i) ⫹ ␤u(i)]⫺1/KQ10
+ui(⬁) ⫽ 31 ⫹ exp 1V ⫺ 99.45
+27.48 24⫺1
+
+Rapid Delayed Outward Rectiﬁer K⫹ Current
+
+IKr ⫽
+
+gKrxr(V ⫺ EK)
+1 ⫹ exp 1V ⫹ 15
+22.4 2
+
+␣x(r) ⫽ 0.0003
+
+V ⫹ 14.1
+
+1 ⫺ exp 1⫺
+
+V ⫹ 14.1
+
+2
+
+5
+
+␤x(r) ⫽ 7.3898 ⫻ 10⫺5
+
+V ⫺ 3.3328
+
+exp 1V ⫺ 3.3328
+
+5.1237 2 ⫺ 1
+
+␶x(r) ⫽ [␣x(r) ⫹ ␤x(r)]⫺1
+
+xr(⬁) ⫽ 31 ⫹ exp 1⫺
+
+V ⫹ 14.1
+
+6.5
+
+24⫺1
+
+Slow Delayed Outward Rectiﬁer K⫹ Current
+
+␣x(s) ⫽ 4 ⫻ 10⫺5
+
+IKs ⫽ gKsx s
+
+2(V ⫺ EK)
+V ⫺ 19.9
+
+1 ⫺ exp 1⫺
+
+V ⫺ 19.9
+
+17
+
+2
+
+Ultrarapid Delayed Rectiﬁer K⫹ Current
+
+␤x(s) ⫽ 3.5 ⫻ 10⫺5
+
+IKur ⫽ gKuru a
+
+3ui(V ⫺ EK)
+
+(41)
+
+V ⫺ 19.9
+
+exp 1V ⫺ 19.9
+
+9
+
+2 ⫺ 1
+
+(42)
+
+(43)
+
+(32)
+
+(44)
+
+(45)
+
+(46)
+
+(47)
+
+(48)
+
+(49)
+
+(50)
+
+(51)
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+␶x(s) ⫽
+
+1
+2
+
+[␣x(s) ⫹ ␤x(s)]⫺1
+
+xs(⬁) ⫽ 31 ⫹ exp 1⫺
+
+V ⫺ 19.9
+
+12.7 24⫺1/2
+
+L-Type Ca2⫹ Current
+
+␶d ⫽
+
+V ⫹ 10
+
+ICa,L ⫽ gCa,Ld f fCa(V ⫺ 65)
+1 ⫺ exp 1⫺
+
+6.24 2
+6.24 24
+0.035(V ⫹ 10)31 ⫹ exp 1⫺
+24⫺1
+
+d⬁ ⫽ 31 ⫹ exp 1⫺
+
+V ⫹ 10
+
+V ⫹ 10
+
+8
+
+(52)
+
+(53)
+
+(54)
+
+␶v ⫽ 1.91 ⫹ 2.0911 ⫹ exp3⫺
+v⬁ ⫽ 1 ⫺11 ⫹ exp3⫺
+
+Fn ⫺ 3.4175 ⫻ 10⫺13
+
+13.67 ⫻ 10⫺16
+
+42⫺1
+
+Fn ⫺ 6.835 ⫻ 10⫺14
+
+13.67 ⫻ 10⫺16
+
+42⫺1
+
+␶w ⫽ 6.0
+
+31 ⫹ 0.3 exp 1⫺
+w⬁ ⫽ 1 ⫺ 31 ⫹ exp 1⫺
+
+V⫺ 7.9
+
+1 ⫺ exp 1⫺
+
+5
+V ⫺ 7.9
+
+5
+
+2
+24(V ⫺ 7.9)
+17 24⫺1
+11
+
+ICa,L ⫺
+
+1
+5
+
+2
+
+V ⫺ 40
+
+Fn ⫽ 10⫺12VrelIrel ⫺
+
+5 ⫻ 10⫺13
+
+F
+
+INaCa2
+
+␶f ⫽ 950.0197 exp [⫺0.03372(V ⫹ 10)2] ⫹ 0.026⫺1
+
+Transfer Current From NSR to JSR
+
+f⬁ ⫽ 31 ⫹ exp 1V ⫹ 28
+6.9 24⫺1
+fCa(⬁) ⫽ 11 ⫹
+
+␶f (Ca) ⫽ 2,
+
+[Ca2⫹]i
+
+0.000352⫺1
+
+Na⫹-K⫹ Pump Current
+
+INaK ⫽ INaK(max)fNaK
+
+1
+
+[K⫹]o
+
+1 ⫹ 5Km,Na(i)/[Na⫹]i61.5
+
+[K⫹]o ⫹ Km,K(o)
+
+fNaK ⫽31 ⫹ 0.1245 exp1⫺0.1
+
+FV
+
+RT2 ⫹ 0.0365␴ exp1⫺
+
+FV
+
+RT24⫺1
+
+␴ ⫽
+
+1
+
+73exp1[Na⫹]o
+
+67.3 2 ⫺ 14
+
+Na⫹/Ca2⫹ Exchanger Current
+
+(55)
+
+(56)
+
+(57)
+
+(58)
+
+(59)
+
+Itr ⫽
+
+[Ca2⫹]up ⫺ [Ca2⫹]rel
+
+␶tr
+
+␶tr ⫽ 180
+
+Ca2⫹ Uptake Current by the NSR
+
+Iup ⫽
+
+Iup(max)
+
+1 ⫹ (Kup/[Ca2⫹]i)
+
+Ca2⫹ Leak Current by the NSR
+
+Iup,leak ⫽
+
+[Ca2⫹]up
+
+[Ca2⫹]up(max)
+
+Iup(max)
+
+Ca2⫹ Buffers
+
+[Ca2⫹]Cmdn ⫽ [Cmdn]max
+
+[Ca2⫹]i
+
+[Ca2⫹]i ⫹ Km,Cmdn
+
+INaCa(max) 5exp [␥FV/(RT)][Na⫹]i
+
+3[Ca2⫹]o ⫺ exp [(␥ ⫺ 1)FV/(RT)][Na⫹]o
+
+3[Ca2⫹]i 6
+
+(K m,Na
+
+3 ⫹ [Na⫹]o
+
+3)(Km,Ca ⫹ [Ca2⫹]o) · 51 ⫹ ksat exp [(␥ ⫺ 1)FV/(RT)]6
+
+INa,Ca ⫽
+
+Background Currents
+
+Ib,Ca ⫽ gb,Ca(V ⫺ ECa)
+
+Ib,Na ⫽ gb,Na(V ⫺ ENa)
+
+(61)
+
+(62)
+
+Ca2⫹ Pump Current
+
+[Ca2⫹]Trpn ⫽ [Trpn]max
+
+[Ca2⫹]i
+
+[Ca2⫹]i ⫹ Km,Trpn
+
+[Ca2⫹]Csqn ⫽ [Csqn]max
+
+[Ca2⫹]rel
+
+[Ca2⫹]rel ⫹ Km,Csqn
+
+H319
+
+(66)
+
+(67)
+
+(68)
+
+(69)
+
+(70)
+
+(71)
+
+(72)
+
+(73)
+
+(60)
+
+(74)
+
+(75)
+
+Ip,Ca ⫽ Ip,Ca(max)
+
+[Ca2⫹]i
+
+0.0005 ⫹ [Ca2⫹]i
+
+(63)
+
+Numerical Integration
+
+Ca2⫹ Release Current From JSR
+
+Irel ⫽ krelu 2vw([Ca2⫹]rel ⫺ [Ca2⫹]i)
+
+␶u ⫽ 8.0, u⬁ ⫽11 ⫹ exp3⫺
+
+Fn ⫺ 3.4175 ⫻ 10⫺13
+
+13.67 ⫻ 10⫺16
+
+42⫺1
+
+At time step p, the updated value of a time-dependent
+
+variable is given by
+
+␹ (p) ⫽ ␹ ( p ⫺ 1) ⫹ ⌬t
+
+d␹
+dt
+
+(76)
+
+for ␹ ⫽ V, any time-dependent ionic concentration, and
+
+(64)
+
+(65)
+
+H320
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+y ( p) ⫽ y⬁ ⫹ [y ( p ⫺ 1) ⫺ y⬁] exp 1⫺
+
+⌬t
+
+␶y2
+
+(77)
+
+for y ⫽ any gating variable.
+
+The authors thank Drs. Jianlin Feng, Normand Leblanc, Gui-
+Rong Li, Hui Sun, and Zhiguo Wang for help with experimental data
+and Jean Perrault and Charles Dupont for the use of computer
+equipment.
+
+This work was funded by grants from the Medical Research
+Council of Canada (S. Nattel) and the Natural Sciences and Engineer-
+ing Research Council (M. Courtemanche). M. Courtemanche is
+supported by a Chercheur-Boursier Scholarship from the Fonds de
+Recherche en Sante´ du Que´bec.
+
+Address for reprint requests: M. Courtemanche, Research Center,
+Montreal Heart Institute, 5000 E. Belanger St., Montreal, PQ,
+Canada H1T 1C8.
+Received 29 September 1997; accepted in ﬁnal form 5 February 1998.
+
+REFERENCES
+1. Amos, G. J., E. Wettwer, F. Metzger, Q. Li, H. M. Himmel,
+and U. Ravens. Differences between outward currents of hu-
+man atrial and subepicardial ventricular myocytes. J. Physiol.
+(Lond.) 491: 31–50, 1996.
+
+2. Attuel, P., R. Childers, B. Cauchemez, J. Poveda, J. Mugica,
+and P. Coumel. Failure in the rate adaptation of the atrial
+refractory period: its relationship to vulnerability. Int. J. Cardiol.
+2: 179–197, 1982.
+
+3. Backx, P. H., and E. Marban. Background potassium current
+active during the plateau of the action potential in guinea pig
+ventricle myocytes. Circ. Res. 72: 890–900, 1993.
+
+4. Benardeau, A., S. N. Hatem, C. Rucker-Martin, B. Le
+Grand, L. Mace, P. Dervanian, J. J. Mercadier, and E.
+Coraboeuf. Contribution of Na⫹/Ca2⫹ exchange to action poten-
+tial of human atrial myocytes. Am. J. Physiol. 271 (Heart Circ.
+Physiol. 40): H1151–H1161, 1996.
+
+5. Boutjdir, M., J. Y. Le Heuzey, T. Lavergne, S. Chauvaud, L.
+Guize, A. Carpentier, and P. Peronneau. Inhomogeneity of
+cellular refractoriness in human atrium: factor of arrhythmia?
+Pacing Clin. Electrophysiol. 9: 1095–1100, 1986.
+
+6. Boyle, W. A., and J. M. Nerbonne. A novel type of depolariza-
+tion-activated K⫹ current in isolated adult rat atrial myocytes.
+Am. J. Physiol. 260 (Heart Circ. Physiol. 29): H1236–H1247,
+1991.
+
+7. Bustamante, J. O., and T. F. McDonald. Sodium currents in
+
+segments of human heart cells. Science 220: 320–321, 1983.
+
+8. Clark, R. B., W. R. Giles, and Y. Imaizumi. Properties of the
+transient outward current in rabbit atrial cells. J. Physiol.
+(Lond.) 405: 147–168, 1988.
+
+9. Cohen, N. M., and W. J. Lederer. Calcium current in single
+human cardiac myocytes. J. Cardiovasc. Electrophysiol. 4: 422–
+437, 1993.
+
+10. Colatsky, T. J. Voltage clamp measurements of sodium channel
+properties in rabbit cardiac Purkinje ﬁbres. J. Physiol. (Lond.)
+305: 215–234, 1980.
+
+11. Doerr, T., R. Denger, A. Doerr, and W. Trautwein. Ionic
+currents contributing to the action potential in single ventricular
+myocytes of the guinea pig studied with action potential clamp.
+Pﬂu¨ gers Arch. 416: 230–237, 1990.
+
+12. Duan, D., B. Fermini, and S. Nattel. Sustained outward
+current observed after Ito1 inactivation in rabbit atrial myocytes
+is a novel Cl⫺ current. Am. J. Physiol. 263 (Heart Circ. Physiol.
+32): H1967–H1971, 1992.
+
+13. Dukes, I. D., and M. Morad. The transient K⫹ current in rat
+ventricular myocytes: evaluation of its Ca2⫹ and Na⫹ depen-
+dence. J. Physiol. (Lond.) 435: 395–420, 1990.
+
+14. Earm, Y. E., and D. Noble. A model of the single atrial cell:
+relation between calcium current and calcium release. Proc. R.
+Soc. Lond. B Biol. Sci. 240: 83–96, 1990.
+
+15. Ebihara, L., and E. A. Johnson. Fast sodium current in
+cardiac muscle: a quantitative description. Biophys. J. 32: 779–
+790, 1980.
+
+16. Escande, D., A. Coulombe, J. F. Faivre, E. Deroubaix, and
+E. Coraboeuf. Two types of transient outward currents in adult
+human atrial cells. Am. J. Physiol. 252 (Heart Circ. Physiol. 21):
+H142–H148, 1987.
+
+17. Escande, D., D. Loisance, C. Planche, and E. Coraboeuf.
+Age-related changes of action potential shape in isolated human
+atrial ﬁbers. Am. J. Physiol. 249 (Heart Circ. Physiol. 18):
+H843–H850, 1985.
+
+18. Fedida, D., B. Wible, Z. Wang, B. Fermini, F. Faust, S.
+Nattel, and A. M. Brown. Identity of a novel delayed rectiﬁer
+from human heart with a cloned K⫹ channel current. Circ. Res.
+73: 210–216, 1993.
+
+19. Feng, J., G. R. Li, B. Fermini, and S. Nattel. Properties of
+sodium and potassium currents of cultured adult human atrial
+myocytes. Am. J. Physiol. 270 (Heart Circ. Physiol. 39): H1676–
+H1686, 1996.
+
+20. Fermini, B., Z. Wang, D. Duan, and S. Nattel. Differences in
+the rate dependence of the transient outward current in rabbit
+and human atrium. Am. J. Physiol. 263 (Heart Circ. Physiol. 32):
+H1747–H1754, 1992.
+
+21. Friedman, N. E´ tude d’un nouveau mode`le du myocyte cardiaque
+incorporant une re´gulation du calcium intracellulaire (Master’s
+thesis). Montreal: E´ cole Polytechnique de Montre´al, Universite´
+de Montre´al, 1996.
+
+22. Friedman, N., A. Vinet, and F. A. Roberge. A study of a new
+model of the cardiac ventricular cell incorporating myoplasmic
+calcium regulation. Proc. XXII Comput. Med. Biomed. Eng. Soc.
+Conf. 1996, p. 92–93.
+
+23. Gautier, P., D. Escande, J. P. Bertrand, J. Seguin, and P.
+Guiraudou. Electrophysiological effects of penticainide (CM
+7857) in isolated human atrial and ventricular ﬁbers. J. Cardio-
+vasc. Pharmacol. 13: 328–335, 1989.
+
+24. Gelband, H., H. L. Bush, M. R. Rosen, R. J. Myerburg, and
+B. F. Hoffman. Electrophysiologic properties of isolated prepara-
+tions of human atrial myocardium. Circ. Res. 30: 293–300, 1972.
+25. Giles, W. R., and A. C. G. Van Ginneken. A transient outward
+current in isolated cells from the crista terminalis of rabbit heart.
+J. Physiol. (Lond.) 368: 243–264, 1985.
+
+25a.Guan, S., Q. Lu, and K. Huang. A discussion about the
+
+DiFrancesco-Noble model. J. Theor. Biol. 189: 27–32, 1997.
+
+26. Hatem, S. N., A. Be´nardeau, C. Rucker-Martin, I. Marty, P.
+de Chamisso, M. Villaz, and J. J. Mercadier. Different
+compartments of sarcoplasmic reticulum participate in the exci-
+tation-contraction coupling process in human atrial myocytes.
+Circ. Res. 80: 343–353, 1997.
+
+27. Heath, B. M., and D. A. Terrar. The deactivation kinetics of the
+delayed rectiﬁer components IKr and IKs in guinea-pig isolated
+ventricular myocytes. Exp. Physiol. 81: 605–621, 1996.
+
+28. Hille, B., A. M. Woodhull, and B. I. Shapiro. Negative surface
+charge near the sodium channels of nerve: divalent ions, monova-
+lent ions, and pH. Philos. Trans. R. Soc. Lond. Biol. Sci. 270:
+301–318, 1975.
+
+29. Jeck, C. D., and P. A. Boyden. Age-related appearance of
+outward currents may contribute to developmental differences in
+ventricular repolarization. Circ. Res. 71: 1390–1403, 1992.
+
+30. Koumi, S., C. E. Arentzen, C. L. Backer, and J. A. Wasser-
+strom. Alterations in muscarinic K⫹ channel response to ACh
+and to G protein-mediated activation in atrial myocytes isolated
+from failing human hearts. Circulation 90: 2213–2224, 1994.
+
+31. Koumi, S., C. L. Backer, and C. E. Arentzen. Characteriza-
+tion of inwardly rectifying K⫹ channel in human cardiac myo-
+cytes. Circulation 92: 164–174, 1995.
+
+32. Le Grand, B., S. Hatem, E. Deroubaix, J. P. Couetil, and E.
+Coraboeuf. Depressed transient outward and calcium currents
+in dilated human atria. Cardiovasc. Res. 28: 548–556, 1994.
+
+33. Le Grand, B., J. Y. Le Heuzey, P. Perier, P. Peronneau, T.
+Lavergne, S. Hatem, and L. Guize. Cellular electrophysiologi-
+cal effects of ﬂecainide on human atrial ﬁbres. Cardiovasc. Res.
+24: 232–238, 1990.
+
+34. Lewis, C. S., K. Felix, A. H. Caswell, N. R. Brandt, W. J. Ball,
+P. L. Vaghy, G. Meissner, and D. G. Ferguson. Immunolocal-
+ization of sarcolemmal DHP receptor and SR traidin and ryano-
+dine receptor in rabbit ventricle and atrium. J. Cell Biol. 129:
+673–682, 1995.
+
+HUMAN ATRIAL ACTION POTENTIAL MODEL
+
+H321
+
+35. Li, G. R., and S. Nattel. Properties of human atrial ICa at
+physiological temperatures and relevance to action potential.
+Am. J. Physiol. 272 (Heart Circ. Physiol. 41): H227–H235, 1997.
+36. Lindblad, D. S., C. R. Murphey, J. W. Clark, and W. R. Giles.
+A model of the action potential and underlying membrane
+currents in a rabbit atrial cell. Am. J. Physiol. 271 (Heart Circ.
+Physiol. 40): H1666–H1696, 1996.
+
+37. Luo, C., and Y. Rudy. A dynamic model of the cardiac ventricu-
+
+lar action potential. Circ. Res. 74: 1071–1096, 1994.
+
+38. Nattel, S., M. Courtemanche, and Z. Wang. Functional and
+ionic mechanisms of antiarrhythmic drugs in atrial ﬁbrillation.
+In: Atrial Fibrillation: Mechanisms and Management (2nd ed.),
+edited by R. H. Falk and P. J. Podrid. Philadelphia, PA: Lippincott-
+Raven, 1977, p. 75–90.
+
+39. Ouadid, H., B. Albat, and J. Nargeot. Calcium currents in
+diseased human cardiac cells. J. Cardiovasc. Pharmacol. 25:
+282–291, 1995.
+
+40. Rasmusson, R. L., J. W. Clark, W. R. Giles, E. F. Shibata, and
+D. L. Campbell. A mathematical model of a bullfrog cardiac
+pacemaker cell. Am. J. Physiol. 259 (Heart Circ. Physiol. 28):
+H352–H369, 1990.
+
+41. Roberts, S. L., K. M. Knoth, S. Po, T. A. Blair, P. B. Bennett,
+R. P. Hartshorne, D. J. Snyders, and M. M. Tamkun.
+Molecular biology of the voltage-gated potassium channels of the
+cardiovascular system. J. Cardiovasc. Electrophysiol. 4: 68–80,
+1993.
+
+42. Sakakibara, Y., J. A. Wasserstrom, T. Furukawa, H. Jia, C.
+E. Arentzen, R. S. Hartz, and D. H. Singer. Characterization
+of the sodium current in single human atrial myocytes. Circ. Res.
+71: 535–546, 1992.
+
+43. Salata, J. J., N. K. Jurkiewicz, B. Jow, K. Folander, P. J.
+Guinosso, Jr., B. Raynor, R. Swanson, and B. Fermini. IK of
+rabbit ventricle is composed of two currents: evidence for IKs. Am.
+J. Physiol. 271 (Heart Circ. Physiol. 40): H2477–H2489, 1996.
+
+44. Sanguinetti, M. C., and N. K. Jurkiewicz. Two components of
+cardiac delayed rectiﬁer K⫹ current. J. Gen. Physiol. 96: 195–
+215, 1990.
+
+45. Sanguinetti, M. C., and N. K. Jurkiewicz. Delayed rectiﬁer
+outward K⫹ current is composed of two currents in guinea pig
+atrial cells. Am. J. Physiol. 260 (Heart Circ. Physiol. 29): H393–
+H399, 1991.
+
+46. Schneider, M., T. Proebstle, V. Hombach, A. Hannekum,
+and R. Rudel. Characterization of the sodium currents in
+isolated human cardiocytes. Pﬂu¨ gers Arch. 428: 84–90, 1994.
+
+47. Shibata, E. F., T. Drury, H. Refsum, V. Aldrete, and W. Giles.
+Contributions of a transient outward current to repolarization in
+human atrium. Am. J. Physiol. 257 (Heart Circ. Physiol. 26):
+H1773–H1781, 1989.
+
+48. Snyders, D. J., K. M. Knoth, S. L. Roberts, and M. M.
+Tamkun. Time-, voltage-, and state-dependent block by quini-
+dine of a cloned human cardiac potassium channel. Mol. Pharma-
+col. 41: 322–330, 1992.
+
+49. Sun, H., N. Leblanc, and S. Nattel. Mechanisms of inactiva-
+tion of L-type calcium channels in human atrial myocytes. Am. J.
+Physiol. 272 (Heart Circ. Physiol. 41): H1625–H1635, 1997.
+
+50. Trautwein, W., D. G. Kassebaum, R. M. Nelson, and H. H.
+Hecht. Electrophysiological study of human heart muscle. Circ.
+Res. 10: 306–312, 1962.
+
+50a.Varghese, A., and G. R. Sell. A conservation principle and its
+effect on the formulation of Na-Ca exchanger current in cardiac
+cells. J. Theor. Biol. 189: 33–40, 1997.
+
+51. Van Dam, R. T., and D. Durrer. Excitability and electrical
+activity of human myocardial strips from the left atrial append-
+age in cases of rheumatic mitral stenosis. Circ. Res. 9: 509–514,
+1961.
+
+52. Varro, A., P. P. Nanasi, and D. A. Lathrop. Potassium currents
+in isolated human atrial and ventricular cardiocytes. Acta Physiol.
+Scand. 149: 133–142, 1993.
+
+53. Wang, Z., B. Fermini, and S. Nattel. Sustained depolarization-
+induced outward current in human atrial myocytes: evidence for
+a novel delayed rectiﬁer potassium current similar to Kv1.5
+cloned channel currents. Circ. Res. 73: 1061–1076, 1993.
+
+54. Wang, Z., B. Fermini, and S. Nattel. Delayed rectiﬁer outward
+current and repolarization in human atrial myocytes. Circ. Res.
+73: 276–285, 1993.
+
+55. Wang, Z., B. Fermini, and S. Nattel. Rapid and slow compo-
+nents of delayed rectiﬁer current in human atrial myocytes.
+Cardiovasc. Res. 28: 1540–1546, 1994.
+
+56. Wang, Z., L. C. Pelletier, M. Talajic, and S. Nattel. Effects of
+ﬂecainide and quinidine on human atrial action potentials: role
+of rate-dependence and comparison with guinea pig, rabbit, and
+dog tissues. Circulation 82: 274–283, 1990.
+
+57. Wendt, D. J., C. F. Starmer, and A. O. Grant. Na-channel
+kinetics remain stable during perforated-patch recording. Am. J.
+Physiol. 263 (Cell Physiol. 32): C1234–C1240, 1992.
+
+58. Wier, G. W. Calcium transients during excitation-contraction
+coupling of mammalian heart. In: The Heart and Cardiovascular
+System, edited by H. A. Fozzard. New York: Raven, 1992, p.
+1223–1248.
+
+59. Wilders, R., H. J. Jongsma, and A. O. G. Van Ginneken.
+Pacemaker activity of the rabbit sinoatrial node. A comparison of
+mathematical models. Biophys. J. 60: 1202–1216, 1991.
+
+60. Winslow, R. L., A. Varghese, D. Noble, C. Adlakha, and A.
+Hoythya. Generation and propagation of ectopic beats induced
+by spatially localized Na-K pump inhibition in atrial network
+models. Proc. R. Soc. Lond. B Biol. Sci. 254: 55–61, 1993.
+
+61. Zeng, J., K. R. Laurita, D. S. Rosenbaum, and Y. Rudy. Two
+components of the delayed rectiﬁer K⫹ current in ventricular
+myocytes of the guinea pig type. Circ. Res. 77: 140–152, 1995.
+
+62. Zeng, J., and Y. Rudy. Early afterdepolarizations in cardiac
+myocytes: mechanism and rate dependence. Biophys. J. 68:
+949–964, 1995.
+
+

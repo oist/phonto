@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4789">
+<itemtype>xnppaper</itemtype>
+<titles><title>Single neurones can initiate synchronized population discharge in the hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Guinea Pigs</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Picrotoxin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:54:51Z</last_update_date>
+<creation_date>2011-04-28T04:54:51Z</creation_date>
+<publication_year>1983</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4789</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4789" version="1.02">
+<authors><author>Miles R</author><author>Wong RK</author></authors>
+<journal>Nature</journal>
+<volume>306</volume>
+<number>5941</number>
+<page>371-3</page>
+<abstract>The synchronized firing of neuronal populations is frequently observed in the mammalian central nervous system. The generation of motor activities such as locomotion and respiration requires the simultaneous activation of many neurones and synchronous firing also underlies the cortical alpha rhythm and the hippocampal theta rhythm. However the influence that single neurones may have on such neuronal population discharges is not clear. We have examined this question using small isolated segments of the CA3 region of the guinea pig hippocampus. We report here that in the presence of picrotoxin, a gamma-aminobutyric acid (GABA) antagonist, these segments spontaneously generate synchronized rhythmic bursts comparable with the interictal epileptiform discharges observed in the hippocampus and neocortex in the presence of penicillin. The activation of some individual neurones by intracellular current injection can partially entrain and reset the rhythm. The probability that a synchronized burst will follow stimulation of a single cell increases with time after a spontaneous synchronized discharge, suggesting that each population discharge is followed by a period of relative population refractoriness. A delay of 40-200 ms elapses between the activation of a single neurone and the synchronized discharge. We suggest that during this time activity elicited in one neurone spreads to other neurones through multisynaptic excitatory pathways and leads eventually to the participation of the whole population in a synchronous burst.</abstract>
+<pubmed_id>6316152</pubmed_id>
+</detail>
+</item>

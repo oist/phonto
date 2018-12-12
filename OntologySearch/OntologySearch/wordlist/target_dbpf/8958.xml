@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8958">
+<itemtype>xnppaper</itemtype>
+<titles><title>Synaptic tagging: implications for late maintenance of hippocampal long-term potentiation.</title>
+</titles>
+<contributor uname='admin_KWL2'>Hiroaki Wagatsuma(admin_KWL2)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Biogenic Amines</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Nerve Tissue Proteins</keyword>
+<keyword>biosynthesis</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Wagatsuma Lab, FY2015, saito</description>
+<doi></doi>
+<last_update_date>2015-03-27T10:18:01Z</last_update_date>
+<creation_date>2015-03-27T10:18:01Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8958</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8958" version="1.02">
+<authors><author>Frey U</author><author>Morris RG</author></authors>
+<journal>Trends in neurosciences</journal>
+<volume>21</volume>
+<number>5</number>
+<page>181-8</page>
+<abstract>A novel property of hippocampal LTP, &#039;variable persistence&#039;, has recently been described that is, we argue, relevant to the role of LTP in information storage. Specifically, new results indicate that a particular pattern of synaptic activation can give rise, either to a relatively short-lasting LTP, or to a longer-lasting LTP as a function of the history of activation of the neuron. This has led to the idea that the induction of LTP is associated with the setting of a&#039;synaptic tag&#039; at activated synapses, whose role is to sequester plasticity-related proteins that then serve to stabilize temporary synaptic changes and so extend their persistence. In this article, we outline the synaptic tag hypothesis, compare predictions it makes with those of other theories about the persistence of LTP, and speculate about the cellular identity of the tag. In addition, we outline the requirement for aminergic activation to induce late LTP and consider the functional implications of the synaptic tag hypothesis with respect to long-term memory.</abstract>
+<pubmed_id>9610879</pubmed_id>
+</detail>
+</item>

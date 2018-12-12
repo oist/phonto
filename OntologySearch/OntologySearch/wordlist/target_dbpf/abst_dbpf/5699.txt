@@ -1,0 +1,38 @@
+Action Potentials
+physiology
+Animals
+Behavior
+Animal
+physiology
+Exploratory Behavior
+physiology
+Hippocampus
+cytology
+physiology
+Male
+Maze Learning
+physiology
+Memory
+physiology
+Motor Activity
+physiology
+Movement
+physiology
+Neural Pathways
+cytology
+physiology
+Neuronal Plasticity
+physiology
+Orientation
+physiology
+Pyramidal Cells
+cytology
+physiology
+Rats
+Rats
+Long-Evans
+Reaction Time
+physiology
+Space Perception
+physiology
+To examine how hippocampal neurons respond to a mismatch between retrieved and actual experience, we trained rats to find a hidden platform at a particular location in an annular watermaze and then moved the platform. Several cells that were silent at the new platform location before the move fired vigorously when the rat found the goal. The new activity was paralleled by reduced discharge in a subset of simultaneously recorded interneurons. The pattern of activity returned toward its original configuration as the rat learned the new location. The activation of specific hippocampal neurons following dislocation of a target object may be essential for synaptic plasticity and adaptive modification of the animal's representation of the environment.

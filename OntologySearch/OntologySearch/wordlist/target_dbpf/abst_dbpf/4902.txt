@@ -1,0 +1,29 @@
+Acute Disease
+Amygdala
+physiopathology
+Analysis of Variance
+Animals
+Behavior
+Animal
+Electric Stimulation
+Excitatory Postsynaptic Potentials
+Hippocampus
+physiopathology
+Long-Term Potentiation
+Male
+Neural Pathways
+physiopathology
+Neuronal Plasticity
+Prefrontal Cortex
+physiopathology
+Rats
+Rats
+Sprague-Dawley
+Receptors
+N-Methyl-D-Aspartate
+metabolism
+Stress
+Physiological
+physiopathology
+Theta Rhythm
+In recent years, attention has been given to the interaction between the emotional state of the animal and its ability to learn and remember. Studies into the neural mechanisms underlying these interactions have focused on stress-induced synaptic plasticity impairments in the hippocampus. However, other brain areas, including the amygdala and the prefrontal cortex (PFC), have been implicated in relation to stress-mediated effects on memory. The present study examined whether stress, which impairs hippocampal long-term potentiation (LTP), also affects LTP of the basolateral amygdala (BLA)-PFC pathway in vivo. We first confirmed that the stress protocol we used, i.e., the elevated platform stress, was effective in blocking LTP in the CA1 area of the hippocampus. We then characterized activity and established the ability to induce LTP at the BLA-PFC pathway. Finally, we examined the effects of an exposure to the elevated platform stress on the ability to induce LTP in this pathway. The results indicate that, at the same time when LTP is blocked in the hippocampus, it is also inhibited in the BLA-medial PFC pathway. These results call for a shift from a focused attention on the effects of stress on plasticity in the hippocampus to a system level approach that emphasizes the possible modification of interactions between relevant brain areas after an exposure to a stressful experience.

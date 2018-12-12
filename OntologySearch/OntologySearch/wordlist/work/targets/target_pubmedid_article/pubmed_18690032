@@ -1,0 +1,1178 @@
+This article was downloaded by: [OIST Graduate University]
+On: 29 June 2015, At: 22:10
+Publisher: Taylor & Francis
+Informa Ltd Registered in England and Wales Registered Number: 1072954 Registered office: Mortimer House,
+37-41 Mortimer Street, London W1T 3JH, UK
+
+Channels
+Publication details, including instructions for authors and subscription information:
+http://www.tandfonline.com/loi/kchl20
+Mutational Analysis of Block and Facilitation of HERG
+Current by A Class III Anti-Arrhythmic Agent, Nifekalant
+Yukio Hosaka, Miki Iwata, Narutoshi Kamiya, Mitsuhiko Yamada, Kengo Kinoshita, Yoshifumi
+Fukunishi, Kenji Tsujimae, Hiroshi Hibino, Yoshihusa Aizawa, Atsushi Inanobe, Haruki
+Nakamura & Yoshihisa Kurachi
+Published online: 25 Jul 2007.
+
+To cite this article: Yukio Hosaka, Miki Iwata, Narutoshi Kamiya, Mitsuhiko Yamada, Kengo Kinoshita, Yoshifumi Fukunishi,
+Kenji Tsujimae, Hiroshi Hibino, Yoshihusa Aizawa, Atsushi Inanobe, Haruki Nakamura & Yoshihisa Kurachi (2007) Mutational
+Analysis of Block and Facilitation of HERG Current by A Class III Anti-Arrhythmic Agent, Nifekalant, Channels, 1:3, 198-208,
+DOI: 10.4161/chan.4691
+
+To link to this article:  http://dx.doi.org/10.4161/chan.4691
+
+PLEASE SCROLL DOWN FOR ARTICLE
+
+Taylor & Francis makes every effort to ensure the accuracy of all the information (the “Content”) contained
+in the publications on our platform. However, Taylor & Francis, our agents, and our licensors make no
+representations or warranties whatsoever as to the accuracy, completeness, or suitability for any purpose of the
+Content. Any opinions and views expressed in this publication are the opinions and views of the authors, and
+are not the views of or endorsed by Taylor & Francis. The accuracy of the Content should not be relied upon and
+should be independently verified with primary sources of information. Taylor and Francis shall not be liable for
+any losses, actions, claims, proceedings, demands, costs, expenses, damages, and other liabilities whatsoever
+or howsoever caused arising directly or indirectly in connection with, in relation to or arising out of the use of
+the Content.
+
+This article may be used for research, teaching, and private study purposes. Any substantial or systematic
+reproduction, redistribution, reselling, loan, sub-licensing, systematic supply, or distribution in any
+form to anyone is expressly forbidden. Terms & Conditions of access and use can be found at http://
+www.tandfonline.com/page/terms-and-conditions
+
+[Channels	1:3,	198-208;	May/June	2007];	©2007	Landes	Bioscience
+
+Research Paper  
+Mutational Analysis of Block and Facilitation of HERG Current  
+by A Class III Anti-Arrhythmic Agent, Nifekalant
+
+Yukio Hosaka1,4,†
+Miki Iwata1,†
+Narutoshi Kamiya5
+Mitsuhiko Yamada1,6
+Kengo Kinoshita7,8
+Yoshifumi Fukunishi9
+Kenji Tsujimae1
+Hiroshi Hibino1
+Yoshifusa Aizawa4 
+Atsushi Inanobe1
+Haruki Nakamura2,3
+Yoshihisa Kurachi1,2,*
+
+1Department  of  Pharmacology,  Graduate  School  of  Medicine;  2The  Center 
+for  Advanced  Medical  Engineering  and  Informatics;  3Laboratory  of  Protein 
+Informatics; Institute for Protein Research; Osaka University; Osaka, Japan
+
+4Division of Cardiology; Niigata University Graduate School of Medical and Dental 
+Sciences; Niigata, Japan
+
+5Department of Clinical Genome Informatics; Graduate School of Medicine; Kobe 
+University; Kobe, Japaon
+
+6Department of Molecular Pharmacology; Shinshu University School of Medicine; 
+Nagano, Japan 
+
+7Solution Oriented Research for Science and Technology; Science and Technology 
+Agency;  8Institute of Medical Science; University of Tokyo; Tokyo, Japan
+
+9Biological Information Research Center; National Institute of Advanced Industrial 
+Science and Technology; Tokyo, Japan  
+
+†These authors contributed equally to this work.
+
+*Correspondence  to:  Yoshihisa  Kurachi;  Department  of  Molecular  and  Cellular 
+Pharmacology; Graduate School of Medicine; Osaka University; 2-2 Yamada-Oka, 
+Suita, Osaka 565-0871 Japan; Tel: 81.6.6879.3512; Fax: 81.6.6879.3519; Email: 
+ykurachi@pharma2.med.osaka-u.ac.jp
+
+Original manuscript submitted: 03/06/07
+Revised manuscript submitted: 07/06/07
+Manuscript accepted: 07/06/07
+
+This manuscript was previously published online as a Channels E-publication.
+
+KEY WORDS
+
+anti-arrhythmic	 agent,	 HERG,	 potassium	
+channel,	 nifekalant,	 facilitation,	 docking	
+simulation	
+
+AbSTRAcT
+
+Chemicals and toxins are useful tools to elucidate the structure-function relationship of 
+various proteins including ion channels. The HERG channel is blocked by many compounds 
+and this may cause life-threatening cardiac arrhythmia. Besides block, some chemicals 
+such as the class III anti-arrhythmic agent nifekalant stimulate HERG at low potentials by 
+shifting its activation curve towards hyperpolarizing voltages. This is called “facilitation”. 
+Here, we report mutations and simulations analyzing the association between nifekalant 
+and  channel  pore  residues  for  block  and  facilitation.  Alanine-scanning  mutagenesis 
+was performed in the pore region of HERG. The mutations at the base of the pore helix 
+(T623A), the selectivity filter (V625A) and the S6 helix (G648A, Y652A and F656A) 
+abolished and S624A attenuated both block and facilitation induced by the drug. On 
+the other hand, the mutation of other residues caused either an increase or a decrease 
+in nifekalant-induced facilitation without affecting block. An open-state homology model 
+of the HERG pore suggested that T623, S624, Y652 and F656 faced the central cavity, 
+and were positioned within geometrical range for the drug to be able to interact with 
+all of them at the same time. Of these, S649 was the only polar residue located within 
+possible interaction distance from the drug held in its blocking position. Further mutations 
+and flexible-docking simulations suggest that the size, but not the polarity, of the side 
+chain at S649 is critical for drug induced facilitation.
+
+AbbREvIATIONS
+
+Nifekalant, 
+
+(6-[2-[(N-2-hydroxyethyl)-3-(4-nitrophenyl)propylamino]ethylamino]-1, 
+3-dimethyl-1H,3H-pyrimidine-2,4-dione  monohydrochloride;  APD,  action  potential 
+duration; HERG; human ether‑a‑go‑go-related gene; IKr, the rapidly activating component 
+of the cardiac delayed rectifier K+ current; IKs, the slowly activating component of the 
+cardiac delayed rectifier K+ current; I‑V, current-voltage; Kv channel, voltage-dependent 
+K+ channel; Mes, 2-(N-morpholino) ethanesulfonic acid
+
+INTRODucTION
+
+Numerous	 chemical	 compounds	 and	 toxins	 interact	 with	 and	 modify	 the	 function	
+of	 ion	 channels	 and	 other	 proteins.	 Most	 of	 these	 effects	 rely	 on	 the	 direct	 associa-
+tion	 between	 the	 compounds	 and	 the	 proteins,	 which	 provides	 important	 information	
+concerning	the	relationship	between	the	structure	and	the	function.	A	number	of	class	Ia	
+and	 III	 anti-arrhythmic	 agents,	 anti-histamine	 derivatives	 and	 other	 compounds	 which	
+include	antibiotics	and	tranquilizers,	are	known	to	block	the	rapidly	activating	component	
+of	the	cardiac	delayed	rectifier	K+	current	(IKr),	whose	pore	forming	subunit	is	encoded	
+by	a	human	ether‑a‑go‑go-related	gene	(HERG).1,2	This	block	causes	an	acquired	form	of	
+QT	interval	prolongation	which	can	result	in	fatal	polymorphic	ventricular	tachycardias	
+including	the	torsade de pointes.3,4	Because	of	the	clinical	importance	of	this	phenomenon	
+numerous	 studies	 have	 attempted	 to	 clarify	 the	 mechanism	 of	 drug-induced	 block	 of	
+HERG	and	thus	incidentally	the	structure-function	relationship	of	the	K+	channel.4,5
+
+Many	 class	 III	 anti-arrhythmic	 drugs	 such	 as	 dofetilide	 and	 E-4031,	 are	 specific	
+blockers	 of	 HERG.4	 Although	 nifekalant	 belongs	 to	 the	 same	 drug	 class,	 it	 has	 been	
+reported	to	not	only	block	HERG	but	also	increase	the	channel	current	at	low	voltages.6-8	
+This	“facilitation”	effect	has	also	been	seen	with	other	HERG	blockers	such	as	almokalant9	
+and	azimilide.10	Details	of	the	mechanisms	underlying	the	facilitation	of	HERG	have	not	
+been	clarified.
+
+198	
+
+Channels	
+
+2007;	Vol.	1	Issue	3
+
+©2007 LANDES BIOSCIENCE. DO NOT DISTRIBUTE.Downloaded by [OIST Graduate University] at 22:10 29 June 2015 Drug-Induced	Facilitation	of	HERG	Channel
+
+Figure 1. Facilitation of HERG currents by nifekalant. (A) Chemical structure of nifekalant. (B) The time course of HERG current inhibition by nifekalant and 
+voltage-step induced facilitation. The voltage-clamp protocol is inset: membrane potential was held at -90 mV and stepped to -50 mV for 4 sec and to -80 mV 
+for 1 sec. This combination was repeated every 15 sec. After allowing the current amplitude to reach a steady-state level, a depolarizing pulse to +60 mV 
+for 4 sec and to -80 mV for 1 sec was applied (arrows) in the presence (filled symbols) or absence (open symbols) of 10 mM nifekalant (NF). HERG currents 
+were measured at the end of the depolarizing pulse at -50 mV and normalized to the current amplitude recorded before the first application of the +60 mV 
+prepulse in the absence of nifekalant. (C) Representative current traces elicited by the voltage steps to -50 and -80 mV (inset) before (i, iii) and after the 
++60 mV prepulse (ii, iv) in the absence (i, ii) or presence of nifekalant (iii, iv).
+
+In	 the	 present	 study,	 we	 attempted	 to	 identify	 residues	 in	 the	
+channel	pore	of	HERG	that	are	involved	in	both	the	blocking	and	
+the	facilitation	effects	of	nifekalant.	The	residues	T623,	S624,	Y652	
+and	F656	were	involved	in	nifekalant	block	of	HERG.	Similar	results	
+had	 been	 obtained	 for	 other	 HERG-blockers.11-15	 Mutation	 of	 a	
+number	of	other	residues	either	attenuated	or	enhanced	facilitation	
+without	affecting	block.	Among	them,	S649	was	analyzed	in	detail	
+because	 this	 was	 the	 only	 polar	 residue,	 which	 was	 located	 within	
+range	 for	 interaction	 with	 nifekalant	 when	 the	 drug	 was	 bound	 to	
+T623,	 S624,	 Y652	 and	 F656.	 Mutagenesis	 of	 S649	 to	 bulky	 resi-
+dues	 caused	 a	 significant	 attenuation	 of	 facilitation	 and	 a	 modest	
+reduction	of	block,	which	suggested	that	the	size	of	side	chain	rather	
+than	the	hydroxyl	group	of	the	amino	acid	at	S649	was	important	
+for	 the	 association	 between	 nifekalant	 and	 HERG.	 Simulations	
+supported	the	notion	that	the	drug	could	interact	with	S649	while	
+bound	to	T623,	S624,	Y652	and	F656.	These	results	suggest	that	a	
+strong	membrane	depolarization	induces	a	change	in	the	association	
+between	nifekalant	and	HERG	around	the	S649	side	chain	resulting	
+in	facilitation.
+
+MATERIAlS AND METHODS
+
+Drug.	 Nifekalant	 (Nihon	 Schering)	 stock	 solutions	 (10	 mM)	
+were	prepared	daily	in	distilled	water.	This	stock	was	diluted	to	the	
+
+required	concentration	in	bath	solution	and	the	pH	was	adjusted	to	
+7.6	when	necessary.
+
+Site‑directed  mutagenesis  and  transcription  of  cRNA.	 HERG	
+cDNA	in	pSP64	vector	was	kindly	provided	by	Drs.	M.T.	Keating	
+and	M.C.	Sanguinetti	(University	of	Utah,	Salt	Lake	City,	UT).	Point	
+mutations	 were	 introduced	 using	 the	 QuikChange	 Site-Directed	
+Mutagenesis	 Kit	 (Stratagene)	 according	 to	 the	 manufacturer’s	
+instructions.	Mutation	constructs	were	confirmed	with	direct	DNA	
+sequencing.	The	pSP64	vectors	of	the	wild-type	(WT)	and	mutants	
+of	HERG	were	linearized	with	EcoRI	and	transcribed	in	vitro	with	
+SP6	 RNA	 polymerase	 in	 the	 presence	 of	 m7G(5')ppp(5')G	 RNA	
+capping	analog	(Invitrogen).
+
+Isolation  of  oocytes  and  injection  of  cRNA.	 Frogs	 (Xenopus 
+laevis)	 were	 treated	 in	 accordance	 with	 the	 guidelines	 for	 the	 use	
+of	 laboratory	 animals	 of	 Osaka	 University	 Graduate	 School	 of	
+Medicine.	 Isolation	 and	 maintenance	 of	 the	 oocytes	 and	 injection	
+with	cRNA	were	performed	as	described	previously.16	The	cells	were	
+injected	 with	 5	 ng	 of	 cRNA	 of	 WT	 HERG	 or	 each	 mutant,	 and	
+incubated	 at	 18˚C	 in	 ND96	 solution	 (96	 mM	 NaCl,	 2	 mM	 KCl,		
+1.8	 mM	 CaCl2,	 1	 mM	 MgCl2,	 and	 5	 mM	 HEPES,	 pH	 7.6	 with	
+NaOH)	supplemented	with	50	mg/ml	gentamicin.
+
+Electrophysiological  recording  and  data  analysis.	 Membrane	
+currents	 were	 recorded	 with	 a	 conventional	 two-microelectrode	
+voltage-clamp	technique17	with	a	GeneClamp	500	amplifier	(Axon	
+
+www.landesbioscience.com	
+
+Channels	
+
+199
+
+Downloaded by [OIST Graduate University] at 22:10 29 June 2015 Drug-Induced	Facilitation	of	HERG	Channel
+
+Instruments)	 2–4	 days	 after	 cRNA	 injection.	 All	 experiments	
+were	 conducted	 at	 ambient	 temperature	 (22–24˚C).	 The	 glass	
+microelectrodes	 had	 a	 resistance	 of	 0.6–1.5	 MW	 when	 filled	 with	
+3	 M	 KCl.	 Oocytes	 were	 bathed	 in	 a	 low-Cl-	 solution	 (96	 mM	
+Na-2-(N-morpholino)	 ethanesulfonic	 acid	 (NaMes),	 2	 mM	 KMes,	
+2	 mM	 CaCl2,	 1	 mM	 MgCl2	 and	 5	 mM	 HEPES,	 pH	 7.6	 with	
+methane	 sulfonic	 acid)	 to	 minimize	 interference	 from	 endogenous	
+
+Cl-	 currents.	 In	 some	 experiments	 KMes	 was	 increased	 to	 96	 mM	
+by	replacing	NaMes.	Voltage	clamp	protocols	are	described	in	each	
+figure	legend.
+
+During	 recording,	 20	 ms	 prepulses	 from	 -80	 to	 -100	 mV	 were	
+applied	to	estimate	the	leak	current	level.	Data	analysis	was	mainly	
+carried	 out	 using	 Clampfit	 software	 (Axon	 Instruments).	 Data	 are	
+presented	as	mean	±	s.e.m.	(n	=	number	of	observations).	Statistical	
+
+200	
+
+Channels	
+
+2007;	Vol.	1	Issue	3
+
+Downloaded by [OIST Graduate University] at 22:10 29 June 2015 Drug-Induced	Facilitation	of	HERG	Channel
+
+Figure 2 (page e3). The effects of nifekalant on HERG currents. (A) The effect of nifekalant on the current-voltage relationship of HERG. The voltage protocol is 
+shown in the top panel. Membrane potential was held at -90 mV. The preconditioning prepulse was to -70 mV for 4 sec and to -80 mV for 1 sec and repeated 
+with an interval of 15 sec until the steady-state was achieved. To elicit the current-voltage (I-V) relationship the membrane potential was depolarized from -70 
+to +40 mV in 10 mV increments for 4 sec each and followed by 1 sec at -80 mV. Facilitation was elicited by a preconditioning prepulse to +60 mV rather 
+than to -70 mV before each I-V test pulse. Typical HERG current traces evoked by the I-V protocol are shown recorded in the absence (left panel), and the 
+presence of 10 mM nifekalant (NF) without (middle panel) or with the prepulse (right panel). (B) I-V relationship for steady-state currents. HERG currents were 
+measured at the end of the 4 sec test pulse. Current amplitudes were normalized to that recorded at -10 mV in the absence of nifekalant. (C) I-V relationship 
+for tail currents. HERG channel currents were measured at the peak during the repolarizing pulse to -80 mV. Currents amplitudes were normalized to that 
+recorded following a voltage step to +40 mV in the absence of nifekalant. (D) Activation curves of HERG tail currents and the ratio of steady-state current 
+to tail current. Tail current amplitude was normalized to the maximum current recorded under each condition, and the values were fit with the Boltzmann 
+function. The V1/2 values were: control, -26.0 ± 0.8 mV (open circles); 11 mM nifekalant, -28.1 ± 1.5 mV (open squares); 11 mM nifekalant with the strong 
+depolarizing prepulse, -44.3 ± 2.3 mV (open triangles). The conventional analysis for C-type inactivation was carried out by dividing step pulse end currents 
+(B) by tail peak currents (C) in the absence of nifekalant (gray circles), and in the presence of drug with or without the strong depolarizing prepulse (gray 
+squares and triangles, respectively). (E) Voltage-dependent block of HERG channel current by nifekalant. Fractional block of tail currents measured without 
+the strong depolarizing prepulse was plotted against the membrane potentials of the test pulse. Symbols with error bars represent mean ± s.e.m. (n = 5).
+
+analyses	 were	 performed	 using	 paired	 or	 unpaired	 t-tests,	 with	
+p	<	0.05	being	considered	significant.
+
+Molecular  modeling  and  drug‑docking  simulations.	 An	 open	
+channel	 conformation	 of	 a	 HERG	 pore	 region	 was	 generated	 with	
+the	 homology	 modeling	 technique	 MODELER	 618	 using	 the	
+crystal	 structure	 of	 the	 bacterial	 voltage-dependent	 K+	 channel	
+KvAP	 as	 a	 template.19	The	 HERG	 pore	 region	 (between	 positions	
+548	 and	 673)	 had	 24%	 amino	 acid	 identity	 and	 36%	 homology	
+with	 the	 corresponding	 region	 of	 KvAP.	 The	 sequence	 alignment	
+of	 KcsA,	 KvAP	 and	 HERG	 was	 used	 as	 the	 initial	 condition	 to	
+increase	 the	 accuracy	 of	 homology	 modeling.	The	 ligand	 molecule	
+was	prepared	in	Sybyl	mol2	file	format.	The	atomic	charges	of	the	
+ligand	 were	 determined	 by	 the	 restricted	 electrostatic	 point	 charge	
+procedure	using	HF/6-31G*-level	quantum	chemical	calculations.20	
+GAMESS21	 and	 Gaussian98	 (revision	 A.9;	 Gaussian)	 were	 used	 to	
+perform	 the	 quantum	 chemical	 calculations.	 The	 atomic	 charges	
+for	 the	 proteins	 were	 the	 same	 as	 the	 atomic	 charges	 in	 AMBER	
+parm99.20	Protein-compound	docking	simulations	were	performed	
+by	Sievgene,	which	is	a	protein-ligand	flexible	docking	program	for	
+in	silico	drug	screening.22
+
+RESulTS
+
+Facilitation of HERG channel currents by nifekalant.	Nifekalant	
+is	 a	 class	 III	 anti-arrhythmic	 agent	 which	 blocks	 and	 facilitates	
+HERG	 current	 (Fig.	 1A).6-8	 A	 strong	 depolarizing	 voltage	 step	 is	
+needed	to	induce	drug-associated	facilitation	of	HERG	current.9,10	
+In	Figures	1B	and	C,	the	effect	of	a	depolarizing	prepulse	to	+60	mV	
+on	 the	 HERG	 current	 was	 compared	 in	 the	 absence	 and	 	presence	
+of	 nifekalant.	 The	 holding	 potential	 was	 -90	 mV.	 A	 test	 pulse	 to	
+-50	mV	for	4	sec	followed	by	a	voltage	step	to	-80	mV	for	1	sec	was	
+applied	every	15	sec	(top	panels	in	Fig.	1B	and	C).	The	amplitude	
+of	the	HERG	current	was	measured	at	the	end	of	the	test	pulse.	In	
+the	 absence	 of	 the	 drug,	 the	 HERG	 current	 was	 not	 significantly	
+affected	by	a	prepulse	(4	sec	in	duration)	to	+60	mV	(Fig.	1B	and	C,	
+i	and	ii).	When	10	mM	nifekalant	was	added	to	the	bath	solution,	
+the	amplitude	of	HERG	current	gradually	declined	to	56.1	±	8.7%	
+(n	 =	 4)	 of	 the	 control.	 When	 the	 current	 reached	 a	 steady-state	
+level,	 the	 depolarizing	 prepulse	 was	 applied	 again	 and	 this	 caused	
+a	 clear	 increase	 in	 the	 current	 evoked	 by	 subsequent	 test	 pulses	
+(Fig.	1B	and	C,	iii	and	iv).	This	is	the	phenomenon	which	has	been	
+named	 “facilitation”	 by	 Carmeliet9	 and	 Jiang	 et	 al.10	 In	 the	 pres-
+ence	of	nifekalant	the	amplitude	of	the	current	elicited	by	the	first	
+test	voltage	step	after	the	depolarizing	prepulse	was	261.4	±	19.4%	
+
+(n	=	4)	of	that	recorded	in	control	conditions	(Fig.	1B	and	C).	The	
+facilitated	current	then	gradually	declined	to	a	steady-state	level	over	
+5	 min	 (Fig.	 1B).	 The	 depolarizing	 prepulse-evoked	 facilitation	 of	
+HERG	current	was	not	observed	in	the	presence	of	either	E-4031	
+(0.3~3	 mM)	 or	 dofetilide	 (01.~0.3	 mM)	 (data	 not	 shown).	 Thus,	
+facilitation	appeared	to	be	an	action	that	is	unique	for	the	subset	of	
+HERG	blockers	which	includes	nifekalant.
+
+Current‑voltage relationships of blocked and facilitated HERG 
+currents.	To	further	characterize	facilitation,	we	analyzed	the	effect	
+of	 a	 depolarizing	 prepulse	 on	 the	 current-voltage	 (I‑V)	 relation-
+ship	 of	 the	 HERG	 channel	 in	 the	 presence	 of	 nifekalant.	 The	
+voltage	clamp	protocols	are	shown	at	the	top	of	Figure	2A.	The	I-V	
+	relationship	corresponding	to	facilitation	was	obtained	by	applying	
+a	 prepulse	 to	 +60	 mV	 (4	 sec	 in	 duration)	 before	 each	 test	 pulse	
+(Fig.	2A,	right	panel).
+
+The	 I‑V	 relationships	 of	 HERG	 current	 recorded	 at	 the	 end	 of	
+4	sec	test	pulses	are	shown	in	Figure	2B.	Under	control	conditions,	
+the	 current	 was	 activated	 at	 potentials	 more	 positive	 than	 -60	 mV	
+and	increased	until	-10	mV.	The	current	amplitude	then	decreased	
+with	 the	 development	 of	 C-type	 inactivation.23	 In	 the	 presence	 of	
+nifekalant,	HERG	current	amplitude	was	reduced	at	every	potential	
+with	a	slightly	negative	shift	of	the	peak.	The	prepulse	to	+60	mV	
+was	associated	with	an	increase	in	the	HERG	current	amplitude	at	
+potentials	more	negative	than	-20	mV.	At	potentials	between	-60	and	
+-40	mV,	the	facilitated	current	in	the	presence	of	nifekalant	was	not	
+only	larger	than	that	recorded	in	nifekalant	without	a	prepulse	but	
+it	was	also	larger	than	that	recorded	under	control	conditions.	In	the	
+presence	of	the	drug,	the	amplitudes	of	peak	tail	currents	were	also	
+increased	by	the	prepulse	(Fig.	2C).
+
+Figure	 2D	 shows	 normalized	 tail	 current	 amplitude	 recorded	
+in	 three	 different	 conditions,	 i.e.,	 control,	 and	 in	 the	 presence	 of	
+nifekalant	 with	 or	 without	 a	 depolarizing	 prepulse.	 While	 without	
+the	prepulse	the	activation	curve	of	nifekalant	blocked	current	was	
+almost	the	same	as	that	of	control,	the	curve	with	the	prepulse	was	
+significantly	shifted	to	the	left	(p	<	0.001).	Figure	2E	shows	the	frac-
+tion	of	HERG	current	blocked	by	10	mM	nifekalant	at	each	potential	
+without	facilitation.	Nifekalant	blocked	the	channel	in	an	apparently	
+voltage-independent	manner.
+
+Two	 possible	 explanations	 for	 nifekalant	 inducing	 facilitation	
+of	 HERG	 current	 are	 the	 reduction	 of	 C-type	 inactivation	 and	
+the	 modulation	 of	 the	 activation	 gating	 process.	The	 conventional	
+analysis	for	C-type	inactivation	consists	of	dividing	currents	recorded	
+at	the	end	of	a	voltage	step	by	the	peak	of	the	tail	currents.	Figure	2D	
+shows	 that	 there	 was	 no	 difference	 in	 the	 voltage	 dependency	 of	
+
+www.landesbioscience.com	
+
+Channels	
+
+201
+
+Downloaded by [OIST Graduate University] at 22:10 29 June 2015 Drug-Induced	Facilitation	of	HERG	Channel
+
+Table 1  Biophysical parameters of WT and mutant HERG  
+ 
+
+channels for their activation
+
+HERG channel 
+WT 
+I647A 
+Y652A 
+S654A 
+F656A 
+S660A 
+I663A 
+Y667A 
+
+V1/2 ± s.e.m. (mv) 
+
+-25.5 ± 0.6 
+-27.1 ± 0.7 
+-27.3 ± 1.0 
+-27.6 ± 2.3 
+-36.4 ± 1.0 
+-27.9 ± 0.3 
+-20.7 ± 1.7 
+-27.5 ± 0.8 
+
+S624A 
+S624T 
+S624N 
+
+S649A 
+S649T 
+S649V * 
+S649I * 
+S649L * 
+
+-30.5 ± 1.0 
+-23.2 ± 0.6 
+-16.0 ± 1.3 
+
+-29.7 ± 0.6 
+-20.3 ± 2.2 
+-21.2 ± 1.6 
+-25.6 ± 2.0 
+-23.0 ± 0.3 
+
+k ± s.e.m. (mv) 
+
+7.2 ± 0.6 
+7.7 ± 0.3 
+6.8 ± 0.4 
+7.8 ± 0.2 
+6.6 ± 0.4 
+7.5 ± 0.1 
+6.8 ± 0.5 
+8.0 ± 0.5 
+
+7.4 ± 0.1 
+7.3 ± 0.2 
+6.4 ± 0.1 
+
+7.3 ± 0.1 
+5.7 ± 0.2 
+6.4 ± 0.4 
+5.8 ± 0.1 
+5.7 ± 0.2 
+
+n
+6
+4
+4
+4
+3
+6
+4
+4
+
+6
+3
+3
+
+5
+4
+3
+3
+3
+
+V1/2, potential of half-maximal activation; k, slope of the activation curve; n, number of oocytes. Tail peak 
+currents were recorded after repolarization to -80 mV followed by the voltage steps (4 sec) between -90 to 
++40 mV. *The current response of three mutants was measured at the peak during the repolarizing pulse 
+to -50 mV.
+
+C-type	inactivation	of	blocked	HERG	currents	in	the	absence	or	the	
+presence	 of	 facilitation.	To	 confirm	 this,	 C-type	 inactivation	 using	
+the	fully	activated	I‑V	relationship	of	HERG	was	examined	(data	not	
+shown,	ref.	45).	The	voltage	dependence	of	C-type	inactivation	in	the	
+presence	of	nifekalant	was	shifted	by	~5	mV	compared	to	control,	
+which	is	consistent	with	a	previous	report.8	This	change	in	kinetics	
+could	 enhance	 current	 block,	 but	 does	 not	 increase	 the	 current	 at	
+low	voltages.	Therefore,	the	reduction	of	C-type	inactivation	seems	
+unlikely	 and	 there	 remains	 the	 possibility	 that	 nifekalant	 causes		
+facilitation	by	affecting	the	activation	gating	process	of	HERG.
+
+Effects  of  alanine‑scanning  mutagenesis  on  nifekalant‑HERG 
+interaction.	To	determine	which	residues	in	the	HERG	channel	were	
+involved	in	block	and	facilitation	by	nifekalant,	we	replaced	each	of	
+the	residues	from	the	pore	helix	to	the	selectivity	filter	(L622-V625)	
+and	 in	 the	 S6	 helix	 (L646-Y667)	 with	 alanine,	 and	 examined	 the	
+effect	 of	 nifekalant	 on	 the	 mutants.	 Biophysical	 parameters	 of	 the	
+activation	 of	 the	 important	 mutants	 are	 summarized	 in	 Table	 1.	
+Most	 of	 the	 mutants	 retained	 properties	 comparable	 to	 those	 of	
+the	 wild-type	 (WT).	 The	 half-activation	 voltage	 (V1/2)	 remained	
+within	10	mV	of	the	WT	value,	and	the	slope	factor	(k)	value	was	
+largely	 not	 altered.	 The	 concentration	 of	 nifekalant	 required	 for	
+half-maximal	inhibition	of	WT-HERG	at	0	mV	was	1.7	mM	with	a	
+Hill	coefficient	of	0.99.	We	therefore	used	11	mM	nifekalant,	which	
+caused	85%	inhibition	of	the	WT-HERG	current	to	characterize	the	
+reactions	of	the	mutants	to	the	drug.	Because	T623A-,	V625A-	and	
+G648A-HERG	mutants	showed	low	expression,	we	measured	their	
+currents	with	96	mM	potassium	extracellular	solution.11
+
+Inhibition	of	the	HERG	current	was	assessed	by	the	voltage	clamp	
+protocol	illustrated	at	the	top	of	Figure	3A.	The	current	amplitude	
+
+was	 measured	 at	 the	 end	 of	 the	 test	 pulse	 to	 0	 mV	 (Fig.	 3A,	 left	
+panel).	Nifekalant	reduced	the	magnitude	of	most	mutant	channels	
+to	a	similar	extent	as	WT-HERG	(Fig.	3Ba,	left	panel).	A	mutation	
+located	 at	 the	 end	 of	 the	 pore	 helix	 (T623A),	 a	 mutation	 in	 the	
+selectivity	filter	(V625A)	and	three	in	the	S6	helix	(G648A,	Y652A,	
+and	F656A)	almost	abolished	the	blocking	effect	of	nifekalant.	These	
+mutations	also	reduce	the	block	of	HERG	by	MK-499,	dofetilide,	
+E-4031,	clofilium	and	ibutilide,	as	well	as	analogs	of	clofilium	and	
+ibutilide.11-13,15	 The	 mutant	 V625A	 reduced	 K+	 selectivity.11,12	
+Thus,	 the	 side	 chain	 of	 V625	 may	 be	 crucial	 for	 maintaining	 the	
+structure	 of	 the	 selectivity	 filter	 and	 V625A	 might	 alter	 the	 inner	
+surface	 of	 the	 central	 cavity	 which	 would	 indirectly	 reduce	 the	
+affinity	for	nifekalant.	G648	is	conserved	in	all	voltage-dependent	K+	
+(Kv)	channels	and	it	is	thought	to	function	as	a	hinge	for	bending	of	
+the	S6	helix	and	channel	gating.19	The	homology	model	of	HERG	
+(Fig.	4A)	suggests	that	G648	is	not	exposed	to	the	pore	and	therefore	
+the	effect	of	mutation	of	G648	on	the	affinity	to	nifekalant	is	also	
+due	to	an	indirect	action.	It	is	reported	that	polar	or	electronegative	
+para-substituents	 on	 the	 phenyl	 ring	 of	 clofilium	 and	 its	 analogs		
+associate	 with	 the	 polar	 groups	 of	 S624	 and	 T623.13	 Nifekalant	
+possesses	 a	 para-nitrophenyl	 group	 at	 one	 end	 of	 the	 molecule		
+(Fig.	 1A)	 and	 the	 S624A	 mutant	 showed	 less	 block	 (Fig.	 3B),		
+indicating	 that	 S624	 contributes	 to	 nifekalant	 block	 of	 HERG.	
+Taken	together,	four	residues	T623,	S624,	Y652	and	F656,	seemed	
+to	be	involved	in	the	binding	of	nifekalant	to	induce	channel	current	
+block,	as	proposed	for	other	HERG-blockers.11-13,15
+
+Next,	 the	 facilitation	 effect	 of	 nifekalant	 was	 examined	 in	 these	
+mutants.	 After	 having	 reached	 a	 stable	 state	 in	 the	 presence	 of	
+nifekalant,	one	prepulse	to	+60	mV	was	applied.	The	amplitudes	of	
+HERG	current	at	the	end	of	the	step	to	-50	mV	just	before	(Pre)	and	
+after	(Post)	the	prepulse	(Ipre	and	Ipost,	respectively)	were	compared		
+(Fig.	3A,	right	panel).	Facilitation	was	assessed	as	the	ratio	of	Ipost/
+Ipre	 (Fig.	 3Ba,	 right	 panel).	 The	 Ipost/Ipre	 value	 for	 WT-HERG	 in	
+the	 presence	 of	 nifekalant	 (10	 mM)	 was	 4.4	 ±	 0.37	 (n  =	 4).	 The	
+mutants	(T623A,	V625A,	G648A,	Y652A,	and	F656A),	which	were	
+not	blocked	by	the	drug,	did	not	show	any	facilitation.	The	mutant	
+S624A,	 which	 showed	 attenuated	 block,	 exhibited	 less	 facilitation	
+than	 WT.	 Of	 the	 other	 mutants	 which	 were	 blocked	 more	 or	 less	
+than	WT-HERG,	some	of	them	showed	greater	facilitation	than	WT,	
+while	others	showed	less	(Fig.	3Ba).	The	V1/2	values	for	the	activa-
+tion	curve	measured	in	each	mutant	suggested	that	these	alterations	
+in	facilitation	were	not	due	to	the	shift	of	the	activation	curve	in	the	
+absence	of	the	drug.
+
+To	 confirm	 this,	 we	 further	 analyzed	 the	 facilitation	 effect	 of	
+nifekalant	in	all	of	the	mutants	listed	in	Table	1	with	a	voltage	ramp	
+protocol	(data	not	shown,	but	see	Fig.	4B).	The	membrane	potential	
+was	held	at	-90	mV	and	a	voltage	ramp	from	-70	to	0	mV	(10	sec	in	
+duration)	was	applied	every	35	sec.	To	induce	facilitation,	a	voltage	
+pulse	 to	 +60	 mV	 for	 4	 sec	 was	 applied	 10	 sec	 prior	 to	 the	 ramp.	
+Thus,	we	could	distinguish	whether	the	facilitation	was	due	to	the	
+drug	effect	or	the	alteration	of	an	intrinsic	biophysical	property	of	the	
+HERG	mutants.	With	the	ramp	protocol,	the	facilitation	of	HERG	
+currents	 could	 be	 clearly	 measured	 at	 potentials	 between	 -60	 and	
+-30	mV	(WT	in	Fig.	4B).	All	of	the	mutants	that	showed	a	facilita-
+tion	response	to	the	step-pulse	protocol	(Fig.	3Ba)	clearly	exhibited	
+a	left-ward	shift	of	activation	during	the	ramp	which	resulted	in	an	
+increase	in	the	current	amplitude	at	-50	mV.	Therefore,	drug-induced	
+facilitation	was	due	to	the	consequence	of	drug-channel	interaction	
+
+202	
+
+Channels	
+
+2007;	Vol.	1	Issue	3
+
+Downloaded by [OIST Graduate University] at 22:10 29 June 2015 Drug-Induced	Facilitation	of	HERG	Channel
+
+Figure 3. Effects of nifekalant on mutant HERG channel currents. (A) Block (left column) and facilitation (right column) in current traces obtained from wild 
+type (WT), S649A and F656A mutants. Left column: the currents were elicited by test pulses to 0 mV for 5 sec and then to -80 mV for 0.5 sec from a holding 
+potential of -90 mV in either the absence (Cont) or the presence of nifekalant (Drug). Right column: in the presence of nifekalant, the currents were elicited 
+by test pulses to -50 mV for 4 sec and then to -80 mV for 1 sec from a holding potential of -90 mV, before (Pre) and after a single depolarizing pulse to 
++60 mV (Post). (Ba) The effects of alanine substitution screening upon block and facilitation of HERG currents by nifekalant. Normalized block (Idrug/Icont) 
+was calculated by dividing the current amplitude recorded after the application of nifekalant by the current recorded under control conditions. Normalized 
+facilitation (Ipost/Ipre) was calculated by dividing the current amplitude recorded following the strongly depolarizing prepulse by the current recorded before 
+the prepulse (n = 4-6 for each, error bars; ± s.e.m.). N.T.; not tested, N.E.; channels that lacked functional expression. (Bb) The relationship between block 
+and facilitation by nifekalant in HERG channel mutants. The normalized facilitation is plotted against the normalized block for each mutant. Mutants could 
+be classified into three groups as follows: (i), mutants showing neither block nor facilitation (squares); (ii), mutants showing the same degree of block as 
+WT but stronger facilitation than WT (triangles); (iii), mutants showing the same degree of block as WT but weaker facilitation than WT (circles). Symbols 
+as in Ba.
+
+and	not	due	to	an	alteration	of	the	intrinsic	biophysical	properties	
+of	the	mutants.	Because	facilitation	of	current	is	due	to	a	left-ward	
+shift	of	the	HERG	activation	curve,	any	step	between	drug-channel	
+interaction	 and	 activation	 gating	 can	 influence	 the	 phenomenon.	
+Therefore	it	is	not	unexpected	that	most	of	the	amino	acids	in	the	
+HERG	pore	are	somehow	involved	in	the	induction	of	facilitation.
+
+Figure	3Bb	summarizes	the	relationship	between	block	and	facili-
+tation	by	nifekalant	for	WT	and	the	mutants.	The	mutants	could	be	
+classified	 into	 three	 groups:	 (i)	 a	 group	 showing	 neither	 block	 nor	
+facilitation;	 (ii)	 a	 group	 showing	 block	 equivalent	 to	 WT-HERG	
+but	 larger	 facilitation	 than	 WT;	 and	 (iii)	 a	 group	 showing	 block	
+equivalent	to	WT-HERG	but	less	facilitation	than	WT.	These	results	
+suggest	that	the	extent	of	facilitation	did	not	correlate	with	that	of	
+
+channel	 block	 but	 because	 drug	 binding	 leads	 to	 block,	 binding	
+would	seem	to	be	a	prerequisite	for	facilitation.
+
+Modeling and further mutational analysis of nifekalant‑induced 
+block  and  facilitation.	 Nifekalant	 is	 known	 to	 associate	 with	 the	
+channel	 when	 HERG	 is	 in	 the	 open	 state	 conformation	 (Fig.	 2	
+and	 ref.	 8)	 and	 the	 crystal	 structure	 of	 the	 bacterial	 Kv	 channel,	
+KvAP,	possesses	an	open	pore.19	Because	the	HERG	and	KvAP	pore	
+regions	have	a	similar	amino	acid	sequence	we	generated	a	homology	
+model	for	the	open	conformation	of	the	HERG	pore	based	on	the	
+KvAP	 structure	 (Fig.	 4A).	 But	 the	 HERG	 channel	 exhibits	 very	
+rapid	and	strong	C-type	inactivation	compared	with	other	types	of	
+voltage-dependent	K+	channels	and	mutation	of	amino	acid	residues	
+surrounding	the	selectivity	filter	eliminates	C-type	inactivation.4	This	
+
+www.landesbioscience.com	
+
+Channels	
+
+203
+
+Downloaded by [OIST Graduate University] at 22:10 29 June 2015 Drug-Induced	Facilitation	of	HERG	Channel
+
+Figure 4. The involvement of S649 in nifekalant and HERG channel facilitation. (A) Homology model of the pore region of the HERG channel. A model of 
+the open channel conformation of HERG was based on the crystal structure of the KvAP channel (PDB ID: 1ORQ). Two subunits have been omitted from the 
+front and the back for clarity. Side chains of amino acids crucial for drug block and facilitation of HERG current are represented as stick models. Side chains 
+of residues presumably involved in the direct association with nifekalant are shown with spheres. Carbon and oxygen atoms are colored yellow and red, 
+respectively. (B) Representative currents from HERG channels mutated at S649. A voltage ramp protocol from -70 to 0 mV was applied to test HERG mutants 
+S649A, S649T, S649V, S649I and S649L for nifekalant-induced block (green) and facilitation (red). These currents were superimposed onto that recorded 
+in the absence of nifekalant (black). Dashed lines indicate zero current level. (C) The effects of nifekalant on block and facilitation of currents from HERG 
+channels mutated at S624 and S649. The effects of nifekalant-induced block (left panel) and facilitation (right panel) in HERG mutants were evaluated as 
+described in (Fig. 3B). (D) The relationship between block and facilitation by nifekalant in HERG mutants. The facilitation factor is plotted against the ratio 
+of current block for each mutation of S624 (a) and S649 (b). Symbols as in C (n = 3–6 for each, mean ± s.e.m.).
+
+places	a	clear	limitation	upon	the	use	of	an	homology	model	based	
+on	KvAP.	However,	because	C-type	inactivation	was	not	affected	by	
+nifekalant	(Fig.	2)	the	homology	model	should	provide	some	useful	
+information	on	the	interaction	between	the	HERG	channel	and	the	
+drug.	The	model	showed	that	the	side	chains	of	amino	acids	T623,	
+S624,	Y652	 and	 F656	 are	 exposed	 to	 the	 central	 cavity.	This	 is	 in	
+agreement	with	the	mutational	analysis	that	suggests	that	these	resi-
+dues	were	responsible	for	the	binding	of	nifekalant	to	HERG	(Fig.	3).	
+These	residues	therefore	contribute	to	the	direct	association	between	
+nifekalant	and	HERG.
+
+At	the	present	time,	T623/S624,	Y652	and	F656	are	thought	to	
+interact	with	respectively	polar,	ionized	and	hydrophobic	regions	of	
+HERG	 blockers.4,14,24	 According	 to	 pharmacophore	 analysis,25,26	
+
+the	 distance	 between	 ionized	 and	 hydrophobic	 regions	 in	 different	
+HERG	blockers	ranges	from	5.2	Å	to	9.1	Å.	On	the	other	hand,	the	
+model	showed	that	the	center	of	the	aromatic	ring	of	Y652	was	about	
+8	Å	distant	from	that	of	F656.	This	may	imply	that	if	the	drug	inter-
+acts	with	Y652,	it	cannot	extend	beyond	the	side	chain	of	F656	to	
+the	cytoplasmic	side.	Therefore,	the	drug	should	interact	with	amino	
+acid	residues	located	around	the	central	cavity	of	HERG.
+
+Because	drug	binding	is	a	prerequisite	for	facilitation,	the	position	
+of	the	drug	in	the	channel	pore	cavity	causing	facilitation	should	be	
+confined	to	within	the	limits	that	are	required	for	binding.	Mutation	
+of	the	distal	S6	helix	near	the	cytoplasmic	side	of	the	channel	exhib-
+ited	 different	 magnitudes	 of	 facilitation,	 while	 maintaining	 WT	
+block.	The	 mutants	 G657A,	 N658A,	 V659A,	 and	 L666A	 showed	
+
+204	
+
+Channels	
+
+2007;	Vol.	1	Issue	3
+
+Downloaded by [OIST Graduate University] at 22:10 29 June 2015 Drug-Induced	Facilitation	of	HERG	Channel
+
+little	facilitation,	while	S660A,	I663A,	Q664A,	R665A	and	Y667A	
+exhibited	 greater	 facilitation	 than	 WT	 (Fig.	 3B).	 Because	 these	
+residues	are	predicted	to	be	located	physically	too	far	from	the	drug	
+which	is	restricted	to	its	binding	site,	they	may	not	directly	interact	
+with	the	drug	but	participate	indirectly	in	drug-induced	facilitation.
+Because	nifekalant	binding	is	a	prerequisite	for	facilitation,	there	
+may	be	overlap	between	the	interactions	between	the	channel	pore	
+residues	 and	 nifekalant	 that	 cause	 block	 and	 facilitation.	 But	 there	
+may	 also	 be	 a	 specific	 interaction	 associated	 with	 facilitation.	This	
+interaction	 for	 facilitation	 requires	 a	 strongly	 depolarizing	 prepulse	
+in	 the	 presence	 of	 the	 drug.	 Upon	 strong	 depolarization,	 the	 basic	
+nitrogen	at	the	center	of	nifekalant	may	shift	in	the	outward	direc-
+tion.	 Within	 the	 restriction	 that	 block	 requires	T623,	 S624,	 Y652	
+and	F656,	S649	is	the	only	polar	amino	acid	residue	within	range	of	
+the	drug	size.	The	hydroxyl	group	of	S649	is	3.9	Å	to	6.6	Å	distant	
+from	the	side	chains	of	T623,	S624,	Y652	and	F656.25,26	Therefore,	
+while	the	alanine	substitution	at	S649	did	not	have	a	significant	effect	
+on	facilitation	(Fig.	3),	from	a	geometrical	standpoint	this	amino	acid	
+might	be	a	key	residue	for	nifekalant’s	induction	of	facilitation.	To	
+test	this	hypothesis,	we	examined	the	effects	of	various	mutations	of	
+S649	 on	 nifekalant-induced	 block	 and	 facilitation,	 and	 compared	
+them	with	mutations	of	S624,	which	contributes	to	the	binding	of	
+nifekalant	for	block.
+
+Amino	acid	substitutions	at	both	S649	and	S624	did	not	cause	a	
+dramatic	 alteration	 in	 the	 voltage	 dependence	 of	 HERG	 activation	
+(Table	1).	Nevertheless,	we	applied	ramp	pulses	to	assess	drug-induced	
+facilitation	(Fig.	4B).	Currents	were	recorded	during	the	continuous	
+change	 in	 voltage	 from	 -70–0	 mV	 in	 the	 absence	 of	 drug	 (black	
+lines),	and	in	the	presence	of	the	drug	with	or	without	a	depolarizing	
+prepulse	 (red	 or	 green	 lines).	 Nifekalant	 reduced	 the	 WT-HERG	
+current	at	potentials	more	positive	than	-40	mV,	while	the	drug	obvi-
+ously	 increased	 the	 current	 amplitude	 at	 potentials	 between	 -60	 to	
+-30	mV	when	a	prepulse	to	+60	mV	had	been	applied.	The	currents	
+of	 S649A	 and	 S649T	 mutants	 were	 blocked	 by	 nifekalant	 to	 the	
+same	extent	as	WT-HERG,	while	the	currents	of	S649V,	S649I	and	
+S649L	were	much	less	reduced.	While	the	drug-induced	facilitation	
+was	nearly	the	same	as	WT	in	the	S649A	mutant,	it	was	negligible	
+in	 the	 mutants	 S649T,	 S649V,	 S649I	 and	 S649L.	 These	 results	
+strongly	suggested	that	different	mutations	at	S649	yielded	different	
+	sensitivities	to	nifekalant,	leading	to	block	and	facilitation.
+
+To	 quantitatively	 analyze	 the	 effect	 of	 mutations	 on	 nifekalant-	
+induced	block	and	facilitation,	voltage	steps	to	0	mV	and	-50	mV	
+were	 applied	 for	 the	 assessment	 of	 block	 and	 facilitation	 effects	 of	
+the	drug,	respectively	(Fig.	4C).	For	comparison,	we	analyzed	various	
+mutants	at	S624	and	S629.
+
+Substitutions	 of	 S624	 to	 alanine	 or	 threonine	 caused	 moderate	
+reductions	in	block	and	facilitation	due	to	nifekalant	(Figs.	3	and	4B	
+and	4C).	Even	though	asparagine	has	a	volume	similar	to	threonine,	
+the	 S624N	 mutant	 was	 completely	 insensitive	 to	 the	 drug.	 These	
+results	indicate	that	not	only	the	size	of	the	S624	side	chain,	but	also	
+its	hydroxyl	group,	is	crucial	for	drug-HERG	association,	supporting	
+the	 proposal	 that	 S624	 participates	 in	 the	 binding	 of	 nifekalant	 to	
+the	channel	pore.	Figure	4Da	shows	that	there	is	a	strong	correlation	
+between	drug-induced	block	and	facilitation	for	the	S624	mutants.	
+This	agrees	with	the	idea	that	the	drug	binding	is	a	prerequisite	for	
+facilitation	(Fig.	3).
+
+On	 the	 other	 hand,	 the	 alanine	 replacement	 at	 S649	 did	 not	
+	significantly	 affect	 either	 block	 or	 facilitation	 (Figs.	 3,	 4B,	 4C	
+
+Figure  5.  Flexible  docking  simulation  of  the  association  of  nifekalant  with 
+HERG.  The  association  between  nifekalant  and  HERG  was  simulated  as 
+described in ‘Materials and Methods’. The simulations were performed with 
+constraints  for  the  association  of  nifekalant  with  T623,  S624,  Y652  and 
+F656 to mimic the mode of current block (A), and with T623, S624, S649, 
+Y652  and  F656  to  mimic  the  mode  of  current  facilitation  (B).  Forty  differ-
+ent solutions developed by each simulation are superimposed in the HERG 
+model. The side chains of residues located in close vicinity to nifekalant are 
+represented with sphere models. Their carbon and oxygen atoms are colored 
+yellow and red, respectively.
+
+and	 4Db).	 However,	 even	 though	 threonine	 is	 only	 27	 Å3	 larger	
+than	 serine,	 the	 S649T	 mutation	 caused	 a	 prominent	 reduction	
+in	 drug-induced	 facilitation	 without	 an	 obvious	 effect	 on	 block.	
+Because	 both	 serine	 and	 threonine	 possess	 a	 hydroxyl	 group	 on	
+their	 side	 chains,	 the	 contribution	 of	 the	 hydroxyl	 group	 of	 S649	
+to	 nifekalant-induced	 facilitation	 may	 be	 insignificant.	 Therefore,	
+the	reduction	of	facilitation	caused	by	the	threonine	substitution	at	
+S649	may	be	due	to	the	increase	in	volume	of	the	side	chain.	Further	
+increasing	size	at	S649	by	the	substitution	of	bulky	amino	acids	such	
+as	 valine,	 isoleucine	 and	 leucine	 caused	 slight	 progressive	 further	
+attenuation	 of	 facilitation.	 It	 also	 caused	 progressive	 reduction	 in	
+block,	 which	 correlated	 well	 with	 the	 size	 of	 the	 residues.	 These	
+results	can	be	interpreted	as	implying	that	the	size	of	the	side	chain	
+at	 the	 position	 of	 S649	 is	 critical	 for	 drug-channel	 interaction	 for	
+facilitation	 and	 that	 it	 is	 also	 involved	 in	 the	 interaction	 for	 block	
+although	in	the	latter	case,	the	size	effect	is	much	less	sensitive.
+
+To	obtain	further	insights	into	the	interaction	between	the	drug	
+and	the	HERG	channel	pore,	we	used	the	flexible	docking	simulation	
+method.22	The	simulation	was	first	performed	with	constraints	based	
+
+www.landesbioscience.com	
+
+Channels	
+
+205
+
+Downloaded by [OIST Graduate University] at 22:10 29 June 2015 Drug-Induced	Facilitation	of	HERG	Channel
+
+on	 the	 association	 of	 the	 drug	 only	 with	 T623,	 S624,	 Y652	 and	
+F656.	This	should	simulate	the	drug-channel	interaction	for	block.	
+In	Figure	5A	the	geometrical	arrangement	of	the	drug	is	shown	for	
+the	forty	successive	examples	with	the	highest	score	(i.e.,	the	lowest	
+value	of	the	sum	of	electrostatic	interaction	and	van	der	Waals	force	
+for	channel	amino	acid	and	drug	interaction).	Nifekalant	is	situated	
+in	a	pocket	surrounded	by	T623,	S624,	Y652	and	F656.	But	even	
+under	 these	 conditions	 it	 was	 noticed	 that	 S649	 was	 located	 near	
+the	drug	and	seemed	to	form	a	part	of	the	pocket.	This	is	consistent	
+with	the	mutational	analysis	that	indicated	that	nifekalant	could	be	
+positioned	in	close	vicinity	to	the	side	chain	of	S649	during	block	
+without	facilitation	(Fig.	4).
+
+We	then	added	the	requirement	for	an	association	between	S649	
+and	 nifekalant	 in	 a	 simulation	 of	 drug-channel	 interaction,	 which	
+would	correspond	to	their	association	during	facilitation.	The	forty	
+successive	 simulation	 results	 with	 the	 highest	 score	 are	 shown	 in	
+Figure	5B.	The	drug	approached	S649	in	ten	cases	out	of	the	forty,	
+which	 compared	 with	 only	 one	 approach	 out	 of	 forty	 without	 the	
+constraint	 of	 an	 association	 with	 S649.	These	 results	 indicate	 that	
+nifekalant	can	interact	with	S649	while	retaining	its	association	with	
+the	four	amino	acid	residues	that	are	important	for	block,	i.e.,	T623,	
+S624,	 Y652	 and	 F656.	 This	 supports	 the	 notion	 that	 S649	 may	
+play	an	important	role	in	the	depolarization-induced	facilitation	of	
+HERG	current	in	the	presence	of	nifekalant.
+
+DIScuSSION
+
+Nifekalant‑HERG  association  for  current  block.	 The	 HERG	
+channel	allows	a	spectrum	of	compounds	different	in	size	and	shape	
+to	interact	with	it	and	prevent	ion	flow.	The	computational	analysis	
+of	 the	 three-dimensional	 stereoelectronic	 characteristics	 of	 HERG	
+blockers	 have	 identified	 at	 least	 four	 pharmacophores	 distributed	
+in	 these	 chemical	 compounds.13,25-27	 These	 studies	 showed	 that	
+a	 tertiary	 amine	 in	 the	 middle	 of	 these	 compounds	 is	 the	 most	
+crucial	feature	of	HERG	blockers.	The	basic	nitrogen	center	of	the	
+compounds	 is	 thought	 to	 be	 protonated	 at	 physiological	 pH	 and	
+involved	 in	 the	 cation-p	 interaction	 with	 Y652	 on	 the	 S6	 helix.14	
+The	 other	 pharmacophoric	 features	 are	 hydrophobic	 moieties,	
+mainly	 consistent	 with	 aromatic	 rings.	 One	 of	 these	 hydrophobic	
+moieties	associates	with	the	benzyl	group	of	F656	on	the	S6	helix,	
+presumably	based	on	p-stacking	interaction.11,14,28	The	other	hydro-
+phobic	moiety	is	predicted	to	lie	adjacent	to	points	sensitive	to	steric	
+and	 electrostatic	 properties.26	 From	 the	 mutational	 analysis	 of	 the	
+HERG	 pore	 using	 clofilium	 and	 ibutilide	 analogs,	 Perry	 et	 al.13	
+demonstrated	that	the	hydroxyl	groups	of	T623	and	S624	function	
+in	association	with	polar	or	electronegative	para-substituents	with	the	
+phenyl	ring	of	the	drugs.	As	shown	in	Figure	4A,	the	HERG	pore	
+model	for	the	open	channel	state	indicated	that	all	of	these	residues,	
+T623,	S624,	Y652	and	F656,	exposed	their	side	chains	to	the	central	
+cavity.	Taking	into	account	the	geometrical	constraints	of	the	phar-
+macophore,26,27	HERG	blockers	would	interact	and	be	located	at	the	
+top	of	the	pore	cavity	during	the	block	of	ion	flow.
+
+But	 Cavalli	 et	 al.26	 reported	 that	 one	 of	 the	 hydrophobic	
+	pharmacophores	permitted	structural	variation	among	the	blockers,	
+suggesting	that	the	position	of	drugs	was	not	restricted	to	within	the	
+central	cavity.	The	structure	based	drug-binding	models	for	terfena-
+dine	and	cisapride27	and	MK-49911	and	HERG	showed	that	these	
+blockers	occupied	an	entire	region	of	the	HERG	pore	cavity.	Here,	
+
+the	 flexible	 docking	 simulation	 of	 channel-drug	 interaction	 used	 a	
+homology	model	of	the	HERG	pore	based	on	KvAP	structure.	The	
+simulation	 constrained	 nifekalant	 to	T623,	 S624,	 Y652	 and	 F656	
+on	 the	 same	 HERG	 subunit	 (Fig.	 5A)	 and	 strongly	 suggested	 that	
+the	 entire	 drug	 molecule	 is	 positioned	 in	 the	 pocket	 at	 the	 top	 of	
+the	HERG	pore	cavity	and	that	it	does	not	extend	beyond	F656	in	
+the	 cytoplasmic	 direction.	 This	 simulation	 could	 also	 support	 the	
+mutation	results	that	indicated	that	the	drug	may	be	located	in	close	
+vicinity	to	S649	even	during	block	without	facilitation	(Figs.	4C,	4D	
+and	 5A).	 In	 addition,	 the	 simulation	 suggested	 the	 possibility	 that	
+F656	on	the	adjacent	HERG	subunit	may	also	participate	in	forming	
+the	 binding	 pocket	 for	 nifekalant,	 even	 though	 the	 constraint	 was	
+confined	 to	 four	 amino	 acids	 on	 the	 same	 channel	 subunit.	Thus	
+residues	 on	 several	 subunits	 may	 participate	 in	 the	 association	
+between	 nifekalant	 and	 HERG.	 This	 result	 also	 supports	 the	 idea	
+of	 a	 heterogeneous	 nature	 for	 the	 drug-binding	 site	 of	 the	 HERG	
+channel	pore	that	has	been	indicated	by	the	effects	of	different	drugs	
+on	the	mutant	Y652A.	While	the	mutant	Y652A	is	not	blocked	by	
+HERG-blockers	 such	 as	 nifekalant	 (Fig.	 3),	 MK-499,	 clofilium,	
+ibutilide,	dofetilide	and	E-4031,11-13,15	it	is	blocked	by	vesnarione,	
+propafenone	and	bepridil.15,29,30	Systematic	measurements	of	effects	
+of	various	HERG	blockers	on	HERG	channel	mutants	would	shed	
+light	on	the	divergent	mechanisms	of	drug-HERG	interaction.
+
+Nifekalant‑HERG association for current facilitation.	A	strong	
+depolarized	 voltage	 step	 is	 a	 prerequisite	 for	 nifekalant	 to	 evoke	
+facilitation	 (Fig.	 1).	 This	 characteristic	 allowed	 us	 to	 examine	 the	
+residues	 responsible	 for	 drug-induced	 facilitation	 of	 HERG	 sepa-
+rately	 from	 block	 (Fig.	 4).	 We	 have	 identified	 the	 possibility	 that	
+S649	is	involved	in	nifekalant-induced	facilitation.	Either	the	volume	
+or	other	properties	of	the	side	chain	of	S649	appeared	to	influence	
+the	interaction	between	HERG	and	nifekalant	for	facilitation.	The	
+mutational	analysis	of	S649	indicated	that	in	block	without	facilita-
+tion	 nifekalant	 seemed	 to	 be	 located	 close	 to	 the	 S649	 side	 chain,	
+but	not	to	interact	directly	with	it	(Fig.	4).	This	was	supported	by	
+the	 flexible	 docking	 simulation.	The	 difference	 between	 the	 facili-
+tated	and	the	purely	blocked	conditions	for	the	association	between	
+nifekalant	 and	 HERG	 is	 caused	 by	 a	 prior	 strong	 depolarization.	
+Although	at	present	it	is	unclear	whether	the	depolarization	causes	a	
+conformational	alteration	in	nifekalant	or	in	the	HERG	pore	region,	
+the	 flexible	 docking	 simulation	 with	 the	 addition	 of	 S649	 showed	
+that	 it	 was	 possible	 for	 nifekalant	 to	 reach	 the	 side	 chain	 of	 S649	
+while	retaining	its	association	with	other	binding	residues.	This	result	
+is	consistent	with	our	hypothesis	that	S649	is	a	critical	residue	for	the	
+facilitation	effect	of	nifekalant.
+
+The	 facilitation	 of	 HERG	 by	 its	 blocker	 has	 been	 reported	
+with	other	compounds	such	as	almokalant9	and	azimilide.10	It	was	
+suggested	 that	 azimilide	 might	 interact	 with	 residues	 at	 the	 outer	
+mouth	of	the	HERG	channel	to	induce	facilitation.10	But	we	found	
+that	mutations	in	this	region	lost	the	channel’s	selectivity	for	K+	and	
+C-type	 inactivation.	 It	 is	 therefore	 difficult	 to	 determine	 whether	
+these	 residues	 are	 involved	 in	 the	 facilitation	 of	 HERG	 current	 by	
+nifekalant.
+
+Possible  gating  mechanism  underlying  nifekalant‑induced 
+ facilitation of HERG current.	There	are	at	least	two	possible	mecha-
+nisms	for	HERG	current	facilitation	induced	by	nifekalant.	The	first	
+is	 that	 nifekalant	 may	 attenuate	 C-type	 inactivation	 of	 the	 HERG	
+channel	at	low	voltages	and	thus	apparently	shift	the	activation	curve	to	
+more	negative	voltages.	Azimilide	did	not	induce	detectable	alterations	
+
+206	
+
+Channels	
+
+2007;	Vol.	1	Issue	3
+
+Downloaded by [OIST Graduate University] at 22:10 29 June 2015 Drug-Induced	Facilitation	of	HERG	Channel
+
+in	 the	 inactivation	 time	 course.10	 Nifekalant	 shifted	 the	 voltage	
+dependence	of	C-type	inactivation	by	at	most	~-5	mV	(Fig.	2D	and		
+ref.	8).	This	effect	may	enhance	the	drug-induced	block,	but	cannot	
+lead	to	an	increase	of	current.	Thus,	it	seems	unlikely	that	facilitation	
+of	current	by	nifekalant	is	caused	by	attenuation	of	HERG	channel	
+C-type	inactivation.
+
+The	second	possibility	is	that	the	drug	affects	the	activation	gating	
+process	 itself.	 Crystal	 structures	 of	 various	 K+	 channels	 reveal	 that	
+the	inner	pore	helix	corresponding	to	S6	in	HERG	alters	its	position	
+during	 gating.31	 Our	 mutations	 of	 residues	 on	 the	 distal	 S6	 helix	
+caused	either	an	increase	or	a	decrease	in	the	facilitation	associated	
+with	 nifekalant	 (Fig.	 3).	 But	 these	 residues	 are	 unlikely	 to	 directly	
+interact	with	the	drug	because	of	the	geometrical	constraints	of	the	
+pharmacophores	 and	 the	 positions	 of	 the	 amino	 acids	 involved	 in	
+drug	binding.	The	distal	S6	helix	is	currently	thought	to	be	respon-
+sible	for	channel	activation	gating.	Therefore,	the	substitution	of	the	
+side	chains	along	the	S6	helix	would	itself	either	enhance	or	attenuate	
+channel	gating.
+
+Whereas	 similar	 negative	 shifts	 of	 activation	 curves	 have	 been	
+reported	during	the	modulation	of	other	ion	channels	including	b-ad-
+32	and	L-type	Ca2+	channel	currents,33	
+renergic	enhancement	of	IKs
+the	precise	mechanisms	have	not	been	elucidated	so	far.	The	associa-
+tion	 of	 nifekalant	 and	 S649	 led	 to	 the	 alteration	 of	 the	 activation	
+gating	 mechanism	 of	 HERG.	 Therefore,	 this	 type	 of	 regulation	
+of	 activation	 gating	 may	 be	 one	 of	 the	 control	 mechanisms	 of	 ion	
+channel	activation,	which	can	be	modified	by	chemical	compounds	
+and	protein	phosphorylation.
+
+It	has	been	reported	that	many	chemicals	can	increase	ion	channel	
+currents	by	acting	on	various	ion	channel	properties.	Among	them,	
+the	activation	gating	mechanism	is	one	of	the	important	targets	for	
+chemicals	acting	on	the	channel	pore.	Bay	K	8644,	a	dihydropyri-
+dine	 derivative,	 enhances	 L-type	 voltage-dependent	 Ca2+	 channels	
+by	altering	the	channel	mode	from	I	to	II.34,35	In	this	case,	not	only	
+is	the	channel	open	time	increased	but	also	the	activation	curve	of	
+the	channel	shifts	in	the	negative	direction.	Similar	alterations	were	
+reported	for	the	actions	of	BDF	919836	and	pyrethroid	insecticides37	
+on	voltage-dependent	Na+	channels.	In	the	case	of	TRPC5	which	is	
+inactive	in	control	conditions,	S-nitrosylation	at	the	N-terminus	of	
+pore	helix	causes	opening	of	its	activation	gate.38	Further	studies	are	
+needed	to	clarify	how	the	interaction	of	chemicals	with	channel	pores	
+results	 in	 alteration	 of	 ion	 channel	 activation	 gating	 mechanisms.	
+This	 will	 be	 of	 help	 to	 further	 elucidate	 the	 relationship	 between	
+structure	and	function	in	ion	channels.
+
+Mechanistic and clinical significance.	We	confirm	that	nifekalant	
+is	 associated	 with	 the	 facilitation	 of	 HERG	 current,	 and	 that	 pure	
+IKr	 blockers	 E-4031	 and	 dofetilide	 exhibit	 no	 such	 effect.	 It	 was	
+reported	 that	 nifekalant	 effectively	 suppresses	 ventricular	 tachyar-
+rhythmias	not	only	in	canine	models,39-42	but	also	in	patients	with	
+acute	myocardial	infarction	or	severe	ventricular	dysfunction.43	The	
+effectiveness	 of	 nifekalant	 against	 lethal	 ventricular	 arrhythmias	
+might	be	related	to	its	effect	of	facilitating	HERG	channels.	In	this	
+context	it	is	interesting	to	note	that	while	the	reduction	of	HERG	
+channel	current	by	E-4031	increased	the	magnitude	of	rate-depen-
+dent	action	potential	duration	(APD)	alternans	in	a	computer	model	
+of	canine	endocardial	myocytes,44	increasing	HERG	channel	current	
+by	shifting	the	activation	curve	to	more	negative	voltages	abolished	
+APD	alternans.39	Nifekalant	not	only	blocks	HERG	current	but	also	
+induces	facilitation	via	a	negative	shift	of	the	activation	curve.	This	
+
+drug	is	therefore	likely	to	have	a	lower	risk	for	induction	of	alternans	
+and	may	thus	be	more	appropriate	for	the	treatment	of	arrhythmias	
+than	pure	IKr	blockers.	Further	studies	on	the	detailed	mechanism	of	
+facilitation	should	be	useful	for	the	logical	design	of	clinically	effec-
+tive	IKr	blockers	with	reduced	proarrhythmic	effects.
+
+Acknowledgements
+We	 are	 grateful	 to	 Dr.	 Ian	 Findlay	 (CNRS	 UMR	 6542	 Faculté	
+des	 Sciences,	 Université	 de	 Tours,	 France)	 for	 critical	 reading	 of	
+this	manuscript.	We	also	thank	Ms.	Miki	Fukumoto,	Ms.	Chizuru	
+Tsuzuki	 and	 Ms.	 Yukiko	 Nishida	 for	 technical	 assistance,	 and	 Ms.	
+Rika	Kitai,	Ms.	Yuko	Nakaie,	Ms.	Mami	Yokokawa,	Ms.	Junko	Inoue	
+and	Ms.	Satoko	Kuwayama	for	secretarial	assistance.	This	work	was	
+supported	by	the	Leading	Project	for	Biosimulation	“Development	
+of	models	for	disease	and	drug	action”	from	Ministry	of	Education,	
+Science	and	Sports	in	Japan	to	Yoshihisa	Kurachi.
+
+References
+
+	 1.	 Sanguinetti	MC,	Jiang	C,	Curran	ME,	Keating	MT.	A	mechanistic	link	between	an	inher-
+ited	and	an	acquired	cardiac	arrhythmia:	HERG	encodes	the	IKr	potassium	channel.	Cell	
+1995;	81:299-307.
+
+	 2.	 Trudeau	MC,	W.Warmke	J,	Ganetzky	B,	Robertson	GA.	HERG,	a	human	inward	rectifier	
+
+in	the	voltage-gated	potassium	channel	family.	Science	1995;	269:92-5.
+
+	 3.	 Roden	 DM.	 Acquired	 long	 QT	 syndromes	 and	 the	 risk	 of	 proarrhythmia.	 J	 Cardiovasc	
+
+Electrophysiol	2000;	11:938-40.
+
+	 4.	 Sanguinetti	 MC,	Tristani-Firouzi	 M.	 hERG	 potassium	 channels	 and	 cardiac	 arrhythmia.	
+
+Nature	2006;	440:463-9.
+
+	 5.	 Sanguinetti	MC,	Curran	ME,	Spector	PS,	Keating	MT.	Spectrum	of	HERG	K+-channel	dys-
+
+function	in	an	inherited	cardiac	arrhythmia.	Proc	Natl	Acad	Sci	USA	1996;	93:2208-12.
+
+	 6.	 Nakaya	H,	Tohse	N,	Takeda	Y,	Kanno	M.	Effects	of	MS-551,	a	new	class	III	antiarrhyth-
+mic	drug,	on	action	potential	and	membrane	currents	in	rabbit	ventricular	myocytes.	Br	J	
+Pharmacol	1993;	109:157-63.
+
+	 7.	 Cheng	 J,	 Kamiya	 K,	 Kodama	 I,	 Toyama	 J.	 Differential	 effects	 of	 MS-551	 and	 E-4031	
+on	 action	 potentials	 and	 the	 delayed	 rectifier	 K+	 current	 in	 rabbit	 ventricular	 myocytes.	
+Cardiovasc	Res	1996;	31:963-74.
+
+	 8.	 Kushida	S,	Ogura	T,	Komuro	I,	Nakaya	H.	Inhibitory	effect	of	the	class	III	antiarrhythmic	
+
+drug	nifekalant	on	HERG	channels:	Mode	of	action.	Eur	J	Pharmacol	2002;	457:19-27.
+
+	 9.	 Carmeliet	E.	Use-dependent	block	and	use-dependent	unblock	of	the	delayed	rectifier	K+	
+
+current	by	almokalant	in	rabbit	ventricular	myocytes.	Circ	Res	1993;	73:857-68.
+
+	 10.	 Jiang	 M,	 Dun	 W,	 Fan	 FS,	Tseng	 GN.	 Use-dependent	 agonist	 effect	 of	 azimilide	 on	 the	
+
+HERG	channel.	J	Pharmacol	Exp	Ther	1999;	291:1324-36.
+
+	 11.	 Mitcheson	 JS,	 Chen	 J,	 Lin	 M,	 Culberson	 C,	 Sanguinetti	 MC.	 A	 structural	 basis	 for	
+
+drug-induced	long	QT	syndrome.	Proc	Natl	Acad	Sci	USA	2000;	97:12329-33.
+
+	 12.	 Perry	 M,	 de	 Groot	 MJ,	 Helliwell	 R,	 Leishman	 D,	Tristani-Firouzi	 M,	 Sanguinetti	 MC,	
+Mitcheson	J.	Structural	determinants	of	HERG	channel	block	by	clofilium	and	ibutilide.	
+Mol	Pharmacol	2004;	66:240-9.
+
+	 13.	 Perry	 M,	 Stansfeld	 PJ,	 Leaney	 J,	 Wood	 C,	 de	 Groot	 MJ,	 Leishman	 D,	 Sutcliffe	 MJ,	
+Mitcheson	JS.	Drug	binding	interactions	in	the	inner	cavity	of	hERG	channels:	Molecular	
+insights	 from	 structure-activity	 relationships	 of	 clofilium	 and	 ibutilide	 analogs.	 Mol	
+Pharmacol	2006;	69:509-19.
+
+	 14.	 Fernandez	D,	Ghanta	A,	Kauffman	GW,	Sanguinetti	MC.	Physicochemical	features	of	the	
+
+hERG	channel	drug	binding	site.	J	Biol	Chem	2004;	279:10120-7.
+
+	 15.	 Kamiya	K,	Niwa	R,	Mitcheson	JS,	Sanguinetti	MC.	Molecular	determinants	of	hERG	chan-
+
+nel	block.	Mol	Pharmacol	2006;	69:1709-16.
+
+	 16.	 Chachin	M,	Katayama	Y,	Yamada	M,	Horio	Y,	Ohmura	T,	Kitagawa	H,	Uchida	S,	Kurachi	
+Y.	Epinastine,	a	nonsedating	histamine	H1	receptor	antagonist,	has	a	negligible	effect	on	
+HERG	channel.	Eur	J	Pharmacol	1999;	374:457-60.
+
+	 17.	 Stühmer	W.	Electrophysiological	recording	from	Xenopus	oocytes.	Methods	Enzymol	1998;	
+
+280-300.
+
+	 18.	 Fiser	A,	Šali	A.	Modeller:	Generation	and	refinement	of	homology-based	protein	structure	
+
+models.	Methods	Enzymol	2003;	461-91.
+
+	 19.	 Jiang	Y,	Lee	A,	Chen	J,	Ruta	V,	Cadene	M,	Chait	BT,	MacKinnon	R.	X-ray	structure	of	a	
+
+voltage-dependent	K+	channel.	Nature	2003;	423:33-41.
+
+	 20.	 Wang	J,	Cieplak	P,	Kollman	PA.	How	well	does	a	restrained	electrostatic	potential	(RESP)	
+model	perform	in	calculating	conformational	energies	of	organic	and	biological	molecules?	
+J	Comput	Chem	2000;	21:1049-74.
+
+	 21.	 Schmidt	 MW,	 Baldridge	 KK,	 Boatz	 JA,	 Elbert	 ST,	 Gordon	 MS,	 Jensen	 JH,	 Koseki	 S,	
+Matsunaga	 N,	 Nguyen	 KA,	 Su	 S,	 Windus	TL,	 Dupuis	 M,	 Montgomery	 Jr	 JA.	 General	
+atomic	and	molecular	electronic	structure	system.	J	Comput	Chem	1993;	14:1347-63.
+
+	 22.	 Fukunishi	 Y,	 Mikami	 Y,	 Nakamura	 H.	 Similarities	 among	 receptor	 pockets	 and	 among	
+compounds:	 Analysis	 and	 application	 to	 in	 silico	 ligand	 screening.	 J	 Mol	 Graph	 Model	
+2005;	24:34-45.
+
+www.landesbioscience.com	
+
+Channels	
+
+207
+
+Downloaded by [OIST Graduate University] at 22:10 29 June 2015 Drug-Induced	Facilitation	of	HERG	Channel
+
+	 23.	 Smith	 PL,	 Baukrowitz	 T,	 Yellen	 G.	 The	 inward	 rectification	 mechanism	 of	 the	 HERG	
+
+cardiac	potassium	channel.	Nature	1996;	379:833-6.
+
+	 24.	 Aronov	AM.	Predictive	in	silico	modeling	for	hERG	channel	blockers.	Drug	Discov	Today	
+
+2005;	10:149-55.
+
+	 25.	 Ekins	S,	Crumb	WJ,	Sarazan	RD,	Wikel	JH,	Wrighton	SA.	Three-dimensional	quantitative	
+structure-activity	relationship	for	inhibition	of	human	ether‑a‑go‑go-related	gene	potassium	
+channel.	J	Pharmacol	Exp	Ther	2002;	301:427-34.
+
+	 26.	 Cavalli	A,	Poluzzi	E,	Ponti	FD,	Recanatini	M.	Toward	a	pharmacophore	for	drugs	inducing	
+the	long	QT	syndrome:	Insights	from	a	CoMFA	study	of	HERG	K+	channel	blockers.	J	
+Med	Chem	2002;	45:3844-53.
+
+	 27.	 Pearlstein	RA,	Vaz	RJ,	Kang	J,	Chen	XL,	Preobrazhenskaya	M,	Shcekotikhin	AE,	Korolev	
+AM,	Lysenkova	LN,	Miroshnikova	OV,	Hendrix	J,	Rampe	D.	Characterization	of	HERG	
+potassium	channel	inhibition	using	CoMSiA	3D	QSAR	and	homology	modeling	approach-
+es.	Bioorg	Med	Chem	Lett	2003;	13:1829-35.
+
+	 28.	 Lees-Miller	 JP,	 Duan	 Y,	 Teng	 GQ,	 Duff	 HJ.	 Molecular	 determinant	 of	 high-affinity	
+dofetilide	binding	to	HERG1	expressed	in	Xenopus	oocytes:	Involvement	of	S6	sites.	Mol	
+Pharmacol	2000;	57:367-74.
+
+	 29.	 Kamiya	 K,	 Mitcheson	 JS,	 Yasui	 K,	 Kodama	 I,	 Sanguinetti	 MC.	 Open	 channel	 block	 of	
+
+HERG	K+	channels	by	vesnarinone.	Mol	Pharmacol	2001;	60:244-53.
+
+	 30.	 Witchel	HJ,	Dempsey	CE,	Sessions	RB,	Perry	M,	Milnes	JT,	Hancox	JC,	Mitcheson	JS.	
+The	low-potency,	voltage-dependent	HERG	blocker	propafenone-molecular	determinants	
+and	drug	trapping.	Mol	Pharmacol	2004;	66:1201-12.
+
+	 31.	 MacKinnon	R.	Potassium	channels.	FEBS	Letter	2003;	555:62-5.
+	 32.	 Volders	PGA,	Stengl	M,	van	Opstal	JM,	Gerlach	U,	Spätjens	RLHMG,	Beekman	JDM,	
+Sipido	KR,	Vos	MA.	Probing	the	contribution	of	IKs	to	canine	ventricular	repolarization:	
+Key	role	for	b-adrenergic	receptor	stimulation.	Circulation	2003;	107:2753-60.
+
+	 33.	 Yamada	M.	b-Adrenergic	modulation	of	prepulse	facilitation	of	L-type	calcium	channels	in	
+
+rabbit	ventricular	myocytes.	Pfügers	Arch	2002;	444:89-98.
+
+	 34.	 Yuill	KH,	Convery	MK,	Dooley	PC,	Doggrell	SA,	Hancox	JC.	Effects	of	BDF	9198	on	
+action	 potentials	 and	 ionic	 currents	 from	 guinea-pig	 isolated	 ventricular	 myocytes.	 Br	 J	
+Pharmacol	2000;	130:1753-66.
+
+	 35.	 Spencer	CI,	Yuill	KH,	Borg	JJ,	Hancox	JC,	Kozlowski	RZ.	Actions	of	pyrethroid	Insecticides	
+on	sodium	currents,	action	ptentials,	and	contractile	rhyrhm	in	isolated	mammalian	ven-
+tricular	myocytes	and	perfused	heart.	J	Pharmacol	Exp	Ther	2001;	298:1067-82.
+
+	 36.	 Hess	P,	Lansman	JB,	Tsien	RW.	Different	modes	of	Ca	channel	gating	behaviour	favoured	
+
+by	dihydropyridine	Ca	agonists	and	antagonists.	Nature	1984;	311:538-44.
+
+	 37.	 Tan	J,	Liu	Z,	Wang	R,	Huang	ZY,	Chen	AC,	Gurevitz	M,	Dong	K.	Identification	of	amino	
+acid	residues	in	the	insect	sodium	channel	critical	pyrethroid	binding.	Mol	Pharmacol	2004;	
+67:513-22.
+
+	 38.	 Hockerman	 HG,	 Peterson	 ZB,	 Johnson	 DB,	 Catterall	 AW.	 Molecular	 determinants	 of	
+drug	binding	and	action	on	L-type	calcium	channels.	Annu	Rev	Pharmacol	Toxicol	1997;	
+37:361-96.
+
+	 39.	 Yoshida	T,	Inoue	R,	Morii	T,	Takahashi	N,	Yamamoto	S,	Hara	Y,	Tominaga	M,	Shimizu	S,	
+Sato	Y,	Mori	Y.	Nitric	oxide	activates	TRP	channels	by	cysteine	S-nitrosylation.	Nat	Chem	
+Biol	2006;	2:596-607.
+
+	 40.	 Kamiya	 J,	 Ishii	 M,	 Katakami	T.	 Antiarrhythmic	 effects	 of	 MS-551,	 a	 new	 class	 III	 anti-
+arrhythmic	 agent,	 on	 canine	 models	 of	 ventricular	 arrhythmia.	 Jpn	 J	 Pharmacol	 1992;	
+58:107-15.
+
+	 41.	 Kondoh	K,	Hashimoto	H,	Nishiyama	H,	Umemura	K,	Ozaki	T,	Uematsu	T,	Nakashima	
+M.	Effects	of	MS-551,	a	new	class	III	antiarrhythmic	drug,	on	programmed	stimulation-in-
+duced	ventricular	arrhythmias,	electrophysiology,	and	hemodynamics	in	a	canine	myocar-
+dial	infarction	model.	J	Cardiovasc	Pharmacol	1994;	23:674-80.
+
+	 42.	 Friedrichs	GS,	Chi	L,	Gralinski	MR,	Black	SC,	Basler	GC,	Mu	DX,	Pewitt	SR,	Johnson	
+CR,	Lucchesi	BR.	MS-551	protects	against	ventricular	fibrillation	in	a	chronic	canine	model	
+of	sudden	cardiac	death.	J	Cardiovasc	Pharmacol	1995;	25:314-23.
+
+	 43.	 Katoh	T,	Mitamura	H,	Matsuda	N,	Takano	T,	Ogawa	S,	Kasanuki	H.	Emergency	treatment	
+with	nifekalant,	a	novel	class	III	anti-arrhythmic	agent,	for	life-threatening	refractory	ven-
+tricular	tachyarrythmias.	-post-marketing	special	investigation-.	Circ	J	2005;	69:1237-43.
+
+	 44.	 Takenaka	K,	Yasuda	S,	Miyazaki	S,	Kurita	T,	Sutani	Y,	Morii	I,	Daikoku	S,	Kamakura	S,	
+Nonogi	 H.	 Initial	 experience	 with	 nifekalant	 hydrochloride	 (MS-551),	 a	 novel	 class	 III	
+antiarrhythmic	 agent,	 in	 patients	 with	 acute	 extensive	 infarction	 and	 severe	 ventricular	
+dysfunction.	Jpn	Circ	J	2001;	65:60-2.
+
+	 45.	 Hua	F,	Gilmour	Jr	RF.	Contribution	of	IKr	to	rate-dependent	action	potential	dynamics	in	
+
+canine	endocardium.	Circ	Res	2004;	94:810-9.
+
+208	
+
+Channels	
+
+2007;	Vol.	1	Issue	3
+
+Downloaded by [OIST Graduate University] at 22:10 29 June 2015 

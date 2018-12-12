@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3188">
+<itemtype>xnppaper</itemtype>
+<titles><title>Medial septal modulation of the ascending brainstem hippocampal synchronizing pathways in the freely moving rat.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-03-10T03:55:17Z</last_update_date>
+<creation_date>2010-03-10T03:55:17Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3188</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3188" version="1.02">
+<authors><author>Bland BH</author><author>Bird J</author><author>Jackson J</author><author>Natsume K</author></authors>
+<journal>Hippocampus</journal>
+<volume>16</volume>
+<number>1</number>
+<page>11-9</page>
+<abstract>Rats implanted with hippocampal recording electrodes were tested in a wheel-running apparatus under three conditions: (1) independent electrical stimulation of the medial septal nucleus (MS); (2) independent electrical stimulation of the posterior hypothalamic nucleus (PH); and (3) combined electrical stimulation of the MS and PH using pairings of two stimulation conditions, 7 or 10 Hz stimulation of the MS, and a low- or high-intensity PH stimulation. Quantitative measures of running speed were taken, and hippocampal recordings were subjected to fast-Fourier transform analysis. Electrical stimulation of the PH induced wheel-running behavior; running speed and the accompanying hippocampus (HPC) theta frequency increased with increase in stimulation intensity. Electrical stimulation of the MS failed to induce wheel-running behavior despite the fact that HPC theta was induced at the frequency of the applied stimulation (7 and 10 Hz). Electrical stimulation of the MS reset the frequency of HPC theta induced by PH stimulation in both the upward and downward directions and increased theta power, while wheel-running speed was modulated in a downward direction only.</abstract>
+<pubmed_id>16270325</pubmed_id>
+</detail>
+</item>

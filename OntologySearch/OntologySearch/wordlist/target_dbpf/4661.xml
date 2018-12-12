@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4661">
+<itemtype>xnppaper</itemtype>
+<titles><title>Rhinal-hippocampal theta coherence during declarative memory formation: interaction with gamma synchronization?</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Cortical Synchronization</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Epilepsy</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-10T02:37:38Z</last_update_date>
+<creation_date>2011-02-10T02:37:38Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4661</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4661" version="1.02">
+<authors><author>Fell J</author><author>Klaver P</author><author>Elfadil H</author><author>Schaller C</author><author>Elger CE</author><author>Fernández G</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>17</volume>
+<number>5</number>
+<page>1082-8</page>
+<abstract>The hippocampus and the rhinal cortex, two substructures of the medial temporal lobe, together play a crucial role in human declarative memory formation. To investigate in detail the mechanism connecting these two structures transiently during memory formation we recorded depth EEG in epilepsy patients from within the hippocampus and the rhinal cortex. During this recording, patients performed a single-trial word list-learning paradigm with a free recall memory test following a distraction task. Rhinal-hippocampal EEG coherence and spectral power at both locations in the time interval up to 2 s after onset of word presentation were analysed in the frequency range 1-19 Hz. Successful as opposed to unsuccessful memory formation was associated with a general rhinal-hippocampal coherence enhancement, but without alterations in spectral power. Coherence increases in the theta range were correlated with the previously reported memory-related changes in rhinal-hippocampal gamma phase synchronization. This correlation may suggest an interaction of the two mechanisms during declarative memory formation. While theta coherence might be associated with slowly modulated coupling related to an encoding state, rhinal-hippocampal gamma synchronization may be more closely related to actual memory processes by enabling fast coupling and decoupling of the two structures.</abstract>
+<pubmed_id>12653984</pubmed_id>
+</detail>
+</item>

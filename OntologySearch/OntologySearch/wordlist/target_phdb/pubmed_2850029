@@ -1,0 +1,2131 @@
+EMERGENCE OF ORGANIZED BURSTING IN CLUSTERS
+OF PANCREATIC A-CELLS BY CHANNEL SHARING
+
+ARTHUR SHERMAN,* JOHN RiNZEL,* AND JOEL KEIZER?
+*National Institutes ofHealth, National Institute ofDiabetes and Digestive and Kidney
+Diseases-Mathematical Research Branch, Bethesda, Maryland 20892; and $Institute of Theoretical
+Dynamics and Department ofChemistry, University of California-Davis, Davis, California 95616
+
+Pancreatic 13-cells in an intact Islet of Langerhans exhibit bursting electrical behavior. The Chay-Keizer
+ABSTRACT
+model describes this using a calcium-activated potassium (K-Ca) channel, but cannot account for the irregular spiking
+of isolated 13-cells. Atwater I., L. Rosario, and E. Rojas, Cell Calcium. 4:451-461, proposed that the K-Ca channels,
+which are rarely open, are shared by several cells. This suggests that the chaotic behavior of isolated cells is stochastic.
+We have revised the Chay-Keizer model to incorporate voltage clamp data of Rorsman and Trube and extended it to
+include stochastic K-Ca channels. This model can describe the behavior of single cells, as well as that of clusters of cells
+tightly coupled by gap junctions. As the size of the clusters is increased, the electrical activity shows a transition from
+chaotic spiking to regular bursting. Although the model of coupling is over-simplified, the simulations lend support to
+the hypothesis that bursting is the result of channel sharing.
+
+I. INTRODUCTION
+
+The Islets of Langerhans in the pancreas secrete insulin in
+response to the level of glucose in the blood, thereby
+maintaining the glucose level within a narrow operating
+range. There are several million such islets, and each
+contains several thousand insulin secreting cells, known as
+13-cells, as well as other types of cells. The release of insulin
+is pulsatile and is correllated with rhythmic oscillations in
+membrane potential. If one impales a ,8-cell in an isolated
+islet exposed to glucose with a microelectrode, one observes
+a slow oscillation from a low voltage (silent phase) to a
+plateau upon which is superimposed rapid spiking (active
+phase). This phenomenon is commonly called bursting. See
+Fig. 1 a.
+
+Calcium flows into the cell during spiking (Dean and
+Mathews, 1970; Rorsman and Trube, 1986), and this
+increase in intracellular calcium is believed to cause insulin
+release (Rubin, 1982). The fraction of time spent spiking
+increases with extra-cellular glucose concentration (Bei-
+gelman et al., 1977). In order to explain the electrical
+aspects of this behavior Atwater et al. (1980) proposed a
+mechanism based on voltage-gated potassium and calcium
+channels and a calcium-activated potassium (K-Ca) chan-
+nel. Chay and Keizer (1983) developed these ideas into a
+quantitative, dynamic model, which accounted well for a
+number of observations made in the islet preparation. In
+the absence of voltage clamp data for the 13-cell, this model
+
+Address correspondence to Dr. Arthur Sherman, National Institutes of
+Health, National Institute of Diabetes and Digestive and Kidney
+Diseases-Mathematical Research Branch, Building 31, Room 4B-54,
+Bethesda, MD 20892.
+
+was based on modifications of Hodgkin-Huxley kinetics for
+the squid giant axon.
+
+Within an islet, 13-cells are known to be electrically
+coupled and bursting is approximately synchronous. The
+Chay-Keizer model describes the electrical behavior only
+of a representative cell in an intact, perfectly synchronized,
+islet. On the other hand, 13-cells burst only when coupled in
+the islet (or artificially clumped together in vitro). Single
+cells exhibit irregular spiking, as shown in Fig. 1 c, from
+Rorsman and Trube (1986). We cannot conceive of any
+modification of the Chay-Keizer model involving only
+coupling and deterministic mechanisms that can account
+for both the single-cell and cell cluster behavior. Thus, in
+pursuing our long-term goal of understanding bursting and
+synchronized activity in the 1-cell, we have been led to
+consider stochastic mechanisms.
+
+We focus on a stochastic explanation of the effects of
+coupling called channel sharing, first advanced by Atwater
+et al. (1983). These authors noted that the conductance of
+a single K-Ca channel is large compared with the total K+
+conductance of the 13-cell and that the K-Ca channels are
+open very rarely under physiological voltages and intracel-
+lular calcium concentrations (Findlay et al., 1985). They
+inferred that the resting potential would be unstable unless
+the cells shared channels by electrical coupling through
+gap junctions. If very few of these channels are open at any
+given time, then random channel events may perturb the
+membrane potential of an isolated cell enough to disrupt
+the burst pattern and produce the observed irregular
+behavior of single cells. In clusters (islets or clumps) of
+electrically-coupled 13-cells, on the other hand, regular
+bursting might be possible because the contribution of each
+
+BIOPHYS. J.©BiophysicalSociety
+Volume 54
+
+September 1988
+
+411-425
+
+*
+
+0006-3495/88/09/411/15
+
+$2.00
+
+411
+
+-40
+
+-20
+
+-50
+
+-60L
+
+15 s
+
+30 a
+
+4 a
+
+(a) Recording from a representative #-cell in an intact islet in
+FIGURE 1
+11 mM glucose. Taken from Atwater and Rinzel, 1986. (b) Recording
+from a 70-um diameter cluster of cultured ,-cells exposed to 10 mM
+glucose. Reprinted with permission from Rorsman and Trube, 1986, Fig.
+1 a. (c) Spontaneous spiking from an isolated ,-cell exposed to 10 mM
+glucose. Reprinted with permission from Rorsman and Trube, 1986, Fig.
+2 c.
+
+channel to the current density in the shared membrane,
+and hence the perturbing effect of each channel event,
+would be smaller. By incorporating a stochastic K-Ca
+channel into a revised version of the Chay-Keizer model we
+demonstrate here the viability of the channel-sharing
+hypothesis. Bangham et al. (1986) presented a single-cell
+model that had stochastic K+ channels and exhibited
+irregular spiking. They did not, however, model cell clus-
+ters and so did not address the channel-sharing hypothesis
+or consider the emergence of bursting in large clusters of
+cells.
+
+It is tempting to dismiss the importance of K-Ca chan-
+nels for bursting because they are open so rarely. Thus, a
+number of alternative molecular mechanisms for bursting,
+all involving slow feedback of calcium onto inward or
+outward currents, have been proposed and explored theo-
+retically. For a review see (Keizer, 1988). Our simulations
+suggest, however, not only that the K-Ca channels may
+play a role in bursting, but that they must necessarily be
+open a small fraction of the time for organized bursting to
+occur. Our general conclusions about channel sharing in
+cell clusters are independent of the precise mechanism of
+calcium feedback. In fact, Chay and Kang (1988) have
+obtained similar results using a model based on calcium
+inactivation of a calcium channel and different simulation
+techniques.
+
+In order to base our investigation more solidly in experi-
+mental facts, we have updated the Chay-Keizer model by
+incorporating recent experiments of Rorsman and Trube
+(1986) that characterize the voltage-gated potassium and
+calcium currents in the (3-cell. The details of this are given
+in Section II, where we formulate a deterministic model for
+a representative (-cell in a synchronized islet. Section III
+introduces a model for an isolated (3-cell with a finite
+number of stochastic K-Ca channels. In Section IV this
+treatment is extended to a cluster of tightly-coupled sto-
+
+412
+
+chastic (3-cells. We demonstrate that, as the number of
+cells in the cluster is increased, there is a transition from
+irregular spiking to bursting. We also draw some theoreti-
+cal conclusions from our simulations about channel shar-
+ing. We show how the results depend on the unitary
+conductance and density of the shared channel. This is
+important because these parameters are not precisely
+known at the present time. In Section V we critique the
+model and discuss its applicability to the A-cell. We
+conclude with suggested issues for experimenters to investi-
+gate in light of the model's predictions.'
+
+II. DETERMINISTIC MODEL FOR A
+REPRESENTATIVE CELL IN A
+SYNCHRONIZED ISLET
+
+Voltage-Dependent Currents and Action
+Potential Generation
+
+We base our model for the representative (-cell on whole-
+cell voltage clamp experiments performed at 20-22 OC by
+Rorsman and Trube (1986). After the usual Hodgkin-
+Huxley formulation, individual ionic currents are repre-
+sented as products of voltage and time-dependent conduc-
+tances with driving potentials that reverse at the Nernst
+equilibrium potential. Each conductance is expressed as
+the product of the total cell conductance and the activation
+level, or fraction of channels open. With modifications, as
+described below, we use the measured values for parame-
+ters and theoretical expressions for activation levels given
+by Rorsman and Trube. The exact parameter values and
+equations are given in the Appendix. The most salient
+experimental facts are (a) There is a voltage-gated Ca2"
+conductance whose steady-state activation curve is given
+by the sigmoidal function
+
+In() + exp [(Vm - V)/Sm]~
+
+1
+
+(2.1)
+
+with V/m = 4.0 mV and Sm = 14.0 mV. (b) There is a
+voltage-gated K+ conductance with sigmoidal activation
+curve
+
+n( 1 ± exp
+
+1
+
+I+ep[(V, - V)/SJ]
+
+(2.2)
+
+with V5 =-19.0 mV and Sn = 5.6 mV. (c) No data are
+given to choose values for the exponents p and At, or for the
+presence of a leakage current. (d) From whole-cell current
+measurements and the above activation curves we estimate
+that the maximal Ca2" and K+ conductances, -Ca and
+
+'Preliminary reports on this work have appeared in an abstract (Sherman,
+A., J. Rinzel, and J. Keizer, 1988. Biophys. J. Vol. 53:518a [Abstr.]) and
+a conference proceedings (Rinzel, J. 1988. On the electrical activity and
+glucose response of insulin-secreting cells. In Biomathematics and
+Related Computational Problems. L. Ricciardi, editor. 685-696. D.
+Reidel Publishing Co., Dordrecht, Holland.)
+
+BIOPHYSICAL JOURNAL VOLUME 54
+
+1988
+
+20-30 ms.
+
+are on the order of several thousand pS, with -K about
+twice as big as gCa (e) In the range of voltages of interest
+for bursting, the time constants for the Ca2" and K+
+currents, respectively Tm(V) and r,(V), are Tm
+0.15-1.5
+ms and rn
+
+Because the time constant for the Ca2" current is so
+small, we chose to set m(t) = mJ,(V); in this case the value
+of p does not matter, so we let p = 1. For ,u we used the
+value 1 (although variations of the model with ,u = 2 and a
+correspondingly modified n. also gave reasonable results).
+We found that by adjusting VI' slightly, to - 15 mV, the
+model became much more robust under perturbations and
+changes in other parameters. A formula for r,(V) was
+obtained by fitting a function of the form
+
+n5(V)
+
+exp [(V- V)/a] + exp(-(V- V)/b) (23)
+
+to the given experimental values. The leakage current was
+found to be inessential.
+
+We found that the standard current-voltage (I-V) rela-
+tion, based on Ohm's law and the Nernst equation, is
+inadequate to describe all of Rorsman and Trube's (Rors-
+man and Trube, 1986) data for the Ca2` current. We
+obtained an improved fit to the experimental I-V curve by
+multiplying the current by a reverse sigmoidal factor,
+
+1 + exp [(V- Vh)/Sh]'
+
+(2.4)
+
+with Vh = -10 mV and Sh = 10 mV. The product of
+h(V)(V - Vca) with the single-channel conductance can
+be interpreted as a nonlinear I-V relation for a single open
+calcium channel. Although we can offer no channel model
+which results in this I-V relation, it does give a reasonable
+fit to the experimental I-V curves (Fig. 2) in Rorsman and
+Trube. The shape is much closer to the experimental curves
+than that of a linear I-V relation, and the scale is within a
+factor of l/3. In particular, for the case [Ca]o = 2.56 mM, it
+reproduces the early peak and sharp dropoff in the calcium
+current. This representation does not, however, adequately
+
+v (mV)
+
+\--25
+
+I (pA/pF)
+
+\\
+
+,-5.0
+
+_,
+
+--7.5
+
+--10.0
+
+--lL6
+
+(Solid curve) Ic.(V) - gcm..(V)h(V)(V - 110). (Dashed
+FIGURE 2
+curve) Ic,(V) - gcm..(V)(V - 50 ). Including factor h(V) gives much
+better agreement with the shape of the experimental calcium I-V curve
+(See Rorsman and Trube, 1986, Fig. 3 a).
+
+SHERMAN ET AL.
+
+Emergence ofBursting by Channel Sharing
+
+model the shift in the I-V curve as [Ca]l
+is varied. Other
+investigators have used the Goldman-Hodgkin-Katz equa-
+tion (Hodgkin and Katz, 1949; Goldman, 1943) to model
+calcium channels in other preparations. See, for example,
+Kay and Wong (1986) on the guinea-pig hippocampal
+neuron and Morris and Lecar (1981) for the case of
+barnacle muscle fibers. We fotnd that this approach did
+not adequately capture the early peak in Ic, nor were we
+able to generate solutions with correctly shaped bursts
+using that formulation.
+
+The equations which describe the action-potential
+
+dynamics of our model are given by:
+
+dv
+
+Cm dtI=-K - ICa - IK-C = -gKn(V- VK)
+
+-gc m,.(V)h(V)(V- VC.) - gK-Ca(V- VK)
+
+dn
+
+==
+
+<n.XV)- n]
+
+(2.5)
+
+(2.6)
+
+where Cm is the total membrane capacitance of the cell; VK
+and Vc, are the K+ and Ca2" reversal potentials, respec-
+tively; and X is a nondimensional parameter, analogous to
+the temperature in the Hodgkin-Huxley model, which we
+have used to fine tune the K+ time constant. Here we have
+included the calcium-activated potassium current, IK-C.,
+but, for now, we treat the conductance gK&C as a parame-
+ter. If X is near 1, the system exhibits action-potential
+oscillations over a large, but bounded interval of gK-C
+values.
+
+Our calculations confirm the suggestion of Rorsman and
+Trube (Rorsman and Trube, 1986, p. 532) that the volt-
+age-gated calcium and potassium currents described above
+are sufficient to generate the action potentials of the (3-cell.
+Chay (1987) also obtains action potentials with a two-
+current model of the ,B-cell that is based in part on the
+Rorsman and Trube data. In order to obtain bursting she
+employs calcium inactivation of the calcium conductance
+as a feedback mechanism, rather than a calcium-activated
+potassium conductance. While the activation parameters
+and time constants for our voltage-gated potassium and
+calcium currents are more faithful to those given by
+Rorsman and Trube, we have not incorporated all of their
+observations. In particular, we have neglected the slow
+voltage-dependent inactivation of IK. With only minor
+adjustment of other parameters this inactivation can be
+incorporated in our model, but it does not change the
+results qualitatively, so we have not included it in the
+calculations below.
+
+Bursting by Calcium Feedback
+
+In order to formulate a bursting mechanism and analyze it,
+we follow the ideas of Rinzel (1985) on the qualitative
+structure of the Chay-Keizer model. This treatment
+exploits the time-scale differences in the fast and slow
+processes, (i.e., spike generation and calcium feedback to
+
+413
+
+the K-Ca current, respectively) to show how the cell
+alternates between the active and silent phases. Since gK-C
+varies slowly during a burst period, it is helpful to examine
+how solutions of Eqs. 2.5 and 2.6 depend on gK-Ca when it is
+treated as a parameter. First, we define the steady-state
+current as:
+
+ISS(V; gK-Ca) = gK"n(V)(V - VK)
+
++ jc3m.,>(V)h(V)(V - Vca) + gKC0(V- VK).
+
+(2.7)
+The voltages corresponding to zero crossings of this current
+represent steady states of the membrane, i.e., time-
+independent solutions of Eqs. 2.5-2.6. Note that the
+expression for ISS incorporates the steady-state dependence
+of n upon V. Fig. 3 a is a plot of ISS for several values of
+gK.Ca. For gKCa large, the single steady-state V is near VK;
+for gKJCa small, V lies intermediate between VK and Vc.
+There is an intermediate range of gK.Ca values for which ISS
+generates three steady states. A concise graphical sum-
+mary (called a Z-curve) of the steady-state voltages as
+functions of gK ca is shown in Fig. 3 b.
+
+The mathematical stability and, hence, physical realiza-
+bility of each steady state depends on the values of the
+parameters in Eqs. 2.5-2.6 (For background on stability
+analysis see Fitzhugh, 1961). Figs. 3 b and 4 a illustrate
+the stability of these steady states with gK-Ca as a parameter
+for different values of X. The equations are called bistable
+because a low-V stable steady state coexists with a high-V
+stable steady state or oscillatory state. The intermediate
+steady state is unstable (dashed), and it represents a
+threshold voltage of saddle type.
+
+If X is large enough the delayed-rectifier current
+
+a
+
+g-Ka - 330
+
+0----- -------
+
+.
+
+(a) Steady-state I- V relation for the deterministic model for
+FIGURE 3
+various values of gK C,, Eq. 2.7. (b) Z-curve obtained by plotting the zero
+crossings of Iss(V; gK.C.) as a function of gKX. Solid portions of curve
+represent steady states which are stable solutions to Eq. 2.5-2.6, while
+dashed portions are unstable. Here A - 7. Stability was computed using
+the program AUTO (Doedel, 1981). The small circles are the roots of ISS
+200 pS and correspond to the small circles in Fig.
+(V; gK) for gKc
+3 a.
+
+2-SC. - 160
+
+-469
+
+b
+
+u-SC. - 130
+
+-47.6
+
+0.0
+
+0.1
+
+01
+O.'S
+Time (s)
+
+0.4
+
+0.5
+
+FIGURE 4
+(a) Bifurcation diagram computed using program AUTO
+(Doedel, 1981). The Z-curve represents steady states of Eqs. 2.5-2.6.
+Solid indicates stable, dashed unstable. Here, for X - 1.6, the high-V
+steady state is unstable for a range of gKrC values and may be surrounded
+by an oscillation; the fork on the Z-curve indicates the maximum and
+minimum voltage of this periodic, repetitive firing, solution as functions of
+gK. The left knee of the Z-curve at gKC,v ( - 160.30 pS) is where the
+low voltage steady-state branch joins the threshold saddle branch. The
+stable periodic solution branch terminates at gKdc,Ac (- 183.26 pS) where
+the oscillating voltage collides with the saddle branch. As gKc. approaches
+gK-C.,HC the period becomes infinite; the collision point is called a
+homoclinic point. (b) Solution of Eqs. 2.5-2.6 with gKc. - 160 pS (upper)
+and 180 pS (lower), corresponding roughly to the spikes seen at the
+beginning and the end of a burst (see Fig. 5 a). Note that the amplitudes
+change slightly and period almost doubles from the upper panel to the
+lower.
+
+responds so rapidly to changes in V that the inward and
+outward currents balance, and there are no oscillations.
+Thus, for X = 7 (Fig. 3 b) both the high-Vand low- Vstates
+are stable (solid).
+
+For X near 1.6 (Fig. 4 a), however, the high-Vstate may
+no longer be stable but instead may be surrounded by a
+periodic oscillation. Such fast time scale oscillations corre-
+spond to the repetitive spiking of the active phase. Thus,
+reading from left to right, at a certain value of
+c (where
+the fork begins) the upper steady state loses stability and
+gives rise to a small amplitude oscillation. This event is
+called a Hopf bifurcation. The upper and lower branches of
+the fork represent the minimum and maximum voltages
+attained by the oscillation for the corresponding value of
+gK.Ca,; examples for two selected values of 9K4 are shown in
+Fig. 4 b. The time courses were computed by integrating
+Eqs. 2.5-2.6 with gKn as a parameter using a Gear
+algorithm (Gear, 1967). The stability characteristics were
+computed by the program AUTO (Doedel, 1981). The
+computations were carried out on a VAX 8600 computer
+(Digital Equipment Corp., Maynard, MA).
+
+The periodic solutions terminate when the oscillation's
+minimum voltage just falls below the threshold, i.e., when
+
+414
+
+BIOPHYSICAL JOURNAL VOLUME 54
+
+1988
+
+the fork's lower branch contacts the intermediate steady
+state. As gK-Ca approaches a critical value the period of the
+oscillatory response tends to infinity; the limiting solution,
+as it disappears, is called a homoclinic orbit, and we denote
+the critical value gK-Ca,HC. The left knee of the Z-curve at
+gK C,,, marks the transition from the saddle branch to the
+low- V steady state.
+
+Bistability is the underlying mechanism for bursting in
+all existing models of the ,8-cell. In our model, slow upward
+and downward variation of gK- through the range (gK-C",
+gK-Ca,HC) sweeps the system alternately through active and
+silent phases. It is necessary that the variations of gKCa be
+very slow relative to the changes in V and n so that Eqs.
+2.5-2.6 are in a quasi-steady state.
+
+The two voltage-gated currents, IK and ICa, are delicately
+balanced, and a small additional current, e.g., IKCa, on the
+order of several pA, can switch the equations between the
+two regimes. We will see later that the behavior of the
+stochastic version of the model depends critically on the
+size of the conductance window Ag (= gK-Ca,HC - gK-Ca,,)
+which is traversed during an active or silent phase. The size
+of the window depends sensitively on X and other parame-
+ters.
+
+We have considerable freedom in specifying the charac-
+teristics of the slowly varying potassium conductance,
+gK-C,, such that it can regulate the bursting. For simplicity,
+we use the formulation originated by Plant (1978) and
+adopted by Chay and Keizer (1983). Their idea can be
+interpreted in terms of a K+ channel with two possible
+states, open (0) and closed (C). When a Ca2, ion binds to
+a closed channel it opens according to the kinetic equa-
+tions:
+
+kC
+C + Ca =
+
+.
+
+(2.8)
+
+At equilibrium the relative populations of open and closed
+states satisfy
+
+[0]
+[C]
+
+Ca,
+Kd
+
+(2.8a)
+
+where Kd = k_/k+ and Cai is the concentration of free
+intracellular calcium. Therefore, if the kinetics of the
+binding process are rapid, we deduce from Eq. 2.8a that
+the fraction of open channels is Cai/(Kd + Ca;) so that
+
+sites. Thus, Cai satisfies the equation (Chay and Keizer,
+1983)
+
+dCa, =f(-aIC - kc Ca1),
+dta Ca)
+
+(2.10)
+
+where a is a unit conversion factor to change current into
+concentration/time and kc, is the net Ca2" removal rate.
+Note that although the fraction of open channels equili-
+brates instantaneously to the level of intracellular calcium,
+it varies slowly because it depends only on calcium. Note,
+also, that the model places no restriction on the value of
+gK-Ca; for appropriate values off and kc, the value of Ca,
+automatically adjusts to put gK-Ca in the range for bursting,
+150-200 pS (cf, Fig. 4 a).
+
+Eqs. 2.5, 2.6, 2.9, and 2.10 constitute the deterministic
+bursting model. (A full statement of the equations and the
+parameters is contained in the Appendix.) It would appear
+to be one of the simplest models consistent with the
+
+s. 1u.
+
+Id 19^
+w -.
+qo
+
+7
+
+g-KCa (pS)
+
+gK.ca(Caj) = -K-C Kd + Ca.
+
+(2.9)
+
+The value of Cai changes as a result of the inward Ca2`
+current and because of calcium removal through mitochon-
+drial uptake, pumping, or other unspecified mechanisms.
+Intracellular calcium (Ca1) varies slowly because the frac-
+tion of free calcium in the cell, f, is taken to be very small
+(10-s - 10-s); this follows from the fact that the bulk of
+incoming Ca2" is rapidly taken up by high affinity binding
+
+FIGURE 5
+Bursting solution for the deterministic model: Voltage, (a)
+calcium-activated potassium conductance, (b) and intracellular calcium
+(c) plotted against time. Solutions were obtained by integrating numeri-
+cally Eqs. 2.5, 2.6, 2.9, and 2.10 using parameter values in the Appendix.
+The period of the spikes increases from the beginning to the end ofa burst.
+Note that gK c. is essentially a constant multiple of Cai because Kd is large.
+See Eq. 2.9. (d) Bursting solution projected as V-gK-c. trajectory and
+overlayed on expanded bifurcation diagram from Fig. 4 a. The arrows
+indicate the direction of increasing time. If V-Ca; phase plane had been
+drawn instead, the results would have been indistinguishable except for a
+scale factor.
+
+SHERMAN ET AL.
+
+Emergence ofBursting by Channel Sharing
+
+415
+
+Rorsman and Trube data that exhibits bursting. More
+elaborate internal calcium handling could be substituted
+for Eq. 2.10 without interfering with the rest of the model.
+We have ignored the known voltage dependence of the
+K-Ca channel (Findlay et al., 1985) because present data
+are not sufficiently accurate in the physiological range of
+low V and low calcium. As more accurate data become
+available, channel dynamics with voltage dependence and
+more complicated calcium dependence could be employed.
+Other slow potassium channels such as the voltage-
+independent, ATP-inhibited potassium channel can be
+added or substituted. Indeed, a model for bursting has been
+developed which uses the Rorsman and Trube kinetics for
+K+ and Ca2" conductances and which incorporates a
+slowly varying ATP/ADP ratio to modulate the burst
+(Magnus, 1988).
+
+Figs. 5a-c show the voltage, calcium-activated potas-
+sium conductance, and calcium time courses obtained by
+numerical integration of Eqs. 2.5, 2.6, 2.9, and 2.10, while
+Fig. 5 d shows the V-gKQ phase plane trajectory superim-
+posed on an expanded view of the bifurcation diagram, Fig.
+4 a. These pictures expose the Ca; feedback mechanism
+which regulates the burst. During the silent phase Ca;
+decreases due to calcium removal (the kca term), which
+turns off the K-Ca channels and slowly depolarizes the cell.
+When the membrane potential rises above a threshold the
+voltage dependent K+ and Ca2" channels open and cause
+repetitive spiking. The Ca2" channels allow influx of
+calcium (the ICa term) into the cell which slowly reactivates
+the K-Ca channels again, terminating the burst and repo-
+larizing the cell.
+
+Note that gK-c. slavishly follows Cai; this relationship
+will be broken in the stochastic model. If we had drawn
+Figs. 3 b, 4 a, and 5 d in terms of calcium instead of
+conductance the results would have been indistinguishable
+except for scale because the calcium dissociation constant
+Kd is large, and hence gKcQ is approximately a constant
+multiple of Cai.
+
+same as the Chay-Keizer model, as updated in (Chay and
+Keizer, 1985); the differences are quantitative. As with
+their original model, one can simulate the glucose dose
+response behavior by varying the rate (kc) of calcium
+removal from the cytoplasm. The effects of quinine and
+tetraethylammonium ion (TEA) can be modeled in the
+same manner as in the old model (Chay and Keizer, 1983).
+The spike height, rest potential, and the plateau potential
+can be adjusted by manipulating A and VK. The burst
+frequency depends almost linearly on f, provided f is
+sufficiently small. The spike frequency with X = 1.65
+decreases from -8 to 4 per s from the beginning to near the
+end of a burst (comparable to experimental results), with a
+precipitous drop to near zero frequency just as the burst
+ends (compare with Fig. 4 b). The peak Ca2" and K+
+currents are -20 and 12 pA, respectively, during the
+active phase, about twice the Chay-Keizer values. The net
+current varies between ±5-10 pA during the active phase.
+The only area of major discrepancy between the two
+models is the predicted range of values of gK-Ca. The new
+model gives a range of 150-200 pS, which is ten times
+greater than in the Chay-Keizer model and about two or
+three times the value estimated from rubidium flux experi-
+ments (Atwater et al., 1983).
+
+This completes our discussion of the revised determinis-
+tic model. It provides an adequate quantitative description
+of the behavior of a typical 13-cell in a synchronized islet. As
+indicated at the beginning, however, it does not predict the
+irregular behavior of isolated cells. In order to achieve this
+we turn to a stochastic description.
+
+III. STOCHASTIC MODEL FOR AN
+ISOLATED p3-CELL
+
+Patch clamp experiments on the K-Ca channel show that it
+has a large unitary conductance of =60-75 pS (average 71
+pS) in unsymmetrical K+ solutions with outward current
+(Atwater et al., 1988). Most previous experiments have
+been performed in symmetrical high K+ solutions, and
+various values ranging from -100 to 300 pS have been
+reported for the unitary conductance (Barrett et al., 1982,
+Cook et al., 1984; Findlay et al., 1985; Atwater et al.,
+1988). The mean fraction open is very small (0-5%) at
+membrane potentials <+25 mV (Findlay, 1985). Some
+workers have therefore questioned the role of the K-Ca
+channel in bursting. Yet, according to the model (cf., Figs.
+3 and 4 a), if the average total K-Ca conductance were
+much greater than 150-200 pS, the cell would be perma-
+nently hyperpolarized. Therefore only two to four K-Ca
+channels per cell can be open at any given time. Based on
+patch clamp experiments in which at least one K-Ca
+channel is found per 1 m2 patch (Andres Stutzin, personal
+communication), we estimate that there are several
+hundred K-Ca channels per cell. Thus, a small open
+fraction is actually a necessary condition for bursting in
+our model. The same observation also makes clear that a
+
+The results depend sensitively on the value of X, which
+controls the excitability of the spike generating system and
+hence the shape of the fork in Figs. 4 a and 5 d. The
+computations displayed in Fig. 5 were carried out with X =
+1.6. Reasonable looking bursts can be obtained for X in the
+range (1.5-1.7). As A is increased the fork closes up on the
+upper branch so that part of the upper branch of the
+Z-curve is stable. For A bigger still the entire upper branch
+of the Z-curve becomes stable, and bursting is replaced by
+a slow wave oscillation in which V alternates between the
+upper and lower steady state branches. This corresponds to
+the situation in Fig. 3 b. On the other hand, if A is too small
+the fork opens out below the left knee and gK.C,,HC moves
+leftward to equal gK-C,,* In this case bistability is lost, and
+instead of bursting we find a large amplitude continuous
+spiking mode called beating.
+The structure of the K
+
+- V phase plane and the
+overall behavior of our revised model is qualitatively the
+
+416
+
+BIOPHYSICAL JOURNAL VOLUME 54
+
+1988
+
+single channel event can switch the cell between the spiking
+and silent regimes. We explore whether stochastic fluctua-
+tions of the K-Ca channel could produce the kind of
+irregular records observed in individual cells.
+
+Of course, the other channels will also be undergoing
+stochastic fluctuations, but the K-Ca channel will have the
+most significant effect because it has the largest unitary
+conductance. A calculation of the standard deviations of
+the three currents shows that if the conductance of the
+K-Ca channel is, say, lOx > that of the delayed-rectifier
+and 20x > that of the calcium channel, then the fluctua-
+tions of the K-Ca current will dominate. Further support is
+found in the Chay-Kang (1988) model for cell clusters in
+which there is no K-Ca channel, and the largest channel is
+the delayed-rectifier. Fig. 3 in that study shows that the
+largest channel is responsible for the major part of the
+stochastic effects, and that the two smaller channels may
+safely be neglected.
+
+We interpret the first order kinetic process represented
+by Eq. 2.3 as a Markov process in which the channel jumps
+from the open state to the closed state with probability per
+unit time 1/Ir and jumps back with probability per unit
+time 1/re:
+
+C-0
+
+1/TO
+
+(3.1)
+
+where ro and TC are then the mean open and closed times,
+respectively. Let No = the number of open channels and let
+Nc = the number of closed channels. The ratio of open to
+closed channels depends on To and rT, and at equilibrium
+the ratio of their mean values is:
+
+(No)
+(Nc)
+
+To .
+rc
+
+(3.2)
+
+In the deterministic model the fraction of open channels
+depends monotonically on intracellular calcium. This
+effect is achieved in the stochastic model by noting that ro
+depends on Cai (Cook et al., 1984; Findlay, 1985) and
+setting
+
+TO
+TC
+
+Cai
+Kd
+
+(3.3)
+
+We generally keep rC fixed and let ro be proportional to
+Cat. If we let p = No/(No + NJ) denote the fraction of open
+channels, then p is a random variable whose mean is the
+fraction of total K-Ca conductance in the deterministic
+case. For example, at equilibrium its mean value is
+
+()= (NO)
+
+(No0) + (Nc)
+
+Ca,
+
+Kd + Cai
+
+34
+
+(
+
+Thus intracellular calcium provides a negative feedback
+mechanism, as in the deterministic case, but now it does so
+only indirectly by controling transition probabilities.
+
+SHERMAN ET AL.
+
+Emergence ofBursting by Channel Sharing
+
+The associated system of stochastic equations is:
+
+Cm
+
+dV
+dti
+
+_
+
+IK -ICa
+
+gK-CaP(V- VK)
+
+dn
+di =(
+
+An["(V) - n]
+- na
+
+dCa, =f(-daI - kca Cat),
+dt
+
+(3.5)
+
+(3.6)
+
+(3.7)
+
+where p is determined by the stochastic process described
+above. The three variable system of differential equations
+and stochastic process can be solved numerically as follows:
+given the values of V, n, Ca;, and p at time t, use a
+numerical integrator to compute the values of V, n, and Cai
+at time t + At. Then use Ca; to compute the probabilities of
+channel opening and closing and the fraction of channels
+open at t + At. We keep rT fixed and compute TO using the
+formula TO = Tc * Cai/Kd.
+The probability that a given open channel will close
+to At/ro, provided At is
+during the interval (t, t + At) is
+chosen sufficiently small. Since the channels are indepen-
+dent, the probability that one channel out of the population
+of open channels closes is Pr{NS - Nc + 1, No
+No- 11
+= No At/ro.
+
+repeat the cycle.
+
+We choose At so that this probability is <0.1, which
+assures that the probability of two openings is negligible.
+To decide if a channel closing occurs in our simulations, we
+use a random number generator to obtain a random
+variable, X, chosen from a uniform distribution on the
+interval [0, 1]. If X < No * At/Tr, we increment Nc and
+decrement No by 1; otherwise we do nothing. We then
+proceed in the same manner to determine whether one of
+the closed channels opens during the interval (t, t + At).
+The probability of this is Pr{NO- No + 1, Nc
+Nc - 1
+= Nc At/TrC
+Finally we compute p at t + At, p = No/(No + NJ), and
+For the benefit of readers who wish to perform these
+computations we make some additional comments on
+implementation. It is not necessary to monitor the state of
+each channel, but only the total number of channels in each
+state; this saves many calls to the random number genera-
+tor. For a discussion of the validity of this simplification see
+(Keizer, 1987). When looked at in this way, the process is
+equivalent to a birth and death process (Cox and Miller,
+1965). The time step must be chosen small enough to keep
+the error in the integration of the deterministic variables,
+V, n, and Cai small and also to keep the transition
+probabilities small, say <0.1 as suggested above. Our
+numerical integrator automatically chooses At so as to
+satisfy the first criterion; we use the option to specify a
+maximum allowable value for At to satisfy the second.
+Using the channel parameters discussed below, typical
+time steps were -0.2 ms. Since bursts last many seconds
+1 a), hundreds of thousands of time steps are
+(Fig.
+
+417
+
+required to do a complete simulation. Unlike the determin-
+istic problem, which can easily be solved on a small
+personal computer with a numeric co-processor, the sto-
+chastic simulations require a fast mini-computer, such as a
+VAX 8600. The total CPU time is proportional to the
+number of time steps, hence the number of channels. In the
+next section we will discuss clusters of cells sharing thou-
+sands of channels, and for these simulations we found it
+convenient to use a CRAY X-MP super-computer (Cray
+Research, Inc., Mendota Heights, MN).
+
+For the longest simulations presented below we used an
+alternative method to track the channel events that takes
+advantage of the fact that the time to the next event is
+exponentially distributed with rate parameter N0/Tr +
+Nc/rc. If the numbers of open and closed channels are at
+their equilibrium values, one can show that the average
+time between events is then
+
+To + Tc
+
+2(No + Nj)
+
+(3.8)
+
+with opening and closing probabilities
+
+PriNc
+
+Nc + 1, N, --N -1I=~ NclrC
+
+N0/r0 + Nc /-rc
+
+(3.9)
+
+and
+Pr{N0 - N.+ l,Nc -- Nc- 1II.OT
+
+NO/TO + Nc /Tc
+
+(3.10)
+
+(For a proof of the equivalence of this approach with the
+previous one see Cox and Miller, 1965). This time step is
+bigger than the one required by the previous method by a
+factor of - 5. We used this method in cases where the
+number of channels was very large, and the average time
+step was consequently very small. In this case a simpler
+Runge-Kutta integration scheme was found to be adequate
+for the deterministic variables. With this method, a simula-
+tion with 100,000 channels and an average time step of
+-0.005 ms, can be carried out in <5 min of CRAY time.
+Like the previous method, the computation time is propor-
+tional to the number of channels and inversely proportional
+to the open and closed times, To and T,.
+In order to carry out a simulation we must choose values
+for the number of channels, N,.,, and for either ro or rc.
+Based on a density of -1 K-Ca channel per 1 jAm2 patch we
+let NtO = 600. For an assumed single-channel conductance
+g of 50 pS the total cell conductance gK-Ca is 30,000 pS.
+From the Z-curve and the value of
+we can predict that
+p will be -0.005. We choose Tc to be 1,000 ms and
+constant. From Eq. 3.3, To will then vary with Ca; and be
+-5 ms. We have no data on ro for the K-Ca channel in the
+,B-cell, but 5 ms. is compatible with data for rat muscle
+(Moczydlowski and Latorre, 1983). Finally, the calcium
+dissociation constant, Kd, is chosen to be 100 ,uM in order
+that Cai will be in the physiological range of -0.5 gM. The
+value of Ca1/Kd, and hence of Kd, is a constraint imposed by
+
+the Rorsman and Trube data and our estimate of -KCa;
+previously the Chay-Keizer model had used Kd = 1 ,uM.
+Fig. 6 shows the results of a calculation with the above
+parameters, which should be compared with Fig. 1 c. The
+simulation for a single cell shows irregular spikes of large
+amplitude that range from the rest potential to nearly -10
+mV. There is some evidence of abortive spiking from a
+plateau, as seen in the deterministic full islet model, but no
+evidence of bursting. Note that this simulation represents
+only a single sample path from the set of possible realiza-
+tions of the stochastic process described above, rather than
+a unique solution to a set of equations as in the determinis-
+tic case. Other realizations can be obtained by varying the
+seed for the random number generator. The simulations
+reported here are typical ones taken from the many we
+have performed.
+
+Fig. 7 a shows on an expanded time scale the portion of
+Fig. 6 with an overline. Spikes which begin at the rest
+potential, such as the first one in Fig. 7 a, are asymmetri-
+cal, with a slow upstroke and a rapid downstroke.
+Bangham et al. (1986) noted this in experimental records
+and attributed the rapid downstroke to sudden stochastic
+K-Ca channel openings. We believe that the downstroke is
+not much more rapid than in the deterministic case (com-
+pare Fig. 4 b), but rather that the upstroke is noticeably
+slower because the membrane time constant is relatively
+large at low voltages. Further analysis of the single-cell
+behavior is deferred to Section IV where it will be
+compared with results for clusters of cells.
+
+0.
+
+CSOO
+
+250)
+
+S-KCa.HC
+
+g-KCa.JIU
+
+Time (s)
+
+FIGURE 6
+Simulated voltage time course for an isolated single cell with
+600 50 pS K-Ca channels. Compare with Fig. 1 c. Voltage range of spikes
+is from the rest state to the maximum with no plateau, unlike a cell in an
+intact islet (Fig. 1 a) or the solution of the deterministic model (Fig. 5 a).
+The portion of the solution under the short horizontal line is expanded in
+Fig. 7 a.
+
+FIGURE 7
+Simulated single cell on expanded time scale. (a) Voltage
+and (b) gK1c time courses. Horizontal lines in Fig. 7 b indicate gK-C.,.
+conductance level near which active phase begins and gK,Hc, conduc-
+tance level near which active phase ends in deterministic model. This
+discreteness of the conductance levels is clearly visible. Note that gKc. can
+range far beyond the deterministic bounds.
+
+418
+
+BIOPHYSICAL JOURNAL VOLUME 54
+
+1988
+
+In the absence of glucose, an isolated ,8-cell is quiescent
+(I. Atwater, personal communication). By reducing the
+calcium removal rate, kca, to -0.0005 ms-' we have
+obtained records of as long as 30 s without any spikes. This
+is remarkable considering the large variance of -K.CI when
+kc, = 0.03 ms-' as in Fig. 6. In this case, the model
+predicts that Cai will approximately double to
+1 1.,M. We
+plan to use the model in the future to contrast the glucose
+dose response of single cells and clusters of cells.
+
+The stochastic model does a reasonable job of describing
+the behavior of an isolated (-cell. In the next section we
+show how to construct a cluster of stochastic ,8-cells that
+bursts.
+
+IV. CLUSTERS OF TIGHTLY
+ELECTRICALLY-COUPLED CELLS
+
+Channel Sharing Hypothesis
+
+There is abundant experimental evidence that (3-cells in an
+islet are electrically coupled, and morphological studies
+show the existence of gap junctions between ,3-cells (Edd-
+lestone and Rojas, 1980; Meda et al., 1984). Lucifer
+Yellow dye injected into one cell through a microelectrode
+usually labels a small number (2-5) of neighboring cells
+(Michaels and Sheridan, 1981; Meda et al., 1986) presum-
+ably by passing through the gap junctions. Current
+injected in one cell produces an attenuated voltage
+response in neighboring cells, up to a separation of 40 j.m
+(several cell diameters). Such direct local coupling, and
+perhaps other forms of coupling, contribute to long range
+effects throughout the islet, as indicated by the fact that
+the overall burst pattern is synchronized in cells up to 400
+,m apart. This can be demonstrated by recording with two
+electrodes (Meda et al., 1984). Although individual spikes
+are not synchronized, even for larger separations there is
+only -1 s of phase lag in the burst pattern. One mechanism
+which may contribute to longer range coupling is the
+accumulation and diffusion of K+ in the intercellular
+space.
+
+Since the details of the coupling mechanism are as yet
+unknown, we make the assumption that (3-cells in a cluster
+are sufficiently tightly coupled and that their membranes
+effectively share the entire pool of K-Ca channels. While
+this is an over-simplification, any amount of coupling will
+produce some channel sharing. As the size of the common
+pool increases the statistical variance of the K-Ca conduc-
+tance, gKr, will decrease. We examine whether this
+reduction in statistical variance is sufficient to produce
+organized bursting.
+
+Cluster Model (Stochastic)
+
+We model a cluster as an ensemble of cells, identical in
+their gross properties and connected by zero resistance gap
+junctions. As a consequence of this idealization, the cluster
+is instantaneously isopotential and the ionic concentrations
+are identical in all the cells.
+It also follows that the
+
+SHERMAN ET AL.
+
+Emergence ofBursting by Channel Sharing
+
+surface-to-volume ratio of the cluster is independent of the
+number of cells, NC.Ig Hence, Cm, IK, and Ic., which are
+proportional to membrane surface area, scale with Nj.
+Since IK., depends on membrane area in the deterministic
+case and on the number of open channels in the stochastic
+case, it also scales with Nm. One can think of such a cluster
+as either a single large cell or a collection of individual cells
+with perfectly synchronized electrical behavior.
+
+With these simplifications, the deterministic and sto-
+chastic models for a single cell may be easily extended to a
+cluster. For the deterministic case, in fact, the cell and
+cluster equations are identical. For the stochastic case, the
+current balance equation needs a little care in its interpre-
+tation. Letting g be the single-channel conductance and MO
+the number of open channels in the ith cell, Kirchofi's law
+for the cluster membrane is
+
+dV
+
+Nca Cm
+
+=N-NCell(IK +ICa)- EZAX(V- VK)
+
+Nam
+
+(4.1)
+
+Dividing through by Njj and multiplying and dividing the
+last term by N, the number of channels per cell or channel
+density, Eq. 4.1 becomes
+
+Cm IK-Ica -kN
+
+dV
+dt
+
+1
+
+Na
+NcAN 1
+
+All' V-VK) (4.2)
+0
+
+or
+
+Cm d =_-IK -ICa -gKCaP (V- VK)
+
+(4.3)
+
+This equation is the same as for the single-stochastic cell
+(see Eq. 3.5) except that p must now be interpreted as the
+fraction of open channels in the cluster, while
+is the
+total conductance per cell, as before. The remaining equa-
+tions are unaltered. It follows from Eq. 4.2 that for a
+cluster the effective change in conductance due to a
+single-channel event is k/Nu,,, i.e., the event is shared
+equally by the membranes of all the cells in the cluster.
+
+We remark that the simulation is completely determined
+by the values of gK-ca, N., and Nc; the values of g, N, and
+N,,., can be deduced from kK, N., and N, subject only to
+the consistency relations gCK-C = g * N and Nto0 = No +
+N, = N. Ndl. Thus multiple interpretations can be given to
+a single simulation.
+
+THEORETICAL RESULTS
+
+Figs. 8 a-d show the results for a sequence ofvalues ofNA,
+obtained by increasing N. while keeping -KJ
+fixed.
+Although simulations with 5 cells give voltage records not
+much different from a single cell, with 10 cells the spike
+amplitude is reduced and we begin to see some incipient
+bursts with spiking from a plateau. While these bursts are
+clearly defined, they are irregularly spaced and of variable
+duration. The 50-cell cluster shows fairly regular bursts
+with fluctuations in the length of the interburst interval
+and burst duration. The 167 cell cluster shows a further
+
+419
+
+increase in regularity. The amount of variability appears
+comparable with what is seen in experimental records from
+intact islets (Fig. 1 a) and large clusters (Fig. 1 b).
+
+We now examine the process underlying the emergence
+of organized bursting demonstrated in the sequence com-
+prising Figs. 6-8. As discussed in Section II, in the
+deterministic model gKn follows Ca, and in turn feeds
+back onto the membrane potential. The voltage-gated Ca2"
+and K+ currents determine a bursting window, marked as
+the interval (g9KC,, gK.C,Hc) in Figs. 4 a and 5 d, within
+which the total gK-Ca conductance must lie. Thus, the
+transition from the silent phase to the active phase occurs
+approximately when gKn reaches gKuV and the transition
+from the active phase to the silent phase occurs when gK-Ca
+reaches gK-C.aHC-
+
+From Figs. 7, a and b we can see that it is not appropri-
+ate to apply the bifurcation analysis of the deterministic
+model in this case because gK-Ca changes rapidly on the
+time scale of a single spike, violating the quasi-steady state
+assumption. Indeed, single-channel events can cause the
+conductance to jump over the entire deterministic burst
+window (indicated by the two horizontal lines in Fig. 7 b).
+Ca; (not shown) is essentially constant during this time; the
+spiking is entirely due to the interaction between the
+stochastic fluctations and the V-n spike generating mecha-
+nism. Nonetheless, when the average gK.c
+stays above
+gK.C5,Hc for a sufficiently long time the cell becomes
+hyperpolarized, and when gK ca stays below gKc,, spiking
+can occur. Because the fluctuations in gK. are so rapid,
+most bursts consist of only one or two spikes. The burst
+with four spikes shown in Fig. 7 b is a relatively rare
+occurrence.
+
+In the single-cell case the changes in the mean value of
+gK-c, which is determined by Cai, are overwhelmed by
+statistical fluctations. Thus, Cai varies in response to the
+changes in membrane potential through the voltage-depen-
+dent calcium current but has little influence on gK. As
+the number of cells increases, the variance of gK c.
+decreases and the regulatory role of Ca; is enhanced. In
+Figs. 9 a-c we have plotted the voltage, gK c,, and calcium
+time courses for the case of a 50 cell cluster, the first case
+shown which exhibits organized bursting (Fig. 9 a is the
+same as Fig. 8 c, repeated for clarity). Although the
+variance of gK&Ca is still large, its time course now visibly
+follows the mean determined by Ca; and stays close to the
+bursting window, except for rare large excursions. It is
+perhaps not surprising that the behavior of the stochastic
+model converges to that of the deterministic model as the
+number of cells increases, but it is remarkable that bursts
+are seen even while the stochastic fluctuations are still
+quite large.
+
+Another observation is that the variance of the minimal
+values of Ca; is much smaller than that of the maximal
+values, and that the minimal values are much closer to Cav
+than the maximal values are to CaHC. We attribute this
+asymmetry to the difference in membrane time constants
+
+_
+
+iooo100000 Chan
+
+167
+
+d
+
+15
+
+Time (s)
+
+30
+
+Voltage time courses for different sized clusters: 5, 10, 50,
+FIGURE 8
+and 167 cells respectively in a-d; each cell has 600 50 pS channels, as in
+Figs. 6 and 7. There is a transition from irregular spiking to organized
+bursting as the number of channels and hence the number of cells
+increases. Burst period increases with the number of channels and
+appro4ches that of the deterministic model from below. Compare c and d
+with Figs. 1, a and b.
+
+between the high-voltage active phase and the low-voltage
+silent phase. During the active phase the time constant is
+much smaller and the membrane potential is therefore
+much more sensitive to brief perturbations. During the
+silent phase the membrane response is slower, and more
+sustained variations in the average conductance (which are
+crudely reflected in the value of Ca;) are required to
+depolarize the membrane enough to initiate spiking.
+
+Another view of this behaivor is shown in the V-Ca,
+phase plane (Fig. 9 d). (Unlike the deterministic case, in
+which the V-Cai and V-9KC phase planes are essentially
+interchangeable, the V-g9K
+phase plane is so noisy that it
+does not convey much information.) We can see that not
+only is there variation in the points where the trajectory
+exits from the active phase, but that there is a systematic
+bias towards premature termination of the active phase.
+Random fluctuations in gK c. can drive the voltage below
+threshold. As the number of cells is made still larger the
+points of exit from the active phase approach the homo-
+clinic point, CaHC. That is, organized bursting allows
+longer active phases and higher levels of intracellular
+calcium. This observation suggests that bursting plays a
+role in enhancing secretion. Chay and Kang (1988) make
+the same point.
+
+The above simulations demonstrate that moderately
+sized clusters of cells can exhibit organized bursting and
+
+420
+
+BIOPHYSICAL JOURNAL VOLUME 54
+
+1988
+
+.-,i
+
+I7
+
+l
+
+l
+
+U
+
+10
+
+11_w
+
+00
+
+Tim. (_)
+
+_'_.~~~~
+
+Calcium (pl)
+
+(a) Voltage time course for 50-cell cluster (same as Fig. 8 c).
+FIGURE 9
+(b) gK-c and (c) Cai plotted against time. Although variance is still large,
+gK-C, follows the mean determined by Ca, much more closely than the 1, 5,
+or 10 cell cases. Active phases are correlated with, but not exactly
+determined by time periods when gK1c, is below gK-C., and silent phases
+is above gK-c*Ac Brief, large
+are correlated with periods when gKr
+excursions cause only small perturbations. The variance of the maxima of
+Ca; is much greater than that of the minima because of the smaller
+membrane time constant during the active phase. The knee and the
+homoclinic point are expressed in terms of calcium: Ca, - 0.5372 and
+CaHC - 0.6146. (d) V-Ca trajectory superimposed on bifurcation
+diagram. Compare with Fig. 5 d. There is a systematic bias towards
+premature termination of the burst and hence short burst period because
+of stochastic fluctuations in gKc-8
+
+support the idea that the difference in behavior between
+single ,8-cells and clusters is due at least in part to channel
+sharing. Some caution, however, is necessary in drawing
+quantitative conclusions. The set of parameters used to
+generate Figs. 6-8, while perfectly defensible, was chosen
+to achieve a relatively large bursting window, Ag. With
+some other, not unreasonable, parameter sets that result in
+a much smaller Ag, a much larger number of cells is
+required to achieve regular bursting. The results also
+depend on the values chosen for g and N. We cannot
+completely account for the dependence of the number of
+cells required for bursting on the model parameters, but we
+give some partial results below.
+
+Recall from Eq. 4.4 that the conductance perturbation
+due to a single-channel event is k/N,,,1. For organized
+bursting, this quantity should be small compared with Ag,
+and this is guaranteed as the number of cells increases. The
+width of the burst window, as measured in channel events,
+is AgNc/al
+Intuitively, one expects that as this quantity
+increases the average duration of the silent and active
+phases will increase, asymptotically approaching the val-
+
+SHERMAN ET AL.
+
+Emergence ofBursting by Channel Sharing
+
+TABLE I
+
+EFFECT OF VARYING k AND N
+
+WHILE KEEPING gK-C FIXED
+
+g
+
+50
+10
+
+N
+
+600
+3,000
+
+gK-C.
+
+30,000
+30,000
+
+p
+
+0.005
+0.005
+
+Na
+Nta/600
+N,u,/3,000
+
+00, and this is in fact what is
+ues seen in Fig. 5 as N¢d, --
+seen. One also expects the emergence of regular bursting to
+be facilitated by small g. Support for this prediction is
+obtained below. Larger Ag should also promote the emer-
+gence of bursting. This effect is much harder to study
+systematically, but we have confirmed its importance for
+selected cases.
+
+A given simulation may be interpreted as corresponding
+to different unitary conductances, channel densities, and
+numbers of cells provided the total K-Ca conductance is
+held fixed. For example, suppose the single-channel con-
+ductance, g, is increased by a factor of five and the number
+of channels per cell, N, is reduced by the same factor,
+leaving kK.Ca unchanged. The Monte Carlo channel simula-
+tion will be unchanged (provided it is started with the same
+random number generator seed) but the number of cells
+will increase by a factor of five. This is spelled out in Table
+I.
+
+More formally, we can say that the simulations
+described in Section IV are invariant, for an arbitrary scale
+factor y, under the transformation g- k/y, N-..N, but
+the interpretations are different: for a given total conduc-
+tance, kKc.,Q fewer cells are required for bursting if the
+single-channel conductance is smaller. This conclusion
+satisfies our intuition that a fine grain is more deterministic
+than a coarse grain.
+
+Suppose now that the value we use for gKCa is incorrect
+because our estimate of g or of N is too small by a factor -y.
+What effect would this have on our conclusions? For
+example, suppose that 9K C. is doubled because we revise
+our estimate for g while keeping channel density fixed. The
+average fraction of channels open, p, will be automatically
+halved to keep the average total K-Ca conductance in the
+bursting regime. A calculation using Eqs. 3.3, 3.4, and
+3.8-10 shows that if p is small and the total number of
+channels, N,.,, and the mean closed time, TC, are increased
+by a factor of two, the simulation will be virtually
+unchanged. It follows that in order to maintain equally
+regular bursting it is sufficient to double Nt,, and r,. The
+
+TABLE II
+
+EFFECT OF VARYING iKj
+ro
+
+N
+
+p
+
+50
+100
+50
+
+600
+600
+1,200
+
+0.005
+0.0025
+0.0025
+
+Tc
+ls
+2s
+2s
+
+5 ms
+5 ms
+5 ms
+
+gKK-C.
+
+30,000
+60,000
+60,000
+
+Nu,
+N,,,/600
+2N,,,/600
+2NMt/ 1,200
+
+421
+
+upshot is that the number of cells required to achieve a
+given degree of regularity of bursting would be doubled if
+gK-Ca were doubled. This case corresponds to the first two
+lines in Table II.
+
+If, on the other hand the increase in gK-Ca were due to an
+increase in channel density alone, the number of channels
+would increase, but the number of cells would not be
+changed; see line three of Table II. Table II can be
+summarized formally as follows: if p is small, the Monte
+Carlo simulation is invariant, to first order in p, under the
+Nut,
+transformation -KA -
+yC'y.r*, and this multiplies the value ofNx required to
+achieve a given degree of burst reularity by y. While this
+adjustment in N,., and rc is sufficient to restore burst
+regularity, it is not necessary. Empirically, if TC is kept
+fixed, regularity can be maintained by a somewhat larger
+increase in Nt.
+
+p p/'y, NtO *
+
+gK.C ,
+
+We would like to be able to predict quantitatively the
+effects of changing N. alone, as in Fig. 8, and of other
+transformations not covered by the invariances above.
+Further numerical work and analysis of the underlying
+stochastic process, which can be interpreted as an Orn-
+stein-Uhlenbeck process with drift (Cox and Miller, 1965),
+are necessary to elucidate these relationships.
+
+In summary, our theoretical results show that tightly
+electrically coupled cells with stochastic conductances
+modulated by slow variables can generate increasingly
+regular bursts as the number of cells increases. We have
+obtained some results about how the number of cells
+needed to obtain a given level of regularity depends on the
+simulation parameters. For example, (a) for fixed kK-Ca,
+the number of cells required is proportional to g (Table I).
+(b) For fixed N, the number of cells required is propor-
+tional to -K-Ca provided rT
+is adjusted in the same propor-
+tion. (Table II, lines 1 and 2). (c) For fixed g, the number
+of cells is independent of -K-Ca' provided TC is adjusted
+(Table II, lines 1 and 3). Finally, (d) the number of cells
+varies inversely, in an as yet undetermined way, with the
+size of the bursting window, Ag, provided r, is adjusted.
+These theoretical conclusions depend only on the qualita-
+tive geometrical structure of the phase plane and the
+separation into fast and slow variables. Otherwise they are
+independent of the precise mechanism of bursting. In the
+next section we discuss their application to the ,8-cell.
+
+V. DISCUSSION
+
+We have modified the Chay-Keizer model for the ,B-cell as
+studied in the intact islet preparation. The model is in
+reasonable agreement with known experimental measure-
+ments and is simple enough to be easily modified as new
+data become available. It is also robust enough under
+parameter changes to reflect the natural variability of
+,8-cells.
+It cannot account, however, for the irregular
+electrical behavior of isolated ,B-cells.
+
+We have demonstrated a stochastic extension of the
+model which can capture the behavior of single cells
+
+(Compare Figs. 6 and 7 with Fig. 1 c), large clusters of
+cells (Compare Fig. 8 c with Fig. 1 b), and whole islets
+(Compare Fig. 8 d with Fig. 1 a), depending solely on the
+mechanism of channel sharing. We feel that this study has
+established the viability of the channel sharing hypothesis
+as at least part of the explanation of this phenomenon.
+Some of our conclusions depend on the values of parame-
+ters which are not precisely known. We have tried to
+indicate some of these dependencies in section IV, although
+more work needs to be done. As further experiments are
+carried out and parameter values are revised, it may turn
+out that enormous numbers of cells would be required
+theoretically to obtain reasonable bursts. In that case we
+would have to re-evaluate the hypothesis that bursting is
+the result of sharing K-Ca channels.
+
+Our simulations also indicate a possible role for bursting
+in enhancing the (3-cell's primary function of secretion. As
+the number of cells coupled in a cluster increases and
+bursting becomes more regular, intracellular calcium lev-
+els increase. See Figs. 9 c and 5 c for the 50 cell and
+deterministic cases, and see Chay and Kang (1988) Fig. 4
+for a systematic study. Increased coupling caused by
+prolactin has been correlated with increased insulin
+secretion in vivo (Michaels, et al., 1987).
+
+We have neglected the effect of another class of K+
+channels, the ATP-blockable (K-ATP) channel (Cook and
+Hales, 1984; Ashcroft et al., 1984; Ashcroft et al., 1987).
+Magnus (1988) and Keizer (1987b) have investigated the
+possibility that the K-ATP current regulates bursting by
+calcium feedback on ADP/ATP ratios. In their model the
+K-ATP conductance is a monotonically increasing, satu-
+rated function of instantaneous intracellular calcium simi-
+lar to the K-Ca conductance in our model, and bursting
+can be obtained by replacing the K-Ca current with a
+K-ATP current. Like the K-Ca channel, the role of the
+K-ATP channel in bursting has been questioned because it
+is rarely open in the presence of glucose. Nonetheless, there
+are so many K-ATP channels present that they may carry
+substantial total current. One could develop a stochastic
+model for the K-ATP channel along the same lines as for
+the K-Ca channel. Our theoretical results (see Tables I and
+II) suggest that the smaller conductance of the ATP-
+blockable channel would allow regular bursting with
+smaller clusters than with the K-Ca channel. This phenom-
+enon is also seen in the model of Chay and Kang (1988),
+where the major stochastic effect is from the delayed-
+rectifier channel. Since it is much smaller than the K-Ca
+channel, bursting is achieved with many fewer cells than in
+our model. Incidentally, that model also shows that it is not
+necessary for the stochastic fluctuations which disrupt
+bursting to result from the channel which regulates the
+burst.
+
+It is most likely that both the K-Ca and K-ATP channels
+play a role in bursting. It is easy to accommodate mixed
+populations of stochastic channels in our model. If one
+distributes a given amount of total maximal conductance
+
+422
+
+BIOPHYSICAL JOURNAL VOLUME 54
+
+1988
+
+between two populations of channels, it can be shown that
+the variance of the total slow potassium conductance will
+be intermediate between those of the pure populations. The
+same analysis shows that even if most of the potassium
+current is carried by the smaller K-ATP channels, the
+variance of the larger K-Ca channels may still be consider-
+able. Simulations, along the lines described in the previous
+section, with a single stochastic K-Ca channel and a
+deterministic slow potassium conductance show that bursts
+can be disrupted if the stochastic channel opens near
+threshold during spiking. The impact of this effect depends
+on the rate of openings per unit time of the stochastic
+channel and the size of the mean open time of the channel
+relative to the membrane time constant. The conclusion we
+draw from this simulation is that any model for the p-cell
+bursting mechanism must be able to tolerate the perturba-
+tions caused by the K-Ca channels.
+
+We realize that our model for coupling is very idealized.
+We ignore the gap junctional resistance which would cause
+time delays in, and attenuation of, the influence of cells on
+their neighbors. We also ignore heterogeneity in the prop-
+erties of cells as oscillators. These neglected factors would
+tend to weaken the coupling, reduce the degree of synchro-
+nization of the ,B-cells in the islet, and render it more
+difficult for moderate-sized clusters of cells to exhibit
+regular bursting. Nevertheless, we feel that the model
+presented here sheds light on the behavior of small clusters
+of tightly-coupled cells, such as are revealed by dye
+coupling experiments. Further, we feel that one way to
+understand the emergence of organized bursting in large
+cell clusters and islets is through the coupling of these small
+clusters by accumulation and diffusion of K+ in intercellu-
+lar spaces. We hope to assess the role of such factors with
+more detailed models which may include resistive gap
+junctions, ionic diffusion, and perhaps individual variabil-
+ity in one or more key parameters.
+
+We have made other simplifications which are probably
+not important for the conclusions. Our model for the
+handling of the calcium that comes into the cell is crude.
+There has been much speculation and theoretical modeling
+about small domains with high local concentrations of
+Ca2" near the cell membrane (Chad and Eckert, 1984;
+Simon and Llinas, 1985). This has been offered as an
+alternative explanation for the fact that the K-Ca channels
+are open so infrequently at the typical free intracellular
+calcium concentrations (Velasco and Petersen, 1987). We
+have ignored this issue partly for simplicity, and partly
+because we wanted to investigate whether infrequently
+open channels could play a role in the cell without invoking
+other hypotheses.
+
+Some known features have been left out of the model.
+There is a small amount of inactivation, perhaps Ca2"
+dependent, of the Ca2+ channel (Plant, 1987). As men-
+tioned in Section II, the appropriate way to model the
+calcium current needs further study. There is also some
+voltage-dependent inactivation of the delayed-rectifier
+
+channel, which we have found to be unimportant. We have
+ignored the voltage dependence (Cook et al., 1984; Findlay
+et al., 1985; Velasco and Petersen, 1987) and time constant
+of the K-Ca channel because we feel that the existing data
+in the low voltage and low calcium regime do not justify
+quantitative modeling at this time.
+
+We hope that this study will be provocative to experi-
+mentalists. The viability of channel sharing is critically
+dependent on the size of the bursting window, Ag, which in
+turn depends sensitively on the reversal potentials VK and
+Vc,, and the dynamic parameters for the voltage-gated
+potassium and calcium channels, VI' and X. We know of no
+measurements of the range of K-Ca conductance experi-
+enced during a burst; our deterministic spike dynamics
+constrain it to lie in the interval (150 pS, 200 pS) if gK =
+2,500 pS and kca = 1,400 pS. Our results also depend on
+the values of gK-C*, 70, rC N, g, and p. The product PgK-CI
+must lie within the bursting interval; with g
+= 30,000
+pS p must be -0.005. This figure is not incompatible with
+experimental values obtained so far (Findlay,
+1985;
+Velasco and Petersen, 1987). We made reasonable guesses
+for the values of the mean open and closed times, TO and rc,
+and for the channel density since values for these quantities
+have not been reported. Our value for ro of -5 ms is
+compatible with data from rat muscle (Moczydlowski and
+Latorre, 1983).
+
+It would be helpful to have reliable values fo the ,B-cell,
+although we found that, with the parameters used here, the
+numerical results showed little qualitative change as Tc was
+varied from 250 ms to 30 s. (We have found other cases in
+which the value of rC does make a significant difference.)
+There is a large discrepancy in the measured unitary
+conductance of the K-Ca channel depending on whether
+symmetrical and unsymmetrical K+ solutions are used
+(Atwater et al., 1988), and it would be useful if the
+physiologically relevant value were determined. Of course,
+the values for all these parameters are constrained to be
+consistent with each other; for example, it is necessary that
+gK-Ca = PgK-Ca, P = TO/(Tr + TC) and gK-Ca = kN.
+
+In addition to obtaining this valuable information on the
+channel level, it would be most helpful to have additional
+experimental confirmation of the predictions of the model
+by systematically recording from clusters of reaggregated
+cells. If the model is correct, one should be able to observe
+abortive bursts and drift in burst period over long runs.
+Perhaps it is even possible to measure the regularity of
+bursting as a function of cluster size. Cells from mice
+injected with glyburide show increased gap junctions as
+measured by dye coupling (Meda et al., 1979; Meda et al.,
+1984). Thus, one might create artificial clusters with a
+high degree of coupling and varying numbers of cells, like
+the theoretical ones here. The variance of burst and silent
+phase duration could then be measured and compared with
+numerical results from the model. The extent of coupling
+can also be dramatically increased by prolactin (Michaels
+et al., 1987). Similar experiments (Clay and DeHaan,
+
+SHERMAN ET AL.
+
+Emergence ofBursting by Channel Sharing
+
+423
+
+1979) have been performed on chick heart ventricular cells
+which are tightly coupled and exhibit rhythmic pacemaker
+activity. The variance of the interbeat interval was shown
+experimentally to decrease as N-'12, where N is the
+number of cells in the cluster. This result has been
+supported theoretically by simulations of stochastic sodium
+and potassium channels in patches of squid axon ofvarying
+area (Clay and DeFelice, 1983). Even qualitative data of
+this type for the $-cell could be of great help in understand-
+ing synchrony and evaluating the channel-sharing hypoth-
+esis.
+
+APPENDIX
+
+Equations and Parameters
+
+Equations for the Deterministic Model:
+Cm(dV/dt) - - gKn (V- VK) - kcamj (V)h(V) (V - Vca)
+
+- gK-ca(Caj)(V - VK),
+dn/dt - X [n.(V) - n(V)],
+dCa./dt =f(- aIc - kc Cai),
+
+where
+gK-ca (Ca;) = gKc. (Ca,/Kd + Ca;),
+
+m.,(V) - 1/1 + exp ([Vm - VI/Sm),
+h(V) = 1/1 + exp ([V - VhJ/Sh),
+n.,(v) = 1/1 + exp ([V. - V]/S,),r,(V)
+
+- c/exp ([V - fl/a) + exp (-[V-fV/b),
+
+and
+
+a= 1/2 VceF.
+Standard Parameter Values2
+
+Parameter
+
+Definition/first use
+
+Numerical value
+
+F (Coul/mMol)
+
+units
+r (Osm)
+Cm (fF)
+V., (M,m3)
+V, (mV)
+Sm, (mV)
+V, (mV)
+S. (mV)
+a (mV)
+b (mV)
+c (ms)
+V(mV)
+Vk (mV)
+Sh (mV)
+gK (pS)
+jc. (pS)
+VK (mV)
+VC. (mV)
+
+X
+
+Kd (AM)
+giK-C (pS)
+kc, (ms-')
+
+f
+
+Cell radius
+
+Total capacitance
+
+Cell volume
+
+Faraday constant
+
+Eq. 2.1
+Eq. 2.1
+Eq. 2.2
+Eq. 2.2
+Eq. 2.3
+Eq. 2.3
+Eq. 2.3
+Eq. 2.3
+Eq. 2.4
+Eq. 2.4
+Eq. 2.5
+Eq. 2.5
+Eq. 2.5
+Eq. 2.5
+Eq.2.7
+Eq. 2.8a
+Eq. 2.9
+Eq. 2.10
+Eq. 2.10
+
+6.5
+5,310
+1,150
+96.487
+
+4
+14
+-15
+5.6
+65
+20
+60
+-75
+-10
+10
+2,500
+1,400
+-75
++110
+1.7
+100
+30,000
+0.001
+0.03
+
+2These values used except where noted in texct.
+
+424
+
+The authors would like to thank Dr. Jacob Maizel, Chief of the
+Laboratory of Mathematical Biology, National Cancer Institute, and the
+staff of the Advanced Scientific Computing Laboratory, in Frederick,
+Maryland for providing the computer time and technical support neces-
+sary for the successful completion of this project.
+J. E. Keizer gratefully acknowledges supports from the National Science
+Foundation grant CHE 86-18647, the John Simon Guggenheim Memo-
+rial Foundation, a sabbatical leave form the University of California,
+Davis, and the hospitality of the Mathematical Research Branch at the
+National Institutes of Helath.
+The work of A. S. Sherman was supported by a National Research
+Council-National Institutes of Health Research Associateship.
+Received for publication 25 January 1988 and in final form II April
+1988.
+
+REFERENCES
+
+Ashcroft, F. M., D. E. Harrison, and S. J. H. Aschroft. 1984. Glucose
+induces closure of single potassium channels in isolated rat pancreatic
+B-cells. Nature (Lond.). 312:446-448.
+
+Ashcroft, F. M. 1987. Adenosine 5'-triphosphate-sensitive potassium
+
+channels. Annu. Rev. Neurosci. 11:97-118.
+
+Atwater, I., C. M. Dawson, A. Scott, G. Eddlestone, and E. Rojas. 1980.
+The nature of the oscillatory behavior in electrical activity for
+pancreatic ,-cell. J. ofHorm. Metabol. Res. 10 (suppl.):100-107.
+
+Atwater, I., L. Rosario, and E. Rojas. 1983. Properties of calcium-
+activated potassium channels in the pancreatic a-cell. Cell Calcium.
+4:451-461.
+
+Atwater, I., and J. Rinzel. 1986. the ,-cell bursting pattern and intracel-
+lular calcium. In Ionic Channels in Cells and Model Systems. R.
+Latorre, editor. Plenum Publishing Co., New York and London.
+353-362.
+
+Atwater, I., M. X. Li, E. Rojas, and A. Stutzin. 1988. Glucose reduces
+both ATP-blockable and Ca-activated K-channel activity in cell-
+attached patches from rat pancreatic B-cells in culture. Biophys. J.
+53:145a. (Abstr.)
+
+Bangham, J. A., P. A. Smith, and P. C. Croghan. 1986. Modeling the
+beta-cell electrical activity. In Biophysics of the Pancreatic #-Cell. I.
+Atwater, E. Rojas, and B. Soria, editors. Plenum Publishing Co., New
+York and London. 265-278.
+
+Barrett, J. N., K. L. Magleby, and B. S. Pallotta. 1982. Properties of
+single calcium-activated potassium channels in cultured rat muscle. J.
+Physiol. (Lond.). 331:211-230.
+
+Beigelman, P. M., B. Ribalet, and I. Atwater, 1977. Electrical activity of
+mouse pancreatic beta-cells. II. Effects of glucose and arginine. J.
+Physiol. (Paris). 73:201-217.
+
+Chad, J. E., and R. Eckert. 1984. Calcium domains associated with
+individual channels can account for anomalous voltage relations of
+Ca-dependent responses. Biophys. J. 45:993-999.
+
+Chay, T. R., and J. Keizer. 1983. Minimal model for membrane
+
+oscillations in the pancreatic #-cell. Biophys. J. 42:181-190.
+
+Chay, T. R., and J. Keizer. 1985. Theory of the effect of extracellular
+potassium on oscillations in the pancreatic ,B-cell. Biophys. J. 48:815-
+827.
+
+Chay, T. R., and H. S. Kang. 1988. Role of Single-Channel Stochastic
+Noise on Bursting Clusters of Pancreatic ,8-Cells. Biophys. J. 54:427-
+435.
+
+Clay, J. R., and R. L. DeHaan. 1979. Fluctuations in interbeat interval in
+
+rhythmic heart-cell clusters. Biophys. J. 28:377-390.
+
+Clay, J. R., and L. J. DeFelice. 1983. Relationship between membrane
+excitability and single-channel open-close kinetics. Biophys. J. 42:15 1-
+157.
+
+Cook, D. L., and C. N. Hales. 1984. Intracellular ATP directly blocks K'
+
+channels in pancreatic B-cells. Nature (Lond.). 311:271-273.
+
+Cook, D. L., M. Ikeuchi, and W. Y. Fujimoto. 1984. Lowering of pH
+inhibits calcium-activated potassium channels in isolated rat pan-
+creatic islet cells. Nature (Lond.). 311:269-271.
+
+BIOPHYSICAL JOURNAL VOLUME 54
+
+1988
+
+Cox, D. R., and H. D. Miller. 1965. The Theory of Stochastic Processes.
+
+John Wiley and Sons, Inc., New York.
+
+Dean, P. M., and E. K. Mathews. 1970. Glucose-induced electrical
+
+activity in pancreatic islet cells J. Physiol. (Lond.). 210:255-264.
+
+Doedel, E. 1981. AUTO: A program for the automatic bifurcation
+
+analysis of autonomous systems. Cong. Num. 30:265-284.
+
+Eddlestone, G. T., and E. Rojas. 1980. Evidence of electrical coupling
+
+between mouse pancreatic #-cells. J. Physiol. (Lond.). 303:76-77P.
+
+Findlay, I., M. J. Dunne, and 0. H. Peterson. 1985. High-conductance
+K' channel in pancreatic islet cells can be activated and inactivated by
+internal calcium. J. Membr. Biol. 83:169-175.
+
+Fitzhugh, R. 1961. Impulses and physiological states in theoretical
+
+models of nerve membrane. Biophys. J. 1:445-466.
+
+Meda, P., R. M. Santos, and I. Atwater. 1986. Direct identification of
+electrophysiologically monitored cells within intact mouse Islets of
+Langerhans. Diabetes. 35:232-236.
+
+Michaels, R. L., and J. D. Sheridan. 1981. Islets of Langerhans: dye
+coupling among immunocytochemically distinct cell types. Science
+(Wash., DC). 214:801-803.
+
+Michaels, R. L., R. L. Sorenson, J. A. Parsons, and J. D. Sheridan. 1987.
+Prolactin enhances cell-to-cell communication among ,-cells in pan-
+creatic islets. Diabetes. 36:1098-1102.
+
+Moczydlowski, E., and R. Latorre. 1983. Gating kinetics of Ca2`-
+activated K+ channels from rat muscle incorporated into planar lipid
+bilayers. J. Gen. Physiol. 82:511-542.
+
+Morris, C., and H. Lecar. 1981. Voltage oscillations in the barnacle giant
+
+Gear, C. W. 1967. The numerical integration of ordinary differential
+
+muscle fiber. Biophys. J. 35:193-213.
+
+equations. Math. Comp. 21:146-156.
+
+Plant, R. E. 1978. The effects of calcium+ + on bursting neurons. A
+
+Goldman, D. E. 1943. Potential, impedance, and rectifications in mem-
+
+modeling study. Biophys. J. 21:217-237.
+
+branes. J. Gen. Physiol. (Lond.). 27:36-60.
+
+Hodgkin, A. L., and B. Katz. 1949. The effect of sodium ions on the
+electrical activity of the giant axon of the squid. J. Physiol. (Lond.).
+108:37-77.
+
+Kay, A. R., and R. K. S. Wong. 1987. Calcium current activation kinetics
+in isolated pyramidal neurones of the CAI region of the mature
+guinea-pig hippocampus, J. Physiol. (Lond.). 392:603-616.
+
+Keizer, J. E. 1987. Statistical Thermodynamics of Nonequilibrium
+
+Processes. Springer-Verlag, New York. 135-138.
+
+Keizer, J. E. 1988. Electrical activity and insulin release in pancreatic
+
+beta cells. Math. Biosci. In press.
+
+Magnus, J. 1988. PhD Thesis. University of California, Davis. In press.
+Meda, P., A. Perrelet, and A. Orci. 1979. Increase of gap junctions
+between pancreatic ,B-cells during stimulation of insulin secretion. J.
+Cell Biol. 82:441-448.
+
+Meda, P., I. Atwater, A. Goncalves, A. Bangham, L. Orci, and E. Rojas.
+1984. The topography of electrical synchrony among ,B-cells in the
+mouse Islet of Langerhans. Q. J. Exp. Physiol. 69:719-735.
+
+Plant, T. D. 1987. Calcium current inactivation in cultured mouse
+(Lond.).
+
+is calcium-dependent. J. Physiol.
+
+cells
+
+pancreatic islet
+390:86P.
+
+Rinzel, J. 1985. Bursting oscillations in an excitable membrane model. In
+Ordinary and Partial Differential Equations. B. D. Sleeman and R. J.
+Jarvis, editors. Springer-Verlag, New York. 304-316.
+
+Rorsman, P., and G. Trube. 1986. Calcium and delayed potassium
+currents in mouse pancreatic a-cells under voltage clamp conditions. J.
+Physiol. (Lond.). 375:531-550.
+
+Rubin, R. P. 1982. Calcium and Cellular Secretion. Plenum Publishing
+
+Co., New York and London.
+
+Simon, S. M., and R. R. Llinas. 1985. Compartmentalization of the
+submembrane calcium activity during calcium influx and its signifi-
+cance in transmitter release. Biophys. J. 48:485-498.
+
+Velasco, J. M., and 0. H. Petersen. 1987. Voltage-activation of high-
+conductance K+ channel in the insulin-secreting cell line RINm5F is
+dependent on local extracellular Ca2" concentration. Biochim. Bio-
+phys. Acta. 896:305-310.
+
+SHERMAN ET AL.
+
+Emergence ofBursting by Channel Sharing
+
+425
+
+

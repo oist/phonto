@@ -1,0 +1,14 @@
+Computer Simulation
+Entorhinal Cortex
+physiology
+Forecasting
+Hippocampus
+physiology
+Humans
+Memory
+physiology
+Models
+Neurological
+Nerve Net
+physiology
+The computational model described here is driven by the hypothesis that a major function of the entorhinal cortex (EC)-hippocampal system is to alter synaptic connections in the neocortex. It is based on the following postulates: (1) The EC compares the difference between neocortical representations (primary input) and feedback information conveyed by the hippocampus (the"reconstructed input"). The difference between the primary input and the reconstructed input (termed"error") initiates plastic changes in the hippocampal networks (error compensation). (2) Comparison of the primary input and reconstructed input requires that these representations are available simultaneously in the EC network. We suggest that compensation of time delays is achieved by predictive structures, such as the CA3 recurrent network and EC-CA1 connections. (3) Alteration of intrahippocampal connections gives rise to a new hippocampal output. The hippocampus generates separated (independent) outputs, which, in turn, train long-term memory traces in the EC (independent components, IC). The ICs of the long-term memory trace are generated in a two-step manner, the operations of which we attribute to the activities of the CA3 (whitening) and CA1 (separation) fields. (4) The different hippocampal fields can perform both nonlinear and linear operations, albeit at different times (theta and sharp phases). We suggest that long-term memory is represented in a distributed and hierarchical reconstruction network, which is under the supervision of the hippocampal output. Several of these model predictions can be tested experimentally.

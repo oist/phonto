@@ -1,0 +1,24 @@
+Animals
+Association Learning
+physiology
+Brain Mapping
+Cholinergic Fibers
+physiology
+Conditioning
+Classical
+physiology
+Conditioning
+Eyelid
+physiology
+Hippocampus
+physiology
+Humans
+Models
+Neurological
+Models
+Theoretical
+Neural Pathways
+physiology
+Septum Pellucidum
+physiology
+A previous neurocomputational model of corticohippocampal interaction (Gluck&Myers, 1993) can provide a framework for examining the behavioral effects of septohippocampal modulation during classical conditioning. The model assumes that the hippocampal region is necessary for forming new stimulus representations during learning, but not for the formation of simple associations. This paper considers how septohippocampal interaction could affect this function. The septal nuclei provide several modulatory inputs to the hippocampus, including a cholinergic input which Hasselmo (1995) has suggested may function to regulate hippocampal dynamics on a continuum between two states: a storage state in which incoming information is encoded as an intermediate-term memory and a recall state when this information is reactivated. In this theory, anticholinergic drugs such as scopolamine should disrupt learning by selectively reducing the hippocampus's ability to store new information. An approximation of Hasselmo's idea can be implemented in the corticohippocampal model by a simple manipulation of hippocampal learning rate; this manipulation is formally equivalent to adjusting the amount of time the hippocampus spends in learning and recall states. With this manipulation, the model successfully accounts for the effects of scopolamine in retarding classical conditioning in humans (Solomon, Groccia-Ellison, Flynn, Mirak, Edwards, Dunehew,&Stanton, 1993) and animals (Solomon, Soloman, van der Schaaf,&Perry, 1983). The model further predicts that although cholinergic agonists (such as Tacrine) may improve learning in subjects with artificially depressed brain acetylcholine levels, there may be limited memory improvement in normal subjects from such cholinergic therapy. This is consistent with the general finding of a U-shaped dose response curve for cholinergic drugs in normal subjects: low to moderate doses may improve learning, but higher doses are ineffective or even degrade learning (e.g., Ennaceur&Meliani, 1992; Dumery, Derer,&Blozovski, 1988; etc.).

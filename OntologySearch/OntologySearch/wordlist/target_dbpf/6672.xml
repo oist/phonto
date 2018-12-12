@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6672">
+<itemtype>xnppaper</itemtype>
+<titles><title>Selective abnormal modulation of hippocampal activity during memory formation in first-episode psychosis.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Case-Control Studies</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>statistics</keyword>
+<keyword>&amp;</keyword>
+<keyword>numerical data</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory Disorders</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Recruitment</keyword>
+<keyword>Neurophysiological</keyword>
+<keyword>physiology</keyword>
+<keyword>Risk Factors</keyword>
+<keyword>Schizophrenia</keyword>
+<keyword>diagnosis</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Schizophrenic Psychology</keyword>
+<keyword>Semantics</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiopathology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:06:39Z</last_update_date>
+<creation_date>2013-02-26T07:06:39Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6672</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6672" version="1.02">
+<authors><author>Achim AM</author><author>Bertrand MC</author><author>Sutton H</author><author>Montoya A</author><author>Czechowska Y</author><author>Malla AK</author><author>Joober R</author><author>Pruessner JC</author><author>Lepage M</author></authors>
+<journal>Archives of general psychiatry</journal>
+<volume>64</volume>
+<number>9</number>
+<page>999-1014</page>
+<abstract>Memory is one of the cognitive functions most affected in schizophrenia, with deficits observed from the first episode of psychosis (FEP). Previous studies have indicated that some memory processes may be more affected than others.To examine the neural correlates of 3 specific memory processes in FEP by means of functional magnetic resonance imaging (fMRI).Case-control study.Prevention and Early Intervention Program for Psychoses of the Douglas Hospital and Montreal Neurological Institute, McGill University. Subjects Twenty-six patients with FEP and 20 healthy controls.Behavioral performance and regional brain activity measured during memory encoding by fMRI. Our fMRI design included 3 within-subject contrasts (associative vs item-oriented encoding, encoding of arbitrary vs semantically related image pairs, and successful vs unsuccessful memory encoding) that were then used for group conjunctions and between-group analyses.Patients with FEP showed normal activation of several brain regions, including the prefrontal cortex, hippocampus, and parahippocampal cortex, during successful memory encoding and associative encoding. In contrast, the hippocampus and surrounding medial temporal areas showed reduced activity during the encoding of arbitrary pairs. This selective dysfunction reflected by abnormal brain activation during encoding was accompanied by a greater deficit for subsequent recognition of arbitrary pairs relative to the semantically related pairs.This study demonstrated that, in the same group of patients with FEP, the hippocampus could show either normal or abnormal modulation of activation depending on the specific cognitive process that was examined. The normal modulation of hippocampal activation observed during successful memory encoding in FEP argues against a general inability to recruit this region. Instead, the dysfunction was specifically linked to semantic relatedness. This selective deficit seems to affect memory performance in FEP and denotes an important representational problem that may confer greater vulnerability to psychotic disorders and would thus be interesting to examine in high-risk populations.</abstract>
+<pubmed_id>17768265</pubmed_id>
+</detail>
+</item>

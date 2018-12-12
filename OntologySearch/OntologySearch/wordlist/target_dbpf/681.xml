@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="681">
+<itemtype>xnppaper</itemtype>
+<titles><title>Frequency-dependent information flow from the entorhinal cortex to the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-04T03:21:08Z</last_update_date>
+<creation_date>2008-07-04T03:21:08Z</creation_date>
+<publication_year>1997</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=681</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="681" version="1.02">
+<authors><author>Gloveli T</author><author>Schmitz D</author><author>Empson RM</author><author>Heinemann U</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>78</volume>
+<number>6</number>
+<page>3444-9</page>
+<abstract>Storage and retrieval of information in the hippocampus is dependent on information transfer from the entorhinal cortex (EC). We studied how the separate pathways from layer II and III of the EC to the hippocampus are selected for information transfer during repetitive synaptic stimulation. Intracellular recordings were made from EC layer II and III projection cells in horizontal combined EC-hippocampal slices. Synaptic responses to stimulation of deep layers or the lateral EC with stimulus intensities approximately 70% of that required to elicit an action potential were analyzed during short trains of repetitive stimulation. The threshold intensities for induction of action potentials were in layer II cells 8.2 +/- 3.8 (SE) V, significantly larger than 4.4 +/- 1.5 V in type 1, and 5.2 +/- 3.3 V in type 2 layer III cells, respectively. During repetitive subthreshold stimulation with frequencies below 5 Hz the pathway from the EC layer II remained quiet and was preferentially activated with stimulation frequencies above 5 Hz. In contrast the EC layer III cells responded preferentially to low stimulus frequencies (&lt;10 Hz) and became strongly inhibited when synaptically stimulated with frequencies above 10 Hz. Interestingly during stimulus frequencies between 5 and 10 Hz the likelihood that both layer II and III cells fire was large. Thus a frequency switch operates in the entrohinal cortex regulating output of layer II and III cells to the hippocampus. We suggest that such frequency dependent regulation of information flow presents a new principle of neuronal information processing.</abstract>
+<pubmed_id> 9405558 </pubmed_id>
+</detail>
+</item>

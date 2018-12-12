@@ -1,0 +1,16 @@
+Animals
+Electric Stimulation
+Electrophysiology
+Hippocampus
+physiology
+Membrane Potentials
+Rats
+Rats
+Inbred Strains
+Receptors
+N-Methyl-D-Aspartate
+physiology
+Synapses
+physiology
+Time Factors
+In area CA1 of the hippocampus, synaptic activation of NMDA receptors during postsynaptic depolarization can generate either a decremental synaptic potentiation termed short-term potentiation (STP) or stable, long-term potentiation (LTP). Examining the relationship between these two forms of synaptic enhancement should provide information about the intracellular processes responsible for the stabilization of LTP. Using the hippocampal slice preparation, initial experiments confirmed that STP can be generated either by a weak tetanus or by pairing a single EPSP with postsynaptic depolarization. Following the generation of submaximal LTP, application of a weak, STP-inducing tetanus resulted in STP (not LTP), suggesting that the processes responsible for stabilizing LTP must be activated during induction and cannot be accessed at later times. To determine the interval over which processes activated during STP can be integrated and result in stable LTP (the "integration time" for the stabilization of LTP), a fixed number of afferent stimuli were given at varying intervals (5-60 sec) during postsynaptic depolarization. Using either extracellular or whole-cell recording, LTP was rarely (11% of experiments) elicited at 1 min intervals and frequently (76% of experiments) elicited at 10 sec intervals. These results indicate that following a single EPSP during postsynaptic depolarization, the processes responsible for the stabilization of LTP decay significantly within approximately 1 min, although this value may depend on the level of activation of the requisite intracellular processes.

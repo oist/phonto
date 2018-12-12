@@ -1,0 +1,8 @@
+Hippocampus
+physiology
+Markov Chains
+Memory
+Mental Recall
+Models
+Biological
+We describe the model of the hippocampus consisting of interactive oscillators with input from the entorhinal cortex (modulating the main information flow by a theta rhythm) and the septum (a theta rhythm generator). When interconnections between oscillators are allowed to strengthen in an adaptive way, the network can be trained using a series of lessons. This results in a connection matrix that memorizes the temporal sequence of inputs. Presenting one of the lessons to the trained network results in reproduction of the remainder of the sequence. In this paper, we create such a connection matrix, derive from it an appropriate Markov chain and simulate the chain to illustrate its dynamics.

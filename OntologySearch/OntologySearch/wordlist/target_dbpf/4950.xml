@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4950">
+<itemtype>xnppaper</itemtype>
+<titles><title>Activity of hippocampal formation neurons in the monkey related to a conditional spatial response task.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Classical</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Macaca</keyword>
+<keyword>physiology</keyword>
+<keyword>Macaca mulatta</keyword>
+<keyword>physiology</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:53:00Z</last_update_date>
+<creation_date>2011-05-09T02:53:00Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4950</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4950" version="1.02">
+<authors><author>Miyashita Y</author><author>Rolls ET</author><author>Cahusac PM</author><author>Niki H</author><author>Feigenbaum JD</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>61</volume>
+<number>3</number>
+<page>669-78</page>
+<abstract>To analyze neurophysiologically the functions of the primate hippocampus, the activity of 905 single hippocampal formation neurons was analyzed in two rhesus monkeys performing a conditional spatial response task known to be impaired in monkeys and in man by damage to the hippocampus or fornix. In the task, the monkey learned to make one spatial response, touching a screen three times when he saw one visual stimulus on the video monitor, and a different spatial response, of withdrawing his hand from the screen, when a different visual stimulus was shown. Fourteen percent of the neurons fired differentially to one or the other of the stimulus-spatial response associations. The mean latency of these differential responses was 154 +/- 44 (SD) ms. The firing of these neurons was shown to reflect a combination of the particular stimulus and the particular response associated by learning in the stimulus-response association task and could not be accounted for by the motor requirements of the task, nor wholly the stimulus aspects of the task, as demonstrated by testing their firing in related visual discrimination tasks. Responsive neurons were found throughout the hippocampal formation, but were particularly concentrated in the subicular complex and the CA3 subfield. These results show that single hippocampal neurons respond to combinations of the visual stimuli and the spatial responses with which they must become associated in conditional spatial response tasks and are consistent with the suggestion that part of the mechanism of this learning involves associations between visual stimuli and spatial responses learned by single hippocampal neurons.</abstract>
+<pubmed_id>2709105</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,37 @@
+Action Potentials
+drug effects
+physiology
+Animals
+Baclofen
+analogs
+&
+derivatives
+pharmacology
+Bicuculline
+pharmacology
+Hippocampus
+drug effects
+physiology
+Male
+Neurons
+drug effects
+physiology
+Nipecotic Acids
+pharmacology
+Pertussis Toxin
+Proline
+analogs
+&
+derivatives
+Rats
+Rats
+Inbred Strains
+Septum Pellucidum
+drug effects
+physiology
+Virulence Factors
+Bordetella
+pharmacology
+gamma-Aminobutyric Acid
+physiology
+The possible involvement of GABA in the control of the rhythmical bursting activity (RBA) of septo-hippocampal neurons (SHNs) has been studied in the rat in vivo. The discharge frequency of SHNs was modified by the iontophoretic application of a GABA agonist and antagonist as well as by the application of the GABA uptake blocker, nipecotic acid. The GABAB agonist baclofen inhibited the SHNs' activity, this effect being antagonized by the GABAB antagonist phaclofen. However, these different pharmacological manipulations did not modify the RBA frequency. Pretreatment of the rats with pertussis toxin, a substance which is known to block the events mediated by G-proteins (Gi or Go), decreased the RBA frequency. Neither agonists nor antagonists of GABAA or GABAB types had significant effects on the rhythmical bursting activity of SHNs. The effect of pertussis toxin suggests that other neurotransmitters or intrinsic mechanisms involving a G-protein influence this rhythm.

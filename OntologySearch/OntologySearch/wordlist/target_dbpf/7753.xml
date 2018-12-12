@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7753">
+<itemtype>xnppaper</itemtype>
+<titles><title>Postsynaptic-GABAergic inhibition of non-pyramidal neurons in the guinea-pig hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Animals</keyword>
+<keyword>Bicuculline</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Glutamate Decarboxylase</keyword>
+<keyword>analysis</keyword>
+<keyword>Guinea Pigs</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Immunoenzyme Techniques</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>Microscopy</keyword>
+<keyword>Electron</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>drug effects</keyword>
+<keyword>Neurons</keyword>
+<keyword>analysis</keyword>
+<keyword>physiology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>metabolism</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-06-19T09:31:53Z</last_update_date>
+<creation_date>2013-06-19T09:31:53Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7753</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7753" version="1.02">
+<authors><author>Misgeld U</author><author>Frotscher M</author></authors>
+<journal>Neuroscience</journal>
+<volume>19</volume>
+<number>1</number>
+<page>193-206</page>
+<abstract>Intracellular recording and staining was applied to study non-pyramidal neurons in the guinea-pig hippocampus. To avoid accidental impalement of pyramidal or granule cells, two hippocampal regions known to be devoid of pyramidal or granule cells were chosen. In transverse and longitudinal slices, neurons of the deep hilar region (zone 4 of Amaral3), and in transverse slices, neurons of the stratum lacunosum-moleculare (CA3) were impaled. The intracellular staining with Lucifer Yellow revealed that of 20 neurons stained in these zones all were non-pyramidal neurons. Hilar neurons, situated just below the granular layer, differed from granule cells and CA3 neurons with respect to their action potential waveform and their current/voltage relationship. In contrast to granule cells, hilar neurons exhibited spontaneous bursts in the presence of bicuculline (25 microM). In all neurons impaled in the hilar region and the stratum lacunosum-moleculare (n = 42), inhibitory postsynaptic potentials could be elicited. These inhibitory postsynaptic potentials were blocked by bicuculline. In transverse slices, perforant path stimulation elicited inhibition preceding excitation in hilar neurons and excitation preceding inhibition in granule cells. Since non-pyramidal neurons are likely to be inhibitory neurons, our data suggest that GABAergic neurons in the hilus or in the stratum lacunosum-moleculare are controlled by inhibitory GABAergic synapses. This was verified by immunocytochemistry using antibodies against glutamate decarboxylase, the gamma-aminobutyric acid synthetizing enzyme. In both hippocampal regions studied, glutamate decarboxylase-positive synaptic terminals on glutamate decarboxylase-positive cells were observed. It is concluded that disinhibition is an important feature of information processing in the hippocampus, and that disinhibition is mediated by GABAergic synapses on GABAergic neurons.</abstract>
+<pubmed_id>3537840</pubmed_id>
+</detail>
+</item>

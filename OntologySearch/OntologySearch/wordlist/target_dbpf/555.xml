@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="555">
+<itemtype>xnppaper</itemtype>
+<titles><title>The role of the hippocampus in solving the Morris water maze.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-02T02:11:50Z</last_update_date>
+<creation_date>2008-07-02T02:11:50Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=555</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="555" version="1.02">
+<authors><author>Redish AD</author><author>Touretzky DS</author></authors>
+<journal>Neural computation</journal>
+<volume>10</volume>
+<number>1</number>
+<page>73-111</page>
+<abstract>We suggest that the hippocampus plays two roles that allow rodents to solve the hidden-platform water maze: self-localization and route replay. When an animal explores an environment such as the water maze, the combination of place fields and correlational (Hebbian) long-term potentiation produces a weight matrix in the CA3 recurrent collaterals such that cells with overlapping place fields are more strongly interconnected than cells with nonoverlapping fields. When combined with global inhibition, this forms an attractor with coherent representations of position as stable states. When biased by local view information, this allows the animal to determine its position relative to the goal when it returns to the environment. We call this self-localization. When an animal traces specific routes within an environment, the weights in the CA3 recurrent collaterals become asymmetric. We show that this stores these routes in the recurrent collaterals. When primed with noise in the absence of sensory input, a coherent representation of position still forms in the CA3 population, but then that representation drifts, retracing a route. We show that these two mechanisms can coexist and form a basis for memory consolidation, explaining the anterograde and limited retrograde amnesia seen following hippocampal lesions.</abstract>
+<pubmed_id>9501505 </pubmed_id>
+</detail>
+</item>

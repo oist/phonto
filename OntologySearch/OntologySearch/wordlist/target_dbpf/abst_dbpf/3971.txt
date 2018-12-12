@@ -1,0 +1,22 @@
+Animals
+Conditioning
+Classical
+Dentate Gyrus
+physiology
+Fear
+physiology
+Follistatin
+pharmacology
+Hippocampus
+cytology
+physiology
+radiation effects
+Long-Term Potentiation
+radiation effects
+Mice
+Neurogenesis
+drug effects
+radiation effects
+Rats
+X-Rays
+Acquired memory initially depends on the hippocampus (HPC) for the process of cortical permanent memory formation. The mechanisms through which memory becomes progressively independent from the HPC remain unknown. In the HPC, adult neurogenesis has been described in many mammalian species, even at old ages. Using two mouse models in which hippocampal neurogenesis is physically or genetically suppressed, we show that decreased neurogenesis is accompanied by a prolonged HPC-dependent period of associative fear memory. Inversely, enhanced neurogenesis by voluntary exercise sped up the decay rate of HPC dependency of memory, without loss of memory. Consistently, decreased neurogenesis facilitated the long-lasting maintenance of rat hippocampal long-term potentiation in vivo. These independent lines of evidence strongly suggest that the level of hippocampal neurogenesis play a role in determination of the HPC-dependent period of memory in adult rodents. These observations provide a framework for understanding the mechanisms of the hippocampal-cortical complementary learning systems.

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6675">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neural correlates of relational memory: successful encoding and retrieval of semantic and perceptual associations.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Association Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Reading</keyword>
+<keyword>Semantics</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Visual Perception</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:08:39Z</last_update_date>
+<creation_date>2013-02-26T07:08:39Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6675</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6675" version="1.02">
+<authors><author>Prince SE</author><author>Daselaar SM</author><author>Cabeza R</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>25</volume>
+<number>5</number>
+<page>1203-10</page>
+<abstract>Using event-related functional magnetic resonance imaging, we identified brain regions involved in successful relational memory (RM) during encoding and retrieval for semantic and perceptual associations or in general, independent of phase and content. Participants were scanned while encoding and later retrieving associations between pairs of words (semantic RM) or associations between words and fonts (perceptual RM). Encoding success activity (ESA) was identified by comparing study-phase activity for items subsequently remembered (hits) versus forgotten (misses) and retrieval success activity (RSA) by comparing test-phase activity for hits versus misses. The study yielded three main sets of findings. First, ESA-RSA differences were found within the medial temporal lobes (MTLs) and within the prefrontal cortex (PFC). Within the left MTL, ESA was greater in the anterior hippocampus, and RSA was greater in the posterior parahippocampal cortex/hippocampus. This finding is consistent with the notion of an encoding-retrieval gradient along the longitudinal MTL axis. Within the left PFC, ESA was greater in ventrolateral PFC, and RSA was greater in dorsolateral and anterior PFC. This is the first evidence of a dissociation in successful encoding and retrieval activity within left PFC. Second, consistent with the transfer-appropriate processing principle, some ESA regions were reactivated during RSA in a content-specific manner. For semantic RM, these regions included the left ventrolateral PFC, whereas for perceptual RM, they included occipitoparietal and right parahippocampal regions. Finally, only one region in the entire brain was associated with RM in general (i.e., for both semantic and perceptual ESA and RSA): the left hippocampus. This finding highlights the fundamental role of the hippocampus in RM.</abstract>
+<pubmed_id>15689557</pubmed_id>
+</detail>
+</item>

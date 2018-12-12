@@ -1,0 +1,11 @@
+Anesthesia
+Animals
+Electroencephalography
+Hippocampus
+cytology
+physiology
+Male
+Neurons
+physiology
+Rabbits
+Arrays of triple microelectrodes were stereotaxically lowered into CA1, CA3 and dentate areas of the dorsal hippocampal formation in anesthetized rabbits. Recordings of action potentials and waves were analyzed on a PDP-11 computer using auto-, cross-, and multiple-correlation programs to determine temporal relations during 90 sec samples of spontaneous activity. It was found that temporal periods of neuronal firing and inhibition were strongly related to the pattern of waves. During periods of high amplitude synchronous waves (theta), the correlation between the activities of different groups of neurons was directly related to the periodicity of the wave. During instances of lower amplitude, desynchronous wave activity, the correlations between spikes recorded from those same cells were less periodic, varying according to the amount of wave synchrony. Variations in wave synchrony due to anatomical location, eserine effects, or spontaneous fluctuations under anesthesia produced corresponding variations in the relations between the activities of different groups of neurons. It is suggested that these relations between neuronal activity and gross waves may be implicated in processes which are at the basis of learning and memory.

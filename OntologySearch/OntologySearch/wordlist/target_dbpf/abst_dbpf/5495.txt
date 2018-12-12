@@ -1,0 +1,20 @@
+Animals
+Cells
+Cultured
+Glutamic Acid
+physiology
+Hippocampus
+embryology
+physiology
+Interneurons
+physiology
+Long-Term Potentiation
+physiology
+Nerve Net
+physiology
+Presynaptic Terminals
+physiology
+Rats
+gamma-Aminobutyric Acid
+physiology
+Induction of long-term potentiation (LTP) of the synaptic connection between two hippocampal glutamatergic neurons in a neural network formed in cell culture resulted in a specific pattern of potentiation at other connections within the network. We found that potentiation propagated from the site of induction retrogradely to glutamatergic or GABAergic synapses received by the dendrites of the presynaptic neuron and laterally to those made by its axonal collaterals onto other glutamatergic cells. In contrast, synapses made by the same presynaptic neuron onto GABAergic cells were not affected, and there was no postsynaptic lateral or forward propagation to other synapses received or made by the postsynaptic neuron. In addition, there was no secondary propagation to synapses not directly associated with the presynaptic neuron. Both induction and propagation of LTP required correlated spiking of the postsynaptic cell as well as the activation of the NMDA subtype of glutamate receptors. Such selective propagation suggests the existence of a long-range cytoplasmic signaling within the presynaptic neuron, leading to a specific pattern of coordinated potentiation along excitatory pathways in a neural network.

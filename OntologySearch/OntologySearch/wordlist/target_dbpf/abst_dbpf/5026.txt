@@ -1,0 +1,17 @@
+Action Potentials
+Animals
+Cats
+Cerebral Cortex
+physiology
+Evoked Potentials
+Geniculate Bodies
+physiology
+Hippocampus
+physiology
+Sleep
+physiology
+Thalamus
+physiology
+Wakefulness
+physiology
+Spontaneous unit discharges during the natural sleep-wakefulness cycle in two different neuronal groups, the hippocampal pyramidal cells and thalamic ventrobasal neurons, have been analyzed. The results show that both neurons fire with white-noise-like fluctuations during the slow-wave sleep, and with slow fluctuations with power spectral densities inversely proportional to the frequency in the frequency range of 0.02-1.0 Hz, during the paradoxical sleep. This confirms that the characteristics of fluctuations in neuronal activities of the mesencephalic reticular formation observed in our previous study are more general phenomena in the cat's brain. Partly similar behavior of spectral densities is also observed during the alert state. These observations are quantitatively confirmed by the statistical time series analysis of the spike density processes of spontaneous activities.

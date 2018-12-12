@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6666">
+<itemtype>xnppaper</itemtype>
+<titles><title>The role of the hippocampus in transitive inference.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Judgment</keyword>
+<keyword>physiology</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>Visual Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:02:33Z</last_update_date>
+<creation_date>2013-02-26T07:02:33Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6666</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6666" version="1.02">
+<authors><author>Zalesak M</author><author>Heckers S</author></authors>
+<journal>Psychiatry research</journal>
+<volume>172</volume>
+<number>1</number>
+<page>24-30</page>
+<abstract>Transitive inference (TI) is the ability to infer the relationship between items (e.g., A&gt;C) after having learned a set of premise pairs (e.g., A&gt;B and B&gt;C). Previous studies in humans have identified a distributed neural network, including cortex, hippocampus, and thalamus, during TI judgments. We studied two aspects of TI using functional magnetic resonance imaging of subjects who had acquired the six-item sequence (A&gt;B&gt;C&gt;D&gt;E&gt;F) of visual stimuli. First, the identification of novel pairs not containing end items (i.e., B&gt;D, C&gt;E, B&gt;E) was associated with greater left hippocampal activation compared with the identification of novel pairs containing end items A and F. This demonstrates that the identification of stimulus pairs requiring the flexible representation of a sequence is associated with hippocampal activation. Second, for the three novel pairs devoid of end items we found greater right hippocampal activation for pairs B&gt;D and C&gt;E compared with pair B&gt;E. This indicates that TI decisions on pairs derived from more adjacent items in the sequence are associated with greater hippocampal activation. Hippocampal activation thus scales with the degree of relational processing necessary for TI judgments. Both findings confirm a role of the hippocampus in transitive inference in humans.</abstract>
+<pubmed_id>19216061</pubmed_id>
+</detail>
+</item>

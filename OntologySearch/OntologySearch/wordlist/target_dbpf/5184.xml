@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5184">
+<itemtype>xnppaper</itemtype>
+<titles><title>Homer-1a/Vesl-1S enhances hippocampal synaptic transmission.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Blotting</keyword>
+<keyword>Western</keyword>
+<keyword>Carrier Proteins</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cell Culture Techniques</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Gene Expression</keyword>
+<keyword>Glutamic Acid</keyword>
+<keyword>secretion</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Immunohistochemistry</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuropeptides</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Organ Culture Techniques</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>Presynaptic Terminals</keyword>
+<keyword>metabolism</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Receptors</keyword>
+<keyword>AMPA</keyword>
+<keyword>metabolism</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-20T02:10:00Z</last_update_date>
+<creation_date>2011-05-20T02:10:00Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5184</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5184" version="1.02">
+<authors><author>Hennou S</author><author>Kato A</author><author>Schneider EM</author><author>Lundstrom K</author><author>Gähwiler BH</author><author>Inokuchi K</author><author>Gerber U</author><author>Ehrengruber MU</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>18</volume>
+<number>4</number>
+<page>811-9</page>
+<abstract>Homer/Vesl proteins are involved in regulating metabotropic glutamate receptors, synaptogenesis, dendritic spine development and axonal pathfinding. We investigated the potential modulation of glutamatergic synaptic transmission by the immediate early gene product Homer-1a/Vesl-1S and by the constitutively expressed long-form Homer-1c/Vesl-1L in CA1 pyramidal cells from cultured rat hippocampal slices. Semliki Forest virus vector-mediated overexpression of Homer-1a enhanced alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) receptor function, but did not detectably affect N-methyl-d-aspartate (NMDA) receptor function and presynaptic glutamate release. Overexpression of Homer-1c, by contrast, did not alter synaptic transmission. To corroborate our electrophysiological results obtained in slice cultures, we performed quantitative immunocytochemistry in cultures of dissociated hippocampal neurons. Homer-1a also increased synaptic clustering of AMPA but not NMDA receptors, whereas Homer-1c had no detectable effect. Our results show that Homer-1a potentiates synaptic AMPA receptor function, supporting a critical role for Homer-1a in hippocampal synaptic plasticity.</abstract>
+<pubmed_id>12925007</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5112">
+<itemtype>xnppaper</itemtype>
+<titles><title>Homer1a regulates the activity-induced remodeling of synaptic structures in cultured hippocampal neurons.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Actins</keyword>
+<keyword>metabolism</keyword>
+<keyword>Animals</keyword>
+<keyword>Carrier Proteins</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>Embryo</keyword>
+<keyword>Mammalian</keyword>
+<keyword>Gene Expression Regulation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Glutamic Acid</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Humans</keyword>
+<keyword>Intracellular Signaling Peptides and Proteins</keyword>
+<keyword>metabolism</keyword>
+<keyword>Membrane Proteins</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>Presynaptic Terminals</keyword>
+<keyword>metabolism</keyword>
+<keyword>RNA</keyword>
+<keyword>Catalytic</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Receptors</keyword>
+<keyword>AMPA</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptotagmins</keyword>
+<keyword>metabolism</keyword>
+<keyword>Time Factors</keyword>
+<keyword>Transfection</keyword>
+<keyword>methods</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T05:47:16Z</last_update_date>
+<creation_date>2011-05-16T05:47:16Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5112</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5112" version="1.02">
+<authors><author>Inoue Y</author><author>Udo H</author><author>Inokuchi K</author><author>Sugiyama H</author></authors>
+<journal>Neuroscience</journal>
+<volume>150</volume>
+<number>4</number>
+<page>841-52</page>
+<abstract>Activity-dependent re-organizations of central synapses are thought to play important roles in learning and memory. Although the precise mechanisms of how neuronal activities modify synaptic connections remain to be elucidated, the activity-induced neuronal proteins such as Homer1a may contribute to the onset of synaptic remodeling. To further understand the physiological roles of Homer1a, we first examined prolonged effects of neuronal stimulation capable of inducing Homer1a on the distribution of a postsynaptic protein Homer1c by live imaging and immunostaining. We found that glutamate stimulation induced a biphasic change in the distribution of Homer1c, in which the postsynaptic clusters of Homer1c defused initially after 30 min to 1 h, and then reassembled more than the original level after 4-8 h. When other synaptic proteins (postsynaptic density-95 (PSD95), Filamentous actin (F-actin), glutamate receptors, synaptotagmin, synaptophysin and synapsin) were analyzed by immunocytochemical methods, the distribution of these proteins also showed a similar biphasic pattern, suggesting that glutamate stimulation induces a global alteration in synaptic structures. To further dissect the functions of Homer1a in the activity-induced synaptic remodeling, the short hairpin RNA (shRNA) vectors that specifically block the expression of endogenous Homer1a were constructed. When the shRNA of Homer1a was introduced to the cells, the activity-induced changes were almost completely suppressed. The expression of surface glutamate receptor 2 was also inhibited, suggesting that Homer1a may modulate the efficacy of synaptic transmission. Furthermore, we found that Homer1a contributes to the presynaptic remodeling in a retrograde manner. Our data indicate that Homer1a regulates the activity-induced biphasic changes of post- and pre-synaptic sites.</abstract>
+<pubmed_id>18006237</pubmed_id>
+</detail>
+</item>

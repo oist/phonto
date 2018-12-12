@@ -1,0 +1,39 @@
+Animals
+Atrophy
+Caffeine
+administration
+&
+dosage
+analogs
+&
+derivatives
+pharmacology
+Functional Laterality
+GABA-A Receptor Antagonists
+Hippocampus
+drug effects
+pathology
+physiology
+Male
+Microinjections
+N-Methylaspartate
+administration
+&
+dosage
+toxicity
+Neurons
+drug effects
+pathology
+physiology
+Neurotoxins
+toxicity
+Purinergic P1 Receptor Antagonists
+Rats
+Rats
+Sprague-Dawley
+Xanthines
+administration
+&
+dosage
+pharmacology
+This study investigated the modulatory actions of adenosine and gamma-aminobutyric acid (GABA) on several aspects of N-methyl-D-aspartate (NMDA)-induced neurotoxicity, including neuronal loss, atrophy, necrosis, and calcium accumulation in the hippocampus. For this purpose, we combined unilateral intrahippocampal injections of NMDA (24 nmoles) with acute injections of the selective A1 adenosine receptor antagonist DPCPX (0.03 pmoles), the selective adenosine A2a receptor antagonist CSC (1.5 pmoles), a combination of these two antagonists, and injections of the selective GABA A receptor antagonist bicuculline (60 pmoles). Fifteen days after NMDA injection, neuronal loss with preservation of architecture was observed in stratum oriens, pyramidale, radiatum, lacunosum-moleculare, and stratum moleculare of Ammon's horn, and in radial and granular layers of the dentate gyrus. NMDA plus vehicle also produced a small degree of brain tissue necrosis (holes in the structure) in four of five brains. Acute injections of CSC, but not DPCPX or bicuculline, significantly increased the extent of neuronal loss produced by NMDA plus vehicle. CSC in combination with NMDA induced significantly more necrosis than NMDA plus vehicle. A significant degree of atrophy was observed in the hippocampus after treatment with NMDA plus vehicle, and bicuculline significantly increased the magnitude of this atrophy. NMDA-induced calcium deposits were detected within the radiatum and lacunosum-moleculare layers of the hippocampus and in the hilus of the dentate, but not in the stratum oriens, stratum pyramidale, or in the granular layer of the dentate gyrus. However, treatment with the different antagonists did not significantly modify the magnitude of the NMDA-induced calcium deposits. These results reveal a selective vulnerability of certain areas of the hippocampus to the accumulation of calcium deposits, and a selective interaction between adenosine receptors and NMDA-induced neurotoxicity in the hippocampus.

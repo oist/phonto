@@ -1,0 +1,17 @@
+Animals
+Biogenic Amines
+physiology
+Hippocampus
+physiology
+Humans
+Long-Term Potentiation
+physiology
+Models
+Neurological
+Nerve Tissue Proteins
+biosynthesis
+Neuronal Plasticity
+physiology
+Synapses
+physiology
+A novel property of hippocampal LTP, 'variable persistence', has recently been described that is, we argue, relevant to the role of LTP in information storage. Specifically, new results indicate that a particular pattern of synaptic activation can give rise, either to a relatively short-lasting LTP, or to a longer-lasting LTP as a function of the history of activation of the neuron. This has led to the idea that the induction of LTP is associated with the setting of a'synaptic tag' at activated synapses, whose role is to sequester plasticity-related proteins that then serve to stabilize temporary synaptic changes and so extend their persistence. In this article, we outline the synaptic tag hypothesis, compare predictions it makes with those of other theories about the persistence of LTP, and speculate about the cellular identity of the tag. In addition, we outline the requirement for aminergic activation to induce late LTP and consider the functional implications of the synaptic tag hypothesis with respect to long-term memory.

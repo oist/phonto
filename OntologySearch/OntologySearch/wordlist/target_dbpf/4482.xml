@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4482">
+<itemtype>xnppaper</itemtype>
+<titles><title>Conditioning, awareness, and the hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Awareness</keyword>
+<keyword>physiology</keyword>
+<keyword>Blinking</keyword>
+<keyword>Conditioning (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Classical</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T03:43:41Z</last_update_date>
+<creation_date>2011-01-28T03:43:41Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4482</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4482" version="1.02">
+<authors><author>LaBar KS</author><author>Disterhoft JF</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>6</number>
+<page>620-6</page>
+<abstract>For the past 50 years, psychologists have wrestled with questions regarding the relationship between conscious awareness and human conditioned behavior. A recent proposal that the hippocampus mediates awareness during trace conditioning (Clark, Squire, Science 1998;280:77-81) has extended the awareness-conditioning debate to the neuroscience arena. In the following commentary, we raise specific theoretical and methodological issues regarding the Clark and Squire study and place their finding into a broader context. Throughout our discussion, we consider the difficulties in assessing subjective awareness, the importance of establishing necessary and sufficient conditions for cognitive mediation effects, the influence of conditioned response modality, and the nature of hippocampal requirements across conditioning protocols. It is clear that trace eyeblink conditioning is a hippocampal-dependent task, but whether awareness is a necessary component of trace conditioning is not definitively proven. We propose that future functional neuroimaging studies and behavioral experiments using on-line measures of awareness may help clarify the relationship among classical conditioning, awareness, and the hippocampus.</abstract>
+<pubmed_id>9882019</pubmed_id>
+</detail>
+</item>

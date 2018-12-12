@@ -1,0 +1,35 @@
+1. Circ Res. 1994 Jun;74(6):1071-96.
+
+A dynamic model of the cardiac ventricular action potential. I. Simulations of
+ionic currents and concentration changes.
+
+Luo CH(1), Rudy Y.
+
+Author information: 
+(1)Department of Biomedical Engineering, Case Western Reserve University,
+Cleveland, OH 44106-7207.
+
+A mathematical model of the cardiac ventricular action potential is presented. In
+our previous work, the membrane Na+ current and K+ currents were formulated. The 
+present article focuses on processes that regulate intracellular Ca2+ and depend 
+on its concentration. The model presented here for the mammalian ventricular
+action potential is based mostly on the guinea pig ventricular cell. However, it 
+provides the framework for modeling other types of ventricular cells with
+appropriate modifications made to account for species differences. The following 
+processes are formulated: Ca2+ current through the L-type channel (ICa), the
+Na(+)-Ca2+ exchanger, Ca2+ release and uptake by the sarcoplasmic reticulum (SR),
+buffering of Ca2+ in the SR and in the myoplasm, a Ca2+ pump in the sarcolemma,
+the Na(+)-K+ pump, and a nonspecific Ca(2+)-activated membrane current.
+Activation of ICa is an order of magnitude faster than in previous models.
+Inactivation of ICa depends on both the membrane voltage and [Ca2+]i. SR is
+divided into two subcompartments, a network SR (NSR) and a junctional SR (JSR).
+Functionally, Ca2+ enters the NSR and translocates to the JSR following a
+monoexponential function. Release of Ca2+ occurs at JSR and can be triggered by
+two different mechanisms, Ca(2+)-induced Ca2+ release and spontaneous release.
+The model provides the basis for the study of arrhythmogenic activity of the
+single myocyte including afterdepolarizations and triggered activity. It can
+simulate cellular responses under different degrees of Ca2+ overload. Such
+simulations are presented in our accompanying article in this issue of
+Circulation Research.
+
+PMID: 7514509  [PubMed - indexed for MEDLINE]

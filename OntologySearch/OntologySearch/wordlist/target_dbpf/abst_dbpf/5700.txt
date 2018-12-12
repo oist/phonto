@@ -1,0 +1,27 @@
+Animals
+Behavior
+Animal
+Cues
+Discrimination Learning
+physiology
+Environment
+Hippocampus
+injuries
+pathology
+physiopathology
+Male
+Maze Learning
+physiology
+Memory
+physiology
+Memory Disorders
+physiopathology
+Rats
+Rats
+Long-Evans
+Reaction Time
+physiology
+Space Perception
+physiology
+Time Factors
+Damage to the hippocampus typically impairs spatial learning and memory in animals, but humans with hippocampal lesions retain spatial memories of premorbidly familiar environments. We showed that, like humans, normal rats reared in a complex environment and then given hippocampal lesions retained allocentric spatial memory for that environment. These results, which ruled out dependency on single cues, landmarks or specific routes, suggest that extensive premorbid experience leads to spatial representations that are independent of the hippocampus.

@@ -1,0 +1,35 @@
+Action Potentials
+physiology
+radiation effects
+Analysis of Variance
+Animals
+Cells
+Cultured
+Electric Stimulation
+Embryo
+Mammalian
+Female
+Hippocampus
+cytology
+Models
+Neurological
+Neural Inhibition
+physiology
+Neuronal Plasticity
+physiology
+Nonlinear Dynamics
+Patch-Clamp Techniques
+methods
+Pregnancy
+Pyramidal Cells
+physiology
+radiation effects
+Rats
+Rats
+Sprague-Dawley
+Reaction Time
+Synapses
+physiology
+radiation effects
+Synaptic Transmission
+Spike-timing modifies the efficacy of both excitatory and inhibitory synapses onto CA1 pyramidal neurons in the rodent hippocampus. Repetitively spiking the presynaptic neuron before the postsynaptic neuron induces inhibitory synaptic plasticity, which results in a depolarization of the reversal potential for GABA (E(GABA)). Our goal was to determine how inhibitory synaptic plasticity regulates CA1 pyramidal neuron spiking in the rat hippocampus. We demonstrate electrophysiologically that depolarizing E(GABA) by 24.7 mV increased the spontaneous action potential firing frequency of cultured hippocampal neurons 254% from 0.12+/-0.07 Hz to 0.44+/-0.13 Hz (n=11; P<0.05). Next we used a single compartment model of a CA1 pyramidal neuron to explore in detail how inhibitory synaptic plasticity of feedforward and feedback inhibition regulates the generation of action potentials, spike latency, and the minimum excitatory conductance required to generate an action potential; plasticity was modeled as a depolarization of E(GABA), which effectively weakens inhibition. Depolarization of E(GABA) at feedforward and feedback inhibitory synapses decreased the latency to the 1st spike by 2.27 ms, which was greater that the sum of the decreases produced by depolarizing E(GABA) at feedforward (0.85 ms) or feedback inhibitory synapses (0.02 ms) alone. In response to a train of synaptic inputs, depolarizing E(GABA) decreased the inter-spike interval and increased the number of output spikes in a frequency dependent manner, improving the reliability of input-output transmission. Moreover, a depolarizing shift in E(GABA) at feedforward and feedback synapses triggered by spike trains recorded from CA1 pyramidal layer neurons during field theta from anesthetized rats, significantly increased spiking on the up- and down-strokes of the first half of the theta rhythm (P<0.05), without changing the preferred phase of firing (P=0.783). This study provides the first explanation of how depolarizing E(GABA) affects pyramidal cell output within the hippocampus.

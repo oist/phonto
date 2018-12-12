@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4007">
+<itemtype>xnppaper</itemtype>
+<titles><title>The hippocampal system mediates logical reasoning about familiar spatial environments.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Adult</keyword>
+<keyword>Data Interpretation</keyword>
+<keyword>Statistical</keyword>
+<keyword>Environment</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Logic</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mental Processes</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-07T06:42:26Z</last_update_date>
+<creation_date>2010-10-07T06:42:26Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4007</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4007" version="1.02">
+<authors><author>Goel V</author><author>Makale M</author><author>Grafman J</author></authors>
+<journal>Journal of cognitive neuroscience</journal>
+<volume>16</volume>
+<number>4</number>
+<page>654-64</page>
+<abstract>It has recently been shown that syllogistic reasoning engages two dissociable neural systems. Reasoning about familiar situations engages a frontal-temporal lobe system, whereas formally identical reasoning tasks involving unfamiliar situations recruit a frontal-parietal visuospatial network. These two systems may correspond to the &quot;heuristic&quot; and &quot;formal&quot; methods, respectively, postulated by cognitive theory. To determine if this dissociation generalizes to reasoning about transitive spatial relations, we studied 14 volunteers using event-related fMRI, as they reasoned about landmarks in familiar and unfamiliar environments. Our main finding is a task (reasoning and baseline) by spatial content (familiar and unfamiliar) interaction. Modulation of reasoning toward unfamiliar landmarks resulted in bilateral activation of superior and inferior parietal lobules (BA 7, 40), dorsal superior frontal cortex (BA 6), and right superior and middle frontal gyri (BA 8), regions widely implicated in visuospatial processing. By contrast, modulation of the reasoning task toward familiar landmarks, engaged the right inferior/orbital frontal gyrus (BA 11/47), bilateral occipital (BA 18, 19), and temporal lobes. The temporal lobe activation included the right inferior temporal gyrus (BA 37), posterior hippocampus, and parahippocampal gyrus, regions implicated in spatial memory and navigation tasks. These results provide support for the generalization of dual mechanism theory to transitive reasoning and highlight the importance of the hippocampal system in reasoning about familiar spatial environments.</abstract>
+<pubmed_id>15165354</pubmed_id>
+</detail>
+</item>

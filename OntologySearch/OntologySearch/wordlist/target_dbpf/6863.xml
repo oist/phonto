@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6863">
+<itemtype>xnppaper</itemtype>
+<titles><title>Central mechanisms of stress integration: hierarchical circuitry controlling hypothalamo-pituitary-adrenocortical responsiveness.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adrenocorticotropic Hormone</keyword>
+<keyword>physiology</keyword>
+<keyword>Amygdala</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Corticotropin-Releasing Hormone</keyword>
+<keyword>physiology</keyword>
+<keyword>Glucocorticoids</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Hypothalamo-Hypophyseal System</keyword>
+<keyword>physiology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Hypothalamus</keyword>
+<keyword>physiology</keyword>
+<keyword>Limbic System</keyword>
+<keyword>physiology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Paraventricular Hypothalamic Nucleus</keyword>
+<keyword>physiology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Pituitary-Adrenal System</keyword>
+<keyword>physiology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Raphe Nuclei</keyword>
+<keyword>physiology</keyword>
+<keyword>Septal Nuclei</keyword>
+<keyword>physiology</keyword>
+<keyword>Solitary Nucleus</keyword>
+<keyword>physiology</keyword>
+<keyword>Stress</keyword>
+<keyword>Physiological</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Thalamus</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T02:20:04Z</last_update_date>
+<creation_date>2013-02-27T02:20:04Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6863</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6863" version="1.02">
+<authors><author>Herman JP</author><author>Figueiredo H</author><author>Mueller NK</author><author>Ulrich-Lai Y</author><author>Ostrander MM</author><author>Choi DC</author><author>Cullinan WE</author></authors>
+<journal>Frontiers in neuroendocrinology</journal>
+<volume>24</volume>
+<number>3</number>
+<page>151-80</page>
+<abstract>Appropriate regulatory control of the hypothalamo-pituitary-adrenocortical stress axis is essential to health and survival. The following review documents the principle extrinsic and intrinsic mechanisms responsible for regulating stress-responsive CRH neurons of the hypothalamic paraventricular nucleus, which summate excitatory and inhibitory inputs into a net secretory signal at the pituitary gland. Regions that directly innervate these neurons are primed to relay sensory information, including visceral afferents, nociceptors and circumventricular organs, thereby promoting &#039;reactive&#039; corticosteroid responses to emergent homeostatic challenges. Indirect inputs from the limbic-associated structures are capable of activating these same cells in the absence of frank physiological challenges; such &#039;anticipatory&#039; signals regulate glucocorticoid release under conditions in which physical challenges may be predicted, either by innate programs or conditioned stimuli. Importantly, &#039;anticipatory&#039; circuits are integrated with neural pathways subserving &#039;reactive&#039; responses at multiple levels. The resultant hierarchical organization of stress-responsive neurocircuitries is capable of comparing information from multiple limbic sources with internally generated and peripherally sensed information, thereby tuning the relative activity of the adrenal cortex. Imbalances among these limbic pathways and homeostatic sensors are likely to underlie hypothalamo-pituitary-adrenocortical dysfunction associated with numerous disease processes.</abstract>
+<pubmed_id>14596810</pubmed_id>
+</detail>
+</item>

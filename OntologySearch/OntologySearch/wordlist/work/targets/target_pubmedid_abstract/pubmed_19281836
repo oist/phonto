@@ -1,0 +1,26 @@
+1. Vision Res. 2009 May;49(9):970-8. doi: 10.1016/j.visres.2009.03.003. Epub 2009
+Mar 10.
+
+Simulation analysis of bandpass filtering properties of a rod photoreceptor
+network.
+
+Kamiyama Y(1), Wu SM, Usui S.
+
+Author information: 
+(1)Information Science and Technology, Aichi Prefectural University, 1522-3
+Ibaragabasama, Kumabari, Nagakute, Aichi, Japan. kamiyama@ist.aichi-pu.ac.jp
+
+The bandpass filtering properties of a rod network were studied via computer
+simulations. Sinusoidal current stimuli were applied to a single rod model to
+characterize its temporal filtering properties. The simulated frequency response 
+revealed that a single rod behaves as a bandpass filter whose characteristics are
+affected by the stimulus strength and frequency. We analyzed the contribution of 
+individual ionic currents to bandpass filtering and found that the filtering of
+small signals is largely regulated by the calcium-dependent currents I(K(Ca)) and
+I(Cl(Ca)), whereas the filtering of large signals is regulated by the
+hyperpolarization-activated current, I(h). Furthermore, rod network modeling by
+electrically interconnecting the single rod models revealed that the acceleration
+of signals that spread laterally through the rod network is attributed to
+I(K(Ca)) and not I(h).
+
+PMID: 19281836  [PubMed - indexed for MEDLINE]

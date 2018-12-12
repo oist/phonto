@@ -1,0 +1,49 @@
+Action Potentials
+drug effects
+physiology
+Afferent Pathways
+drug effects
+enzymology
+physiopathology
+Aging
+metabolism
+Animals
+Avoidance Learning
+drug effects
+physiology
+Electric Stimulation
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+Hippocampus
+enzymology
+pathology
+physiopathology
+Long-Term Potentiation
+drug effects
+physiology
+Male
+Memory Disorders
+enzymology
+physiopathology
+Neural Inhibition
+drug effects
+physiology
+Neurons
+drug effects
+enzymology
+Phosphoprotein Phosphatases
+antagonists
+&
+inhibitors
+metabolism
+Protein Kinase Inhibitors
+Protein Kinases
+metabolism
+Rats
+Rats
+Sprague-Dawley
+Synaptic Transmission
+drug effects
+physiology
+Aging is associated with an impaired ability to maintain long-term potentiation (LTP), but the underlying cause of the impairment remains unclear. To gain a better understanding of the cellular and molecular mechanisms responsible for this impairment, the synaptic transmission and plasticity were studied in the CA1 region of hippocampal slices from adult (6-8 months) and poor-memory (PM)-aged (23-24 months) rats. The one-way inhibitory avoidance learning task was used as the behavioral paradigm to screen PM-aged rats. With intracellular recordings, CA1 neurons of PM-aged rats exhibited a more hyperpolarized resting membrane potential, reduced input resistance, and increased amplitude of afterhyperpolarization and spike threshold, compared with those in adult rats. Although a reduction in the size of excitatory synaptic response was observed in PM-aged rats, no obvious differences were found between adult and PM-aged rats in the pharmacological properties of excitatory synaptic response, paired-pulse facilitation, or frequency-dependent facilitation, which was tested with trains of 10 pulses at 1, 5, and 10 Hz. Slices from the PM-aged rats displayed significantly reduced early-phase long-term potentiation (E-LTP) and late-phase LTP (L-LTP), and the entire frequency-response curve of LTP and LTD is modified to favor LTD induction. The susceptibility of time-dependent reversal of LTP by low-frequency afferent stimulation was also facilitated in PM-aged rats. Bath application of the protein phosphatase inhibitor, calyculin A, enhanced synaptic response in slices from PM-aged, but not adult, rats. In contrast, application of the cAMP-dependent protein kinase inhibitors, Rp-8-CPT-cAMPS and KT5720, induced a decrease in synaptic transmission only in slices from the adult rats. Furthermore, the selective beta-adrenergic receptor agonist, isoproterenol, and pertussis toxin-sensitive G-protein inhibitor, N-ethylmaleimide, effectively restored the deficit in E-LTP and L-LTP of PM-aged rats. These results demonstrate that age-related impairments of synaptic transmission and LTP may result from alterations in the balance of protein kinase/phosphatase activities.

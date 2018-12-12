@@ -1,0 +1,29 @@
+Adolescent
+Adult
+Cognition
+physiology
+Female
+Functional Laterality
+physiology
+Humans
+Language Tests
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Neural Pathways
+physiology
+Parahippocampal Gyrus
+physiology
+Photic Stimulation
+Semantics
+Temporal Lobe
+anatomy
+&
+histology
+physiology
+Verbal Behavior
+physiology
+Visual Perception
+physiology
+Medial temporal lobe (MTL) structures often respond to stimulus repetition with a reduction in neural activity. Such novelty/familiarity responses reflect the mnemonic consequences of initial stimulus encounter, although the aspects of initial processing that lead to novelty/familiarity responses remain unspecified. The current functional magnetic resonance imaging (fMRI) experiment examined the sensitivity of MTL to changes in the semantic representations/processes engaged across stimulus repetitions. During initial study blocks, words were visually presented, and participants made size, shape, or composition judgments about the named referents. During repeated study blocks, the initial words were visually re-presented along with novel words, and participants made size judgments for all items. Behaviorally, responses were faster to repeated words in which the same task was performed at initial and repeated exposure (i.e., size-->size) relative to repeated words in which the tasks differed (i.e., composition-->size and shape-->size). fMRI measures revealed activation reductions in left parahippocampal cortex following same-task and different-task repetition; numerically, the effect was larger in the same-task condition. Accordingly, left parahippocampal cortex demonstrates sensitivity to perceptual novelty/familiarity, and it remains unclear whether this region also is sensitive to novelty/familiarity in the conceptual domain. In left perirhinal cortex, a novelty/familiarity effect was observed in the same-task condition but not in the different-task condition, thus revealing sensitivity to the degree of semantic overlap across exposures but insensitivity to perceptual repetition of the visual word form. Perirhinal sensitivity to semantic repetition and insensitivity to perceptual repetition suggests that human perirhinal cortex receives conceptual inputs, with perirhinal contributions to declarative memory perhaps partially stemming from its role in processing semantic aspects of experiences.

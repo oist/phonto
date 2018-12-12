@@ -1,0 +1,17 @@
+DEIA
+Animals
+Head Movements
+physiology
+Hippocampus
+cytology
+physiology
+Mamillary Bodies
+cytology
+physiology
+Neural Pathways
+Neurons
+physiology
+Rats
+Space Perception
+physiology
+As a rat navigates through space, neurons called head-direction (HD) cells provide a signal of the rat's momentary directional heading. Although partly guided by landmarks, the cells also show a remarkable ability to track directional heading based on angular head movement. Theoretical models suggest that the HD cells are linked together to form an attractor network, and that cells which signal angular velocity update the directional setting of the attractor. Recently, cell types similar to those required theoretically have been discovered in the lateral mammillary and dorsal tegmental nuclei. Lesion and anatomical data suggest these nuclei might constitute the postulated attractor-path integration mechanism, and that they provide the HD cell signal to cortical areas where it has been observed.

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5091">
+<itemtype>xnppaper</itemtype>
+<titles><title>Computational models of hippocampal function in memory.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:47:31Z</last_update_date>
+<creation_date>2011-05-16T03:28:27Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5091</url>
+<changelogs>
+<changelog date='2013-03-28T02:47:31Z'>Modified; Item Description.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5091" version="1.02">
+<authors><author>Gluck MA</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>565-6</page>
+<abstract></abstract>
+<pubmed_id>9034845</pubmed_id>
+</detail>
+</item>

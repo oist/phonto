@@ -1,0 +1,14 @@
+Animals
+Electric Stimulation
+Evoked Potentials
+Guinea Pigs
+Hippocampus
+cytology
+Intracellular Membranes
+ultrastructure
+Isoquinolines
+Neurons
+cytology
+Synapses
+cytology
+Stable intracellular recordings were obtained from nonpyramidal cells (interneurons) in stratum lacunosum-moleculare (L-M) of the CA1 region of guinea pig hippocampal slices. The intracellular response characteristics of these interneurons were distinctly different from responses of pyramidal cells and of other interneurons (basket cells and oriens-alveus interneurons). L-M interneurons had a high resting membrane potential (-58 mV), a high input resistance (64 M omega), and a large amplitude (60 mV), relatively long duration (2 msec) action potential. A large afterhyperpolarization (11 mV, 34 msec) followed a single action potential. Most L-M interneurons did not display any spontaneous firing. Lucifer yellow (LY)-filled L-M interneurons showed nonpyramidal morphology. Cells were generally fusiform or multipolar, with aspinous, beaded dendritic processes ramifying in stratum lacunosum-moleculare, radiatum, and (sometimes) oriens. The varicose axon originated from a primary dendrite, projected along stratum lacunosum-moleculare, branched profusely in stratum radiatum, and coursed toward and into stratum pyramidale and occasionally into oriens. Processes of cells with somata in the L-M region of CA1 were not restricted to the CA1 region. The dendritic and axonal processes of some L-M interneurons were seen ascending in stratum lacunosum-moleculare, crossing the hippocampal fissure, and coursing in stratum moleculare of the dentate gyrus. Excitatory and inhibitory postsynaptic potentials (EPSPs and IPSPs) were evoked in L-M interneurons from stimulation of major hippocampal afferents. EPSPs were most effectively elicited by stimulation of fiber pathways in transverse slices, whereas IPSPs were predominantly evoked when major pathways were stimulated in longitudinal slices. We have identified a population of interneurons with intracellular response characteristics and morphology distinctly different from previously described pyramidal and nonpyramidal neurons of CA1 region. The possible role of these interneurons in hippocampal circuitry is discussed.

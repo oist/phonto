@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5179">
+<itemtype>xnppaper</itemtype>
+<titles><title>Activity-inducible protein Homer1a/Vesl-1S promotes redistribution of postsynaptic protein Homer1c/Vesl-1L in cultured rat hippocampal neurons.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Actins</keyword>
+<keyword>metabolism</keyword>
+<keyword>Animals</keyword>
+<keyword>Brain-Derived Neurotrophic Factor</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Carrier Proteins</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>Cysteine Endopeptidases</keyword>
+<keyword>metabolism</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>metabolism</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>genetics</keyword>
+<keyword>Multienzyme Complexes</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>genetics</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neuropeptides</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Proteasome Endopeptidase Complex</keyword>
+<keyword>Protein Isoforms</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Rats</keyword>
+<keyword>Seizures</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synaptic Membranes</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>genetics</keyword>
+<keyword>Up-Regulation</keyword>
+<keyword>genetics</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-20T02:00:34Z</last_update_date>
+<creation_date>2011-05-20T02:00:34Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5179</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5179" version="1.02">
+<authors><author>Inoue Y</author><author>Honkura N</author><author>Kato A</author><author>Ogawa S</author><author>Udo H</author><author>Inokuchi K</author><author>Sugiyama H</author><author>Ogawa S</author></authors>
+<journal>Neuroscience letters</journal>
+<volume>354</volume>
+<number>2</number>
+<page>143-7</page>
+<abstract>In cultured rat hippocampal neurons, overexpression of Homer1a/Vesl-1S, an inducible protein upregulated by seizure or long-term potentiation, caused a reduction of punctate distribution of a postsynaptic protein Homer1c/Vesl-1L, without significant decrease in its total amount. Clusters of F-actin were also decreased. Treatments of cells with BDNF or a proteasome inhibitor, which cause increase in the expression level of endogenous Homer1a, also resulted in the reduction of Homer1c puncta. These results indicate that the accumulation of Homer1a, either exogenously expressed or endogenously induced, caused redistribution and dispersion of postsynaptic clusters of Homer1c and F-actin, suggesting an important role of Homer1a in synaptic remodeling.</abstract>
+<pubmed_id>14698459</pubmed_id>
+</detail>
+</item>

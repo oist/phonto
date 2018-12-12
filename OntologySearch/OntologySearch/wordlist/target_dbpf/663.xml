@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="663">
+<itemtype>xnppaper</itemtype>
+<titles><title>Associative long-term depression in the hippocampus induced by hebbian covariance.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-04T02:51:46Z</last_update_date>
+<creation_date>2008-07-04T02:51:46Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=663</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="663" version="1.02">
+<authors><author>Stanton PK</author><author>Sejnowski TJ</author></authors>
+<journal>Nature</journal>
+<volume>339</volume>
+<number>6221</number>
+<page>215-8</page>
+<abstract>A brief, high-frequency activation of excitatory synapses in the hippocampus produces a long-lasting increase in synaptic strengths called long-term potentiation (LTP). A test input, which by itself does not have a long-lasting effect on synaptic strengths, can be potentiated through association when it is activated at the same time as a separate conditioning input. Neural network modelling studies have also predicted that synaptic strengths should be weakened when test and conditioning inputs are anti-correlated. Evidence for such heterosynaptic depression in the hippocampus has been found for inputs that are inactive or weakly active during the stimulation of a conditioning input, but this depression does not depend on any pattern of test input activity and does not seem to last as long as LTP. We report here an associative long-term depression (LTD) in field CA1 that is produced when a low-frequency test input is negatively correlated in time with a high-frequency conditioning input. LTD of synaptic strength is also produced by activating presynaptic terminals while a postsynaptic neuron is hyperpolarized. This confirms theoretical predictions that the mechanism for associative LTD is homosynaptic and follows a hebbian covariance rule.</abstract>
+<pubmed_id>2716848 </pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,21 @@
+Adolescent
+Adult
+Auditory Perception
+physiology
+Cues
+Female
+Hippocampus
+physiology
+Humans
+Magnetic Resonance Imaging
+Male
+Neuropsychological Tests
+Recognition (Psychology)
+physiology
+Temporal Lobe
+physiology
+Time Factors
+Visual Perception
+physiology
+Young Adult
+Functional magnetic resonance imaging (fMRI) was used to address the question whether medial temporal lobe (MTL) activity prior to a stimulus event is predictive of whether the event will be successfully encoded in an incidental study task. Participants were scanned while making pleasantness judgments on words presented either in written or spoken form. A cue presented at a variable interval before the onset of each word signaled the modality of the upcoming item. Following the study phase, a surprise recognition memory test was administered that required items to be endorsed as"Remembered,""Known,"or"New."Activity in the MTL, including the hippocampus, differed during the cue-item interval according to whether the item was later endorsed as Remembered rather than judged as Known or New. Thus, the level of hippocampal activity prior to the onset of an event predicts whether the event will be successfully encoded into episodic memory.

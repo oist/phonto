@@ -1,0 +1,485 @@
+=== pubmedid 267326
+urls:
+http://www.sciencemag.org/cgi/pmidlookup?view=long&pmid=267326
+timeout
+=== pubmedid 267326 end
+
+
+=== pubmedid 836920
+urls:
+no link
+=== pubmedid 836920 end
+
+
+=== pubmedid 874889
+urls:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1283659/
+J Physiol. 1977 Jun; 268(1): 177-210.
+jphysiol00808-0190.pdf
+=== pubmedid 874889 end
+
+
+=== pubmedid 1252578
+urls:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1334834/
+Biophys J. 1976 Mar; 16(3): 227-244.
+biophysj00306-0035.pdf
+=== pubmedid 1252578 end
+
+
+=== pubmedid 1661326
+urls:
+http://jn.physiology.org/cgi/pmidlookup?view=long&pmid=1661326
+http://jn.physiology.org/content/66/3/839.long
+839.full.pdf
+=== pubmedid 1661326 end
+
+
+=== pubmedid 1663538
+urls:
+http://jn.physiology.org/cgi/pmidlookup?view=long&pmid=1663538
+http://jn.physiology.org/content/66/2/635.long
+http://jn.physiology.org/content/66/2/635.full.pdf
+635.full.pdf
+=== pubmedid 1663538 end
+
+
+=== pubmedid 1709839
+urls:
+http://circres.ahajournals.org/cgi/pmidlookup?view=long&pmid=1709839
+http://circres.ahajournals.org/content/68/6/1501.long
+http://circres.ahajournals.org/content/68/6/1501.full.pdf
+Circulation Research-1991-Luo-1501-26.pdf
+=== pubmedid 1709839 end
+
+
+=== pubmedid 1850840
+urls:
+http://www.pnas.org/cgi/pmidlookup?view=long&pmid=1850840
+http://www.pnas.org/content/88/9/3897.long
+http://www.pnas.org/content/88/9/3897.full.pdf
+PNAS-1991-Keizer-3897-901.pdf
+=== pubmedid 1850840 end
+
+
+=== pubmedid 1912008
+urls:
+no link
+=== pubmedid  end
+
+
+=== pubmedid 2174274
+urls:
+http://www.ncbi.nlm.nih.gov/pmc/articles/pmid/2174274/
+http://www.ncbi.nlm.nih.gov/pmc/articles/pmid/2174274/pdf
+
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1281044/
+=== pubmedid  end
+
+
+=== pubmedid 2431725
+urls:ncbi
+biophysj00173-0003.pdf
+=== pubmedid 2431725 end
+
+
+=== pubmedid 2578676
+urls:
+http://rstb.royalsocietypublishing.org/cgi/pmidlookup?view=long&pmid=1709839
+http://rstb.royalsocietypublishing.org/content/307/1133/353.long
+353.full.pdf (image scan)
+=== pubmedid 2578676 end
+
+
+=== pubmedid 2850029
+urls:ncbi
+biophysj00149-0038.pdf
+=== pubmedid 2850029 end
+
+
+=== pubmedid 2996634
+urls:
+no link
+=== pubmedid 2996634 end
+
+
+=== pubmedid 6305437
+urls:ncbi
+
+=== pubmedid 6305437 end
+
+
+=== pubmedid 6391804
+urls:
+no link
+=== pubmedid 6391804 end
+
+
+=== pubmedid 7260316
+urls:ncbi
+biophysj00242-0188.pdf
+=== pubmedid 7260316 end
+
+
+=== pubmedid 7265560
+urls:
+no link
+=== pubmedid 7265560 end
+
+
+=== pubmedid 7514509
+urls:
+http://circres.ahajournals.org/content/74/6/1071.long
+Circulation Research-1994-Luo-1071-96.pdf
+=== pubmedid 7514509 end
+
+
+=== pubmedid 7538806
+urls:ncbi
+biophysj00064-0227.pdf
+=== pubmedid 7538806 end
+
+
+=== pubmedid 7948220
+urls:
+no link
+=== pubmedid 7948220 end
+
+
+=== pubmedid 8815919
+urls:
+http://www.jneurosci.org/cgi/pmidlookup?view=long&pmid=8815919
+6402.full.pdf
+=== pubmedid 8815919 end
+
+
+=== pubmedid 8974733
+urls:
+no link
+=== pubmedid  end
+
+
+=== pubmedid 9053795
+urls:
+http://linkinghub.elsevier.com/retrieve/pii/0306-4522(95)00483-1
+http://www.sciencedirect.com/science/article/pii/0306452295004831
+1-s2.0-0306452295004831-main.pdf
+=== pubmedid  end
+
+
+=== pubmedid 9405551
+urls:
+http://jn.physiology.org/content/78/6/3371.long
+http://jn.physiology.org/content/78/6/3371.full.pdf
+=== pubmedid 9405551 end
+
+
+=== pubmedid 9633920
+urls:
+http://circres.ahajournals.org/content/82/11/1206.long
+Circulation Research-1998-Priebe-1206-23.pdf
+=== pubmedid 9633920 end
+
+
+=== pubmedid 9688927
+urls:
+http://ajpheart.physiology.org/cgi/pmidlookup?view=long&pmid=9688927
+H301.full.pdf
+=== pubmedid 9688927 end
+
+
+=== pubmedid 10400966
+urls:
+http://jn.physiology.org/cgi/pmidlookup?view=long&pmid=10400966
+382.full.pdf
+=== pubmedid 10400966 end
+
+
+=== pubmedid 10444678
+urls:
+http://jn.physiology.org/content/82/2/804.long
+804.full.pdf
+=== pubmedid 10444678 end
+
+
+=== pubmedid 10643740
+urls:
+http://jbr.sagepub.com/content/14/6/433.long
+not free?
+=== pubmedid 10643740 end
+
+
+=== pubmedid 10777735
+urls:
+http://www.sciencedirect.com/science/article/pii/S000634950076783X
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1300828/
+10777735.pdf
+=== pubmedid 10777735 end
+
+
+=== pubmedid 11923461
+urls:
+http://www.jneurosci.org/content/22/7/2963.long
+2963.full.pdf
+=== pubmedid 11923461 end
+
+
+=== pubmedid 12574468
+urls:
+http://jn.physiology.org/content/89/2/909.long
+
+=== pubmedid 12574468 end
+
+
+=== pubmedid 12644446
+urls:
+http://ajpendo.physiology.org/cgi/pmidlookup?view=long&pmid=12644446
+E138.full.pdf
+=== pubmedid 12644446 end
+
+
+=== pubmedid 12932323
+urls:
+http://www.sciencedirect.com/science/article/pii/S0960982203005347
+http://ac.els-cdn.com/S0960982203005347/1-s2.0-S0960982203005347-main.pdf?_tid=f5d3d084-1ed1-11e5-992d-00000aab0f01&acdnat=1435632462_0e98de7269974d076b60ac1d2aceb621
+1-s2.0-S0960982203005347-main.pdf
+=== pubmedid 12932323 end
+
+
+=== pubmedid 12991237
+urls:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392413/
+		<Item Name="pmc" Type="String">PMC1392413</Item>
+J Physiol. 1952 Aug 28; 117(4): 500-544.
+jphysiol01442-0106.pdf
+=== pubmedid 12991237 end
+
+
+=== pubmedid 14656705
+urls:
+http://ajpheart.physiology.org/content/286/4/H1573.long
+H1573.full.pdf
+=== pubmedid 14656705 end
+
+
+=== pubmedid 14766974
+urls: pnas
+PNAS-2004-Angeli-1822-7.pdf
+=== pubmedid 14766974 end
+
+
+=== pubmedid 15103017
+urls:pnas
+PNAS-2004-Cunningham-7152-7.pdf
+=== pubmedid 15103017 end
+
+
+=== pubmedid 15114047
+urls:
+no link
+=== pubmedid 15114047 end
+
+
+=== pubmedid 15189761
+urls:
+http://www.sciencedirect.com/science/article/pii/S0014299904003905
+1-s2.0-S0014299904003905-main.pdf
+=== pubmedid 15189761 end
+
+
+=== pubmedid 15783604
+urls:
+http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.94.048101
+not free?
+=== pubmedid 15783604 end
+
+
+=== pubmedid 15830162
+urls:
+http://dx.doi.org/10.1007/s10827-005-0354-7
+http://link.springer.com/article/10.1007%2Fs10827-005-0354-7
+art%3A10.1007%2Fs10827-005-0354-7.pdf
+=== pubmedid 15830162 end
+
+
+=== pubmedid 16040746
+urls:
+http://www.sciencedirect.com/science/article/pii/S000634950572926X
+1-s2.0-S000634950572926X-main.pdf
+=== pubmedid 16040746 end
+
+
+=== pubmedid 17008376
+urls:
+http://onlinelibrary.wiley.com/doi/10.1113/jphysiol.2006.118703/full
+http://onlinelibrary.wiley.com/store/10.1113/jphysiol.2006.118703/asset/jphysiol.2006.118703.pdf?v=1&t=ibirjhnq&s=af7f9645086b76483e06939cdd5ff21bbb55651a
+
+=== pubmedid 17008376 end
+
+
+=== pubmedid 17110776
+urls:
+http://stacks.iop.org/0031-9155/51/6141
+0031-9155_51_23_014.pdf
+error 500
+=== pubmedid 17110776 end
+
+
+=== pubmedid 17158566
+urls:
+http://www.sciencedirect.com/science/article/pii/S000634950770961X
+1-s2.0-S000634950770961X-main.pdf
+=== pubmedid 17158566 end
+
+
+=== pubmedid 17220183
+urls:
+http://ajpheart.physiology.org/content/293/1/H660.long
+H660.full.pdf
+=== pubmedid 17220183 end
+
+
+=== pubmedid 17912360
+urls:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1991600/
+pone.0000983.pdf
+=== pubmedid 17912360 end
+
+
+=== pubmedid 18244602
+urls:
+http://dx.doi.org/10.1109/TNN.2003.820440
+http://ieeexplore.ieee.org/ielx5/72/28123/01257420.pdf
+=== pubmedid 18244602 end
+
+
+=== pubmedid 18635251
+urls:
+http://linkinghub.elsevier.com/retrieve/pii/S0079-6107(08)00047-3
+http://ac.els-cdn.com/S0079610708000473/1-s2.0-S0079610708000473-main.pdf?_tid=41c156e8-1ee5-11e5-8af7-00000aab0f6b&acdnat=1435640750_703e547edf012de358fd9dd28c42fd37
+1-s2.0-S0079610708000473-main.pdf
+=== pubmedid 18635251 end
+
+
+=== pubmedid 18690032
+urls:
+http://www.landesbioscience.com/journals/chan/abstract.php?id=4691 (dead link)
+http://www.tandfonline.com/doi/abs/10.4161/chan.4691#.VZIkcfntlBc
+http://www.tandfonline.com/doi/pdf/10.4161/chan.4691
+chan%2E4691.pdf
+=== pubmedid 18690032 end
+
+
+=== pubmedid 18764509
+urls:
+not found
+=== pubmedid 18764509 end
+
+
+=== pubmedid 19281836
+urls:
+http://linkinghub.elsevier.com/retrieve/pii/S0042-6989(09)00074-1
+http://www.sciencedirect.com/science/article/pii/S0042698909000741
+http://ac.els-cdn.com/S0042698909000741/1-s2.0-S0042698909000741-main.pdf?_tid=8d0d65fe-1ee7-11e5-a3ca-00000aab0f02&acdnat=1435641735_ec1ed29caf1f9c6970bea32b5f4d7f0b
+1-s2.0-S0042698909000741-main.pdf
+=== pubmedid 19281836 end
+
+
+=== pubmedid 19431309
+urls:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1366333/
+biophysj00662-0010.pdf
+=== pubmedid 19431309 end
+
+
+=== pubmedid 19584944
+urls:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2704954/
+pone.0006169.pdf
+=== pubmedid 19584944 end
+
+
+=== pubmedid 21099125
+urls:
+https://www.jstage.jst.go.jp/article/circj/75/1/75_CJ-10-0071/_article
+75_80.pdf
+=== pubmedid 21099125 end
+
+
+=== pubmedid 21281569
+urls:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3030217/
+main.pdf
+=== pubmedid 21281569 end
+
+
+=== pubmedid 21637795
+urls:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3102752/
+pcbi.1002061.pdf
+=== pubmedid 21637795 end
+
+
+=== pubmedid 21721763
+urls:
+http://dx.doi.org/10.1063/1.3597645
+1.3597645.pdf
+=== pubmedid 21721763 end
+
+
+=== pubmedid 21810471
+urls:
+http://www.sciencedirect.com/science/article/pii/S0925443911001645
+1-s2.0-S0925443911001645-main.pdf
+=== pubmedid 21810471 end
+
+
+=== pubmedid 21984318
+urls:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3288232/
+http://link.springer.com/article/10.1007/s10827-011-0366-4/fulltext.html
+art%3A10.1007%2Fs10827-011-0366-4.pdf
+=== pubmedid 21984318 end
+
+
+=== pubmedid 22020101
+urls:
+http://www.sciencedirect.com/science/article/pii/S0006291X11018316
+1-s2.0-S0006291X11018316-main.pdf
+=== pubmedid 22020101 end
+
+
+=== pubmedid 22805067
+urls:
+http://onlinelibrary.wiley.com/resolve/openurl?genre=article&sid=nlm:pubmed&issn=0953-816X&date=2012&volume=36&issue=2&spage=2229
+Pavlides_et_al-2012-European_Journal_of_Neuroscience.pdf
+=== pubmedid 22805067 end
+
+
+=== pubmedid 24152110
+urls:
+http://onlinelibrary.wiley.com/doi/10.1111/ejn.12388/full
+Kimura_et_al-2014-European_Journal_of_Neuroscience.pdf
+=== pubmedid 24152110  end
+
+
+=== pubmedid 24416228
+urls:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3885549/
+pone.0084401.pdf
+=== pubmedid 24416228 end
+
+
+=== pubmedid 25279776
+urls:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4184874/
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4184874/pdf/pone.0109271.pdf
+=== pubmedid 25279776 end
+
+
+
+
+
+
+
+

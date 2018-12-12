@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1402">
+<itemtype>xnppaper</itemtype>
+<titles><title>Human amnesia and the medial temporal region: enduring memory impairment following a bilateral lesion limited to field CA1 of the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-09-03T03:23:14Z</last_update_date>
+<creation_date>2008-09-03T03:23:14Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1402</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1402" version="1.02">
+<authors><author>Zola-Morgan S</author><author>Squire LR</author><author>Amaral DG</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>6</volume>
+<number>10</number>
+<page>2950-67</page>
+<abstract>During the past 100 years clinical studies of amnesia have linked memory impairment to damage of the hippocampus. Yet the damage in these cases has not usually been confined to the hippocampus, and the status of memory functions has often been based on incomplete neuropsychological information. Thus, the human cases have until now left some uncertainty as to whether lesions limited to the hippocampus are sufficient to cause amnesia. Here we report a case of amnesia in a patient (R.B.) who developed memory impairment following an ischemic episode. During the 5 years until his death, R.B. exhibited marked anterograde amnesia, little if any retrograde amnesia, and showed no signs of cognitive impairment other than memory. Thorough histological examination revealed a circumscribed bilateral lesion involving the entire CA1 field of the hippocampus. Minor pathology was found elsewhere in the brain (e.g., left globus pallidus, right postcentral gyrus, left internal capsule), but the only damage that could be reasonably associated with the memory defect was the lesion in the hippocampus. To our knowledge, this is the first reported case of amnesia following a lesion limited to the hippocampus in which extensive neuropsychological and neuropathological analyses have been carried out.</abstract>
+<pubmed_id>3760943 </pubmed_id>
+</detail>
+</item>

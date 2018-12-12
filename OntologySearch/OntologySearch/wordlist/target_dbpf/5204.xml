@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5204">
+<itemtype>xnppaper</itemtype>
+<titles><title>Algebraic method for the analysis of signaling crosstalk.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Gene Expression Regulation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>Long-Term Synaptic Depression</keyword>
+<keyword>Mathematics</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Knockout</keyword>
+<keyword>Models</keyword>
+<keyword>Biological</keyword>
+<keyword>Neurons</keyword>
+<keyword>metabolism</keyword>
+<keyword>Reproducibility of Results</keyword>
+<keyword>Signal Transduction</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-20T05:08:34Z</last_update_date>
+<creation_date>2011-05-20T05:08:34Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5204</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5204" version="1.02">
+<authors><author>Matsubara Y</author><author>Kikuchi S</author><author>Sugimoto M</author><author>Oka K</author><author>Tomita M</author></authors>
+<journal>Artificial life</journal>
+<volume>14</volume>
+<number>1</number>
+<page>81-94</page>
+<abstract>A unified mathematical description that expresses the characteristics of whole systems is necessary for an understanding of signal transduction cascades. In this study we explore an algebraic method, named extreme signaling flow, enhanced from the concept of extreme pathway, to analyze signal transduction systems. This method enables us to represent the long-term potentiation (LTP) and the long-term depression (LTD) of hippocampal neuronal plasticity in an integrated simulation model. The model is validated by comparing the results of redundancy, reaction participation, and in silico knockout analysis with biological knowledge available from the literature. The following properties are assumed in these computational analyses: (1) LTP is fault-tolerant under network modification, (2) protein kinase C and MAPK have numerous routes to LTP induction, (3) calcium-calmodulin kinase II has a few routes to LTP induction, and (4) calcineurin has many routes to LTD induction. These results demonstrate that our approach produces an integrated framework for analyzing properties of large-scale systems with complicated signal transduction.</abstract>
+<pubmed_id>18171132</pubmed_id>
+</detail>
+</item>

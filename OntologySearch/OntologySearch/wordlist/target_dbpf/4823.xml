@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4823">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal representation in place learning.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Escape Reaction</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>pathology</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>Male</keyword>
+<keyword>Methods</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Space Perception</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:48:25Z</last_update_date>
+<creation_date>2011-04-28T05:48:25Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4823</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4823" version="1.02">
+<authors><author>Eichenbaum H</author><author>Stewart C</author><author>Morris RG</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>10</volume>
+<number>11</number>
+<page>3531-42</page>
+<abstract>The generality of the place-learning impairment associated with hippocampal system damage was challenged using methods of training that permitted subjects to form an individual association between the place of escape and a particular navigational route in an open-field water maze. Both normal rats and rats with fornix lesions (FX rats) acquired this task rapidly, although FX rats were slightly slower in achieving minimum escape latencies. In postcriterion testing, FX rats occasionally made near misses but, more often, their escape performance was indistinguishable from that of intact rats. Results from a variety of probe tests indicated that FX rats, like normal rats, had based their performance on a representation of multiple distal cues but their representation, unlike that of normal rats, was inflexible in that it could not be used to guide performance when the cues or starting position were altered. These results parallel those from other studies of hippocampal function in animals and humans: The learning deficit consequent to hippocampal system damage (1) is not specific to a particular category of learning materials, but is dependent on the representational demands of the task; (2) is observed when task demands encourage a representation based on relations among multiple cues, but not when the task encourages adaptation to an individual (or compound) stimulus; (3) spares acquisition of fundamental procedures needed to perform the task; and (4) impairs the flexible use of learned information in tests other than repetition of the learning experience.</abstract>
+<pubmed_id>2230943</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="2566">
+<itemtype>xnpconference</itemtype>
+<titles><title>Memory - guided locomotion with spatial ambiguity: behavioral context representation by theta phase coding in the hippocampus</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2009-10-14T06:14:24Z</last_update_date>
+<creation_date>2009-07-06T05:34:23Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>11</publication_month>
+<publication_mday>12</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=2566</url>
+<changelogs>
+<changelog date='2009-10-14T06:14:24Z'>発表資料 を変更</changelog>
+<changelog date='2009-10-06T07:10:06Z'>発表資料ファイル形式, 発表資料 を変更</changelog>
+<changelog date='2009-07-07T03:03:10Z'>タイトル, 発表資料ファイル形式, 発表資料 を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="2566" version="1.02">
+<conference_from_year>2005</conference_from_year>
+<conference_from_month>11</conference_from_month>
+<conference_from_mday>12</conference_from_mday>
+<conference_to_year>2005</conference_to_year>
+<conference_to_month>11</conference_to_month>
+<conference_to_mday>12</conference_to_mday>
+<presentation_type>other</presentation_type>
+<conference_title>35th Annual Meeting of Society for Neuroscience (SFN 2005)</conference_title>
+<place>Washington Convention Center, Washington DC, USA.</place>
+<authors><author>Wagatsuma H</author><author>Yamaguchi Y</author></authors>
+<abstract></abstract>
+<attachment_dl_limit>1</attachment_dl_limit>
+<attachment_dl_notify>1</attachment_dl_notify>
+</detail>
+</item>

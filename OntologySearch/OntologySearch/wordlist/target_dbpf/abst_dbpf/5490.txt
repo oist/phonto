@@ -1,0 +1,24 @@
+5
+7-Dihydroxytryptamine
+pharmacology
+Animals
+Behavior
+Animal
+physiology
+Desipramine
+pharmacology
+Evoked Potentials
+Hippocampus
+physiology
+Male
+Raphe Nuclei
+physiology
+Rats
+Rats
+Inbred Strains
+Serotonin
+physiology
+Synaptic Transmission
+p-Chloroamphetamine
+pharmacology
+Stimulation of the perforant pathway (pp) elicits a characteristic evoked action potential (EAP) in the granule cell layer of the dentate gyrus. The EAP was recorded in rats depleted of hippocampal serotonin (5-HT) by prior injection of p-chloroamphetamine (PCA) or 5,7-dihydroxy-tryptamine (5,7-DHT) as well as in untreated animals during two behavioral states, slow-wave sleep (SWS) and still-alert behavior (SAL). As reported previously, in untreated rats the amplitude of the EAP response was significantly greater during SWS than SAL. Stimulation of the median raphe nucleus (MR) prior to stimulating the pp (prestimulation) augmented the EAP response, but only during SWS. In contrast, in animals injected with PCA or 5,7-DHT there was no difference of the amplitude of the EAP during SWS and SAL. However, the augmentation of the EAP during SWS produced by prestimulation of the median raphe was still present. It is concluded that 5-HT innervation of the dentate gyrus may be involved in the behavioral modulation of the EAP response. Modulation of the EAP following prestimulation of the MR appears to be effected by a non-serotonergic input to the dentate gyrus originating in, or coursing through, the median raphe.

@@ -1,0 +1,35 @@
+Acetylcholine
+physiology
+Animals
+Barium
+pharmacology
+Calcium
+metabolism
+Cholinergic Fibers
+physiology
+Culture Techniques
+Guinea Pigs
+Hippocampus
+physiology
+Ion Channels
+physiology
+Manganese
+pharmacology
+Membrane Potentials
+drug effects
+Neurons
+physiology
+Potassium
+metabolism
+Receptors
+Muscarinic
+physiology
+Sodium
+metabolism
+Synapses
+physiology
+Synaptic Transmission
+drug effects
+Tetrodotoxin
+pharmacology
+Intracellular recordings from CA1 hippocampal pyramidal neurons were obtained using the in vitro hippocampal slice preparation. Responses to ACh were monitored in the presence of blockers of voltage-dependent conductances including Mn2+, TTX and Ba2+. When Mn2+ was used to block voltage-dependent Ca conductance and possible indirect presynaptic cholinergic actions, ACh still induced a significant voltage-sensitive increase in apparent input resistance (Ra) (29%), but only an insignificant depolarization of membrane potential (Vm). When both voltage-dependent Ca and Na conductances were blocked by application of Mn2+ and TTX, respectively, ACh produced voltage-dependent increases in Ra (31%) without significant depolarization. In solutions containing TTX alone, ACh produced voltage-sensitive increases in Ra (32%) as well as a significant depolarization (6.2 +/- 3.1 mV (S.D.)). ACh transiently blocked the conductance increase which followed presumed Ca spikes, suggesting an action on the Ca-activated K-dependent conductance. The effects of Ba2+ application (100-200 microM) on Ra mimicked those of ACh. When ACh was applied to neurons in the presence of Ba2+, Ra remained unchanged, although Vm depolarization of 5-15 mV was still seen. The data indicate that ACh decreases both a voltage-dependent K conductance (distinct from that of the delayed rectifier) and a Ca-activated K conductance. Muscarinic cholinergic depolarization occurs as a result of blockade of K conductance, and is mediated by voltage-dependent Ca and Na conductances, and perhaps by presynaptic actions.

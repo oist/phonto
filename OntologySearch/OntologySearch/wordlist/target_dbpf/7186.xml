@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7186">
+<itemtype>xnppaper</itemtype>
+<titles><title>Cooperative interactions in the induction of long-term potentiation and depression of synaptic excitation between hippocampal CA3-CA1 cell pairs in vitro.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>Rats</keyword>
+<keyword>Synaptic Membranes</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:41:27Z</last_update_date>
+<creation_date>2013-02-27T07:41:27Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7186</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7186" version="1.02">
+<authors><author>Debanne D</author><author>Gähwiler BH</author><author>Thompson SM</author></authors>
+<journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+<volume>93</volume>
+<number>20</number>
+<page>11225-30</page>
+<abstract>The requirement for cooperative interactions between multiple synaptic inputs in the induction of long-term potentiation (LTP) and long-term depression (LTD) has been tested at Schaffer collateral synapses with paired recordings from monosynaptically coupled CA3-CA1 cell pairs in rat hippocampal slice cultures. Tetanization of single presynaptic neurons at 50 Hz (repeated 5-7 times for 300-500 ms each) induced only a transient potentiation (&lt;3 min) of excitatory postsynaptic potentials (EPSPs). Persistent potentiation (&gt;15 min) was induced only when single presynaptic action potentials were synchronously paired with directly induced postsynaptic depolarizing pulses (repeated 50-100 times). Tetanus-induced potentiation of extracellularly evoked EPSPs lasting&gt;4 min could only be obtained if the EPSP was&gt;4 mV. Because unitary EPSP amplitudes average approximately 1 mV, we conclude that high-frequency discharge must occur synchronously] in 4-5 CA3 cells for LTP to be induced in a common postsynaptic CA1 cell. Asynchronous pairing of presynaptic action potentials with postsynaptic depolarizing current pulses (preceding each EPSP by 800 ms) depressed both naive and previously potentiated unitary EPSPs. Likewise, homosynaptic LTD of unitary EPSPs was induced when the presynaptic cell was tetanized at 3 Hz for 3 min, regardless of their amplitude (0.3-3.2 mV). Homosynaptic LTD of extracellularly evoked Schaffer collateral EPSPs&lt;4 mV could be induced if no inhibitory postsynaptic potential was apparent, but was prevented by eliciting a large inhibitory postsynaptic potential or by injection of hyperpolarizing current in the postsynaptic cell. We conclude that cooperative interactions among multiple excitatory inputs are not required for induction of homosynaptic LTD of unitary EPSPs.</abstract>
+<pubmed_id>8855337</pubmed_id>
+</detail>
+</item>

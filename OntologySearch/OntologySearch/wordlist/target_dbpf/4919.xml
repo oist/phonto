@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4919">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal theta-related cellular activity in the superior colliculus of the urethane-anesthetized rat.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Anesthesia</keyword>
+<keyword>Intravenous</keyword>
+<keyword>Animals</keyword>
+<keyword>Atropine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Superior Colliculi</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>drug effects</keyword>
+<keyword>Urethane</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:07:42Z</last_update_date>
+<creation_date>2011-05-09T02:07:42Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4919</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4919" version="1.02">
+<authors><author>Natsume K</author><author>Hallworth NE</author><author>Szgatti TL</author><author>Bland BH</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>5</number>
+<page>500-9</page>
+<abstract>In the present study, 93 cells in the superior colliculus (SC) were recorded extracellularly during the simultaneous occurrence of spontaneous theta field activity, sensory-induced (tail pinch) theta field activity, and large amplitude irregular (LIA) field activity, recorded from an electrode located in the stratum moleculare of the hippocampal formation (HPC). The effect of the intravenous administration of atropine sulfate (ATSO4) was also tested on SC cellular activity. The field activities of theta and LIA were recorded from all layers of the SC and were found to be temporally coherent with the same activities recorded simultaneously from the HPC, during all conditions tested. By using the criteria of Colom and Bland (1987) for the classification of theta-related cells, 75 of 93 cells (81%) were found to be related to the generation of theta field activity in the HPC and 18 of 93 (19%) were nonrelated. All cells recorded discharged in a tonic, nonrhythmic pattern during the theta HPC field states. Of the 75 theta-related cells, 61 (81%) were classified as tonic theta-ON cells and 14 (19%) as tonic theta-OFF cells. Although these cell types were found in all three layers of the SC, the majority of tonic theta-ON cells were recorded in the intermediate layer, and the tonic theta-OFF cells were dispersed evenly between the intermediate layer and the deep layer of the SC. The intravenous administration of ATSO4 abolished theta field activity in the HPC and SC, and the theta-related increase in the discharge rate of all tonic theta-ON cells tested. However, the same treatment did not have any effect on the discharge properties of tonic theta-OFF cells. The same stimuli that resulted in the inhibition of the discharge rates of these cells (tail pinch and electrical stimulation of the PH) in the predrug condition did so after the administration of ATSO4.</abstract>
+<pubmed_id>10560920</pubmed_id>
+</detail>
+</item>

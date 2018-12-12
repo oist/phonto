@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3954">
+<itemtype>xnppaper</itemtype>
+<titles><title>The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat.</title>
+</titles>
+<contributor uname='admin_KWL'>Hiroaki Wagatsuma(admin_KWL)</contributor>
+<keywords><keyword>Acoustics</keyword>
+<keyword>Animals</keyword>
+<keyword>Arousal</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Cognition</keyword>
+<keyword>Cues</keyword>
+<keyword>Electrodes</keyword>
+<keyword>Implanted</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Feeding Behavior</keyword>
+<keyword>Grooming</keyword>
+<keyword>Hearing</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Homing Behavior</keyword>
+<keyword>Light</keyword>
+<keyword>Limbic System</keyword>
+<keyword>physiology</keyword>
+<keyword>Locomotion</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Odors</keyword>
+<keyword>Orientation</keyword>
+<keyword>Rats</keyword>
+<keyword>Sleep</keyword>
+<keyword>Smell</keyword>
+<keyword>Touch</keyword>
+<keyword>Vision</keyword>
+<keyword>Ocular</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-09-16T06:54:25Z</last_update_date>
+<creation_date>2010-09-16T06:35:54Z</creation_date>
+<publication_year>1971</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3954</url>
+<changelogs>
+<changelog date='2010-09-16T06:54:25Z'>インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3954" version="1.02">
+<authors><author>O&#039;Keefe J</author><author>Dostrovsky J</author></authors>
+<journal>Brain research</journal>
+<volume>34</volume>
+<number>1</number>
+<page>171-5</page>
+<abstract></abstract>
+<pubmed_id>5124915</pubmed_id>
+</detail>
+</item>

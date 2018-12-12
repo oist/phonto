@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4793">
+<itemtype>xnppaper</itemtype>
+<titles><title>Head-direction cells recorded from the postsubiculum in freely moving rats. I. Description and quantitative analysis.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Female</keyword>
+<keyword>Head</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:01:50Z</last_update_date>
+<creation_date>2011-04-28T05:01:50Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4793</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4793" version="1.02">
+<authors><author>Taube JS</author><author>Muller RU</author><author>Ranck JB</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>10</volume>
+<number>2</number>
+<page>420-35</page>
+<abstract>This paper is a study of the behavioral and spatial firing correlates of neurons in the rat postsubiculum. Recordings were made from postsubicular neurons as rats moved freely throughout a cylindrical chamber, where the major cue for orientation was a white card taped to the inside wall. An automatic video/computer system monitored cell discharge while simultaneously tracking the position of 2 colored light emitting diodes (LEDs) secured to the animal&#039;s head. The animal&#039;s location was calculated from the position of one of the LEDs and head direction in the horizontal plane calculated from the relative positions of the 2 LEDs. Approximately 26% of the cells were classified as head-direction cells because they discharged as a function of the animal&#039;s head direction in the horizontal plane, independent of the animal&#039;s behavior, location, or trunk position. For each head-direction cell, vectors drawn in the direction of maximal firing were parallel throughout the recording chamber and did not converge toward a single point. Plots of firing rate versus head direction showed that each firing-rate/head-direction function was adequately described by a triangular function. Each cell&#039;s maximum firing rate occurred at only one (the preferred) head direction; firing rates at head directions on either side of the preferred direction decreased linearly with angular deviation from the preferred direction. Results from 24 head-direction cells in 7 animals showed an equal distribution of preferred firing directions over a 360 degrees angle. The peak firing rate of head-direction cells varied from 5 to 115 spikes/sec (mean: 35). The range of head-direction angles over which discharge was elevated (directional firing range) was usually about 90 degrees, with little, if any, discharge at head directions outside this range. Quantitative analysis showed the location of the animal within the cylinder had minimal effect on directional cell firing. For each head-direction cell, the preferred direction, peak firing rate, and directional firing range remained stable for days. These results identify a new cell type that signals the animal&#039;s head direction in its environment.</abstract>
+<pubmed_id>2303851</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,24 @@
+Adolescent
+Adult
+Biological Clocks
+physiology
+Child
+Electrodes
+Implanted
+Epilepsy
+diagnosis
+physiopathology
+Hippocampus
+physiology
+physiopathology
+Humans
+Male
+Neocortex
+physiology
+physiopathology
+Sleep
+physiology
+Theta Rhythm
+Wakefulness
+physiology
+Hippocampal theta waves recorded during rapid eye movement (REM) sleep are thought to play a critical role in memory consolidation in lower mammals, but previous attempts to detect similar theta oscillations in the human hippocampus have been unsuccessful. Using subdural and depth recordings from epileptic patients, we now report the first evidence of state-dependent hippocampal theta waves (4-7 Hz) in humans. Unlike the continuous theta in rodents, however, these oscillations were consistently observed during REM sleep in short (approximately 1 sec) bursts and during transitions to wake in longer epochs. Theta waves were also observed in the basal temporal lobe and frontal cortex during transitions from sleep to wake and in quiet wakefulness but not in REM, and they were not coherent with hippocampal theta oscillations. The absence of functional coupling between neocortex and hippocampus during theta periods indicates that multiple theta generators exist in the human brain, and that they are dynamically regulated by brain state. Gamma oscillations were also present during REM theta bursts, but the fluctuations in gamma power were not associated with theta phase, pointing out another significant difference between rodent and human theta properties. Together, these findings suggest that the generation mechanisms of theta oscillations in humans might have evolved from tonic to phasic in hippocampus during REM sleep and extended from hippocampus to cortex, where they appear in certain wakefulness-related states.

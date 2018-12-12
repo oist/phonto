@@ -1,0 +1,1457 @@
+Reentrant excitation in an analog-digital hybrid circuit model of cardiac tissue
+Farhanahani Mahmud, Naruhiro Shiozawa, Masaaki Makikawa, and Taishin Nomura 
+ 
+Citation: Chaos 21, 023121 (2011); doi: 10.1063/1.3597645 
+View online: http://dx.doi.org/10.1063/1.3597645 
+View Table of Contents: http://scitation.aip.org/content/aip/journal/chaos/21/2?ver=pdfcov 
+Published by the AIP Publishing 
+ 
+Articles you may be interested in 
+Unstable spiral waves and local Euclidean symmetry in a model of cardiac tissue 
+Chaos 25, 063116 (2015); 10.1063/1.4922596 
+ 
+Continuous-waveform constant-current isolated physiological stimulator 
+Rev. Sci. Instrum. 83, 044303 (2012); 10.1063/1.3700977 
+ 
+The role of M cells and the long QT syndrome in cardiac arrhythmias: Simulation studies of reentrant excitations
+using a detailed electrophysiological model 
+Chaos 14, 172 (2004); 10.1063/1.1636272 
+ 
+A numerical method for the solution of the bidomain equations in cardiac tissue 
+Chaos 8, 234 (1998); 10.1063/1.166300 
+ 
+Models of defibrillation of cardiac tissue 
+Chaos 8, 188 (1998); 10.1063/1.166297 
+ 
+ 
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31CHAOS 21, 023121 (2011)
+
+Reentrant excitation in an analog-digital hybrid circuit model
+of cardiac tissue
+
+Farhanahani Mahmud,1 Naruhiro Shiozawa,2 Masaaki Makikawa,3 and Taishin Nomura1
+1Graduate School of Engineering Science, Osaka University, Osaka 5608534, Japan
+2College of Sport and Health Science, Ritsumeikan University, Kusatsu, Shiga, Japan
+3College of Science and Engineering, Ritsumeikan University, Kusatsu, Shiga, Japan
+
+(Received 7 December 2010; accepted 16 May 2011; published online 21 June 2011)
+
+We propose an analog-digital hybrid circuit model of one-dimensional cardiac tissue with
+hardware implementation that allows us to perform real-time simulations of spatially conducting
+cardiac action potentials. Each active nodal compartment of the tissue model is designed using
+analog circuits and a dsPIC microcontroller, by which the time-dependent and time-independent
+nonlinear current-voltage relationships of six types of ion channel currents employed in the Luo-
+Rudy phase I (LR-I) model for a single mammalian cardiac ventricular cell can be reproduced
+quantitatively. Here, we perform real-time simulations of reentrant excitation conduction in a ring-
+shaped tissue model that includes eighty nodal compartments. In particular, we show that the
+hybrid tissue model can exhibit real-time dynamics for initiation of reentries induced by uni-
+directional block, as well as those for phase resetting that leads to annihilation of the reentry in
+response to impulsive current stimulations at appropriate nodes and timings. The dynamics of the
+hybrid model are comparable to those of a spatially distributed tissue model with LR-I
+compartments. Thus, it is conceivable that the hybrid model might be a useful tool for large scale
+simulations of cardiac tissue dynamics, as an alternative to numerical simulations, leading toward
+further understanding of the reentrant mechanisms. VC 2011 American Institute of Physics.
+[doi:10.1063/1.3597645]
+
+Dysfunction of electrical excitations and their spatial
+propagation in cardiac myocytes can induce abnormal
+contractions of the heart,
+leading to life threatening
+arrhythmias. Some arrhythmias are perpetuated by
+reentrant mechanisms, in which a local excitation con-
+ducts through a part of the heart to recirculate back to
+the original site. This reentry cycle time can be shorter
+than the normal cycle of a cardiac pacemaker, leading
+to the rapid heart beat referred to as a reentrant tachy-
+cardia. To better understand electrophysiological mech-
+anisms of the reentrant arrhythmias at the cellular,
+tissue, and organ levels, mathematical models of cardiac
+cells, tissues, and the heart have been developed in order
+to simulate the propagation of excitations in a variety of
+conditions. However, it is inevitable for those models to
+become large scale in the number of dynamical varia-
+bles, requiring immense amounts of computational time
+for their dynamic simulations. Here, we introduce an
+analog-digital hybrid circuit model of electrical excita-
+tion of a cardiac cell based on the Luo-Rudy phase I
+model, a typical mathematical model for a cardiac cell.
+The hybrid circuit model, through its hardware-imple-
+mentation, allows us to perform real-time simulation of
+cellular excitations as well as their propagation in a net-
+work of hybrid cell models as a cardiac tissue model.
+The hardware-implemented tissue model
+inherits the
+real-time capability of the single hybrid cell model, inde-
+pendent of the size of the tissue network. To our best
+knowledge,
+to design and
+
+this is the ﬁrst attempt
+
+implement a hardware circuit model of spatially distrib-
+uted cardiac tissue with biophysically detailed ion chan-
+nel currents responsible for cellular excitations.
+
+I. INTRODUCTION
+
+current, the slow inward Ca2þ
+
+Contraction of a cardiac myocyte is triggered by a mem-
+brane action potential, which is controlled by transmembrane
+currents through various types of ion channels.1,2 Major ion
+þ
+current, the transient
+currents include the fast inward Na
+þ
+current, the slow
+outward K
+þ
+delayed rectiﬁer K
+current, and the slow delayed rectiﬁer
+þ
+outward current, among others. A cardiac action potential,
+K
+referred to also as excitation, is often generated in response to
+a supra-threshold current stimulation. The excitability of the
+cell decreases for a period of time after a prior excitation,
+causing the refractoriness of the cell. The heart consists of a
+huge number of such excitable cells,3 about 20 million myo-
+cytes in adult rats4 and about 800 million myocytes in human
+ventricles,5 connected locally by the gap junctions that allow
+spatial conductions of action potentials through the heart tis-
+sue. Thus, the heart is a typical large scale excitable medium
+that can potentially exhibit reentry excitations such as spiral
+waves of conducting excitations.6–11 Some cardiac arrhyth-
+mias are perpetuated by reentrant mechanisms, in which a
+local excitation conducts through a part of the heart
+to
+
+1054-1500/2011/21(2)/023121/14/$30.00
+
+21, 023121-1
+
+VC 2011 American Institute of Physics
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-2
+
+Mahmud et al.
+
+Chaos 21, 023121 (2011)
+
+recirculate back to the original site, causing a rapid heart beat
+referred to as reentrant tachycardia.12
+
+Methodologies that have been employed so far to theoreti-
+cally understand the nonlinear dynamics of excitable media
+include mathematical modelings with computer simulations as
+well as electronic experiments that utilize hardware-imple-
+mented nonlinear circuits, by which experimentally observed
+dynamics of real-world excitable media have been reproduced
+and analyzed qualitatively and=or quantitatively. The use of
+mathematical models with computer simulations is favorable
+because of their large capability for describing physical and=or
+physiological mechanisms in detail, allowing practically one-
+to-one correspondence between parameters in the models and
+real physical quantities. Indeed, mathematical models of the
+ventricular cardiac action potential in single cells have contin-
+ued their remarkable development and improvement after the
+Hodgkin-Huxley formulation13 with the gating theory of con-
+ductance-based ion channel dynamics, initiated in the ﬁrst
+modeling attempt by FitzHugh14 and Noble,15 continued by
+Beeler and Reuter,16 Luo and Rudy,17–19 and many others
+including models with Markov-type channel kinetics,2 until
+today as described in Refs. 2 and 20–22. A large number of
+detailed physical state variables have been introduced in recent
+models in order to take new experimental observations at the
+cellular, sub-cellular, and molecular levels into account.22–25
+Therefore, some of the recent studies at the tissue and organ
+levels try to use such detailed biophysical models to investigate
+excitation conductions in heart tissue.26–31 However, tissue
+models, as well as whole ventricle models, should consist of a
+large number of single cell models, which causes a new prob-
+lem in the amount of computations required to obtain meaning-
+ful steady-state dynamics from their simulations.32,33 Due to
+this drawback, it is a still challenging issue to simulate dynam-
+ics of cardiac tissue models consisting of the latest detailed sin-
+gle cell models as their compartmental nodes. In this respect, it
+is also important to develop minimal models that can quantita-
+tively reproduce the variety aspects of dynamic characteristics,
+such as restitution curves, of detailed biophysical models and
+use them for tissue level simulations.34,35
+
+Hardware-implemented excitable media have their own
+long history of investigation, comparable to that of the mathe-
+matical models, as traced back to circuits of excitable systems
+proposed in the 1960s (Refs. 36–38). In particular, Nagumo et
+al.37 demonstrated that their active transmission line involving
+nine active nodal compartments could simulate propagating
+action potentials along a nerve axon, in which each active
+node was implemented by a tunnel diode with an N-shaped
+current-voltage (I-V) relationship mimicking the one in the
+Bonhoeffer-van der Pol model.39 Advantages to developing
+hardware-implemented excitable media include their capabil-
+ity for performing real-time computations of their dynamics,
+independent of the size of the system, i.e., the number of ex-
+citable nodal compartments used in the systems, as well as
+their potential use in medical engineering applications.
+Although fewer attempts40 have been made for hardware
+implementation of spatially distributed excitable media after
+Nagumo et al., developments of circuit models mimicking
+neuronal and cardiac cellular dynamics have been continued.
+Hoshimiya et al.41 proposed an electronic circuit model of
+
+excitable membrane realized by a single time-dependent (tran-
+sient) I-V relationship determining a total membrane current
+through different types of ion channels. Maeda et al.42,43 and
+Sekine et al.44,45 constructed analog circuit models with two
+or three ion channel currents in which I-V relationships were
+activated at different time scales in order to simulate bursting
+or pacemaker type neuronal excitations. These circuit models
+are beneﬁcial for studying the nonlinear dynamics of excitable
+media qualitatively. However, due to the qualitative design of
+their I-V relationships,
+to establish
+explicit correspondence between the currents in a hardware
+circuit model and the ion channel currents of an excitable cell
+unlike in the case of the mathematical models. Only a few
+studies have succeeded to design analog circuits that are bio-
+physically detailed and have quantitative correspondence to a
+real cell.46
+
+is usually difﬁcult
+
+it
+
+One of the main issues for studying excitation conduc-
+tions in the ﬁeld of cardiac physiology and pathology is
+understanding how the action potential conduction and reen-
+try dynamics at the tissue level are inﬂuenced by cellular
+level dysfunction of speciﬁc ion channels28,47–49 that cause
+abnormal cellular excitation such as in long QT syndrome.50
+In order to provide comprehensive answers to this sort of
+question using a mathematical or hardware circuit model of
+cardiac tissue, it is required for every cellular model (com-
+partmental node) used in the tissue model to include physio-
+logically and quantitatively plausible models of ion channel
+currents rather than simple and qualitative models.
+
+Recently, we have proposed a hardware circuit model of
+an excitable cell that can quantitatively reproduce the action
+potential generation and phase-locked and chaotic responses
+to periodic current pulse stimulations observed in the Luo-
+Rudy phase I (LR-I) model17 for a mammalian cardiac ven-
+tricular cell based on comparisons in the action potential
+waveforms and bifurcation diagrams that shows parameter
+regions for various phase-locked dynamics.51 Here, we ﬁrst
+report a slightly modiﬁed version of the circuit model brieﬂy.
+We then propose a model of a spatially distributed extension
+of a one-dimensional cardiac tissue with its hardware imple-
+mentation. The circuit model allows us to perform real-time
+simulations of spatially conducting cardiac action potentials.
+In particular, we show that the circuit tissue model can ex-
+hibit real-time dynamics for initiation of the reentry induced
+by uni-directional block and for phase resetting that leads to
+annihilation of the reentry in response to impulsive current
+stimulations at appropriate locations and timings. The dy-
+namics of the hybrid model are compared to those obtained
+numerically by the LR-I model in order to demonstrate that
+the circuit model can be utilized for simulating large scale
+cellular network in real-time as an alternative to numerical
+simulations.
+
+II. BRIEF SUMMARY OF LUO-RUDY I MODEL AND
+ANALOG-DIGITAL HYBRID ACTIVE CIRCUIT OF A
+CARDIAC CELL
+
+A. Luo-Rudy I model
+
+The LR-I model is described by a set of nonlinear ordi-
+nary differential equations that includes eight dynamic state
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-3
+
+Circuit model of cardiac tissue
+
+Chaos 21, 023121 (2011)
+
+FIG. 1. An equivalent circuit of LR-I
+model.
+
+transistors (Tr),
+
+tively short time constant. We designed each of these ana-
+log circuits by exploiting the intrinsic voltage-current
+relationships of bipolar
+resistors (R),
+capacitors (C), and voltage sources to reproduce the steady-
+state I-V relationships for IK1, IKp, and Ib, and the transient
+as well as the steady-state I-V relationships for INa. An elec-
+tronic circuit simulation tool (Altium Designer version 6,
+Australia) was utilized to design these analog circuits. IK
+and Isi were reproduced by the digital part of the hybrid cell
+model using a 16-bit high-performance dsPIC30f4011
+microcontroller (Microchip Technology, USA) with a proc-
+essing speed of 120 MHz. To increase the speed of calcula-
+tion, we accessed certain data from pre-constructed lookup
+tables stored in the memory (ROM) rather than calculating
+the functions in equations which represent the ion channel
+currents. In particular, seven nonlinear static functions (ad,
+bd, af, bf, aX, bX, and Xi) of the membrane potential Vm
+were stored as tables in ROM for a range of Vm between
+ 100 and 120 mV with a resolution (step) of 0.5 mV. For
+Vm values between the resolution step of the table, the near-
+est value of the table was used as an output of each func-
+tion. See supplemental material66 for details.
+
+Figure 3 illustrates the overall circuit of the hybrid cell
+model with its marginal circuits, where the core part is
+depicted as two boxes denoted as the digital and analog
+parts. Detailed circuit diagrams of the analog and digital
+parts of the core circuit are shown separately in Figs. 4 and 5,
+respectively. The circuit branches of (a), (b), (c), and (d) in
+
+FIG. 2. The analog-digital hybrid cell model. Ion channel currents are
+implemented by analog and digital circuits that are placed in parallel with
+Cm representing the membrane capacitance.
+
+variables with six types of ion channel currents. The ion
+channel currents are the fast inward sodium current INa, the
+slow inward current Isi carried mainly by calcium ions, the
+time-dependent potassium current IK, the time-independent
+potassium current IK1, the time-independent plateau potas-
+sium current IKp, and the background current Ib carried by
+sodium, potassium, and calcium ions. See Fig. 1 for an
+equivalent electrical circuit where Vm is the membrane
+potential. The voltage source in each channel represents the
+electro-chemical Nernst potential of the corresponding ion.
+The six ion channel currents are summed to give the total
+channel current Iion as in Eq. (1). Placing Iion in parallel to
+the current through the capacitive component of the mem-
+brane circuit Cm yields Eq. (2) for the total current ﬂow Im
+through the membrane,
+
+Iion ¼ INa þ Isi þ IK þ IK1 þ IKp þ Ib;
+
+Im ¼ Cm
+
+dVm
+dt
+
+þ Iion:
+
+(1)
+
+(2)
+
+Note that the membrane current Im corresponds to, and is
+always equal to, stimulation current applied externally to the
+membrane.
+
+B. Hybrid cell model
+
+The analog-digital hybrid active circuit for a single car-
+diac cell, referred to here as the hybrid cell model, includes
+analog circuits and the digital circuit of a dsPIC microcon-
+troller. The core part of the hybrid cell model was designed
+as shown in Fig. 2. Four out of the six ion channel branches
+were designed using analog circuits, and the remaining two
+branches were lumped together using the single dsPIC. The
+action potentials of the hybrid cell model were produced by
+injecting external current stimulations, Iext, which should be
+equal to Im in Eq. (2). A validation criterion for each of the
+six branches in the hybrid cell model to be quantitatively
+close to the corresponding ion channel in LR-I model was
+set if the transient and=or steady-state nonlinear I-V rela-
+tionships of the ion channel in LR-I could be reproduced
+quantitatively by the circuit branch in the hybrid cell
+model. The analog circuits were used to implement the
+time-independent ion currents of IK1, IKp, and Ib, and the
+time-dependent fast sodium current INa which has a rela-
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-4
+
+Mahmud et al.
+
+Chaos 21, 023121 (2011)
+
+the analog-digital cell model and the source program executed
+by the dsPIC are provided as supplemental material.66
+
+Let us illustrate how the hybrid cell model behaves by re-
+ferring to Fig. 3. We start with a voltage signal at the terminal
+1 of Fig. 3, which is identical with the terminal 1 of Fig. 4,
+corresponding to the cardiac cell membrane potential Vm. This
+Vm is fed into the port of a 10-bit analog to digital converter of
+the dsPIC at terminal 3 of Fig. 3, sampled with a frequency of
+2.5 kHz. IK and Isi are then computed in the dsPIC at each
+instant of time for a given Vm to generate the output voltage
+from the digital part at the terminal 4 of Fig. 3 through a 10-
+bit digital to analog converter. This output voltage is propor-
+tional to the sum of IK and Isi, determining the value of V digital
+that is fed-back into the analog circuit. The amount of exter-
+nally injected pulsatile stimulus current Iext is given by a com-
+mand voltage pulse Vext. The voltages Vdigital, Vext, and the
+membrane potential Vm are summed up to generate the poten-
+tial difference between Vdigitalþ Vextþ Vm and Vm as
+Vdigitalþ Vext which induces the current  IK  Isiþ Iext by
+using the resistor R7. Kirchhoff’s laws applied at the T-shaped
+branch at the upper part of the capacitance C1 of Fig. 3 ensure
+the sum of  IK  Isiþ Iext,  INa  IK1  IKp  Ib, and
+that
+ C1dVm=dt is equal to zero. That is, the equality
+
+  C1
+
+dVm
+dt
+
+  Iion þ Iext ¼ 0;
+
+(3)
+
+FIG. 3. The overall circuit diagram of the analog-digital hybrid cell model.
+
+Fig. 4 represent IK1, IKp, Ib, and INa, respectively. The overall
+hybrid cell model is powered by the direct current (dc) power
+supplies of 9 (Vþ) and  9 V (V ) as shown in Fig. 3. Circuit
+diagrams necessary for providing the voltage sources (V1 to
+V9) in the analog part of Fig. 4 and a power circuit for generat-
+ing VCC (5 V) in the digital part of Fig. 5 are shown in the Ap-
+pendix. Details of all electronic components used to construct
+
+holds as in Eq. (2).
+
+The time scale of the analog-digital hybrid cell model
+was set to be the same as that of LR-I model. The current
+and voltage scales of the analog-digital hybrid cell model
+(milli-ampere and volt) were not the same as those of the
+LR-I model (micro-ampere and milli-volt). The scale conver-
+sions of the voltage and the current were performed because
+
+FIG. 4. The circuit diagram of the analog part in the analog-digital hybrid cell model.
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-5
+
+Circuit model of cardiac tissue
+
+Chaos 21, 023121 (2011)
+
+FIG. 5. The circuit diagram of the digital part in the analog-digital hybrid cell model.
+
+the values of the ionic currents and the membrane potential
+in LR-I model were too small and difﬁcult to handle on the
+scale of the analog circuits. In particular, we converted the
+scales as follows: 8 lA of LR-I to 3 mA of the hybrid cell
+model,  100 mV of LR-I to 0 V of the hybrid and 120 mV
+of LR-I to 5 V of the hybrid cell model. In formulae, the
+scale conversions of
+the voltage and the current are
+expressed as follows:
+
+the initial rapid depolarization for about 100 ms were
+due to a variability of analog devices (mainly the opera-
+tional ampliﬁers) and the I-V relationship of INa as dis-
+cussed later in Sec. V.
+
+III. REENTRANT ACTION POTENTIAL CONDUCTION
+IN ACTIVE CABLE MODELS
+
+ 
+VLR I½mV þ 100
+ILR I½lA  3
+8
+
+220
+
+ 5 ! Vhybrid½V
+! Ihybrid½mA :
+
+(4)
+
+Propagation of action potentials in an excitable tissue is
+often modeled by a continuous excitable medium, leading to
+a model described by a reaction-diffusion equation. In partic-
+ular, we consider a spatially one dimensional and homogene-
+ous medium. Thus we have
+
+The action potential waveform for the single cell pro-
+duced by the LR-I model is shown in Fig. 6(a) in order
+to compare with that produced by the hybrid cell model
+shown in Fig. 6(b) with the original voltage=current
+scales and in Fig. 6(c) with the converted scales. An im-
+pulsive stimulation with a duration of 1 ms and an in-
+tensity of 80 lA was applied to LR-I and also to the
+hybrid cell model, showing that
+the action potential
+waveform produced by the hybrid cell model was quan-
+titatively the same as that by LR-I model. In particular,
+the same action potential
+both models showed almost
+it was con-
+duration (APD): about 350 ms. Moreover,
+ﬁrmed that
+in
+response to periodic current impulse trains with a variety
+of the period, reproduced the corresponding dynamics of
+the LR-I model well.51 See supplemental material
+to
+conﬁrm the extent to which the I-V relationships of the
+hybrid cell model could reproduce those of the LR-I
+model.66 Major differences observed at the period after
+
+the dynamics of the hybrid cell model,
+
+@Vmðx; tÞ
+
+@t
+
+¼ Dr2Vmðx; tÞ   Iionðx; tÞ
+
+Cm
+
+þ Iextðx; tÞ
+
+Cm
+
+;
+
+(5)
+
+where Vm(x,t) is the cardiac cellular membrane potential at
+position x and time t, !2 is the second derivative with
+respect to the position x, Cm¼ 1.0 lF cm
+ 2 is the membrane
+capacitance, D¼ (CmSvq)
+ 1 is the diffusion coefﬁcient,
+where Sv and q are the surface-to-volume ratio of the cardiac
+cells and the longitudinal tissue resistivity of cardiac muscle,
+respectively. According to the literature that use models of
+one and two dimensional cardiac tissues,26,52 we consider
+the case where Sv¼ 5000 cm
+ 1 and q¼ 0.2 kXcm, leading to
+D¼ 1 cm2 s
+ 1. Iion(x,t) is the
+ion channel current at position x and time t. Here, the Iion is
+speciﬁed by the LR-I model. Iext may also be position de-
+pendent if the externally applied current is spatially distrib-
+uted. More speciﬁcally, we consider a one-dimensional ring
+of LR-I active cable as a model for exhibiting a circus
+
+ 1 which is D¼ 10
+
+ 3 cm2 ms
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-6
+
+Mahmud et al.
+
+Chaos 21, 023121 (2011)
+
+for each of all LR-I and hybrid cell compartment models
+were doubled so that the time constant functions sd(Vm)
+and sf(Vm) were halved, resulting in a shorter APD in every
+single compartment. The modiﬁcation could be performed
+easily for the hybrid cell models because the dynamics of
+Isi were implemented in each dsPIC used for each hybrid
+cell model. Although physiological situations correspond-
+ing to this modiﬁcation is not necessarily obvious, we con-
+sidered that
+it was not a problem for our purpose to
+examine whether the hybrid model could reproduce the
+corresponding LR-I dynamics.
+
+The forward Euler spatial discretization with Dx for
+Eq. (5) gives the ordinary differential equation of the com-
+partment model at position x of the LR-I cable as follows:
+
+dVmðx; tÞ
+
+dt
+
+ð
+
+¼ D
+ðDxÞ2 Vmðx þ Dx; tÞ   Vmðx; tÞ
+Þ
+þ D
+ð
+ðDxÞ2 Vmðx   Dx; tÞ   Vmðx; tÞ
+  Iionðx; tÞ
+
+þ Iextðx; tÞ
+
+:
+
+Cm
+
+Cm
+
+Þ
+
+(6)
+
+For numerical simulation of the LR-I cable, we segmented
+the ring into N¼ 80 compartments,
+i.e., Dx ’ 0:058 cm.
+This is equivalent with considering the gap junction resistiv-
+ity between every adjacent compartments as Rd¼ 3.45
+kXcm2. For the one-dimensional tissue cable, the compart-
+ment model with a set of ordinary differential equations can
+then be represented as
+
+Cm
+
+dVi
+m
+dt
+
+¼ 1
+Rd
+
+ðViþ1
+
+m   Vi
+
+mÞ þ 1
+Rd
+
+ðVi 1
+
+m   Vi
+
+mÞ   Ii
+
+ion þ Ii
+ext;
+
+FIG. 6. Action potential waveforms of the LR-I and the hybrid cell model.
+Panels (a) and (b) represent the action potential waveforms generated by the
+LR-I model and the analog-digital hybrid cell model, respectively,
+in
+response to a single current pulse. Panel (c) shows the action potential wave-
+form in the hybrid cell model after the scale conversion.
+
+movement reentry, which is thought to be a typical mecha-
+nism of anatomical reentrant cardiac arrhythmia. Here, a
+ring of length L ¼ 4.7 cm is considered. Practically, this
+length was selected due to the number of hybrid cells avail-
+able, and it might not be long enough for supporting a reen-
+try excitation on the ring. This is because the typical
+conduction velocity of an action potential is about 60 cm=s
+in cardiac tissue,53 resulting in a period of reentry about 78
+ms for the ring. This reentry period is much smaller than a
+usual APD (about 150–200 ms) during conduction. In order
+to enable the ring to support a reentrant action potential, it
+was necessary to modify the dynamics of every single
+hybrid cell compartment so that the APD became smaller
+than usual. To this end, we modiﬁed the time scale of the
+Isi current dynamics of each cell for both LR-I and hybrid
+models. That is, the rate functions ad(Vm), bd(Vm), af(Vm),
+bf(Vm) for the d and f gates of determining the Isi dynamics
+
+(7)
+
+m and Ii
+
+where i¼ 1, , N¼ 80. Vi
+ion are the membrane poten-
+tial and the ion channel current of ith compartment, respec-
+tively. Note that (i  1) refers to N for i¼ 1 and (iþ 1) refers
+to 1 for i¼ N, because of the ring geometry of the model.
+That is, the 1st and the Nth compartments are connected by
+the gap junction of resistivity Rd. The non-ring shaped cable
+that has two open ends (referred to as the open-end cable) can
+also be established by disconnecting the 1st and the Nth com-
+partments, and it was used just for a comparison with the ring
+cable. This set of ordinary differential equations together with
+channel gating dynamics of every compartment for the LR-I
+were integrated numerically using the explicit Euler method
+with time step Dt¼ 0.001 ms. With these parameters, the lin-
+ear stability criterion (Dx)2=Dt > 4D is satisﬁed.
+
+Although we tried to have quantitative reproduction of
+this LR-I cable model as much as possible using a ring-topol-
+ogy-network of 80 hybrid cell compartment models, it was
+required to modify the value of the gap junction resistance to
+Rd¼ 2.35 kXcm2, by which the conduction velocity of the
+action potential along the hybrid cable model became almost
+the same as that of the LR-I cable model as shown below.
+
+Figure 7 shows non-conducting action potential wave-
+forms of the single isolated cell models and conducting
+action potential waveforms of single cell compartment
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-7
+
+Circuit model of cardiac tissue
+
+Chaos 21, 023121 (2011)
+
+isolated cell models as in the third largest APD of Fig. 7,
+where APD of the non-conducting action potential was about
+150 ms for the single isolated hybrid cell model and about
+100 ms for the single isolated LR-I. Differences in APD
+between the hybrid cell model and LR-I was due to a vari-
+ability of analog devices and the I-V relationship of INa (see
+discussion in Sec. V). Action potential conduction on the
+ring cable with the modiﬁed Isi dynamics reduced APD fur-
+thermore. In this case, APDs in the hybrid model and the
+LR-I model were about 100 ms and 80 ms, respectively, for
+non-reentrant conducting action potentials that were evoked
+by a sequence of long-time-separated current pulses applied
+at one point of the ring. The conduction velocity in this non-
+reentrant conduction was also about 35 cm=s for the hybrid
+ring cable and about 31 cm=s for the LR-I ring cable. APD
+was the shortest for the reentrant action potential with the
+modiﬁed Isi dynamics both in the hybrid ring and LR-I ring
+cables. It was about 70 ms in the hybrid ring cable and about
+60 ms in the LR-I ring cable. The conduction velocity of the
+reentry was about 32 cm=s for the hybrid ring cable and
+about 28 cm=s for the LR-I ring cable. The reentrant conduc-
+tion velocities obtained in the ring geometry were slower
+than those in the cable because the ring was effectively paced
+more rapidly, thereby invoking conduction velocity restitu-
+tion. These conduction velocities during reentry are slower
+than the physiological conduction velocity,53 but they are
+comparable to those obtained by some of previous studies.54
+In summary, the hybrid and the LR-I cables showed quantita-
+tively similar characteristics in APD and conduction velocity
+for both with original and modiﬁed Isi dynamics, although
+we should discuss detailed differences between Figs. 7(a)
+and 7(b).
+
+For the circus movement reentry to occur in the ring-
+shaped LR-I and the hybrid cable models with the modiﬁed
+Isi dynamics, an unidirectional block of conducting action
+potentials and the presence of an excitable gap are required
+where the excitable gap is deﬁned as a spatial interval of the
+medium with enough excitability on the ring. Here, the uni-
+directional block was induced by using the so called S1-S2
+protocol,12,54 in which single or several (usually equally time
+spaced)
+impulsive stimulations referred to as S1 were
+applied at a given location on the ring, and then another im-
+pulsive stimulation referred to as S2 was applied at a differ-
+ent location from the S1 site.
+
+Panels (a) and (b) in Fig. 8 show space-time diagrams
+showing changes in the membrane potential as a function of
+time and position along the ring during initiation of reentry in
+the hybrid and LR-I cable models, respectively. See MPG
+video supplemental material66 demonstrating the reentry dy-
+namics observed in the hybrid circuit model. Quantitative
+reproduction of LR-I cable dynamics by the hybrid cable
+model can be conﬁrmed. We used impulsive stimulations for
+S1 and S2 with a duration of 1 ms and an intensity of 150 lA.
+In each ﬁgure, two S1 stimulations are applied to the ring at
+the compartment of number i¼ 1 (the bottom of the spatial
+axis in the panels), pacing the excitation of the medium. Each
+stimulus evokes excitation at the stimulated site, generating
+two conducting action potentials. One propagates clockwise
+and the other counter-clockwise along the ring. As is common
+
+FIG. 7. Action potential waveforms of the hybrid cell model in (a) and LR-I
+model in (b). Thin solid curves: non-conducting action potentials in the sin-
+gle isolated cell with the original Isi dynamics. Dotted curves: conducting
+action potential along the open-end cable with the original Isi dynamics.
+Thick solid curves: non-conducting action potentials in the single isolated
+cell with the modiﬁed Isi dynamics. Gray curves: non-reentrant conducting
+action potential along the ring cable with the modiﬁed Isi dynamics. Dashed
+curves: reentrant action potential along the ring cable with the modiﬁed Isi
+dynamics.
+
+models embedded in the open-end as well as the ring cables.
+In particular, it was examined how the APD was altered by
+the modiﬁcation of the Isi dynamics and by the excitation
+conduction through the gap junction connection in the hybrid
+cell and the hybrid cable models as well as in the single LR-I
+and the LR-I cable models. In both Fig. 7(a) for the hybrid
+models and Fig. 7(b) for the LR-I models, the action poten-
+tial with the largest APD of about 350 ms is from the single
+Isi dynamics in
+isolated cell models with the original
+response to a single current pulse stimulation applied to the
+cell model at the resting potential. The second largest APD
+of about 300 ms in each of the hybrid and LR-I models is
+from the conducting action potential along the open-end
+cable also in response to a sequence of current stimulations
+separated by a long time interval (1000 ms). The stimulations
+were applied at one end of the cable, and the action potential
+was recorded at the middle point of the cable during steady
+state dynamics of the periodically stimulated cable. The con-
+duction velocity was about 35 cm=s for the open-end hybrid
+cable and about 31 cm=s for the open-end LR-I cable.
+The modiﬁcation of Isi dynamics reduced APD in the single
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-8
+
+Mahmud et al.
+
+Chaos 21, 023121 (2011)
+
+FIG. 8. (Color online) Space-time dia-
+grams showing the membrane potential
+as a function of time and position around
+the ring tissue. (a) The analog-digital
+hybrid ring cable model. (b) LR-I ring
+cable model. In both models, Isi dynam-
+ics were modiﬁed to reduce APD so that
+the small ring could support the reentry.
+Arrow heads represent two S1 and single
+S2 stimulations. For the hybrid cable
+model,
+the membrane potentials were
+recorded only for the compartments 1, 4,
+8, 12, 14, 16, 18, 20, 22, 24, 28, 32, 36,
+40, 44, 48, 52, 56, 60, 64, 68, 72, 76, and
+80, using a 24 ch recording device with
+analog-to-digital converters.
+
+in excitable media, each conducting action potential possesses
+a wave-front and a tail. The wave-front progressively excites
+the compartments ahead of the wave-front, and the wave-tail
+is accompanied with refractoriness that decreases as it
+becomes distant from the action potential. These two conduct-
+ing action potentials eventually collide with each other at the
+opposite side of the stimulated site, leading to annihilation of
+the action potentials due to the refractoriness located at each
+of the wave-tails. The S2, corresponding to an ectopic focus
+excitation in the real heart, is then applied at a position (the
+compartment number i¼ 18) slightly away from the S1 site at
+an appropriate time interval after the second application of S1.
+In order to initiate the reentrant wave, the S2 must be applied
+when the action potential generated by the S1 has passed
+through the S2 site and refractoriness of the wave-tail is still
+large in the one side of the S2 site (near side of the leaving
+action potential, referred to here as refractory side) but the
+excitability has regained on the other side referred to here as
+excitable side. The S2 with this speciﬁc timing generates an
+action potential that can propagate only to the excitable side
+(unidirectional block). Since the action potentials generated
+by the S1 are annihilated eventually, the single action poten-
+tial generated by the S2 alone remains, initiating the circus
+movement reentrant wave.
+The cycle length of the reentry in its steady state was
+TLR ¼ 165 ms for the LR-I cable and that for the hybrid
+cable model was Thyb ¼ 149:3 6 1:6 ms (mean 6 SD). The
+variability of the cycle length was only for the hybrid cable,
+and it was due to the random nature of the real circuit. As
+shown in Figs. 7 and 8, APD after the initiation of reentry
+was about 70 ms which was shorter than those generated in
+response to S1 stimulations in both the LR-I and hybrid cable
+models. This is because the wave-front of the reentrant wave
+is always chasing the wave-tail, and thus excitability of the
+ring cable cannot be fully recovered.
+
+For delivering S1 and S2 stimulations to the hybrid
+cable model, we constructed an impulsive stimulator by
+using an H8=3694F microcontroller to control the timings of
+the stimulations systematically. See Appendix for details of
+
+the circuit. Moreover, details of the electronic components
+and the source program written into the H8 microcontroller
+are described in the supplemental material.66
+
+IV. RESETTING AND ANNIHILATION OF REENTRY IN
+ACTIVE CABLE MODELS
+
+Glass and his colleagues as well as other groups have
+been establishing a theory to handle this issue based on the
+phase resetting of nonlinear oscillators.55–62 Here, we utilize
+their theory for the LR-I and the hybrid ring cable models
+with modiﬁed Isi dynamics to show that the latter behaves
+satisfactorily as the former.
+
+In the numerical and hardware experiments below, single
+and=or ﬁnite sequences of impulsive current stimulations
+were delivered to the ring cable models that support the reen-
+try excitation as shown in the previous section. Those stimula-
+tions with the same stimulus intensity as in the unidirectional
+block experiment were applied again at the compartment of
+the number i¼ 18.
+
+Panels (1a)-(1c) and (2a)-(2c) in Fig. 9 show space-time
+diagrams exemplifying the responses of the reentrant excita-
+tion to single stimulations as a function of time and position in
+the hybrid and LR-I ring cable models, respectively. One
+could observe a good coincidence between the dynamics of
+the hybrid and the LR-I ring cable models. In both Figs. 9(1a)
+and 9(2a), the stimulation was applied at the fully refractory
+side of the wave-tail of the reentry. Thus the stimulus failed to
+generate any propagating action potentials, less affecting the
+original reentry. In both Figs. 9(1b) and 9(2b), the stimulus
+was applied at a slightly later time instant than (1a) and (2a),
+generating a single action potential propagating only in a
+clockwise direction to collide with the originally counter-
+clockwise propagating action potential, leading to the annihi-
+lation of the reentry. This result suggests that a single
+stimulation delivered at an appropriate time interval referred
+to here as the annihilation interval, at which the wave-tail of
+the original reentry is located slightly away from the stimula-
+tion site, could annihilate the reentry. See MPG video
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-9
+
+Circuit model of cardiac tissue
+
+Chaos 21, 023121 (2011)
+
+FIG. 9. (Color online) Responses of the reentry dy-
+namics to single impulsive stimulations. (1a)-(1c)
+Responses of the hybrid ring cable model. (2a)-(2c)
+Responses of the LR-I ring cable model. In both
+models, Isi dynamics were modiﬁed as in Fig. 8.
+Each arrow head represents a stimulation.
+
+supplemental material66 demonstrating the annihilation of the
+reentry observed in the hybrid circuit model.
+In both
+Figs. 9(1c) and 9(2c), the stimulus was applied at the excitable
+gap located far behind the wave-tail of the original reentry,
+inducing two propagating action potentials in both clockwise
+and counterclockwise directions. The wave propagating in the
+clockwise direction collided with the original reentrant wave,
+and they were annihilated with each other. The wave traveling
+in the counterclockwise direction persisted, leading to the
+resetting of the reentrant circulation rhythm, where the succes-
+sive occurrence times of excitation at every compartment
+
+were advanced about 50 ms in comparison with the expected
+times for the original reentry excitation. These three cases are
+typical responses of the reentry.
+
+The resetting (advance and delay of the circulation
+rhythm of the reentrant wave) and the annihilation of the
+reentry can be analyzed using the phase resetting curve
+(PRC) as performed in the previous studies55,56 in both
+hybrid and LR-I ring cable models. To this end, the phase of
+the reentrant wave is deﬁned based on the time instant when
+the reentrant action potential is detected at a given recording
+site. Here, we located a recording site the same as the
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-10
+
+Mahmud et al.
+
+Chaos 21, 023121 (2011)
+
+stimulation site, i.e., the compartment number i¼ 18. First,
+the stimulation phase / that takes a value between 0 and 1 is
+deﬁned as
+
+/ ¼ tstim
+T
+
+;
+
+(8)
+
+where T is the period of the steady state reentry with no stimu-
+lations, and tstim is the time elapsed from the time instant
+when the last propagating reentrant action potential is detected
+at the recording site before the stimulation is applied. A small
+stimulation phase roughly between 0 < / < 0.45, correspond-
+ing to roughly 0 < tstim < 75 ms, implies that the stimulation is
+applied when the stimulation site is in the middle of the reen-
+trant action potential. A stimulation phase close to 1, corre-
+sponding to tstim  T, implies that the stimulation is applied
+close to an oncoming wave-front of the reentry excitation.
+
+The amount of phase reset D/ in response to a stimula-
+
+tion with its phase / is deﬁned as
+
+D/ ¼ DT
+T
+
+;
+
+(9)
+
+where DT is the difference between the expected time instant
+of detecting the original reentrant action potential (when no
+stimulation is applied) and the time instant of detecting the
+reentrant action potential that is affected or newly generated
+by the stimulation. Positive and negative DT corresponds to
+phase delay and advance, respectively.
+
+The result of detailed examinations on the responses
+of the reentry to stimulations delivered at various phases
+can be summarized using PRC. Figure 10 shows the PRC
+of the hybrid cable model (a) and that of the LR-I cable
+model. In both cases, the phase resetting was largely nega-
+tive (advanced) when the stimulation phase is in the latter
+half of the reentry cycle. Only small amount of the phase
+resetting could be found for the stimulation phase between
+0.1 and 0.45. When a stimulation is applied around the
+middle of the cycle length, roughly 0.47 < / < 0.56 for
+the hybrid cable model and roughly 0.42 < / < 0.51 for
+the LR-I cable model as depicted by vertical gray bands
+in Figs. 10(a) and 10(b), the reentry is annihilated by the
+stimulation as shown in Figs. 9(1b) and 9(2b). The phase
+interval corresponding to this gray band is referred to as
+the annihilation phase interval. Note that the PRC of the
+hybrid ring cable model in Fig. 10(a) was obtained by
+averaging three PRCs because the amount of resetting for
+a given stimulation phase could vary for every trial, possi-
+bly due to internal noises contaminated in the hardware
+circuits and small differences in the parameter values of
+every analog device. Moreover,
+the hybrid cable
+model, the amount of phase reset at /¼ 1 was not exactly
+the same as that at /¼ 0. The difference was about 7 ms,
+and it was also due to the random ﬂuctuation of the reen-
+try period in the hybrid cable. Aside from this random na-
+ture in the hybrid model,
+the similarity between Figs.
+10(a) and 10(b) is satisfactory.
+
+for
+
+Once we obtain the PRC representing the response of
+the reentrant wave to single stimulations at various stimu-
+
+FIG. 10. The PRCs showing the amount of phase reset D/ against the stim-
+ulation phase /. (a) PRC of the hybrid ring cable model obtained by averag-
+ing three PRCs. Each error bar in (a) represents the standard deviation of the
+averaged three resetting values for three stimulations applied at the corre-
+sponding phase. (b) PRC of the LR-I ring cable model. Negative D/ implies
+phase advance. The vertical gray band represents the annihilation phase
+interval. That is, the reentry is annihilated if a stimulation falls within this
+interval.
+
+lation phases, we should be able to predict the dynamics of
+the reentry in response to a periodic sequence of the stimu-
+lations as examined in the previous study.56 Let us consider
+the response of the reentry to a sequence of the stimula-
+tions with period Tstim. According to the theory of PRC, for
+a given phase of the ﬁrst stimulation /1, the second stimu-
+the phase /2 ¼ /1   D/1 þ Tstim= T
+lation is applied at
+(mod 1). In general, for a given nth stimulation phase, the
+(n þ 1)th stimulation phase can be described as follows:
+
+/nþ1 ¼ /n   D/n þ Tstim
+T
+
+;ðmod 1Þ:
+
+(10)
+
+Using this iterative mapping formulation, we can obtain a
+sequence of stimulation phases f/ng for a given initial stim-
+ulation phase /1. If /n falls within the annihilation phase
+interval for the ﬁrst time along the sequence, we can predict
+that the reentry is annihilated by the nth stimulation of the
+periodic train of the stimulations with period Tstim.
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-11
+
+Circuit model of cardiac tissue
+
+Chaos 21, 023121 (2011)
+
+We examined whether this theory could predict the reen-
+try dynamics in the hybrid cable model and the LR-I cable
+model. For each of these two cable models, we used the PRC
+obtained in Fig. 10 to establish the iterative mapping as in Eq.
+(10). As an example, we set Tstim¼ 185 ms and /1¼ 0.6875
+for the hybrid cable model. Equation (10) with the PRC
+shown in Fig. 10(a) predicts that the ﬁrst stimulation induces a
+relatively large delay D/1 0.38, followed by /2¼ /1
+ D/1þ 1.25 (mod 1)¼ 0.3193, and /3 ¼/2   D/2þ 1.25
+(mod 1)¼ 0.5693 which is within the annihilation interval.
+Figure 11 shows the dynamics of the hybrid ring cable model
+in response to this set of stimulations. The results conﬁrm the
+prediction of the theory. That is, two stimulations separated
+by Tstim¼ 185 ms could not annihilate the reentry as in Fig.
+11(1a), but three did as in Fig. 11(1b).
+Another example performed for the LR-I ring cable
+used the stimulations with Tstim¼ 200 and /1¼ 0.8182. As
+in the hybrid cable model, Eq. (10) with the PRC of Fig.
+10(b) for the LR-I cable predicts that /3¼ 0.4732 falls
+within the annihilation phase interval, and Figs. 11(2a) and
+11(2b) conﬁrmed this prediction. Quantitative similarity
+between Figs. 11(1a), 11(1b) and 11(2a), 11(2b) was satis-
+factory again, conﬁrming a capability of reproducing the
+LR-I cable dynamics by the hybrid cable model. However,
+the similarity was not so much enough as we could predict
+LR-I dynamics using the PRC obtained from the phase reset-
+ting experiments in the hybrid cable model.
+
+V. DISCUSSION
+
+In this article, we showed that the proposed analog-digi-
+tal hybrid circuit models of a single cell (hybrid cell model)
+and spatially distributed cable (hybrid cable model) were ca-
+pable of reproducing action potential generation as well as
+the conduction of action potentials in the LR-I models of a
+cardiac ventricular cell and its one-dimensional cable. Good
+correspondence between the hybrid cable model and LR-I
+cable model was demonstrated using a one dimensional
+active cable as a model of anatomical reentry in a cardiac tis-
+sue with various conditions. Those include (1) unidirectional
+block to initiate reentry, (2) phase resetting by single impul-
+sive stimulations, (3) annihilation of the reentry by appropri-
+ately timed single
+can
+characterize the reentry dynamics in response to single stim-
+ulations at various timings, and (5) sequential phase reset-
+tings that leads to annihilation of the reentry as predicted by
+the one dimensional discrete Poincare´ mappings.
+
+stimulations,
+
+(4) PRCs
+
+that
+
+Overall correspondence between the hybrid model and
+LR-I model was satisfactory. However, if we looked care-
+fully at the action potential waveform in the single isolated
+hybrid cell model, it was different from one in the LR-I
+model for the interval right after the phase 0 upstroke as in
+Fig. 6. In particular, the initial phase 1 repolarization in the
+hybrid model was more pronounced. This was due to poor
+reproduction in the fast sodium current INa by the analog cir-
+cuit. This is because INa is time-dependent with the time-
+dependent transient I-V relationship. As shown in the supple-
+mental material,66 the inward current response of the analog
+INa to the voltage clamp was smaller in amplitude and slower
+
+in decay for most of the clamp voltages. As a possible han-
+dling, we tried to equalize net amount of the current inﬂow
+as much as possible. The small amplitude INa inﬂux caused
+the pronounced repolarization at the phase 1. The poor repro-
+duction of INa also induced the difference in the action poten-
+tial waveform between the hybrid and LR-I models when we
+modiﬁed Isi dynamics as shown in Fig. 7, in which APD of
+the hybrid cell model was about 1.5 times longer than that of
+the LR-I model. This might be due to the slow decay of INa
+at the voltage around 0 mV. That is, the long lasting INa held
+back the repolarization even when Isi was decreased by the
+modiﬁcation. A better reproduction of the transient I-V rela-
+tionship for INa with other combinations of analog devices
+can improve agreement between the hybrid model and the
+LR-I model. Although we have tried to implement INa in the
+dsPIC, there was insufﬁcient memory space in the dsPIC.
+
+The hybrid cable model was able to perform real-time
+simulations of excitation propagation in cardiac tissues. It
+should be noted that, since each of single hybrid cell models
+always operates real-time and interact with neighboring
+hybrid cell models just through analog resistors, the real-time
+capability of the tissue circuit is completely independent of
+the number of the cell models and even topology of the con-
+nections between the cell models. In this study, we used a PC
+with Intel(R) Core(TM) 2 Quad CPU Q9550 2.83 GHz and
+3.25 GB RAM. For the numerical simulation of LR-I cable
+with 80 compartments, it took about 20 s for 200 ms simula-
+tion time span that was roughly equal to one cycle length of
+the reentry. Of course it took just 200 ms for simulating 200
+ms in the hybrid cable model. This is the meaning of the real-
+time capability in this study. That is, the hybrid model can
+interact electrically with real world cardiac cells if necessary.
+Although no optimization algorithms were introduced into the
+C or Cþþ source code program used for simulating the LR-I
+cable dynamics, the hybrid cable model was able to realize
+simulations over 100 times faster than those required for the
+numerical simulations of the LR-I cable model. Sophisticated
+techniques as well as HPC technology can speed the numeri-
+cal simulation so that the speed ratio could be smaller than
+100 obtained in this study. However, it will take a long time
+for numerical simulations of large scale cardiac tissues to
+catch up with real-time performance.
+
+From the satisfactory correspondences that we examined
+here between the hybrid and LR-I cable models, and taking
+into account the real-time simulation capability of the hybrid
+model, we could conclude that the hybrid model might be a
+useful tool for large scale simulations of cardiac tissue dy-
+namics, as an alternative to numerical simulations, leading
+toward further understanding of the reentrant mechanisms.
+
+How can a cardiac tissue model with the hybrid cell mod-
+els be large scale? Each analog-digital hybrid cell model used
+in this study was powered with 69 V, and the peak total cur-
+rent measured at the dc power sources Vþ and V  of Fig. 3
+for the analog part of the model was 0.08 A and  0.06 A,
+respectively. For the digital part with 5 V dc power source
+(VCC) of Fig. 5, it was 0.14 A. Simple calculations give us a
+rough estimation of the energy consumption in a single hybrid
+cell model, and it is about 2 W at most. For the hybrid cable
+model with N cell models, this becomes 2N W. The energy
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-12
+
+Mahmud et al.
+
+Chaos 21, 023121 (2011)
+
+11. (Color
+
+FIG.
+online) Sequential
+phase resettings that leads to annihila-
+tion of the reentry by a train of stimula-
+tions.
+(1a) and (1b) Reentry in the
+hybrid cable model was annihilated by
+three stimulations equally separated by
+Tstim¼ 185 ms in (1b) but not by two
+stimulations in (1a). (2a) and (2b) Reen-
+try in the LR-I cable model was annihi-
+lated by three
+equally
+separated by Tstim¼ 200 ms in (2b) but
+not by two stimulations in (2a).
+
+stimulations
+
+consumption of the hybrid cable model with N¼ 80 is thus
+about 160 W, which is roughly comparable order with an
+energy consumption single desktop PC. This estimation
+implies that a large quantity of energy might be consumed for
+large scale real-time dynamics simulations. As the mission of
+the current study was to perform real-time simulations of exci-
+tation propagation, we were not concerned with the issue of
+minimizing the power consumption in the circuits. One way
+to achieve reduction in the energy consumption, and also
+reduction in the physical size of the circuit, is to implement
+this analog-digital hybrid circuit using LSI
+technology.
+Indeed, development of technology begins to allow for such
+realizations as attempted in some recent studies.63,64 There-
+fore, if the proposed hybrid cell model can be implemented as
+a LSI circuit in the future, dynamics of a large scale aggrega-
+tion of the hybrid cell models as a cardiac tissue model can be
+simulated in real-time with a smaller energy consumption,
+where we would be able to address more complex dynamics
+of the heart tissue as a large scale excitable medium than the
+one exhibited by one dimensional tissue and control of them,
+
+such as spiral wave propagations, break-up of spiral waves,
+and deﬁbrillation of them.10,28,35,47,65
+
+ACKNOWLEDGMENTS
+
+This work was supported in part by the Global COE pro-
+gram “in silico medicine” at Osaka University. The authors
+thank Toshihiro Shimizu, Takashi Sakuhana, and Takuji
+Nishimura for their help in developing prototypes of the
+hybrid circuit model.
+
+APPENDIX: GLOSSARY OF CIRCUIT DIAGRAMS
+
+Figure 12 shows nine circuit diagrams of the voltage
+sources (V1-V9) for generating the Nernst potentials and
+others of ion channel currents in the analog part shown in
+Fig. 4. Basically, general-purpose 6 V regulators (7806) are
+used to ﬁx the voltage signal of Vþ to 6 V and capacitors are
+applied for smoothing the electrical signal. In some of the
+circuits, the voltage signal of 6 V is divided by voltage-
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-13
+
+Circuit model of cardiac tissue
+
+Chaos 21, 023121 (2011)
+
+FIG. 12. Circuit diagrams of voltage sources in the analog part.
+
+FIG. 13. A diagram of a power source circuit used in the digital part and the
+impulsive stimulator.
+
+dividing circuits which consist of resistors as shown in the
+ﬁgure. Then, voltage followers which are constructed by
+using a general-purpose operational ampliﬁer, LF356N, are
+applied to reinforce the current signal with the value of V1,
+V2, V3,V4, V5, V6, V7, V8, and V9 as 1.3 V, 1.2 V, 6 V,
+1.52 V, 2.3 V, 6 V, 1 V, 3 V, and 3.6 V, respectively.
+
+Figure 13 shows the regulated þ5 V (VCC) dc power sup-
+ply with 1 A current limiter for the dsPIC and the H8=3694F
+microcontroller. The base of this design is a general-purpose 5
+V regulator (7805, REG.10) to maintain a constant voltage
+level at 5V and the capacitors for over-voltage protection and
+smoothing the electrical signal. The LED4 lights up whenever
+the power source is switched on. In this study, we used 9 V
+(Vþ) and  9 V (V ) supplied by a stabilized power source
+device.
+
+Figure 14 shows the circuit of the impulsive stimulator
+for delivering current stimulations that induce and annihilate
+reentrant excitations. This circuit was powered by the same
+source that was used for the digital part of the hybrid cell
+model.
+
+FIG. 14. The circuit diagram of the impulsive stimulator used to control timing of current injections to the hybrid cable model.
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31023121-14
+
+Mahmud et al.
+
+Chaos 21, 023121 (2011)
+
+1B. Hille, Ion Channels of Excitable Membranes, 3rd ed. (Sinauer Associ-
+ates, 2001).
+2Y. Rudy and J. Silva, Q. Rev. Biophys. 39, 57 (2006).
+3D. Kaplan and L. Glass, Understanding Nonlinear Dynamics (Springer-
+Verlag, 1995).
+4R. Sasaki, Y. Watanabe, T. Morishita, and S. Yamagata, Tohoku J. Exp.
+Med. 95, 177 (1968).
+5G. Olivetti, M. Melissari, J. Capasso, and P. Anversa, Circ. Res. 68, 1560
+(1991).
+6A. Winfree, Science 175, 634 (1972).
+7A. Winfree, Chaos 1, 303 (1991).
+8J. Davidenko, A. Pertsov, R. Salomonsz, W. Baxter, and J. Jalife, Nature
+355, 349 (1992).
+9M. Markus, G. Kloss, and I. Kusch., Nature 371, 402 (1994).
+10M. Yamazaki, H. Honjo, H. Nakagawa, Y. Ishiguro, Y. Okuno, M. Amino,
+I. Sakuma, K. Kamiya, and I. Kodama, Am. J. Physiol. Heart Circ. Phys-
+iol. 292, H539 (2007).
+
+11L. Tang, G. Hwang, H. Hayashi, J. Song, M. Ogawa, K. Kobayashi, B.
+Joung, H. Karagueuzian, P. Chen, and S. Lin, Am. J. Physiol. Heart Circ.
+Physiol. 295, H297 (2008).
+
+12M. Josephson and H. Wellens, eds., Tachycardias: Mechanisms and Man-
+
+agement (Futura, Mount Kisco, NY, 1993), Vol. 6.
+
+13A. L. Hodgkin and A. F. Huxley, J. Physiol. 117, 500 (1952).
+14R. Fitzhugh, J. Gen. Physiol. 43, 867 (1960).
+15D. Noble, Nature 188, 495 (1960).
+16G. W. Beeler and H. Reuter, J. Physiol. 268, 177 (1977).
+17C. Luo and Y. Rudy, Circ Res. 68, 1501 (1991).
+18C. Luo and Y. Rudy, Circ. Res. 74, 1097 (1994).
+19C. Luo and Y. Rudy, Circ. Res. 74, 1071 (1994).
+20D. Noble and Y. Rudy, Philos. Trans. R. Soc. London, Ser. A 359, 1127
+
+(2001).
+
+33S. Kharche, G. Seemann, L. Margetts, J. Leng, A. Holden, and H. Zhang,
+
+Concurrency Comput.: Pract. Exper. 20, 1317 (2008).
+
+34F. Fenton and A. Karma, Chaos 8, 20 (1998).
+35F. H. Fenton, E. M. Cherry, H. M. Hastings, and S. J. Evans, Chaos 12,
+
+852 (2002).
+
+36L. D. Harmon, Kybernetik 1, 89 (1961).
+37J. Nagumo, S. Arimoto, and S. Yoshizawa, Proc. IRE 50, 2061 (1962).
+38J. Nagumo, S. Yoshizawa, and S. Arimoto, IEEE Trans. Circuit Theory
+
+12, 400 (1965).
+
+39R. FitzHugh, Biophys. J. 1, 445 (1961).
+40M. deCastro, E. Hofer, A. P. Munuzuri, M. Gomez-Gesteira, G. Plank, I.
+Schafferhofer, V. Perez-Munuzuri, and V. Perez-Villar, Phys. Rev. E 59,
+5962 (1999).
+
+41N. Hoshimiya, S. Yoshida, K. Shogen, and T. Matsuo, Biol. Cybern. 35,
+
+125 (1979).
+
+42Y. Maeda and H. Makino, BioSystems 58, 93 (2000).
+43Y. Maeda, E. Yagi, and H. Makino, BioSystems 79, 125 (2005).
+44Y. Sekine, K. Torita, and J. Matsuoka, Electron. Commun. Jpn., Part 2 85,
+
+23 (2002).
+
+45K. Saeki, Y. Sekine, and K. Aihara, Electron. Commun. Jpn., Part 2 85, 1
+
+(2002).
+
+46G. Rachmuth and C.-S. Poon, HFSP J. 2, 156 (2008).
+47F. Fenton, S. Evans, and H. Hastings, Phys. Rev. Lett. 83, 3964 (1999).
+48R. Huffaker, S. Lamp, J. Weiss, and B. Kogan, Heart Rhythm 1, 441
+
+(2004).
+
+49K. Ten Tusscher and A. Panﬁlov, Phys. Med. Biol. 51, 6141 (2006).
+50P. Schwartz, S. Priori, C. Spazzolini, A. Moss, G. M. Vincent, C. Napoli-
+tano, I. Denjoy, P. Guicheney, G. Breithardt, M. T. Keating, J. A. Towbin
+et al., Circulation 103, 89 (2001).
+
+51F. Mahmud, T. Sakuhana, N. Shiozawa, and T. Nomura, Trans. Jpn. Soc.
+
+Med. Biol. Eng. 47, 428 (2009).
+
+21K. Ten Tusscher, D. Noble, P. J. Noble, and A. V. Panﬁlov, Am. J. Phys-
+
+52M. Courtemanche, J. P. Keener, and L. Glass, SIAM J. Appl. Math. 56,
+
+iol. Heart Circ. Physiol. 286, H1573 (2004).
+
+22M. Fink, S. Niederer, E. Cherry, F. Fenton, J. Koivumai, G. Seemann, R.
+Thul, H. Zhang, F. Sachse, D. Beard et al., Prog. Biophys. Mol. Biol. 104,
+2 (2011).
+
+23R. Winslow, J. Rice, S. Jafri, E. Marban, and B. O’Rourke, Circ. Res. 84,
+
+571 (1999).
+
+24G. M. Faber, J. Silva, L. Livshitz, and Y. Rudy, Biophys. J. 92, 1522 (2007).
+25J. Silva, H. Pan, D. Wu, A. Nekouzadeh, K. Decker, J. Cui, N. Baker, D.
+
+Sept, and Y. Rudy, Proc. Natl. Acad. Sci. U.S.A. 106, 11102 (2009).
+
+26A. Xu and M. R. Guevara, Chaos 8, 157 (1998).
+27D. Tran, M.-J. Yang, J. Weiss, A. Garﬁnkel, and Z. Qu, Chaos 17 (2007).
+28H. Henry and W.-J. Rappel, Chaos 14, 172 (2004).
+29T. Ashihara, T. Namba, T. Ikeda, M. Ito, M. Kinoshita, and K. Nakazawa,
+
+119 (1996).
+
+53A. Kle´ber and Y. Rudy, Physiol. Rev. 84, 431 (2004).
+54W. Quan and Y. Rudy, Circ. Res. 66, 367 (1990).
+55L. Glass and M. Josephson, Phys. Rev. Lett. 75, 2059 (1995).
+56T. Nomura and L. Glass, Phys. Rev. E. 53, 6353 (1996).
+57K. Hall and L. Glass, Phys. Rev. Lett. 82, 5164 (1999).
+58Y. Nagai, H. Gonza´lez, A. Shrier, and L. Glass, Phys. Rev. Lett. 84, 4248
+
+(2000).
+
+59C. Ingelmo and L. Frame, J. Cardiovasc. Electrophysiol. 11, 981 (2000).
+60L. Glass, Y. Nagai, K. Hall, M. Talajic, and S. Nattel, Phys. Rev. E 65,
+
+021908 (2002).
+
+61C. Johnson and R. Barr, J. Cardiovasc. Electrophysiol. 14, 1064 (2003).
+62T. Krogh-Madsen, L. Glass, E. Doedel, and M. Guevara, J. Theor. Biol.
+
+J. Cardiovasc. Electrophysiol. 12, 312 (2001).
+
+230, 499 (2004).
+
+30K. Ten Tusscher and A. Panﬁlov, Am. J. Physiol. Heart Circ. Physiol. 291,
+
+63S. Kanoh, M. Imai, and N. Hoshimiya, Syst. Comput. Jpn. 36, 84
+
+H1088 (2006).
+
+31E. Cherry and F. Fenton, Am. J. Physiol. Heart Circ. Physiol. 292, H43
+
+(2007).
+
+32J. Alonso, J. Ferrero, V. Hernandez, G. Molto, M. Monserrat, and S. J.,
+“Three-dimensional cardiac electrical activity simulation on cluster and
+grid platforms,” in High Performance Computing for Computational Sci-
+ence—VECPAR 2004, Lecture Notes in Computer Science, edited by M.
+Dayde et al. (Springer-Verlag, Berlin, Germany, 2005), Vol. 3402.
+
+(2005).
+
+64J. H. B. Wijekoon and P. Dudek, Proceedings of International Joint Con-
+ference on Neural Networks, Orlando, FL, 12–17 August 2007 (2007), pp.
+1332–1337.
+
+65S. Sinha, A. Pande, and R. Pandit, Phys. Rev. Lett. 86, 3678 (2001).
+66See supplementary material at http://dx.doi.org/10.1063/1.3597645 for
+details of the circuit and MPG movies for hardware simulations performed
+on the hybrid model.
+
+ This article is copyrighted as indicated in the article. Reuse of AIP content is subject to the terms at: http://scitation.aip.org/termsconditions. Downloaded to  IP:203.181.243.17 On: Tue, 30 Jun 2015 06:09:31

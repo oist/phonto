@@ -1,0 +1,37 @@
+Adenosine Triphosphate
+metabolism
+Animals
+Anoxia
+metabolism
+Creatine
+pharmacology
+Enzyme Inhibitors
+pharmacology
+Gap Junctions
+drug effects
+metabolism
+Hippocampus
+cytology
+Humans
+Hypnotics and Sedatives
+pharmacology
+Male
+Mice
+Myelin Sheath
+metabolism
+Nerve Fibers
+Myelinated
+drug effects
+physiology
+Nervous System Physiological Phenomena
+Neural Conduction
+drug effects
+physiology
+Oleic Acids
+pharmacology
+Oligodendroglia
+cytology
+metabolism
+Ouabain
+pharmacology
+The hypothesis that gap junctions are implicated in facilitating axonal conduction has not yet been experimentally demonstrated at the electrophysiological level. We found that block of gap junctions with oleammide slows down axonal conduction velocity in the hippocampal Schaffer collaterals, a central myelinated pathway. Moreover, we explored the possibility that support by the oligodendrocyte to the axon involves energy metabolism, a hypothesis that has been recently proposed by some of us. In agreement with this hypothesis, we found that the effect of oleammide was reversed by pretreatment with creatine, a compound that is known to increase the energy charge of the tissue. Moreover, conduction velocity was also slowed down by anoxia, a treatment that obviously decreases the energy charge of the tissue, and by ouabain, a compound that blocks plasma membrane Na/K-ATPase, the main user of ATP in the brain. We hypothesize that block of gap junctions slows down conduction velocity in central myelinated pathways because oligodendrocytes synthesize ATP and transfer it to the axon through gap junctions.

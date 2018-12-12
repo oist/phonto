@@ -1,0 +1,32 @@
+Adult
+Brain Mapping
+Color Perception
+physiology
+Female
+Hippocampus
+blood supply
+physiology
+Humans
+Image Processing
+Computer-Assisted
+methods
+Magnetic Resonance Imaging
+methods
+Male
+Mental Recall
+physiology
+Oxygen
+blood
+Pattern Recognition
+Visual
+physiology
+Photic Stimulation
+methods
+Reaction Time
+physiology
+Recognition (Psychology)
+physiology
+Temporal Lobe
+blood supply
+physiology
+We employed a source memory task in an event related fMRI study to dissociate MTL processes associated with either contextual retrieval or item recognition. To introduce context during study, stimuli (photographs of buildings and natural landscapes) were transformed into one of four single-color-scales: red, blue, yellow, or green. In the subsequent old/new recognition memory test, all stimuli were presented as gray scale photographs, and old-responses were followed by a four-alternative source judgment referring to the color in which the stimulus was presented during study. Our results suggest a clear-cut process dissociation within the human MTL. While an activity increase accompanies successful retrieval of contextual information, an activity decrease provides a familiarity signal that is sufficient for successful item recognition.

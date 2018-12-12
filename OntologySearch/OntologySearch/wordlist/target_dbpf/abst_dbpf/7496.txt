@@ -1,0 +1,22 @@
+Action Potentials
+Animals
+Behavior
+Animal
+physiology
+Electric Stimulation
+Electrophysiology
+Granulocytes
+physiology
+Hippocampus
+cytology
+physiology
+Male
+Motor Activity
+physiology
+Rats
+Rats
+Inbred F344
+Rotation
+Space Perception
+physiology
+Single neuron activity was recorded in the granular layer of the fascia dentata in freely moving rats, while the animals performed a spatial"working"memory task on an eight-arm maze. Using recording methods that facilitate detection of units with low discharge rates, it was found that the majority (88%) of cells in this layer have mean rates below 0.5 Hz, with a minimum of 0.01 Hz or less. The remaining recorded cells exhibited characteristics typical of the theta interneurons found throughout the hippocampus. Based on several criteria including relative proportion and the relation of their evoked discharges to the population spike elicited by perforant path stimulation, it was concluded that the low-rate cells correspond to granule cells. Granule cells exhibited clear spatially and directionally selective discharge that was at least as selective as that of a sample of CA3 pyramidal cells recorded under the same conditions. Granule cells had significantly smaller place fields than pyramidal cells, and tended to have more discontiguous subfields. There was no spatial correlation among simultaneously recorded adjacent granule cells. Granule cells also exhibited burst discharges reminiscent of complex spikes from pyramidal cells while the animals sat quietly; however, the spike duration of granule cells was significantly shorter than CA3 pyramidal cell spike durations. Under conditions of environmental stability, granule cell place fields were stable for at least several days. Following occasional maze rotations relative to the (somewhat impoverished) visual stimuli of the recording room, granule cell place fields were maintained relative to the distal spatial cues; however, frequent rotations of the maze sometimes resulted in a shift in the reference frame to the maze itself. These observations indicate that granule cells of the fascia dentata provide their CA3 targets with a high degree of spatial information, in the form of a sparsely coded, distributed representation.

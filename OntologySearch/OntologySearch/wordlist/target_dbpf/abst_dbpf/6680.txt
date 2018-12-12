@@ -1,0 +1,35 @@
+Adolescent
+Adult
+Amygdala
+blood supply
+physiology
+Analysis of Variance
+Brain Mapping
+Emotions
+physiology
+Entorhinal Cortex
+blood supply
+physiology
+Female
+Hippocampus
+blood supply
+physiology
+Humans
+Image Processing
+Computer-Assisted
+methods
+Magnetic Resonance Imaging
+methods
+Male
+Memory
+physiology
+Motor Activity
+Oxygen
+blood
+Pattern Recognition
+Visual
+physiology
+Photic Stimulation
+methods
+Reaction Time
+It has been debated whether the link between amygdala activity and subsequent memory is equally strong for positive and negative information. Moreover, it has been unclear whether amygdala activity at encoding corresponds with enhanced memory for all contextual aspects of the presentation of an emotional item, or whether amygdala activity primarily enhances memory for the emotional item itself. In the present functional magnetic resonance imaging study, participants encoded positive and negative stimuli while performing one of two tasks (judgment of animacy or commonness). Amygdala activity at encoding was related to subsequent memory for the positive and negative items but not to subsequent memory for the task performed. Amygdala activity showed no relationship to subsequent-memory performance for the neutral items. Regardless of the emotional content of the items, activity in the entorhinal cortex corresponded with subsequent memory for the item but not with memory for the task performed, whereas hippocampal activity corresponded with subsequent memory for the task performed. These results are the first to demonstrate that the amygdala can be equally engaged during the successful encoding of positive and negative items but that its activity does not facilitate the encoding of all contextual elements present during an encoding episode. The results further suggest that dissociations within the medial temporal lobe sometimes noted for nonemotional information (i.e., activity in the hippocampus proper leading to later memory for context, and activity in the entorhinal cortex leading to later memory for an item but not its context) also hold for emotional information.

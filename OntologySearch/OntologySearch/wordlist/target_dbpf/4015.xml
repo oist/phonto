@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4015">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neurophysiological and computational analyses of the primate presubiculum, subiculum and related areas.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Head Movements</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Macaca mulatta</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Networks (Computer)</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurophysiology</keyword>
+<keyword>Numerical Analysis</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Rats</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-07T07:09:08Z</last_update_date>
+<creation_date>2010-10-07T07:09:08Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4015</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4015" version="1.02">
+<authors><author>Rolls ET</author></authors>
+<journal>Behavioural brain research</journal>
+<volume>174</volume>
+<number>2</number>
+<page>289-303</page>
+<abstract>Head direction cells are described in the presubiculum of the macaque, used as a model of what is likely to be present in humans. The firing rate of these cells is a function of the head direction of the monkey, with a response that is typically 10-100 times larger to the optimal as compared to the opposite head direction. The mean half-amplitude width of the tuning of the cells was 76 degrees . The response of head direction cells in the presubiculum was not influenced by the place where the monkey was, by the &#039;spatial view&#039; observed by the monkey, and also the position of the eyes in the head. The cells maintained their tuning for periods of at least several minutes when the view details were obscured or the room was darkened. This representation of head direction could be useful together with the hippocampal spatial view cells and whole body motion cells in primates in such memory and spatial functions as episodic memory and path integration. Discrete and continuous attractor networks can be combined so that they contain both object and spatial information, and thus provide a model of episodic memory. Self-organizing continuous attractor neural networks that can perform path integration from velocity signals (e.g. head direction from head rotational velocity, and place from whole body motion) are described. The role of the subiculum in the backprojection pathways from the hippocampus to the neocortex in a quantitative model of the recall of memories from the hippocampus is described.</abstract>
+<pubmed_id>16859765</pubmed_id>
+</detail>
+</item>

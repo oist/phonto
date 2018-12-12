@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1000">
+<itemtype>xnppaper</itemtype>
+<titles><title>Computer simulation of carbachol-driven rhythmic population oscillations in the CA3 region of the in vitro rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-22T05:34:40Z</last_update_date>
+<creation_date>2008-07-22T05:34:40Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1000</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1000" version="1.02">
+<authors><author>Traub RD</author><author>Miles R</author><author>Buzsáki G</author></authors>
+<journal>The Journal of physiology</journal>
+<volume>451</volume>
+<number></number>
+<page>653-72</page>
+<abstract>1. We used simulations of the in vitro CA3 region of the hippocampus to analyse the 5 Hz population oscillations recorded experimentally in carbachol. 2. A simulation model of the in vitro CA3 region was constructed with 1000 pyramidal neurones and 200 inhibitory neurones (100 producing fast inhibitory postsynaptic potentials (IPSPs) and 100 producing slow IPSPs of delayed onset). Each neurone contained nineteen soma-dendritic compartments. Pyramidal neurones contained six voltage- and/or calcium-dependent ionic currents, whose kinetics were consistent with voltage-clamp data. The connectivity and waveform of unitary synaptic events for excitatory and fast inhibitory synapses were consistent with dual intracellular recordings. This network was shown to generate previously described network oscillations, including synchronized bursts recorded in the presence of GABAA blockers, and synchronized synaptic potentials observed during partial blockade of GABAA inhibition. 3. The model generated 5 Hz oscillations as recorded in carbachol under the following conditions: (a) excitatory synaptic conductance was within a limited range; (b) there was blockade of fast and slow IPSPs (consistent with the experimental lack of effect of bicuculline and phaclofen on carbachol oscillations and the known depression of IPSPs by acetylcholine); (c) the after hyperpolarization (AHP) conductance was reduced (consistent with the known pharmacology of carbachol); (d) the apical dendrites of the pyramidal cells were depolarized, as suggested by the carbachol-induced depolarization of pyramidal neurones. Each oscillation was associated in pyramidal cells with a burst of action potentials riding on a depolarizing wave. The N-methyl-D-aspartate (NMDA) type of excitatory synapse was not necessary for the oscillations to occur. 4. Progressive reduction of excitatory synaptic strength led to an oscillation of the same frequency, with bursts riding on smaller EPSPs (consistent with the experiment). Further reduction of excitatory synaptic strength abolished the population oscillation by uncoupling the neurones. When excitatory synaptic conductance was too large, population oscillations were attenuated as the cells switched from a bursting mode to a repetitively firing mode. 5. Increasing the AHP conductance prolonged the interburst interval as expected. Inclusion of slow IPSPs exerted a similar effect. 6. When fast IPSPs were included, an oscillation with different characteristics emerged: a 10 Hz oscillation that was gated by compound GABAA IPSPs. On any oscillatory wave, few pyramidal neurones fired, and the firing of individual neurones was irregular.(ABSTRACT TRUNCATED AT 400 WORDS)</abstract>
+<pubmed_id>1403830</pubmed_id>
+</detail>
+</item>

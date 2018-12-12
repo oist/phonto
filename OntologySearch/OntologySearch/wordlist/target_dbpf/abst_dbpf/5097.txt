@@ -1,0 +1,18 @@
+Amnesia
+physiopathology
+Cerebral Cortex
+physiology
+Evaluation Studies as Topic
+Hippocampus
+physiology
+Learning
+physiology
+Long-Term Potentiation
+physiology
+Memory
+physiology
+Models
+Neurological
+Neural Inhibition
+physiology
+We discuss a framework for the organization of learning systems in the mammalian brain, in which the hippocampus and related areas form a memory system complementary to learning mechanisms in neocortex and other areas. The hippocampal system stores new episodes and "replays" them to the neocortical system, interleaved with ongoing experience, allowing generalization as cortical memories form. The data to account for include: 1) neurophysiological findings concerning representations in hippocampal areas, 2) behavioral evidence demonstrating a spatial role for hippocampus, 3) and effects of surgical and pharmacological manipulations on neuronal firing in hippocampal regions in behaving animals. We hypothesize that the hippocampal memory system consists of three major modules: 1) an invertible encoder subsystem supported by the pathways between neocortex and entorhinal cortex, which provides a stable, compressed, invertible encoding in entorhinal cortex (EC) of cortical activity patterns, 2) a memory separation, storage, and retrieval subsystem, supported by pathways between EC, dentate gyrus and area CA3, including the CA3 recurrent collaterals, which facilitates encoding and storage in CA3 of individual EC patterns, and retrieval of those CA3 encodings, in a manner that minimizes interference, and 3) a memory decoding subsystem, supported by the Shaffer collaterals from area CA1 to area CA3 and the bi-directional pathways between EC and CA3, which provides the means by which a retrieved CA3 coding of an EC pattern can reinstate that pattern on EC. This model has shown that 1) there is a trade-off between the need for information-preserving, structure-extracting encoding of cortical traces and the need for effective storage and recall of arbitrary traces, 2) long-term depression of synaptic strength in the pathways subject to long-term potentiation is crucial in preserving information, 3) area CA1 must be able to exploit correlations in EC patterns in the direct perforant path synapses.

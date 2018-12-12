@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4852">
+<itemtype>xnppaper</itemtype>
+<titles><title>Functional interconnections between CA3 and the dentate gyrus revealed by current source density analysis.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Conditioning (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Dendrites</keyword>
+<keyword>physiology</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Electric Conductivity</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>methods</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Perforant Pathway</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T02:02:50Z</last_update_date>
+<creation_date>2011-05-02T02:02:50Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4852</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4852" version="1.02">
+<authors><author>Wu K</author><author>Canning KJ</author><author>Leung LS</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>3</number>
+<page>217-30</page>
+<abstract>The physiological interactions between the dentate gyrus (DG) and CA3 were studied in urethane-anesthetized rats by using field potential recording and current source density (CSD) analysis. Stimulation of CA3b resulted in a short-latency (&lt;2.5-ms onset latency) antidromic population spike in both the DG and CA3c. An excitation (current sink) at the middle molecular layer (MML) was observed at 3-ms latency, possibly mediated by the backfiring of perforant path fibers that projected to both DG and CA3. CA3 stimulation also resulted in a sink at the dendritic layers of CA3c, which was likely mediated by excitatory CA3 recurrent collaterals. It was inferred that the DG was excited at the inner molecular layer (IML) after stimulation near the CA3b/CA3c border. This IML excitation (sink) probably resulted from orthodromic CA3 or hilar projections to the IML and not from mossy fiber backfiring. The IML and the CA3c dendritic sinks were blocked by an intracerebroventricular injection of a non-N-methyl-D-aspartate receptor antagonist, 6-cyano-7-nitroquinoxaline-2, 3-dione, but not by a gamma-aminobutyric acid type A (GABA(A)) receptor antagonist, bicuculline. CA3b stimulation evoked population spike bursts (3-7-ms latency) in both DG and CA3c when GABA(A) inhibition was suppressed by bicuculline, thus confirming that the excitatory afferents project from CA3b to DG and CA3c. A CA3 conditioning stimulus pulse given 30-200 ms before a perforant-path test pulse increased the amplitude of the perforant-path-evoked DG population spike (as compared with the test response without conditioning). After a moderate-intensity stimulation of CA3, a late (&lt;20-ms latency) excitation of the MML of the DG was found. The late DG excitation was blocked by procaine injection at the medial perforant path, suggesting its origin from the medial entorhinal cortex. In conclusion, rich interactions between CA3 and other hippocampal structures were studied quantitatively by CSD analysis in vivo. We infer that CA3 provides an early excitatory feedback path to DG through recurrent collaterals or hilar interneurons and a late feedback through the medial entorhinal cortex.</abstract>
+<pubmed_id>9662137</pubmed_id>
+</detail>
+</item>

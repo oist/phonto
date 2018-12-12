@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6651">
+<itemtype>xnppaper</itemtype>
+<titles><title>Is neocortical-hippocampal connectivity a better predictor of subsequent recollection than local increases in hippocampal activity? New insights on the role of priming.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Acoustic Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Adult</keyword>
+<keyword>Attention</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>methods</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Male</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Neocortex</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Oxygen</keyword>
+<keyword>blood</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Signal Detection</keyword>
+<keyword>Psychological</keyword>
+<keyword>Time Factors</keyword>
+<keyword>Vocabulary</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:44:21Z</last_update_date>
+<creation_date>2013-02-26T06:44:21Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6651</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6651" version="1.02">
+<authors><author>Gagnepain P</author><author>Henson R</author><author>Chételat G</author><author>Desgranges B</author><author>Lebreton K</author><author>Eustache F</author></authors>
+<journal>Journal of cognitive neuroscience</journal>
+<volume>23</volume>
+<number>2</number>
+<page>391-403</page>
+<abstract>During memory encoding, increased hippocampal activity-thought to reflect the binding of different types of information into unique episodes-has been shown to correlate with subsequent recollection of those episodes. Repetition priming-thought to induce more efficient perceptual processing of stimuli-is normally associated with decreased neocortical activity and is often assumed to reduce encoding into episodic memory. Here, we used fMRI to compare activity to primed and unprimed auditory words in the presence of distracting sounds as a function of whether participants subsequently recollected the word-sound associations or only had a feeling of familiarity with the word in a subsequent surprise recognition task. At the behavioral level, priming increased the incidence of subsequent recollection. At the neuronal level, priming reduced activity in the superior temporal gyrus (STG) but also reversed the traditional increase in encoding-related hippocampal activity associated with subsequent recollection relative to subsequent familiarity. To explain this interaction pattern, further analyses using dynamic causal modeling showed an increase in connectivity from left STG to left hippocampus specific to words that were later recollected. These findings show that successful episodic encoding is not determined solely by local hippocampal activity and emphasize instead the importance of increased functional neocortical-hippocampal coupling. Such coupling might be a better predictor of subsequent recollection than the direction of local hippocampal changes per se. We propose that one consequence of priming is to&quot;free up&quot;attentional resources from processing an item in a noisy context, thereby allowing greater attention to encoding of that context.</abstract>
+<pubmed_id>20146612</pubmed_id>
+</detail>
+</item>

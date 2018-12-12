@@ -1,0 +1,30 @@
+Action Potentials
+drug effects
+physiology
+Animals
+Electric Stimulation
+Excitatory Postsynaptic Potentials
+physiology
+Hippocampus
+cytology
+physiology
+Long-Term Potentiation
+physiology
+Male
+Mice
+Mice
+Inbred C57BL
+Periodicity
+Pyramidal Cells
+chemistry
+physiology
+Receptors
+N-Methyl-D-Aspartate
+physiology
+Synaptic Transmission
+drug effects
+physiology
+Tetrodotoxin
+pharmacology
+Theta Rhythm
+Long-term potentiation (LTP), a persistent enhancement of synaptic transmission that may be involved in some forms of learning and memory, is induced at excitatory synapses in the CA1 region of the hippocampus by coincident presynaptic and postsynaptic activity. Although action potentials back-propagating into dendrites of hippocampal pyramidal cells provide sufficient postsynaptic activity to induce LTP under some in vitro conditions, it is not known whether LTP can be induced by patterns of postsynaptic action potential firing that occur in these cells in vivo. Here we report that a characteristic in vivo pattern of action potential generation in CA1 pyramidal cells known as the complex spike burst enables the induction of LTP during theta frequency synaptic stimulation in the CA1 region of hippocampal slices maintained in vitro. Our results suggest that complex spike bursting may have an important role in synaptic processes involved in learning and memory formation, perhaps by producing a highly sensitive postsynaptic state during which even low frequencies of presynaptic activity can induce LTP.

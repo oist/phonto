@@ -1,0 +1,24 @@
+Action Potentials
+Animals
+Behavior
+Animal
+physiology
+Cell Membrane
+physiology
+Electrophysiology
+Hippocampus
+physiology
+Interneurons
+physiology
+Male
+Neurons
+physiology
+Periodicity
+Pyramidal Tracts
+physiology
+Rats
+Sleep
+physiology
+Synapses
+physiology
+Pyramidal cells in the CA1 hippocampal region displayed transient network oscillations (200 hertz) during behavioral immobility, consummatory behaviors, and slow-wave sleep. Simultaneous, multisite recordings revealed temporal and spatial coherence of neuronal activity during population oscillations. Participating pyramidal cells discharged at a rate lower than the frequency of the population oscillation, and their action potentials were phase locked to the negative phase of the simultaneously recorded oscillatory field potentials. In contrast, interneurons discharged at population frequency during the field oscillations. Thus, synchronous output of cooperating CA1 pyramidal cells may serve to induce synaptic enhancement in target structures of the hippocampus.

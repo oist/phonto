@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4860">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal modulation of cingulo-thalamic neuronal activity and discriminative avoidance learning in rabbits.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Avoidance Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Discrimination (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Electroshock</keyword>
+<keyword>Gyrus Cinguli</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rabbits</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Thalamus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T02:19:16Z</last_update_date>
+<creation_date>2011-05-02T02:19:16Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4860</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4860" version="1.02">
+<authors><author>Kang E</author><author>Gabriel M</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>5</number>
+<page>491-510</page>
+<abstract>Two experiments assessed the effects of 1) combined subicular complex and posterior cingulate cortical lesions on training-induced neuronal activity (TIA) in the anterior ventral (AV) and medial dorsal (MD) thalamic nuclei; 2) hippocampal (Ammon&#039;s horn and dentate gyrus) lesions on TIA in cingulate cortex and in the AV and MD thalamic nuclei. The rabbits acquired a conditioned avoidance response (CR), stepping in an activity wheel upon hearing a 0.5-s tone (CS+), in order to prevent a foot-shock scheduled 5 s after tone onset. No response was required after a different, safety-predictive tone (CS-). In experiment 1 the combined subicular and cingulate cortical lesions enhanced thalamic TIA during acquisition and increased CR incidence in the first session of acquisition. These results confirmed the hypothesis that subicular and cingulate cortical efferents are not essential for thalamic TIA or for avoidance learning. Hippocampal lesions (experiment 2) also enhanced thalamic TIA. However, unlike subicular lesions, hippocampal lesions enhanced posterior cingulate cortical TIA as well, especially during extinction training. Hippocampal lesions did not affect CR performance. The results suggested that subicular excitatory efferents are responsible for incrementing cingulate cortical TIA, which is viewed as subserving associative attention. Activity from hippocampus downregulates the cue-elicited neuronal activity of the cingulo-thalamic circuits by suppressing the excitatory influence of the subiculum. The hippocampal influence reduces cingulo-thalamic cue-elicited activation in particular circumstances, such as the onset of CR extinction, when an expected reinforcer is omitted.</abstract>
+<pubmed_id>9825960</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,1390 @@
+Domain model for Ca2+-inactivation of Ca2+ channels at low
+channel density
+
+Arthur Sherman,* Joel Keizer,* and John Rinzel*
+*National Institutes of Health, National Institutes of Diabetes and Digestive and Kidney Diseases, Mathematical Research
+Branch, Bethesda, Maryland 20892; and tInstitute of Theoretical Dynamics and Department of Chemistry, University of
+California, Davis, California 95616 USA
+
+The "shell" model for Ca2+-inactivation of Ca2+ channels is based on the accumulation of Ca2+ in a macroscopic
+ABSTRACT
+shell beneath the plasma membrane. The shell is filled by Ca2+ entering through open channels, with the elevated Ca2+
+concentration inactivating both open and closed channels at a rate determined by how fast the shell is filled. In cells with low
+channel density, the high concentration Ca2+ "shell" degenerates into a collection of nonoverlapping "domains" localized
+near open channels. These domains form rapidly when channels open and disappear rapidly when channels close. We use
+this idea to develop a "domain" model for Ca2+-inactivation of Ca2+ channels. In this model the kinetics of formation of an
+inactivated state resulting from Ca2+ binding to open channels determines the inactivation rate, a mechanism identical with
+that which explains single-channel recordings on rabbit-mesenteric artery Ca2+ channels (Huang Y., J. M. Quayle, J. F.
+Worley, N. B. Standen, and M. T. Nelson. 1989. Biophys. J. 56:1023-1028). We show that the model correctly predicts five
+important features of the whole-cell Ca2+-inactivation for mouse pancreatic (-cells (Plants, T. D. 1988. J. Physiol.
+404:731-747) and that Ca2+-inactivation has only minor effects on the bursting electrical activity of these cells.
+
+1. INTRODUCTION
+
+The inactivation of calcium channels by calcium ions has
+been documented in a variety of cell types (Eckert and
+Chad, 1984; Lux and Brown, 1984; Kalman et al., 1988).
+Inactivation is generally observed after sudden depolariza-
+tions from membrane potentials at or near the resting
+potential to potentials near 0 mV and is manifested as a
+slow decline in the magnitude of the calcium current
+following a rapid increase. When barium is substituted
+for calcium as the current-carrying ion, inactivation is
+greatly reduced, from which it is concluded that Ca2+ ions
+are specifically involved in the inactivation process. Be-
+cause Ca2+ ions bind tightly to proteins, it is commonly
+assumed that Ca2' binding to the channels is responsible
+for inactivation, with recent evidence suggesting that
+binding occurs at the inner face of the membrane (Huang
+et al., 1989). A number of other inactivation mechanisms
+for Ca2, channels have been proposed, including phos-
+phorylation and participation of second messengers (Arm-
+strong and Eckert, 1987; Armstrong and Kalman, 1988),
+and direct inactivation by voltage (Satin and Cook,
+1989). Whereas these processes may well be important in
+many cells on longer time scales, we focus here exclusively
+on inactivation associated with the direct binding of Ca2,
+at the inner face of the membrane in cells with low
+channel density.
+
+Several mechanisms that involve internal calcium bind-
+ing to channels have been proposed to explain the time
+
+Address correspondence to Dr. Arthur Sherman.
+
+course of the inactivation (Standen and Stanfield, 1982;
+Chad and Eckert, 1984). These mechanisms do not
+generally distinguish between the effects of Ca2+ ions
+binding to open or closed channels, and they assume that
+calcium binding to, and consequent blocking of, the
+channel are rapid with respect to accumulation of calcium
+near the inner face of the membrane (Chad et al., 1984).
+The region in which calcium accumulates near the mem-
+brane is thought of as a thin "shell" or compartment,
+whose volume is a small, but not negligible, fraction of the
+cell volume (Fig. 1). In the shell model slow Ca2,-inacti-
+vation of the calcium current is achieved as a consequence
+of the long time required to increase the calcium concen-
+tration within the shell. With suitable adjustment of
+parameters, such as the rate constant for loss of Ca2+ and
+the volume of the shell, it has been possible to fit this
+model to experimental data taken from Aplysia neurons
+(Chad and Eckert, 1984; Chad et al., 1984) and insect
+skeletal muscle (Ashcroft and Stanfield, 1982).
+
+The idea of a shell of elevated Ca2, ion concentration
+near the membrane is a natural consequence of the
+localization of calcium channels within the plasma mem-
+brane. Although present experimental techniques only
+allow resolution of space and time averaged Ca2+ concen-
+trations directly under the membrane (Hernandez-Cruz
+et al., 1990), numerical simulation of the concentration
+profile of Ca2+ ions emanating from an open calcium
+channel (Simon and Llinas, 1985) shows a clear domain
+structure localized within a few tenths of a micron of the
+
+Volume 58
+
+October 1990
+
+985-995
+
+985-995
+
+Biophysical Journal
+
+Biophysical Journal
+
+985
+985
+
+inner mouth of the channel. Within such a domain there is
+an enormous gradient of Ca2+ ion concentration, which
+for physiological conditions ranges from the order of 0.5
+mM near the inner mouth of 10 ,uM at a radius of a few
+hundredths of a micron (Simon and Llinas, 1985). These
+calculations also show that high Ca2, ion concentrations
+at the inner mouth of the channel develop within a few
+microseconds after the channel opens and disappear on a
+similar time scale when the channel closes. For mem-
+branes containing densities of open channels in excess of
+50-100 umM-2, a region of thickness the order of a micron
+would be formed from the overlap of these localized
+calcium domains. In this way both open and closed
+channels at the inner face of the membrane would be
+subjected to elevated Ca2, ion concentrations, providing
+justification for the notion of a calcium "shell."
+
+For cells with low channel density the idea of a "shell"
+is not appropriate, and an alternative mechanism for
+Ca2+-inactivation is needed. A compelling example is the
+pancreatic ,B-cell, reported by Plant (1988) to exhibit
+Ca2+-inactivation, in which we estimate, using whole-cell
+currents, a uniform calcium-channel density of -0.5
+,Um-2. From the open-channel probability reported by
+Rorsman and Trube (1986), we conclude that the density
+of open channels is <0.05 um-2 under physiological
+conditions. Even if the Ca2+ channels are clustered in
+"hot spots," for which there is some evidence (Rorsman et
+al., 1988), the local density of open channels is no greater
+than 2-3 ,um2. Such densities are much too small for the
+local domains under the open channels to overlap and
+form a shell of elevated calcium concentration under-
+neath the plasma membrane.
+
+Indeed, the appropriate physical picture for the f-cell
+seems to be a collection of independent calcium channels.
+Such a picture is reinforced by the work of Lux and
+Brown (1984) who discovered that whole-cell inactivation
+of Ca2+ currents could be obtained by superimposing an
+ensemble of single-channel recordings. In this case re-
+gions of high calcium will be localized in "domains"
+around open channels only (Fig. 1). These domains attain
+extremely high, quasisteady concentrations of calcium
+(- 1 mM) at the inner mouth of the channel within a few
+microseconds after opening and disappear within a few
+microseconds after the channel closes. Thus, for the
+pancreatic A-cell, and other cells with a low surface
+density of calcium channels, such as rat clonal pituitary
+cells (Hagiwara and Ohmori, 1983) and bovine chro-
+maffin cells (Fenwick et al., 1982), one expects the effect
+of elevated calcium near the inner face of the plasma
+membrane to be felt only by the open channels.
+
+Because at low channel densities there is no "shell" to
+be filled, there must be other factors that determine the
+rate of Ca2+-inactivation. For inactivation with time
+
+scales in the range 10-100 ms, one can exclude mecha-
+nisms based solely on bulk cytosolic Ca2 , which is at a
+concentration three to four orders of magnitude lower
+than in the "domains," and which changes relatively
+slowly. For example, in fl-cells there is theoretical and
+experimental evidence that cytosolic Ca2+ oscillates on a
+time scale of seconds (Perez-Armendariz and Atwater,
+1986) and minutes (Grapengiesser et al., 1988). Again we
+are led to the idea that inactivation is due to domain
+calcium. However, because the formation of localized
+calcium domains occurs on the microsecond time scale, it
+is not possible to relate the time scale of inactivation to the
+time required for domains to be formed. We, therefore,
+consider which processes are responsible for the time
+course of inactivation in cells with low channel densities.
+In their pioneering work on Ca2+-inactivation, Chad and
+Eckert (1984) suggested that a slow step in "'the calcium-
+dependent process" might be the culprit, although they
+did not pursue this idea. If we accept that Ca2' binding to
+the channel is involved in inactivation, then the logical
+calcium-dependent process to consider is the inactivation
+step, itself, that occurs when a Ca2+ ion binds to a site on
+the channel. The rate-limiting step could be either bind-
+ing itself or a conformational change that blocks the
+channel following binding (Huang et al., 1989).
+
+In the remainder of this paper we develop a simple
+domain mechanism for explaining the Ca2+-inactivation
+of calcium channels in cells with low channel densities.
+The mechanism involves the binding of a single Ca2+ ion
+to an open channel, where the concentration of Ca2+
+under the channel mouth may be in the millimolar range.
+The time course of Ca2, current is determined by the
+kinetics of the opening, closing, and Ca2+-blockage of the
+channels. In section II we derive the equations and show
+that the domain mechanism provides a simple, quantita-
+tive explanation of the U-shaped Ca2+-inactivation curves,
+h, as a function of membrane potential, V, that are
+obtained in the standard two-pulse experimental measure-
+ments of Ca2+-inactivation. In addition, we find that the
+characteristic time for inactivation to occur, TB( V), is
+roughly proportional to the Ca2+-inactivation function,
+h(V). This implies that TB(V) decreases and then in-
+creases as the membrane potential is increased from the
+resting potential, as has been noted experimentally (Plant,
+1988). We also show that in such a model, inactivation
+gives the appearance of being a function of total calcium
+entry into the cell, in spite of the fact that average
+cytosolic calcium is not the agent of inactivation. We,
+thus, show that the experimental observation of the
+foregoing features does not necessarily imply a "shell"
+model, although this has often been tacitly assumed in the
+literature.
+
+We compare our results with recent whole-cell
+
+986
+986
+
+Biophysical Journal
+Biophysical Journal
+
+Volume 58
+Volume 58
+
+October 1990
+
+October 1990
+
+voltage-clamp experiments by Plant (1988) on the
+Ca2+-inactivation of calcium channels in cultured mouse
+pancreatic fl-cells (Rorsman et al., 1988; Keahey et al.,
+1989) and find good agreement with experiment. These
+cells exhibit bursting electrical activity with a period of
+tens of seconds, which is thought to be regulated by a slow
+process. Using numerical simulation of a model (Chay
+and Keizer, 1983; Sherman et al., 1988), we demonstrate
+that Ca2+-inactivation of the Ca2, channels over hun-
+dreds of milliseconds is compatible with a bursting
+mechanism based on the build-up and removal of macro-
+scopic cytosolic Ca2 . We find that whereas inactivation
+modifies the spikes, it is not capable by itself of producing
+bursts. In our concluding section, we note that our
+inactivation mechanism is identical to that which Huang
+et al. (1989) used to explain recent single-channel record-
+ings on Ca2+-inactivation in smooth muscle, and that our
+conclusions are compatible with patch clamp measure-
+ments by Lux and Brown (1984) on Helix cells.
+
+II. DERIVATION OF THE MODEL AND
+QUALITATIVE PROPERTIES
+
+Experimentally one can quantify steady-state inactiva-
+tion using a two-pulse protocol in which the ratio of the
+peak calcium current attained after a voltage clamp
+prepulse to that attained in the absence of a prepulse is
+calculated. We follow customary usage and define the
+inactivation, h, independently of experimental procedure
+as the fraction of channels which at any moment are not
+inactivated. We will derive several properties of this
+theoretical h and show that the experimental definitions
+reduce to it in limiting cases.
+
+One of several experimental results that our model will
+account for is the U-shaped dependence of h on the pulse
+potential, Vp. That is, h first decreases then increases with
+depolarization, generally with a minimum near the mini-
+mum of the whole-cell calcium current (Plant, 1988). In
+the case of the pancreatic fl-cell Plant further observes
+that the time constant of inactivation, here denoted TB, iS
+also U-shaped, with a minimum -20 mV. Chad and
+Eckert (1984) report and model similar behavior in
+Aplysia.
+
+Our model is based on the following assumptions: (a)
+There are small localized domains of high Ca2+ concentra-
+tion (n 1 mM) immediately under the inner mouths of
+open channels. Domains are established instantaneously
+(in microseconds) relative to the time scale of channel
+activation and inactivation kinetics and vanish instanta-
+neously when the channel closes (Simon and Llinas,
+1985). (b) Inactivation results from the binding of do-
+main Ca2, (Cad) to open channels, and the time scale of
+
+inactivation is determined by the kinetics of Ca2' binding
+to and blocking the channel. This differs from previous
+models for Ca2+-inactivation (Standen and Stanfield,
+1982; Chad and Eckert, 1984), which assume that Ca2+
+binding to the channels is instantaneous and that the time
+scale of inactivation is due to the rate of filling of a
+submembrane compartment or "shell" (Fig. 1). Note that
+we implicitly assume that the dissociation constant of the
+chennels for Ca2+ is sufficiently high that binding to
+closed channels, which see the bulk cytosolic Ca2, concen-
+tration, is negligible. (c) The time constant of inactivation
+(tens of milliseconds) is much slower than that of activa-
+tion (- 1 ms). (d) Channel density is sufficiently low that
+domains of different channels do not overlap.
+
+Thus, our kinetic mechanism is
+
+a
+
+C
+
+0 + Ca
+
+i,
+
+k+
+
+where the states represent closed (C), open (0), and
+inactivated or blocked (B), and Ca is domain calcium.
+Although one can easily imagine more elaborate kinetic
+schemes that include more channel states, this scheme has
+recently been shown to suffice in analyzing the kinetics of
+single Ca2+ channel recordings from rabbit artery muscle
+(Huang et al., 1989). The second step in this kinetic
+scheme represents blocking of the calcium channel by
+binding of a calcium ion at the inner face of the channel.
+It could correspond to (a) a true bimolecular binding
+kinetics resulting in a bound state that blocks the channel
+or (b) the net effect of rapidly equilibrating, nonsaturat-
+ing binding of calcium to the channel, followed by a slow
+conformational change to the blocked state. In the latter
+case k+ = kf/Kdi,, where kf is the rate constant for the
+conformation change, and Kdi, is the dissociation con-
+
+Doma0n
+
+Shell
+
+Rapid Filing
+Slow Binding/Blocking
+Open Channels Inactivate
+
+Slow Filling
+Rapid Binding/Blocking
+All Channelsinactivate
+
+In cells with low channel density high Ca2" will be found
+FIGURE 1
+only in the domains underneath the inner mouths of open channels. In
+cells with high density domains may overlap to form a continuous
+submembrane compartment "shell" of elevated Ca2+.
+
+Sherman et al.
+n
+an eLa.
+
+Domai
+Domain Model for Calcium Inactivation
+
+Cli
+
+I
+
+t
+
+987
+
+stant. In either case, the small net transition rate from 0
+to B gives rise to the slow inactivation of the channel.
+
+The equations for this process are:
+
+dt = -a(V)C + OM(V)O
+
+dt
+
+dB
+dt
+
+= -k_B + k+Cad(V)O
+
+O= 1-B- C.
+
+(la)
+
+(lb)
+(Ic)
+
+The differential equations, Eq. 1 a and b, are coupled
+through the algebraic conservation law, Eq. 1
+c. The
+variables C, 0, and B represent the fraction of channels in
+the closed, open, and inactivated (blocked) states, respec-
+tively. The quantity Cad represents the average Ca2+
+concentration in a domain localized around the inner
+mouth of an open channel. According to simulations of
+three-dimensional diffusion with constant calcium flux
+through a channel (Simon and Llina's, 1985), the domain
+Ca2, concentration close to the channel reaches a steady-
+state in microseconds. We, therefore, take Cad to be
+instantaneously proportional to the steady-state flux at
+the mouth of a single channel. Indeed, using the diffusion
+equation with a source at the channel and modeling
+buffering as a reduction in the effective diffusion coeffi-
+cent (Fogelson and Zucker, 1985) in the cytosol it is easy
+to show that the steady-state concentration is proportional
+to the current. Thus, we make the further assumption that
+
+Cad(V) = Ai(V),
+
+(ld)
+
+where A converts the units from current to concentration
+and is negative because an inward flux of positive ions is a
+negative current. The magnitude of A can be changed
+experimentally. It can be decreased by adding mobile
+buffers like EGTA or BAPTA. Similarly, it is possible to
+swamp the contribution of the open-channel current to
+Cad as given in Eq. 1 d by use of concentrated Ca2+
+solutions in perfused whole-cell or excised patches. In
+these ways the rate of inactivation by domain Ca2+ can be
+manipulated experimentally. As a final caveat on this
+assumption, we note that Eq. 1 d breaks down at the
+reversal potential where i(V) changes sign and the small
+sm) background Ca2+ concentration in the cytosol
+(:0. 1
+becomes significant. A more detailed model would be
+required in that situation.
+
+The fraction of channels not inactivated is h = 1 - B.
+Its steady-state value, he,, can be found by setting the left
+hand sides of Eqs. 1 equal to zero, which gives
+
+h,,(V) = 1 - B_(V) =
+
+k+ *m
+
+kiniv
+
+(2)
+
+Here m., is the fraction of noninactivated channels which
+
+98
+988
+
+Biophysical Journal
+
+are open at steady-state,
+
+m,,(V)
+
+a(V)
+
+a(V) + fl(V)
+
+O,(V)
+
+O,,(V) + C,(V)'
+
+(3)
+
+Eq. 2 can be verified using Eq. 3 and noting that at
+equilibrium
+
+k+ AiV
+k Ai(V) =
+
+BL(V)
+)
+
+Inspecting Eq. 2 we find h,, must approach one at very
+negative voltages because m,, goes to zero, and that it
+must approach one near the Ca2+ reversal potential
+because i(V) is zero there. Furthermore, because m.,
+increases with Vand the magnitude of i decreases with V,
+h. is U-shaped with a single minimum. We have plotted
+h. in Fig. 2 a using parameters appropriate for the d-cell.
+From Eq. 2 we can also see that he, decreases (i.e., there is
+more inactivation) as the external Ca2+ concentration
+increases because the flux through the channel increases.
+This is consistent with the fact that Rorsman and Trube
+(1986) observed less inactivation in pancreatic A-cells
+using 2.5 mM Ca. than did Plant (1988) using 10 mM
+Cao.
+
+60
+
+.-I
+
+I30
+
+1.0
+
+0.5
+
+0-
+
+I-c;.!
+
+--125
+
+-80 -40
+
+40
+
+80
+
+V (mV)
+
+(a) (Solid, left scale) Steady-state inactivation, h_, (Eq. 2).
+FIGURE 2
+(Dashed, right scale) The time constant of inactivation, TB, plotted
+against prepulse potential, Vp. The circles represent values of h calcu-
+lated from the two-pulse protocol in Fig. 3. (b) Theoretical peak Ca2"
+current (Eq. 10) plotted against prepulse potential. Note that h and ICa
+have minima at the same voltage. TB is approximately proportional to h
+as predicted by the fast activation theory (Eq. 8) except at negative
+voltages.
+
+Volume 58
+
+8 Otbr19
+
+October 1990
+
+Eq. 2 is an exact steady-state solution of Eqs. 1 a-c for
+any set of initial conditions. Eqs. 1 are linear with
+constant coefficients for fixed V and all time-dependent
+solutions can be obtained explicitly. To simplify this we
+consider first the special case of a single voltage step from
+a holding potential, Vb, where the Ca2+ current is essen-
+tially zero to a pulse potential,
+Vp, and exploit our
+assumption that the "activation" step in our kinetic
+scheme is much faster than "inactivation." According to
+Eqs. 1 a and b, this implies that
+
+k_ + k+Ai(V)
+
+1
+
+Under this assumption, the processes of activation and
+inactivation can be approximately separated in time and
+there will be two well-separated time constants, a fast one
+for activation (Tm) and a slow one (TB) for inactivation.
+
+In typical whole-cell, one-pulse experiments the hold-
+ing potential is very negative and all the channels are in
+the closed state. Therefore, initially C = 1 and 0 = B =
+0. When the voltage is stepped to a more positive potential
+(Vp), 0 and C rapidly go to a quasisteady state, with 0
+rising exponentially from 0 to m,, (Vp) with time constant
+
+Tm(vp)
+
+I
+
+a(vp) + #(VP) ,
+
+(5)
+
+When Eq. 4 holds, we can treat this rise as instantaneous,
+with B remaining near zero. Inactivation then slowly
+increases while the ratio of 0 to C remains fixed:
+
+0
+
+C
+
+a(Vp)
+l(Vp)
+
+(6)
+
+Substituting this into Eqs. 1 b and c we get a simplified
+equation for B during the inactivation phase:
+
+dB
+dt = k Ai(Vp)mc(Vp) - [k + k+Ai(Vp)mx(Vp)]B.
+
+Thus, in the limit of fast activation/slow inactivation, B
+rises exponentially from 0 to a steady-state value, denoted
+Bo (Vp), with time constant
+
+rB(VP) = k
+
+k+Ai(Vp)m:O(Vp)
+
+(7)
+
+The fraction of open channels, 0, falls from m. (Vp) to its
+steady-state value, 0, (Vp), with the same time constant,
+
+TB.
+
+Comparing Eq. 2 to Eq. 7 we have the remarkable
+
+result that
+
+h-(Vp) = k-TB(Vp).
+
+(8)
+This means that TB iS U-shaped, and in fact has the same
+shape as h., provided k_ is voltage independent and Eq. 4
+holds. In Fig. 2 a we have plotted h., and TB against Vp
+
+using parameter values appropriate for mouse beta cells
+as described in the Appendix. The curve for TB is not
+strictly a multiple of h. because for the beta cell Eq. 4 is
+only approximately true at sufficiently negative poten-
+tials.
+
+Note that the expression in Eq. 7 is not simply the time
+constant that Eq. 1 b would have if it were uncoupled to
+Eq. 1 a, but has an additional factor m, (VP). This can
+also be obtained from the analytic solution of Eqs. 1 by
+expanding the eigenvalues in powers of the left-hand side
+of Eq. 4.
+
+The whole-cell calcium current is computed by multi-
+plying the single-channel current by the total number of
+Ca2+ channels, NCa, and the fraction which are open, 0,
+i.e.,
+
+ICa(t) = NcaO(t)i(V).
+
+(9)
+In the limit of fast activation the peak Ca2+ current
+during a single pulse from rest to Vis
+
+7Ca(V) = Ncam-(V)i(V)9
+
+(10)
+and we can use Eqs. 2 and 10 to express h., in terms of the
+peak current,
+
+1 + A7a()(11)
+
+(I 1)
+
+where A is independent of V. Differentiating Eq. 11 we
+find that, not only does h., inherit the U-shaped functional
+dependence of 'Ca on V, but that the two curves have a
+minimum at the same voltage (Fig 2, a and b).
+
+This relationship between h., and Ic. is striking because
+total Ca2+ current plays no explicit role in the model, but
+it can be understood as follows. Eq. 2 implies that
+(1 - h)/h,h is proportional to m,,(V)i(V). Multiplying
+through by h., shows that the equilibrium fraction of
+channels inactivated, B,.,, is proportional to 0Q(V)i(V); it
+is proportional to i because we assume that domain
+calcium is proportional to i, and it is proportional to 0,,
+because we assume that calcium acts on open channels.
+
+The quantity h.,
+
+is usually measured indirectly by
+two-pulse experiments. In these experiments (Plant, 1988)
+voltage is stepped from the holding potential, Vh, to a
+series of prepulse potentials, Vp, for a time tp. The voltage
+is then stepped back down to Vh for a gap-time tg, and
+finally stepped up to a test potential, Vt as shown in Fig. 3.
+The inactivation function, h, is defined as the ratio of the
+peak calcium current attained during the second pulse to
+Vt after a prepulse of duration tp to that attained in the
+absence of a prepulse. Equivalently,
+
+h( Vp) =
+
+peak ICa( VP)
+=peak Ica( Vh)
+
+(12)
+
+The actual values obtained for h depend somewhat on Vt,
+
+Sherman et al.
+Sherman et al.
+
+Domain Model for Calcium Inactivation
+Domain Model for Calcium Inactivation
+
+989
+
+989
+
+mula (Goldman, 1943; Hodgkin and Katz, 1949). The
+values of k+A = 0.028 pA-1 ms- and k_ = 0.018 ms-'
+(see Appendix) were determined to match Plant's whole-
+cell currents. Using the computations of Simon and Llinas
+(1985) to estimate a value of Cad = 0.35 mM for the
+domain Ca2+ concentration implies that k+ = 0.036
+mM-'ms-' for the /-cell, about an order of magnitude
+smaller than the values obtained from single-channels
+measurements in rabbit mesenteric arteries by Huang et
+al. (1989). The effective dissociation constant in our
+mechanism, Kd = k_/k, is on the order of 0.5 mM, i.e.,
+comparable to the estimated domain Ca2+ concentration.
+This is about two orders of magnitude larger than has
+been invoked in the usual "shell" models (Chad and
+Eckert, 1984). If the Kd is this large, and channel density
+is sufficiently low that there is no "shell," then closed
+channels will make no significant contribution to inactiva-
+tion, whether or not their Ca2' binding properties inher-
+ently differ from those of open channels.
+
+Whole-cell peak calcium currents (ICa), the inactiva-
+tion (h) and inactivation time constant (rB) using the
+fast-activation/slow-inactivation approximation in Eqs.
+2, 7, and 10 are shown in Fig. 2. The results are in good
+quantitative agreement with Plant's experimental mea-
+surements. Whereas Plant does not provide numerical
+data for the dependence of rB on the potential, he does
+note that the rate of inactivation increases as the voltage
+is stepped up to -20 mV only to decrease at larger
+depolarizations. The fact that the minimum of h. as
+measured by Plant occurs at a slightly higher voltage than
+the minimum of ICa could be incorporated into our model
+by having k+ decrease with an exponential Boltzmann
+factor, although we neglect this refinement in the interest
+of simplicity.
+
+Plant observed that when the external Ca2+ is increased
+from 1 to 10 mM at a fixed potential of -10 mV, the peak
+whole-cell currents, 'Ca, are unchanged, but the rate and
+extent of inactivation increase (Plant, 1988, Fig. 2). As
+Plant notes, the "shell" model incorrectly predicts that
+the inactivation rate and extent should be the same. As it
+stands our domain model makes the same incorrect
+prediction (see Eqs. 8 and 11). If we postulate, however,
+that more than one calcium is needed to bind to a channel
+to block it, additional factors of the single-channel cur-
+rent, i(V), would appear in the denominators of Eqs. 7
+and 11. Because increasing external Ca2, increases i(V),
+both h. and the inactivation time constant would de-
+crease, as found experimentally, even though ICa remains
+constant.
+
+VP
+
+Vt
+
+50
+
+-40
+
+-70'
+
+°l 1 ----------
+
+-70
+
+Vh
+---d
+
+t (mis)
+
+Simulated voltage-clamp Ca2" currents for two-pulse proto-
+FIGURE 3
+col. Membrane potential is stepped from the holding potential, Vh =
+-70 mV, to the prepulse potential, Vp, for 200 ms. Vp, is varied from
+- 40 to + 50 mV in steps of 10 mV (voltage protocol at top). Voltage is
+then stepped back to the holding potential, Vh = -70 mV, for a gap of
+10 ms, and finally stepped to the test potential, V, = 0 mV. Current
+records for prepulses to (a) -40, -30, -20, and -10 mV, (b) 0.10,
+..., 50 mV. Tail currents are clipped at -125, pA for display purposes.
+Compare with Plant (1988) Fig. 1 A.
+
+tp, and tg. In the limit of fast activation, long prepulse
+duration, and no gap, peak ICa(Vp) is proportional to
+m,(V,)h,(Vp), because the activation instantaneously
+adjusts to the test potential while inactivation remains at
+the value it had at the end of the prepulse. On the other
+hand, peak Ica(Vh) is proportional to m,(V,)h,,(Vh).
+Because h,(Vh) z
+1, the ratio would indeed yield h,,(Vp).
+
+III. APPLICATION TO THE PANCREATIC
+:-CELL
+
+We now specialize our model to account for the experi-
+ments of Plant (1988) on mouse pancreatic 3-cells, which
+show inactivation of Ca2+ channels. Although there is
+some evidence for two Ca2+ channels in rat /-cells
+(Hiriart and Matteson, 1988; Satin and Cook, 1985), rat
+insulinoma RINm5f 3-cells (Velasco, 1988), and HIT
+cells (Satin and Cook, 1988; but see also Keahey et al.,
+1988), Plant (1988) and Rorsman et al. (1988) conclude
+that in mouse d-cells there is only one type of Ca2+-
+inactivating Ca2, channel. To compare with Plant's
+experiments on the /3-cell, values of the activation-rate
+constants a and /3 were taken from the experiments of
+Rorsman and Trube (1986). Single-channel currents
+were calculated from the Goldman-Hodgkin-Katz for-
+
+The result of our simulated two-pulse experiments,
+obtained by integrating Eqs. 1 a-c numerically, are
+displayed in Figs. 3 a and b and agree well with two-pulse
+current measurements (see Plant, 1988; Figs. 1 A and
+3 A). The decline of the Ca2+ current becomes steeper
+
+990
+990
+
+Biophysical Journal
+Biophysical Journal
+
+Volume 58
+Volume 58
+
+October 1990
+October 1990
+
+and faster as the prepulse voltage, Vp, is increased from
+-40 to - 1O mV (Fig. 3 a) and becomes shallower and
+slower as Vp is increased further from 0 to 50 mV
+(Fig. 3 b). The dependence of the inactivation, h, based
+on these simulations and Eq. 12 is shown as circles in
+Fig. 2 a. Note that these agree rather well with the
+approximate values predicted for the case of fast-
+activation/slow-inactivation. Most of the discrepancy is
+the result of redistribution of channel states during the
+gap. In particular, gap effects are responsible for the
+failure of h to return to one as Vp approaches the Ca2+
+reversal potential, a phenomenon which was reported by
+Ashcroft and Stanfield (1982) in stick insect muscle.
+
+Another way to test our model is to plot the two-pulse
+inactivation, h, against total Ca2+ entry during the
+prepulse (Plant, 1988, Fig. 4). For the A-cell, Plant found
+that inactivation appears to be a function only of Ca2+
+entry, which could be fit by an exponential plus a
+constant. The dependence of the Ca2+ inactivation on the
+total calcium entry, CaClt),, at a fixed membrane potential
+has been used as an indication that accumulation of
+calcium in a shell is responsible for inactivation of
+calcium channels. What is interesting is that, in the limit
+of very fast activation, a similar result holds for our
+domain model.
+
+This can be seen in the following way. To obtain the
+total Ca2+ entry we integrate the instantaneous Ca2+
+current (Eq. 9)
+
+Caentry = [NCai(V)/2F] f00(t) dt
+
+(13)
+
+with F Faraday's constant. In the limit of fast activation
+O decreases exponentially with time constant TB during
+the prepulse from a maximum of m.,(V) to a steady-state
+value m, (V)h.(V) and Eq. 13 implies that
+
+NCa[l - h.(V)]
+
+=nr
+
+2Fk+A
+. {[1
+
+h-(V)][1 - ek 1p/hJ(V)] + k tp1.
+
+(14)
+
+This equation shows that Caentr,y is a function of h. for any
+fixed value of tp because all the voltage dependence is in
+h.. Whereas this would not be strictly true if k+ or k_
+were voltage-dependent, it would be approximately true if
+the voltage-dependence were weak. Inverting Eq. 14 gives
+h. as a function of Caentry, If tp is made large, the second
+term dominates and the dependence on h., becomes
+approximately linear, not exponential as found by Plant
+(1988). Nonetheless, we think it noteworthy that an
+exact, monotonically decreasing relationship exists be-
+tween inactivation and the integral of total Ca2+ current
+in our model even though it is single-channel current
+which determines inactivation. Clearly a correspondence
+between h and Ca2+ cannot be taken as diagnostic of
+
+inactivation due to filling of a submembrane "shell" as
+some authors have assumed.
+
+These results satisfy us that a simple domain model can
+account for the voltage-clamp measurements of Plant
+(1988) on pancreatic ,-cells, namely: (a) the U-shaped
+inactivation curve; (b) the U-shaped dependence of the
+inactivation time constant on voltage; (c) the anomalous
+increase in the inactivation rate at -10 mV when external
+Ca2, is raised from 1 to 10 mM; (d) the dependence of
+inactivation on total Ca2+ influx during the prepulse; and
+(e) the time course of whole-cell Ca2+ current measure-
+ments. We have also confirmed that the fast-activation/
+slow-inactivation theory of section II is a good approxima-
+tion to the behavior of the complete model.
+
+Beta cells in pancreatic islets undergo electrical burst-
+ing when exposed to stimulatory amounts of glucose
+(Atwater et al., 1989) and Plant (1988) has speculated
+that Ca2+-inactivation might have a role in bursting.
+Indeed, before Plant's work Chay and colleagues (Chay,
+1987; Chay and Kang, 1987, 1988) proposed models in
+which Ca2+-inactivation is an essential ingredient in the
+bursing mechanism. We have investigated this possibility
+by incorporating our domain model, fit as described above
+to Plant's and Rorsman and Trube's data, into a recent
+version of the Chay-Keizer bursting model (Sherman et
+al., 1988). That model employs three ionic currents, the
+voltage-gated, delayed-rectifying, K+ current (IK), the
+voltage-gated Ca2, current ('Ca), and the calcium-
+activated K+ current (K-Ca) in the total current balance
+equation,
+
+dV
+
+CmI =-IK-ICa-IKCa(
+
+(15)
+
+The only significant changes from Sherman et al. (1988)
+are in the form of the Ca2+ current. Here we include the
+effect of inactivation, which has a similar time scale to K+
+activation, by solving Eqs. 1 a-c to determine the open
+fraction, 0, as a function of time and obtain the current
+from Eq. 9. In addition, the activation curves have been
+shifted to the right to account for the screening caused by
+high external Ca2+ (Frankenhaeuser and Hodgkin, 1957).
+Further discussion of the derivation and properties of the
+family of models to which this one belongs can be found in
+Chay and Keizer (1983) and Rinzel (1985).
+
+Fig. 4 shows bursing solutions obtained with the model.
+The unusually large spike amplitude (Fig. 4 a) is due to
+the high levels of Cao (10 mM), and is qualitatively what
+one expects based on experiment (Ribalet and Beigelman,
+1980; Atwater et al., 1980). More typical bursts are
+obtained with Cao = 2.5 mM and activation parameters
+shifted back to account for the reduced Ca2+ screening
+effect (not shown). The onset and termination of bursts is
+regulated by oscillations in average cytosolic calcium,
+shown in Fig. 4 b. When the decrease of calcium during
+
+Sherman et al.
+Sherman et al.
+
+Domain Model for Calcium Inactivation
+Domain Model for Calcium Inactivation
+
+991
+
+991
+
+spikes. We emphasize that the results do not rest on the
+use of the K-Ca channel; Ca2' activation of K-ATP
+channels in addition to or instead of the K-Ca channel
+(Keizer and Magnus, 1989) or even slow voltage-
+dependent inactivation of the Ca2, channels would work
+as well. We conclude that Ca2+-induced inactivation of
+Ca2, channels plays only a secondary role in the bursting
+activity of the ,B-cell.
+
+IV. CONCLUDING REMARKS
+
+Our model of Ca2+ inactivation of calcium channels is
+based on the calcium domain that has been predicted
+theoretically to form near the inner mouth of an open
+calcium channel a few microseconds after the channel
+opens. The calcium concentration at the inner mouth of
+an open channel is almost instantaneously fixed by the
+single-channel current, i(V), and, therefore, depends on
+the membrane potential. We assume that domain Ca2 ,
+Cad, is proportional to i(V), and assume that inactivation
+is a result of the binding of calcium to open channels. If
+the rate-limiting step in inactivation is binding, the
+kinetic rate of inactivation by calcium is directly propor-
+tional to Cad. If the rate-limiting step is a subsequent
+conformational change, the kinetic rate is proportional to
+the number of bound channels, and if the dissociation
+constant for the binding step is large, the rate is again
+proportional to Cad. In either case, the transition rate to
+the inactivated state is proportional to i(V). The activa-
+tion rate of calcium channels from their closed state, on
+the other hand, is determined by the intrinsic voltage-
+dependent rate at which closed and open channels inter-
+convert, which is generally more rapid than the inactiva-
+tion. This mechanism is a departure from previous "shell"
+models for Ca2, inactivation (Standen and Stanfield,
+1982; Chad and Eckert, 1984) which are based on
+accumulation of Ca2+ in a macroscopic submembrane
+compartment (Fig. 1). Shell models assume that Ca2+
+binds rapidly to both open and closed channels and that
+the rate-limiting step in inactivation is the time for the
+shell Ca2+ concentration to increase. Our domain mecha-
+nism is appropriate for membranes with low densities of
+open calcium channels (less than a few per square
+micron) in which local calcium domains around open
+channels do not overlap to form a true shell underneath
+the membrane. For such membranes, closed channels are
+not subjected to significantly elevated calcium concentra-
+tions and are not involved in the Ca2+ inactivation
+process.
+
+The domain mechanism of inactivation has several
+interesting kinetic features, derived in section II, in the
+limit that the activation rate is much faster than the
+
+,~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1.0 -
+
+0.7
+
+0.3 7
+
+0.0
+
+F-
+
+0
+
+i
+
+t (s)
+
+FIGURE 4. Time courses of bursting electrical activity in the presence
+of glucose are obtained by numerical solution of the equations of
+Sherman et al. (1988) as modified in the text, and with 10 mM external
+Ca2" (see Appendix). (a) Membrane potential, V. (b) Free intracellular
+Ca2', Cai. The slow oscillations of Cai trigger the onset and termination
+of bursting by activating K-Ca channels. (c) The instantaneous fraction
+of Ca2" channels inactivated, B.
+
+the silent phase reduces the K-Ca conductance to a
+critical minimum value, the membrane depolarizes, trig-
+gering the voltage-gated Ca2' and delayed rectifying K+
+channels and initiating rapid oscillations. The spikes
+bring Ca2+ into the cell which raises the K-Ca conduc-
+tance to a critical maximum value and terminates the
+burst. Fig. 4 c shows the instantaneous fraction of Ca2,
+channels which are inactivated (B). This quantity oscil-
+lates rapidly, following the membrane potential changes
+through Eqs. 1 rather than the slow changes in average
+cytosolic Ca2+ concentration.
+
+Thus, our model for inactivation of Ca2+ channels by
+domain Ca2+ can be incorporated into the paradigm of
+bursting based on slow Ca2+ feedback into K-Ca chan-
+nels. The differences caused by inactivation are small
+quantitatively, and reside primarily in the form of the
+
+992
+992
+
+Biophysical Journal
+Biophysical Journal
+
+Volume
+
+Volume 58
+
+October 1990
+
+inactivation due to calcium. First, the steady-state Ca2+
+inactivation, hm (V), is a U-shaped function of the mem-
+brane potential. Second, Ca2+ inactivation occurs as a
+single exponential with a characteristic time, rB(V),
+which as a function of membrane potential is also
+U-shaped and is proportional to the inactivation curve.
+These two features hold approximately even when activa-
+tion is simply faster, but not infintely faster, than the Ca2+
+inactivation, as judged by our numerical simulations of
+the standard two-pulse experimental measurements of the
+inactivation. If one assumes that only a single Ca2+ ion is
+required to bind to a channel to inactivate, then one gets
+the stronger result that h. and 7Ca are functionally related
+by Eq. 11. In particular, the minimum of h. is located
+where the magnitude of peak calcium current, Ica(V), is
+maximum.
+
+For the pancreatic (3-cell the domain model predicts the
+major experimental features of whole-cell Ca2+-inactiva-
+tion (Plant, 1988). We believe it to be a more plausible
+description of calcium inactivation than the shell model
+because of the low density of calcium channels in these
+cells. Although a number of investigators (Plant, 1988;
+Chay, 1987; Chay and Kang, 1987, 1988; Satin and
+Cook, 1989) have speculated that Ca2+-inactivation may
+play an important role in the bursting electrical activity of
+the pancreatic $-cell, we find that if inactivation is
+modeled as due to domain Ca2+ in a manner consistent
+with Plant's voltage-clamp data, then its effect on burst-
+ing is slight. Indeed, examining the calculations of burst-
+ing in Fig. 4 c, one sees that the fraction of inactivated
+channels follows the rapid changes in membrane potential
+rather than the slow changes in internal calcium. This is a
+consequence of the fact that in the domain model calcium
+acts only on open channels with a rate that is dependent
+on the open-channel current at a given potential.
+
+Recently it has been possible to explore mechanistic
+features of Ca2+-inactivation using patch clamp measure-
+ments on single calcium channels (Lux and Brown, 1984;
+Rosenberg et al., 1988). The work of Lux and Brown, in
+particular, provides further evidence for our domain
+model. Using a whole-cell arrangement, these authors
+showed that the time course of whole-cell inactivation
+could be obtained by averaging an ensemble of single-
+channels records. Because this was also true when Ca2+
+channels external to the patch were blocked, they deduced
+that inactivation is a property of isolated Ca2+ channels.
+Furthermore, by averaging separately single-channel
+records with low and high initial activity, they found that
+initial bursts of openings did not supress subsequent
+current levels. Both of these observations are compatible
+with the domain model, in which Ca2+-inactivation inher-
+its its voltage dependence from single-channel currents,
+but they rule out the shell model. The fact that Lux and
+
+Brown obtain similar results for Helix cells, rat and
+guinea pig ventricular myocytes, and avian dorsal root
+ganglion suggests that these conclusions are rather gen-
+eral.
+
+Shortly after this paper was submitted for publication,
+Huang et al. (1989) published single channel recordings
+of Ca2+-inactivation kinetics for rabbit mesenteric artery.
+They successfully analyzed their results using the same
+kinetic scheme that we have used, namely one in which
+only open channels are inactivated. Furthermore, they
+observe that inactivation occurs when elevated Ca2+ (2
+mM) is applied to the cytoplasmic face of the patch from
+which they conclude that calcium binds to an internal site
+not in the pore. By increasing the frequency cut-off of
+their noise filter to 2 kHz they observed flickering of the
+open state, from which they were able to deduce values for
+the inactivation rate constants, k+ and k_. For mesenteric
+artery k+ lies between 0.3 and 0.7 mM-ms-i and k_
+between 1.7 and 4.6 ms.-'. Their values of k_ are several
+orders of magnitude greater than the value of 0.018 ms- 1
+that we need to explain Plant's data whereas their values
+of k+ are about an order of magnitude larger than the
+value that we estimate for the $-cell. In light of their
+work, frequency resolved single-channel measurements
+on d-cell Ca2+ channels would seem to be in order.
+
+APPENDIX
+The rate constants a(V) and ,8(V) were determined using Eqs. 3 and 5.
+We took a constant value of Tm = 1.25 ms from Rorsman and Trube
+(1986), who fit the activation with the Boltzmann function
+
+mt(V) = 1 + exp [(Vm - V)/Sm]
+
+1
+
+At low-external Ca2" (2.5 mM) they found Vm = 4.0 mV and Sm = 14.0
+mV. To match Plant's I-V curves, which were obtained with high
+external Ca2 (10 mM), we have set Vm = - 5.0 mV and Sm = 10.0 mV
+(Frankenhauser and Hodgkin, 1957). We use the Goldman-Hodgkin-
+Katz formula (Goldman, 1943; Hodgkin and Katz, 1949) to describe the
+single-channel current:
+
+1(V) =g~Ca~RT [
+
+2FVrCao - Cai,0 exp (2FV/RT)]
+J
+
+1 - exp (2FV/RT)
+
+Here gCa is the single-channel conductance, P converts concentration to
+membrane potential. By matching the I-Vcurves obtained by Plant with
+Cao = 10 mM (Fig. 2 b) we arrived at a value P = 14 mVmM- . We
+use 7 pS for the single-channel Ca2` conductance, gca' and 200 for the
+total number of Ca2` channels, Nca, to give a maximal Ca2l
+conduc-
+tance of 1,400 pS as previously (Sherman et al., 1988). For simplicity we
+omitted the dependence of i(V) on intracellular Ca2" in our simulations
+because replacing Cain by Cai or, in the worst case, Cad (Eq. 1 d) has
+only small effects. Therefore, in the model, the Ca2` current never
+reverses, but it is nearly 0 for V larger than 80 mV (Fig. 2 b).
+
+We chose k
+
+and k+ to approximate the rate and degree of
+inactivation in Plant's voltage clamp currents. We obtained reasonable
+
+Sherman et al.
+Sherman et al.
+
+Domain Model for Calcium Inactivation
+Domain Model for Calcium Inactivation
+
+993993
+
+agreement by using k = 0.018 ms-' and setting k+A = l0k-/gca
+(ms-'pA-'). Typical values for the pseudo first-order rate constant for
+Ca2" binding, k+Ai(V), are then 0.01 - 0.1 ms-', being larger at
+negative voltages where the single-channel Ca2" current is larger. In
+order to obtain a value for k+ separately, one must know A. If A = 0.7
+mMpA-' then Cad = 0.35 mM when the single-channel current is 0.5
+pA, consistent with the diffusion calculations of Simon and Llinas
+(1985). Then k+ is about 0.036 mM-'ms-', well below the diffusion
+controlled limit of 103 mM-'ms-' (Hague, 1971). Thus, either the
+calcium binding site must be partially inaccessible or the bimolecular
+process in Eq. 1 b must correspond to an instantaneous binding
+equilibrium followed by a conformational change, as described in section
+II. With the same choice of A the dissociation constant, Kd - kj/k+, is
+-0.5 mM. In general, Kd will be proportional to A and Cad.
+
+Some of the calculations for this study were carried out at the NCI
+Advanced Scientific Computing Laboratory. We thank Dr. J. Maizel for
+providing computer time, Dr. Eduardo Rojas for reading of the
+manuscript, and an anonymous reviewer for pointing out the work of
+Lux and Brown.
+Dr. Keizer acknowledges support from National Science Foundation
+grant CHE 86-18647 and the Agricultural Experiment Station at UC
+Davis. Dr. Sherman was supported by an NRC-National Institutes of
+Health Research Associateship.
+
+Receivedfor publication 25 September 1989 and in final form
+27 March 1990.
+
+REFERENCES
+
+Armstrong, D., and R. Eckert. 1987. Voltage-activated calcium chan-
+nels that must be phosphorylated to respond to membrane depolariza-
+tion. Proc. Natl. Acad. Sci. USA. 84:2518-2522.
+
+Armstrong, C., and D. Kalman. 1988. The role of protein phosphoryla-
+tion in the response of dihydropyridine-sensitive calcium channels to
+membrane depolarization in mammalian pituitary tumor cells. In
+Calcium and Ion Channel Modulation. A. Grinnell, D. Armstrong,
+and M. Jackson, editors. Plenum Publishing Co., New York. 215-
+288.
+
+Ashcroft, F. M., and P. R. Stanfield. 1982. Calcium inactivation in
+skeletal muscle fibres of the stick insect, Carausius morosus. J.
+Physiol. (Lond.) 330:349-372.
+
+Atwater, I., C. M. Dawson, A. Scott, G. Eddlestone, and E. Rojas. 1980.
+The nature of the oscillatory behavior in electrical activity for
+pancreatic ,B-cell. J. Horm. Metabol. Res., Suppl. 10:100-107.
+
+Chad, J. E., and R. Eckert. 1984. Calcium domains associated with
+individual channels can account for anomalous voltage relations of
+Ca-dependent responses. Biophys. J. 45:993-999.
+
+Chad, J. E., R. Eckert, and D. Ewald. 1984. Kinetics of calcium-
+dependent inactivation of calcium current in voltage-clamped neu-
+rones of Aplysia californica. J. Physiol. (Lond.). 347:270-300.
+
+Chay, T. R. 1987. The effect of inactivation of calcium channels by
+intracellular Ca2" ions in the bursting pancreatic a-cells. Cell
+Biophys. 11:77-90.
+
+Chay, T. R., and H. S. Kang. 1987. Multiple oscillatory states and chaos
+in the endogenous activity of excitable cells: pancreatic #-cell as an
+example. In Chaos in Biological Systems. H. Degn, A. V. Holden, and
+L. F. Olsen, editors. Plenum Publishing Co., New York. 173-181.
+
+Chay, T. R., and H. S. Kang. 1988. Role of single-channel stochastic
+noise on bursting clusters of pancreatic ,-cells. Biophys. J. 54:427-
+435.
+
+Chay, T. R., and J. Keizer. 1983. Minimal model for membrane
+
+oscillations in the pancreatic ,-cell. Biophys. J. 42:181-190.
+
+Eckert, R., and J. E. Chad. 1984. Inactivation of Ca channels. Prog.
+
+Biophys. Mol. Biol. 44:215-267.
+
+Fenwick, E. M., A. Marty, and E. Neher. 1982. Sodium and calcium
+channels in bovine chromaffin cells. J. Physiol. (Lond.). 331:599-635.
+Frankenhaeuser, B., and A. L. Hodgkin. 1957. The action of calcium on
+the electrical properties of squid axons. J. Physiol. (Lond.). 137:218-
+244.
+
+Fogelson, A., and R. Zucker. 1985. Presynaptic calcium diffusion from
+
+various arrays of single channels. Biophys. J. 48:1003-1017.
+
+Goldman, D. E. 1943. Potential, impedance, and rectifications in
+
+membranes. J. Gen. Physiol. 27:36-60.
+
+Grapengiesser, E., E. Gylfe, and B. Hellman. 1988. Glucose-induced
+oscillations of cytoplasmic Ca2, in the pancreatic ,-cell. Biochem.
+Biophys. Res. Commun. 151:1299-1304.
+
+Hagiwara, S., and H. Ohmori. 1983. Studies of single calcium channel
+currents in rat clonal pituitary cells. J. Physiol. (Lond.). 336:649-
+661.
+
+Hague, D. N. 1971. Fast Reactions. Wiley-Interscience, New York.
+Hernandez-Cruz, A., F. Sala, and P. R. Adams. 1990. Subcellular
+calcium transients visualized by confocal microscopy in a voltage-
+clamped vertebrate neuron. Science (Wash. DC). 247:858-862.
+
+Hiriart, M., and D. R. Matteson. 1988. Na channels and two types of Ca
+channels in rat pancreatic B cells identified with the reverse hemolytic
+plaque assay. J. Gen. Physiol. 91:617-639.
+
+Hodgkin, A. L., and B. Katz. 1949. The effect of sodium ions on the
+electrical activity of the giant axon of the squid. J. Physiol. (Lond.).
+108:37-77.
+
+Huang, Y., J. M. Quayle, J. F. Worley, N. B. Standen, and M. T.
+Nelson. 1989. External cadmium and internal calcium block of single
+calcium channels in smooth muscle cells from rabbit mesenteric
+artery. Biophys. J. 56:1023-1028.
+
+Kalman, D., P. H. O'Lague, C. Erxleben, and D. L. Armstrong. 1988.
+Calcium-dependent inactivation of the dihydropyridine-sensitive cal-
+cium channels in GH3 cells. J. Gen. Physiol. 92:531-548.
+
+Keahey, H. H., A. S. Rajan, A. E. Boyd, and D. L. Kunze. 1989.
+Characterization of voltage-dependent Ca2" channels in ,-cell line.
+Diabetes. 38:188-193.
+
+Keizer, J., and G. Magnus. 1989. ATP-sensitive potassium channel and
+
+bursting in the pancreatic ,-cell. Biophys. J 56:229-242.
+
+Lux, H. D., and A. M. Brown. 1984. Single channel studies on
+inactivation of calcium currents. Science (Wash. DC) 225:432-434.
+Perez-Armendariz, E., and I. Atwater. 1986. Glucose-evoked changes in
+[K+] and [Ca2"] in the intercellular spaces of the mouse islet of
+Langerhans. In Biophysics of the Pancreatic p-Cell. I. Atwater, E.
+Rojas, and B. Soria, editors. Plenum Publishing Co., New York.
+31-51.
+
+Plant, T. D. 1988. Properties and calcium-dependent inactivation of
+calcium currents in cultured mouse pancreatic B-cells. J. Physiol.
+(Lond.). 404:731-747.
+
+Ribalet, B., and P. M. Beigelman. 1980. Calcium action potentials and
+potassium permeability activation in pancreatic ,-cells Am. J. Phys-
+iol. 239:C124-C 133.
+
+Rinzel, J. 1985. Bursting oscillations in an excitable membrane model.
+In Ordinary and Partial Differential Equations, B. D. Sleeman and
+R. J. Jarvis, editors. Springer-Verlag, New York. 304-316.
+
+994
+
+Biophysical Journal
+
+Volume 58
+
+October 1990
+
+Rorsman, P., and G. Trube. 1986. Calcium and delayed potassium
+currents in mouse pancreatic ,B-cells under voltage clamp conditions.
+J. Physiol. (Lond.). 374:531-550.
+
+Rorsman, P., F. M. Aschcroft, and G. Trube. 1988. Single Ca channel
+currents in mouse pancreatic B-cells. Pfluegers Arch. Eur. J. Physiol.
+412:597-603.
+
+Rosenberg, R. L., P. Hess, and R. W. Tsien. 1988. Cardiac calcium
+channels in planar lipid bilayers. L-type channels and calcium
+permeable channels open at negative membrane potentials. J. Gen
+Physiol. 92:27-54.
+
+Satin, L. S., and D. L. Cook. 1985. Voltage-gated Ca2" current in
+
+pancreatic B-cells Pfluegers Arch. Eur. J. Physiol. 404:385-387.
+
+Satin, L. S., and D. L. Cook. 1988. Evidence for two calcium currents in
+insulin-secreting cells. Pfluegers Arch. Eur. J. Physiol. 411:401-409.
+
+Satin, L. S., and D. L. Cook. 1989. Calcium current inactivation in
+insulin-secreting cells is mediated by calcium influx and membrane
+depolarization. Pfluegers Arch. Eur. J. Physiol. 414:1-10.
+
+Sherman, A., J. Rinzel, and J. Keizer. 1988. Emergence of organized
+bursting in clusters of pancreatic j#-cells by channel sharing. Biophys.
+J. 54:411-425.
+
+Simon, S. M., and R. R. Llinas. 1985. Compartmentalization of the
+submembrane calcium activity during calcium influx and its signifi-
+cance in transmitter release. Biophys. J. 48:485-498.
+
+Standen, N. B., and P. R. Stanfield. 1982. A binding-site model for
+calcium channel inactivation that depends on calcium entry. Proc. R.
+Soc. Lond. Biol. Sci. 217:101-110.
+
+Velasco, J. M. 1988. Calcium channels in insulin-secreting RINm5F
+
+cell line. J. Physiol. (Lond.). 398:15P.
+
+Sherman et al.
+
+Domain Model for Calcium Inactivation
+
+995
+
+

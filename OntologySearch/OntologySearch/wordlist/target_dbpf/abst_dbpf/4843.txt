@@ -1,0 +1,23 @@
+Animals
+Exploratory Behavior
+Hippocampus
+chemistry
+physiology
+Learning
+physiology
+Long-Term Potentiation
+Models
+Neurological
+Models
+Psychological
+Models
+Theoretical
+Nerve Net
+physiology
+Neuronal Plasticity
+Neurons
+physiology
+Rats
+Synapses
+physiology
+We analyze a model of navigational map formation based on correlation-based, temporally asymmetric potentiation and depression of synapses between hippocampal place cells. We show that synaptic modification during random exploration of an environment shifts the location encoded by place cell activity in such a way that it indicates the direction from any location to a fixed target avoiding walls and other obstacles. Multiple maps to different targets can be simultaneously stored if we introduce target-dependent modulation of place cell activity. Once maps to a number of target locations in a given environment have been stored, novel maps to previously unknown target locations are automatically constructed by interpolation between existing maps.

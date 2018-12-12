@@ -1,0 +1,19 @@
+Animals
+Avoidance Learning
+physiology
+Behavior
+Animal
+physiology
+Electrophysiology
+Hippocampus
+physiology
+Learning
+physiology
+Male
+Motor Activity
+physiology
+Rats
+Rats
+Inbred Strains
+Time Factors
+A series of brief, high-frequency trains of electrical stimulation delivered to the perforant-path results in long-term potentiation (LTP) of the dentate gyrus as measured by average evoked potentials (EPs). Similar increases in dentate evoked potentials have been reported after natural learning. Previous studies of this behavioral LTP have not adequately controlled for ongoing behavior at the time of recording, even though motor activity also influences the amplitude of EPs. Chronically implanted rats were trained in both a radial-arm maze and an avoidance task using a crossover design. EPs in the dentate gyrus following perforant-path stimulation were recorded daily under 3 different behavioral conditions: immobility, movement, and freely behaving. After completion of both tasks, animals were given tetanizing stimulation of the perforant path. Results indicated strong improvements in the performance of both tasks. Tetanization induced significant LTP, which was still present at the end of 5 d. Significant differences were found between EPs collected during immobility and movement throughout the experiment. No evidence of behavioral LTP was observed, and the EPs remained consistent with baseline measures. These data show the necessity of controlling for ongoing behavior at the time of recording in electrophysiological studies of learning. The data also indicate that the phenomenon of behavioral LTP, as assessed by hippocampal EPs, is not universal to all learning experiences.

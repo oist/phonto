@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="685">
+<itemtype>xnppaper</itemtype>
+<titles><title>Theta oscillations in somata and dendrites of hippocampal pyramidal cells in vivo: activity-dependent phase-precession of action potentials.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-04T03:25:21Z</last_update_date>
+<creation_date>2008-07-04T03:25:21Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=685</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="685" version="1.02">
+<authors><author>Kamondi A</author><author>Acsády L</author><author>Wang XJ</author><author>Buzsáki G</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>3</number>
+<page>244-61</page>
+<abstract>Theta frequency field oscillation reflects synchronized synaptic potentials that entrain the discharge of neuronal populations within the approximately 100-200 ms range. The cellular-synaptic generation of theta activity in the hippocampus was investigated by intracellular recordings from the somata and dendrites of CA1 pyramidal cells in urethane-anesthetized rats. The recorded neurons were verified by intracellular injection of biocytin. Transition from non-theta to theta state was characterized by a large decrease in the input resistance of the neuron (39% in the soma), tonic somatic hyperpolarization and dendritic depolarization. The probability of pyramidal cell discharge, as measured in single cells and from a population of extracellularly recorded units, was highest at or slightly after the negative peak of the field theta recorded from the pyramidal layer. In contrast, cyclic depolarizations in dendrites corresponded to the positive phase of the pyramidal layer field theta (i.e. the hyperpolarizing phase of somatic theta). Current-induced depolarization of the dendrite triggered large amplitude slow spikes (putative Ca2+ spikes) which were phase-locked to the positive phase of field theta. In the absence of background theta, strong dendritic depolarization by current injection led to large amplitude, self-sustained oscillation in the theta frequency range. Depolarization of the neuron resulted in a voltage-dependent phase precession of the action potentials. The voltage-dependent phase-precession was replicated by a two-compartment conductance model. Using an active (bursting) dendritic compartment spike phase advancement of action potentials, relative to the somatic theta rhythm, occurred up to 360 degrees. These data indicate that distal dendritic depolarization of the pyramidal cell by the entorhinal input during theta overlaps in time with somatic hyperpolarization. As a result, most pyramidal cells are either silent or discharge with single spikes on the negative portion of local field theta (i.e., when the somatic region is least polarized). However, strong dendritic excitation may overcome perisomatic inhibition and the large depolarizing theta rhythm in the dendrites may induce spike bursts at an earlier phase of the extracellular theta cycle. The magnitude of dendritic depolarization is reflected by the timing of action potentials within the theta cycle. We hypothesize that the competition between the out-of-phase theta oscillation in the soma and dendrite is responsible for the advancement of spike discharges observed in the behaving animal.</abstract>
+<pubmed_id> 9662139 </pubmed_id>
+</detail>
+</item>

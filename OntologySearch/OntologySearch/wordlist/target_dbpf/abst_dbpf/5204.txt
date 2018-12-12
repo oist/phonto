@@ -1,0 +1,19 @@
+Animals
+Computer Simulation
+Gene Expression Regulation
+Hippocampus
+cytology
+physiology
+Long-Term Potentiation
+Long-Term Synaptic Depression
+Mathematics
+Mice
+Mice
+Knockout
+Models
+Biological
+Neurons
+metabolism
+Reproducibility of Results
+Signal Transduction
+A unified mathematical description that expresses the characteristics of whole systems is necessary for an understanding of signal transduction cascades. In this study we explore an algebraic method, named extreme signaling flow, enhanced from the concept of extreme pathway, to analyze signal transduction systems. This method enables us to represent the long-term potentiation (LTP) and the long-term depression (LTD) of hippocampal neuronal plasticity in an integrated simulation model. The model is validated by comparing the results of redundancy, reaction participation, and in silico knockout analysis with biological knowledge available from the literature. The following properties are assumed in these computational analyses: (1) LTP is fault-tolerant under network modification, (2) protein kinase C and MAPK have numerous routes to LTP induction, (3) calcium-calmodulin kinase II has a few routes to LTP induction, and (4) calcineurin has many routes to LTD induction. These results demonstrate that our approach produces an integrated framework for analyzing properties of large-scale systems with complicated signal transduction.

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6688">
+<itemtype>xnppaper</itemtype>
+<titles><title>Event congruency and episodic encoding: a developmental fMRI study.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Aging</keyword>
+<keyword>physiology</keyword>
+<keyword>psychology</keyword>
+<keyword>Analysis of Variance</keyword>
+<keyword>Child</keyword>
+<keyword>Color Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Imagination</keyword>
+<keyword>physiology</keyword>
+<keyword>Judgment</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Occipital Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Semantics</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:17:39Z</last_update_date>
+<creation_date>2013-02-26T07:17:39Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6688</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6688" version="1.02">
+<authors><author>Maril A</author><author>Avital R</author><author>Reggev N</author><author>Zuckerman M</author><author>Sadeh T</author><author>Ben Sira L</author><author>Livneh N</author></authors>
+<journal>Neuropsychologia</journal>
+<volume>49</volume>
+<number>11</number>
+<page>3036-45</page>
+<abstract>A known contributor to adults&#039; superior memory performance compared to children is their differential reliance on an existing knowledge base. Compared to those of adults, children&#039;s semantic networks are less accessible and less established, a difference that is also thought to contribute to children&#039;s relative resistance to semantically related false alarms. Using the&quot;congruency effect&quot;- the memory advantage of congruity, we manipulated the encoded stimuli in the present experiment such that the use of the knowledge base at encoding was more - or less - accessible in both children and adults. While being scanned, 15 children (ages 8-11) and 18 young adults saw printed noun/color combinations and were asked to indicate whether each combination existed in nature. A subsequent recognition test was administered outside of the scanner. Behaviorally, although overall memory was higher in the adult group compared to the children, both age groups showed the congruency effect to the same extent. A comparison of the neural substrates supporting the congruency effect between adults and children revealed that whereas adults recruited regions primarily associated with semantic-conceptual processing (e.g., the left PFC and parietal and occipito-temporal cortices), children recruited regions earlier in the processing stream (e.g., the right occipital cortex). This evidence supports the hypothesis that early in development, episodic encoding depends more on perceptual systems, whereas top-down frontal control and parietal structures become more prominent in the encoding process with age. This developmental switch contributes to adults&#039; superior memory performance but may render adults more vulnerable to committing semantically based errors.</abstract>
+<pubmed_id>21777596</pubmed_id>
+</detail>
+</item>

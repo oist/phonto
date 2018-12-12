@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5188">
+<itemtype>xnppaper</itemtype>
+<titles><title>Functional analysis of basic transcription element binding protein by gene targeting technology.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Amygdala</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Brain</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Cerebellum</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Conditioning (Psychology)</keyword>
+<keyword>DNA-Binding Proteins</keyword>
+<keyword>biosynthesis</keyword>
+<keyword>genetics</keyword>
+<keyword>Fear</keyword>
+<keyword>Gene Expression Regulation</keyword>
+<keyword>Developmental</keyword>
+<keyword>Gene Targeting</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Homozygote</keyword>
+<keyword>In Situ Hybridization</keyword>
+<keyword>Kruppel-Like Transcription Factors</keyword>
+<keyword>Learning Disorders</keyword>
+<keyword>genetics</keyword>
+<keyword>pathology</keyword>
+<keyword>Memory Disorders</keyword>
+<keyword>genetics</keyword>
+<keyword>pathology</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Knockout</keyword>
+<keyword>Mice</keyword>
+<keyword>Neurologic Mutants</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>genetics</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>Purkinje Cells</keyword>
+<keyword>pathology</keyword>
+<keyword>Transcription Factors</keyword>
+<keyword>biosynthesis</keyword>
+<keyword>genetics</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-20T02:20:18Z</last_update_date>
+<creation_date>2011-05-20T02:20:18Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5188</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5188" version="1.02">
+<authors><author>Morita M</author><author>Kobayashi A</author><author>Yamashita T</author><author>Shimanuki T</author><author>Nakajima O</author><author>Takahashi S</author><author>Ikegami S</author><author>Inokuchi K</author><author>Yamashita K</author><author>Yamamoto M</author><author>Fujii-Kuriyama Y</author></authors>
+<journal>Molecular and cellular biology</journal>
+<volume>23</volume>
+<number>7</number>
+<page>2489-500</page>
+<abstract>Basic transcription element binding protein (BTEB) is a transcription factor with a characteristic zinc finger motif and is most remarkably enhanced by thyroid hormone T(3) treatment (R. J. Denver et al., J. Biol. Chem. 272:8179-8188, 1997). To investigate the function of BTEB per se and to touch on the effects of T(3) (3,5,3&#039;-triiodothyronine) on mouse development, we generated BTEB-deficient mice by gene knockout technology. Homologous BTEB(-/-) mutant mice were bred according to apparently normal Mendelian genetics, matured normally, and were fertile. Mutant mice could survive for at least 2 years without evident pathological defects. From the expression of lacZ, which was inserted into the reading frame of the BTEB gene, BTEB showed a characteristic tissue-specific expression profile during the developmental process of brain and bone. Dramatically increased expression of BTEB was observed in Purkinje cells of the cerebellum and pyramidal cell layers of the hippocampus at P7 when synapses start to form in the brain. Although general behavioral activities such as locomotion, rearing, and speed of movement were not so much affected in the BTEB(-/-) mutant mice, they showed clearly reduced activity levels in rotorod and contextual fear-conditioning tests; this finding was probably due to defective functions of the cerebellum, hippocampus, and amygdala.</abstract>
+<pubmed_id>12640131</pubmed_id>
+</detail>
+</item>

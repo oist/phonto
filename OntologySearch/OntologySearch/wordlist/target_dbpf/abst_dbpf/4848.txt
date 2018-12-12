@@ -1,0 +1,20 @@
+Animal Feed
+Animals
+Biological Evolution
+Brain Mapping
+Conditioning
+Operant
+physiology
+Female
+Hippocampus
+injuries
+pathology
+physiology
+Rats
+Reaction Time
+Regression Analysis
+Reward
+Space Perception
+physiology
+Time Factors
+The experiment tested the prediction that spatial mapping takes time and asked whether time use is reflected in the overt behavior of a performing animal. The study examines this question by exploiting the expected behavioral differences of control rats and rats with hippocampal formation damage induced with fimbria-fornix (FF) lesions on a spatial navigation task. Previous studies have shown that control rats use a mapping strategy, in which they use the relative positions of environmental cues to reach places in space, whereas FF rats use a cue-based strategy, in which they are guided by a single cue or their own body orientation. Therefore, control and FF rats were overtrained on a complex foraging task in which they left a burrow to retrieve eight food pellets hidden around the perimeter of a circular table. The control rats retrieved the food pellets in order of their distance from the burrow, took direct routes to the food, and made few errors, all of which suggested they used a spatial strategy. The FF rats were less likely to retrieve food as a function of its distance, took a circular path around the perimeter of the table, and made many errors, suggesting they used a cue-based strategy. Despite taking shorter routes than the FF rats, the control rats had proportionally slower response speeds. Their slow response speeds support the hypothesis that spatial mapping takes time and that mapping time is reflected in behavior. The results are discussed in relation to their relevance to spatial mapping theory, hippocampal function, and the evolution of foraging strategies.

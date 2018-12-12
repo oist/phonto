@@ -1,0 +1,106 @@
+{% extends "site/base.tpl.html" %}
+
+{%load static %}
+
+{% load i18n %}
+
+{% block extrajs %}
+{% endblock %} {# end of extrajs block #}
+
+{% block handstyle %}
+<link rel="stylesheet" href="{% static 'css/ontologicalneighbors.css' %}" type="text/css">
+<style type="text/css">
+<!--
+/* base object style */
+html,body { height:100%; padding:0; margin:0;}
+html body *{
+	font-family: "Meiryo UI","Meiryo","Hiragino Kaku Gothic Pro",sans-serif;
+	font-size:12px;
+}
+span { white-space: nowrap; }
+
+/* css for each class */
+.floatleft{float:left;}
+.clearboth{clear:both;}
+.pagetitle{
+	font-size:16px;
+	font-weight:bold;
+	padding-left:1%;
+	padding-top:8px;
+	height:32px;
+}
+.title , .resulttitle{
+	font-size:14px;
+	margin-bottom:4px;
+}
+
+.ui-autocomplete .ui-menu-item a{
+	font-size:12px;
+}
+
+/* css for each object */
+#container{padding:0;}
+#innerframe{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+#wrappinglink{
+	position:absolute;
+	top:5px;
+	left:45%;
+	width:50px;
+	height:20px;
+}
+.ontosearcher_defaultdiv{
+z-index:9999;
+}
+-->
+</style>
+{% endblock %}{# end of handstyle block #}
+
+{% block handscript %}
+<script type="text/javascript" src="{% static 'js/ontologicalneighbors.js' %}"></script>
+<script type="text/javascript">
+<!--
+	var pretext="";
+	var prefixes={};
+	var bkcursor;
+	var staticurl = "{% static '' %}";
+	var initdbname = "{{ dbname }}";
+	var gidentifier = "{{ modelid }}";
+	var gsrcurl = "{{ src }}";
+
+	$(document).ready(function(){
+		$("#innerframe").attr({"src": gsrcurl});
+	});
+
+
+	function neighborssearch(){
+
+		new OntoSearcher().getNeighbors({
+			 dbname: initdbname
+			,identifier: gidentifier
+			,usedefaultdialog : true
+			,usewrapper : true
+		});
+
+	}
+
+//-->
+</script>
+{% endblock %} {# end of handscript block #}
+
+{% block header %}
+<div>
+</div>
+{% endblock %} {# end of header block #}
+
+{% block content %}
+<iframe id="innerframe"></iframe>
+<button id="wrappinglink" onclick="neighborssearch();">Link</button>
+{% endblock %} {# end of content block #}
+
+

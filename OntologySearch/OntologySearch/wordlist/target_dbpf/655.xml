@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="655">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal synaptic plasticity is modulated by theta rhythm in the fascia dentata of adult and aged freely behaving rats.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-04T02:44:56Z</last_update_date>
+<creation_date>2008-07-04T02:44:56Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=655</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="655" version="1.02">
+<authors><author>Orr G</author><author>Rao G</author><author>Houston FP</author><author>McNaughton BL</author><author>Barnes CA</author></authors>
+<journal>Hippocampus</journal>
+<volume>11</volume>
+<number>6</number>
+<page>647-54</page>
+<abstract>A modulatory role for the hippocampal theta rhythm in synaptic plasticity is suggested by the observations that theta occurs during exploratory behaviors, spatial learning is impaired when the theta rhythm is disrupted, and excitation of hippocampal principal cells is phase-coupled to the theta wave. The theta phase affects the nature of the plasticity induced in urethane-anesthetized rats and in the carbachol-treated in vitro slice preparation, but these oscillations are phenomenologically different from natural theta, and the effects of theta phase on plasticity under natural conditions have not been reported. We therefore examined the effects of theta phase on the magnitude of long-term potentiation (LTP) in awake rats running on a linear track for a food reward. Twelve adult and 10 aged F344 male rats were implanted with a stimulating electrode in the perforant path and a recording electrode in the hilus of the fascia dentata. Stimuli were delivered at the peak or trough of the hilar theta rhythm. In both adult and aged, memory-impaired rats, LTP lasting at least 48 h was induced when stimuli were delivered at the positive theta peak, whereas LTP was not induced when stimuli were delivered at the negative troughs. Consistent with the finding that the threshold for LTP induction is increased at this synapse in old rats, the magnitude of LTP induced at the peak of theta rhythm was significantly lower in old animals. These data confirm that LTP can be modulated by locomotion-induced theta, and that this modulation is at least qualitatively preserved across age.</abstract>
+<pubmed_id>11811658 </pubmed_id>
+</detail>
+</item>

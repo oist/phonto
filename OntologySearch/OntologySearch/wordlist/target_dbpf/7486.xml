@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7486">
+<itemtype>xnppaper</itemtype>
+<titles><title>From transient patterns to persistent structure: A model of episodic memory formation via cortico-hippocampal interactions</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>cortico-hippocampal interactions</keyword>
+<keyword>declarative memory</keyword>
+<keyword>entorhinal cortex</keyword>
+<keyword>episodic memory</keyword>
+<keyword>hippocampus</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T01:15:50Z</last_update_date>
+<creation_date>2013-03-28T01:15:50Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7486</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7486" version="1.02">
+<authors><author>Lokendra Shastri</author></authors>
+<journal>Behavioral and Brain Sciences</journal>
+<volume></volume>
+<number></number>
+<page>1-62</page>
+<abstract>We readily acquire memories of events and situations in our daily lives. There is a broad consensus that the hippocampal<br />system (HS) plays a critical role in the encoding and retrieval of such “episodic” memories. But how the HS<br />subserves this mnemonic function is not fully understood. This article presents a computational model, SMRITI, that<br />demonstrates how a transient pattern of activity representing an event can be transformed rapidly into a persistent and<br />robust memory trace as a result of long-term potentiation within structures whose architecture and circuitry resemble<br />those of the HS. Predictions and implications of the model are discussed.</abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

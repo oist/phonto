@@ -1,0 +1,36 @@
+Adult
+Brain Mapping
+Case-Control Studies
+Discrimination Learning
+physiology
+Electroencephalography
+Epilepsy
+pathology
+Female
+Hippocampus
+blood supply
+physiopathology
+Humans
+Image Processing
+Computer-Assisted
+methods
+Magnetic Resonance Imaging
+methods
+Male
+Memory Disorders
+etiology
+Memory
+Short-Term
+physiology
+Neuropsychological Tests
+Oxygen
+blood
+Photic Stimulation
+methods
+Reaction Time
+physiology
+Retention (Psychology)
+physiology
+Time Factors
+Young Adult
+Previous findings indicate that the hippocampus does not only play a role in long-term memory (LTM) encoding, but is important for working memory (WM) as well, in particular when multiple items are being processed. A recent study showed that maintenance of multiple items was associated with hippocampal activation (hippocampus-dependent WM), while maintenance of individual items induced hippocampal deactivations (hippocampus-independent WM). Here, we used two complimentary approaches to investigate whether WM-related activity patterns occur also during LTM encoding of sequentially presented items and whether they are related to the primacy effect, i.e., improved LTM encoding of items presented at the beginning of the list. Intracranial electroencephalogram in epilepsy patients and functional MRI in healthy subjects were recorded during a word-list learning task. As expected, the proportion of successfully encoded items was higher at the beginning of the list than at later list positions. Items at the beginning of the list which were subsequently forgotten were associated with negative blood oxygen level dependent responses and positive direct current slopes, corresponding to hippocampal deactivations, suggesting that they were not processed in hippocampus-dependent WM. These deactivations were absent for items later in the list and for subsequently remembered items. These data show that if processing of items at the beginning of the list is accompanied by hippocampal activity patterns previously observed during hippocampus-dependent WM, these items are subsequently remembered. However, deactivations of the hippocampus as previously observed during WM maintenance of individual items predicts failure of LTM encoding.

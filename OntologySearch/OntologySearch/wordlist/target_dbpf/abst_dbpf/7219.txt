@@ -1,0 +1,64 @@
+2-Amino-5-phosphonovalerate
+pharmacology
+6-Cyano-7-nitroquinoxaline-2
+3-dione
+pharmacology
+Animals
+Animals
+Newborn
+Calcium
+metabolism
+Calcium-Calmodulin-Dependent Protein Kinase Type 2
+Calcium-Calmodulin-Dependent Protein Kinases
+metabolism
+Cell Count
+Cell Line
+Cricetinae
+Electric Stimulation
+methods
+Excitatory Amino Acid Agonists
+pharmacology
+Excitatory Amino Acid Antagonists
+pharmacology
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+radiation effects
+Green Fluorescent Proteins
+Hippocampus
+cytology
+Long-Term Potentiation
+physiology
+Luminescent Proteins
+metabolism
+Models
+Neurological
+Mossy Fibers
+Hippocampal
+drug effects
+physiology
+radiation effects
+N-Methylaspartate
+pharmacology
+Protein Subunits
+physiology
+Protein Transport
+Pyramidal Cells
+drug effects
+physiology
+radiation effects
+Rats
+Receptors
+AMPA
+drug effects
+physiology
+radiation effects
+Sindbis Virus
+Synapses
+physiology
+Synaptic Transmission
+drug effects
+radiation effects
+Transfection
+methods
+Hippocampal CA3 pyramidal neurons receive synaptic inputs from both mossy fibres (MFs) and associational fibres (AFs). Long-term potentiation (LTP) at these synapses differs in its induction sites and N-methyl-D-aspartate receptor (NMDAR) dependence. Most evidence favours the presynaptic and postsynaptic mechanisms for induction of MF LTP and AF LTP, respectively. This implies that molecular and functional properties differ between MF and AF synapses at both presynaptic and postsynaptic sites. In this study, we focused on the difference in the postsynaptic trafficking of alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptors (AMPARs) between these synapses. To trace the subunit-specific trafficking of AMPARs at each synapse, GluR1 and GluR2 subunits were introduced into CA3 pyramidal neurons in hippocampal organotypic cultures using the Sindbis viral expression system. The electrophysiologically-tagged GluR2 AMPARs, produced by the viral-mediated transfer of the unedited form of GluR2 (GluR2Q), were inserted into both MF and AF postsynaptic sites in a neuronal activity-independent manner. Endogenous Ca(2+)-impermeable AMPARs at these synapses were replaced with exogenous Ca(2+)-permeable receptors, and Ca(2+) influx via the newly expressed postsynaptic AMPARs induced NMDAR-independent LTP at AF synapses. In contrast, no GluR1 AMPAR produced by the gene transfer was constitutively incorporated into AF postsynaptic sites, and only a small amount into MF postsynaptic sites. The synaptic trafficking of GluR1 AMPARs was triggered by the activity of Ca(2+)/calmodulin-dependent kinase II or high-frequency stimulation to induce LTP at AF synapses, but not at MF synapses. These results indicate that MF and AF postsynaptic sites possess distinct properties for AMPAR trafficking in CA3 pyramidal neurons.

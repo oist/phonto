@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6653">
+<itemtype>xnppaper</itemtype>
+<titles><title>Stimulus pacing affects the activation of the medial temporal lobe during a semantic classification task: an fMRI study.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Classification</keyword>
+<keyword>Data Interpretation</keyword>
+<keyword>Statistical</keyword>
+<keyword>Female</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Interpretation</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mental Processes</keyword>
+<keyword>physiology</keyword>
+<keyword>Middle Aged</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Research Design</keyword>
+<keyword>Stereotaxic Techniques</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Visual Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:45:43Z</last_update_date>
+<creation_date>2013-02-26T06:45:43Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6653</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6653" version="1.02">
+<authors><author>Tieleman A</author><author>Seurinck R</author><author>Deblaere K</author><author>Vandemaele P</author><author>Vingerhoets G</author><author>Achten E</author></authors>
+<journal>NeuroImage</journal>
+<volume>26</volume>
+<number>2</number>
+<page>565-72</page>
+<abstract>Our purpose was to explore the influence of stimulus pacing in blocked functional MRI studies on the activation pattern elicited by a semantic retrieval task. Twenty-two participants performed both a fixed-paced and a self-paced functional MR imaging experiment in which a semantic categorization (animal/object) task was contrasted with a perceptual (small/capital letter string) categorization task. Group and single-subject ROI analyses were computed. In both the fixed-paced and self-paced experiments, semantic categorization contrasted with perceptual categorization elicited a cerebral network generally accepted to be involved in semantic processing comprising left inferior prefrontal, left lateral temporal, paracingular and right cerebellar areas. Our main finding was that the self-paced stimulus modality additionally yielded significant activation in the medial temporal lobe (MTL) structures including the hippocampus and the parahippocampal gyrus. More elaborative single-subject ROI analyses revealed MTL activation in 86% of the subjects for the self-paced design, but only in 21% of subjects for the fixed-paced design. The discussion focuses on possible explanations for this finding. We conclude that a self-paced as opposed to a fixed-paced semantic retrieval paradigm is able to detect significant MTL activation in groups as well as in single-subjects. This offers opportunities for the application of such a design in clinical practice.</abstract>
+<pubmed_id>15907313</pubmed_id>
+</detail>
+</item>

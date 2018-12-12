@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4942">
+<itemtype>xnppaper</itemtype>
+<titles><title>Stimulus configuration, classical conditioning, and hippocampal function.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Association Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cerebellum</keyword>
+<keyword>physiology</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Classical</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:42:27Z</last_update_date>
+<creation_date>2011-05-09T02:42:27Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4942</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4942" version="1.02">
+<authors><author>Schmajuk NA</author><author>DiCarlo JJ</author></authors>
+<journal>Psychological review</journal>
+<volume>99</volume>
+<number>2</number>
+<page>268-305</page>
+<abstract>Hippocampal participation in classical conditioning is described in terms of a multilayer network that portrays stimulus configuration. The network (a) describes behavior in real time, (b) incorporates a layer of &quot;hidden&quot; units positioned between input and output units, (c) includes inputs that are connected to the output directly as well as indirectly through the hidden-unit layer, and (d) uses a biologically plausible backpropagation procedure to train the hidden-unit layer. Nodes and connections in the neural network are mapped onto regional cerebellar, cortical, and hippocampal circuits, and the effect of lesions of different brain regions is formally studied. Computer simulations of the following classical conditioning paradigms are presented: acquisition of delay and trace conditioning, extinction, acquisition-extinction series of delay conditioning, blocking, over-shadowing, discrimination acquisition, discrimination reversal, feature-positive discrimination, conditioned inhibition, negative patterning, positive patterning, and generalization. The model correctly describes the effect of hippocampal and cortical lesions in many of these paradigms, as well as neural activity in hippocampus and medial septum during classical conditioning. Some of these results might be extended to the description of anterograde amnesia in human patients.</abstract>
+<pubmed_id>1594726</pubmed_id>
+</detail>
+</item>

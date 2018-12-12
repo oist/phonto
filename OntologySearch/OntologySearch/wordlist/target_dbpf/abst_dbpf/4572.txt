@@ -1,0 +1,19 @@
+Animals
+Electrophysiology
+Hippocampus
+cytology
+physiology
+Interneurons
+physiology
+Patch-Clamp Techniques
+Pyramidal Cells
+physiology
+Rats
+Rats
+Wistar
+Receptors
+Neurotransmitter
+agonists
+gamma-Aminobutyric Acid
+physiology
+Patch-clamp technique was used in the CA1 region of the hippocampal rat slice preparation in order to perform a comparison between synaptic GABAergic spontaneous postsynaptic currents (sPSCs) recorded from pyramidal cells (PCs) of stratum pyramidale (SP) and interneurons of stratum-lacunosum moleculare (SL-M INs). GABAergic sPSCs from PCs and from SL-M INs displayed similar frequency (0.75 +/- 0.26 Hz vs. 0.53 +/- 0.11 Hz, respectively), amplitude (34.6 +/- 5.0 pA vs. 39.6 +/- 4.1 pA), rise-time (2.9 +/- 0.4 ms vs. 3.2 +/- 0.3 ms), and decay-time (31.7 +/- 1.5 vs. 32.3 +/- 2.4). Agonists of receptors for endogenously released transmitters were bath-applied to induce variations in the frequency of sPSCs. Spontaneous PSC frequency increased after carbachol and trans-1-aminocyclopentane-1,3-dicarboxilic acid (t-ACPD), whereas it decreased after 5-hydroxy-tryptamine (5-HT) and baclofen in both classes of cells. Cross-correlation analysis of double-patch recordings (one PC and one SL-M IN) revealed 4.4 times as many coincident events as would be expected at random. The ratio between measured and random coincidences did not vary when the sPSCs frequency was increased. These results suggest that the same class of spontaneously active GABAergic cells impinge both on PCs and on SL-M INs, exerting control over them by varying the level of released GABA.

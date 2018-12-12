@@ -1,0 +1,25 @@
+1. Phys Med Biol. 2006 Dec 7;51(23):6141-56. Epub 2006 Nov 8.
+
+Cell model for efficient simulation of wave propagation in human ventricular
+tissue under normal and pathological conditions.
+
+Ten Tusscher KH(1), Panfilov AV.
+
+Author information: 
+(1)Department of Theoretical Biology, Utrecht University, Padualaan 8, 3584 CH
+Utrecht, The Netherlands. khwjtuss@hotmail.com
+
+In this paper, we formulate a model for human ventricular cells that is efficient
+enough for whole organ arrhythmia simulations yet detailed enough to capture the 
+effects of cell level processes such as current blocks and channelopathies. The
+model is obtained from our detailed human ventricular cell model by using
+mathematical techniques to reduce the number of variables from 19 to nine. We
+carefully compare our full and reduced model at the single cell, cable and 2D
+tissue level and show that the reduced model has a very similar behaviour.
+Importantly, the new model correctly produces the effects of current blocks and
+channelopathies on AP and spiral wave behaviour, processes at the core of current
+day arrhythmia research. The new model is well over four times more efficient
+than the full model. We conclude that the new model can be used for efficient
+simulations of the effects of current changes on arrhythmias in the human heart.
+
+PMID: 17110776  [PubMed - indexed for MEDLINE]

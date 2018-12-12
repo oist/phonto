@@ -1,0 +1,20 @@
+Acoustic Stimulation
+Action Potentials
+Animals
+Auditory Pathways
+physiology
+Discrimination Learning
+physiology
+Evoked Potentials
+Auditory
+Hippocampus
+physiology
+Male
+Neurons
+classification
+physiology
+Rats
+Rats
+Inbred Strains
+Reaction Time
+Unit activity from 3 major types of hippocampal cells were recorded from the CA1, CA3 and dentate granule cell layers of the hippocampus in awake freely moving rats. Units were classified as complex spike (ComSp), theta and dentate granule cells (G-cell) based on their spontaneous and stimulus-evoked firing characteristics. Single trial records for each cell type were collected during criterion performance of a two-tone discrimination task. Results showed that: tone-evoked discharges of theta- and G-cells, but not ComSp cells, were influenced by the reward status of the tone presented; the firing tendency of all cell types was significantly influenced by the preceding trial sequence; different types of preceding trial sequences including single and double alternation and runs of positive or negative trials significantly affected the firing tendency of all 3 cell types; the pattern of theta- and G-cell discharges differed with respect to latency to peak discharge and the duration of the discharge following long runs of similar trials. These effects were similar to previously described sequential influence on synaptically identified sensory evoked potentials in the dentate gyrus.

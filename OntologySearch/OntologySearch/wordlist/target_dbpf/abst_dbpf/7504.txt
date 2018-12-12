@@ -1,0 +1,16 @@
+Animals
+Electrophysiology
+Hippocampus
+physiology
+Male
+Maze Learning
+Neocortex
+physiology
+Rats
+Rats
+Inbred F344
+Regression Analysis
+Sleep
+physiology
+Theta Rhythm
+Hippocampal cells that fire together during behaviour exhibit enhanced activity correlations during subsequent sleep, with some preservation of temporal order information. Thus, information reflecting experiences during behaviour is re-expressed in hippocampal circuits during subsequent 'offline' periods, as postulated by some theories of memory consolidation. If the hippocampus orchestrates the reinstatement of experience-specific activity patterns in the neocortex, as also postulated by such theories, then correlation patterns both within the neocortex and between hippocampus and neocortex should also re-emerge during sleep. Ensemble recordings were made in the posterior parietal neocortex, in CA1, and simultaneously in both areas, in seven rats. Each session involved an initial sleep episode (S1), behaviour on a simple maze (M), and subsequent sleep (S2). The ensemble activity-correlation structure within and between areas during S2 resembled that of M more closely than did the correlation pattern of S1. Temporal order (i.e. the asymmetry of the cross-correlogram) was also preserved within, but not between, structures. Thus, traces of recent experience are re-expressed in both hippocampal and neocortical circuits during sleep, and the representations in the two areas tend to correspond to the same experience. The poorer preservation of temporal firing biases between neurons in the different regions may reflect the less direct synaptic coupling between regions than within them. Alternatively, it could result from a shift, between behavioural states, in the relative dominance relations in the corticohippocampal dialogue. Between-structure order will be disrupted, for example, if, during behaviour, neocortical patterns tend to drive corresponding hippocampal patterns, whereas during sleep the reverse occurs. This possibility remains to be investigated.

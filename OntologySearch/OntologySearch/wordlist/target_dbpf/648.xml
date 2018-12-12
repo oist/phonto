@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="648">
+<itemtype>xnppaper</itemtype>
+<titles><title>The contributions of position, direction, and velocity to single unit activity in the hippocampus of freely-moving rats.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-04T02:35:38Z</last_update_date>
+<creation_date>2008-07-04T02:35:38Z</creation_date>
+<publication_year>1983</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=648</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="648" version="1.02">
+<authors><author>McNaughton BL</author><author>Barnes CA</author><author>O&#039;Keefe J</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>52</volume>
+<number>1</number>
+<page>41-9</page>
+<abstract>Isolated single units in rat dorsal hippocampus and fascia dentata were classified as &#039;Theta&#039; or &#039;Complex-Spike&#039; cells, and their firing characteristics were examined with respect to position, direction and velocity of movement during forced choice, food rewarded search behavior on a radial eight arm maze. Most spikes from CS cells occurred when the animal was located within a particular place on the maze and moving in a particular direction. Theta cells had very low spatial selectivity. Both cell categories had discharge probabilities which increased somewhat as a function of running velocity but tended to asymptote well before half-maximal velocity. The place/direction specificity of CS cells was significantly higher in CA1 than in CA3 and CA3 CS cells exhibited a striking preference for the inward radial direction. The pronounced directional selectivity of CS cells, at least in the present environment, suggests that they fire in response to complex, but specific, stimulus features in the extramaze world rather than to absolute place in a non-egocentric space. An alternative possibility is that the geometrical constraints of the maze surface have a profound influence on the shapes of the response fields of CS cells.</abstract>
+<pubmed_id> 6628596 </pubmed_id>
+</detail>
+</item>

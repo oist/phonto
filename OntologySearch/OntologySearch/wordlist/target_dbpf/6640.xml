@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6640">
+<itemtype>xnppaper</itemtype>
+<titles><title>Influence of emotional expression on memory recognition bias in schizophrenia as revealed by fMRI.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Amygdala</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Attention</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Emotions</keyword>
+<keyword>physiology</keyword>
+<keyword>Facial Expression</keyword>
+<keyword>Female</keyword>
+<keyword>Frontal Lobe</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Judgment</keyword>
+<keyword>physiology</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Middle Aged</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Psychiatric Status Rating Scales</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Schizophrenia</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:35:24Z</last_update_date>
+<creation_date>2013-02-26T06:35:24Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6640</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6640" version="1.02">
+<authors><author>Sergerie K</author><author>Armony JL</author><author>Menear M</author><author>Sutton H</author><author>Lepage M</author></authors>
+<journal>Schizophrenia bulletin</journal>
+<volume>36</volume>
+<number>4</number>
+<page>800-10</page>
+<abstract>We recently showed that, in healthy individuals, emotional expression influences memory for faces both in terms of accuracy and, critically, in memory response bias (tendency to classify stimuli as previously seen or not, regardless of whether this was the case). Although schizophrenia has been shown to be associated with deficit in episodic memory and emotional processing, the relation between these processes in this population remains unclear. Here, we used our previously validated paradigm to directly investigate the modulation of emotion on memory recognition. Twenty patients with schizophrenia and matched healthy controls completed functional magnetic resonance imaging (fMRI) study of recognition memory of happy, sad, and neutral faces. Brain activity associated with the response bias was obtained by correlating this measure with the contrast subjective old (ie, hits and false alarms) minus subjective new (misses and correct rejections) for sad and happy expressions. Although patients exhibited an overall lower memory performance than controls, they showed the same effects of emotion on memory, both in terms of accuracy and bias. For sad faces, the similar behavioral pattern between groups was mirrored by a largely overlapping neural network, mostly involved in familiarity-based judgments (eg, parahippocampal gyrus). In contrast, controls activated a much larger set of regions for happy faces, including areas thought to underlie recollection-based memory retrieval (eg, superior frontal gyrus and hippocampus) and in novelty detection (eg, amygdala). This study demonstrates that, despite an overall lower memory accuracy, emotional memory is intact in schizophrenia, although emotion-specific differences in brain activation exist, possibly reflecting different strategies.</abstract>
+<pubmed_id>19176471</pubmed_id>
+</detail>
+</item>

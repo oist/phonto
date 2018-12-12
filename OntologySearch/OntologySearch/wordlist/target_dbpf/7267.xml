@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7267">
+<itemtype>xnppaper</itemtype>
+<titles><title>Interaction of inhibition and triplets of excitatory spikes modulates the NMDA-R-mediated synaptic plasticity in a computational model of spike timing-dependent plasticity.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:50:12Z</last_update_date>
+<creation_date>2013-02-28T01:50:12Z</creation_date>
+<publication_year>2013</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7267</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7267" version="1.02">
+<authors><author>Cutsuridis V</author></authors>
+<journal>Hippocampus</journal>
+<volume>23</volume>
+<number>1</number>
+<page>75-86</page>
+<abstract>Spike timing-dependent plasticity (STDP) experiments have shown that a synapse is strengthened when a presynaptic spike precedes a postsynaptic one and depressed vice versa. The canonical form of STDP has been shown to have an asymmetric shape with the peak long-term potentiation at +6 ms and the peak long-term depression at -5 ms. Experiments in hippocampal cultures with more complex stimuli such as triplets (one presynaptic spike combined with two postsynaptic spikes or one postsynaptic spike with two presynaptic spikes) have shown that pre-post-pre spike triplets result in no change in synaptic strength, whereas post-pre-post spike triplets lead to significant potentiation. The sign and magnitude of STDP have also been experimentally hypothesized to be modulated by inhibition. Recently, a computational study showed that the asymmetrical form of STDP in the CA1 pyramidal cell dendrite when two spikes interact switches to a symmetrical one in the presence of inhibition under certain conditions. In the present study, I investigate computationally how inhibition modulates STDP in the CA1 pyramidal neuron dendrite when it is driven by triplets. The model uses calcium as the postsynaptic signaling agent for STDP and is shown to be consistent with the experimental triplet observations in the absence of inhibition: simulated pre-post-pre spike triplets result in no change in synaptic strength, whereas simulated post-pre-post spike triplets lead to significant potentiation. When inhibition is bounded by the onset and offset of the triplet stimulation, then the strength of the synapse is decreased as the strength of inhibition increases. When inhibition arrives either few milliseconds before or at the onset of the last spike in the pre-post-pre triplet stimulation, then the synapse is potentiated. Variability in the frequency of inhibition (50 vs. 100 Hz) produces no change in synaptic strength. Finally, a 5% variation in model&#039;s calcium parameters (calcium thresholds) proves that the model&#039;s performance is robust.</abstract>
+<pubmed_id>22851353</pubmed_id>
+</detail>
+</item>

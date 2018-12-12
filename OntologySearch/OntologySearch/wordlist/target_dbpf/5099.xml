@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5099">
+<itemtype>xnppaper</itemtype>
+<titles><title>TraceLink: a model of amnesia and consolidation of memory.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Amnesia</keyword>
+<keyword>Retrograde</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Dementia</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:23:07Z</last_update_date>
+<creation_date>2011-05-16T03:35:38Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5099</url>
+<changelogs>
+<changelog date='2013-03-28T02:23:07Z'>Modified; Item Description.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5099" version="1.02">
+<authors><author>Murre JM</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>675-84</page>
+<abstract>A model of amnesia is introduced, called TraceLink, that consists of three systems: 1) a trace system (neocortex), 2) a link system (hippocampus), and 3) a modulatory system (hippocampus/fornix/basal forebrain). It aims to explain salient aspects of the neuropsychology of amnesia, such as Ribot gradients in retrograde amnesia, patterns of dissociation between anterograde and retrograde amnesia, recovery from amnesia, and a newly discovered form of amnesia (semantic dementia) that results from certain temporal lobe lesions that do not affect the hippocampus. The model, furthermore, offers a new explanation for the global neuroanatomy of the hippocampus and neocortex based on the assumption that the brain aims to minimize connectivity volume. It also offers various strategies for the consolidation of memory, the effects of which are explored in computer simulations. The paper concludes with ten, largely untested; predictions derived from the TraceLink model.</abstract>
+<pubmed_id>9034854</pubmed_id>
+</detail>
+</item>

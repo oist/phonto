@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5467">
+<itemtype>xnppaper</itemtype>
+<titles><title>A review of the hippocampal place cells.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Environment</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Interneurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Locomotion</keyword>
+<keyword>Movement</keyword>
+<keyword>Rabbits</keyword>
+<keyword>Rats</keyword>
+<keyword>Sensory Receptor Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-13T02:51:39Z</last_update_date>
+<creation_date>2011-06-13T02:51:39Z</creation_date>
+<publication_year>1979</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5467</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5467" version="1.02">
+<authors><author>O&#039;Keefe J</author></authors>
+<journal>Progress in neurobiology</journal>
+<volume>13</volume>
+<number>4</number>
+<page>419-39</page>
+<abstract></abstract>
+<pubmed_id>396576</pubmed_id>
+</detail>
+</item>

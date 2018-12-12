@@ -1,0 +1,23 @@
+Animals
+Biological Clocks
+drug effects
+physiology
+Hippocampus
+drug effects
+physiology
+Interneurons
+drug effects
+physiology
+Neural Inhibition
+drug effects
+physiology
+Rats
+Rats
+Wistar
+Receptors
+GABA-A
+physiology
+Synaptic Transmission
+drug effects
+physiology
+Cortical inhibitory interneurons set the pace of synchronous neuronal oscillations implicated in synaptic plasticity and various cognitive functions. The hyperpolarizing nature of inhibitory postsynaptic potentials (IPSPs) in interneurons has been considered crucial for the generation of oscillations at beta (15-30 Hz) and gamma (30-100 Hz) frequency. Hippocampal basket cells and axo-axonic cells in stratum pyramidale-oriens (S-PO) play a central role in the synchronization of the local interneuronal network as well as in pacing of glutamatergic principal cell firing. A lack of conventional forms of plasticity in excitatory synapses onto interneurons facilitates their function as stable neuronal oscillators. We have used gramicidin-perforated and whole cell clamp recordings to study properties of GABAAR-mediated transmission in CA3 SP-O interneurons and in CA3 pyramidal cells in rat hippocampal slices during electrical 5- to 100-Hz stimulation and during spontaneous activity. We show that GABAergic synapses onto SP-O interneurons can easily switch their mode from inhibitory to excitatory during heightened activity. This is based on a depolarizing shift in the GABAA reversal potential (EGABA-A), which is much faster and more pronounced in interneurons than in pyramidal cells. We also found that the shift in interneuronal function was frequency dependent, being most prominent at 20- to 40-Hz activation of the GABAergic synapses. After 40-Hz tetanic stimulation (100 pulses), GABAA responses remained depolarizing for approximately 45 s in the interneurons, promoting bursting in the GABAergic network. Hyperpolarizing EGABA-A was restored>60 s after the stimulus train. Similar but spontaneous GABAergic bursting was induced by application of 4-aminopyridine (100 microM) to slices. A shift to depolarizing IPSPs by the GABAAR permeant weak acid anion formate provoked interneuronal population bursting, supporting the role of GABAergic excitation in burst generation. Furthermore, depolarizing GABAergic potentials and synchronous interneuronal bursting were enhanced by pentobarbital (100 microM), a positive allosteric modulator of GABAARs, and were blocked by picrotoxin (100 microM). Intriguingly, GABAergic bursts displayed short (<1 s) oscillations at 15-40 Hz, even though only depolarizing GABAA responses were seen in the SP-O interneurons. This beta-gamma rhythmicity in the interneuron network was dependent on electrotonic coupling, and was abolished by blockade of gap junctions with carbenoxolone (200 microM). Results here implicate the rapid activity-dependent degradation of hyperpolarizing IPSPs in SP-O interneurons in setting the temporal limits for a given interneuron to participate in beta-gamma oscillations synchronized by GABAergic synapses. Furthermore, they imply that mutual GABAergic excitation provided by interneurons may be an integral part in the function of neuronal networks. We suggest that the use-dependent change in EGABA-A could represent a form of short-term plasticity in interneurons promoting coherent and sustained activation of local GABAergic networks.

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4503">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampus and context in classical conditioning.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Classical</keyword>
+<keyword>physiology</keyword>
+<keyword>Cues</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T04:43:35Z</last_update_date>
+<creation_date>2011-01-28T04:43:35Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4503</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4503" version="1.02">
+<authors><author>Holland PC</author><author>Bouton ME</author></authors>
+<journal>Current opinion in neurobiology</journal>
+<volume>9</volume>
+<number>2</number>
+<page>195-202</page>
+<abstract>Recent evidence suggests that contextual learning encompasses a variety of changes in learning and performance processes. Only some of these changes depend on the hippocampus. Specialized functions proposed for the hippocampus in contextual learning include the construction and consolidation of contextual memory representations, incidental contextual learning, and inhibitory contextual learning.</abstract>
+<pubmed_id>10322181</pubmed_id>
+</detail>
+</item>

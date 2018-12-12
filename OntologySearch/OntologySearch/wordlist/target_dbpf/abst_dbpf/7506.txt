@@ -1,0 +1,25 @@
+Animals
+Behavior
+Animal
+physiology
+Dentate Gyrus
+physiology
+Genetic Engineering
+methods
+Genetic Vectors
+Hippocampus
+physiology
+In Situ Hybridization
+Long-Term Potentiation
+Memory
+physiology
+Mice
+Mice
+Knockout
+Neuronal Plasticity
+physiology
+Receptors
+N-Methyl-D-Aspartate
+physiology
+Synaptic Transmission
+We have produced a mouse strain in which the deletion of the NMDAR1 gene is restricted to the CA1 pyramidal cells of the hippocampus by using a new and general method that allows CA1-restricted gene knockout. The mutant mice grow into adulthood without obvious abnormalities. Adult mice lack NMDA receptor-mediated synaptic currents and long-term potentiation in the CA1 synapses and exhibit impaired spatial memory but unimpaired nonspatial learning. Our results strongly suggest that activity-dependent modifications of CA1 synapses, mediated by NMDA receptors, play an essential role in the acquisition of spatial memories.

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4923">
+<itemtype>xnppaper</itemtype>
+<titles><title>Locomotor activity causes a rapid up-regulation of vasoactive intestinal peptide in the rat hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Gene Expression Regulation</keyword>
+<keyword>physiology</keyword>
+<keyword>Glutamate Decarboxylase</keyword>
+<keyword>analysis</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Immunohistochemistry</keyword>
+<keyword>Interneurons</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Kinetics</keyword>
+<keyword>Male</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Motor Cortex</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>RNA</keyword>
+<keyword>Messenger</keyword>
+<keyword>genetics</keyword>
+<keyword>Rats</keyword>
+<keyword>Time Factors</keyword>
+<keyword>Transcription</keyword>
+<keyword>Genetic</keyword>
+<keyword>Vasoactive Intestinal Peptide</keyword>
+<keyword>analysis</keyword>
+<keyword>genetics</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:13:44Z</last_update_date>
+<creation_date>2011-05-09T02:13:44Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4923</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4923" version="1.02">
+<authors><author>Eilam R</author><author>Davidson A</author><author>Gozes I</author><author>Segal M</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>5</number>
+<page>534-41</page>
+<abstract>Vasoactive intestinal peptide (VIP) expression is restricted to interneurons in the hippocampus of normal adult rats. However, 3-6 hours after a 60-minute walk in an activity wheel, VIP was transiently expressed in most pyramidal and granular neurons of the hippocampus. Locomotion was also associated with a dramatic increase in VIP immunoreactivity in the motor cortex, primarily in bipolar cells. Reverse transcriptase-polymerase chain reaction analysis indicated that VIP mRNA increases transiently by more than twofold, before the increases in peptide immunoreactivity in both the hippocampus and motor cortex. By comparison, another marker of inhibitory interneurons, glutamate decarboxylase, did not change its expression pattern after locomotion. The calcium binding protein, calbindin-D28K, normally expressed in interneurons, was now found also in glial cells of the hippocampus and motor cortex. Another marker of enhanced electrical activity, the immediate early gene, c-Fos, was expressed in pyramidal and granular neurons at 3 hours but not at 6 hours after locomotion. These results suggest that mapping of peptide expression in the brain of a docile, inactive rat may not reflect the real distribution and functions of a peptide in an active animal.</abstract>
+<pubmed_id>10560924</pubmed_id>
+</detail>
+</item>

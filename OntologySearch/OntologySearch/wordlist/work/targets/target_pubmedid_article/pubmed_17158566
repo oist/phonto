@@ -1,0 +1,4313 @@
+1522
+
+Biophysical Journal Volume 92 March 2007 1522–1543
+
+Kinetic Properties of the Cardiac L-Type Ca21
+Myocyte Electrophysiology: A Theoretical Investigation
+
+Channel and Its Role in
+
+Gregory M. Faber,* Jonathan Silva,
+*Department of Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio; and
+Center and Department of Biomedical Engineering, Washington University, St. Louis, Missouri
+
+and Yoram Rudy
+
+Leonid Livshitz,
+
+y
+
+Cardiac Bioelectricity and Arrhythmia
+
+y
+
+y
+
+y
+
+for the initiation of Ca21
+
+ABSTRACT The L-type Ca21
+channel (CaV1.2) plays an important role in action potential (AP) generation, morphology, and
+duration (APD) and is the primary source of triggering Ca21
+-release in cardiac myocytes. In
+this article we present: 1), a detailed kinetic model of CaV1.2, which is incorporated into a model of the ventricular mycoyte where it
+interacts with a kinetic model of the ryanodine receptor in a restricted subcellular space; 2), evaluation of the contribution of voltage-
+dependent inactivation (VDI) and Ca21
+-dependent inactivation (CDI) to total inactivation of CaV1.2; and 3), description of dynamic
+CaV1.2 and ryanodine receptor channel-state occupancy during the AP. Results are: 1), the CaV1.2 model reproduces experi-
+]i, and the Ca21
+mental single-channel and macroscopic-current data; 2), the model reproduces rate dependence of APD, [Na
+-
+transient (CaT), and restitution of APD and CaT during premature stimuli; 3), CDI of CaV1.2 is sensitive to Ca21
+that enters the
+subspace through the channel and from SR release. The relative contributions of these Ca21
+sources to total CDI during the AP
+vary with time after depolarization, switching from early SR dominance to late CaV1.2 dominance. 4), The relative contribution of
+CDI to total inactivation of CaV1.2 is greater at negative potentials, when VDI is weak; and 5), loss of VDI due to the CaV1.2 mutation
+G406R (linked to the Timothy syndrome) results in APD prolongation and increased CaT.
+
+-induced Ca21
+
+1
+
+INTRODUCTION
+
+Most cellular action potential (AP) models compute the
+membrane potential starting from macroscopic transmem-
+brane ionic currents through large ensembles of ion channels.
+The ionic currents are computed using the Hodgkin-Huxley
+(H-H) scheme (1), which represents voltage and time-dependent
+conductance changes in terms of ‘‘gating variables’’ (e.g.,
+activation, inactivation) that are independent of each other.
+Current understanding of ion-channel gating clearly indi-
+cates strong coupling between kinetic gating transitions that
+cannot be reproduced within the H-H paradigm (2). Also, the
+H-H formalism does not represent kinetic states of the ion chan-
+nel (such as open, closed, inactivated) and is therefore not
+suitable for simulating molecular interactions, ion-channel
+mutations that alter speciﬁc kinetic transitions, or effects of
+drugs that bind to the channel in a speciﬁc conformational
+state. To overcome these limitations we have developed and
+introduced into a model of the whole-cell, single-channel
+based Markov models of cardiac INa (3,4), IKr (5,6), and IKs
+(6), channels that are major determinants of the ventricular
+AP. Markov models represent discrete ion-channel states and
+their interactions; this property allowed us to examine kinetic
+state transitions of these channels during the AP (2), simulate
+the cellular arrhythmogenic manifestations of ion-channel
+mutations (2–5), and study the role of molecular subunit
+interactions in channel function (2,6). Recently, we used
+Markov models to study the cellular electrophysiological
+
+Submitted May 11, 2006, and accepted for publication November 20, 2006.
+
+Address reprint requests to Yoram Rudy, Director, Cardiac Bioelectricity
+and Arrhythmia Center, 290 Whitaker Hall, Campus Box 1097, One
+Brookings Dr., St. Louis, MO 63130-4899. Tel.: 314-935-8160; Fax:
+314-935-8168; E-mail: rudy@wustl.edu.
+Ó 2007 by the Biophysical Society
+0006-3495/07/03/1522/22 $2.00
+
+1
+
+effects of state-speciﬁc drug binding (to open or inactivated
+channels (7).
+state) in wild-type and mutant cardiac Na
+Given the important role of Cav1.2, the L-type Ca21
+channel,
+in AP generation, rate-dependence (8,9), and conduction
+(10,11), and its participation in cellular calcium cycling and
+excitation-contraction (EC) coupling (12), it is important to
+develop a detailed kinetic model of this channel. Such model
+could be used to study various aspects of channel gating in
+the complex interactive cell environment, to predict the ef-
+fects on the whole-cell AP of state-speciﬁc drug binding to
+the channel, and to simulate the cellular electrophysiological
+consequences of Cav1.2 mutations, such as a recently de-
+scribed missense mutation G406R that causes Timothy syn-
+drome and is characterized by QT interval prolongation on the
+electrocardiogram and arrhythmia development, as well as an
+array of other organ dysfunction (13,14).
+
+Cav1.2 gating is both voltage and Ca21
+
+dependent; the
+time course and magnitude of [Ca21
+] near the channel is a
+major determinant of its inactivation kinetics. In ventricular
+myocytes, Cav1.2 interacts with ryanodine receptors (RyR)
+to trigger Ca21
+release from the sarcoplasmic reticulum (SR)
+through the calcium-induced-calcium-release (CICR) pro-
+cess. The interaction occurs in a restricted subcellular space
+in triad formations (15,16). Modeling the Cav1.2 channel
+kinetics requires representation of the dynamic Ca21
+changes
+in a restricted subspace for calcium. We introduce a sub-
+cellular restricted space where Cav1.2 and RyR interact
+to generate a Ca21
+-transient. Because our interest is in the
+L-type Ca21
+current, its properties, and its role in the cellular
+AP and arrhythmia, we adopt a global cellular approach in
+the simulations; that is, the model subcellular space represents
+a subsarcolemmal space, along the length of the t-tubules,
+
+doi: 10.1529/biophysj.106.088807
+
+Kinetic Model of Cardiac CaV1.2
+
+1523
+
+into which both L-type Ca21
+channels and RyR open.
+Clearly, this approach cannot be used to simulate local micro-
+scopic (molecular) processes of EC-coupling such as Ca21
+spark formation, as done by others (17,18). However, as
+shown in the Results section, the model recreates the relevant
+global properties of calcium cycling that inﬂuence the L-type
+Ca21
+current, ICa(L). This global approach results in major
+reduction of computing time, making the simulations of
+steady-state pacing protocols that are necessary for studying
+cell electrophysiology possible and practical.
+
+Using this model, the following phenomena are studied: 1),
+kinetic state transitions of Cav1.2 and RyR during the AP at
+slow and fast rates; 2), the relative contributions of Ca21
+-
+dependent and voltage-dependent inactivation to total inacti-
+vation of ICa(L); 3), sensitivity of Ca21
+-dependent inactivation
+to Ca21
+entry through the channel and from SR release; 4),
+rate dependence of AP duration (APD adaptation) and APD
+]i and of the Ca21
+-
+restitution; 5), rate dependence of [Na
+transient; restitution of the Ca21
+-transient during premature
+stimuli; 6), ICa(L) and AP modiﬁcation by the Cav1.2 missense
+mutation G406R that has been associated with the Timothy
+syndrome and its arrhythmic manifestations.
+
+1
+
+METHODS
+
+A complete list of abbreviations, parameter deﬁnitions, model equations,
+and initial conditions can be found in Table 1 and the Appendix.
+
+channel Markov model
+
+L-type Ca21
+A Markov representation of the L-type Ca21
+channel (Fig. 1) was developed
+and incorporated into a ventricular cell model. L-type Ca21
+channels are
+known to inactivate due to an increase in membrane potential or an increase
+in intracellular Ca21
+. The former, known as voltage-dependent inactivation
+(VDI), is accompanied by a gating current whereas the latter, known as
+Ca21
+-dependent inactivation (CDI), is not. This discovery by Hadley and
+Lederer (19) suggests that the mechanisms by which these inactivation
+processes occur are separate, implying that channels that have inactivated
+due to voltage can still be inactivated by Ca21
+and vice versa. This is further
+supported by experiments where VDI or CDI are altered or eliminated by
+point mutations to the CaV1.2 gene. This is perhaps best illustrated by the
+CaV1.2 mutation G406R, which is the underlying cause of the Timothy
+syndrome, which almost completely eliminates VDI while leaving CDI
+unaffected (13,14). VDI of CaV1.2 is also affected by mutations to the pore-
+encoding portion of the channel (20) or mutations within the I-II linker
+(13,21). CDI, which involves Ca21
+binding to calmodulin (CaM) that is
+constitutively tethered to a region of the CaV1.2 C-terminus known as the IQ
+motif, is eliminated by mutations to either the IQ motif (22–24) or to CaM
+(25). There has been recent evidence that VDI may also be dependent on the
+IQ-CaM complex (26), giving rise to the possibility that VDI and CDI are
+not entirely independent. We model the channel with two distinct kinetic
+modes (27,28): a voltage-gating mode (ModeV) with a single conducting
+state, and a mode where the channel is inactivated via a Ca21
+-dependent
+process (ModeCa). We selected the minimum number of channel states nec-
+essary to reﬂect structural properties of the channel (four voltage sensitive
+transitions before channel opening reﬂecting movement of four voltage
+sensors, one for each of the four homologous domains making up the
+a1 subunit of CaV1.2) and to describe the complex channel behavior (fast
+and slow voltage-dependent inactivation states, IVf and IVs, (29)). The two-
+tier structure (upper tier, ModeV; lower tier, ModeCa) implies that the
+
+channel can be inactivated by Ca21
+at any time, independent of the channel
+being closed, open, or inactivated by voltage. In addition, this means that
+channels can be simultaneously inactivated via both voltage-dependent and
+Ca21
+-dependent mechanisms. Despite the relatively large number of chan-
+nel states, the total number of transition rates that must be computed each
+time step is small (rates computed for state transitions within ModeV are the
+same for ModeCa and transition rates between ModeV and ModeCa are the
+same from any state).
+
+Experimental protocols to study L-type Ca21
+
+channels often utilize
+charge carriers other than Ca21
+to separate voltage-dependent inactivation
+from Ca21
+-dependent inactivation. To reproduce these experimental pro-
+tocols with the model, we eliminate Ca21
+-dependent inactivation by setting
+the transition rates from ModeV to ModeCa to zero. Simulations where this
+is done are noted in the text and in the ﬁgure caption.
+
+The L-type Ca21
+
+channel Markov model was validated utilizing a wide
+range of experimental data. Our guide was to select experimental data that
+were recorded in guinea pig ventricular myocytes at 37°C. In addition, we
+preferentially selected experimental data that were recorded in the absence of
+b-agonists as these have a signiﬁcant effect on current magnitude, voltage-
+dependent properties, and Ca21
+
+-dependent properties of the channel.
+
+The L-type Markov model (Fig. 1) includes four closed states (C0, C1, C2,
+and C3), a single open state (O), two states representing channels that have
+undergone fast or slow voltage-dependent inactivation (IVf and IVs), ﬁve
+states representing channels that have undergone Ca21
+-dependent inactiva-
+tion (C0Ca, C1Ca, C2Ca, C3Ca, and ICa), and two states that represent inac-
+tivation via both voltage and Ca21
+-dependent mechanisms (IVfCa and IVsCa).
+The transition rates in each loop of the model (e.g., C3-O-IVs) obey micro-
+scopic reversibility.
+
+Cell model
+
+The theoretical LRd model of a mammalian ventricular AP (30–32) (Fig. 2 A)
+provides the basis for the simulations of cellular behavior in this study. The
+model is based mostly on guinea pig ventricular myocyte experimental data; it
+includes membrane ionic channel currents, pumps, and exchangers. The model
+also accounts for processes that regulate intracellular concentration changes of
+. Intracellular Ca21
+, and Ca21
+cycling processes represented in the
+Na
+model include Ca21
+uptake and release by the SR and its buffering. Buffers
+include calmodulin and troponin (in the myoplasm), sarcolemmal and SR
+Ca21
+
+binding sites (in the subspace), and calsequestrin (in the SR).
+
+, K
+
+1
+
+1
+
+Subspace compartment
+
+entry via L-type Ca21
+
+Electron microscopic views of myocytes reveal invaginations in the cell
+membrane, known as transverse or t-tubules, that increase the total surface area
+of the myocyte and provide a pathway by which extracellular Ca21
+can be
+readily available for entry upon cell depolarization. The junctional sarcoplas-
+mic reticular membrane makes close contact with sarcolemmal membrane all
+along the t-tubules, the distance between the two membranes being very small
+(15–20 nm). The conﬁned volume between the two membranes is commonly
+referred to as the restricted space or the subsarcolemmal space. It is known that
+Ca21
+channels is the signal for the opening of RyRs
+and Ca21
+release from the SR. Immunogold-labeling techniques (33,34) have
+shown that L-type Ca21
+channels cluster in t-tubules and the areas of the
+plasma membrane that overlie the SR membrane, supporting their important
+role in the CICR process. Ca21
+entry into the restricted space via L-type
+channels (followed closely by Ca21
+Ca21
+release from the SR) generates
+Ca21
+concentrations near the inner membrane surface that are much greater
+than those observed in the bulk myoplasm. The magnitude of these con-
+centrations and the rate at which the concentrations return to basal levels is
+dependent upon several factors including: 1), subspace volume; 2), Ca21
+diffusion rates from the subspace to the bulk myoplasmic volume; 3), the
+presence of buffers within the subspace; 4), the rate of Ca21
+entry into the
+subspace (i.e., via L-type and RyR channels); and 5), the rate of Ca21
+
+Biophysical Journal 92(5) 1522–1543
+
+1524
+
+Faber et al.
+
+TABLE 1 Deﬁnitions and abbreviations
+
+TABLE 1 (Continued)
+
+AP
+APD
+BCL
+CaV1.2
+RyR
+CaT
+CICR
+VDI
+CDI
+ModeV
+ModeCa
+INa
+m
+h
+j
+ICa(L)
+ICa,Na
+ICa,K
+IKr
+xr
+rKr
+IKs
+xs1
+xs2
+IK1
+K1
+IKp
+ICa,b
+ICa(T)
+INa,b
+INaCa
+INaCa,ss
+gINaCa
+
+INaK
+fNaK
+s
+Ip,Ca
+Gx
+Km
+PS
+PS,A
+gS
+Ix
+Vm
+zs
+Cm
+ACap
+AGeo
+RCG
+Vx
+D[S]x
+CASQ2
+TRPN
+CMDN
+BSR
+BSL
+SR
+JSR
+NSR
+ss
+myo
+Ex
+
+1
+
+release channel
+
+current, mA/mF
+
+channel states in VDI gating mode
+channel states in CDI gating mode
+
+Action potential
+Action potential duration measured at 90% repolarization
+Basic cycle length
+Cardiac L-type Ca21
+channel
+Ryanodine receptor SR Ca21
+Calcium transient
+Calcium induced calcium release
+Voltage-dependent inactivation
+Calcium-dependent inactivation
+L-type Ca21
+L-type Ca21
+Fast Na
+Activation gate of INa
+Fast inactivation gate of INa
+Slow inactivation gate of INa
+Ca21
+Current through L-type Ca21
+1
+Current through L-type Ca21
+Na
+1
+Current through L-type Ca21
+K
+Rapid delayed rectiﬁer K
+Activation gate of IKr
+Time-independent rectiﬁcation gate of IKr
+current, mA/mF
+Slow delayed rectiﬁer K
+Fast activation gate of IKs
+Slow activation gate of IKs
+Time-independent K
+Inactivation gate of IK1
+Plateau K
+Background Ca21
+T-Type Ca21
+Background Na
+Na
+Na
+Position of energy barrier controlling voltage dependence of
+
+exchanger in myoplasm, mA/mF
+exchanger in subspace, mA/mF
+
+channel, mA/mF
+channel, mA/mF
+channel, mA/mF
+
+-Ca21
+-Ca21
+
+current, mA/mF
+
+current, mA/mF
+
+current, mA/mF
+
+current, mA/mF
+
+current, mA/mF
+
+current, mA/mF
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+INaCa
+
+1
+
+pump, mA/mF
+
+]o dependent factor of INaK
+
+Sodium-potassium pump, mA/mF
+Voltage-dependent parameter of INaK
+[Na
+Sarcolemmal Ca21
+Maximum conductance of channel x, mS/mF
+Half-saturation concentration, mM/L
+Membrane permeability to ion S, cm/s
+Permeability ratio of ion S to ion A
+Activity coefﬁcient of ion S
+Maximum current carried through channel x, mA/mF
+Transmembrane potential, mV
+Valence of ion S
+Total cellular membrane capacitance, 1 mF
+Capacitive membrane area, cm2
+Geometric membrane area, cm2
+Ratio of ACap/AGeo
+Volume of compartment x, mL
+Change in concentration of ion S in compartment x, mM
+Calsequestrin, Ca21
+Troponin, Ca21
+Calmodulin, Ca21
+Anionic SR binding sites for Ca21
+Anionic sarcolemmal binding sites for Ca21
+Sarcoplasmic reticulum
+Junctional SR
+Network SR
+Subspace
+Myoplasm
+Reversal potential of current x, mV
+
+buffer in myoplasm
+
+buffer in myoplasm
+
+in the subspace
+
+buffer in JSR
+
+¼ 2
+
+in the subspace
+
+Biophysical Journal 92(5) 1522–1543
+
+(Continued)
+
+[S]o
+[S]i
+[S]ss
+[Ca21
+[Ca21
+
+]JSR
+]JSR,t
+
+]NSR
+
+[Ca21
+Irel
+adap
+gradedrel
+
+vgainofrel
+Iup
+Ileak
+Itr
+ttr
+Idiff
+tdiff
+
+FICaðLÞ
+Frel
+F
+R
+T
+t0
+
+ICa,t
+
+INa,t
+
+IK,t
+
+Itot
+
+Istim
+
+Extracellular concentration of ion S, mM
+Intracellular concentration of ion S, mM
+Subspace concentration of ion S, mM
+Ca21
+Total Ca21
+
+concentration in JSR ([Ca21
+
+concentration in JSR, mM
+
+]JSR
+
+1 [csqn]), mM
+
+Ca21
+concentration in NSR, mM
+Ca21
+release from JSR to subspace, mM/ms
+Function describing RyR channel adaptation
+ICa(L) dependent function for determining graded response
+
+of Irel
+
+uptake from myoplasm to SR, mM/ms
+leak from NSR to myoplasm, mM/ms
+transfer from NSR to JSR, mM/ms
+
+Function describing voltage dependence of gain
+Ca21
+Ca21
+Ca21
+Time constant of Ca21
+Ca21
+Time constant of Ca21
+
+transfer from subspace to
+
+transfer from subspace to myoplasm, mM/ms
+
+transfer from NSR to JSR, ms
+
+myoplasm, ms
+
+ﬂux from ICa(L)
+ﬂux from Irel
+
+Ca21
+Ca21
+Faraday constant, 96,487 C/mol
+Gas constant, 8314 J/kmol/K
+Temperature, 310°K
+Rate constant of monoexponential decay for the
+
+probability density function ﬁt to the open
+probability data of the L-type Ca21
+Total transmembrane Ca21
+ICa,t ¼ ICa(L) 1 ICa,b 1 Ip,Ca   2*INaCa   2*INaCass
+
+channel
+
+current
+
+Total transmembrane Na
+INa,t
+
+1 INa,b
+
+1
+13*INaK
+
+current
+1 ICa,Na
+
+1 3*INaCa
+
+¼ INa
+1 3*INaCass
+¼ IKs
+
+1 IKr
+
+Total transmembrane K
+1 IK1
+IK,t
+Total transmembrane current
+Itot ¼ ICa,t 1 INa,t 1 IK,t
+
+Stimulus current, mA/mF
+
+current
+
+1
+1 ICa,K
+
+1 IKp
+
+  2*INaK
+
+1
+
+/Ca21
+
+removal (i.e., via forward Na
+exchange). We model the subspace as
+a single compartment comprising 2% of the total volume of the myocyte
+into which both L-type Ca21
+channels and RyR open (see Appendix for
+-Ca21
+derivation of subspace volume). Immunoﬂuorescence of the Na
+exchange protein (35,36) has shown that these proteins are present with
+exchanger
+greater density within the t-tubules, hence 20% of the Na
+is included in the modeled subspace (37). Finally, we include sarcolemmal
+and SR membrane binding sites that buffer calcium (38).
+
+-Ca21
+1
+
+1
+
+Ryanodine receptor Markov model
+
+A Markov model of the RyR, modiﬁed from that originally presented by Fill
+et al. (39) is utilized in the simulations (Fig. 2 B). The RyR Markov model
+is based upon experiments by Zahradnikova´ et al. (40) where individual
+RyR channels were fused into a planar lipid bilayer. This preparation allows
+for direct control of Ca21
+concentrations to determine rates of channel ac-
+tivation and inactivation (an approach that shows that RyR channels both
+activate and inactivate due to a rise in subspace calcium ([Ca21
+]ss). In ad-
+dition, the four transitions necessary to reach the open state reﬂect the
+homotetrameric structure of RyR (41). All of the channel transition rates are
+increased to adjust for the temperature differences between the experiments
+(23°C) and model (37°C). An addition to the original Fill (39) model is the
+inclusion of four additional inactivation states (I1–I4) connected to the closed
+
+Kinetic Model of Cardiac CaV1.2
+
+1525
+
+demonstrated that introduction of CASQ2 to the SR increased the RyR open
+probability and Hidalgo and Donoso (45) showed that interventions that led
+to conformational change of CASQ2 resulted in opening of RyRs. Studies
+by Gyo¨rke et al. (46) showed that low SR Ca21
+led to CASQ2 inhibition of
+RyR opening and that upon elevation of SR Ca21
+this inhibition decreased.
+Communication between CASQ2 and RyR may be mediated by the auxil-
+iary proteins triadin and junctin (47,48). Because RyR channels in the exper-
+iments of Zahradnikova´ et al. (40) were studied in isolation, their dependence
+on CASQ2 was not apparent and hence not incorporated into their Markov
+model of RyR. We incorporate this dependence into the RyR Markov model
+presented here.
+
+FIGURE 1 State diagram of the L-type Ca21
+channel Markov model. The
+upper tier (ModeV, gray) represents a voltage-dependent inactivation gating
+mode (VDI) and the lower tier (ModeCa, black) represents a Ca21
+-dependent
+inactivation gating mode (CDI). See Appendix for transition rates.
+
+states (C1–C4). This change allowed RyR channels to deactivate without
+having to pass through the open state, preventing reopening of the channel
+during repolarization and during rest. In our simulations, when channels
+could only recover from inactivation through the open state, Ca21
+leaked
+from the SR for the duration of the AP preventing SR reﬁlling and normal
+decay of the calcium transient. This behavior could not be observed in the
+lipid bilayer experiments where RyRs were not stimulated by APs.
+
+It has been suggested that calsequestrin (CASQ2) may also be an
+important modulator of RyR activity (42,43). CASQ2 is a high-capacity,
+low-afﬁnity buffer of Ca21
+located in the SR. Kawasaki and Kasai (44)
+
+(A) Schematic for the four compartment model (bulk myoplasm,
+FIGURE 2
+JSR, NSR, and subspace) of the guinea pig ventricular myocyte. Symbols
+are deﬁned in Table 1. (B) State diagram of the ryanodine receptor, RyR,
+(modiﬁed from Fill et al. (39)). See Appendix for transition rates.
+
+Simulation protocols
+During pacing, a stimulus of  80 mA/mF is applied for a duration of 0.5 ms.
+
+(49).
+The model is paced with a conservative current stimulus carried by K
+A discrete time step of 0.0002 ms is used during computation of the AP (or
+during voltage clamp simulations) and 0.002 ms during the diastolic interval.
+APD is measured as the interval between the time of maximum upstroke
+velocity (dV/dtmax) and 90% repolarization (APD).
+
+1
+
+RESULTS
+L-type Ca21
+gating properties
+
+channel: model validation and
+
+with Mg21
+
+Fig. 3 A compares the simulated ICa(L) current-voltage
+relationship to the experimentally measured current-voltage
+relationship (50). L-type Ca21
+channels typically begin to
+activate between  40 and  30 mV and peak current is
+reached between 0 and 110 mV. Fig. 3 C shows simulated
+voltage-dependent
+inactivation (VDI) properties of ICa(L)
+compared to the experimentally measured data reproduced in
+Fig. 3 B (51). To eliminate CDI, Findlay substituted extra-
+cellular Ca21
+. We eliminate CDI by not per-
+mitting transitions from ModeV to ModeCa (setting transition
+rates to zero). In both model and experiment, channel in-
+activation increases with increased prepulse voltage and with
+increased prepulse duration. Because the experiments were
+conducted at 23°C, the values for the prepulse duration were
+¼ 2 in the simulation.
+adjusted to 37°C utilizing a Q10
+Findlay observed two time constants of inactivation for the
+L-type Ca21
+channel. The model accounts for this observa-
+tion by including two voltage-dependent inactivation states,
+one for which transitions into the state are fast (IVf) and one
+for which transitions are slow (IVs).
+
+The L-type Ca21
+
+channel Markov model recreates single
+channel properties as shown in Fig. 4. The simulated open
+time histogram for a voltage step to 110 mV (Fig. 4 A) can be
+ﬁt by a monoexponential probability density function with a
+to ¼ 0.8 ms, in agreement with the experiments of Cavalie´
+
+et al. (52). The latency to ﬁrst opening is shown in Fig. 4 B,
+with the simulation showing strong correlation to experimen-
+tal data by Cavalie´ et al. (52) who observed .90% channel
+openings within 6 ms of depolarization. The simulations were
+conducted without Ca21
+
+-dependent inactivation.
+
+Following SR Ca21
+
+concentrations within the
+subspace can reach a value 50 times higher than myoplasmic
+
+release, Ca21
+
+Biophysical Journal 92(5) 1522–1543
+
+1526
+
+Faber et al.
+
+as the charge carrier. To model Ba21
+
+FIGURE 4 Single channel properties of the L-type Ca21
+channel. The
+experimental data (from Cavalie´ et al. (52), with permission) are from single
+channel recordings in guinea pig ventricular myocytes at 32°C, and were
+measured utilizing Ba21
+as the charge
+carrier, all simulations were conducted without transitions to ModeCa. (A)
+Simulated (left) and experimental
+(52) open time histograms
+measured for a voltage step to 110 mV from a holding potential of  65 mV
+(B, inset). The open probability data were ﬁt by a monoexponential prob-
+¼ 0.8 for both measured
+ability density function with a time constant of t0
+and simulated data. (B) Simulated latency to ﬁrst opening. Channels are
+simulated with the same square pulse protocol as panel A.
+
+(right)
+
+FIGURE 3 L-type Ca21
+channel current-voltage relationship and voltage-
+dependent inactivation. (A) Simulated ICa(L) current-voltage relationship
+(normalized) compared to experimental data recorded in guinea pig ven-
+tricular myocytes (from Rose et al. (50), with permission) (d). (B and C)
+Voltage-dependent inactivation (VDI) of ICa(L) obtained from a double-pulse
+protocol (inset). The simulations are conducted in the absence of Ca21
+-
+dependent inactivation (transitions from ModeV to ModeCa are prevented).
+Panels (B) show experimental time course (left) and voltage dependence
+(right) of VDI recorded in guinea pig ventricular myocytes at 23°C (Findlay
+(51), with permission) utilizing Mg21
+as the charge carrier. The voltage
+dependence curves (right panel), from upper to lower, correspond to
+prepulse durations of 10, 20, 50, 100, 200, 500, and 1000 ms. Panels (C)
+show the corresponding simulated time course and voltage dependence of
+VDI. The voltage dependence curves, from upper to lower, correspond to
+prepulse durations of 4, 8, 20, 40, 80, 200, and 400 ms (the simulations are
+conducted for body temperature, 37°C).
+
+concentrations. Therefore, the L-type Ca21
+channel Markov
+model must be responsive to large changes in Ca21
+. Fig. 5 A
+shows the sensitivity of ICa(L) to [Ca21
+]ss, both simulated and
+experimentally measured (53). It should be noted that the
+experimental data are a measure of single channel activity,
+while the simulated data are a measure of peak ICa(L). There
+is a strong correlation between the simulated and experi-
+mental data, both exhibiting a KD ¼ 3 mM. In addition, for
+both experiment and model, even for very high concentra-
+tions of subspace Ca21
+, the channel does not inactivate
+
+Biophysical Journal 92(5) 1522–1543
+
+completely (to zero). In the simulation (and experiment), the
+tested [Ca21
+]ss was applied and the model was allowed to
+reach steady state at that concentration before application of
+the square pulse. Hence, this study provides the steady-state
+dependence of ICa(L) on [Ca21
+]ss and gives no indication of
+the time course of Ca21
+-dependent inactivation. This time
+course was determined by optimizing the morphology of
+ICa(L) during the AP clamp protocol shown in Fig. 8, where
+SR release was kept intact. The time course of ICa(L) recovery
+from Ca21
+-dependent inactivation is shown in Fig. 5 B. The
+experimental data (solid circles) (54) were measured in
+guinea pig ventricular myocytes at 35°C with SR Ca21
+release intact. The experimentally measured time constant of
+recovery is t ¼ 92 ms, and the model time constant of
+recovery is t ¼ 101 ms. When we eliminate CDI in the
+decrease (t ¼ 88 ms). This is in agreement with experimental
+results that show no signiﬁcant difference in the rate of ICa(L)
+recovery when utilizing either Ca21
+as the charge
+carrier (Ian Findlay, PhD, Universite´ de Tours, France
+personal communication, 2004).
+
+model, the time constant of recovery shows only a slight
+
+or Ba21
+
+The relative contribution of CDI to total ICa(L) inactivation
+is shown in Fig. 6 for two different times (tearly and tlate) after
+application of a voltage step. CDI’s contribution to inacti-
+vation is computed as the ratio of inactivation with Ca21
+as
+
+Kinetic Model of Cardiac CaV1.2
+
+1527
+
+simulation and experiment (8) (Fig. 6, C and D, respectively),
+cells are clamped from holding potential to  10 mV for the
+trace where Ca21
+is not the charge carrier (trace 3) and from
+holding potential to 0 mV for the two traces where Ca21
+is the
+charge carrier (traces 1 and 2). In the experiment (Fig. 6 D,
+trace 2), SR Ca21
+release is blocked with the application
+of ryanodine that we simulate by setting Irel ¼ 0 (Fig. 6 C,
+trace 2). In summary, trace 1 represents total ICa(L) inactiva-
+tion (VDI 1 CDI from ICa(L) and Irel), trace 2 represents ICa(L)
+inactivation in the absence of SR release (VDI 1 CDI from
+ICa(L) only), and trace 3 represents pure VDI (no CDI). Fig. 6, E
+and F show the percent contribution to CDI from SR release
+((trace 2   trace 1)/(trace 3   trace 1)) compared to the
+percent contribution to CDI from Ca21
+entering via ICa(L)
+((trace 3   trace 2)/(trace 3   trace 1)). It is clear that Ca21
+released from the SR dominates CDI initially, then, as Ca21
+decreases due to SR reuptake of Ca21
+, the SR dependent
+contribution declines with participation from Ca21
+entry via
+ICa(L) dominating. For the simulated time period shown in
+Fig. 6 E RyRs open quickly, inactivate, and then remain al-
+most fully inactivated; thus, there is very little steady-state SR-
+dependent contribution to CDI, as appears to be the case in
+the SR-dependent experimental curve of Fig. 6 F. Reasons
+for this observed difference can be attributed to the fact that
+the experimental data were recorded in human atrial cells at
+room temperature (23°C). Despite these differences, the behav-
+ior of the model follows that of the experiment, especially
+during the initial phase following depolarization when a sharp
+decline in current is observed, correlating with the large in-
+crease in [Ca21
+release and
+dominance of SR-dependent inactivation (Fig. 6 C, trace 1,
+and E, SR-dependent curve). This initial fast decline is fol-
+lowed by a much slower decrease in current (Fig. 6 C, trace 1),
+a combination of VDI and CDI from Ca21
+entry via ICa(L).
+The crossover of the SR-dependent and ICa(L)-dependent CDI
+curves occurs 36 ms after depolarization in the simulation
+and 55 ms after depolarization in the experiment.
+
+]ss during the period of SR Ca21
+
+RyR model in the subspace: graded release,
+fractional release, and variable gain
+Communication between L-type Ca21
+channels and RyRs
+occurs in local diadic spaces and the stochastic opening of
+a single L-type Ca21
+channel can trigger the opening of several
+local RyRs. The magnitude of Ca21
+entry via ICa(L) determines
+the number of RyR openings, thus small ICa(L) results in small
+SR release compared to large ICa(L) resulting in large SR
+release. This phenomenon is known as graded release or
+graded response and is reproduced by the model as shown in
+Fig. 7 A. Note that in our macroscopic formulation the spatial
+distribution of RyRs is not represented and the ratio of RyR
+channels that open in response to a given ICa(L) is introduced to
+recreate the macroscopic properties of global release.
+
+The model exhibits a steep nonlinear dependence of
+content as
+
+fractional SR release as a function of JSR Ca21
+
+Biophysical Journal 92(5) 1522–1543
+
+(A) Dependence of peak ICa(L) on intracellular subspace Ca21
+.
+FIGURE 5
+]ss¼ 0.02 mM. For each
+Values are normalized to control conditions of [Ca21
+value of [Ca21
+]ss, the channel is allowed to reach steady state before
+application of a square voltage pulse to 0 mV. The experimental data (from
+Ho¨ fer et al. (53), with permission) (d) provide normalized channel activity
+recorded utilizing a cell attached patch in guinea pig ventricular myocytes at
+37°C. (B) ICa(L) recovery from inactivation. The experimental data (from
+Vornanen and Shepherd (54), with permission) (d) were recorded in guinea
+pig ventricular myocytes at 35°C utilizing Ca21
+as the charge carrier with a
+time constant of recovery t ¼ 92 ms. The solid curve shows simulated ICa(L)
+recovery from VDI (no transitions to ModeCa; non-Ca21
+a time constant of recovery t ¼ 88 ms. The gray dashed curve shows simu-
+lated ICa(L) recovery from both VDI and CDI (Ca21
+a time-constant of recovery t ¼ 101 ms.
+
+as the charge carrier) with
+
+charge carrier) with
+
+the charge carrier relative to the inactivation when Ba21
+is
+the charge carrier. The experimental data (solid squares) (55)
+were recorded at room temperature (23°C) so the time at
+which the data are sampled is adjusted to 37°C in the sim-
+ulation (Experiment: tearly ¼ 20 ms, tlate ¼ 200 ms; Sim-
+ulation: tearly ¼ 8 ms, tlate ¼ 80 ms). The relative contribution
+
+of CDI to total inactivation is both voltage dependent and
+time dependent. CDI is responsible for a greater percentage
+of inactivation at negative potentials when VDI is weak and
+in the period shortly after depolarization. With increased time
+and voltage, the contribution of CDI to total inactivation de-
+creases and VDI becomes dominant.
+
+The rate of transition between ModeV and ModeCa is
+dependent on the Ca21
+concentration within the subspace
+([Ca21
+that
+enters the subspace via ICa(L) versus that which enters the
+subspace via SR release is explored in Fig. 6, C–F. In the
+
+]ss). The relative contribution to CDI of Ca21
+
+1528
+
+Faber et al.
+
+shown in Fig. 7 B, in agreement with experiments (56). In the
+model, the rate of transition between inactivated and closed
+states is modulated by Ca21
+-bound CASQ2 and when SR
+content is low, channels are unavailable for opening.
+
+Another property that myocytes exhibit is variable gain.
+Gain is the ratio between the amount of Ca21
+released from
+the SR and the amount of Ca21
+entry into the myocyte that
+triggers SR release. In myocytes, it has been observed that
+for the same amount of triggering Ca21
+, the magnitude of
+release can vary as a function of the transmembrane poten-
+tial. For example, in Fig. 7 A, the magnitude of ICa(L) at Vm ¼
+ 10 mV and at Vm ¼ 130 mV is approximately the same,
+but there is a large difference in the magnitude of the Ca21
+transient at these two potentials, with the negative potential
+exhibiting a larger SR Ca21
+release. In Fig. 7 C we show the
+simulated relationship between [Ca21
+]i and ICa(L) over a
+range of Vm values (indicated on the curve) and compare the
+model results to experimentally measured data in guinea pig
+ventricular myocytes (57). From the shape of the curve, it is
+
+as the charge carrier relative to that recorded with Ba21
+
+(A and B) Voltage dependence of the contribution of CDI
+FIGURE 6
+to total inactivation for two different times (early, tearly; late, tlate) after
+application of a voltage step to varying potentials from a holding potential
+of  80 mV. The plotted values are the ratio of current decay recorded with
+Ca21
+as the charge
+carrier. Experiments (from Findlay (55), with permission) (n) were con-
+ducted at room temperature (23°C) and simulations (solid line) at 37°C;
+values of tearly and tlate were adjusted for 37°C in the simulations. (Experiment:
+¼ 80 ms). (C–F)
+tearly
+Relative contributions of Ca21
+released from
+the SR to total CDI during a voltage step. (C) Trace 3 (thin curve) shows
+simulated ICa(L) in the absence of Ca21
+-dependent inactivation, correspond-
+ing to current carried by monovalent cations or Ba21
+, for a voltage step from
+ 80 to  10 mV. Trace 2 (medium curve) shows ICa(L) with Ca21
+as the
+-dependent inactivation) but with no Ca21
+charge carrier (hence with Ca21
+release from the SR (Irel ¼ 0) for a voltage step from  80 to 0 mV (the 10-mV
+
+¼ 200 ms; Simulation: tearly
+
+through the channel and Ca21
+
+¼ 20 ms, tlate
+
+¼ 8 ms, tlate
+
+voltage step from  80 to  10 mV. Trace 2 shows ICa(L) with Ca21
+step from  80 to 0 mV. Trace 3 shows ICa(L) with Ca21
+
+difference in test potential compared to trace 3 is to reproduce the experi-
+mental protocol in panel D for comparison). Trace 1 (thick curve) shows
+ICa(L) for the same square pulse with Ca21
+as the charge carrier and SR
+calcium release intact. (D) Experimental recordings of ICa(L) in human atrial
+myocytes measured at room temperature. Trace 3 is the current through the
+channel utilizing monovalent cations as the charge carrier tested with a
+as the
+charge carrier but with SR release blocked with ryanodine during a voltage
+as the charge carrier
+and SR release intact for the same voltage step. (E) Simulated fraction of
+Ca21
+released from the SR
+(gray) or from Ca21
+entering via ICa(L) (black). The formula for determining
+the relative contribution is from Sun et al. (8) where the ICa(L) dependent
+fraction ¼ (trace3   trace2)/(trace3   trace1) and the SR dependent
+fraction ¼ (trace2   trace1)/(trace3   trace1). (F) Experimental fractional
+contribution of ICa(L)-dependent (black) and SR dependent (white) Ca21
+-
+induced inactivation of ICa(L). Experimental curves in panels D and F are re-
+produced from Sun et al. (8), with permission.
+
+-induced inactivation that results from Ca21
+
+Biophysical Journal 92(5) 1522–1543
+
+FIGURE 7
+
+R
+
+(A) Graded release of SR Ca21
+
+. In the simulation, voltage is
+
+clamped from  80 mV to the test potential. The solid trace shows nor-
+malized peak ICa(L) and the dashed trace shows normalized peak [Ca21
+]i. (B)
+Fractional SR release as a function of SR content. [Ca21
+]JSR is clamped at
+each value for 20 s. to allow RyR states to reach a new equilibrium, then the
+clamp is removed and a stimulus is applied. [Ca21
+]JSR,t is total JSR Ca21
+(free 1 Ca21
+Ireldt is integrated over the interval from
+the time of stimulus to the peak of the CaT. (C) Voltage-dependent variable
+gain of SR Ca21
+release. The right panel shows experimentally measured
+dependence of D[Ca21
+]i and resting
+[Ca21
+]i) on ICa(L) for different Vm values (indicated on curve) in guinea pig
+ventricular mocytes (from Beuckelmann and Wier (57), with permission).
+The corresponding simulated data are shown in the left panel. Note that for
+the same amplitude of ICa(L), a larger release occurs at negative potentials.
+
+]i (difference between the peak [Ca21
+
+bound CASQ2) and
+
+Kinetic Model of Cardiac CaV1.2
+
+1529
+
+R
+
+formula Gain ¼R
+
+clear that for the same magnitude of ICa(L) the amount of SR
+release is greater at negative potentials. At 0 mV, the gain of
+SR Ca21
+release is 15.4 as computed with the following
+FICaðLÞdt, where Frel is the Ca21
+ﬂux from the SR and FICaðLÞ is the Ca21
+ﬂux through ICa(L),
+integrated over the period from the beginning of the voltage
+clamp to the peak of the CaT. This value for gain is compa-
+rable to values measured in rabbit (56) and canine (58).
+
+Freldt=
+
+]i transient, and a time
+
+]i transient of ;150 ms.
+]i, peak [Ca21
+
+1
+
+upstroke and the time of peak [Ca21
+constant of decay of the [Ca21
+
+Simulated changes to APD, [Na
+
+]i, and
+diastolic [Ca21
+]i as a function of rate are summarized in Fig.
+9 B. APD adaptation (61), [Na
+]i accumulation (62), and the
+positive force-frequency relationship (increase in peak [Ca21
+]i
+with increasing rate) (62) are consistent with experimental
+comparisons made in a previous publication (32).
+
+1
+
+ICa(L) during the action potential
+
+APD and [Ca21
+
+]i restitution
+
+Fig. 10, A and B, show restitution properties of the myocyte
+model. The myocyte is paced at a constant cycle length until
+steady state. Then a premature stimulus is applied with a
+
+coupling interval DI (diastolic interval, DI ¼ 0 is APD90 of the
+last paced AP). Fig. 10 A shows the last paced beat (CL ¼
+500) and ﬁve APs with the associated ICa(L) and [Ca21
+]i for
+ﬁve DI values (50 ms, 150 ms, 250 ms, 350 ms, and 450 ms).
+Note that at DI ¼ 50 ms a normal [Ca21
+]i transient fails to
+occur despite a large ICa(L) (i.e., a large triggering source).
+Also, note that the CaT at DI ¼ 450 ms is larger then the CaT
+generated at steady state at CL ¼ 500 ms. This is because the
+DI 1 APD90 is longer than the initial CL ¼ 500 ms and the SR
+
+has had a longer time to ﬁll and the RyR has had more time to
+recover from inactivation resulting in a larger release and CaT.
+
+An essential property of the L-type Markov model is the
+ability to recreate measured ICa(L) amplitude and morphology
+during the AP. Fig. 8 shows an experimentally measured
+ICa(L) (nifedipine-sensitive current) (59) compared to a sim-
+ulated ICa(L) during the application of an identical AP clamp
+waveform (10 APs at 1 Hz). The experiment was conducted
+in a guinea pig ventricular myocyte at 37°C with SR Ca21
+release intact. Note that both the simulated and measured
+ICa(L) exhibit a peak value of ;6 pA/pF, a period of rapid
+inactivation, and a current magnitude during the AP plateau
+of ;3 pA/pF.
+
+1
+
+]i, and [Ca21
+
+]i
+
+Rate dependence of APD, [Na
+Fig. 9 A compares simulated AP and [Ca21
+]i transient during
+the AP to their experimental counterparts (60). For this com-
+parison, the amplitudes of the AP and [Ca21
+]i are not provided
+in the experimental tracings because the measured AP and
+[Ca21
+]i are expressed as ﬂuorescence ratios of the voltage-
+sensitive dye RH237 and Ca21
+-sensitive dye Rhod-2. How-
+ever, important temporal relationships between the AP and the
+[Ca21
+]i transient are observed in both the simulation and
+experiment, including a 5-ms delay between the AP upstroke
+and the initiation of release, a 25-ms delay between the AP
+
+ICa(L) during the action potential in the presence of SR Ca21
+FIGURE 8
+release. The upper panels show the AP clamp waveform from Grantham and
+Cannell (59) used to generate the corresponding ICa(L) (lower panels). The
+is
+experimental
+measured in guinea pig ventricular myocyte at 36°C. Experimental traces
+are reproduced from Grantham and Cannell (59), with permission.
+
+(nifedipine-sensitive current;
+
+lower left panel)
+
+ICa(L)
+
+(A) Simulated AP and Ca21
+
+transient (left) compared to
+FIGURE 9
+experimentally recorded AP and Ca21
+transient (right) in guinea pig
+ventricular myocyte at 37°C. The experiment is a simultaneous optical
+recording using the voltage-sensitive dye RH237 and Ca21
+sensitive
+indicator Rhod-2 (from Choi and Salama (60), with permission). (B) APD
+]i rate dependence. The ﬁgure
+adaptation, [Na
+shows the steady-state relationship (achieved after 5 min of pacing) between
+cycle length and APD (n). Corresponding changes in [Ca21
+]i,max (:),
+[Ca21
+
+]i rate dependence, and [Ca21
+
+]i,diastolic (4), and [Na
+
+]i (d) are also shown.
+
+1
+
+1
+
+Biophysical Journal 92(5) 1522–1543
+
+1530
+
+Faber et al.
+
+Restitution data for three different pacing cycle lengths
+
+(CL ¼ 1000 ms, 500 ms, and 300 ms) are shown in Fig. 10 B.
+At very short DI, dV/dtmax is slow due to incomplete re-
+covery of INa. This results in decreased Vmax and a larger
+driving force for ICa(L), increasing the current at these short
+DIs. Although the triggering source is large (Peak ICa(L)),
+RyR channels remain inactivated preventing release. Only
+when RyR channels have recovered from inactivation does
+release occur. The duration of this interval where no SR
+release can occur is dependent on the pacing frequency (Peak
+RyR Open Probability and Peak Irel). This phenomenon is
+related to recovery of SR Ca21
+content (63) and the rela-
+tionship between bound CASQ2 and RyR recovery (46,63).
+At fast rates, the increased amount of Ca21
+in the cytosol
+(D[Ca21
+]i) leads to faster recovery of SR calcium content
+(Peak [Ca21
+]JSR) and faster recovery of RyR and Irel (Peak
+Irel). At very long DI, it can be observed that the magnitude
+of Irel is strongly dependent on SR content when Peak RyR
+Open Probability and Peak ICa(L) are similar in magnitude for
+all three CLs.
+
+FIGURE 10 Restitution properties. The myocyte is paced at a constant
+cycle length for 5 min followed by a premature stimulus applied at varying
+diastolic intervals (DI). (A) Representative changes to AP, ICa(L), and [Ca21
+]i
+for ﬁve different DIs (50 ms, 150 ms, 250 ms, 350 ms, and 450 ms) after
+pacing at CL ¼ 500 ms. (B) Summary of restitution behavior for a myocyte
+paced at three different cycle lengths (CL ¼ 300, 500, and 1000 ms).
+D[Ca21
+]i just before
+application of the premature stimulus.
+
+]i is the difference between peak [Ca21
+
+]i and the [Ca21
+
+Biophysical Journal 92(5) 1522–1543
+
+Currents during the AP at fast and slow pacing
+
+[Ca21
+
+[Ca21
+
+]i,
+
+]ss, and the signiﬁcant
+Steady-state AP,
+currents that determine APD and AP morphology are shown
+in Fig. 11 for two different pacing frequencies. At rapid rate
+
+(CL ¼ 300 ms, gray curve) ICa(L) exhibits a larger peak and
+plateau compared to slow rate (CL ¼ 1000 ms, black curve)
+(B). Although there is a greater CDI at CL ¼ 300 ms due
+to the larger Ca21
+transient, the lower AP plateau increases
+the driving force for ICa(L), resulting in a larger current. The
+lower plateau and shortened APD (A) are mostly due to the
+large IKs current that accumulates at fast rate (F).
+
+The Na
+
+exchanger within the subspace (INaCa,ss; D)
+provides little triggering Ca21
+compared to that provided
+by ICa(L) and upon release of Ca21
+from the SR (and the
+subsequent increase in subspace Ca21
+) quickly shifts to the
+forward mode to remove Ca21
+]ss
+(H) is elevated, INaCa,ss remains in the forward mode during
+most of the AP plateau.
+
+. At fast rates when [Ca21
+
+1
+
+-Ca21
+
+channel state residencies
+
+L-type Ca21
+during the AP
+The time course of L-type Ca21
+channel state residencies
+during the AP at fast and slow rates is shown in Fig. 12 (see
+Fig. 1 for the state diagram of the channel). At the slow rate
+
+(CL ¼ 1000 ms, black curve), almost all the channels are
+
+able to fully recover to the closed states in ModeV (Fig. 12
+B) before the pacing stimulus, whereas at the rapid rate
+(CL ¼ 300 ms, gray curve) ;15% of the channels are still in
+ModeCa at the time of stimulus (Fig. 12, B and G, arrows).
+Despite a greater number of channels locked in ModeCa,
+the magnitude of ICa(L) is larger at rapid rate due to the re-
+duced Vm and increase in driving force. Upon depolariza-
+tion, channels quickly move to the open state (Fig. 12 C).
+From the open state, channels inactivate via either fast VDI
+(IVf, Fig. 12 D) or slow VDI (IVs, Fig. 12 E). Upon the ini-
+tiation of SR Ca21
+release, channels transition from ModeV
+to ModeCa and inactivate by CDI (Fig. 12, G–J); IVfCa and
+IVsCa contain channels that have inactivated via both VDI
+and CDI.
+
+At rapid rate, a greater percentage of channels become
+inactivated by CDI due to the elevated [Ca21
+]i. For the rapid
+rate, at t ¼100 ms after the time of stimulus, ;10% of the
+
+channels are inactivated solely by CDI, 40% solely by VDI,
+and 40% via both CDI and VDI. This is compared to 5%,
+55%, and 30%, respectively, at the slow rate. The remaining
+10% of channels are in either the closed or open states.
+
+RyR channel state residencies during the AP
+
+The time course of RyR channel state residencies during the
+
+AP at fast (CL ¼ 300 ms, gray curve) and slow rate (CL ¼
+1000 ms, black curve) is shown in Fig. 13 (see Fig. 2 B
+for the state diagram of RyR). Upon depolarization and
+elevation of [Ca21
+entry via ICa(L), channels
+
+]ss by Ca21
+
+Kinetic Model of Cardiac CaV1.2
+
+1531
+
+FIGURE 11 Action potential (AP), calcium transient ([Ca21
+]i), ICa(L),
+subspace calcium transient ([Ca21
+]ss), INaCa, INaK, INaCa,ss, IK1, IKr, and
+IKs for two different pacing frequencies, CL ¼ 1000 ms (black curve) and
+CL ¼ 300 ms (gray curve).
+
+move rapidly from the closed state (Fig. 13 D) to the open
+state (Fig. 13 C) (Ca21
+-dependent activation). Channels then
+transition into the near inactivated states (I4 and I5, Fig. 13 F)
+due to the high concentration of Ca21
+in the subspace fol-
+lowing SR release (Ca21
+-dependent inactivation). After AP
+repolarization, channels move from inactivated states I4 and
+I5 to I1, I2, and I3 (Fig. 13, F and E) as subspace Ca21
+decreases. From I1, I2, and I3, channels then recover to the
+closed states (Fig. 13 D) as the SR stores recover. This re-
+covery from inactivated to closed states is dependent on the
+concentration of Ca21
+bound CASQ2. As can be seen in Fig.
+13 D, the delay of recovery from inactivation is longer at
+slow rates than at fast rates. This is due to increased Ca21
+loading of the myocyte at rapid rate, which allows faster
+recovery of Ca21
+-bound CASQ2 and, in turn, faster recovery
+of RyR from inactivation after AP repolarization.
+
+It can be observed that the RyR open probability (Fig. 13
+C) at rapid rate is smaller than that at slow rate, but the
+maximum SR Ca21
+ﬂux is greater (Fig. 13 B). The reason for
+
+FIGURE 12 State residencies of the L-type Ca21
+course of the action potential for two different pacing frequencies, CL ¼
+1000 ms (black curve) and CL ¼ 300 ms (gray curve). For identiﬁcation of
+
+channel during the time
+
+the channel states, refer to Fig. 1.
+
+stores ([Ca21
+
+the decreased open probability is that 55% of the channels
+remain inactivated at rapid rate (Fig. 13 E, arrow), primar-
+ily due to the decreased time for recovery between beats.
+Despite the decreased open probability, Irel is larger due to
+the larger SR Ca21
+]JSR) that result from rapid
+pacing (see Fig. 11 J). Increased [Ca21
+]ss (Fig. 11 H) at rapid
+rate (due to increased Irel, Fig. 13 B) increases the percentage
+of RyR channels that are activated by Ca21
+(rightward
+transition on the state diagram) and the percentage of chan-
+nels that are inactivated by Ca21
+(upward transition on the
+state diagram). Hence, at rapid rate more channels reside in I4
+and I5 compared to slow rate (Fig. 13 F).
+
+Timothy syndrome and loss of CaV1.2 VDI
+
+The CaV1.2 mutation G406R,
+linked to the Timonthy
+syndrome, almost completely removes VDI of ICa(L). In Fig.
+14 A we show steady-state inactivation curves of ICa(L) for
+the control model (black trace) and for G406R (gray trace)
+compared to experimentally measured values (symbols).
+Analysis of mRNA in heart and brain tissue by Splawski
+
+Biophysical Journal 92(5) 1522–1543
+
+1532
+
+Faber et al.
+
+FIGURE 14 (A) Steady-state voltage-dependent inactivation curves of
+CaV1.2 for wild-type (WT, black) and mutation G406R (gray). The
+experimental data (symbols) (from Splawski et al. (13), with permission)
+. (B) Steady-state APs at CL ¼ 1000 ms
+were recorded in the absence of Ca21
+for WT myocyte (black trace), a myocyte with 11.5% G406R channels
+(dashed trace), and with 23% G406R channels (gray trace). (C) Corre-
+sponding ICa(L) (arrow indicates peak of ICa(L) for WT) and (D) calcium
+transient, CaT.
+
+FIGURE 13 State residencies of the RyR channel during the time course
+
+of the action potential for two different pacing frequencies, CL ¼ 1000 ms
+(black curve) and CL ¼ 300 ms (gray curve). For identiﬁcation of the
+channel states, refer to Fig. 2 B.
+
+et al. (13) showed that ;23% of CaV1.2 channels contain the
+exon 8A in which the mutation G406R occurs. For this
+reason we show AP (Fig. 14 B), ICa(L) (C), and CaT (D) for
+three scenarios—wild-type (WT, black traces), heterozygous
+expression (11.5% G406R CaV1.2 channels, dashed gray
+traces), and homozygous (23% G406R CaV1.2 channels,
+gray traces). The G406R mutation results in ICa(L) current
+with a larger peak (Fig. 14 C, arrow) due to the loss of fast
+VDI. Recovery of current during the late phase of the AP
+corresponds with the decline of the CaT. This recovery from
+CDI results in an increased depolarizing ICa(L) current that
+prolongs APD (clinically observed as prolongation of QT
+interval on the ECG) and increases myocyte Ca21
+. The
+increase of [Ca21
+]i results from both increased Ca21
+entry
+via ICa(L) and reduced diastolic interval, a time during which
+excess Ca21
+
+is removed by the Na
+
+exchanger.
+
+-Ca21
+
+1
+
+DISCUSSION
+
+In this study we present detailed kinetic models of CaV1.2 and
+RyR that interact within a subcellular restricted space. These
+models were incorporated into the LRd model of
+the
+mammalian ventricular cell with the following results: 1),
+The model of CaV1.2 reproduces experimental single channel
+data (mean open time, latency to ﬁrst opening) and macro-
+scopic current data (VDI, CDI, recovery from inactivation,
+ICa(L) during the AP). 2), The CaV1.2-RyR interaction in the
+
+Biophysical Journal 92(5) 1522–1543
+
+1
+
+]i and the Ca21
+
+subspace reproduces graded SR Ca21
+release and voltage-
+dependent variable gain of release. 3), The model accurately
+reproduces adaptation of APD to changes in rate, rate de-
+transient (force-frequency
+pendence of [Na
+relationship), and restitution properties of APD and the Ca21
+transient during premature stimuli. 4), CDI of CaV1.2 is
+sensitive to Ca21
+that enters the subspace from L-type Ca21
+channels and from SR release. The relative contributions
+of these Ca21
+sources to total CDI vary with time after
+depolarization, with transition from early SR Ca21
+dominance
+to late L-type Ca21
+dominance, as seen experimentally. 5),
+The relative contribution of CDI to total inactivation of ICa(L) is
+greater at negative potentials when VDI is weak. 6), CDI is
+greater at rapid rates due to elevated subspace Ca21
+. 7), Sup-
+pression of VDI due to the CaV1.2 mutation G406R results in
+APD prolongation and increased [Ca21
+
+]i.
+
+Divalent cations and ICa(L) inactivation
+
+, Sr21
+
+, Cd21
+
+, Mg21
+
+(i.e., Ba21
+
+In the ICa(L) model development we utilized extensive ex-
+perimental data obtained with divalent cations other than
+Ca21
+) as the charge carrier to
+eliminate CDI. There has been some evidence to indicate that
+these substitutions (speciﬁcally Ba21
+may also
+cause some inactivation of the channel (64). The mechanism
+by which other divalent cations cause inactivation is not
+known. Making the assumption that divalent cations other
+than Ca21
+can be used to indicate pure VDI can lead to an
+overestimation of the magnitude of VDI compared to CDI.
+To avoid this potential pitfall, studies of VDI have been
+
+) for Ca21
+
+Kinetic Model of Cardiac CaV1.2
+
+1533
+
+conducted utilizing monovalent cations as the charge carrier
+(65,66). However, in these studies isoproternol (ISO) was
+used to amplify the current for facilitation of measurement.
+In experiments conducted by Findlay in the absence of ISO
+(67), the current through ICa(L) carried by Ba21
+, and
+1
+all exhibited similar inactivation kinetics, implying that
+Na
+Ba21
+and other divalent cations are suitable substitutes for
+determining VDI when ISO is absent. All simulations in this
+study were conducted under such basal conditions, in the
+absence of b-adrenergic effects.
+
+, Sr21
+
+ICa(L): Ca21
+
+versus voltage dependent inactivation
+
+There has been some debate as to which mechanism
+dominates inactivation of L-type Ca21
+channels, VDI, or
+CDI. In our simulations, we show that in the absence of CDI,
+VDI can cause .80% inactivation of the current (Fig. 3 B) for
+voltage clamps to positive potentials. Experimental data of
+steady-state inactivation from Linz and Meyer (66) show that
+in the absence of CDI only 50% of the channels are inactivated
+due to VDI for voltage clamps to positive potentials. The pri-
+mary reason for differences between our simulation and the
+Linz and Meyer experiments is their use of ISO in the solution.
+In a series of studies (51,67–69), Findlay demonstrated that
+when b-adrenergic stimulation effects were induced by the
+addition of ISO to the bath solution, the contribution of VDI
+to total inactivation was greatly reduced and CDI became
+dominant. Findlay proposed a ‘‘switch’’ whereby phospho-
+rylation of the channel turns off rapid VDI and CDI becomes
+dominant (55). Our simulations are conducted in the absence
+of b-adrenergic stimulation and are in agreement with Findlay
+experiments conducted in the absence of ISO. In Fig. 6, A and
+B, we show that the relative contributions of CDI and VDI to
+total inactivation are both voltage and time dependent. We
+also show that the relative contribution of CDI and VDI to
+total inactivation is rate dependent (Fig. 12); speciﬁcally the
+inactivation increases with
+contribution of CDI to total
+increased rate due to the elevation of total [Ca21
+] within the
+myocyte. Loss of VDI, as shown in simulations of the CaV1.2
+mutation G406R (Fig. 14), leads to APD prolongation and an
+increase in [Ca21
+]i. It is clear that both VDI and CDI are
+important mechanisms of ICa(L) inactivation. The loss of either
+of these mechanisms of inactivation can lead to APD pro-
+longation and calcium overload,
+resulting in increased
+susceptibility to arrhythmia.
+
+It has been well established that CDI of ICa(L) occurs by
+Ca21
+binding to a constitutively bound calmodulin molecule
+on the C-terminus of the CaV1.2 a1 subunit (22,23,70). But
+there has been some evidence that Ca21
+in the pore of the
+channel or Ca21
+very near the channel pore can also cause
+CDI (71). We formulated CDI as a function of both ICa(L)
+(representing Ca21
+passing through the channel pore) and
+[Ca21
+that can bind to the C-terminus inactivation
+site). However, extensive experimental data were ﬁtted by
+the model with CDI dependence on [Ca21
+]ss alone, sug-
+
+]ss (Ca21
+
+gesting a minor role for pore Ca21
+Ca21
+
+in ICa(L) inactivation.
+
+compared to subspace
+
+ICa(L) selectivity ﬁlter
+The L-type Ca21
+channel is permeable to both monovalent
+and divalent cations, but there has been some evidence to
+suggest that when Ca21
+is present, the channel is selective
+almost exclusively for Ca21
+and does not allow passage of
+other ions (72,73). In our model of ICa(L) the channel is
+permeable to Ca21
+with membrane perme-
+, K
+ 3 cm/s, 4.34 3 10
+ 7 cm/s, and 1.515 3
+abilities of 1.215 3 10
+ 6 cm/s, respectively. We conducted simulations where
+10
+through ICa(L) was elim-
+the permeability of Na
+inated but discovered that the resultant AP morphology did
+not ﬁt experimentally recorded guinea pig APs.
+
+, and Na
+
+and K
+
+1
+
+1
+
+1
+
+1
+
+ICa(L) facilitation
+L-type Ca21
+channels exhibit a property whereby the channel
+current magnitude increases with successive depolarizations.
+This property is known as facilitation and is thought to play a
+role in generating positive force frequency. ICa(L) facilitation
+is not reproduced by the model presented here, but the model
+still exhibits a positive force frequency relationship due to
+[Ca21
+]i loading at fast rate. Recent experimental evidence has
+shown that ICa(L) facilitation is a result of CaMKII activation
+(23,24,74–76). CaMKII is sensitive to frequency changes in
+[Ca21
+]i and when activated, can phosphorylate several targets
+including CaV1.2, SERCA, and RyRs. A recent model of the
+canine ventricular AP incorporated the CaMKII signaling
+pathways and its effects on the AP and Ca21
+transient (9).
+Modiﬁcation of this signaling pathway for inclusion in the
+guinea pig myocyte model could be done in future develop-
+ment to incorporate ICa(L) facilitation. ICa(L) is also augmented
+by b-adrenergic stimulation (77). The simulations in this
+study are conducted under basal conditions in the absence of
+b-adrenergic effects. Models of the b-adrenergic signaling
+pathway (78) could also be adapted and incorporated in the
+cell model for studies of cellular behavior under various levels
+of b-adrenergic tone.
+
+Gain and local control of SR Ca21
+
+release
+
+theory of SR Ca21
+
+release says that
+
+the
+Local control
+individual discrete openings of single L-type Ca21
+channels
+signal the opening of nearby RyRs, the Ca21
+from which can
+recruit adjacent RyRs leading to SR release. This concept is
+important for understanding variable gain of SR release,
+where it is observed that for the same magnitude of ICa(L),
+a larger release is achieved at negative potentials than at
+positive potentials. The idea is that at negative potentials
+fewer CaV1.2 channels open but because the driving force
+for Ca21
+enters through the
+open channels creating sufﬁcient local Ca21
+levels to trigger
+
+is large, a large amount of Ca21
+
+Biophysical Journal 92(5) 1522–1543
+
+1534
+
+Faber et al.
+
+local RyR openings. At positive potentials, many more
+CaV1.2 channels will open, but
+the average current per
+channel will be low because of a small driving force.
+Consequently, at some sites [Ca21
+]ss is not large enough to
+trigger opening of local RyRs. There have been important
+modeling efforts to recreate local control of SR release at the
+level of these local interactions (17,18,79–81). The whole-
+cell model presented here uses a global formulation of Irel
+to achieve graded response and variable gain. Using this
+macroscopic formulation, the model recreates behavior of
+ICa(L), Irel, and [Ca21
+]i that corresponds well to experimen-
+tally measured data at a variety of test potentials and pacing
+rates. This approach is computationally efﬁcient and permits
+simulating cellular behavior over many beats of pacing and
+during AP propagation in the multicellular tissue, a property
+that is necessary for studying cardiac arrhythmias. However,
+microscopic details of local control dynamics are not rep-
+resented explicitly in the model.
+
+-dependent inactivation and adaptation
+
+RyR Ca21
+The mechanism that terminates SR Ca21
+release is not fully
+understood and several possible control mechanisms have
+been proposed (16). There has been evidence that RyR
+channels do not undergo Ca21
+-dependent inactivation (82),
+contrary to the proposed RyR kinetic model presented here.
+Suggested mechanisms of SR release termination, such as
+stochastic attrition (83) (closure of RyR channels and their
+neighbors due to reduction of local Ca21
+as a result of spon-
+taneous stochastic closure of local RyRs) and RyR adaptation
+(a decrease of RyR sensitivity to local Ca21
+following a Ca21
+stimulus, a process distinct from inactivation in that the
+channels can exhibit further opening following an additional,
+larger Ca21
+stimulus) cannot be replicated in this study with-
+out including a more detailed model of local control (17,18,84)
+and/or RyR kinetics (41,85). Another proposed mechanism of
+SR Ca21
+release termination is due to depletion of luminal
+Ca21
+(46,63,86). This mechanism is similar to the CASQ2-
+mediated recovery from inactivation in the model presented
+here. In our formulation, both cytosolic and luminal SR Ca21
+(via CASQ2) play an important role in RyR inactivation and
+RyR recovery from inactivation. Despite the lack of clarity
+concerning RyR inactivation and SR Ca21
+release termina-
+tion, the RyR model presented here accurately recreates the
+time course and magnitude of SR Ca21
+release for a multitude
+of voltage clamp protocols and pacing frequencies necessary
+for validating the CaV1.2 model and its use in the simulations
+presented.
+
+APPENDIX: MODEL EQUATIONS
+L-type Ca21
+
+channel ICa(L)
+
+a ¼ 0:925  expðVm
+
+=30Þ
+
+Biophysical Journal 92(5) 1522–1543
+
+b ¼ 0:39  expð Vm
+
+=40Þ
+
+b2
+
+b3
+
+b1
+
+a0 ¼ 4  a
+a1 ¼ 3  a
+a2 ¼ 2  a
+a3 ¼ a
+¼ b
+b0
+¼ 2  b
+¼ 3  b
+¼ 4  b
+=10Þ
+¼ 0:245  expðVm
+gf
+¼ 0:005  expð Vm
+=40Þ
+¼ 0:02  expðVm=500Þ
+ff
+¼ 0:03  expð Vm=280Þ
+fs
+lf ¼ 0:035  expð Vm=300Þ
+ls ¼ 0:0011  expðVm=500Þ
+Þ
+Þ=ða3  ff
+vf ¼ ðb3
+vs ¼ ðb3
+Þ=ða3  fs
+Þ
+¼ ðls
+¼ fs
+; vfs
+vsf
+d ¼
+
+ lf  gf
+ ls  gs
+Þ=lf
+ ff
+
+gs
+
+4
+
+ss
+
+dC0
+dt
+
+1 1 1=½Ca2 1
+u ¼ 0:01
+¼ C1  b0
+1 C0Ca  u   C0  ða0 1 dÞ
+¼ C0
+ b1
+ a0
+¼ C1  a1 1 C3  b2
+
+1 C1Ca
+1 b0
+1 C2Ca  u   C2  ða2 1 b1
+
+ u   C1
+
+ ða1
+
+1 C2
+
+dC1
+dt
+
+dC2
+dt
+
+1 dÞ
+
+1 dÞ
+
+dC3
+dt
+
+1 IVf  vf 1 IVs  vs
+1 gs
+
+¼ C2  a2 1 O  b3
+1 C3Ca  u   C3  ða3 1 b2
+1 gf
+¼ C3  a3 1 IVf  lf 1 IVs  ls
+1 ICa  u   O  ðb3
+
+1 fs
+
+dO
+dt
+
+1 dÞ
+
+1 dÞ
+ u
+
+1 ff
+ vsf
+1 dÞ
+
+dIVf
+dt
+
+dIVs
+dt
+
+1 IVfCa
+
+¼ C3
+ gf
+1 O  ff
+  IVf
+ ðvf
+1 lf
+¼ C3  gs
+1 O  fs
+  IVs  ðvs 1 ls 1 vsf 1 dÞ
+
+1 IVs
+1 vfs
+1 IVf  vfs 1 IVsCa  u
+
+Kinetic Model of Cardiac CaV1.2
+
+1535
+
+dC0Ca
+
+dt
+
+¼ C0Ca
+
+ b0
+
+¼ C1Ca
+ a0
+
+1 C2Ca
+
+ d   C0Ca
+
+ ða0
+ d   C1Ca
+
+1 uÞ
+ ða1
+
+1 C1
+
+1 C0
+ b1
+
+1 uÞ
+
+1 b0
+
+¼ C1Ca  a1 1 C3Ca  b2
+
+1 C2  d   C2Ca  ða2 1 b1
+
+1 uÞ
+
+dC1Ca
+
+dt
+
+dC2Ca
+
+dt
+
+dC3Ca
+
+dt
+
+dICa
+dt
+
+1 gf
+
+1 gs
+
+¼ C2Ca  a2 1 ICa  b3
+1 IVfCa  vf 1 IVsCa  vs
+1 C3  d   C3Ca  ða3 1 b2
+1 uÞ
+¼ C3Ca  a3 1 IVfCa  lf 1 IVsCa  ls 1 O  d
+  ICa  ðb3
+¼ C3Ca  gf
+1 IVf  d   IVfCa  ðvf 1 lf 1 vfs 1 uÞ
+1 IVfCa  vfs 1 IVs  d
+
+1 uÞ
+1 IVsCa  vsf
+
+1 ff
+1 fs
+1 ICa  ff
+
+1 ICa  fs
+
+¼ C3Ca  gs
+  IVsCa  ðvs 1 ls 1 vsf 1 uÞ
+
+dIVfCa
+
+dt
+
+dIVsCa
+
+dt
+
+Irel
+
+Rates of RyR activation and deactivation were increased from those based
+on lipid-bilayer studies in the original publication of Fill et al. (39) to ac-
+count for differences in temperature and to create an SR ﬂux that generates a
+time course and magnitude of the CaT that closely ﬁt experimentally re-
+corded values. For this reason, the rates were not increased uniformly. The
+activation rate a1R was increased 3.5 times, and a2R, a3R, and a4R were in-
+creased seven times. The deactivation rates b1R, b2R, and b3R were increased
+ﬁve times and the deactivation rate b4R was increased 25 times.
+
+¼ 1750  ½Ca21
+
+ss
+
+a1R
+
+a2R ¼ a3R ¼ a4R ¼ 5600  ½Ca2 1
+
+ss
+
+b2R
+
+¼ 5
+b1R
+¼ 2:625
+¼ 1
+¼ 6:25
+
+b3R
+
+b4R
+¼ 0:4  ½Ca21
+
+ss
+
+g1R
+
+¼ PCa
+
+ z2
+
+Ca
+
+ICa
+
+ Vm  F2
+
+RT
+
+ ½Ca21
+
+ss
+
+ gCai
+
+ expððzCa  Vm  FÞ=ðRTÞÞ   gCao
+expððzCa  Vm  FÞ=ðRTÞÞ   1
+
+ ½Ca21
+
+o
+
+PCa ¼ 0:001215; gCai
+
+¼ 0:01; gCao
+
+¼ 0:341
+
+¼ 1:2  ½Ca2 1
+
+ss
+
+g2R
+
+¼ PNa
+
+ zNa
+
+ICa;Na
+
+ Vm  F2
+
+RT
+
+1
+ ½Na
+
+ss
+
+ gNai
+
+ expððzNa  Vm  FÞ=ðRTÞÞ   gNao
+expððzNa  Vm  FÞ=ðRTÞÞ   1
+
+1
+ ½Na
+
+o
+
+¼ 1:518 3 10
+
+ 6; gNai
+
+¼ 0:75; gNao
+
+¼ 0:75
+
+PNa
+
+¼ 2:8  ½Ca2 1
+
+ss
+
+g3R
+
+¼ PK
+
+ zK
+
+ICa;K
+
+ Vm  F2
+
+RT
+
+ ½K
+
+1
+
+ss
+
+ gKi
+
+ expððzK  Vm  FÞ=ðRTÞÞ   gKo
+expððzK  Vm  FÞ=ðRTÞÞ   1
+
+ ½K
+
+1
+
+o
+
+PK ¼ 4:34 3 10
+
+ 7; gKi
+
+¼ 0:75; gKo
+
+¼ 0:75
+
+ICaðLÞ ¼ ICa  O
+
+ICa;Na ¼ ICa;Na  O:
+
+¼ ICa;K
+
+ O:
+
+ICa;K
+
+¼
+
+d1R
+
+ss
+
+¼ 5:2  ½Ca21
+¼ 8:4  ½Ca21
+
+g4R
+g5R
+1 1ð½csqn  0:75=½csqnÞ9
+
+0:01
+
+ss
+
+¼ d1R
+¼ d1R
+
+=10
+d2R
+=100
+d3R
+d4R ¼ d1R=1000
+=10000
+d5R
+
+¼ d1R
+
+Biophysical Journal 92(5) 1522–1543
+
+1536
+
+dC2
+dt
+
+dC3
+dt
+
+dC4
+dt
+
+dI2
+dt
+
+dI3
+dt
+
+dI4
+dt
+
+1 a2R
+
+1 g2R
+
+1 a3R 1 g3R
+
+Þ
+
+Þ
+
+1 g5R
+
+Þ
+Þ
+
+1 d1R
+1 a2R 1 d2RÞ
+
+1 a3R 1 d3RÞ
+
+1 a4R 1 d4RÞ
+
+1 I2
+
+1 I5
+
+1 C3
+
+dC1
+dt
+
+ a1R
+
+¼ C2
+
+¼ C1
+
+dO
+dt
+dI1
+dt
+
+¼ C4
+¼ I2
+
+ d1R
+ d2R
+
+  C1
+  C2
+
+ b1R
+1 I1
+ b2R
+¼ C2  a2R 1 C4  b3R
+¼ C3  a3R 1 O  b4R
+ a4R
+ b1R
+¼ I1  a1R 1 I3  b2R
+¼ I2  a2R 1 I4  b3R
+¼ I3  a3R 1 I5  b4R
+
+ d5R
+ g1R
+1 C1
+1 C2  g2R
+1 C3  g3R
+1 C4  g4R
+¼ I4  a4R 1 O  g5R
+
+
+ ða1R
+ ðb1R
+1 I3  d3R   C3  ðb2R
+1 I4  d4R   C4  ðb3R
+  O  ðb4R
+  I1
+ ða1R
+  I2  ðb1R
+  I3  ðb2R
+  I4  ðb3R
+  I5  ðb4R
+
+gradedrel ¼
+
+dI5
+dt
+
+1 1 exp
+
+vgainofrel ¼ 1 1 exp
+
+1
+20 1 ICaðLÞ
+
+1 d5RÞ
+   0:034445
+
+0:015  ICa 1 1:25
+
+6
+
+
+
+0:75
+
+1 g1R
+
+Þ
+
+¼ 3:7 1
+
+tb
+
+Faber et al.
+
+
+
+6:1
+Vm 1 25
+
+
+
+1 1 exp
+
+gN ¼
+
+1 1 exp
+
+
+
+4:5
+
+
+
+1
+Vm 1 60
+
+5:6
+
+1 a4R 1 g4R
+
+Þ
+
+If Vm # 0 mV,
+
+¼  0:875  Vm
+
+tg
+
+1 12;
+
+else
+
+IKs
+
+tg ¼ 12
+
+ICaðTÞ ¼ GCaðTÞ  b  g  ðVm
+
+  ECa
+
+Þ:
+
+!
+
+Þ1:4
+
+ 
+
+GKs ¼ 0:3031 
+EKs ¼ R  T
+
+F
+
+1 1
+
+ ln
+
+XsN ¼ Xs2N ¼
+
+i
+
+o
+
+0:6
+1 1ð3:8 3 10
+ 5=½Ca21
+
+
+1
+½K
+ ½Na
+1 PNa;k
+1 PNa;k  ½Na
+½K
+1
+
+1:5   Vm
+16:7
+
+1
+1
+
+
+1 1 exp
+
+1
+
+o
+
+i
+
+i
+
+¼
+
+txs1
+
+ 5  ðVm
+7:19 3 10
+1   expð 0:148  ðVm
+
+1 30Þ
+1 30Þ 1 1:31 3 10
+
+ 4  ðVm
+expð0:0687  ðVm
+
+1 30Þ
+1 30Þ   1
+
+1
+
+Grel ¼ 250  gradedrel
+
+vgainofrel
+
+Irel ¼ Grel  O  ð½Ca21
+
+  ½Ca21
+
+Þ:
+
+ss
+
+JSR
+
+txs2 ¼ 4  txs1
+PNa;K ¼ 0:01833
+
+IKs ¼ GKs  Xs  Xs2  ðVm   EKsÞ:
+
+ICa(T)
+
+IKr
+
+
+
+GCaðTÞ ¼ 0:005
+
+½Ca21
+¼ R  T
+2  F
+½Ca21
+
+o
+
+ ln
+
+14:0   Vm
+
+1
+
+i
+
+1 1 exp
+
+
+
+10:8
+
+ECa
+
+bN ¼
+
+Biophysical Journal 92(5) 1522–1543
+
+s
+
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1
+½K
+
+5:4
+1
+½K
+½K
+1
+
+o
+
+GKr ¼ 0:031368 
+
+EKs ¼ R  T
+ ln
+
+ ðVm 1 10:085Þ
+
+F
+
+1
+
+o
+
+i
+
+1 1 exp
+
+
+
+4:25
+
+XrN ¼
+
+Kinetic Model of Cardiac CaV1.2
+
+1537
+
+txr ¼
+
+1:38 3 10
+
+1   expð 0:123  ðVm 1 14:2Þ 1 6:1 3 10
+
+ 4  ðVm 1 38:9Þ
+expð0:145  ðVm 1 38:0Þ   1
+
+ 3  ðVm 1 14:2Þ
+
+1
+
+
+
+¼
+
+bh
+
+¼
+
+RKr
+
+1 1 exp
+
+
+
+1
+Vm 1 9
+18:4
+
+IKr ¼ GKr  Xr  RKr  ðVm   EKrÞ:
+
+
+
+
+
+1
+
+
+
+
+0:13  1 1 exp
+¼ 0:0
+
+aj
+
+Vm 1 10:66
+
+ 11:1
+
+¼ 0:3  expð 2:535 3 10
+
+ 7  VmÞ
+1 1 expð 0:1  ðVm 1 32ÞÞ ;
+
+bj
+
+INaCa & INaCa,ss
+
+
+ðg   1Þ  Vm
+
+INaCa ¼ 0:8  c1  exp
+R  T
+ðg   1Þ  Vm
+1 1 c2  exp
+R  T
+
+
+ F
+
+ F
+
+
+
+
+
+
+ðg   1Þ  Vm
+
+INaCa;ss ¼ 0:2  c1  exp
+R  T
+ðg   1Þ  Vm
+1 1 c2  exp
+R  T
+
+
+ F
+
+ F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ F
+
+Vm
+R  T
+ F
+Vm
+R  T
+
+exp
+
+exp
+
+
+
+
+
+ F
+
+Vm
+R  T
+ F
+Vm
+R  T
+
+exp
+
+exp
+
+ ½Na
+ ½Na
+
+13
+
+i
+
+13
+
+i
+
+ ½Ca21
+ ½Ca21
+
+o
+
+o
+
+  c3  ½Na
+1 c3  ½Na
+
+13
+
+o
+
+13
+
+o
+
+
+
+
+i
+
+ ½Ca21
+ ½Ca21
+
+i
+
+ ½Na
+ ½Na
+
+13
+
+ss
+
+13
+
+ss
+
+ ½Ca21
+ ½Ca21
+
+o
+
+o
+
+  c3  ½Na
+1 c3  ½Na
+
+13
+
+o
+
+13
+
+o
+
+ ½Ca21
+ ½Ca21
+
+ss
+
+ss
+
+
+
+
+g ¼ 0:15; c1 ¼ 0:000225; c2 ¼ 0:0001; c3 ¼ 1:5:
+
+If Vm
+
+INa
+
+ah ¼ 0:135  exp
+
+,  40 mV
+
+
+
+ð80 1 Vm
+ 6:8
+
+
+
+Þ
+
+¼ 16
+
+GNa
+
+¼ 3:56  expð0:079  VmÞ 1 3:1 3 105  expð0:35  VmÞ
+
+bh
+
+ 5  expð 0:04391  VmÞÞ  ðVm 1 37:78Þ
+
+1 1 expð0:311  ðVm 1 79:23ÞÞ
+
+aj
+
+
+
+¼ ð 1:2714 3 105  expð0:2444  VmÞ   3:474 3 10
+
+ ln
+ðVm
+
+bj
+
+o
+
+¼ 0:1212  expð 0:01052  VmÞ
+1 1 expð 0:1378  ðVm 1 40:14ÞÞ
+INa ¼ GNa  m3  h  j  ðVm   ENaÞ:
+
+am ¼ 0:32 
+
+bm
+
+ENa ¼ RT
+
+i
+
+F
+
+1
+½Na
+½Na
+1
+1 47:13Þ
+
+
+1 47:13ÞÞ
+1   expð 0:1  ðVm
+ Vm
+¼ 0:08  exp
+If Vm $   40 mV;
+
+11
+
+¼ 0:0
+
+ah
+
+Time-independent currents
+
+ICa,b
+
+GCa;b ¼ 0:003016
+
+Biophysical Journal 92(5) 1522–1543
+
+1538
+
+INa,b
+
+IKp
+
+INaK
+
+
+
+
+½Ca2 1
+½Ca2 1
+ECa;b
+ICa;b ¼ GCa;b  ðVm   ECa;bÞ:
+
+¼ RT
+F  zca
+
+ ln
+
+o
+
+i
+
+
+½K
+½K
+
+EK1 ¼ RT
+
+F
+
+ ln
+
+1
+1
+
+o
+
+i
+
+
+
+Faber et al.
+
+GNa;b ¼ 0:0002
+
+aK1 ¼
+
+1:02
+1 1 expð0:2385  ðVm
+
+  EK1
+
+  59:215ÞÞ
+
+¼ 0:49124  expð0:08032  ðVm
+
+bK1
+
+  EK1
+
+1 5:476ÞÞ 1 expð0:06175  ðVm
+
+  EK1
+
+  594:31ÞÞ
+
+1 1 expð 0:5143  ðVm
+
+  EK1
+
+1 4:753ÞÞ
+
+
+
+
+½Na
+1
+½Na
+1
+  ENa;b
+
+ ln
+ ðVm
+
+o
+
+i
+
+Þ:
+
+¼ RT
+F
+¼ GNa;b
+
+ENa;b
+
+INa;b
+
+K1 ¼
+
+aK1
+
+aK1 1 bK1
+
+IK1 ¼ GK1  K1  ðVm   EK1Þ:
+
+Ip,Ca
+
+Ip;Ca
+¼ Gp;Ca 
+
+
+
+Gp;Ca ¼ 1
+
+½Ca2 1
+
+ð0:00051½Ca2 1
+
+i
+
+
+
+Þ
+
+i
+
+11exp
+
+:
+
+1
+
+0:00012 ½Ca2 1
+
+i
+
+0:00001
+
+
+
+
+GKp ¼ 5:52310
+ 4
+½K
+1
+¼ RT
+1
+½K
+F
+
+o
+
+i
+
+EKp
+
+ ln
+
+
+Kp ¼
+
+1 1 exp
+
+1
+
+7:488   Vm
+
+5:98
+
+IKp ¼ GKp  Kp  ðVm   EKpÞ:
+
+GNaK ¼ 2:25
+
+s ¼ expð½Na
+
+1
+o
+7
+
+=67:3Þ   1
+
+SR ﬂuxes
+
+Iup ¼ Iup 
+
+½Ca21
+
+i
+
+½Ca21
+
+i
+
+1 Km;up
+
+¼ 0:017325 mM=ms; Km;up
+
+¼ 0:00092 mM
+
+Iup
+
+fNaK ¼
+
+1 1 0:1245  exp
+
+
+ 0:1  Vm
+
+
+ F
+
+1
+
+RT
+
+1 0:0365  s  exp
+
+
+
+Km;Nai ¼ 10; Km;Ko ¼ 1:5
+
+
+
+fNaK
+1 1 Km;Nai
+½Na
+1
+
+
+
+
+
+2
+
+1
+½K
+1
+1 Km;Ko
+
+o
+
+o
+
+
+
+:
+
+Ileak
+
+
+ Vm
+
+
+ F
+
+RT
+
+NSR ¼ 15 mM
+
+ ½Ca21
+
+¼ 0:00875
+NSR
+¼ 120 ms
+
+ttr
+
+NSR
+
+¼ ½Ca21
+
+NSR
+
+Itr
+
+  ½Ca21
+ttr
+
+JSR
+
+:
+
+¼ GNaK
+
+INaK
+
+IK1
+
+GK1 ¼ 0:5625 
+
+Biophysical Journal 92(5) 1522–1543
+
+i
+
+s
+
+½K
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1
+½K
+5:4
+
+o
+
+Kinetic Model of Cardiac CaV1.2
+
+Ca21
+
+buffers in myoplasm
+Buffered ½trpn ¼ ½trpn 
+
+½Ca21
+
+i
+
+½Ca21
+
+i
+
+1 Km;trpn
+½Ca2 1
+
+i
+
+½Ca21
+
+i
+
+1 Km;cmdn
+
+Buffered ½cmdn ¼ ½cmdn 
+
+½trpn ¼ 0:07 mM;½cmdn ¼ 0:05 mM;
+
+Km;trpn ¼ 0:0005 mM; Km;cmdn ¼ 0:00238 mM:
+
+Ca21
+
+buffer in JSR
+Buffered ½csqn ¼ ½csqn 
+
+½Ca21
+
+½Ca21
+
+JSR
+
+JSR
+
+1 Km;csqn
+
+½csqn ¼ 10 mM; Km;csqn ¼ 0:8 mM:
+
+Intracellular ion concentrations
+a: Ca21
+
+¼
+
+bmyo
+
+1 1
+
+1
+Þ2
+
+½trpn K m;trpn
+ðKm;trpn 1½Ca21
+ 
+ ðICa;t   ðICaðLÞ   2  INaCa;ssÞÞ
+
+½cmdn K m;cmdn
+ðKm;cmdn 1½Ca21
+
+1
+
+i
+
+Þ2
+
+i
+
+1ðIup   IleakÞ  VNSR
+Vmyo
+
+  Idiff;Ca  Vss
+Vmyo
+
+1539
+
+Þ2
+
+ss
+
+Subspace concentrations
+
+a: Ca21
+
+¼
+
+bss
+
+ðKm;BSR
+
+BSR  Km;BSR
+1½Ca21
+
+1
+1 1
+1
+ðKm;BSL
+Þ2
+BSR ¼ 0:047 mM; Km;BSR
+¼ 0:00087 mM
+BSL ¼ 2:124 mM; Km;BSL ¼ 0:127 mM
+
+BSL  Km;BSL
+1½Ca21
+
+ss
+
+Idiff;Ca
+
+d½Ca21
+dt
+
+ss
+
+¼  bss
+
+i
+
+¼ ½Ca2 1
+
+
+  ½Ca2 1
+ss
+tdiff
+¼ 0:1 ms
+tdiff
+ðICaðLÞ   2  INaCa;ss
+
+
+
+
+ Irel  VJSR
+Vss
+
+1 Idiff;Ca
+
+:
+
+Þ 
+
+Acap
+
+Vss  zca  F
+
+1
+
+b: Na
+
+d½Na
+1
+dt
+
+ss
+
+1
+c: K
+
+
+
+Idiff;Na ¼ ½Na
+
+
+1
+
+  ½Na
+ss
+tdiff
+1 3  INaCa;ss
+
+¼   ðICa;Na
+
+1
+
+i
+
+Þ  Acap
+Vss  F
+
+
+
+1 Idiff;Na
+
+1
+
+
+
+Idiff;K ¼ ½K
+¼   ðICa;K
+
+1
+
+  ½K
+ss
+tdiff
+Þ  Acap
+Vss  F
+
+i
+
+
+
+1 Idiff;K
+
+:
+
+1
+d½K
+dt
+
+ss
+
+d½Ca21
+
+i
+
+dt
+
+1
+
+b: Na
+
+¼  bmyo
+
+Acap
+ zca
+
+Vmyo
+
+1
+
+i
+
+d½Na
+dt
+
+ F
+
+
+c: K
+
+1
+
+1
+d½K
+dt
+
+i
+
+
+¼   ðIK;t
+
+¼   ðINa;t   ðICa;Na 1 3  INaCa;ssÞÞ
+ Acap
+Vmyo  F
+
+  Idiff;Na
+
+ Vss
+Vmyo
+
+
+
+  ICa;K
+
+Þ  Acap
+Vmyo  F
+
+  Idiff;K
+
+ Vss
+Vmyo
+
+SR calcium concentrations
+
+a: JSR
+
+b: NSR
+
+¼
+
+bJSR
+
+1 1
+d½Ca21
+dt
+
+JSR
+
+1
+
+½csqn K m;csqn
+ðKm;csqn 1½Ca21
+¼ bJSR
+
+Þ2
+ ðItr   IrelÞ
+
+JSR
+
+d½Ca21
+dt
+
+NSR
+
+¼ Iup
+
+  Ileak
+
+  Itr
+
+ VJSR
+VNSR
+
+:
+
+
+
+:
+
+Conservative current stimulus
+
+For the duration of the stimulation
+
+IK;t ¼ IK;t 1 Istim
+
+Vm
+
+¼  Itot
+
+Cm
+
+:
+
+dVm
+dt
+
+Cell geometry
+
+LengthðLÞ ¼ 0:01 cm; radiusðrÞ ¼ 0:0011 cm
+ 6 mL
+Cell volume : Vcell
+
+¼ p  r2  L ¼ 38310
+
+Geometric membrane area: Ageo ¼ 2p  r2 1 2p  r  L
+ 4 cm2
+
+¼ 0:767310
+Capacitive membrane area: Acap ¼ RCG  Ageo
+¼ 1:534310
+
+ 4 cm2
+
+Biophysical Journal 92(5) 1522–1543
+
+1540
+
+Faber et al.
+
+Myoplasm volume: Vmyo ¼ Vcell  68% ¼ 25:84 3 10
+Mitochondria volume: Vmito ¼ Vcell  24% ¼ 9:88 3 10
+ 6 mL
+NSR volume: VNSR ¼ Vcell  5:52% ¼ 2:098 3 10
+ 0:48% ¼ 0:182 3 10
+JSR volume: VJSR
+Subspace volume: Vss ¼ Vcell  2% ¼ 0:76 3 10
+
+ 6% ¼ 2:28 3 10
+
+SR volume: VSR
+
+¼ Vcell
+
+¼ Vcell
+
+ 6 mL
+ 6 mL
+ 6 mL:
+
+ 6 mL
+ 6 mL
+
+Derivation of subspace volume
+
+We assume a myocyte with a radius of 11 mm and length of 100 mm with
+Z-lines spaced by 1.85 mm. T-tubules protrude into the myocyte along the
+Z-lines with spacing of 1.5 mm. With these values, we compute 54 Z-lines
+per myocyte with 46 t-tubules per Z-line for a total of 2484 t-tubules
+per myocyte. The diameter of each t-tubule is 0.3 mm and the distance be-
+tween the SR membrane and the t-tubule is 0.02 mm (15). The volume of
+subspace along the length of a single t-tubule to the center of the myocyte is:
+
+
+
+
+2 11 mm  p  0:300 mm
+
+
+
+
+
+2
+
+2
+
+11 mm  p  0:340mm
+¼ 0:2212 mm3
+
+2
+
+The total subspace volume ¼ 2484  0:2212 mm3 ¼ 550 mm3
+
+¼ 5:5 310
+
+ 7mL;
+
+which is 100  ð5:5310
+
+ 7 mLÞ=ð38310
+
+ 6 mLÞ ¼ 1:5% of the whole cell
+
+volume. In the model, we round to 2%.
+
+Initial ionic concentrations and markov model
+state residencies
+End diastolic steady-state values for the model paced at CL ¼ 1000 ms.
+
+ 5 mM
+ 5 mM
+
+i
+
+i
+
+i
+
+ss
+
+ss
+
+½Ca21
+¼ 8:21 3 10
+¼ 6:72 3 10
+½Ca21
+½K
+¼ 137:6 mM
+1
+½K
+1
+¼ 137:6 mM
+½Na
+¼ 10:71 mM
+1
+½Na
+¼ 10:71 mM
+1
+½Ca21
+¼ 2:553 mM
+½Ca21
+¼ 2:479 mM
+½Ca21
+¼ 1:8 mM
+½K
+1
+¼ 4:5 mM
+½Na
+¼ 130 mM:
+1
+
+NSR
+
+JSR
+
+ss
+
+o
+
+o
+
+o
+
+L-type Ca21 channel
+
+¼ 0:923
+¼ 0:049
+
+C0
+C1
+
+Biophysical Journal 92(5) 1522–1543
+
+C2 ¼ 0
+C3 ¼ 0
+
+C0Ca ¼ 0:025
+C1Ca ¼ 0:003
+C2Ca ¼ 0
+C3Ca ¼ 0
+O ¼ 0
+¼ 0
+ICa
+¼ 0
+IVf
+¼ 0
+IVfCa
+IVs ¼ 0
+IVsCa ¼ 0
+
+C1 ¼ 0:890
+C2 ¼ 0:021
+C3 ¼ 0:003
+C4 ¼ 0:001
+
+I1
+I2
+I3
+
+O ¼ 0
+¼ 0:082
+¼ 0:002
+¼ 0:001
+¼ 0
+I4
+I5 ¼ 0
+
+RyR
+
+Kinetics for G406R CAV1.2
+
+a ¼ 0:925  expðVm=30Þ
+b ¼ 0:39  expð Vm=40Þ
+
+a0 ¼ 4  a
+a1 ¼ 3  a
+a2 ¼ 2  a
+a3 ¼ a
+¼ b
+b0
+¼ 2  b
+¼ 3  b
+¼ 4  b
+
+b1
+b2
+b3
+
+=10Þ
+¼ 0:0245  expðVm
+gf
+¼ 0:0005  expð Vm=40Þ
+gs
+¼ 0:02  expðVm=500Þ
+ff
+¼ 0:0037  expð Vm=60Þ
+fs
+lf ¼ 0:35  expð Vm=300Þ
+ls ¼ 0:004  expðVm=80Þ
+vf ¼ ðb3
+Þ=ða3  ff
+
+ lf  gf
+
+Þ
+
+Kinetic Model of Cardiac CaV1.2
+
+1541
+
+Þ
+
+vs ¼ ðb3
+vsf
+
+Þ=ða3  fs
+ ls  gs
+¼ ðls
+Þ=lf
+ ff
+vfs ¼ fs
+
+d ¼
+
+4
+
+1 1 1=½Ca2 1
+u ¼ 0:01:
+
+ss
+
+Special thanks to Li Li for her administration of lab computing re-
+sources. Yoram Rudy is the Fred Saigh Distinguished Professor at
+Washington University. We thank Dr. Ian Findlay for helpful commu-
+nications and for providing data for the time course of ICa(L) recovery.
+We thank our laboratory members Keith Decker, Tom O’Hara, Namit
+Gaur, and Ali Nekouzadeh for many helpful discussions when the work
+was in progress.
+
+This research was funded by the National Institutes of Health-National
+Heart, Lung and Blood Institute merit award R37-HL 33342, and grant
+RO1-HL 49054 (to Y.R.).
+
+REFERENCES
+
+1. Hodgkin, A. L., and A. F. Huxley. 1952. A quantitative description of
+membrane current and its application to conduction and excitation in
+nerve. J. Physiol. 117:500–544.
+
+2. Rudy, Y., and J. Silva. 2006. Computational biology in the study of
+cardiac ion channels and cell electrophysiology. Q. Rev. Biophys. 39:
+57–116.
+
+3. Clancy, C. E., and Y. Rudy. 1999. Linking a genetic defect to its
+
+cellular phenotype in a cardiac arrhythmia. Nature. 400:566–569.
+
+4. Clancy, C. E., and Y. Rudy. 2002. Na(1) channel mutation that causes
+both Brugada and long-QT syndrome phenotypes: a simulation study
+of mechanism. Circulation. 105:1208–1213.
+
+5. Clancy, C. E., and Y. Rudy. 2001. Cellular consequences of HERG
+mutations in the long QT syndrome: precursors to sudden cardiac
+death. Cardiovasc. Res. 50:301–313.
+
+6. Silva, J., and Y. Rudy. 2005. Subunit
+
+interaction determines IKs
+participation in cardiac repolarization and repolarization reserve. Cir-
+culation. 112:1384–1391.
+
+7. Clancy, C. E., Z. I. Zhu, and Y. Rudy. 2006. Pharmacogenetics
+and anti-arrhythmic drug therapy: a theoretical investigation. Am. J.
+Physiol. In press.
+
+8. Sun, H., N. Leblanc, and S. Nattel. 1997. Mechanisms of inactivation
+of L-type calcium channels in human atrial myocytes. Am. J. Physiol.
+272:H1625–H1635.
+
+dysfunction causes a multisystem disorder including arrhythmia and
+autism. Cell 119:19–31.
+
+14. Splawski, I., K. W. Timothy, N. Decher, P. Kumar, F. B. Sachse, A. H.
+Beggs, M. C. Sanguinetti, and M. T. Keating. 2005. Severe arrhythmia
+disorder caused by cardiac L-type calcium channel mutations. Proc.
+Natl. Acad. Sci. USA. 102:8089–8096.
+
+15. Guatimosim, S., K. Dilly, L. F. Santana, M. Saleet Jafri, E. A. Sobie,
+and W. J. Lederer. 2002. Local Ca(21) signaling and EC coupling in
+heart: Ca(21) sparks and the regulation of the [Ca(21)](i) transient.
+J. Mol. Cell. Cardiol. 34:941–950.
+
+16. Fill, M., and J. A. Copello. 2002. Ryanodine receptor calcium release
+
+channels. Physiol. Rev. 82:893–922.
+
+17. Stern, M. D., L. S. Song, H. Cheng, J. S. Sham, H. T. Yang, K. R.
+Boheler, and E. Rı´os. 1999. Local control models of cardiac excitation-
+contraction coupling. A possible role for allosteric interactions between
+ryanodine receptors. J. Gen. Physiol. 113:469–489.
+
+18. Hinch, R., J. L. Greenstein, A. J. Tanskanen, L. Xu, and R. L. Winslow.
+2004. A simpliﬁed local control model of calcium-induced calcium release
+in cardiac ventricular myocytes. Biophys. J. 87:3723–3736.
+
+19. Hadley, R. W., and W. J. Lederer. 1991. Ca21 and voltage inactivate
+Ca21 channels in guinea-pig ventricular myocytes through indepen-
+dent mechanisms. J. Physiol. 444:257–268.
+
+20. Stotz, S. C., and G. W. Zamponi. 2001. Structural determinants of
+fast inactivation of high voltage-activated Ca(21) channels. Trends
+Neurosci. 24:176–181.
+
+21. Daﬁ, O., L. Berrou, Y. Dodier, A. Raybaud, R. Sauve´, and L. Parent.
+2004. Negatively charged residues in the N-terminal of the AID helix
+confer slow voltage dependent inactivation gating to CaV1.2. Biophys.
+J. 87:3181–3192.
+
+22. Peterson, B. Z., C. D. DeMaria, J. P. Adelman, and D. T. Yue. 1999.
+Calmodulin is the Ca21 sensor for Ca21 -dependent inactivation of
+L-type calcium channels. Neuron. 22:549–558.
+
+23. Zu¨ hlke, R. D., G. S. Pitt, K. Deisseroth, R. W. Tsien, and H. Reuter.
+1999. Calmodulin supports both inactivation and facilitation of L-type
+calcium channels. Nature. 399:159–162.
+
+24. Zu¨ hlke, R. D., G. S. Pitt, R. W. Tsien, and H. Reuter. 2000. Ca21-
+sensitive inactivation and facilitation of L-type Ca21 channels both
+depend on speciﬁc amino acid residues in a consensus calmodulin-
+binding motif in the(alpha)1C subunit. J. Biol. Chem. 275:21121–
+21129.
+
+25. Alseikhan, B. A., C. D. DeMaria, H. M. Colecraft, and D. T. Yue.
+the unexpected eminence of
+2002. Engineered calmodulins reveal
+Ca21 channel inactivation in controlling heart excitation. Proc. Natl.
+Acad. Sci. USA. 99:17185–17190.
+
+26. Liang, H., C. D. DeMaria, M. G. Erickson, M. X. Mori, B. A.
+Alseikhan, and D. T. Yue. 2003. Uniﬁed mechanisms of Ca21
+regulation across the Ca21 channel family. Neuron. 39:951–960.
+27. Jafri, M. S., J. J. Rice, and R. L. Winslow. 1998. Cardiac Ca21
+dynamics: the roles of ryanodine receptor adaptation and sarcoplasmic
+reticulum load. Biophys. J. 74:1149–1168.
+
+9. Hund, T. J., and Y. Rudy. 2004. Rate dependence and regulation of
+action potential and calcium transient in a canine cardiac ventricular
+cell model. Circulation. 110:3168–3174.
+
+28. Yue, D. T., P. H. Backx, and J. P. Imredy. 1990. Calcium-sensitive
+inactivation in the gating of single calcium channels. Science. 250:
+1735–1738.
+
+10. Shaw, R. M., and Y. Rudy. 1997. Ionic mechanisms of propagation in
+cardiac tissue. Roles of the sodium and L-type calcium currents during
+reduced excitability and decreased gap junction coupling. Circ. Res.
+81:727–741.
+
+11. Kle´ber, A. G., and Y. Rudy. 2004. Basic mechanisms of cardiac
+impulse propagation and associated arrhythmias. Physiol. Rev. 84:
+431–488.
+
+12. Bers, D. M. 2001. Excitation-Contraction Coupling and Cardiac
+Contractile Force. Kluwer Academic Publishers, Dordrecht, The
+Netherlands.
+
+29. Ferreira, G., E. Rı´os, and N. Reyes. 2003. Two components of voltage-
+dependent inactivation in Ca(v)1.2 channels revealed by its gating
+currents. Biophys. J. 84:3662–3678.
+
+30. Luo, C. H., and Y. Rudy. 1994. A dynamic model of the cardiac
+ionic currents and
+
+ventricular action potential.
+I. Simulations of
+concentration changes. Circ. Res. 74:1071–1096.
+
+31. Zeng, J., K. R. Laurita, D. S. Rosenbaum, and Y. Rudy. 1995. Two
+components of the delayed rectiﬁer K1 current in ventricular myo-
+cytes of the guinea pig type. Theoretical formulation and their role in
+repolarization. Circ. Res. 77:140–152.
+
+13. Splawski, I., K. W. Timothy, L. M. Sharpe, N. Decher, P. Kumar,
+R. Bloise, C. Napolitano, P. J. Schwartz, R. M. Joseph, K. Condouris,
+H. Tager-Flusberg, S. G. Priori, et al. 2004. Ca(V)1.2 calcium channel
+
+32. Faber, G. M., and Y. Rudy. 2000. Action potential and contractility
+changes in [Na(1)](i) overloaded cardiac myocytes: a simulation
+study. Biophys. J. 78:2392–2404.
+
+Biophysical Journal 92(5) 1522–1543
+
+1542
+
+Faber et al.
+
+33. Gao, T., T. S. Puri, B. L. Gerhardstein, A. J. Chien, R. D. Green, and
+M. M. Hosey. 1997. Identiﬁcation and subcellular localization of the
+subunits of L-type calcium channels and adenylyl cyclase in cardiac
+myocytes. J. Biol. Chem. 272:19401–19407.
+
+34. Gathercole, D. V., D. J. Colling, J. N. Skepper, Y. Takagishi, A. J.
+Levi, and N. J. Severs. 2000. Immunogold-labeled L-type calcium
+channels are clustered in the surface plasma membrane overlying
+junctional sarcoplasmic reticulum in guinea-pig myocytes-implications
+for excitation-contraction coupling in cardiac muscle. J. Mol. Cell.
+Cardiol. 32:1981–1994.
+
+35. Frank, J. S., G. Mottino, D. Reid, R. S. Molday, and K. D. Philipson.
+1992. Distribution of the Na(1)-Ca21 exchange protein in mammalian
+cardiac myocytes: an immunoﬂuorescence and immunocolloidal gold-
+labeling study. J. Cell Biol. 117:337–345.
+
+36. Kieval, R. S., R. J. Bloch, G. E. Lindenmayer, A. Ambesi, and W. J.
+Lederer. 1992. Immunoﬂuorescence localization of the Na-Ca ex-
+changer in heart cells. Am. J. Physiol. 263:C545–C550.
+
+37. Han, C., P. Tavi, and M. Weckstro¨ m. 2002. Role of the Na(1)-Ca(21)
+exchanger as an alternative trigger of CICR in mammalian cardiac myo-
+cytes. Biophys. J. 82:1483–1496.
+
+38. Smith, G. D., J. E. Keizer, M. D. Stern, W. J. Lederer, and H. Cheng.
+1998. A simple numerical model of calcium spark formation and
+detection in cardiac myocytes. Biophys. J. 75:15–32.
+
+39. Fill, M., A. Zahradnı´kova´, C. A. Villalba-Galea, I. Zahradnı´k, A. L.
+Escobar, and S. Gyo¨rke. 2000. Ryanodine receptor adaptation. J. Gen.
+Physiol. 116:873–882.
+
+40. Zahradnı´kova´, A., and I. Zahradnı´k. 1995. Description of modal gating
+of the cardiac calcium release channel in planar lipid membranes.
+Biophys. J. 69:1780–1788.
+
+41. Zahradnı´k, I., S. Gyo¨rke, and A. Zahradnı´kova´. 2005. Calcium activa-
+tion of ryanodine receptor channels—reconciling RyR gating models
+with tetrameric channel structure. J. Gen. Physiol. 126:515–527.
+
+53. Ho¨ fer, G. F., K. Hohenthanner, W. Baumgartner, K. Groschner, N.
+Klugbauer, F. Hofmann, and C. Romanin. 1997. Intracellular Ca21
+inactivates L-type Ca21 channels with a Hill coefﬁcient of ap-
+proximately 1 and an inhibition constant of approximately 4 microM
+by reducing channel’s open probability. Biophys. J. 73:1857–1865.
+
+54. Vornanen, M., and N. Shepherd. 1997. Restitution of contractility in
+single ventricular myocytes of guinea pig heart. Cardiovasc. Res. 33:
+611–622.
+
+55. Findlay, I. 2004. Physiological modulation of inactivation in L-type
+
+Ca21 channels: one switch. J. Physiol. 554:275–283.
+
+56. Shannon, T. R., K. S. Ginsburg, and D. M. Bers. 2000. Potentiation
+of fractional sarcoplasmic reticulum calcium release by total and free intra-
+sarcoplasmic reticulum calcium concentration. Biophys. J. 78:334–343.
+
+57. Beuckelmann, D. J., and W. G. Wier. 1988. Mechanism of release
+of calcium from sarcoplasmic reticulum of guinea-pig cardiac cells.
+J. Physiol. 405:233–255.
+
+58. Song, L. S., Y. Pi, S. J. Kim, A. Yatani, S. Guatimosim, R. K. Kudej,
+Q. Zhang, H. Cheng, L. Hittinger, B. Ghaleh, D. E. Vatner, W. J.
+Lederer, and S. F. Vatner. 2005. Paradoxical cellular Ca21 signaling
+in severe but compensated canine left ventricular hypertrophy. Circ.
+Res. 97:457–464.
+
+59. Grantham, C. J., and M. B. Cannell. 1996. Ca21 inﬂux during the
+cardiac action potential in guinea pig ventricular myocytes. Circ. Res.
+79:194–200.
+
+60. Choi, B. R., and G. Salama. 2000. Simultaneous maps of optical action
+potentials and calcium transients in guinea-pig hearts: mechanisms
+underlying concordant alternans. J. Physiol. 529:171–188.
+
+61. Bosch, R. F., R. Gaspo, A. E. Busch, H. J. Lang, G. R. Li, and S.
+Nattel. 1998. Effects of the chromanol 293B, a selective blocker of the
+slow, component of the delayed rectiﬁer K1 current, on repolarization
+in human and guinea pig ventricular myocytes. Cardiovasc. Res. 38:
+441–450.
+
+42. Ikemoto, N., M. Ronjat, L. G. Me´sza´ros, and M. Koshita. 1989.
+Postulated role of calsequestrin in the regulation of calcium release
+from sarcoplasmic reticulum. Biochemistry. 28:6764–6771.
+
+62. Wang, D. Y., S. W. Chae, Q. Y. Gong, and C. O. Lee. 1988. Role of
+aiNa in positive force-frequency staircase in guinea pig papillary
+muscle. Am. J. Physiol. 255:C798–C807.
+
+43. Ikemoto, N., B. Antoniu, J. J. Kang, L. G. Me´sza´ros, and M. Ronjat.
+1991. Intravesicular calcium transient during calcium release from
+sarcoplasmic reticulum. Biochemistry. 30:5230–5237.
+
+44. Kawasaki, T., and M. Kasai. 1994. Regulation of calcium channel in sar-
+coplasmic reticulum by calsequestrin. Biochem. Biophys. Res. Commun.
+199:1120–1127.
+
+45. Hidalgo, C., P. Donoso, and P. H. Rodriguez. 1996. Protons induce
+
+calsequestrin conformational changes. Biophys. J. 71:2130–2137.
+
+46. Gyo¨ rke, I., N. Hester, L. R. Jones, and S. Gyo¨rke. 2004. The role
+of calsequestrin, triadin, and junctin in conferring cardiac ryanodine
+receptor responsiveness to luminal calcium. Biophys. J. 86:2121–2128.
+
+47. Guo, W., and K. P. Campbell. 1995. Association of triadin with the
+ryanodine receptor and calsequestrin in the lumen of the sarcoplasmic
+reticulum. J. Biol. Chem. 270:9027–9030.
+
+48. Zhang, L., J. Kelley, G. Schmeisser, Y. M. Kobayashi, and L. R. Jones.
+1997. Complex formation between junctin, triadin, calsequestrin, and
+the ryanodine receptor. Proteins of the cardiac junctional sarcoplasmic
+reticulum membrane. J. Biol. Chem. 272:23389–23397.
+
+49. Hund, T. J., J. P. Kucera, N. F. Otani, and Y. Rudy. 2001. Ionic charge
+conservation and long-term steady state in the Luo-Rudy dynamic cell
+model. Biophys. J. 81:3324–3331.
+
+50. Rose, W. C., C. W. Balke, W. G. Wier, and E. Marban. 1992.
+Macroscopic and unitary properties of physiological ion ﬂux through
+L-type Ca21 channels in guinea-pig heart cells. J. Physiol. 456:
+267–284.
+
+51. Findlay, I. 2002. Voltage-dependent
+
+inactivation of L-type Ca21
+currents in guinea-pig ventricular myocytes. J. Physiol. 545:389–397.
+
+52. Cavalie´, A., D. Pelzer, and W. Trautwein. 1986. Fast and slow gating
+behaviour of single calcium channels in cardiac cells. Relation to ac-
+tivation and inactivation of calcium-channel current. Pﬂugers Arch. 406:
+241–258.
+
+Biophysical Journal 92(5) 1522–1543
+
+63. Szentesi, P., C. Pignier, M. Egger, E. G. Kranias, and E. Niggli. 2004.
+Sarcoplasmic reticulum Ca21 reﬁlling controls recovery from Ca21-
+induced Ca21 release refractoriness in heart muscle. Circ. Res. 95:
+807–813.
+
+64. Ferreira, G., J. Yi, E. Rı´os, and R. Shirokov. 1997. Ion-dependent
+through L-type calcium channels.
+
+inactivation of barium current
+J. Gen. Physiol. 109:449–461.
+
+65. Hadley, R. W., and J. R. Hume. 1987. An intrinsic potential-dependent
+inactivation mechanism associated with calcium channels in guinea-pig
+myocytes. J. Physiol. 389:205–222.
+
+66. Linz, K. W., and R. Meyer. 1998. Control of L-type calcium current
+during the action potential of guinea-pig ventricular myocytes.
+J. Physiol. 513:425–442.
+
+67. Findlay, I. 2002. Voltage- and cation-dependent inactivation of L-type
+Ca21 channel currents in guinea-pig ventricular myocytes. J Physiol
+541(Pt) 3:731–740.
+
+68. Findlay, I. 2002. Beta-adrenergic and muscarinic agonists modulate
+inactivation of L-type Ca21 channel currents in guinea-pig ventricular
+myocytes. J. Physiol. 545:375–388.
+
+69. Findlay, I. 2002. beta-Adrenergic stimulation modulates Ca21- and
+voltage-dependent inactivation of L-type Ca21 channel currents in
+guinea-pig ventricular myocytes. J. Physiol. 541:741–751.
+
+70. Pitt, G. S., R. D. Zu¨hlke, A. Hudmon, H. Schulman, H. Reuter, and
+R. W. Tsien. 2001. Molecular basis of calmodulin tethering and Ca21-
+dependent inactivation of L-type Ca21 channels. J. Biol. Chem. 276:
+30794–30802.
+
+71. Isaev, D., K. Solt, O. Gurtovaya, J. P. Reeves, and R. Shirokov. 2004.
+Modulation of the voltage sensor of L-type Ca21 channels by intra-
+cellular Ca21. J. Gen. Physiol. 123:555–571.
+
+72. Hess, P., J. B. Lansman, and R. W. Tsien. 1986. Calcium channel
+selectivity for divalent and monovalent cations. Voltage and concen-
+
+Kinetic Model of Cardiac CaV1.2
+
+1543
+
+tration dependence of single channel current in ventricular heart cells.
+J. Gen. Physiol. 88:293–319.
+
+73. Lansman, J. B., P. Hess, and R. W. Tsien. 1986. Blockade of current
+through single calcium channels by Cd21, Mg21, and Ca21. Voltage
+and concentration dependence of calcium entry into the pore. J. Gen.
+Physiol. 88:321–347.
+
+74. Lee, A., H. Zhou, T. Scheuer, and W. A. Catterall. 2003. Molecular
+determinants of Ca(21)/calmodulin-dependent regulation of Ca(v)2.1
+channels. Proc. Natl. Acad. Sci. USA. 100:16059–16064.
+
+75. Dzhura, I., Y. Wu, R. J. Colbran, J. R. Balser, and M. E. Anderson.
+2000. Calmodulin kinase determines calcium-dependent facilitation of
+L-type calcium channels. Nat. Cell Biol. 2:173–177.
+
+76. Hudmon, A., H. Schulman, J. Kim, J. M. Maltez, R. W. Tsien, and
+G. S. Pitt. 2005. CaMKII tethers to L-type Ca21 channels, establishing
+a local and dedicated integrator of Ca21 signals for facilitation. J. Cell
+Biol. 171:537–547.
+
+77. Kamp, T. J., and J. W. Hell. 2000. Regulation of cardiac L-type
+calcium channels by protein kinase A and protein kinase C. Circ. Res.
+87:1095–1102.
+
+78. Saucerman, J. J., L. L. Brunton, A. P. Michailova, and A. D.
+McCulloch. 2003. Modeling beta-adrenergic control of cardiac myocyte
+contractility in silico. J. Biol. Chem. 278:47997–48003.
+
+79. Sobie, E. A., K. W. Dilly, J. dos Santos Cruz, W. J. Lederer, and M. S. Jafri.
+2002. Termination of cardiac Ca(21) sparks: an investigative mathemat-
+ical model of calcium-induced calcium release. Biophys. J. 83:59–78.
+
+80. Greenstein, J. L., and R. L. Winslow. 2002. An integrative model of
+the cardiac ventricular myocyte incorporating local control of Ca21
+release. Biophys. J. 83:2918–2945.
+
+81. Greenstein, J. L., R. Hinch, and R. L. Winslow. 2006. Mechanisms of
+excitation-contraction coupling in an integrative model of the cardiac
+ventricular myocyte. Biophys. J. 90:77–91.
+
+82. Chu, A., M. Fill, E. Stefani, and M. L. Entman. 1993. Cytoplasmic
+Ca21 does not
+the cardiac muscle sarcoplasmic reticulum
+ryanodine receptor Ca21 channel, although Ca(21)-induced Ca21
+inactivation of Ca21 release is observed in native vesicles. J. Membr.
+Biol. 135:49–59.
+
+inhibit
+
+83. Stern, M. D. 1992. Theory of excitation-contraction coupling in cardiac
+
+muscle. Biophys. J. 63:497–517.
+
+84. Rice, J. J., M. S. Jafri, and R. L. Winslow. 1999. Modeling gain and
+gradedness of Ca21 release in the functional unit of the cardiac diadic
+space. Biophys. J. 77:1871–1884.
+
+85. Dura, M., I. Zahradnı´k, and A. Zahradnı´kova´. 2003. Kinetics of cardiac
+RyR channel gating studied at high temporal resolution. Physiol. Res.
+52:571–578.
+
+86. Brochet, D. X., D. Yang, A. Di Maio, W. J. Lederer, C. Franzini-
+Armstrong, and H. Cheng. 2005. Ca21 blinks: rapid nanoscopic
+store calcium signaling. Proc. Natl. Acad. Sci. USA. 102:3099–
+3104.
+
+Biophysical Journal 92(5) 1522–1543
+
+

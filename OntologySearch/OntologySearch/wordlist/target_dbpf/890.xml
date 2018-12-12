@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="890">
+<itemtype>xnppaper</itemtype>
+<titles><title>Disposition of the slab-like modules formed by axon branches originating from single CA1 pyramidal neurons in the rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-16T03:33:58Z</last_update_date>
+<creation_date>2008-07-16T03:33:58Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=890</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="890" version="1.02">
+<authors><author>Tamamaki N</author><author>Nojyo Y</author></authors>
+<journal>The Journal of comparative neurology</journal>
+<volume>291</volume>
+<number>4</number>
+<page>509-19</page>
+<abstract>The hippocampus is thought to be an area where the neuronal circuits for short-term memory or the cognitive map may reside. In order to advance theoretical studies and neuronal model simulations of such circuits, the projection of the CA1 pyramidal neurons in the rat dorsal hippocampus, especially in the subiculum, was studied by means of intracellular and extracellular HRP injection. The CA1 pyramidal neurons project principally to the subiculum where each forms a slab-like axonal field 2 mm long along the septotemporal axis, which may be regarded as a module for columnar organization, at a specific rostrocaudal level of the subiculum. The modules of the CA1a pyramidal neurons are disposed in the rostral part of the subiculum, those of the CA1c pyramidal neurons in the caudal part, and those of the CA1b pyramidal neurons in the middle part of the subiculum. The CA1 pyramidal neurons also participate in the construction of the lamellar organization in the hippocampus in that their axon branches run rostrocaudally following the stream of the alvear fibers. The CA1 pyramidal neurons in the dorsal rat hippocampus transfer the topographic map from field CA1 to the subiculum with reversed order in the lamellar direction. The topographical relationship is composed of partially shifted, overlapping slab-like modules. As a result, information conveyed through a lamella will diverge into the subiculum approximately 2 mm wide, and information through a group of lamellae 2 mm wide will converge upon single subicular neurons.</abstract>
+<pubmed_id>2329188 </pubmed_id>
+</detail>
+</item>

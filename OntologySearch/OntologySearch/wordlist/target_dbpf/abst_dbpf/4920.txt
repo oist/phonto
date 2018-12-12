@@ -1,0 +1,20 @@
+Animals
+Hippocampus
+physiology
+Lysine
+analogs
+&
+derivatives
+Male
+Membrane Potentials
+physiology
+Neurons
+physiology
+Oscillometry
+Parahippocampal Gyrus
+physiology
+Rats
+Rats
+Wistar
+Theta Rhythm
+The firing of a proportion of neurons in the in vivo perirhinal cortex, a brain region involved in object recognition memory, has recently been shown to be synchronized with hippocampal theta activity. The purpose of the present study was to determine whether neurons located in perirhinal cortex have intrinsic properties that might encourage their participation in theta activity. To these ends, current clamp recordings were made from 98 neurons located in layer III/V of the in vitro rat perirhinal cortex. The intrinsic properties of these neurons were investigated, and a subset of 61 neurons were tested for the presence of membrane potential oscillations at threshold levels of depolarization. Thirty-nine percent of these neurons displayed a theta-frequency membrane potential oscillation (MPO; mean frequency = 8.6 Hz). When depolarized past spike threshold, these neurons tended to fire in clusters, with a within-cluster interspike interval close to the peak to peak interval of the MPOs. Neurons that did not generate MPOs generated nonaccomodating action potential trains with a frequency that spanned the theta range. Biocytin staining indicated that MPOs could be generated in cells with both pyramidal and nonpyramidal morphology. These findings demonstrate that a large proportion of perirhinal neurons exhibit intrinsic properties that could assist in the entrainment and synchronization of theta-frequency oscillations. These properties may enhance the communication of information between the perirhinal cortex, entorhinal cortex, and hippocampus.

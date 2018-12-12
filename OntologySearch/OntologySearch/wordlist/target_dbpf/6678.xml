@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6678">
+<itemtype>xnppaper</itemtype>
+<titles><title>Emotional context during encoding of neutral items modulates brain activation not only during encoding but also during recognition.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Emotions</keyword>
+<keyword>physiology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Regression Analysis</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:10:30Z</last_update_date>
+<creation_date>2013-02-26T07:10:30Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6678</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6678" version="1.02">
+<authors><author>Erk S</author><author>Martin S</author><author>Walter H</author></authors>
+<journal>NeuroImage</journal>
+<volume>26</volume>
+<number>3</number>
+<page>829-38</page>
+<abstract>In general, encoding of neutral material includes the context in which the respective material is learned. The effect of emotional context on successfully encoded neutral material has been investigated only recently in few studies, but the main underlying mechanisms are still fairly unknown. In the present study, we investigated the effect of positive and negative emotional context on encoding and later recognition of neutral items. We could demonstrate that brain activation not only during encoding but also during recognition of neutral items depended on the emotional valence of the encoding context. Whereas activation of medial temporal lobe structures during encoding specifically predicted subsequent memory when learning appears in a positive emotional context, activation of the anterior temporal cortex in a region with afferent input to the amygdala predicted memory for material learned in negative context. Recognition of items encoded in positive emotional context revealed activation of hippocampal and medial prefrontal regions, recognition of items encoded in negative emotional context revealed activation of the caudate nucleus. We assume that our findings reflect the recruitment of different brain circuits depending on the emotional context during learning.</abstract>
+<pubmed_id>15955493</pubmed_id>
+</detail>
+</item>

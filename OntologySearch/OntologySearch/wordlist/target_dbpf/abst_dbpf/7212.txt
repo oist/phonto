@@ -1,0 +1,41 @@
+2-Amino-5-phosphonovalerate
+pharmacology
+Animals
+Bicuculline
+pharmacology
+Carbachol
+pharmacology
+Excitatory Amino Acids
+physiology
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+Female
+GABA Antagonists
+pharmacology
+Hippocampus
+drug effects
+physiology
+Long-Term Potentiation
+drug effects
+physiology
+Male
+Parasympathetic Nervous System
+physiology
+Parasympathomimetics
+pharmacology
+Pyramidal Cells
+drug effects
+physiology
+Rats
+Rats
+Wistar
+Receptors
+N-Methyl-D-Aspartate
+antagonists
+&
+inhibitors
+Synapses
+drug effects
+physiology
+1. The biologically relevant rules of synaptic potentiation were investigated in hippocampal slices from adult rat by mimicking neuronal activity seen during learning behaviours. Synaptic efficacy was monitored in two separate afferent pathways among the Schaffer collaterals during intracellular recording of CA1 pyramidal neurones. The effects of pairing presynaptic single spikes or bursts with postsynaptic single spikes or bursts, repeated at 5 Hz ('theta' frequency), were compared. 2. The pairing of ten single evoked excitatory synaptic events with ten postsynaptic single action potentials at 5 Hz, repeated twelve times, failed to induce synaptic enhancement (EPSP amplitude 95% of baseline amplitude 20 min after pairing; n = 5). In contrast, pairing the same number of action potentials, but clustered in bursts, induced robust synaptic potentiation (EPSP amplitude 163%; P<0.01, Student's t test; n = 5). This potentiation was input specific, long lasting (>1 h; n = 3) and its induction was blocked by an antagonist at NMDA receptors (20-50 microM D(-)-2-amino-5-phosphonopentanoic acid; EPSP amplitude 109%; n = 6). 3. Presynaptic bursting paired with postsynaptic single action potentials did not induce input specific synaptic change (113 % in the test input vs. 111 % in the control; n = 8). In contrast, postsynaptic bursting when paired with presynaptic single action potentials was sufficient to induce synaptic potentiation when the presynaptic activity preceded the postsynaptic activity by 10 ms (150 vs. 84 % in the control input; P<0.01; n = 10). 4. These results indicate that, under our conditions, postsynaptic bursting activity is necessary for associative synaptic potentiation at CA1 excitatory synapses in adult hippocampus. The existence of a distinct postsynaptic signal for induction of synaptic change calls for refinement of the common interpretation of Hebb's rule, and is likely to have important implications for our understanding of cortical network operation.

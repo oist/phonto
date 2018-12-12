@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3266">
+<itemtype>xnppaper</itemtype>
+<titles><title>Computational model of carbachol-induced delta, theta, and gamma oscillations in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>neuron-glia</keyword>
+</keywords>
+<description>Pinsky-Rinzelの式を用いて、カルバコール誘導θ波、γ波、δ波のリズムを再現した論文。Sejnowskiは何を目論んで、この論文を書いたのだろうか？</description>
+<doi>1063</doi>
+<last_update_date>2010-03-11T11:37:56Z</last_update_date>
+<creation_date>2010-03-11T11:13:56Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3266</url>
+<changelogs>
+<changelog date='2010-03-11T11:37:56Z'>インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3266" version="1.02">
+<authors><author>Tiesinga PH</author><author>Fellous JM</author><author>José JV</author><author>Sejnowski TJ</author></authors>
+<journal>Hippocampus</journal>
+<volume>11</volume>
+<number>3</number>
+<page>251-74</page>
+<abstract>Field potential recordings from the rat hippocampus in vivo contain distinct frequency bands of activity, including delta (0.5-2 Hz), theta (4-12 Hz), and gamma (30-80 Hz), that are correlated with the behavioral state of the animal. The cholinergic agonist carbachol (CCH) induces oscillations in the delta (CCH-delta), theta (CCH-theta), and gamma (CCH-gamma) frequency ranges in the hippocampal slice preparation, eliciting asynchronous CCH-theta, synchronous CCH-delta, and synchronous CCH-theta with increasing CCH concentration (Fellous and Seinowski, Hippocampus 2000;1 0:187-197). In a network model of area CA3, the time scale for CCH-delta corresponded to the decay constant of the gating variable of the calcium-dependent potassium (K-AHP) current, that of CCH-theta to an intrinsic subthreshold membrane potential oscillation of the pyramidal cells, and that of CCH-gamma to the decay constant of GABAergic inhibitory synaptic potentials onto the pyramidal cells. In model simulations, the known physiological effects of carbachol on the muscarinic and K-AHP currents, and on the strengths of excitatory postsynaptic potentials, reproduced transitions from asynchronous CCH-theta to CCH-delta and from CCH-delta to synchronous CCH-theta. The simulations also exhibited the interspersed CCH-gamma/CCH-delta and CCH-gamma/CCH-theta that were observed in experiments. The model, in addition, predicted an oscillatory state with all three frequency bands present, which has not yet been observed experimentally.</abstract>
+<pubmed_id>11769308</pubmed_id>
+</detail>
+</item>

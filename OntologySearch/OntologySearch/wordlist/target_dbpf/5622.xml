@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5622">
+<itemtype>xnppaper</itemtype>
+<titles><title>Changes in GABAB modulation during a theta cycle may be analogous to the fall of temperature during annealing.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Energy Metabolism</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Interneurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Linear Models</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>Receptors</keyword>
+<keyword>GABA-B</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+<keyword>Temperature</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-07-28T02:10:24Z</last_update_date>
+<creation_date>2011-07-28T02:10:24Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5622</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5622" version="1.02">
+<authors><author>Sohal VS</author><author>Hasselmo ME</author></authors>
+<journal>Neural computation</journal>
+<volume>10</volume>
+<number>4</number>
+<page>869-82</page>
+<abstract>Changes in GABA modulation may underlie experimentally observed changes in the strength of synaptic transmission at different phases of the theta rhythm (Wyble, Linster,&amp;Hasselmo, 1997). Analysis demonstrates that these changes improve sequence disambiguation by a neural network model of CA3. We show that in the framework of Hopfield and Tank (1985), changes in GABA suppression correspond to changes in the effective temperature and the relative energy of data terms and constraints of an analog network. These results suggest that phasic changes in the activity of inhibitory interneurons during a theta cycle may produce dynamics that resemble annealing. These dynamics may underlie a role for the theta cycle in improving sequence retrieval for spatial navigation.</abstract>
+<pubmed_id>9573410</pubmed_id>
+</detail>
+</item>

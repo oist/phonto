@@ -1,0 +1,156 @@
+mysql> use phdatabase;
+Database changed
+mysql> show tables;
++----------------------------+
+| Tables_in_phdatabase       |
++----------------------------+
+| auth_group                 |
+| auth_group_permissions     |
+| auth_permission            |
+| auth_user                  |
+| auth_user_groups           |
+| auth_user_user_permissions |
+| currency                   |
+| django_admin_log           |
+| django_content_type        |
+| django_session             |
+| django_site                |
+| phdb_dbmodel               |
+| phdb_dbmodel_datas         |
+| phdb_dbmodel_info          |
+| phdb_dbmodelex_creators    |
+| phdb_dbmodelex_phpl        |
+| phdb_dbmodelex_simulation  |
+| phdb_dbmorphology          |
+| phdb_dbmorphology_info     |
+| phdb_dbtimeseries          |
+| phdb_dbtimeseries_info     |
+| phdb_dbuser_datas          |
+| phz_backup                 |
+| user_account               |
++----------------------------+
+24 rows in set (0.00 sec)
+
+mysql> desc phdb_dbmodel;
++---------------------+----------+------+-----+---------+----------------+
+| Field               | Type     | Null | Key | Default | Extra          |
++---------------------+----------+------+-----+---------+----------------+
+| auto_id             | int(11)  | NO   | PRI | NULL    | auto_increment |
+| revision            | int(11)  | NO   |     | NULL    |                |
+| qualifier           | int(11)  | NO   |     | NULL    |                |
+| name                | longtext | NO   |     | NULL    |                |
+| data_file           | longtext | NO   |     | NULL    |                |
+| data_format         | longtext | NO   |     | NULL    |                |
+| image_file          | longtext | NO   |     | NULL    |                |
+| description         | longtext | NO   |     | NULL    |                |
+| author_name         | longtext | NO   |     | NULL    |                |
+| author_organization | longtext | NO   |     | NULL    |                |
+| upload_date         | datetime | NO   |     | NULL    |                |
+| last_updated        | datetime | NO   |     | NULL    |                |
+| state               | int(11)  | NO   |     | NULL    |                |
+| info_id             | int(11)  | NO   | MUL | NULL    |                |
+| simulations         | longtext | NO   |     | NULL    |                |
+| creators            | longtext | NO   |     | NULL    |                |
+| phz_file            | longtext | NO   |     | NULL    |                |
+| module_root         | longtext | NO   |     | NULL    |                |
+| module_number       | int(11)  | NO   |     | NULL    |                |
+| model_lastupdate    | datetime | NO   |     | NULL    |                |
+| model_registerdate  | datetime | NO   |     | NULL    |                |
+| model_creators      | longtext | NO   |     | NULL    |                |
+| model_articles      | longtext | NO   |     | NULL    |                |
+| model_linkwith      | longtext | NO   |     | NULL    |                |
++---------------------+----------+------+-----+---------+----------------+
+24 rows in set (0.00 sec)
+
+mysql> desc phdb_dbmodel_datas;
++----------------+------------+------+-----+---------+----------------+
+| Field          | Type       | Null | Key | Default | Extra          |
++----------------+------------+------+-----+---------+----------------+
+| model_id       | int(11)    | NO   |     | NULL    |                |
+| model_revision | int(11)    | NO   |     | NULL    |                |
+| module_id      | longtext   | NO   |     | NULL    |                |
+| mt_id          | int(11)    | NO   |     | NULL    |                |
+| data_type      | varchar(1) | NO   |     | NULL    |                |
+| data_id        | int(11)    | NO   |     | NULL    |                |
+| data_revision  | int(11)    | NO   |     | NULL    |                |
+| auto_id        | int(11)    | NO   | PRI | NULL    | auto_increment |
++----------------+------------+------+-----+---------+----------------+
+8 rows in set (0.00 sec)
+
+mysql> desc phdb_dbmodel_info;
++-----------------+----------+------+-----+---------+----------------+
+| Field           | Type     | Null | Key | Default | Extra          |
++-----------------+----------+------+-----+---------+----------------+
+| id              | int(11)  | NO   | PRI | NULL    | auto_increment |
+| latest_revision | int(11)  | NO   |     | NULL    |                |
+| registered      | datetime | NO   |     | NULL    |                |
+| user_id         | int(11)  | NO   | MUL | NULL    |                |
++-----------------+----------+------+-----+---------+----------------+
+4 rows in set (0.00 sec)
+
+mysql> desc phdb_dbmodelex_creators;
++--------------+----------+------+-----+---------+----------------+
+| Field        | Type     | Null | Key | Default | Extra          |
++--------------+----------+------+-----+---------+----------------+
+| dbmodel_id   | int(11)  | NO   | MUL | NULL    |                |
+| name         | longtext | NO   |     | NULL    |                |
+| organization | longtext | NO   |     | NULL    |                |
+| description  | longtext | NO   |     | NULL    |                |
+| auto_id      | int(11)  | NO   | PRI | NULL    | auto_increment |
++--------------+----------+------+-----+---------+----------------+
+5 rows in set (0.00 sec)
+
+mysql> desc phdb_dbmodelex_phpl;
++---------------------+----------+------+-----+---------+----------------+
+| Field               | Type     | Null | Key | Default | Extra          |
++---------------------+----------+------+-----+---------+----------------+
+| dbmodel_id          | int(11)  | NO   | MUL | NULL    |                |
+| data_file           | longtext | NO   |     | NULL    |                |
+| images              | longtext | NO   |     | NULL    |                |
+| description         | longtext | NO   |     | NULL    |                |
+| author_name         | longtext | NO   |     | NULL    |                |
+| author_organization | longtext | NO   |     | NULL    |                |
+| module_infos        | longtext | NO   |     | NULL    |                |
+| upload_date         | datetime | NO   |     | NULL    |                |
+| auto_id             | int(11)  | NO   | PRI | NULL    | auto_increment |
++---------------------+----------+------+-----+---------+----------------+
+9 rows in set (0.00 sec)
+
+mysql> desc phdb_dbmodelex_simulation;
++---------------+----------+------+-----+---------+----------------+
+| Field         | Type     | Null | Key | Default | Extra          |
++---------------+----------+------+-----+---------+----------------+
+| dbmodel_id    | int(11)  | NO   | MUL | NULL    |                |
+| figure        | longtext | NO   |     | NULL    |                |
+| variable      | longtext | NO   |     | NULL    |                |
+| timestep      | longtext | NO   |     | NULL    |                |
+| timestep_unit | longtext | NO   |     | NULL    |                |
+| length        | longtext | NO   |     | NULL    |                |
+| length_unit   | longtext | NO   |     | NULL    |                |
+| method        | longtext | NO   |     | NULL    |                |
+| simulator     | longtext | NO   |     | NULL    |                |
+| auto_id       | int(11)  | NO   | PRI | NULL    | auto_increment |
++---------------+----------+------+-----+---------+----------------+
+10 rows in set (0.00 sec)
+
+
+--------------
+Model ID
+Model name
+Model description
+Model creator
+Paper title
+Labels
+Paper authors
+
+select info_id,max(revision) from phdb_dbmodel group by info_id;
+
+select info_id ,name ,description
+select info_id ,name
+from phdb_dbmodel
+where (info_id , revision) in(select info_id,max(revision) from phdb_dbmodel group by info_id)
+  and qualifier = 1
+;
+select dbmodel_id ,name from phdb_dbmodelex_creators
+
+

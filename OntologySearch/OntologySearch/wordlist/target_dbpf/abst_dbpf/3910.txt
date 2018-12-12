@@ -1,0 +1,31 @@
+Action Potentials
+physiology
+Animals
+Computer Simulation
+Dendrites
+physiology
+Electric Stimulation
+methods
+Electrophysiology
+methods
+Excitatory Postsynaptic Potentials
+physiology
+Hippocampus
+cytology
+Membrane Potentials
+physiology
+Models
+Neurological
+Neural Conduction
+Neuronal Plasticity
+physiology
+Neurons
+physiology
+Potassium Channels
+physiology
+Synapses
+physiology
+Synaptic Transmission
+physiology
+Time Factors
+Although the supralinear summation of synchronizing excitatory postsynaptic potentials (EPSPs) and backpropagating action potentials (APs) is important for spike-timing-dependent synaptic plasticity (STDP), the spatial conditions of the amplification in the divergent dendritic structure have yet to be analyzed. In the present study, we simulated the coincidence of APs with EPSPs at randomly determined synaptic sites of a morphologically reconstructed hippocampal CA1 pyramidal model neuron and clarified the spatial condition of the amplifying synapses. In the case of uniform conductance inputs, the amplifying synapses were localized in the middle apical dendrites and distal basal dendrites with small diameters, and the ratio of synapses was unexpectedly small: 8-16% in both apical and basal dendrites. This was because the appearance of strong amplification requires the coincidence of both APs of 3-30 mV and EPSPs of over 6 mV, both of which depend on the dendritic location of synaptic sites. We found that the localization of amplifying synapses depends on A-type K+ channel distribution because backpropagating APs depend on the A-type K+ channel distribution, and that the localizations of amplifying synapses were similar within a range of physiological synaptic conductances. We also quantified the spread of membrane amplification in dendrites, indicating that the neighboring synapses can also show the amplification. These findings allowed us to computationally illustrate the spatial localization of synapses for supralinear summation of APs and EPSPs within thin dendritic branches where patch clamp experiments cannot be easily conducted.

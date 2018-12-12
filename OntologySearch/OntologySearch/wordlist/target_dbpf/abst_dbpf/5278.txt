@@ -1,0 +1,21 @@
+Animals
+Chickens
+physiology
+Color Perception
+physiology
+Conditioning
+Operant
+physiology
+Cues
+Functional Laterality
+physiology
+Hippocampus
+physiology
+Learning
+physiology
+Memory
+physiology
+Reward
+Space Perception
+physiology
+Effects of bilateral chemical lesion of the hippocampus was examined in 1- to 2-week-old domestic chicks. Chicks were trained and tested in an egocentric spatial task, in which subject chicks should memorize location of a rewarding object in reference to the subject's viewpoint. Two beads were simultaneously presented on a wall, and chicks pecked at one of them based on relative location (left-right or above-below) to gain a reward. Comparison of training curves revealed that the lesion significantly delayed, but did not impair, the acquisition. Recall of the spatial cue, as well as conditioning with color cues, was not impaired. Hippocampus could thus be involved in memory formation of spatial relationships between nearby objects.

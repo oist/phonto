@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5175">
+<itemtype>xnppaper</itemtype>
+<titles><title>Pax6 is required for production and maintenance of progenitor cells in postnatal hippocampal neurogenesis.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Biological Markers</keyword>
+<keyword>Cell Proliferation</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Eye Proteins</keyword>
+<keyword>physiology</keyword>
+<keyword>Glial Fibrillary Acidic Protein</keyword>
+<keyword>metabolism</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Homeodomain Proteins</keyword>
+<keyword>physiology</keyword>
+<keyword>Immunohistochemistry</keyword>
+<keyword>Microscopy</keyword>
+<keyword>Immunoelectron</keyword>
+<keyword>Paired Box Transcription Factors</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Repressor Proteins</keyword>
+<keyword>physiology</keyword>
+<keyword>Stem Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-20T01:54:50Z</last_update_date>
+<creation_date>2011-05-20T01:54:50Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5175</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5175" version="1.02">
+<authors><author>Maekawa M</author><author>Takashima N</author><author>Arai Y</author><author>Nomura T</author><author>Inokuchi K</author><author>Yuasa S</author><author>Osumi N</author></authors>
+<journal>Genes to cells : devoted to molecular&amp;cellular mechanisms</journal>
+<volume>10</volume>
+<number>10</number>
+<page>1001-14</page>
+<abstract>Neurogenesis is crucial for brain formation and continues to take place in certain regions of the postnatal brain including the subgranular zone (SGZ) of the hippocampal dentate gyrus (DG). Pax6 transcription factor is a key player for patterning the brain and promoting embryonic neurogenesis, and is also expressed in the SGZ. In the DG of wild-type rats, more than 90% of total BrdU-incorporated cells expressed Pax6 at 30 min time point after BrdU injection. Moreover, approximately 60% of Pax6+ cells in the SGZ exhibited as GFAP+ cells with a radial glial phenotype and about 30% of Pax6+ cells exhibited as PSA-NCAM+ cells in clusters. From BrdU labeling for 3 days, we found that cell proliferation was 30% decreased at postnatal stages in Pax6-deficient rSey2/+ rat. BrdU pulse/chase experiments combined with marker staining revealed that PSA-NCAM+ late progenitor cells increased at the expense of GFAP+ early progenitors in rSey2/+ rat. Furthermore, expression of Wnt ligands in the SGZ was markedly reduced in rSey2/+ rat. Taken all together, an appropriate dosage of Pax6 is essential for production and maintenance of the GFAP+ early progenitor cells in the postnatal hippocampal neurogenesis.</abstract>
+<pubmed_id>16164600</pubmed_id>
+</detail>
+</item>

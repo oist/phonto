@@ -1,0 +1,19 @@
+Afferent Pathways
+drug effects
+physiology
+Animals
+Atropine
+pharmacology
+Electroencephalography
+Hippocampus
+drug effects
+physiology
+Physostigmine
+pharmacology
+Rabbits
+Scopolamine
+pharmacology
+Septal Nuclei
+drug effects
+physiology
+The effects of cholinergic drugs upon the evoked activity of extracellularly recorded neurons of the medial septal nucleus-nucleus of the diagonal band (MS-DB complex) were tested in unanesthetized rabbits. Electrical stimulation of MFB resulted in entrainment of the background theta-cycles in the neurons with strong rhythmic discharge (types I and II). Phase-locking of the background theta-cycles to the stimulus occurred 'by the burst', or 'by the pause' within the theta-range of frequencies (3-12 Hz). Single-spike responses, following up to 30 Hz and more, were also evoked by MFB stimulation, especially in the cells with weak theta-modulation (type III) or without it (type IV). Injection of physostigmine increased background theta-modulation of neuronal activity and simultaneously blocked or diminished responses to repetitive MFB stimulation in 82% of the MS-DB units, independent of their type of response. Driving of theta-cycles both 'by the burst' and 'by the pause' was ineffective or drastically reduced. Single spike responses disappeared or became unstable, though their minimal latencies did not change. Initial inhibitory responses were blocked or became significantly shorter. Antimuscarinic drugs, scopolamine and atropine, which abolished theta-modulation in many MS-DB units, restored responses and sometimes enhanced them. Repetitive stimulation of the MFB in this condition was effective up to the high frequencies, well beyond the theta-range. Thus, the majority of the MS-DB units did not respond to the afferent stimuli during prominent theta-activity evoked by physostigmine. The role of the septal cholinergic system in gating of afferent input during the theta-state and its importance for learning and memory is suggested.

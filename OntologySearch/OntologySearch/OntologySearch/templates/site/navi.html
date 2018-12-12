@@ -1,0 +1,139 @@
+
+{% extends "site/base.tpl.html" %}
+
+{%load static %}
+
+{% load i18n %}
+
+{% block extrajs %}
+{% endblock %} {# end of extrajs block #}
+
+{% block handstyle %}
+<style type="text/css">
+<!--
+/* base object style */
+html,body { height:100%; }
+html body *{
+	font-family: "Meiryo UI","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+	font-size:12px;
+}
+span { white-space: nowrap; }
+#container{padding:1%;}
+#debug{
+position:absolute;
+bottom:0px;
+border: 1px solid gray
+}
+
+/* css for each class */
+.floatleft{float:left;}
+.clearboth{clear:both;}
+.pagetitle{
+	font-size:16px;
+	font-weight:bold;
+	padding-left:1%;
+	padding-top:8px;
+	height:32px;
+}
+.title , .resulttitle{
+	font-size:14px;
+	margin-bottom:4px;
+}
+
+#tabs ul{
+	padding:2px;
+	padding-left:10px;
+	list-style-type: none;
+}
+#tabs ul li{
+	padding:2px;
+	padding-left:10px;
+}
+/* css for each object */
+
+
+-->
+</style>
+{% endblock %}{# end of handstyle block #}
+
+{% block handscript %}
+{% endblock %} {# end of handscript block #}
+
+{% block header %}
+<div>
+	<div class="pagetitle floatleft">Ontology Search Navi</div>{{test}}
+	<div class="floatleft loaderdiv" style="display:none;"><img class="loader"></div>
+	<div class="clearboth"></div>
+</div>
+{% endblock %} {# end of header block #}
+
+{% block content %}
+<div id="tabs">
+	<ul><b>Pages</b>
+		<li><a href="search" target="_blank">PhDatabase Search</a></li>
+		<li><a href="ontology" target="_blank">Ontology Viewer</a></li>
+		<li><a href="sampleadmin" target="_blank">Administration sample</a></li>
+		<li><a href="sampleupdate" target="_blank">Model/Keyword update sample</a></li>
+	</ul>
+	<ul><b>Examples</b>
+	<li>
+	<ul><b>Search Database with initial search</b>
+		<li>{{myhost}}search/{databasename}/{word}</li>
+		<li><a href="search/phdatabase/CNS" target="_blank">{{myhost}}search/phdatabase/CNS</a>(search 'CNS' in Phdatabase)</li>
+		<li><a href="search/ipathwaysplus/signaling" target="_blank">{{myhost}}search/ipathwaysplus/signaling</a>(search 'signaling' in iPathwaysPlus)</li>
+		<li>
+			<ul>*If you ommit {databasename} , PhDatabase will be target.
+				<li><a href="search/brain" target="_blank">{{myhost}}search/brain</a>(search 'brain')</li>
+				<li><a href="search/organ" target="_blank">{{myhost}}search/organ</a>(search 'organ')</li>
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<ul><b>Ontology Viewer with initial search</b>
+		<li><a href="ontology/brain" target="_blank">{{myhost}}ontology/brain</a>(search 'brain')</li>
+		<li><a href="ontology/organ" target="_blank">{{myhost}}ontology/organ</a>(search 'organ')</li>
+	</ul>
+	</li>
+	</ul>
+	<br>
+	<br>
+	<ul><b>Apis for Search PhDatabase</b>
+		<li>{{myhost}}apps/searchdb/{word}  --  Search PhDatabase  (return as json)</li>
+		<li>{{myhost}}apps/complete/{word}  --  Get candidate words for auto complete</li>
+	</ul>
+	<ul><b>Api Examples</b>
+		<li><a href="apps/searchdb/brain" target="_blank">{{myhost}}apps/searchdb/brain</a>(search 'brain')</li>
+		<li><a href="apps/searchdb/organ" target="_blank">{{myhost}}apps/searchdb/organ</a>(search 'organ')</li>
+		<li><a href="apps/complete/bra" target="_blank">{{myhost}}apps/complete/bra</a>(get candidate words for 'bra')</li>
+		<li><a href="apps/complete/or" target="_blank">{{myhost}}apps/complete/or</a>(get candidate words for 'or')</li>
+	</ul>
+	<br>
+	<br>
+<!--
+	<ul><b>Apis for Ontology Viewer</b>
+		<li>{{myhost}}apps/hierarchy/{word}  --  Get hierarchy data  (return as json)</li>
+		<li>{{myhost}}apps/classes/{word}  --  Get classURI , className</li>
+		<li>{{myhost}}apps/contents/{ontology_uri}  --  Get ontology contents</li>
+	</ul>
+	<ul><b>Api Examples</b>
+		<li><a href="apps/hierarchy/brain" target="_blank">{{myhost}}apps/hierarchy/brain</a>(get 'brain' hierarchy)</li>
+		<li><a href="apps/hierarchy/organ" target="_blank">{{myhost}}apps/hierarchy/organ</a>(get 'organ' hierarchy)</li>
+		<li><a href="apps/classes/brain" target="_blank">{{myhost}}apps/classes/brain</a>(get ontology classes named 'brain')</li>
+		<li><a href="apps/classes/organ" target="_blank">{{myhost}}apps/classes/organ</a>(get ontology classes named 'organ')</li>
+		<li>
+			<a href="apps/contents/http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-GrossAnatomy.owl#birnlex_796" target="_blank">
+				{{myhost}}apps/contents/http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-GrossAnatomy.owl#birnlex_796
+			</a>(get ontology contents)
+		</li>
+		<li>
+			<a href="apps/contents/http://purl.obolibrary.org/obo/UBERON_0000062" target="_blank">
+				{{myhost}}apps/contents/http://purl.obolibrary.org/obo/UBERON_0000062
+			</a>(get ontology contents)
+		</li>
+	</ul>
+-->
+</div>
+{% endblock %} {# end of content block #}
+
+

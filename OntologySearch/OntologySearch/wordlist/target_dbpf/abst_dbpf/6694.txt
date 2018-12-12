@@ -1,0 +1,41 @@
+Acoustic Stimulation
+Adult
+Brain
+anatomy
+&
+histology
+physiology
+Brain Mapping
+Cues
+Female
+Frontal Lobe
+anatomy
+&
+histology
+physiology
+Hippocampus
+anatomy
+&
+histology
+physiology
+Humans
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Neurons
+physiology
+Prefrontal Cortex
+anatomy
+&
+histology
+physiology
+Semantics
+Temporal Lobe
+anatomy
+&
+histology
+physiology
+Verbal Behavior
+physiology
+Neuroimaging studies have implicated the prefrontal cortex and medial temporal areas in the successful encoding of verbal material into episodic memory. The present study used event-related functional MRI to investigate whether the brain areas associated with successful episodic encoding of words in a semantic study task are a subset of those demonstrating depth of processing effects. In addition, we tested whether the brain areas associated with successful episodic encoding differ depending on the nature of the study task. At study, 15 volunteers were cued to make either animacy or alphabetical decisions about words. A recognition memory test including confidence judgements followed after a delay of 15 min. Prefrontal and medial temporal regions showed greater functional MRI activations for semantically encoded words relative to alphabetically encoded words. Two of these regions (left anterior hippocampus and left ventral inferior frontal gyrus) showed greater activation for semantically encoded words that were subsequently recognized confidently. However, other regions (left posterior hippocampus and right inferior frontal cortex) demonstrated subsequent memory effects, but not effects of depth of processing. Successful memory for alphabetically encoded words was also associated with greater activation in the left anterior hippocampus and left ventral inferior frontal gyrus. The findings suggest that episodic encoding for words in a semantic study task involves a subset of the regions activated by deep relative to shallow processing. The data provide little evidence that successful episodic encoding during a shallow study task depends upon regions different from those that support the encoding of deeply studied words. Instead, the findings suggest that successful episodic encoding during a shallow study task relies on a subset of the regions engaged during successful encoding in a deep task.

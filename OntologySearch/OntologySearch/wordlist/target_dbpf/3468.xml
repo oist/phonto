@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3468">
+<itemtype>xnppaper</itemtype>
+<titles><title>Extrasynaptic glutamate diffusion in the hippocampus: ultrastructural constraints, uptake, and receptor activation.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>neuron-glia</keyword>
+</keywords>
+<description></description>
+<doi>641</doi>
+<last_update_date>2010-03-27T10:24:21Z</last_update_date>
+<creation_date>2010-03-27T10:24:21Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3468</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3468" version="1.02">
+<authors><author>Rusakov DA</author><author>Kullmann DM</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>18</volume>
+<number>9</number>
+<page>3158-70</page>
+<abstract>Fast excitatory synapses are generally thought to act as private communication channels between presynaptic and postsynaptic neurons. Some recent findings, however, suggest that glutamate may diffuse out of the synaptic cleft and bind to several subtypes of receptors, either in the perisynaptic membrane or at neighboring synapses. It is not known whether activation of these receptors can occur in response to the release of a single vesicle of glutamate. Here we estimate the spatiotemporal profile of glutamate in the extrasynaptic space after vesicle exocytosis, guided by detailed ultrastructural measurements of the CA1 neuropil in the adult rat. We argue that the vicinity of the synapse can be treated as an isotropic porous medium, in which diffusion is determined by the extracellular volume fraction and the tortuosity factor, and develop novel stereological methods to estimate these parameters. We also estimate the spatial separation between synapses, to ask whether glutamate released at one synapse can activate NMDA and other high-affinity receptors at a neighboring synapse. Kinetic simulations of extrasynaptic glutamate uptake show that transporters rapidly reduce the free concentration of transmitter. Exocytosis of a single vesicle is, however, sufficient to bind to high-affinity receptors situated in the immediate perisynaptic space. The distance separating a typical synapse from its nearest neighbor is approximately 465 nm. Whether glutamate can reach a sufficient concentration to activate NMDA receptors at this distance depends critically on the diffusion coefficient in the extracellular space. If diffusion is much slower than in free aqueous solution, NMDA receptors could mediate crosstalk between neighboring synapses.</abstract>
+<pubmed_id>9547224</pubmed_id>
+</detail>
+</item>

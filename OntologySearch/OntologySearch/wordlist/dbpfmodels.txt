@@ -1,0 +1,661 @@
+1000,Computer simulation of carbachol-driven rhythmic population oscillations in the CA3 region of the in vitro rat hippocampus.
+1016,Picrotoxin-induced epileptiform activity in hippocampus: role of endogenous versus synaptic factors.
+1020,Induction of synaptic potentiation in hippocampus by patterned stimulation involves two events.
+1021,Local synaptic circuits in rat hippocampus: interactions between pyramidal cells.
+1023,Spread of synchronous firing in longitudinal slices from the CA3 region of the hippocampus.
+1025,Excitatory synaptic interactions between CA3 neurones in the guinea-pig hippocampus.
+1029,Epileptiform activity induced by changes in extracellular potassium in hippocampus.
+1031,Kindling-like stimulus patterns induce epileptiform discharges in the guinea pig in vitro hippocampus.
+10485,Perception of species-specific vocalizations in rats: role of the cholinergic septo-hippocampal pathway and aging.
+10787,Observing frequency content time evolution of independent hippocampal signals.
+10812,Fast automatic template matching for spike sorting based on Davies-Bouldin validation indices.
+110,Spatiotemporal visualization of long-term potentiation and depression in the hippocampal CA1 area.
+111,Spatial analysis of spike-timing-dependent LTP and LTD in the CA1 area of hippocampal slices using optical imaging.
+117,Hippocampal place fields: relationship between degree of field overlap and cross-correlations within ensembles of hippocampal neurons.
+1382,Why there are complementary learning systems in the hippocampus and neocortex: insights from the successes and failures of connectionist models of learning and memory.
+1397,Computational analysis of the role of the hippocampus in memory.
+1402,Human amnesia and the medial temporal region: enduring memory impairment following a bilateral lesion limited to field CA1 of the hippocampus.
+1483,Internally generated cell assembly sequences in the rat hippocampus.
+1548,Reactivation of experience-dependent cell assembly patterns in the hippocampus.
+1577,Organization of cell assemblies in the hippocampus.
+1596,Finite scale of spatial representation in the hippocampus.
+1666,Activity of hippocampal pyramidal neurons during trace eyeblink conditioning.
+175,The hippocampus and declarative memory: cognitive mechanisms and neural codes.
+177,Free recall and recognition in a network model of the hippocampus: simulating effects of scopolamine on human memory function.
+1772,Synapse formation on neurons born in the adult hippocampus.
+1781,The functional nature of synaptic circuitry is altered in area CA3 of the hippocampus in a mouse model of Down's syndrome.
+188,Generation of theta rhythm in medial entorhinal cortex of freely moving rats.
+189,Three classes of pyramidal neurons in layer V of rat perirhinal cortex.
+190,Theta- and movement velocity-related firing of hippocampal neurons is disrupted by lesions centered on the perirhinal cortex.
+1909,Digital VLSI Implementation of a Moving Object Detection Algorithm Based on Neuronal Propagation in the Hippocampus
+1918,A Mathematical Model for the Hippocampus: Towards the Understanding of Episodic Memory and Imagination
+195,Theta activity, virtual navigation and the human hippocampus.
+196,Projections from the lateral, basal, and accessory basal nuclei of the amygdala to the entorhinal cortex in the macaque monkey.
+1960,Diabetes-, stress- and ageing-related changes in synaptic plasticity in hippocampus and neocortex--the same metaplastic process?
+1961,Diabetes-, stress- and ageing-related changes in synaptic plasticity in hippocampus and neocortex--the same metaplastic process?
+1998,Theoretical predictions and experimental proofs on Cantor coding in the hippocampus
+2042,Does Hippocampus Code Spatial Sequences During Alert Immobility?
+2052,Cantor Coding in a Model of Hippocampus
+2510,Entorhinal theta phase precession sculpts dentate gyrus place fields.
+2523,The Brain Computation Based on Synchronization of Nonlinear Oscillations: On Theta Rhythms in Rat Hippocampus and Human Scalp
+2526,Neural dynamics of the cognitive map in the hippocampus.
+2552,A neural network model of the hippocampus with theta phase precession for object-place memory
+2553,The temporal structure of the memory storage in the theta phase precessing model of the hippocampus
+2554,Synchronization in the hippocampus as a neural principle representing contextual information
+2561,Temporal coordination in rat hippocampus for real-time cognitive map formation and its implementation in mobile robot
+2566,Memory - guided locomotion with spatial ambiguity: behavioral context representation by theta phase coding in the hippocampus
+2599,Does the hippocampus avoid spatial ambiguity in navigation? -a model study of theta phase coding-
+2601,A hierarchical representation of object-place memory obtained by theta phase coding in the hippocampus: A computational study
+2609,The hippocampus as a cognitive graph.
+2610,A view model which accounts for the spatial fields of hippocampal primate spatial view cells and rat place cells.
+2614,The Hippocampus as a Cognitive Map
+2639,A neural network model of the hippocampus with theta phase precession for object-place memory
+2648,How reward can induce reverse replay of behavioral sequences in the hippocampus
+269,Memory deficits characterized by patterns of lesions to the hippocampus and parahippocampal cortex.
+2704,Contributions of intrinsic and synaptic activities to the generation of neuronal discharges in in vitro hippocampus.
+274,Hippocampus: cognitive processes and neural representations that underlie declarative memory.
+2793,Experimental data showing the effect of DC extracellular electric fields on neuronal membrane polarization in rat hippocampal slices using fast voltage-sensitive dye imaging technique
+280,Encoding and retrieval of episodic memories: role of cholinergic and GABAergic modulation in the hippocampus.
+286,Human hippocampus and viewpoint dependence in spatial memory.
+291,One-trial memory for object-place associations after separate lesions of hippocampus and posterior parahippocampal region in the monkey.
+297,Elements of a neurobiological theory of the hippocampus: the role of activity-dependent synaptic plasticity in memory.
+3063,The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat.
+3114,Learning induces long-term potentiation in the hippocampus.
+3155,Dual synaptic plasticity in the hippocampus: Hebbian and spatiotemporal learning dynamics.
+3188,Medial septal modulation of the ascending brainstem hippocampal synchronizing pathways in the freely moving rat.
+3209,Glutamatergic propagation of GABAergic seizure-like afterdischarge in the hippocampus in vitro.
+3212,Synaptic interactions between pyramidal cells and interneurone subtypes during seizure-like activity in the rat hippocampus.
+3213,Region-specific modulation of electrically induced synchronous oscillations in the rat hippocampus and cerebral cortex.
+3218,Entrainment of neocortical neurons and gamma oscillations by the hippocampal theta rhythm.
+3250,Effects of adenosine receptors on the synaptic and EPSP-spike components of long-term potentiation and depotentiation in the guinea-pig hippocampus.
+3257,Acute and chronic nicotine exposure reverse age-related declines in the induction of long-term potentiation in the rat hippocampus.
+3262,Effects of temperature on adenosine A1 receptor activation in guinea pig hippocampus in vitro.
+3266,Computational model of carbachol-induced delta, theta, and gamma oscillations in the hippocampus.
+3280,Direct evidence for mutual interactions between perineuronal astrocytes and interneurons in the CA1 region of the rat hippocampus.
+329,Active spatial information processing in the septo-hippocampal system.
+3310,Cantor Coding in a Model of Hippocampus 
+3333,Chaotic dynamics, episodic memory, and the dynamic model for the hippocampus
+3352,Path Integration and cognitive map formation in cortico-hippocampal theta networks
+3452,Glutamatergic synapses on oligodendrocyte precursor cells in the hippocampus.
+3463,Contributions of intrinsic and synaptic activities to the generation of neuronal discharges in in vitro hippocampus
+3468,Extrasynaptic glutamate diffusion in the hippocampus: ultrastructural constraints, uptake, and receptor activation.
+3481,Glial contribution to glutamate uptake at Schaffer collateral-commissural synapses in the hippocampus.
+361,A model of spatial map formation in the hippocampus of the rat.
+3727,Path intergration and cognitive map formation in cortico-hippocampal theta networks
+3745,Simulation of Human Episodic Memory by Using a Computational Model of the Hippocampus
+3747,Subsequent memory-dependent EEG theta correlates to parahippocampal blood oxygenation level-dependent response.
+3748,Independence of the unimodal tuning of firing rate from theta phase precession in hippocampal place cells.
+376,Spatial information content and reliability of hippocampal CA1 neurons: effects of visual input.
+379,Preserved spatial coding in hippocampal CA1 pyramidal cells during reversible suppression of CA3c output: evidence for pattern completion in hippocampus.
+3902,The relation between spike-timing dependent plasticity and Ca2+ dynamics in the hippocampal CA1 network.
+3907,Phase shift of subthreshold theta oscillation in hippocampal CA1 pyramidal cell membrane by excitatory synaptic inputs.
+3909,The spatiotemporal learning rule and its efficiency in separating spatiotemporal patterns.
+3910,Spatial localization of synapses required for supralinear summation of action potentials and EPSPs.
+3914,Effects of the mono- and tetrasialogangliosides GM1 and GQ1b on ATP-induced long-term potentiation in hippocampal CA1 neurons.
+392,Theta phase-specific codes for two-dimensional position, trajectory and heading in the hippocampus.
+3929,Functional Differences Between the Spatio-temporal Learning Rule (STLR) and Hebb Type (HEBB) in Single Pyramidal Cells in the Hippocampal CA1 Area
+3954,The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat.
+3971,Adult neurogenesis modulates the hippocampus-dependent period of associative fear memory.
+3973,Input-specific spine entry of soma-derived Vesl-1S protein conforms to synaptic tagging.
+398,Organization of hippocampal cell assemblies based on theta phase precession.
+3986,A mathematical model for Cantor coding in the hippocampus.
+3991,A mathematical model for Cantor coding in the hippocampus
+4007,The hippocampal system mediates logical reasoning about familiar spatial environments.
+4013,Multiple spatial/behavioral correlates for cells in the rat postsubiculum: multiple regression analysis and comparison to other hippocampal areas.
+4015,Neurophysiological and computational analyses of the primate presubiculum, subiculum and related areas.
+4016,Output-mode transitions are controlled by prolonged inactivation of sodium channels in pyramidal neurons of subiculum.
+402,Input source and strength influences overall firing phase of model hippocampal CA1 pyramidal cells during theta: relevance to REM sleep reactivation and memory consolidation.
+4038,Rapid distributed fronto-parieto-occipital processing stages during working memory in humans.
+4056,Connectivity-based segregation of the human striatum predicts personality characteristics.
+4060,Spontaneous changes of neocortical code for associative memory during consolidation.
+4061,Internally generated reactivation of single neurons in human hippocampus during free recall.
+4068,State-dependent spike-timing relationships between hippocampal and prefrontal circuits during sleep.
+4072,Lesions of the mammillary body region severely disrupt the cortical head direction, but not place cell signal.
+4078,An oscillatory interference model of grid cell firing.
+4082,The anatomical and computational basis of the rat head-direction cell signal.
+4093,Hippocampal theta oscillations are travelling waves.
+4102,Generation of theta and gamma rhythms in the hippocampus.
+4104,Intracellular dynamics of hippocampal place cells during virtual navigation.
+4106,Fragmentation of grid cell maps in a multicompartment environment.
+4107,Changing the criteria for old/new recognition judgments can modulate activity in the anterior hippocampus.
+4115,Awake replay of remote experiences in the hippocampus.
+4116,Replay of rule-learning related neural patterns in the prefrontal cortex during sleep.
+4119,GABAergic neurons of the medial septum lead the hippocampal network during theta activity.
+4121,Hippocampus as comparator: role of the two input and two output systems of the hippocampus in selection and registration of information.
+4122,Genetic neuroscience of mammalian learning and memory.
+4130,Activation of basal forebrain cholinergic neurons differentially regulates brain-derived neurotrophic factor mRNA expression in different projection areas.
+4135,Dynamic cross-frequency couplings of local field potential oscillations in rat striatum and hippocampus during performance of a T-maze task.
+4141,Microcircuits in action--from CPGs to neocortex.
+4168,The mammalian subiculum: contrasting and complementary in vivo and in vitro approaches to subicular function.
+4229,Behavioral match evaluation of spatial cognition in rats and robots.
+4230,Simulation of spatial learning in the Morris water maze by a neural network model of the hippocampal formation and nucleus accumbens.
+4252,Cholinergic modulation on STDP in hippocampal CA1 network
+4280,Imaging activity of neuronal populations with new long-wavelength voltage-sensitive dyes.
+431,Storage, recall, and novelty detection of sequences by the hippocampus: elaborating on the SOCRATIC model to account for normal and aberrant effects of dopamine.
+4373,Involvement of inositol-1,4,5-trisphosphate receptors in the bidirectional synaptic plasticity induced in hippocampal CA1 neurons by 1–10 Hz low-frequency stimulation.
+4464,Sleep-dependent theta oscillations in the human hippocampus and neocortex.
+4480,Neurochemistry and pharmacology of the major hippocampal transmitter systems: synaptic and nonsynaptic interactions.
+4481,Functional differentiation in the hippocampus.
+4482,Conditioning, awareness, and the hippocampus.
+4483,Alteration of NMDA receptor-mediated synaptic responses in CA1 area of the aged rat hippocampus: contribution of GABAergic and cholinergic deficits.
+4484,Lateralized fascia dentata lesion and blockade of one hippocampus: effect on spatial memory in rats.
+4485,Plasticity of directional place fields in a model of rodent CA3.
+4486,Introduction: what is where in the medial temporal lobe?
+4487,Medial temporal lobe activations in fMRI and PET studies of episodic encoding and retrieval.
+4488,Encoding and retrieval in human medial temporal lobes: an empirical investigation using functional magnetic resonance imaging (fMRI).
+4489,Level of sustained entorhinal activity at study correlates with subsequent cued-recall performance: a functional magnetic resonance imaging study with high acquisition rate.
+4490,Bridging the gap: integrating cellular and functional magnetic resonance imaging studies of the hippocampus.
+4491,Differential modulation of a common memory retrieval network revealed by positron emission tomography.
+4492,Automatic activation of the medial temporal lobe during encoding: lateralized influences of meaning and novelty.
+4493,Positron emission tomography correlations in and beyond medial temporal lobes.
+4494,Hippocampal system and declarative (relational) memory: summarizing the data from functional neuroimaging studies.
+4499,Human spatial navigation: cognitive maps, sexual dimorphism, and neural substrates.
+4502,Neural models of memory.
+4503,Hippocampus and context in classical conditioning.
+4504,Synaptic plasticity in cortical systems.
+4507,Role of the hippocampal system in conditional motor learning: mapping antecedents to action.
+4508,Delay-dependent impairment of a matching-to-place task with chronic and intrahippocampal infusion of the NMDA-antagonist D-AP5.
+4509,High-frequency oscillations in human brain.
+4510,Hippocampal lesions interfere with Pavlovian negative occasion setting.
+4511,Comparison of the timing of hippocampal and subicular spatial signals: implications for path integration.
+4513,Evidence for changing positions of GABA neurons in the developing rat dentate gyrus.
+4518,Cognitive maps beyond the hippocampus.
+4519,Theory of rodent navigation based on interacting representations of space.
+4520,Entorhinal cortex of the rat: cytoarchitectonic subdivisions and the origin and distribution of cortical efferents.
+4531,Septal neuronal responses related to spatial representation in monkeys.
+4532,Vestibular-hippocampal interactions.
+4536,Homing in pigeons: the role of the hippocampal formation in the representation of landmarks used for navigation.
+4556,Memory for places learned long ago is intact after hippocampal damage.
+4564,the rolo of the hippocampus in solving the morris water maze
+4566,Connection matrix of the hippocampal formation: I. The dentate gyrus.
+4569,Associative long-term depression in the hippocampus in vitro.
+4570,Homosynaptic LTD and depotentiation: do they differ in name only?
+4572,Pyramidal cells and stratum lacunosum-moleculare interneurons in the CA1 hippocampal region share a GABAergic spontaneous input.
+4573,Dendritic electrogenesis in rat hippocampal CA1 pyramidal neurons: functional aspects of Na+ and Ca2+ currents in apical dendrites.
+4574,The serotonergic and noradrenergic systems of the hippocampus: their interactions and the effects of antidepressant treatments.
+4598,Automated analysis of rhythmicity of physiologically identified hippocampal formation neurons.
+4599,Membrane potential and impedance changes in hippocampal pyramidal cells during theta rhythm.
+4612,Hippocampal sharp wave-ripples linked to slow oscillations in rat slow-wave sleep.
+4627,Chunking and consolidation: a theoretical synthesis of semantic networks, configuring in conditioning, S--R versus congenitive learning, normal forgetting, the amnesic syndrome, and the hippocampal arousal system.
+4629,Declarative memory consolidation in humans: a prospective functional magnetic resonance imaging study.
+4634,Odor cues during slow-wave sleep prompt declarative memory consolidation.
+4636,The role of sleep in declarative memory consolidation: passive, permissive, active or none?
+4639,Sleep-dependent memory consolidation.
+4661,Rhinal-hippocampal theta coherence during declarative memory formation: interaction with gamma synchronization?
+4671,Response differences in monkey TE and perirhinal cortex: stimulus association related to reward schedules.
+4744,Deciphering the hippocampal polyglot: the hippocampus as a path integration system.
+4745,Reversible inactivation of the medial septum differentially affects two forms of learning in rats.
+4747,Role of the medial septum and hippocampal theta rhythm in exploration-related synaptic efficacy changes in rat fascia dentata.
+4748,Behavioral state dependence of homo- and hetero-synaptic modulation of dentate gyrus excitability.
+4749,Behavioral correlates of theta-on and theta-off cells recorded from hippocampal formation of mature young and aged rats.
+4750,Exploration-dependent modulation of evoked responses in fascia dentata: dissociation of motor, EEG, and sensory factors and evidence for a synaptic efficacy change.
+4751,Hippocampal granule cells are necessary for normal spatial learning but not for spatially-selective pyramidal cell discharge.
+4752,Recovery of spatial learning deficits after decay of electrically induced synaptic enhancement in the hippocampus.
+4753,Reversible inactivation of the medial septum: selective effects on the spontaneous unit activity of different hippocampal cell types.
+4754,Stratum lacunosum-moleculare interneurons of hippocampal CA1 region. II. Intrasomatic and intradendritic recordings of local circuit synaptic interactions.
+4755,Stratum lacunosum-moleculare interneurons of hippocampal CA1 region. I. Intracellular response characteristics, synaptic responses, and morphology.
+4756,GABA-containing neurons in the septum control inhibitory interneurons in the hippocampus.
+4757,Feed-forward dendritic inhibition in rat hippocampal pyramidal cells studied in vitro.
+4759,Two different responses of hippocampal pyramidal cells to application of gamma-amino butyric acid.
+4761,Epileptiform burst activity induced by potassium in the hippocampus and its regulation by GABA-mediated inhibition.
+4762,Neuronal aspects of septo-hippocampal relations.
+4763,Control of the neuronal rhythmic bursts in the septal pacemaker of theta-rhythm: effects of anaesthetic and anticholinergic drugs.
+4764,Frequency modulation of neuronal theta-bursts in rabbit's septum by low-frequency repetitive stimulation of the afferent pathways.
+4765,Modulation of the afferent input to the septal neurons by cholinergic drugs.
+4766,Subthreshold Na+-dependent theta-like rhythmicity in stellate cells of entorhinal cortex layer II.
+4767,Spectral analysis of low frequency components in the electrical activity of the hippocampus during learning.
+4768,Hippocampal slow waves. Distribution and phase relationships in the course of approach learning.
+4770,Flow of conditioned responses in limbic telencephalic system of the rat.
+4772,Fimbria-fornix lesions impair spatial working memory but not cognitive mapping.
+4773,Hippocampal function required for nonspatial working memory.
+4776,Neuroanatomical bases of spatial memory.
+4777,Mnemonic correlates of unit activity in the hippocampus.
+4778,A comparative analysis of the role of fornix and cingulate cortex in memory: rats.
+4779,Spatial correlates of hippocampal unit activity.
+4780,Effects of fornix transection and cingulate cortical ablation on spatial memory in rhesus monkeys.
+4781,Muscarinic potentiation of IK in hippocampal neurons: electrophysiological characterization of the signal transduction pathway.
+4782,Calcium concentration dynamics produced by synaptic activation of CA1 hippocampal pyramidal cells.
+4783,Axonal and dendritic arborization of an intracellularly labeled chandelier cell in the CA1 region of rat hippocampus.
+4784,Ionic mechanisms of cholinergic excitation in mammalian hippocampal pyramidal cells.
+4785,High-frequency network oscillation in the hippocampus.
+4786,Carbachol-induced EEG 'theta' in hippocampal formation slices: evidence for a third generator of theta in CA3c area.
+4787,Fluctuations in spontaneous discharge of hippocampal theta cells during sleep-waking states and PCPA-induced insomnia.
+4788,Local circuit interactions in synchronization of cortical neurones.
+4789,Single neurones can initiate synchronized population discharge in the hippocampus.
+4790,Synchronized bursting of CA1 hippocampal pyramidal cells in the absence of synaptic transmission.
+4791,Slow transmission of neural activity in hippocampal area CA1 in absence of active chemical synapses.
+4792,Low-calcium field burst discharges of CA1 pyramidal neurones in rat hippocampal slices.
+4793,Head-direction cells recorded from the postsubiculum in freely moving rats. I. Description and quantitative analysis.
+4795,Localization and anatomical identification of theta and complex spike cells in dorsal hippocampal formation of rats.
+4796,Firing relations of medial entorhinal neurons to the hippocampal theta rhythm in urethane anesthetized and walking rats.
+4797,The positional firing properties of medial entorhinal neurons: description and comparison with hippocampal place cells.
+4798,Studies on single neurons in dorsal hippocampal formation and septum in unrestrained rats. II. Hippocampal slow waves and theta cell firing during bar pressing and other behaviors.
+4800,Studies on single neurons in dorsal hippocampal formation and septum in unrestrained rats. I. Behavioral correlates and firing repertoires.
+4803,Learning and behavioral-long-term potentiation: importance of controlling for motor activity.
+4805,Behavioral functions and hippocampal cell types: evidence for two nonoverlapping populations in the rat.
+4806,Electrical activity of the cingulate cortex. I. Generating mechanisms and relations to behavior.
+4808,Interaction of neurotransmitter systems in the hippocampus: a study of some behavioral effects of hippocampal sympathetic ingrowth.
+4809,Sequential dependencies regulate sensory evoked responses of single units in the rat hippocampus.
+4811,Modality-specific retrograde amnesia of fear.
+4812,The primate hippocampal formation: evidence for a time-limited role in memory storage.
+4813,The role of medial and lateral hippocampal perforant path lesions and object distinctiveness in rats' reaction to novelty.
+4814,Hippocampal mossy fibers and radial-maze learning in the mouse: a correlation with spatial working memory but not with non-spatial reference memory.
+4815,Scopolamine disruption of septo-hippocampal activity and classical conditioning.
+4818,Place-cell firing does not depend on the direction of turn in a Y-maze alternation task.
+4819,Conscious awareness, memory and the hippocampus.
+4820,Amnesia, the hippocampus, and episodic memory.
+4821,Representation in the hippocampus: what do hippocampal neurons code?
+4822,The organization of spatial coding in the hippocampus: a study of neural ensemble activity.
+4823,Hippocampal representation in place learning.
+4824,Simulation of post-synaptic activities in hippocampal cells during theta rhythm.
+4826,Segmental cable evaluation of somatic transients in hippocampal neurons (CA1, CA3, and dentate).
+4827,Characterization, scaling, and partial representation of diffuse and discrete input junctions to CA3 hippocampus.
+4828,Models of synchronized hippocampal bursts in the presence of inhibition. I. Single population events.
+4830,The double dipole model of theta rhythm generation: simulation of laminar field potential profiles in dorsal hippocampus of the rat.
+4831,Model of gradual phase shift of theta rhythm in the rat.
+4834,Testing neural network models of memory with behavioral experiments.
+4836,A model of hippocampal learning during classical conditioning.
+4841,Context-Dependent Adaptive Behavior Generated in the Theta Phase Coding Network
+4843,Learning navigational maps through potentiation and modulation of hippocampal place cells.
+4844,A model of the mechanism of cooperativity and associativity of long-term potentiation in the hippocampus: a fundamental mechanism of associative memory and learning.
+4846,Total number of neurons in the layers of the human entorhinal cortex.
+4847,Comparisons of head direction cell activity in the postsubiculum and anterior thalamus of freely moving rats.
+4848,Spatial mapping takes time.
+4849,Episodic and declarative memory: role of the hippocampus.
+4850,Episodic memory, semantic memory, and amnesia.
+4851,Amnesia and the organization of the hippocampal system.
+4852,Functional interconnections between CA3 and the dentate gyrus revealed by current source density analysis.
+4853,Hippocampal PET activations of memory encoding and retrieval: the HIPER model.
+4854,Selective hippocampal lesions yield nonspatial memory impairments in rhesus monkeys.
+4855,The human perirhinal cortex and recognition memory.
+4856,Superior colliculus and active navigation: role of visual and non-visual cues in controlling cellular representations of space.
+4857,Neural circuit analysis of spatial working memory: role of pre- and parasubiculum, medial and lateral entorhinal cortex.
+4858,Reconciling Barnes et al. (1997) and Tanila et al. (1997a,b).
+4859,Discharge correlates of hippocampal complex spike neurons in behaving rats passively displaced on a mobile robot.
+4860,Hippocampal modulation of cingulo-thalamic neuronal activity and discriminative avoidance learning in rabbits.
+4861,Synchronous modulation of perirhinal cortex neuronal activity during cholinergically mediated (type II) hippocampal theta.
+4862,Gene expression of growth-associated proteins, GAP-43 and SCG10, in the hippocampal formation of the macaque monkey: nonradioactive in situ hybridization study.
+4864,Long-term plasticity in hippocampal place-cell representation of environmental geometry.
+4865,The well-worn route and the path less traveled: distinct neural bases of route following and wayfinding in humans.
+4866,The human hippocampus and spatial and episodic memory.
+4871,Cytoplasmic actin in neuronal processes as a possible mediator of synaptic plasticity.
+4899,Changes in synaptic plasticity in the rat hippocampo-medial prefrontal cortex pathway induced by repeated treatments with fluvoxamine.
+4902,Exposure to acute stress blocks the induction of long-term potentiation of the amygdala-prefrontal cortex pathway in vivo.
+4903,Firing relations of medial septal neurons to the hippocampal theta rhythm in urethane anesthetized rats.
+4904,Two populations of rhythmically bursting neurons in rat medial septum are revealed by atropine.
+4905,Rhythmical bursting activity and GABAergic mechanisms in the medial septum of normal and pertussis toxin-pretreated rats.
+4906,Medial septal modulation of hippocampal theta cell discharges.
+4907,Facilitation of memory consolidation by post-training electrical stimulation of the medial septal nucleus: is it mediated by changes in rhythmic slow activity?
+4908,Spectral characteristics of the hippocampal EEG in the freely moving rat.
+4909,Analysis of temporal relations among units and slow waves in rabbit hippocampus.
+4910,Two types of hippocampal rhythmical slow activity in both the rabbit and the rat: relations to behavior and effects of atropine, diethyl ether, urethane, and pentobarbital.
+4911,Hippocampal theta rhythm and the firing of neurons in walking and urethane anesthetized rats.
+4912,theta-Cells in CA1 and dentate layers of hippocampal formation: relations to slow-wave activity and motor behavior in the freely moving rabbit.
+4913,Intracellular theta-rhythm generation in identified hippocampal pyramids.
+4914,Intracellular records of theta rhythm in hippocampal CA1 cells of the rat.
+4915,Pharmacology of theta phase shift in the hippocampal CA1 region of freely moving rats.
+4916,INTRACELLULAR RECORDS FROM HIPPOCAMPAL PYRAMIDAL CELLS IN RABBIT DURING THETA RHYTHM ACTIVITY.
+4917,Frequency-dependent inhibition in the dentate gyrus is attenuated by the NMDA receptor blocker MK-801 at doses that do not yet affect long-term potentiation.
+4918,Impaired recognition memory on the Doors and People Test after damage limited to the hippocampal region.
+4919,Hippocampal theta-related cellular activity in the superior colliculus of the urethane-anesthetized rat.
+4920,Intrinsic theta-frequency membrane potential oscillations in layer III/V perirhinal cortex neurons of the rat.
+4921,Activation of tyrosine receptor kinase plays a role in expression of long-term potentiation in the rat dentate gyrus.
+4922,Effects of adenosine and gamma-aminobutyric acid A receptor antagonists on N-methyl-D-aspartate induced neurotoxicity in the rat hippocampus.
+4923,Locomotor activity causes a rapid up-regulation of vasoactive intestinal peptide in the rat hippocampus.
+4924,Exposing rats to a predator impairs spatial working memory in the radial arm water maze.
+4925,Hippocampectomized rats are impaired in homing by path integration.
+4926,Hippocampal formation lesions produce memory impairment in the rhesus monkey.
+4927,Medial temporal lobe activation during episodic encoding and retrieval: a PET study.
+4928,Analysis of information transmission in the Schaffer collaterals.
+4929,Current source density analysis does not reveal a direct projection from the perirhinal cortex to septal part of hippocampal CA1 or dentate gyrus.
+4930,Perirhinal cortex does not project to the dentate gyrus.
+4931,Interpreting neural representations of aged animals.
+4942,Stimulus configuration, classical conditioning, and hippocampal function.
+4943,The hippocampal memory indexing theory.
+4944,The hippocampus and memory: a comparative and ethological perspective.
+4946,Neurotransmitter receptors involved in post-training memory processing by the amygdala, medial septum, and hippocampus of the rat.
+4947,Place memory and scene memory: effects of fornix transection in the monkey.
+4948,Lesions of the rat postsubiculum impair performance on spatial tasks.
+4949,Spatial firing properties of hippocampal theta cells.
+4950,Activity of hippocampal formation neurons in the monkey related to a conditional spatial response task.
+5021,Kinetic properties of two anatomically distinct excitatory synapses in hippocampal CA3 pyramidal neurons.
+5026,Slow fluctuations of single unit activities of hippocampal and thalamic neurons in cats. I. Relation to natural sleep and alert states.
+5053,Rapid integration of young newborn dentate gyrus granule cells in the adult hippocampal circuitry.
+5054,Increased number of new neurons in the olfactory bulb and hippocampus of adult non-human primates after focal ischemia.
+5056,GABAergic excitation promotes neuronal differentiation in adult hippocampal progenitor cells.
+5091,Computational models of hippocampal function in memory.
+5092,Distinct memory circuits composing the hippocampal region.
+5093,Dynamic synapse: a new concept of neural representation and computation.
+5094,A theory of hippocampal function in memory.
+5095,Attention, configuration, and hippocampal function.
+5096,Integrating behavioral and physiological models of hippocampal function.
+5097,Considerations arising from a complementary learning systems perspective on hippocampus and neocortex.
+5098,How much of the hippocampus can be explained by functional constraints?
+5099,TraceLink: a model of amnesia and consolidation of memory.
+5100,Modeling the spontaneous reactivation of experience-specific hippocampal cell assembles during sleep.
+5101,Hippocampal place cells connected by Hebbian synapses can solve spatial problems.
+5102,Neural network modeling of the hippocampal formation spatial signals and their possible role in navigation: a modular approach.
+5103,Memory for places: a navigational model in support of Marr's theory of hippocampal function.
+5104,Neuronal computations underlying the firing of place cells and their role in navigation.
+5105,Activin in the brain modulates anxiety-related behavior and adult neurogenesis.
+5106,Decreased postnatal neurogenesis in the hippocampus combined with stress experience during adolescence is accompanied by an enhanced incidence of behavioral pathologies in adult mice.
+5108,Synaptopodin maintains the neural activity-dependent enlargement of dendritic spines in hippocampal neurons.
+5112,Homer1a regulates the activity-induced remodeling of synaptic structures in cultured hippocampal neurons.
+5117,Activin increases the number of synaptic contacts and the length of dendritic spine necks by modulating spinal actin dynamics.
+5142,A Mathematical Model for Cantor Coding in the Hippocampus
+5170,Development- and activity-dependent regulation of SNAP-25 phosphorylation in rat brain.
+5171,Polycystin-1 can interact with homer 1/Vesl-1 in postnatal hippocampal neurons.
+5175,Pax6 is required for production and maintenance of progenitor cells in postnatal hippocampal neurogenesis.
+5179,Activity-inducible protein Homer1a/Vesl-1S promotes redistribution of postsynaptic protein Homer1c/Vesl-1L in cultured rat hippocampal neurons.
+5184,Homer-1a/Vesl-1S enhances hippocampal synaptic transmission.
+5188,Functional analysis of basic transcription element binding protein by gene targeting technology.
+5190,Effects of proteasome inhibitors on the synaptic localization of Vesl-1S/Homer-1a proteins.
+5191,Phorbol esters promote postsynaptic accumulation of Vesl-1S/Homer-1a protein.
+5192,LIRF, a gene induced during hippocampal long-term potentiation as an immediate-early gene, encodes a novel RING finger protein.
+5204,Algebraic method for the analysis of signaling crosstalk.
+5224,Kinetic simulation of signal transduction system in hippocampal long-term potentiation with dynamic modeling of protein phosphatase 2A.
+5278,Hippocampal lesion delays the acquisition of egocentric spatial memory in chicks.
+5314,A truncated tropomyosin-related kinase B receptor, T1, regulates glial cell morphology via Rho GDP dissociation inhibitor 1.
+5316,Shrinkage of dendritic spines associated with long-term depression of hippocampal synapses.
+535,Phase precession and phase-locking of hippocampal pyramidal cells.
+5455,Oscillatory models of the hippocampus: a study of spatio-temporal patterns of neural activity.
+5460,Memorizing and recalling spatial-temporal patterns in an oscillator model of the hippocampus.
+5462,Single unit activity in the rat hippocampus during a spatial memory task.
+5463,Hippocampus, theta, and spatial memory.
+5464,Place navigation impaired in rats with hippocampal lesions.
+5465,A computational theory of the hippocampal cognitive map.
+5467,A review of the hippocampal place cells.
+5469,Hippocampal place units in the freely moving rat: why they fire where they fire.
+5488,Gating of neuronal transmission in the hippocampus: efficacy of transmission varies with behavioral state.
+5489,Synaptic plasticity in the hippocampus is modulated by behavioral state.
+5490,Effect of 5-HT depletion of the hippocampus on neuronal transmission from perforant path through dentate gyrus.
+5491,Influence of neurons of the parafascicular region on neuronal transmission from perforant pathway through dentate gyrus.
+5492,Effect of norepinephrine depletion of hippocampus on neuronal transmission from perforant pathway through dentate gyrus.
+5495,Selective presynaptic propagation of long-term potentiation in defined neural networks.
+5496,Hippocampal synaptic plasticity and NMDA receptors: a role in information storage?
+5497,Commissural synapses, but not mossy fiber synapses, in hippocampal field CA3 exhibit associative long-term potentiation and depression.
+5498,Role of N-methyl-D-aspartate receptors in the induction of synaptic potentiation by burst stimulation patterned after the hippocampal theta-rhythm.
+5499,Comparison of two forms of long-term potentiation in single hippocampal neurons.
+5500,Frequency-dependent involvement of NMDA receptors in the hippocampus: a novel synaptic mechanism.
+5501,Characterization of the integration time for the stabilization of long-term potentiation in area CA1 of the hippocampus.
+5502,Long-term potentiation of NMDA receptor-mediated synaptic transmission in the hippocampus.
+5503,Postsynaptic contribution to long-term potentiation revealed by the analysis of miniature synaptic currents.
+5504,Correlation between threshold to induce long-term potentiation in the hippocampus and performance in a shuttle box avoidance response in rats.
+5506,Heterosynaptic depression: a postsynaptic correlate of long-term potentiation.
+5507,Activation of hippocampal neurons by mossy fiber stimulation in thin brain sections in vitro.
+5508,Facilitation of hippocampal long-lasting potentiation by GABA antagonists.
+5509,Long-term depression at synapses in slices of rat hippocampus can be induced by bursts of postsynaptic activity.
+5516,Epileptic activity prevents synapse formation of hippocampal mossy fibers via L-type calcium channel activation in vitro.
+5517,Effects of coculture with the septum on the expression of long-term potentiation in organotypic hippocampal slice cultures.
+5518,Neurotrophic effects of conditioned media of astrocytes isolated from different brain regions on hippocampal and cortical neurons.
+555,The role of the hippocampus in solving the Morris water maze.
+5607,Dynamical Neural Network Model of Hippocampus with Excitatory and Inhibitory Neurons
+5609,Noise Effect on Memory Recall in Dynamical Neural Network Model of Hippocampus
+5614,Theta Phase Coding in Human Hippocampus: A Combined Approach of a Computational Model and Human Brain Activity Analyses
+5617,The hippocampus as an associator of discontiguous events.
+5618,A computational model of cholinergic disruption of septohippocampal activity in classical eyeblink conditioning.
+5619,Eye movements modulate activity in hippocampal, parahippocampal, and inferotemporal neurons.
+5620,Firing of inferior colliculus auditory neurons is phase-locked to the hippocampus theta rhythm during paradoxical sleep and waking.
+5621,GABA(B) modulation improves sequence disambiguation in computational models of hippocampal region CA3.
+5622,Changes in GABAB modulation during a theta cycle may be analogous to the fall of temperature during annealing.
+5685,An important role of neural activity-dependent CaMKIV signaling in the consolidation of long-term memory.
+5686,Deficient hippocampal long-term potentiation in alpha-calcium-calmodulin kinase II mutant mice.
+5687,Limbic epilepsy in transgenic mice carrying a Ca2+/calmodulin-dependent kinase II alpha-subunit mutation.
+5688,Hippocampal long-term potentiation is normal in heme oxygenase-2 mutant mice.
+5689,Impaired spatial learning in alpha-calcium-calmodulin kinase II mutant mice.
+5691,Phorbol ester effects at hippocampal synapses act independently of the gamma isoform of PKC.
+5692,CA1 long-term potentiation is diminished but present in hippocampal slices from alpha-CaMKII mutant mice.
+5693,Function of hippocampus in "insight" of problem solving.
+5694,Role of medial temporal lobe in extensive retrieval of task-related knowledge.
+5695,Robotic and neuronal simulation of the hippocampus and rat navigation.
+5697,Ensemble dynamics of hippocampal regions CA3 and CA1.
+5698,Spatial memory in the rat requires the dorsolateral band of the entorhinal cortex.
+5699,Hippocampal neurons responding to first-time dislocation of a target object.
+5700,Preserved spatial memory after hippocampal lesions: effects of extensive experience in a complex environment.
+5701,Accumulation of hippocampal place fields at the goal location in an annular watermaze task.
+5702,Theta oscillations index human hippocampal activation during a working memory task.
+5856,Cholinergic activation of hippocampal neural stem cells in aged dentate gyrus.
+5857,Primate-specific alterations in neural stem/progenitor cells in the aged hippocampus.
+5962,Inactivation of alpha7 ACh receptors and activation of non-alpha7 ACh receptors both contribute to long term potentiation induction in the hippocampal CA1 region.
+5963,Long-term potentiation and long-term depression in hippocampal CA1 neurons of mice lacking the IP(3) type 1 receptor.
+6347,Acetylcholine modulation on STDP in CA1 region of hippocampus
+6362,Non-linearities in the rat hippocampus dentate granule cell
+6363,Nonlinear information processing of the dentate granule cell in hippocampus
+6415,Changing the criteria for old/new recognition judgments can modulate activity in the anterior hippocampus.
+648,The contributions of position, direction, and velocity to single unit activity in the hippocampus of freely-moving rats.
+6488,Cantor coding of the hippocampus in interacting brains
+6518,Context and the renewal of conditioned taste aversion: The role of rat dorsal hippocampus examined by electrolytic lesion.
+6525,Convergent measures of abstract spatial coding in hippocampus.
+6526,Predicting the flow of information by gamma oscillations in hippocampus during preparatory waiting.
+653,Hippocampal CA3 NMDA receptors are crucial for memory acquisition of one-time experience.
+6531,Neural dynamics of the cognitive map in the hippocampus.
+6532,Neural dynamics of the cognitive map in the hippocampus.
+655,Hippocampal synaptic plasticity is modulated by theta rhythm in the fascia dentata of adult and aged freely behaving rats.
+6608,Novelty responses to relational and non-relational information in the hippocampus and the parahippocampal region: a comparison based on event-related fMRI.
+6609,Perception and conception: temporal lobe activity during complex discriminations of familiar and novel faces and objects.
+6610,Anterior medial temporal lobe activation during attempted retrieval of encoded visuospatial scenes: an event-related fMRI study.
+6611,Multiple repetitions reveal functionally and anatomically distinct patterns of hippocampal activity during continuous recognition memory.
+6613,Modulation of encoding and retrieval by recollection and familiarity: mapping the medial temporal lobe networks.
+6614,Perirhinal and hippocampal contributions to visual recognition memory can be distinguished from those of occipito-temporal structures based on conscious awareness of prior occurrence.
+6616,fMRI activity in the medial temporal lobe during famous face processing.
+6617,Functional specialisation in the hippocampus and perirhinal cortex during the encoding of verbal associations.
+6618,fMRI differences in encoding and retrieval of pictures due to encoding strategy in the elderly.
+6619,Reduced hippocampal activation during encoding and recognition of words in schizophrenia patients.
+6621,Prestimulus hippocampal activity predicts later recollection.
+6622,Recollection-related hippocampal activity during continuous recognition: a high-resolution fMRI study.
+6623,Decrements in hippocampal activity with item repetition during continuous recognition: an fMRI study.
+6624,High-resolution fMRI of content-sensitive subsequent memory responses in human medial temporal lobe.
+6625,Double dissociation between hippocampal and parahippocampal responses to object-background context and scene novelty.
+6627,A critical role for the anterior hippocampus in relational memory: evidence from an fMRI study comparing associative and item recognition.
+6629,Late onset of anterior prefrontal activity during true and false recognition: an event-related fMRI study.
+663,Associative long-term depression in the hippocampus induced by hebbian covariance.
+6631,Dissociating intentional learning from relative novelty responses in the medial temporal lobe.
+6634,Conceptual and perceptual novelty effects in human medial temporal cortex.
+6640,Influence of emotional expression on memory recognition bias in schizophrenia as revealed by fMRI.
+6641,Differential effects of semantic processing on memory encoding.
+6642,Match mismatch processes underlie human hippocampal responses to associative novelty.
+6645,Process dissociation between contextual retrieval and item recognition.
+6646,Differential contributions of the anterior temporal and medial temporal lobe to the retrieval of memory for person identity information.
+6647,Going their separate ways: dissociation of hippocampal and dorsolateral prefrontal activation during episodic retrieval and post-retrieval processing.
+6651,Is neocortical-hippocampal connectivity a better predictor of subsequent recollection than local increases in hippocampal activity? New insights on the role of priming.
+6653,Stimulus pacing affects the activation of the medial temporal lobe during a semantic classification task: an fMRI study.
+6654,In search of recollection and familiarity signals in the hippocampus.
+6655,Distinct memory signatures in the hippocampus: intentional States distinguish match and mismatch enhancement signals.
+6656,Making memories without trying: medial temporal lobe activity associated with incidental memory formation during recognition.
+6658,Hippocampal-neocortical networks differ during encoding and retrieval of relational memory: functional and effective connectivity analyses.
+6661,Hippocampal activation during retrieval of spatial context from episodic and semantic memory.
+6666,The role of the hippocampus in transitive inference.
+6670,Dissociating hippocampal and basal ganglia contributions to category learning using stimulus novelty and subjective judgments.
+6671,Medial temporal lobe activity during complex discrimination of faces, objects, and scenes: Effects of viewpoint.
+6672,Selective abnormal modulation of hippocampal activity during memory formation in first-episode psychosis.
+6674,Support for an auto-associative model of spoken cued recall: evidence from fMRI.
+6675,Neural correlates of relational memory: successful encoding and retrieval of semantic and perceptual associations.
+6676,Working memory-related hippocampal deactivation interferes with long-term memory formation.
+6677,Memory encoding and hippocampally-based novelty/familiarity discrimination networks.
+6678,Emotional context during encoding of neutral items modulates brain activation not only during encoding but also during recognition.
+6680,Amygdala activity is associated with the successful encoding of item, but not source, information for positive and negative stimuli.
+6683,Successful verbal encoding into episodic memory engages the posterior hippocampus: a parametrically analyzed functional magnetic resonance imaging study.
+6684,Positive evidence against human hippocampal involvement in working memory maintenance of familiar stimuli.
+6686,The hippocampus and memory of verbal and pictorial material.
+6688,Event congruency and episodic encoding: a developmental fMRI study.
+6692,Age-related changes in the three-way correlation between anterior hippocampus volume, whole-brain patterns of encoding activity and subsequent context retrieval.
+6693,Interference of working memory load with long-term memory formation.
+6694,Depth of processing effects on neural correlates of memory encoding: relationship between findings from across- and within-task comparisons.
+6695,Anterior medial temporal lobe activation during encoding of words: FMRI methods to optimize sensitivity.
+6698,Hippocampal differentiation without recognition: an fMRI analysis of the contextual cueing task.
+6699,A comparison of two FMRI protocols for eliciting hippocampal activation.
+6700,Equivalent activation of the hippocampus by face-face and face-laugh paired associate learning and recognition.
+6701,Hippocampal, parahippocampal and occipital-temporal contributions to associative and item recognition memory: an fMRI study.
+6702,Aging and the neural correlates of successful picture encoding: frontal activations compensate for decreased medial-temporal activity.
+6704,Medial temporal lobe activation during encoding and retrieval of novel face-name pairs.
+6706,Rapid consolidation and the human hippocampus: intracranial recordings confirm surface EEG.
+6707,Neural repetition effects in the medial temporal lobe complex are modulated by previous encoding experience.
+6708,Repetition related changes in activation and functional connectivity in hippocampus predict subsequent memory.
+6801,Learning-related facilitation of rhinal interactions by medial prefrontal inputs.
+681,Frequency-dependent information flow from the entorhinal cortex to the hippocampus.
+685,Theta oscillations in somata and dendrites of hippocampal pyramidal cells in vivo: activity-dependent phase-precession of action potentials.
+686,Dynamically detuned oscillations account for the coupled rate and temporal code of place cell firing.
+6863,Central mechanisms of stress integration: hierarchical circuitry controlling hypothalamo-pituitary-adrenocortical responsiveness.
+6895,An electrophysiological study of neurones in the rat median raphe and their projections to septum and hippocampus.
+694,Reactivation of behavioral activity during sharp waves: a computational model for two stage hippocampal dynamics.
+707,Conserving total synaptic weight ensures one-trial sequence learning of place fields in the hippocampus.
+7171,Inhibitory synaptic plasticity regulates pyramidal neuron spiking in the rodent hippocampus.
+7172,Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type.
+7173,Prior short-term synaptic disinhibition facilitates long-term potentiation and suppresses long-term depression at CA1 hippocampal synapses.
+7174,GABA(A) receptor inhibition does not affect mGluR-dependent LTD at hippocampal Schaffer collateral-CA1 synapses.
+7175,Postsynaptic induction and presynaptic expression of group 1 mGluR-dependent LTD in the hippocampal CA1 region.
+7176,Effects of GABA(A) inhibition on the expression of long-term potentiation in CA1 pyramidal cells are dependent on tetanization parameters.
+7177,Induction mechanisms and modulation of bidirectional burst stimulation-induced synaptic plasticity in the hippocampus.
+7179,GABAB receptor- and metabotropic glutamate receptor-dependent cooperative long-term potentiation of rat hippocampal GABAA synaptic transmission.
+7181,Coincident activity of converging pathways enables simultaneous long-term potentiation and long-term depression in hippocampal CA1 network in vivo.
+7184,Isoflurane blocks synaptic plasticity in the mouse hippocampus.
+7186,Cooperative interactions in the induction of long-term potentiation and depression of synaptic excitation between hippocampal CA3-CA1 cell pairs in vitro.
+7187,Disinhibition mediates a form of hippocampal long-term potentiation in area CA1.
+7188,Diabetes mellitus concomitantly facilitates the induction of long-term depression and inhibits that of long-term potentiation in hippocampus.
+7190,Differential maintenance and frequency-dependent tuning of LTP at hippocampal synapses of specific strains of inbred mice.
+7191,The development of synaptic plasticity induction rules and the requirement for postsynaptic spikes in rat hippocampal CA1 pyramidal neurones.
+7193,Requirement of a critical period of GABAergic receptor blockade for induction of a cAMP-mediated long-term depression at CA3-CA1 synapses.
+7194,Postsynaptic complex spike bursting enables the induction of LTP by theta frequency synaptic stimulation.
+7195,Muscarinic signaling is required for spike-pairing induction of long-term potentiation at rat Schaffer collateral-CA1 synapses.
+7196,Characterization of the anoxia-induced long-term synaptic potentiation in area CA1 of the rat hippocampus.
+7198,Downregulation of KCC2 following LTP contributes to EPSP-spike potentiation in rat hippocampus.
+7199,Activity-dependent depression of local excitatory connections in the CA1 region of mouse hippocampus.
+7200,Long-term synaptic plasticity between pairs of individual CA3 pyramidal cells in rat hippocampal slice cultures.
+7201,GABA(B) receptor activation mediates frequency-dependent plasticity of developing GABAergic synapses.
+7202,At immature mossy-fiber-CA3 synapses, correlated presynaptic and postsynaptic activity persistently enhances GABA release and network excitability via BDNF and cAMP-dependent PKA.
+7203,Calcium-induced long-term depression in the visual cortex of the rat in vitro.
+7204,Role of giant depolarizing potentials in shaping synaptic currents in the developing hippocampus.
+7205,Hippocampal place cell firing patterns can induce long-term synaptic plasticity in vitro.
+7206,LTD, LTP, and the sliding threshold for long-term synaptic plasticity.
+7208,Coexistence of muscarinic long-term depression with electrically induced long-term potentiation and depression at CA3-CA1 synapses.
+7209,Induction of long-term potentiation at hippocampal mossy-fiber synapses follows a Hebbian rule.
+721,Spatial view cells and the representation of place in the primate hippocampus.
+7210,Regional differences in GABAergic modulation for TEA-induced synaptic plasticity in rat hippocampal CA1, CA3 and dentate gyrus.
+7211,Rapid plasticity at inhibitory and excitatory synapses in the hippocampus induced by ictal epileptiform discharges.
+7212,Rapid report: postsynaptic bursting is essential for 'Hebbian' induction of associative long-term potentiation at excitatory synapses in rat hippocampus.
+7213,A nitric oxide-independent and beta-adrenergic receptor-sensitive form of metaplasticity limits theta-frequency stimulation-induced LTP in the hippocampal CA1 region.
+7214,Interferon-alpha inhibits long-term potentiation and unmasks a long-term depression in the rat hippocampus.
+7215,Induction of hippocampal long-term depression requires release of Ca2+ from separate presynaptic and postsynaptic intracellular stores.
+7217,Alterations in the balance of protein kinase and phosphatase activities and age-related impairments of synaptic transmission and long-term potentiation.
+7218,Synaptic activity modulates the induction of bidirectional synaptic changes in adult mouse hippocampus.
+7219,Input- and subunit-specific AMPA receptor trafficking underlying long-term potentiation at hippocampal CA3 synapses.
+7220,Synergistic action of GABA-A and NMDA receptors in the induction of long-term depression in glutamatergic synapses in the newborn rat hippocampus.
+7223,A role for ERK MAP kinase in physiologic temporal integration in hippocampal area CA1.
+7224,GABAergic modulation of hippocampal population activity: sequence learning, place field development, and the phase precession effect.
+7225,Nicotine-induced switch in the nicotinic cholinergic mechanisms of facilitation of long-term potentiation induction.
+7226,Homosynaptic and heterosynaptic inhibition of synaptic tagging and capture of long-term potentiation by previous synaptic activity.
+7228,A NMDA receptor glycine site partial agonist, GLYX-13, simultaneously enhances LTP and reduces LTD at Schaffer collateral-CA1 synapses in hippocampus.
+7230,Selective induction of metabotropic glutamate receptor 1- and metabotropic glutamate receptor 5-dependent chemical long-term potentiation at oriens/alveus interneuron synapses of mouse hippocampus.
+7231,Endogenous opioids regulate long-term potentiation of synaptic inhibition in the dentate gyrus of rat hippocampus.
+7232,Use-dependent shift from inhibitory to excitatory GABAA receptor action in SP-O interneurons in the rat hippocampal CA3 area.
+7235,Target-cell-specific bidirectional synaptic plasticity at hippocampal output synapses.
+7236,Persistent synaptic activity produces long-lasting enhancement of endocannabinoid modulation and alters long-term synaptic plasticity.
+7237,Activation of presynaptic and postsynaptic ryanodine-sensitive calcium stores is required for the induction of long-term depression at GABAergic synapses in the neonatal rat hippocampus.
+7238,Cell-type specific GABA synaptic transmission and activity-dependent plasticity in rat hippocampal stratum radiatum interneurons.
+7241,Timing and balance of inhibition enhance the effect of long-term potentiation on cell firing.
+7242,Surprising similarity between mechanisms mediating low (1 Hz)-and high (100 Hz)-induced long-lasting synaptic potentiation in CA1 of the intact hippocampus.
+7243,Cell type-specific long-term plasticity at glutamatergic synapses onto hippocampal interneurons expressing either parvalbumin or CB1 cannabinoid receptor.
+7245,Disinhibition-Mediated LTP in the Hippocampus is Synapse Specific.
+7246,Group I metabotropic glutamate receptors regulate the frequency-response function of hippocampal CA1 synapses for the induction of LTP and LTD.
+7247,Novel form of long-term synaptic depression in rat hippocampus induced by activation of alpha 1 adrenergic receptors.
+7248,Steroid pregnenolone sulfate enhances NMDA-receptor-independent long-term potentiation at hippocampal CA1 synapses: role for L-type calcium channels and sigma-receptors.
+7251,[A possible mechanism of the influence of neuromodulators and modifiable inhibition on long-term potentiation and long-term depression of excitatory inputs to main hippocampal neurons].
+7252,Heterogeneity of synaptic plasticity at unitary CA3-CA1 and CA3-CA3 connections in rat hippocampal slice cultures.
+7253,Long-term depression is not modulated by ATP receptors in the rat CA1 hippocampal region.
+7254,Hippocampal long-term synaptic plasticity and signal amplification of NMDA receptors.
+7255,GABAergic and developmental influences on homosynaptic LTD and depotentiation in rat hippocampus.
+7259,Long-term potentiation and long-term depression induced by local application of ATP to hippocampal CA1 neurons of the guinea pig.
+726,The role of the right hippocampus in the recall of spatial location.
+7260,Heterosynaptic LTD of hippocampal GABAergic synapses: a novel role of endocannabinoids in regulating excitability.
+7261,Gamma-aminobutyric acid type A receptors modulate cAMP-mediated long-term potentiation and long-term depression at monosynaptic CA3-CA1 synapses.
+7262,Aging effects on the limits and stability of long-term synaptic potentiation and depression in rat hippocampal area CA1.
+7267,Interaction of inhibition and triplets of excitatory spikes modulates the NMDA-R-mediated synaptic plasticity in a computational model of spike timing-dependent plasticity.
+727,Memory and the hippocampus: a synthesis from findings with rats, monkeys, and humans.
+728,Object-location memory impairment in patients with thermal lesions to the right or left hippocampus.
+7282,The activity requirements for spike timing-dependent plasticity in the hippocampus.
+733,Synchronization of neural oscillations as a possible mechanism underlying episodic memory: a study of theta rhythm in the hippocampus.
+7350,Axonal plasticity elicits long-term changes in oligodendroglia and myelinated fibers.
+7380,A novel hypothesis about mechanisms affecting conduction velocity of central myelinated fibers.
+7381,Myelination of rodent hippocampal neurons in culture.
+7438,Convergent measures of abstract spatial coding in hippocampus
+7448,Frontal cortex, hippocampus and striatum in behavioural control
+745,Human hippocampal theta activity during virtual navigation.
+7469,Predicting the Flow of Information by Gamma Oscillations in
+7480,Hippocampal theta activity and facilitated locomotor stepping produced by GABA injections in the midbrain raphe region.
+7481,Trace feature map: a model of episodic associative memory.
+7483,The functional neuroanatomy of episodic memory: the role of the frontal lobes, the hippocampal formation, and other areas.
+7484,Recollection-based memory in frontotemporal dementia: implications for theories of long-term memory.
+7485,Independent codes for spatial and episodic memory in hippocampal neuronal ensembles.
+7486,From transient patterns to persistent structure: A model of episodic memory formation via cortico-hippocampal interactions
+7487,Dissociating prefrontal and hippocampal function in episodic memory encoding.
+7488,Regional analysis of hippocampal activation during memory encoding and retrieval: fMRI study.
+7489,Influence of prenatal noise and music on the spatial memory and neurogenesis in the hippocampus of developing rats.
+7490,Critical role of the hippocampus in memory for sequences of events.
+7492,Memory trace reactivation in hippocampal and neocortical neuronal ensembles.
+7495,A cortical-hippocampal system for declarative memory.
+7496,Spatial selectivity of unit activity in the hippocampal granular layer.
+7498,Memory consolidation, retrograde amnesia and the hippocampal complex.
+7499,Toying with memory in the hippocampus.
+7501,Hippocampus: mapping or memory
+7502,Two-phase computational model training long-term memories in the entorhinal-hippocampal region.
+7503,Multiple trace theory of human memory: computational, neuroimaging, and neuropsychological results.
+7504,Memory reprocessing in corticocortical and hippocampocortical neuronal ensembles.
+7505,Sequence learning: what's the hippocampus to do?
+7506,The essential role of hippocampal CA1 NMDA receptor-dependent synaptic plasticity in spatial memory.
+7512,The hippocampus, memory, and place cells: is it spatial memory or a memory space?
+7513,Encoding versus retrieval of spatial memory: double dissociation between the dentate gyrus and the perforant path inputs into CA3 in the dorsal hippocampus.
+7514,Recollection-like memory retrieval in rats is dependent on the hippocampus.
+7554,Recollection of episodic memory and the hippocampus: evidence from fMRI
+7628,Context and the renewal of conditioned taste aversion: The role of rat dorsal hippocampus examined by electrolytic lesion
+772,Online formation of a hierarchical cognitive map for object-place association by theta phase coding.
+7751,Two subtypes of non-pyramidal cells in rat hippocampal formation identified by intracellular recording and HRP injection.
+7752,Involvement of non-NMDA receptors in picrotoxin-induced epileptiform activity in the hippocampus.
+7753,Postsynaptic-GABAergic inhibition of non-pyramidal neurons in the guinea-pig hippocampus.
+7760,Calcium stores regulate the polarity and input specificity of synaptic modification.
+798,Comparison of spatial firing characteristics of units in dorsal and ventral hippocampus of the rat.
+7994,Circadian rhythm modulates long-term potentiation induced at CA1 in rat hippocampal slices
+804,Temporal contiguity requirements for long-term associative potentiation/depression in the hippocampus.
+8136,Integrated technology for evaluation of brain function and neural plasticity.
+8227,Effects of alcohol on performance on a distraction task during simulated driving.
+8439,The generalized iterated function system in the hippocampus
+8686,A predictive model of theta phase shift during fixation in the hippocampus
+870,Prospective and retrospective memory coding in the hippocampus.
+871,Trajectory encoding in the hippocampus and entorhinal cortex.
+875,Neuromodulation: acetylcholine and memory consolidation.
+877,Hippocampal CA3 region predicts memory sequences: accounting for the phase precession of place cells.
+878,Interdependence of multiple theta generators in the hippocampus: a partial coherence analysis.
+879,Memory of sequential experience in the hippocampus during slow wave sleep.
+8805,Chaotic responses of the hippocampal CA3 region to a mossy fiber stimulation in vitro.
+8808,Traveling theta waves along the entire septotemporal axis of the hippocampus.
+8809,Regulation of spontaneous rhythmic activity and organization of pacemakers as memory traces by spike-timing-dependent synaptic plasticity in a hippocampal model.
+881,A sequence predicting CA3 is a flexible associator that learns and uses context to solve hippocampal-like tasks.
+882,Relating hippocampal circuitry to function: recall of memory sequences by reciprocal dentate-CA3 interactions.
+883,Variation in strength of inhibitory synapses in the CA3 region of guinea-pig hippocampus in vitro.
+8879,Patterns of coupled theta activity in amygdala-hippocampal-prefrontal cortical circuits during fear extinction.
+888,Replay of neuronal firing sequences in rat hippocampus during sleep following spatial experience.
+890,Disposition of the slab-like modules formed by axon branches originating from single CA1 pyramidal neurons in the rat hippocampus.
+893,Population dynamics and theta rhythm phase precession of hippocampal place cell firing: a spiking neuron model.
+8958,Synaptic tagging: implications for late maintenance of hippocampal long-term potentiation.
+8962,Medial prefrontal cortex cells show dynamic modulation with the hippocampal theta rhythm dependent on behavior.
+8966,Phase precession of medial prefrontal cortical activity relative to the hippocampal theta rhythm.
+8978,Role of the basolateral amygdala in memory consolidation.
+898,Gap junctions synchronize the firing of inhibitory interneurons in guinea pig hippocampus.
+8983,The cognitive neuroscience of remote episodic, semantic and spatial memory.
+8984,Reward-spatial view representations and learning in the primate hippocampus.
+8985,An attractor network in the hippocampus: theory and neurophysiology.
+8989,Oscillatory entrainment of striatal neurons in freely moving rats.
+923,Theta oscillations in the hippocampus.
+926,Fast spiking cells in rat hippocampus (CA1 region) contain the calcium-binding protein parvalbumin.
+9267,Attenuation of mania-like behavior in Na(+),K(+)-ATPaseα3 mutant mice by prospective therapies for bipolar disorder: melatonin and exercise.
+9311,Wakefulness-promoting role of the inferior colliculus.
+935,Requirement for hippocampal CA3 NMDA receptors in associative memory recall.
+936,Phase relationship between hippocampal place units and the EEG theta rhythm.
+937,Theta phase precession in hippocampal neuronal populations and the compression of temporal sequences.
+939,Intrinsic oscillations in CA3 hippocampal pyramids: physiological relevance to theta rhythm generation.
+942,A fundamental oscillatory state of isolated rodent hippocampus.
+945,Possible physiological role of the perforant path-CA1 projection.
+968,Latent synaptic pathways revealed after tetanic stimulation in the hippocampus.
+969,Differences between somatic and dendritic inhibition in the hippocampus.
+974,Complete axon arborization of a single CA3 pyramidal cell in the rat hippocampus, and its relationship with postsynaptic parvalbumin-containing interneurons.
+988,Membrane properties of interneurons in stratum oriens-alveus of the CA1 region of rat hippocampus in vitro.
+997,Simulations of epileptiform activity in the hippocampal CA3 region in vitro.

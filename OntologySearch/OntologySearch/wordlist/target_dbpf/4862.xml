@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4862">
+<itemtype>xnppaper</itemtype>
+<titles><title>Gene expression of growth-associated proteins, GAP-43 and SCG10, in the hippocampal formation of the macaque monkey: nonradioactive in situ hybridization study.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>metabolism</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>metabolism</keyword>
+<keyword>GAP-43 Protein</keyword>
+<keyword>genetics</keyword>
+<keyword>Gene Expression</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>metabolism</keyword>
+<keyword>physiology</keyword>
+<keyword>Histocytochemistry</keyword>
+<keyword>In Situ Hybridization</keyword>
+<keyword>Macaca</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Macaca mulatta</keyword>
+<keyword>Nerve Growth Factors</keyword>
+<keyword>genetics</keyword>
+<keyword>RNA</keyword>
+<keyword>Messenger</keyword>
+<keyword>metabolism</keyword>
+<keyword>Tissue Distribution</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T02:22:57Z</last_update_date>
+<creation_date>2011-05-02T02:22:57Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4862</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4862" version="1.02">
+<authors><author>Higo N</author><author>Oishi T</author><author>Yamashita A</author><author>Matsuda K</author><author>Hayashi M</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>5</number>
+<page>533-47</page>
+<abstract>We performed nonradioactive in situ hybridization histochemistry in the monkey hippocampal formation that includes the hippocampus, the subicular complex, and the entorhinal cortex to detect the expression of mRNA for two growth-associated proteins: GAP-43 and SCG10. Overall, the distribution patterns overlapped but were partially distinct. In the hippocampus, the intense hybridization signals for both GAP-43 and SCG10 mRNAs were observed in the pyramidal cell layer of Ammon&#039;s horn, especially in CA3 subfields. The intense hybridization signals were also observed in the stratum oriens of Ammon&#039;s horn and the polymorphic layer of the dentate gyrus. In the granule cell layer of the dentate gyrus, many GAP-43 mRNA-positive cells were observed, whereas a few positive cells with weak signals were observed for SCG10 mRNA. Throughout the subicular complex, the hybridization signals for both mRNAs were weak. In the entorhinal cortex, both mRNAs were abundant in the caudal field. These subregion-specific expression of the growth-associated proteins may reflect the functional specialization regarding plasticity in each region of the monkey hippocampal formation.</abstract>
+<pubmed_id>9825963</pubmed_id>
+</detail>
+</item>

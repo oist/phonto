@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4943">
+<itemtype>xnppaper</itemtype>
+<titles><title>The hippocampal memory indexing theory.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Association</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cats</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Limbic System</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Psychophysics</keyword>
+<keyword>Rabbits</keyword>
+<keyword>Rats</keyword>
+<keyword>Synaptic Transmission</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:43:40Z</last_update_date>
+<creation_date>2011-05-09T02:43:40Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4943</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4943" version="1.02">
+<authors><author>Teyler TJ</author><author>DiScenna P</author></authors>
+<journal>Behavioral neuroscience</journal>
+<volume>100</volume>
+<number>2</number>
+<page>147-54</page>
+<abstract>The hippocampal formation (comprising the hippocampus proper, the dentate gyrus, and the subiculum) has been repeatedly implicated in information storage models of the mammalian brain. The precise nature of the hippocampal role in the storage of information has, however, remained elusive. Here it is proposed that the role of the hippocampus is to form and retain an index of neocortical areas activated by experiential events. The hippocampal index, thus, represents those unique cortical regions activated by specific events. The neuronal mechanism underlying the memory index is hypothesized to be long-term potentiation. It is asserted that the reactivation of the stored hippocampal memory index will serve to also reactivate the associated unique array of neocortical areas and thus will result in a memorial experience. This hippocampal reactivation of a neocortical array may also be involved in establishing a cortically based memory trace.</abstract>
+<pubmed_id>3008780</pubmed_id>
+</detail>
+</item>

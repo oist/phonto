@@ -1,0 +1,67 @@
+Animals
+Calcium Signaling
+drug effects
+physiology
+Cell Polarity
+drug effects
+physiology
+Cell Shape
+physiology
+Dendrites
+drug effects
+metabolism
+ultrastructure
+Glutamic Acid
+metabolism
+Hippocampus
+cytology
+drug effects
+metabolism
+Immunohistochemistry
+Interneurons
+cytology
+drug effects
+metabolism
+Long-Term Potentiation
+drug effects
+physiology
+Long-Term Synaptic Depression
+drug effects
+physiology
+Male
+Neural Inhibition
+drug effects
+physiology
+Neuronal Plasticity
+drug effects
+physiology
+Organ Culture Techniques
+Parvalbumins
+metabolism
+Patch-Clamp Techniques
+Presynaptic Terminals
+drug effects
+metabolism
+ultrastructure
+Rats
+Rats
+Sprague-Dawley
+Receptor
+Cannabinoid
+CB1
+drug effects
+metabolism
+Receptors
+AMPA
+drug effects
+metabolism
+Synapses
+drug effects
+metabolism
+ultrastructure
+Synaptic Transmission
+drug effects
+physiology
+gamma-Aminobutyric Acid
+metabolism
+Different GABAergic interneuron types have specific roles in hippocampal function, and anatomical as well as physiological features vary greatly between interneuron classes. Long-term plasticity of interneurons has mostly been studied in unidentified GABAergic cells and is known to be very heterogeneous. Here we tested whether cell type-specific plasticity properties in distinct GABAergic interneuron types might underlie this heterogeneity. We show that long-term potentiation (LTP) and depression (LTD), two common forms of synaptic plasticity, are expressed in a highly cell type-specific manner at glutamatergic synapses onto hippocampal GABAergic neurons. Both LTP and LTD are generated in interneurons expressing parvalbumin (PV+), whereas interneurons with similar axon distributions but expressing cannabinoid receptor-1 show no lasting plasticity in response to the same protocol. In addition, LTP or LTD occurs in PV+ interneurons with different efferent target domains. Perisomatic-targeting PV+ basket and axo-axonic interneurons express LTP, whereas glutamatergic synapses onto PV+ bistratified cells display LTD. Both LTP and LTD are pathway specific, independent of NMDA receptors, and occur at synapses with calcium-permeable (CP) AMPA receptors. Plasticity in interneurons with CP-AMPA receptors strongly modulates disynaptic GABAergic transmission onto CA1 pyramidal cells. We propose that long-term plasticity adjusts the synaptic strength between pyramidal cells and interneurons in a cell type-specific manner and, in the defined CA1 interneurons, shifts the spatial pattern of inhibitory weight from pyramidal cell dendrites to the perisomatic region.

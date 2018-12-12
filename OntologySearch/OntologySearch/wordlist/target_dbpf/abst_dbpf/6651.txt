@@ -1,0 +1,37 @@
+Acoustic Stimulation
+methods
+Adult
+Attention
+physiology
+Brain Mapping
+Hippocampus
+blood supply
+physiology
+Humans
+Image Processing
+Computer-Assisted
+methods
+Magnetic Resonance Imaging
+methods
+Male
+Mental Recall
+physiology
+Neocortex
+blood supply
+physiology
+Neural Pathways
+blood supply
+physiology
+Neuropsychological Tests
+Oxygen
+blood
+Reaction Time
+physiology
+Recognition (Psychology)
+physiology
+Signal Detection
+Psychological
+Time Factors
+Vocabulary
+Young Adult
+During memory encoding, increased hippocampal activity-thought to reflect the binding of different types of information into unique episodes-has been shown to correlate with subsequent recollection of those episodes. Repetition priming-thought to induce more efficient perceptual processing of stimuli-is normally associated with decreased neocortical activity and is often assumed to reduce encoding into episodic memory. Here, we used fMRI to compare activity to primed and unprimed auditory words in the presence of distracting sounds as a function of whether participants subsequently recollected the word-sound associations or only had a feeling of familiarity with the word in a subsequent surprise recognition task. At the behavioral level, priming increased the incidence of subsequent recollection. At the neuronal level, priming reduced activity in the superior temporal gyrus (STG) but also reversed the traditional increase in encoding-related hippocampal activity associated with subsequent recollection relative to subsequent familiarity. To explain this interaction pattern, further analyses using dynamic causal modeling showed an increase in connectivity from left STG to left hippocampus specific to words that were later recollected. These findings show that successful episodic encoding is not determined solely by local hippocampal activity and emphasize instead the importance of increased functional neocortical-hippocampal coupling. Such coupling might be a better predictor of subsequent recollection than the direction of local hippocampal changes per se. We propose that one consequence of priming is to"free up"attentional resources from processing an item in a noisy context, thereby allowing greater attention to encoding of that context.

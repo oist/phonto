@@ -1,0 +1,15 @@
+Animals
+Computer Simulation
+Hippocampus
+physiology
+Learning
+physiology
+Maze Learning
+physiology
+Neural Networks (Computer)
+Nucleus Accumbens
+physiology
+Rats
+Space Perception
+physiology
+Cells in the hippocampal formation show spatial firing correlates thought to be critical to the role played by this structure in spatial learning. Place cells in the hippocampus proper show location-specific activity, whereas cells in the postsubiculum fire as a function of momentary directional heading. One question which has received little attention is how these spatial signals are used by motor structures to actually guide spatial behavior. Here we present a model of how one kind of spatial behavior, instrumental learning in the Morris water maze, could be guided by the spatial information in the hippocampal formation. For this, we concentrate on the hippocampal projection to the nucleus accumbens, which is strongly implicated in instrumental learning. In the model, simulated firing patterns of place cells and head direction cells activate "motor" cells in the "accumbens." Each motor cell causes a particular locomotor movement in a simulated rat. In this way, the "rat" locomotes through the simulated environment. Each step places the animal in a slightly different location and directional orientation, which, in turn, activates a different set of place and head direction cells, thus causing the next locomotor response, and so on. Connection strengths between cells are initially set randomly. When the animal encounters the reward location, however, connections are altered, so that recently active synapses are strengthened. Thus, successful moves in a particular locational and directional context are "stamped in." Simulated rats show rapid learning, similar in many ways to that of actual rats. In particular, they generate efficient routes to the goal after minimal experience, and can do so from somewhat novel starting positions. Consideration of the model architecture shows that 1) combined use of directional and place information is an example of a linearly inseparable problem and that 2) some types of novel route generation, often thought to require a "cognitive mapping" strategy, can be generated from the S-R type model used here.

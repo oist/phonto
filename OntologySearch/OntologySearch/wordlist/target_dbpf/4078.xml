@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4078">
+<itemtype>xnppaper</itemtype>
+<titles><title>An oscillatory interference model of grid cell firing.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Dendrites</keyword>
+<keyword>physiology</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>cytology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T05:51:38Z</last_update_date>
+<creation_date>2010-10-08T05:51:38Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4078</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4078" version="1.02">
+<authors><author>Burgess N</author><author>Barry C</author><author>O&#039;Keefe J</author></authors>
+<journal>Hippocampus</journal>
+<volume>17</volume>
+<number>9</number>
+<page>801-12</page>
+<abstract>We expand upon our proposal that the oscillatory interference mechanism proposed for the phase precession effect in place cells underlies the grid-like firing pattern of dorsomedial entorhinal grid cells (O&#039;Keefe and Burgess (2005) Hippocampus 15:853-866). The original one-dimensional interference model is generalized to an appropriate two-dimensional mechanism. Specifically, dendritic subunits of layer II medial entorhinal stellate cells provide multiple linear interference patterns along different directions, with their product determining the firing of the cell. Connection of appropriate speed- and direction-dependent inputs onto dendritic subunits could result from an unsupervised learning rule which maximizes postsynaptic firing (e.g. competitive learning). These inputs cause the intrinsic oscillation of subunit membrane potential to increase above theta frequency by an amount proportional to the animal&#039;s speed of running in the &quot;preferred&quot; direction. The phase difference between this oscillation and a somatic input at theta-frequency essentially integrates velocity so that the interference of the two oscillations reflects distance traveled in the preferred direction. The overall grid pattern is maintained in environmental location by phase reset of the grid cell by place cells receiving sensory input from the environment, and environmental boundaries in particular. We also outline possible variations on the basic model, including the generation of grid-like firing via the interaction of multiple cells rather than via multiple dendritic subunits. Predictions of the interference model are given for the frequency composition of EEG power spectra and temporal autocorrelograms of grid cell firing as functions of the speed and direction of running and the novelty of the environment.</abstract>
+<pubmed_id>17598147</pubmed_id>
+</detail>
+</item>

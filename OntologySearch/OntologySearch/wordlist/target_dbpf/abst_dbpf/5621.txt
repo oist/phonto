@@ -1,0 +1,28 @@
+Animals
+Association Learning
+physiology
+Brain Mapping
+Hippocampus
+anatomy
+&
+histology
+physiology
+Models
+Neurological
+Nerve Net
+physiology
+Neurons
+physiology
+Receptors
+GABA-A
+physiology
+Receptors
+GABA-B
+physiology
+Space Perception
+physiology
+Synapses
+physiology
+Synaptic Transmission
+Theta Rhythm
+Computational models of hippocampal region CA3 were used to study the role of theta rhythm in storage and retrieval of temporal sequences of neuronal activity patterns. Retrieval of multiple overlapping temporal sequences requires a mechanism for disambiguation, e.g., for choosing between two sequences with the same starting pattern but different final patterns (forked sequences). Modulatory input to the hippocampus from the medial septum may enhance the disambiguation of pattern sequences by causing phasic changes in the relative strength of afferent input and recurrent excitation. In the models, the strength of recurrent synaptic transmission is modulated by activation of GABA(B) receptors. Theta frequency inputs from the medial septum cause oscillations in the levels of GABA in the model, producing phasic changes in the strength of synaptic potentials during a theta cycle similar to those observed experimentally (Wyble et al., Soc Neurosci Abstr 1997;23: 197.7). These phasic changes in GABA(B) suppression improve sequence disambiguation in the simulations, as previously shown with analysis of a simpler model (Sohal and Hasselmo, Neural Comp 1998;10:889-902). In addition, tonic changes in levels of cholinergic modulation enhance the storage of forked sequences by preventing a strong influence of recurrent synapses during storage.

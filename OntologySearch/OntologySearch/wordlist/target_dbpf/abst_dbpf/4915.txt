@@ -1,0 +1,25 @@
+Anesthetics
+pharmacology
+Animals
+Atropine
+pharmacology
+Electroencephalography
+Hippocampus
+drug effects
+physiology
+Movement
+drug effects
+Parasympathomimetics
+pharmacology
+Pentobarbital
+pharmacology
+Phencyclidine
+pharmacology
+Rats
+Reserpine
+pharmacology
+Scopolamine
+pharmacology
+Urethane
+pharmacology
+Electrodes implanted in stratum radiatum of CA1 region in freely moving rats gave a theta phase shift of 120-150 degrees with respect to an alvear electrode. Various centrally acting drugs were shown to shift the radiatum theta phase. Among the conditions giving an upward shift in the order of decreasing phase: values are: immobility under anesthetic doses of ether and urethane (phase close to 180 degrees), immobility under eserine, 'struggling' under sub-anesthetic dose of urethane, walking after phencyclidine, and walking after reserpine, eserine and pentobarbital. After atropine or scopolamine, the phase shifted downward by 10-30 degrees. The rank order of radiatum theta phase amplitude may correspond to the balance between two pharmacological and anatomical distinct pathways which give rise to the theta rhythm, i.e., the atropine-sensitive and atropine-resistant inputs. Large phases, close to 180 degrees, indicate a large ratio of the atropine-sensitive over the atropine-resistant input, and small phases a small ratio. Phase measurement of the theta rhythm therefore provides a sensitive functional measurement of the dynamic balance of the two theta inputs.

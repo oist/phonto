@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4751">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal granule cells are necessary for normal spatial learning but not for spatially-selective pyramidal cell discharge.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Colchicine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Conditioning (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Pyramidal Tracts</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred F344</keyword>
+<keyword>Spatial Behavior</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T03:27:23Z</last_update_date>
+<creation_date>2011-04-28T03:27:23Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4751</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4751" version="1.02">
+<authors><author>McNaughton BL</author><author>Barnes CA</author><author>Meltzer J</author><author>Sutherland RJ</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>76</volume>
+<number>3</number>
+<page>485-96</page>
+<abstract>The effects of massive destruction of granule cells of the fascia dentata on the spatial and temporal firing characteristics of pyramidal cells in the CA1 and CA3 subfields of the hippocampus were examined in freely moving rats. Microinjections of the neurotoxin colchicine were made at a number of levels along the septo-temporal axis of the dentate gyri of both hemispheres, resulting in destruction of over 75% of the granule cells. By contrast there was relatively little damage to the pyramidal cell fields. As assessed by three different behavioral tests, the colchicine treatment resulted in severe spatial learning deficits. Single units were recorded from the CA1 and CA3 subfields using the stereotrode recording method while the animals performed a forced choice behavioral task on the radial 8-arm maze. Considering the extent of damage to the dentate gyrus, which has hitherto been considered to be the main source of afferent information to the CA fields, there was remarkably little effect on the spatial selectivity of &quot;place cell&quot; discharge on the maze, as compared to recordings from control animals. There was, however, a change in the temporal firing characteristics of these cells, which was manifested primarily as an increase in the likelihood of burst discharge. The main conclusion derived from these findings is that most of the spatial information exhibited by hippocampal pyramidal cells is likely to be transmitted from the cortex by routes other than the traditional &quot;trisynaptic circuit&quot;. These routes may include the direct projections from entorhinal layers II and III to CA3 and CA1, respectively.</abstract>
+<pubmed_id>2792242</pubmed_id>
+</detail>
+</item>

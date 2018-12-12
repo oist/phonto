@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="726">
+<itemtype>xnppaper</itemtype>
+<titles><title>The role of the right hippocampus in the recall of spatial location.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-11T01:28:29Z</last_update_date>
+<creation_date>2008-07-11T01:28:29Z</creation_date>
+<publication_year>1981</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=726</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="726" version="1.02">
+<authors><author>Smith ML</author><author>Milner B</author></authors>
+<journal>Neuropsychologia</journal>
+<volume>19</volume>
+<number>6</number>
+<page>781-93</page>
+<abstract></abstract>
+<pubmed_id>7329524 </pubmed_id>
+</detail>
+</item>

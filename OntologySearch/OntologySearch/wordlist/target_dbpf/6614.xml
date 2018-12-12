@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6614">
+<itemtype>xnppaper</itemtype>
+<titles><title>Perirhinal and hippocampal contributions to visual recognition memory can be distinguished from those of occipito-temporal structures based on conscious awareness of prior occurrence.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Awareness</keyword>
+<keyword>physiology</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Data Interpretation</keyword>
+<keyword>Statistical</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Occipital Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Visual Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:15:27Z</last_update_date>
+<creation_date>2013-02-26T06:15:27Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6614</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6614" version="1.02">
+<authors><author>Danckert SL</author><author>Gati JS</author><author>Menon RS</author><author>Köhler S</author></authors>
+<journal>Hippocampus</journal>
+<volume>17</volume>
+<number>11</number>
+<page>1081-92</page>
+<abstract>The ability of humans to distinguish consciously between new and previously encountered objects can be probed with visual recognition memory tasks that require explicit old-new discriminations. Medial temporal-lobe (MTL) lesions impair performance on such tasks. Within the MTL, both perirhinal cortex and the hippocampus have been implicated. Cognitive processes can also be affected by past object encounters in the absence of conscious recognition, as in repetition priming tasks. Past functional neuroimaging findings in healthy individuals suggest that even in tasks that require conscious recognition decisions for visual stimuli, posterior cortical structures in the ventral visual pathway distinguish between old and new objects at a nonconscious level. Conclusive evidence that differentiates the neural underpinnings of conscious from nonconscious processes in recognition memory, however, is still missing. In particular, functional magnetic resonance imaging (fMRI) findings for the MTL have been inconsistent towards this end. In the present fMRI study, we tested whether perirhinal and hippocampal contributions to recognition memory can be distinguished from those of occipito-temporal structures in the ventral visual pathway based on the participants&#039; reported conscious awareness of prior occurrence. Images of objects with a large degree of feature overlap served as stimuli; they were selected to ensure an involvement of perirhinal cortex in the present recognition task, based on evidence from past lesion-based research. We found that both perirhinal cortex and occipito-temporal cortex showed a differential old-new response that reflected a repetition-related decrease in activity (i.e., new&gt;old). Whereas in perirhinal cortex this decrease was observed with respect to whether subjects reported objects to be old or new, irrespective of the true item status, in occipito-temporal cortex it occurred in relation to whether objects were truly old or new, irrespective of the participants&#039; conscious reports. Hippocampal responses differed in their exact pattern from those of perirhinal cortex, but were also related to the conscious recognition reports. These results indicate that both perirhinal and hippocampal contributions can be distinguished from those of occipito-temporal structures in the ventral visual pathway based on the participants&#039; reported conscious awareness of prior occurrence.</abstract>
+<pubmed_id>17696171</pubmed_id>
+</detail>
+</item>

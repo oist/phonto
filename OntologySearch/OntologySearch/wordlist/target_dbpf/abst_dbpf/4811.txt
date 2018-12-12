@@ -1,0 +1,19 @@
+Amnesia
+Retrograde
+etiology
+physiopathology
+Animals
+Behavior
+Animal
+physiology
+Conditioning
+Classical
+physiology
+Electroshock
+Fear
+physiology
+Female
+Hippocampus
+physiopathology
+Rats
+Emotional responses such as fear are rapidly acquired through classical conditioning. This report examines the neural substrate underlying memory of acquired fear. Rats were classically conditioned to fear both tone and context through the use of aversive foot shocks. Lesions were made in the hippocampus either 1, 7, 14, or 28 days after training. Contextual fear was abolished in the rats that received lesions 1 day after fear conditioning. However, rats for which the interval between learning and hippocampal lesions was longer retained significant contextual fear memory. In the same animals, lesions did not affect fear response to the tone at any time. These results indicate that fear memory is not a single process and that the hippocampus may have a time-limited role in associative fear memories evoked by polymodal (contextual) but not unimodal (tone) sensory stimuli.

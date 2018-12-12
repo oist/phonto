@@ -1,0 +1,253 @@
+Abstract
+Taste receptor cells fire action potentials in response to taste substances to trigger non-exocytotic neurotransmitter release in type II cells and exocytotic release in type III cells. We investigated possible differences between these action potentials fired by mouse taste receptor cells using in situ whole-cell recordings, and subsequently we identified their cell types immunologically with cell-type markers, an IP3 receptor (IP3R3) for type II cells and a SNARE protein (SNAP-25) for type III cells. Cells not immunoreactive to these antibodies were examined as non-IRCs. Here, we show that type II cells and type III cells fire action potentials using different ionic mechanisms, and that non-IRCs also fire action potentials with either of the ionic mechanisms. The width of action potentials was significantly narrower and their afterhyperpolarization was deeper in type III cells than in type II cells. Na+ current density was similar in type II cells and type III cells, but it was significantly smaller in non-IRCs than in the others. Although outwardly rectifying current density was similar between type II cells and type III cells, tetraethylammonium (TEA) preferentially suppressed the density in type III cells and the majority of non-IRCs. Our mathematical model revealed that the shape of action potentials depended on the ratio of TEA-sensitive current density and TEA-insensitive current one. The action potentials of type II cells and type III cells under physiological conditions are discussed.
+
+
+
+Introduction
+Taste receptor cells fire action potentials in response to taste substances to trigger their neurotransmitter release. Mammalian taste buds consist of four cell types, types I?IV (Murray, 1973). Type II cells non-exocytotically release ATP via a voltage-gated channel (Romanov et al., 2007, 2008; Murata et al., 2010; Taruno et al., 2013), and type III cells exocytotically release serotonin (Huang et al., 2009). Thus, it is likely that the shapes of the action potentials and associated voltage-gated currents of taste receptor cells reflect differences in their neurotransmitter release mechanisms.
+
+Since the discovery of anode break excitation in bullfrog taste bud cells (Kashiwayanagi et al., 1983), many studies have revealed the excitability of taste receptor cells (reviews: Lindemann, 1996; Kinnamon, 2012). Although voltage-gated currents have been investigated in some cell types (Medler et al., 2003; Romanov et al., 2007; Vandenbeuch et al., 2008, 2010; Ohtubo et al., 2012), no study has investigated their respective action potentials. In the present study, we compared the action potentials of type II cells and type III cells, and investigated the role of voltage-gated currents in the action potentials of these cell types, typically in type II cells. Part of the present results are published elsewhere in an abstract (Yoshii et al., 2012).
+
+
+Materials and methods
+All experimental protocols were conducted in compliance with the Guiding Principles for the Care and Use of Animals in the Field of Physiological Sciences approved by the Council of the Physiological Society of Japan, and they were permitted by the Animal Institutional Review Board of Kyushu Institute of Technology in accordance with the guidelines of the U.S. National Institutes of Health.
+
+Peeled lingual epithelium
+We peeled the lingual epithelium of mice as described previously (Furue & Yoshii, 1997, 1998; Hayato et al., 2007). In brief, we killed ~8-week-old ddY-strain mice of either sex by decapitation under ether anesthesia, obtained the tongue, hypodermically injected an elastase solution into the tongue, incubated it at 25 ÅãC for several minutes, peeled off the epithelium with forceps and mounted it in saline on a recording platform with the basolateral membrane of taste bud cells facing upward. Whole-cell-clamp recordings were obtained from the exposed basolateral membrane of taste bud cells viewed using a differential interference contrast microscope with a water-immersion objective. We optimized the time for elastase treatment for each enzyme lot, and for the age of mice, to eliminate connective tissue that could impede electrode access. Enzymatic removal of the connective tissue never decreased the number of taste bud cells per taste bud (Ohtubo & Yoshii, 2011).
+
+Electrophysiological recording
+Action potentials and voltage-gated currents of taste bud cells were investigated under in situ tight-seal whole-cell clamp conditions similar to our previous studies (Furue & Yoshii, 1997, 1998; Hayato et al., 2007). The recorded signals were amplified and filtered at 10 kHz with a voltage-clamp amplifier (Axopatch 200B; Axon Instruments, Union City, CA, USA), digitized with an A/D converter (Digidata 1322A; Axon Instruments), and stored using pCLAMP data acquisition and analysis software (ver. 9.0; Axon Instruments) on a personal computer. Recording electrodes (~5 MÉ∂) were filled with a KCl electrode solution and 2 mg/mL biocytin.
+
+Voltage-independent currents appeared between ~?80 and ~?50 mV. We eliminated these by extrapolating their current?voltage relationships and subtracting the leak current magnitudes at their respective membrane potentials. Blockers were applied to the basolateral membrane of taste bud cells. Data are shown as means and SDs unless otherwise noted. All experiments were carried out at room temperature.
+
+Immunohistostaining
+We injected biocytin during electrophysiological recordings, soaked the epithelium overnight while mounted on the platform in a fixative solution, and immunolabeled the epithelium with primary antibodies dissolved in a blocking solution for 24?48 h at 4 ÅãC. After washing the epithelium with PBS, we incubated it with the Alexa Fluor-conjugated secondary antibodies for 24?48 h at 4 ÅãC. The primary antibodies used were anti-inositol 1,4,5-triphosphate receptor type III (IP3R3) mouse monoclonal antibody (1 : 50, BD-610312; BD Transduction Laboratories, Lexington, KY, USA), and anti-synaptosomal-associating protein-25 (SNAP-25) rabbit polyclonal antibody (1 : 1000, S9684; Sigma-Aldrich, St Louis, MO, USA). Secondary antibodies were Alexa Fluor 488-conjugated donkey anti-rabbit IgG (1 : 400; Molecular Probes, Carlsbad, CA, USA), and Alexa Fluor 555-conjugated donkey anti-mouse IgG (1 : 400; Molecular Probes). Biocytin in the cell was visualized with Alexa Fluor 633-conjugated streptavidin (Molecular Probes).
+
+Cell type identification
+In mice, type II cells are immunoreactive to the IP3 receptor IP3R3, type III cells are immunoreactive to the SNARE protein SNAP-25, and type I cells and type IV cells are not immunoreactive to IP3R3 or SNAP-25 (Yang et al., 2000; Clapp et al., 2001; Perez et al., 2003; DeFazio et al., 2006). A few cells are immunoreactive to both IP3R3 and SNAP-25 in mouse fungiform taste buds (Ohtubo & Yoshii, 2011). In the present study, we identified these cell types by their immunoreactivity to IP3R3 and SNAP-25 in situ after electrophysiological recordings. We also examined non-immunoreactive cells (non-IRCs).
+
+Confocal microscope sections of the stained preparations were obtained from the entire vertical length of the taste bud with sequential acquisition in 1.0-, 1.2- or 1.5-É m steps at wavelengths suitable for the examined fluorescent dyes. We scanned each focal plane three times to reduce random noise. Biocytin injected into cells during electrophysiological measurements was visualized during immunohistostaining. In order to eliminate misidentification, only one cell was electrophysiologically and immunologically investigated in each lingual epithelium. That is, we destroyed cells together with their taste buds when the tight seal between the electrode and the cell was broken before we had finished electrophysiological measurements.
+
+The cells of interest were immunologically identified using two criteria (Fig. 1): the cell, at least its cell body, was fully filled with biocytin, and the same taste bud had to contain immunoreactivity for both IP3R3 and SNAP-25. The first criterion discriminated cells from artifacts, and the second confirmed the immunohistostaining of two cell-type markers. Although a few taste buds did not have type III cells, as we previously showed (Ohtubo & Yoshii, 2011), all taste buds contained nerve fibers immunoreactive to SNAP-25. We thus identified 41 cells (~60% of electrophysiologically investigated cells). The others were lost during immunohistostaining. As the ratio of lost cells increased with increasing duration of patch-clamping, we recorded action potentials and voltage-gated currents from different cells.
+
+image
+Figure 1. Action potentials and voltage-gated currents of a type II cell (left column), a type III cell (middle column) and a non-IRC (right column) in situ. (Row A) Action potentials generated by single 1-ms depolarizing current pulses. Holding potentials, ~?60 mV. Holding currents were: type II cell, ?50 pA; type III cell, ?160 pA; non-IRC, ?10 pA. Depolarizing currents were: type II cell, + 60 pA; type III cell, + 50 pA; non-IRC, + 60 pA. Red lines, ?20 mV level at which action potential widths were measured. Dotted lines, 0 mV. (Row B) Families of voltage-clamp currents and their current?voltage relations. We generated voltage-gated currents with 50-ms test potentials of ?120 mV to + 100 mV in 5-mV steps from a holding potential of ?70 mV at intervals of 1.0 s. Closed circles show the negative peak of Na+ current magnitude, and squares show outwardly rectifying current magnitude averaged between 45 and 50 ms after the onset of test potentials, as indicated on voltage-gated currents (dotted lines). (Row C) Images of electrophysiologically investigated cells (blue) and their immunoreactivity to IP3R3, a type II cell marker (red) or SNAP-25, a type III cell marker (green). Note red border in left blue cell (type II cell), green border in centre blue cell (type III cell) and no reaction in right blue cell (non-IRC). Scale bar, 10 É m.
+
+Taste bud cell model
+Hodgkin & Huxley (1952) showed that simultaneous differential equations describe the change in membrane potential of a neuron as a function of ionic channel currents. The Hodgkin?Huxley (HH)-type model has been adapted to reproduce action potentials of many different types of neurons. Here the equations of the ionic channel currents were fitted to the current traces obtained during the voltage-clamped experiments, thereby allowing us to discuss the relation between the shape of action potentials and the electrophysiological properties of ionic channels.
+
+We numerically simulated the action potential and afterhyperpolarization of type II cells and type III cells with a conductance-based model using XPPAUT software (ver. 6). The present taste bud cell model consisted of membrane capacitance (C), membrane potential (V), Na+ currents (INa), tetraethylammonium (TEA)-sensitive currents (ITS), TEA-insensitive currents (ITI), and the leak current (IL).
+
+display math(1)
+where IL = gL(V ? EL); the leak conductance gL = 1.4 nS, the leak current reversal potential EL = ?21 mV, the membrane capacitance C = 8 pF and the holding current Idc = ?58 pA. Istim was the depolarizing stimulation current. These and the following constant parameters used were within the range of respective parameters obtained from or used in the present electrophysiological experiments unless otherwise noted.
+
+The Na+ channel current, INa, involves the activation variable m and the inactivation variable h. The conductance of the Na+ channel is proportional to mxh. To simplify, we neglected the delay in Na+ activation in the present paper, i.e., mx = mÅá(V). Thus, m was determined solely from the membrane potential V. Such simplification generates responses in good agreement with those of the HH model, and revealed the dynamic behavior of an action potential (FitzHugh, 1961; Rinzel, 1985). Employing mÅá(V) does not prevent the fitting of measured action potentials (Av-Ron et al., 1991). INa was modeled as:
+
+display math(2)
+display math(3)
+where inline image was the maximal Na+ channel conductance; the steady state of m was inline image (Noguchi, 2003). The maximum value of inline image was 35 nS, and the reversal potential of Na+ (ENa) was +67 mV, the equilibrium potential of Na+ under the present experimental conditions.
+
+The inactivation variable h of mouse Na+ channels was only obtained from mouse soft palate taste bud cells at several membrane potentials (Noguchi, 2003). The steady-state inactivation curve was hÅá (V) = 1/(1 + exp ((60 + V)/10)) (Noguchi, 2003). Although Noguchi implied that the inactivation time course was drawn with fast and slow time constants, we took the fast time constant É—h to calculate solitary, single action potentials: inline image
+
+We took the delayed rectifier K+ channel of squid giant axon membrane (Hodgkin & Huxley, 1952) for TEA-sensitive currents, because afterhyperpolarization was close to the equilibrium potential of K+ (see Outwardly rectifying currents in 'Results'). Thus, ITS was modeled as:
+
+display math(4)
+display math(5)
+The steady-state activation curve (nÅá) and time constant (É—n) were slightly modified upon fitting. ITS employed n where nÅá (V) = 1/(1 + exp ((2.3 ? V)/11)) and É—n (V) = 1.1 + 4.7 exp (?(? 23.7 ? V)2/2500). The voltage dependence was shifted by +53.3 mV to adapt the present current?voltage curve of TEA-sensitive currents. We took K+ equilibrium potential of ?87 mV under the present experimental condition for the reversal potential of TEA-sensitive currents (ETS).
+
+We assumed that the TEA-insensitive currents of type III cells were identical to those of type II cells and non-IRCs. The HH equations were fitted to the activating and deactivating TEA-insensitive current traces obtained by depolarization (n = 5) and hyperpolarization (n = 3) of type II cells under voltage-clamp conditions. The time constant of TEA-insensitive currents was determined from activation and deactivation time courses. Activation time courses were determined with test potentials of + 10 to + 80 mV from a holding potential of ?70 mV, and deactivation time courses were determined with those of ?20 to ?120 mV from a holding potential of + 10 mV, in 10-mV steps.
+
+We thus simulated these ITI with the HH-type equations shown below:
+
+display math(6)
+display math(7)
+where ETI was the reversal potential of TEA-insensitive currents, inline image was the maximum conductance and s was the gating variable of activation. The differential equation for the rate of change of s constituted of the forward (Éøs) and backward (É¿s) rate constants. ETI was ?4 mV, the reversal potential of type II cells. Éøs and É¿s were derived from the activation and the deactivation currents in the voltage-clamp experiments:
+
+display math(8)
+display math(9)
+Solutions
+All solutions were prepared with deionized water, and the components are expressed in mm concentrations unless otherwise noted. The physiological saline consisted of: NaCl, 150; KCl, 5; CaCl2, 2; MgCl2, 0.5; glucose, 10; Hepes, 5; pH was adjusted to 7.4 with NaOH. The tetrodotoxin (TTX) solution was a 1-É m TTX solution prepared with physiological saline. The TEA solution was a 10-mm TEA Cl solution prepared with the TTX solution. The elastase solution was 0.1% elastase (Wako Pure Chemical Industries, Osaka, Japan) dissolved in the physiological saline. The KCl electrode solution was: KCl, 120; MgCl2, 5; CaCl2, 2.4; EGTA, 10; KOH, 30; Na2ATP, 5; Na3GTP, 0.3; and Hepes, 10; pH was adjusted to 7.2 with KOH; the solution was supplemented with 2 mg/mL biocytin. The phosphate-buffered solution (PBS) was: NaCl, 137; KCl, 2.67; Na2HPO4, 8.09; and KH2PO4, 1.47; pH 7.4. The fixative solution was 4% paraformaldehyde in PBS. The blocking solution was 3% donkey serum, 0.3% Triton X and 1% bovine serum albumin in PBS.
+
+
+Results
+Identification of cell types
+Biocytin diffused into the whole subcellular space of electrophysiologically investigated cells including apical portions and nuclei (Fig. 1). No nucleus was immunoreactive to IP3R3 or SNAP-25. These confocal images were similar to previous ones (Yang et al., 2004; Ohtubo & Yoshii, 2011; Ohtubo et al., 2012). We identified 14 type II cells, nine type III cells and 18 non-IRCs.
+
+Action potentials
+We investigated the excitability of cells that generated voltage-gated Na+ currents of > 1 nA at the negative peak of current?voltage curves; four type II cells, three type III cells and two non-IRCs. When current-clamped around ?60 mV all of these cells fired action potentials in response to depolarizing current pulses.
+
+The peak of action potentials reached + 33 Å} 11 mV (mean Å} SD, n = 4) in type II cells, + 37 Å} 12 mV (n = 3) in type III cells and + 50 and + 39 mV in two non-IRCs. There were no significant differences in peak height between type II cells and type III cells (P = 0.67, t-test; P = 0.42, F-test). The width of action potentials at ?20 mV was significantly larger in type II cells (4.0 Å} 0.9 ms, n = 4) than in type III cells (2.3 Å} 0.1 ms, n = 3; P = 0.03, Welch's t-test; P = 0.02, F-test). The width was 2.6 and 4.9 ms in two non-IRCs.
+
+The action potentials of all type III cells examined were followed by a transient hyperpolarization to ?79 Å} 6 mV (n = 3; Fig. 1). This magnitude matched the K+ equilibrium potential of ?87 mV under the present experimental condition. Afterhyperpolarization occurred in one of four type II cells (?77 mV) and one of two non-IRCs (?89 mV). These results showed that the primary outwardly rectifying current was due to K+ flux in type III cells, and other ion fluxes in the majority of type II cells.
+
+Na+ currents
+Although we investigated many taste bud cells for voltage-gated currents, we only identified 10 type II cells, six type III cells and 16 non-IRCs, and lost many cells during immunohistostaining. We did not examine their action potentials because the number of lost cells increased with increasing duration for patch-clamping. All type II cells, type III cells and non-IRCs generated Na+ currents on depolarization, except two non-IRCs. The current?voltage relations for these Na+ currents peaked between ?20 and 0 mV (Fig. 1). The magnitudes of these maximal Na+ currents varied between ~?3 and 0 nA (Fig. 2A).
+
+image
+Figure 2. Electrophysiological profiles of immunoreactive cells. (A) Accumulated magnitude of TTX-sensitive currents (closed bars) and TTX-resistant currents (open bars) at negative peaks as a function of cell number. TTX-sensitive currents were obtained by subtracting TTX-resistant currents from respective Na+ currents. (B) Accumulated magnitude of TEA-sensitive currents (closed bars) and TEA-insensitive currents (open bars) generated on a depolarization to + 50 mV from the holding potential of ?70 mV in the presence of 1 É m TTX. TEA-sensitive currents were obtained by subtracting TEA-insensitive currents from respective outwardly rectifying currents. The average of the steady-state current magnitude between 45 and 50 ms after the onset of the depolarization is plotted. (C) Tail currents generated by a repolarization to ?70 mV from the depolarization of + 50 mV. Current magnitude was measured 2.5 ms after the onset of repolarization to eliminate capacitive currents. (D) Inward rectifier currents generated by a hyperpolarization to ?120 mV from the holding potential of ?70 mV. The average of the steady state current magnitude between 45 and 50 ms after the onset of hyperpolarization is plotted. (E) Leak conductance estimated from the slope of leak currents that appeared between ~?80 and ~?50 mV. (F) Membrane capacitance measured with pCLAMP data acquisition and analysis software (ver. 9.0; Axon Instruments); #, not determined.
+
+Na+ current density (maximal Na+ current magnitude/membrane capacitance) was compared among cell types (Fig. 3A). The density of non-IRC cells was significantly smaller than that of type II and type III cells (which did not differ significantly; P = 2.7 Å~ 10?4, one-way anova; P = 1.8 Å~ 10?3 between type II cells and non-IRCs, P = 2.3 Å~ 10?3 between type III cells and non-IRCs, Scheffe's multiple comparison).
+
+image
+Figure 3. Comparison of (A?C, F?H, K and L) current densities, (D, E, I and J) ratio of current subtypes to total currents, (M) leak conductance density and (N) membrane capacitance among cell types. Plotted data are means and SDs. Sample sizes in parentheses. The numbers of cell types shown in D, E, I and J are different from those of respective cell types in the other bars, because we did not examine the membrane capacitance of several cells (N). *P < 0.05, **P < 0.01, ***P < 0.0001; Scheffe's multiple comparison following anova (see text).
+
+The application of 1 É m TTX significantly suppressed the maximal Na+ current density of each cell type (P < 1.0 Å~ 10?4 for type II cells, P < 1.0 Å~ 10?4 for type III cells and P < 3.2 Å~ 10?4 for non-IRCs, paired t-test; Fig. 4). The TTX-sensitive current density (maximal Na+ current density suppressed by 1 É m TTX) was significantly smaller in non-IRCs than in the other cells (P = 7.2 Å~ 10?4, one-way anova; P = 1.7 Å~ 10?3 between type II cells and non-IRCs, P = 1.6 Å~ 10?2 between type III cells and non-IRCs, Scheffe's multiple comparison; Fig. 3B). There were no significant differences in the ratio of TTX-sensitive currents to control currents (the Na+ currents of the same cell in the absence of 1 É m TTX) among cell types (P = 0.25, one-way anova; Fig. 3D).
+
+image
+Figure 4. Na+ currents of (A) a type II cell, a (B) type III cell and (C) a non-IRC. Na+ currents were generated with a test potential of ?20 mV from a holding potential of ?70 mV in the absence (control) and presence of 1 É m TTX.
+
+The reversal potentials, estimated by the extrapolation of linear current?voltage relations between 0 and + 40 mV, were + 49 Å} 6 mV (n = 10) for type II cells, + 55 Å} 3 mV (n = 6) for type III cells and + 51 Å} 11 mV (n = 10) for non-IRCs. There were no significant differences among these reversal potentials (P = 0.46, one-way anova), showing that the ionic selectivity of these TTX-sensitive Na+ channels were similar among cell types.
+
+Several cells generated Na+ currents in the presence of 1 É m TTX (Figs 2A and 4). The TTX-resistant current density was significantly larger in type III cells than in the other cells (P < 1.0 Å~ 10?4, one-way anova; P < 1.0 Å~ 10?4 between type II cells and type III cells, P < 1.0 Å~ 10?4 between type III cells and non-IRCs, Scheffe's multiple comparison; Fig. 3C). The ratio of TTX-resistant currents to controls was significantly larger in type III cells than in type II cells (P = 2.3 Å~ 10?2, one-way anova; P = 2.3 Å~ 10?2, Scheffe's multiple comparison; Fig. 3E).
+
+Outwardly rectifying currents
+All cells generated outwardly rectifying currents (Figs 1 and 2B). We averaged the magnitude of these currents between 45 and 50 ms after the onset of test potentials. Their current densities at + 50 mV were similar in type II cells and type III cells, and were significantly smaller in non-IRCs than in the other cells (P < 1.0 Å~ 10?4, one-way anova; P < 1.0 Å~ 10?4 between type II cells and non-IRCs, P < 1.0 Å~ 10?4 between type III cells and non-IRCs, Scheffe's multiple comparison; Fig. 3F).
+
+Although the application of 10 mm TEA significantly suppressed outwardly rectifying currents (P = 3.7 Å~ 10?3 for type II cells, P < 1.0 Å~ 10?4 for type III cells and P = 3.0 Å~ 10?4 for non-IRCs, paired t-test), the extent was cell-type-dependent (Fig. 5). TEA-sensitive currents tended to inactivate, though the extent was different among cells, but TEA-insensitive currents showed no inactivation.
+
+image
+Figure 5. Outwardly rectifying currents of a (A) type II cell, (B) a type III cell and (C and D) two non-IRCs. We generated outwardly rectifying currents with a test potential of + 100 mV from a holding potential of ?70 mV in the presence of 1 É m TTX (control) and 1 É m TTX + 10 mm TEA (+ 10 mm TEA). The TEA-sensitive currents were obtained by subtracting the TEA-insensitive current from respective controls.
+
+TEA-sensitive current density was significantly larger in type III cells than in the other cells (P < 1.0 Å~ 10?4, one-way anova; P < 1.0 Å~ 10?4 between type II cells and type III cells, P < 1.0 Å~ 10?4 between type III cells and non-IRCs, Scheffe's multiple comparison; Fig. 3G). TEA-insensitive current density was significantly larger in type II cells than in the other cells (P < 1.0 Å~ 10?4, one-way anova; P < 1.0 Å~ 10?4 between type II cells and type III cells, P < 1.0 Å~ 10?4 between type II cells and non-IRCs, Scheffe's multiple comparison; Fig. 3H).
+
+The magnitude ratio of TEA-sensitive currents to controls (their respective outwardly rectifying currents in the absence of TEA) was significantly smaller in type II cells than in the others (P < 1.0 Å~ 10?4, one-way anova; P < 1.0 Å~ 10?4 between type II cells and type III cells, P = 3.0 Å~ 10?4 between type II cells and non-IRCs, Scheffe's multiple comparison; Fig. 3I). Also, the magnitude ratio of TEA-insensitive currents to their controls was significantly larger in type II cells than in the others (P < 1.0 Å~ 10?4, one-way anova; P < 1.0 Å~ 10?4 between type II cells and type III cells, P = 3.0 Å~ 10?4 between type II cells and non-IRCs, Scheffe's multiple comparison; Fig. 3J).
+
+These results showed that the primary outwardly rectifying current was TEA-sensitive in type III cells and TEA-insensitive in type II cells (Figs 2B and 3G?J). The primary outwardly rectifying current of non-IRCs was TEA-sensitive in the majority, but it was TEA-insensitive in several of them (Figs 2B and 3I?J).
+
+We investigated current?voltage curves of the TEA-sensitive currents and TEA-insensitive currents. Cells that generated currents > 300 pA at + 50 mV were used to obtain detectable current magnitude around threshold membrane potentials (Fig. 6A and B). The current?voltage curves of TEA-sensitive currents were similar among cell types. They appeared at membrane potentials more positive than ?40 mV and increased with increasing membrane potential to respective saturation levels.
+
+image
+Figure 6. Voltage dependence of (A) the TEA-sensitive currents, (B) the TEA-insensitive current and (C and D) tail currents. In A?C, plotted data are means and SDs relative to the magnitude of respective currents at + 100 mV. In A and B, plotted data were generated and measured as described in Fig. 2B. Thick horizontal bars, SDs for non-IRCs in A. Insets; magnified current?voltage curves around threshold potentials. In C, tail currents were generated at a test potential of ?70 mV from a series of conditioning potentials between ?120 mV and + 100 mV in 10-mV steps, measured as those in Fig. 2C, and plotted as a function of conditioning potentials. (D) Tail currents generated on the repolarization to test potentials between ?30 and + 40 mV in 10-mV steps from a conditioning potential of + 100 mV, and fitted with correlation coefficients > 0.99. Arrowhead, overlap of tail currents obtained from a type II cell and a non-IRC. Symbols and the number of cells examined are: open circles for type II cells (A, 4; B and C, 10; D, 3), triangles for type III cells (6), closed circles for non-IRCs (A, 9; B and C, 4; D, 2). All cells examined generated TEA-sensitive currents or TEA-insensitive currents > 300 pA at + 50 mV.
+
+The current?voltage curves for TEA-insensitive currents were also similar between type II cells and non-IRCs. The TEA-insensitive current magnitude of type III cells was too small to examine their voltage dependency around 0 mV. The TEA-insensitive currents appeared at membrane potentials more positive than ?50 mV as an inward current, then reversed their direction and simply increased with increasing membrane potential (Fig. 6B). The reversal potential was ?4 Å} 3 mV (n = 10) for type II cells and ?9 Å} 6 mV (n = 4) for non-IRCs. There was no significant difference between them (P = 0.19, Welch's t-test; P = 4.3 Å~ 10?2, F-test). These reversal potentials (ETI) were identical to the Cl? equilibrium potential of ?4 mV under the present experimental condition; Cl? was the primary anion inside cells.
+
+Tail currents
+All type II cells and several non-IRCs generated tail currents. Tail currents were negligible in many non-IRCs and all type III cells examined. We measured tail current magnitude at 2.5 ms after the onset of repolarization from the test potential of + 50 mV to eliminate capacitive currents and uncontrolled currents. As expected, their densities were significantly different between type II cells and the other cell types (P < 1.0 Å~ 10?4, one-way anova; P = 7.0 Å~ 10?4 between type II cells and type III cells, P = 3.0 Å~ 10?4 between type II cells and non-IRCs, Scheffe's multiple comparison; Fig. 3K). The magnitude of normalized tail currents increased with increasing conditioning potential similarly in type II cells and non-IRCs (Fig. 6C).
+
+The reversal potential of tail currents was ?3 Å} 2 mV (n = 3) in type II cells and ?5 mV and ?1 mV in two non-IRCs (Fig. 6D). These reversal potentials not only matched each other but also matched those obtained from the current?voltage curves of the TEA-insensitive current (Fig. 6B).
+
+Other electrophysiological properties
+All cell types examined generated inward rectifier currents (Fig. 2D). There were no significant differences in their densities among cell types (P = 0.57, one-way anova, Fig. 3L). There were no significant differences in membrane capacitance among cell types (P = 0.60, one-way anova, Fig. 3N). The average was 7.8 Å} 2.2 pF (n = 26). The leak conductance, the slope of straight lines fitted to current magnitude between ~?80 and ~?50 mV, was 1.1 Å} 0.9 nS (n = 32), and there were no significant differences in the conductance per membrane capacitance among cell types (P = 0.36, one-way anova; Fig. 3M).
+
+Computer simulation
+The present electrophysiological results showed that outwardly rectifying currents consisted of TEA-sensitive currents ITS and TEA-insensitive currents ITI, that their sum was ~1600 pA at + 50 mV in both type II cells and type III cells, and that the ratio of ITS to ITI was different between these cell types (Figs 2 and 3). We therefore assumed that the action potentials of these cell types resulted from their ratio, and that the same channel generated ITI of type II cells and type III cells.
+
+inline image and inline image were calculated with Eqns (4) and (6) from ITS and ITI, respectively, to reproduce the action potentials of these cell types, while keeping the sum of ITS and ITI 1600 pA. The holding potential of these cells was ~?60 mV. The inline image of 10.4 nS and the inline image of 4.1 nS simulated the typical action potential of type III cells, and that of 3.0 nS inline image and 24.7 nS inline image did that of type II cells (Fig. 7A, B, and C). The width was longer in type II cells than in type III cells and afterhyperpolarization occurred in type III cells.
+
+image
+Figure 7. Simulated action potentials of type II cells and type III cells under the present experimental conditions (ETI of ?4 mV) and under a physiological condition (ETI of ?75 mV). (A) A type III cell action potential (ETI = ?4 mV, ETS = ?87 mV, inline image = 4.1 nS and inline image = 10.4 nS). (B) A type II cell action potential (ETI = ?4 mV, ETS = ?87 mV, inline image = 24.7 nS and inline image = 3.0 nS). (C) Overlay of A and B. (D) Overlay of type II cell action potential under physiological conditions (ETI = ?75 mV, ETS = ?87 mV, inline image = 24.7 nS, and inline image = 3.0 nS; solid line) and B (dotted line). (E) Overlay of a type III cell action potential under physiological conditions (ETI = ?75 mV, ETS = ?87 mV, inline image = 4.1 nS and inline image = 10.4 nS) and type II cell under the same physiological conditions (ETI = ?75 mV, ETS = ?87 mV, inline image = 24.7 nS and inline image = 3.0 nS). (F) Expansion of E between 6 and 15 ms. Arrows show the width at ?20 mV. Lower traces, depolarizing current pulses.
+
+Action potentials of type II cells may be different from those examined under physiological conditions because the [Cl?] was much higher than that under physiological concentrations and because other ions that carried TEA-insensitive currents were washed out from inside cells. A physiological ETI must be more positive than a physiological ECl. We thus simulated action potentials with the ECl to estimate an extreme of type II cell action potentials under physiological conditions.
+
+The simulated action potential with the ECl of ?75 mV, a typical physiological value, was narrower than that simulated with the ETI of ?4 mV and was followed by a small afterhyperpolarization (Fig. 7D). However, the action potential was still wider, and the afterhyperpolarization was smaller, than that of a type III cell simulated with the ECl for TEA-insensitive currents (Fig. 7E and F). As the physiological ETI must be more positive than the physiological ECl, it is likely that action potentials are wider, and that the magnitude of afterhyperpolarization is smaller, in type II cells than in type III cells.
+
+
+Discussion
+The present electrophysiological results showed that action potentials were different between type II cells and type III cells. We assumed that the K+ channels that had a rapid activation kinetics generate TEA-sensitive currents, type III cells preferably generated. This kinetics together with a negative reversal potential common to K+ channels would accelerate the falling phase of action potentials, and, as a result, shorten the width of action potentials and hyperpolarize afterhyperpolarization. The present computer simulation support this assumption by reproducing the action potentials of these cell types by changing the ratio of TEA-sensitive current magnitude to TEA-insensitive current, while keeping the sum of them constant (Fig. 7).
+
+The simulated action potentials of type II cell and type III cell differed slightly from their electrophysiological counterparts by displaying wider falling phases with a hump and smaller afterhyperpolarizations. Although TEA-sensitive currents inactivated (Fig. 5), this was eliminated from the simulation for simplicity and may have caused the above differences.
+
+TEA-insensitive currents were the main component of outward currents in type II cells and in several non-IRCs. We have previously shown that a less selective channel generated TEA-insensitive currents, and 4,4Åå-diisothiocyanostilbene-2-2Åådisulfonate (DIDS) blocked these currents (Takeuchi et al., 2011). This TEA-insensitive current channel is less selective and permeable to anions with < 1200 molar mass, though it is impermeable to rhodamin B, a monovalent cation with molar mass of 479. Type II cells release ATP via a hemichannel that is TEA-insensitive and generates tail currents (Finger et al., 2005; Romanov et al., 2007, 2008). These agreements suggest that TEA-insensitive currents are ATP-permeable hemichannel currents.
+
+It is also possible that calcium homeostasis modulator 1 (CALHM1) generates TEA-insensitive currents. CALHM1 is a TEA-insensitive Ca2+ channel, and the order of ionic permeability of CALHM1 expressed in oocytes is Ca2+ >> Na+ ~K+ > Cl?. Its reversal potential is ~?5 mV in the presence of 2 mm CaCl2 (Ma et al., 2012), and is similar to that of TEA-insensitive currents in the presence of the same [Ca2+]. If the concentration of the other ions is similar enough in oocytes and type II cells, the similarity of reversal potentials suggests that Ca2+, Na+, K+ and Cl? carry TEA-insensitive currents. CALHM1, as well as the hemichannels mentioned above, releases ATP from type II cells (Taruno et al., 2013). Thus it is likely that both hemichannels and CALHM1 generate TEA-insensitive currents and release ATP from type II cells in response to taste substances. Further studies are needed to investigate the ionic permeability of TEA-insensitive currents.
+
+The present study showed TEA-insensitive currents in several non-IRCs. Non-IRCs consist of type I cells, non-immunoreactive type II cells and non-immunoreactive type III cells. The combination of electrophysiological and RT-PCR techniques revealed that taste bud cells, expressing neither gustduicn mRNA nor SNAP-25 mRNA, generated action currents in response to NaCl (Yoshida et al., 2009a,b). Non-IRCs generating TEA-insensitive currents may release ATP via the hemichannel or CALHM1 in response to taste substances.
+
+The present results showed that the magnitude of TTX-resistant currents were significantly larger in type III cells than the other cell types. Our previous study on infant (postnatal days 3?7) mouse taste bud cells showed the same results (Ohtubo et al., 2012). Although the TTX-resistant current magnitude of respective cell types was larger in infants than in adults, a significant difference was only between non-IRCs (P = 2.7 Å~ 10?3, Welch's t-test; P = 1.1 Å~ 10?3, F-test). It appears that TTX-resistant currents decrease with aging.
+
+TTX-resistant currents inactivated in ~5 ms at ?20 mV (Fig. 4). Unidentified taste bud cells express a T-type Ca2+ channel (Behe et al., 1990; Furue & Yoshii, 1997) with an inactivation time constant of ~36 ms at ?30 mV (Behe et al., 1990). It is thus likely that TTX-resistant currents are TTX-resistant Na+ channel currents rather than T-type Ca2+ channel currents. However, RT-PCR and immunological studies on fungiform and circumvallate taste tissue from 6- to 8-week-old C57Bl/6 mice showed the expression of TTX-sensitive voltage-gated Na+ channels, Nav1.2, 1.3 and 1.7, but no TTX-resistant Na+ channels (Gao et al., 2009). As we examined a ddY strain, this disagreement may result from mouse strains. Further studies are needed.
+
+The present study revealed the cell-type dependence of voltage-gated current densities. A previous study systematically investigated voltage-gated currents of types I, II and III cells, and showed no tail current of type II cells (Medler et al., 2003). Also, voltage-gated current magnitudes were much smaller in the previous study than in the present ones. These disagreements may result from materials or methods; we used in situ cells before immunostaining, but the previous study used isolated and immunolabelled cells.
+
+Acknowledgements
+This work is partially supported by Mr Motoaki Miyoshi, the president of Miyoshi Rice Store, and by MEXT of Japan (Grant-in-Aid for Young Scientists (B) no. 22700235 and no.23700469).
+
+Abbreviations
+HH
+Hodgkin?Huxley
+IP3R3
+inositol 1,4,5-triphosphate receptor type 3
+non-IRC
+non-immunoreactive cell
+SNAP-25
+synaptosomal-associating protein-25
+TEA
+tetraethylammonium
+TTX
+tetrodotoxin
+References
+Av-Ron, E., Parnas, H. & Segel, L.A. (1991) A minimal biophysical model for an excitable and oscillatory neuron. Biol. Cybern., 65, 487?500.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 29
+Behe, P., DeSimone, J.A., Avenet, P. & Lindemann, B. (1990) Membrane currents in taste cells of the rat fungiform papilla. Evidence for two types of Ca currents and inhibition of K currents by saccharin. J. Gen. Physiol., 96, 1061?1084.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 151
+Clapp, T.R., Stone, L.M., Margolskee, R.F. & Kinnamon, S.C. (2001) Immunocytochemical evidence for co-expression of Type III IP3 receptor with signaling components of bitter taste transduction. BMC Neurosci., 2, 6.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 125
+DeFazio, R.A., Dvoryanchikov, G., Maruyama, Y., Kim, J.W., Pereira, E., Roper, S.D. & Chaudhari, N. (2006) Separate populations of receptor cells and presynaptic cells in mouse taste buds. J. Neurosci., 26, 3971?3980.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 142
+Finger, T.E., Danilova, V., Barrows, J., Bartel, D.L., Vigers, A.J., Stone, L., Hellekant, G. & Kinnamon, S.C. (2005) ATP signaling is crucial for communication from taste buds to gustatory nerves. Science, 310, 1495?1499.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 293,ADS
+FitzHugh, R. (1961) Impulses and physiological states in theoretical models of nerve membrane. Biophys. J., 1, 445?466.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 2218,ADS
+Furue, H. & Yoshii, K. (1997) In situ tight-seal recordings of taste substance-elicited action currents and voltage-gated Ba currents from single taste bud cells in the peeled epithelium of mouse tongue. Brain Res., 776, 133?139.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 42
+Furue, H. & Yoshii, K. (1998) A method for in situ tight-seal recordings from single taste bud cells of mice. J. Neurosci. Meth., 84, 109?114.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 13
+Gao, N., Lu, M., Echeverri, F., Laita, B., Kalabat, D., Williams, M.E., Hevezi, P., Zlotnik, A. & Moyer, B.D. (2009) Voltage-gated sodium channels in taste bud cells. BMC Neurosci., 10, 20.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 25
+Hayato, R., Ohtubo, Y. & Yoshii, K. (2007) Functional expression of ionotropic purinergic receptors on mouse taste bud cells. J. Physiol., 584, 473?488.
+Direct Link:
+AbstractFull Article (HTML)PDF(847K)ReferencesWeb of ScienceR Times Cited: 33
+Hodgkin, A.L. & Huxley, A.F. (1952) A quantitative description of membrane current and its application to conduction and excitation in nerve. J. Physiol., 117, 500?544.
+Direct Link:
+AbstractPDF(3827K)Web of ScienceR Times Cited: 10591
+Huang, Y.A., Dando, R. & Roper, S.D. (2009) Autocrine and paracrine roles for ATP and serotonin in mouse taste buds. J. Neurosci., 29, 13909?13918.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 54
+Kashiwayanagi, M., Miyake, M. & Kurihara, K. (1983) Voltage-dependent Ca2+ channel and Na+ channel in frog taste cells. Am. J. Physiol., 244, C82?C88.
+PubMed,CAS,Web of ScienceR Times Cited: 61
+Kinnamon, S.C. (2012) Taste receptor signalling - from tongues to lungs. Acta Physiol., 204, 158?168.
+Direct Link:
+AbstractFull Article (HTML)PDF(418K)ReferencesWeb of ScienceR Times Cited: 39
+Lindemann, B. (1996) Taste reception. Physiol. Rev., 76, 718?766.
+PubMed,CAS
+Ma, Z., Siebert, A.P., Cheung, K.H., Lee, R.J., Johnson, B., Cohen, A.S., Vingtdeux, V., Marambaud, P. & Foskett, J.K. (2012) Calcium homeostasis modulator 1 (CALHM1) is the pore-forming subunit of an ion channel that mediates extracellular Ca2+ regulation of neuronal excitability. Proc. Natl. Acad. Sci. USA, 109, E1963?E1971.
+CrossRef,Web of ScienceR Times Cited: 15,ADS
+Medler, K.F., Margolskee, R.F. & Kinnamon, S.C. (2003) Electrophysiological characterization of voltage-gated currents in defined taste cell types of mice. J. Neurosci., 23, 2608?2617.
+PubMed,CAS,Web of ScienceR Times Cited: 81
+Murata, Y., Yasuo, T., Yoshida, R., Obata, K., Yanagawa, Y., Margolskee, R.F. & Ninomiya, Y. (2010) Action potential-enhanced ATP release from taste cells through hemichannels. J. Neurophysiol., 104, 896?901.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 25
+Murray, R.G. (1973) The ultrastructure of taste buds. In Friedmann, I. (Ed.), The Ultrastructure of Sensory Organs. North-Holland Publishing Compary, Amsterdam, pp. 1?81.
+Noguchi, T. (2003) The in situ patch-clamp study on the excitability of taste bud cells in the mouse soft palate. Graduate School of Computer Science and Systems Engineering. Kyushu Institute of Technology, Iizuka.
+Ohtubo, Y. & Yoshii, K. (2011) Quantitative analysis of taste bud cell numbers in fungiform and soft palate taste buds of mice. Brain Res., 1367, 13?21.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 10
+Ohtubo, Y., Iwamoto, M. & Yoshii, K. (2012) Subtype-dependent postnatal development of taste receptor cells in mouse fungiform taste buds. Eur. J. Neurosci., 35, 1661?1671.
+Direct Link:
+AbstractFull Article (HTML)PDF(10741K)ReferencesWeb of ScienceR Times Cited: 1
+Perez, C.A., Margolskee, R.F., Kinnamon, S.C. & Ogura, T. (2003) Making sense with TRP channels: store-operated calcium entry and the ion channel Trpm5 in taste receptor cells. Cell Calcium, 33, 541?549.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 56
+Rinzel, J. (1985) Excitation dynamics: insights from simplified membrane models. Fed. Proc., 44, 2944?2946.
+PubMed,CAS,Web of ScienceR Times Cited: 119
+Romanov, R.A., Rogachevskaja, O.A., Bystrova, M.F., Jiang, P., Margolskee, R.F. & Kolesnikov, S.S. (2007) Afferent neurotransmission mediated by hemichannels in mammalian taste cells. EMBO J., 26, 657?667.
+Direct Link:
+AbstractFull Article (HTML)PDF(512K)ReferencesWeb of ScienceR Times Cited: 179
+Romanov, R.A., Rogachevskaja, O.A., Khokhlov, A.A. & Kolesnikov, S.S. (2008) Voltage dependence of ATP secretion in mammalian taste cells. J. Gen. Physiol., 132, 731?744.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 48
+Takeuchi, K., Seto, Y., Ohtubo, Y. & Yoshii, K. (2011) Dye-permeable, voltage-gated channel on mouse fungiform taste bud cells. Brain Res., 1373, 17?24.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 2
+Taruno, A., Vingtdeux, V., Ohmoto, M., Ma, Z., Dvoryanchikov, G., Li, A., Adrien, L., Zhao, H., Leung, S., Abernethy, M., Koppel, J., Davies, P., Civan, M.M., Chaudhari, N., Matsumoto, I., Hellekant, G., Tordoff, M.G., Marambaud, P. & Foskett, J.K. (2013) CALHM1 ion channel mediates purinergic neurotransmission of sweet, bitter and umami tastes. Nature, 495, 223?226.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 50,ADS
+Vandenbeuch, A., Clapp, T.R. & Kinnamon, S.C. (2008) Amiloride-sensitive channels in type I fungiform taste cells in mouse. BMC Neurosci., 9, 1.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 68
+Vandenbeuch, A., Zorec, R. & Kinnamon, S.C. (2010) Capacitance measurements of regulated exocytosis in mouse taste cells. J. Neurosci., 30, 14695?14701.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 14
+Yang, R., Crowley, H.H., Rock, M.E. & Kinnamon, J.C. (2000) Taste cells with synapses in rat circumvallate papillae display SNAP-25-like immunoreactivity. J. Comp. Neurol., 424, 205?215.
+Direct Link:
+AbstractFull Article (HTML)PDF(1636K)ReferencesWeb of ScienceR Times Cited: 106
+Yang, R., Stoick, C.L. & Kinnamon, J.C. (2004) Synaptobrevin-2-like immunoreactivity is associated with vesicles at synapses in rat circumvallate taste buds. J. Comp. Neurol., 471, 59?71.
+Direct Link:
+AbstractFull Article (HTML)PDF(1445K)ReferencesWeb of ScienceR Times Cited: 37
+Yoshida, R., Horio, N., Murata, Y., Yasumatsu, K., Shigemura, N. & Ninomiya, Y. (2009a) NaCl responsive taste cells in the mouse fungiform taste buds. Neuroscience, 159, 795?803.
+CrossRef,PubMed,CAS,Web of ScienceR Times Cited: 23
+Yoshida, R., Miyauchi, A., Yasuo, T., Jyotaki, M., Murata, Y., Yasumatsu, K., Shigemura, N., Yanagawa, Y., Obata, K., Ueno, H., Margolskee, R.F. & Ninomiya, Y. (2009b) Discrimination of taste qualities among mouse fungiform taste bud cells. J. Physiol., 587, 4425?4439.
+Direct Link:
+AbstractFull Article (HTML)PDF(989K)ReferencesWeb of ScienceR Times Cited: 42
+Yoshii, K., Kimura, K., Ohtubo, Y. & Kumazawa, T. (2012) Action potentials and voltage-gated currents of mouse taste bud cells. 8th FENS Forum of Neuroscience, Barcelona, Spain.

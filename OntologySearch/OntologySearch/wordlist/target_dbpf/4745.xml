@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4745">
+<itemtype>xnppaper</itemtype>
+<titles><title>Reversible inactivation of the medial septum differentially affects two forms of learning in rats.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Analysis of Variance</keyword>
+<keyword>Animals</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Injections</keyword>
+<keyword>Learning</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>drug effects</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred F344</keyword>
+<keyword>Septum Pellucidum</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>Tetracaine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>drug effects</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T03:13:00Z</last_update_date>
+<creation_date>2011-04-28T03:13:00Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4745</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4745" version="1.02">
+<authors><author>Mizumori SJ</author><author>Perez GM</author><author>Alvarado MC</author><author>Barnes CA</author><author>McNaughton BL</author></authors>
+<journal>Brain research</journal>
+<volume>528</volume>
+<number>1</number>
+<page>12-20</page>
+<abstract>The contribution of the medial septum to different aspects of spatial information processing was assessed by examining the effects of reversible septal inactivation on radial maze performance of rats. In addition, the selectivity with which the medial septum affects learning was studied by testing the effects of septal inactivation on the acquisition of non-spatial information. Rats were first trained according to a spatial working memory procedure that included a 30-min delay between the first 4 (forced) choices and subsequent test (free) choices. The forced choices comprised the sample phase of the experiment while the free choices comprised the test phase. Saline or tetracaine (a local anesthetic) was injected into the medial septal area either before the sample phase, after the sample phase (i.e. at the beginning of the delay period), or just before the test phase. In contrast to the saline injections, tetracaine injected just before the sample or test phases produced a significant increase in errors at test. Tetracaine injection at the beginning of the delay period did not affect test choice accuracy. EEG records showed that septal inactivation drastically, yet temporarily, reduced the hippocampal theta rhythm. Thus, when septal inactivation occurred either before the sample phase or at the beginning of the delay period, hippocampal theta recovered by the time of the test phase. Septal inactivation also produced a significant retardation of learning on a non-spatial reference memory task, although clear improvement over trials did occur. Moreover, the results of subsequent saline injections suggest that at least some of the performance deficit was due to variables other than learning per se.(ABSTRACT TRUNCATED AT 250 WORDS)</abstract>
+<pubmed_id>2245328</pubmed_id>
+</detail>
+</item>

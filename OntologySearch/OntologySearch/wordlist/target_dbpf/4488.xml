@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4488">
+<itemtype>xnppaper</itemtype>
+<titles><title>Encoding and retrieval in human medial temporal lobes: an empirical investigation using functional magnetic resonance imaging (fMRI).</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Female</keyword>
+<keyword>Humans</keyword>
+<keyword>Language</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Linguistics</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Models</keyword>
+<keyword>Psychological</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T03:58:51Z</last_update_date>
+<creation_date>2011-01-28T03:58:51Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4488</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4488" version="1.02">
+<authors><author>Dolan RJ</author><author>Fletcher PF</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>1</number>
+<page>25-34</page>
+<abstract>The precise functional role of the hippocampus in human episodic memory is an unresolved question though it has recently been suggested that distinct medial temporal lobe (MTL) regions are involved in encoding and retrieval operations respectively. For example, a recent meta-analysis of positron emission tomography (PET) literature has suggested a rostral-caudal functional division in the medial temporal lobes (MTL), with rostral MTL mediating encoding and caudal MTL retrieval operations. However, a review of the combined PET and fMRI literature, reported in the present issue, while noting systematic discrepancies between PET and fMRI, reaches a conclusion that posterior MTL is involved in encoding. Here we present fMRI data, from a modified artificial grammar learning paradigm, that examines two questions concerning the functional role of the hippocampus, and related MTL structures in episodic memory. Firstly, we test a hypothesis that anterior hippocampus is activated during encoding and that this response is greater for novel items. Secondly, we test whether increasing familiarity with stimulus material is associated with a posterior MTL neural response. Our empirical findings support both hypotheses in that we demonstrate a left anterior hippocampal response sensitive to encoding demands and a posterior parahippocampal response sensitive to retrieval demands. Furthermore, we show that both anterior and posterior hippocampal responses are modulated to the degree to which stimuli can be assimilated into a meaningful rule-based framework.</abstract>
+<pubmed_id>10088897</pubmed_id>
+</detail>
+</item>

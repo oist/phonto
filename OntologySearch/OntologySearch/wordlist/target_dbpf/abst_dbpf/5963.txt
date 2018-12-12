@@ -1,0 +1,37 @@
+Action Potentials
+genetics
+Animals
+Calcium Channels
+deficiency
+genetics
+Calcium Signaling
+genetics
+Electric Stimulation
+Excitatory Postsynaptic Potentials
+genetics
+Hippocampus
+metabolism
+physiopathology
+Inositol 1
+4
+5-Trisphosphate Receptors
+Long-Term Potentiation
+genetics
+Long-Term Synaptic Depression
+genetics
+Mice
+Mice
+Knockout
+Pyramidal Cells
+metabolism
+physiopathology
+Receptors
+Cytoplasmic and Nuclear
+deficiency
+genetics
+Receptors
+N-Methyl-D-Aspartate
+metabolism
+Synaptic Transmission
+genetics
+To investigate the role in synaptic plasticity of Ca(2+) released from intracellular Ca(2+) stores, mice lacking the inositol 1,4,5-trisphosphate type 1 receptor were developed and the physiological properties, long-term potentiation, and long-term depression of their hippocampal CA1 neurons were examined. There were no significant differences in basic synaptic functions, such as membrane properties and the input/output relationship, between homozygote mutant and wild-type mice. Enhanced paired-pulse facilitation at interpulse intervals of less than 60 ms and enhanced post-tetanic potentiation were observed in the mutant mice, suggesting that the presynaptic mechanism was altered by the absence of the inositol 1,4,5-trisphosphate type 1 receptor. Long-term potentiation in the field-excitatory postsynaptic potentials induced by tetanus (100 Hz, 1 s) and the excitatory postsynaptic currents induced by paired stimulation in hippocampal CA1 pyramidal neurons under whole-cell clamp conditions were significantly greater in mutant mice than in wild-type mice. Homosynaptic long-term depression of CA1 synaptic responses induced by low-frequency stimulation (1 Hz, 500 pulses) was not significantly different, but heterosynaptic depression of the non-associated pathway induced by tetanus was blocked in the mutant mice. Both long-term potentiation and long-term depression in mutant mice were completely dependent on N-methyl-D-aspartate receptor activity. To rule out the possibility of an effect compensating for the lack of the inositol 1,4,5-trisphosphate type 1 receptor occurring during development, an anti-inositol 1,4,5-trisphosphate type 1 receptor monoclonal antibody that blocks receptor function was diffused into the wild-type cell through a patch pipette, and the effect of acute block of inositol 1,4,5-trisphosphate type 1 receptor on long-term potentiation was examined. Significant enhancement of long-term potentiation was observed compared with after control immunoglobulin G injection, suggesting that developmental redundancy was not responsible for the increase in long-term potentiation amplitude observed in the mutant mouse. The properties of channels that could be involved in long-term potentiation induction were examined using whole-cell recording. N-methyl-D-aspartate currents were significantly larger in mutant mice than in wild-type mice only between holding potentials of -60 and -80 mV. We conclude that inositol 1,4,5-trisphosphate type 1 receptor activity is not essential for the induction of synaptic plasticity in hippocampal CA1 neurons, but appears to negatively regulate long-term potentiation induction by mild modulation of channel activities.

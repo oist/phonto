@@ -1,0 +1,37 @@
+Animals
+Attention
+physiology
+Cerebellum
+physiology
+Computer Simulation
+Conditioning (Psychology)
+physiology
+Dopamine Antagonists
+pharmacology
+Entorhinal Cortex
+physiology
+Evaluation Studies as Topic
+Haloperidol
+pharmacology
+Hippocampus
+drug effects
+physiology
+Long-Term Potentiation
+physiology
+Maze Learning
+physiology
+Models
+Neurological
+Neural Inhibition
+physiology
+Parasympathomimetics
+pharmacology
+Physostigmine
+pharmacology
+Septal Nuclei
+physiology
+Space Perception
+physiology
+Spatial Behavior
+physiology
+We present a neural network that characterizes a remarkably large number of classical conditioning paradigms and describes the effects of many neurophysiological manipulations. First, the network 1) describes behavior in real time 2) comprises simple and configural stimulus representations, and 3) includes attentional control of storage and retrieval. Second, mapping of the network onto the brain can be summarized by several information processing loops: 1) a hippocampal-cortical configural loop, 2) a hippocampal-cerebellar conditioned-response loop, 3) a hippocampal-accumbens-thalamic attentional loop, and 4) a hippocampal-medial raphe-medial septum error loop. Third, within this global view of brain function, it is assumed that the hippocampal formation computes 1) the aggregate prediction of environmental events and 2) the error signals for cortical learning. These assumptions are supported by rigorous computer simulations consistent with a large body of data on hippocampal and septal neural activity, induction and blockade of hippocampal long-term potentiation, administration of cholinergic agonists and antagonists, administration of haloperidol, and selective and nonselective hippocampal and cortical lesions.

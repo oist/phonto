@@ -1,0 +1,25 @@
+Aging
+physiology
+Anesthetics
+Inhalation
+pharmacology
+Animals
+Excitatory Postsynaptic Potentials
+drug effects
+Hippocampus
+drug effects
+Isoflurane
+pharmacology
+Long-Term Potentiation
+drug effects
+Mice
+Neuronal Plasticity
+drug effects
+Patch-Clamp Techniques
+Picrotoxin
+pharmacology
+Synapses
+drug effects
+Synaptic Transmission
+drug effects
+The volatile anesthetic isoflurane depresses glutamatergic transmission. In this study, the authors investigated the effects of isoflurane on the induction of long-term potentiation (LTP) and long-term depression (LTD) in slices from the juvenile and adult mouse hippocampus. Both forms of synaptic plasticity involve the activation of glutamate receptors.Field excitatory postsynaptic potentials and excitatory postsynaptic currents from neurons in the CA1 area were evoked by stimulation of the Schaffer collateral-commissural pathway. Two independent synaptic inputs were stimulated. Clinically relevant concentrations (0.2-0.3 mM) of isoflurane were added to the perfusion solution.Field excitatory postsynaptic potentials from slices of juvenile and adult mice were depressed to 37.3 +/- 6.1% and 58.3 +/- 7.4%, respectively, and excitatory postsynaptic currents were reduced to 36.7 +/- 5.4% by isoflurane. A brief tetanic stimulation (100 Hz, 1 s) induced stable LTP of field excitatory postsynaptic potentials. In the presence of isoflurane, tetanization failed to induce LTP. The effect of isoflurane on LTP induction was reversible and could be prevented by antagonizing gamma-aminobutyric acid type A receptors (GABAA). Low-frequency stimulation (1 Hz/900 pulses) induced LTD. In the presence of isoflurane, low-frequency stimulation failed to induce LTD.The prevention of the isoflurane-induced depression of LTP by the GABAA antagonist picrotoxin suggests an involvement of GABAA receptors. An enhancement of the efficacy of GABA-mediated inhibitory synaptic transmission prevents the depolarization of the postsynaptic membrane during tetanus, necessary for the induction of use-dependent alteration of synaptic strength. An impairment of these processes may be a cause for the transient loss of recall and cognitive impairment after anesthesia in juvenile and adult brains.

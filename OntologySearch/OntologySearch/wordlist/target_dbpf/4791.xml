@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4791">
+<itemtype>xnppaper</itemtype>
+<titles><title>Slow transmission of neural activity in hippocampal area CA1 in absence of active chemical synapses.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium</keyword>
+<keyword>physiology</keyword>
+<keyword>Extracellular Space</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Potassium</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:57:15Z</last_update_date>
+<creation_date>2011-04-28T04:57:15Z</creation_date>
+<publication_year>1984</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4791</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4791" version="1.02">
+<authors><author>Konnerth A</author><author>Heinemann U</author><author>Yaari Y</author></authors>
+<journal>Nature</journal>
+<volume>307</volume>
+<number>5946</number>
+<page>69-71</page>
+<abstract>Transmission of neural activity in the mammalian cortex involves the operation of chemical synapses. Here we report that activity of hippocampal pyramidal cells (HPC) in vitro can spread through the neural aggregate even when chemical synaptic transmission is blocked by lowering the external Ca2+ concentration ( [Ca2+]0). In these conditions focal stimulation of the HPC body layer (stratum pyramidale) at area CA1 evokes a localized repetitive neural response which, when large enough, spreads along this layer in both transverse directions. It was recently reported for similar conditions that the activated HPC often discharge in synchrony. However, the spread of the neural response does not depend upon the occurrence of synchronized HPC activity, and therefore represents a distinct phenomenon.</abstract>
+<pubmed_id>6318119</pubmed_id>
+</detail>
+</item>

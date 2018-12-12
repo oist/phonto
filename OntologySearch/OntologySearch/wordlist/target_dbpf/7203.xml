@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7203">
+<itemtype>xnppaper</itemtype>
+<titles><title>Calcium-induced long-term depression in the visual cortex of the rat in vitro.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium</keyword>
+<keyword>pharmacology</keyword>
+<keyword>physiology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Neocortex</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+<keyword>Visual Cortex</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:52:26Z</last_update_date>
+<creation_date>2013-02-27T07:52:26Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7203</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7203" version="1.02">
+<authors><author>Artola A</author><author>Hensch T</author><author>Singer W</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>76</volume>
+<number>2</number>
+<page>984-94</page>
+<abstract>1. In many brain areas, including neocortex and hippocampus, excitatory synapses can undergo both long-term potentiation (LTP) and long-term depression (LTD). It is established that a change in the postsynaptic calcium concentration ([Ca2+]i) is critical for the induction of both LTP and LTD. Protocols that induce these long-term synaptic modifications typically involve afferent stimulation. But, in hippocampus, LTP can also be induced by a transient increase of the extracellular calcium concentration ([Ca2+]o). The purpose of the present study was to determine whether raising [Ca2+]o also induces long-term modifications of excitatory synaptic transmission in the neocortex. 2. Intracellular recordings were obtained from regular spiking cells in layers II-III of slices of the rat visual cortex. Test stimuli were evoked with stimulation electrodes located in the white matter (w.m.) below the recorded cell and intracortically (i.c.) adjacent to the cell. Both the depolarizing slope and the amplitude of excitatory postsynaptic potentials (EPSPs) were measured. For exposure to elevated [Ca2+]o, the normal medium ([Ca2+]o = 2 mM) was exchanged for a period of 10 min against a medium containing 4 mM [Ca2+]o. 3. Elevated [Ca2+]o leads, after return to normal medium, to a long-lasting decrease of intracellularly recorded synaptic responses to both w.m. and i.c. stimulation even if activation of these two pathways is discontinued or N-methyl-D-aspartate (NMDA) receptors are blocked during elevated [Ca2+]o. This decrease is due to reduced efficacy of excitatory transmission because it is observed in the presence of the gamma-aminobutyric acid-A (GABAA) receptor antagonist, bicuculline. 4. Induction of LTD by raising [Ca2+]o is voltage dependent. First, elevated [Ca2+]o elicits LTD only in cells whose resting membrane potential (Vmr) is less polarized than -79 mV (and more polarized than -70 mV, which is the Vmr of the least polarized cell). Second, hyperpolarizing cells whose Vmr is in this susceptible range by 20 mV below Vmr during exposure to high [Ca2+]o prevents Ca2+-induced LTD. Third, when elevated [Ca2+]o is associated with postsynaptic depolarizing pulses, LTD is readily induced in cells whose Vmr is more polarized than -79 mV. This voltage dependence implies that the depression is induced by a postsynaptic process and hence that it occurs at synapses formed by excitatory terminals on the recorded neuron. 5. Assuming that a transient elevation of [Ca2+]o leads to an increase of [Ca2+]i, the results of this study suggest that a transient increase of [Ca2+]i is sufficient to elicit LTD. This may provide a mechanism for the induction of heterosynaptic LTD, a depression that occurs in afferents that are silent while the postsynaptic neuron is activated by other inputs.</abstract>
+<pubmed_id>8871213</pubmed_id>
+</detail>
+</item>

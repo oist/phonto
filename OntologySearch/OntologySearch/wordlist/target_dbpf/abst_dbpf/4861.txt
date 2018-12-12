@@ -1,0 +1,16 @@
+Animals
+Cholinergic Fibers
+physiology
+Hippocampus
+physiology
+Limbic System
+cytology
+physiology
+Male
+Neurons
+physiology
+Rats
+Rats
+Sprague-Dawley
+Theta Rhythm
+The perirhinal cortex (PRC) plays a major role in memory processes. This role may be influenced by activity in the adjacent entorhinal cortex (EC) and hippocampus (HPC), particularly during the processing of spatial information. In the current experiment we sought to determine whether the cholinergically mediated (type II) theta rhythm, which is a prominent electrophysiological feature of both HPC and EC activity, influenced neuronal firing in the PRC of urethane-anesthetized rats. When the spontaneous firing activity of single units recorded in PRC was related to theta recorded from the hippocampal fissure, it was determined that the firing of 50/163 (31%) PRC neurons exhibited a statistically significant phase relationship (mean phase angle = 188 degrees) to HPC theta. Thirty-three (66%) of these neurons tended to fire near the trough, and 17 near the peak, of this activity. These data indicate that a high proportion of PRC neurons participate in hippocampal-entorhinal theta activity. This activity may support information transmission and storage within and between these structures.

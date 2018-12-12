@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5518">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neurotrophic effects of conditioned media of astrocytes isolated from different brain regions on hippocampal and cortical neurons.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Astrocytes</keyword>
+<keyword>metabolism</keyword>
+<keyword>Brain</keyword>
+<keyword>cytology</keyword>
+<keyword>Cell Division</keyword>
+<keyword>drug effects</keyword>
+<keyword>Cell Survival</keyword>
+<keyword>drug effects</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>cytology</keyword>
+<keyword>Culture Media</keyword>
+<keyword>Conditioned</keyword>
+<keyword>Glial Fibrillary Acidic Protein</keyword>
+<keyword>analysis</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Hypothalamus</keyword>
+<keyword>cytology</keyword>
+<keyword>Neurites</keyword>
+<keyword>physiology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-15T05:30:54Z</last_update_date>
+<creation_date>2011-06-15T05:30:54Z</creation_date>
+<publication_year>1995</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5518</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5518" version="1.02">
+<authors><author>Yoshida M</author><author>Saito H</author><author>Katsuki H</author></authors>
+<journal>Experientia</journal>
+<volume>51</volume>
+<number>2</number>
+<page>133-6</page>
+<abstract>The present study was designed to reveal whether astroglial cells from different brain regions produce diffusible factors that differentially support the survival of neurons and the establishment of neuronal morphology. For this purpose, astrocyte conditioned media (ACM) were prepared by conditioning chemically-defined medium with type I astrocyte culture dissociated from cerebral cortex, hippocampus and hypothalamus. Hippocampal and cortical neurons were cultured in ACM or in non-conditioned medium. ACM derived from three brain regions all supported the survival of hippocampal and cortical neurons better than non-conditioned control medium. Of these, hypothalamic ACM was the most effective in supporting the survival of cortical neurons. The ACM also potentiated the elongation of the longest neurite of hippocampal and cortical neurons. However, there were no significant differences in the promoting effects on neurite elongation among ACM from three brain regions.</abstract>
+<pubmed_id>7875252</pubmed_id>
+</detail>
+</item>

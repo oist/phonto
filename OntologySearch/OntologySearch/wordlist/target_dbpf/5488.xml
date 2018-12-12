@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5488">
+<itemtype>xnppaper</itemtype>
+<titles><title>Gating of neuronal transmission in the hippocampus: efficacy of transmission varies with behavioral state.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+<keyword>Sleep</keyword>
+<keyword>REM</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>Wakefulness</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:05:39Z</last_update_date>
+<creation_date>2011-06-14T00:05:39Z</creation_date>
+<publication_year>1977</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5488</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5488" version="1.02">
+<authors><author>Winson J</author><author>Abzug C</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>196</volume>
+<number>4295</number>
+<page>1223-5</page>
+<abstract>Electrical stimuli were applied to the angular bundle of the freely moving rat, and the neuronal responses were recorded ipsilaterally in the dentate gyrus and the CA1 field of the hippocampus. The number of neurons responding monosynaptically in the dentate gyrus was relatively small when the animal was alert and not moving but was much greater both during slow-wave sleep and during rapid eye movement sleep. In Ca1, however, the trisynaptic population response was considerably smaller during rapid eye movement sleep and when the animal was alert than during slow-wave sleep. These findings are interpreted in terms of a set of behaviorally dependent &quot;neural gates&quot;. Measurement of the synaptic current at the dentate gyrus induced monosynaptically by stimulation of the angular bundle further suggests that the mechanism by which gating occurs at this level is either a tonic inhibitory synaptic influence exerted upon the granule cells during the alert state, a tonic excitatory influence during slow-wave sleep, or both.</abstract>
+<pubmed_id>193192</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,15 @@
+Action Potentials
+Adaptation
+Physiological
+Animals
+Hippocampus
+cytology
+physiology
+Male
+Neural Inhibition
+Rats
+Rats
+Inbred Strains
+Synapses
+physiology
+When CA3 commissural afferents received low-frequency (weak) stimuli synchronized with a train of mossy fiber bursts (strong), associative long-term potentiation (LTP) was induced at mixed commissural and associational synapses on hippocampal CA3 pyramidal cells in vitro. In contrast, a weak mossy fiber input did not potentiate when given in phase with commissural/associational bursts. Furthermore, commissural/associational synapses receiving low-frequency stimuli out-of-phase with strong rhythmic mossy fiber input showed associative long-term depression (LTD), whereas mossy fiber synaptic strengths were not depressed when they received weak inputs out-of-phase with a strong commissural/associational input. Thus, both associative LTP and associative LTD can be induced at commissural/associational synapses, but not at mossy fiber synapses.

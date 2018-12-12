@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7218">
+<itemtype>xnppaper</itemtype>
+<titles><title>Synaptic activity modulates the induction of bidirectional synaptic changes in adult mouse hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>Mice</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T08:01:28Z</last_update_date>
+<creation_date>2013-02-27T08:01:28Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7218</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7218" version="1.02">
+<authors><author>Ngezahayo A</author><author>Schachner M</author><author>Artola A</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>20</volume>
+<number>7</number>
+<page>2451-8</page>
+<abstract>Activity-dependent synaptic plasticity is critical for learning and memory. Considerable attention has been paid to mechanisms that increase or decrease synaptic efficacy, referred to as long-term potentiation (LTP) and long-term depression (LTD), respectively. It is becoming apparent that synaptic activity also modulates the ability to elicit subsequent synaptic changes. We provide direct experimental evidence that this modulation is attributable, at least in part, to variations in the level of postsynaptic depolarization required for inducing plasticity. In slices from adult hippocampal CA1, a brief pairing protocol known to produce LTP can also induce LTD. The voltage-response function for the induction of LTD and LTP in naive synapses exhibits three parts: at a postsynaptic membrane potential during pairing (V(m))&lt;/= -40 mV, no synaptic modification is obtained; at V(m) between -40 and -20 mV, LTD is induced; and, finally, at V(m)&gt;-20 mV, LTP is generated. This function varies with initial synaptic efficacy. In depressed synapses, Theta(-), the V(m) above which LTD is generated, is shifted toward more depolarized V(ms) and Theta(+), the LTD-LTP crossover point or, equivalently, the V(m) above which LTP is induced, toward more polarized V(ms). Conversely in potentiated synapses, Theta(-) is shifted toward more polarized V(ms). Therefore synaptic activity changes synaptic efficacy and accordingly adjusts the voltages for eliciting subsequent synaptic modifications. The concomitant shifts in the voltages for inducing LTD and LTP in opposite directions promote synaptic potentiation and inhibit synaptic depression in depressed synapses and vice versa in potentiated synapses.</abstract>
+<pubmed_id>10729325</pubmed_id>
+</detail>
+</item>

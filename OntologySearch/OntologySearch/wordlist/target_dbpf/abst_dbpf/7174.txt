@@ -1,0 +1,52 @@
+Animals
+CA1 Region
+Hippocampal
+drug effects
+physiology
+Electric Stimulation
+Excitatory Amino Acid Agonists
+pharmacology
+GABA Antagonists
+pharmacology
+GABA-A Receptor Antagonists
+Glycine
+analogs
+&
+derivatives
+pharmacology
+Hippocampus
+drug effects
+physiology
+Interneurons
+drug effects
+physiology
+Long-Term Synaptic Depression
+drug effects
+physiology
+Male
+Neural Inhibition
+drug effects
+physiology
+Pyramidal Cells
+drug effects
+physiology
+Pyridazines
+pharmacology
+Rats
+Rats
+Wistar
+Receptors
+GABA-A
+metabolism
+Receptors
+Metabotropic Glutamate
+agonists
+metabolism
+Resorcinols
+pharmacology
+Synapses
+drug effects
+physiology
+gamma-Aminobutyric Acid
+metabolism
+Hippocampal synaptic plasticity between Schaffer collaterals and CA1 pyramidal neurons can be induced by activation of N-methyl-d-aspartate receptors (NMDARs) or of metabotropic glutamate receptors (mGluRs). Inhibitory GABAergic interneurons in this region abundantly terminate on pyramidal neurons and may thus influence synaptic plasticity. Although NMDAR-dependent synaptic plasticity is known to be influenced by inhibitory interneurons, little is known about the role of GABA on mGluR-dependent plasticity. Here, we used field potential recordings of the Schaffer collateral-CA1 synapses in rat hippocampal slices in order to study the effect of GABA(A) receptor (GABA(A)R) inhibition on mGluR-dependent long-term depression (LTD). Without GABA(A)R blockade, mGluR-dependent LTD was induced pharmacologically by the group I mGluR agonist (RS)-3,5-dihydroxyphenylglycine (DHPG, 100 microM, 10 min) as well as electrically by paired-pulse low-frequency stimulation (PP-LFS, 900 paired pulses at 1Hz) resulting in a stable depression of the field response lasting at least 80 min after LTD induction. The GABA(A)R antagonist gabazine (5 microM) itself caused an increase of field responses suggesting an endogenous GABA release inhibiting CA1 field potentials. However, when either DHPG or PP-LFS was applied during GABA(A)R inhibition, the field responses were significantly reduced. Moreover, normalizing these responses to experiments without GABA(A)R blockade, there was no significant effect of gabazine on both DHPG- and PP-LFS-induced LTD. Thus, our results show that mGluR-dependent LTD at Schaffer collateral-CA1 synapses is unaffected by GABA(A)R mediated synaptic transmission.

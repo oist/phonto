@@ -1,0 +1,100 @@
+CREATE TABLE `keyword` (
+  `dbid` int(11) NOT NULL,
+  `modelid` varchar(255) NOT NULL,
+  `keyword` varchar(255) NOT NULL,
+  `createdate` datetime NOT NULL,
+  PRIMARY KEY (`dbid`,`modelid`,`keyword`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `model` (
+  `dbid` int(11) NOT NULL,
+  `modelid` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `createdate` datetime NOT NULL,
+  PRIMARY KEY (`dbid`,`modelid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `targetdb` (
+  `dbid` int(11) NOT NULL AUTO_INCREMENT,
+  `dbname` varchar(255) NOT NULL,
+  `urlformat` text,
+  `createdate` datetime NOT NULL,
+  PRIMARY KEY (`dbid`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `token` (
+  `token` varchar(255) NOT NULL,
+  `userid` int(11) NOT NULL,
+  `ipaddress` varchar(12) DEFAULT NULL,
+  `createdate` datetime NOT NULL,
+  `expiredate` datetime NOT NULL,
+  PRIMARY KEY (`token`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `user` (
+  `userid` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `createdate` datetime NOT NULL,
+  `enabled` varchar(1) NOT NULL,
+  PRIMARY KEY (`userid`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `userdb` (
+  `userid` int(11) NOT NULL,
+  `dbid` int(11) NOT NULL,
+  PRIMARY KEY (`userid`,`dbid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `sitelink` (
+  `srcdbid` int(11) NOT NULL,
+  `srcdbname` varchar(255) DEFAULT NULL,
+  `srcmodelid` varchar(255) NOT NULL,
+  `srcmodelname` varchar(255) DEFAULT NULL,
+  `linktype` varchar(45) NOT NULL COMMENT 'exact , parent , sibling , child , related',
+  `dstdbid` int(11) NOT NULL,
+  `dstdbname` varchar(255) DEFAULT NULL,
+  `dsturlformat` text,
+  `dstmodelid` varchar(255) NOT NULL,
+  `dstmodelname` varchar(255) DEFAULT NULL,
+  `keywords` text,
+  PRIMARY KEY (`srcdbid`,`srcmodelid`,`linktype`,`dstdbid`,`dstmodelid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `sitelink_ctl` (
+  `row_id` int(11) NOT NULL,
+  `gen_status` varchar(255) DEFAULT NULL,
+  `gen_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`row_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='1row ctl';
+
+
+CREATE TABLE `sitelink_keyword` (
+  `srckeyword` varchar(255) NOT NULL,
+  `linktype` varchar(45) NOT NULL COMMENT 'exact , parent , sibling , child , related',
+  `destkeyword` varchar(255) NOT NULL,
+  PRIMARY KEY (`srckeyword`,`linktype`,`destkeyword`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `sitelink_word` (
+  `srckeyword` varchar(255) NOT NULL,
+  `linktype` varchar(45) NOT NULL COMMENT 'exact , parent , sibling , child , related',
+  `dstdbid` int(11) NOT NULL,
+  `dstdbname` varchar(255) DEFAULT NULL,
+  `dsturlformat` text,
+  `dstmodelid` varchar(255) NOT NULL,
+  `dstmodelname` varchar(255) DEFAULT NULL,
+  `basekeyword` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`srckeyword`,`linktype`,`dstdbid`,`dstmodelid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+

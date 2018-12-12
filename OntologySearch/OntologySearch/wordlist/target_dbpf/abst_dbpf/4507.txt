@@ -1,0 +1,10 @@
+Animals
+Brain Mapping
+Conditioning (Psychology)
+physiology
+Hippocampus
+physiology
+Humans
+Psychomotor Performance
+physiology
+Macaque monkeys can learn arbitrary mappings between stimuli and spatially directed actions (often termed conditional motor learning), and, after the development of a strong learning set, can do so in just a few trials. Ablation studies have shown that the hippocampus plus subjacent cortex is necessary for this rapid and highly flexible type of learning. We consider evidence that the arbitrary mapping function of the hippocampal system may be more general and fundamental than currently accepted and what limitations there may be, if any, on the information that it can map. Removal of the hippocampal system yields a pattern of deficits and preserved abilities that correlates remarkably closely with that found in human global amnesics, such as patient H.M., on a variety of declarative memory tasks. Thus, the rapid acquisition of arbitrary visuomotor mappings may represent an example of declarative memory in nonhuman primates.

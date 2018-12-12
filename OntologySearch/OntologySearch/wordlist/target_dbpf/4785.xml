@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4785">
+<itemtype>xnppaper</itemtype>
+<titles><title>High-frequency network oscillation in the hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Cell Membrane</keyword>
+<keyword>physiology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Interneurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Periodicity</keyword>
+<keyword>Pyramidal Tracts</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:49:29Z</last_update_date>
+<creation_date>2011-04-28T04:49:29Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4785</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4785" version="1.02">
+<authors><author>Buzsáki G</author><author>Horváth Z</author><author>Urioste R</author><author>Hetke J</author><author>Wise K</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>256</volume>
+<number>5059</number>
+<page>1025-7</page>
+<abstract>Pyramidal cells in the CA1 hippocampal region displayed transient network oscillations (200 hertz) during behavioral immobility, consummatory behaviors, and slow-wave sleep. Simultaneous, multisite recordings revealed temporal and spatial coherence of neuronal activity during population oscillations. Participating pyramidal cells discharged at a rate lower than the frequency of the population oscillation, and their action potentials were phase locked to the negative phase of the simultaneously recorded oscillatory field potentials. In contrast, interneurons discharged at population frequency during the field oscillations. Thus, synchronous output of cooperating CA1 pyramidal cells may serve to induce synaptic enhancement in target structures of the hippocampus.</abstract>
+<pubmed_id>1589772</pubmed_id>
+</detail>
+</item>

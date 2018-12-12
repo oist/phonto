@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5092">
+<itemtype>xnppaper</itemtype>
+<titles><title>Distinct memory circuits composing the hippocampal region.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Mammals</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T03:30:44Z</last_update_date>
+<creation_date>2011-05-16T03:30:44Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5092</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5092" version="1.02">
+<authors><author>Granger R</author><author>Wiebe SP</author><author>Taketani M</author><author>Lynch G</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>567-78</page>
+<abstract>The very different anatomical designs of the adjacent circuitries of the cortico-hippocampal pathway, along with their somewhat different synaptic plasticity mechanisms, suggest a nearly serial pathway of distinct memory circuits each contributing its own specialized processing operation to overall hippocampal function. Modeling and formal theoretical analysis of the prominent anatomical design features of particular circuits (piriform/entorhinal cortex; hippocampal field CA3; hippocampal field CA1) are found to identify potential emergent function not readily arrived at in the absence of these formal models, and yet which once derived can be seen potentially to confer unique capabilities to an integrated hippocampal mechanism for processing memories during behavior.</abstract>
+<pubmed_id>9034846</pubmed_id>
+</detail>
+</item>

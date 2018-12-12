@@ -1,0 +1,19 @@
+Afferent Pathways
+physiology
+Animals
+Brain Mapping
+Chinchilla
+Electric Stimulation
+Electroencephalography
+Hippocampus
+physiology
+Medial Forebrain Bundle
+physiology
+Reaction Time
+physiology
+Septal Nuclei
+physiology
+Septum Pellucidum
+physiology
+Theta Rhythm
+Activity of the neurons with stable theta-bursts was recorded extracellularly in intact and hippocampectomized septum of unanesthetized chronic rabbits during low-frequency (3-17 Hz) stimulation of horizontal limb of diagonal band or lateral septal nucleus. The stimulation rarely evoked standard oligosynaptic single-spike responses in stable theta-bursting units. Instead, gradual entrainment and phase-locking of the spontaneous theta-cycles occurred. Two types of entrainment were observed: "entrainment by the pause", where interburst interval was reset by the stimuli; and "entrainment by the burst", where bursts were time-locked to the stimuli. Such reorganization of the spontaneous bursts occurred in the narrow frequency range of stimulation (from 4 Hz up to 9-12 Hz), with the best resonance following in the range of "basic" theta frequencies of the awake rabbit (5-6 Hz). With stimulation beyond the theta-range three phenomena occurred: shift of the burst frequencies to higher or lower harmonics of stimulation frequencies; complex interactions of basic background frequency with rhythm of stimulation ("beating"); return to background theta-burst frequency in spite of continuing stimulation ("escape"). The properties of the septal theta-bursting cells as presumable intrinsic bursting pacemakers are discussed.

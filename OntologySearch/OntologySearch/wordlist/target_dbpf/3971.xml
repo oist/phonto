@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3971">
+<itemtype>xnppaper</itemtype>
+<titles><title>Adult neurogenesis modulates the hippocampus-dependent period of associative fear memory.</title>
+</titles>
+<contributor uname='inokuchi'>[en]Kaoru Inokuchi[/en][ja]井ノ口 馨[/ja](inokuchi)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Classical</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Fear</keyword>
+<keyword>physiology</keyword>
+<keyword>Follistatin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Mice</keyword>
+<keyword>Neurogenesis</keyword>
+<keyword>drug effects</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Rats</keyword>
+<keyword>X-Rays</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-12T08:15:35Z</last_update_date>
+<creation_date>2010-10-05T07:15:26Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3971</url>
+<changelogs>
+<changelog date='2011-09-12T08:15:35Z'>インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3971" version="1.02">
+<authors><author>Kitamura T</author><author>Saitoh Y</author><author>Takashima N</author><author>Murayama A</author><author>Niibori Y</author><author>Ageta H</author><author>Sekiguchi M</author><author>Sugiyama H</author><author>Inokuchi K</author></authors>
+<journal>Cell</journal>
+<volume>139</volume>
+<number>4</number>
+<page>814-27</page>
+<abstract>Acquired memory initially depends on the hippocampus (HPC) for the process of cortical permanent memory formation. The mechanisms through which memory becomes progressively independent from the HPC remain unknown. In the HPC, adult neurogenesis has been described in many mammalian species, even at old ages. Using two mouse models in which hippocampal neurogenesis is physically or genetically suppressed, we show that decreased neurogenesis is accompanied by a prolonged HPC-dependent period of associative fear memory. Inversely, enhanced neurogenesis by voluntary exercise sped up the decay rate of HPC dependency of memory, without loss of memory. Consistently, decreased neurogenesis facilitated the long-lasting maintenance of rat hippocampal long-term potentiation in vivo. These independent lines of evidence strongly suggest that the level of hippocampal neurogenesis play a role in determination of the HPC-dependent period of memory in adult rodents. These observations provide a framework for understanding the mechanisms of the hippocampal-cortical complementary learning systems.</abstract>
+<pubmed_id>19914173</pubmed_id>
+</detail>
+</item>

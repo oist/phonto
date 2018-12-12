@@ -1,0 +1,15 @@
+Aging
+physiology
+Animals
+Behavior
+Animal
+physiology
+Electroencephalography
+Hippocampus
+physiology
+Male
+Rats
+Rats
+Inbred F344
+Theta Rhythm
+Most hippocampal formation single units in freely behaving rats fall into one of two categories (Ranck 1973). The most obvious behavioral correlate of complex-spike (CS) cells is spatially selective discharge (O'Keefe and Dostrovsky 1971), while theta cells show increased firing in phase with the EEG theta rhythm associated with Vanderwolf's Type I behaviors (e.g. walking, exploration). Recently, Colom and Bland (1987) described, in urethane anesthetized animals, a class of non-CS cell which was inactive in the presence of EEG theta and discharged continuously during LIA. They called these "theta-off" cells and used the term "theta-on" to refer to the classical "theta" cell. We describe the behavioral correlates of 14 theta-off cells encountered in CA1 (n = 1), hilus fascia dentata (FD; n = 4), subiculum (n = 6), abd entorhinal cortex (n = 3). These cells were encountered very infrequently in the course of several experimental investigations of mature young and old rats involving 885 hippocampal neurons recorded from 33 rats during radial maze performance. Fourteen theta-on cells encountered within a few hundred microns of the sites where theta-off cells were recorded were included for comparison. Both theta-on and theta-off cells discharged single spikes and did not show CS bursting characteristic of pyramidal cells. Theta-off cells, however, exhibited significantly greater spike durations than theta-on cells. Mean rates for theta-on and theta-off cells were 8.7 Hz and 6.5 Hz, respectively. Maximum rates were 114 Hz and 104 Hz, respectively. Some cells of both types showed 6-8 Hz modulation while animals traversed the maze.(ABSTRACT TRUNCATED AT 250 WORDS)

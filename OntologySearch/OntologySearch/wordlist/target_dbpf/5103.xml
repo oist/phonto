@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5103">
+<itemtype>xnppaper</itemtype>
+<titles><title>Memory for places: a navigational model in support of Marr&#039;s theory of hippocampal function.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Head</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Robotics</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T03:38:51Z</last_update_date>
+<creation_date>2011-05-16T03:38:51Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5103</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5103" version="1.02">
+<authors><author>Recce M</author><author>Harris KD</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>735-48</page>
+<abstract>In this report we describe a model that applies Marr&#039;s theory of hippocampal function to the problem of map-based navigation. Like many others we attribute a spatial memory function to the hippocampus, but we suggest that the additional functional components required for map-based navigation are located elsewhere in the brain. One of the key functional components in this model is an egocentric map of space, located in the neocortex, that is continuously updated using ideothetic (self-motion) information. The hippocampus stores snapshots of this egocentric map. The modeled activity pattern of head direction cells is used to set the best egocentric map rotation to match the snapshots stored in the hippocampus, resulting in place cells with a nondirectional firing pattern. We describe an evaluation of this model using a mobile robot and demonstrate that with this model the robot can recognize an environment and find a hidden goal. This model is discussed in the context of prior experiments that were designed to discover the map-based spatial processing of animals. We also predict the results of further experiments.</abstract>
+<pubmed_id>9034859</pubmed_id>
+</detail>
+</item>

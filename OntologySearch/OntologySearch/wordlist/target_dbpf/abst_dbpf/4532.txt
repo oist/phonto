@@ -1,0 +1,19 @@
+Animals
+Hippocampus
+anatomy
+&
+histology
+physiology
+Humans
+Neural Pathways
+anatomy
+&
+histology
+physiology
+Vestibule
+Labyrinth
+anatomy
+&
+histology
+physiology
+Since the early 1960s, researchers have speculated that the vestibular system, the sensory system concerned with the perception of balance and self-motion, contributes to spatial information processing and the development of spatial memory in the hippocampus. Anatomical studies have suggested that various parts of the thalamus are likely to transmit vestibular information to the hippocampus, perhaps via the parietal cortex; however, more direct pathways are possible. Over the last 2-3 years there have been a number of direct electrophysiological demonstrations that vestibular stimulation affects head direction cells in the anterior thalamic nuclei and place cells in the hippocampus. These studies demonstrate the importance of vestibular-hippocampal interactions for hippocampal function but also raise the possibility that the hippocampus may be important for compensation of vestibular function following peripheral or central vestibular lesions.

@@ -1,0 +1,35 @@
+Adult
+Brain Mapping
+Data Interpretation
+Statistical
+Face
+Female
+Hippocampus
+physiology
+Humans
+Least-Squares Analysis
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Models
+Psychological
+Models
+Statistical
+Neocortex
+physiology
+Nerve Net
+physiology
+Neural Pathways
+Oxygen
+blood
+Photic Stimulation
+Psychomotor Performance
+physiology
+Reaction Time
+physiology
+Recognition (Psychology)
+physiology
+Temporal Lobe
+physiology
+Encoding and retrieval of relational information requires interaction between the hippocampus and various neocortical regions, but it is unknown whether the connectivity of hippocampal-neocortical networks is different at input and output stages. To examine this, we conducted a network analysis of event-related fMRI data collected during a face-recognition, remember/know paradigm. Directed analyses in the medial temporal lobe identified a small region in the left hippocampus that showed differential activation for encoding and retrieval of recollected versus familiar items. Multivariate seed partial least squares (PLS) analysis was used to identify brain regions that were functionally connected to this hippocampal region at encoding and retrieval of 'remembered' items. Anatomically based structural equation modeling (SEM) was then used to test for differences in effective connectivity of network nodes between these two memory stages. The SEM analysis revealed a reversal of directionality between the left hippocampus (LHC) and left inferior parietal cortex (LIPC) at encoding and retrieval. During encoding, activation of the LHC had a positive influence on the LIPC, whereas during retrieval the reverse pattern was found, i.e., the LIPC activation positively influenced LHC activation. These findings emphasize the importance of hippocampal-parietal connections and underscore the complexity of their interactions in initial binding and retrieval/reintegration of relational memory. We also found that, during encoding, the right hippocampus had a positive influence on the right retrospenial cortex, whereas during retrieval this influence was significantly weaker. We submit that examining patterns of connectivity can be important both to elaborate and constrain models of memory involving hippocampal-neocortical interactions.

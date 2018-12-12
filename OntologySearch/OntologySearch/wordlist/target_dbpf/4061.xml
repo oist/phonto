@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4061">
+<itemtype>xnppaper</itemtype>
+<titles><title>Internally generated reactivation of single neurons in human hippocampus during free recall.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Action Potentials</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cues</keyword>
+<keyword>Electrodes</keyword>
+<keyword>Implanted</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Epilepsy</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T05:23:42Z</last_update_date>
+<creation_date>2010-10-08T05:23:42Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4061</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4061" version="1.02">
+<authors><author>Gelbard-Sagiv H</author><author>Mukamel R</author><author>Harel M</author><author>Malach R</author><author>Fried I</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>322</volume>
+<number>5898</number>
+<page>96-101</page>
+<abstract>The emergence of memory, a trace of things past, into human consciousness is one of the greatest mysteries of the human mind. Whereas the neuronal basis of recognition memory can be probed experimentally in human and nonhuman primates, the study of free recall requires that the mind declare the occurrence of a recalled memory (an event intrinsic to the organism and invisible to an observer). Here, we report the activity of single neurons in the human hippocampus and surrounding areas when subjects first view cinematic episodes consisting of audiovisual sequences and again later when they freely recall these episodes. A subset of these neurons exhibited selective firing, which often persisted throughout and following specific episodes for as long as 12 seconds. Verbal reports of memories of these specific episodes at the time of free recall were preceded by selective reactivation of the same hippocampal and entorhinal cortex neurons. We suggest that this reactivation is an internally generated neuronal correlate for the subjective experience of spontaneous emergence of human recollection.</abstract>
+<pubmed_id>18772395</pubmed_id>
+</detail>
+</item>

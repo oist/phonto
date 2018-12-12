@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8439">
+<itemtype>xnpconference</itemtype>
+<titles><title>The generalized iterated function system in the hippocampus</title>
+</titles>
+<contributor uname='yamaguchi'>[en]Yutaka Yamaguti[/en][ja]山口 裕[/ja](yamaguchi)</contributor>
+<keywords><keyword>A01G1</keyword>
+</keywords>
+<description>国内学会
+oral
+invited</description>
+<doi></doi>
+<last_update_date>2014-05-06T00:40:18Z</last_update_date>
+<creation_date>2014-04-23T07:15:54Z</creation_date>
+<publication_year>2013</publication_year>
+<publication_month>9</publication_month>
+<publication_mday>17</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8439</url>
+<changelogs>
+<changelog date='2014-05-06T00:40:18Z'>インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8439" version="1.02">
+<conference_from_year>2013</conference_from_year>
+<conference_from_month>9</conference_from_month>
+<conference_from_mday>17</conference_from_mday>
+<conference_to_year>2013</conference_to_year>
+<conference_to_month>9</conference_to_month>
+<conference_to_mday>18</conference_to_mday>
+<presentation_type>other</presentation_type>
+<conference_title>津田一郎教授還暦記念研究集会 複雑系数理から動的脳観へ</conference_title>
+<place>北海道大学理学部大講堂</place>
+<authors><author>由利美智子</author><author>山口裕</author></authors>
+<abstract></abstract>
+<attachment_dl_limit>0</attachment_dl_limit>
+<attachment_dl_notify>0</attachment_dl_notify>
+</detail>
+</item>

@@ -1,0 +1,24 @@
+Action Potentials
+physiology
+Adaptation
+Physiological
+Biological Clocks
+physiology
+Computer Simulation
+Hippocampus
+physiology
+Homeostasis
+physiology
+Memory
+physiology
+Models
+Neurological
+Nerve Net
+physiology
+Neuronal Plasticity
+physiology
+Neurons
+physiology
+Synaptic Transmission
+physiology
+It is widely believed that memory traces can be stored through synaptic conductance modification of dense excitatory recurrent connections (ERCs) in the hippocampal CA3 region, namely associative memory. ERCs, on the other hand, are crucial to maintain spontaneous rhythmic activity in CA3. Since it is experimentally suggested that synaptic conductances of ERCs are modified through spike-timing-dependent synaptic plasticity (STDP), rhythmic activity might modify ERCs with the presence of STDP because rhythmic activity involves discharges of pyramidal cells. Memory patterns that are stored using ERCs might thus be modified or even destroyed. Rhythmic activity itself might also be modified. In this study, we assumed that the synaptic modification in the hippocampal CA3 was subject to STDP, and examined the coexistence of memory traces and rhythmic activity. The activity of the network was dominated by radially propagating burst activities (radial activities) that initiated at local regions and acted as pacemakers. The frequency of the rhythmic activity converged into one specific frequency with time, depending on the shape of the STDP functions. This indicates that rhythmic activity could be regulated by STDP. By applying theta burst stimulation locally to the network, we found that the stimulation whose frequency was higher than that of the spontaneous rhythmic activity could organize a new radial activity at the stimulus site. Newly organized radial activities were preserved for seconds after the termination of the stimulation. These results imply that CA3 with STDP has an ability to self-regulate rhythmic activity and that memory traces can coexist with the rhythmic activity by means of radial activity.

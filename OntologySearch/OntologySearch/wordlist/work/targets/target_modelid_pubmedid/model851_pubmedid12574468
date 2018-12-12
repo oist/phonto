@@ -1,0 +1,37 @@
+1. J Neurophysiol. 2003 Feb;89(2):909-21.
+
+Fast rhythmic bursting can be induced in layer 2/3 cortical neurons by enhancing 
+persistent Na+ conductance or by blocking BK channels.
+
+Traub RD(1), Buhl EH, Gloveli T, Whittington MA.
+
+Author information: 
+(1)Department of Physiology and Pharmacology, State University of New York Health
+Science Center, Brooklyn, New York 11203, USA. roger.traub@downstate.edu
+
+Fast rhythmic bursting (or "chattering") is a firing pattern exhibited by
+selected neocortical neurons in cats in vivo and in slices of adult ferret and
+cat brain. Fast rhythmic bursting (FRB) has been recorded in certain superficial 
+and deep principal neurons and in aspiny presumed local circuit neurons; it can
+be evoked by depolarizing currents or by sensory stimulation and has been
+proposed to depend on a persistent g(Na) that causes spike depolarizing
+afterpotentials. We constructed a multicompartment 11-conductance model of a
+layer 2/3 pyramidal neuron, containing apical dendritic calcium-mediated
+electrogenesis; the model can switch between rhythmic spiking (RS) and FRB modes 
+of firing, with various parameter changes. FRB in this model is favored by
+enhancing persistent g(Na) and also by measures that reduce [Ca(2+)](i) or that
+reduce the conductance of g(K(C)) (a fast voltage- and Ca(2+)-dependent
+conductance). Axonal excitability plays a critical role in generating fast bursts
+in the model. In vitro experiments in rat layer 2/3 neurons confirmed (as shown
+previously by others) that RS firing could be switched to fast rhythmic bursting,
+either by buffering [Ca(2+)](i) or by enhancing persistent g(Na). In addition,
+our experiments confirmed the model prediction that reducing g(KC) (with
+iberiotoxin) would favor FRB. During the bursts, fast prepotentials (spikelets)
+could occur that did not originate in apical dendrites and that appear to derive 
+from the axon. We suggest that modulator-induced regulation of [Ca(2+)] dynamics 
+or of BK channel conductance, for example via protein kinase A, could play a role
+in determining the firing pattern of neocortical neurons; specifically, such
+modulation could play a role in regulating whether neurons respond to strong
+stimulation with fast rhythmic bursts.
+
+PMID: 12574468  [PubMed - indexed for MEDLINE]

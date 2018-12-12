@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="2523">
+<itemtype>xnppaper</itemtype>
+<titles><title>The Brain Computation Based on Synchronization of Nonlinear Oscillations: On Theta Rhythms in Rat Hippocampus and Human Scalp</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2009-06-09T02:41:47Z</last_update_date>
+<creation_date>2009-06-09T02:41:47Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=2523</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="2523" version="1.02">
+<authors><author>Yamaguchi Y</author></authors>
+<journal>Lecture Notes in Computer Science</journal>
+<volume>5286</volume>
+<number></number>
+<page>1-12</page>
+<abstract>Synchronization of oscillations is widely observed in neural assemblies in the brain. To clarify the computational principle in these systems with essential nonlinearity, theta rhythms in rat hippocampus and in human scalp EEG were investigated. Recent discovery of grid cell and its contribution to place computation in the hippocampus were comprehensively understood by using a computational model with nonlinear oscillations. Human EEG theta (4–8 Hz) study also indicated the central role of synchronization for on demand module linking. Synchronization can crucially contribute to computation through unification among heterogeneous developing systems in real time. A basic principle toward intelligent system design was discussed for further study on the brain computation.</abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

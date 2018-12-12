@@ -1,0 +1,61 @@
+Animals
+Cannabinoid Receptor Modulators
+Cannabinoids
+pharmacology
+Chelating Agents
+pharmacology
+Electric Stimulation
+Endocannabinoids
+Enzyme Inhibitors
+pharmacology
+Excitatory Amino Acid Agonists
+pharmacology
+Fatty Acids
+Unsaturated
+agonists
+metabolism
+Hippocampus
+cytology
+drug effects
+metabolism
+Long-Term Synaptic Depression
+drug effects
+physiology
+Methoxyhydroxyphenylglycol
+analogs
+&
+derivatives
+pharmacology
+Neural Inhibition
+drug effects
+physiology
+Organ Culture Techniques
+Presynaptic Terminals
+drug effects
+metabolism
+Pyramidal Cells
+cytology
+drug effects
+metabolism
+Rats
+Rats
+Sprague-Dawley
+Receptors
+Cannabinoid
+Receptors
+Drug
+agonists
+metabolism
+Receptors
+Metabotropic Glutamate
+drug effects
+metabolism
+Synapses
+drug effects
+metabolism
+Synaptic Transmission
+drug effects
+physiology
+gamma-Aminobutyric Acid
+metabolism
+Neuronal excitability and long-term synaptic plasticity at excitatory synapses are critically dependent on the level of inhibition, and accordingly, changes of inhibitory synaptic efficacy should have great impact on neuronal function and neural network processing. We describe here a form of activity-dependent long-term depression at hippocampal inhibitory synapses that is triggered postsynaptically via glutamate receptor activation but is expressed presynaptically. That is, glutamate released by repetitive activation of Schaffer collaterals activates group I metabotropic glutamate receptors at CA1 pyramidal cells, triggering a persistent reduction of GABA release that is mediated by endocannabinoids. This heterosynaptic form of plasticity is involved in changes of pyramidal cell excitability associated with long-term potentiation at excitatory synapses and could account for the effects of cannabinoids on learning and memory.

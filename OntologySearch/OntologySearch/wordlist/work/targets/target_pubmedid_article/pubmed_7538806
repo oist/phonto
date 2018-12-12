@@ -1,0 +1,2637 @@
+Biophysical Journal Volume 68
+
+March 1995 949-964
+
+949
+
+Early Afterdepolarizations In Cardiac Myocytes:
+Mechanism and Rate Dependence
+
+Jinglin Zeng and Yoram Rudy
+Cardiac Bioelectricity Research and Training Center, Department of Biomedical Engineering, Case Western Reserve University,
+Cleveland, Ohio 44106-7207 USA
+
+ABSTRACT A model of the cardiac ventricular action potential that accounts for dynamic changes in ionic concentrations was
+used to study the mechanism, characteristics, and rate dependence of early afterdepolarizations (EADs). A simulation approach
+to the study of the effects of pharmacological agents on cellular processes was introduced. The simulation results are qualitatively
+consistent with experimental observations and help resolve contradictory conclusions in the literature regarding the mechanism
+of EADs. Our results demonstrate that: 1) the L-type calcium current, /ca' is necessary as a depolarizing charge carrier during
+an EAD; 2) recovery and reactivation of /Ca is the mechanism of EAD formation, independent of the intervention used to induce
+the EADs (cesium, Bay K 8644, or isoproterenol were used in our simulations, following similar published experimental pro-
+tocols); 3) high [Ca2+]i is not required for EADs to develop and calcium release by the sarcoplasmic reticulum does not occur
+during the EAD; 4) although the primary mechanism of EAD formation is recovery of 'ca' other plateau currents can modulate
+EAD formation by affecting the balance of currents during a conditional phase before the EAD take-off; and 5) EADs are present
+at drive cycle lengths longer than 1000 ms. Because of the very long activation time constant of the delayed rectifier potassium
+current, 'K' the activation gate of /K does not deactivate completely between consecutive stimuli at fast rates (drive cycle length
+< 1000 ms). As a result, /K plays a key role in determining the rate dependence of EADs.
+
+INTRODUCTION
+An early afterdepolarization (EAD) is defined (Cranefield
+and Aronson, 1988) as a depolarizing afterpotential that be-
+gins before the completion of repolarization of an action
+potential. It is believed that EADs may contribute to the
+polymorphic ventricular tachyarrhythmias in patients with
+the long QT syndrome that manifests as Torsade de Pointes
+in the electrocardiogram (Hiraska et al., 1992; January
+and Moscucci,
+are
+bradycardia-related and are associated with slow pacing or
+a long pause (Cranefield and Aronson, 1988; Damiano and
+Rosen, 1984; Rosen, 1990).
+
+1992). EAD-induced arrhythmias
+
+EADs are divided into two types according to the phase
+of the action potential during which the EAD occurs
+(Cranefield and Aronson, 1988). We are interested in EADs
+that develop at plateau potentials. EADs were induced ex-
+perimentally in several studies by exposure to different phar-
+macological interventions. However, as summarized below
+and presented in Fig. 1, because of experimental limitations
+such as lack of specificity of drug actions and inability to
+measure directly certain ionic currents and concentration
+changes (e.g., the calcium transient), conclusions regarding
+the mechanism of EADs are conflicting and not conclusive.
+Exposing the ferret ventricular muscle to cesium, Marban
+et al. (1986) found that EADs induced by cesium (Fig. LA)
+were neither abolished by administration of ryanodine, an
+
+Receivedforpublication 7March 1994 and infinalform 15 November1994.
+Address reprint requests to Dr. Yoram Rudy, Department of Biomedical
+Engineering, Case Western Reserve University, Wickenden Bldg., Room
+505, Cleveland, OH 44106-7207. Tel.: 216-368-4051; Fax: 216-368-4969;
+E-mail: yxr@po.cwru.edu.
+X 1995 by the Biophysical Society
+0006-3495/95/03/949/16
+
+$2.00
+
+inhibitor of Ca2" release from the sarcoplasmic reticulum
+(SR), nor by loading the cell with BAPTA (a calcium chelator).
+They concluded that the formation of EADs does not require
+elevated intracellular free Ca2+ or calcium release from the SR.
+Instead, they suggested that EAD generation involves Ca" entry
+through the sarcolemma L-type channels.
+
+January and his colleagues (January et al., 1988; January
+and Riddle, 1989) studied the mechanism of EADs induced
+by Bay K 8644 in sheep and canine cardiac Purkinje fibers
+(Fig. 1B). Two-pulse and two-step voltage clamp protocols
+were used in their studies. On the basis of their observations,
+they suggested that induction of EADs required two pro-
+cesses: 1) prolongation of the action potential plateau and 2)
+recovery of the Ca21 current through the L-type channels to
+carry the depolarizing charge for EAD formation. Their later
+experimental and mathematical modeling studies further
+supported the central role of the L-type calcium window
+current in EAD development (Hirano et al., 1992; January
+et al., 1991; Shorofsky and January, 1992).
+
+Contrary to the L-type calcium current hypothesis pre-
+sented above, Priori and Corr (1990) proposed that EADs and
+delayed afterdepolarizations (DADs) shared the same
+mechanism (Fig. 1C). With the administration of isoproter-
+enol, both EADs and DADs were induced. Both could be
+abolished by ryanodine, by lowering extracellular sodium
+concentration or by benzamil (a blocker of the sodium-
+calcium exchange current, INa.)* Therefore, they concluded
+that a transient inward current (possibly INac), activated by
+calcium release from the SR, carried the depolarizing charge
+for both EADs and DADs.
+
+In this paper, we use a recently developed mathematical
+model of the cardiac ventricular action potential (the L-R
+model) (Luo and Rudy, 1994a, b) to study the mechanism of
+EADs. We take advantage of the ability to manipulate and
+
+...........
+
+FIGURE
+
+2Schematic diagram of th...e Ca::gle a.cel.
+
+rl..
+
+f
+
+odl
+
+'cacu currn .....truh
+Na'
+nel;'dlayerecifie potassium.current;.'Ki'.ina
+
+IE K::::
+
+lNak
+
+K
+NSR
+
+K
+uP--
+
+K~.,::
+
+K..... .. .........
+
+......::
+
+retif
+
+ii
+
+IK
+
+IK
+
+INa
+
+INaK
+
+INa,b
+
+IeP
+Schematic diagram of the L-R single ventricular cell model.
+FIGURE 2
+IN.9 fast sodium current; Ica, calcium current through L-type calcium chan-
+nel; IK' delayed rectifier potassium current; IK1' inward rectifier potassium
+current; IKP' plateau potassium current; IN.K9 sodium-potassium pump
+current; INaCa' sodium-calcium exchange current; IpCa' calcium pump
+in the sarcolemma; INa b sodium background current; ICa b' calcium
+background current;
+current;
+IupX calcium uptake from myoplasm to network sarcoplasmic reticulum
+(NSR); ,ell, calcium release from JSR; Ileak, calcium leakage from NSR
+to myoplasm; Ir' calcium translocation from NSR to JSR. Dotted areas
+indicate presence of calcium buffers. For details, see [41].
+
+calcium-activated
+
+nonspecific
+
+Ins,Ca'
+
+950
+
+Biophysical Journal
+
+Volume 68 March 1995
+
+channel currents, represented mathematically by a Hodgkin-Huxley type of
+formalism, as well as ionic pumps and exchangers. In addition, processes
+that regulate ionic concentration changes, especially dynamic changes of
+intracellular calcium concentration, are also introduced. A diagram of the
+cell model is provided in Fig. 2. A detailed table of equations governing
+the model is provided in Luo and Rudy (1994a).
+
+Although the simulations presented here are based on the L-R model,
+minor adjustments are introduced for the purpose of the particular simu-
+lations conducted in this study. It is well known that release of calcium
+stored in the SR can be triggered by the process of calcium-induced calcium
+release (CICR) (Fabiato, 1983, 1985). In the model (Luo and Rudy, 1994a),
+CICR occurs if total [Ca2+]i (i.e., free plus buffered) increases by more than
+0.18 ,M in the first 2 ms of the action potential. After a delay of 3-9 ms
+from the beginning of a stimulus that generates an action potential, free
+cytoplasmic [Ca2+]i begins to increase quickly as a result of SR release and
+reaches its peak value in an additional 8-19 ms (Cleeman and Morad, 1991).
+During this process, the distribution of free calcium ions in the myoplasm
+is relatively homogeneous (Takamatsu and Weir, 1989). In the L-R model,
+this peak is reached 10 ms after the junctional SR (JSR) begins to release
+its stored calcium. In our simulations, this interval is prolonged to 15 ms
+(within the 8-19 ms range) by increasing the activation and deactivation
+time constants of SR calcium release channels from 2 to 3.5 ms. This slower
+kinetics approximates more accurately the experimental recordings of the
+time course of the calcium transient (Cleeman and Morad, 1991). We also
+adjust the maximal rate constant of calcium release from the JSR from 60
+to 38 ms-1 to obtain a peak Ca2" transient value of 1.0 ,LM during a normal
+action potential, as reported experimentally (Leblanc and Hume, 1990).
+Calcium can also be released from the JSR spontaneously when the cell
+is calcium overloaded (Stern et al., 1988). This property is incorporated in
+the L-R model (Luo and Rudy, 1994a). Heterogeneous calcium distribution
+in the myoplasm is observed during the spontaneous release process
+(Grouselle et al., 1991) and the average calcium transient reaches its peak
+later compared with the calcium transient generated by the CICR process.
+In the L-R model, all SR release sites are lumped into a single location. To
+reflect the longer time course of the average calcium transient during spon-
+taneous calcium release, we increase the release channel activation and
+deactivation time constants from 2 to 6 ms under these conditions. The
+maximal rate constant is decreased from 4 to 3 ms-1.
+
+In several of our simulations, the cells were paced relatively fast for
+extended periods of time. Therefore, an extracellular cleft is added to the
+L-R model to take into account the possibility of ion accumulation in the cleft.
+
+Ins,Ca
+Na
+
+I Ca
+
+INaCa
+. Ca,bNa
+
+Ip,Ca
+
+p,Ca
+
+EXPERIMENTAL STUDIES OF EADS
+
+(PREPARATIONS )O
+
+O
+
+S
+
+cesium E-
+
+_
+
+FAD not related
+
+frret
+
+ventricula
+
+to high lCa]i& Ca
+
+----rlaefQ
+
+R--
+
+fibers
+
+Ca entry through
+L-type channel
+important
+(E. Marban, S. W. Robinson and W.G. Wier, Clini. Invest.
+
+±ryanodine
+cesium
++BAPTAA-
+
+(X)
+
+seep
+canine
+Purkinje
+fibers
+
+78:1185-1192, 1986.)
+
+. Bay K8644
++ ow [K]o
+Bay K8644
++high [K]o
+Bay K8644 -stc.<=>7EAi§
++vo tage clamp
+
+,,,,,,Recovery from
+inactivation of
+ICa is required.
+Delay of
+repolarization
+is important
+
+(C.T. Januarv, J.M. Riddle and J.J. Salata, Circ. Res.
+
+62: 563-571, 1988 and 64:977-989, 1989.)
+
+canine
+
+ventriculat
+v
+
++ryanodine
+
+isoproterenol
+
+EFAD and DAD
+N share the same
+mechanism
++ benzaml_§_~~ ~ from SR & Iti
++low [NaI 'I are necessary
+
+Ca release
+
+_
+
+celln+t benzami -
+
+(S.G. Priori and P.B.Corr, Am.J. Phvsiol. 256:H1796-H1805, 1990)
+
+Schematic description of three experimental studies of EADs.
+FIGURE 1
+(A) Marban et al [43]. EADs were induced when ventricular fibers were
+exposed to CsCl and then returned to normal Tyrode solution. Addition of
+ryanodine or BAPTA did not remove EADs. They concluded that high
+[Ca2+]i is not required for EAD formation whereas calcium entry through
+L-type channels plays an important role. (B) January et al [29,30]. In the
+presence of Bay K 8644, EADs were induced at 3.5 mM [K+]. but not at
+5.0 mM [K+]0. On the basis of two-step and two-pulse voltage clamp pro-
+tocols, they concluded that recovery of L-type channels from inactivation
+is important for EAD development. (C) Priori and Corr [52]. EADs as well
+as DADs were induced by isoproterenol when the single cell was paced
+at 1-2 Hz. Both were removed by lowering [Na+]o to 40 mM or adding
+ryanodine or by application of benzamil. They concluded that EADs
+and DADs share the same mechanism that involves spontaneous Ca2+ re-
+lease by the SR that activates a transient inward current to depolarize the
+membrane.
+
+study the behavior of individual ionic processes in the
+mathematical model of the complex and highly interactive
+cellular system. The effects of cesium, isoproterenol, and
+Bay K 8644 that were used in the above experiments to in-
+duce EADs are simulated in an attempt to resolve the con-
+troversy regarding the mechanism underlying EAD forma-
+tion. In addition, we study the rate dependence of EAD
+generation and investigate its ionic channel mechanism.
+These studies were presented, in part, in an abstract form
+(Zeng and Rudy, 1994a, b).
+
+SIMULATION METHODS
+To study the mechanism of EADs, the effects of cesium, Bay K 8644, and
+isoproterenol, which are known to induce EADs experimentally, are simu-
+lated by using the L-R model (Luo and Rudy, 1994a, b). In this model, the
+guinea pig type of ventricular action potential is numerically constructed on
+the basis of experimental data. Included in the model are the membrane ionic
+
+Zeng and Rudy
+
+Early Afterdepolarizations in Cardiac Myocytes
+
+951
+
+Following Rasmusson et al. (1990), we compute the concentration change ofions
+in the cleft as the balance of two processes, transmembrane ionic current flow
+and diffusion between the cleft and the bulk medium. A diffusion time constant
+of 1000 ms was used. Details are provided in Rasmusson et al. (1990).
+
+As mentioned above, the effects of cesium, Bay K 8644, and isoprot-
+erenol were simulated to induce EADs in our theoretical studies. The effects
+of these three drugs and their representation in our simulated protocols are
+discussed below.
+
+Cesium
+Cesium is known to depolarize the resting potential and flatten the plateau
+of the action potential (Isenberg, 1976). The pacemaker current, If, can be
+blocked by Cs' at very low Cs' concentrations (down to 0.1 mM) (Isenberg,
+1976). IK and IK1 can also be blocked by extracellular Cs' (Harvey and
+Ten Eick, 1989; Meier and Kalzung, 1981). However, high Cs' concen-
+tration (5 mM) is needed to reduce these two currents. The Cs' block of K+
+currents is both voltage and concentration dependent (Meier and Katzung,
+1981; Toumeur et al., 1987). To simulate these effects, we introduce a
+voltage- and concentration-dependent gate, 8c, to account for the Cs'
+modulation of the IK and IK1 conductances in the L-R model. To fit the
+experimental recordings (Meier and Katzung, 1981; Toumeur et al., 1987),
+SB, is expressed as
+
+Scs = 1/(1 + exp((V - V,12)IKc,))
+
+(1)
+where V is the membrane potential, KCS is -16 mV, and V1,2 is a
+concentration-dependent parameter. At 5 and 10 mM Cs', V,/2 is set to -95
+and -40 mV, respectively.
+
+Bay K 8644
+Bay K 8644 can be divided into two types according to its optical isomers:
+the (+) isomer of Bay K 8644, which shows properties of a calcium L-type
+channel antagonist, and the (-) isomer of Bay K 8644, which is primarily
+an L-type Ca2` channel agonist (Frankowiak et al., 1985). In this study, we
+are interested in the (-) isomer of Bay K 8644 at 1 ,uM concentration. Bay
+K 8644 is a 1,4-dihydropyridine that can increase the microscopic Ca2+
+currents by prolonging the mean open time of single L-type channels (Hess
+et al., 1984). At a concentration of 1 ,uM, the enhancement of the L-type
+Ca2+ channel current reaches its maximum. It is generally observed that the
+steady state activation and inactivation curves are shifted toward hyperpo-
+larization potentials by Bay K 8644 and the time constants for both acti-
+vation and inactivation are accelerated in the presence of Bay K 8644. There
+are many published studies describing the effects of Bay K 8644 on the
+kinetics of the L-type Ca2+ channel (Hadley and Lederer, 1992; Markwardt
+and Nilius, 1988; Sanguinetti et al., 1986). Because of species differences
+and differences in the experimental protocols, the results of the different
+studies are not in complete agreement (Sanguinetti et al., 1986; Markwardt
+and Nileus, 1988; Kass, 1987; Hadley and Lederer, 1992, Tiaho et al., 1990).
+Our simulations of Bay K 8644 effects on the L-type current mostly follow
+the measurements by January et al. (1988) as our objective is to simulate
+their experimental protocols. In the presence of 1 ,uM Bay K 8644, the
+maximal permeability ofIlc is enhanced threefold. The V,,2 of the activation
+curve of the L-type channel is shifted from -10 to -17.5 mV to reflect the
+measured 7.5-mV shift of the I-V curve in January et al. (1988). The ac-
+tivation time constant Td at all potentials is reduced by 11%. A 10-mV shift
+in the negative direction of the steady state inactivation curve, f,, of 'ca is
+introduced. A similar shift is applied to the time constant curve Tf of this
+process. In addition, its values at all potentials are reduced by 5% to reflect
+the acceleration of inactivation of Ic. in the presence of Bay K 8644. The
+I-V curve of the L-type channel current was computed before and after
+the simulated effects of Bay K 8644. Simulated behavior is consistent with
+the experimental observations (January et al., 1988).
+
+Isoproterenol
+Isoproterenol is a 13-adrenergic agonist. It is known to increase heart rate and
+to enhance contraction (Gadsby, 1984). By binding to the 13-adrenoceptors
+
+to activate a particular type of G protein, the agonist can exert multiple
+effects on cardiac cells. These include enhancement of calcium and potas-
+sium channel currents, increased calcium uptake ability of the SR, and
+modulation of the sodium current and the Na/K pump. Isoproterenol effects
+on individual processes are described below.
+
+L-type calcium channel
+,B-adrenergic agents such as isoproterenol enhance the L-type calcium chan-
+nel current but have no effect on the T-type calcium channel current (Tytgat
+et al., 1988; Bean, 1985). The enhancement of Ic. depends on the isopro-
+terenol concentration (Trautwein et al., 1987). The threshold, half-maximal,
+and maximal isoproterenol concentrations are 0.02, 0.2, and 1.0 ,uM,
+respectively.
+
+Studies on single channels (Bean et al., 1984; Ochi and Kawashima,
+1990; Tsien et al., 1986) have shown that the unitary current amplitude of
+a single channel remained unchanged with the addition of 83-adrenergic
+agents. Channel openings were prolonged and channel closing was abbre-
+viated. The number of functional channels increased severalfold in the pres-
+ence of a 13-adrenergic agent. This increase was species dependent, bringing
+about an enhancement of the L-type current in the range of 1.5 to 8 fold in
+whole cell recordings.
+
+To simulate the effects of isoproterenol on the calcium current in a
+Hodgkin-Huxley type formalism, many investigators suggested simple scal-
+ing of the magnitude of Ic. This adjustment is adequate when guinea pig
+myocytes are considered. However, a negative shift along the voltage axis
+of the L-type I-V curve and a shift of voltage-dependent activation and
+inactivation were observed in other species such as frog, rabbit, and rat
+cardiac cells (Rosen et al., 1990; Bean, 1984; Tiaho et al., 1991). In addition,
+deceleration of inactivation was also found (Tiaho et al., 1991).
+
+Studies of EADs induced by isoproterenol were performed in isolated
+canine ventricular cells by Priori and Corr (1990). Detailed published studies
+of the effects of f3-adrenergic agents on canine ventricular myocytes could
+not be found. In our simulations of the effects of isoproterenol on dog
+ventricular cells (the choice of a canine cell is dictated by the Priori and Corr
+study that we are trying to simulate), we do not introduce shifts of the
+voltage-dependent activation and inactivation curves. The inactivation time
+constant is increased by 13%. A fivefold increase of the maximal conduc-
+tance is adopted, on the basis of observations ofTseng et al. (1987) in canine
+ventricular cells.
+
+As to the modulation of Ca2+-dependent inactivation of the L-type cur-
+rent by (3-adrenergic agents, uncertainties still remain. It is well accepted that
+both voltage- and Ca2+-dependent inactivation exist in cardiac myocytes.
+Recent studies with gating current by Hadley and Lederer (1991a, b) sug-
+gested that Ca2+- and voltage-dependent processes inactivate the L-type
+channels through independent mechanisms. However, the mechanism un-
+derlying the Ca2+-dependent inactivation is still not completely understood
+(Standon and Stanfield, 1982; Armstrong and Eckert, 1987; Nunoki et al.,
+1989; Trautwein et al., 1987; Ono and Trautwein, 1991; Kameyama
+et al., 1986). Independent of the mechanism, isoproterenol clearly reduces
+Ca2+-dependent inactivation. To simulate Ca2+-dependent inactivation in
+the presence of 1 ,uM isoproterenol in cardiac cells, the half-point concen-
+tration for the Ca2+-dependent inactivation (fc1) formulation in the L-R
+model is increased from 0.7 to 0.9 ,uM. In addition, we set a non-zero
+minimum value of0.03 forfc. to insure that even a very large value of [Ca21]
+does not fully close the L-type channels in the presence of isoproterenol.
+This modulation is based on the observation by Hadley and Lederer (1991a)
+that Ca21 current was still prominent when intracellular Ca2' rose so high
+as to cause irreversible contraction of the cell. The formulation offc. after
+the modulation by isoproterenol is expressed as follows:
+
+fc = 0.03 + 0.97/(1 + ([Ca2+]i/0.9 X 10-3)3)
+
+(2)
+
+Delayed rectifier potassium channel
+The delayed rectifier potassium current,
+IK' can be enhanced by a
+,B-adrenergic agonist [60,68], but the inward rectifier potassium current, IKI'
+is not (Godsby, 1984). Temperature dependence of ,3-adrenergic modulation
+
+952
+
+Biophysical Journal
+
+Volume 68 March 1995
+
+of the potassium current was observed (Walsh et al., 1988, 1989). Over the
+range of 20-37°C, the isoproterenol-mediated increase of IK was very tem-
+perature dependent with a 2.5-fold increase at 37°C. In the presence of
+isoproterenol, a 7-15 mV shift in the hyperpolarization direction of the
+half-maximal potential of the IK activation curve was observed (Giles et al.,
+1989; Duchatell-Gourdov et al., 1989). The time constant of the decay of
+IK at repolarization after depolarization increased 10%. Decrease of the
+activation time constant and increase of the deactivation time constant were
+also observed by Giles et al. (1989).
+
+In the L-R model, the conductance of IK is regulated by two gates, a
+voltage-dependent inactivation gate xi and a voltage- and time-dependent
+activation gate, x. To simulate the effects of 1 ,uM isoproterenol at 35-37°C,
+we shift the activation curve 8 mV in the hyperpolarization direction and
+also increase the maximal conductance by a factor of 2. The time constant
+for activation is also shifted 8 mV in the negative direction to reflect a
+1.1-fold increase in deactivation time relative to control at -30 mV.
+
+Calcium uptake by the SR
+In the presence of a ,3-adrenergic agonist, faster relaxation after stronger
+contraction was observed [3]. As it is mostly Ca2" uptake by the SR that
+lowers [Ca2+]i in the myoplasm, this observation suggests an enhanced Ca2"
+uptake ability by the SR. This hypothesis was supported by the observations
+of LePench and Demaille (1989) and Gasser et al. (1988). Using isolated
+rat ventricular cell preparations, in the presence of 1 ALM isoproterenol,
+Kurikara and Konishi (1987) observed a threefold increase of peak calcium
+transient and a 30-40% increase in the rate of calcium decay. Okazaki et al.
+(1990) observed similar effects. They also observed that a shorter time was
+needed to reach the peak calcium transient. In our simulation, we increase
+by 41% the maximal uptake rate (Iup) of Ca2+ by the network sarcoplasmic
+reticulum (NSR) to simulate these effects of isoproterenol.
+
+Na/K pump
+The Na/K pump current is influenced by extracellular and intracellular Na+,
+K+, and Ca2" and also by the membrane potential (Rosen et al., 1990). The
+effects of isoproterenol on the pump are controversial (Rosen et al., 1990;
+Desilets et al., 1986). Recent studies by Gao et al. (1992) documented cal-
+cium concentration-dependent modulation of the pump current by isopro-
+terenol. For [Ca2+]i >0.1 ,uM, IN.K increased and saturated at 1.0 ,uM [Ca2+]i
+to a value that was 23% higher than control. For [Ca21]i <0.1 I'M, IJNK
+decreased and saturated at 0.01 ,uM [Ca21]i to a value that was 21% smaller
+than control. In our model, to simplify the simulation, a 20% increase of the
+maximal pump current (INa) is introduced to reflect the (3-adrenoceptor
+stimulation of the Na/K pump. We do not consider a reduction of IN,K as
+our simulations involve pacing at fast rates that results in calcium accu-
+mulation and a high [Ca2+];.
+
+Sodium channel
+Our simulations of isoproterenol effects on IN. are mostly on the basis of
+recent studies by Ono et al. (1989). At 1 ,uM isoproterenol, they observed
+a 3.4 ± 0.8 mV shift of the inactivation curve ofINa in the hyperpolarization
+direction. In their studies they assumed that there was only one inactivation
+process of IN.. It is generally accepted that two (fast and slow) processes
+control IN. inactivation. In our simulations, we assume that both inactivation
+gates are shifted by 3.4 mV in the hyperpolarization direction.
+
+formation of DADs (Cranefield and Aronson, 1988). As both
+EADs and DADs are membrane depolarizations that are not
+directly caused by external stimulation, the question arises
+whether an increase in intracellular Ca2" and spontaneous
+calcium release from the SR are also involved in the induc-
+tion of EADs. To address this question, we induce EADs by
+simulating the effects of cesium on the membrane currents
+(Fig. 3). EADs induced by cesium were observed experi-
+mentally by many researchers (Marban et al., 1986; Bailie
+et al., 1988; Kadesa and Zipes, 1990). Our simulations follow
+the experimental protocols of Marban et al. (Marban et al.,
+1986). In the presence of 10 mM cesium and 2 mM [Ca2+]0,
+an EAD with an amplitude of 3 mV is observed in the simu-
+lations (not shown). The action potential duration is pro-
+longed from 260 ms under control conditions to 900 ms after
+exposure to cesium. In Fig. 3, the effect of cesium at a con-
+centration between 5 and 10 mM is simulated (the half-
+maximal potential, V112, of Sc, gate is set to -80 mV). In
+addition, [Ca2+]
+is doubled to 4 mM. An action potential of
+830 ms duration with an EAD of 17 mV amplitude is ob-
+served (Fig. 3A). These results are consistent with the
+observations of Marban et al. and demonstrate that EADs can
+
+Cesium
+
+B.Cesium
+
++reduced Grel
+
+C. Cesium+BAP
+
+'TA
+
+membrane
+poten1tal
+
+ICa ] i
+
+I rel
+
+A.
+60-
+
+20-
+
+-20-
+-40-
+-60-
+-80-
+-100
+
+1.2-
+
+0.8-
+
+~ 0.6-
+0.4
+0.2
+
+o-
+
+2-
+
+1.5
+
+1 0.5-
+
+0
+
+-0.5-
+
+200 ms
+
+RESULTS
+EADs, intracellular calcium and calcium release
+from the SR
+It is believed that under conditions of calcium overload,
+spontaneous calcium release from the SR that activates a
+transient inward current is the underlying mechanism for the
+
+FIGURE 3 From top to bottom, membrane potential, [Ca], and I4e are
+shown. (A) In the presence of 4 mM [Ca2+], the effect of cesium (between
+5 and 10 mM) is simulated by shifting the half-maximal potential ofSc&-gate
+to -80 mV. An EAD is generated. (B) In the presence of 4 mM [Ca2"]. and
+10 mM cesium, the maximal rate constant of the JSR calcium release current,
+G.I,, is reduced by 90%. The [Ca2+]i transient is reduced. EADs are still
+induced. (C) The cell is exposed to 10 mM cesium and 4 mM [Ca2"]. and
+is loaded with 1.7 mM BAPTA. Ie is not triggered and [Ca21]i is small.
+EADs still develop.
+
+Zeng and Rudy
+
+Early Afterdepolarizations in Cardiac Myocytes
+
+953
+
+be induced by cesium at both normal and relatively high
+[Ca2"]. in our model.
+To lower the intracellular Ca2" transient during the action
+potential, ryanodine and BAPTA were administered in the
+experiments of Marban et al. Ryanodine is an alkaloid that
+inhibits Ca2" release from the SR by depleting the calcium
+storage in the SR at low concentrations. In the simulations,
+we represent the reduction of SR Ca2" release as a 90%
+reduction of the maximal rate constant of the JSR Ca2" re-
+lease current, Grel. (Note that we do not simulate the process
+of calcium depletion but only its outcome in terms of reduced
+calcium release.) In the presence of 10 mM cesium, 4 mM
+[Ca2+]0, and Ore, reduced by 90%, four oscillations (EADs)
+of the membrane potential are observed during the repolar-
+ization phase (Fig. 3B). Compared with the behavior without
+any interventions that alter SR release (Fig. 3A), the SR cal-
+cium release current, 'rel' is a substantially smaller as a result
+of the reduced Grel (Fig. 3B). The calcium transient that is
+generated under the condition of reduced Grel is also smaller
+(Fig. 3B) and results mostly from Ca2" entry through the
+L-type channels. However, EADs are still present.
+
+A different method of reducing the intracellular free cal-
+cium concentration is by loading the cell with BAPTA.
+BAPTA is a Ca2" chelator that increases the Ca2"-buffering
+capacity of the cell. In the simulations, we introduce BAPTA
+as a third myoplasmic buffer in addition to troponin and
+calmodulin. Its buffering action is represented by the fol-
+lowing equation:
+
+[BAPTA] = [BAPTA] X {a2+]ij +B[Ca2]rA}
+
++[Ca~
+
+(3)
+
+where [BAPTA] is the concentration of BAPTA that binds
+calcium, [BAPTA] is the total BAPTA concentration in the
+myoplasm, and Km BAfA is 0.215 ,uM based on measurements
+by Harrison and Bers (1987). In the presence of 1.7 mM
+BAPTA, 4 mM [Ca2+]L, and 10 mM Cs+, EADs are present
+(Fig. 3C). No calcium release from the SR is observed as the
+increase in intracellular free Ca2+ is not sufficient to induce
+SR release. As in the previous simulation (Fig. 3B), the
+[Ca2+]i increase is also caused by Ca2+ entry through the
+L-type channels. Despite the small [Ca2+]i transient, EADs
+are still present.
+
+The simulation results presented in Fig. 3 demonstrate that
+Ca2+ release from the SR is not necessary for EADs to de-
+velop and that EADs can be formed in the absence of calcium
+overload. Therefore, in contrast to DADs, calcium overload
+and spontaneous release of calcium from the SR are not the
+basis for the development of EADs.
+
+The role of the L-type calcium current in
+EAD formation
+It is widely accepted that a transient inward current, 'ti, at
+resting potential causes DADs. This current is carried by the
+Na'-Ca2+ exchanger or, in some cases such as calcium over-
+load, by an additional current through a nonspecific calcium-
+activated channel (Luo and Rudy, 1994b). In contrast, a con-
+
+as
+
+still
+
+exists
+
+to which current carries
+
+troversy
+the
+depolarizing charge that causes the secondary depolarization
+during an action potential, leading to an EAD. To address this
+question, we simulate the experimental protocols of January
+et al. (January et al., 1988; January and Riddle, 1989) in
+which Bay K 8644 was used to induce EADs. With the simu-
+lated intervention of 1 ,uM Bay K 8644, an EAD is induced
+(Fig. 4A). Accompanying the secondary depolarization is a
+reversal of the direction of change of ICa that stops decreasing
+in magnitude and increases in the inward direction, display-
+ing a negative hump during the EAD (Fig. 4B, arrow 1). Fig.
+4C shows that this behavior of Ica is caused by reactivation
+of the d-gate, which determines the activation kinetics of the
+L-type calcium channel, from its deactivation state (Fig. 4C,
+arrow 3). The inactivation f-gate and fc-gate represent the
+voltage- and calcium-dependent inactivation processes of the
+calcium channel, respectively. Recovery of both inactivation
+gates from their inactivation state is observed before the EAD
+depolarization (Fig. 4C). The dynamics of their recovery and
+their role in EAD development will be discussed in the next
+section, in conjunction with the conditional phase that pre-
+cedes the EAD. The Na'-Ca2" exchange current, INaCa' re-
+verses its outward-to-inward trend before the EAD take-off
+and changes from inward to outward during the EAD de-
+polarization phase (Fig. 4D, arrow 2). IK and the total time-
+independent current, Iv (Fig. 4, C and D, respectively) also
+become more outward at the EAD depolarization phase.
+
+A. 6o
+40
+20
+0
+>-20
+
+-60
+-80
+-100
+
+In Presence of Bay K 8644
+
+membrane
+potential
+
+D. 1
+
+0.5N
+0-.5
+
+0.
+
+-1
+
+-1.5
+
+INaCa
+
+2
+
+0
+
+100
+
+200
+300
+time (ms)
+
+400
+
+500
+
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+time (ms)
+
+FIGURE 4 EADs in the presence of 1 ,uM Bay K 8644. (A) Action
+potential with an EAD. (B) Ic. during the action potential. (C) Kinetic
+processes of the L-type channel. d, activation gate; f, voltage-dependent
+inactivation gate; fca, calcium-dependent inactivation gate. (D) Sodium-
+calcium exchange current, INaCa. (E) The delayed rectifier K+ current, IK-
+(F) The sum of all time-independent currents, Iv; Iv = IN.K + IK1 + IKP +
+'Na, b + IC,b + Ipc. Bars in each panel indicate the EAD depolarization
+phase.
+
+954
+
+Biophysical Journal
+
+Volume 68 March 1995
+
+(Note that all time-independent currents are lumped together
+and represented as Iv; Iv = INaK + IK1 + IKp + INa, b + Ip,Ca)
+'Na (not shown) remains zerojust before, during, and after the
+EAD. Therefore in the simulations of EADs induced by Bay
+K 8644, 'Ca is the only current that increases in the inward
+direction during the EAD depolarization phase and develops
+a larger inward magnitude during the EAD than during
+normal, uninterrupted repolarization. INac., although mostly
+inward during the EAD depolarization phase, is of small
+magnitude. In fact, following its voltage-dependence char-
+acteristics, it becomes less inward as a result of the EAD
+depolarization and contributes less depolarizing current than
+in the absence of the EAD. All of the other currents become
+more outward during the same period and, in fact, provide
+more repolarizing currents at the EAD depolarization phase
+than when an EAD is not generated, counteracting the de-
+polarization process that is supported by ICa. Similar behavior
+is also observed in the simulations when EADs are induced
+by cesium or by isoproterenol.
+
+As stated above, Ica is the only current that increases in the
+inward (depolarizing) direction during the EAD depolariza-
+tion phase and that develops a larger inward magnitude in the
+presence of an EAD than in its absence. INaCa' on the other
+hand, reduces its inward magnitude and becomes outward at
+the end of the EAD depolarization phase. However, it is still
+inward during most of this phase. To evaluate the importance
+of these inward currents to the depolarization process that
+generates the EAD, we conducted the following simulations.
+The reactivation and inward increase of 'Ca were prevented
+by clamping its magnitude at a constant value from the time
+when secondary depolarization began in the absence of an I
+clamp. As shown in Fig. 5A, fast secondary depolarization
+does not occur when Ic. reactivation is prevented. In contrast,
+if INaCa is clamped to zero starting at the same time (Fig. 5B)
+and no clamp is imposed on Ica, fast secondary depolarization
+and an EAD develop. We conclude that Ic. is essential as a
+depolarizing charge carrier for the secondary depolarization
+and EAD development. In contrast, 'NaCa is not necessary for
+carrying the depolarizing charge for EAD development.
+
+January and Riddle (1989) studied the role played by Ica
+in EAD development using a two-step voltage clamp pro-
+tocol. This protocol is simulated by our computer model as
+shown in Fig. 6. When the cell is released from the two-step
+voltage clamp, the membrane depolarizes and a hump similar
+in morphology to an EAD is produced. This EAD amplitude,
+measured from the second voltage step (V.c), is larger at more
+negative V. (V.c = -20 mV and Vs, = -50 mV are shown
+in Fig. 6A). Fig. 6D shows the EAD amplitude as a function
+of V.c (solid circles). The simulated increase of the EAD
+magnitude as V.c is held at more negative potentials is con-
+sistent with January and Riddle's experimental observation.
+Our results also show that the EAD amplitude is dominated
+by 'Ca the magnitude of which is much larger than that of
+INaCa In Fig. 6, B and C, Ic. and INaCa are compared at two
+different Vsc,-20 and -50 mV. At V. of -50 mV, Ica has
+a magnitude that is about six times larger than at V__ of -20
+mV (Fig. 6B). The larger Ica is associated with an EAD am-
+
+A. ICa Clamp
+60
+~- 40
+,20
+0
+*
+-20
+
+cl -40
+-60
+-80
+
+B. INaCa Clamp
+60
+40
+20
+0
+_20
+
+_~~~~~40
+-~~~~~~~60
+-~~~~~~~80
+-100
+0
+-2
+.4
+
+-100
+0
+-2
+.4
+
+(U
+
+-10
+.12
+.14
+-.16
+-18
+0.8
+8
+-
+~0.4
+
+.0.4
+-0.8
+-1.2
+
+<08 Clamp
+
+.
+
+-1.
+-12
+.14
+-16
+-18
+0.8
+0.4
+~~~~~~~~0
+-0.4Clm
+.0.8-
+-1.2
+
+time (ms)
+
+0
+
+0
+
+100
+
+200
+
+time (ms)
+
+300
+
+400
+
+(A) In the presence of 1 ,M Bay K 8644, reactivation of IC.
+FIGURE 5
+is prevented by clamping it at a constant value from the time when secondary
+depolarization begins in the absence of the Ic. clamp. Fast secondary de-
+polarization does not occur (top panel). Corresponding IC. and INaCa are
+shown in the middle and bottom panels. (B) In the presence of Bay K 8644,
+INaCa is clamped to zero from the same time as above. ICa is not clamped.
+An EAD still develops. Corresponding Ic and INaCa are shown in the middle
+and bottom panels.
+
+plitude that is approximately four times larger (Fig. 6A). In
+contrast, INaCa is more outward at -50 mV (Fig. 6C), coun-
+teracting the increase in the EAD amplitude. In Fig. 6D, we
+show the EAD amplitude and peak Ica magnitude as a func-
+tion of V.c. Both have a similar dependence on Vs,, which also
+suggests that the increase in Ic. is responsible for the larger
+EAD amplitude at more negative Vs.
+In conclusion, our simulations demonstrate that secondary
+reactivation during the plateau of the L-type calcium current
+is necessary for EAD formation. During the EAD depolar-
+ization phase, Ica is essential as a depolarizing charge carrier
+and a larger ICa is associated with a larger EAD. INaCa is not
+necessary for EAD depolarization. Other currents become
+more outward during the EAD, countering secondary depo-
+larization and EAD development.
+
+Effects of calcium and potassium currents during
+the EAD conditional phase
+A delay of repolarization during the plateau of the action
+potential is generally observed when an EAD develops.
+January et al. introduced the concept of an EAD conditional
+phase defined as the repolarization phase before the EAD
+occurs. During this phase, the total transmembrane ionic cur-
+rent (Io) is small and outward. Ica and IK are two major
+time-dependent currents present during this phase, before the
+
+Zeng and Rudy
+
+Early Afterdepolarizations in Cardiac Myocytes
+
+955
+
+[K]o = 3.5 mM
+
+[K]o = 5.4 mM
+
+\
+
+A.
+
+60
+40
+20-
+0
+-200
+-40-
+-60-
+-80
+-100
+
+B. [K]o=3.5 mM
+
+60
+40-
+20-
+0
+
+-407
+-60
+-80
+-100-
+
+control
+
++0.33 uA/uF
+
++0.4 uA/uF
+
+D. 1oo-
+
+> 80-
+-
+
+1 60-
+
+< 40-
+
+20
+
+-60
+
+EAD-Amp
+
+---CaAplitude
+
+-50
+
+-40
+
+Vsc (mV)
+
+-30
+
+_ 40
+
+-30
+
+-20
+
+- 10
+
+0
+-20
+
+C. [K]o=5.4mM
+
+60
+40
+202
+
+-20-
+-40_
+-60_-
+-80-
+-100-
+
+T
+
+:j
+
+i
+
+i
+
+control
+
+-0.6 uA/uF
+
+-0.7 uA/uF
+
+FIGURE 6
+Two-step voltage-clamp protocols are simulated. The mem-
+brane is first clamped to 20 mV for 200 ms and then to different plateau
+potentials (Vj) for 500 ms. (A) Membrane potentials at V. of -20 (bold)
+and -50 (thin) mV are compared. After the release of the clamp, a hump
+similar in morphology to an EAD is developed. EAD amplitude, measured
+from V., is larger at V.c of -50 mV. (B) Corresponding Ica. (C) Corre-
+sponding INa.c at V.c of -20 (bold) and -50 (thin) mV. (D) Peak Ic. (open
+squares) and EAD amplitude (solid circles) are shown as a function of Vsc.
+
+EAD take-off. Using the L-R model, we investigated the
+behavior of these two currents during the EAD conditional
+phase.
+
+Ica is an inward current whereas IK is a repolarizing (out-
+ward) current. The magnitudes of both currents increase and
+then decrease during the repolarization phase of a normal
+action potential. In the previous sections, we have demon-
+strated that cesium can induce EADs by reducing the outward
+K+ current and Bay K 8644 can induce EADs by enhancing
+the inward Ca2" current. Either intervention results in a net
+transmembrane inward current and creates conditions that
+are favorable for an EAD to develop. In contrast, EADs can
+be removed by reducing inward currents or enhancing out-
+ward currents. The simulations in Fig. 7 demonstrate that
+application of Bay K 8644 to an extracellular solution that
+contains 3.5 mM K+ induces an EAD in the cell model (Fig.
+7A, left panel). If [K+]. is increased from 3.5 to 5.4 mM, the
+EAD is removed (Fig. 7A, right panel). IK and IKi are known
+to be [K+]o dependent, a property that is simulated in our
+model. At high [K+]O, the conductances ofthese two channels
+
+(A) In the presence of 1 ,uM Bay K 8644, EAD is induced at
+FIGURE 7
+3.5 mM [K+]. (left) but not at 5.4 mM [K+]. (right). (B) At 3.5 mM [K+]0,
+constant outward currents of different magnitudes as marked under the fig-
+ure are applied to the cell. EADs are abolished with a sufficiently large
+outward current (right column, 0.4 pA/4&F). (C) At 5.4 mM [K+]0, constant
+inward currents of different magnitudes as marked under the figure are
+applied. EADs are induced with a sufficiently large inward current (right
+column, -0.7 ,uA/,F).
+
+increase, resulting in an increase of these outward currents
+and acceleration of repolarization. Even when [K+]. is main-
+tained at 3.5 mM, the EAD can be removed by applying a
+constant outward current of sufficient magnitude (>0.4 ,uA/
+,uF; Fig. 7B). EAD is not induced by Bay K 8644 at 5.4 mM
+[K+]0. However, if a constant inward current is applied to the
+cell (Fig. 7C), the duration of the action potential increases
+with the magnitude of this current and EAD is induced when
+this current is sufficiently large (>0.7 ,Al,F). The above
+simulation results are consistent with the experimental ob-
+servations of January et al. [30]. It is important to note that
+the applied current used to induce or remove EADs is less
+than 0.7 uA/,uF in magnitude. This value is quite small com-
+pared with ICa and IK (range, from 3 to 8 ,gA/paF) but falls
+within the range of INaCa. The results demonstrate that small
+changes in It.,,, during the conditional phase can affect the
+formation or removal of EADs.
+
+By exposing the ventricular cell to cesium, EADs are in-
+duced (Fig. 8A) as was demonstrated before (see Fig. 3). If
+
+956
+
+Biophysical Journal
+
+Volume 68
+
+March 1995
+
+In Presence of Cesium
+
+No block of ICa
+
+20% ICa block
+
+30% ICa block
+
+block
+
+200 ms
+
+604°
+20-
+
+j20-
+-60-L
+-100
+
+B.
+
+C. 60
+*40
+20
+0-
+-20_
+_- -40 -
+-60-
+-80-
+-100-
+
+D. 60-
+40 -
+20 -
+
+/-~
+
+0-~
+
+; -20-
+_ -40 -
+-60-
+-80-
+-100-
+
+The effects of reduction of Ic. on EAD formation. EADs are
+FIGURE 8
+induced by the simulated effects of cesium as shown in Fig. 3A. The maximal
+conductance of Ic is reduced by different percentages as indicated in the
+figure. EAD is removed when a 40% block is applied.
+
+the maximal conductance of ICa is reduced to different de-
+grees (from 80 to 60% of its maximal value), the duration of
+the action potential decreases gradually with increasing
+blockade of Ica (Fig. 8, B-D) and the EAD disappears when
+the 'Ca conductance is reduced to 60% of its maximal value.
+We conclude that reduction of 'Ca accelerates repolarization
+during the conditional phase and creates conditions that do
+not favor EAD formation. However, once EADs are induced,
+the basic behavior of Ic and other currents and their con-
+tribution to EADs are the same as shown in Fig. 4.
+
+The slowing and delay of repolarization during the EAD
+conditional phase were observed in the above two simula-
+tions. A related question is how prolongation of the plateau
+enhances EAD formation. To address this question, we ex-
+amine kinetic processes of the L-type channel (d-gate.f-gate,
+andfc -gate) when EAD is induced by Bay K 8644 (Fig. 4C;
+Ca is shown in Fig. 4B). After the initial inactivation caused
+by depolarization and [Ca2+]i increase, both inactivation
+gates, f-gate and fCa-gate, gradually recover at a relatively
+
+slow rate with repolarization. This process is also observed
+during normal repolarization without an EAD (demonstrated
+by the L-R model (Luo and Rudy, 1994a)). Unlike the in-
+activation gates, the activation d-gate of the L-type channel
+has a very fast time constant. To a good approximation, its
+time dependence can be neglected during the repolarization
+phase of the action potential. Hence the value of d is basically
+determined by the membrane potential. After its fast initial
+activation at the beginning of the action potential, the d-gate
+deactivates with repolarization. At the EAD take-off poten-
+tial range, the d-gate is not fully deactivated. With the delay
+andfCa are allowed longer recovery time
+of repolarization,
+and attain a state of greater reactivation. Therefore, when the
+membrane repolarizes to the same potential level at a slower
+rate, the conductance of the L-type Ica at this potential is
+larger than that during repolarization at a normal rate. Hence,
+with delayed repolarization, more inward current is produced
+by Ica at the conditional phase, leading to conditions that
+favor EAD formation.
+
+The important conclusions regarding the effects of Ica and
+IK during the conditional phase for EAD formation can be
+summarized as follows: 1) increase of Ic. or decrease of IK
+during the conditional phase helps conditions for EAD to
+develop; 2) a small change in total transmembrane ionic cur-
+rent during the conditional phase is sufficient to influence
+EAD formation; and 3) slowing and delay of repolarization
+during the conditional phase allow longer time for Ica to
+recover from inactivation, which in turn results in a larger
+inward transmembrane current contributed by 'Ca' leading to
+conditions that favor EAD formation. We observe that small
+changes in the membrane current during the conditional
+phase can greatly influence EAD formation. These obser-
+vations demonstrate the delicate balance between currents
+that exists during the action potential plateau and the high
+sensitivity to small changes during this phase.
+
+Role of Na-Ca exchange current during the EAD
+conditional phase
+Two reasons motivate us to investigate the effects of INaCa on
+the conditional phase and its role in the development of
+EADs. The first reason is that the magnitude of the added
+current needed to induce or remove EADs is small and falls
+in the range of the 'NaCa magnitude. This was demonstrated
+previously (Fig. 7). The second reason is the hypothesis of
+Priori and Corr (1990) that EADs share the same mechanism
+as DADs, namely spontaneous Ca2' release from the SR that
+activates an inward transient current, possibly INaCa to de-
+polarize the membrane. With isoproterenol in the extracel-
+lular solution, they observed the appearance of both EADs
+and DADs when a ventricular cell was paced at a rate of 1-2
+Hz. Interventions that abolish DADs, such as block of Ca2+
+release from the SR and reduction of inward NaCa (a candi-
+date for I) also caused EADs to disappear in their experi-
+ments. Their conclusion is in disagreement with our simu-
+lations presented so far that used cesium or Bay K 8644 to
+induce EADs. Our studies identify that reactivation of Ica is
+
+Zeng and Rudy
+
+Early Afterdepolarizations in Cardiac Myocytes
+
+957
+
+the mechanism of EAD formation, different from the acti-
+vation of INaCa that results in DADs.
+
+To study whether INaQ, plays a role in the production of
+EADs, isoproterenol, used experimentally by Priori and
+Corr, is also used in our simulations. The ventricular cell is
+paced at a drive cycle length (CL) of 600 ms, which is similar
+to the rate used by Priori and Corr. In the presence of iso-
+proterenol, EADs are induced when the cell is paced at a CL
+of 600 ms. In the simulation, the cell is stimulated 36 times
+and EADs begin from the 15th stimulated action potential.
+After termination of pacing, DADs are observed. Each DAD
+is accompanied by a calcium release from the JSR and an
+intracellular calcium transient as shown in Fig. 9 in which the
+last paced action potential and the first DAD are shown. Fig.
+10 depicts the corresponding transmembrane L-type Ca2"
+current as well as the Na'-Ca2" exchange current. A second
+
+In Presence of Isoproterenol
+
+EAD
+
+membrane
+potential
+
+DAD
+
+:1
+
+0
+
+-.
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+[Ca2, ],
+
+A. 60
+40-
+20-
+
+_-
+
+0-2
+-40-
+-60-
+-80-
+-100
+
+B.
+
+4-
+3.5-
+3-
+
+-2-
+
+1-
+0.5-
+
+..4 1
+I
+
+C.
+
+0
+1-
+0.8-1
+0.6 -
+0.41-
+0.2 -
+0O
+C
+D6-:
+5-
+,^ 4-
+I :i
+2-:
+1
+n
+
+1-
+
+200
+
+600
+
+400
+[CSQM]/ [CSQN]
+
+800
+
+1000
+
+1200
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+rel
+
+1
+
+v-I
+
+-1 1
+
+0
+
+200
+
+400
+
+E
+800
+
+600
+time (ms)
+
+Ido.
+
+1000
+
+1
+
+1200
+
+FIGURE 9
+In the presence of 1 ,LM isoproterenol, the ventricular cell
+model is paced at a CL of 600 ms. (A) The last paced action potentials are
+shown. Membrane potential after termination of pacing is also shown and
+displays a DAD. (B) corresponding [Ca2+]j. (C) Corresponding percentage
+of calsequestrin (CSQN, calcium buffer in JSR) that is occupied by calcium.
+(D) Ih.j the release of Ca2+ from JSR to the myoplasm. In contrast to DAD,
+EAD does not involve Ca2' release by the SR (C and D). The slight increase
+in [Ca2+]i during the EAD (B) is caused by Ca2' entry through the L-type
+channels when Ic. is reactivated.
+
+A. 60-
+40
+20
+> -20
+-.40
+-60
+-80
+-100
+
+C
+
+B.
+
+o
+-1
+-2
+
+l
+
+-4
+= -5
+-6
+.7
+-8
+
+a
+
+In Presence of Isoproterenol
+
+EAD
+
+membrane
+potential
+
+DAD
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+I Ca
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+0
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+time (ms)
+
+FIGURE 10
+(A) Last paced action potential and first triggered DAD in
+Fig. 9A are repeated. (B) Corresponding Ic.. (C) Corresponding IN.ca. Ic. (B)
+is a depolarizing current during the EAD, but not during the DAD;IN.c (C)
+is a large depolarizing current during the DAD (arrow 2), but small and
+decreasing during the EAD (arrow 1).
+
+SR calcium release is not observed during the EAD (Fig. 9,
+C and D). The slight increase in [Ca2+]i during the EAD (Fig.
+9B) is caused by Ca2" entry through the L-type channels
+when Ica is reactivated. As was demonstrated before, when
+cesium and Bay K were used to induce EADs, 'Ca is the only
+current that becomes more inward during the EAD depo-
+larization phase. INa remains zero. INaca and all the other cur-
+rents change toward a more outward direction in the same
+period. When EADs are induced by isoproterenol (Fig. 9),
+the [Ca2"]i transient has a peak value between 3 and 4 ,iM
+during the paced action potential (three to four times its value
+under normal conditions in the absence of isoproterenol). As
+a result, INaCa (Fig. lOC) is mostly inward during the EAD
+conditional phase with an average magnitude between 0.6
+and 0.8 ,uA/p,F. During the EAD depolarizing phase, INaCa
+remains inward but its magnitude decreases quickly and is
+much smaller than that of 'Ca (arrow 1). In other words, al-
+though during the entire repolarization phase of the action
+potential INaCa is inward and contributes to the depolarization
+of the membrane, it is clear that there is less contribution
+during the EAD depolarizing phase than at other times. In
+contrast, a very large inward transient of INaCa is induced by
+the [Ca2+]i transient at the DAD depolarizing phase (arrow
+
+958
+
+Biophysical Journal
+
+Volume 68 March 1995
+
+2). This result is consistent with the generally accepted
+mechanism responsible for the occurrence of DADs. Our
+simulation results clearly suggest that EADs and DADs do
+not share the same mechanism. Even in the presence of
+isoproterenol, EADs require reactivation of 'Ca whereas
+DADs require Ca2' release from the SR and activation of the
+transient inward current.
+
+IfINaCa is not the depolarizing charge carrier during EADs,
+why do interventions that reduce the inward magnitude of
+INaCa abolish EADs (as well as DADs) induced by isoprot-
+erenol in the experiments of Priori and Corr? To address this
+question, we simulate the experimental interventions used by
+Priori and Corr (1990).
+
+In the presence of isoproterenol, when the cell is paced at
+a CL of 600 ms, both EADs and DADs develop (Fig. llA).
+In the simulation of Fig. llB, isoproterenol is present and
+extracellular Na+ concentration, [Na+]O, is reduced from 140
+to 40 mM. This intervention reduces the inward driving force
+on INaCa. After a 2-min exposure to the above environment
+without any stimulation, we find that the intracellular Na+
+
+A.
+
+B.
+
+C.
+
+4000
+
+3000
+time (ms)
+
+FIGURE 11
+In the presence of isoproterenol, the cell is paced at a CL of
+600 ms and three different interventions are applied. (A) With isoproterenol
+alone (no other intervention), both EADs and DADs develop. (B) [Na+]o is
+reduced from 140 to 40 mM. The cell is kept at diastolic potential for 2 min
+after the change of [Na']. and the cell is then paced 14 times. The last 8
+paced action potentials are shown. (C) The maximal conductance of IN.C
+is reduced by 85% starting from the arrow. (D) The maximal conductance
+of I,,,, Gr,l, is reduced by 90% starting from the time marked by the arrow.
+All three interventions in B, C, and D abolish the EADs and DADs induced
+by isoproterenol.
+
+concentration, [Na+]i, is decreased from 10 mM and reaches
+a relatively stable value around 2.6 mM. Then the cell is
+paced at a CL of 600 ms (Fig. llB). Both EADs and DADs
+are abolished (cf. Fig. 11, A and B) although the maximum
+Ca21 transient during the action potential is larger than that
+under normal [Na']. and Ca21 is still spontaneously released
+from the SR after pacing is terminated. The next intervention
+that affects 'NaCa is reduction of the maximal conductance of
+INaCa by 85% from the time marked by the arrow in Fig. llC.
+This intervention is similar to the effect of benzamil, an ana-
+logue of amiloride known to block Na'-Ca2' exchange. Both
+EADs and DADs are abolished despite the large Ca>2 tran-
+sient and the spontaneous release of Ca2 from the JSR that
+still occurs. The last intervention that acts to reduce 'NaCa is
+reduction of the [Ca21]i transient by blocking SR calcium
+release. The maximal magnitude of the calcium release flux
+is reduced by 90% starting at the time marked by the arrow
+in Fig. liD. The [Ca+]i transient during the action potential
+is reduced markedly. Both EADs and DADs disappear.
+
+The above simulation results are consistent with the ex-
+perimental observations of Priori and Corr. To investigate
+why interventions that abolish DADs can also remove EADs
+in this case, additional studies are required. When EADs are
+present, conditions for an EAD formation are met during the
+EAD conditional phase, meaning that the total transmem-
+brane current can change from outward to inward during the
+plateau of the action potential. As we have demonstrated that
+'NaCa is not the depolarizing charge carrier during the EAD
+depolarizing phase, inhibition of EADs by reduction of INaCa
+should result from the inability to satisfy the conditions for
+EAD formation during the EAD conditional phase.
+
+With this hypothesis in mind, we try to explain why a
+block of SR calcium release removes EADs induced by iso-
+proterenol but not EADs induced by cesium. We compare
+INaCa during normal and reduced SR calcium release for
+the preparations with cesium or isoproterenol (Fig. 12). In the
+presence of normal SR release, INaCa during the conditional
+phase has a larger inward magnitude with the application
+of isoproterenol (--0.6 pA/ptF) than with the application
+of cesium (--0.1 ,tA/,F). So its contribution to I1O
+during
+the conditional phase for EAD development is more impor-
+tant in the presence of isoproterenol than in the presence of
+cesium. The previous simulations have demonstrated that
+EADs can be induced if a 0.7 ,uA/,F constant inward current
+is applied to the myocyte (Fig. 7C). Hence a 0.6 ,A/J,F
+inward 'NaCa is an important current component ofIoal during
+the EAD conditional phase. The relatively greater inward
+'NaCa in the presence of isoproterenol is caused by the large
+[Ca21]i transient during the action potential, which is three
+to four times that under normal conditions, in the absence of
+isoproterenol. Under these conditions, when SR calcium re-
+lease is prevented, there is a large magnitude reduction of the
+[Ca2+]i transient and 'NaCa becomes mostly outward rather
+than inward during the plateau phase (Fig. 12A). This adds
+a component of outward current during this phase and
+changes the balance of currents in a way that is not favorable
+for EAD formation. In contrast to isoproterenol, cesium
+
+Zeng and Rudy
+
+Early Afterdepolarizations in Cardiac Myocytes
+
+959
+
+A. Isoproterenol
+
+60
+
+20
+
+0
+
+-60
+
+-80
+
+-100
+
+Control
+
+reduced Gre
+
+0.5
+
+0 .
+-0.5
+
+..................
+
+-1.5
+-2
+
+50 ms
+
+B. Cesium
+
+60
+
+40
+
+-20
+
+2g
+;1S-40
+-100
+
+-60
+
+-80
+
+01t
+
+0.5
+
+;
+
+-
+
+-
+
+1
+
+\
+
+-
+
+Control
+
+reucu yrel
+
+.....^....................I .........
+
+........
+
+-1.5
+-2
+
+200 ms
+
+FIGURE 12 The effects of Gre, reduction by 90% on membrane potential
+and INaca during EADs induced by isoproterenol or cesium. (A) In the pres-
+ence of isoproterenol. The simulations in Figs. 9A and llC are repeated. INaC.
+(lower panel) is shown before (left) and after (right) Gr,, reduction. (B) In
+the presence of Cs'. The simulations in Fig. 3, A and B are repeated. INaCa
+(lower panel) is shown before (left) and after (right) Grei reduction. Note that
+the EAD induced by isoproterenol (A) is abolished but the EAD induced by
+cesium (B) is not.
+
+blocks only outward K+ current and does not affect signifi-
+cantly the [Ca21]i transient (it is approximately the normal
+value of 1 ,uM in Fig. 3, left panel). Therefore, when SR
+calcium release is prevented in the presence of cesium, the
+magnitude change of the calcium transient is small, a major
+shift in the direction of INaCa is not observed, and ItotA0
+is
+minimally affected (Fig. 12B). In conclusion, in the presence
+of isoproterenol, a relatively large inward magnitude of INaCa
+during the plateau phase and a large reduction of INaCa when
+SR calcium release is prevented is the underlying mechanism
+for the removal of EADs by reducing SR calcium release.
+Clearly, at a relatively high [Ca21]i, INaCa is more inward
+during the EAD conditional phase and its contribution can be
+as important as that of IK and Ica for meeting the conditions
+for EAD formation. Note that although in the presence of a
+large [Ca21]i transient, INaCa is important for EAD formation
+because of its effect on the conditional phase, it is still Ica that
+carries the depolarizing charge during the EAD.
+
+Lowering [Na+]o reduces the inward driving force on the
+Na'-Ca2' exchanger and benzamil decreases the conduc-
+
+tance of the exchanger. Both interventions remove EADs
+without significant reduction of the [Ca2+]i transient (Fig. 13,
+B and C). At the plateau phase, the rate of repolarization is
+very slow, which implies that the total ionic current has a
+very small outward magnitude. In the presence of isoprot-
+erenol, INaCa (without the interventions of Fig. 13, B and C)
+has relatively large inward magnitude. INaCa under these con-
+ditions is a very important current component for supporting
+the plateau. Once this component is reduced, the plateau
+duration is shortened. Prominent reduction of the magnitude
+of this current is observed as a result of the two interventions
+in Fig. 13, B and C. Hence, the duration of the plateau phase
+of the action potential is significantly shortened. Because of
+this, there is no significant time for Ic to reactivate and to
+generate an EAD.
+
+In conclusion, although in some cases 'NaCa may remain
+inward during the EAD depolarizing phase, its magnitude
+during this phase is much smaller than during the preceding
+conditional phase. Therefore, INaCa does not contribute sig-
+nificantly to the EAD depolarization process that is sup-
+ported by Ic. during the EAD depolarization phase. 'NaCa may
+play a secondary role in EAD formation. It may affect the
+balance of transmembrane currents during the EAD condi-
+
+A. Isoproterenol
+
+B. Low [Nae]o
+
+C. INaCa reduction
+
+0
+.1
+
+-7
+
+-8
+
+-1.
+
+i
+
+iNaCa
+
+100 ms
+
+FIGURE 13 From top to bottom, action potential, [Ca2+]j, Ic., and INaC.
+in the presence of isoproterenol with or without interventions that reduce
+inward IN.C.. The cell is paced at a CL of 600 ms and the behavior during
+one action potential is shown. (A) In the presence of isoproterenol without
+any other interventions. (B) [Na']J
+is reduced from 140 to 40 mM. (C) The
+effect of reduced 'Naa. as in Fig. 1lB is simulated. The interventions in B
+and C reduce INac. (bottom panel) and abolish the EAD (top panel). Note
+that when the EAD is abolished (B and C), Ic. does not display secondary
+reactivation during the action potential.
+
+960
+
+Biophysical Journal
+
+Volume 68
+
+March 1995
+
+tional phase. This in turn determines whether conditions that
+favor EAD formation can be developed. At relatively high
+[Ca2+]i, INac. has a relatively large inward magnitude and
+prolongs the plateau. This allows for sufficient time for re-
+activation of Ica and for the generation of EADs.
+
+Rate dependence of EADs
+To investigate the rate dependence of EADs, we simulate the
+following protocols that were conducted experimentally by
+Damiano and Rosen (1984). A single cell is exposed to a
+normal Tyrode solution (4 mM K+) to which 5 mM Cs' is
+added. The cell is paced at different CLs. As shown in Fig.
+14, EADs are induced during slow pacing (CL > 1000 ms)
+whereas at fast pacing rates, EADs are removed. DADs are
+induced when the cell is paced very fast (CL ' 300 ms)
+causing calcium accumulation and calcium overload condi-
+tions (the mechanism of DADs due to calcium overload was
+
+Rate Dependence (in presence of cesium)
+
+CL=300 ms
+
+investigated in (Luo and Rudy, 1994b)). The behavior in Fig.
+14 is consistent with the experimental observations of Dami-
+ano and Rosen (1984).
+
+To elucidate the mechanism underlying the rate depen-
+dence of EADs, we compare the behavior of the L-type cal-
+cium current, Ica,, and the delayed rectifier potassium current,
+IK, at CLs of 600 and 1200 ms (Fig. 15). These currents are
+important determinants of the membrane behavior during the
+plateau phase and the early repolarization phase. As the ma-
+jor contributors to the total transmembrane current, they in-
+fluence significantly the balance of currents during the con-
+ditional phase. At the slower rate (CL = 1200 ms), the
+relative contribution of Ic. (inward, depolarizing) and of IK
+(outward, repolarizing) is such that the total membrane cur-
+rent becomes inward, and conditions for EAD development
+are met. As can be seen in Fig. 15B, Ic. obtains a larger
+magnitude at the faster rate. On the basis of previous simu-
+lations, this behavior should favor the appearance of EADs
+at this rate. As EADs actually disappear, other currents must
+neutralize the depolarizing effects ofkCa Comparing IK at the
+two CLs (Fig. 15C), we observe that this current increases
+faster during the early plateau phase at the faster pacing rate
+
+Rate Dependence (in presence of cesium)
+
+- CL=600 ms - CL=1200 ms
+
+CL=900 ms
+
+EAD
+
+CL=3000 ms
+
+600ms1
+
+C. 1.8-
+1.6-
+1.4
+,1.2
+rv
+1
+o08
+n 0.6
+0.4-
+0.2
+0
+ne
+
+-0.2 1
+0
+
+2
+
+1
+
+IK
+
+200
+
+400
+
+I
+
+I-
+
+600
+800
+time (ms)
+
+1000
+
+1200
+
+.1
+
+1400
+
+FIGURE 14 EADs induced by cesium at different pacing rates. The car-
+diac ventricular cell is exposed to Tyrode solution with 4 mM K+ and 5 mM
+cesium. It is stimulated periodically at different CLs as marked in the figure.
+EADs are induced at CL > 1000 ms. ADAD is generated when the cell is
+paced very fast (CL s 300 ms).
+
+Ic and IK at two different pacing rates. The simulation de-
+FIGURE 15
+scribed in Fig. 14 is repeated. The action potential, Ic., and IK at two different
+CLs, 600 and 1200 ms, are compared in A, B, and C. Ic has a larger mag-
+nitude at the faster rate. IK also has a larger magnitude at the fast rate (arrow
+1). (The increase of IK caused by the EAD that is generated at the slower
+rate (arrow 2) should not be considered in the comparison.)
+
+Zeng and Rudy
+
+Early Afterdepolarizations in Cardiac Myocytes
+
+961
+
+(Fig. 15C, CL = 600 ms, arrow 1). Note that the late large
+maximum of IK at the slow pacing rate (Fig. 15C, arrow 2)
+should not be considered in the comparison as it is caused by
+the voltage dependence of IK during the EAD rather than
+being a factor in the EAD formation. The increase of IK
+counteracts the increase of 'Ca at the faster pacing rate. The
+relative contribution of the two currents is such that the total
+current during the conditional phase becomes outward, con-
+ditions for EAD development are not met, and the EAD is
+removed.
+
+To explain the larger magnitude of Ica and IK at the faster
+pacing rate, the underlying kinetic processes are further elu-
+cidated in Figs. 16 and 17. At the faster rate, because less
+is extruded from the cell by the Na+-Ca2+ exchanger
+Ca
+during the diastolic period, the intracellular Ca2+ concen-
+tration (Fig. 16A) is relatively higher just before each pacing
+stimulus (arrow) is applied (at CL = 600 ms, [Ca2+]I = 0.18
+,uM; at CL = 1200 ms, [Ca2+]I = 0.14 ,uM). This causes a
+higher degree of Ca2+-dependent inactivation of the L-type
+
+2+
+
+2
+
+Rate Dependence (in presence of cesium)
+
+CL=600 ms
+
+CL=1200 ms
+
+large
+
+`11~~~
+
+I~K
+
+20
+
+200
+
+400
+
+6 0
+600
+
+1
+
+800
+
+1000
+
+1200
+
+1
+1400
+
+A. 1.8-
+1.6-
+1.4-
+_ 1.2-
+1-
+> 0.8-
+0.6-
+0.4-
+0.2-
+-0.2
+
+i
+
+B. 0.4
+0.35-i
+0.37
+0.25 i
+0.2-
+0.15-
+0.1-
+
+Rate Dependence (in presence of cesium)
+,
+
+CL600 ms - CL=1200 ms
+
+600
+800
+time (ms)
+
+1000
+
+1200
+
+1400
+
+600
+
+800
+time (ms)
+
+1000
+
+1200
+
+1400
+
+FIGURE 17 The effect of pacing rate on IK- In the presence of cesium,
+IK and its activation parameter are shown for two pacing rates. Immediately
+before the pacing stimulus, the x-gate is fully deactivated at CL = 1200 ms.
+However, when CL is only 600 ms, the x-gate is not fully deactivated before
+each stimulus is applied (arrow in B).
+
+channel (see Luo and Rudy, 1994a) and a smaller average Ica
+during the first 2 ms of the action potential (Fig. 16D), re-
+sulting in less Ca2' entry and a smaller Ca2+ transient during
+the plateau phase of the action potential (Fig. 16A). This, in
+turn, results in less Ca2+-dependent inactivation (Fig. 16D)
+and a larger magnitude of Ica during this phase (Fig. 16B).
+The increase of IK at the faster pacing rate is related to the
+large time constant of its activation x-gate (between 130 and
+450 ms) (Luo and Rudy, 1994a). After its activation during
+the action potential, the x-gate requires a long time (-500
+ms) to fully deactivate after repolarization. When the cell is
+paced at a sufficiently fast rate, the pacing stimuli fall at a
+time when IK is not completely deactivated (Fig. 17B). Be-
+ginning from this partially activated state, the conductance
+of IK attains a larger value during the action potentials at
+faster pacing rates as compared with slow pacing rates that
+permit complete deactivation of the x-gate between paced
+beats. This results in a larger IK (Fig. 17A) during the plateau
+phase (the conditional phase) at sufficiently fast pacing rates
+that, being an outward current, counteracts the depolarizing
+effect of the enlarged inward Ic. and prevents the formation
+of an EAD.
+
+FIGURE 16
+The effect of pacing rate on Ic. In the presence of cesium,
+[Ca2"]i, Ica, and its voltage- and calcium-dependent inactivation parameters,
+f and fca, are shown for two pacing rates. At the faster rate, the [Ca2]i
+transient is smaller. Hence there is less Ca2"-dependent inactivation (fca is
+larger), which results in a larger magnitude of Ica.
+
+DISCUSSION
+The theoretical studies presented in this paper are designed
+to investigate the mechanism of plateau EADs, to help re-
+solve a controversy in the experimental literature regarding
+
+962
+
+Biophysical Journal
+
+Volume 68 March 1995
+
+their mechanism, and to help elucidate the mechanism of rate
+dependence of EADs.
+
+Following published experimental protocols (Marban
+et al., 1986; January et al., 1988; January and Riddle, 1989;
+Priori and Corr, 1990), we induced EADs in the ventricular
+action potential model by simulating the effects of cesium,
+Bay K 8644, and isoproterenol, respectively. For all of these
+interventions, the mechanism of EAD depolarization in-
+volves secondary reactivation of the L-type calcium channels
+during the plateau. The reactivated Ica is essential for EAD
+development and serves as a depolarizing charge carrier dur-
+ing the EAD depolarization phase. In all cases, prolongation
+of the action potential plateau is observed when an EAD
+develops. This, in turn, provides more time at plateau po-
+tential for the L-type Ca" channels to recover from inacti-
+vation, a process that involves both the voltage-dependent (f)
+and calcium-dependent (fca) inactivation gates (see Fig. 4).
+Once sufficient recovery is achieved, Ic increases its inward
+magnitude and depolarizes the membrane. This, in turn,
+causes fast reactivation of the L-type channels through the
+voltage-dependent characteristics of the activation d-gate
+(arrow 3 in Fig. 4C), resulting in a fast further increase of
+ICa. Thus, a positive feedback process that is characteristic of
+fast depolarization is established by the kinetics of Ic., lead-
+ing to EAD formation.
+In addition to Ica, only the Na'-Ca2" exchange current,
+'NaCa' is inward during the EAD depolarization phase. How-
+ever, our simulations suggest that it does not play a primary
+role in EAD formation. In contrast to the positive feedback
+kinetics of kCa at this phase, INaCa actually decreases quickly
+upon depolarization. In fact, the inward magnitude of INaCa
+is smaller during EAD depolarization than during monotonic
+repolarization in the absence of an EAD. Thus, the voltage-
+dependence characteristics of INaCa and its behavior during
+the EAD preclude the possibility that it can provide the
+mechanism for the fast depolarization of the EAD. This con-
+clusion is supported by the fact that fast depolarizing EADs
+can be generated in the absence of INaCa during the EAD
+depolarization phase, but not when reactivation of Ic. is pre-
+vented (Fig. 5). It should be mentioned in this context that,
+in the simulations, the magnitude of INaCa is much smaller
+than the magnitude of Ica during the EAD depolarization
+phase (Fig. 4). The exact ratio of these magnitudes depends
+on the relative membrane densities of these ion transfer
+mechanisms and could be species dependent. However, it is
+the different kinetics (not the different magnitudes) ofI4 and
+'NaCa that dictates their very different role during EAD de-
+polarization. An important (but, at this stage, necessary) sim-
+plification of our ventricular cell model is the assumption of
+spatial uniformity inside the cell. In particular, spatial non-
+uniformity of [Ca2+]i due to multilocal release sites in the SR,
+spatial distribution of calcium buffers, restricted spaces, and
+restricted diffusion is not considered (see Luo and Rudy
+(1994a, b) for detailed discussion). As a result, the global
+[Ca2"]I, not the local calcium activity at the exchange site,
+regulates the Na'-Ca2" exchange function in the model. Al-
+though this approximation does not consider details of the
+
+regulation ofNa'-Ca2" exchange on a subcellular scale, 'NaCa
+as formulated in the model simulates correctly its measured
+voltage dependence and ionic concentration dependence
+(Luo and Rudy, 1994a). As it is the voltage dependence of
+INaCa that causes it to change from inward to outward during
+the EAD depolarization phase, the conclusion regarding its
+inability to be the primary depolarizing current for EAD for-
+mation should not be affected by the global, cellular level
+approach. Similar comments apply to the Ca2"-dependent
+inactivation process of the L-type calcium channels. Inclu-
+sion of spatial nonuniformities requires knowledge of the
+distribution of calcium buffers, of release and uptake sites in
+the SR, and of the geometry and locations of intracellular
+organelles. Such detailed geometrical information is not yet
+available at the present time.
+EADs that are induced by cesium are not removed by
+interventions that reduce the [Ca2+]i transient and the mag-
+nitude of INaCa (our simulations and experiments of Marban
+et al. (1986)). In contrast, EADs that are induced by iso-
+proterenol are abolished by interventions that inhibit SR cal-
+cium release and reduce 'NaCa (our simulations and experi-
+ments of Priori and Corr (1990)). The last observation led
+Priori and Corr to suggest that INaCa is the primary current
+responsible for EAD depolarization and that EADs and
+DADs share the same mechanism (Ca" release from the SR
+that triggers INaCa). Our simulations demonstrate that a sec-
+ond SR calcium release does not occur during an EAD. The
+removal of EADs when 'NaCa is reduced in the isoproterenol
+preparation can be explained by the effect of INaCa on the
+conditional phase that precedes the EAD. The simulated
+Priori and Corr protocols generate a large [Ca2+]i transient
+(three to four times the normal magnitude of 1.0 ,uM that is
+also the magnitude in the cesium protocols). As a result, 'NaCa
+is also large and becomes an important inward component of
+the total membrane current during the conditional phase. As
+demonstrated in Results, an EAD can develop if the total
+transmembrane current becomes inward during the condi-
+tional phase. For the isoproterenol protocols, interventions
+that reduce 'NaCa can sufficiently change the balance of cur-
+rents so that it does not become inward and conditions for
+EAD formation do not develop. In the case of cesium, INaCa
+during the conditional phase is small (- 0.1 pA/,uF) and has
+only a minor effect on the balance of currents. Consequently,
+interventions that reduce INaCa do not influence the conditions
+for EAD development and do not remove the EAD. INaca
+affects EAD generation indirectly, through its effect on the
+conditional phase that precedes the EAD. The primary
+mechanism is reactivation of Ic, that depolarizes the mem-
+brane to generate the EAD.
+Our conclusion that kCa is the major depolarizing charge
+carrier during the EAD depolarization phase is based on pro-
+tocols that involve cesium, Bay K 8644, and isoproterenol.
+A similar mechanism was also suggested for EADs generated
+under conditions of calcium overload (Luo and Rudy, 1994b)
+and by the application of quinidine (Nattel and Quantz, 1988)
+or cocaine (Kimura et al., 1992). All of these interventions
+bear a high degree of clinical relevance. However, extreme
+
+Zeng and Rudy
+
+Early Afterdepolarizations in Cardiac Myocytes
+
+963
+
+modification of the inward fast Na+ current, INa' may produce
+an additional component of inward current during the plateau
+and induce EADs. Such an intervention was performed by
+Boutjdir and El-Sherif (1991) and Hiraoka et al. (1992) to
+study EADs. ATXII (Boutjdir and El-Sherif, 1991) and
+veratridine (Hiraoka et al., 1992) were used to cause ex-
+treme prolongation of INa inactivation. In fact, the time
+constant of INa inactivation is increased
+-15-fold by
+ATXII and -200-fold by veratridine and becomes similar
+to or longer than that of 'Ca inactivation.
+
+EADs are associated with bradycardia and slow pacing
+(Cranefield and Aronson, 1988). They may contribute to the
+polymorphic ventricular arrhythmias in patients with the
+long QT syndrome that manifest as Torsade de Pointes in
+the electrocardiogram (Hiraoka et al., 1992; Rosen, 1990).
+In the simulations, EADs were present at CL > 1000 ms. This
+behavior is consistent with the experimental observations of
+Damiano and Rosen (1984) and supports the notion that
+EADs are bradycardia related. The appearance or disappear-
+ance of EADs is determined by the relative contributions of
+Ica and IKto the total membrane current during the conditional
+phase. At slow rates, the magnitude ratio of Ich (inward) and IK
+(outward) is sufficient to result in an inward total transmembrane
+current so that conditions for EAD development are met. At fast
+rates (CL < 1000 ms), the increase in IK more than offsets the
+increase in Ic, resulting in a net outward (repolarizing) current
+during the conditional phase and in EAD removal.
+
+Several limitations of the model should be mentioned in
+the context of the EAD study presented here. The model is
+based mostly on the guinea pig ventricular cell and does not
+include the transient outward current, Ito which is not present
+in this cell. In ventricular cells of other species (e.g., dog,
+rabbit, and rat) Ito is a very important current for repolar-
+ization and should be included in models of the ventricular
+action potential and in studies of EADs in these species.
+Consequently, some of our conclusions may apply only to the
+guinea pig type of cells and cannot be extrapolated to other
+types of cells that display a prominent I,. or other processes
+that are not present in the guinea pig myocyte. Another limi-
+tation of the model is that the delayed rectifier, IK' is not
+separated into its two components, IK4 and IK,. Therefore,
+only the role of IK in its global presentation (as a superpo-
+sition of IK, and IKS) could be investigated. It will be inter-
+esting, in future studies, to examine the separate role and
+relative importance of IK4 and IK, in repolarization and EAD
+formation. Work to formulate IK, and IKs and to incorporate
+them in the action potential model is currently conducted in
+our laboratory.
+
+We wish to thank Dr. Matthew N. Levy and Dr. Robert D. Harvey for helpful
+discussions.
+This study was supported by a National Institutes of Health, National Heart,
+Lung and Blood Institute Grant HL-49054.
+
+REFERENCES
+Armstrong, D., and R. Eckert. 1987. Voltage-activated calcium channels
+that must be phosphorylated to respond to membrane depolarization.
+Proc. Nati. Acad. Sci. USA. 84:2518-2522.
+
+Bailie, D. S., H. Inoue, S. Kaseda, J. Ben-david, and D. P. Zipes. 1988.
+Magnesium suppression of early afterdepolarizations and ventricular
+tachycardias induced by cesium in dogs. Circulation. 77:1395-1402.
+
+Bean, B. P. 1984. f3-adrenergic regulation of cardiac calcium channels: ionic
+
+current and gating current. Biophys. J. 57:23a. (Abstr.)
+
+Bean, B. P. 1985. Two kinds of calcium channels in canine atrial cells.
+
+J. Gen. Physiol. 86:1-30.
+
+Bean, B. P., M. C. Nowycky, and R. W. Tsien. 1984. 13-adrenergic modu-
+lation of calcium channels in frog ventricular heart cells. Nature. 307:
+371-375.
+
+Boutjdir, M., and N. El-Sherif. 1991. Pharmacological evaluation of early
+afterdepolarizations induced by sea anemone toxin (ATXII) in dog heart.
+Cardiovasc. Res. 25:815-819.
+
+Cleemann, L., and M. Morad. 1991. Role of Ca2" channel in cardiac
+excitation-contraction coupling in the rat: evidence from Ca2" transients
+and contraction. J. Physiol. 432:283-312.
+
+Cranefield, P. F., and R. S. Aronson. 1988. Cardiac arrhythmias: the role
+of triggered activity and other mechanisms. Futura Publishing Company,
+Inc., New York.
+
+Damiano, B. P., and M. R. Rosen. 1984. Effects of pacing on triggered
+activity induced by early afterdepolarization. Lab. Invest. 69:1013-1025.
+Desilets, M., and C. M. Baumgarten. 1986. Isoproterenol directly stimu-
+lates the Na+-K+ pump in isolated cardiac myoctes. Am. J. Physiol.
+251:H218-H225.
+
+Duchatelle-Gourdon, I., H. C. Hartzell, and A. A. Largutta. 1989. Modu-
+lation of the delayed rectifier potassium current in frog cardiac myocytes
+by ,B-adrenergic agonists and magnesium. J. Physiol. 415:251-274.
+
+Fabiato, A. 1983. Calcium-induced release of calcium from the cardiac
+
+sarcoplasmic reticulum. Am. J. Physiol. 245:C1-C14.
+
+Fabiato, A. 1985. Time and calcium dependence of activation and inacti-
+vation of calcium-induced release of calcium from the sarcoplasmic re-
+ticulum of a skinned canine cardiac Purkinje cell. J. Gen. Physiol. 85:
+247-289.
+
+Frankowiak, G., M. Bechem, M. Schramm, and G. Thomas. 1985. The
+optical isomers of the 1,4-Dihydropyridine Bay K8644 show opposite
+effects on Ca channels. Eur. J. Pharmacol. 114:223-226.
+
+Gadsby, D. C. 1984. Beta-adrenoceptor agonists increase membrane K+
+
+conductance in cardiac Purkinje fibers. Nature. 306:691-693.
+
+Gao, J., R. T. Mathias, I. S. Cohen, and G. J. Baldo. 1992. Isoprenaline, Ca2+
+and the Na+-K+ pump in guinea-pig ventricular myocytes. J. Physiol.
+449:689-704.
+
+Gasser, J., P. Paganetti, E. Carafoli, and M. Chiesi. 1988. Heterogeneous
+distribution of calmodulin- and cAMP-dependent regulation of Ca21 up-
+take in cardiac sarcoplasmic reticulum subtractions. Eur. J. Biochem.
+176:535-541.
+
+Giles, W., T. Nakajima, K. Ono, and E. F. Shibata. 1989. Modulation of the
+delayed rectifier K' current by isoprenaline in bull-frog atrial myocytes.
+J. Physiol. 415:233-249.
+
+Grouselle, M., B. Stuyvers, S. Bonoron-Adele, P. Besse, and D. Georges-
+cauld. 1991. Digital-imaging microscopy analysis ofcalcium release from
+sarcoplasmic reticulum in single rat cardiac myocytes. Pflugers Arch.
+418:109-119.
+
+Hadley, R. W., and W. J. Lederer. 1991a. Ca2' and voltage inactivate Ca2+
+channels in guinea-pig ventricular myocytes through independent mecha-
+nisms. J. Physiol. 444:257-268.
+
+Hadley, R. W., and W. J. Lederer. 1991b. Properties of L-type calcium
+channel gating current in isolated guinea pig ventricular myocytes. J. Gen.
+Physiol. 98:265-285.
+
+Hadley, R. W., and W. J. Lederer. 1992. Comparison of the effects of Bay
+K 8644 on cardiac Ca21 current and Ca21 channel gating current. Am. J.
+Physiol. 262:H472-H477.
+
+Harrison, S. M., and D. M. Bers. 1987. The effect of temperature and ionic
+strength on the apparent Ca-affinity of EGTA and the analogous Ca-
+chelators BAPTA and dibromo-BAPTA. Biochim. Biophys. Acta. 925:
+133-143.
+
+Harvey, R. D., and R. E. Ten Eick. 1989. Voltage-dependent block ofcardiac
+inward-rectifying potassium current by monovalent cations. J. Gen.
+Physiol. 94:349-361.
+
+Hess, P., J. B. Lansman, and R. W. Tsien. 1984. Different modes of Ca2"
+channel gating behavior favored by dihydropyridine agonists and an-
+tagonists. Nature. 311:538-544.
+
+964
+
+Biophysical Journal
+
+Volume 68
+
+March 1995
+
+Hirano, Y., A. Moscucci, and C. T. January. 1992. Direct measurement of
+
+L-type Ca21 window current in heart cells. Circ. Res. 70:445-455.
+
+Hiraoka, M., A. Sunami, F. Zheng, and T. Sawanobori. 1992. Multiple ionic
+mechanisms of early afterdepolarizations in isolated ventricular myocytes
+from guinea-pig hearts. In QT Prolongation and Ventricular Arrhythmias.
+K. Hashiba, A. T. Moss, and P. J. Schwartz, editors. The New York
+Academy of Sciences, New York. 33-34.
+
+Isenberg, G. 1976. Cardiac Purkinje fibers: Cesium as a tool to block inward
+
+rectifying potassium currents. Pflugers Arch. 365:99-106.
+
+January, C. T., V. Chau, and J. C. Makielski. 1991. Triggered activity in the
+heart: cellular mechanisms of early afterdepolarizations. Eur. Heart J.
+12(Suppl F?):-9.
+
+January, C. T., and A. Moscucci. 1992. Cellular mechanism of early af-
+terdepolarizations. In QT Prolongation and Ventricular Arrhythmias. K.
+Hashiba, A. T. Moss, and P. J. Schwartz, editors. New York Academy
+of Science, New York. 23-32.
+
+January, C. T., and J. M. Riddle. 1989. Early afterdepolarizations: Mecha-
+nism of induction and block: a role for L-type Ca21 current. Circ. Res.
+64:977-989.
+
+January, C. T., J. M. Riddle, and J. J. Salata. 1988. A model for early
+afterdepolarizations: induction with the Ca21 channel agonist Bay K
+8644. Circ. Res. 62:563-571.
+
+Kadesa, S., and D. P. Zipes. 1990. Effects of alpha adrenoceptor stimulation
+and blockade on early afterdepolarizations induced by cesium in canine
+cardiac Purkinje fibers. J. Cardiovasc. Electrophysiol. 1:31-40.
+
+Kameyama, M., J. Hescheler, F. Hofmann, and W. Trautwein. 1986. Modu-
+lation of Ca during the phosphorylation cycle in the guinea pig heart.
+Pflugers Arch. 407:123-128.
+
+Kass, R. S. 1987. Voltage-dependent modulation of cardiac calcium channel
+current by optical isomers of Bay K 8644: implication for channel gating.
+Circ. Res. 61(suppl. I):1-5.
+
+Kimura, S., A. L. Bassett, H. Xi, and R. J. Myerburg. 1992. Early after-
+depolarizations and triggered activity induced by cocaine. Circulation.
+85:2227-2235.
+
+Kurihara, S., and M. Konishi. 1987. Effects of 13-adrenoceptor stimulation
+on intracellular Ca transients and tension in rat ventricular muscle.
+Pflugers Arch. 409:427-437.
+
+Leblanc, N., and J. R. Hume. 1990. Sodium current-induced release of
+
+calcium from cardiac sarcoplasmic reticulum. Science. 248:372-376.
+
+LePeuch, C. J., and J. G. Demaille. 1989. Covalent regulation of the cardiac
+
+sarcoplasmic reticulum cardiac pump. Cell Calcium. 10:397-400.
+
+Luo, C., and Y. Rudy. 1991. A model of the ventricular cardiac action
+potential: depolarization, repolarization and their interaction. Circ. Res.
+68:1501-1526.
+
+Luo, C., and Y. Rudy. 1994a. A dynamic model of the cardiac ventricular
+action potential: I. simulations of ionic currents and concentration
+changes. Circ. Res. 74:1071-1096.
+
+Luo, C., and Y. Rudy. 1994b. A dynamic model of cardiac ventricular action
+potential: II. Afterdepolarizations, triggered activity and potentiation.
+Circ. Res. 74:1097-1113.
+
+Marban, E., S. W. Robinson, and W. G. Wier. 1986. Mechanisms of ar-
+rhythmogenic delayed and early afterdepolarizations in ferret ventricular
+muscle. Clin. Invest. 78:1185-1192.
+
+Markwardt, F., and B. Nilius. 1988. Modulation of calcium channel currents
+in guinea-pig single ventricular heart cells by the dihydropyridine Bay K
+8644. J. Physiol. 399:559-575.
+
+Meier, C. F., and B. G. Katzung. 1981. Cesium blockade of delayed outward
+currents and electrically induced pacemaker activity in mammalian ven-
+tricular myocardium. J. Gen. Physiol. 77:531-547.
+
+Nattel, S., and M. A. Quantz. 1988. Pharmacological response of quinidine
+induced early afterdepolarizations in canine cardiac Purkinje fibres: in-
+sights into underlying ionic mechanisms. Cardiovasc. Res. 22:808-817.
+Nunoki, K., V. Florio, and W. A. Catteral. 1989. Activation of purified
+calcium channels by stoichiometric protein phosphorylation. Proc. Natl.
+Acad. Sci. USA. 86:6816-6820.
+
+Ochi, R., and Y. Kawashima. 1990. Modulation of slow gating process of
+calcium channels by isoprenaline in guinea-pig ventricular cells.
+J. Physiol. 424:187-204.
+
+Okazaki, O., N. Suda, K. Hongo, M. Konishi, and S. Kurihara. 1990. Modu-
+lation of Ca2+ transients and contractile properties by ,(3-adrenoceptor
+stimulation in ferret ventricular muscles. J. Physiol. 423:221-240.
+
+Ono, K, T. Kiyosue, and M. Arita. 1989. Isoproterenol, DBcAMP and forskolin
+
+inhibit cardiac sodium current. Am. J. Physiol. 256:C1131-C1137.
+
+Ono, K., and W. Trautwein. 1991. Potentiation by cyclic GMP of
+,B-adrenergic effect on Ca21 current in guinea-pig ventricular cells.
+J. Physiol. 443:387-404.
+
+Priori, S. G., and P. B. Corr. 1990. Mechanisms underlying early and delayed
+afterdepolarizations induced by catecholamines. Am. J. Physiol. 258:
+H1796-H1805.
+
+Rasmusson, R. L., J. W. Clark, W. R. Giles, E. F. Shibata, and D. L. Camp-
+bell. 1990. A mathematical model of a bullfrog cardiac pacemaker cell.
+Am. J. Physiol. 259:H352-H369.
+
+Rosen, M. R. 1990. The concept of afterdepolarizations. In Cardiac Elec-
+trophysiology: A Textbook. M. R. Rosen, M. J. Janse, and A. L. Wit,
+editors. Futura Publishing Company, Inc., Mount Kisco, NY. 267-271.
+Rosen, M. R., M. J. Janse, and A. L. Wit. 1990. Cardiac Electrophysiology:
+A Textbook. M. R. Rosen, M. J. Janse, and A. L. Wit, editors. Futura
+Publishing Company, Inc. Mount Kisco, NY. 845-876.
+
+Sanguinetti, M. C., D. S. Krafte, and R. S. Kass. 1986. Voltage-dependent
+modulation of Ca channel current in heart cells by Bay K8644. J. Gen.
+Physiol. 88:369-392.
+
+Shorofsky, S. R., and C. T. January. 1992. L- and T-type Ca2" channels in
+canine cardiac purkinje cells: single-channel demonstration of L-type
+Ca2" window current. Circ. Res. 70:456-464.
+
+Standen, N. B., and P. R. Stanfield. 1982. A binding-site model for cardiac
+channel inactivation that depends on calcium entry. Proc. R. Soc. Lond.
+217:101-110.
+
+Stem, M. D., M. C. Capogrossi, and E. G. Lakatta. 1988. Spontaneous
+calcium release from the sarcoplasmic reticulum in myocardial cells:
+mechanisms and consequences. Cell Calcium. 9:247-258.
+
+Szabo, G., and A. S. Otero. 1990. G protein mediated regulation of K'
+
+channels in heart. Annu. Rev. Physiol. 52:293-305.
+
+Takamatsu, T., and W. G. Wier. 1989. High temporal resolution video im-
+
+aging of intracellular calcium. Annu. Rev. Physiol. 44:401-423.
+
+Tiaho, F., J. Nargeot, and S. Richard. 1991. Voltage-dependent regulation
+of L-type cardiac Ca channels by isoproterenol. Pflugers Arch. 419:596-
+602.
+
+Tiaho, F., S. Richard, P. Lory, J. M. Nerbonne, and J. Nargeot. 1990. Cyclic-
+AMP-dependent phosphorylation modulates the stereospecific activation
+of cardiac Ca channels by Bay K 8644. Pflugers Arch. 417:58-66.
+
+Toumeur, Y., R. Mitra, M. Morad, and 0. Rongier. 1987. Activation prop-
+erties of the inward-rectifying potassium channel on mammalian heart
+cells. J. Membr. Biol. 97:127-135.
+
+Trautwein, W., A. Cavalie, V. Flockerzi, B. F. Hoffman, and D. Pelzer.
+1987. Modulation of calcium channel function by phosphorylation in
+guinea pig ventricular cells and phospholipid bilayer membranes. Circ.
+Res. 61:1-17-1-23.
+
+Tsien, R. W., B. P. Bean, P. Hess, and J. B. Lansman. 1986. Mechanisms
+of calcium channel modulation by 13-adrenergic agents and dihydropy-
+ridine calcium agonists. J. Mol. Cell. Cardiol. 18:691-710.
+
+Tsien, R. W., W. Giles, and P. Greengard. 1972. Cyclic AMP mediates the
+effects of adrenaline on cardiac Purkinje fibers. Nature New Biol. 240:
+181-183.
+
+Tseng, G., R. B. Robinson, and B. F. Hoffman. 1987. Passive properties and
+membrane currents of canine ventricular myocytes. J. Gen. Physiol. 90:
+671-701.
+
+Tytgat, J., B. Nilius, J. Vereecke, and E. Carmeliet. 1988. The T-type Ca
+channel in guinea-pig ventricular myocytes is insensitive to isoproterenol.
+Pflugers Arch. 411:704-706.
+
+Walsh, K. B., T. B. Begenisich, and R. S. Kass. 1988. ,3-adrenergic modu-
+lation in the heart: independent regulation of K and Ca channels. Pflugers
+Arch. 411:232-234.
+
+Walsh, K. B., T. B. Begenisich, and R. S. Kass. 1989. j3-adrenergic modu-
+lation of cardiac ion channels: differential temperature sensitivity of po-
+tassium and calcium currents. J. Gen. Physiol. 93:841-854.
+
+Zeng, J., and Y. Rudy. 1994a. Simulation studies of the mechanism of
+arrhythmogenic early afterdepolarizations in cardiac myocytes. 38th An-
+nual Meeting of The Biophysical Society. Biophys. J. 66:322a. (Abstr.)
+Zeng, J., and Y. Rudy. 1994b. Simulation studies of the rate dependence
+mechanism of early and delayed afterdepolarizations. FASEB J. 6:77a.
+(Abstr.)
+
+

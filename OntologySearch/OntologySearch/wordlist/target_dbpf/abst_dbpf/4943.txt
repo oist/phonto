@@ -1,0 +1,22 @@
+Animals
+Association
+Brain Mapping
+Cats
+Cerebral Cortex
+physiology
+Hippocampus
+physiology
+Humans
+Limbic System
+physiology
+Memory
+physiology
+Models
+Neurological
+Neural Pathways
+physiology
+Psychophysics
+Rabbits
+Rats
+Synaptic Transmission
+The hippocampal formation (comprising the hippocampus proper, the dentate gyrus, and the subiculum) has been repeatedly implicated in information storage models of the mammalian brain. The precise nature of the hippocampal role in the storage of information has, however, remained elusive. Here it is proposed that the role of the hippocampus is to form and retain an index of neocortical areas activated by experiential events. The hippocampal index, thus, represents those unique cortical regions activated by specific events. The neuronal mechanism underlying the memory index is hypothesized to be long-term potentiation. It is asserted that the reactivation of the stored hippocampal memory index will serve to also reactivate the associated unique array of neocortical areas and thus will result in a memorial experience. This hippocampal reactivation of a neocortical array may also be involved in establishing a cortically based memory trace.

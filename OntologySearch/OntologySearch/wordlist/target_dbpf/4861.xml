@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4861">
+<itemtype>xnppaper</itemtype>
+<titles><title>Synchronous modulation of perirhinal cortex neuronal activity during cholinergically mediated (type II) hippocampal theta.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cholinergic Fibers</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Limbic System</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T02:20:43Z</last_update_date>
+<creation_date>2011-05-02T02:20:43Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4861</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4861" version="1.02">
+<authors><author>Muir GM</author><author>Bilkey DK</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>5</number>
+<page>526-32</page>
+<abstract>The perirhinal cortex (PRC) plays a major role in memory processes. This role may be influenced by activity in the adjacent entorhinal cortex (EC) and hippocampus (HPC), particularly during the processing of spatial information. In the current experiment we sought to determine whether the cholinergically mediated (type II) theta rhythm, which is a prominent electrophysiological feature of both HPC and EC activity, influenced neuronal firing in the PRC of urethane-anesthetized rats. When the spontaneous firing activity of single units recorded in PRC was related to theta recorded from the hippocampal fissure, it was determined that the firing of 50/163 (31%) PRC neurons exhibited a statistically significant phase relationship (mean phase angle = 188 degrees) to HPC theta. Thirty-three (66%) of these neurons tended to fire near the trough, and 17 near the peak, of this activity. These data indicate that a high proportion of PRC neurons participate in hippocampal-entorhinal theta activity. This activity may support information transmission and storage within and between these structures.</abstract>
+<pubmed_id>9825962</pubmed_id>
+</detail>
+</item>

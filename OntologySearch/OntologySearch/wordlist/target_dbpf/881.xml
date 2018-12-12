@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="881">
+<itemtype>xnppaper</itemtype>
+<titles><title>A sequence predicting CA3 is a flexible associator that learns and uses context to solve hippocampal-like tasks.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-16T03:23:43Z</last_update_date>
+<creation_date>2008-07-16T03:23:43Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=881</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="881" version="1.02">
+<authors><author>Levy WB</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>579-90</page>
+<abstract>The model discussed in this paper is, by hypothesis, a minimal, biologically plausible model of hippocampal region CA3. Because cognitive mapping can be viewed as a sequence prediction problem, we qualify this model as a successful sequence predictor. Since the model solves problems which require the use of context, the model is also able to learn and use context. The model also solves configural learning problems of which, at least one, requires a hippocampus. Thus, by solving sequence problems, by solving configural learning problems, and by creating codes for context, this model provides a computational unification of hippocampal functions which are often viewed as disparate.</abstract>
+<pubmed_id>9034847</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6695">
+<itemtype>xnppaper</itemtype>
+<titles><title>Anterior medial temporal lobe activation during encoding of words: FMRI methods to optimize sensitivity.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Acoustic Stimulation</keyword>
+<keyword>Adult</keyword>
+<keyword>Analysis of Variance</keyword>
+<keyword>Auditory Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Reference Values</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Verbal Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Visual Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:22:39Z</last_update_date>
+<creation_date>2013-02-26T07:22:39Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6695</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6695" version="1.02">
+<authors><author>Parsons MW</author><author>Haut MW</author><author>Lemieux SK</author><author>Moran MT</author><author>Leach SG</author></authors>
+<journal>Brain and cognition</journal>
+<volume>60</volume>
+<number>3</number>
+<page>253-61</page>
+<abstract>The existence of a rostrocaudal gradient of medial temporal lobe (MTL) activation during memory encoding has historically received support from positron emission tomography studies, but less so from functional MRI (FMRI) studies. More recently, FMRI studies have demonstrated that characteristics of the stimuli can affect the location of activation seen in the MTL when those stimuli are encoded. The current study tested the hypothesis that MTL activation during memory encoding is related to the modality of stimulus presentation. Subjects encoded auditorily or visually presented words in an FMRI novelty paradigm. Imaging and analysis parameters were optimized to minimize susceptibility artifact in the anterior MTL. Greater activation was observed in the anterior than posterior MTL for both modalities of stimulus presentation. The results indicate that anterior MTL activation occurred during encoding, independent of stimulus modality and provide support for the hypothesis that verbal-semantic memory processing occurs in anterior MTL. The authors suggest that technical factors are critical for observing the rostrocaudal gradient in MTL memory activation.</abstract>
+<pubmed_id>16472901</pubmed_id>
+</detail>
+</item>

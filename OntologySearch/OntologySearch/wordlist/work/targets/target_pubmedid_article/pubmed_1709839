@@ -1,0 +1,4710 @@
+Original Contributions
+
+1501
+
+A Model of the Ventricular Cardiac
+
+Action Potential
+
+Depolarization, Repolarization, and Their Interaction
+
+Ching-hsing Luo and Yoram Rudy
+
+A mathematical model of the membrane action potential of the mammalian ventricular cell is
+introduced. The model is based, whenever possible, on recent single-cell and single-channel data
+and incorporates the possibility of changing extracellular potassium concentration [K].. The fast
+sodium current, 'Nap is characterized by fast upstroke velocity (Vma.=400 V/sec) and slow recovery
+from inactivation. The time-independent potassium current, IKI, includes a negative-slope phase
+and displays significant crossover phenomenon as [K], is varied. The time-dependent potassium
+current, IK, shows only a minimal degree of crossover. A novel potassium current that activates
+at plateau potentials is included in the model. The simulated action potential duplicates the
+experimentally observed effects of changes in [K], on action potential duration and rest potential.
+Physiological simulations focus on the interaction between depolarization and repolarization
+(i.e., premature stimulation). Results demonstrate the importance of the slow recovery of INa in
+determining the response of the cell. Simulated responses to periodic stimulation include
+monotonic Wenckebach patterns and alternans at normal [K]0, whereas at low [K]0 nonmono-
+tonic Wenckebach periodicities, aperiodic patterns, and enhanced supernormal excitability that
+results in unstable responses ("chaotic activity") are observed. The results are consistent with
+recent experimental observations, and the model simulations relate these phenomena to the
+underlying ionic channel kinetics. (Circulation Research 1991;68:1501-1526)
+
+In the late 1970s, two models of the electrical
+activity of cardiac cells were formulated based
+on the formalism introduced by Hodgkin and
+Huxley.1 McAllister et a12 developed a model of the
+cardiac Purkinje fiber action potential. Subsequently,
+Beeler and Reuter3 published a model of the electri-
+cal activity of the mammalian ventricular myocyte
+(referred to as the B-R model in the present paper).
+The B-R model was based on experimental data that
+were available at the time from voltage-clamp stud-
+ies. These data were subject to limitations in avail-
+able voltage-clamp techniques and their application
+to multicellular preparations of cardiac muscle.4 In
+addition, the concentrations of ions in the extracel-
+lular clefts of the multicellular preparations were
+unknown.
+
+With the development of single-cell and single-
+channel recording techniques in the 1980s, the limi-
+
+From the Department of Biomedical Engineering, Case West-
+
+ern Reserve University, Cleveland, Ohio.
+
+Supported by grant HL-33343 from the National Heart, Lung,
+and Blood Institute, National Institutes of Health, and by a
+fellowship from the Ministry of Education, Republic of China.
+
+Address for correspondence: Yoram Rudy, PhD, Department of
+Biomedical Engineering, Case Western Reserve University, Wick-
+enden Building, Room 505, Cleveland, OH 44106.
+
+Received July 10, 1990; accepted January 23, 1991.
+
+tations of voltage-clamp measurements were over-
+come and the intracellular and extracellular ionic
+environments could be controlled. The data from
+single-channel recordings provide the basis for a
+quantitative description of channel kinetics and
+membrane ionic currents. In 1985, DiFrancesco and
+Noble5 developed a model of the Purkinje fiber
+action potential based on available single-cell and
+single-channel data. Our goal is to incorporate,
+whenever possible, recent experimental information
+that have accumulated since the formulation of the
+B-R model into the formulation of a modified model
+(referred to as the L-R model in the text) of the
+mammalian ventricular action potential. The work
+presented here constitutes the first phase of this
+effort. In this paper we formulate the fast inward
+sodium current and the outward potassium currents.
+We use the model to investigate phenomena that are
+dominated by these currents and are only minimally
+influenced by the slow inward current. Therefore, we
+retain the B-R formulation of the slow inward cur-
+rent to support the plateau of the action potential.
+This paper focuses on the depolarization and repo-
+larization phases of the action potential and on phe-
+nomena that involve interaction between these pro-
+cesses. These include supernormal excitability,
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1502
+
+Circulation Research
+
+Vol 68, No 6
+
+June 1991
+
+Wenckebach periodicity, and aperiodic response of the
+cell to periodic stimulation. These phenomena were
+observed recently in single ventricular cells and in
+Purkinje fibers.67 In the B-R model, the extracellular
+concentrations of ions are fixed. Because changes in
+extracellular potassium concentration exert a strong
+effect on the time course of repolarization,8 9 we intro-
+duce in the model the dependence of the potassium
+currents on potassium concentration. We also incorpo-
+rate a negative-slope characteristic of the time-inde-
+pendent potassium current10'll and a novel potassium
+channel that activates at plateau potentials.'2 The fast
+sodium current is characterized by fast upstroke veloc-
+ity (Vm)13 and slow recovery from inactivation,'4 a
+property that strongly influences the response of the
+cell to premature stimulation.
+
+In addition to the study of mechanisms that
+determine the behavior of the single cell, an accu-
+rate model of the action potential is important to
+simulation studies of propagation of excitation in
+cardiac tissue. Our studies of propagation15x6 were
+limited by the inability to simulate important situ-
+ations of physiological and clinical significance such
+as the effects of elevated extracellular potassium
+concentration, an important aspect of ischemia. In
+addition, our model simulations of reentry'7 dem-
+onstrated the importance of the interaction be-
+tween depolarization and repolarization in the in-
+duction and maintenance of reentrant arrhythmias.
+The need for an accurate representation of this
+interaction to further elucidate mechanisms under-
+lying abnormal propagation and arrhythmogenesis
+provided yet another motivation for the develop-
+ment of the action potential model presented here.
+
+Methods
+
+The general approach is based on a numerical
+reconstruction of the ventricular action potential by
+using Hodgkin-Huxley-type formalism.' The rate of
+change of membrane potential (V) is given by
+
+dV/dt= - (1/C) (Ii+Is,)
+
+(1)
+where C is the membrane capacitance, 'St is a stimu-
+lus current, and Ii is the sum of six ionic currents: INa,
+a fast sodium current; Is,, a slow inward current; IK, a
+time-dependent potassium current; 1K1, a time-inde-
+pendent potassium current; 1Kp, a plateau potassium
+current; and lb, a time-independent background cur-
+rent. The ionic currents are determined by ionic
+gates, whose gating variables are obtained as a solu-
+tion to a coupled system of eight nonlinear ordinary
+differential equations. The ionic currents, in turn,
+change V, which subsequently affects the ionic gates
+and currents. The differential equations are of the
+form
+
+dy/dt= (yx -y)/ry
+
+(2)
+
+where
+
+ry = l/(ay+ y)
+
+and
+
+y +=ac(a\+f3)
+
+y represents any gating variable, r, is its time con-
+stant, and y. is the steady-state value of y. a, and /3
+are voltage-dependent rate constants. In addition,
+aKI and I3K1 of the IK1 channel depend on extracellular
+potassium concentration.
+
+The integration algorithm used to solve the differ-
+ential equations is based on the hybrid methods
+introduced by Rush and Larsen'8 and Victorri et al. 9
+Briefly, the algorithm uses an adaptive time step that
+is always smaller than At
+= msec. For time inter-
+vals of relatively slow changes in V (AV.AVmin=0.2
+mV), At is set equal to AVmaxV, where AVVmsx=0.8
+mV. For time intervals of fast changes in V
+(AV.lAVmax), At is set equal to AVmin/V. If this At
+results in AV.AVmax, At is reduced until the condi-
+tion AV<AVmax is met. During the stimulus, a fixed
+time step (0.05 or 0.01 msec) is used to minimize
+variability in the stimulus duration caused by the time
+discretization procedure.2t)
+
+Rate constants of ionic gates were obtained by
+parameter estimation with an adaptive nonlinear least-
+squares algorithm developed by Dennis et ali2" All
+computer programs were coded in FORTRAN 77 (Mi-
+crosoft, Seattle), and all simulations were implemented
+(double precision) on a Macintosh IIcx computer.
+Fornulation of Equations for Ionic Currents
+
+All ionic currents are computed for 1 cm- of
+membrane. Membrane capacity is set at 1 ALF/cm.22
+The formulation is based on experimental data
+adjusted to 37°C by using a Q1(, adjustment factor.
+Ionic concentrations for standard preparations are
+[K1.=5.4 mM, [K]i=145 mM,1' [Na]i=18 mM,1323
+[Na]o=140 mM, and [Ca]0=1.8 mM. [Ca]i varies
+during the action potential; we set [Ca]i=2x 104 mM
+as an initial value under standard conditions. We
+assume that a short-term stimulation does not appre-
+ciably affect the ionic environment of the cell under
+normal conditions and, therefore, the ionic concen-
+trations (except [Ca]i) do not change dynamically in
+our simulations. The complete set of equations for all
+ionic currents is provided in Table 1.
+
+INa,: Fast sodium current. The model of the fast
+sodium channel incorporates both a slow process of
+recovery from inactivation and adequate maximum
+conductance that results in a realistic rate of mem-
+brane depolarization. We adopt the activation (m)
+and inactivation (h) parameters of Ebihara and
+Johnson4 (we refer to the Ebihara-Johnson model of
+INa as the E-J model). The formulation of these
+parameters is based on data from cardiac cells (chick-
+en embryo) and results in a realistic rate of depolar-
+ization (Vmax=300 V/sec). However, it does not in-
+clude the property of slow recovery. Following the
+methods of Beeler and Reuter,3 we incorporate a
+slow inactivation gate (j) to represent this slow
+process. As suggested by Haas et al,24 the steady-
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy A Model of the Ventricular Cardiac Action Potential
+
+1503
+
+Fonnulations of Ionic Currents
+
+TABLE 1.
+Inward currents
+Fast sodium current
+
+INa=23 * m3* h. j * (V-ENa)
+For V>-40 mV
+ah=aj=0.0, 13h=l/(0.13{1+exp[(V+ 10.66)/-11.1J})
+,6j=0.3 * exp(-2.535* 10-7 V)/{1+exp[-0.1(V+32)]}
+For V<-40 mV
+ah=0.135 *exp[(80+V)/-6.8], /h=3.56 exp(0.079V)+3.1 105 exp(0.35V)
+aj=[-1.2714* 105' exp(0.2444V)-3.474 10`5 exp(-0.04391V)] (V+37.78)/{1+exp[0.311 * (V+79.23)]}
+Pj =0.1212* exp(-0.01052V)/{1 +exp[-0.1378(V+40.14)J}
+For all range of V
+am=0.32(V+47.13)/{1-exp[-0.1(V+47.13)]}, 1l3m=0.08 exp(-V/11)
+
+Slow inward current
+
+I,=0.09 d f(V-EBi), E,i=7.7-13.0287 1n([Ca]i)
+ced=0.095* exp[-0.01(V-5)]/{1+exp[-0.072(V-5)]}
+1d=0.07* exp[-0.017(V+44)]/{1+exp[0.05(V+44)]}
+af=0.012* exp[-0.008(V+28)]/{1 +exp[0.15(V+28)J}
+,Bf=0.0065 exp[-0.02(V+30)]/{1 +exp[-0.2(V+30)]}
+Calcium uptake: d([CaJi)/dt= - 10-4 I±+0.07(10-4_ [Ca]i)
+
+Outward currents
+Time-dependent potassium current
+
+IK=GK X * Xi * (V-EK), UK=0-.282 *jKJJ5.4
+Xj=2.837* {exp[O.04(V+77)]-1}/{(V+77) * exp[0.04(V+35)]} for V> -100 mV and Xj=1 for V<-100 mV
+ax=0.0005* exp[0.083(V+50)]/{1+exp[0.057(V+50)]}
+13x=0.0013 exp[-0.06(V+20)]/{1+exp[-0.04(V+20)J}
+
+Time-independent potassium current
+
+IK1=GK1 K1. * (V-EKI), GK1=0.6047 V[K]J5.4
+aK, = 1.02/{1 + exp[0.2385 * (V-EK1-59.215)]}
+,S3K1={0.49124 exp[0.08032* (V-EK1+5.476)I+exp[0.06175 (V-EK1-594.31)]}/
+
+{1 +exp[-0.5143* (V-EKl+4.753)I}
+
+Plateau potassium current
+
+IKP=0-0183 * Kp * (V-EKp), EKp=EK
+Kp = /{1 + exp[(7.488 -V)/5.98]}
+
+Background current
+
+1b=0.03921 (V+59.87)
+
+Total time-independent potassium current
+
+IK1(T)=K1 + IKp+ Ib
+IK, time-dependent potassium current (/uA/cm'); IK, fully activated potassium current (/LA/cm') (IK=IK/X); IK1,
+time-independent potassium current (pA/cm'); 1Kp, plateau potassium current (gA/cm'); 'b, background leakage
+current (gA/cm'); IK1(T), total time-independent potassium current (gA/cm') (IK1(T)=IK1+IKP+Ib); INa, fast sodium
+current (gA/cm'); ILj, slow inward current (giA/cm'); V, membrane potential (mV); V, time derivative of V (V/sec);
+Vnax, maximum rate of rise of V (V/sec); Ei, reversal potential of ion i (mV); G,, maximum conductance of channel i
+(mS/cm2); [A]0, [A],, extracellular and intracellular concentrations of ion A, respectively (mM); m, h, j, activation gate,
+fast inactivation gate, and slow inactivation gate of INa; d, f, activation gate and inactivation gate of 1,j; X, Xi, activation
+gate and inactivation gate of IK; Kl, inactivation gate of IKI; Y0, steady-state value of activation (inactivation) gate y; ay,
+fly, opening and closing rate constants of gate y (msec-1); ry, time constant of gate y (msec).
+
+state values of j (ja) are obtained by setting jmha,
+where ha is from the E-J model. The time constant of
+j (t) is set equal to the rj of the B-R model. The rate
+constants ac and ,B1 are obtained by using the param-
+eter estimation procedure mentioned above.21 The
+sodium current is
+
+INa=GNa* m3 h j (V-ENa)
+
+(3)
+where GNa is the maximum conductance of the so-
+dium channel (23 mS/cm2)425; ENa is the reversal
+
+potential of sodium [ENa=(RT/F) iIn ([Na]0/[Na]l)];
+and m, h, and j are obtained as solutions to Equation
+2 with the appropriate rate constants. Note that ENa
+computed with the E-J model is 29 mV since
+[Na]i=40 mM in chicken embryo heart cells.25 In our
+model we set ENa=54.4 mV based on [Na]i=18 mM
+in mammalian ventricular cells.13'23
+
+IA: Slow inward current. Representation of I1i is the
+same as in the B-R model. The formulation is
+provided in Table 1.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1504
+
+Circulation Research
+
+Vol 68, No 6
+
+June 1991
+
+-100 -80 -60 -40 -20
+
+0
+
+20
+
+40
+
+V (mV)
+
+Current-voltage (I-V) curves of the fully acti-
+FIGURE 1.
+vated time-dependent potassium current (I) current (denoted
+IK in thefigure) for [K] =5.4, 50, and 150 mM. Note minimal
+crossover between curves of different [K]0 and strong inward
+rectification.
+
+IK: Time-dependentpotassium current. In patch-clamp
+experiments, Shibasaki26 showed that 1) the IK channel
+is controlled by a time-dependent activation gate (X)
+and a time-independent inactivation gate (Xi), neither
+of which depends on [K]O; and 2) the single-channel
+[K]0. We use the
+conductance is proportional to
+equation suggested by Shibasaki:
+
+1K=GK - X - Xi * (V-EK)
+
+(4)
+
+and introduce the [K]O dependence through
+
+GK=0.282.
+
+[K]0/5.4
+
+and
+
+EK= (RT/F) * In ([K]o+PRNaK [Na]0
+k[K]i+PRNaK' [Na]li
+
+where PRNaK=0.01833 is the Na/K permeability ra-
+tio.27,28 For this value of PRNaK and [K])= 5.4 mM, the
+computed EK is -77 mV, a result that is consistent
+with the measurements of Beeler and Reuter.3 Also,
+note that GK=0.282 mS/cm2 for [K]0=5.4 mM. This
+value is obtained from the fully activated current
+IK=IK/X (B-R model,3 Figure 1) for V= -100 mV, a
+potential at which Xi= 1.
+
+Xi introduces the inward rectification property of
+IK. It is obtained from the B-R expression for IK by
+factoring out GK- (V-EK) at [K]O=5.4 mM. The
+formulation is provided in Table 1. To verify that this
+formulation correctly introduces the [K]0 depen-
+dence of IK we plotted the computed fully activated
+current (!K) for [K]O=5.4, 50, and 150 mM (Figure 1).
+The behavior is consistent with the experimental
+observations of McDonald and Trautwein,29 Matsu-
+ura et al,27 and Shibasaki.26 Note the strong inward
+rectification and the minimal crossover between
+curves of different [K]0.
+
+IKI: Time-independent potassium current. Sakmann
+and Trube,1011 using patch-clamp techniques, dem-
+onstrated two important properties of IKI: 1) square
+
+V (mV)
+
+Current-voltage (I-V) curves of the time-inde-
+FIGURE 2.
+pendentpotassium current (IK1) for different [K], (indicated in
+the figure in mM). Note the large degree of crossover between
+curves of different [K]O, strong inward rectification, negative
+slope of the I-V curves, and zero-cuirrent contribution at high
+potentials.
+
+root dependence of single-channel conductance on
+[K]O;
+2) high selectivity for potassium (i.e., EKI
+-Nernst potential of potassium). Kurachi30 identi-
+fied an inactivation gate (K1) of the IKI channel. This
+gate, in addition to its dependence on membrane
+potential, depends on EKI and therefore on [K]0 KI
+closes at high potentials and therefore IK1 has no
+contribution at this range. In addition, the time
+constant of KI is small (TKI=0.7 msec at V=-50 mV
+for [K]0=5.4 mM), so it can be approximated by KI,
+(its steady-state value).
+
+Based on these findings, we formulate the IKI
+
+current as follows:
+
+1KI=GKI . KIX . (V-EKI)
+
+(5)
+
+where
+
+EKI=(RT/F) . In ([K]0/[K]j)
+
+KI x
+
+aKl/(aKI + 13K1)
+
+GK1=0.6047 \[K]0/5.4
+
+(GK1=0.6047 at [K]0=5.4 mM10,31)
+
+To verify that this formulation correctly introduces
+the [K]O dependence of IKI we plotted the computed
+current-voltage curve for [K]0= 10, 20, 40, 75, and 150
+mM (Figure 2). The results resemble the single-
+channel measurements of Kurachi (see Figure 12B of
+Reference 30). Note the strong inward rectification,
+the crossover between curves of different [K]o, the
+zero contribution at high potentials, and the negative
+slope over a certain potential range. These charac-
+teristics reflect the voltage and [K]o dependence of
+the KI gate.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy A Model of the Ventricular Cardiac Action Potential
+
+1505
+
+It should be emphasized that our definition of 1K1
+differs from lKl of the B-R model. The B-R IK1 includes
+contributions from other currents at plateau potentials.
+Recently, it was recognized that the current at plateau
+potentials results from a time-independent, [K]O-insen-
+sitive channel (IKp)12 and a background current
+(Ib).32-34 We formulate IKP to simulate the behavior of
+the IKp current measured by Yue and Marban12:
+
+IKp=GKp *Kp (V-EKp)
+
+(6)
+where Gyp=0.0183,
+EKp=EKM, and Kp=l/{l+exp
+[(7.488-V)/5.98]}. In addition, Ib is a background cur-
+rent32-34 that can be formulated as
+
+Ib=Gb (V-Eb)
+
+(7)
+where Gb=0.03921 and Eb= -59.87 mV. We define the
+total time-independent potassium current, IK1(T), as
+
+1K1(T) =IK1 +IKp +Ib
+
+(8)
+The parameters (conductances, gates, and reversal
+potentials) of 1K1, 1Kp, and lb are obtained by using a
+parameter estimation technique2' to fit the whole-cell
+IK1(T) measured by Sakmann and Trube (Figure 4A of
+Reference 11) for different values of [K],. A compari-
+son of the measured and simulated lK1(T) is shown in
+Figure 3 for different values of [K],. Note that the
+negative slope (which is not a property of the B-R IKI)
+and crossover phenomena are well duplicated by the
+model. Also, all curves for different values of [K],
+converge at plateau potentials. This is because 1K1,
+which depends on [K]0, has zero contribution at this
+potential range, while IKp and lb are [K]0 insensitive.
+
+Results
+
+Ionic Currents and the Action Potential
+
+The goal of this paper is to investigate, at the ionic
+channel level, the mechanisms of various electrophysi-
+ological phenomena related to depolarization, repolar-
+ization, and their interaction. We limit the simulations
+to phenomena that are dominated by the fast inward
+sodium current and the outward potassium currents.
+Figure 4A shows simulated action potentials for dif-
+ferent extracellular concentrations of potassium
+([K]0=3, 4, 5.4, and 7 mM). For the typical physiolog-
+ical concentration of potassium ([K]o,noral=5.4 mM),
+the following characteristics are observed: the thresh-
+old potential is at -60 mV, the membrane rate of
+depolarization (Vm.x) is 400 V/sec, the maximum pla-
+teau potential is 17.7 mV, action potential duration
+(APD) at 90% repolarization is 366 msec, resting
+potential is -84 mV, and the overshoot potential is 41.7
+mV. Note that Vm; is more than three times that of the
+B-R model (VmaXBR=115 V/sec). The fast Vma,,LR re-
+flects the higher sodium channel conductance in our
+model and is in good agreement with experimental data
+from mammalian ventricular cells.'3 Also, Vm&xLR is
+faster than that of the E-J model (Vm,EJ=300 V/sec).
+This difference results from different reversal poten-
+tials for the sodium current (ENa,L R=54.4 mV, whereas
+
+Sakmann and Trube
+
+4-
+
+3-
+2
+
+1 '
+
+.4
+
+2-2
+-3
+-4-1
+-8
+-1 00 -80
+
+1
+
+43
+
+-6
+-60
+
+-
+-40 -20o
+
+V(mV)
+
+2'(0
+
+A
+
+-or
+
+p-
+
+B
+
+w-
+
+V.
+
+-1 00
+
+-80
+
+-60
+
+-40
+V (mV)
+
+-20
+
+0
+
+20
+
+Current-voltage (I-V) curves of the total time-
+FIGURE 3.
+independent potassium current (IKJ(T)) for different [K], (in-
+dicated in the figure in mM). Panel A: Duplicated from the
+experimental data of Sakmann and Trube.11 Panel B: The
+negative slope, crossover between curves, and overlap of curves
+at high potentials are well simulated by the present (L-R)
+model.
+
+ENa,EJ=29.0 mV) and, as a result, greater driving force
+in the L-R model. The difference in the reversal
+potential reflects different intracellular concentrations
+of sodium in the mammalian ventricular cell ([Na]i= 18
+mM) and the chicken embryo ([Na]i=40 mM). The
+overshoot is in good agreement with experimental
+measurements in guinea pig ventricular cells.3' 35
+
+The major simulated effects of changes in extracel-
+lular potassium concentration are on APD and rest
+potential (Vrest), whereas effects on plateau poten-
+tials are minimal. These results are in agreement with
+experimental observations.8'9 As [K]O increases, Vrest
+becomes less negative and APD decreases. For
+[K]0=3 mM, Vrest is -95.5 mV and APD is 485 msec;
+for [K]0=7 mM, Vrest is -78.2 mV and APD is 322.6
+msec. For the typical value [K]0=5.4 mM, APD is 366
+msec. This value is in the range of 305 msec with a
+standard deviation of 55 msec measured by Isenberg
+and Klockner3' in the guinea pig single ventricular
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1506
+
+Circulation Research
+
+Vol 68, No 6
+
+June 1991
+
+.
+
+.
+
+.
+
+Action Potentials
+
+1
+
+.
+
+7 mM
+
+K 1 (T)
+
+A
+
+4t.771.1
+
+B
+
+5.2-
+
+( AA)
+
+1.7-1
+
+0
+
+(AiA)
+
+-4.4
+
+'Si
+
+.
+
+.
+300
+
+.
+450
+
+(msec) 150
+
+600
+0
+Action potentials and ionic currents for [K]O= 7,
+FIGURE 4.
+4, and 3 mM. Panel A: As [K], decreases, action
+5.4,
+potential duration increases and resting potential becomes
+more negative. Panel B: During repolarization the total time-
+independent potassium current (IKJ(T)) depends strongly on
+[K],
+(arrows), while the time-dependent potassium current
+(IK) and slow inward current (Isd) exhibit only weak depen-
+dence on [K],.
+
+cell. Figure 4B shows the time course of IK1(T), IK, and
+ISi during the action potential. Note the peak in IK1(T)
+during repolarization (arrows). For [K]0=7 mM the
+amplitude of this peak is 2.87 ALA/cm2, but for [K]o= 3
+ALA/cm2. This large difference in
+mM it is only 1.0
+IK1(T) brings about a faster rate of repolarization (1.58
+V/sec at 7 mM, 1.1 V/sec at 3 mM) at higher [K]. In
+addition, the peak of IK1(T) occurs earlier (at more
+positive membrane potential), reflecting an increase
+of the reversal potential EK1. The result is a shorter
+APD. Note that IK and Isi exhibit only small changes
+in amplitude during repolarization when [K]o is var-
+ied (although these currents deactivate earlier in
+response to the earlier decrease in membrane poten-
+tial). This is because I1i
+is independent of [K]0,
+whereas the IK dependence on [K]O is minimal at
+plateau potentials (inward rectification, Figure 1). In
+contrast. IK1(T) shows strong dependence on [K]O at
+plateau potentials caused by the crossover phenom-
+enon of 'K1 (Figure 2). The changes in Vrest parallel
+changes in the reversal potential of the IKI current
+(EKI) caused by changes in [K]0. In the following
+sections we use this model of the action potential to
+
+tth
+
+j
+
+-o
+
+S2
+
+p~~~~~~~~Ap
+C-
+
+~ARDut4 L-APDu
+
+I
+APDU1tPD
+si
+The protocol for studying recovery of excitability.
+FIGURE 5.
+t, t,h, tu, APD, and APDu are shown in the figure. t, Recovery
+time; t,h,
+latency from onset of stimulation to threshold
+potential; tu, latency from onset of stimulation to maximum
+upstroke velocity (Vmnx); APD, action potential duration fiom
+V,_, to 90% repolarization; APD, action potential duration
+from onset of stimulation to 90% repolarization, equal to
+APD+tu. S, and S, are current stimuli.
+
+simulate various physiological phenomena and eluci-
+date their mechanism.
+Fast Depolarization and Slow Recovery of Ik
+
+Recovery of excitability. As discussed above, INa in
+the L-R model is characterized by a larger conduc-
+tance and a faster rate of depolarization (large Vm,x)
+than in the B-R model. Also, the L-R model incor-
+porates a fast process of inactivation and a much
+slower process of recovery from inactivation. In this
+section we demonstrate the importance of the fast
+(realistic) rate of depolarization caused by the kinet-
+ics of INa in determining membrane behavior. Recov-
+ery of excitability can be described in terms of tu and
+tth (defined below) by using the protocol of Figure 5.
+Test pulses (S2) 1.77 ALA in amplitude and 100 msec
+in duration are applied at various (SS2) intervals
+from a brief suprathreshold stimulus (S,), which
+excites a conditioning action potential. Because
+S1S2>APDu, S2 is always applied during phase 4 of
+the action potential. The time from the onset of S to
+threshold is tth (V=V,h- -60 mV). The time from the
+onset of S2 to the action potential upstroke as deter-
+mined from Vmax is tu. As the S1S2 interval decreases,
+tu and tth increase, providing a measure of the
+excitability of the membrane; the longer tu and tth,
+the less excitable the membrane.
+
+Figure 6 shows the relation between tu and tth
+obtained from the protocol of Figure 5. Panel A
+duplicates the experimental results of Delmar et al
+(Figure SB in their paper).28 Panel B shows the
+simulated results of the same protocol using the B-R
+membrane model but with the sodium channel re-
+placed by the L-R formulation. Panels C and D
+depict simulated results with the original E-J and
+B-R sodium channel representations, respectively.
+
+The results demonstrate that the experimental
+behavior (panel A) is duplicated accurately by the
+L-R and E-J models (panels B and C). However, B-R
+kinetics of the sodium channel (panel D) causes
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy A Model of the Ventricular Cardiac Action Potential
+
+1507
+
+EXPERIMENTS
+
+(Delmar et al.)
+
+t U = 1 .007.t th - 0.0073
+
+1.1
+
+1.2
+
+t th
+
+1.:
+3
+
+E-J
+
+tu =0.996t th + 0.0044
+
+A
+
+tu
+
+1.3
+
+1.2-
+
+1 .1
+
+1.0
+
+1.0
+
+C
+
+tU
+
+1.3
+
+1.2
+
+1.1
+
+1B
+B1 t3tU=1.0107*tth -0.0111
+
+3L-R
+
+1.2
+
+1.1
+
+t U
+
+1.0
+
+1.0
+
+D
+
+tu
+
+1.1
+
+1.2
+
+1.3
+
+t th
+
+1.0
+
+1.0
+
+1.1
+
+1.2
+
+1.3
+
+t th
+
+1.0
+
+-.
+1.0
+
+--
+
+,.
+1,1
+
+1,2
+
+1.3
+
+t Ih
+
+The correlation between the la-
+FIGURE 6.
+tency from onset of stimulation to maximum
+upstroke velocity (tu) and the latency from
+onset ofstimulation to threshold potential (tth).
+Panel A: Experimental measurements of Del-
+mar et al.28 Panel B: Present (L-R) model.
+Panel C: Ebihara-Johnson (E-J) model. Panel
+D: Beeler-Reuter (B-R) model. Note that the
+experimental behavior is simulated correctly by
+the L-R and E-J models that incorporate real-
+istic kinetics of the fast sodium current (fast
+maximum upstroke velocity), while the B-R
+model simulation deviates from the experimen-
+tal behavior, especially for large values of tu
+and t,t
+(arrow). (Note that th is used here for
+time to threshold and is equivalent to tF used by
+Delmar et a128). The tu and tth scales are both
+nonnalized to a minimum value of 1.0.
+
+significant deviations from the actual experimental
+behavior. These include a strong deviation from the
+linear relation for larger tth (arrow) and a larger slope
+(-2.5 times, note different tu scale in panel D) of the
+linear portion for smaller tth. The slope is close to 1.0
+for the L-R and E-J models, duplicating the experi-
+mental behavior well and indicating that the increase
+in tu is determined by the increase in tth (subthresh-
+old response). This is because the latency from
+is very small (about 2
+threshold potential to Vma
+msec) when the realistic conductance and kinetics of
+the cardiac sodium channel are incorporated in the
+model (GNa,BR=4 mS, GNa,LR=23 mS). In contrast,
+the large slope of the B-R model indicates a signifi-
+cant latency from threshold potential to Vmax (greater
+than 25.5 msec), resulting from the unrealistic con-
+ductance and kinetics of the sodium channel in that
+model.
+
+Time course of reactivation. The simulations in this
+section demonstrate the importance of the slow
+recovery property of INa in determining the mem-
+brane reactivation. As mentioned in previous sec-
+tions, the E-J model does not include the process of
+slow recovery from inactivation represented by the j
+gate. Panel A of Figure 7 duplicates the experimental
+reactivation data of Ebihara et al (Figure 3 of Ref-
+erence 36). Panel B shows the results of a simulation
+with the L-R model. The protocol used both in the
+experiment and in the model simulations is also
+illustrated in panel B. Panels C and D are simulations
+with the B-R and E-J models, respectively. The
+protocol is as follows: two depolarizing voltage pulses
+with 45-mV amplitude are applied after preclamping
+the membrane at -65 mV for 300 msec. The first
+pulse of duration T1 inactivates the sodium channel.
+T2, the interval between the depolarizing pulses, is
+varied to provide different reactivation times before
+the second test pulse of a constant duration (65
+
+msec) is applied. The membrane response to the
+second pulse in terms of the peak inward current is
+plotted as a function of T2.
+
+The experimental behavior (panel A) is well dupli-
+cated by the L-R model (panel B). The individual
+curves in panel A are obtained for T1 in the range
+1-200 msec, while in panel B the range is 1-50 msec.
+This quantitative difference probably reflects the
+different species (chicken embryo and guinea pig).
+The B-R model (panel C) deviates from the experi-
+mentally observed behavior, especially for T1 = 1
+msec. As explained below, this is caused by the
+unrealistic INa kinetics of the B-R model. The E-J
+model (panel D) completely fails to duplicate the
+dependence on T1, and the curves obtained for
+different T1 values overlap.
+
+The E-J model (panel D) fails to separate the
+curves for different T1 values because slow recovery
+(j gate) is not part of this model, so that inactivation
+and reactivation of the sodium channel are con-
+trolled by the fast inactivation h gate. Because in this
+model h is almost completely inactivated in 1 msec
+when the membrane potential is depolarized to -20
+mV (Th=0.33 msec at -20 mV), all curves for T1.1
+msec overlap. In contrast, the L-R model (panel B)
+generates different reactivation curves for different
+values of T1, as observed experimentally. This is
+because the model incorporates a slow inactivation j
+gate (rj=4.34 msec at -20 mV). This implies that for
+T1=1 and 5 msec the j gate at the end of T1 is
+inactivated to a different degree, resulting in dif-
+ferent reactivation curves. For T1 .20 msec, the j gate
+is completely inactivated at a membrane potential of
+-20 mV, and all the curves overlap. In addition,
+since for T1> 1 msec the recovery process is con-
+trolled by the j gate, all reactivation curves can be fit
+by a single exponential. In particular, for T1 .20 msec
+all curves are represented by the same time constant
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1508
+
+Circulation Research
+
+Vol 68, No 6
+
+June 1991
+
+EXPERIMENTS
+
+(Eb;hara et al.)
+
+1
+
+*100
+
+200
+
+£
+
+A
+
+c
+
+0
+3 o
+
+1.0
+
+0.8
+
+0.6
+
+-
+
+C z 0.4
+.2
+0
+
+0.2-
+
+o.o0-
+0
+
+50
+
+-
+
+T
+
+l
+
+1 00 1 50 200 250
+T2 (msec)
+
+C
+
+(C
+.to0
+
+c.z
+
+(6
+m-
+
+A
+
+X
+
+0
+
+C
+
+. >
+
+._
+
+E
+
+1.0
+
+0.8B
+
+0.6
+
+0.4
+
+V (mV)
+
+B-R
+
+(2)
+
+V (mV)
+
+o.o rk
+
+0
+
+50
+
+100 150 200 250
+T2 (msec)
+
+200 250
+
+T2 (msec)
+
+EXPERIMENTS
+(Gettes & Router)
+
+B
+
+L-R
+
+h-C
+
+08
+
+N 0.6
+
+*=
+m E
+c o 0.4
+z
+.
+(
+0
+0.2-
+
+5
+
+20 , 50
+
+Ti
+
+65 msec
+
+-20 mV
+
+60 mV
+
+300 msec
+
+-
+
+T2
+
+65
+
+mV
+
+0.0
+
+0
+
+50
+
+150 200 250
+
+100
+T2 (msec)
+
+E-J
+
+1, 5, 20, 50
+
+D
+
+c'
+
+N*_
+cc
+'-
+c6E
+
+0
+
+m
+
+0.8
+
+0.6
+
+0.2
+
+Reactivation of the so-
+FIGURE 7.
+dium channel. The protocol is illus-
+trated in panel B. Peak inward cur-
+rent obtained during the second
+pulse is nortnalized by the maxi-
+mum current measured duintg the
+first pulse and is plotted as a func-
+tion of the interval between the de-
+polarizing pulses (TJ). Panel A: Ex-
+perimental results of Ebihara et a136
+for T-=1, 100, and 200 msec. Panel
+B: Present (L-R) model. Panel C:
+Beeler-Reuter (B-R) model. Panel
+D: Ebihara-Johnson (E-J) model.
+In each panel, the different curves
+are obtained for different values of
+T1 (1,
+5, 20, and 50 msec). NVote
+that all curves overlap in the E-f
+model simulation becautse of unre-
+alistically fast recoveiy (slow inacti-
+vation j gate is not included in this
+model).
+
+B
+
+J_
+0
+
+E
+. >
+
+0
+
+D
+
+E
+. >
+
+L-R
+
+V (mV)
+
+E-J
+
+V (MV)
+
+_-i
+50
+
+FIGURE 8. Membrane respon-
+siveness and sodium channel ki-
+netics. Maximum upstroke ve-
+locity (Vm,) values (normalized
+by its maximum value) are indi-
+cated by discrete points. Curves
+for the fast (h) and slow (j)
+inactivation gates (or only h for
+the Ebihara-Johnson [E-f]
+model) are plotted as solid lines.
+Both are shown as a function of
+membrane potential (V). The
+protocols are illustrated in panel
+A and are described in the text.
+Panel A: Experimental data of
+Gettes and Reuter (Figure 7 of
+Reference 14). Panel B: Present
+(L-R) model. Panel C: Beeler-
+Reuter (B-R) model. Panel D:
+E-J model.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy A Model of the Ventricular Cardiac Action Potential
+
+1509
+
+(r=70 msec), which is very close to the rj value at
+V= -65 mV (rj=77.4 msec), as expected.
+Membrane responsiveness. This simulation demon-
+strates the importance of the slow inactivation j gate
+in determining the membrane response during the
+repolarization phase of an action potential. Results
+are shown in Figure 8. Panel A is the experimental
+data of Gettes and Reuter (Figure 7 of Reference
+14). Panels B, C, and D are the L-R, B-R, and E-J
+models, respectively. The protocols are illustrated in
+panel A. Curve 1 is obtained from protocol 1 by
+applying a suprathreshold stimulus that scans the
+repolarization phase of an action potential. Curve 2 is
+obtained from protocol 2 by stimulating the mem-
+brane after 500 msec of preclamping at different
+potential levels. For both curves Vmx is shown (dis-
+crete points) as a function of the membrane potential
+at the onset of the stimulus. In panels B-D the solid
+curves are h . j (or only h for the E-J model) com-
+puted for the same protocols.
+
+By using protocol 1, the range of membrane po-
+tential over which Vmax drops from its maximum value
+to 0.2 of the maximum is well simulated by the L-R
+and B-R models. This normalized value (0.2) is
+obtained experimentally (panel A, curve 1) for a
+membrane potential of -76 mV. The corresponding
+simulated values are -78 mV for both models. In
+contrast, curve 1 in the E-J model (panel D) is shifted
+to less negative potentials. This is because the E-J
+model does not incorporate a slow recovery process
+of the sodium channel. An equivalent statement is
+that in the E-J model j is always 1. However, the L-R
+and B-R models incorporate a slow recovery j gate
+that is not fully recovered during the repolarization
+phase, shifting the curve to a more negative range of
+membrane potentials.
+
+Curve 2 reflects steady-state behavior of the mem-
+brane since the stimulus was applied after a long
+(500-msec) preconditioning period. The L-R model
+correctly simulates the behavior of Vmax for these
+conditions (compare curve 2 in panels B and A). In
+contrast, a shift of curve 2 to more negative potentials
+is observed in the B-R model (panel C). This differ-
+ence reflects the different characteristics of h. and jc
+in the two models.
+Note that the Vmax behavior is closely approxi-
+mated by the h - j curves (deviations are caused by
+currents other than INa). This implies that the mem-
+brane responsiveness is controlled by the h and j
+gates (because of its fast time constant, m obtains its
+maximum value of 1 within 0.2 msec and its effect is
+negligible). Because curve 2 is obtained under
+steady-state conditions, it is closely approximated by
+h. * j,. The difference between curves 1 and 2 results
+from the fact that during repolarization (curve 1) h
+and j do not reach their steady-state values. The E-J
+model does not incorporate a j gate. Therefore, the
+difference between curves 1 and 2 in panel D implies
+that the rate of repolarization is too fast for h to
+reach steady state. Of course, the same is true for the
+much slower j gate. Since during repolarization j is
+
+almost completely inactivated and since rj> > rh, it
+follows that the membrane responsiveness is mostly
+determined by the j gate.
+Supemormal Excitability
+
+Supernormality, which can be defined as greater
+than normal excitability during or immediately after
+the action potential repolarization phase, is a known
+property of cardiac preparations at low extracellular
+potassium concentrations.737-39 The strength-inter-
+val curve, used to investigate supernormality, is ob-
+tained from the protocol shown in Figure 5 by
+applying a test pulse, S2, after an action potential
+excited by a stimulus, S,. By varying the S1S2 interval
+and the current amplitude of S2, the threshold cur-
+rent (Ith) is obtained as a function of the S1S2 interval.
+Based on such excitability measurements, Spear and
+Moore39 found that 1) supernormality disappears
+when [K]o is elevated above 5 mM and 2) the
+supernormal period at fixed [K]O is independent of
+the APD and is determined by the characteristics of
+the membrane potential during repolarization. 'K1
+and IK of the L-R model can change their reversal
+potentials and conductances in response to variations
+in [K]O. We used the L-R model to simulate and
+investigate supernormality. Figure 9 shows the simu-
+lated strength-interval curves for [K]0=7, 4.6, 4, and
+3 mM, covering late phase 3 and early phase 4 of the
+action potential. The simulated protocol followed the
+experimental protocol described above (also see Fig-
+ure 5). lth is defined as the critical current amplitude
+for which the peak sodium current is greater than 4
+,uA (1% of the maximum current for a fully recov-
+ered membrane and suprathreshold stimulus). Note
+that test stimuli of very short duration (T=0.5 msec)
+were used to investigate the instantaneous mem-
+brane excitability at that S1S2 interval. The abscissa is
+normalized by setting the 70% repolarization of the
+action potential as time zero. Clearly, supernormality
+is observed for [K]0.4.6 mM (but not for [K]0=7 or
+5.4 mM) as a notch (local minimum followed by a
+local maximum) in the strength-interval curve. With
+decreasing [K]0, the peak-to-peak amplitude of the
+notch increases and so does the width of the "super-
+normal window." This time window is defined as the
+interval during which the threshold is lower than the
+local maximum that follows the notch. The supernor-
+mal window is indicated in the figures by two broken
+vertical lines.
+
+Plotting Ilh versus the potential difference
+(AV=Vth-V) for the membrane to reach the thresh-
+old potential (Vth), the linear relation of Figure 10 is
+obtained for all values of [K]0. This linear relation
+implies that the membrane response during repolar-
+ization can be characterized in terms of the mem-
+brane potential and the threshold potential for all
+values of [K]O. It also implies that the threshold
+current does not depend on APD, as observed exper-
+imentally by Spear and Moore.39
+To explain the underlying mechanism of supernor-
+mality in terms of membrane channel kinetics, the
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+A
+
+(xA)
+701
+
+60
+
+i
+
+BELOs....72
+
+40
+
+C
+
+0°
+
+50
+
+0l
+0
+
+_:
+
+6S4
+
+72
+
+1510
+
+Circulation Research
+
+Vol 68, No 6
+
+June 1991
+
+0
+
+30
+
+K[iK(0=7mM
+[K]0 =4.6 mM
+
+*
+
+i
+E
+D
+
+Iii0t0l
+
+60
+t (msec)
+
+90
+
+c,
+
+64
+
+48
+
+0
+
+30
+
+60
+t (msec)
+
+90
+
+48
+
+120
+
+Strength-interval curves (Ih) for [K],= 7, 4.6, 4,
+FIGURE 9.
+and 3 mM are plotted as a function of recovery time t. Time
+zero (t =0) is set at 70% repolarization. Panel A: [K]o = 7 and
+4.6 mM. Panel B: [K]0=4 and 3 mM max and min, Local
+maximum and minimum of Ith, respectively. The superormal
+window (represented by two vertical broken lines for each
+curve) is defined as the time interval during which ith is smaller
+than the local maximum.
+
+following simulation was carried out for [K]0=7 mM.
+The j gate of the sodium channel was clamped at the
+value of 1 for all times and the strength-interval
+curve was computed (Figure llA). The unclamped
+strength-interval curve is also plotted for compari-
+son. With j = 1, sodium channel recovery from inacti-
+vation is controlled by the h gate and its much faster
+kinetics (h< <rj). Under these conditions, supernor-
+mality is observed in Figure IIA even for [K]-=7
+mM. In contrast, when j is free to vary according to its
+normal kinetics, no supernormality is observed for
+this concentration of K,,,
+in agreement with the
+experimental behavior.739 In Figure llB, V and Vth
+
+80-
+
+70
+
+60
+
+50
+
+T=0.5 msec
+
+th = 2.18 + 1.97 AV
+
+[K10 =7 mM
+*[K]o=4.6 mM
+[K]l0=4 mM
+[K] 0 =3 mM
+
+a
+
+20
+
+25
+
+30
+6M (mV)
+
+35
+
+40
+
+The relation between threshold current (Ith) and
+FIGURE 10.
+change in membrane potential (AV= Vth-V) for a brief stim-
+ulus of 0.5-msec duration. The linear relation is described by
+Ith=2.18+1.97--WVand is independent of [/K,.
+
+are plotted as a function of time during repolariza-
+tion. The curve for V is the same for both j =1 and
+j-unclamped conditions (because the sodium channel
+does not contribute to V during repolarization). On
+the other hand, the Vth curve is influenced by the j
+gate kinetics. For the clamped condition (j=1) Vth
+decreases earlier in time, reflecting faster recovery of
+membrane excitability. Also, the value of Vth just
+after the absolute refractory period (arrows) is
+larger, followed by a steep decrease (approximately
+3.5 V/sec) over a period of 6 msec. During the same
+interval, the membrane potential drops at a rate of
+about 1.33 V/sec. This implies that AV (defined as
+Vth- V) is decreasing rapidly during this interval,
+bringing about a proportional decrease in lth (Figure
+10) that constitutes the descending portion of the
+lA,
+notch in the strength-interval curve (Figure
+DES). Beyond this interval, the membrane potential
+drops faster than Vth, increasing AV and, therefore,
+lth (ascending portion of the notch, ASC in Figure
+HA). This nonmonotonic behavior of AV is the basis
+for the notch in the strength-interval curve and,
+hence, for supernormality. For larger values of t, both
+Vth and V approach their steady-state values with AV
+(and hence Ith) approaching a constant. When the j
+gate is free to vary according to its normal kinetics (j-
+unclamped in Figure 1lB), the Vth curve is shifted to
+the right toward later times. As a result, the drop in
+the Vth curve occurs over an interval during which V
+decreases slowly and, in particular, always slower
+than Vth (0.5 and 1.4 V/sec, respectively). Conse-
+quently, AV (and Ith)
+is monotonically decreasing
+(j-unclamped in Figure HA), and no supernormality
+is observed. It is clear that the nonmonotonic, super-
+normal behavior is determined by the shape of the
+Vth curve, which in turn is determined by the recovery
+of the sodium channel. As will be explained below,
+the sodium channel recovers faster at low [K],
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy A Model of the Ventricular Cardiac Action Potential
+
+1511
+
+A
+
+[K]0=7mM
+
+j-unctSmpe
+
+60
+
+50
+
+40
+
+30
+
+DES;PAS
+
+v
+
+20
+-20
+
+-..
+0
+
+20
+
+40
+t (msec)
+
+.
+
+60
+
+80
+
+100
+
+[K]0=7mM
+
+.9
+
+B
+
+E
+
+-20
+
+0
+
+20
+
+40
+t (mssc)
+
+60
+
+80
+
+100
+
+Panel A: Strength-interval curves (Ih) for
+FIGURE 11.
+[Kfl=7 mM. Two conditions are shown: j clamped at the
+value of 1 (f=1) and] free to vary (j-unclamped). DES and
+ASC, descending and ascending portions, respectively, of the
+notch in the strength-interval curve. Panel B: Threshold
+potential (Vth) and membrane potential (1V) during repolariza-
+tion for [K]o= 7 mM. Vh is shown for three conditions: j=1,
+h =j=1, and j-unclamped. V for all three conditions is the
+same. In both panels t
+is the recovery time from 70%
+repolarization.
+
+creating the possibility of a supernormal phase when
+[K]o.4.6 mM.
+A clear demonstration of the dominant effect of
+the sodium recovery process on the Vth curve is
+provided in Figure liB. When both the h gate and j
+gate are clamped at the value of 1, Vth is constant,
+except for a small decrease (for t<30 msec) caused
+by L,i (this decrease in Vth disappears when we set
+Is=O during the stimulation). The threshold poten-
+tial is also affected by IK1(T) and IK; however, the
+contribution is very small.
+
+Figure 12 shows V and Vth as a function of time for
+different [K], in the range of 3-7 mM (j is free to vary
+according to its normal kinetics). As [K], decreases
+from 7 to 3 mM, the resting membrane potential
+changes from -78.2 to -95.5 mV (Figure 12A),
+resulting in a decrease of ij from 33 to 7 msec during
+late phase 3 and phase 4 of the action potential
+(arrows in Figure 12A). Therefore, the sodium chan-
+
+A
+
+R
+
+B
+
+E
+
+-60
+
+-65:
+
+-70-
+
+-75.
+
+-80
+
+-85 -
+
+-90 -
+
+-95
+
+r
+)
+
+-25
+
+-30
+
+-35
+
+-40
+
+-45
+
+-50
+
+-- [K1o =4.6 mM
+
+Kl o =7 mM
+fK10 =4 mM
+[K]0 =3mM
+
+*-
+
+-
+
+10
+
+20
+
+v
+
+v
+
+E
+
+v
+
+v
+
+E
+
+30
+
+40
+
+50
+
+60
+
+t (msec)
+
+-0--- [K1 o =7 mM
+*- [Klo=4.6 mM
+K1 =4 mM
+[K] o =3 mM
+
+0
+
+1 0
+
+20
+
+30
+
+t (msec)
+
+FIGURE 12. Membrane potential (V, panel A) and thresh-
+old potential (V,h, panel B) are plotted as a function of
+recovery time (t) for different [K],. As [K], decreases, mem-
+branepotential reaches the resting value later in time (arrows),
+while threshold potential decreases earlier in time. This in-
+creases the width and amplitude of the superormal notch
+shown in Figure 9.
+
+nel recovers earlier for lower [K]o (Figure 12B)
+during a phase of fast decrease of V. As a result, a
+phase is created during which V decreases faster than
+Vth. In addition, the membrane potential reaches a
+phase of very slow decrease (i.e., end of ascending
+portion of the supernormal notch) later in time for
+lower [K]0 (arrows in Figure 12A). The result of these
+two effects is the appearance of a supernormal
+window for [K]0.4.6 mM and a widening of this
+window as [K]0 is further decreased (Figure 9). The
+peak-to-peak amplitude of the supernormal notch
+also increases when [K]0 is decreased. This is because
+the local minimum (see Figure 9) decreases, re-
+flecting a smaller AV caused by the faster decrease of
+Vth for lower [K]O (Figure 12B). Also, the local
+maximum following the notch increases with decreas-
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1512
+
+Circulation Research
+
+Vol 68, No 6
+
+June 1991
+
+ing [K],,
+negative rest potentials.
+
+reflecting a larger AV caused by more
+
+It should be emphasized that the E-J representa-
+tion of the sodium channel does not include a slow
+inactivation j gate. Therefore, the E-I strength-
+interval curves are similar to the strength-interval
+curves obtained by the L-R model with j=1. As
+shown above (Figure 11A), under these conditions,
+supernormality is a property of the model even for
+high extracellular concentrations ([K]0-=7 mM) in
+contradiction to experimental observations.7,39 This,
+of course, is a nonphysiological behavior that results
+from a nonphysiological fast recovery of the sodium
+channel.
+
+The simulations described above were performed
+with a test stimulus, S2, of 0.5-msec duration. Exper-
+imentally, Chialvo et a17 used a stimulus of 20 msec.
+Our choice of a short stimulus was dictated by the
+resolution needed for scanning the supernormal win-
+dow whose minimum duration is 12 msec. Also, we
+were interested in determining instantaneous mem-
+brane excitability without the influence of a long
+stimulus duration. To investigate the effects of the
+stimulus duration (T) on membrane excitability, we
+redefine the strength-interval curve in terms of
+threshold charge introduced by the stimulus
+(Qth=lth* T, Figure 13). In Figure 13A, Qth iS plotted
+for an interval of 80 msec that includes the supernor-
+mal phase. Stimuli of two durations (T=0.5 and 20
+msec) are compared. For T=20 msec, Qth is larger
+(note different scales), the amplitude of the super-
+normal notch is twice as large, and the notch is
+shifted toward earlier time. Figure 13B covers a later
+time interval that includes late phase 4 of the action
+potential. During this time interval, the behavior of
+Qth for T=0.5 and 20 msec is very different. For
+T=0.5 msec, Qth displays a very small and slow
+increase, while for T=20 msec, Qth displays a rela-
+tively large decrease. It should be commented that
+similar results were obtained for all [K], values,
+except no supernormality was observed for [K]0>4.6
+mM ([K]0=4 mM is shown here as an example).
+
+Figure 14 provides an explanation for these differ-
+ences between strength-interval curves constructed
+with stimuli of different durations. Figure 14A shows
+the total charge (Qtotal) carried by all ionic channels
+during critical subthreshold stimuli for a short
+(T=0.5 msec) and a long (T=20 msec) stimulus
+duration (note the different scales). For both dura-
+tions, Qtotal is positive, indicating a net positive charge
+leaving the cell. For T=0.5 msec, Qtotal is negligible
+compared with the stimulus charge Qth (Figure 13).
+However, for T=20 msec, Qtotal is about half the
+magnitude of Qth (Figure 13, note the different
+scales). This significant amount of charge that is lost
+to the extracellular medium during a long stimulus is
+the basis for the difference between the strength-
+interval curves of Figure 13. The Qth supplied by a
+very short stimulus can be regarded as the amount of
+charge needed to bring the membrane to threshold
+with minimal charge losses to the extracellular me-
+
+A
+
+(nC)
+401
+
+t (msec)
+
+B
+
+(nC)
+401
+
+[K]o = 4 mM
+
+h
+t
+
+38
+
+36-
+
+34.
+
+32
+
+-.
+
+T=20 msec
+
+9.w.
+
+.w,
+
+20i
+E
+51
+
+.f
+CY
+
+(nC)
+
+(nC)
+64
+
+-62
+
+60
+
+58
+
+-56
+
+30
+
+_ _
+
+30
+
+9
+
+'P-T
+430
+
+v
+
+v
+830
+t (msec)
+
+1
+
+-v
+w
+1230
+
+i4
+T-s
+1630
+
+Threshold charge Qh=Ith. T (Ih is threshold
+FIGURE 13.
+current and T is stimulus duration) for [K]0,=4 mM and two
+different stimulus durations (T=0.5 and 20 msec). Panel A:
+Time interval (0-80 msec) covering the supemormal phase.
+Note that the peak-to-peak amplitude of the superormal
+notch is about twice larger for T=20 msec than for T=0.5
+msec. Panel B: Phase 4 of an action potential. As time
+increases, Qth decreases significantly for T=20 msec but is
+almost constant for T=0.5 msec.
+
+dium. In contrast, the Qth supplied by a long stimulus
+can be divided into two components: Qth supplied by
+a very short stimulus and the total charge (Ototal) lost
+to the extracellular medium during the duration of
+the stimulus. The fact that Qth includes Qtotal explains
+the large values of Qth, including the large amplitude
+of the maximum that follows the supernormal notch
+(Figure 13A) when a long stimulus duration is used.
+Figure 14B shows the contributions of the different
+ionic channels to Qtotal for a stimulus of 20 msec
+applied at different times, t, during phase 3 to phase
+4 of an action potential. For large t, all contributions
+except QKI(T) approach very small values, identifying
+IK1(T) as the reason for the large rheobase needed
+when long stimuli are used (Figure 13B). During
+phase 3 (t<20 msec), a large decrease in Ototal from
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy A Model of the Ventricular Cardiac Action Potential
+
+1513
+
+A
+
+)
+
+(nC
+0.9-
+
+1\4
+
+0.8
+
+rv l _A
+
+L Ks JO=4 mMl
+
+(nC)
+34
+
+-32
+
+30
+
+28
+
+.26
+
+U
+a
+
+0
+
+E~0
+
+0,
+
+0
+U
+0
+Ul}
+CS
+E
+1;
+
+"O
+
+,R
+
+B
+
+0
+
+0.7-
+
+0.6-
+
+0.5-
+
+30 -
+
+24;
+
+18
+
+12-
+
+62
+
+02
+
+-6
+
+_.
+
+T=0.5 msec
+
+S.. T=20 msec
+
+f~,
+0
+
+~~*,* T.'.*...2.
+24
+1200
+
+800
+
+400
+t (msec)
+
+[K]o =4 mM and T=20 msec
+
+QKl (T)
+
+7 Q
+Qs.
+
+-12 e
+0
+
+40
+
+-
+
+- -.
+160
+
+- 1-
+
+200
+
+120
+80
+t (msec)
+
+Total charge (Qtota) lost to the extracellular
+FIGURE 14.
+medium during the duration of stimulation ([KJ0=4 mM).
+Panel A: For short duration (T=0.5 msec), Q0tia, (left ordi-
+nate) is negligible in comparison to threshold charge (Qth) in
+Figure 13, while for long duration (T=20 msec), Qtotal (right
+ordinate) is significant (note scale difference). Panel B: The
+contribution of each ionic channel to Qtotal for T=20 msec: 1)
+the total time-independent potassium current charge (QK1(T))
+elevates the rheobase threshold charge at all phases, 2) the
+decay of time-dependent potassium current charge (QK) re-
+flects the deactivation kinetics of the time-dependent potas-
+sium current activation gate, and 3) the slow inward current
+contributes at late phase 3 and early phase 4 because of
+incomplete inactivation. Qsi, slow inward current charge; QNa,
+sodium current charge.
+
+its peak value is observed as the 20-msec stimulus is
+applied earlier in time (Figure 14A, arrow). This is
+caused by an increase in the magnitude of (the
+negative) Qi and a decrease of QK1(T) as t decreases
+(Figure 14B). Qsi increases since, for a small t, the
+stimulus is applied during a phase when ISi is not
+completely inactivated. QK1(T) decreases because the
+stimulus is applied during the negative slope phase of
+1K1. This additional contribution of 2.3 nanocoulombs
+to the decrease in Qth is a substantial fraction of the
+amplitude of the supernormal notch (6 nC). The
+result is a supernormal notch of about twice the
+amplitude as compared with that for a 0.5-msec
+
+5.5.
+
+5.0-
+
+4.5-
+
+4.0-
+
+3.5-
+
+An
+200
+
+10
+a,0
+
+[K]0= 5.4mM
+
+Restitution
+
+(b)
+
+-370
+
+-310
+
+250
+
+190
+
+0
+
+E
+
+0
+
+0
+
+iStrenth-
+Intal
+
+9
+
+.
+
+~
+
+~
+
+-
+
+~
+
+1000
+
+600
+S1-S2 (msec)
+
+T.u
+~
+~
+1400
+
+n
+1800
+
+FIGURE 15.
+Strength-interval curve and action potential
+duration (APD) restitution curve for [K],=5.4 mMand T=20
+msec. Lower arrow indicates the stimulus strength (3.06 piA)
+used to study rate-dependent block. See textfor defintions of a
+and b.
+
+stimulus (Figure 13A). The relatively fast decrease of
+Qth during phase 4 (t=30-450 msec in Figure 13B,
+T=20 msec), when long stimuli are used, reflects a
+similar behavior of QK (Figure 14B). Note that
+contributions from all other currents are constant dur-
+ing this phase; in particular, QK1(T) is constant since
+IK1(T) is time independent and the membrane potential
+during this phase is almost constant. Therefore, for
+long stimuli, the membrane excitability during phase 4
+is determined by the kinetics of IK (the time-dependent
+X gate). In contrast, Qth is almost constant over the
+entire phase 4 when short stimuli are used (Figure 13B,
+T=0.5 msec). This is because for short stimuli Qth iS
+determined by VSh and V (negligible contribution from
+Qtotal) which do not change significantly during phase 4.
+As will become clear in the next section, the behavior of
+the strength-interval curve during phase 4 strongly
+influences the response of the cell to repetitive stimu-
+lation. For short stimulus duration one expects minimal
+dependence of the response on the timing of stimula-
+tion during phase 4 (constant excitability, Figure 13B,
+T=0.5 msec). In contrast, for long stimuli, the response
+is strongly influenced by the timing (Figure 13B, T=20
+msec). This implies that to investigate rate-dependent
+response patterns (e.g., Wenckebach periodicity), stim-
+uli of long duration should be used.
+Wenckebach Periodicity and Channel Behavior
+
+Wenckebach periodicity is defined as a periodic,
+rate-dependent activation failure in cardiac tissue.
+Recently, this phenomenon was observed in isolated
+guinea pig6 or rabbit40 ventricular myocytes and in
+sheep cardiac Purkinje fibers.7 In this section we
+study the Wenckebach phenomenon by simulating
+periodic pacing of single myocytes with the use of the
+L-R membrane model. The response of the mem-
+brane to periodic stimulation can be analyzed in
+terms of the strength-interval curve and the APD
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1514
+
+Circulation Research
+
+Vol 68, No 6
+
+June 1991
+
+A
+
+880
+
+650
+
+444
+
+B
+
+U)
+
+0
+
+cr
+
+(ms)FL
+
+>
+
+350
+
+316
+
+3
+
+l
+
+3:1
+
+7:2
+
+1
+
+~ ~
+
+~
+
+~
+
+3:2
+
+260
+
+4:1u0<|
+
+2:1
+
+180 J1LUNL1
+
+1~~~~~~~~~l9
+
+7:3
+
+160
+
+7..I:
+
+l0
+
+l l--l
+
+l
+
+A
+
+l
+
+al
+
+l ll
+
+1:1
+
+7:6
+5:4
+
+f
+t
+
+7 8:7
+6:5
+4:3
+. 3:2
+
+2:1
+
+j 7:3
+5:2
+
+1.0 -
+
+0.8 -
+
+0.6
+
+0.4
+
+0.2
+
+6 1
+
+3.1
+4:1 ' 7:2
+'
+
+5:1 -
+:2.
+
+7:1
+
+nnI .
+v .U
+0
+
+-
+.
+200
+
+400
+
+600
+
+800
+
+1000 1200
+
+BCL(msec)
+
+Periodic rate-dependent pattems for normal
+FIGURE 16.
+[K]0=5.4 mM Panel A: Examples of activation pattems
+(calibration bar, 52.5 mV). Numbers on the left indicate basic
+cycle length (BCL), whereas ratios on the right are the resulting
+stimulus-to-response (S:R) pattems. The train of stimuli is
+indicated below each pattem. Panel B: The staircase plot of
+response-to-stimulus (R: S) ratios as a function of BCL. The
+numbers inside the panel indicate the S:R ratios.
+
+restitution curve. During phases 3 and 4 of an action
+potential, the strength-interval curve describes the
+recovery of membrane excitability, whereas the res-
+titution curve describes the recovery of APD of
+premature responses.41,42 The simulated strength-
+interval and APD restitution curves for [K],=5.4 mM
+are shown in Figure 15. Both curves display a mono-
+tonic behavior that is determined by the time course
+of deactivation of the IK X gate. In the following
+simulations, a stimulus strength of 3.06 ,uA that
+corresponds to threshold stimulation at S1S2=882
+msec was used (indicated by the lower arrow in
+Figure 15). Stimulus duration of 20 msec was used for
+reasons described above (conclusion of previous sec-
+
+XS3 = XS4
+
+A A
+
+I
+
+I
+
+A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+11
+
+11
+
+A
+
+B
+
+1j
+
+34
+
+26
+
+(msec)
+
+18
+Rate-dependent block is studied by resetting the
+FIGURE 17.
+activation (X) gate of the time-dependent potassium current
+value at onset of stimulation (Xs). Panel A: Stimulus-to-
+response (S:R) ratio of 6:5 changes to 7:6 by setting
+XP4=XS3. The train of stimuli is shown below the pattem.
+Panel B: The action potentials for the pattem in panel A are
+redrawn with the onset of stimulation for all beats set at time
+zero. The superimposed third and fourth action potentials
+(indicated by *) clearly indicate that beat 4 is exactly the same
+as beat 3 because of their equal values ofXs. Calibration bars
+for action potentials are 35 mV in both panels.
+
+tion) and to be consistent with the experimental
+protocols of Chialvo et a17 and Delmar et al.6 Stim-
+ulation was applied at a basic cycle length (BCL)
+ranging from 160 to 2,000 msec. Simulated activation
+patterns for different BCLs are shown in Figure 16A.
+A staircase plot of response-to-stimulus (R: S) ratios
+versus BCL is shown in Figure 16B (numbers in the
+figure indicate stimulus-to-response [S: R] ratios).
+The staircase pattern demonstrates phase-locking at
+S: R ratios of integer values (1: 1, 2: 1, 3: 1, etc.) and
+sharp transitions between these values through many
+noninteger S: R ratios. This pattern is in good agree-
+ment with the experimental observations of Chialvo
+et al.7 To elucidate the underlying mechanism of the
+Wenckebach phenomenon observed in single cells
+the following simulations were performed.
+
+As we discussed in the previous section, the post-
+refractory period (phase 4 of an action potential) is
+dominated by the X gate of 1K.6728 Therefore, the
+Wenckebach phenomenon is likely to be related to
+the value of X just before the stimulation is applied
+(Xs). To test this assumption, Xs of a given beat was
+clamped to the value of Xs of the preceding beat.
+Independent of the particular beat where clamping
+was applied the following behavior was observed: 1)
+S: R pattern always progressed to S+ 1: R+ 1 pattern
+and 2) the superimposed action potentials of the two
+beats with the same Xs overlapped because of equal
+time latency from stimulus to response. An example
+of this procedure is shown in Figure 17 for an initial
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy A Model of the Ventricular Cardiac Action Potential
+
+1515
+
+A
+
+(nsec)
+389.5 -
+
+387.5-
+
+a
+L
+0.
+
+385.5
+
+\\
+
+f
+
+i
+
+1
+
+/~APD u
+
+(msec)
+366
+
+364
+
+362
+
+360
+
+358
+
+CL
+ox
+
+383.5
+
+0
+
+.
+1
+
+.
+4
+
+5
+
+E
+
+356
+(mec
+
+2
+
+3
+
+Beats
+
+B
+
+0.06
+
+Xs
+
+0.04-
+
+0.02-
+
+nnol
+
+t u
+
+0 123456
+
+Beats
+
+(msec)
+32
+
+28
+
+24
+
+20
+
+7
+
+tu
+
+FIGURE 18. APD, APD, Xs, and tufor the 6:5 pattem are
+plotted as a function ofbeat number. Panel A: Nonmonotonic
+behavior ofAPD and APDu. Panel B: Monotonic increase in
+Xs and tu. APDu, action potential duration from onset of
+stimulation to 90% repolarization; APD, action potential
+duration from maximum upstroke velocity to 90% repolariza-
+tion; Xs, activation gate of the time-dependent potassium
+current at onset of stimulation; tu, latency from onset of
+stimulation to maximum upstroke velocity
+
+S:R=6:5 (see Figure 16A). The Xs of the fourth
+beat was clamped to the Xs of the third beat. The
+pattern (Figure 17A) has changed to S:R=7:6 be-
+cause of resetting of the fourth beat to the third beat.
+When the action potentials are superimposed (Fig-
+ure 17B) by setting time zero at the onset of each
+stimulus, the action potential of the clamped beat
+overlaps with the previous action potential (i.e., tu
+and APD [defined in Figure 5] have the same values
+for the two beats). Also, when Xs for all beats is
+clamped to Xs of the first beat (not shown) S: R is
+always 1:1. Clearly, Xs plays a dominant role in
+determining the pattern of Wenckebach periodicity.
+To further elucidate the mechanism through which
+the IK X gate controls the activation pattern, we
+plotted APD, APDu, tu (see Figure 5 for definitions),
+and Xs as a function of beat number (Figure 18). The
+periodic 6:5 pattern discussed above was used as an
+
+example. Beat 1 in the figure refers to the first beat
+after activation failure during the previous period.
+The APDU of the second beat (APDU2) is smaller
+than the APDU of the first beat (APDu1). This is due
+to a larger decrease (7.7 msec) in APD than the
+increase (6 msec) of tu from the first beat to the
+second beat (note APDu=APD+tu). The relatively
+large decrease of APD from beat 1 to beat 2 reflects
+the twice-longer recovery time before beat 1 that
+results in a long APD1 (arrow b in Figure 15) as
+compared with APD2 (arrow a in Figure 15). Also, a
+corresponding large increase in Xs is observed. Start-
+ing from beat 2, APDu and tu increase monotoni-
+cally, whereas APD remains almost constant and Xs
+increases very slowly. The monotonic increase in
+APDu implies a progressively shorter recovery time
+between beats starting from beat 2. As a result, X is
+progressively less deactivated at the time of the
+stimulation (Xs increases monotonically), until fail-
+ure occurs. When we set Xs for all beats equal to Xs
+of the first beat, activation failure does not occur and
+the pattern is always 1:1. This mechanism is consis-
+tent with the explanation of Delmar et al.28
+
+A deviation from this behavior is observed for the
+first two beats (Figure 18). APDu decreases from
+beat 1 to beat 2, implying a longer recovery time
+before beat 3 than before beat 2. However, in spite of
+the longer recovery time before beat 3, XS3 is greater
+than XS2. This seemingly anomalous behavior results
+from the very different initial conditions at the onset
+of beats 1 and 2. Beat 1 occurs at an interval of
+2* BCL from the last successful beat of the previous
+period, implying a much longer (about twice) recov-
+ery time than that for all other beats. As a result, X
+is almost completely deactivated at the onset of beat
+1 (XS1=0.007), reaching a maximum value of 0.4215
+at plateau potentials. At the onset of beat 2, because
+of much shorter recovery time, X is much less
+deactivated (XS2=0.0527), reaching a maximum value
+of 0.4262 during this beat. The larger maximum value
+of X at plateau potentials more than compensates for
+the increase in recovery time, resulting in XS3 >XS2
+(XS3=0.0529). Hence, in spite of an initial decrease in
+APDU, Xs increases monotonically from beat to beat
+until failure occurs. It should be mentioned that the
+"anomalous" decrease in APDu from beat 1 to beat
+2 is not always observed. When stimulating, for the
+same S: R pattern, at longer BCLs (and therefore
+with lower stimulus strength) we observe a mono-
+tonic increase in APDu for all beats, similar to the
+observations of Delmar et al.28 This is because as
+BCL becomes progressively longer (relative to rx),
+the change in Xs from beat 1 to beat 2 becomes
+progressively smaller, resulting in a smaller decrease
+of ADP until APD approaches a constant value. In
+contrast, for a given S :R pattern, the increase of tu
+from beat 1 to beat 2 remains in the range of 5.5-7
+msec for all BCLs (obviously, to keep the same S: R
+pattern the stimulus strength was adjusted for dif-
+ferent BCLs). Because APDu=APD+tu, APDU in-
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1516
+
+Circulation Research
+
+Vol 68. No 6
+
+June 1991
+
+BCL = 448 msec
+
+3j1LL L3L
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+373.8
+
+317.6
+
+356.2
+
+294,4
+
+327
+
+327.75 327.66
+331.1
+310.7 306.24 307.73 307.05 306.97
+
+328.4
+
+Beats
+APDU
+APD
+Itu
+Xjsj
+f
+
+17.6
+0.0516
+
+20.76
+
+20.7
+
+23.2
+
+20.67
+
+20.69
+20.4
+0.259 10.2734 [0.2708 0.2718 0.2715S
+0.3
+0.9714 0.9667] 0.969210.9686 0.9688] 0.9687
+
+1,0
+Beat-to-beat altemans at short basic cycle
+FIGURE 19.
+length (BCL, 448 msec). Numbers inside action potentials are
+values ofAPDu. Values of APDu, APD, tu, Xs, and fs are
+depicted in the table. APDu, APD, and tu are in milliseconds,
+whereas Xs and fs are dimensionless. APDu, action potential
+duration from onset of stimulation to 90% repolarization;
+APD, action potential duration from maximum upstroke
+velocity to 90% repolarization; Xs, activation gate of the
+time-dependent potassium current at onset of stimulation; tu,
+latency from onset of stimulation to maximum upstroke
+velocity; fs, inactivation gate of the slow inward current at
+onset of stimulation. Calibration bar, 35 mV
+
+creases from beat 1 to beat 2 for long BCLs, resulting
+in a monotonic behavior throughout the period.
+
+The staircase of Figure 16B is shifted toward
+shorter BCLs when the stimulus strength is in-
+creased. In particular, the transition from the 1: 1
+pattern to the 2:1 pattern is obtained at BCL=448
+msec (rather than 882 msec) when the stimulus
+strength is increased to 3.34 ,uA. The transition from
+1: 1 to 2: 1 at shorter BCLs is preceded by alternans
+in APDU as BCL is decreased in the range of 1:1
+response, approaching the transition to 2:1. APDu
+for consecutive beats together with the initial values
+of the IK X gate and the I,i f gate are shown in Figure
+19. Clearly, the alternans in APDu result from alter-
+nating kinetics of both the IK and 'Si channels. When
+f and X at the time of stimulus for all beats are set
+equal to their values at the first beat, no alternans are
+observed. When only the f gate is clamped as above,
+the transition from the 1: 1 pattern to the 2: 1 pattern
+still occurs; however, the number of alternating beats
+is decreased (four instead of seven), and the ampli-
+tude of the APDU changes is reduced. In contrast,
+when only the X gate is clamped, the 1:1 pattern is
+maintained and no transition from the 1:1 to 2:1
+pattern is observed, indicative of the dominant role
+Of IK in determining the response to repetitive stim-
+ulation at all values of BCL. Alternans in APDU are
+still observed; however, their number is reduced to
+four beats, and the amplitude of the APDU changes is
+greatly diminished.
+
+The simulations described above identify the ionic
+channel kinetics responsible for the alternans phe-
+nomenon. It remains to be clarified why these alter-
+nans appear only for short BCLs (BCL<560 msec in
+our simulations). Under these conditions (the exam-
+ple we show is for BCL=448 msec) we observe a
+relatively large decrease (56.2 msec) in APDU from
+beat 1 to beat 2 that reflects a large decrease (61.8
+msec) in APD. The large change in APD is possible
+because short BCL corresponds to the steep portion
+of the APD restitution curve (Figure 15). Mechanis-
+tically, the large APD change results from a relatively
+large increase in X gate and a decrease in f gate
+(Figure 19). This decrease in APDU is followed by a
+long recovery time of 130.4 msec to the third beat.
+This recovery time is long enough so that the X gate
+at the onset of beat 3 is relatively more deactivated in
+spite of its large initial value at the onset of beat 2,
+bringing about an increase in APDu of beat 3. The
+following recovery time is therefore decreased, re-
+sulting in a decrease in APDU of beat 4. This
+alternating pattern continues until a stable steady
+state is achieved with a constant APDu=327.66 msec.
+In contrast, for BCL>700 msec, the changes in
+APDU are smaller (<23 msec) since this range cor-
+responds to the flat portion of the APD restitution
+curve (Figure 15). Therefore, the decrease in APDu
+from beat 1 to beat 2 results in a relatively small
+increase in the recovery time to beat 3. This recovery
+time is too small to compensate for the large initial
+value of X at the onset of beat 2. As a result, Xs
+increases monotonically from beat to beat and no
+alternans are observed.
+
+It should be emphasized that the large changes in
+APDU at short BCL reflect large changes in APD.
+This is because at short BCL the stimuli are applied
+during a fast-recovery phase of the APD restitution
+curve (Figure 15). In contrast, for long BCL, the
+stimuli are applied during a slow phase of the resti-
+tution curve (Figure 15), resulting in small changes in
+APD. Consequently, for long BCL, APDu changes
+are determined by changes in tu (except for beat 1 to
+beat 2, where APD also changes significantly as
+described above). Starting from beat 2 changes in
+APDU are determined by tu alone (since APD ap-
+proaches a constant value). As shown in Figure 18,
+the increase in tu starting from beat 2 results in a
+monotonic increase in APDu and a progressively
+shorter recovery time between beats until activation
+failure occurs. The result of this progressive decrease
+in membrane excitability is the appearance of non-
+integer S:R patterns (such as 8:7, 7:6, 6:5, etc.)
+between 1: 1 and 2: 1 and all other integer S: R ratios.
+These noninteger S: R patterns are observed over a
+BCL interval of 2 msec. In contrast, for short BCL,
+noninteger S: R patterns are not observed in our
+simulations and there is a direct transition from 1: 1
+to 2: 1 (and between all other integer S: R ratios).
+This is because for short BCL APDU changes are
+dominated by the large changes in APD (and not by
+tu). Under these conditions, the recovery time does
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy A Model of the Ventricular Cardiac Action Potential
+
+1517
+
+[K1O = 4 mM
+
+2 1
+
+4
+....-
+
+A
+
+3.5
+
+3.3.
+
+3 1-
+
+2.9
+
+2.7
+8.380
+
+424
+
+468
+
+........
+512
+
+556
+
+600
+
+St - S2 (msec)
+
+B
+
+450 -
+
+4:3: 2 1
+
+(bI
+
+(cl
+
+E
+
+0
+
+350
+
+250
+
+50
+
+4- (b)
+
+1.0-
+
+0.8-
+
+0.6
+
+0.4-
+
+(U*cc:
+0
+
+1:1
+
+S.'
+
+.'.. 1:1
+
+4:3
+
+4:3
+
+7:5~
+
+6:4,3:2
+
+4:2
+
+9:4
+
+4
+
+:
+
+64,12:8
+
+8:5
+
+10:6
+
+20:11
+
+4
+
+2:1
+
+2..
+
+::
+
+2:1
+
+..2A
+
+993,3:1
+
+V.VV
+
+-
+0.2 m
+100
+
+4:1
+;
+
+200
+
+300
+400
+BCL (msec)
+
+500
+
+600
+
+Periodic rate-dependent block for low [K]0=4
+FIGURE 21.
+mM Note the nonmonotonic behavior caused by the super-
+normalphase (arrows). R S, response-to-stimulus ratio; BCL,
+basic cycle length. The numbers in the figure indicate the
+stimulus-to-response ratio, S :R.
+
+(c)
+50 _,, -
+
+19
+
+380
+
+444
+
+508
+
+572
+
+636
+636
+
+7
+700
+
+S, - S2 (msec)
+
+Strength-interval curve (panel A) and APDu
+FIGURE 20.
+restitution curve (panel B) for [K]0 =4 mM. In panel A
+horizontal dotted line indicates the stimulus amplitude used in
+this simulation. Excitable regions (1 and 3) are shaded to
+distinguish them from the inexcitable regions (2 and 4). The
+restitution curve in panel B is discontinuous because of the
+Ith, threshold current; APDu, action
+inexcitable region 2.
+potential duration from onset of stimulation to 90% repolar-
+ization. The letters in panel B are defined in the text.
+
+not decrease progressively from beat to beat since the
+shortest recovery time is between beat 1 and beat 2.
+This is because APDu is determined by APD, and
+APD of beat 1 is the longest since it occurs after a
+recovery time of 2 BCL. Therefore, if activation is
+successful at beat 2, all subsequent stimuli result in
+successful responses and a 1:1 pattern is established.
+As described above, this 1:1 pattern is characterized
+by alternans in APD. However, if activation failure
+occurs, it always occurs at beat 2, where recovery
+time is the shortest. The result is a direct transition
+from a 1: 1 to 2: 1 pattern without the possibility for
+noninteger S: R patterns.
+
+Supernormality and Rate-Dependent Activation
+
+The Wenckebach activation patterns discussed
+above were obtained in the setting of normal extra-
+cellular potassium concentration ([K]o>4.6 mM), for
+which supernormal excitability does not exist. For
+low extracellular potassium concentration, supernor-
+mal excitability appears during or immediately after
+the action potential repolarization phase (see "Su-
+pernornal Excitability"). Since the presence of super-
+normality modifies the- strength-interval curve by
+
+introducing nonmonotonic recovery of excitability,
+we expect rate-dependent activation patterns under
+conditions of low [K]. to be different from the regular
+rhythms for normal [K]o discussed in the previous
+section. Recently, complex response patterns were
+observed experimentally by Chialvo et a17 in Purkinje
+fibers at low extracellular potassium concentrations
+([K]0=4 mM). In this section, we will use the L-R
+model to simulate and investigate this phenomenon.
+The strength-interval curve computed for [K]0=4
+mM and a test stimulus of 20-msec duration is
+plotted in Figure 20A. The horizontal dotted line
+indicates the current amplitude of the stimuli during
+repetitive stimulation. For this level of stimulation
+(3.13 ,A), four different regions of S1S2 interval exist,
+as characterized by their responses. Regions 1 and 3
+are excitable, whereas regions 2 and 4 are inexcitable.
+Note that excitable and inexcitable regions alternate,
+so that excitable regions are separated by an inexcit-
+able region. Figure 20B depicts the APDu restitution
+curve for the same conditions. The same four regions
+are identified. Note the discontinuity of this curve in
+region 2, corresponding to the inexcitable region in
+Figure 20A. Also, APDu is almost constant in region
+1, while in region 3 a fast rate of change is observed.
+This fast change of APDu is caused by the relatively
+fast decrease of the X gate during this phase (see
+"Wenckebach Periodicity and Channel Behavior").
+
+The results of a simulated repetitive stimulation
+experiment with the stimulus strength indicated in
+Figure 20A (current amplitude of 3.13 ,uA) are shown
+as the staircase plot of the R: S ratio versus BCL of
+stimulation (Figure 21). Numbers in the figure indi-
+cate the S: R ratios. This format is the same as that for
+Figure 16B, which was obtained for [K]0=5.4 mM, in
+the absence of supernormality. A comparison of these
+figures clearly demonstrates that the activation pat-
+terns are different under these two different condi-
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1518
+
+Circulation Research
+
+Vol 68, No 6
+
+June 1991
+
+428
+
+1.0-
+
+IT
+
+1:1
+
+0.8-
+
+l06.
+
+~
+4:3
+
+.
+
+6:4.12.8
+
+0.6 .
+
+A
+
+8:5j
+
+20:11
+
+1:1
+
+A
+
+j._
+0
+0
+
+0.8-
+
+0.6-
+
+0.4
+
+4:3 t
+
+i 7:5
+
+6:4,3:2 '
+
+9.4
+
+4:2 i
+
+11
+
+A
+
+c)
+0.
+a:
+CD
+cc
+
+B
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~11
+
+2::
+
+.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1
+
+0.410
+410
+
+4
+421
+
+432
+
+432
+443
+BCL (msec)
+
+454
+
+'
+
+465
+
+BCL
+
+450
+
+436
+
+432
+
+lii li
+
+I
+
+IIIll
+
+S:R
+
+2:1
+
+1:1
+
+2:1
+
+1:1
+
+'3:1
+
+9:3,3:1
+
+3:1
+
+4:1
+
+n
+
+2 1
+180
+
+185
+
+.
+
+.1
+190
+195
+BCL (msec)
+
+.
+
+.
+200
+
+.-
+205
+
+B
+
+I
+
+F 5
+
+I Iti111t lI
+
+11111 11itI
+
+lt
+
+1tI
+
+,1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1 -1 1111}II
+
+11l
+
+l
+
+l
+
+l
+
+l
+
+l
+
+A
+
+1
+
+The first nonmonotonic range of Figure 21 is
+FIGURE 22.
+enlarged here by showing the range ofbasic cycle length (BCL)
+from 465 to 410 msec (panel A). Panel B: Related activation
+patterns are plotted (calibration bar, 35 mV). R :S, response-
+to-stimulus ratio; S :R, stimulus-to-response ratio. Numbers in
+panel A are S: R ratios. Arrows in panel A indicate a specific
+BCL.
+
+tions. For normal [K], (no supernormality) a mono-
+tonic progression of the activation ratio is observed
+(Figure 16B). In contrast, nonmonotonic changes in
+the activation ratio are observed for low [K], (super-
+normality present) (Figure 21). Under these condi-
+tions, a stable 1:1 pattern is followed by a region of
+nonmonotonic behavior as BCL is decreased below
+458 msec (right arrow). This nonmonotonic region
+covers a range of BCLs from 458 to 415 msec. Below
+415 msec another regular region of a 2:1 pattern is
+obtained, followed by another region of nonmono-
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1 11 1
+
+1
+
+1
+
+1
+
+-1
+
+1
+The second nonmonotonic range ofFigure 21 is
+FIGURE 23.
+enlarged here by showing the range ofbasic cycle length (BCL)
+from 205 to 180 msec (panel A). Panel B: Highly aperiodic
+pattems that correspond to BCL =200.4 msec (arrow in panel
+A) are plotted (calibration bar, 35 mV). In the second row of
+panel B, * indicates complex pattems of consecutive action
+potentials; F and S indicate activation failure or success,
+respectively. R: S, response-to-stimulus ratio. Numbers in
+panel A are stimulus-to-response (S:R) ratios. For action
+potentials with rapid sodium-dependent upstroke we define
+success as peak INa greater than 1% of the peak INa underfully
+recovered conditions. For slow response action potentials
+(upstroke depends on I,,) we define success as an action
+potential of duration greater than 50 msec (not including the
+stimulus duration).
+
+tonic behavior (BCLs from 205 to 190 msec, left
+arrow). Note that the same patterns repeat for dif-
+ferent regions of BCL. For example. a 1:1 pattern is
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy A Model of the Ventricular Cardiac Action Potential
+
+1519
+
+observed for a BCL of 500, 438, and 428 msec. These
+regions are separated by regions of 2: 1 patterns.
+
+The nonmonotonic regions of Figure 21 are ampli-
+fied in Figures 22A and 23A. In Figure 22A, as BCL
+is decreased from 465 msec the activation pattern
+changes from 1:1 to 2:1 at a BCL of 458 msec and
+then returns to the 1:1 pattern at a BCL of 439 msec.
+This nonmonotonic transition from 2: 1 to 1: 1 is
+possible because of the nonmonotonic strength-in-
+terval curve (supernormality) of Figure 20A. The 2: 1
+pattern in Figure 22A occurs over a range of BCLs
+(between 458 and 440 msec) that corresponds to
+region 2 of the strength-interval curve (Figure 20A).
+A stimulus at this region fails to elicit a response so
+that the next stimulus occurs at 2 BCL in region 1 of
+the strength-interval curve, resulting in a successful
+response. A 2:1 pattern is thus established (see the
+first row in Figure 22B). The 1:1 pattern of activation
+for BCLs between 439 and 433 msec is also shown in
+Figure 22B (second row). The first action potential is
+of maximum duration because it is stimulated from a
+fully recovered membrane. The second stimulus is
+applied during the supernormal phase (region 3 in
+Figure 20A) and displays a shorter duration. This is
+because the stimulus is timed during the fast decreas-
+ing phase of the restitution curve (point a in Figure
+20B). As a result, a longer recovery time follows this
+action potential and the third stimulus is applied in
+region 1 of the strength-interval curve (Figure 20A).
+However, the duration of the third action potential
+(point al in Figure 20B) is still shorter than that of
+the first action potential, obtained under fully recov-
+ered conditions. Consequently, the recovery time is
+longer and all subsequent stimuli are applied in
+region 1 of the strength-interval curve, resulting in a
+1:1 pattern. For a further decrease in BCL, the
+pattern returns to 2:1 (BCL of 432 msec), and then
+back to 1:1 (BCL of 428 msec). These two patterns
+are shown in Figure 22B (third and fourth rows,
+respectively). For a BCL of 432 msec, the second
+action potential is of short duration, corresponding to
+point b on the restitution curve of Figure 20B (note
+that the APDu at b is smaller than that at point a).
+The following stimulus elicits an action potential of
+duration (bl) on the restitution curve (bl>al). As a
+result, the next stimulus is timed during region 2 of
+the strength-interval curve and does not elicit a
+successful response. A 2:1 pattern is thus estab-
+lished. For a BCL of 428 msec (see Figure 22B) the
+second response is of a very short duration, corre-
+sponding to point c in Figure 20B. The following
+stimulus is applied after a long recovery time, result-
+ing in an action potential of long duration (point cl in
+Figure 20B). As a result, the next stimulus is applied
+in region 2 of the strength-interval curve and fails to
+elicit an action potential. This event is followed by a
+long recovery time and an action potential of long
+duration so that the next stimulus is timed during the
+supernormal phase (region 3) of the strength-inter-
+val curve, resulting in a successful response of short
+duration. After these transitional events the pattern
+
+1 Na
+
+Isi
+
+170
+(>A)
+0
+
+2.3
+(I A)
+
+0
+
+I11
+
+1111111111
+
+II II
+Sodium current (IN,a, upper panel) and cal-
+FIGURE 24.
+cium current (Ii,, lower panel) underlying the highly aperiodic
+pattems in the second row of Figure 23B. Note that the
+activation success indicated by S results from a slow response
+that does not involve the sodium current. F, activation failure;
+*, complex pattems of Isi that correspond to the complex
+pattems of action potentials in Figure 23B. Calibration bars,
+35 mV For action potentials with rapid sodium-dependent
+upstroke we define success as peak INa greater than 1% of the
+peak INa under fully recovered conditions. For slow response
+action potentials (upstroke depends on 1Is) we define success
+as an action potential of duration greater than 50 msec (not
+including the stimulus duration).
+
+is similar to that obtained for a BCL of 436 msec (see
+Figure 22B), and a ratio of 1:1 is established. A
+similar interplay between the excitability and APD at
+the different regions defined in Figures 20A and 20B
+determines the various patterns as BCL is further
+decreased.
+
+In Figure 23A, as the BCL is reduced below 205
+msec, irregular activation patterns are observed. An
+example is shown in Figure 23B for a BCL of 200.4
+msec (arrow in panel A). For this particular BCL,
+unstable patterns are observed and no regular peri-
+odicity is established for more than 250 consecutive
+stimuli. This behavior is consistent with the experi-
+mental findings of Chialvo et al,7 who observed highly
+aperiodic activity (termed "chaotic activity") at a
+BCL of 200 msec with no repeated patterns for
+recording periods that encompassed 100 or more
+stimuli. In our simulations, after a transient chaotic
+pattern that lasted more than 250 consecutive stimuli
+a very complex pattern with very long periodicity of
+about 13 seconds (67 stimuli) was established.
+
+The highly aperiodic activity occurs at a BCL
+below 205 msec. For this range of BCL, the stimuli
+are frequently applied during region 3 of the
+strength-interval curve (supernormal phase). In this
+region, the APD depends very strongly on the time of
+stimulation. In fact, APDu changes by 281 msec over
+an S1S2 interval of 15 msec (Figure 20B). As a result,
+a small change in the time of stimulation during the
+supernormal phase can cause a very large change in
+the duration of the elicited action potential and in
+the timing of the next stimulus. Consequently, small
+variations in the time of stimulation in region 3 can
+shift the timing of the next stimulus between different
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1520
+
+Circulation Research
+
+Vol 68, No 6
+
+June 1991
+
+regions of the strength-interval curve, eliciting a very
+different response. This high sensitivity to the timing
+of stimulation ("initial conditions") is the basis for
+the unstable patterns ("chaotic activity"). It should
+be noted that at a BCL between 410 and 465 msec
+nonmonotonic behavior of the activation patterns is
+also observed. However, for this range of BCL there
+are no unstable patterns or aperiodic activity. This is
+because for the longer BCL, the stimuli are infre-
+quently applied during region 3 of the strength-
+interval curve (supernormal phase). Moreover, a
+stimulus during region 3 is never followed by another
+stimulus in the same region. The next stimulus always
+falls either in region 2 (activation failure) or in region
+1 (the flat portion of the restitution curve, Figure
+20B). On the flat portion of the restitution curve,
+small changes in the time of the stimulation can
+cause only very small changes in APD. This has a
+stabilizing effect on the response so that irregular
+activity and unstable patterns do not occur.
+
+To further elucidate the ionic current behavior dur-
+ing the highly aperiodic activity, in Figure 24 we plotted
+the magnitude of INa and ISi that corresponds to the
+pattern shown in Figure 23B, second row from the top.
+An important observation is that most of the responses
+during the complex patterns do not involve the fast
+sodium channel and depolarization is caused by Isi. In
+Figure 23B, F identifies an activation failure during the
+plateau of an action potential that was initiated in
+region 1 of the strength-interval curve. A successful
+activation during the plateau of an action potential that
+was initiated in region 3 of the strength-interval curve
+is identified by S in the figure. The corresponding
+events in the Isi curve are also identified by F and S,
+respectively (Figure 24). The difference between the
+peak magnitudes of Isi for these two events is very small
+(0.2 ,lA). However, the total outward current
+(IK1(T)+IK) at F is 3.93 gA as compared with only 2.35
+,uA at S. This decrease is mostly due to reduced 'Kl(T) at
+the lower membrane potential of S and results in a
+successful response, bringing about a very complex
+pattern of activation. It should be mentioned that this
+behavior involves the negative slope characteristic of
+the IK1(T) curve (Figure 3). When we eliminate the
+negative slope in the IK1(T) curve (not shown), unstable
+patterns do not appear.
+
+Discussion
+
+The goal of this study is to construct a model of the
+membrane action potential of the mammalian ven-
+tricular cell based, whenever possible, on recent
+experimental findings in single-cell and single-chan-
+nel studies. In this report we reformulate three ionic
+currents: INa, IK, and IKI(T). INa is inactivated by two
+processes-fast and slow. The slow process of inac-
+tivation also implies slow recovery of excitability. In
+addition, INa is characterized by a large channel
+conductance resulting in fast upstroke velocity
+(Vmax=400 V/sec) of the action potential. A newly
+discovered potassium channel that activates at high
+potentials is implemented as a component of IK1(T) in
+
+the model. [K], dependence of 'K and IKI(T) is a major
+feature of the model. This enables us to simulate
+various phenomena that involve changes in [K],. In
+this paper we focus on the rising phase, the late
+repolarization phase, and the postrepolarization
+phase of the action potential. We use the model to
+investigate phenomena that involve INa, IK' and IK(T)
+during these phases such as supernormal excitability,
+membrane responsiveness, and Wenckebach perio-
+dicity. The results are consistent with the experimen-
+tal observations, and the phenomena are well de-
+scribed in terms of ionic channel behavior. It should
+be emphasized that the present model does not
+include ionic pumps and exchange mechanisms. It
+therefore cannot simulate dynamic changes in ionic
+concentrations. The slow inward current in the model
+is adopted from the B-R model and is not consistent
+with recent findings related to calcium currents
+through the membrane such as the existence of two
+types of calcium channels, L and T, and the role
+played by [Ca]i in inactivation. Also, while an uptake
+mechanism of intracellular calcium is represented in
+the model, the model cannot simulate intracellular
+calcium transients that result from the interaction
+between calcium currents through the sarcolemma
+and calcium release and uptake by the sarcoplasmic
+reticulum. A second phase of the ventricular model
+presented here is currently being developed in our
+laboratory to include all of these processes based on
+recent experimental data. Such processes were first
+incorporated in a model of the Purkinje action po-
+tential by DiFrancesco and Nobles in 1985.
+
+We use the Hodgkin-Huxley formalism to describe
+the macroscopic (ensemble) behavior of ionic channels.
+This choice is consistent with (and dictated by) our
+goal, namely, the reconstruction of the membrane
+action potential that results from ensemble currents
+through many individual channels. However, one
+should practice caution when extrapolating from the
+ensemble behavior to the single-channel behavior, es-
+pecially when the cardiac sodium channel kinetics are
+considered. While many single sodium channel proper-
+ties correspond to similar characteristics of the ensem-
+ble current4344 and are adequately described by the
+Hodgkin-Huxley kinetics, some properties are not. For
+example, at potentials near threshold for sodium chan-
+nel activation, both channel activation and inactivation
+determine the kinetics of the macroscopic sodium
+current decay (i.e., current inactivation).4445 The mi-
+croscopic behavior of ionic channels other than the
+sodium channels can be adequately described by the
+Hodgkin-Huxley kinetics.26,30
+
+For the sake of clarity, the discussion below is
+divided into modeling aspects and physiological sim-
+ulation aspects of the study.
+Modeling Considerations
+
+INa: Fast sodium current. The fast upstroke velocity
+of the action potential has been measured in single
+cells.13,46,47 The Vmax measured by Brown et al'3 is in
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Lao and Rudy A Model of the Ventricular Cardiac Action Potential
+
+1521
+
+the range of 200-300 V/sec at 20-22°C. By applying
+a minimum Qlo of 1.23,48 Vma is at least 272-410
+V/sec at 37°C. Vm. of the E-J model is 300 V/sec,
+while it is 400 V/sec if computed by the L-R model.
+The faster upstroke in the L-R model results from
+adjusting the reversal potential from 29 mV (E-I
+model) to 54.4 mV to reflect the different intracellu-
+lar sodium concentration in mammals ([Na]i= 18
+mM)13'23 and chicken embryos ([Na]i=40 mM).25
+This adjustment gives Vma~x=400 V/sec in the range of
+measured values. It also results in an overshoot (41.7
+mV) of the action potential that is in good agreement
+with the experimental findings in guinea pig ventric-
+ular cells.31,35
+
+A tetrodotoxin (YTX)-sensitive slow sodium cur-
+rent that affects the action potential duration has
+been identified in single-channel recordings.49-52 In
+guinea pig ventricular cells, a low dose of TTX (.30
+gM) does not affect the APD significantly.35,53 How-
+ever, Kiyosue and Arita,52 using a high dose of TTX
+(60 ,uM), observed -10% shortening of the APD.
+This slow current is different from the window cur-
+rent caused by the overlap of the M3n. and h. curves at
+high potentials,51,52 as demonstrated by the fact that
+TTX can affect the APD with little (or no) change in
+Vmax.9,54 The kinetics of this slow current are still not
+completely elucidated, and it is not included in the
+L-R model. We will have to include this channel in
+future studies (as more data become available),
+especially if effects of drugs are to be studied (some
+local anesthetics can affect this current).
+
+Two time constants (fast and slow) better describe
+the inactivation of the sodium channel.13'49'50'55'56
+This cannot be described by the Hodgkin-Huxley
+kinetics with one inactivation gate. Similar to Beeler
+and Reuter we incorporated two Hodgkin-Huxley-
+type inactivation gates as suggested by Haas et al.24
+Haas et a124 proposed that two inactivation gates (h
+and j in the L-R model) with different time constants
+can describe the macroscopic behavior of the sodium
+current inactivation. Following this strategy, the L-R
+model correctly simulated the behavior of the sodium
+channel observed experimentally (Figures 7 and 8).
+Without slow recovery from inactivation (a property
+not included in the E-J model or in the DiFrancesco-
+Noble model) INa recovery from inactivation follows
+the same time course following different periods of
+inactivation (Figure 7D). This is inconsistent with the
+experimental observations (Figure 7A) by Ebihara et
+al.36 Also, without slow recovery from inactivation,
+the fast recovery of INa results in an unrealistically
+fast recovery of excitability at a high level of mem-
+brane potential during the repolarization phase of an
+action potential (Figure 8D). Note that a conserva-
+tive value of rj was used in our simulations. We used
+a maximum rj of -80 msec at V= -65 mV. Values as
+high as 200 msec were reported in the literature.14
+
+To account for this process of slow recovery from
+inactivation, alternative models to that of Hodgkin
+and Huxley were proposed to describe an inactiva-
+tion gate with two time constants (fast and slow).
+
+Chiu57 proposed a modified Hodgkin-Huxley formal-
+ism (second-order kinetics) to describe two processes
+of inactivation. However, Brown et al13 found that
+the h,(V) curve can be described by a single expo-
+nential, a result that is also supported by the recent
+observations for single-channel recordings.44 This
+deviates from the prediction of Chiu's model57 that
+h, has to be described by two exponentials as a
+function of voltage. Recently, Markov chain models
+have been proposed to describe the sodium channel
+kinetics in cardiac cells.58 Based on single-channel
+recordings and a five-state Markov model,59 Scanley
+et a145 provided a kinetic analysis of the sodium
+channel. The basic five-state model reproduced ob-
+served open-duration data and reopening behavior
+but produced only a single exponential decay of
+current, implying that more complex models are
+required.
+
+Single-channel recordings demonstrate that near-
+threshold potentials for channel activation sodium
+channels tend to open more than once during a
+depolarization (reopening phenomenon44'45). Also, a
+significant fraction of sodium channels do not open
+by the time of peak inward current. These micro-
+scopic phenomena determine the time course of the
+macroscopic current decay and provide the basis for
+the slow macroscopic current inactivation that is
+introduced in our model by the j gate.
+
+IK: Time-dependent potassium current. The formu-
+lation of IK in our model is based on the form
+suggested by Shibasaki26 to fit his data in nodal cells,
+but its parameters are obtained from the B-R model
+of the ventricular action potential. Note that the
+property of [K]O-dependent activation is introduced
+as a square root dependence of the maximum con-
+ductance. In contrast, the DiFrancesco-Noble formu-
+lation5 results in a linear dependence of channel
+conductance on [K]. in the physiological range of
+[K]O from 2 to 10 mM. The simulated results (Figure
+1) are consistent with the experimental findings by
+McDonald and Trautwein29 and Shibasaki26 and in-
+clude minimal crossover between current-voltage
+curves of different [K], and strong inward rectifica-
+tion. An alternative formulation could be constructed
+from the data measured by Matsuura et a127 in guinea
+pig single ventricular cells. They measured the fully
+activated IK curve [IK(V)I for [K]0=5.4 mM and
+proposed that K='K@X2 (IK activation is propor-
+tional to the second power of the activation gate, X).
+We introduced [K]0 dependence in their formulation
+and investigated the behavior of IK for different
+values of [K]O. The results displayed significant cross-
+over between IK curves of different [K]O. This is
+inconsistent with the experimental observations.26'29
+We then introduced this alternative formulation of IK
+in the L-R model of the action potential. Since the
+surface membrane area was not given by Matsuura et
+al,27 we adjusted the maximum conductance (GK)
+based on the mean capacitive membrane area mea-
+sured by Isenberg and Klockner (2x 0-4 cm2/cell)3'
+and Kamp et al (8.52x 10`- cm2/cell).60 This resulted
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1522
+
+Circulation Research
+
+Vol 68, No 6
+
+June 1991
+
+in GK-0.143 mS/cm2 and GK=0.335 mS/cm2, respec-
+tively, in comparison with the L-R GK=0.282 mS/cm2.
+Note that specific capacitance of 1 bLF/cm~ is as-
+sumed. The (adjusted) alternative 'K failed to repo-
+larize the membrane when [K] '.4.5 mM (for
+GK=0.143 mS/cm2) and [K],.<2.2 mM (for GK=0.335
+mS/cm2), and the membrane potential stayed at
+about -30 to -40 mV. This is inconsistent with the
+experimental observations at low [K],. Tseng et a19
+observed repolarization at [K]0=2 mM but not at
+[KE0=1 mM. This behavior is simulated correctly by
+the L-R IK in
+spite of its smaller conductance
+(GK<0.335 mS/cm2). This inability of the Matsuura et
+a127 IK to repolarize the membrane in spite of the
+large conductance results from the X2 dependence of
+IK. For these reasons we formulated the L-R IK to
+depend on X (rather than X2), as suggested by
+Shibasaki.26 It should be emphasized, however, that
+the behavior of IK was demonstrated in a model that
+retains the slow inward current formulation of the
+B-R model. The Matsuura 'K will have to be reexam-
+fined once an accurate model of 'Ca is developed.
+
+IK1(T)
+
+Total time-independent potassium current.
+This current is equivalent to IK'
+in the B-R model3
+and is renamed here IK1(T) based on the following
+recent findings. In single-channel recordings, Kura-
+chi30 found that 1) an inactivation gate (K1) of IKi is
+a function of membrane potential and of the potas-
+sium Nernst potential and 2) this gate completely
+inactivates at plateau potentials, resulting in zero 'I
+current at these potentials. The zero contribution of
+IK1 at plateau potentials was also observed by Isen-
+berg32 and Shah et al.34 Therefore, the total (non-
+zero) time-independent potassium current (IK1(T)) at
+high (plateau) potentials must result from current
+through other channels. Kakei et a161 and Jijima and
+Taira62 found that the shortening of the APD caused
+by potassium channel agonists (nicorandil and pina-
+cidil) is a result of increasing the current only at high
+potentials. This observation supports the Yue and
+Marban12 discovery of a plateau potassium channel
+(1KP) that activates only at high potentials. This
+channel is characterized by a much smaller time
+constant than 'K, no detectable inactivation for more
+than 600 msec, and high selectivity to potassium ions.
+Also, the maximum conductance (GKP) is largely in-
+sensitive to changes in [K]O. This insensitivity is con-
+sistent with the experimental observations by Isenberg
+and Klockner (Figure 8 of Reference 8), Sakmann and
+Trube (Figure 4A of Reference 11), and Tseng et al
+(Figure 2A of Reference 9) in whole-cell recordings.
+They observed that the current-voltage curves of IK(T)
+for different values of [K]O (1-22 mM) overlap at high
+potentials. This overlap implies that the plateau cur-
+rents are insensitive to changes in [K], According to
+the observations described above, 1K1 contributes no
+current at plateau potentials and 'Kp can be treated as
+a component of IK1(T) that is activated only at plateau
+potentials. Also, a background current (1b) exists at
+negative potentials after blocking IKI 32-34 Therefore,
+
+IK1(T) consists of at least three currents (IK1, IKP, and
+Ib). We represent the IKI(T) as the sum of these three
+currents to fit the data measured by Sakmann and
+Trube (Figure 4A of Reference 11) and obtain an
+excellent fit for all values of [K],0 (Figure 3). It is of
+interest to note that the negative slope of the simu-
+lated IK1(T) is smaller than that measured by Kurachi30
+in single-channel recordings. However, the L-R re-
+sult is consistent with the experimental observations
+in multicellular32,63 and single-cell8,9,34 recordings.
+Note that the property of [K]0-dependent activation
+is introduced as a square root dependence of the
+maximum conductance.10,11 This behavior is different
+from the linear dependence on [K]0 over the physio-
+logical range in the DiFrancesco-Noble formulation
+([K]c< <Km,1 in their Equation 13).,-
+Physiological Simulations
+
+Membrane response to premature stimulation. Pre-
+mature stimulation can be used to investigate the
+recovery of membrane excitability during the repo-
+larization phase of an action potential. The simula-
+tions show that the premature membrane response,
+indicated by Vma measured in mammalian ventricu-
+lar cells,14 is well represented by the L-R model
+(Figure 8). We define the absolute refractory period
+as the range of membrane potential for which stim-
+ulation will result in Vmax that is smaller than 20% of
+the fully recovered Vmaya The result (V> -78 mV) of
+the L-R model (Figure 8B) that incorporates the
+process of slow recovery from inactivation is very
+close to the experimental data (>-76 mV, Figure
+8A). In the absence of slow recovery from inactiva-
+tion (E-J model, Figure 8D), the simulation result
+(V> -69 mV) deviates significantly from the experi-
+mental data. Similar behavior is expected from all
+models of the sodium channel that do not incorpo-
+rate the process of slow recovery from inactivation
+(e.g., Drouhard and Roberge64). This comparison
+demonstrates the importance of the process of slow
+recovery from inactivation in determining the time
+course of recovery of membrane excitability during
+repolarization. Since during repolarization j is almost
+completely inactivated and since irj> > ih, it follows
+that the membrane responsiveness is controlled by
+the slow inactivation j gate. Our simulations also
+demonstrate the importance of incorporating the
+correct steady-state characteristics of INa inactivation
+[h.(V) and ja(V)] in the model. The steady-state
+behavior predicted by the B-R model deviates from
+the experimental behavior of cardiac fibers (compare
+curve 2 in Figures 8C and 8A), whereas the L-R
+model (based on the INa data from mammalian
+ventricular cells) simulates the experimental behav-
+ior correctly. It is also important to incorporate the
+correct GN,. The B-R model (GNa=4 mS/Cm2) pre-
+dicts a Vmax that is unrealistically slow (115 V/sec),
+while the L-R model (GNa=23 mS/cm2) predicts a
+V7.
+within the range of measured values (400 V/sec).
+Note that a GNa increase by a factor of almost 6
+results in a Vm.X increase by a factor of about 3. This
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy A Model of the Ventricular Cardiac Action Potential
+
+1523
+
+is because the actual rate of activation of the cardiac
+sodium channel (represented in the L-R model) is
+slower than the rate of activation used in the B-R
+model (modified from squid-axon data). The unreal-
+istic low GNa of the B-R model also leads to an
+unrealistically long latency from threshold potential
+to Vm, (Figure 6D) that is inconsistent with the
+experimental findings.28
+So far, we have considered the membrane response
+at a normal [K]0 ([K]0=5.4 mM). The L-R model
+allows changes in extracellular potassium concentra-
+tion to be incorporated. We studied the membrane
+response to premature stimulation for different [K],.
+The strength-interval curve is determined by the
+critical (minimum) strength of test stimuli needed to
+excite the membrane during the repolarization phase
+of an action potential. Experimentally, the stimulus
+strength decreases monotonically with repolarization
+at normal [K]O; however, supernormal excitability has
+been identified as an interval in which nonmonotonic
+behavior of the strength-interval curve occurs at low
+[K]0.7,39 The results (Figure 9) of the L-R model
+simulations are consistent with the experimental ob-
+servations. For [K]o>4.6 mM, the threshold potential
+decreases during repolarization at a rate that is faster
+than the rate of repolarization (Figure 12). As a result,
+membrane excitability increases monotonically during
+repolarization. For low [K]0 ([K]04.6 mM) there is a
+range during late repolarization at which the rate of
+membrane repolarization is faster than the decrease
+of threshold potential (Figure 12).38 This results in a
+decrease of excitability over this range and, therefore,
+in a nonmonotonic recovery of membrane excitability
+(Figure 9). The presence of an interval during which
+excitability is higher than in the adjacent (previous
+and following) intervals is known as "supernormality."'
+At the level of channel kinetics, this behavior is a
+consequence of different kinetics of slow recovery
+from inactivation of INa at different values of [K]O. As
+[K]0 decreases from 7 to 3 mM, resting potential
+(primarily controlled by IK1), becomes more negative
+(from - 78.2 to - 95.5 mV) so that the time constant of
+sodium channel recovery, dominated by the slow
+inactivation j gate, becomes smaller (ij decreases from
+33 to 7 msec). As a result, the sodium channel recovers
+earlier in the repolarization phase at a range for which
+repolarization is faster than the rate of decrease of
+threshold potential, and a supernormal window is
+created. The interaction between lKl and slow recov-
+ery from inactivation of INa in response to changes in
+[K]O determines the amplitude and width of the win-
+dow of supernormal excitability (Figure 9). Without
+the process of slow recovery from inactivation, the
+sodium channel recovers unrealistically earlier so that
+supernormality is observed even when [K]0 is as high
+as 7 mM (Figure 1lA). This is inconsistent with the
+experimental observations.7'39
+Periodic stimulation at normal [K]0. Wenckebach
+rate-dependent block was originally characterized as
+a propagation-related process that involves decre-
+mental conduction. Wenckebach65 described this
+
+phenomenon in the atrioventricular node. Wencke-
+bach periodicity was also demonstrated in cardiac
+tissue that contained a region of depressed conduc-
+tion separating two regions of normal excitability.66
+Recently, Wenckebach periodicity was demonstrated
+in a single ventricular cell under periodic stimula-
+tion,6,40 indicating that the phenomenon is an intrin-
+sic property of the cell membrane. Using the L-R
+model at normal [K]O (5.4 mM), we investigated the
+cellular mechanism of the periodic rate-dependent
+block. The simulations demonstrate that this process
+is dominated by the kinetics of the X gate of IK. This
+is because membrane excitability is influenced to a
+large extent by the loss of charge to the extracellular
+medium through the IK channel during stimuli of
+relatively long duration (20 msec) (see Figures 13 and
+14).
+
+As the BCL of periodic stimulation decreases from
+2,000 msec, a monotonic decrease of the R: S ratio is
+observed (staircase in Figure 16B). In our simula-
+tions, noninteger patterns of S: R ratios are observed
+in the transition interval between integer S: R ratios.
+For example, noninteger Wenckebach patterns (8:7,
+7:6, 6:5, etc.) are found between 1: 1 and 2: 1 (Figure
+16B). These patterns are observed in a very narrow
+interval of about 2 msec. The fact that these patterns
+occur over such a narrow time interval might be the
+reason why these various Wenckebach patterns could
+not be sustained in single myocyte preparations2840
+since small perturbations (e.g., in temperature and
+pipette resistance) can cause large changes relative
+to the narrow transition range. In multicellular prep-
+arations7,65,66 the transition intervals are longer (up
+to 100 msec) and stable noninteger Wenckebach
+patterns are observed.
+
+The appearance of Wenckebach block patterns is
+related to beat-to-beat changes in APD (measured
+from Vma, to 90% repolarization) and the latency
+from onset of stimulation to Vma. Both parameters
+are controlled by the degree of IK deactivation (ki-
+netics of the X gate). For long BCL (BCL>920
+msec), APD of all beats in a Wenckebach pattern
+remains almost constant (see Figure 15), while the
+latency increases progressively so that deactivation
+time (BCL-APD-latency) of the X gate decreases
+monotonically, bringing about a progressive beat-to-
+beat decrease of membrane excitability. This process
+continues until activation failure occurs. This is the
+typical (classical) Wenckebach rate-dependent block
+observed in cardiac Purkinje fibers7 and in single
+ventricular myocytes.640 When BCL decreases (920
+msec.BCL>700 msec), the pattern of beat-to-beat
+changes becomes different from the typical behavior
+described above. APD does not remain constant, and
+recovery time first increases (from second to third
+beat) and then decreases monotonically. However,
+membrane excitability still decreases monotonically
+from beat to beat until activation failure occurs. This
+is because the beat-to-beat increase in the value of
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1524
+
+Circulation Research
+
+Vol 68, No 6
+
+June 1991
+
+the X gate at the time of stimulation more than
+compensates for the initial increase in recovery time
+(see Figure 18). This atypical (nonmonotonic) behav-
+ior of recovery time can be observed in the data of
+Delmar et a16 for stimulation at BCL=910 msec. A
+careful inspection of Figure lB in their paper dem-
+onstrates that total APD (APD+latency) of the first
+beat in a Wenckebach pattern is greater than that of
+the second beat; also, the value of plateau potential is
+decreased. These experimental findings are consis-
+tent with the simulations presented here (Figures 17
+and 18).
+
+When BCL further decreases (<560 msec), the
+increase in the value of the X gate (i.e., degree of IK
+activation) does not compensate for the initial in-
+crease in recovery time. As a result, membrane excit-
+ability increases at the time of the next stimulus,
+resulting in an action potential of long duration. This
+implies a shorter recovery time and lower membrane
+excitability at the time of the following stimulus, so
+that the following action potential is of short duration.
+A pattern of beat-to-beat alternans in APD is thus
+established. The amplitude of alternans (see Figure
+19) decreases monotonically until a stable activation
+pattern (1:1) with constant APD (smaller than that of
+the fully recovered action potential) is established.
+Noninteger Wenckebach patterns cannot be found
+when alternans occur. This is consistent with the
+experimental observations (at BCL=430 msec) in
+isolated rabbit ventricular myocytes.67 The reason is
+that both phenomena (noninteger Wenckebach pat-
+terns and alternans) cannot occur simultaneously.
+Alternans occur at small BCL, at a range where there
+is a strong dependence of APD on the time of
+stimulation (Figure 15), reflecting a strong depen-
+dence of the X gate deactivation on the time of
+stimulation. At this range, the changes in APD are
+much larger than changes in the latency from stimulus
+to Vmax, so that the recovery time is determined by
+APD. Since the first beat is of the longest APD (a fully
+recovered action potential), the recovery time to the
+second beat is the shortest and all following stimula-
+tions will be successful. Hence, a 1: 1 pattern is always
+established when alternans are present. In contrast,
+noninteger Wenckebach patterns are established at a
+range of BCL for which large beat-to-beat changes in
+the latency from stimulus to Vmax and small changes in
+APD are present. At this range, recovery time is
+determined by the latency from stimulus to Vmax,
+which increases monotonically from beat to beat. The
+result is a monotonically decreasing recovery time
+leading to block. Delmar et a128 used the B-R model
+with modified IKI to investigate the Wenckebach phe-
+nomenon for long BCL. The simulated transition
+interval during which noninteger Wenckebach pat-
+terns were observed was longer than 20 msec. With
+such a long interval, one expects that systematic
+measurements of Wenckebach patterns in single cells
+will reveal persistent noninteger ratios. This is incon-
+sistent with experimental observations.6.28,40
+
+Periodic stimulation at low [K],. The L-R model
+incorporates the possibility of changing [K]0. We
+studied the effects of changes in [K], on the cell
+response to periodic stimulation. At low [K]0 the
+nonmonotonic behavior of the strength-interval
+curve (Figure 20A) allows stimuli to excite the mem-
+brane during the supernormal phase but not at
+adjacent (earlier or later) intervals. This discontinu-
+ity in excitability together with the high sensitivity of
+APD to the time of stimulation (Figure 20B) during
+the supernormal phase brings about nonmonotonic
+behavior of the R:S curve and unstable activation
+patterns (Figure 21). This complex behavior was
+observed experimentally and described in a recent
+paper by Chialvo et al.7 For long BCL (.410 msec),
+stimulation is seldom timed during the supernormal
+phase. As a result, stable but complex activation
+patterns are observed (such as 10:6, 12:8, 6:4, and
+20:11). Also, the same activation patterns are re-
+peated at different ranges of BCL (nonmonotonic
+staircase behavior, see Figure 22). For short BCL
+(<205 msec), stimulation is frequently timed during
+the supernormal phase. Consequently, highly aperi-
+odic patterns that do not stabilize for more than 250
+consecutive stimuli are observed (Figure 23). This is
+consistent with the experimental findings of Chialvo
+et al.7 A very small change in BCL (from 200.4 to
+200.7 msec) results in very different patterns, indicat-
+ing very high sensitivity to initial conditions. The
+unstable patterns are frequently characterized by
+successful activations during the early repolarization
+phase of an action potential. This action potential
+was initiated by a stimulus applied during the super-
+normal phase. It is characterized by low plateau
+potentials, in the range where IKI(T) exhibits a nega-
+tive slope. The decrease of IK1(T) with depolarization
+at this range results in higher membrane excitability
+and a possibility of successful activation during the
+early repolarization phase of an action potential. It
+should be noted that when we eliminate the negative
+slope in the current-voltage curve of IKI(T), the unsta-
+ble aperiodic patterns disappear. Also, the successful
+activation at this range is a "slow response" caused
+by activation of 'Si and not of INa. Similar unstable
+aperiodic patterns were predicted by an analytic
+(difference-differential) model formulated by Chi-
+alvo et al.7 Their model is based on the relations
+between excitability, latency, and APD. They show
+that the appearance of aperiodic patterns is related
+to the presence of supernormality and to the shape of
+the APD restitution curve at short diastolic intervals.
+These observations are consistent with the behavior
+of our membrane model and, as elucidated by our
+simulations, reflect both large changes in the state of
+deactivation of the IK channel (X gate) and the
+negative slope characteristic of IK1I(T)
+In summary, the membrane model developed here
+correctly simulates various phenomena that result
+from the interaction of excitation and repolarization.
+This is an important property of the model since
+reentrant arrhythmias involve this type of interaction
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Lao and Rudy A Model of the Ventricular Cardiac Action Potential
+
+1525
+
+between head and tail of the reentrant action poten-
+tial.17 Another property of the model is the ability to
+introduce changes in [K]. This is also an important
+aspect of the model since elevated [K],
+is an impor-
+tant aspect of ischemia that influences propagation
+and arrhythmogenesis.
+
+The simulations of membrane response to prema-
+ture stimulation predict a variety of rate-dependent
+phenomena. These include Wenckebach periodicity,
+beat-to-beat alternans of APD, and (because of super-
+normality at low [K]0) unstable aperiodic response
+patterns that display high sensitivity to initial condi-
+tions. The occurrence of Wenckebach periodicity in
+our simulations support other observations that this
+phenomenon is an intrinsic property of single cardiac
+cells. This observation suggests that the single-cell
+response under a variety of conditions might play an
+important role in arrhythmogenesis. The occurrence
+of beat-to-beat alternans in the simulations is intrigu-
+ing. Beat-to-beat alternans in APD are a property of
+reentrant action potentials.17,68 In a broader sense,
+electrical alternans are detected in many circum-
+stances that are associated with ventricular fibrillation
+and, as suggested by Guevara et al,67 may reflect the
+first in a cascade of period-doubling bifurcations that
+eventually result in chaos, that is, fibrillation.69 As with
+Wenckebach periodicity, the observation that alter-
+nans can be generated at the level of the single cell
+points to the possible important role of the single-cell
+response in arrhythmogenesis. Finally, the appearance
+of highly aperiodic patterns that are extremely sensi-
+tive to initial conditions might also be related to
+arrhythmogenesis since it implies that short propaga-
+tion delays (-1 msec) can initiate very different
+responses in neighboring cells (or multicellular fiber
+bundles). Note that propagation delays of this magni-
+tude can occur across gap junctions under a very
+moderate degree of cell-to-cell uncoupling.1516 We
+conclude with a word of caution. The behaviors de-
+scribed above are the responses of isolated cells. In
+the heart, the behavior of cells is modulated by loading
+conditions and electrotonic interactions.70 The re-
+sponse of a cell in an ensemble may, therefore, be
+different from its intrinsic response. Under conditions
+of increased cell-to-cell uncoupling the individual re-
+sponse of cells (or of a group of cells, i.e., fiber
+bundles) may become unmasked, bringing about con-
+ditions that favor arrhythmogenesis. Verification of
+these hypotheses awaits further experimentation in
+multicellular preparations and simulations in a multi-
+cellular model of cardiac tissue.
+
+Acknowledgments
+
+We would like to thank Dr. Gerald Saidel for his
+help with the parameter estimation procedure. We also
+thank Dr. Weilun Quan for very helpful discussions.
+
+References
+
+1. Hodgkin AL, Huxley AF: A quantitative description of mem-
+brane current and its application to conduction and excitation
+in nerve. J Physiol (Lond) 1952;117:500-544
+
+2. McAllister RE, Noble D, Tsien RW: Reconstruction of the
+electrical activity of cardiac Purkinje fibres. J Physiol (Lond)
+1975;251:1-59
+3. Beeler GW, Reuter H: Reconstruction of the action potential
+of ventricular myocardial fibres. J Physiol (Lond) 1977;268:
+177-210
+
+4. Ebihara L, Johnson EA: Fast sodium current in cardiac
+muscle: A quantitative description. Biophys J 1980;32:779-790
+5. DiFrancesco D, Noble D: A model of cardiac electrical activity
+incorporating ionic pumps and concentration changes. Philos
+Trans R Soc Lond [Biol] 1985;307:353-398
+6. Delmar M, Michaels DC, Jalife J: Slow recovery of excitability
+and the Wenckebach phenomenon in the single guinea pig
+ventricular myocyte. Circ Res 1989;65:761-774
+7. Chialvo DR, Michaels DC, Jalife J: Supernormal excitability
+as a mechanism of chaotic dynamics of activation in cardiac
+Purkinje fibers. Circ Res 1990;66:525-545
+8. Isenberg G, Klockner U: Isolated bovine ventricular myocytes:
+Characterization of the action potential. Pflugers Arch 1982;
+395:19-29
+9. Tseng GN, Robinson RB, Hoffmann BF: Passive properties
+and membrane currents of canine ventricular myocytes. J Gen
+Physiol 1987;90:671-701
+10. Sakmann B, Trube G: Conductance properties of single
+inwardly rectifying potassium channels in ventricular cells
+from guinea-pig heart. JPhysiol (Lond) 1984;347:641-657
+11. Sakmann B, Trube G: Voltage-dependent inactivation of
+inward-rectifying single-channel currents in the guinea-pig
+heart cell membrane. J Physiol (Lond) 1984;347:659-683
+12. Yue DT, Marban E: A novel cardiac potassium channel that is
+active and conductive at depolarized potentials. Pflugers Arch
+1988;413:127-133
+13. Brown AM, Lee KS, Powell T: Sodium currents in single rat
+heart muscle cells. J Physiol (Lond) 1981;318:479-500
+14. Gettes LS, Reuter H: Slow recovery from inactivation of
+inward currents in mammalian myocardial fibres. J Physiol
+(Lond) 1974;240:703-724
+15. Rudy Y, Quan W: A model study of the effects of the discrete
+cellular structure on electrical propagation in cardiac tissue.
+Circ Res 1987;61:815-823
+16. Rudy Y, Quan W: The effects of the discrete cellular structure
+on propagation of excitation in cardiac tissue: A model study,
+in Sperelakis N, Cole W (eds): Cell Interactions and Gap
+Junctions. Boca Raton, Fla, CRC Press, 1989, pp 123-142
+17. Quan W, Rudy Y: Unidirectional block and reentry of cardiac
+excitation: A model study. Circ Res 1990;66:367-382
+18. Rush S, Larsen H: A particular algorithm for solving dynamic
+membrane equations. IEEE Trans Biomed Eng 1978;25:
+389-392
+19. Victorri B, Vinet A, Roberge FA, Drouhard JP: Numerical
+integration in the reconstruction of cardiac action potentials
+using Hodgkin-Huxley-type models. Comput Biomed Res 1985;
+18:10-23
+20. Moore JW, Ramon F: On numerical integration of the
+Hodgkin and Huxley equations for a membrane action poten-
+tial. J Theor Biol 1974;45:249-273
+21. Dennis JE, Gay DM, Welsch RE: An adaptive nonlinear
+least-squares algorithm. ACM Trans Math Softw 1981;7:
+348-368
+22. Weidmann S: Electrical constants of trabecular muscle from
+mammalian heart. J Physiol (Lond) 1970;210:1041-1054
+23. Nilius B: Calcium block of guinea-pig heart sodium channels
+with and without modification by the piperazinylindole DPI
+201-106. J Physiol (Lond) 1988;399:537-558
+24. Haas HG, Kern R, Einwachter HM, Tarr M: Kinetics of Na
+inactivation in frog atria. Pflugers Arch 1971;323:141-157
+25. Ebihara L, Shigeto N, Liberman M, Johnson EA: The initial
+inward current in spherical clusters of chick embryonic heart
+cells. J Gen Physiol 1980;75:437-456
+26. Shibasaki T: Conductance and kinetics of delayed rectifier
+potassium channels in nodal cells of the rabbit heart. J Physiol
+(Lond) 1987;387:227-250
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1526
+
+Circulation Research
+
+Vol 68, No 6
+
+June 1991
+
+27. Matsuura H, Ehara T, Imoto Y: An analysis of the delayed
+outward current in single ventricular cells of the guinea pig.
+Pftugers Arch 1987;410:596-603
+
+28. Delmar M, Glass L, Michaels DC, Jalife J: Ionic basis and
+analytical solution of the Wenckebach phenomenon in guinea
+pig ventricular myocytes. Circ Res 1989;65:775-788
+
+29. McDonald TF, Trautwein W: The potassium current underly-
+ing delayed rectification in cat ventricular muscle. J Physiol
+(Lond) 1978;274:217-246
+
+30. Kurachi Y: Voltage-dependent activation of the inward-
+rectifier potassium channel in the ventricular cell membrane
+of guinea-pig heart. J Physiol (Lond) 1985;366:365 -385
+
+31. Isenberg G, Klockner U: Calcium tolerant ventricular myo-
+cytes prepared by preincubation in a "KB medium."' Pflugers
+Arch 1982;395:6-18
+
+32. Isenberg G: Cardiac Purkinje fibers: Cesium as a tool to block
+inward rectifying potassium currents. Pflugers Arch 1976;365:
+99-106
+
+33. Hirano Y, Hiraoka M: Changes in K' currents induced by
+Ba2+ in guinea pig ventricular muscles. Am J Physiol 1986;251:
+H24-H33
+
+34. Shah AK, Cohen IS, Datyner NB: Background K' current in
+isolated canine cardiac Purkinje myocytes. Biophvs J 1987;52:
+519-525
+
+35. Hume JR, Uehara A: Ionic basis of the different action
+potential configurations of single guinea-pig atrial and ventric-
+ular myocytes. J Physiol (Lond) 1985;368:525 -544
+
+36. Ebihara L, Shigeto N, Lieberman M, Johnson EA: A note on
+the reactivation of the fast sodium current in spherical clusters
+of embryonic chick heart cells. Biophys J 1983;42:191-194
+
+37. Hoff HE, Nahum LH: The supernormal period in the mam-
+
+malian ventricle. Am J Physiol 1938;124:591-595
+
+38. Weidmann S: Effects of calcium ions and local anaesthetics on
+electrical properties of Purkinje fibers. J Phvsiol (Lond) 1955;
+129:568-582
+
+39. Spear JF, Moore EL: The effect of changes in rate and rhythm
+on supernormal excitability in the isolated Purkinje system of
+the dog. Circulation 1974;50:1144-1149
+
+40. Guevara MR, Jeandupeux D, Alonso F, Morissette N: Wencke-
+bach rhythms in isolated ventricular heart cells, in Pnevmati-
+kos S, Bountis T, Pnevmatikos S (eds): Singular Behavior and
+Nonlinear Dynamics. London, World Scientific, 1989. vol 2, pp
+629-642
+
+41. Elharrar V, Surawicz B: Cycle length effect on restitution of
+action potential duration in dog cardiac fibers. Am J Physiol
+1983;244(Heart Circ Physiol 13):H782-H792
+
+42. Robinson RB, Boyden PA, Hoffman BF, Hewett KW: Elec-
+trical restitution process in dispersed canine cardiac Purkinje
+and ventricular cells. Am J Physiol 1987;253(Heart Circ Physiol
+22):H1018-H1025
+
+43. Yue DT, Lawrence JH, Marban E: Two molecular transitions
+influence cardiac sodium channel gating. Science 1989;244:
+349-352
+
+44. Berman MF, Camardo JS, Robinson RB, Siegelbaum SA:
+Single sodium channels from canine ventricular myocytes:
+Voltage dependence and relative rates of activation and
+inactivation. J Physiol (Lond) 1989;415:503-531
+
+45. Scanley BE, Hanck DA, Chay T, Fozzard HA: Kinetic analysis
+of single sodium channels form canine cardiac Purkinje cells.
+J Gen Physiol 1990;95:411- 437
+
+46. Bodewei R, Hering S, Lemke B, Rosenshtraukh LV, Undrov-
+inas AI, Wollenberger A: Characterization of the fast sodium
+current in isolated rat myocardial cells: Simulation of the
+clamped membrane potential. J Physiol (Lond) 1982;325:
+301-315
+
+47. Zilberter YI, Timin EN, Bendukidze ZA, Burnashev NA:
+Patch-voltage-clamp method for measuring fast inward cur-
+rent in single rat heart muscle cells. Pflugers Arch 1982;394:
+150-155
+
+48. Colatsky TJ: Voltage clamp measurements of sodium channel
+properties in rabbit cardiac Purkinje fibres. J Physiol (Lond)
+1980:305:215-234
+
+49. Patlak JB, Ortiz M: Slow currents through single sodium
+channels of the adult rat heart. J Gen Physiol 1985;86:89-104
+50. Kunze DL, Lacerda AE, Wilson DL, Brown AM: Cardiac Na
+currents and the inactivating, reopening, and waiting proper-
+ties of single cardiac Na channel. J Gen Physiol 1985:86:
+691-719
+51. Grant AO, Starmer CF: Mechanisms of closure of cardiac
+sodium channels in rabbit ventricular myocytes: Single-
+channel analysis. Circ Res 1987;60:897-913
+52. Kiyosue T, Arita M: Late sodium current and its contribution
+to action potential configuration in guinea pig ventricular
+myocytes. Circ Res 1989;64:389-397
+
+53. Leblanc N, Hume JR: Sodium current-induced release of
+calcium from cardiac sarcoplasmic reticulum. Science 1990;
+248:372-376
+54. Coraboeuf E, Deroubaix E, Coulombe A: Effects of tetrodo-
+toxin on action potentials of the conducting system in the dog
+heart. Am J Physiol 1979;236:H561-H567
+55. Makielski JC, Sheets MF, Hanck DA, January CT, Fozzard
+HA: Sodium current in voltage clamped internally perfused
+canine cardiac Purkinje cells. Biophys J 1987;52:1-11
+
+56. Kirsch GE, Brown AM: Kinetic properties of single sodium
+channels in rat heart and rat brain. J Gen Phvsiol 1989;93:
+85-99
+
+57. Chiu SY: Inactivation of sodium channels: Second order
+in myelinated nerve. J Phvsiol (Lond) 1977.273:
+
+kinetics
+573-596
+
+58. French RJ, Horn R: Sodium channel gating: Models, mimics
+
+and modifiers. Annu Rev Biophys Bioeng 1983;12:319-356
+
+59. Horn R, Vandenberg CA: Statistical properties of single
+
+sodium channels. J Gen Phvsiol 1984;84:505-534
+
+60. Kamp TJ, Sanguinetti MC, Miller RJ: Voltage- and use-
+dependent modulation of cardiac calcium channels by the
+dihydropyridine (+)-202-791. Circ Res 1989;64:338-351
+
+61. Kakei M, Yoshinaga M, Saito K, Tanaka H: The potassium
+current activated by 2-nicotinamidoethyl nitrate (nicorandil)
+in single ventricular cells of guinea pigs. Proc R Soc Lond
+[Biol] 1986;229:331-343
+
+62. lijima T, Taira N: Pinacidil increases the background potas-
+sium current in single ventricular cells. Eur J Pharmacol
+1987;141:139-141
+
+63. Cleemann L, Morad M: Potassium currents in frog ventricular
+muscle: Evidence from voltage clamp currents and extracellu-
+lar K accumulation. J Physiol (Lond) 1979;286:113-143
+
+64. Drouhard JP, Roberge FA: Revised formulation of the
+Hodgkin-Huxley representation of the sodium current in
+cardiac cells. Comput Biomed Res 1987;20:333-350
+
+65. Wenckebach KF: Zur Analyse des unregelmassingen Pulses:
+II. Uber den regelmassig intermittirenden Puls. Z F Klin Med
+1899;37:475-488
+
+66. Jalife J, Moe GK: Excitation, conduction and reflection of
+impulses in isolated bovine and canine cardiac Purkinje fibers.
+Circ Res 1981;49:233-247
+
+67. Guevara MR, Alonso F, Jeandupeux D, Van Ginneken ACG:
+Alternans in periodically stimulated isolated ventricular myo-
+cytes: Experiment and model, in Goldbeter A (ed): Cell to Cell
+Signalling: From Experments to Theoretical Models. New York,
+Academic Press, Inc, 1989, pp 551-563
+
+68. Frame L, Simson M: Oscillations of conduction, action poten-
+1988;78:
+
+tial duration, and refractoriness.
+1277-1287
+
+Circulation
+
+69. Adam DR, Smith JM, Akselrod S, Nyberg S, Powell AO,
+Cohen RJ: Fluctuations in T-wave morphology and suscepti-
+bility
+1984;17:
+209-218
+
+to ventricular fibrillation. J Electrocardiol
+
+70. Lesh MD, Pring M, Spear JF: Cellular uncoupling can unmask
+dispersion of action potential duration in ventricular myocar-
+dium: A computer modeling studv.
+Circ Res 1989;65:
+1426-1440
+
+KEY WORDS *
+fast sodium
+channel * potassium channels * supernormality * Wenckebach
+periodicity
+
+cardiac action potential model *
+
+chaotic activity
+
+*
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+A model of the ventricular cardiac action potential. Depolarization, repolarization, and
+
+their interaction.
+C H Luo and Y Rudy
+
+1991;68:1501-1526
+Circ Res.(cid:160)
+doi: 10.1161/01.RES.68.6.1501
+
+Circulation Research 
+
+is published by the American Heart Association, 7272 Greenville Avenue, Dallas, TX 75231
+Copyright © 1991 American Heart Association, Inc. All rights reserved.
+
+Print ISSN: 0009-7330. Online ISSN: 1524-4571 
+
+The online version of this article, along with updated information and services, is located on the
+
+World Wide Web at: 
+
+ 
+http://circres.ahajournals.org/content/68/6/1501
+
+Circulation Research
+
+ Requests for permissions to reproduce figures, tables, or portions of articles originally published
+
+Permissions:
+in
+ can be obtained via RightsLink, a service of the Copyright Clearance Center, not the
+Editorial Office. Once the online version of the published article for which permission is being requested is 
+located, click Request Permissions in the middle column of the Web page under Services. Further information
+about this process is available in the
+(cid:160) 
+Reprints:
+http://www.lww.com/reprints
+ 
+(cid:160) 
+Subscriptions:
+http://circres.ahajournals.org//subscriptions/
+ 
+(cid:160) 
+
+ Information about reprints can be found online at: 
+
+ Information about subscribing to 
+
+Permissions and Rights Question and Answer 
+
+document. 
+
+Circulation Research 
+
+is online at: 
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+

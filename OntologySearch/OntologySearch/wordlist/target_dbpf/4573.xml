@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4573">
+<itemtype>xnppaper</itemtype>
+<titles><title>Dendritic electrogenesis in rat hippocampal CA1 pyramidal neurons: functional aspects of Na+ and Ca2+ currents in apical dendrites.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Calcium</keyword>
+<keyword>physiology</keyword>
+<keyword>Calcium Channels</keyword>
+<keyword>physiology</keyword>
+<keyword>Dendrites</keyword>
+<keyword>physiology</keyword>
+<keyword>Electromagnetic Fields</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Male</keyword>
+<keyword>Nerve Regeneration</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Potassium</keyword>
+<keyword>physiology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Refractory Period</keyword>
+<keyword>Electrophysiological</keyword>
+<keyword>physiology</keyword>
+<keyword>Sodium</keyword>
+<keyword>physiology</keyword>
+<keyword>Sodium Channels</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-03T01:32:15Z</last_update_date>
+<creation_date>2011-02-03T01:32:15Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4573</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4573" version="1.02">
+<authors><author>Andreasen M</author><author>Nedergaard S</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>1</number>
+<page>79-95</page>
+<abstract>The regenerative properties of CA1 pyramidal neurons were studied through differential polarization with external electrical fields. Recordings were obtained from somata and apical dendrites in the presence of 6-cyano-7-nitroquinoxaline-2,3-dione (CNQX), DL-2-amino-5-phosphonovaleric acid (APV), and bicuculline. S+ fields hyperpolarized the distal apical dendrites and depolarized the rest of the cell, whereas S divided by fields reversed the polarization. During intradendritic recordings, S+ fields evoked either fast spikes or compound spiking. The threshold response consisted of a low-amplitude fast spike and a slow depolarizing potential. At higher field intensities the slow depolarizing potential increased in amplitude, and additional spikes of high amplitude appeared. During intrasomatic recordings, S+ field evoked repetitive firing of fast spikes, whereas S divided by fields evoked a slow depolarizing potential on top of which high- and low-amplitude spikes were evoked. Tetrodotoxin (TTX) blocked all types of responses in both dendrites and somata. Perfusion with Ca(2+)-free, Co(2+)-containing medium increased the frequency and amplitude of fast spikes evoked by S+ field and substantially reduced the slow depolarizing potential evoked by S+ field and substantially reduced the slow depolarizing potential evoked by S divided by fields. Antidromic stimulation revealed that an all-or-none dendritic component was activated in the distal apical dendrites by back-propagating somatic spikes. The dendritic component had an absolute refractory period of about 4 ms and a relative refractory period of 10-12 ms. Ca(2+)-dependent spikes in the dendrites were followed by a long-lasting afterhyperpolarization (AHP) and a decrease in membrane input resistance, during which dendritic excitability was selectively reduced. The data suggest that generation of fast Na+ currents and slow Ca2+ currents in the distal part of apical dendrites is highly sensitive to the dynamic state of the dendritic membrane. Depending on the mode and frequency of activation these currents can exert a substantial influence on the input-output behavior of the pyramidal neurons.</abstract>
+<pubmed_id>8878746</pubmed_id>
+</detail>
+</item>

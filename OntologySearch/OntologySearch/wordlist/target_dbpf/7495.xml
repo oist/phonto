@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7495">
+<itemtype>xnppaper</itemtype>
+<titles><title>A cortical-hippocampal system for declarative memory.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Neocortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T01:38:13Z</last_update_date>
+<creation_date>2013-03-28T01:38:13Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7495</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7495" version="1.02">
+<authors><author>Eichenbaum H</author></authors>
+<journal>Nature reviews. Neuroscience</journal>
+<volume>1</volume>
+<number>1</number>
+<page>41-50</page>
+<abstract>Recent neurobiological studies have begun to reveal the cognitive and neural coding mechanisms that underlie declarative memory--our ability to recollect everyday events and factual knowledge. These studies indicate that the critical circuitry involves bidirectional connections between the neocortex, the parahippocampal region and the hippocampus. Each of these areas makes a unique contribution to memory processing. Widespread high-order neocortical areas provide dedicated processors for perceptual, motor or cognitive information that is influenced by other components of the system. The parahippocampal region mediates convergence of this information and extends the persistence of neocortical memory representations. The hippocampus encodes the sequences of places and events that compose episodic memories, and links them together through their common elements. Here I describe how these mechanisms work together to create and re-create fully networked representations of previous experiences and knowledge about the world.</abstract>
+<pubmed_id>11252767</pubmed_id>
+</detail>
+</item>

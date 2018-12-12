@@ -1,0 +1,19 @@
+Animals
+Egtazic Acid
+pharmacology
+Electric Stimulation
+Evoked Potentials
+Fluorides
+pharmacology
+Guinea Pigs
+Hippocampus
+physiology
+Membrane Potentials
+drug effects
+Microelectrodes
+Neurons
+drug effects
+physiology
+Synapses
+physiology
+In invertebrate nervous systems, some long-lasting increases in synaptic efficacy result from changes in the presynaptic cell. In the vertebrate nervous system, the best understood long-lasting change in synaptic strength is long-term potentiation (LTP) in the CA1 region of the hippocampus. Here the process is initiated postsynaptically, but the site of the persistent change is unresolved. Single CA3 hippocampal pyramidal cells receive excitatory inputs from associational-commissural fibers and from the mossy fibers of dentate granule cells and both pathways exhibit LTP. Although the induction of associational-commissural LTP requires in the postsynaptic cell N-methyl-D-aspartate (NMDA) receptor activation, membrane depolarization, and a rise in calcium, mossy fiber LTP does not. Paired-pulse facilitation, which is an index of increased transmitter release, is unaltered during associational-commissural LTP but is reduced during mossy fiber LTP. Thus, both the induction and the persistent change may be presynaptic in mossy fiber LTP but not in associational-commissural LTP.

@@ -1,0 +1,32 @@
+Adolescent
+Adult
+Artifacts
+Brain Mapping
+Female
+Functional Laterality
+physiology
+Hippocampus
+anatomy
+&
+histology
+physiology
+Humans
+Learning
+physiology
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Models
+Neurological
+Neural Pathways
+anatomy
+&
+histology
+physiology
+Neuropsychological Tests
+Observer Variation
+Psychomotor Performance
+physiology
+Reproducibility of Results
+Investigators have recently begun to examine the differential role of subregions of the hippocampus in episodic memory. Two distinct models have gained prominence in the field. One model, outlined by Moser and Moser (Hippocampus 1998;8:608-619), based mainly on animal studies, has proposed that episodic memory is subserved by the posterior two-thirds of the hippocampus alone. A second model, derived by Lepage et al. (Hippocampus 1998;8:313-322) from their review of 52 PET studies, has suggested that the anterior hippocampus is activated by memory encoding while the posterior hippocampus is activated by memory retrieval. Functional magnetic resonance imaging (fMRI) studies have tended to show limited activation in the anteriormost regions of the hippocampus, providing support for the Moser and Moser model. A potential confounding factor in these fMRI studies, however, is that susceptibility artifact may differentially reduce signal in the anterior versus the posterior hippocampus. In the present study, we examined activation differences between hippocampal subregions during encoding and retrieval of words and interpreted our findings within the context of these two models. We also examined the extent to which susceptibility artifact affects the analysis and interpretation of hippocampal activation by demonstrating its differential effect on the anterior versus the posterior hippocampus. Both voxel-by-voxel and region-of-interest analyses were conducted, allowing us to quantify differences between the anterior and posterior aspects of the hippocampus. We detected significant hippocampal activation in both the encoding and retrieval conditions. Our data do not provide evidence for regional anatomic differences in activation between encoding and retrieval. The data do suggest that, even after accounting for susceptibility artifact, both encoding and retrieval of verbal stimuli activate the middle and posterior hippocampus more strongly than the anterior hippocampus. Finally, this study is the first to quantify the effects of susceptibility-induced signal loss on hippocampal activation and suggests that this artifact has significantly biased the interpretation of earlier fMRI studies.

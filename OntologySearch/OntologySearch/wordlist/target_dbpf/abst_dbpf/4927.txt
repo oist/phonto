@@ -1,0 +1,23 @@
+Adult
+Brain Mapping
+Female
+Hippocampus
+blood supply
+physiology
+radionuclide imaging
+Humans
+Learning
+physiology
+Memory
+physiology
+Oxygen Radioisotopes
+pharmacokinetics
+Regional Blood Flow
+Temporal Lobe
+blood supply
+physiology
+radionuclide imaging
+Tomography
+Emission-Computed
+methods
+Recent neuroimaging studies have obtained evidence of activation in the medial temporal lobe (MTL) during episodic encoding and retrieval. On the basis of a meta-analysis of MTL activations in studies that used positron emission tomography (PET), Lepage et al. (Hippocampus 1998;8:313-322) suggested that episodic encoding tends to involve the anterior MTL, whereas episodic retrieval tends to involve the posterior MTL. In a meta-analysis of studies that used PET and functional magnetic resonance imaging, Schacter and Wagner (Hippocampus 1999;9:7-24) reported weaker evidence for such a rostrocaudal distribution of encoding and retrieval activations. However, these meta-analyses were based largely on studies that examined encoding or retrieval separately. Here, we report a direct, within-subjects comparison of MTL activation during episodic encoding and retrieval by using PET. Results indicated that both encoding and retrieval were associated with blood flow increases in similar MTL regions with little indication that encoding and retrieval are preferentially associated with activity in the anterior versus the posterior MTL. Direct comparisons revealed greater blood flow increases in posterior MTL during encoding than retrieval.

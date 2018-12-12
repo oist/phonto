@@ -1,0 +1,15 @@
+Aged
+Amnesia
+physiopathology
+Female
+Hippocampus
+physiology
+physiopathology
+Humans
+Male
+Memory
+physiology
+Space Perception
+physiology
+Time Factors
+The hippocampus is part of a system of structures in the medial temporal lobe that are essential for memory. One influential view of hippocampal function emphasizes its role in the acquisition and retrieval of spatial knowledge. By this view, the hippocampus constructs and stores spatial maps and is therefore essential for learning and remembering places, including those learned about long ago. We tested a profoundly amnesic patient (E.P.), who has virtually complete bilateral damage to the hippocampus and extensive damage to adjacent structures in the medial temporal lobe. We asked him to recall the spatial layout of the region where he grew up, from which he moved away more than 50 years ago. E.P. performed as well as or better than age-matched control subjects who grew up in the same region and also moved away. In contrast, E.P. has no knowledge of his current neighbourhood, to which he moved after he became amnesic. Our results show that the medial temporal lobe is not the permanent repository of spatial maps, and support the view that the hippocampus and other structures in the medial temporal lobe are essential for the formation of long-term declarative memories, both spatial and non-spatial, but not for the retrieval of very remote memories, either spatial or non-spatial.

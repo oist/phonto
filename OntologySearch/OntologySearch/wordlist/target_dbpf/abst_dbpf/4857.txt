@@ -1,0 +1,25 @@
+Animals
+Behavior
+Animal
+physiology
+Brain Mapping
+Entorhinal Cortex
+physiology
+Hippocampus
+physiology
+Male
+Maze Learning
+physiology
+Memory
+physiology
+Neural Pathways
+physiology
+Rats
+Rats
+Inbred Strains
+Reaction Time
+physiology
+Reinforcement (Psychology)
+Space Perception
+physiology
+Using a continuous recognition memory procedure for spatial location information, rats were given sequential presentation of individual arms on a 12-arm maze. Each arm contained a Froot Loop reinforcement the first time it was presented, and latency to traverse the arm was measured. A subset of the arms were repeated, but did not contain reinforcement. Repeated arms were presented with lags ranging from zero to six (from zero to six different arm presentations occurred between the first and repeated presentation). After completion of acquisition training (significantly longer latencies for repeated arms in comparison with the first presentation of an arm), rats received lesions of the medial or lateral entorhinal cortex, pre- and parasubiculum, or served as sham-operated controls. Based on continued postsurgery training and additional tests, the results indicated that rats with pre- and parasubiculum or pre- and parasubiculum plus medial entorhinal cortex produced sustained impairment in performing the task. Medial or lateral entorhinal cortex and control lesions did not display any sustained deficits. The data suggest that working memory for spatial location information is mediated primarily by the pre- and parasubiculum, but not medial entorhinal and lateral entorhinal cortex.

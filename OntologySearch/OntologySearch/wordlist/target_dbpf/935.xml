@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="935">
+<itemtype>xnppaper</itemtype>
+<titles><title>Requirement for hippocampal CA3 NMDA receptors in associative memory recall.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:54:16Z</last_update_date>
+<creation_date>2008-07-16T06:17:17Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=935</url>
+<changelogs>
+<changelog date='2013-03-28T02:54:16Z'>Modified; Item Description, Index.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="935" version="1.02">
+<authors><author>Nakazawa K</author><author>Quirk MC</author><author>Chitwood RA</author><author>Watanabe M</author><author>Yeckel MF</author><author>Sun LD</author><author>Kato A</author><author>Carr CA</author><author>Johnston D</author><author>Wilson MA</author><author>Tonegawa S</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>297</volume>
+<number>5579</number>
+<page>211-8</page>
+<abstract>Pattern completion, the ability to retrieve complete memories on the basis of incomplete sets of cues, is a crucial function of biological memory systems. The extensive recurrent connectivity of the CA3 area of hippocampus has led to suggestions that it might provide this function. We have tested this hypothesis by generating and analyzing a genetically engineered mouse strain in which the N-methyl-D-asparate (NMDA) receptor gene is ablated specifically in the CA3 pyramidal cells of adult mice. The mutant mice normally acquired and retrieved spatial reference memory in the Morris water maze, but they were impaired in retrieving this memory when presented with a fraction of the original cues. Similarly, hippocampal CA1 pyramidal cells in mutant mice displayed normal place-related activity in a full-cue environment but showed a reduction in activity upon partial cue removal. These results provide direct evidence for CA3 NMDA receptor involvement in associative memory recall.</abstract>
+<pubmed_id>12040087</pubmed_id>
+</detail>
+</item>

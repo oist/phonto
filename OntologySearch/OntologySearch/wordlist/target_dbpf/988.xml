@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="988">
+<itemtype>xnppaper</itemtype>
+<titles><title>Membrane properties of interneurons in stratum oriens-alveus of the CA1 region of rat hippocampus in vitro.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-22T05:17:26Z</last_update_date>
+<creation_date>2008-07-22T05:17:26Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=988</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="988" version="1.02">
+<authors><author>Lacaille JC</author><author>Williams S</author></authors>
+<journal>Neuroscience</journal>
+<volume>36</volume>
+<number>2</number>
+<page>349-59</page>
+<abstract>The membrane properties of interneurons situated near the border of stratum oriens and the alveus of the CA1 region were examined with intracellular recording and staining in rat hippocampal slices in vitro. Cellular staining with Lucifer Yellow indicated that the somata of these interneurons were multipolar and their dendrites projected horizontally along the alveus and vertically toward stratum lacunosum-moleculare. Intrinsic properties (input resistance, action potential amplitude, time constant) and spike after-potentials were typical of non-pyramidal cells. Action potential duration, however, was of relatively medium duration (1.15 ms) and slow afterhyperpolarizations followed depolarization-induced trains of action potentials. Spontaneous activity of interneurons was prominent and of either of two types: single action potentials or high frequency bursts of action potentials. Interneurons displayed marked, voltage- and time-dependent inward rectification and anodal break excitation. Analysis of the slope of the charging function of hyperpolarizing transients, suggested that these interneurons were electrically compact (dendrite to soma conductance ratio, p approximately 2.7; and electrotonic length constant, L approximately 1.1). Characteristically, interneurons sustained high frequency repetitive firing during long depolarizing pulses. The slope of the frequency-current relation was 442 Hz/nA for the first interspike interval and 117 Hz/nA for later intervals (no. 60), suggesting the presence of spike frequency adaptation. Physiologically, these interneurons resembled more closely basket cells of stratum pyramidale than stellate cells of stratum lacunosum-moleculare.</abstract>
+<pubmed_id>2215928 </pubmed_id>
+</detail>
+</item>

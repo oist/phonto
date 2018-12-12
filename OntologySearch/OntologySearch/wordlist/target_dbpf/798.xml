@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="798">
+<itemtype>xnppaper</itemtype>
+<titles><title>Comparison of spatial firing characteristics of units in dorsal and ventral hippocampus of the rat.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-11T03:15:15Z</last_update_date>
+<creation_date>2008-07-11T03:15:15Z</creation_date>
+<publication_year>1994</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=798</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="798" version="1.02">
+<authors><author>Jung MW</author><author>Wiener SI</author><author>McNaughton BL</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>14</volume>
+<number>12</number>
+<page>7347-56</page>
+<abstract>The septal and temporal poles of the hippocampus differ markedly in their anatomical and neurochemical organization. Although it is well established that the internal representation of space is a fundamental function of hippocampal neurons, most of what is known about spatial coding in the hippocampus of freely moving animals has come from recordings from the dorsal one-third (largely for technical convenience). The present study therefore compared the spatial selectivity of CA1 neurons in the dorsal and ventral hippocampi of rats during performance of a food reinforced, random search task in a square chamber containing simple visual landmarks. Neural activity was recorded in the dorsal and ventral hippocampi of opposite hemispheres in the same rats, in many cases simultaneously. As in dorsal hippocampus, ventral CA1 units could be classified as &quot;complex spike&quot; (pyramidal) cells or &quot;theta&quot; interneurons. Both dorsal and ventral theta cells fired at relatively high rates and with low spatial selectivity in the apparatus. Of the population of complex spike cells in the ventral hippocampus, a significantly smaller number had &quot;place fields&quot; than in the dorsal hippocampus, and the average spatial selectivity was of significantly lower resolution than that found among dorsal hippocampal complex spike cells. Thus, a septotemporal difference of spatial selectivity was found in the CA1 field of the rat hippocampus, complementing many other anatomical and neuropharmacological studies. A number of possible functional interpretations can be suggested from these results, including a computational advantage of representing space at different scales or a preeminence of essentially nonspatial information processing in the ventral hippocampus.</abstract>
+<pubmed_id>7996180 </pubmed_id>
+</detail>
+</item>

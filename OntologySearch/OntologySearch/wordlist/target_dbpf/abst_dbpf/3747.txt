@@ -1,0 +1,16 @@
+DEI2010_04
+Adult
+Brain Mapping
+methods
+Female
+Hippocampus
+physiology
+Humans
+Image Interpretation
+Computer-Assisted
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Theta Rhythm
+The 4-12 Hz (theta rhythm)-dependent neural dynamics play a fundamental role in the memory formation of the rat hippocampus. Although the power of human scalp electroencephalography theta (EEG theta) is known to be associated with a hippocampus-dependent memory encoding, it remains unclear whether the human hippocampus uses theta rhythm. In this study, we aim to identify the scalp EEG theta-related neural regions during memory encoding by using a simultaneous EEG-functional magnetic resonance imaging recording. We showed that the parahippocampal and the medial frontal and posterior regions were significantly correlated to subsequent memory-dependent EEG theta power. This evidence suggests that the human parahippocampal region and associated structures use theta rhythm during hippocampal memory encoding as in rodents.

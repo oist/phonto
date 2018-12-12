@@ -1,0 +1,23 @@
+DEIA
+Algorithms
+Analysis of Variance
+Animals
+Electroencephalography
+Electrophysiology
+Hippocampus
+physiology
+Male
+Nerve Net
+physiology
+Prefrontal Cortex
+physiology
+Rats
+Rats
+Long-Evans
+Sleep
+physiology
+Sleep Stages
+Sleep
+REM
+physiology
+Cortico-hippocampal interactions during sleep are believed to reorganize neural circuits in support of memory consolidation. However, spike-timing relationships across cortico-hippocampal networks-key determinants of synaptic changes-are poorly understood. Here we show that cells in prefrontal cortex fire consistently within 100 ms after hippocampal cells in naturally sleeping animals. This provides evidence at the single cell-pair level for highly consistent directional interactions between these areas within the window of plasticity. Moreover, these interactions are state dependent: they are driven by hippocampal sharp-wave/ripple (SWR) bursts in slow-wave sleep (SWS) and are sharply reduced during REM sleep. Finally, prefrontal responses are nonlinear: as the strength of hippocampal bursts rises, short-latency prefrontal responses are augmented by increased spindle band activity and a secondary peak approximately 100 ms later. These findings suggest that SWR events are atomic units of hippocampal-prefrontal communication during SWS and that the coupling between these areas is highly attenuated during REM sleep.

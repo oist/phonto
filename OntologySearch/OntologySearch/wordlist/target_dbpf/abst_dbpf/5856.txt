@@ -1,0 +1,39 @@
+Acetylcholine
+metabolism
+Aging
+physiology
+Animals
+Cell Proliferation
+Cholinesterase Inhibitors
+pharmacology
+Dentate Gyrus
+cytology
+drug effects
+metabolism
+Humans
+Indans
+pharmacology
+Mice
+Mice
+Transgenic
+Microscopy
+Confocal
+Muscarinic Agonists
+pharmacology
+Neural Stem Cells
+metabolism
+Neurogenesis
+physiology
+Neurons
+drug effects
+physiology
+Nootropic Agents
+pharmacology
+Physostigmine
+pharmacology
+Piperidines
+pharmacology
+Receptors
+Muscarinic
+drug effects
+Adult hippocampal neurogenesis contributes to the hippocampal circuit's role in cognitive functioning. New neurons are generated from hippocampal neural stem cells (NSCs) throughout life, but their generation is substantially diminished in aged animals due to a decrease in NSC proliferation. Because acetylcholine (ACh) is an important neurotransmitter released in the hippocampus during learning and exercise that is known to decrease with aging, we investigated whether aged NSCs can respond to ACh. In this study, we found that cholinergic stimulation has a positive effect on NSC proliferation in both young adult (8-12 weeks old) and aged mice (>2 years old). In fresh hippocampal slices, we observed a rapid calcium increase in NSCs in the dentate gyrus after muscarinic cholinergic stimulation, in both age groups. Furthermore, we found that the exercise-induced promotion of aged NSC proliferation was abrogated by the specific lesioning of the septal cholinergic system. In turn, cholinergic activation by either eserine (physostigmine) or donepezil treatment promoted the proliferation of NSCs in aged mice. These results indicate that NSCs respond to cholinergic stimulation by proliferating in aged animals. Physiological and/or pharmacological cholinergic stimulation(s) may ameliorate cognitive decline in aged animals, by supporting adult hippocampal neurogenesis.

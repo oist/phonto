@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="392">
+<itemtype>xnppaper</itemtype>
+<titles><title>Theta phase-specific codes for two-dimensional position, trajectory and heading in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-06-25T04:49:39Z</last_update_date>
+<creation_date>2008-06-25T04:49:39Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=392</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="392" version="1.02">
+<authors><author>Huxter JR</author><author>Senior TJ</author><author>Allen K</author><author>Csicsvari J</author></authors>
+<journal>Nature neuroscience</journal>
+<volume>11</volume>
+<number>5</number>
+<page>587-94</page>
+<abstract>Temporal coding is a means of representing information by the time, as opposed to the rate, at which neurons fire. Evidence of temporal coding in the hippocampus comes from place cells, whose spike times relative to theta oscillations reflect a rat&#039;s position while running along stereotyped trajectories. This arises from the backwards shift in cell firing relative to local theta oscillations (phase precession). Here we demonstrate phase precession during place-field crossings in an open-field foraging task. This produced spike sequences in each theta cycle that disambiguate the rat&#039;s trajectory through two-dimensional space and can be used to predict movement direction. Furthermore, position and movement direction were maximally predicted from firing in the early and late portions of the theta cycle, respectively. This represents the first direct evidence of a combined representation of position, trajectory and heading in the hippocampus, organized on a fine temporal scale by theta oscillations.</abstract>
+<pubmed_id>18425124 </pubmed_id>
+</detail>
+</item>

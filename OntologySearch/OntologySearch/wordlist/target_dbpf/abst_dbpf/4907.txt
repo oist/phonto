@@ -1,0 +1,20 @@
+Animals
+Conditioning
+Operant
+physiology
+Electric Stimulation
+Evoked Potentials
+Hippocampus
+physiology
+Male
+Memory
+physiology
+Mice
+Mice
+Inbred BALB C
+Retention (Psychology)
+physiology
+Septal Nuclei
+physiology
+Synaptic Transmission
+Sinusoidal (100 Hz) electrical stimulation was applied at a weak intensity (7.5 muA peak to peak) through bipolar electrodes located in the medial septal nucleus after partial acquisition of an appetitive operant conditioning task in a Skinner box. Analysis of performance in a retention test 24 hr later showed that (i) the presence of stimulation electrodes by itself impaired retention-test performance, and (ii) electrical stimulation applied 30 sec after the end of the acquisition session improves retention; this facilitatory effect disappeared when the treatment was delayed 15 min. Both impairment and facilitation were found to vary (considerably) among subjects. Electrodes located in the center of the medial septal nucleus led to both a greater impairment in unstimulated subjects and a greater facilitation in stimulated subjects than more anterior placements in the vicinity of the diagonal band. Finally, spectral analysis of hippocampal EEG showed that stimulation had no effect on rhythmic slow activity (RSA). These results are discussed in relation to studies showing that RSA is associated with memory-storage processes and our own hypothesis which underlines the importance of activation of septo-hippocampal cholinergic neurons in the early stages of these mnemonic processes.

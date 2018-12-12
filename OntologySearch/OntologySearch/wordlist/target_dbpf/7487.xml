@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7487">
+<itemtype>xnppaper</itemtype>
+<titles><title>Dissociating prefrontal and hippocampal function in episodic memory encoding.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Association Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Tomography</keyword>
+<keyword>Emission-Computed</keyword>
+<keyword>Verbal Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Visual Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T01:19:35Z</last_update_date>
+<creation_date>2013-03-28T01:19:35Z</creation_date>
+<publication_year>1997</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7487</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7487" version="1.02">
+<authors><author>Dolan RJ</author><author>Fletcher PC</author></authors>
+<journal>Nature</journal>
+<volume>388</volume>
+<number>6642</number>
+<page>582-5</page>
+<abstract>Human lesion data indicate that an intact left hippocampal formation is necessary for auditory-verbal memory. By contrast, functional neuroimaging has highlighted the role of the left prefrontal cortex but has generally failed to reveal the predicted left hippocampal activation. Here we describe an experiment involving learning category-exemplar word pairs (such as &#039;dog...boxer&#039;) in which we manipulate the novelty of either individual elements or the entire category-exemplar pairing. We demonstrate both left medial temporal (including hippocampal) and left prefrontal activation and show that these activations are dissociable with respect to encoding demands. Left prefrontal activation is maximal with a change in category-exemplar pairings, whereas medial temporal activation is sensitive to the overall degree of novelty. Thus, left prefrontal cortex is sensitive to processes required to establish meaningful connections between a category and its exemplar, a process maximized when a previously formed connection is changed. Conversely, the left medial temporal activation reflects processes that register the overall novelty of the presented material. Our results provide striking evidence of functionally dissociable roles for the prefrontal cortex and hippocampal formation during learning of auditory-verbal material.</abstract>
+<pubmed_id>9252188</pubmed_id>
+</detail>
+</item>

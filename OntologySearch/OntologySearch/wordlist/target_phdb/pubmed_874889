@@ -1,0 +1,1862 @@
+J. Phyaiol. (1977), 268, pp. 177-210
+With 14 text-figurem
+Printed in Great Britain
+
+177
+
+RECONSTRUCTION OF THE ACTION POTENTIAL OF
+
+VENTRICULAR MYOCARDIAL FIBRES
+
+BY G. W. BEELER* AND H. REUTERt
+
+From the *Department of Physiology and Biophysics,
+Mayo Clinic, Rochester, Minnesota 55901, U.S.A., and
+the tDepartment of Pharmacology, University of Bern,
+
+3010 Bern, Switzerland
+
+(Received 14 September 1976)
+
+SUMMARY
+
+1. A mathematical model of membrane action potentials of mammalian
+ventricular myocardial fibres is described. The reconstruction model is
+based as closely as possible on ionic currents which have been measured
+by the voltage-clamp method.
+
+2. Four individual components of ionic current were formulated mathe-
+matically in terms of Hodgkin-Huxley type equations. The model in-
+corporates two voltage- and time-dependent inward currents, the excita-
+tory inward sodium current, illa, and a secondary or slow inward current,
+is, primarily carried by calcium ions. A time-independent outward
+potassium current, iK1, exhibiting inward-going rectification, and a volt-
+age- and time-dependent outward current, i.1, primarily carried by potas-
+sium ions, are further elements of the model.
+3. The iNa is primarily responsible for the rapid upstroke of the action
+potential, while the other current components determine the configuration
+of the plateau of the action potential and the re-polarization phase. The
+relative importance of inactivation of i8 and of activation of iL for termi-
+nation of the plateau is evaluated by the model.
+4. Experimental phenomena like slow recovery of the sodium system
+from inactivation, frequency dependence of the action potential duration,
+all-or-nothing re-polarization, membrane oscillations are adequately de-
+scribed by the model.
+
+5. Possible inadequacies and shortcomings of the model are discussed.
+
+INTRODUCTION
+
+The application of voltage-clamp techniques to the study of the mem-
+brane ionic currents in heart muscle, has shown that the quantitative
+analysis of the various ionic current components underlying cardiac
+
+G. W. BEELER AND H. REUTER
+
+178
+action potential is much more complex than in nerve (for review see
+Trautwein, 1973; McAllister, Noble & Tsien, 1975). While there is a great
+deal of agreement on the main experimental results, there remain many
+areas of uncertainty relative to the kinetics of the dynamic currents. A
+complete kinetic analysis of all dynamic ionic currents in cardiac muscle
+has not been possible because of the morphological complexity of the
+preparations and technical limitations of the voltage-clamp methods.
+Nevertheless, several quantitative studies which provide a better under-
+standing of membrane ionic currents in cardiac muscle have emerged from
+the application of the voltage-clamp.
+
+This paper is a report of a numerical simulation of the ventricular
+myocardial action potential which seeks to incorporate the majority of the
+experimental evidence. In a sense, it forms a companion presentation to
+the recent publication of McAllister et al. (1975) on a numerical reconstruc-
+tion of the cardiac Purkinje fibre action potential. There are sufficiently
+many and important differences between these two types of cardiac
+tissue, both functionally and experimentally, that a more or less com-
+plete picture of membrane ionic currents in the myocardium must include
+both simulations.
+
+The primary emphasis in this paper will be on the role of the slow
+inward current (is) mainly carried by calcium ions which plays a dominant
+part in the creation of the myocardial action potential plateau, and which
+forms an intimate link between electrical events at the membrane and the
+contractile responses of the cell (cf. reviews Bassingthwaighte & Reuter,
+1972; Reuter, 1973, 1974; Noble, 1975).
+
+The model presented here relies on published data from various labora-
+tories. To the degree that the model has permitted the definition of addi-
+tional experiments that might elucidate a given characteristic of the
+membrane ionic currents, we have attempted to perform some of those
+experiments, and a limited amount of experimental data is incorporated
+in this paper for corroborative evidence. The simulation is confined to
+uniform 'membrane action potentials', and therefore does not define
+conditions for propagation of the action potential.
+
+METHODS
+
+Experimental. The experimental data that are presented in this paper were all
+achieved with the single sucrose-gap voltage-clamp technique (Beeler & Reuter,
+1970a). This experimental approach has been modified in two ways since our
+original report. Firstly, we have adopted a better bath grounding system, wherein
+the test-bath is grounded through the summing junction of an operational amplifier
+(New & Trautwein, 1972). Secondly, electronic switches permit the investigator to
+produce a transition from current-clamp to voltage-clamp mode within 20 /ssec.
+Thus he may produce a voltage-clamp at any time during a normal action potential
+
+Mathematical. The bulk of the material presented herein represents a numerical
+simulation of the action potential. This simulation is the result of the solution of a
+system of eight, first order, simultaneous, non-linear differential equations. The
+simulations were performed using a simulation system, Simcon (Anderson, Knopp
+& Bassingthwaighte, 1970), which operates on a Control Data Corporation 3500
+computer. This system permits the investigator to interact with a numerical model
+written in FORTRAN from an on-line terminal. During the simulation, model
+results are plotted on an oscilloscope at the investigator's terminal and he has the
+ability to alter the model or the computational process during the simulation.
+Moreover, he controls the over-all characteristics of the model through the inter-
+active entry of an array of up to 300 parameters which define the model. The results
+of each simulation are temporarily stored on magnetic disk and then may be re-
+plotted to form figures, such as are used in this paper, or may be listed for more
+detailed analysis.
+
+The integration algorithm used to solve the differential equations is the Runge-
+Kutta-Merson algorithm (Lange, 1960). This algorithm uses five evaluations of the
+derivatives during each step of the integration, and produces both a result with
+fourth-order accuracy, and a prediction of truncation error. The truncation error
+estimate is used to control the step size of the integration procedure, in order to
+optimize the time required for solution against the accuracy of the solution.
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+179
+or conversely may release the preparation from the voltage-clamp at any time he
+desires.
+
+Any integration algorithm which incorporates an estimate of error in order to
+control step size will have the maximum step size limited by the smallest time con-
+stant in the system being integrated. In the model presented here, the time constant
+for the activation of the sodium current is at least an order of magnitude faster
+than any of the other time constants within the system. Moreover, this parameter
+is in equilibrium with its steady-state value at all times except during the upstroke
+of the action potential. Therefore, an algorithm was devised which monitors both
+the difference between the value of this parameter and its steady-state value, and
+the instantaneous rate of change of the membrane potential. If at any time during
+the computation the parameter and its steady-state value differ by less than 0 004,
+and if the rate of change of the membrane potential is also less than 0.5 V/sec, then
+the algorithm ceases integrating this parameter. This increases integration speed in
+two ways. Firstly, the system is reduced to seven simultaneous differential equa-
+tions, a relatively minor gain. More importantly, however, the time constant govern-
+ing the step size of the integration becomes an order of magnitude larger. During the
+periods when this parameter is not being integrated, it is continually set to its steady-
+state value as determined by the membrane potential, and the rate of change of this
+parameter over the last integration step is monitored. If this rate of change exceeds
+0-005/msec, then the parameter is 're-captured' and the system returns to integra-
+ting all parameters. Incorporation of this algorithm, permits about a twentyfold
+increase in computational speed for the over-all system, and a single action potential
+can be computed in about 40 sec.
+
+Model program. The primary model is a single space-clamped patch of membrane
+which consists of a membrane capacity with four parallel current paths. Eight
+parameters must be integrated to produce a solution to this model. These are the
+membrane potential across the capacity, the intracellular calcium ion concentration
+as it is affected by i,, and six activation or inactivation parameters for the various
+conductances. At each step in
+time, the Runge-Kutta-Merson integration
+algorithm establishes a set of values for the variables being integrated (initial con-
+ditions for the step) and provides these values: membrane potential, [Ca],, and six
+
+G. W. BEELER AND H. REUTER
+
+180
+conductance parameters; to a subprogram which computes the derivative for each
+integrated variable. During this process, the individual ionic currents are deter-
+mined and summed along with any 'externally applied' current to arrive at the
+charging current for the membrane capacity, which then determines the derivative
+of the membrane potential.
+
+Within this basic computational approach, three different forms of simulation
+are realized. The most common mode computes the action potential by starting the
+integration algorithm with a set of initial conditions, and allowing the program to
+proceed through subsequent integration steps. In the instance that a stimulus cur-
+rent is desired, the derivative subprogram adds this external current to the ionic
+currents during the appropriate time steps.
+
+The second computational mode involves the simulation of an ideal voltage-clamp
+experiment. This is done by setting the membrane potential equal to the desired
+voltage-clamp stimulus. Computation is then reduced to the integration of the intra-
+cellular calcium ion concentration as it is altered by the i,. In this mode the con-
+ductance parameters for all channels can be expressed as simple exponential func-
+tions and need not be integrated. The output in this instance is the sum of the
+ionic currents from the various channels.
+
+The third mode is an alternate approach to the simulation of the voltage-clamp
+and incorporates the concept of an extracellular series resistance (Beeler & Reuter,
+1970a). Here, the simulated voltage-clamp circuit controls the voltage across the
+series combination of the membrane patch and a series resistance, RB. In this
+instance,
+
+iCIamp = (Vclamp - Vmembrane)IRs,
+
+(1)
+where Vmembr..
+is the potential across the membrane patch. In order to simulate
+this circuit, the derivatives for all integrated parameters including the membrane
+potential are determined as if for an action potential, but at each integration step
+iclamp is determined from eqn. (1) and applied as an 'external current' in the deter-
+mination of the membrane potential derivative. This then forces the membrane
+potential to follow the desired clamp potential. The majority of voltage-clamp
+simulations presented in this paper were done with the latter approach using an R.
+of 200 Q.
+
+General
+
+THEORY
+
+Basis for the model
+
+As noted, the general form of the model is that of a space-clamped
+patch of membrane. The nominal area for this membrane is one square
+centimetre, but it should be recognized that the majority of experimental
+results on which this work is based have not provided an accurate estimate
+of membrane area. The membrane capacity utilized in this model is set
+at 1 ,uF/cm2 which is close to experimental values in the literature (Weid-
+mann, 1970), and to the generally accepted value for the capacity of
+biological membranes. All ionic current densities refer to 1 cm2. The
+scaling of the individual ionic currents is chosen to provide current-
+voltage relationships which match the best estimates obtained experi-
+mentally, but which, when taken together, produce an acceptable shape
+for the myocardial action potential. It should be noted, that the exact
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+181
+
+TABLE 1. A, equations and values which define currents
+
+'= 0-35{4(exp [0O04(V. + 85)]- l)/(exp [0 08(VI + 53)] + exp [0 04(V. + 53)])
++ 02(VI + 23)/(1-exp [-0-04(VI + 23)])}.
+
+=t1L xi,
+
+where
+
+i.1 = 0 8(exp [0*04(VI + 77)]- 1)/exp [0 04(VI + 35)].
+
+(4)
+
+iNa = (gW' - M 3.hj+9ac)(Vm -ENJ,
+
+where g.. = 4,
+
+gNac = 0-003,
+
+and ENa = 50.
+
+where g, = 0 09, and
+
+i.= ,.Ydfd.(Vm-E.),
+
+(2)
+(3)
+
+(5)
+
+(6)
+
+(7)
+In the equations above, currents (i) are in usA/cm2, voltages (E, V) are in mV, con-
+ductances (g) are in mmho/Cm2, and xj, m, h, j, d andf are dimensionless. Membrane
+potential, Vm, is taken as inside potential minus outside potential.
+
+E= -82-3-13-0287 In [Ca],.
+
+B, equations defining time derivatives in model
+dI,/dt = -/Cm)OKI + ixL + iN, + ica
+
+iternal)
+
+(8)
+
+where Cm = 1.
+
+d[Ca]1Idt = -10-7.i + 007(10-7-[Ca]i).
+
+(9)
+(10)
+(11)
+where
+(12)
+and
+In equations of B, times (t, r) are in msec, membrane capacity is in juF/cm2, [Ca],
+is in mole/I, rate constants (a, ,) are in msec-1, and remaining units are as in A.
+Eqns. 10-12 show the method of computing the dimensionless conductance para-
+meters using y to represent such a parameter.
+
+dy/dt = (y -Y)r/y,
+'r, = 1/(ayx+fl0),
+YOO = ayc(ayc+#fY)
+
+C, defining function and values for rate constants (a or ,f)
+ac = (0C exp [C2(Vm + C3)] +C4(Vm +C5))/(exp [C6(Vm +C3)] + C7).
+
+Rate
+con-
+stant
+(msec-1) (msec-1)
+0.0005
+0-0013
+
+0,
+
+A
+
+02
+
+(mV-1)
+0-083
+-0-06
+°
+
+am
+Bm
+ah
+fih
+ac
+Af
+cad
+Ad
+af
+flj
+
+°
+-0-056
+40
+-0-25
+0-126
+1*7
+0
+-0-25
+0 055
+0.3
+0
+0*095
+-0 01
+0 07
+-0*017
+0*012
+-0-008
+0-0065 - 0*02
+
+3
+(mV)
+50
+20
+47
+72
+77
+22*5
+78
+32
+-5
+44
+28
+30
+
+C4
+
+((mV.msec)'-)
+
+5
+(mV)
+
+0
+0
+-1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+0
+0
+47
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+06
+
+(mV-1)
+0 057
+-0 04
+-0 1
+0
+0
+
+-0*082
+-0*2
+-0*1
+-0*072
+0*05
+0*15
+-0*2
+
+(13)
+
+07
+
+1
+1
+- 1
+0
+0
+1
+1
+1
+1
+1
+1
+1
+
+G. W. BEELER AND H. REUTER
+
+182
+value of the membrane capacity has little effect on the over-all shape of
+the computed action potential, with the sole exception of the rapid
+upstroke. During the other phases of the action potential, the shape is
+primarily determined by the time constants of the dynamic ionic currents.
+At various times, experimental evidence has been presented to postulate
+a total of eight different ionic conductance components in various cardiac
+muscle preparations (Trautwein, 1973). The model presented here incor-
+porates only four of those components. These include: an initial fast inward
+current carried primarily by sodium, ioa; a secondary or slow inward
+current, i8, carried mainly but not exclusively by calcium ions; a time-
+activated outward current designated ix1; and a time-independent potas-
+sium outward current designated iK1. The rationale for the omission of the
+other currents will be presented in the sections to follow.
+
+The complete set of equations and constants that define the model are
+given in Table 1. The general formulation for the ionic currents follows
+the concepts introduced by Hodgkin & Huxley (1952). Eqn. (6) is an
+example of a linear current term. When all slow inward current pathways
+are open or fully activated, is is determined by the linear current-voltage
+relation: gs (Vm-EE) (Reuter, 1973; Reuter & Scholz, 1976). At any point
+in time, however, only a fraction of the pathways are open, and the
+dimensionless conductance parameters d and f express the degree of
+activation and inactivation of this current. These parameters are functions
+of both membrane potential, Vm, and time. Investigations of the outward
+currents in Purkinje fibres have shown that when fully activated these
+currents have a non-linear, rectifying, current-voltage relationship. In
+order to characterize these currents, McAllister et al. (1975) adopted a
+formulation that is analogous to the linear case. This is shown in eqn. (3),
+where the non-linear current-voltage relation for the fully activated state,
+ixi, is multiplied by the dimensionless activation parameter, xl.
+The formulation for the time and voltage dependence of the activation
+parameters follows the approach first proposed by Hodgkin & Huxley
+(1952). With this approach, one defines a steady-state value for each
+activation parameter, which value varies between 0 and 1 over the voltage
+range of interest. This is referred to as the steady-state curve. The second
+potential dependent parameter directly related to the activation para-
+meter is its time constant as a function of membrane potential. Utilizing
+these two factors, the rate of change of the activation parameter at any
+given moment is expressed by eqn. (10). In order to define the values of the
+steady-state curve, y,,,, and the time constant curve, ry, use is made of
+two rate-constant functions which are simply functions of membrane
+potential (Hodgkin & Huxley, 1952). These rate constants, ay and fly,
+then can be used to define the time constant curve and the steady-state
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+183
+curve according to eqns. (11) and (12). In order to simplify the reporting
+of the actual values used in this model, we have expressed the alphas and
+betas entirely in terms of a generalized function, with eight defining
+coefficients. Table 1 C gives the equation, and the defining coefficients for
+all rate constants.
+
+Outward currents
+
+The investigation of time-dependent outward currents in ventricular
+myocardium has been limited. This limitation arises primarily from the
+complication of the experimental method by the likely accumulation of
+potassium ions within the extracellular spaces of the myocardial muscle
+preparation during the long-lasting depolarizing voltage-clamps required
+for the analysis of these currents (McGuigan, 1974; Cleemann & Morad,
+1976). Experimental work with the cardiac Purkinje fibre by Noble &
+Tsien (1968, 1969) has indicated the possible presence of three time-
+activated outward currents ('K2, i,1 and i.2), and a time-independent
+potassium current exhibiting inward-going rectification (i~K). Available
+experimental evidence in working ventricular myocardium, however, can
+produce convincing evidence only for the presence of a single time-
+activated outward current, ix1, and for the background current, iK,
+(Beeler & Reuter, 1970a, and unpublished; McGuigan, 1974). The pace-
+maker potassium current, iK2 (Noble & Tsien, 1968), seen in the cardiac
+Purkinje fibre, is probably not active in ventricular myocardium which
+does not normally exhibit spontaneous depolarization. The very slowly
+activated outward current, ix2, seen by Noble & Tsien (1969) is either
+not present in myocardial tissue, or is masked by the effects of extra-
+cellular potassium ion accumulation. Since the time constants of activa-
+tion of ix2 are extremely slow in comparison with a single action potential,
+this current component was not considered further in the present recon-
+struction. In an earlier version of our model, where ix2 was included, we
+found that this current had a major influence on the shape of the action
+potential only during very rapid stimulation.
+
+Although ixi is quite variable in size in ventricular myocardial fibres
+from different species, we have adopted the formulation of McAllister et al.
+(1975), for both the time-activated outward current ix, and the time-
+independent outward current iK,. These formulations are given in eqns.
+(2), (3), and (4) of Table 1, and the fully activated current-voltage rela-
+tions are plotted in Fig. 1. In converting the formulae from those provided
+by McAllister et al. (1975), we re-scaled certain of the terms in the current-
+voltage relations and shifted these relations along the voltage axis.
+Although the general rationale behind this procedure was to account for
+the difference in extracellular potassium ion concentration between the
+
+1. W. BEELER AND H. REUTER
+
+184
+2-7 mm of their model and 5-4 mm which we seek to model, the ultimate
+criterion adopted by us was to match current-voltage relations seen in
+ventricular myocardium, and to realize a reasonable plateau and re-
+polarization conformation for our computed action potential.
+
+10
+
+E
+
+A
+
+ix,
+
+(mV)
+
+Fig. 1. A, the fully activated current-voltage relationship for potassium; i.,
+is the maximum current that can be obtained for the time-activated outward
+current; iK, is the background outward current which is present in the
+model. B, the steady-state value for the activation parameter, xl, and
+values for ri. The ordinate is dimensionless for xl and is in sec for T..
+
+It should be noted that the first term in the 'Kl formulation can be taken to
+represent the residual effect of iK2' the pace-maker current (Noble & Tsien, 1968).
+Although there is no evidence that this current participates in a dynamic form in
+the normal myocardial action potential, it is conceivable that such a current is
+present in these preparations, but has an activation range sufficiently negative
+relative to the normal resting potential, that it does not participate dynamically
+in the formation of the action potential. Experimental evidence in potential ranges
+more negative than the resting potential has not been pursued in myocardial pre-
+parations, and therefore cannot assist in the resolution of this question.
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+185
+The governing equations for the xl activation parameters as given in
+Table 1 are identical to those provided by McAllister et al. (1975). The
+steady-state values for the activation parameter, x1,, and its time con-
+stants, TX1, are plotted as a function of membrane potential in Fig. 1.
+Inward sodium current
+
+al.
+
+Experimental evidence is only partially available for the inward sodium
+current, iNa, in cardiac muscle. We have chosen, in line with work in other
+tissues, to model the dynamic sodium inward current as a transient
+mechanism, wherein the equivalent conductance of the membrane for
+sodium is expressed as a maximum conductance multiplied by activation
+and inactivation parameters. The fundamental limitations of voltage-
+clamps applied to cardiac muscle have prevented the assessment of
+the activation kinetics of iNa at normal temperatures. Therefore, like
+McAllister et
+(1975), we have adopted the formulation for the
+sodium activation parameter, m, determined for squid axon by Hodgkin
+& Huxley (1952).
+
+The inactivation process for iNa is somewhat more amenable to study
+using conditioning potentials produced by voltage-clamp, depolarization
+of the membrane with potassium chloride, or depolarization produced by
+the action potential. Indeed, the earliest works in this area by Weidmann
+(1955 a) related to the inactivation process for the upstroke of the Purkinje
+fibre action potential. Beeler & Reuter (1970a) reported measurements of
+the steady-state inactivation curve, and much of this question has been
+re-investigated recently by Gettes & Reuter (1974). All of these experi-
+ments produce similar results in terms of the location and slope of the
+steady-state inactivation curve, h.. The evidence for the time constant
+for h, however, is not as strong. Voltage-clamp experiments would indicate
+that the inactivation process for iNa must be complete within 10 msec or
+less at most potential levels and a similar conclusion can be drawn from
+the duration of the initial spike of the normal cardiac action potential.
+Haas, Kern, Einwachter & Tarr (1971) and Gettes & Reuter (1974),
+however, provided strong evidence to the effect that re-activation of iNa
+proceeds at a much slower rate than inactivation. (Inactivation cor-
+responds to changes in the parameter, h, from unity towards zero, or the
+shutting off of the sodium channel during depolarization, while re-activa-
+tion corresponds to the return of this parameter to a unity value upon
+re-polarization as the sodium channel once again becomes available for
+activation.) The finding that the re-activation process is much slower than
+the inactivation process cannot be stimulated with a single, simple con-
+ductance parameter for inactivation. Therefore, following the suggestion
+by Haas et al. (1971) we have introduced in this model a second
+
+C. W. BEELER AND H. REUTER
+
+186
+inactivation parameter designated j, such that the formulation for iNa
+becomes that of eqn. (5).
+
+The steady-state inactivation parameter values jr,. and hCo
+
+have
+identical dependence on membrane potential whereas their time constants
+are significantly different. The values for the rate constants for these two
+parameters, along with those for m are found in Table 1 and the steady-
+state values and time constants are plotted in Fig. 2. The rate constants
+
+1
+
+T7m
+Th'r
+100 - 0.25
+(msec)
+
+(msec)
+
+I
+
+-40
+
+(mV)
+
++40
+
+Fig. 2. A, time constants, and B, steady-state values for the activation
+(m.) and inactivation (ha,,, j.) parameters of the sodium conductance,
+g9., as functions of membrane potential.
+
+for h were chosen by considering the effect of the time constant of h on the
+excitability of the model, and the shape of the spike of the computed
+action potential.
+
+The values for rj were derived by matching the experimental results of
+Gettes & Reuter (1974) for potentials more negative than -60 mV and
+then 'bending' the rj curve to be roughly parallel to Th at more positive
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+187
+potentials. The steady-state inactivation curves, j, and h., were matched
+to our earlier experimental results (Beeler & Reuter, 1970 a; Gettes &
+Reuter, 1974). The values for the m, h and j steady-state functions and
+time constants, are plotted against membrane potential in Fig. 2.
+
+The values in the model for the fully activated sodium conductance,
+gNa, for the background sodium conductance, gNac, are 4-0 and 0-003
+mmho/cm2, respectively. These values, the h parameter time constants, and
+the absolute locations of the h., and mcn curves were arrived at empirically
+by considering the interrelationships between the excitability of the
+model, the maximum upstroke velocity, and the peak and width of the
+action potential spike. The location of hc,, on the voltage axis and its
+steepness agree with the experimental results by Gettes & Reuter (1974)
+but h. is shifted by 5 mV towards negative potentials relative to the
+experimental results by Beeler & Reuter (1970a). The maximum amount
+of allowable cross-over between the steady-state curves for h., and mso is
+determined from the membrane current-voltage relationships, as no
+discernible 'notch' due to sodium has been observed experimentally in
+these curves. Once this separation is established, the relative location of
+both curves determines the threshold for the action potential. Finally,
+the maximum value of the action potential spike and the width of the
+spike are strongly determined by a combination of the inactivation time
+constant for sodium, Th, and the maximum conductance, gNa- We sought
+to model an excitation phase for the action potential which had a reason-
+ably low threshold (-60 mV) achieved a maximum rate of rise of at least
+115 V/sec, and which realized a peak at about + 30 mV. The value for the
+steady-state sodium conductance, gNaC, was chosen to produce a steady
+sodium leak of about 0 4 ,uA/cm2 at the resting potential. The sodium
+reversal potential, ENa, was chosen in this model at 50 mV.
+
+It should be noted that the formulation for sodium inactivation that we have
+adopted implies that the experimental approaches to measuring the steady-state
+inactivation curve with voltage-clamp or KCl depolarization will produce a curve
+that is the product of h.0 and j0*. It is worth considering, then, the difference be-
+tween the curves hA, and ho,2 (since j. equals h.o) that are likely to occur in these
+tissues. One means of expressing an inactivation curve, is with the following equa-
+tion (Hodgkin & Huxley, 1952):
+
+hco = 1/( +exp [(Vm-Vh)IS]).
+
+Here, the curve is characterized by a slope factor, S, and a half-point for the curve,
+Vb. The potential Vh is determined as that voltage at which h.3 is 0-5. The slope
+factor, S, is then:
+
+S = (-4~j
+
+(
+
+V~mI m = Vh)
+
+If the measured curve were indeed the square of the true inactivation curve, then
+the measurement of the slope, taken at the half-point of the squared curve, will
+
+G. W. BEELER AND H. REUTER
+
+188
+differ from the slope of the true inactivation curve by only 17 %. The primary
+difference is that the half-point of the squared curve is shifted relative to that of the
+true curve. For example, in our earlier work we reported a J{ of -55 mV for the
+sodium inactivation curve, and a slope factor of 3 mV. If indeed we were measuring
+the square of an inactivation curve, then the true inactivation curve would have had
+a slope of 3-5 mV, and the true inactivation curve would have been located at about
+-52 mV. These differences are smaller than the experimental error in the estimates.
+In arriving at the formulation used in this model, we fitted the rate constant
+equations for the sodium inactivation curves for both jO, and h.0 to the experi-
+mental values that we had observed previously. For completeness, we have also
+calculated an equivalent set of rate constants which could be used under the assump-
+tion that our published figures represented an observation of j. .hc. This latter
+formulation produces no significant changes in the model.
+As a further note, Gettes & Reuter (1974) discussed alternative formulations of
+iads
+activation and inactivation, for example, coupled activation-inactivation
+kinetics (Goldman, 1975). We have adopted the approach proposed by Haas et al.
+(1971) because of its simplicity and its similarity to the other activation and in-
+activation mechanisms used in this model. By adopting this approach we do not
+mean to imply a belief in one physical alternative over the other, but, rather, we
+recognize that present experimental evidence will not support the definition of a
+more elaborate scheme. The resolution of the question as to what sort of process is
+truly involved will require an experimental approach which provides extremely
+close control of the membrane potential during the flow of 'N. and realization of
+such a controlled cardiac muscle preparation may be unlikely with methods avail-
+able today.
+Slow inward current
+
+The characterization of i8 has probably received more experimental
+attention than other current component. Available evidence from most
+laboratories indicates that in mammalian ventricular myocardium this
+current is carried predominantly by calcium ions when the preparations
+are superfused with physiological salt solutions containing calcium con-
+centrations in the range 1-10 mm (for review see Reuter, 1973; Reuter &
+Scholz, 1976). This current is treated as a transient inward current, with
+simple activation and inactivation parameters multiplying a maximum
+conductance value (eqn. (6)). The activation parameter, d, and the inacti-
+vation parameter, f, cross-over strongly in the plateau range of potentials
+for the cardiac action potential (Fig. 3).
+
+The shapes and locations of the activation and inactivation curves have
+been fairly well determined by G. W. Beeler and H. Reuter (unpublished),
+Bassingthwaighte & Reuter (1972), Reuter (1973, 1974), Trautwein,
+McDonald & Tripathi (1975), and Reuter & Scholz (1976). The curves used
+in defining this model represent a collation of the results obtained by
+Beeler & Reuter (1970b), Reuter (1973, 1974), and Gettes & Reuter
+(1974) and agree with recently published dX and fX, curves of Trautwein
+et al. (1975) and Reuter & Scholz (1976). The steady-state activation and
+inactivation curves, and the time constants as functions of membrane
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+189
+potential are shown in Fig. 3. Voltage-clamp studies indicate that the
+activation time constants, md, for i8 reach a maximum of 40 msec at -20
+mV (Reuter & Scholz, 1976).
+
+The time constant curve for the inactivation parameter, f, represents
+a significant anomaly, when it is compared with the time constants deter-
+mined for most other activation or inactivation parameters in excitable
+tissues. These curves have generally been found to be roughly bell-shaped,
+with the maximum value at approximately the half-point of the activa-
+tion or inactivation parameter in question. The time constant for f,
+
+Td
+
+Tf
+
+B
+
+fG
+
+do
+
+-80
+
+-40
+
+0
+
+(mV)
+
++40
+
+Fig. 3. A, time constants and B, steady-state values for the activation
+(d.) and inactivation (f,) parameters of the slow inward conductance,
+98, as functions of membrane potential.
+
+however, appears from the best experimental evidence to be a continually
+increasing function of membrane potential. Although it is possible that
+this function might decrease at potentials more positive than + 15 mV,
+
+G. W. BEELER AND H. REUTER
+
+190
+there is no experimental evidence for a maximum in the range of -20 mV
+where the f. curve has its half-point. For cat papillary muscle New &
+Trautwein (1972) described a U-shaped relation between Tr and membrane
+potential in the range -40 to + 40 mV. Although their finding has been
+confirmed by Kohlhardt, Krause, Kubler & Herdey (1975), Trautwein et
+al. (1975) pointed out that the increase in Tf at negative potentials is the
+result of an analytical error, and in principle they confirmed the shape of
+Tr vs. V. relationship obtained by Beeler & Reuter (1970b) and Gettes &
+Reuter (1974) (see also Reuter & Scholz, 1976). Another point of experi-
+mental discrepancy relates to the time constants of inactivation and of
+reactivation of is. While Gettes & Reuter (1974) did not find a major
+difference between these two time constants in pig and calf ventricular
+muscle, Kohlhardt et al. (1975) did describe such a difference in cat
+papillary muscle (cf. Reuter & Scholz, 1976).
+
+Any attempt at modelling the influx of calcium into a muscle cell
+requires particular attention to the formulation adopted for the reversal
+potential for is. In order for the contractile proteins of this tissue to relax,
+the over-all intracellular calcium ion concentration at rest must be in the
+range between 1 and 3 x 10-I M. If one then computes the influx of cal-
+cium from voltage-clamp experiments, or indeed from this model, the
+intracellular calcium ion concentration will increase significantly, and
+bring about a reduction in the potential at which the current reverses and
+becomes outward. Bassingthwaighte & Reuter (1972) attempted a study
+of the interrelationship between clamped membrane potential, observed
+i8, and the apparent reversal potential. Their results indicate that the
+reversal potential for is is much less positive than would be predicted from
+a simple consideration of resting calcium levels in the muscle. Moreover,
+their results indicate a very rapid shift in reversal potential for calcium
+down to values as low as + 40 mV within 20 msec of the application of a
+voltage-clamp step. In their discussion, Bassingthwaighte & Reuter
+(1972) postulated that the influx of calcium could be modelled to a first
+approximation by treating the calcium current as though it flowed into a
+volume of distribution that was only a few percent of total cell volume.
+They were not able, however, to precisely determine the resting level of
+the calcium concentration in that distribution space. In a recent study
+on calf ventricular trabeculae Reuter & Scholz (1976) have shown that the
+reversal potential, E., of is depends on the permeability ratio for calcium,
+sodium and potassium ions. The low Es of less than + 40 mV could be
+explained by a hundred times higher permeability of these conductance
+channels for calcium ions than for sodium or potassium ions. However,
+since the concentrations of sodium and potassium ions in the bulk solu-
+tions are much higher than those of calcium ions, a considerable fraction
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+191
+of i8 is carried by the monovalent cations. This leads to a reversal potential
+of i4 which does not follow a simple Nernst relation. In calf trabeculae
+Reuter & Scholz (1976) have not observed major shifts of E8 during
+depolarizing clamp steps.
+
+In order to produce a first approximation to the experimental results
+of Bassingthwaighte & Reuter (1972), we have chosen to model the intra-
+cellular handling of calcium as though it flows into a small distribution
+volume within the cell, from which it is removed by an uptake mechanism
+which will reduce the calcium concentration in that compartment expo-
+nentially with time to a level of 10-I M. The rate constant for this uptake
+is set at 70 sec'. Thus the computer programme integrates the intra-
+cellular calcium ion concentration, utilizing eqn. (9) for the derivative.
+The reversal potential, Es, is then calculated from [Ca2+]i with the Nernst
+equation, as in eqn. (7). Although, as stated above, ES is a mixed reversal
+potential, the use of eqn. (7) simplified our calculations.
+
+The final element relative to calcium movement in the model is that of
+the fully activated conductance gs, which is on the order of 0-1 m-mho/cm2
+(Reuter & Scholz, 1976). The rate constant for uptake of calcium within
+the model was arrived at empirically by consideration of the plateau
+shape and of the over-all duration for the simulated action potential. The
+effects of modifications in the calcium handling system will be considered
+in the Results section.
+Other currents
+
+Earlier in this section it was indicated that at least four other current
+components have at one time or another been postulated to exist in cardiac
+muscle. These include a slow component ofinward sodium current (Reuter,
+1968), a dynamic chloride current (Dudel, Peper, Rudel & Trautwein,
+1967; Reuter, 1968; Fozzard & Hiraoka, 1973) and the two additional
+time varying outward currents (iK2 and i.,; Noble & Tsien, 1968, 1969).
+The latter have been described clearly only for Purkinje fibres, and were
+discussed earlier. We have omitted the slow sodium current from this
+model because it is clear now that it is not a separable component of i4
+(Vitek & Trautwein, 1971). The evidence for the dynamic inward move-
+ment of chloride is very strong in cardiac Purkinje fibres, but this current
+component does not appear to be present to any significant degree in
+ventricular myocardial preparations. In their report of the cardiac
+Purkinje fibre model, McAllister et al. (1975) note that the chloride current
+is required to produce a notch in the action potential, whereas our model
+exhibits such a notch without that component. If such a current is added
+to this model, its sole effect is to accentuate the notch between the spike
+of the action potential and the beginning of the plateau phase. This
+
+7
+
+PHY 268
+
+G. W. BEELER AND H. REUTER
+
+192
+discrepancy apparently results from the activation of iA, which for inside
+positive potentials is at least twice as fast in the Purkinje fibre model as
+it is here. Moreover, the peak positive potential in their model is + 40 mV
+as opposed to + 28 mV in our model. The combined effect is that 12 msec
+into the action potential, where the minimum of the notch occurs, i81 in
+their model is virtually fully activated, while in this model, i8 is about half-
+activated at that time. Thus the notch in our model derives from the
+continued activation of i8, superimposed on a relatively constant outward
+current, whereas in the Purkinje model it is the result of a transient re-
+polarizing current component superimposed on a relatively constant
+inward current.
+
++40
+
+-40-
+
+-80
+
+\
+
+~~~~~~~~(msec)
+
+Fig. 4. The standard computed action potential (see text for details).
+
+RESULTS
+
+Action potential and Vmax
+
+The fundamental simulation produced by this model is the reproduction
+of a typical myocardial action potential as depicted in Fig. 4. The threshold
+is at -60 mV and the upstroke velocity of the action potential is
+115 V/sec. After the initial spike the action potential reaches a maximum
+during the plateau phase of +17 mV and remains at inside positive
+potential levels for 153 msec. The maximum rate of repolarization is
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+193
+about 11 V/sec, and the duration of the action potential measured at
+the point where re-polarization is 90 % complete is 285 msec. The resting
+potential is -84 mV.
+
+One of the first questions pursued with the basic model was whether
+the altered formulation of iNa did indeed match the experimental results
+of Gettes & Reuter (1974). One of the basic findings in their paper is the
+observation of two different curves for the rate of rise of the action poten-
+tial as a function of starting potential, depending upon the method of
+measurement. If the conditioning depolarization which alters the rate of
+
+0
+
+0
+-90
+
+0
+
+-80
+
+-70
+
+(mV)
+
+-60
+
+Fig. 5. Relative action potential upstroke velocity (Pm.), and product
+of Na inactivation variables (h.j) as functions of starting potential for
+two experimental simulations. Right-hand curve is the product of h.j
+plotted with values of rmax (0) which result after a 500 msec conditioning
+clamp to voltage V,. Left-hand curve is the inactivation product with
+V.. (0) values found when the stimulation is at different Vm during the re-
+polarization phase of a standard action potential.
+
+rise of the action potential is accomplished with potassium chloride, or
+with a long-lasting voltage-clamp step, then the half-inactivation (Vh) of
+the upstroke of the cardiac action potential occurs in a potential range
+between 15 and 25 mV positive to the resting potential. If, on the other
+hand, an attempt is made to excite an action potential from a given mem-
+brane potential during the re-polarization phase of the preceding action
+potentials, which is often called 'membrane responsiveness' in the cardiac
+
+7-2
+
+G. W. BEELER AND H. REUTER
+
+194
+muscle literature, the upstroke of the extrasystolic action potential is
+found to be half-inactivated at much more negative potentials. This dif-
+ference is due to the fact that re-activation of iNa is not an instantaneous
+function of the membrane potential. The simulation performed here
+involved the recreation of that basic experiment.
+
+Two different sets of upstroke velocities were determined and are plotted
+in Fig. 5. For the first set, the membrane potential was pre-conditioned
+with a voltage-clamp step to various potential levels for 500 msec,
+and then released from clamp and stimulated. If the clamp duration is
+greater than Th, but less than Tj, the observed maximum rate of rise of the
+action potential is related primarily to the inactivation curve, h.. If the
+clamp duration is greater than both Th and Tj, as simulated here, the
+product of ho .j0, will govern Vmax, but the result is very similar (see
+Discussion, p. 15). This has been confirmed with clamp durations as short
+as 50 msec where the observed velocities fall a few millivolts to the right
+of those plotted in Fig. 5 for 500 msec clamps. The alternative experiment
+is performed by allowing the membrane to re-polarize at the end of the
+action potential to the membrane potential desired, at which point the
+stimulation of a second action potential is attempted.
+
+The measurements of Fig. 5 produce a picture similar to the experi-
+mental results of Gettes & Reuter (1974). In order to show more clearly
+the relationship between inactivation and the peak upstroke velocity in
+this experiment, we have also plotted the product of the inactivation
+variables, h.j, as a continuous function of Vm on the same graph. The
+observed velocity points fall close to these curves except for the points
+measured early in re-polarization. These are lower due to compounding
+factors such as ix and [Ca]i which are elevated at this point in the action
+potential and which tend to further slow the observed rate of rise. It is
+clear from this Figure that the 'membrane responsiveness' curve utilizing
+the re-polarization of the preceding action potential to set the initial
+potential does not reflect the sodium inactivation curves in any meaning-
+ful way. Rather, it is dominated by the rate of re-polarization of the con-
+ditioning action potential and by the time that this allows the slow
+variable, j, to re-activate.
+
+Determinants of action potential duration
+
+One of the major questions which investigators have sought to resolve
+is which ionic current is primarily responsible for the determination of the
+duration of the myocardial action potential. This question is of interest
+because the influx of calcium during the action potential occurs primarily
+during the plateau phase, and hence the contractile state of the prepara-
+tion will depend to a certain degree on action potential duration. In a
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+195
+system such as that modelled here, the plateau phase of the action poten-
+tial is determined by the antagonism between the outward currents, iK,
+and i.,, and the inward current, is. Thus, the termination of the plateau
+phase of the action potential could result from either the activation of il
+or the inactivation of i8. Fig. 6 shows the values for the is inactivation
+parameter, f, and the il activation parameter, xl, during the standard
+computed action potential. Clearly both of these parameters change
+
+A
+
++30 - B
+
+-E
+
+0--
+
+-30 -
+
+-60 -
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~41
+
+Soo
+
+\
+
+\
+
+~~~~~~~~Soo
+~~~~~~~(msec)
+
+-90-
+Fig. 6. A, variation of slow inward current inactivation parameter, f, and
+outward current activation parameter, xl, during B, a standard action
+potential.
+
+throughout the plateau phase of the action potential, although f under-
+goes a greater fractional change during the plateau than does x1. The
+curves in Fig. 6 provide little insight into the question, however, as either
+mechanism might be deemed responsible. Giebisch & Weidmann (1971)
+studied this question in sheep ventricular trabeculae using a voltage-clamp,
+and concluded that the decline of the inward current was the dominant
+factor. Similar conclusions were reached by Beeler & Reuter (1970b), New
+& Trautwein (1972), and Reuter & Scholz (1976). McAllister et al. (1975),
+however, conclude that the activation of il is more important in cardiac
+Purkinje fibres.
+
+196
+
+G. W. BEELER AND H. REUTER
+
+Given that our model is an admixture of results obtained from Purkinje
+fibres for the outward currents, and from ventricular myocardium for the
+inward current, we sought to gain further insight from experimentation
+on the model. One way of doing this is to produce systematic alterations
+of the individual ionic currents. The two panels of Fig. 7 show results of
+
++40j A
+
+0
+
+-40
+
+-80
+
+.-a
+
+I.E.
+
+-40
+
+-80
+
+500
+(msec)
+
+igs.1'1
+
+500
+(Msec)
+
+Fig. 7. The effects of altering i, and i.l parameters. A, five action potentials
+showing the relative effects of altering the fully activated currents for i
+and i4 by ± 10 %. The greater change is caused by alterations of i. B.
+three action potentials showing the effect of increasing the time constants
+for x1 and f by factors of 2. Slowing the inactivation of i. produces the
+greater changes. (Standard action potential indicated by S.)
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+197
+such alterations. In the first instance (Fig. 7A), the fully activated current
+values for i., and for is were changed by + 10 % individually. A 10 %
+change in s produces a larger alteration in action potential duration, than
+does an equivalent change in ixL. Alternatively, one can change the time
+constant for the two parameters in question. In Fig. 7 B are shown the
+action potentials which result when the time constants for f and x1 are
+individually increased by a factor of two. Again, the duration of the action
+potential is significantly more sensitive to an alteration in i8 inactivation
+time than it is to an equivalent alteration in ix, activation time.
+
+Although these results might argue for the decline in is being the
+dominant factor in action potential length, we have also considered the
+question of the effect of the larger time constant for xl at the resting poten-
+tial (233 msec) compared to that for f at that potential (54 msec). The
+shortening of the action potentials which occurs when the stimulus fre-
+quency is increased or when extrasystoles are interpolated within a train
+of action potentials at constant frequency is a well known phenomenon,
+and is reproduced by this model. As the time interval between action
+potentials is decreased, the variables xl and f have less time to recover
+(deactivate and re-activate, respectively). Thus, at the start of the action
+potential in question, ix, is already partially activated, and i8 is already
+partially inactivated. Both effects will shorten the action potential, but
+presumably the ix, effect may dominate since its longer time constant will
+permit less recovery.
+In order to test this presumption, we stimulated the model action
+potential at various frequencies between 1 and 4/sec, and interpolated
+extrasystoles at intervals from 667 msec down to 300 msec into a steady
+1/sec train. As expected, the action potential duration decreases as the
+proximity to the preceding action potential gets smaller. Moreover, the
+change in duration begins to occur at the proximity where xl begins to
+build up, thus confirming the presumption that activation of xl is import-
+ant for action potential shortening in this case even though the duration
+decreases most drastically when f decreases. These results obtained with
+the model action potential are very similar to those obtained experiment-
+ally by Gettes, Morehouse & Surawicz (1972).
+
+In the process of questioning the relative importance of the inward and
+outward currents for re-polarization, we have also sought a simple experi-
+ment that might be applied to any cardiac tissue in order to assess the
+roles of these currents. Kass & Tsien (1976) and Reuter & Scholz (1976)
+have suggested that a pulse of depolarizing current applied during the
+early stages of the action potential ought to separate the effects. If i
+predominates, the added depolarization from such a current should in-
+crease the activation of xl and thus shorten the action potential. If i5 is
+
+G. W. BEELER AND H. REUTER
+
+198
+dominant, on the other hand, the long time constants for f at inside
+positive potentials will mean that the inactivation of i8 will be little
+changed, and the action potential may then be prolonged by the pro-
+longed depolarization produced by the test current.
+
+Fig. 8A shows an experimental test of this hypothesis on Purkinje
+fibres and on ventricular myocardium from calf hearts. The Purkinje
+
+(b)
+
+(
+
+200 msec
+
++40
+
+A(a)
+
+0J
+
+-80
+
+E
+
+1-
+
+J
+
+-80 J
+Fig. 8. A, superimposed action potentials recorded from (a) a calf Purkinje
+fibre and (b) a calf ventricular trabecula in Tyrode solution. Note shortening
+of the action potential duration after application of constant depolarizing
+current pulses at the beginning of the plateau phase in case of the Purkinje
+fibre (from Kass & Tsien, 1976) and modest lengthening in case of the
+ventricular trabeculae (H. Reuter, unpublished). B, corresponding recon-
+structions. (See text for details.)
+
+fibre result (Kass & Tsien, 1976), a shortening of the action potential after
+depolarizing current pulses at the beginning of the plateau, is as one would
+expect from the model of McAllister et al. (1975), while the ventricular
+myocardial preparation shows a modest prolongation of the action poten-
+tial under similar conditions indicating less influence of time-activated
+outward current. Our own experiments in dog (Beeler & Reuter, 1970a),
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+199
+sheep, calf and cat hearts (Gettes & Reuter, 1974; Reuter & Scholz, 1976)
+confirm the species difference in time-activated outward current, this
+current being larger in dog and cat than in sheep or calf ventricular fibres.
+Fig. 8 B is a simulation of two ventricular myocardium experiments. The
+right-hand panel (a) is our standard reconstruction which shows virtually
+no effect of the imposed current pulses on the action potential duration.
+The left-hand panel (b) represents a modified model which may be more
+closely applicable to myocardial fibres with large i., and which mimics
+the Purkinje fibre results in Fig. 8A (see also Kass & Tsien, 1976, Fig. 4C).
+In this modified model, the relative importance of i,} and i,1 for re-
+polarization was reversed by reducing g to two thirds its normal value,
+and increasing i., to twice normal. In order to retain a normal spike and
+early plateau, iK1 was also reduced to one half normal. Oppositely directed
+changes in the same parameters produce a model which shows clear
+prolongation of the action potential when depolarizing currents are
+applied, confirming that this simple experiment will demonstrate the rela-
+tive dependence of action potential duration upon these two currents.
+
+All-or-nothing re-polarization
+
+One of the experimental methods that has been used in the past to
+characterize the plateau phase of the cardiac action potential, is to attempt
+to force premature re-polarization of the action potential by applying
+a constant current stimulus during the plateau phase of the action poten-
+tial (Weidmann, 1951). This procedure generally shows that premature
+re-polarization will occur if the current drops the membrane potential
+below a threshold level, and that this threshold is at progressively more
+positive potentials later in the action potential (Vassalle, 1966). In the
+process of investigating this experiment with the model, we altered the
+experimental method by imposing a brief voltage clamp during the action
+potential (Fig. 9). When such a clamp is imposed either experimentally or
+on the model, a decaying tail of inward current is observed if the mem-
+brane potential during the clamp is more negative than the normal action
+potential level. If the voltage-clamp is released at a time when the current
+tail is still inward, the membrane will tend to depolarize a second time
+and follow its normal course of re-polarization. Otherwise, i.e. if the net
+current is outward, the membrane potential will re-polarize prematurely.
+Examples of these phenomena in the model are given in the four panels
+of Fig. 10. Here, voltage-clamps have been imposed at various intervals
+of delay after the stimulus to the action potential, and held for varying
+times. Analysis of these data shows that the duration of the clamp needed
+to force premature re-polarization at any given potential level is directly
+related to the time constant for the activation parameter, Td, for is at that
+
+C. W. BEELER AND H. REUTER
+
+200
+potential level. Thus the clamp brings about a reduction in inward current
+by deactivation of i8. If this process is not completed before the time when
+the membrane potential is released from clamp, then is re-activates and
+produces a second depolarization to potential levels equal to or beyond
+those which would be achieved by the normal action potential. This can
+be seen most clearly in Fig. 9 C and Fig. 10 D. The interaction between the
+
+C
+
+D
+
+0-
+
+A
+
+(mV)
+
+-
+
+0-
+
+(mV)
+
+B
+
+200 msec
+
+Fig. 9. All-or-nothing re-polarization in a dog ventricular trabecula: A, C,
+hyperpolarizing clamp steps applied 50 msec or B, D, 120 msec after the
+beginning of the action potential; A, B, clamp steps (50 msec duration) to
+different potential levels, or C, D, for different times (10-60 msec duration;
+all-or-nothing response is best illustrated in C.
+
+on-going inactivation of i5 and the activation of i.1 brings about a steadily
+higher potential level at which a clamp of any given duration will bring
+about all-or-nothing re-polarization. This can be seen by comparing the
+voltage levels at which the action potential repolarizes prematurely in
+A-C of Fig. 10 (cf. Fig. 9A, B), and agrees with the experimental reports
+of Vassalle (1966), Reuter & Beeler (1971), and McAllister et al. (1975).
+
+Oscillatory potentials
+
+Although the electrical characteristics of the working myocardium are
+such that these preparations seldom produce spontaneous activity,
+numerous experimental conditions have been created where such observa-
+tions can be made. Reuter & Scholz (1968) found that preparations in a
+low sodium, high calcium medium produced membrane potential oscilla-
+tions when depolarized with outward current. More recently, Katzung
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+201
+(1975) has reported a series of experiments on ventricular myocardial
+preparations in a sucrose gap, wherein a steady depolarizing current
+brings about oscillatory potentials in working myocardium in the absence
+of any other ionic or pharmacologic intervention. This mechanism can be
+readily simulated in the model as seen in Fig. 11 which shows the model
+response to two different steady depolarizing currents. At a moderate
+depolarization a stable oscillation of about one every 1-3 see results. At
+
++401
+
+01
+
+E
+
+-40
+
+V
+
+X
+
+-80JI
+
++402
+
+-80
+
+B
+
+>
+
+~~~~~~~~(msec)
+
+D
+
+(msec)
+
+Fig. 10. All-or-nothing re-polarization induced by voltage-clamps imposed
+during the plateau of a simulated action potential. A, voltage-clamps com-
+mence 25 msec after the stimulus, last for 35 msec, and are at levels of
+- 25, - 30, - 35, and -40 mV. B, clamps are 35 msec duration, are imposed
+75 msec after the stimulus, and are at voltage levels of - 25, -30, -35 and
+-40 mV. C, voltage-clamps are 30 msec duration, imposed 125 msec after
+stimulus, at voltage levels -20, -25, -30, and -35 mV. D, effects of
+varying the duration of voltage-clamps which start 25 msec after the
+stimulus at the -35 mV level; durations are 25, 35, 45 and 55 msec.
+
+still larger depolarizations, the model exhibits a damped oscillation
+around a stable potential level at -20 mV. These results match quite
+well the experimental findings by Reuter & Scholz (1968) and by Katzung
+(1975).
+
+The two panels of Fig. 12 show the ionic current dependencies of this
+oscillatory behaviour of the membrane. Fig. 12A shows two tracings
+
+2. W. BEELER AND H. REUTER
+
+202
+created with a steady current of 2 1 ,uA/cm2. The earlier tracing is the basic
+model, while the later tracing was simulated with the conductance for the
+NSn, set to zero such as might occur in the presence of
+sodium current,
+tetrodotoxin or in Na-free solution (Katzung, 1975; Reuter & Scholz,
+
+B
+
+E
+
+E
+
+-40
+
+-80
+
+Fig. 11. Oscillatory potentials created with steady outward currents
+
+of: A, 2*3 flA/cm2 and B, 2 8 fA/cm2.
+
+1968). The depolarization of the earliest action potential is brought about
+by the active sodium system in the standard model. The subsequent
+repolarization, however, does not proceed to sufficiently negative values
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+203
+to allow the re-activation of the sodium system. Thus the second and sub-
+sequent oscillations brought about by the steady outward current produce
+virtually identically shaped action potentials for the two reconstructions,
+and the only difference in the action potential trains observed is the time
+delay created at the occurrence of the first action potential.
+
++40
+
+0
+
+E
+
+-40-
+
+-80 -
+
+0-8 -
+
+0 -
+
++30-
+
+0-
+
+2
+
+-60
+
+B
+
+2
+(sec)
+
+Fig. 12. A, effect on the oscillatory potentials of eliminating the dynamic
+sodium inward current, in. The earlier tracing is normal model, the later
+one is model without ix.. B, membrane potential and kinetic parameters
+observed during a single cycle of A. Activation and inactivation parameters
+for i., d and f, and isl activation parameter, xl, are plotted above the
+oscillatory membrane potential.
+
+204
+
+G. W. BEELER AND H. REUTER
+
+Since Fig. 12A demonstrates that the oscillatory behaviour is not a
+phenomenon which depends on YNa, it is of interest to investigate further
+the ionic conductance mechanisms responsible for this oscillation. Fig.
+12 B shows a single cycle of the oscillations from the upper panel plotted
+along with the values for the conductance parameters which moderate i.
+and il. During the slow depolarization phase the change in membrane
+potential results from a slow decay of the x1 outward current. At about
+-40 mV, i8 is progressively activated bringing about an increasing speed
+of depolarization of the membrane. Subsequently, the combined factors
+of the inactivation of i8 and the activation it
+bring about repolarization
+to about -70 mV. Thus this oscillatory behaviour is a 'slow response'
+dependent on i8. As a final note, oscillatory behaviour of the sort shown
+here can be readily produced in the model in the absence of a stimulus by
+simply increasing the leak conductance to sodium, gNaC, eightfold.
+
+Calcium mechanism
+
+A common finding in cardiac electrophysiology is a shortening of the
+action potential duration with increasing extracellular calcium ion con-
+centration. On face value, one might expect that the calcium inward
+current would be increased in this situation, owing to an increased driving
+force, and ought to bring about an increase in action potential duration.
+This, however, is seen only at very low rate of stimulation (<0.1 Hz;
+Niedergerke & Orkand, 1966; Bassingthwaighte, Fry & McGuigan, 1976),
+while at higher driving rates the action potential duration shortens. The
+reason for this apparent discrepancy, however, is probably a secondary
+effect of the change in extracellular and intracellular calcium ion concen-
+tration on the conductance of the membrane to potassium ions. Recent
+reports by Meech (1972) working with Aplysia neurones, by Isenberg
+(1975) in cardiac Purkinje fibres and by Bassingthwaighte et al. (1976) in
+ventricular myocardium demonstrate that membrane conductance to
+potassium can be significantly and rapidly altered by an alteration in the
+intracellular calcium ion concentration. Moreover, one of the effects of an
+increase in the extracellular calcium ion concentration in addition to
+increasing i5 will be to bring about an increase in the intracellular calcium
+concentration via the Na-Ca exchange mechanism (Reuter & Seitz, 1968)
+studied in various excitable tissues (for references see Blaustein, 1974).
+Therefore in simulating the effects of an increase in extracellular calcium
+ion concentration, one ought also to make a concomitant change in the
+formulation for the potassium currents. An example of the attempt to
+simulate such behaviour is seen in Fig. 13. Here, the effects of producing
+e-fold changes in the extracellular calcium ion concentration are modelled
+by three changes in the basic model parameters. Firstly, the reversal
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+205
+potential computation for i8 is altered in order to recognize the change in
+the Nernst relationship brought about by the increase or decrease in
+extracellular calcium concentration, [Ca]o. Secondly, all potassium current
+components in the model are altered by 15 % in the same direction as the
+change in [Ca].. Thirdly, altering [Ca]o will change the external surface
+charge of the membrane and will result in a shift along the voltage axis
+
++40
+
+-40-
+
+-s_
+
+2
+
+X
+
+~~~~~~~~~~~~~~~(Msec)
+
+\ <--~Low [Ca]o
+
+High [CaJ0---
+
+Fig. 13. Simulation of the effects of an e-fold increase or decrease in the
+extracellular calcium ion concentration; plotted along with standard recon-
+struction (dotted line). See text for details of model alterations.
+
+of all conductance parameters (Frankenhaeuser & Hodgkin, 1957; Weid-
+mann, 1955b; Reuter & Scholz, 1976). In our model, an e-fold increase in
+[Ca]o shifts all conductance parameters by 4 mV in the depolarizing
+direction on the voltage axis. The resulting action potentials (Fig. 13)
+demonstrate the characteristic change in action potential duration that is
+seen with such an experimental intervention. Although is is indeed larger
+and results in a higher plateau in the instance of increased [Ca]0, the
+concomitant increase in potassium conductance brings about an earlier
+re-polarization of the membrane potential. Moreover, the effect of i8 on
+the plateau is accentuated by the shift in conductance parameters, and the
+latter intervention alters the threshold of the rapid upstroke of the action
+potential, increasing the threshold with increasing [Ca]0.
+
+206
+
+G. W. BEELER AND H. REUTER
+
+An increase in iK1 due to accumulation of [Ca]i (Bassingthwaighte et al.
+1976) and accumulation of [K]o (Cleemann & Morad, 1976) may also con-
+tribute to the shortening of the action potential during rapid stimulation.
+As was noted earlier, one of the greatest uncertainties in defining the
+calcium conductance was the formulation of the intracellular handling
+of calcium. The model adopted here proposes that the calcium current
+flows into a limited volume within the cell, and then is sequestered from
+this volume by some intracellular process, probably the sarcoplasmic
+
+E= 74
+
++40
+
+-40
+
+-80
+
+E
+
+Es40
+
+\
+
+(msec)
+
+A
+
+Fig. 14. Effect on the simulated action potential of forcing constant reversal
+potential E8 at 74 mY, and 40 mY, along with standard simulation, S. (See
+text for discussion.)
+
+reticulum (for further discussion of this see Bassingthwaighte & Reuter,
+1972). One of the questions which we have sought to address with the
+model is the effect upon the computed action potential of these assump-
+tions. Alterations in the parameters which define this process have pre-
+dictable effects. Thus, increasing the volume of distribution brings about a
+lesser reduction in calcium reversal potential. The increased i5, which
+results from the increased driving force, produces a higher plateau and
+longer action potential. Similar changes result if the rate constant at
+which calcium is removed from this volume is increased. Of greater
+interest, however, is the effect of keeping Es constant. Fig. 14 shows two
+such models along with the standard reconstruction. In the first, Es is
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+207
+held fixed at 74 mV, the level reached during the plateau of normal recon-
+struction. This version deviates from the standard tracing only during the
+early plateau phase, where Es in the standard reconstruction is changing
+most rapidly.
+
+The second altered reconstruction has Es fixed at 40 mV (Reuter &
+Scholz, 1976). In this reconstruction 98 and ix, are multiplied by 2-2 and
+1-9 respectively, to arrive at approximately the same shape action poten-
+tial. Again, there is little qualitative difference between this reconstruc-
+tion and the standard version. Indeed, all of the phenomena discussed
+earlier in the paper can be reproduced on any of these versions.
+
+DISCUSSION
+
+The main object of this paper has been the reconstruction of an action
+potential of mammalian ventricular myocardium on the basis of ionic
+currents measured in voltage-clamp experiments. Most of the detailed
+properties of this model have been discussed in the Results. Hence it
+remains to emphasize briefly some major features and shortcomings of our
+reconstruction.
+
+The membrane action potential model is based on two inward and two
+outward current systems for which experimental evidence is available.
+However, for the reconstruction of propagated action potentials it would be
+desirable to have more detailed information about the kinetic properties
+of the excitatory iNa' Unfortunately, none of the published voltage-clamp
+methods applied to cardiac muscle are adequate to provide this informa-
+tion. Here we see one of the major shortcomings of our model, since it
+does not predict action potential behaviour during conduction or con-
+duction disturbances, e.g. during arrhythmias.
+The other ionic currents, al, iK, and ix,, are defined experimentally much
+better than iNa. Therefore it is not surprising that features of the cardiac
+action potential which depend on these current components are simulated
+quite well by our reconstruction. Re-polarization of the action potential is
+induced by the time-dependent decrease of the slow inward current, i8,
+and by the increase of the time-dependent outward current, ix,. The rela-
+tive contribution of both current components to re-polarization depends
+'n the animal species and on the experimental conditions. In most in-
+stances the decrease of is seems to be the dominant factor. However,
+particularly during fast repetitive stimulation the build-up of ix, becomes
+important for the shortening of the action potential duration.
+
+The model simulates rather successfully 'all-or-nothing re-polarization'
+as well as the prolongation of the action potential after depolarizing cur-
+rent pulses during the plateau. These features are primarily dependent on
+
+2. TV. BEELER AND H. REUTER
+
+208
+the kinetic properties of i8. The close agreement between experimental
+results and computer reconstruction suggests that our model describes
+these kinetics quite accurately.
+
+A very intriguing phenomenon is the oscillatory behaviour of the mem-
+brane potential during application of a constant outward current. Such
+oscillations were first described by Reuter & Scholz (1968) in ventricular
+trabeculae superfused with sodium-free solution. Our reconstruction model
+simulates these oscillations and confirms its independence of iNa and its
+dependence on i8 and i,,. Such pace-maker activity may be of importance
+for generation of ectopic pace-makers in cardiac arrhythmias. It has also
+been suggested that 'slow responses' which depend on i5 are important
+for re-entrant arrhythmias (Cranefield, 1975).
+
+A subject of major experimental uncertainty is whether and under
+which conditions extracellular and intracellular accumulation, or deple-
+tion, or both, of ions may occur. In our model we have incorporated only a
+rapid and transient accumulation of intracellular calcium ions. However,
+other changes in local ion concentrations may occur during normal or
+pathologically altered action potentials. Thus, extracellular accumulation
+of potassium ions has been observed under experimental conditions in
+frog and mammalian ventricle (Cleemann & Morad, 1976; McGuigan,
+1974). Such shifts in ion concentrations, if they occur in vivo in the whole
+heart, may be responsible for local changes in the shape of the action
+potential which, in turn, should be reflected by the electrocardiogram.
+
+A more complete model of the cardiac action potential than ours will
+also have to include current components generated by electrogenic pump
+mechanisms. It will be interesting to see how the inclusion of such mecha-
+nisms will alter the basic properties of our action potential model.
+
+This work has been supported by grants HL 12824 and RR 00007 of the U.S.
+National Institutes of Health and by grants 3.734.72 and 3.598.75 of the Swiss
+National Science Foundation. This work was performed during the tenure of an
+Established Investigatorship of the American Heart Association (G.W.B.).
+
+REFERENCES
+
+ANDERSON, D. U., KNoPP, T. J. & BASSINGTHWAIGHTE, J. B. (1970). SIMCON-
+
+Simulation control to optimize man-machine interaction. Simulation 14, 81-86.
+
+BASSINGTHWAIGHTE, J. B., FRY, C. H. & McGUIGAN, J. A. S. (1976). Relationship
+between internal calcium and outward current in mammalian ventricular muscle;
+a mechanism for the control of the action potential duration? J. Physiol. 262,
+15-37.
+
+BASSINGTHWAIGHTE, J. B. & REUTER, H. (1972). Calcium movements and excita-
+tion contraction coupling in cardiac cells. In Electrical Phenomena in the Heart,
+ed. DE MELLO, W. C., pp. 353-395. New York: Academic Press.
+
+BEELER, G. W., JR & REUTER, H. (1970a). Voltage clamp experiments on ventri-
+
+cular myocardium fibres. J. Physiol. 207, 165-190.
+
+VENTRICULAR ACTION POTENTIAL MODEL
+
+209
+BEELER, G. W., JR & REUTER, H. (1970b). Membrane calcium current in ventri-
+
+cular myocardium fibres. J. Phy8iol. 207, 191-209.
+
+BLAUSTEIN, M. P. (1974). The interrelationship between sodium and calcium fluxes
+
+across cell membranes. Rev. Phy8iol. Biochem. Pharmac. 70, 34-82.
+
+CLEEMANN, L. & MORAD, M. (1976). Extracellular potassium accumulation and
+inward-going potassium rectification in voltage clamped ventricular muscle.
+Science, N.Y. 191, 90-92.
+
+CRANEFIELD, P. F. (1975). The Conduction of the Cardiac Impulse. Mount Kisco,
+
+N.Y.: Futura.
+
+DUDEL, J., PEPER, K., RUDEL, R. & TRAUTWEIN, W. (1967). The dynamic chloride
+component of membrane current in Purkinje fibres. Pflugers Arch. ge8. Physiol.
+295, 197-212.
+
+FRANKENHAEUSER, B. & HODGKIN, A. L. (1957). The action of calcium on the
+
+electrical properties of squid axons. J. Physiol. 137, 218-244.
+
+FOZZARD, H. A. & HIRAoKA, M. (1973). The positive dynamic current and its in-
+
+activation properties in cardiac Purkinje fibres. J. Physiol. 234, 569-586.
+
+GETTES, L. S., MOREHOUSE, N. & SURAWICZ, B. (1972). Effect of premature de-
+polarization on the duration of action potentials in Purkinje and ventricular
+fibres of the moderator band of the pig heart. Role of proximity and the duration
+of the preceding action potential. Circulation Res. 30, 55-66.
+
+GETTES, L. S. & REUTER, H. (1974). Slow recovery from inactivation of inward
+
+currents in mammalian myocardial fibres. J. Physiol. 240, 703-724.
+
+GIEBISCH, G. & WEIDMANN, S. (1971). Membrane currents in mammalian ventri-
+cular heart muscle fibres using a voltage-clamp technique. J. gen. Physiol. 57,
+290-296.
+
+GOLDMAN, L. (1975). Quantitative description of the sodium conductance of the
+giant axon of Myxicola in terms of a generalized second order variable. Biophy8. J.
+15, 119-136.
+
+HAAS, H. G., KERN, R. EINWACHTER, H. M. & TARR, M. (1971). Kinetics of Na
+
+inactivation in frog atria. Pfiiigers Arch. ge8. Physiol. 323, 141-157.
+
+HODGKIN, A. L. & HUXLEY, A. F. (1952). A quantitative description of membrane
+current and its application to conduction and excitation in nerve. J. Physiol. 117,
+500-544.
+
+ISENBERG, G. (1975). Is potassium conductance of cardiac Purkinje fibrqs controlled
+
+by [Ca2+]1? Nature, Lond. 253, 273-274.
+
+KASS, R. S. & TsIEN, R. W. (1976). Control of action potential duration by calcium
+
+ions in cardiac Purkinje fibres. J. gen. Physiol. 67, 599-617.
+
+KATZUNG, B. G. (1975). Effects of extracellular calcium and sodium on depolariza-
+tion-induced automaticity in guinea pig papillary muscle. Circulation Res. 37,
+118-127.
+
+KOHLHARDT, M., KRAUSE, J., KUBLER, M. & HERDEY, A. (1975). Kinetics of in-
+activation and recovery of the slow inward current in the mammalian ventricular
+myocardium. Pflugers Arch. ges. Physiol. 355, 1-17.
+
+LANGE, G. E. (1960). Numerical Methods for High Speed Computers, pp. 54-57.
+
+London: Iliffe.
+
+McALLISTER, R. E., NOBLE, D. & TsIEN, R. W. (1975). Reconstruction of the
+
+electrical activity of cardiac Purkinje fibres. J. Physiol. 251, 1-59.
+
+McGUIGAN, J. A. S. (1974). Some limitations of the double sucrose gap and its use
+in a study of the slow outward current in mammalian ventricular muscle.
+J. Physiol. 240, 775- 806.
+
+MEECH, R. W. (1972). Intracellular calcium injection causes increased potassium
+
+conductance in Aplysia nerve cells. Comp. Biochem. Physiol. 42A, 493-499.
+
+".
+
+210
+NEW, W. & TRAUTWEIN, W. (1972). Inward membrane currents in mammalian
+
+2G. W. BEELER AND H. REUTER
+
+myocardium. Pflugers Arch. ges. Physiol. 334, 1-23.
+
+NIEDERGERKE, R. & ORKAND, R. K. (1966). The dual effect of calcium on the
+
+action potential of the frog's heart. J. Physiol. 184, 291-311.
+
+NOBLE, D. (1975). The Initiation of the Heart Beat. Oxford: Clarendon Press.
+NOBLE, D. & TsIEN, R. W. (1968). The kinetics and rectifier properties of the slow
+
+potassium current in cardiac Purkinje fibres. J. Physiol. 195, 185-214.
+
+NOBLE, D. & TSIEN, R. WV. (1969). Outward membrane currents activated in the
+
+plateau range of potentials in cardiac Purkinje fibres. J. Physiol. 200, 205-232.
+
+REUTER, H. (1968). Slow inactivation of currents in cardiac Purkinje fibres.
+
+J. Physiol. 197, 233-253.
+
+REUTER, H. (1973). Divalent cations as charge carriers in excitable membranes.
+
+Prog. Biophys. molec. Biol. 26, 1-43.
+
+REUTER, H. (1974). Localization of beta adrenergic receptors and effects of nor-
+adrenaline and cyclic nucleotides on action potentials, ionic currents and tension
+in mammalian cardiac muscle. J. Physiol. 242, 429-451.
+
+REUTER, H. & BEELER, G. W., JR (1971). The mechanism of all-or-nothing re-
+polarization in ventricular myocardial fibres. Proc. int. Union Physiol. Sci. 9, 472.
+REUTER, H. & SCHOLZ, H. (1968). Uber den Einfluss der extracellularen Ca-
+Konzentration auf Membranpotential und Kontraktion isolierter Herzpraparate
+beigraduierter Depolarisation. Pflugers Arch. ges. Physiol. 300, 87-107.
+
+REUTER, H. & SCHOLZ, H. (1976). A study of the ion selectivity and the kinetic
+properties of the calcium-dependent slow inward current in mammalian cardiac
+muscle. J. Physiol. 264, 17-47.
+
+REUTER, H. & SEITZ, N. (1968). The dependence of calcium efflux from cardiac
+
+muscle on temperature and external ion composition. J. Physiol. 195, 451-470.
+
+TRAUTWEIN, WV. (1973). Membrane currents in cardiac muscle fibers. Physiol. Rev.
+
+53, 793-835.
+
+TRAUTWEIN, W., MCDONALD, T. F. & TRIPATHI, 0. (1975). Calcium conductance
+and tension in mammalian ventricular muscle. Pflugers Arch. ges. Physiol. 354,
+55-74.
+
+VASSALLE, M. (1966). Analysis of cardiac pacemaker potential using a 'voltage-
+
+clamp' technique. Am. J. Physiol. 210, 1335-1341.
+
+VITEK, M. & TRAUTWEIN, W. (1971). Slow inward current and action potential in
+cardiac Purkinje fibres. The effect of Mn++ ions. Pflugerm Arch. ges. Physiol. 323,
+204-218.
+
+WEIDMANN, S. (1951). Effect of current flow on the membrane potential of cardiac
+
+muscle. J. Physiol. 115, 227-236.
+
+WEI13MANN, S. (1955a). The effect of the cardiac membrane potential on the rapid
+
+availability of the sodium carrying system. J. Physiol. 127,.213-224.
+
+WEIDMANN, S. (1955b). Effects of calcium ions and local anaesthetics on electrical
+
+properties of Purkinje fibres. J. Physiol. 129, 568-582.
+
+WEIDMANN, S. (1970). Electrical constants of trabecular muscle from mammalian
+
+heart. J. Physiol. 210, 1041-1054.
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4629">
+<itemtype>xnppaper</itemtype>
+<titles><title>Declarative memory consolidation in humans: a prospective functional magnetic resonance imaging study.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>radiography</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-04T01:24:37Z</last_update_date>
+<creation_date>2011-02-04T01:24:37Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4629</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4629" version="1.02">
+<authors><author>Takashima A</author><author>Petersson KM</author><author>Rutters F</author><author>Tendolkar I</author><author>Jensen O</author><author>Zwarts MJ</author><author>McNaughton BL</author><author>Fernández G</author></authors>
+<journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+<volume>103</volume>
+<number>3</number>
+<page>756-61</page>
+<abstract>Retrieval of recently acquired declarative memories depends on the hippocampus, but with time, retrieval is increasingly sustainable by neocortical representations alone. This process has been conceptualized as system-level consolidation. Using functional magnetic resonance imaging, we assessed over the course of three months how consolidation affects the neural correlates of memory retrieval. The duration of slow-wave sleep during a nap/rest period after the initial study session and before the first scan session on day 1 correlated positively with recognition memory performance for items studied before the nap and negatively with hippocampal activity associated with correct confident recognition. Over the course of the entire study, hippocampal activity for correct confident recognition continued to decrease, whereas activity in a ventral medial prefrontal region increased. These findings, together with data obtained in rodents, may prompt a revision of classical consolidation theory, incorporating a transfer of putative linking nodes from hippocampal to prelimbic prefrontal areas.</abstract>
+<pubmed_id>16407110</pubmed_id>
+</detail>
+</item>

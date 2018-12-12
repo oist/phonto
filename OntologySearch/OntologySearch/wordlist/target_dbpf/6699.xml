@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6699">
+<itemtype>xnppaper</itemtype>
+<titles><title>A comparison of two FMRI protocols for eliciting hippocampal activation.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>methods</keyword>
+<keyword>Clinical Protocols</keyword>
+<keyword>Epilepsy</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>diagnosis</keyword>
+<keyword>physiopathology</keyword>
+<keyword>surgery</keyword>
+<keyword>Exploratory Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Preoperative Care</keyword>
+<keyword>Semantics</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Visual Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:25:12Z</last_update_date>
+<creation_date>2013-02-26T07:25:12Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6699</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6699" version="1.02">
+<authors><author>Binder JR</author><author>Bellgowan PS</author><author>Hammeke TA</author><author>Possing ET</author><author>Frost JA</author></authors>
+<journal>Epilepsia</journal>
+<volume>46</volume>
+<number>7</number>
+<page>1061-70</page>
+<abstract>Previous research suggests that the hippocampus is modulated both by stimulus novelty and by the extent to which relational processing (formation of associations) occurs during episodic encoding. The aim of this study was to compare hippocampal activation patterns measured by functional magnetic resonance imaging (fMRI) during encoding protocols emphasizing either novelty or relational processing.fMRI was performed on 32 healthy volunteers while they encoded complex visual scenes or unrecognizable scrambled versions of the same scenes. In the Novelty contrast, encoding of novel scenes was compared with encoding of a repeated pair of scenes. In the Relational Processing contrast, semantic encoding of novel scenes was compared with structural encoding of scrambled scenes.Both protocols elicited bilateral hippocampal activation. Overall mean activation values were similar for the two protocols, but the Relational Processing protocol resulted in a larger volume of hippocampal activation. The pattern of activation along the longitudinal hippocampal axis differed for the two protocols. The Novelty contrast produced stronger activation in the posterior hippocampus, whereas the Relational Processing contrast produced stronger activation in the anterior hippocampus.Hippocampal activation is determined by both stimulus novelty and degree of relational processing during encoding. Given the importance of anterior hippocampal pathology in temporal lobe epilepsy, an approach emphasizing modulation of relational processing may be preferable for clinical fMRI of the medial temporal lobes.</abstract>
+<pubmed_id>16026558</pubmed_id>
+</detail>
+</item>

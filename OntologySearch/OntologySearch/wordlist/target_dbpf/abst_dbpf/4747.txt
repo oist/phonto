@@ -1,0 +1,16 @@
+Animals
+Brain
+physiology
+Electric Stimulation
+Evoked Potentials
+Hippocampus
+physiology
+Male
+Rats
+Rats
+Inbred F344
+Synapses
+physiology
+Synaptic Transmission
+Theta Rhythm
+Animals transferred from their home cages to a different environment exhibited an increase in exploratory behavior which was accompanied by a substantial increase in perforant path-evoked population excitatory postsynaptic potentials and decreases in both the areas and the onset latencies of population spikes. As reported previously, these changes substantially outlasted the exploratory behaviors that induced them. Electrolytic lesions of the medial septum severely attenuated the theta rhythm of the hippocampal EEG, but had no significant effect on the exploration related changes in the synaptic and postsynaptic components of the evoked response. In urethane-anesthetized animals, long trains of hippocampal theta produced by sensory stimulation failed to affect the amplitude of evoked responses. These results show that the information critical for the exploration-related alterations in dentate evoked responses does not originate in or pass through the medial septum, and that the changes are not linked to hippocampal EEG states.

@@ -1,0 +1,30 @@
+Activins
+chemistry
+genetics
+metabolism
+physiology
+Animals
+Brain
+metabolism
+Calcium-Calmodulin-Dependent Protein Kinase Type 2
+metabolism
+Cell Differentiation
+Follistatin
+genetics
+metabolism
+Hippocampus
+metabolism
+Ischemia
+metabolism
+Mice
+Mice
+Transgenic
+Models
+Biological
+Neurons
+metabolism
+Phenotype
+Promoter Regions
+Genetic
+Transgenes
+Activin, a member of the transforming growth factor-beta superfamily, is an endocrine hormone that regulates differentiation and proliferation of a wide variety of cells. In the brain, activin protects neurons from ischemic damage. In this study, we demonstrate that activin modulates anxiety-related behavior by analyzing ACM4 and FSM transgenic mice in which activin and follistatin (which antagonizes the activin signal), respectively, were overexpressed in a forebrain-specific manner under the control of the alphaCaMKII promoter. Behavioral analyses revealed that FSM mice exhibited enhanced anxiety compared to wild-type littermates, while ACM4 mice showed reduced anxiety. Importantly, survival of newly formed neurons in the subgranular zone of adult hippocampus was significantly decreased in FSM mice, which was partially rescued in ACM4/FSM double transgenic mice. Our findings demonstrate that the level of activin in the adult brain bi-directionally influences anxiety-related behavior. These results further suggest that decreases in postnatal neurogenesis caused by activin inhibition affect an anxiety-related behavior in adulthood. Activin and its signaling pathway may represent novel therapeutic targets for anxiety disorder as well as ischemic brain injury.

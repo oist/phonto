@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7196">
+<itemtype>xnppaper</itemtype>
+<titles><title>Characterization of the anoxia-induced long-term synaptic potentiation in area CA1 of the rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Anoxia</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Calcium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Chelating Agents</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>N-Methylaspartate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>alpha-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic Acid</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:48:26Z</last_update_date>
+<creation_date>2013-02-27T07:48:26Z</creation_date>
+<publication_year>1997</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7196</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7196" version="1.02">
+<authors><author>Hsu KS</author><author>Huang CC</author></authors>
+<journal>British journal of pharmacology</journal>
+<volume>122</volume>
+<number>4</number>
+<page>671-81</page>
+<abstract>1. The purpose of the present study was to characterize the mechanisms underlying the anoxia-induced long-term potentiation (LTP) of glutamatergic synaptic transmission in the CA1 region of rat hippocampus by use of intracellular recordings in vitro. 2. In response to superfusion of an anoxic medium equilibrated with 95% N2 - 5% CO2, the initial slope (measured within 3 ms from the onset of the synaptic response) of the excitatory postsynaptic potential (e.p.s.p.) generated in the hippocampal CA1 neurones by stimulation of Schaffer collateral-commissural afferent pathway was significantly decreased by 91.3 +/- 4.9% (n = 10) within 10 min of the anoxic episode. The reduction of the initial slope of the e.p.s.p. was accompanied by a transient membrane hyperpolarization followed by a sustained depolarization (10.8 +/- 1.7 mV, n = 10), along with a reduction in membrane input resistance (69.3 +/- 4.8% of control, n = 10). On return to reoxygenated medium, the e.p.s.p. slope returned to the control value within 8-10 min and was subsequently and progessively potentiated to reach a plateau (195.6 +/- 14.7% of control, n = 10) 15-20 min after return to control ACSF. This anoxic episode-induced persistent potentiation of synaptic transmission lasted for more than 1 h and was termed anoxic LTP. 3. The anoxic episode induced a persistent potentiation of the initial slopes of both pharmacologically isolated alpha-amino-3-hydroxy-5-methyl-4-isoxazola-propionate (AMPA) receptor-mediated e.p.s.p. (e.p.s.p.AMPA) and N-methyl-D-aspartate (NMDA) receptor-mediated e.p.s.p. (e.p.s.p.NMDA) with a similar time course and magnitude. The sensitivity of postsynaptic neurones to NMDA (10 microM), but not to AMPA (10 microM) was also persistently potentiated following the anoxic episode. In addition, the anoxia-induced LTP of the initial slope of e.p.s.p.AMPA was accompanied by a decrease in the magnitude of paired-pulse facilitation (PPF; from 106.8 +/- 17.6 to 46.6 +/- 18.4%, n = 6), a phenomenon which was associated with presynaptic transmitter release mechanisms. 4. The induction of the anoxic LTP is dependent on the extracellular Ca2+ concentration. The induction of the anoxic LTP was completely abolished when the external Ca2+ was removed and substituted with equimolar Mg2+. Moreover, the anoxic LTP was completely abolished in neurones intracellularly recorded with Ca2+ chelator bis-(O-aminophenoxy)-N,N,N&#039;,N&#039;-tetraacetic acid (BAPTA, 500 mM). 5. Occlusion experiments were performed to examine whether the sustained enhancement of the initial slope of the e.p.s.p. produced by tetanic stimulation and the anoxic episode share common cellular mechanisms. Three episodes of tetanic stimulation were delivered to saturate the LTP, following which a long period (15 min) of anoxia failed to cause a further potentiation of the initial slope of the e.p.s.p. Similarly, prior induction of anoxic LTP also significantly attenuated the subsequent synaptic potentiation induced by a high-frequency tetanic stimulation (100 Hz for 1 s duration). These data imply that these two forms of synaptic plasticity may share a common cellular mechanism. 6. These results provide strong evidence that the generation of the anoxia-induced LTP of glutamatergic synaptic transmission in the CA1 region of rat hippocampus probably involves both of the presynaptic and postsynaptic loci. The mechanisms underlying the persistent potentiation are likely to be attributable to an enhancement of presynaptic glutamate release and a selective upregulation of postsynaptic NMDA receptor-mediated synaptic response through the Ca2+-dependent processes.</abstract>
+<pubmed_id>9375963</pubmed_id>
+</detail>
+</item>

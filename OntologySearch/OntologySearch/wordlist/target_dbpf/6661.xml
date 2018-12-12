@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6661">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal activation during retrieval of spatial context from episodic and semantic memory.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Analysis of Variance</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Signal Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:54:07Z</last_update_date>
+<creation_date>2013-02-26T06:54:07Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6661</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6661" version="1.02">
+<authors><author>Hoscheidt SM</author><author>Nadel L</author><author>Payne J</author><author>Ryan L</author></authors>
+<journal>Behavioural brain research</journal>
+<volume>212</volume>
+<number>2</number>
+<page>121-32</page>
+<abstract>The hippocampus, a region implicated in the processing of spatial information and episodic memory, is central to the debate concerning the relationship between episodic and semantic memory. Studies of medial temporal lobe amnesic patients provide evidence that the hippocampus is critical for the retrieval of episodic but not semantic memory. On the other hand, recent neuroimaging studies of intact individuals report hippocampal activation during retrieval of both autobiographical memories and semantic information that includes historical facts, famous faces, and categorical information, suggesting that episodic and semantic memory may engage the hippocampus during memory retrieval in similar ways. Few studies have matched episodic and semantic tasks for the degree to which they include spatial content, even though spatial content may be what drives hippocampal activation during semantic retrieval. To examine this issue, we conducted a functional magnetic resonance imaging (fMRI) study in which retrieval of spatial and nonspatial information was compared during an episodic and semantic recognition task. Results show that the hippocampus (1) participates preferentially in the retrieval of episodic memories; (2) is also engaged by retrieval of semantic memories, particularly those that include spatial information. These data suggest that sharp dissociations between episodic and semantic memory may be overly simplistic and that the hippocampus plays a role in the retrieval of spatial content whether drawn from a memory of one&#039;s own life experiences or real-world semantic knowledge.</abstract>
+<pubmed_id>20385169</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,21 @@
+Adolescent
+Brain Mapping
+methods
+Electroencephalography
+methods
+Evoked Potentials
+Somatosensory
+physiology
+Hippocampus
+physiology
+Humans
+Learning
+physiology
+Male
+Reaction Time
+physiology
+Recognition (Psychology)
+physiology
+Time Factors
+Young Adult
+Diverse studies demonstrated that although immediately repeated stimuli are better and faster recognized than stimuli repeated after a delay, this comes at the price of less-efficient long-term retention. A recent-evoked potential study using source estimation of high-resolution scalp EEG indicated that while immediate repetition induced a strikingly different electrical activity than new items in the left-medial temporal lobe (MTL) after 200-300 ms, delayed repetition did not. In this study, we recorded evoked potentials in two epileptic patients with intracranial depth electrodes in diverse temporal and frontal areas as they performed the same task as in the previous study. We found that immediate repetition induced increase of neural activity specifically in the left MTL between 250 and 400 ms compared to new items and items repeated after a delay. The findings are important in two ways. First, they support our previous conclusion that novel information immediately initiates a consolidation process involving the left-hippocampal area, which remains vulnerable during active maintenance and increases its effectiveness during off-line processing. Second, they indicate that source estimation based on high-resolution scalp EEG correctly localizes the current source of electrical activity in midline structures like the MTL.

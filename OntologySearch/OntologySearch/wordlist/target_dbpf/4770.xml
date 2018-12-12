@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4770">
+<itemtype>xnppaper</itemtype>
+<titles><title>Flow of conditioned responses in limbic telencephalic system of the rat.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Acoustic Stimulation</keyword>
+<keyword>Amygdala</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Auditory Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Classical</keyword>
+<keyword>physiology</keyword>
+<keyword>Cues</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Extinction</keyword>
+<keyword>Psychological</keyword>
+<keyword>physiology</keyword>
+<keyword>Feeding Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Food</keyword>
+<keyword>Gyrus Cinguli</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Limbic System</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Movement</keyword>
+<keyword>Rats</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>Reward</keyword>
+<keyword>Septum Pellucidum</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:23:40Z</last_update_date>
+<creation_date>2011-04-28T04:23:40Z</creation_date>
+<publication_year>1973</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4770</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4770" version="1.02">
+<authors><author>Segal M</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>36</volume>
+<number>5</number>
+<page>840-54</page>
+<abstract></abstract>
+<pubmed_id>4805014</pubmed_id>
+</detail>
+</item>

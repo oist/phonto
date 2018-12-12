@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7228">
+<itemtype>xnppaper</itemtype>
+<titles><title>A NMDA receptor glycine site partial agonist, GLYX-13, simultaneously enhances LTP and reduces LTD at Schaffer collateral-CA1 synapses in hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Antimetabolites</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Calcium</keyword>
+<keyword>physiology</keyword>
+<keyword>Cycloserine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Data Interpretation</keyword>
+<keyword>Statistical</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Extracellular Space</keyword>
+<keyword>drug effects</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>drug effects</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>drug effects</keyword>
+<keyword>Oligopeptides</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Receptors</keyword>
+<keyword>Glycine</keyword>
+<keyword>agonists</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>agonists</keyword>
+<keyword>Serine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:17:39Z</last_update_date>
+<creation_date>2013-02-28T01:17:39Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7228</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7228" version="1.02">
+<authors><author>Zhang XL</author><author>Sullivan JA</author><author>Moskal JR</author><author>Stanton PK</author></authors>
+<journal>Neuropharmacology</journal>
+<volume>55</volume>
+<number>7</number>
+<page>1238-50</page>
+<abstract>N-methyl-D-aspartate glutamate receptors (NMDARs) are a key route for Ca2+ influx into neurons important to both activity-dependent synaptic plasticity and, when uncontrolled, triggering events that cause neuronal degeneration and death. Among regulatory binding sites on the NMDAR complex is a glycine binding site, distinct from the glutamate binding site, which must be co-activated for NMDAR channel opening. We developed a novel glycine site partial agonist, GLYX-13, which is both nootropic and neuroprotective in vivo. Here, we assessed the effects of GLYX-13 on long-term synaptic plasticity and NMDAR transmission at Schaffer collateral-CA1 synapses in hippocampal slices in vitro. GLYX-13 simultaneously enhanced the magnitude of long-term potentiation (LTP) of synaptic transmission, while reducing long-term depression (LTD). GLYX-13 reduced NMDA receptor-mediated synaptic currents in CA1 pyramidal neurons evoked by low frequency Schaffer collateral stimulation, but enhanced NMDAR currents during high frequency bursts of activity, and these actions were occluded by a saturating concentration of the glycine site agonist d-serine. Direct two-photon imaging of Schaffer collateral burst-evoked increases in [Ca2+] in individual dendritic spines revealed that GLYX-13 selectively enhanced burst-induced NMDAR-dependent spine Ca2+ influx. Examining the rate of MK-801 block of synaptic versus extrasynaptic NMDAR-gated channels revealed that GLYX-13 selectively enhanced activation of burst-driven extrasynaptic NMDARs, with an action that was blocked by the NR2B-selective NMDAR antagonist ifenprodil. Our data suggest that GLYX-13 may have unique therapeutic potential as a learning and memory enhancer because of its ability to simultaneously enhance LTP and suppress LTD.</abstract>
+<pubmed_id>18796308</pubmed_id>
+</detail>
+</item>

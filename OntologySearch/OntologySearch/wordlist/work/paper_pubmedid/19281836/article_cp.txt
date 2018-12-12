@@ -1,0 +1,332 @@
+Simulation analysis of bandpass filtering properties of a rod photoreceptor network
+
+Yoshimi Kamiyamaa, , , Samuel M. Wub, Shiro Usuic
+Under an Elsevier user license
+ Show more
+doi:10.1016/j.visres.2009.03.003
+Get rights and content
+  Open Archive
+Abstract
+The bandpass filtering properties of a rod network were studied via computer simulations. Sinusoidal current stimuli were applied to a single rod model to characterize its temporal filtering properties. The simulated frequency response revealed that a single rod behaves as a bandpass filter whose characteristics are affected by the stimulus strength and frequency. We analyzed the contribution of individual ionic currents to bandpass filtering and found that the filtering of small signals is largely regulated by the calcium-dependent currents IK(Ca) and ICl(Ca), whereas the filtering of large signals is regulated by the hyperpolarization-activated current, Ih. Furthermore, rod network modeling by electrically interconnecting the single rod models revealed that the acceleration of signals that spread laterally through the rod network is attributed to IK(Ca) and not Ih.
+
+
+Keywords
+Rod photoreceptor; Bandpass filtering; Ionic current model
+1. Introduction
+It is well known that the rod network in the retinae of lower vertebrates behaves as a bandpass filter for electrical signals. In the retinae of turtles and toads, it was found that the time to peak of the response was shorter in rods present at a greater distance from a slit of light (Detwiler et al., 1978 and Torre and Owen, 1983). In the retinae of tiger salamander, it was shown that the voltage responses to square current injection became more transient as they traveled through the rod network (Attwell & Wilson, 1980).
+
+Detwiler et al., 1978 and Detwiler et al., 1980 explained such bandpass filtering by assuming that the rod membrane behaves like an inductor. As suggested by them, if the potassium conductance of the membrane decreases with a delay in response to hyperpolarization, then the membrane exhibits inductance-like characteristics. Attwell and Wilson (1980) analyzed the membrane properties of rods and showed that the voltage- and time-dependent current IA with first-order kinetics activated by hyperpolarization, which largely corresponds to Ih in the present nomenclature, makes the response more transient as it spreads laterally through the rod network. Owen and Torre (1983) suggested that small signals are bandpass filtered because of the action of time-, voltage-, and calcium-dependent potassium conductance. Their results also ruled out the possibility that Ih is involved in the underlying mechanism of the bandpass filtering of small signals. In the early 1980s, the biophysical details of ion channels in photoreceptors were largely unknown; therefore, it was difficult to explain the relationship between the light response and the underlying ionic mechanism. There is a need for further studies to understand the role of ionic currents in bandpass filtering.
+
+Membrane ionic currents in photoreceptors have been analyzed using the voltage-clamp and imaging techniques (Attwell et al., 1982, Bader et al., 1982, Barnes and Hille, 1989, Corey et al., 1984, MacLeish and Nurse, 2007, Maricq and Korenbrot, 1988 and Thoreson et al., 2002). Three voltage-dependent currents, i.e., hyperpolarization-activated current (Ih), delayed-rectifier current (IKv), and L-type calcium current (ICa) have been identified in rods along with two calcium-dependent currents, namely, calcium-activated chloride current (ICl(Ca)) and calcium-activated potassium current (IK(Ca)). We have developed an ionic current model of rod photoreceptors based on these findings ( Kamiyama, Ogura, & Usui, 1996). In the present study, we expanded and improved this model to simulate the light response of a rod network. We analyzed the functional role of individual ionic currents in the bandpass filtering properties of rods via computer simulations.
+
+A part of the results has been mentioned in the abstract (Kamiyama et al., 2005a and Kamiyama et al., 2005b).
+
+2. Methods
+The methods used for modeling rod photoreceptors were essentially the same as those described previously (Kamiyama et al., 1996, Kamiyama et al., 2005a and Kamiyama et al., 2005b). A parallel conductance model was used to describe the electrical properties of a rod photoreceptor. The single rod model was expanded significantly and improved as compared to the previous model; the model includes the following ionic currents: Ih, IKv, ICa, ICl(Ca), IK(Ca), and IL (leakage current). A detailed description of this model is given in Appendix A.
+
+Rod photoreceptors are electrically coupled by gap junctions (reviewed in Attwell, 1986), and each rod is coupled to about four neighboring rods (Zhang & Wu, 2004). The gap current between adjacent rods is voltage-independent and almost linear within the physiological range (Zhang & Wu, 2005). The rod network is modeled as a two-dimensional square array; however, if it is stimulated by a slit of light, it can be modeled as a one-dimensional network. If a rod photoreceptor is 10 É m in diameter, a network model with 100 rods corresponds to a 1-mm rod syncytium, which is considerably larger than the receptive field size of rods (Copenhagen and Owen, 1980 and Schwartz, 1976), but sufficiently large for realistic modeling. On applying KirchhoffÅfs law to each rod, we obtained the following equations:
+
+View the MathML source
+Turn MathJax on
+
+where Cm is the membrane capacitance (nF), Vi is the membrane potential (mV) at the ith position, and Ggap is the gap junctional conductance (nS) between neighboring rods. The system of differential equations was solved using ode15s, the Matlab (Ver.6, Mathworks) stiff systems numerical integrator, with a time resolution of 1 ms.
+3. Results
+3.1. Simulated light responses of a single compartment of the rod
+
+We use a mathematical model to investigate the dynamical properties of a rod photoreceptor. In the present study, the single rod model was improved as compared to the previous model (Kamiyama et al., 1996) by adjusting certain parameters (see Appendix A). In order to test the acceptability of the present model, we conducted computer simulations on the single rod. Fig. 1 shows the responses of the photocurrent, photovoltage, and ionic currents to a series of light flashes of increasing intensity. The voltage responses to the bright flashes exhibited a characteristic initial transient and a subsequent smaller plateau. The voltage responses to dim flashes reached the peak value before the photocurrent responses. Since these results are in good agreement with the experimental observations by Baylor, Matthews, and Nunn (1984), they strongly support the feasibility of the model. We also confirmed that Ih shapes the initial transient in the voltage response ( Kamiyama et al., 1996).
+
+Full-size image (108 K)
+Fig. 1. 
+Simulation of light responses to a series of light flashes of increasing intensities. The stimuli consisted of 20 ms flashes starting at time 1.0 s. The intensities (JhÉÀ) were 1, 2, 5, 10, 20, 50, 100, 200, 500, and 1000 Rh*/s.
+Figure options
+3.2. Simulated frequency response of the rod model
+
+The voltage response of the rods to light is determined by the photocurrent in the outer segment, ionic currents in the inner segment, and current flowing through the gap junctions. In order to investigate the temporal filtering properties of a single rod, we employed a linear analysis approach (Spekreijse & Norton, 1970) and applied current stimuli modulated sinusoidally in time. Fig. 2 illustrates the simulated frequency response of the rod model. An example of voltage responses evoked by sinusoidal current stimuli is shown in Fig. 2a. The peak-to-peak voltage was divided by the stimulus current amplitude, and we obtained frequency characteristics ranging from 0.2 to 200 Hz in frequency and 1?500 pA in stimulus strength (Fig. 2b). This value is termed the Åggain,Åh and it has unit impedance (mV/pA). The frequency response does not depend only on the frequency but also on the strength of the current. In Fig. 2c, the frequency responses to 1, 20, 30, 50, and 100 pA are superimposed. The frequency response to 1 pA shows a steep peak around 10 Hz, where the current induces a peak-to-peak membrane potential of approximately 1 mV (Fig. 2a). The steep peak gradually disappears as the strength of the current increases. The frequency response to 100 pA is identical to that of a bandpass filter with a center frequency of around 50 Hz, where the current induced a peak-to-peak membrane potential of approximately 60 mV (Fig. 2a). These results clearly demonstrate that the single rod behaves as a bandpass filter and that the filter characteristics change in accordance with the response amplitude. This property suggests that the rod has multiple bandpass filtering mechanisms.
+
+Full-size image (115 K)
+Fig. 2. 
+Simulated frequency response of the rod model. (a) Voltage responses induced by current stimuli sinusoidally modulated in time. (b) Plot of the gain in the stimulus frequency and current domain. (c) Plot of the gain versus frequency. The frequency profiles obtained by current stimuli of 1, 20, 30, 50, 100, 200, and 500 pA are superimposed. It should be noted that the filter profile is a function of the stimulus frequency and strength.
+Figure options
+3.3. Effects of the ionic current dynamics on bandpass filtering
+
+We examined the role of each ionic current in order to identify a possible biophysical mechanism of the bandpass filter. Fig. 3a shows the voltage-clamp currents in response to step polarizations from the resting membrane potential (approximately ?36 mV) to select voltages. The voltage-clamp pulse was applied at time 0.5 s and terminated at time 3.5 s. The current?voltage (I?V) relationship at 0.5, 1.0, 1.5, and 3.5 s is shown in Fig. 3b. All currents except Iphoto and IL exhibited time-dependent changes during the voltage steps. Iphoto and IL flow as functions of voltage (refer to the equation in Appendix A). ICl(Ca), IK(Ca), and Ih exhibited distinct time-dependent changes in the I?V relationship. ICa and IKv exhibited fast dynamics and almost reached the steady state 0.5 s after the voltage steps. This result suggests that ICl(Ca), IK(Ca), and Ih control the time course of the light response of the rod. In order to examine the manner in which each ionic current contributes to bandpass filtering, the frequency responses were simulated by changing the model parameters associated with the current kinetics. Since the calcium dynamics is the main factor influencing IK(Ca) and ICl(Ca), calcium dependency was blocked in the model by maintaining a constant calcium concentration [Ca]s. The gain at lower frequencies increased when the calcium dependency of IK(Ca) was eliminated ( Fig. 4a), while it was slightly suppressed on eliminating the calcium dependency of ICl(Ca). On eliminating the calcium dynamics from both currents, the peaks around 10 Hz that were induced by smaller current injection disappeared, and the profile changed to that of a low-pass filter; the profile for higher frequencies, however, was unaffected ( Fig. 4c). For voltage-gated currents, we eliminated the time-dependencies by multiplying the rate constants with a constant factor?1000. The effects of IKv on the frequency profile ( Fig. 4c) were insignificant. In contrast, Fig. 4e shows the effects of faster gating of Ih. The peaks around 50 Hz induced by larger current injection were flattened, while the bandpass profile for smaller currents were almost unchanged. The bandpass characteristics completely disappeared when [Ca]s was maintained constant and when faster rate constants were used ( Fig. 4f).
+
+Full-size image (98 K)
+Fig. 3. 
+Ionic current dynamics and I?V relations of the rod model. (a) Simulated current responses of the rod under voltage-clamp conditions. Voltage-clamp steps ranging from ?30 mV to 15 mV in steps of 5 mV (start at time 0.5 s, duration of 3 s) were applied to the model held at a resting potential of ?36.2 mV. (b) The current?voltage relation at 0.5 s (blue point), 1.0 s (green x-mark), 1.5 s (red plus), and 3.5 s (cyan star) were measured. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)
+Figure options
+Full-size image (97 K)
+Fig. 4. 
+Effects of the current dynamics on bandpass filtering. (a) Calcium dependency in IK(Ca) was eliminated. (b) Calcium dependency in ICl(Ca) was eliminated. (c) Intracellular calcium concentration [Ca]s was maintained constant, i.e., a combination of (a) and (b). (d) Rate constants of IKv were multiplied by a constant factor, 1000. (e) Rate constants of Ih were multiplied by a constant factor, 1000. It should be noted that the bandpass peak around 50 Hz elicited by large current stimuli in the control condition ( Fig. 2b) disappeared. (f) All ionic current kinetics were eliminated from the model.
+Figure options
+In summary, two calcium-dependent currents affect the bandpass profile at lower frequencies (?0.2?2 Hz) for small signals (V < ?5 mV in amplitude), i.e., IK(Ca) is responsible for the bandpass filter, while ICl(Ca) weakly counteracts the action of IK(Ca). In addition, Ih affects the profile for higher frequencies (?3?20 Hz) of large signals. These results clearly show that the kinetics of ionic currents are important for producing bandpass filtering at the single rod.
+
+3.4. Simulated responses to a slit of light
+
+Detwiler et al., 1978 and Detwiler et al., 1980 observed that when a slit of light was flashed on the rod network, the time to peak of the voltage response was shortened as the signal propagates laterally. In order to examine whether this behavior could be produced by ionic current kinetics, we simulated the effect of flashing a slit of light on the rod network. In the control condition, the model generated responses highly similar to those measured experimentally (Fig. 5a). The time to peak reduced in the more distant rods. This phenomenon is a consequence of the fact that a single rod itself behaves as a bandpass filter. Because the rods are electrically connected, the voltage response initiated in the stimulated rod induces current flow between rods, and therefore, the voltage response generated in the neighboring rod is bandpass filtered. This process continues successively, and the effect is prominent in the more distant rods due to the cascade of the bandpass filter.
+
+Full-size image (48 K)
+Fig. 5. 
+Simulated responses to a slit of light. Responses of the rod to 20 ms flashes, which were applied at time 1 s to the rod (i = 1). JhÉÀ = 1 (a, c) or 0.5 (b) Rh*/s. The time to peak was measured as the time difference from the stimulated rod. Ggap = 10 nS. (a) Control, (b) without calcium dynamics, and (c) without Ih dynamics.
+Figure options
+In order to demonstrate the contribution of the ionic currents to the light response, we performed a simulation without calcium and Ih dynamics ( Fig. 5b and c). In the absence of calcium dynamics by keeping [Ca]s constant, the single rod behaves as a low-pass filter, and thus, the time to peak was longer in rods further away from a slit of light. In the absence of Ih dynamics, the rod behaves as a bandpass filter for small signals as predicted from Fig. 4e, and the time to peak reduced in the distant rods.
+
+4. Discussion
+In the present study, we analyzed the underlying mechanisms of a rod photoreceptor that behaves as a bandpass filter. The major discovery was that the kinetics of the ionic currents, IK(Ca), ICl(Ca), and Ih characterize the bandpass filtering of rod signals.
+
+In the previous studies, the bandpass filtering properties had been attributed to an inductance element (Detwiler et al., 1978), a hyperpolarization-activated current (Armstrong-Gold and Rieke, 2003, Attwell and Wilson, 1980, Demontis et al., 1999 and Mao et al., 2003), or a potassium conductance activated by calcium ions (Owen & Torre, 1983). These discrepancies were considered to be attributed to the range of voltage analyzed (Beech & Barnes, 1989). While Ih contributes to the bandpass dynamics in the rods, the current is mainly activated by large hyperpolarization and it shapes the initial transient for bright flashes, as shown in Fig. 1. The driving force for Ih is small near the resting membrane potential, causing less current flow for small signals. In contrast, IK(Ca) plays a major role in the small response range. Small hyperpolarizations from the resting potential slowly decrease the outward current flow, which in turn cause the response transient due to the negative feedback effect.
+
+In order to identify the functional role of a particular ion channel, pharmacological manipulations, such as blocking the ion channels, have been widely used both in electrophysiological experiments and in computer simulations. These conventional techniques mostly change the voltage-dependent characteristics of the ionic current. However, if the resting membrane potential and the operating voltage range of the cell are changed by blocking the ionic current, it is not easy to understand the behavior of the current in the normal operating condition. This was the case in the present study. The membrane potential of the rod in the resting dark condition is controlled by balancing multiple ionic currents. In order to assess the function of each current, it is essential to manipulate the rate constants to analyze the effect of the time dependency of the ionic current on the response dynamics. This type of analysis is successful and is validated with a realistic model based on the ionic current mechanisms.
+
+In the present study, we modeled the rod as two functional parts, namely, the outer and inner segments. The quantitative model designed by Forti, Menini, Rispoli, and Torre (1989) was used to achieve the phototransduction mechanism in the outer segment, which includes the Ca flow via the cGMP-gated channels in the outer segment. The outer segment was used as a current source in the parallel conductance model, and the spatial distribution of ion channels within the rod photoreceptor was not considered. Our model reproduced the voltage- and current-clamp responses of the isolated photoreceptor reasonably well and was used to determine the light response properties of a single rod (Kamiyama et al., 1996, and Fig. 4). However, MacLeish and Nurse (2007) have recently analyzed the spatial distribution of ion channels in isolated rods and demonstrated that ICl(Ca) flows exclusively through the synaptic terminal. They also suggested that other currents such as IK(Ca), IKv, and Ih mainly flow through the soma and/or the inner segment. Although the present model can account for many features of the rod observed experimentally, we still need to develop a more realistic model of the rod such as a multicompartmental model on the basis of these new findings.
+
+Acknowledgments
+We thank Dr. Jian Zhang for helpful discussions on the topics of this study. A part of this study was supported by KAKENHI (17500195).
+
+Appendix A. Mathematical description of a single compartment of the rod
+Membrane potential (V [mV])
+
+View the MathML source
+Turn MathJax on
+
+Photocurrent (Iphoto [pA]) ( Baylor and Nunn, 1986 and Forti et al., 1989)
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+Hyperpolarization-activated current (Ih [pA])
+View the MathML source
+Turn MathJax on
+
+View the MathML source
+Turn MathJax on
+
+Delayed rectifier current (IKv [pA])
+View the MathML source
+Turn MathJax on
+
+Calcium current (ICa [pA])
+View the MathML source
+Turn MathJax on
+
+Calcium-activated chloride current (ICl(Ca) [pA])
+View the MathML source
+Turn MathJax on
+
+Calcium-activated potassium current (IK(Ca) [pA])
+View the MathML source
+Turn MathJax on
+
+Leakage current (IL [pA])
+View the MathML source
+Turn MathJax on
+
+Intracellular calcium system ([Ca]s [É M])
+View the MathML source
+Turn MathJax on
+
+References
+Armstrong-Gold and Rieke, 2003
+C.E. Armstrong-Gold, F. Rieke
+Bandpass filtering at the rod to second-order cell synapse in salamander (Ambystoma tigrinum) retina
+The Journal of Neuroscience, 23 (9) (2003), pp. 3796?3806
+
+View Record in Scopus | Citing articles (45)
+Attwell, 1986
+D. Attwell
+Ion channels and signal processing in the outer retina
+Quarterly Journal of Experimental Physiology, 71 (1986), pp. 497?536
+
+View Record in Scopus | Citing articles (32)
+Attwell et al., 1982
+D. Attwell, F.S. Werblin, M. Wilson
+The properties of single cones isolated from the tiger salamander retina
+Journal of Physiology, 328 (1982), pp. 259?283
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (45)
+Attwell and Wilson, 1980
+D. Attwell, M. Wilson
+Behaviour of the rod network in the tiger salamander retina mediated by membrane properties of individual rods
+Journal of Physiology, 309 (1980), pp. 287?315
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (97)
+Bader et al., 1982
+C.R. Bader, D. Bertrand, E.A. Schwartz
+Voltage-activated and calcium-activated currents studied in solitary rod inner segments from the salamander retina
+Journal of Physiology, 331 (1982), pp. 253?284
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (198)
+Barnes and Hille, 1989
+S. Barnes, B. Hille
+Ionic channels of the inner segment of tiger salamander cone photoreceptors
+Journal of General Physiology, 94 (1989), pp. 719?743
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (181)
+Baylor et al., 1984
+D.A. Baylor, G. Matthews, B.J. Nunn
+Location and function of voltage-sensitive conductances in retinal rods of the salamander, Ambystoma tigrinum
+Journal of Physiology, 354 (1984), pp. 203?223
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (58)
+Baylor and Nunn, 1986
+D.A. Baylor, B.J. Nunn
+Electrical properties of the light-sensitive conductance of rods of the salamander Ambystoma tigrinum
+Journal of Physiology, 371 (1986), pp. 115?145
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (66)
+Beech and Barnes, 1989
+D.J. Beech, S. Barnes
+Characterization of a voltage-gated K+ channel that accelerates the rod response to dim light
+Neuron, 3 (1989), pp. 573?581
+
+Article |  PDF (905 K) | View Record in Scopus | Citing articles (63)
+Copenhagen and Owen, 1980
+D.R. Copenhagen, W.G. Owen
+Current?voltage relations in the rod photoreceptor network of the turtle retina
+Journal of Physiology, 308 (1980), pp. 159?184
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (10)
+Corey et al., 1984
+D.P. Corey, J.M. Dubinsky, E.A. Schwartz
+The calcium current in inner segments of rods from the salamander (Ambystoma tigrinum) retina
+Journal of Physiology, 354 (1984), pp. 557?575
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (100)
+Demontis et al., 1999
+G.C. Demontis, B. Longoni, U. Barcaro, L. Cervetto
+Properties and functional roles of hyperpolarization-gated currents in guinea-pig retinal rods
+Journal of Physiology, 515.3 (1999), pp. 813?828
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (59)
+Detwiler et al., 1980
+P.B. Detwiler, A.L. Hodgkin, P.A. McNaughton
+Temporal and spatial characteristics of the voltage response of rods in the retina of the snapping turtle
+Journal of Physiology, 300 (1980), pp. 213?250
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (64)
+Detwiler et al., 1978
+P.B. Detwiler, A.L. Hodgkin, P.A. McNaughton
+A surprising property of electrical spread in the network of rods in the turtleÅfs retina
+Nature, 274 (1978), pp. 562?565
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (37)
+Forti et al., 1989
+S. Forti, A. Menini, G. Rispoli, V. Torre
+Kinetics of phototransduction in retinal rods of the newt Triturus cristatus
+Journal of Physiology, 419 (1989), pp. 265?295
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (51)
+Kamiyama et al., 2005a
+Y. Kamiyama, A. Ishihara, T. Aoyama, S. Usui
+Simulation analyses of retinal cell responses
+G.N. Reeke, R.R. Poznanski, K.A. Lindsay, J.R. Rosenberg, O. Sporns (Eds.), Modeling in the neurosciences, CRC, Taylor & Francis (2005), pp. 313?338
+
+Kamiyama et al., 2005b
+Kamiyama, Y., Aoyama, T., Usui, S., Zhang, J., & Wu, S. M. (2005b). Simulation analysis of the spatio-temporal filtering properties of the rod network by the ionic current model. ARVO 2005 annual meeting, 4542.
+Kamiyama et al., 1996
+Y. Kamiyama, T. Ogura, S. Usui
+Ionic current model of the vertebrate rod photoreceptor
+Vision Research, 36 (24) (1996), pp. 4059?4068
+
+Article |  PDF (806 K) | View Record in Scopus | Citing articles (18)
+MacLeish and Nurse, 2007
+P.R. MacLeish, C.A. Nurse
+Ion channel compartments in photoreceptors: Evidence from salamander rods with intact and ablated terminal
+Journal of Neurophysiology, 98 (2007), pp. 86?95
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (15)
+Mao et al., 2003
+B.-Q. Mao, P.R. MacLeish, J.D. Victor
+Role of hyperpolarization-activated currents for the intrinsic dynamics of isolated retinal neurons
+Biophysical Journal, 84 (2003), pp. 2756?2767
+
+Article |  PDF (194 K) | View Record in Scopus | Citing articles (11)
+Maricq and Korenbrot, 1988
+A.V. Maricq, J.I. Korenbrot
+Calcium and calcium-dependent chloride currents generate action potentials in solitary cone photoreceptors
+Neuron, 1 (1988), pp. 503?515
+
+Article |  PDF (1625 K) | View Record in Scopus | Citing articles (84)
+Owen and Torre, 1983
+W.G. Owen, V. Torre
+High-pass filtering of small signals by retinal rods. Ionic studies
+Biophysical Journal, 41 (1983), pp. 325?339
+
+Article |  PDF (1897 K) | View Record in Scopus | Citing articles (23)
+Schwartz, 1976
+E.A. Schwartz
+Electrical properties of the rod syncytium in the retina of the turtle
+Journal of Physiology, 257 (1976), pp. 379?406
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (33)
+Spekreijse and Norton, 1970
+H. Spekreijse, A.L. Norton
+The dynamics characteristics of color-coded S-potentials
+The Journal of General Physiology, 56 (1970), pp. 1?15
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (42)
+Thoreson et al., 2002
+W.B. Thoreson, S.L. Stella, E.J. Bryson, J. Clements, P. Witkovsky
+D2-like dopamine receptors promote interactions between calcium and chloride channels that diminish rod synaptic transfer in the salamander retina
+Visual Neuroscience, 19 (2002), pp. 235?247
+
+View Record in Scopus | Citing articles (41)
+Torre and Owen, 1983
+V. Torre, W.G. Owen
+High-pass filtering of small signals by the rod network in the retina of the toad, bufo marinus
+Biophysical Journal, 41 (1983), pp. 305?324
+
+Article |  PDF (1935 K) | View Record in Scopus | Citing articles (21)
+Zhang and Wu, 2004
+J. Zhang, S.M. Wu
+Connexin35/36 gap junction proteins are expressed in photoreceptors of the tiger salamander retina
+The Journal of Comparative Neurology, 470 (2004), pp. 1?12
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (25)
+Zhang and Wu, 2005
+J. Zhang, S.M. Wu
+Physiological properties of rod photoreceptor electrical coupling in the tiger salamander retina
+The Journal of Physiology, 564 (2005), pp. 849?862
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (21)
+Corresponding author. Fax: +81 561 64 1108.
+Copyright c 2009 Elsevier Ltd. All rights reserved.

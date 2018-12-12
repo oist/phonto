@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5026">
+<itemtype>xnppaper</itemtype>
+<titles><title>Slow fluctuations of single unit activities of hippocampal and thalamic neurons in cats. I. Relation to natural sleep and alert states.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Cats</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Geniculate Bodies</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+<keyword>Thalamus</keyword>
+<keyword>physiology</keyword>
+<keyword>Wakefulness</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T02:01:16Z</last_update_date>
+<creation_date>2011-05-16T02:01:16Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5026</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5026" version="1.02">
+<authors><author>Kodama T</author><author>Mushiake H</author><author>Shima K</author><author>Nakahama H</author><author>Yamamoto M</author></authors>
+<journal>Brain research</journal>
+<volume>487</volume>
+<number>1</number>
+<page>26-34</page>
+<abstract>Spontaneous unit discharges during the natural sleep-wakefulness cycle in two different neuronal groups, the hippocampal pyramidal cells and thalamic ventrobasal neurons, have been analyzed. The results show that both neurons fire with white-noise-like fluctuations during the slow-wave sleep, and with slow fluctuations with power spectral densities inversely proportional to the frequency in the frequency range of 0.02-1.0 Hz, during the paradoxical sleep. This confirms that the characteristics of fluctuations in neuronal activities of the mesencephalic reticular formation observed in our previous study are more general phenomena in the cat&#039;s brain. Partly similar behavior of spectral densities is also observed during the alert state. These observations are quantitatively confirmed by the statistical time series analysis of the spike density processes of spontaneous activities.</abstract>
+<pubmed_id>2752287</pubmed_id>
+</detail>
+</item>

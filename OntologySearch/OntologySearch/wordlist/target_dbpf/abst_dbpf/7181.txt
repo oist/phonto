@@ -1,0 +1,23 @@
+Animals
+Efferent Pathways
+physiology
+Excitatory Postsynaptic Potentials
+physiology
+Hippocampus
+physiology
+Long-Term Potentiation
+physiology
+Long-Term Synaptic Depression
+physiology
+Memory
+physiology
+Nerve Net
+physiology
+Neuronal Plasticity
+physiology
+Pyramidal Cells
+physiology
+Rats
+Synapses
+physiology
+Memory is believed to depend on activity-dependent changes in the strength of synapses, e.g. long-term potentiation (LTP) and long-term depression (LTD), which can be determined by the sequence of coincident pre- and postsynaptic activity, respectively. It remains unclear, however, whether and how coincident activity of converging efferent pathways can enable LTP and LTD in the pathways simultaneously. Here, we report that, in pentobarbital-anesthetized rats, stimulation (600 pulses, 5 Hz) to Schaffer preceding to commissural pathway within a 40-ms timing window induced similar magnitudes of LTP in both pathways onto synapses of CA1 neurons, with varied LTP magnitudes after reversal of the stimulation sequence. In contrast, in urethane-anesthetized or freely-moving rats, the stimulation to Schaffer preceding to commissural pathway induced Schaffer LTP and commissural LTD simultaneously within a 40-ms timing window, without affecting synaptic efficacy in the reversed stimulation sequence. Coincident activity of Schaffer pathways confirmed the above findings under pentobarbital and urethane anesthesia. Thus, coincident activity of converging afferent pathways tends to switch the pathways to be LTP only or LTP/LTD depending on the activity states of the hippocampus. This network rule strengthens the view that activity-dependent synaptic plasticity may well contribute to memory process of the hippocampal network with flexibility or stability from one state to another.

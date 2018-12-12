@@ -1,0 +1,17 @@
+Animals
+Association
+Brain Mapping
+Haplorhini
+Hippocampus
+physiology
+Male
+Memory
+physiology
+Memory
+Short-Term
+physiology
+Rats
+Rats
+Inbred Strains
+Species Specificity
+The role of the hippocampus in memory processing was examined by recording single unit activity while rats performed two different types of memory tasks. The same apparatus was used for all tasks; it consisted of two goal boxes, side by side, on the end of a runway. One goal box was white, the other was black. Experiment I used a working memory, delayed match-to-sample (DMTS) task. A trial began with a sample phase in which the rat was forced to a goal box containing a reward. The rat was then placed at the beginning of the runway again for the choice phase and allowed to enter either of the two goal boxes. Entering the goal box with the same color as that entered during the sample phase was rewarded. Experiment II used a within-subjects, within-units, design to test rats in two reference memory tasks, a cue task and a spatial task. During the cue task, the rat was rewarded for choosing the same colored goal box on each trial regardless of its spatial location. During the spatial task, the rat was rewarded for choosing the goal box in a specific location on each trial regardless of its color. During all tasks, the location of the goal boxes was changed between trials in a pseudorandom, counterbalanced fashion so that each colored goal box was on the right for half of the trials and on the left for half of the trials. During performance of the DMTS task, activity of most units was correlated with a combination of factors such as color and location, or color and phase. For example, most units showing differential activity in one of the colored goal boxes fired more when that box was in a certain spatial location, or during either the sample or choice phase. During performance of the reference memory tasks, the activity of most units was not correlated with behavior. However, the rate for some units changed between the cue and spatial tasks. When unit activity was correlated with behavior, it was dependent on a combination of dimensions such as color and spatial location. These results demonstrate that units in the hippocampus respond to combinations of stimulus dimensions such as color and spatial location, and to the temporal context necessary to solve a working memory task.

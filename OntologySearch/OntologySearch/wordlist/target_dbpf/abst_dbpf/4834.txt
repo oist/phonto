@@ -1,0 +1,20 @@
+Animals
+Behavior
+Animal
+physiology
+Computer Simulation
+Hippocampus
+physiology
+Humans
+Memory
+physiology
+Mice
+Neural Networks (Computer)
+Pattern Recognition
+Automated
+Rats
+Space Perception
+physiology
+Time Perception
+physiology
+In recent years, a number of computational neural networks have been proposed aimed at describing memory functions associated with different subregions of the hippocampus, namely dentate gyrus, CA3 and CA1. Recent evidence suggests that indeed specific subregions of the hippocampus may subserve different computational functions, such as spatial and temporal pattern separation, short-term or working memory, pattern association, and temporal pattern completion.

@@ -1,0 +1,39 @@
+DEIA
+Action Potentials
+physiology
+Animals
+Brain Mapping
+Computer Simulation
+Entorhinal Cortex
+cytology
+physiology
+Exploratory Behavior
+physiology
+Hippocampus
+cytology
+physiology
+Male
+Maze Learning
+physiology
+Models
+Neurological
+Nerve Net
+cytology
+physiology
+Neurons
+classification
+physiology
+Orientation
+physiology
+Rats
+Rats
+Long-Evans
+Reward
+Space Perception
+physiology
+Spatial Behavior
+physiology
+Statistics as Topic
+Stereotyped Behavior
+physiology
+To determine whether entorhinal spatial representations are continuous or fragmented, we recorded neural activity in grid cells while rats ran through a stack of interconnected, zig-zagged compartments of equal shape and orientation (a hairpin maze). The distribution of spatial firing fields was markedly similar across all compartments in which running occurred in the same direction, implying that the grid representation was fragmented into repeating submaps. Activity at neighboring positions was least correlated at the transitions between different arms, indicating that the map split regularly at the turning points. We saw similar discontinuities among place cells in the hippocampus. No fragmentation was observed when the rats followed similar trajectories in the absence of internal walls, implying that stereotypic behavior alone cannot explain the compartmentalization. These results indicate that spatial environments are represented in entorhinal cortex and hippocampus as a mosaic of discrete submaps that correspond to the geometric structure of the space.

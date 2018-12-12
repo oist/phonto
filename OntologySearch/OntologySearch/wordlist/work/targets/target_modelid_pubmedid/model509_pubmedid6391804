@@ -1,0 +1,21 @@
+1. Comput Biomed Res. 1984 Dec;17(6):570-9.
+
+A mathematical insulin-secretion model and its validation in isolated rat
+pancreatic islets perifusion.
+
+Nomura M, Shichiri M, Kawamori R, Yamasaki Y, Iwama N, Abe H.
+
+A mathematical insulin-secretion model was constructed by analyzing the
+glucose-induced insulin secretion using a control theory. To validate the model, 
+experimental data obtained in the isolated rat pancreatic islet perifusion system
+were compared with the simulation results. The simulation study of the model was 
+found to fit quite well to insulin responses under various experimental
+conditions. A glucose-induced insulin secretion from pancreatic islets' beta cell
+was found to be expressed as a function of proportional plus derivative response 
+to glucose input with the first order time lag. And the negative rate of change
+in glucose concentration was found to suppress insulin secretion to the extent of
+the negative stimuli, regardless of glucose concentration. This model would be
+useful as a research tool for analysis of physiological significance of insulin
+secretory dynamics and clinical investigation of insulin secretion.
+
+PMID: 6391804  [PubMed - indexed for MEDLINE]

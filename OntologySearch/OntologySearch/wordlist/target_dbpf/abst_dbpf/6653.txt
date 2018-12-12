@@ -1,0 +1,37 @@
+Adult
+Brain
+physiology
+Brain Mapping
+Classification
+Data Interpretation
+Statistical
+Female
+Functional Laterality
+physiology
+Hippocampus
+physiology
+Humans
+Image Interpretation
+Computer-Assisted
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Mental Processes
+physiology
+Middle Aged
+Nerve Net
+physiology
+Parahippocampal Gyrus
+physiology
+Psychomotor Performance
+physiology
+Reaction Time
+physiology
+Research Design
+Stereotaxic Techniques
+Temporal Lobe
+physiology
+Visual Perception
+physiology
+Our purpose was to explore the influence of stimulus pacing in blocked functional MRI studies on the activation pattern elicited by a semantic retrieval task. Twenty-two participants performed both a fixed-paced and a self-paced functional MR imaging experiment in which a semantic categorization (animal/object) task was contrasted with a perceptual (small/capital letter string) categorization task. Group and single-subject ROI analyses were computed. In both the fixed-paced and self-paced experiments, semantic categorization contrasted with perceptual categorization elicited a cerebral network generally accepted to be involved in semantic processing comprising left inferior prefrontal, left lateral temporal, paracingular and right cerebellar areas. Our main finding was that the self-paced stimulus modality additionally yielded significant activation in the medial temporal lobe (MTL) structures including the hippocampus and the parahippocampal gyrus. More elaborative single-subject ROI analyses revealed MTL activation in 86% of the subjects for the self-paced design, but only in 21% of subjects for the fixed-paced design. The discussion focuses on possible explanations for this finding. We conclude that a self-paced as opposed to a fixed-paced semantic retrieval paradigm is able to detect significant MTL activation in groups as well as in single-subjects. This offers opportunities for the application of such a design in clinical practice.

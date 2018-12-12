@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7505">
+<itemtype>xnppaper</itemtype>
+<titles><title>Sequence learning: what&#039;s the hippocampus to do?</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:43:41Z</last_update_date>
+<creation_date>2013-03-28T02:43:41Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7505</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7505" version="1.02">
+<authors><author>Poldrack RA</author><author>Rodriguez P</author></authors>
+<journal>Neuron</journal>
+<volume>37</volume>
+<number>6</number>
+<page>891-3</page>
+<abstract>The medial temporal lobe is crucial for some forms of memory, but its role in implicit learning has remained in question. A brain imaging study by Schendan et al., in this issue of Neuron, provides direct evidence of medial temporal lobe activation during implicit learning of motor sequences.</abstract>
+<pubmed_id>12670418</pubmed_id>
+</detail>
+</item>

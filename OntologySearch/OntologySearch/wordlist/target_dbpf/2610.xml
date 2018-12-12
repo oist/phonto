@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="2610">
+<itemtype>xnppaper</itemtype>
+<titles><title>A view model which accounts for the spatial fields of hippocampal primate spatial view cells and rat place cells.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2009-07-17T07:19:31Z</last_update_date>
+<creation_date>2009-07-17T07:19:31Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=2610</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="2610" version="1.02">
+<authors><author>de Araujo IE</author><author>Rolls ET</author><author>Stringer SM</author></authors>
+<journal>Hippocampus</journal>
+<volume>11</volume>
+<number>6</number>
+<page>699-706</page>
+<abstract>Hippocampal spatial view cells found in primates respond to a region of visual space being looked at, relatively independently of where the monkey is located. Rat place cells have responses which depend on where the rat is located. We investigate the hypothesis that in both types of animal, hippocampal cells respond to a combination of visual cues in the correct spatial relation to each other. In rats, which have a wide visual field, such a combination might define a place. In primates, including humans, which have a much smaller visual field and a fovea which is directed towards a part of the environment, the same mechanism might lead to spatial view cells. A computational model in which the neurons become organized by learning to respond to a combination of a small number of visual cues spread within an angle of a 30 degrees receptive field resulted in cells with visual properties like those of primate spatial view cells. The same model, but operating with a receptive field of 270 degrees, produced cells with visual properties like those of rat place cells. Thus a common hippocampal mechanism operating with different visual receptive field sizes could account for some of the visual properties of both place cells in rodents and spatial view cells in primates.</abstract>
+<pubmed_id>11811664</pubmed_id>
+</detail>
+</item>

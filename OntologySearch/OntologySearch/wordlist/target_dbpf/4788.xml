@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4788">
+<itemtype>xnppaper</itemtype>
+<titles><title>Local circuit interactions in synchronization of cortical neurones.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Biomechanics</keyword>
+<keyword>Cell Membrane</keyword>
+<keyword>physiology</keyword>
+<keyword>Egtazic Acid</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electric Conductivity</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Mammals</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>classification</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:53:43Z</last_update_date>
+<creation_date>2011-04-28T04:53:43Z</creation_date>
+<publication_year>1984</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4788</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4788" version="1.02">
+<authors><author>Wong RK</author><author>Miles R</author><author>Traub RD</author></authors>
+<journal>The Journal of experimental biology</journal>
+<volume>112</volume>
+<number></number>
+<page>169-78</page>
+<abstract>Under certain circumstances large numbers of neurones in the mammalian central nervous system (CNS) can discharge simultaneously. An example of such activity is recorded from a hippocampal slice in the presence of agents which block synaptic inhibition. This synchronized discharge occurs spontaneously in a rhythmic fashion or may be triggered by stimulation of any afferent pathway. Its generation appears to involve local circuit interactions. The favourable conditions offered by an in vitro preparation have allowed the cellular events during this activity to be examined in some detail. Three factors appear to be critically involved in the synchronization process. Firstly, the intrinsic ability of neurones to generate bursts, secondly, the existence of powerful recurrent excitatory connections, and thirdly the absence of inhibition which normally prevents the spread of bursting activity through the recurrent connections. Computer simulations show that in a sparsely connected network of bursting neurones activity initiated in a few cells may spread through recurrent connections until eventually the whole population discharges simultaneously. Rhythmic discharges similar to those described here also underly various CNS functions including centrally-originating motor patterns. It remains to be determined whether neuronal properties and connectivity found to be important in this hippocampal rhythm may also play a role in the generation of other rhythmic activities in the mammalian CNS.</abstract>
+<pubmed_id>6439813</pubmed_id>
+</detail>
+</item>

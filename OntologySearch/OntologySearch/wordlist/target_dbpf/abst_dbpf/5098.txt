@@ -1,0 +1,12 @@
+Animals
+Hippocampus
+cytology
+physiology
+Memory
+physiology
+Models
+Neurological
+Neurons
+physiology
+Rats
+In the spirit of Marr, we discuss an information-theoretic approach that derives, from the role of the hippocampus in memory, constraints on its anatomical and physiological structure. The observed structure is consistent with such constraints, and, further, we relate the quantitative arguments developed in earlier analytical studies to experimental measures extracted from neuronal recordings in the behaving rat.

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8227">
+<itemtype>xnppaper</itemtype>
+<titles><title>Effects of alcohol on performance on a distraction task during simulated driving.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Automobile Driving</keyword>
+<keyword>Central Nervous System Depressants</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Dose-Response Relationship</keyword>
+<keyword>Drug</keyword>
+<keyword>Ethanol</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Poisoning</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Task Performance and Analysis</keyword>
+</keywords>
+<description>Neurorobotics, Wagatsuma Lab, FY2013</description>
+<doi></doi>
+<last_update_date>2014-04-02T08:19:49Z</last_update_date>
+<creation_date>2014-03-31T22:38:55Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8227</url>
+<changelogs>
+<changelog date='2014-04-02T08:19:49Z'>アイテムの説明 を変更</changelog>
+<changelog date='2014-04-02T05:42:55Z'>アイテムの説明, インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8227" version="1.02">
+<authors><author>Allen AJ</author><author>Meda SA</author><author>Skudlarski P</author><author>Calhoun VD</author><author>Astur R</author><author>Ruopp KC</author><author>Pearlson GD</author></authors>
+<journal>Alcoholism, clinical and experimental research</journal>
+<volume>33</volume>
+<number>4</number>
+<page>617-25</page>
+<abstract>Prior studies report that accidents involving intoxicated drivers are more likely to occur during performance of secondary tasks. We studied this phenomenon, using a dual-task paradigm, involving performance of a visual oddball (VO) task while driving in an alcohol challenge paradigm. Previous functional MRI (fMRI) studies of the VO task have shown activation in the anterior cingulate, hippocampus, and prefrontal cortex. Thus, we predicted dose-dependent decreases in activation of these areas during VO performance.Forty healthy social drinkers were administered 3 different doses of alcohol, individually tailored to their gender and weight. Participants performed a VO task while operating a virtual reality driving simulator in a 3T fMRI scanner.Analysis showed a dose-dependent linear decrease in Blood Oxygen Level Dependent activation during task performance, primarily in hippocampus, anterior cingulate, and dorsolateral prefrontal areas, with the least activation occurring during the high dose. Behavioral analysis showed a dose-dependent linear increase in reaction time, with no effects associated with either correct hits or false alarms. In all dose conditions, driving speed decreased significantly after a VO stimulus. However, at the high dose this decrease was significantly less. Passenger-side line crossings significantly increased at the high dose.These results suggest that driving impairment during secondary task performance may be associated with alcohol-related effects on the above brain regions, which are involved with attentional processing/decision-making. Drivers with high blood alcohol concentrations may be less able to orient or detect novel or sudden stimuli during driving.</abstract>
+<pubmed_id>19183133</pubmed_id>
+</detail>
+</item>

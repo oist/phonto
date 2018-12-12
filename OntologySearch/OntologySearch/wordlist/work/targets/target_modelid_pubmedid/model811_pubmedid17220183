@@ -1,0 +1,38 @@
+1. Am J Physiol Heart Circ Physiol. 2007 Jul;293(1):H660-9. Epub 2007 Jan 12.
+
+Frequency-dependent effects of various IKr blockers on cardiac action potential
+duration in a human atrial model.
+
+Tsujimae K(1), Suzuki S, Murakami S, Kurachi Y.
+
+Author information: 
+(1)Division of Molecular and Cellular Pharmacology, Department of Pharmacology,
+Graduate School of Medicine, Osaka University, 2-2 Yamada-oka, Suita, Osaka
+565-0871, Japan.
+
+Rapidly activating K(+) current (I(Kr)) blockers prolong action potential (AP)
+duration (APD) in a reverse-frequency-dependent manner and may induce
+arrhythmias, including torsade de pointes in the ventricle. The I(Kr) blocker
+dofetilide has been approved for treatment of atrial arrhythmias, including
+fibrillation. There are, however, a limited number of studies on the action of
+I(Kr) blockers on atrial AP. When we tested a mathematical model of the human
+atrial AP (M Courtemanche, RJ Ramirez, S Nattel. Am J Physiol Heart Circ Physiol 
+275: H301-H321, 1998) to examine the effects of dofetilide-type I(Kr) blockade,
+this model could not reproduce the reverse-frequency-dependent nature of I(Kr)
+blockade on atrial APD. We modified the model by introducing a slowly activating 
+K(+) current activation parameter. As the slow time constant was increased,
+dofetilide-type blockade induced more prominent reverse-frequency-dependent APD
+prolongation. Using the modified model, we also examined the effects of two more 
+types of I(Kr) blockade similar to those of quinidine and vesnarinone. Voltage-
+and time-dependent block of I(Kr) through the onset of inhibition by quinidine is
+much faster than by vesnarinone. When we incorporated the kinetics of the effects
+of these drugs on I(Kr) into the model, we found that quinidine-type blockade
+caused a reverse-frequency-dependent prolongation of APD that was similar to the 
+effect of dofetilide-type blockade, whereas vesnarinone-type blockade did not.
+This finding coincides with experimental observations. The lack of the reverse
+frequency dependence in vesnarinone-type blockade was accounted for by the slow
+development of I(Kr) blockade at depolarized potentials. These results suggest
+that the voltage- and time-dependent nature of I(Kr) blockade by drugs may be
+critical for the phenotype of the drug effect on atrial AP.
+
+PMID: 17220183  [PubMed - indexed for MEDLINE]

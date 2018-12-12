@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4904">
+<itemtype>xnppaper</itemtype>
+<titles><title>Two populations of rhythmically bursting neurons in rat medial septum are revealed by atropine.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Atropine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Brain</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Feedback</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Reference Values</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T01:41:43Z</last_update_date>
+<creation_date>2011-05-09T01:41:43Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4904</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4904" version="1.02">
+<authors><author>Stewart M</author><author>Fox SE</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>61</volume>
+<number>5</number>
+<page>982-93</page>
+<abstract>1. Previous findings, such as the sensitivity of the hippocampal theta rhythm to cholinergic manipulation, support a &quot;pacemaker&quot; role for the cholinergic cells of the medial septal nucleus and the vertical limb of the nucleus of the diagonal band (MSN-NDB). To explore the mechanism(s) of action of systemic antimuscarinic drugs in eliminating the theta rhythm, recordings of hippocampal EEG and rhythmic MSN-NDB neurons that fired in phase with the hippocampal theta rhythm were taken during the administration of atropine in urethane-anesthetized rats. 2. Twenty-two of 33 rhythmic MSN-NDB cells continued to burst at the theta rhythm frequency after administration of a dose of atropine (25 mg/kg iv) that was sufficient to eliminate the theta rhythm (atropine-resistant cells). The remaining 11 cells lost their rhythmic firing pattern over the same time course as the loss of the theta rhythm (atropine-sensitive cells). 3. Both types of rhythmic MSN-NDB cells could be antidromically driven from the fimbria/fornix with similar latencies (range, 0.5-4.0 ms). The extracellularly recorded spike waveforms were not useful in predicting the atropine sensitivity of a given cell. Atropine-resistant cells frequently had higher firing rates than atropine-sensitive cells, but there was sufficient overlap of the two groups to make this a poor predictor of sensitivity. 4. Cooling the fimbria/fornix reversibly eliminated the hippocampal theta rhythm, but had no effect on 21/25 rhythmic MSN-NDB cells tested. This indicates that the atropine-sensitive MSN-NDB cells do not depend on the periodic output from the hippocampus for their rhythmic firing. Recordings from pairs of rhythmic MSN-NDB cells during cooling and/or atropine administration showed unchanged phase relations at the theta rhythm frequency. In rats in which the septohippocampal system was exposed by aspirating the overlying brain tissue, direct application of atropine (10 mg/ml) to the septal nuclei reversibly eliminated the hippocampal theta rhythm. 5. The rhythmic cells of the MSN-NDB are apparently composed of at least two distinct types, both of which potentially contribute to the production of the theta rhythm in the hippocampus. Elimination of hippocampal theta rhythm after local septal atropine application suggests that the loss of rhythmic activity in the group of atropine-sensitive septal cells is sufficient for the elimination of the theta rhythm. A model of the septohippocampal connections necessary for the theta rhythm is presented.</abstract>
+<pubmed_id>2723736</pubmed_id>
+</detail>
+</item>

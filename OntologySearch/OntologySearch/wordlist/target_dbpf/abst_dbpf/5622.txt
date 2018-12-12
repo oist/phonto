@@ -1,0 +1,19 @@
+Animals
+Behavior
+physiology
+Energy Metabolism
+physiology
+Hippocampus
+physiology
+Interneurons
+physiology
+Linear Models
+Nerve Net
+Receptors
+GABA-B
+physiology
+Synaptic Transmission
+physiology
+Temperature
+Theta Rhythm
+Changes in GABA modulation may underlie experimentally observed changes in the strength of synaptic transmission at different phases of the theta rhythm (Wyble, Linster,&Hasselmo, 1997). Analysis demonstrates that these changes improve sequence disambiguation by a neural network model of CA3. We show that in the framework of Hopfield and Tank (1985), changes in GABA suppression correspond to changes in the effective temperature and the relative energy of data terms and constraints of an analog network. These results suggest that phasic changes in the activity of inhibitory interneurons during a theta cycle may produce dynamics that resemble annealing. These dynamics may underlie a role for the theta cycle in improving sequence retrieval for spatial navigation.

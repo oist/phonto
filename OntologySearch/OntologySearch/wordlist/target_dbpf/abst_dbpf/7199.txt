@@ -1,0 +1,38 @@
+Animals
+Dose-Response Relationship
+Radiation
+Electric Stimulation
+methods
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+radiation effects
+GABA Antagonists
+pharmacology
+Hippocampus
+cytology
+Male
+Mice
+Mice
+Inbred C57BL
+Nerve Net
+physiology
+Neural Inhibition
+drug effects
+physiology
+Patch-Clamp Techniques
+methods
+Picrotoxin
+pharmacology
+Pyramidal Cells
+physiology
+radiation effects
+Pyridines
+pharmacology
+Pyrroles
+pharmacology
+Serotonin Receptor Agonists
+pharmacology
+Xanthines
+pharmacology
+The existence of recurrent excitatory synapses between pyramidal cells in the hippocampal CA1 region has been known for some time yet little is known about activity-dependent forms of plasticity at these synapses. Here we demonstrate that under certain experimental conditions, Schaffer collateral/commissural fiber stimulation can elicit robust polysynaptic excitatory postsynaptic potentials due to recurrent synaptic inputs onto CA1 pyramidal cells. In contrast to CA3 pyramidal cell inputs, recurrent synapses onto CA1 pyramidal cells exhibited robust paired-pulse depression and a sustained, but rapidly reversible, depression in response to low-frequency trains of Schaffer collateral fiber stimulation. Blocking GABA(B) receptors abolished paired-pulse depression but had little effect on low-frequency stimulation (LFS)-induced depression. Instead, LFS-induced depression was significantly attenuated by an inhibitor of A1 type adenosine receptors. Blocking the postsynaptic effects of GABA(B) and A1 receptor activation on CA1 pyramidal cell excitability with an inhibitor of G-protein-activated inwardly rectifying potassium channels had no effect on either paired-pulse depression or LFS-induced depression. Thus activation of presynaptic GABA(B) and adenosine receptors appears to have an important role in activity-dependent depression at recurrent synapses. Together, our results indicate that CA3-CA1 and CA1-CA1 synapses exhibit strikingly different forms of short-term synaptic plasticity and suggest that activity-dependent changes in recurrent synaptic transmission can transform the CA1 region from a sparsely connected recurrent network into a predominantly feedforward circuit.

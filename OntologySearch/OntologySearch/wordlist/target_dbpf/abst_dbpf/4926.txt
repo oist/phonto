@@ -1,0 +1,38 @@
+Animals
+Brain Mapping
+Color Perception
+drug effects
+physiology
+Hippocampus
+drug effects
+pathology
+physiology
+Ibotenic Acid
+toxicity
+Learning
+drug effects
+physiology
+Macaca mulatta
+Male
+Memory
+drug effects
+physiology
+Memory Disorders
+chemically induced
+physiopathology
+Neurons
+drug effects
+physiology
+Pattern Recognition
+Visual
+drug effects
+physiology
+Seizures
+chemically induced
+physiopathology
+Space Perception
+drug effects
+physiology
+Temporal Lobe
+physiology
+There is much debate over the role of temporal lobe structures in the ability to learn and retain new information. To further assess the contributions of the hippocampal formation (HF), five rhesus monkeys received stereotactically placed ibotenic acid lesions of this region without involvement of surrounding ventromedial temporal cortices. After surgery, the animals were trained on two recognition memory tasks: the Delayed Non-Match to Sample (DNMS) task, which tests the ability to remember specific trial unique stimuli, and the Delayed Recognition Span Task (DRST), which tests the ability to remember an increasing array of stimuli. Relative to normal control monkeys, those with HF lesions demonstrated significant impairments in both learning and memory stages of the DNMS task. Additionally, the HF group was significantly impaired on spatial, color, and object versions of the DRST. Contrary to suggestions that damage to the entorhinal and parahippocampal cortices is required to produce significant behavioral deficits in the monkey, these results demonstrate that selective damage to the HF is sufficient to produce impairments on tasks involving delayed recognition and memory load. This finding illustrates the importance of the HF in the acquisition and retention of new information.

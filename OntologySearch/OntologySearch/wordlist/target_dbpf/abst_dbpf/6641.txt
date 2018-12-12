@@ -1,0 +1,25 @@
+Adult
+Brain Mapping
+Decision Making
+physiology
+Female
+Hippocampus
+physiology
+Humans
+Image Processing
+Computer-Assisted
+Magnetic Resonance Imaging
+Male
+Mental Recall
+physiology
+Neuropsychological Tests
+Prefrontal Cortex
+physiology
+Psychomotor Performance
+physiology
+Reaction Time
+physiology
+Recognition (Psychology)
+physiology
+Semantics
+Deeper semantic processing of words leads to enhanced memory encoding (depth of processing effect). The left inferior prefrontal cortex (LIPC) and the left hippocampus are known to be involved in this effect. We tested the hypothesis that different semantic encoding processes contribute qualitatively differently to memory encoding. In a memory experiment using functional magnetic resonance imaging, we compared three different encoding tasks: a nonsemantic alphabetical, an animacy decision, and a size comparison tasks. Recognition memory was tested subsequently. We hypothesized that the size comparison task would activate brain areas involved in the processing of object features and that this would be associated with successful memory encoding. Results showed that the size comparison task led to significantly better memory encoding than the two other tasks. As with the animacy decision task, it led to stronger activation of the LIPC and left hippocampus than the nonsemantic task. Both regions also had stronger activations for later remembered than for nonremembered words. The size comparison task additionally led to stronger activation in the left anterior fusiform gyrus, which was also associated with successful memory encoding. We conclude that different types of semantic processing affect memory encoding based on distinguishable brain processes.

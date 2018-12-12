@@ -1,0 +1,1289 @@
+554
+
+Biophysical Journal Volume 100 February 2011 554–563
+
+Roles of Subcellular Na
+of Cardiac Conduction
+
+D
+
+Channel Distributions in the Mechanism
+
+* Takashi Ashihara,
+
+†
+Kunichika Tsumoto,
+†
+The Center for Advanced Medical Engineering and Informatics, Osaka University and
+Department of Pharmacology, Graduate School of Medicine, Osaka University, Osaka, Japan;
+Medicine, Heart Rhythm Center, Shiga University of Medical Science, Shiga, Japan; and
+Management, Research Institute, National Cerebral and Cardiovascular Center, Osaka, Japan
+
+Ryo Haraguchi,
+
+§
+Kazuo Nakazawa,
+
+‡
+
+§
+
+{
+Division of Molecular and Cellular Pharmacology,
+
+‡
+Department of Cardiovascular and Respiratory
+§
+Laboratory of Biomedical Science and Information
+
+and Yoshihisa Kurachi
+
+*
+
+{†
+
+þ
+
+þ
+
+channel play an important role in the action potential propagation. The
+ABSTRACTS The gap junction and voltage-gated Na
+purpose of this study was to elucidate the roles of subcellular Na
+channel distribution in action potential propagation. To achieve
+this, we constructed the myocardial strand model, which can calculate the current via intercellular cleft (electric-ﬁeld mechanism)
+together with gap-junctional current (gap-junctional mechanism). We conducted simulations of action potential propagation in
+a myoﬁber model where cardiomyocytes were electrically coupled with gap junctions alone or with both the gap junctions
+and the electric ﬁeld mechanism. Then we found that the action potential propagation was greatly affected by the subcellular
+distribution of Na
+channels in the lateral
+membrane was important to ensure the stability of propagation under conditions of reduced gap-junctional coupling. In the poorly
+channels in the lateral membrane, the slowing of action potential propagation resulted from the
+coupled tissue with sufﬁcient Na
+þ
+periodic and intermittent dysfunction of the electric ﬁeld mechanism. The changes in the subcellular Na
+channel distribution
+might be in part responsible for the homeostatic excitation propagation in the diseased heart.
+
+channels in the presence of the electric ﬁeld mechanism. The presence of Na
+
+þ
+
+þ
+
+þ
+
+INTRODUCTION
+
+The coordinated propagation of electrical excitation is
+crucial for normal contractile function in the heart. The
+abnormalities in action potential (AP) propagation, such
+as slow conduction and unidirectional block that underlie
+conduction heterogeneities in cardiac tissue, are involved
+in cardiac arrhythmias.
+
+The electrical excitation in cardiac myocytes is known to
+propagate from cell to cell through gap junctions between
+adjacent cells. The electrical conductance between cells
+can be changed by altering the gap-junctional conductance
+(Gg) due to the effect of drugs (1,2), myocardial ischemia
+(3,4), or by changing the expression of connexins (5,6)
+(gap-junction channel-forming proteins (7)). In fact, gap-
+junctional coupling is attenuated by an alteration of the
+pattern of connexin expression in the cell membrane under
+various pathophysiological conditions (8–10). Experimental
+(11) and numerical
+(12,13) studies have shown that
+a reduced gap-junctional coupling leads to the slowing of
+conduction velocity (CV). However, in several studies using
+genetically engineered murine models such as connexin
+(Cx) 43 knockout mice, Cx43 heterozygotes, and cardiac-
+restricted Cx43 conditional knockout (CKO) mice (14–17),
+
+Submitted July 26, 2010, and accepted for publication December 20, 2010.
+
+*Correspondence: ykurachi@pharma2.med.osaka-u.ac.jp or
+pharma2.med.osaka-u.ac.jp
+
+tsumoto@
+
+This is an Open Access article distributed under the terms of the Creative
+Commons-Attribution Noncommercial License (http://creativecommons.
+org/licenses/by-nc/2.0/), which permits unrestricted noncommercial use,
+distribution, and reproduction in any medium, provided the original work
+is properly cited.
+
+Editor: Andrew McCulloch.
+Ó 2011 by the Biophysical Society
+0006-3495/11/02/0554/10 $2.00
+
+it has been pointed out that the relationship between gap-
+junctional coupling and CV might be complex. In particular,
+despite the fact that the Gg in Cx43 CKO mice was decreased
+to <10% of the one in wild-type mice (17), the actual CV in
+the Cx43 CKO mice measured by Gutstein et al. (16) was as
+much as 50% of that in wild-type.
+
+Such experimental observations are not fully reproduced
+in numerical models of AP propagation via gap junctions
+(12,13). Therefore, it is probable that other propagating
+mechanisms contribute to AP propagation. In previous theo-
+retical studies (18,19), a propagating mechanism respon-
+sible for a large negative extracellular potential
+in the
+narrow cleft space of intercellular junctions, the so-called
+electric ﬁeld (EF) mechanism, was proposed as an alterna-
+tive to the gap-junctional mechanism. The EF mechanism
+postulates that during AP propagation from cell to cell,
+channel (NaCh) current on the prox-
+the large inward Na
+imal side of an intercellular cleft generates the large nega-
+tive extracellular potential within the cleft, which, in turn,
+activates the inward NaCh current in the adjacent cell on
+the distal side of the cleft.
+
+þ
+
+Voltage-gated NaCh current is responsible for the onset
+of AP and the AP propagation in the myocardium, and
+therefore, modulating the NaCh function has an important
+impact on membrane excitability. It has been reported that
+cardiac-type NaChs together with gap junctions are inten-
+sively expressed at junctional membrane (JM) facing inter-
+cellular cleft (i.e., intercalated disk), but are also slightly
+expressed in the lateral part of the cell membrane (LM)
+of the myocyte (20–23). The distribution of NaChs may
+change under pathophysiological cardiac remodeling (23).
+
+doi: 10.1016/j.bpj.2010.12.3716
+
+þ
+
+Na
+
+Channel Distribution and Conduction
+
+A recent simulation study (24) incorporating both the gap-
+junctional mechanism and the EF mechanism revealed that
+the localization of NaChs at the JM could maintain AP
+propagation even if gap-junctional coupling was greatly
+reduced. Nevertheless,
+the physiological signiﬁcance of
+the distribution of NaChs at LM on AP propagation is not
+yet fully understood.
+
+In this study, we conducted simulations of AP propaga-
+tion along a myocardial ﬁber electrically coupled with
+gap-junctional mechanism alone or with both the gap-
+junctional mechanism and the EF mechanism at each cell
+junction. The purpose of this study was to elucidate how
+the NaChs, expressed at both JM and LM, play roles in
+AP propagation. In this article, we conﬁrmed that both
+the gap-junctional mechanism and the EF mechanism
+contribute to the AP propagation in ventricles as reported
+previously (18,19,24), and showed that the property of
+AP propagation is greatly changed by the different sub-
+cellular distribution of NaChs if the EF mechanism is the
+case.
+
+We found that the presence of NaChs in the LM was
+important to ensure the stability of AP propagation under
+conditions of decreased gap-junctional coupling, and that
+during the AP propagation in the poorly coupled tissue
+with sufﬁcient NaChs in the LM, the slowing of AP propa-
+gation resulted from the periodic and intermittent dysfunc-
+tion of the EF mechanism. In addition, without NaChs
+distribution to the LM, AP propagation based on the EF
+mechanism was unstable, and the morphology of the prop-
+agating AP was greatly affected, suggesting that changes
+in the subcellular NaCh distribution might be in part respon-
+sible for the homeostatic excitation propagation in the
+diseased heart.
+
+A
+
+B
+
+C
+
+555
+
+METHODS
+
+Myoﬁber model
+
+To study the effect of subcellular distribution of NaChs on AP propagation,
+we used a one-dimensional myoﬁber consisting of serially arranged ventric-
+ular cells shown in Fig. 1 A. In this model, all cells had the same length
+(100 mm) and width (22 mm) (13), to prevent the effects of heterogeneity
+of cell size and shape on AP propagation (25).
+
+The intercellular clefts facing at JMs were very narrow (5 ~25 nm)
+(5,7,26), and the resistance of the extracellular cleft space was thought to
+be higher than that of the bulk medium. Thus, an inward NaCh current
+generated at the JM induced a large negative extracellular potential within
+the narrow cleft space (18,19,24). We assumed that the adjacent cells are
+electrically coupled with the current through the gap junction at JM and
+with the change in the cleft potential (cleft model, Fig. 1 B). We also con-
+structed a model coupled only with gap junctions (noncleft model, Fig. 1 C)
+to compare with the cleft model.
+
+The whole cell membrane of each myocyte was divided into ﬁve
+segments; three segments of LM and two segments of JM (Fig. 1, B and
+C). In Fig. 1, B and C, the myoplasmic resistance (Ri) in between nodes
+in a myocyte was deﬁned by
+
+Ri ¼ r
+
+, la=pr2;
+
+myo
+
+where rmyo is the myoplasmic resistivity (150 U,cm) (13), la is the length of
+the LM segment (33.3 mm), and r is the radius of the myocardial cell
+(11 mm). A value of 395 kU was chosen for the gap-junctional resistance
+(Rg) as the control value as it was identical to the myoplasmic resistance
+in an entire myocardial cell (13), i.e., the gap-junctional conductance
+(Gg) was 2.534 mS. The radial cleft resistance (Rj) was given by
+
+Rj ¼ r
+
+=8pw;
+
+ext
+
+according to Katz (27), while the series axial resistance (Rd) was assumed to
+be
+
+Rd ¼ r
+
+, w=pr2;
+
+ext
+
+where rext is the extracellular resistivity (150 U∙cm) (24), and w is the
+cleft width, which is the distance between the pre- and postjunctional
+
+FIGURE 1 Schematic of
+strand model and
+equivalent circuits. (A) The strand model consists
+of myocardial cells with a cylindrical shape. The
+length and radius of the myocardial cell are
+100 mm and 11 mm, respectively. (B and C) The
+equivalent circuit of
+the cleft and noncleft
+models, respectively. Each membrane segment is
+composed of an active membrane model (AMM)
+and a membrane capacitance. VN
+represents extra-
+j
+cellular cleft potential just after the Nth cell. The
+values VN
+e;n represent transmem-
+brane, intracellular, and extracellular potentials,
+respectively, of nth segment of the Nth cell. The
+values n ¼ 1 and 5 denote junctional segments,
+and VN
+e;n. The values Rg and Rj
+represent
+the gap-junctional resistance and the
+cleft resistance, respectively.
+
+i;n   VN
+
+m;n ¼ VN
+
+m;n, VN
+
+i;n, and VN
+
+Biophysical Journal 100(3) 554–563
+
+556
+
+membranes
+given by
+
+(pre- and post-JMs). The cleft conductance (Gj) was
+
+Gj ¼ 1=Rj:
+
+Frequently used abbreviations and acronyms are listed in Table 1.
+
+Membrane model
+
+Each segment of the cell membrane consisted of a membrane capacitance
+and an active membrane model (AMM) as shown in Fig. 1, B and C. The
+membrane dynamics was described with the AMM proposed by our group
+(28,29), in which the L-type calcium channel current and the values of the
+maximum conductance related to the potassium currents, IKr, IKs, IKp, and
+Ito were modiﬁed from the Luo-Rudy dynamic model (30,31) to reproduce
+intrinsic AP properties in the feline epicardial myocyte (32). Furthermore,
+the initial values of [Na]i and [Na]o were set to 12.1 and 140 mM, respec-
+tively, in this study to establish a more realistic situation (31). Speciﬁc
+parameters in the myoﬁber consisting of the AMM and initial conditions
+can be found in Table S1 in the Supporting Material.
+
+The maximum conductance of NaChs per unit area was set to 16 mS/cm2
+and therefore the entire NaCh conductance of each cell corresponded to
+~1.23 mS (30,31), which we deﬁned as the control value (gNa). This value
+is just a standard value (16 mS/cm2) in the computer model, and this value
+might be larger or smaller in the pathological conditions. In this study, to
+investigate what effect the subcellular NaCh distribution had on AP propa-
+gation, we varied the gNa in the range around the control value, and we used
+two conditions, i.e.,
+
+1. All NaChs were distributed only in the JM and there were no NaChs
+
+along the LM.
+
+2. NaChs were distributed to both JM and LM.
+
+Throughout the article, the NaCh conductances of JM and LM were
+expressed as a percentage of the gNa, i.e., %gNa,JM and %gNa,LM, respec-
+tively. The myoﬁber model with 100%gNa,JM and 50%gNa,LM, for instance,
+indicates that each cell had altogether an increased number (150%) of
+NaChs relative to the control case.
+
+Numerical calculations
+
+From the equivalent circuits in Fig. 1, B and C, we could derive a circuit
+equation (details of the derivation of the circuit equation are given in the
+
+TABLE 1 Frequently used abbreviations and acronyms
+
+Abbreviation
+
+Deﬁnition
+
+CV
+Cx
+CKO
+AP
+EF
+NaCh
+JM
+LM
+AMM
+gNa
+
+%gNa,JM
+%gNa,LM
+%gNa,JMþLM
+Gg
+Gj
+Ig
+Vj
+
+Conduction velocity
+Connexin
+Conditional knockout
+Action potential
+Electrical ﬁeld
+þ
+Na
+Junctional membrane facing intracellular cleft
+Lateral part of the cell membrane
+Active membrane model
+Control value of the entire NaCh conductance
+
+channel
+
+of each cell
+
+NaCh conductance of JM
+NaCh conductance of LM
+
+Total NaCh conductance (%gNa,JMþ%gNa,LM)
+
+Gap-junctional conductance
+Cleft conductance
+Gap-junctional current
+Cleft potential
+
+Biophysical Journal 100(3) 554–563
+
+Tsumoto et al.
+
+Supporting Material). The transmembrane potential in each segment is rep-
+resented by
+
+
+
+
+VN
+m;k; t
+
+CmdVN
+
+m;k=dt þ Iion
+
+¼ iN
+
+m;k
+
+for N ¼ 1; .; 64; and k ¼ 1; .; 5; where Cm is the membrane capacitance
+with speciﬁc capacitance 1 mF/cm2, Iion (mA/mF) is the total ionic current in
+m;kðmA=mFÞ is the transmembrane current. For an arbitrary
+the AMM, and iN
+time t, all the transmembrane currents, iN
+m;k, were obtained by solving the
+circuit equation with the transmembrane potentials, as an initial condition.
+Thereby, we could calculate all membrane potentials at time t þ Dt in each
+segment, where Dt corresponds to the time step in the Euler method. The
+time step, Dt, was ﬁxed at the value of 0.5 ms to compensate for the reduced
+size of the discretized space and for the acute change in the membrane
+potential due to the occurrence of the cleft potential. Transmembrane
+stimuli with a basic cycle length of 400 ms were applied to the middle
+lateral segment of the cell located at the ﬁber end. Each transmembrane
+stimulus had duration of 0.5 ms and strength of 300 mA/cm2, which was
+threefold higher than the diastolic threshold.
+
+We deﬁned the activation time of each cell as the time when the cell
+membrane depolarized and reached –30 mV from the resting potential.
+Then, the CV was calculated based on the activation times of the 21st
+and 42nd cells.
+
+RESULTS
+
+Effects of subcellular NaCh distribution
+on AP waveform
+
+Fig. 2, A and B, shows examples of the APs observed in the
+middle LM segment of the 32nd cell in the noncleft and
+cleft models, respectively, assuming that NaChs are only
+localized at the pre- and post-JMs, i.e., 100%gNa,JM and
+0%gNa,LM. The noncleft model exhibited typical AP wave-
+form for ventricular myocytes (Fig. 2 A). The AP in the cleft
+model, on the other hand, had smaller amplitude of phase-
+0 and a larger phase-2 dome (Fig. 2 B). Details on the
+phase-0 of
+the regional membrane potentials in each
+segment are shown in Fig. S1.
+
+To investigate what effect the NaChs expressed in LM
+had on the AP waveforms, we further conducted simulations
+of AP propagation where NaChs were added to LM
+(Fig. 2 C). Then, we found that as the %gNa,LM increased
+step-by-step from 0% to 50% of the gNa, the APs became
+similar to that in the noncleft model (compare to Fig. 2 A).
+
+Modulations of CV by subcellular NaCh
+distribution
+
+The relationships between CV and the total NaCh conduc-
+
+tance (%gNa,JMþLM ¼ %gNa,JM þ %gNa,LM) of the cell
+
+membrane in the noncleft and cleft models are shown in
+Fig. 3. This ﬁgure shows CVas a function of the %gNa,JMþLM
+when the %gNa,LM varied independently.
+Intriguingly,
+CV in the noncleft model (Fig. 3 A) was only determined
+by %gNa,JMþLM per cell, regardless of the subcellular NaCh
+distribution, whereas CV in the cleft model was largely inﬂu-
+enced by both %gNa,JMþLM and %gNa,LM. For instance, the
+noncleft model with 0%gNa,LM still maintained AP
+
+þ
+
+Na
+
+A
+
+C
+
+Channel Distribution and Conduction
+
+557
+
+B
+
+A
+
+B
+
+FIGURE 2 AP waveforms observed at a myocardial cell in the strand
+model. (A and B) AP waveforms in the noncleft and cleft models, respec-
+tively, in the case of 100%gNa,JM with 0%gNa,LM. (C) AP waveforms in
+the cleft models where the NaChs are ﬁxed at 100%gNa,JM with either
+10%gNa,LM (left), 30%gNa,LM (middle), or 50%gNa,LM (right). In the strand
+model, we employed 2.534 mS for the gap-junctional conductance (Gg) and
+0.25 mS for the cleft conductance (Gj). The values %gNa,JM and %gNa,LM
+indicate the NaCh conductances of junctional membrane (JM) and lateral
+membrane (LM), respectively.
+
+propagation when %gNa,JMþLM (equal to %gNa,JM in this
+case) was reduced to 20%.
+
+The critical CV just before conduction block was
+14.0 cm/s in the case of 15%gNa,JMþLM, corresponding to
+one-fourth of the CV in normal condition (56.2 cm/s
+with 100%gNa,JMþLM). In contrast, the cleft model with
+0%gNa,LM failed to propagate AP if %gNa,JMþLM (equal to
+%gNa,JM) was reduced to <45% (Fig. 3 B), indicating that
+the safety of AP propagation was more sensitive to the
+changes in %gNa,JM than previously thought. Moreover,
+the addition of NaChs to LM (compare 0%gNa,LM and
+10%gNa,LM in Fig. 3 B) led to an increase in CV and
+a decrease in the critical value of %gNa,JMþLM causing the
+conduction block. These results suggest that NaChs in the
+LM are important to keep the CV and to ensure the robust-
+ness of AP propagation in the reduced %gNa,JM condition.
+
+Effects of cleft conductance change on AP
+propagation
+
+We ﬁrst conﬁrmed a relationship between the CV and the Gj
+in the cleft model with the condition that NaChs are only
+localized in JM as reported previously (24). (Fig. 4 A,
+left). If the Gg was sufﬁciently large, the CV decreased
+monotonically as the Gj was reduced. By gradually reducing
+
+FIGURE 3 Conduction velocity (CV) as a function of total NaCh
+conductance (%gNa,JMþLM) by changing NaCh distribution within the cell
+in the noncleft (A) and cleft (B) strand models. (Dashed line with the
+open circles) AP propagation with a triangular AP waveform. For purpose
+of comparison, experimental data (36) are plotted as open squares on panels
+A and B. (Red and blue short horizontal bars) Threshold for conduction
+block. In the models, we employed 2.534 mS for the gap-junctional conduc-
+tance (Gg) and 0.25 mS for the cleft conductance (Gj).
+
+the Gg, the relationship between the CV and the Gj shifted
+from the monophasic to biphasic behavior. An increase in
+the CV could be observed when the Gg was reduced to
+<10% of normal Gg (<0.253 mS) and the Gj was reduced
+to 0.5 mS, corresponding to the cleft width of ~30 nm.
+Further decrease in the Gj from 0.32 to 0.125 mS caused
+the reduction in CV from 14 to 7 cm/s. This result agreed
+well with the simulation results shown by Kucera et al.
+(24). In addition, we found that the AP resulted in an all-
+or-none repolarization and loss of the AP plateau or dome
+(Fig. 4 A, right) when the Gj was highly reduced (dashed
+line with open circles in Fig. 4 A, left). Thus, in the cleft
+model without NaChs in LM, an excessive reduction in
+the Gj resulted in the marked abbreviation of the AP dura-
+tion as well as in the conduction block.
+
+In another series of simulation, the number of NaChs in
+LM was gradually increased to examine what impact the
+NaChs in LM had on AP propagation when the Gj was
+varied. Fig. 4 B (left) shows CV as a function of Gj in the
+cleft model with 100%gNa,JM and 0%gNa,LM. An almost
+constant CV was maintained when the Gg was relatively
+large and the Gj was decreased. Moreover, even if the Gj
+was 0.1 mS, corresponding to the cleft width of 6 nm, the
+
+Biophysical Journal 100(3) 554–563
+
+558
+
+A
+
+B
+
+FIGURE 4 Conduction velocity (CV) as a function of cleft conductance
+(Gj) and AP waveforms in the case of 100%gNa,JM with 0%gNa,LM (A) and
+in the case of 100%gNa,JM with 50%gNa,LM (B) in the cleft model. AP
+waveform observed in the third segment of the 32nd cell where the cleft
+conductance (Gj) was set to 0.17 mS (cleft width, w ¼ 10 nm) (A) and
+0.1 mS (w ¼ 6 nm) (B), respectively, and the gap-junctional conductance
+(Gg) was ﬁxed at 2.534 mS.
+
+propagation with the appropriate AP waveform could
+be maintained in the cleft model with 100%gNa,JM and
+50%gNa,LM (Fig. 4 B, right). These results also suggest
+that the NaChs in LM increase the robustness of AP propa-
+gation under a variety of the Gj values.
+
+AP propagation and gap-junctional conductance
+
+Fig. 5 shows CV as a function of Gg between myocytes. As
+expected, the CV in the noncleft model gradually dimin-
+ished with the decrease in the Gg independent of the subcel-
+lular NaCh distributions (Fig. 5 A). The critical value of Gg
+just before conduction block was ~0.3% of the normal Gg,
+at which the Gg was the same value as the intracellular
+axial conductance (2.534 mS); thus, the critical CV was
+0.36 cm/s. Similar to the case in the noncleft model, a mono-
+tonic decrease in the CV was observed in the cleft model
+with 100%gNa,JM and 0%gNa,LM as the Gg was decreased.
+However, the slope of the CV-Gg curve of the 100%gNa,JM
+case in the cleft model was more gentle and the CV at low
+Gg was higher (~15 cm/s) than in the noncleft model
+(compare the solid red line and the gray dashed line in
+Fig. 5 B).
+
+Furthermore, we conﬁrmed that even in the absence
+the CV was maintained at
+of gap-junctional coupling,
+14.7 cm/s. For comparison, we investigated the effect of
+the subcellular NaCh distribution on CV under the condition
+that the total number of NaChs per cell was kept constant at
+
+Biophysical Journal 100(3) 554–563
+
+Tsumoto et al.
+
+the control value of gNa. As shown in Fig. S2, not a decrease
+in %gNa,JM but an increase in %gNa,LM resulted in the
+steeper slope of the CV-Gg curve at low Gg. These results
+indicate that localizing sufﬁcient NaChs to JM is required
+to maintain CV when Gg is highly reduced.
+
+In the cleft model with 100%gNa,JM and 0%gNa,LM, the
+CV for normal Gg was no more than a half of that in the non-
+cleft model. Adding NaChs to the LM increased the CV
+under normal Gg. By increasing the NaChs to 50%gNa,LM,
+the CV came close to the physiological range in the longitu-
+dinal direction of ventricular myoﬁber (50–60 cm/s). A
+reduction in Gg under the condition with 100%gNa,JM and
+50%gNa,LM also resulted in decreased CV, but an abrupt
+reduction in CV was observed when Gg was highly reduced
+(black and purple lines, Fig. 5 B). In the case of the abrupt
+reduction in CV, we observed the alternating pattern of long
+and short conduction delays (Fig. 5, C–E), suggesting the
+gap-junctional mechanism with the periodic and intermit-
+tent dysfunction of the EF mechanism contributed to this
+phenomenon.
+
+To understand the mechanism of the slowing of AP prop-
+agation, how the reduced Gg inﬂuences the cleft potential
+between adjacent cells should be clariﬁed. The amplitude
+of the gap-junctional current (Ig) reduced monotonically
+as the Gg decreased (Fig. S3 A). In the cases of 100%gNa,JM
+with 0–10%gNa,LM in the cleft model (red and blue lines in
+Fig. S3 B), the minimal value of the cleft potential (Vj)
+shifted more negatively as the Gg decreased. We conﬁrmed
+in this study that such the marked negative cleft potential
+resulted in the activation of NaChs of the post-JM and
+thus resulted in the prevention of signiﬁcant conduction
+delay (CV was kept at ~15 cm/s, as shown in Fig. 5 B)
+due to the EF mechanism. In contrast, when the NaCh in
+LM sufﬁciently increased (R30%gNa,LM), the cleft poten-
+tial showed a signiﬁcant increase under the condition of
+low Gg (see black and purple lines in Fig. S3 B) (this
+mechanism is also discussed in the Supporting Material).
+Such high cleft potential caused the reduction of the NaCh
+in the post-JM (see black and purple lines in
+current
+Fig. S3 C) and the slow depolarization of the cell membrane
+(see asterisks in Fig. 5, D and E), resulting in the slowing of
+AP propagation.
+
+p
+
+ﬃﬃﬃ
+2
+
+p
+
+ﬃﬃﬃ
+2
+
+mm in width and 100
+
+Finally, we additionally conducted similar simulations
+with larger cell size (22
+mm in
+length), of which surface membrane area was twice that of
+the control cell. Then we found in the noncleft model with
+100%gNa,JM and 0%gNa,LM that the larger cell size led to
+the increase in CV (compare the dashed line and the solid
+line in Fig. 6 A). In contrast, the CV in the cleft model
+with 100%gNa,JM and 0%gNa,LM was reduced by the increase
+in the cell size because the AP propagation via EF mecha-
+nism was markedly inﬂuenced by the subcellular NaCh
+distribution (Fig. 6 B). However, by adding the NaChs to
+the LM in the cleft model with 100%gNa,JM and 50%gNa,LM
+(Fig. 6 C), the relationship between the CV and the cell size
+
+þ
+
+Na
+
+A
+
+B
+
+Channel Distribution and Conduction
+
+559
+
+C
+
+D
+
+E
+
+FIGURE 5 Conduction velocity (CV) as a function of gap-junctional conductance (Gg) in the noncleft (A) and cleft (B) strand models and change in qual-
+itative properties of AP propagation observed in the case of 100%gNa,JM with 50%gNa,LM in the cleft model when the gap-junctional conductance (Gg) is
+decreased (C–E). For comparison, the dashed line in panel B represents the CV in the case of 100%gNa,JM with 0%gNa,LM in the noncleft model (red line
+in panel A). (C–E) The AP waveforms (left) and the enlarged diagrams at the phase-0 of APs (right), respectively. In the cleft model, we ﬁxed the cleft
+conductance (Gj) at 0.25 mS, corresponding to the cleft width of 15 nm.
+
+was quite similar to that in the noncleft model (compare to
+Fig. 6 A).
+
+DISCUSSION
+
+A number of theoretical studies previously investigated the
+nature of AP propagation in myoﬁber. For example, Spere-
+
+A
+
+B
+
+C
+
+lakis and co-workers (18,19) proposed the EF mechanism as
+a mechanism of AP propagation without gap-junctional
+coupling, and they demonstrated that the AP could propa-
+gate from cell to cell via the EF mechanism alone. Kucera
+et al. (24) raised the possibility that when NaChs were
+localized at JM, the EF mechanism contributes to AP prop-
+agation together with gap-junctional mechanism. Mori et al.
+
+FIGURE 6 Effect of cell size on conduction
+velocity (CV) in the noncleft (A) and cleft (B and
+C) myoﬁber models. CV as a function of gap junc-
+tional conductance (gg) in the noncleft (A) and cleft
+(B) models with 100%gNa,JM and 0%gNa,LM, and in
+the cleft model (C) with 100%gNa,JM and 50%
+gNa,LM. (Dashed and solid lines) gg-CV relation-
+ship curve in the normal cell size case (100 mm
+ﬃﬃﬃ
+p
+in length and 22 mm in width) and that in the larger
+cell size case (100
+2
+mm
+in width), respectively. In the larger cell, the total
+surface membrane area in a cell, Stotal, was twice
+that of the normal cell. In this simulation, we
+assumed that the gg at the JM in the larger cell
+was equal to that in the normal cell. For purpose
+of comparison, experimental data (16) are plotted
+as open squares on panels A–C.
+
+ﬃﬃﬃ
+p
+mm in length and 22
+2
+
+Biophysical Journal 100(3) 554–563
+
+560
+
+Tsumoto et al.
+
+(33) evaluated the effect of the intercellular cleft conduc-
+tance on CV.
+
+These theoretical studies mainly focused on the micro-
+structural characteristics of intercellular cleft in the myoﬁber,
+and on the role of EF mechanism under physiological condi-
+tion. On the other hand, our objective of this study was to
+clarify the roles of the subcellular NaCh distribution in AP
+propagation. In particular, we focused on the role of NaChs
+of the LM in AP propagation under the existence of EF
+mechanism. Then we found that the NaChs in the LM were
+responsible for both increasing CV and ensuring the robust-
+ness of AP propagation under conditions of low gap-junc-
+tional coupling. Based on these results, we concluded that
+the NaChs in the LM might be important for the homeostatic
+excitation propagation in both the physiological and patho-
+logical conditions.
+
+AP propagation based on EF mechanism
+
+To elucidate whether AP propagation depends only on the
+gap-junctional mechanism (Fig. 1 C), we ﬁrst investigated
+the relationship between the subcellular NaCh distribution
+and the CV. Fig. 3 A demonstrates that the CV in the noncleft
+model is only determined by the total number of NaChs per
+cell independent of the number of NaChs expressed in LM.
+Spach et al. (25) also numerically conﬁrmed that the alter-
+ation of subcellular NaCh distribution had no signiﬁcant
+effect on the CV. However, in this study, when we incorpo-
+rated the detailed microstructures of myoﬁber (such as
+cleft between cells and intercalated disk) into the model
+(Fig. 1 B), the subcellular NaCh distribution had surprising
+effects on AP propagation. The roles of such microstruc-
+tures on AP propagation can be explained by the EF mech-
+anism (18,19), together with the gap-junctional mechanism.
+
+Subcellular NaCh distribution and AP waveform
+
+The subcellular NaCh distribution in the cleft model altered
+the AP waveform (Figs. 2 and 4). When all NaChs were local-
+ized to JM, the AP waveform differed from the typically
+observed one in the ventricular epicardial single myocyte
+(34,35). The reason for this might be explained as follows.
+The alteration of the cleft potential based on the EF mecha-
+nism gave rise to the decrease in the driving force of the
+NaCh current in the post-JM (24). The decrease in the poten-
+tial difference between the pre- and post-JMs due to the
+simultaneous supra-threshold depolarization of their JMs
+(see Fig. S1 A) reduced the current ﬂowing through the gap
+junction. The intracellular axial current, consisting of both
+the gap-junctional current and the inward NaCh current in
+the post-JM, commonly depolarizes the local membrane
+(i.e., the LM segments) and generates an axial current to
+act on the pre-JM of the adjacent cell. Therefore, the intracel-
+lular axial current was reduced and this could not provide
+sufﬁcient current to depolarize the adjacent cell.
+
+Biophysical Journal 100(3) 554–563
+
+Another reason for the reduction in the intracellular axial
+current
+is the high cleft resistance, resulting from the
+extremely narrow clefts. Such high cleft resistance induced
+the large negative extracellular potential and at the same
+time prevented the inﬂux of NaCh current from the extracel-
+lular cleft space. Therefore, the phase-0 amplitude in AP
+decreased (Figs. 2 B and 4 A, right). On the other hand,
+the inward NaCh current at the LM boosted the local current
+and increased the intracellular axial current, causing the
+sufﬁcient depolarization of the LM. Thereby, the normal
+AP in ventricular myocyte was formed (Figs. 2 C and 4 B,
+right).
+
+Modulation of AP propagation by subcellular
+NaCh distribution
+
+A previous experimental study (36) reported that the CV in
+the Scn5a heterozygous young mice, of which NaCh
+conductance was 50% of the control value (37), led to the
+decrease in CV by 16.9% (from 36.2 to 30.1 cm/s). As
+shown in Fig. 3 A,
+the half-NaCh conductance (50%
+gNa,JMþLM) in the noncleft model caused the decrease in
+CV by 23.4% (from 54.3 to 41.6 cm/s), of which value
+was much larger than that in the experimental study (36).
+Such discrepancy between the experimental and simulation
+studies can be reduced by the use of the cleft model, which
+can reproduce the realistic AP propagation through both the
+gap-junctional and EF mechanisms. As shown in Fig. 3 B,
+when 10% of the gNa was expressed at LM, the half-NaCh
+conductance resulted in the decrease in CV by 17.2%
+(from 37.7 to 31.2 cm/s), corresponding to the aforemen-
+tioned experimental data (36).
+
+The changes in CV in response to Gg suggest that the
+NaChs located at JM and LM play different roles in the
+modulation of CV. As shown in Fig. 5, A and B, the CV in
+the cleft model was less sensitive to Gg than in the noncleft
+model. Furthermore, we found that the addition of NaChs to
+LM increased the sensitivity of the CV to Gg in the cleft
+model. To conﬁrm whether this characteristic response
+resulted from the increase in total NaCh number or the
+change in NaCh distribution itself, we conducted additional
+simulations, Fig. S2, and found that the tendency was essen-
+tially the same as Fig. 5 B. Therefore, we can conclude
+that the NaChs in LM compensate for the slowing CV by
+a decrease in Gg via the EF mechanism. Comparing with
+Fig. 5 B and Fig. S2, we additionally found that
+this
+compensation was stronger when the NaChs were abundant
+in JM (intercalated disk). This result was in agreement with
+the simulation results obtained by Kucera et al. (24).
+
+Our results may explain the reduced CV in Cx43 CKO
+mice. Because the Gg in Cx43 CKO mice is decreased
+to <10% of the Gg in wild-type (17), the CV is expected to
+be approximately one-third of the wild-type, according to
+the cable theory (38). However, the actual CV measured
+by Gutstein et al. (16) was approximately half of that of
+
+þ
+
+Na
+
+Channel Distribution and Conduction
+
+wild-type within either the longitudinal or the transversal
+directions of the myoﬁber. In fact, in this study, the CV
+was decreased to approximately one-half and approximately
+one-third of the control value in the cleft and noncleft
+models, respectively (Fig. 5 B). Therefore, in an actual
+myocardial tissue, the EF mechanism could serve to prevent
+the reduction of the CV by the decrease in Gg.
+
+If all NaChs locating in JM is the case, the CV would be
+kept at 15 cm/s even without gap-junctional current, i.e.,
+
+Gg ¼ 0 mS (Fig. 5 B). However, Beauchamp et al. (39)
+
+demonstrated that the conduction block occurred by both
+the knockout of Cx43 and the pharmacological block of
+Cx45, and they concluded that the EF mechanism does
+not contribute to the mechanism of AP propagation. As
+shown in this simulation study, when sufﬁcient NaChs are
+expressed in LM (>30%gNa,LM) in the cleft model, the
+contribution of EF mechanism decreased due to a reduction
+of the cleft potential amplitude (Fig. S3 B) and thus the
+conduction block could be reproduced (black and purple
+lines in Fig. 5 B). Therefore, the results of our study suggest
+the possibility, without conﬂicting with Beauchamp et al.
+(39), that the EF mechanism can contribute to the AP
+propagation.
+
+Effect of cell size on AP propagation
+
+Previous studies (25,40–42) have shown that AP propaga-
+tion in cardiac tissues under the physiological and/or patho-
+physiological conditions was highly inﬂuenced by both size
+and shape of the myocardial cells. As shown in Fig. 6 B, the
+localization of NaCh to the JM in the cleft model led to an
+inverse effect of the increase in cell size on the CV in
+contrast with the noncleft model. This is due to both the
+reduction in the number of NaChs of JM and the reduction
+in LM excitability. However, in the same cleft model but
+with the addition of NaChs to LM, the CV in the myoﬁber
+composed of larger cells was higher than that in the case
+of normal cell size (Fig. 6 C). This result further supports
+our ﬁnding that the presence of NaChs in LM plays an
+important role in the AP propagation. Nevertheless, further
+studies will be required because the effect of the cell size on
+AP propagation in the cleft model is far more complicated
+than that in the noncleft model.
+
+Limitations of the model
+
+þ
+
+þ
+
+-Ca2þ
+
+/K
+
+-ATPase) (45), and Na
+
+In addition to the localization of NaCh to the JM, other ion
+channel and transporter proteins are also distributed in the
+JM, such as voltage-gated Kþ channels (43,44), Na
+þ
+þ
+pump (Na
+exchanger
+(46). However, we did not take into account the localization
+of their ion channels and transporters to the JM. Such ion
+channels and transporters might have some effects on CV
+via the change of ion concentration in the intercellular cleft
+space (33).
+
+561
+
+Physiological implications
+
+The existence of NaCh at LM was experimentally conﬁrmed
+by several studies (20–23). However, the role of NaChs at
+LM is still controversial. Maier et al. (21) stated the possi-
+bility that the NaChs at transverse tubule (LM segment)
+make the myocyte more excitable, thereby strengthening
+the contraction via excitation-contraction coupling. On the
+other hand, Brette and Orchard (47) reported that NaChs
+at transverse tubule did not change the calcium transient
+and therefore the NaChs had no effect on excitation-contrac-
+tion coupling. In this study, we found, to our knowledge,
+a novel role of NaChs at LM in increasing the robustness
+of the AP propagation. Our simulations clearly showed
+that the NaChs in the LM act as a booster for the intracel-
+lular axial current. Furthermore, in order for the EF mecha-
+nism (cleft model) to coexist with a normal prediction of the
+physiological AP waveform (compare Fig. 2, B and C), the
+existence of NaChs at LM is indispensable. From the point
+of view of CV, the NaChs at LM are necessary for the cleft
+model to reproduce the physiological CV at ~60 cm/s in the
+longitudinal direction of the myoﬁber.
+
+Clinical implications
+
+The APs with insufﬁcient depolarization from phase-0 to
+phase-2 of the AP (Fig. 2 B) and with a marked abbreviation
+of the AP duration (Fig. 4 A, right) by the decrease of NaChs
+in the LM evoke the change of AP morphology commonly
+observed in patients with the Brugada syndrome (48,49).
+In fact, Mohler et al. (22) and Lowe et al. (50) have sug-
+gested the possibility that gene mutation in ankyrin-binding
+motif of the NaCh causing the decrease of NaChs at cell
+membrane in ventricular myocytes was associated with Bru-
+gada syndrome.
+Furthermore,
+
+immunohistochemical staining by Baba
+et al. (23) revealed that NaChs of myocytes in the infarct-
+border zone are localized in intercalated disk (JM) rather
+than in LM, whereas those in the normal zone are homoge-
+neously distributed throughout the entire cell membrane.
+Based on the results of this study, such inhomogeneous
+change in NaCh distribution (the decrease of NaChs in
+LM) could avoid conduction block at low Gg condition
+produced by ischemia (compare purple line and red line
+in Fig. 5 B), resulting in the homeostasis of AP propagation.
+This also implies that the NaCh blockade (class I antiar-
+rhythmic drug) in the ischemic myocardium might cause
+conduction block (Fig. 3 B), leading to a more arrhythmo-
+genic condition.
+
+SUPPORTING MATERIAL
+
+Additional methods with ﬁve equations, additional results, one table,
+and three ﬁgures are available at http://www.biophysj.org/biophysj/
+supplemental/S0006-3495(10)05262-8.
+
+Biophysical Journal 100(3) 554–563
+
+562
+
+Tsumoto et al.
+
+The authors thank Dr. Rachid Ait-Haddou and Prof. Taishin Nomura for
+their useful comments.
+
+This study was supported by the Global COE Program ‘‘in silico medicine’’
+at Osaka University; the Institute of Seizon and Life Science; and Ministry
+of Education, Culture, Sports, Science and Technology of Japan (Grant-in-
+Aid for Scientiﬁc Research on Innovative Areas No. 22136002).
+
+REFERENCES
+
+1. Ru¨disu¨li, A., and R. Weingart. 1989. Electrical properties of gap junc-
+tion channels in guinea-pig ventricular cell pairs revealed by exposure
+to heptanol. Pﬂugers Arch. 415:12–21.
+
+2. de Groot, J. R., T. Veenstra, ., E. E. Verheijck. 2003. Conduction
+slowing by the gap junctional uncoupler carbenoxolone. Cardiovasc.
+Res. 60:288–297.
+
+3. Kle´ber, A. G., C. B. Riegger, and M. J. Janse. 1987. Electrical uncou-
+pling and increase of extracellular resistance after induction of
+ischemia in isolated, arterially perfused rabbit papillary muscle. Circ.
+Res. 61:271–279.
+
+4. Kieval, R. S., J. F. Spear, and E. N. Moore. 1992. Gap junctional
+conductance in ventricular myocyte pairs isolated from postischemic
+rabbit myocardium. Circ. Res. 71:127–136.
+
+5. Hoyt, R. H., M. L. Cohen, and J. E. Safﬁtz. 1989. Distribution and
+three-dimensional structure of intercellular junctions in canine myocar-
+dium. Circ. Res. 64:563–574.
+
+6. Smith, J. H., C. R. Green, ., N. J. Severs. 1991. Altered patterns of gap
+junction distribution in ischemic heart disease. An immunohistochem-
+ical study of human myocardium using laser scanning confocal micros-
+copy. Am. J. Pathol. 139:801–821.
+
+7. Yeager, M. 1998. Structure of cardiac gap junction intercellular chan-
+
+nels. J. Struct. Biol. 121:231–245.
+
+8. Cooklin, M., W. R. J. Wallis, ., C. H. Fry. 1997. Changes in cell-to-
+cell electrical coupling associated with left ventricular hypertrophy.
+Circ. Res. 80:765–771.
+
+9. Poelzing, S., and D. S. Rosenbaum. 2004. Altered connexin43 expres-
+sion produces arrhythmia substrate in heart failure. Am. J. Physiol.
+Heart Circ. Physiol. 287:H1762–H1770.
+
+10. Spragg, D. D., F. G. Akar, ., D. A. Kass. 2005. Abnormal conduction
+and repolarization in late-activated myocardium of dyssynchronously
+contracting hearts. Cardiovasc. Res. 67:77–86.
+
+11. Spach, M. S., W. T. Miller, 3rd, ., E. A. Johnson. 1981. The discon-
+tinuous nature of propagation in normal canine cardiac muscle.
+Evidence for recurrent discontinuities of intracellular resistance that
+affect the membrane currents. Circ. Res. 48:39–54.
+
+12. Rudy, Y., and W. L. Quan. 1987. A model study of the effects of the
+discrete cellular structure on electrical propagation in cardiac tissue.
+Circ. Res. 61:815–823.
+
+13. Shaw, R. M., and Y. Rudy. 1997. Ionic mechanisms of propagation in
+cardiac tissue. Roles of the sodium and L-type calcium currents during
+reduced excitability and decreased gap junction coupling. Circ. Res.
+81:727–741.
+
+14. Ya, J., E. B. Erdtsieck-Ernste, ., W. H. Lamers. 1998. Heart defects in
+
+connexin43-deﬁcient mice. Circ. Res. 82:360–366.
+
+15. Morley, G. E., D. Vaidya, ., J. Jalife. 1999. Characterization of
+conduction in the ventricles of normal and heterozygous Cx43
+knockout mice using optical mapping. J. Cardiovasc. Electrophysiol.
+10:1361–1375.
+
+16. Gutstein, D. E., G. E. Morley, ., G. I. Fishman. 2001. Conduction
+slowing and sudden arrhythmic death in mice with cardiac-restricted
+inactivation of connexin43. Circ. Res. 88:333–339.
+
+17. Yao, J. A., D. E. Gutstein, ., A. L. Wit. 2003. Cell coupling between
+ventricular myocyte pairs from connexin43-deﬁcient murine hearts.
+Circ. Res. 93:736–743.
+
+18. Sperelakis, N., and J. E. Mann, Jr. 1977. Evaluation of electric ﬁeld
+changes in the cleft between excitable cells. J. Theor. Biol. 64:71–96.
+
+Biophysical Journal 100(3) 554–563
+
+19. Sperelakis, N., and K. McConnell. 2002. Electric ﬁeld interactions
+between closely abutting excitable cells. IEEE Eng. Med. Biol. Mag.
+21:77–89.
+
+20. Cohen, S. A. 1996. Immunocytochemical localization of rH1 sodium
+channel in adult rat heart atria and ventricle. Presence in terminal inter-
+calated disks. Circulation. 94:3083–3086.
+
+21. Maier, S. K. G., R. E. Westenbroek, ., W. A. Catterall. 2002. An unex-
+pected role for brain-type sodium channels in coupling of cell surface
+depolarization to contraction in the heart. Proc. Natl. Acad. Sci. USA.
+99:4073–4078.
+
+22. Mohler, P. J., I. Rivolta, ., V. Bennett. 2004. Nav1.5 E1053K mutation
+causing Brugada syndrome blocks binding to ankyrin-G and expression
+of Nav1.5 on the surface of cardiomyocytes. Proc. Natl. Acad. Sci.
+USA. 101:17533–17538.
+
+23. Baba, S., W. Dun, ., P. A. Boyden. 2005. Remodeling in cells from
+different regions of the reentrant circuit during ventricular tachycardia.
+Circulation. 112:2386–2396.
+
+24. Kucera, J. P., S. Rohr, and Y. Rudy. 2002. Localization of sodium
+channels in intercalated disks modulates cardiac conduction. Circ.
+Res. 91:1176–1182.
+
+25. Spach, M. S., J. F. Heidlage, ., R. C. Barr. 2000. Electrophysiological
+effects of remodeling cardiac gap junctions and cell size: experimental
+and model studies of normal cardiac growth. Circ. Res. 86:302–311.
+
+26. Severs, N. J. 1995. Cardiac muscle cell interaction: from microanatomy
+to the molecular make-up of the gap junction. Histol. Histopathol.
+10:481–501.
+
+27. Katz, B. 1966. Nerve, Muscle and Synapse. McGraw-Hill, New York.
+28. Suzuki, S., S. Murakami, ., Y. Kurachi. 2008. In silico risk assessment
+for drug-induction of cardiac arrhythmia. Prog. Biophys. Mol. Biol.
+98:52–60.
+
+29. Findlay, I., S. Suzuki, ., Y. Kurachi. 2008. Physiological modulation
+of voltage-dependent inactivation in the cardiac muscle L-type calcium
+channel: a modeling study. Prog. Biophys. Mol. Biol. 96:482–498.
+
+30. Luo, C. H., and Y. Rudy. 1994. A dynamic model of the cardiac ventric-
+ular action potential. I. Simulations of ionic currents and concentration
+changes. Circ. Res. 74:1071–1096.
+
+31. Faber, G. M., and Y. Rudy. 2000. Action potential and contractility
+]i overloaded cardiac myocytes: a simulation study.
+
+þ
+changes in [Na
+Biophys. J. 78:2392–2404.
+
+32. Aiba, T., W. Shimizu, ., K. Sunagawa. 2005. Cellular and ionic mech-
+anism for drug-induced long QT syndrome and effectiveness of verap-
+amil. J. Am. Coll. Cardiol. 45:300–307.
+
+33. Mori, Y., G. I. Fishman, and C. S. Peskin. 2008. Ephaptic conduction in
+a cardiac strand model with 3D electrodiffusion. Proc. Natl. Acad. Sci.
+USA. 105:6463–6468.
+
+34. Osaka, T., I. Kodama, ., K. Yamada. 1987. Effects of activation
+sequence and anisotropic cellular geometry on the repolarization
+phase of action potential of dog ventricular muscles. Circulation.
+76:226–236.
+
+35. Aiba, T., W. Shimizu, ., K. Sunagawa. 2003. Transmural heteroge-
+neity of the action potential conﬁguration in the feline left ventricle.
+Circ. J. 67:449–454.
+
+36. van Veen, T. A. B., M. Stein, ., H. V. van Rijen. 2005. Impaired
+impulse propagation in Scn5a-knockout mice: combined contribution
+of excitability, connexin expression, and tissue architecture in relation
+to aging. Circulation. 112:1927–1935.
+
+37. Papadatos, G. A., P. M. R. Wallerstein, ., A. A. Grace. 2002. Slowed
+conduction and ventricular tachycardia after targeted disruption of the
+cardiac sodium channel gene Scn5a. Proc. Natl. Acad. Sci. USA.
+99:6210–6215.
+
+38. Arnsdorf, M. F., and J. C. Makielski. 2001. Excitability and impulse
+In Heart Physiology and Pathophysiology, 4th Ed.
+propagation.
+Y. Kurachi, A. Terzic, M. V. Cohen, and N. Sperelakis, editors. Califor-
+nia Academic Press, Millbrae, CA. 99–132.
+
+þ
+
+Na
+
+Channel Distribution and Conduction
+
+39. Beauchamp, P., C. Choby, ., A. G. Kle´ber. 2004. Electrical propaga-
+tion in synthetic ventricular myocyte strands from germline con-
+nexin43 knockout mice. Circ. Res. 95:170–178.
+
+40. Joyner, R. W. 1982. Effects of the discrete pattern of electrical coupling
+on propagation through an electrical syncytium. Circ. Res. 50:192–200.
+
+41. Kucera, J. P., and Y. Rudy. 2001. Mechanistic insights into very slow
+conduction in branching cardiac tissue: a model study. Circ. Res.
+89:799–806.
+
+42. Satoh, H., L. M. D. Delbridge, ., D. M. Bers. 1996. Surface/volume
+relationship in cardiac myocytes studied with confocal microscopy
+and membrane capacitance measurements: species-dependence and
+developmental effects. Biophys. J. 70:1494–1504.
+
+43. Barry, D. M., J. S. Trimmer, ., J. M. Nerbonne. 1995. Differential
+channel subunits in adult rat heart.
+
+þ
+
+expression of voltage-gated K
+Relation to functional K
+
+þ
+
+channels? Circ. Res. 77:361–369.
+
+44. Mays, D. J., J. M. Foose, ., M. M. Tamkun. 1995. Localization of the
+channel protein in explanted cardiac tissue. J. Clin. Invest.
+
+þ
+
+Kv1.5 K
+96:282–292.
+
+563
+
+45. McDonough, A. A., Y. Zhang, ., J. S. Frank. 1996. Subcellular distri-
+bution of sodium pump isoform subunits in mammalian cardiac myo-
+cytes. Am. J. Physiol. 270:C1221–C1227.
+
+46. Kieval, R. S., R. J. Bloch, ., W. J. Lederer. 1992. Immunoﬂuorescence
+localization of the Na-Ca exchanger in heart cells. Am. J. Physiol.
+263:C545–C550.
+
+47. Brette, F., and C. H. Orchard. 2006. No apparent requirement for
+neuronal sodium channels in excitation-contraction coupling in rat
+ventricular myocytes. Circ. Res. 98:667–674.
+
+48. Brugada, P., and J. Brugada. 1992. Right bundle branch block, persis-
+tent ST segment elevation and sudden cardiac death: a distinct clinical
+and electrocardiographic syndrome. A multicenter report. J. Am. Coll.
+Cardiol. 20:1391–1396.
+
+49. Kurita, T., W. Shimizu, ., Y. Kosakai. 2002. The electrophysiologic
+mechanism of ST-segment elevation in Brugada syndrome. J. Am.
+Coll. Cardiol. 40:330–334.
+
+50. Lowe, J. S., O. Palygin, ., P. J. Mohler. 2008. Voltage-gated Nav
+channel targeting in the heart requires an ankyrin-G dependent cellular
+pathway. J. Cell Biol. 180:173–186.
+
+Biophysical Journal 100(3) 554–563
+
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6694">
+<itemtype>xnppaper</itemtype>
+<titles><title>Depth of processing effects on neural correlates of memory encoding: relationship between findings from across- and within-task comparisons.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Acoustic Stimulation</keyword>
+<keyword>Adult</keyword>
+<keyword>Brain</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cues</keyword>
+<keyword>Female</keyword>
+<keyword>Frontal Lobe</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Semantics</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Verbal Behavior</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:22:03Z</last_update_date>
+<creation_date>2013-02-26T07:22:03Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6694</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6694" version="1.02">
+<authors><author>Otten LJ</author><author>Henson RN</author><author>Rugg MD</author></authors>
+<journal>Brain : a journal of neurology</journal>
+<volume>124</volume>
+<number>2</number>
+<page>399-412</page>
+<abstract>Neuroimaging studies have implicated the prefrontal cortex and medial temporal areas in the successful encoding of verbal material into episodic memory. The present study used event-related functional MRI to investigate whether the brain areas associated with successful episodic encoding of words in a semantic study task are a subset of those demonstrating depth of processing effects. In addition, we tested whether the brain areas associated with successful episodic encoding differ depending on the nature of the study task. At study, 15 volunteers were cued to make either animacy or alphabetical decisions about words. A recognition memory test including confidence judgements followed after a delay of 15 min. Prefrontal and medial temporal regions showed greater functional MRI activations for semantically encoded words relative to alphabetically encoded words. Two of these regions (left anterior hippocampus and left ventral inferior frontal gyrus) showed greater activation for semantically encoded words that were subsequently recognized confidently. However, other regions (left posterior hippocampus and right inferior frontal cortex) demonstrated subsequent memory effects, but not effects of depth of processing. Successful memory for alphabetically encoded words was also associated with greater activation in the left anterior hippocampus and left ventral inferior frontal gyrus. The findings suggest that episodic encoding for words in a semantic study task involves a subset of the regions activated by deep relative to shallow processing. The data provide little evidence that successful episodic encoding during a shallow study task depends upon regions different from those that support the encoding of deeply studied words. Instead, the findings suggest that successful episodic encoding during a shallow study task relies on a subset of the regions engaged during successful encoding in a deep task.</abstract>
+<pubmed_id>11157567</pubmed_id>
+</detail>
+</item>

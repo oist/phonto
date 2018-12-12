@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3310">
+<itemtype>xnpconference</itemtype>
+<titles><title>Cantor Coding in a Model of Hippocampus </title>
+</titles>
+<contributor uname='yamaguchi'>[en]Yutaka Yamaguti[/en][ja]山口 裕[/ja](yamaguchi)</contributor>
+<keywords><keyword>A01G1</keyword>
+</keywords>
+<description>国際会議oral一般</description>
+<doi></doi>
+<last_update_date>2010-03-27T05:19:23Z</last_update_date>
+<creation_date>2010-03-19T05:00:35Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>10</publication_month>
+<publication_mday>7</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3310</url>
+<changelogs>
+<changelog date='2010-03-27T05:19:23Z'>発表者 を変更</changelog>
+<changelog date='2010-03-26T08:10:42Z'>発表者 を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3310" version="1.02">
+<conference_from_year>2009</conference_from_year>
+<conference_from_month>10</conference_from_month>
+<conference_from_mday>7</conference_from_mday>
+<conference_to_year>2009</conference_to_year>
+<conference_to_month>10</conference_to_month>
+<conference_to_mday>9</conference_to_mday>
+<presentation_type>other</presentation_type>
+<conference_title>12th Japan-Slovenia Seminar on Nonlinear Science </conference_title>
+<place>Maribor, Slovenia</place>
+<authors><author>Yutaka Yamaguti</author></authors>
+<abstract></abstract>
+<attachment_dl_limit>0</attachment_dl_limit>
+<attachment_dl_notify>0</attachment_dl_notify>
+</detail>
+</item>

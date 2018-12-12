@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4122">
+<itemtype>xnppaper</itemtype>
+<titles><title>Genetic neuroscience of mammalian learning and memory.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Animals</keyword>
+<keyword>Genetic Techniques</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurosciences</keyword>
+<keyword>methods</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T06:34:52Z</last_update_date>
+<creation_date>2010-10-08T06:34:52Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4122</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4122" version="1.02">
+<authors><author>Tonegawa S</author><author>Nakazawa K</author><author>Wilson MA</author></authors>
+<journal>Philosophical transactions of the Royal Society of London. Series B, Biological sciences</journal>
+<volume>358</volume>
+<number>1432</number>
+<page>787-95</page>
+<abstract>Our primary research interest is to understand the molecular and cellular mechanisms on neuronal circuitry underlying the acquisition, consolidation and retrieval of hippocampus-dependent memory in rodents. We study these problems by producing genetically engineered (i.e. spatially targeted and/or temporally restricted) mice and analysing these mice by multifaceted methods including molecular and cellular biology, in vitro and in vivo physiology and behavioural studies. We attempt to identify deficits at each of the multiple levels of complexity in specific brain areas or cell types and deduce those deficits that underlie specific learning or memory. We will review our recent studies on the acquisition, consolidation and recall of memories that have been conducted with mouse strains in which genetic manipulations were targeted to specific types of cells in the hippocampus or forebrain of young adult mice.</abstract>
+<pubmed_id>12740125</pubmed_id>
+</detail>
+</item>

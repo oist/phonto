@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4824">
+<itemtype>xnppaper</itemtype>
+<titles><title>Simulation of post-synaptic activities in hippocampal cells during theta rhythm.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Computers</keyword>
+<keyword>Electric Conductivity</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:55:44Z</last_update_date>
+<creation_date>2011-04-28T05:55:44Z</creation_date>
+<publication_year>1981</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4824</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4824" version="1.02">
+<authors><author>Fuentes J</author><author>Buño W</author><author>García-Austt E</author></authors>
+<journal>Brain research bulletin</journal>
+<volume>7</volume>
+<number>2</number>
+<page>157-62</page>
+<abstract>Three types of discharge patterns can be recorded from hippocampal cells during theta rhythm. The Type 1 discharges are in rhythmic bursts phase-locked with theta; the Type 2 pattern, although non-rhythmic shows a phase relationship with theta; and the Type 3 activity is non-rhythmic and unrelated with theta. Furthermore, depending on the presence or absence of theta and on other undetermined factors, units with Type 1 activity may become non-rhythmic or vice-versa. These patterns may derive from the relative amounts of rhythmic versus non-rhythmic inputs received by each cell. This possibility was tested through computer simulation of a hypothetical neuron receiving random and rhythmic inputs. The inputs produced membrane potential (MP) variations simulated as a band-limited gaussian white noise (WN) and a sinewave, respectively, which were summated by the cell. Spiked were triggered when a MP threshold was reached. The simulated neuron exhibited the three types of discharge patterns by changing the sinewave to WN ration. Ratios of 0.4 and 0.1 generated Types 1 and 2 behavior, respectively, and lower ratios Type 3. Statistical methods, based on autocorrelations and averages, were used to assess rhythmicities and relationships between spiked and EEG or the simulated MP. The simulation supports the tested hypothesis, provides a good description of the possible mechanisms involved and is predictive, indicating that most hippocampal cells, rhythmic or not might show periodic MP oscillations phase-locked with theta.</abstract>
+<pubmed_id>7272794</pubmed_id>
+</detail>
+</item>

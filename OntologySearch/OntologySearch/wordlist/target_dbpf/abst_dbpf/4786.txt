@@ -1,0 +1,12 @@
+Animals
+Brain Mapping
+Carbachol
+pharmacology
+Electroencephalography
+Hippocampus
+drug effects
+physiology
+Rats
+Rats
+Inbred Strains
+The topography of carbachol-induced EEG theta activity was studied using the hippocampal formation slice preparation. Systematic tracking with electrodes exhibited two amplitude maxima of cholinergic-induced theta, one located in the stratum oriens of the CA1 pyramidal cells and the other in a region of CA3c pyramidal neurons. In addition, mapping experiments demonstrated EEG theta in the CA3a and CA3b cell body layers, but not in the subicular and parasubicular regions, or the ventral blade of the dentate gyrus. Furthermore, transected slice (trans-slice) preparations used in the present study revealed that the CA3c region could generate carbachol-induced theta independently of CA1 and dentate gyrus generator zones and conversely, CA1 and dentate gyrus areas were capable of generating cholinergic-induced theta rhythm independently of the CA3c region. These results provide strong evidence for 3 independent, anatomically separated generators of theta: one located in the stratum oriens of CA1 neurons, a second in the stratum moleculare of the dentate gyrus and a third one in the region of Ca3c cells. In addition, the results support previous in vivo suggestions that theta rhythm can be either elicited or blocked by cholinergic agents acting on sites within the hippocampal formation.

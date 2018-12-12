@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7506">
+<itemtype>xnppaper</itemtype>
+<titles><title>The essential role of hippocampal CA1 NMDA receptor-dependent synaptic plasticity in spatial memory.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Genetic Engineering</keyword>
+<keyword>methods</keyword>
+<keyword>Genetic Vectors</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>In Situ Hybridization</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Knockout</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:50:39Z</last_update_date>
+<creation_date>2013-03-28T02:50:39Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7506</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7506" version="1.02">
+<authors><author>Tsien JZ</author><author>Huerta PT</author><author>Tonegawa S</author></authors>
+<journal>Cell</journal>
+<volume>87</volume>
+<number>7</number>
+<page>1327-38</page>
+<abstract>We have produced a mouse strain in which the deletion of the NMDAR1 gene is restricted to the CA1 pyramidal cells of the hippocampus by using a new and general method that allows CA1-restricted gene knockout. The mutant mice grow into adulthood without obvious abnormalities. Adult mice lack NMDA receptor-mediated synaptic currents and long-term potentiation in the CA1 synapses and exhibit impaired spatial memory but unimpaired nonspatial learning. Our results strongly suggest that activity-dependent modifications of CA1 synapses, mediated by NMDA receptors, play an essential role in the acquisition of spatial memories.</abstract>
+<pubmed_id>8980238</pubmed_id>
+</detail>
+</item>

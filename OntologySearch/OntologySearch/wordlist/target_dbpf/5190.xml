@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5190">
+<itemtype>xnppaper</itemtype>
+<titles><title>Effects of proteasome inhibitors on the synaptic localization of Vesl-1S/Homer-1a proteins.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Acetylcysteine</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Carrier Proteins</keyword>
+<keyword>analysis</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>Cysteine Endopeptidases</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cysteine Proteinase Inhibitors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Immunohistochemistry</keyword>
+<keyword>Leupeptins</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Multienzyme Complexes</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>chemistry</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neuropeptides</keyword>
+<keyword>analysis</keyword>
+<keyword>metabolism</keyword>
+<keyword>Proteasome Endopeptidase Complex</keyword>
+<keyword>Synapses</keyword>
+<keyword>chemistry</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synaptophysin</keyword>
+<keyword>analysis</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-20T02:22:40Z</last_update_date>
+<creation_date>2011-05-20T02:22:40Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5190</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5190" version="1.02">
+<authors><author>Ageta H</author><author>Kato A</author><author>Fukazawa Y</author><author>Inokuchi K</author><author>Sugiyama H</author></authors>
+<journal>Brain research. Molecular brain research</journal>
+<volume>97</volume>
+<number>2</number>
+<page>186-9</page>
+<abstract>The Vesl-1S/Homer-1a proteins are upregulated during seizure and long-term potentiation, but are rapidly degraded by ubiquitin-proteasome systems under normal conditions. We examined the distribution of Vesl-1S proteins in cultured hippocampal neurons. Application of proteasome inhibitors caused accumulation of Vesl-1S immunoreactivity in the neurons which showed a punctate distribution in the cortical regions of the cells, and these puncta were found to be juxtaposed with synaptophysin, a presynaptic, synapse-specific protein. These results suggest that Vesl-1S protein is synaptically targeted.</abstract>
+<pubmed_id>11750075</pubmed_id>
+</detail>
+</item>

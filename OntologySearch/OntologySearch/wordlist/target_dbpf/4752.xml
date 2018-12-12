@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4752">
+<itemtype>xnppaper</itemtype>
+<titles><title>Recovery of spatial learning deficits after decay of electrically induced synaptic enhancement in the hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Association Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Avoidance Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred F344</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T03:28:55Z</last_update_date>
+<creation_date>2011-04-28T03:28:55Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4752</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4752" version="1.02">
+<authors><author>Castro CA</author><author>Silbert LH</author><author>McNaughton BL</author><author>Barnes CA</author></authors>
+<journal>Nature</journal>
+<volume>342</volume>
+<number>6249</number>
+<page>545-8</page>
+<abstract>A widespread interest in a long-lasting form of synaptic enhancement in hippocampal circuits has arisen largely because it might reflect the activation of physiological mechanisms that underlie rapid associative learning. As its induction normally requires the &#039;Hebbian&#039; association of activity on a number of input fibres, we refer to the process as long-term enhancement (LTE) rather than long-term potentiation (LTP), to emphasize its distinction from the ubiquitous, non-associative &#039;potentiation&#039; phenomena that occur at most synapses, including those exhibiting LTE. Among other evidence that LTE might actually have a role in associative memory is the demonstration that repeated high-frequency stimulation, which saturated the inducible LTE, caused a severe deficit in spatial learning, although it had no effect on well established spatial memory. These results were consistent with a widespread view that information need only temporarily be stored in the hippocampal formation in order for long-term memories to be established in neocortical circuits. In this context, it is important to understand whether the possible underlying synaptic changes are of a permanent character, or are relatively transient. A second question is whether the actual cause of the observed learning deficit is the distruption of the synaptic weight distribution, and/or the limitation of further synaptic change, which presumably results from experimental saturation of the LTE mechanism. Alternatively, the deficit could be a consequence of some unobserved secondary effect of the high-frequency electrical stimulation. Here we demonstrate that learning capacity recovers in about the same time that it takes LTE to decay, which strongly favours the first possibility and supports the idea that LTE-like processes actually underlie associative memory.</abstract>
+<pubmed_id>2586626</pubmed_id>
+</detail>
+</item>

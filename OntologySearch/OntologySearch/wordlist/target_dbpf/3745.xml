@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3745">
+<itemtype>xnppaper</itemtype>
+<titles><title>Simulation of Human Episodic Memory by Using a Computational Model of the Hippocampus</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEI2010_02</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-07-08T05:55:50Z</last_update_date>
+<creation_date>2010-07-01T04:58:54Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3745</url>
+<changelogs>
+<changelog date='2010-07-08T05:55:50Z'>タイトル, インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3745" version="1.02">
+<authors><author>Sato N</author><author>Yamaguchi Y</author></authors>
+<journal>Advances in Artificial Intelligence</journal>
+<volume>2010</volume>
+<number></number>
+<page>392868-1-392868-10</page>
+<abstract>The episodic memory, the memory of personal events and history, is essential for understanding the mechanism of human intelligence. Neuroscience evidence has shown that the hippocampus, a part of the limbic system, plays an important role in the encoding and the retrieval of the episodic memory. This paper reviews computational models of the hippocampus and introduces our own computational model of human episodic memory based on neural synchronization. Results from computer simulations demonstrate that our model provides advantage for instantaneous memory formation and selective retrieval enabling memory search. Moreover, this model was found to have the ability to predict human memory recall by integrating human eye movement data during encoding. The combined approach between computational models and experiment is efficient for theorizing the human episodic memory.</abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

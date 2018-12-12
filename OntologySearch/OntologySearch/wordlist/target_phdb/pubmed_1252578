@@ -1,0 +1,1218 @@
+MATHEMATICAL DESCRIPTION OF A BURSTING
+PACEMAKER NEURON BY A MODIFICATION
+OF THE HODGKIN-HUXLEY EQUATIONS
+
+R. E. PLANT and M. KIM
+From the Department ofMathematics, University of California, Davis, California 95616,
+and the School ofElectrical Engineering, Cornell University, Ithaca, New York 14853
+
+ABSTRACT
+Modifications based on experimental results reported in the literature are
+made to the Hodgkin-Huxley equations to describe the electrophysiological behavior
+of the Aplysia abdominal ganglion R15 cell. The system is then further modified to
+describe the effects with the application of the drug tetrodotoxin (TTX) to the cells'
+bathing medium. Methods of the qualitative theory of differential equations are used
+to determine the conditions necessary for such a system of equations to have an
+oscillatory solution. A model satisfying these conditions is shown to predict many
+experimental observations of R15 cell behavior. Numerical solutions are obtained for
+differential equations satisfying the conditions of the model.
+These solutions are
+shown to have a form similar to that of the bursting which is characteristic of this
+cell, and to predict many results of experiments conducted on this cell. The physiologi-
+cal implications of the model are discussed.
+
+INTRODUCTION
+
+The central nervous systems of invertebrates contain many cells which display a regular
+spontaneous activity in the absence of any synaptic input.
+This activity generally
+occurs in one of two modes: regular firing (known as "beating"), or clusters of spikes
+separated by long periods of hyperpolarization (known as "bursting") (Carpenter,
+1973). The abdominal ganglion of the mollusc Aplysia contains cells which display
+both of these behaviors (Frazier et al., 1967); in particular, the cell designated R15 by
+Frazier et al. normally fires in the bursting mode.
+
+There is strong evidence (Carpenter, 1973, Junge and Stephens, 1973) that the burst-
+ing of cell R15 is due to a cyclic variation in potassium conductance. Strumwasser
+(1968) found that application of the drug tetrodotoxin (TTX) to the cells' bathing
+medium resulted in the abolition of action potentials and the emergence of an under-
+lying slow oscillation. Mathieu and Roberge (1971) reported the effects of experimental
+injection of currents through the membrane of the TTX-treated cell. However, the
+mechanism which causes the cyclic variation in potassium conductance underlying the
+slow wave has not been determined. In a previous paper (Plant and Kim, 1975) a quali-
+tative method was developed to determine a model based on experimental results in the
+
+IkOPHYSICAL JOURNAL VOLUME 16
+
+1976
+
+227
+
+literature, which would predict the experimental observations of the slow wave. In
+this paper, we use this method to modify the Hodgkin-Huxley equations (Hodgkin
+and Huxley, 1952) through the addition of terms, the existence of which may be in-
+ferred from published experimental results, to describe the behavior of an R15 cell
+bathed in a medium containing TTX. Qualitative conditions are then determined
+which are sufficient for a two-dimensional approximation of the model to have a limit
+cycle. A numerical example of the model is then given. The solutions of this example
+are shown to display bursting and to duplicate many, but not all, experimental results.
+The physiological implications of the model are then discussed, and a more compli-
+cated version of the model is presented which predicts recent results not predicted by
+the simpler model.
+
+LIST OF SYMBOLS
+
+Membrane voltage
+Membrane capacitance
+Nernst equilibrium potential of combined inwardly flowing ions
+Nernst equilibrium potential of K+ ions
+Nernst equilibrium potential of leakage ions
+"Activation" term
+"Inactivation" term
+
+i = I, K, A, P
+
+V
+C
+VI
+VK
+VL
+Xi
+YI,
+Tx,( V) "Activation" time constant
+Tyj( V) "Inactivation" time constant
+Sf( V) Steady-state "activation"
+Z,(V) Steady-state "inactivation")
+g,
+gT
+I4P
+ett
+
+t
+
+Maximum ionic conductance, i = I, K, A, P, L
+Inward conductance in the presence of T-TX
+Ionic electrogenic pump current
+External current controlled by the experimenter
+Time
+
+The subscripts I, K, A, P, T, L correspond to membrane channels.
+ley's (1952) notation, T,, corresponds to rx1, m. to S1(V), etc.
+
+The functions S,(V) and Z,(V) are defined as having the following properties (see Fig. 1).
+
+In Hodgkin and Hux-
+
+S(V)
+1-1
+
+0
+
+Z(V)
+
+v
+
+FIGURE I
+
+Typical S and Z functions as described in the text.
+
+228
+
+BIoPHYSICAL JOURNAL VOLUME 16
+
+1976
+
+(a)
+
+S(V)
+
+lim S,(V) =I
+v--*+ 0
+lim S,(V) = 0
+
+(b)
+
+dS,/dV > 0
+
+Zf(V)
+
+lim Z,(V) = 0
+
+v- +X
+
+lim Z,(V) = I
+
+dZI/dV < 0.
+
+ANALYSIS OF THE PROBLEM
+
+In our notation, the Hodgkin-Huxley equations are:
+
+- V) + gKA4(V1 - V) - V(V) - V) + aet],
+
+V = (l/C)[g,XY,Y(1
+Xl = I1/TX1(mV)][S(V) - Xli],
+Y, = II/TY1(V)J[Zi(V) - Y,],
+XK = [l/TXK(V)][SK(V) - XKJ.
+
+(I A)
+
+(I B)
+
+These equations were formulated to describe the behavior of the squid giant axon
+(Hodgkin and Huxley, 1952). In a voltage clamp experiment, when the membrane
+potential is changed from near its resting value to a more depolarized level, the potas-
+sium current in this axon is observed to asymptotically approach a new value in a
+monotonically increasing manner. When a similar experiment is performed on the
+R15 cell, the potassium current is observed to increase rapidly to a peak, and then
+decrease monotonically to its new value (Faber and Klee, 1972). A similar phenomena
+was analyzed in nudibranch central neurons by Connor and Stevens (1971), who found
+that this current sag could be explained by invoking a second potassium channel, here
+denoted by the subscript A, independent from the Hodgkin-Huxley K channel, which
+contained an inactivation as well as an activation term. Mathematically, Eq. I A of
+the Hodgkin-Huxley equations may be replaced by
+V = (l/C)[g1X3Yy(JI - V) + (gKX4 + gAX Y,)(J' - V)
+
+(2)
+and the corresponding activation and inactivation terms are added to the system,
+namely,
+
++ gL( VL - V) + Ie..t]9
+
+XA = [I/TXA(V)11SA(V)
+XA],
+YA = [1/TYA(V)J[ZA(V) - YAI]
+
+(3)
+There are three differences between Eq. 2 and the corresponding equation of Connor
+and Stevens: in the Connor-Stevens equation there are two potassium K activation
+terms, the equilibrium potential of the A system is slightly different from VK, and
+XA is raised to the fourth power. None of these differences will affect the qualitative
+behavior of Eq. 2.
+
+PLANT AND KIM Hodgkin-Huxley Modificationfor Bursting Pacemaker Neuron
+
+229
+
+Connor and Stevens also reported, but did not include in their equation, a third
+potassium "channel," having an activation time constant much longer than any of the
+others observed in the system. What may be a similar phenomenon was observed by
+Junge and Brodwick (1970) in the Aplysia R2 cell, and its existence in R15 may be
+inferred from Junge and Stephens' (1973) measurements of a very slow potassium con-
+ductance change. In addition, Aplysia cells are known to contain an electrogenic so-
+dium pump (Cooke et al., 1974) generating a hyperpolarizing current, which will be
+assumed constant. The effect of these terms will be to replace Eq. 2 by
+V - (l1/C)[g1XXY1(V - V) + (gKXK + gKX YA + g_X,)(V- V)
+
++ gL(VL - V) + IeP + lext]
+
+with the addition of the equation
+
+We shall assume that 'xp is not a function of voltage, and that
+
+Xp = (l/rx1)[Sp(V) - Xp].
+
+(4)
+
+(5)
+
+TX,(V),TyI(V),TXK(V), rXA(V),TYA(V) << rXP,'
+
+for all values of V We will assume that when the cell is bathed in a medium containing
+TTX, the variability of the I channel is eliminated (Narahashi et al., 1964; Sastre,
+1974). Recent experimental results (Smith et al., 1975) indicates that bursting cells
+possess an inward channel (possibly Na+-conducting) which does not inactivate com-
+pletely. The simplest (in terms of economy of variables) modification of the equations
+consistent with such results is the addition of a constant term, g-. (The consequences
+of a more complicated model, with voltage-dependent behavior in a second channel, is
+examined in the Discussion). We will add this term, and further assume that its value
+is not affected by the addition of TTX to the bathing medium. Our final system of
+equations for the R 15 cell in a normal medium is then
+V = (l/C)[(g1XY, + gT)(VI - V) + (gKXK + g AXXY, + gpXP)(VK _ V)
+
+(6)
+together with Eqs. 1 B, 3, and 5. In a medium containing TJX, assume g, = 0 and we
+get
+V = (l/C)[gT(I' - V) + (gKX4 + gAXA YA + grXP)(V- V)
+
++ gL(VL -V) + Iep +I4it ,
+
++ gL( VL
+
+V) + I*p + Ie,t ]
+
+(7)
+instead of Eq. 6. We propose Eqs. 1 B, 3, 5, 7 as a model for the behavior of the R15
+cell, with Eqs. I B, 3, 5, 7 as a model for its behavior in TTX. In the Appendix we
+demonstrate that for certain values of the components of the model, we may expect
+Eqs. I B, 3, 5, 7 to have an oscillatory solution, and in the Discussion we demonstrate
+that this solution may be predicted to simulate the behavior of R15 in TTX. In the
+
+230
+
+BIOPHYSICAL JOURNAL VOLUME 16
+
+1976
+
+next section we demonstrate numerically that a properly chosen example of the model
+has a bursting solution.
+
+DEVELOPMENT OF A NUMERICAL EXAMPLE
+
+We start with the basic Hodgkin-Huxley equations, modified to make depolarization
+of the membrane positive, in accord with recent notation (Fitzhugh, 1969, p. 24).
+First these will be modified to account for the observation that the conductance of the
+R15 membrane is approximately ji
+that of the squid giant axon (Carpenter, 1973).
+Thus, we divide all of the conductances by one hundred. The values of VN. and VK in
+the Hodgkin-Huxley model were set so as to make the resting potential equal to zero;
+we will use the values of VN, and VK given in the literature for the R15 cell. Thus,
+we must rescale the voltage in the equations for the time constants and steady-state
+terms in Eqs. 1 B, 3, 5, and 7 in the following way:
+
+VRIs = a Vqid + b,
+
+(8)
+
+where
+
+a = (VNa - VK)squid/(
+b = [(VN,)quid(VK)RIS - (1)R1S(VK)squid]/(AVK -
+
+- VK)RIS5,
+
+)RIS-
+
+Better results are obtained by further translations of VRI5 (i.e. other than the addition
+of the factor b); these are incorporated in the development.
+
+Finally, to account for the observation (Carpenter, 1973) that the RI5 membrane is
+relatively more permeable to sodium and less to potassium than the squid membrane
+we raise the value of the term g, from 1.2 to 4. Following Wachtel and Wilson (1973)
+we set V, at 30 mV and VK at -75 mV. We let VL equal -40 mV.
+The time
+
+TABLE I
+
+PARAMETERS AND FUNCTIONS OF THE MODEL RESULTING FROM MODIFICATION
+
+OF THE HODGKIN-HUXLEY EQUATIONS
+
+8
+
+91-4.0
+V -30
+C- I1F
+SI(V) -,,a/(a. + m)
+rxl - 12.5/(am + ft,)
+where
+
+K- 0.30
+VK --75
+
+L- 0.003
+VL --40 (mV)
+
+(mho x 10 3)
+
+Zi(V) - ah/(ah + p@h)
+Ty1 - 12.5/(ah + Ph)
+
+SK(V)- a,,/(a, + #)
+rXK - 12.5/(a,, + #)
+
+am(
+
+)
+
+ah(V)
+
+0exp([26 - 1J/lVI-1m (V)
+0.07 exp(- 51 - 1.21 V)
+j6h(V)
+
+20
+
+exp(-21 - 1.3 V]/ 10)
+
+_
+
+4exp([51 - 1.2 V]/18)
+
+exp([21_
+
+1.3 V]/10) + 1
+I
+
+a,,(V) -
+
+0.01 -21 - 1.21 VI
+
+exp ([-21 - 1.21 V]/10) - 1
+
+#,(V) - 0.125 exp([-31 - V]/80)
+
+PLANT AND KIM Hodgkin-Huxley Modification for Bursting Pacemaker Neuron
+
+231
+
+PARAMETERS ADDED TO THE MODIFIED HODGKIN-HUXLEY
+
+EQUATIONS TO SIMULATE THE R15 CELL
+
+TABLE II
+
+g4 - 0.06
+
+T- 0.008
+SA(V) -11 +exp(-0.08[V+451)1-
+TXA - 10 ms
+Sp(V) -[1 + exp(-0.7[V + 471)1-
+rxp - 8,000 ms
+
+(mho x 10-3)
+
+gp - 0.015
+ZA(V) -[1 + exp(0.27[V +50])]FI
+TYA - 235 ms
+lop- -0.22pA
+
+constants of the modified Hodgkin-Huxley parameters are obtained by comparison of
+the spike widths of the R15 and squid giant axon. The squid axon has a spike width of
+approximately 2 ms, while that of the R15 cell is approximately 25 ms, so that the
+Hodgkin-Huxley time constants are multiplied by 12.5. The parameters of our Eqs.
+1 B, 3, 5, and 6 which result from modification of the Hodgkin-Huxley equations are
+given in Table I. The value C = 1 ,F has been chosen to match that of Hodgkin and
+Huxley. The model is therefore based on a membrane patch having a capacitance of
+1 ,uF, rather than an area of I cm2. We now must choose the additional parameters of
+the system in such a way as to satisfy the conditions derived in the Appendix such that
+In keeping with the formulations of
+the reduced system, Eqs. 12, has a limit cycle.
+Hodgkin and Huxley, we will use exponential logistic functions to describe our S and
+Z functions. These are functions of the form
+
+f(V) = [1 + exp(-7y[V-0-)]-',
+
+v
+(mV)
+
+0.3
+
+0.6
+
+0.9
+
+1.2
+
+1.5 Xxp
+
+FIGURE 2
+('Cxt + I4p); these values are shown beneath each V - 0 nulicline.
+
+Phase portrait of the nullclines of system 12 for several values of the parameter
+
+232
+
+BIoPHYSICAL JOURNAL VOLUME 16
+
+1976
+
+where Jy
+is the maximum magnitude of the slope off, occurring at the inflection
+point, and 0 is the location on the V axis of the inflection point.
+It was found that
+multiplication of the Hodgkin-Huxley time constants by a factor of 12.5 brought them
+within the range of the corresponding time constants of Connor and Stevens. For this
+reason, Connor and Stevens' values for the A-channel time constants were used in our
+model. The additional parameters are listed in Table II. For purposes of comparison,
+the Connor and Stevens data for their ZA term may be represented by ZAcs =
+[1 + exp(0.04[V + 70])]-l. The reason for this difference will be considered in the
+Discussion.
+
+Fig. 2 shows the nullclines of V = 0 and I, = 0 of the two-dimensional system 12
+drawn in the (V, X) phase plane. It is evident that for values of Ip + I,[ between
+approximately -0.05 and -0.30 the nullclines wil! intersect in a region of positive slope
+of the V = 0 nullclines. Thus our analysis predicts that the system of equations 12 with
+parameters given in Tables I and II will have a stable limit cycle, and that for large
+values of rxP the system of equations I B, 3, 5, and 7 will have a periodic, oscillatory
+solution. In the next section we analyze the full model numerically.
+
+NUMERICAL ANALYSIS
+
+In this section we analyze the example of our model developed in the last section, and
+It is shown that the model of the system in
+pe;form numerical "experiments" with it.
+TTX displays an oscillatory solution. This system being itself a special case of the full
+system in which the variable terms involving inward current are abolished, we then re-
+store these terms to the system to demonstrate that the full system displays the proper-
+ties of bursting. When reference is made in this section to the equation the parameters
+will be assumed to have the values developed in the last section.
+
+Two classes of methods for the numerical solution of ordinary differential equations
+are commonly used: the single step (e.g., Runge-Kutta) method and the multistep (e.g.,
+Adams-Moulton) method (Hamming, 1973). A comparison was first made between
+these two methods to determine which was best suited for this problem. Programs were
+written to solve the equations using each method. The variable step size Adams-
+Moulton method was found to have extremely severe "step size oscillation" problems
+(Hamming, 1973, p. 410) and was rejected. The slightly increased speed of the fixed
+step size Adams-Moulton method was offset by the greater accuracy of the Runge-
+Kutta method, and the latter was selected as the method of choice for the problem.
+For a more detailed comparison of these methods as applied to the solution of the
+Hodgkin-Huxley equations see Moore and Ramon (1974).
+
+In the initial computer runs, an approximate method was used in which, when the
+system was varying slowly, the fastest variables were set to their steady-state values
+and the step size was increased accordingly (Noble, 1962). In the runs whose results
+are displayed in this paper, this approximation was abandoned and the full system was
+always used. The step size was successively halved until further reduction did not
+I121 < 0.1). The final step size
+change the solution significantly (for t < 1 s, V| -
+
+PLANT AND KIM Hodgkin-Huxley Modificationfor Bursting Pacemaker Neuron
+
+233
+
+-30T
+
+VI
+
+_50
+
+J
+
+IJ
+
+l
+
+t, seconds
+
+FIGURE 3
+
+Numerical solution of Eqs. 12 for l.t -0.
+
+used was 1 ms. The programs were written in FORTRAN, and run on Cornell Uni-
+versity's IBM 370/168 computer after being compiled in FORTRAN H. No run took
+longer than 2 min CPU time.
+
+The first numerical "experiment" is to verify that Eqs. 12 actually have a stable
+limit cycle. Fig. 3 shows the solution of Eqs. 12 for I.,t = 0 and confirms a periodic,
+oscillatory solution. The next test is to return to the full system of equations 1 B, 3, 5,
+and 7. Fig. 4 shows the solution of these equations for three values of I,. The system
+1 B, 3, 5, and 7 is seen to move more slowly than the system 12, which is due to the fact
+that three of the differential equations of the full system have been replaced by alge-
+braic equations in the reduced system. Table III gives the period and amplitude of the
+slow wave for three valves of IJ,.
+. Both the period and amplitude are seen to decrease
+with depolarizing current and increase with hyperpolarizing current, as predicted in
+the Discussion from geometrical considerations. The slow wave is thus seen to con-
+form to all the experimental observations of Mathieu and Roberge (1971). Following
+this confirmation, Eq. 6 was substituted for Eq. 7 in the model to test whether the full
+system would display bursting as seen in the RI5 cell. Fig. 5 gives the results of this
+computer run for three values of I., + I'pq For It - 0 (Fig. 5a), the system is seen to
+display bursting of a form very similar to that of the RI5 cell. The reason for the lack
+of low frequency leading spikes in the burst will be given in the Discussion. For It +
+Iep = 0 (or I., = +0.22), Fig. 5b, top trace, the system is seen to display "beat-
+ing," due to the slow wave's state point being fixed at a stable upper equilibrium point.
+
+55-
+
+-35
+V,45
+mV
+-35
+-45/
+-55
+
+-35
+
+-45-
+
+-55
+
+0
+
+[/
+
+/
+
+v
+
+10
+
+20
+
+t, seconds
+
+Ig,t =+.03
+
+= 0
+
+Iex=-.03
+
+30
+
+FIGuRE 4 Numerical solution of Eqs. I B, 3, 5, 7 for three values of I.,t, shown to the
+right of the plots.
+
+234
+
+BIOPHYSICAL JOURNAL VOLUME 16
+
+1976
+
+PERIOD AND AMPLITUDE OF OSCILLATIONS OF SYSTEM I B, 3, 5, 7,
+
+WITH PARAMETERS AS IN TABLES I, II, AND III
+
+TABLE III
+
+Ie,t
+
+I&A
++0.03
+
+0
+
+-0.03
+
+Period
+
+s
+9.3
+9.9
+10.9
+
+Amplitude
+
+mV
+12.6
+13.3
+13.5
+
+We have observed that the R15 cell occasionally spontaneously alters its output from
+a bursting to a beating mode. When the cell is in the beating mode, the injection of
+hyperpolarizing current through the recording electrode will return the cell to a burst-
+ing mode. Upon cessation of the current injection the cell returns to a beating mode.
+Fig. 6 shows the results of one such experiment. By the application of ouabain, Junge
+and Stephens (1973) have demonstrated that the beating mode of the R15 cell is asso-
+ciated with the abolishment of the electrogenic pump current. For It = -0.14, Fig.
+5 b, bottom trace, the spontaneous activity is abolished, due to the slow wave's state
+point being moved to a lower stable equilibrium point. Thus the model is seen to ade-
+quately predict the result ofexperiments.
+
+Eaton (1972) has argued that the current "sag" displayed in voltage clamping experi-
+ments is due not primarily to potassium inactivation, but to potassium accumulation.
+This argument is based on results (Eaton, 1972, Table 2) which show that for step
+changes in voltage from -40 mV to -2 mV, the ratio of peak to final conductance does
+
+40.
+
+a
+
+mv -20--
+
+mV
+
+-60
+
+40-.
+
+20
+
+b
+
+-,10 i.
+
+r~ seconds
+
+|12dir
+
+e§@@
+
+iiiiiiiillllllll
+
+-60.
+
+t, seconds
+
+-0.36
+
+Nunxrical solution of Eqs. I B, 3, S, 6. (a) Izsxt -0; solution displays bursting.
+
+(b)
+FiGuRE S
+Upper plot: I<,,[t - +0.22(Ie,m + lop - 0); solution displays beating. Lower plot: Iet - -0.14
+(1e.t + lop - 0-36); oscillation is abolished.
+
+PLANT AND KIM Hodgkin-Huxley Modificationfor Bursting Pacemaker Neuron
+
+235
+
+11
+
+FIGURE 6 Results ofexperiments with Rl5 cell. (I) Normal bursting model. (II) Recorded later,
+showing cell in beating mode. At arrow a hyperpolarizing current is injected.
+At arrow c,
+hypepolarizing current injection ceased. Arrows b, d, and e represent artifacts.
+
+not drop more than 30°%. This result is in accord with our model since at -40 mV, our
+potassium inactivation parameter has a steady state value ZA (-40) = 0.063. We would
+thus argue that current sag in step changes from -40 mV to -2 mV is indeed due to
+potassium accumulation since the potassium inactivation "channel" is almost com-
+pletely inactivated, but that in step changes from a more hyperpolarized state, potas-
+sium inactivation should also be observed (Fig. 7).
+Fig. 8 shows the steady-state
+current voltage relationship (solid line) of system 1 b, 3, 5, 6. The dashed lines in
+Fig. 8 represent typical I- Vcurves for (a) an ordinary nerve cell, and (b) for a cell dis-
+playing anomalous rectification (Faber and Klee, 1972). The negative slope steady-
+state conductance may be regarded as a more "advanced" form of anomalous rectifica-
+tion. This I-V curve is in good agreement with experimental results (Gola, 1974;
+
+236
+
+BIoPHYSICAL JOURNAL VOLUME 16
+
+1976
+
+.2
+
+0.8
+
+0.4
+
+I,A/0A
+
+.2
+
+FIGuRE 7
+
+FiGURE 8
+
+Numerical solution of potassium current under voltage clamp conditions.
+
+FIGURE 7
+is for V - -2 mV starting from initial values of Vas shown.
+Steady-state I-V relationship of the model. Dashed line a shows the typical I-V
+FIGuRE 8
+curve of a normal nerve cell, dashed line b shows that of a cell displaying anomalous rectification.
+
+Solution
+
+Smith et al., 1975; Wilson and Wachtel, 1974).
+It must be emphasized that the I-V
+curve is not a phase plane nullcline, and should not be confused with "N" or "S"
+shaped curves such as those of Fig. 2.
+
+DISCUSSION
+
+In an earlier paper (Plant and Kim, 1975), the two-dimensional model developed in the
+Appendix was used to predict qualitatively and suggest an interpretation of many
+experimentally observed behaviors of the Aplysia R15 cell in TTX. We will discuss
+these in greater detail here. First, we give a descriptive account of the events of one
+cycle of the slow wave. Starting at t = 0 (Fig. 4), the term gA SA ZA has a low value,
+and the term gT of Smith et al. causes V to rise toward V,.
+This rise is arrested
+and turned around by the activation of the term X.. The drop toward VK is then
+accelerated by the regenerative effect of the inactivation YA. The effect of this inactiva-
+tion is then abolished by the dropping in value of XA, and the cycle repeats. As ob-
+served by Mathieu and Roberge (1971), the amplitude and period of the slow wave are
+both increased by passing a hyperpolarizing current through the membrane, and de-
+creased by a depolarizing current. The geometrical interpretation of this phenomenon
+is given in Fig. 9. Referring to this figure, the structure of the equation Xp = G(V)
+(Eq. 13) makes the one parameter family of curves dependent on Ih., fold under them-
+selves as I.., becomes more negative (this can also be seen in Fig. 2). Thus the dimen-
+sion a1, which is the amplitude of the discontinuous oscillation, becomes larger as I,xt
+
+PLANT AND KIM Hodgkin-Huxley Modificationfor Bursting Pacemaker Neuron
+
+237
+
+V
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~ lb i--
+
+FIouu 9
+
+FIGURE 10
+
+FIouna 9 Qualitative behavior of the system 12 for hyperpolarizing, zero, and depolarizing ex-
+ternal current. See text for further explanation.
+Frnuazl0
+Dashed lines a, b, c, rersnt
+the effects of strong hyperpolarizing currents applied at succesively later points in a burst.
+Thin line represets full limit cycle.
+
+Explanation of the phenomenon of "resetting."
+
+becomes less positive or more negative. Furthermore, as the state point jumps from
+one stable portion of the curve (shown as the heavy lines of Fig. 9) to another, the
+amount of time that it spends on a given portion is an increasing function of that por-
+tion's distance from the slow (4,) nullcline.
+These distances, shown as b, and *,
+in Fig. 9 are seen to increase as Je,[ becomes more negative, with the c* increasing
+more than the b1.
+
+When a stronger depolarizing or hyperpolarizing current is passed through the mem-
+brane, the membrane oscillation is seen to stop, leaving the voltage at a fixed point
+near the maximum or minimum value of the potential when it was oscillating (Mathieu
+and Roberge, 1971). Referring to Fig. 2, with 4op - -0.22, it can be seen that suffi-
+ciently large positive or negative values of I4,, will move the V = 0 nullcline to a
+position where it intersects the X,P = 0 nullcline at a stable equilibrium point, and that
+the stable point is near the maximum or minimum value of the oscillation. The model
+also predicts the effect of ouabain, which is to abolish the membrane oscillation at a
+point near the maximum oscillatory value (Junge and Stevens, 1973); Junge and Ste-
+vens also showed that the application of a hyperpolarizing current would restart the
+oscillation. In the model, with 4,,,[ = 0, the effect of ouabain would be to make Iep,
+equal zero, moving the equilibrium point to a stable position (Fig. 2).
+Setting I.,,
+equal to a negative value returns the system to an oscillatory mode.
+Strumwasser
+(1973) has observed that the addition of Li+ abolishes the slow wave. This may be
+explained in terms of our model by assuming that Li+ makes the T component ineffec-
+tive.
+
+238
+
+BIOPHYSICAL JOURNAL VOLUME 16
+
+1976
+
+Finally, we examine the phenomenon of resetting (Strumwasser, 1967). When a
+hyperpolarizing current strong enough to artificially terminate a burst is passed
+through the membrane, and then the external current is returned to zero, the bursting
+process is "reset" in phase (Winfree, 1970). The phase relationship between the reset
+cycle and the original cycle depends on the position in the burst at which the hyper-
+polarizing current was applied. If the hyperpolarizing current was applied early in the
+burst, the reset burst occurs almost immediately after termination of hyperpolariza-
+tion. As the current is applied later in the burst, the length of time between termina-
+tion of the current and the onset of the reset burst increases. The mechanism of this
+phenomenon is explained graphically in Fig. 10. Dashed lines a, b, and c represent
+the effects of a strong hyperpolarizing pulse applied at successively later points in the
+burst. In each case the state point is moved off the upper portion onto the lower por-
+tion (the interburst hyperpolarization), due to an instantaneous rightward shift of the
+V - 0 nullcline (Fig. 2), but the time required to reattain the upper portion is succes-
+sively increased.
+
+It is evident that other dynamic terms could be used in place of those in Eq. 6, and
+still result in a limit cycle in system 12. For instance, consider a slow sodium inactiva-
+If X, is replaced by an inactivation term YQ with a large
+tion in place of X,.
+time constant, Eq. 6 becomes
+V = (1/C)1(gX3 Y, + gQ YQ + gT)(JI - V) +_gKX4 + gxX YX)(VK - V)
++ gL(VL - V) + lop + Ixt],
+
+(9)
+and it is easy to show that a reduced system similar to that of Eqs. 12 may have a
+limit cycle. However, unlike both Eqs. 12 and the real R15 cell, a reduced system
+based on Eq. 9 has a limit cycle which decreases in amplitude with increasing hyper-
+polarizing current, and thus Eq. 9 must be regarded as being less likely than Eq. 6.
+Lux and Eckert (1974) report the existence of a "slow" inward current. While this
+current is indeed slow, its time constant is still an order of magnitude less than ryp,
+and thus, in terms of our model, the current is "relatively fast." Their results may be
+interpreted as supporting the two variable inward channel model discussed in the sec-
+ond to last paragraph of this paper.
+
+There are three differences in the waveshapes of the burst between our model and
+the typically observed output of the Aplysia R15 cell: (1) There are no low frequency
+leading spikes in the burst; (2) the spike undershoot in the model remains constant
+rather than decreasing; (3) the spike width in the model remains constant throughout
+the burst. In the R15 cell, the spike width increases during the burst (Strumwasser,
+1967). We shall consider each ofthese differences in turn.
+
+The absence of leading spikes in the burst may be explained as follows.
+
+It was
+originally postulated that the relaxation time of the voltage process was much less
+than that of the Xp process. This results in almost discontinuous motions in the phase
+space (Fig. I1, solid line). Numerical experiments indicate that a similar time course
+could have been obtained by increasing the relaxation time of the V equation and
+
+PLANT AND KIM Hodgkin-Huxley Modificationfor Bursting Pacemaker Neuron
+
+239
+
+decreasing that of the Xp equation.
+(Fig. 11, dashed line) which would have resulted in the appearance of leading spikes.
+
+This would have given a smooth oscillation
+
+The constant post spike hyperpolarizing undershoot is probably due to the lack of
+potassium accumulation effect in the model. The effect of potassium accumulation is
+to raise this undershoot during multiple spiking, (Frankenhaeuser and Hodgkin, 1956).
+However, based on the results of Eaton (1972, Fig. 2), such an effect cannot be ascribed
+to a simple one dimensional process such as that postulated for the squid axon by
+Frankenhaeuser and Hodgkin, since the equation describing such a process, although
+nonlinear, would have a generally exponential type solution, while the time course of
+the process underlying Eaton's results is evidently sigmoidal.
+
+The membrane phenomena underlying the increase in spike width are more difficult
+to explain. Increased spike width due to the application of TEA has been associated
+with an increase in the potassium activation time constant TXK (Fitzhugh, 1969). How-
+ever, not enough is yet known to discuss this matter further.
+
+Other than variations in waveshape, there are two main discrepancies between our
+model and experimental observations. The first is that our function ZA(V) has a
+maximum slope of magnitude 0.27, while the function S (V) has a maximum slope of
+0.08 (see Table II). Experimental results (e.g., Connor and Stevens, 1971) indicate that
+the functions SA and ZA should have maximum slopes which are similar in magnitude.
+The second is that recent evidence (Smith et al., 1975) indicates that the regenerative
+mechanism responsible for membrane oscillations is at least partially active in the
+absence of internal potassium.
+
+Both of these discrepancies may be accounted for by the assumption of a second
+inward current term (Lux and Eckert, 1974). We will call this term gc and we will as-
+sume that it contains an activation term whose time constant is of the same order as
+TyA. In terms of our model, this would imply that Eq. 6 should be replaced by
+V = (l/C)[(g,X3Y, + gT + gCXC)(VJ - V) + (g9KX + g AX4Y4 + gpXp)
+
+. (VK - V) + gL(VL - V) + ICP + I.J,]
+
+( 10)
+
+together with the supplementary equation
+
+X = [1/rXc(V)llSc(V) - xc].(11)
+
+An analysis of the model I B, 3, 5, 10, 11, identical with that of the Appendix shows
+that condition I is replaced by I':
+gcSc(V1 - V) + IgA SA ZAI > + gK(S4)' + gA SA Z
+
+(V - VK)AKA
+
++ (9T + 9CSc)(V - VK) + gL(VK - VL ) + (|p + /.Xt)
+
+(V - VK)2
+
+(I)
+
+The physiological significance of replacing condition I with I' is evident. With gc = 0
+as in Eq. 6, the potassium activation is required to provide all the regenerative effect
+
+240
+
+BIOPHYSICAL JOURNAL VOLUME 16
+
+1976
+
+e 'N
+
+/,,
+
+4
+
+N
+
+'
+
+v
+
+NV-0
+
+x
+
+/I~~~~~~~~~~~~~~~
+K
+
+LXp
+
+FiGURE 11
+
+FIIGUE 12
+
+Phase plane explanation of the lack of leading spikes in the model's bursts. Heavy
+FIGURE 11
+line denotes V -0 nullcline. Solid line, phase trajectory as in model. Dashed line, as presumed
+to exist in the real cell. 0 denotes the cell threshold level.
+FiGuRE 12
+cycle.
+
+Phase plane of the system 12 showing graphically the conditions required for a limit
+
+of the slow wave, and hence must have a slope with a large magnitude. If Eq. 6 is re-
+1, then the function Sc(V) augments the regenerative effect of ZA(V).
+placed by 10,
+This would permit ZA (V) to have a slope with a smaller magnitude, and would pro-
+vide a regenerative effect in the absence of internal potassium.
+
+The values of certain parameters of our model are not available from experimental
+data at this time. It is hoped that this model will provide an impetus for experimenters
+to attempt to measure these parameters, either directly or indirectly. Our work shows
+that a model consisting of Eqs. I B, 3, 5, 6, with properly chosen parameters simulates
+the behavior of the R15 cell. A model consisting of Eqs. 1 B, 3, 5, 10, 1 1, is shown to
+predict experimental results not predicted by the simpler model. In addition to these
+specific results, there are two results of a more general nature. The first is that activa-
+tion and inactivation may exchange their respective roles of regeneration and degenera-
+tion in Hodgkin-Huxley type models, and the second is that these models may couple
+periodic voltage oscillations of different relative frequencies to produce oscillations
+with complex waveshapes.
+
+R. E. Plant would like to thank Dr. J. C. Dunn for many helpful discussions of the problem, and Doctors
+L. Payne and S. Levin for obtaining partial support for this work under National Science Foundation Grant
+GP-33031X. This work was also supported in part by NSF Grant GB-35498.
+Receivedforpublication 16 Jaury 1975 and in revisedform 7 April1975.
+
+APPENDIX
+
+In this section we review the arguments presented in an earlier paper (Plant and Kim, 1975).
+The problem is to find conditions which are sufficient for the system represented by Eqs. 1 B, 3,
+5, 7, to have a periodic, oscillatory solution. Since this is a five-dimensional nonlinear system,
+this problem cannot be solved directly. Rather, we must try to approximate system I B, 3, 5, 7
+
+PLANT AND KIM Hodgkin-Huxley Modificationfor Bursting Pacemaker Neuron
+
+241
+
+by a two-dimensional system so that we may use the phase plane techniques of Poincafe to
+analyze this approximate system.
+
+In order to form an approximate system, we note that the variables XK, XA, and ,A have
+time constants much less than that of Xp. We may therefore approximate system 1 B, 3,
+5, 7 by multiplying the left-hand sides of the differential equations for kx', XA, and YA by a
+parameter e, and letting t go to zero. We then make use of a theorem of Tikhonov (Tikhonov,
+1950; Plant and Kim, 1975) which states that if a certain function, which we call the Tikhonov
+function, is negative definite then the solution of the system 1 B, 3, 5, 7 will approach that of
+the system
+V = (l/C)gT(V - V) + [g1SK(K ) + gASA(V)ZA(V) + gPXPJ(VK - V)
+
++ gL( VL - V) + Iep + IntI 9
+
+XA = (1l/rxp)[SpV) - XPK],
+XK = SK(V), XA = SA(V), YA - ZA(V),
+(12)
+in a uniform asymptotic manner if we let e approach zero. In this system the Tikhonov func-
+tion F is given by
+
+F Z - (SK - XK) - (SA - XA)2 - (ZA - YA )
+
+which is negative definite over the whole phase space. We are therefore justified in determining
+the conditions for system 12 to have a stable limit cycle and expecting in this case that system
+1 B, 3, 5, 7 will then also have a limit cycle.
+
+Since the time constant of the V equation is much smaller than that of the Xp equation,
+we may approach this problem through the theory of discontinuous oscillations (Andronov
+et al., 1966), noting that the V term does not satisfy the condition of Tikhonov's theorem.
+To make the system autonomous (i.e. having a right-hand side independent of time), we assume
+that I,.t is a constant. According to this theory, the system 12 will have, for sufficiently large
+values of Txp, a unique stable limit cycle if its nullclines have the geometry of those shown in
+Fig. 12. In the phase plane of this system, the form of the Eqs. 12 determines everything but
+the shape of the nullcline V - 0 near the equilibrium point (Plant and Kim, 1975). Therefore,
+there are only two conditions in addition to those already given which must be satisfied.
+
+(a) The slope of the equation Xp = G(V) obtained by solving V = 0 must have a nega-
+tive slope for all V except those in a single interval VI < V < V2, in which G'(V) must be
+positive.
+
+(b) The curves Xp = S,(V) and Xp = G(V) must have a unique intersection, and it
+
+must be in the region of positive G'( V). The equation for G( V) is given by
+V = 0: Xp A G(V) = [1/g,( V - VK)J[gT(VI - V)
+
+- [gKS(V) + g SA(V)ZA(V) (V - VK)
++ gL ( VL - V) + lop + Iext]
+
+(13)
+Noting that the signs of the derivative of the S and Z functions are uniformly positive and
+negative, respectively, we see that condition (a) is satisfied if there is a unique interval VI <
+V < V2 such that
+Z 5X| > (gK /gA)(S4)' + St ZA
+
++ gT(VI
+
+VK) + L(VK - VL) + IOP + IJt
+
+(I)
+
+gA ( V - VK)2
+
+242
+
+BIOPHYSICAL JOURNAL VOLUME 16
+
+1976
+
+and condition (b) is satisfied if
+
+G(V*) = SP(V*) for a unique V* such that VI < V* < V2.
+
+(II)
+
+Thus a sufficient condition for the system 12 to have a unique, stable limit cycle is that condi-
+tions I and II be satisfied and that rzP be large enough for the discontinuous approximation
+to be valid. If this is true, then for large r1p we may expect the fuli system I B, 3, 5, 7 to
+have a periodic, oscillatory solution. We note that the existence of such an oscillatory solution
+is not guaranteed, nor is it implied that conditions I and II are necessary for such a solution.
+This is particularly true for system I B, 3, 5, 7 because the time constants of parameters XK,
+XA, and YA vary among themselves by an order of magnitude (cf. Table III). Indeed, these
+parameters have in the past been referred to as being respectively "fast" and "slow," it is
+only with respect to Xp that they are all "relatively fast."
+
+REFERENCES
+
+ANDoNOV, A. A., A. A. Vfrr, and S. E. KHAKEN. 1966. Theory of Oscillators. (Engl. Transl.). Addi-
+
+son-Wesley Publishing Co., Inc., Reading, Mass.
+
+CARPNTER, D. 0. 1973. Ionic Mochanisms and Models of Endogenous Discharge of Aplysia Neurones
+
+in Neurobiology of Invertebrates. J. Salanaki, editor. 35.
+
+CONNOR, J. A., and C. F. STEVENs.
+
+1971.
+
+Prediction of repetitive firing behavior from voltage clamp
+
+data on an isolated neurone soma. J. Physiol. 213:31.
+
+COOKE, I. M., G. LEBLANc, and L. TAuc. 1974. Sodium pump stoichiometry in Aplysia neurones from
+
+simultaneous current and tracer measurements.
+
+Nature(Lond.). 251-254.
+
+Potassium ion accumulation near a pace-making cell of Aplysia. J. Physiol. 224:421.
+EATON, D. C. 1972.
+FABER, D. S., and M. R. KL8E. 1972. Membrane characteristics of bursting pacenaker neurones in
+
+FITZHUGH, R.
+
+1969.
+
+Mathematical models of excitation and propagation in nerve.
+
+In Biological En-
+
+FRANKENHAEUSBR, B., and A. L. HODGIKN. 1956. The after effects of impulses in the giant nerve fibers
+
+FRAIER, W. T., E. R. KANDEL, J. KUPFBIMANN, R. WAZnIu, and R. E. COGGESHALL.
+
+1967. Morpho-
+logical and functional properties of identified neurons in the abdominal ganglion of Aplysia califomica.
+J. Neurophysiol. 30:1288.
+
+GOLA, M. 1974. Neurones I Ondes-Salves des moliusques. Pfluegers Arch. Eur. J. Physiol. 352:17.
+HAMMING, R. W. 1973. Numerical Methods for Scientists and Engineers.
+
+McGraw-Hill Book Com-
+
+pany, New York. 2nd edition.
+
+HODGICIN, A. L., and A. F. HuxLEY. 1952. A quantitative description of membrane current and its ap-
+
+plication to conduction and excitation in nerve. J. Physiol. 117:500.
+
+JUNGE, D., and M. BRODWICH, 1970.
+
+Post-stimulus potassium conductance increase in Aplysia giant
+
+Aplysia. Nat. NewBiol. 240:29.
+
+gineering. H.P. Schwann, editor. 1.
+
+ofLoglio. J. Physiol. 131:341
+
+1973.
+
+Cyclic variation of potassium conductance in a burst generating
+
+neurones. Physiologist. 13:237.
+JUNGE, D., and C. L. STEPHENS.
+
+neurone in Aplysia. J. Physiol. 235:155.
+
+250:574.
+
+Can. J. Physiol. Pharmacol. 49:787.
+
+Lux, H. D., and R. ECKERT. 1974. Inferred slow inward current in snail neurons.
+
+Nature (Land.).
+
+MATHEU, P. A., and F. A. ROBERGE. 1971. Characteristics of pacemaker oscillations in Aplysia neurones.
+
+MOORE, J. W., and F. RAMON, 1974. On numerical integration of the Hodgkin and Huxley equations
+
+for a membrane action potential.
+
+J. Theor. Biol. 45:249.
+
+NARAHASHI, T., J. W. MooRE, and W. R. Scorr.
+
+increa in lobster giant axons. J. Gen. Physiol. 47:965.
+
+1964. Tetrodotoxin blockage of sodium conductance
+
+NOBLE, D. 1962. A modification of the Hodgkin-Huxley equations applicable to Purkinje fiber action
+
+PLANT, R. E., and M. KIM. 1975. On the mechanism underlying bursting in the Aplysia abdominal
+
+and pacemaker potentials. J. Physiol. 160:317.
+
+ganglion R5I cell. Math. Biosci. In press.
+
+PLANT AND KIM Hodgkin-Huxley Modificationfor Bursting Pacemaker Neuron
+
+243
+
+SASTRE, A. 1974.
+
+Analysis and Simulation of Pacemaker Neurons. Ph.D. Thesis.
+
+Cornell University,
+
+Ithaca, N.Y.
+
+SMITH, T. G., J. L. BARKER, and H. GAINER. 1975. Requirements for bursting pacemaker potential activity
+
+in mollerscan neurons. Nature (Lond.). 253:450.
+
+STRUMWASSER, F.
+
+1967. Types of information stored in single neutrons.
+
+In Invertebrate Nervous Sys-
+
+tems. C.A.G. Wiersma, editor. 291.
+
+STRUMWASSER, F.
+
+neurons.
+
+STRUMWASSER, F.
+
+1968. Membrane and intracellular mechanism governing endogenous activity
+
+in
+In Physiological and Biochemical Aspects ofNervous Integration. F. D. Carlson, editor. 329.
+1973. Neural and humoral factors in temporal organization of behavior. Phvsiologist.
+
+TIKHoNov, A. N. 1950. On systems of equations containing parameters. (In Russian). Mater. Sb. 27:147.
+WACHTEL, H., and W. A. WILSON.
+
+Voltage clamp analysis of rhythmic slow generation in burst-
+
+1973.
+
+ing neurones. In Neurobiology of Invertebrates. J. Salanki, editor. 59.
+
+WiLSON, W. A., and H. Wachtel.
+
+1974. Negative resistance characteristic essential for the maintenance
+
+of slow oscillations in bursting neurons.
+
+Science( Wash. D.C.). 186:932.
+
+WINFREE, A. 1970. The temporal morphology of a biological clock. In Symposia on Math. Biol. 2nd and
+
+16:9.
+
+3rd, 109.
+
+244
+
+BIOPHYSICAL JOURNAL VOLUME 16
+
+1976
+
+

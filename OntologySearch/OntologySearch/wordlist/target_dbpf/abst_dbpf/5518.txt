@@ -1,0 +1,28 @@
+Animals
+Astrocytes
+metabolism
+Brain
+cytology
+Cell Division
+drug effects
+Cell Survival
+drug effects
+Cerebral Cortex
+cytology
+Culture Media
+Conditioned
+Glial Fibrillary Acidic Protein
+analysis
+Hippocampus
+cytology
+Hypothalamus
+cytology
+Neurites
+physiology
+ultrastructure
+Neurons
+cytology
+Rats
+Rats
+Wistar
+The present study was designed to reveal whether astroglial cells from different brain regions produce diffusible factors that differentially support the survival of neurons and the establishment of neuronal morphology. For this purpose, astrocyte conditioned media (ACM) were prepared by conditioning chemically-defined medium with type I astrocyte culture dissociated from cerebral cortex, hippocampus and hypothalamus. Hippocampal and cortical neurons were cultured in ACM or in non-conditioned medium. ACM derived from three brain regions all supported the survival of hippocampal and cortical neurons better than non-conditioned control medium. Of these, hypothalamic ACM was the most effective in supporting the survival of cortical neurons. The ACM also potentiated the elongation of the longest neurite of hippocampal and cortical neurons. However, there were no significant differences in the promoting effects on neurite elongation among ACM from three brain regions.

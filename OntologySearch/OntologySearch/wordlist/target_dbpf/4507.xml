@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4507">
+<itemtype>xnppaper</itemtype>
+<titles><title>Role of the hippocampal system in conditional motor learning: mapping antecedents to action.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Conditioning (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T04:57:13Z</last_update_date>
+<creation_date>2011-01-28T04:57:13Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4507</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4507" version="1.02">
+<authors><author>Wise SP</author><author>Murray EA</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>2</number>
+<page>101-17</page>
+<abstract>Macaque monkeys can learn arbitrary mappings between stimuli and spatially directed actions (often termed conditional motor learning), and, after the development of a strong learning set, can do so in just a few trials. Ablation studies have shown that the hippocampus plus subjacent cortex is necessary for this rapid and highly flexible type of learning. We consider evidence that the arbitrary mapping function of the hippocampal system may be more general and fundamental than currently accepted and what limitations there may be, if any, on the information that it can map. Removal of the hippocampal system yields a pattern of deficits and preserved abilities that correlates remarkably closely with that found in human global amnesics, such as patient H.M., on a variety of declarative memory tasks. Thus, the rapid acquisition of arbitrary visuomotor mappings may represent an example of declarative memory in nonhuman primates.</abstract>
+<pubmed_id>10226772</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4906">
+<itemtype>xnppaper</itemtype>
+<titles><title>Medial septal modulation of hippocampal theta cell discharges.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Crush</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rabbits</keyword>
+<keyword>Septal Nuclei</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T01:47:56Z</last_update_date>
+<creation_date>2011-05-09T01:47:56Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4906</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4906" version="1.02">
+<authors><author>Bland SK</author><author>Bland BH</author></authors>
+<journal>Brain research</journal>
+<volume>375</volume>
+<number>1</number>
+<page>102-16</page>
+<abstract>The effect of small electrolytic lesions in various areas of the septum on the behavioral correlates and firing repertoires of hippocampal theta cells, was investigated in the freely moving rabbit. Lesions localized to the medial septum were found to abolish both slow wave theta and the rhythmic firing of CA1 and dentate layer theta cells, in both the type 1 theta (movement) and type 2 theta (sensory processing) behavior conditions. Small lesions of the diagonal band, lateral septum and fimbria/fornix regions only affected rhythmicity to the extent that they also involved the medial septal region. The same medial septal lesions that abolished rhythmicity were also shown to reduce the mean discharge rate of theta cells occurring during the type 1 movement condition by approximately 50%, while the discharge rate occurring during the type 2 sensory processing condition did not change significantly. Behavioral changes were also only observed for lesions involving the medial septum. The importance of afferent input from the medial septum in the generation of hippocampal theta cell rhythmicity was discussed.</abstract>
+<pubmed_id>3719349</pubmed_id>
+</detail>
+</item>

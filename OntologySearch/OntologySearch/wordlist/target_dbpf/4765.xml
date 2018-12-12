@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4765">
+<itemtype>xnppaper</itemtype>
+<titles><title>Modulation of the afferent input to the septal neurons by cholinergic drugs.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Afferent Pathways</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Atropine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Physostigmine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rabbits</keyword>
+<keyword>Scopolamine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Septal Nuclei</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:04:27Z</last_update_date>
+<creation_date>2011-04-28T04:04:27Z</creation_date>
+<publication_year>1988</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4765</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4765" version="1.02">
+<authors><author>Brazhnik ES</author><author>Vinogradova OS</author></authors>
+<journal>Brain research</journal>
+<volume>451</volume>
+<number>1</number>
+<page>1-12</page>
+<abstract>The effects of cholinergic drugs upon the evoked activity of extracellularly recorded neurons of the medial septal nucleus-nucleus of the diagonal band (MS-DB complex) were tested in unanesthetized rabbits. Electrical stimulation of MFB resulted in entrainment of the background theta-cycles in the neurons with strong rhythmic discharge (types I and II). Phase-locking of the background theta-cycles to the stimulus occurred &#039;by the burst&#039;, or &#039;by the pause&#039; within the theta-range of frequencies (3-12 Hz). Single-spike responses, following up to 30 Hz and more, were also evoked by MFB stimulation, especially in the cells with weak theta-modulation (type III) or without it (type IV). Injection of physostigmine increased background theta-modulation of neuronal activity and simultaneously blocked or diminished responses to repetitive MFB stimulation in 82% of the MS-DB units, independent of their type of response. Driving of theta-cycles both &#039;by the burst&#039; and &#039;by the pause&#039; was ineffective or drastically reduced. Single spike responses disappeared or became unstable, though their minimal latencies did not change. Initial inhibitory responses were blocked or became significantly shorter. Antimuscarinic drugs, scopolamine and atropine, which abolished theta-modulation in many MS-DB units, restored responses and sometimes enhanced them. Repetitive stimulation of the MFB in this condition was effective up to the high frequencies, well beyond the theta-range. Thus, the majority of the MS-DB units did not respond to the afferent stimuli during prominent theta-activity evoked by physostigmine. The role of the septal cholinergic system in gating of afferent input during the theta-state and its importance for learning and memory is suggested.</abstract>
+<pubmed_id>3251575</pubmed_id>
+</detail>
+</item>

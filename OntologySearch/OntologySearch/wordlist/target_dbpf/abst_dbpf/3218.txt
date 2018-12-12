@@ -1,0 +1,26 @@
+DEIA
+Animals
+Biological Clocks
+physiology
+Evoked Potentials
+physiology
+Hippocampus
+physiology
+Interneurons
+physiology
+Mice
+Neocortex
+physiology
+Nerve Net
+physiology
+Neural Inhibition
+physiology
+Neural Pathways
+physiology
+Neurons
+physiology
+Pyramidal Cells
+physiology
+Rats
+Theta Rhythm
+Although it has been tacitly assumed that the hippocampus exerts an influence on neocortical networks, the mechanisms of this process are not well understood. We examined whether and how hippocampal theta oscillations affect neocortical assembly patterns by recording populations of single cells and transient gamma oscillations in multiple cortical regions, including the somatosensory area and prefrontal cortex in behaving rats and mice. Laminar analysis of neocortical gamma bursts revealed multiple gamma oscillators of varying frequency and location, which were spatially confined and synchronized local groups of neurons. A significant fraction of putative pyramidal cells and interneurons as well as localized gamma oscillations in all recorded neocortical areas were phase biased by the hippocampal theta rhythm. We hypothesize that temporal coordination of neocortical gamma oscillators by hippocampal theta is a mechanism by which information contained in spatially widespread neocortical assemblies can be synchronously transferred to the associative networks of the hippocampus.

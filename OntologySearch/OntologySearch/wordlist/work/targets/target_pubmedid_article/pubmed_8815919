@@ -1,0 +1,1342 @@
+The Journal of Neuroscience, October 15, 1996, 16(20):6402– 6413
+
+Gamma Oscillation by Synaptic Inhibition in a Hippocampal
+Interneuronal Network Model
+
+Xiao-Jing Wang1 and Gyo¨ rgy Buzsa´ ki2
+1Physics Department and Center for Complex Systems, Brandeis University, Waltham, Massachusetts 02254, and
+2Center for Molecular and Behavioral Neuroscience, Rutgers University, Newark, New Jersey 07102
+
+Fast neuronal oscillations (gamma, 20 – 80 Hz) have been
+observed in the neocortex and hippocampus during behav-
+ioral arousal. Using computer simulations, we investigated
+the hypothesis that such rhythmic activity can emerge in a
+random network of interconnected GABAergic fast-spiking
+interneurons. Speciﬁc conditions for the population synchro-
+nization, on properties of single cells and the circuit, were
+identiﬁed. These include the following: (1) that the amplitude
+of spike afterhyperpolarization be above the GABAA synaptic
+reversal potential; (2) that the ratio between the synaptic
+decay time constant and the oscillation period be sufﬁciently
+large; (3) that the effects of heterogeneities be modest be-
+cause of a steep frequency– current relationship of
+fast-
+spiking neurons. Furthermore, using a population coherence
+measure, based on coincident ﬁrings of neural pairs, it is
+demonstrated that large-scale network synchronization re-
+
+quires a critical (minimal) average number of synaptic con-
+tacts per cell, which is not sensitive to the network size.
+
+By changing the GABAA synaptic maximal conductance,
+synaptic decay time constant, or the mean external excitatory
+drive to the network, the neuronal ﬁring frequencies were grad-
+ually and monotonically varied. By contrast, the network syn-
+chronization was found to be high only within a frequency band
+coinciding with the gamma (20 – 80 Hz) range. We conclude that
+the GABAA synaptic transmission provides a suitable mecha-
+nism for synchronized gamma oscillations in a sparsely con-
+nected network of fast-spiking interneurons. In turn, the inter-
+neuronal network can presumably maintain subthreshold
+oscillations in principal cell populations and serve to synchro-
+nize discharges of spatially distributed neurons.
+Key words: gamma rhythm; hippocampus;
+
+interneurons;
+
+GABAA; synchronization; computer model
+
+Although fast gamma cortical oscillation has been the subject of
+active investigation in recent years (cf. Singer and Gray, 1995), its
+underlying neuronal mechanisms remain elusive. Two major is-
+sues are the cellular origin of rhythmicity (Llina´s et al., 1991;
+McCormick et al., 1993; Wang, 1993) and the mechanism(s) of
+large-scale population synchronicity (Freeman, 1975; Bush and
+Douglas 1991; Engel et al., 1991; Hansel and Sompolinsky, 1996).
+Traditionally, recurrent excitation between principal (pyramidal)
+neurons is viewed as a major source of rhythmogenesis as well as
+neuronal synchronization. However, in model studies in which
+quantitative data about the synaptic time course were incorpo-
+rated, it was found that glutamatergic synaptic excitation of the
+AMPA type usually desynchronizes rather than synchronizes re-
+petitive spike ﬁrings of mutually coupled neurons (Hansel et al.,
+1995; van Vreeswijk et al., 1995). Therefore, recurrent connec-
+tions between pyramidal cells alone do not seem to account for
+the network coherence during cortical gamma oscillations. It was
+suggested that pyramidal cell populations may be entrained by
+synchronous rhythmic inhibition originating from fast-spiking in-
+terneurons (Buzsa´ki et al., 1983; Lytton and Sejnowski, 1991).
+During ﬁeld gamma oscillations, intracellular recordings from
+
+Received May 5, 1996; revised June 25, 1996; accepted July 31, 1996.
+
+This work was supported by the National Institute of Mental Health (MH53717-
+01), Ofﬁce of Naval Research (N00014-95-1-0319), and the Sloan Foundation to
+X.J.W.; and HFSP and the National Institute of Neurological Disease and Stroke
+(NS34994) to G.B. and X.J.W. Simulations were partly performed at the Pittsburgh
+Supercomputing Center. We thank D. Golomb, D. Hansel, J.-C. Lacaille, and C.
+McBain for discussions, A. Sik for preparing Figure 2, and L. Abbott, J. Lisman, and
+R. Traub for carefully reading this manuscript.
+
+Correspondence should be addressed to Xiao-Jing Wang, Center for Complex
+
+Systems, Brandeis University, Waltham, MA 02254.
+Copyright 䉷 1996 Society for Neuroscience 0270-6474/96/166402-12$05.00/0
+
+pyramidal cells revealed both EPSPs and IPSPs phase-locked to
+the ﬁeld oscillation frequencies (Jagadeesh et al., 1992; Chen and
+Fetz, 1993; Solte´sz and Descheˆnes, 1993).
+
+In this paper, we address the question whether, in the hip-
+pocampus, an interneuronal network can generate a coherent
+oscillatory output to the pyramidal neurons, thereby providing a
+substrate for the synaptic organization of coherent gamma popu-
+lation oscillations. In the behaving rat, physiologically identiﬁed
+interneurons were shown to ﬁre spikes in the gamma frequency
+range and phase-locked to the local ﬁeld waves (Bragin et al.,
+1995). Intracellular studies and immunochemical staining demon-
+strated that these interneurons are interconnected via GABAergic
+synapses (Lacaille et al., 1987; Sik et al., 1995; Gulya´s et al., 1996).
+Theoretical studies suggest that these GABAergic interconnec-
+tions may synchronize an interneuronal network when appropri-
+ate conditions on the time course of synaptic transmission are
+satisﬁed (Wang and Rinzel, 1992, 1993; van Vreeswijk et al.,
+1995). Moreover, in a recent in vitro experiment (Whittington et
+al., 1995; Traub et al., 1996), the excitatory glutamate AMPA and
+NMDA synaptic transmissions were blocked in the hippocampal
+slice. When metabotropic glutamate receptors were activated,
+transient oscillatory IPSPs in the 40 Hz frequency range were
+observed in pyramidal cells. These IPSPs were assumed to origi-
+nate from the ﬁring activities of fast-spiking interneurons synchro-
+nized by their interconnections. Computer simulations (Whitting-
+ton et al., 1995; Traub et al., 1996) lend further support to this
+hypothesis.
+
+To assess whether an interneuronal network can subserve an
+adequate basis for the gamma frequency population rhythm in the
+hippocampus, it is necessary to identify its speciﬁc requirements
+
+Wang and Buzsa´ ki • Gamma Rhythm in an Interneuronal Network
+
+J. Neurosci., October 15, 1996, 16(20):6402– 6413 6403
+
+on the cellular properties and network connectivities, as well as to
+determine whether these conditions are satisﬁed by particular
+interneuronal subtypes. The present study is devoted to investi-
+gate such requirements using computer simulations. We found
+that synaptic transmission via GABAA receptors in a sparsely
+connected network of model interneurons can provide a mecha-
+nism for gamma frequency oscillations, and we compared the
+modeling results with the anatomical and electrophysiological
+data from hippocampal fast spiking interneurons.
+
+MATERIALS AND METHODS
+Model neuron. Each interneuron is described by a single compartment
+and obeys the current balance equation:
+
+Cm
+
+dV
+dt
+
+⫽ ⫺INa ⫺ IK ⫺ IL ⫺ Isyn ⫹ Iapp ,
+
+(2.1)
+
+where Cm ⫽ 1 ␮F/cm2 and Iapp is the injected current (in ␮A/cm2). The
+leak current IL ⫽ gL(V ⫺ EL) has a conductance gL ⫽ 0.1 mS/cm2, so that
+the passive time constant ␶0 ⫽ Cm/gL ⫽ 10 msec; EL ⫽ ⫺65 mV.
+
+The spike-generating Na⫹ and K⫹ voltage-dependent ion currents (INa
+and IK) are of the Hodgkin–Huxley type (Hodgkin and Huxley, 1952).
+The transient sodium current INa ⫽ gNam⬁
+3 h(V ⫺ ENa), where the acti-
+vation variable m is assumed fast and substituted by its steady-state
+function m⬁ ⫽ ␣m/(␣m ⫹ ␤m); ␣m(V ) ⫽ ⫺0.1(V ⫹ 35)/(exp(⫺0.1(V ⫹
+35)) ⫺ 1), ␤m(V ) ⫽ 4exp(⫺(V ⫹ 60)/18). The inactivation variable h
+obeys a ﬁrst-order kinetics:
+
+dh
+dt
+
+⫽ ␾共␣h共1 ⫺ h兲 ⫺ ␤hh兲
+
+(2.2)
+
+where ␣h(V ) ⫽ 0.07 exp(⫺(V ⫹ 58)/20) and ␤h(V ) ⫽ 1/(exp(⫺0.1(V ⫹
+28)) ⫹ 1). gNa ⫽ 35 mS/cm2; ENa ⫽ 55 mV, ␾ ⫽ 5.
+
+The delayed rectiﬁer IK ⫽ gKn4 (V ⫺ EK), where the activation
+
+variable n obeys the following equation:
+
+dn
+dt
+
+⫽ ␾共␣n共1 ⫺ n兲 ⫺ ␤nn兲
+
+(2.3)
+
+with ␣n(V ) ⫽ ⫺0.01(V ⫹ 34)/(exp(⫺0.1(V ⫹ 34)) ⫺ 1) and ␤n(V ) ⫽ 0.125
+exp(⫺(V ⫹ 44)/80); gK ⫽ 9 mS/cm2, and EK ⫽ ⫺90 mV.
+
+These kinetics and maximal conductances are modiﬁed from Hodgkin
+and Huxley (1952), so that our neuron model displays two salient prop-
+erties of hippocampal and neocortical fast-spiking interneurons. First, the
+action potential in these cells is followed by a brief afterhyperpolarization
+(AHP) of about ⫺15 mV measured from the spike threshold of approx-
+imately ⫺55 mV (McCormick et al., 1985; Lacaille and Williams, 1990;
+Morin et al., 1995; Zhang and McBain, 1995). Thus, during the spike
+repolarization the membrane potential reaches a minimum of about ⫺70
+mV, rather than being close to the reversal potential of the K⫹ current,
+EK ⫽ ⫺90 mV. This is accomplished in the model by relatively small
+maximal conductance gK and fast gating process of IK so that it deacti-
+vates quickly during spike repolarization.
+
+Second, these interneurons have the ability to ﬁre repetitive spikes at
+high frequencies (with the frequency– current slope up to 200 – 400 Hz/
+nA) (McCormick et al., 1985; Lacaille and Williams, 1990; Zhang and
+McBain, 1995). With fast kinetics of the inactivation (h) of INa, the
+activation (n) of IK, and the relatively high threshold of IK, the model
+interneuron displays a large range of repetitive spiking frequencies in
+response to a constant injected current Iapp (Fig. 1 A, left). It has a small
+current threshold (the rheobase Iapp ⯝ 0.2 ␮A/cm2), and the ﬁring rate is
+as high as 400 Hz for Iapp ⯝ 20 mA/cm2. Similar to cortical interneurons
+(McCormick et al., 1985; Lacaille and Williams, 1990), the whole fre-
+quency– current curve is not linear, and the frequency– current slope is
+larger at smaller Iapp values (lower frequencies) (Fig. 1 A, right). As a
+consequence, the neural population is more sensitive to input heteroge-
+neities at smaller Iapp values. This is demonstrated in Figure 1 B, where a
+Gaussian distribution of Iapp is applied to a population of uncoupled
+neurons (N ⫽ 100), with a mean I␮ and standard deviation I␴. Given a
+ﬁxed and small I␴ ⫽ 0.03, the mean drive I␮ is varied systematically, and
+the resulting dispersion in the neuronal ﬁring frequencies, f␴/f␮ (standard
+deviation of the ﬁring rate/mean ﬁring rate) is shown as function of I␮
+
+Figure 1. Model of single neuron and synapse. A, Left, Firing frequency
+versus applied current intensity ( f ⫺ Iapp curve) of the model neuron. The
+ﬁring rate can be as high as 400 Hz. Right, The derivative df/dIapp shows
+that the f/Iapp slope is much larger at smaller Iapp (lower f ) values. B,
+Dispersion in ﬁring rates caused by heterogeneity in input current. A
+Gaussian distribution for input currents, with standard deviation I␴ ⫽ 0.03,
+is applied to a population of uncoupled neurons. The dispersion in ﬁring
+rates was computed as the ratio between the standard deviation and the
+mean of ﬁring rates ( f␴/f␮). This ratio is much larger for smaller mean
+current amplitude I␮ (top). Plotting f␴/f␮ versus f␮ shows that the disper-
+sion in ﬁring rates is dramatically increased for f␮ ⬍ 20 Hz (bottom). C,
+A brief current pulse applied to a presynaptic cell generates a single
+action potential, which elicits an inhibitory postsynaptic current (Isyn) and
+membrane potential change in a postsynaptic cell ( gsyn ⫽ 0.1 mS/cm2).
+
+(Fig. 1 B, top). When plotted versus f␮, it is evident that with the same
+amount of dispersion in applied current (I␴) the dispersion in ﬁring rates
+f␴/f␮ is dramatically increased for f␮ ⬍ 20 Hz (Fig. 1 B, bottom). This
+feature has important implications for the frequency-dependent network
+behaviors (see Results).
+
+Model synapse. The synaptic current Isyn ⫽ gsyns(V ⫺ Esyn), where gsyn
+is the maximal synaptic conductance and Esyn is the reversal potential.
+Typically, we set gsyn ⫽ 0.1 mS/cm2 and Esyn ⫽ ⫺75 mV (Buhl et al.,
+1995). The gating variable s represents the fraction of open synaptic ion
+channels. We assume that s obeys a ﬁrst-order kinetics (Perkel et al.,
+1981; Wang and Rinzel 1993):
+
+ds
+dt
+
+⫽ ␣F共Vpre兲共1 ⫺ s兲 ⫺ ␤s,
+
+(2.4)
+
+where the normalized concentration of the postsynaptic transmitter-
+receptor complex, F(Vpre), is assumed to be an instantaneous and sigmoid
+function of the presynaptic membrane potential, F(Vpre) ⫽ 1/(1 ⫹
+exp(⫺(Vpre ⫺ ␪syn)/2)), where ␪syn (set to 0 mV) is high enough so that the
+transmitter release occurs only when the presynaptic cell emits a spike.
+
+6404 J. Neurosci., October 15, 1996, 16(20):6402– 6413
+
+Wang and Buzsa´ ki • Gamma Rhythm in an Interneuronal Network
+
+2.
+
+In
+
+vivo
+
+double
+
+staining
+
+of
+Figure
+parvalbumin-positive interneuron in the hip-
+pocampus. A, The axonal arbor of an intracel-
+lularly labeled basket cell, largely conﬁned in
+the pyramidal layer, is overlayed with immuno-
+chemically stained other parvalbumin-positive
+cells. The two-dimensional distribution of the
+interneuron-interneuron contacts is shown in B
+and then collapsed to a one-dimensional distri-
+bution (along the septo-temporal axis) in C.
+Overall, 99 boutons
+in contact with 64
+parvalbumin-positive cells were counted (adapt-
+ed from Sik et al., 1995).
+
+The channel opening rate ␣⫽ 12 msec⫺1 assures a fast rise of the Isyn, and
+the channel closing rate ␤is the inverse of the decay time constant of the
+Isyn; typically, we set ␤ ⫽ 0.1 msec⫺1 (␶syn ⫽ 10 msec). An example of Isyn
+and IPSP elicited by a single presynaptic spike is illustrated in Figure 1C.
+Random network connectivity. The network model consists of N cells.
+The coupling between neurons is randomly assigned, with a ﬁxed average
+number of synaptic inputs per neuron, Msyn. The probability that a pair of
+neurons are connected in either direction is p ⫽ Msyn/N. For comparison,
+we also used fully coupled (all-to-all) connectivity (Msyn ⫽ N ). In the
+model, the maximal synaptic conductance gsyn is divided by Msyn, so that
+when the number of synapses Msyn is varied, the total synaptic drive per
+cell in average remains the same.
+
+Msyn is the convergence/divergence factor of the neural coupling in the
+network. Experimentally, an estimate of this important quantity has been
+obtained for an interneuronal network of the CA1 hippocampus (Sik et
+al., 1995). A parvalbumin-positive (PV⫹) basket interneuron was stained
+intracellularly by biocytin in vivo. Its axonal arborization was largely
+conﬁned in the striatum pyramidale (Fig. 2 A). Other PV⫹ interneurons
+were stained immunochemically, and the contacts made by the biocytin-
+ﬁlled cell with other PV⫹ cells were counted (Sik et al., 1995). It was
+concluded that a single PV⫹ basket cell makes synaptic contacts with at
+least 60 other PV⫹ cells (a majority of which are basket cells) within a
+spatial region of the volume up to 0.1– 0.2 mm3 (Sik et al., 1995) (Fig.
+2 B). This tissue volume contains as many as 500 –1000 other PV⫹ cells,
+because the PV⫹ neurons in the pyramidal layer have a cell density of
+5.4 ⫻ 103 cells/mm3 (Aika et al., 1994). Hence, for the CA1 network of
+basket cells, the experimentally estimated Msyn is ⬃60. The probability of
+postsynaptic contacts, however, decreases with the distance between the
+cell pair (Fig. 2C).
+
+Heterogeneous input. In the model, single neurons are not identical.
+Each receives a depolarizing current Iapp of different intensity and, hence,
+has a different ﬁring rate. The bias current Iapp has a Gaussian distribu-
+tion with a mean I␮ and a standard deviation I␴. The parameter I␮
+determines the mean excitation by the external drive; I␴ measures the
+degree of the heterogeneity in the cell population.
+
+A measure of network coherence. To quantify the synchronization of
+neuronal ﬁrings in the network, we introduce a coherence measure based
+on the normalized cross-correlations of neuronal pairs in the network
+(Gerstein and Kiang, 1960; Welsh et al., 1995). The coherence between
+two neurons i and j is measured by their cross-correlation of spike trains
+at zero time lag within a time bin of ⌬t ⫽ ␶. More speciﬁcally, suppose
+that a long time interval T is divided into small bins of ␶and that two spike
+
+trains are given by X(l) ⫽ 0 or 1, Y(l) ⫽ 0 or 1, l ⫽ 1, 2, . . . , K (T/K ⫽ ␶).
+Thus, we deﬁne a coherence measure for the pair as:
+
+冘
+冑冘
+
+l⫽1
+
+K
+
+K
+
+␬ij共␶兲 ⫽
+
+X共l兲Y共l兲
+
+X共l兲冘
+
+K
+
+.
+
+Y共l兲
+
+(2.5)
+
+l⫽1
+
+l⫽1
+
+We have also used a slightly different deﬁnition where the mean ﬁring
+rates are substracted from X(l ) and Y(l ); the substraction did not signif-
+icantly change our results reported below.
+
+The population coherence measure ␬(␶) is deﬁned by the average of
+␬ij(␶) over many pairs of neurons in the network. This coherence measure
+presents a number of useful properties. First, it is naturally based on
+cross-correlations and, although we use it here to describe synchroniza-
+tion of oscillations,
+it can be applied to quantify the synchrony of
+nonoscillatory neuronal ﬁrings. It is calculated from spike trains, requires
+relatively small sample sizes, and can be used for data analysis of exper-
+imental extracellular multiunit recordings. Second, ␬(␶) is between 0 and
+1 for all ␶. For very small ␶, ␬(␶) is close to 1 (resp. 0) in the case of
+maximal synchrony (resp. asynchrony). Third, the degree of synchrony of
+the network dynamics can be quantiﬁed by how ␬(␶) behaves as function
+of ␶. In the case of full synchrony, ␬(␶) is 1 for all nonzero ␶ values;
+whereas in the case of total asynchrony, ␬(␶) is a linearly increasing
+function of ␶ (see below). Finally, the distribution of ␬ij(␶) over neural
+pairs provides detailed information about the interneuronal interactions
+and synchronization.
+
+In Results, the population coherence measure ␬(␶) is calculated by aver-
+
+aging over all neural pairs in the network of size N. Typically N ⫽ 100.
+
+Numerical methods. The network model was integrated using the
+fourth-order Runge–Kutta method, with a time step of 0.05 msec. For
+random network connectivity and heterogeneity, each set of simulations
+was run with three to ﬁve random realizations of the network connections
+and applied current distribution. As initial conditions, the membrane
+potential is uniformly distributed between ⫺70 and ⫺50 mV and the
+other channel-gating variables are set at their corresponding steady-state
+values. Coherence was calculated after 1000 msec transients. Simulations
+were performed on a SUN Sparc Station or a Y-MP Cray Supercomputer.
+
+Wang and Buzsa´ ki • Gamma Rhythm in an Interneuronal Network
+
+J. Neurosci., October 15, 1996, 16(20):6402– 6413 6405
+
+Figure 3. Synchronization by GABAA synapses. In these simulations,
+neurons are identical and coupled in an all-to-all fashion. Left panels,
+Rastergrams; right panels, membrane potentials of two cells (dotted line,
+⫺52 mV). The synchrony is realized when the spike AHP of the cells does
+not fall below the synaptic reversal potential Esyn ⫽ ⫺75 mV (dot-dashed
+line on the right panels). From A to C, ␾ ⫽ 5, 3.33, and 2 respectively; Iapp
+⫽ 1, 1.2, and 1.4 ␮A/cm2 accordingly to preserve a similar oscillation
+frequency. With smaller ␾ values, IK is slower and the AHP amplitude
+(VAHP) is more negative. When VAHP ⬍ Esyn, the full synchrony is lost (C).
+
+RESULTS
+Spike afterhyperpolarization, inhibition,
+and synchronization
+We start by considering a simple case in which all individual cells
+are identical (i.e., without heterogeneity) and are coupled in an
+all-to-all fashion (i.e., without randomness in connectivity). As
+shown in Figure 3A (left), cells starting at random and asynchro-
+nous initial conditions quickly become synchronized and within
+5–6 oscillatory cycles their spiking times are perfectly in-phase.
+The spike AHP amplitude is 15 mV measured from the spike
+threshold (⫺52 mV), so the maximal AHP, VAHP ⫽ ⫺67 mV,
+stays above the reversal potential of the synaptic current (Esyn ⫽
+⫺75 mV). The inequality VAHP ⬎ Esyn means that during the time
+course of an action potential and its repolarization, the synaptic
+action is always hyperpolarizing. This relationship between intrin-
+sic and synaptic properties was found to be an important condi-
+tion under which the global network synchronization can be
+achieved (Fig. 3B,C). In the example (Fig. 3B), the speed of the
+INa inactivation and the IK activation is slowed down (␾ ⫽ 3.33
+instead of 5), so that repolarization becomes larger (VAHP ⯝ ⫺73
+mV, close to Esyn). In this case, the network synchronization takes
+much longer time to realize. With ␾ ⫽ 2 (Fig. 3C), VAHP is ⫺78
+mV, which is below Esyn, and global network synchrony is lost.
+Instead, the network is dynamically broken into two clusters:
+within each cluster the cells ﬁre spikes simultaneously, and the
+two clusters alternate in time. Such clustering dynamics is a
+
+Figure 4. Dependence of the network synchrony on the synaptic reversal
+potential Esyn. A, The coherence index ␬ (␶ ⫽ 1 msec) is plotted versus
+Esyn. As Esyn is varied, VAHP remains essentially the same (vertical dashed
+line). There is a sudden transition from synchrony to asynchrony as Esyn is
+increased above VAHP. B, An example of asynchronous behavior when
+cells are coupled by excitatory synapses (Esyn ⫽ 0 mV, ␶syn ⫽ 2 msec; Iapp
+⫽ 0.1). The oscillation frequency is f ⫽ 43 Hz. C, The network coherence
+function ␬(␶) increases linearly with ␶, from 0 (at ␶ ⫽ 0) to 1 (at ␶ ⫽ T ),
+showing that the relative ﬁring time of neural pairs is almost uniformly
+distributed between 0 and the oscillation period T ⫽ 1/f.
+
+commonly observed behavior of interneuronal networks (Golomb
+et al., 1994). Hence, synaptic inhibition of the GABAA-type
+provides a mechanism by which a macroscopic coherence of the
+network (global synchrony or clustering) can be realized.
+
+To investigate further the dependence of the network synchro-
+nization on the inhibitory nature of synaptic interactions, the
+intrinsic cell properties were kept unchanged, while the reversal
+potential Esyn was gradually varied (Fig. 4). In Figure 4A the
+global coherence index ␬ (compare Eq. 2.5), plotted versus Esyn,
+remains at 1 (perfect synchrony) for Esyn ⬍ VAHP. It displays an
+abrupt drop for Esyn ⬎ VAHP and is close to 0 for Esyn ⬎ ⫺60 mV.
+The oscillation frequency dramatically increases as the synaptic
+effect becomes depolarizing (not shown). Unlike the two cluster
+dynamics of Figure 3C with the coherence index ␬ ⫽ 0.5, in the
+regime characterized by ␬ ⬃ 0 the relative timing of neuronal
+ﬁrings is essentially arbitrary. This happens in our network model
+when the synaptic interactions are excitatory. In the example given
+in Figure 4, B and C, Esyn ⫽ 0 mV and ␶syn ⫽ 2 msec, so that the
+synaptic current mimic that of the glutamate AMPA type. Be-
+cause recurrent excitation considerably enhances the neural dis-
+charge rates, weaker external drive (I␮ ⫽ 0.1 instead of 1) was
+used so as to obtain a similar (⬃40 Hz) ﬁring frequency with
+excitatory rather than inhibitory interactions. In this case, al-
+though all neurons have very similar rhythmic frequencies, their
+relative ﬁring phases are almost uniformly distributed between
+zero and the common oscillation period T (Fig. 4B). Hence, the
+probability of coincident ﬁring within a time bin ␶ between two
+cells increases proportionally with ␶, and the network coherence
+function ␬(␶) grows linearly from zero at ␶ ⫽ 0 to its maximal
+value of 1 at ␶ ⫽ T msec (Fig. 4C).
+
+6406 J. Neurosci., October 15, 1996, 16(20):6402– 6413
+
+Wang and Buzsa´ ki • Gamma Rhythm in an Interneuronal Network
+
+Figure 5. Effects of the network heterogeneity. A, The coherence index ␬
+(␶ ⫽ 1 msec) versus I␴ (the standard deviation of the applied current
+distribution). The network becomes asynchronous for I␴ ⱖ 0.05. Examples
+indicated by arrows (I␴ ⫽ 0.03 and 0.1) are illustrated in C–E and F–H,
+respectively. B, The mean ( f␮) and standard deviation ( f␴) of the ﬁring
+rates averaged over individual neurons are plotted versus I␴. Note a
+decrease of f␮ and a linear increase of f␴ for I␴ ⱖ 0.05. The sensitivity to
+I␴ is related to the steep frequency–current relationship of single cells.
+C–E, A partially synchronous state. C, The rastergram. D, The coherence
+function ␬(␶) increases with ␶ rapidly, displays a plateau, and reaches the
+value of 1 near ␶ ⫽ 1/f␮. E, The derivative of ␬(␶) shows a sharp peak at
+␶ ⫽ 0. F–H, An asynchronous state, as seen by the rastergram ( F ). ␬(␶) is
+linear with ␶and reaches 1 near ␶ ⫽ 1/f␮ (G), and its derivative is ﬂat (H).
+
+Heterogeneity and asynchrony
+It is intuitively expected that network synchrony cannot be glo-
+bally maintained if individual neurons display very different in-
+trinsic oscillation frequencies. We studied the effects of heteroge-
+neity, using a Gaussian distribution of
+the applied current
+intensity Iapp with standard deviation I␴. As illustrated in Figure
+5A, the network coherence deteriorates quite rapidly with increas-
+ing I␴. This sensitivity is related to the large frequency–current
+slope of fast-spiking interneurons (Fig. 1A,B), so that in a popu-
+lation of uncoupled cells a small current dispersion may imply a
+wide distribution of ﬁring frequencies. When neurons are synap-
+tically coupled, the distribution of ﬁring frequencies is a product
+of their interactions. As shown in Figure 5B, for small dispersion
+in Iapp (I␴ ⬍ 0.02), minor differences in intrinsic ﬁring rates are
+overcome by the coupling, and the standard deviation of ﬁring
+rates f␴ ⫽ 0. As the network coherence erodes with larger I␴
+values, f␴ grows linearly with I␴ (Fig. 5B). This linear frequency–
+current relationship in standard deviation is a network property of
+coupled cells. By contrast, the mean ﬁring rate f␮ changes only
+slightly, illustrating the relative independence of the neural ﬁring
+
+Figure 6. Synaptic ﬁeld in a large asynchronous network. To demonstrate
+further the asynchronous nature of the network behavior of Figure 5F–H,
+the temporal variance ␴2 (N ) of the population synaptic ﬁeld s(t) was
+calculated for different network sizes (N ⫽ 100, 200, . . . , 1000). As
+expected for asynchronoized network states (see text), ␴2 (N ) decreases as
+⬃1/N (A). Three examples of s(t) are shown in B, and their power spectra
+in C (arrow indicating increasing N). Thus, the ﬂuctuations of s(t) vanish
+for large network sizes.
+
+rates and synchronicity. The moderate decrease in f␮, however, is
+related to the decreased degree of network coherence, because
+asynchronized cell ﬁrings result in an averaged tonic hyperpolar-
+ization that slows down the ﬁring rate (see below).
+
+Figure 5, C and D, illustrates a partially coherent state. In the
+rastergram (Fig. 5C), neurons are labeled in the increasing order
+of their Iapp values. The cells with the smallest injected currents
+are not in synchrony with those ﬁring at higher rates. The popu-
+lation coherence measure ␬(␶) increases sharply with ␶ and
+reaches the value of 1 at ␶ ⯝ 1/f␮ (Fig. 5D). Considered as a
+function of ␶, ␬(␶) may be viewed as a distribution function of the
+neural pairs whose relative ﬁring phase is ␶, between 0 and the
+mean oscillation period (estimated as T␮ ⫽ 1/f␮). The derivative
+d␬/d␶, therefore, is the corresponding distribution density. Net-
+work synchronization is manifested by a peak at zero phase of
+d␬/d␶(Fig. 5E), reﬂecting the sharp increase of ␬near ␶⫽ 0. Note
+that a second peak is expected near ␶ ⫽ T␮ (Fig. 5E) because the
+spiking event is periodic.
+
+The network dynamics with I␴ ⫽ 0.1 is illustrated in Fig. 5,F– H.
+By contrast to Figure 5C–E, here the rastergram is quite irregular
+(Fig. 5F). The linear form of the function ␬(␶) (Fig. 5G) and its
+ﬂat derivative (Fig. 5H) are consistent with a totally desynchro-
+nized behavior, where the relative ﬁring phase of neural pairs is
+uniformly distributed between 0 and T␮.
+
+Without the aid of the coherence function ␬(␶), it would be
+difﬁcult to conclude from the rastergram (F) that the network is
+completely disordered. Indeed, if one looks at the summated
+synaptic drive, s(t) ⫽ (1/N) 兺i⫽1
+N si(t), oscillatory ﬂuctuations are
+signiﬁcant in this “population ﬁeld” (Fig. 6B, top). This is because,
+
+Wang and Buzsa´ ki • Gamma Rhythm in an Interneuronal Network
+
+J. Neurosci., October 15, 1996, 16(20):6402– 6413 6407
+
+if every cell oscillates, the summation of a relatively small number
+(e.g., N ⫽ 100) of oscillatory signals would still show some oscil-
+lations, even if cells are completely asynchronous. To assess the
+macroscopic coherence of the network, one can compute the
+temporal variance ␴2 of s(t) for different network sizes and assess
+whether the ﬂuctuations in s(t) persist in large networks. The
+network is asynchronous if ␴2 of s(t) decreases inversely with the
+network size, ␴2(N) ⬃ 1/N (Hansel and Sompolinsky, 1996). This
+is shown to be the case in Figure 6A. As N increases, s(t) becomes
+ﬂatter (Fig. 6B) and the peak in the power spectrum gets smaller
+(Fig. 6C). This example shows that global network synchrony
+cannot be assessed correctly by oscillatory ﬂuctuations in the
+population ﬁeld by the presence of a peak in the power spectrum
+if the network size is not sufﬁciently large.
+Sparse network and minimal connectedness
+Random connections among interneurons can be introduced into
+the model by assuming that a cell makes synaptic contact to a
+second cell with a probability p. Then, if N is the total number of
+cells, there are Msyn ⫽ pN presynaptic cells that converge to a
+postsynaptic cell, on average. As shown above, the network can be
+synchronized with all-to-all connectivity (Msyn ⫽ N, p ⫽ 1).
+Because synchronization is impossible without synaptic connec-
+tions (Msyn ⫽ 0), we examined the dependence of the population
+synchrony on Msyn. To evaluate the effect of sparse connectivity
+separately, Msyn was gradually varied for a network of 100 iden-
+tical neurons (i.e., without heterogeneity). As shown in Figure 7A,
+the population coherence (as measured by ␬) is essentially zero
+for Msyn below a critical value ⯝40; above which it starts to
+become signiﬁcant, increases rapidly with Msyn, and reaches the
+limit (Msyn ⫽ N). Thus, the
+maximum of 1 in the all-to-all
+dependence of the network synchrony on Msyn is highly nonlinear.
+There is a minimal value of Msyn and neural interconnections have
+to be sufﬁciently dense to generate global population synchroni-
+zation. This critical Msyn value is not simply a required minimum
+for the total synaptic drive per cell, because it does not change
+noticeably when the maximal synaptic conductance is reduced by
+a factor of 2 (Fig. 7A). Also, in the presence of heterogeneity (e.g.,
+with I␴ ⫽ 0.03), the critical Msyn value remains the same, but the
+quantitative degree of network coherence for Msyn larger than the
+critical value was reduced (data not shown). On the other hand,
+this minimal connectedness depends on the probability rules in
+the network design and on the network dynamical state under
+consideration. For instance, it is much smaller if the number of
+synapses per cell is exactly the same number Msyn, but the actual
+set of presynaptic cells is chosen randomly (Fig. 7A). Or, when the
+oscillation frequency is increased from ⬃35 Hz to ⬃100 Hz with
+I␮ ⫽ 3 instead of 1, the network is synchronized only with Msyn ⬎
+75 (Fig. 7A).
+
+We next examined whether the required minimal connected-
+ness increases in proportion with the network size. Simulations
+were performed with N ⫽ 100, 200, 500, and 1000, and it was
+found that the onset of network coherence corresponded to a
+small value of Msyn, close to Msyn ⫽ 60 for large network sizes
+(Fig. 7B). Therefore, the minimal number of synapses per cell that
+is required for the network synchronization is not a fraction of the
+total number N of cells. It either remains ﬁnite for large N or it
+could conceivably depend weakly on N.
+Partial synchronization in a sparse and
+heterogeneous network
+As stated above, the minimal connectedness for a network coher-
+ence remains the same when a moderate amount of heterogeneity
+
+Figure 7. Minimal random connectivity is required for large-scale net-
+work synchronization. A, The coherence index ␬ (␶ ⫽ 1 msec) is plotted
+versus the mean number of synaptic inputs per cell Msyn (N ⫽ 100). Filled
+circle, I␮ ⫽ 1 and gsyn ⫽ 0.1 (reference parameter set). In this case, the
+network synchrony is realized when Msyn is larger than a critical value Mcrit
+⯝ 40. This curve remains essentially the same when the maximal synaptic
+conductance is reduced by 1/2 (open circle). By comparison, if the number
+of inputs per cell is identical to all cells, and equals Msyn, the synchrony
+occurs with very small values of Msyn (ⱖ5; ﬁlled square). With I␮ ⫽ 3 (solid
+triangle), the mean oscillation frequency is increased from 35 to 100 Hz;
+the critical value of Msyn for the network coherence is much larger (⯝70).
+B, The coherence index ␬ (␶ ⫽ 1 msec) versus Msyn for different numbers
+of neurons N ⫽ 100, 200, 500, 1000 (with reference parameter set). The
+onset of network coherence occurs at a critical value of Msyn, which does
+not grow as a fraction of the network size.
+
+is added. Figure 8 illustrates a partially synchronized network,
+with both sparse connections (Msyn ⫽ 60) and a dispersion in the
+external drive (I␴ ⫽ 0.03). In that case, a major fraction of
+neurons (group I) displays similar ﬁring rates (close to 39 Hz),
+although their intrinsic ﬁring rates are different. The remaining
+neurons (group II) have lower ﬁring rates (below 34 Hz) that are
+scattered in the diagram. The membrane potential trace of a
+representive cell is shown in Figure 8B, together with its synaptic
+drive ssyn (sum of the synaptic gating variables to that cell) and the
+population synaptic ﬁeld, both displaying fairly regular oscillations
+at the same frequency. Cross-correlations of membrane potentials
+between the representative cell (a in Fig. 8C) and three other cells
+
+6408 J. Neurosci., October 15, 1996, 16(20):6402– 6413
+
+Wang and Buzsa´ ki • Gamma Rhythm in an Interneuronal Network
+
+(b, c, and d in Fig. 8C) show that some pairs (ac and ad) are
+synchronized with near-zero phase shift, but a signiﬁcant phase
+difference may be present for other pairs (e.g., ab; Fig. 8D).
+
+The normalized cross-correlation of spike trains at zero phase
+lag, deﬁned as our coherence index ␬ij for the pair (i, j), was
+calculated for all neural pairs in the network and plotted against
+the difference in the ﬁring rates of the pair 兩 fi ⫺ fj兩 (Fig. 8E).
+Those pairs with both ﬁring rates above 34 Hz (group I) are
+plotted in the top panel, and the other pairs are plotted in the
+bottom panel. Comparison of the two panels reveals that high
+zero-phase synchronization (large ␬ij) occurs only in pairs of
+group I neurons, and with similar ﬁring frequencies (small 兩 fi ⫺
+fj兩). For those pairs in the bottom panel, ␬ij is small even for pairs
+with almost identical ﬁring frequencies. Therefore, the network is
+subdivided into two groups of neurons, and only group I neurons
+are synchronized with near zero-phase shift. It is not immediately
+clear why all neurons in the asynchronous group have lower, but
+not higher, ﬁring frequencies than the synchronous group.
+
+On the other hand, the neural pairs can be classiﬁed into three
+categories, according to whether they are monosynaptically un-
+coupled, coupled in one direction, or coupled in both directions.
+Histograms of ␬ij, however, do not show conspicious difference
+between such categories (Fig. 8F), indicating that the degree of
+synchronization between a pair is not primarily determined by
+their direct monosynaptic contacts. We conclude, therefore, that
+interneuronal coherence emerges as a network phenomenon. The
+global character of network synchrony is quantiﬁed by ␬, the
+average of ␬ij over all pairs. The population coherence function
+␬(␶) increases rapidly with the time bin ␶and reaches the value of
+1 for ␶⯝ T␮, where again T␮ is the average oscillation period (Fig.
+8G). Its derivative shows a clear peak at ␶ ⫽ 0 (Fig. 8H).
+
+The partially synchronous dynamics cannot be maintained if the
+interneuronal connections are too sparse (Fig. 7). Indeed, when
+Msyn is decreased from 60 to 30, with all of the other parameters
+remaining the same, the network becomes asynchronous (Fig. 9).
+In this case, neurons are not locked to a same ﬁring frequency
+(Fig. 9A), the rastergram looks irregular (Fig. 9C), the population
+synaptic ﬁeld is almost constant in time (although the synaptic
+drive to a single cell still shows residual oscillatory ﬂuctuations)
+(Fig. 9B), and the cross-correlations between cell pairs are ﬂat
+(Fig. 9D). Corroboratively, the zero-phase synchronization is very
+low for all neural pairs (Fig. 9E,F), in contrast with Figure 8, E
+and F. The global coherence function ␬(␶) is linear in ␶(Fig. 9G),
+and its derivative is ﬂat (Fig. 9H), as expected for a fully asyn-
+chronous neural network.
+
+Dependence on the synaptic time constant
+It was shown that the 40 Hz oscillations in hippocampal interneu-
+rons are sensitive to the decay time constant ␶syn of the GABAA
+synapse (Whittington et al., 1995; Traub et al., 1996). We have
+conﬁrmed their result that an increased ␶syn induces a decrease in
+the oscillation frequency (Fig. 10A, left). This frequency reduction
+occurs largely because the slowly decaying synaptic inhibition
+accumulates in time, resulting in a tonic level of hyperpolarization
+that counteracts the external depolarization. This is shown in
+Figure 10B, in which the synaptic drive to a representative cell is
+displayed for three different values of ␶syn. The time average is
+indicated by a horizontal line, which is higher (0.5, 0.64, 0.7) for
+larger ␶syn values (10, 20, and 40 msec, respectively).
+
+We also considered how the network synchronization depends on
+␶syn. Within a ﬁxed time window, a pair of cells has a higher chance
+to ﬁre simultaneously if their ﬁring frequencies are higher. Hence, to
+
+Figure 8. A partially synchronous state with sparse connectivity (Msyn ⫽
+60) and heterogeneity (I␴ ⫽ 0.03). A, The ﬁring rates of neurons in the
+network ( ﬁlled circle) are lower than those when the neurons are uncou-
+pled (open circle). The bias current varies from 0.91 to 1.09, the ﬁring rate
+from 55 to 63 Hz when gsyn ⫽ 0. With gsyn ⫽ 0.1, a large fraction of neurons
+have ﬁring rates close to 39 Hz, the remaining cells have lower ﬁring rates.
+B, Time traces of the population synaptic ﬁeld s(t), the membrane poten-
+tial V(t) of one cell and its summated synaptic drive ssyn(t). C, The
+rastergram, with the cell shown in B indicated by a. D, The cross-
+correlations between this cell with three other cells b, c, d indicated in C.
+E, The coherence index ␬ij (␶ ⫽ 1 msec) for each of all the pairs in the
+network, plotted versus the difference in the ﬁring rates 兩 fi ⫺ fj兩 of the pair.
+Top, Pairs with oscillation frequencies above 34 Hz; bottom, remaining
+pairs. Only pairs in the top panel show a high degree of zero-phase
+synchrony. F, The histograms of ␬ij in three groups of pairs: those not
+monosynaptically coupled (top), those coupled in one direction (middle),
+and those coupled in both directions (bottom). The population averaged
+␬(␶) function shows a steep rise for small ␶ values (G), and its derivative
+has a peak at ␶ ⫽ 0 (H).
+
+Wang and Buzsa´ ki • Gamma Rhythm in an Interneuronal Network
+
+J. Neurosci., October 15, 1996, 16(20):6402– 6413 6409
+
+Figure 10. Synaptic time constant can modulate the oscillation frequency
+and population synchrony. A, Slowing down the synaptic current decay
+(with increasing ␶syn) decreases the mean oscillation frequency f␮ (left),
+whereas the network coherence shows a peaked region centered at ␶syn ⯝
+7 msec (solid circle, right). Here, to take into account the change in ﬁring
+rates, the coherence index ␬ was calculated with ␶ ⫽ 0.1/f␮. For large ␶syn
+values, the network coherence decreases because of the heterogeneities in
+the connectivity and external drive, as can be seen by isolating each of the
+two effects (dotted and dashed lines, respectively). In the absence of both,
+the coherence is maximal (␬ ⫽ 1) for ␶syn ⬎ 4 msec (dash-dotted line). B,
+Decreased ﬁring frequency is caused partly by the fact that with larger ␶syn,
+the summated synaptic drive has a greater time average (horizontal lines)
+and shows less oscillatory ﬂuctuations, thus providing an enhanced level of
+tonic hyperpolarization, which counteracts the depolarizing drive of the
+cells. C, Rastergram of an asynchronous network with ␶syn ⫽ 2 msec (top).
+The globally coupled network of identical cells shows a two-cluster dy-
+namics; thus, it is only partially synchronous (bottom).
+
+values. Note that the heterogeneity in either the applied current
+or the connectivity produces stronger effects for larger ␶syn values,
+because in the lower frequency range the network is more sensi-
+tive to input heterogeneities (see Fig. 1B).
+
+On the other hand, the decrease in the network synchrony for
+small ␶syn is presumably attributable to a synaptic (dynamical)
+effect: inhibition should not be too fast compared to the oscilla-
+tion period, so as to synchronize the network (Wang and Rinzel
+1992, 1993; van Vreeswijk et al., 1995; Ermentrout, 1996). This is
+illustrated in Figure 10C with ␶syn ⫽ 2 msec, where the rastergram
+is quite irregular (top). This is probably related to the fact that
+with global connectivity (Msyn ⫽ 100) and without heterogeneity
+(I␴ ⫽ 0), the network displays two-clusters (bottom, Fig. 10D),
+similar to Figure 3C. In that case, the global network synchrony
+(one-cluster) was also observed with different initial conditions,
+but it was very sensitive to the network heterogeneity (data not
+shown).
+
+It follows from the left and right panels of Figure 10A that a
+peaked region for ␬versus ␶syn implies that the network coherence
+
+Figure 9. Desynchronization with reduced network connectivity. Same as
+Figure 8, except that Msyn ⫽ 30 instead of 60. The network dynamics is
+asynchronous, as seen by the scattered distribution of ﬁring rates (A), the
+disordered rastergram (C), the small ﬂuctuations of the synaptic ﬁeld (B),
+and ﬂat cross-correlations (D). This asynchronous state is further charac-
+terized by small values of ␬ij (E, F), the linear function of the network
+averaged ␬(␶) (G), and its ﬂat derivative (H).
+
+make a meaningful comparison, the coherence measure ␬should be
+calculated with different time bin ␶when ␶syn is varied. In Figure 10A
+(right), we chose to use ␶ equal to one-tenth the mean oscillation
+period. It was found that the coherence index displays a peaked
+region around ␶syn ⫽ 7 msec; the network synchronization is lost for
+both smaller and larger ␶syn values.
+
+The decrease in the coherence index ␬ with larger ␶syn is a
+consequence of network heterogeneities. Indeed, as shown in
+Figure 10A, if the dispersion in applied current is absent (I␴ ⫽ 0),
+or if the connectivity is not random (Msyn ⫽ 100), ␬ is larger but
+still decreases with ␶syn. But if both I␴ ⫽ 0 and Msyn ⫽ 100, ␬
+(hence, the network synchrony) is now maximal for all larger ␶syn
+
+6410 J. Neurosci., October 15, 1996, 16(20):6402– 6413
+
+Wang and Buzsa´ ki • Gamma Rhythm in an Interneuronal Network
+
+Figure 11. Dependence of the network coherence on the synaptic time
+constant ␶syn. A, The mean oscillation frequency as function of ␶syn is
+shown with three levels of the network drive I␮ (left). The coherence index
+displays a peak which is shifted to smaller ␶syn value with larger I␮ (right).
+B, The ratio between the synaptic time constant ␶syn and the oscillation
+period T␮ increases with ␶syn. C, The coherence index versus the ratio
+␶syn/T␮. For all three I␮ values, the coherence index peaks at the same
+␶syn/T␮ (⯝0.2) and decreases at smaller ratio values (Msyn ⫽ 60, I␴ ⫽ 0.03;
+the coherence index ␬ was calculated with ␶ ⫽ 0.1/f␮).
+
+is high only within a limited range of the mean oscillation fre-
+quencies. This interesting observation was conﬁrmed with differ-
+ent levels of the external drive I␮ (Fig. 11A). When I␮ is larger,
+the oscillation frequencies are higher (left). Moreover, the maxi-
+mum of ␬is located at a smaller value of ␶syn (right). The network
+synchrony does not depend simply on ␶syn, but on the ratio
+between ␶syn and the mean oscillation period T␮, which is an
+increasing function of ␶syn (Fig. 11B). When the coherence index
+is plotted versus ␶syn/T␮, it is small for small ␶syn/T␮ ratios and
+peaks at ␶syn/T␮ ⯝ 0.2 for all three external excitation levels (Iapp
+⫽ 1, 2, 3; Fig. 11C).
+Optimal synchronization in the gamma
+frequency range
+That network synchronization is highest in a limited frequency
+range appears to be a robust ﬁnding in our simulations. For
+instance, the phenomenon was also observed when the mean
+input current (I␮) was varied continuously (Fig. 12A). With stron-
+ger external drive, the mean oscillation frequency increases mono-
+tonically (Fig. 12A, top), but the network coherence displays high
+values only for an intermediate I␮ range (Fig. 12A, bottom). In an
+all-to-all network of identical neurons, the network coherence was
+found to remain maximal (␬⫽ 1) for the entire I␮ range (data not
+shown). Furthermore, at small I␮, heterogeneity in an all-to-all
+network reduces the synchrony dramatically (with I␮ ⫽ 0.4, ␬⫽ 1,
+and 0.1 for I␴ ⫽ 0 and 0.03, respectively). Thus, the decrease of
+the network synchrony at smaller I␮ values is attributable to the
+high network sensitivity to heterogeneities at lower frequencies
+(see Fig. 1B) in addition to a decreased ␶syn/T␮ ratio (dynamical
+
+Figure 12. High network coherence in the gamma oscillation frequency
+range. A, With increasing mean drive I␮, the average oscillation frequency
+monotonically increases (top), but the coherence index ␬ is large only for
+intermediate I␮ values (bottom). B, Similarly, as the maximal synaptic
+conductance gsyn is increased, with stronger inhibitory interactions the
+average oscillation frequency f␮ monotonically decreases (top). An in-
+crease in the external drive shifts the curve upwards. On the other hand,
+the coherence index ␬ displays a pronounced peak for I␮ ⫽ 1, which
+ﬂattens for larger I␮ values (bottom). C, The coherence index is plotted as
+function of f␮ for all four curves from (A, B). The macroscopic network
+coherence is observed only in the gamma range of the oscillation frequen-
+cies (20–80 Hz) (Msyn ⫽ 60, I␴ ⫽ 0.03; the coherence index ␬ was
+calculated with ␶ ⫽ 0.1/f␮).
+
+effect). On the other hand, at larger I␮ (higher frequencies), the
+network coherence requires tighter connectedness and our ﬁxed
+Msyn ⫽ 60 may no longer be sufﬁcient (see Fig. 7A).
+
+We also varied the coupling strength gsyn systematically, with
+three different I␮ values. With stronger synaptic inhibition, the
+oscillation frequency decreases monotonically (Fig. 12B, top). The
+network coherence, on the other hand, shows a peaked region at
+intermediate gsyn values (Fig. 12B, bottom). Again, without input
+heterogeneity and coupling sparseness, the network coherence is
+maximal (␬ ⫽ 1) for the entire gsyn range (data not shown).
+Therefore, similar to the case of I␮ variation, the decrease of ␬ is
+presumably caused by a reduced stability of the network syn-
+chrony against input heterogeneity at low frequencies (large gsyn)
+
+Wang and Buzsa´ ki • Gamma Rhythm in an Interneuronal Network
+
+J. Neurosci., October 15, 1996, 16(20):6402– 6413 6411
+
+and by a lack of sufﬁciently tight connectivity (combined with a
+weakened coupling strength) at high frequencies (small gsyn).
+
+When the network coherence index is plotted against the mean
+frequency, for all four curves in Figure 12, A and B, it is clear that
+the network synchronization is realized only in a relatively narrow
+range of oscillation frequencies (30–80 Hz; Fig. 12C). As shown
+by the three curves from Figure 12B, this frequency range of high
+network synchrony can be shifted by the level of external drive.
+With I␮ ⫽ 2 or 3 (instead of 1), the network is more excited and
+the coherence peak is located at higher frequencies, as expected,
+and the peak is somewhat enlarged. However, the amplitude of
+the peak is dramatically reduced (compare I␮ ⫽ 1 and 3). This can
+be explained, again, by the fact that at higher frequencies, the
+network synchronization requires denser connections (see Fig.
+7A), whereas here Msyn ⫽ 60 is kept constant. Figure 12C dem-
+onstrates that, although the optimal frequency range for synchro-
+nization is not precisely deﬁned and does depend quantitatively
+on network parameters and external drive, the high network
+coherence is robustly limited to a frequency band that coincides
+roughly with the gamma (20–80 Hz) frequency range.
+
+DISCUSSION
+We examined the emergence of synchronous gamma oscillations
+in an interneuronal network model. The following conditions
+were identiﬁed for the synchronizing mechanism by GABAA
+synaptic inhibition. (1) The spike afterhyperpolarization of single
+neurons should be above the synaptic reversal potential, so that
+the effect of synaptic inputs is always hyperpolarizing. (2) The
+synaptic current decay should be relatively slow, such that the
+ratio between the decay time constant and the oscillation period is
+not small. (3) Heterogeneities should be sufﬁciently small. (4) The
+random network connectedness should be higher than a well
+deﬁned minimum, which is not sensitive to the network size.
+When the four conditions are fulﬁlled, a large-scale network
+coherence was observed preferentially in the gamma (20–80 Hz)
+frequency range, although uncoupled neurons are potentially ca-
+pable of discharging in a wide range of frequencies (0–400 Hz).
+Synchronization by synaptic inhibition
+Rhythmogenesis in many biological central pattern generators is
+based on circuits of coupled inhibitory neurons exhibiting postin-
+hibitory rebound excitation (Selverston and Moulins, 1985). In
+such systems, however, rhythmic patterns are usually slower than
+the kinetic time constants of the inhibitory synapses, and recipro-
+cally connected neurons typically ﬁre out-of-phase (Perkel and
+Mulloney, 1974). More recently, it was recognized that neural
+oscillations can be synchronized by mutual inhibition at zero
+phase shift, provided that the synaptic kinetics is sufﬁciently slow
+as compared to the oscillation period (Wang and Rinzel, 1992,
+1993). Intuitively, slow synaptic decay offers the possibility for
+neurons to “escape” synchronously as the synaptic inhibition
+wanes below a certain threshold, thus ﬁre at the same time. A
+general conclusion from this scenario is that synapses with given
+temporal characteristics may be suitable to synchronizing large
+neural populations in a particular oscillatory frequency range; a
+major determining factor is the ratio between the synaptic time
+constant and the oscillation period. Other computational works
+have since shown that the mechanism of synchronization by inhi-
+bition may be quite general (van Vreeswijk et al., 1995; Whitting-
+ton et al., 1995; Ermentrout, 1996; Traub et al., 1996). Synchro-
+nization by GABAA synapses is facilitated if the synaptic reversal
+potential is more negative than the maximum spike afterhyper-
+
+polarization. This, however,
+is necessary only for the perfect
+global, but not for partial, synchronization. Although fast-spiking
+interneurons typically display larger AHP amplitudes than pyra-
+midal cells, their measured maximal AHP is usually not below
+⫺70 mV (McCormick et al., 1985; Lacaille and Williams, 1990;
+Morin et al., 1995; Sik et al., 1995), hence, above the reversal
+potential of ⫺75 mV for GABAA synapses (Buhl et al., 1995). On
+the other hand, the time constant ␶syn of the synaptic current
+determines the range of the oscillation frequencies where the
+synchronization can be realized by mutual inhibition. For gamma
+oscillations (⬃40 Hz), the ␶syn should be larger than 3 msec,
+compatible with the estimated ␶syn (Otis and Mody, 1992). There-
+fore, these requirements seem to be fulﬁlled by cortical fast-
+spiking interneurons, especially the basket cells, interconnected
+by GABAA synapses. On the other hand, the synchronization
+mechanism does not require interneurons to be endowed with a
+postinhibitory rebound property.
+
+The network synchronization was quantiﬁed by a coherence
+index that was deﬁned in terms of the zero-time cross-correlations
+of spike trains. This proved to be a useful and reliable measure of
+population synchrony. By contrast, population-averaged quanti-
+ties like the “synaptic ﬁeld” may display signiﬁcant oscillatory
+ﬂuctuations even when most neurons are in fact asynchronous, if
+the size of the probed neural population is small. In that case,
+however, the ﬁeld ﬂuctuations decrease with the network size and
+become almost ﬂat for large networks. This observation suggests
+caution in the interpretation of oscillatory local ﬁeld potential in
+experimental measurements and in small-network simulations.
+
+We studied the dependence of the network coherence on the
+heterogeneity in interneuronal properties. Typically, with moder-
+ate heterogeneities, coupled oscillators break down into a syn-
+chronous and an asynchronous subpopulations. In our model,
+asynchronous neurons in such a partially synchronous state all
+have lower ﬁring frequencies than the synchronous ones. The
+observed high sensitivity on the degree of heterogeneity can be
+attributed partly to the large frequency–current slope of these
+fast-spiking cells, so that a minor dispersion in the external drives
+may result in a wide distribution of single cells’ oscillation fre-
+quencies. It would be of interest to investigate whether the net-
+work synchronization may become more robust in the presence of
+heterogeneities and noise, if the neural connections are structured
+in space (Somers and Kopell, 1995), or when an excitatory pyra-
+midal population is included that reciprocally interacts with the
+interneuronal population (Kopell and LeMasson, 1994; Wang et
+al., 1995). Moreover, information processing in the cortex may
+involve a small subset of pyramidal neurons at a time. These
+pyramidal cells, by activating their common interneuron targets,
+may exert localized effects on the synchronous oscillations in a
+selective neural subpopulation of the cortical network.
+
+Random connection and critical sparseness
+One of our main objectives was to assess how dense synaptic
+interconnections must be for the maintenance of the synchronized
+network oscillations. The degree of network coherence depended
+on the average number of synaptic contacts per cell, Msyn, in a
+highly nonlinear fashion. A minimal Msyn value was identiﬁed,
+below which the network becomes totally asynchronous. For Msyn
+above its critical value, the degree of network coherence becomes
+nonzero and increases with Msyn. We demonstrated that this
+critical connectedness does not increase in proportion with the
+number of neurons, hence, is not sensitive to the network size.
+However, further analysis is needed to determine whether there is
+
+6412 J. Neurosci., October 15, 1996, 16(20):6402– 6413
+
+Wang and Buzsa´ ki • Gamma Rhythm in an Interneuronal Network
+
+a very weak (e.g., logarithmic) dependence. Such a dependence is
+expected, for instance, if the required connectedness is related to
+the minimal number of links for a random network to be topo-
+logically connected at large scales (Erdo¨s and Re´nyi, 1960). The
+existence of a small critical connectedness has also been found in
+other neural network models (Barkai et al., 1990; Wang et al.,
+1995), suggesting that this may be a general feature of sparsely
+connected random neural networks.
+
+Note that the actual value of this minimal connectedness de-
+pends on the details of single-cell and network properties, as well
+as on the cooperative dynamics under consideration. Indeed, we
+found that synchronization of oscillations at higher frequencies
+requires tighter interneuronal connections (Fig. 7A). Further
+analyses are needed to provide a theoretical understanding of this
+simulation result. For rhythmicities in the gamma frequency
+range, our model network require 60 or more synaptic contacts
+from an interneuron to other interneurons. This number is com-
+parable with the estimated divergence/convergence factor of CA1
+basket cells in the hippocampus (Sik et al., 1995).
+
+We also demonstrated that synchronization of oscillatory neu-
+rons usually cannot be attributed simply to the presence of mono-
+synaptic couplings between the respective cells. The macroscopic
+network synchronization is thus a truly emergent phenomenon of
+large neuronal aggregates.
+
+Frequency selection for synchronization
+An important ﬁnding of the present study is that interneuronal
+networks can be synchronized by GABAA synapses preferentially
+within the gamma frequency range. This happens despite the wide
+range (0–400 Hz) of possible single-neuron ﬁring rates. For
+instance, when the synaptic time constant (␶syn), external drive
+(I␮), or coupling strength (gsyn) is varied gradually, the neuronal
+ﬁring frequencies change monotonically and cover a wide fre-
+quency range. In all three cases, however, the degree of network
+synchronization shows a relatively narrow peak within the gamma
+frequency range (20–80 Hz).
+
+This phenomenon of frequency selection may be qualitatively
+understood in terms of the following three neural and network
+properties: (1) the high network sensitivity to heterogeneities at low
+frequencies, attributable to the steep frequency/current curve of
+single neurons; (2) the minimal connectedness for the synchrony,
+which is larger at higher oscillation frequencies; (3) the “dynamical
+effect,” namely, network synchronization is impossible or fragile
+against heterogeneities if the ratio between ␶syn and the oscillation
+period T (␶syn/T) becomes too small. Hence, given ␶syn ⯝ 10 msec, if
+the oscillation frequency is lower than 20 Hz (T ⬎ 50 msec), the
+network coherence may be abolished by a high sensitivity to input
+heterogeneity (see Fig. 1B) and by a reduced ␶syn/T ratio. On the
+other hand, if the frequency is higher than 80 Hz, the synchrony may
+no longer be possible because the interneuronal connectivity is not
+sufﬁciently tight (see Fig. 7A). Consequently, the network can be
+highly synchronized only at 20–80 Hz.
+
+We would like to emphasize that this frequency band for
+coherent oscillations cannot be determined in an absolute preci-
+sion, and its quantitative limits do depend on the details of the
+model. However, our results robustly demonstrated that the syn-
+aptic time constant delimits a frequency band of coherent network
+oscillations, and the GABAA-type synapse (with ␶syn ⯝ 10 msec)
+seems especially suitable for the gamma rhythmicity. The limited
+frequency range of population gamma oscillations has been ob-
+served in the behaving rat (Bragin et al., 1995) and in hippocam-
+pal slices (Whittington et al., 1995; Traub et al., 1996). Our
+
+ﬁndings suggest that the synchronization mechanism by an inter-
+neuronal network would be especially effective if the fast oscilla-
+tions are generated in the gamma frequency range by pacemaker
+neurons (Llina´s et al., 1991; McCormick et al., 1993). On the
+other hand, even in the absence of pacemaker neurons, coherent
+ﬁeld oscillations could still be observed in the gamma frequency
+range, not because possible ﬁring rates of inhibitory interneurons
+are restricted to a narrow frequency band, but because outside
+this frequency range the large-scale coherence is not possible (by
+this particular synaptic mechanism).
+Physiological implications
+Recurrent excitatory connections have long been regarded as a
+possible synaptic substrate underlying correlated neural ﬁrings in
+general and massively synchronous brain rhythms in particular.
+Although coherent slow (epileptic) rhythmic bursting may indeed
+emerge in a disinhibited pyramidal cell network (Chagnac-Amitai
+and Connors, 1989; Traub et al., 1993), modeling studies suggest
+that mutual excitation via the AMPA-type synapse often cannot
+synchronize neural oscillations in the gamma frequency range, at
+least for simple repetitive spiking neurons (Hansel et al., 1995; van
+Vreeswijk, et al., 1995) (present work). An alternative mechanism
+for the fast entrainment of principal cells has emerged recently.
+Previous work (Bragin et al., 1995; Whittington et al., 1995; Traub
+et al., 1996) and the present model suggest that networks of
+interneurons are critically involved in the generation of coherent
+gamma oscillations. The advantage of such “synchronizer” func-
+tion of interneuronal networks is the maintenance of subthreshold
+and coherent modulation of the large, sparsely connected pyra-
+midal cell populations and the resulting precise timing of their
+action potentials (Buzsa´ki and Chrobak, 1995; Hopﬁeld, 1995).
+
+REFERENCES
+Aika Y, Ren JQ, Kosaka K, Kosaka T (1994) Quantitative analysis of
+GABA-like-immunoreactive and parvalbumin-containing neurons in
+the CA1 region of the rat hippocampus using a stereological method,
+the disector. Exp Brain Res 99:267–276.
+
+Barkai E, Kanter I, Sompolinsky H (1990) Properties of sparsely con-
+
+nected excitatory neural networks. Phys Rev A 41:590–597.
+
+Bragin A, Jando´ G, Na´dasdy Z, Hetke J, Wise K, Buzsa´ki G (1995)
+Gamma (40–100 Hz) oscillation in the hippocampus of the behaving
+rat. J Neurosci 15:47–60.
+
+Buhl EH, Cobb SR, Halasy K, Somogyi P (1995) Properties of unitary
+IPSPs evoked by anatomically identiﬁed basket cells in the rat hip-
+pocampus. Eur J Neurosci 7:1989–2004.
+
+Bush PC, Douglas RJ (1991) Synchronization of bursting action potential
+discharge in a model network of neocortical neurons. Neural Comput
+3:19–30.
+
+Buzsa´ki G, Chrobak JJ (1995) Temporal structure in spatially organized
+neuronal ensenbles: a role for interneuronal networks. Curr Opin
+Neurobiol 5:504–510.
+
+Buzsa´ki G, Leung L, Vanderwolf CH (1983) Cellular bases of hippocam-
+
+pal EEG in the behaving rat. Brain Res Rev 6:139–171.
+
+Chagnac-Amitai Y, Connors BW (1989) Horizontal spread of synchro-
+nized activity in neocortex and its control by GABA-mediated inhibi-
+tion. J Neurophysiol 61:747–758.
+
+Chen DF, Fetz EE (1993) Effect of synchronous neural activity on syn-
+
+aptic transmission in primate cortex. Soc Neurosci Abstr 19:319.7.
+
+Engel AK, Ko¨nig P, Kreiter AK, Singer W (1991) Interhemispheric syn-
+chronization of oscillatory neuronal responses in cat visual cortex.
+Science 252:1177–1179.
+
+Erdo¨s P, Re´nyi A (1960) On the evolution of random graphs. MTA Mat
+
+Kut Int Ko¨zl 5:17–61.
+
+Ermentrout GB (1996) Type I membranes, phase resetting and syn-
+
+chrony. Neural Comput 8:979–1001.
+
+Freeman WJ (1975) Mass action in the nervous system. New York:
+
+Academic.
+
+Gerstein GL, Kiang WY (1960) An approach to the quantitative analysis
+
+of electrophysiological data from single neurons. Biophys J 1:15–28.
+
+Wang and Buzsa´ ki • Gamma Rhythm in an Interneuronal Network
+
+J. Neurosci., October 15, 1996, 16(20):6402– 6413 6413
+
+Golomb D, Wang X-J, Rinzel J (1994) Synchronization properties of
+spindle oscillations in a thalamic reticular nucleus model. J Neuro-
+physiol 72:1109–1126.
+
+Gulya´s AI, Ha´jos N, Freund TF (1996) Interneurons containing calreti-
+nin are specialized to control other interneurons in the rat hippocam-
+pus. J Neurosci 16:3397–3411.
+
+Hansel D, Sompolinsky H (1996) Chaos and synchrony in a model of a
+
+hypercolumn in visual cortex. J Comput Neurosci 3:7–34.
+
+Hansel D, Mato G, Meunier C (1995) Synchrony in excitatory neural
+
+networks. Neural Comput 7:307–335.
+
+Hodgkin AL, Huxley AF (1952) A quantitative description of membrane
+current and its application to conduction and excitation in nerve.
+J Physiol (Lond) 117:500–544.
+
+Hopﬁeld J (1995) Pattern recognition computation using action potential
+
+timing for stimulus representation. Nature 376:33–36.
+
+Jagadeesh B, Gray CM, Ferster D (1992) Visually evoked oscillations of
+membrane potential in cells of cat visual cortex. Science 257:552–554.
+Kopell N, LeMasson G (1994) Rhythmogenesis, amplitude modulation,
+and multiplexing in a cortical architecture. Proc Natl Acad Sci USA
+91:10586–10590.
+
+Lacaille J-C, Williams S (1990) Membrane properties of interneurons in
+stratum oriens-alveus of the CA1 region of rat hippocampus in vitro.
+Neuroscience 36:349–359.
+
+Lacaille J-C, Mueller A, Kunkel DD, Schwartzkroin PA (1987) Local
+circuit interactions between oriens/alveus interneurons and CA1 pyra-
+midal cells in hippocampal slices: electrophysiology and morphology.
+J Neurosci 7:1979–1993.
+
+Llina´s RR, Grace AA, Yarom Y (1991) In vitro neurons in mammalian
+layer 4 exhibit intrisic oscillatory activity in the 10–50 Hz
+
+cortical
+frequency range. Proc Natl Acad Sci USA 88:897–901.
+
+Lytton WW, Sejnowski TJ (1991) Simulations of cortical pyramidal neu-
+J Neurophysiol
+
+synchronized by
+
+interneurons.
+
+inhibitory
+
+rons
+66:1059–1079.
+
+McCormick DA, Connors BW, Lighthall JW, Prince DA (1985) Com-
+parative electrophysiology of pyramidal and sparsely spiny stellar neu-
+rons of the neocortex. J Neurophysiol 54:782–806.
+
+McCormick DA, Gray C, Wang Z (1993) Chattering cells: a new physi-
+ological subtype which may contribute to 20–60 Hz oscillations in cat
+visual cortex. Soc Neurosci Abstr 16:359.9.
+
+Morin F, Beaulieu C, Lacaille J-C (1996) Membrane properties and
+synaptic currents evoked in CA1 interneuron subtypes in rat hippocam-
+pal slices. J Neurophysiol, in press.
+
+Murthy VN, Fetz EE (1992) Coherent 25–35 Hz oscillations in the sen-
+sorimotor cortex of the awake behaving monkey. Proc Natl Acad Sci
+USA 89:5670–5674.
+
+Otis TS, Mody I (1992) Modulation of decay kinetics and frequency of
+GABAA receptor-mediated spontaneous inhibitory postsynaptic cur-
+
+rents in hippocampal neurons. Neuroscience 49:13–32.
+
+Perkel DH, Mulloney B (1974) Motor pattern production in reciprocally
+Science
+
+postinhibitory
+
+exhibiting
+
+rebound.
+
+neurons
+
+inhibitory
+185:181–183.
+
+Perkel DH, Mulloney B, Budelli RW (1981) Quantitative methods for
+
+predicting neuronal behavior. Neuroscience 6:823–827.
+
+Selverston AI, Moulins M (1985) Oscillatory neural networks. Annu Rev
+
+Physiol 47:29–48.
+
+Sik A, Pentonnen M, Ylinen A, Buzsa´ki G (1995) Hippocampal CA1
+interneurons: an in vivo intracellular labeling study. J Neurosci
+15:6651–6665.
+
+Singer W, Gray CM (1995) Visual feature integration and the temporal
+
+correlation hypothesis. Annu Rev Neurosci 18:555–586.
+
+Solte´sz I, Descheˆnes M (1993) Low- and high-frequency membrane po-
+tential oscillations during theta activity in CA1 and CA3 pyramidal
+neurons of the rat hippocampus under ketamine-xylazine anesthesia.
+J Neurophysiol 70:97–116.
+
+Somers D, Kopell N (1995) Waves and synchrony in networks of oscil-
+
+lators of relaxation and non-relaxation type. Physica D 89:169–183.
+
+Traub RD, Miles R, Jeffreys JGR (1993) Synaptic and intrinsic conduc-
+tances shape picrotoxin-induced synchronized afterdischarges in the
+guinea-pig hippocampal slice. J Physiol (Lond) 93:525–547.
+
+Traub RD, Whittington MA, Colling SB, Buzsa´ki G, Jeffreys JGR (1996)
+Analysis of gamma rhythms in the rat hippocampus in vitro and in vivo.
+J Physiol (Lond), in press.
+
+van Vreeswijk C, Abbott LF, Ermentrout GB (1995) When inhibition,
+not excitation synchronizes neural ﬁring. J Comput Neurosci 1:313–322.
+Wang X-J (1993) Ionic basis for intrinsic 40 Hz neuronal oscillations.
+
+NeuroReport 5:221–224.
+
+Wang X-J, Rinzel J (1992) Alternating and synchronous rhythms in re-
+
+ciprocally inhibitory model neurons. Neural Comput 4:84–97.
+
+Wang X-J, Rinzel J (1993) Spindle rhythmicity in the reticularis thalami
+nucleus: synchronization among mutually inhibitory neurons. Neuro-
+science 53:899–904.
+
+Wang X-J, Golomb D, Rinzel J (1995) Emergent spindle oscillations and
+intermittent burst ﬁring in a thalamic model: speciﬁc neuronal mecha-
+nisms. Proc Natl Acad Sci USA 92:5577–5581.
+
+Welsh JP, Lang EJ, Sugihara I, Llina´s RR (1995) Dynamic organization
+of motor control within the olivocerebellar system. Nature 374:453–457.
+Whittington MA, Traub RD, Jeffreys JGR (1995) Synchronized oscilla-
+tions in interneuron networks driven by metabotropic glutamate recep-
+tor activation. Nature 373:612–615.
+
+Zhang L, McBain CJ (1995) Potassium conductances underlying action
+potential repolarization and afterhyperpolarization in rat CA1 hip-
+pocampal interneurons. J Physiol (Lond) 488:661–672.
+
+

@@ -1,0 +1,22 @@
+Animals
+Down-Regulation
+Excitatory Postsynaptic Potentials
+Hippocampus
+physiology
+Long-Term Potentiation
+Male
+Rats
+Rats
+Sprague-Dawley
+Receptors
+N-Methyl-D-Aspartate
+antagonists
+&
+inhibitors
+physiology
+Symporters
+biosynthesis
+Synapses
+physiology
+Synaptic Transmission
+GABAergic synaptic inhibition plays a critical role in regulating long-term potentiation (LTP) of glutamatergic synaptic transmission and circuit output. The K(+)-Cl(-) cotransporter 2 (KCC2) is an important factor in determining inhibitory GABAergic synaptic strength besides the contribution of GABA(A) receptor. Although much knowledge has been gained regarding activity-dependent downregulation of KCC2 in many pathological conditions, the potential change and contribution of KCC2 in LTP expression is still unknown. In this study, we found that downregulation of KCC2 was accompanied with the occurrence of LTP but not that of long-term depression in hippocampal CA1 region. Meanwhile, KCC2 level in CA3/DG and adjacent cortex was stable in the process of LTP expression in Schaffer collateral synapses. Blockade of NMDA receptor with APV not only prevented LTP induction also abolished the reduction of KCC2. Furthermore, the inhibition of KCC2 function with furosemide directly induced EPSP-spike (E-S) potentiation, an important component of LTP in hippocampus. The present data suggest a novel mechanism that LTP formation is accompanied by the downregulation of KCC2, which is underlying GABAergic strength and most likely contributes to the E-S potentiation following LTP.

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="297">
+<itemtype>xnppaper</itemtype>
+<titles><title>Elements of a neurobiological theory of the hippocampus: the role of activity-dependent synaptic plasticity in memory.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-06-20T03:54:33Z</last_update_date>
+<creation_date>2008-06-20T03:54:33Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=297</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="297" version="1.02">
+<authors><author>Morris RG</author><author>Moser EI</author><author>Riedel G</author><author>Martin SJ</author><author>Sandin J</author><author>Day M</author><author>O&#039;Carroll C</author></authors>
+<journal>Philosophical transactions of the Royal Society of London. Series B, Biological sciences</journal>
+<volume>358</volume>
+<number>1432</number>
+<page>773-86</page>
+<abstract>The hypothesis that synaptic plasticity is a critical component of the neural mechanisms underlying learning and memory is now widely accepted. In this article, we begin by outlining four criteria for evaluating the &#039;synaptic plasticity and memory (SPM)&#039; hypothesis. We then attempt to lay the foundations for a specific neurobiological theory of hippocampal (HPC) function in which activity-dependent synaptic plasticity, such as long-term potentiation (LTP), plays a key part in the forms of memory mediated by this brain structure. HPC memory can, like other forms of memory, be divided into four processes: encoding, storage, consolidation and retrieval. We argue that synaptic plasticity is critical for the encoding and intermediate storage of memory traces that are automatically recorded in the hippocampus. These traces decay, but are sometimes retained by a process of cellular consolidation. However, we also argue that HPC synaptic plasticity is not involved in memory retrieval, and is unlikely to be involved in systems-level consolidation that depends on HPC-neocortical interactions, although neocortical synaptic plasticity does play a part. The information that has emerged from the worldwide focus on the mechanisms of induction and expression of plasticity at individual synapses has been very valuable in functional studies. Progress towards a comprehensive understanding of memory processing will also depend on the analysis of these synaptic changes within the context of a wider range of systems-level and cellular mechanisms of neuronal transmission and plasticity.</abstract>
+<pubmed_id>12744273</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7502">
+<itemtype>xnppaper</itemtype>
+<titles><title>Two-phase computational model training long-term memories in the entorhinal-hippocampal region.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Computer Simulation</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Forecasting</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:29:03Z</last_update_date>
+<creation_date>2013-03-28T02:29:03Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7502</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7502" version="1.02">
+<authors><author>Lörincz A</author><author>Buzsáki G</author></authors>
+<journal>Annals of the New York Academy of Sciences</journal>
+<volume>911</volume>
+<number></number>
+<page>83-111</page>
+<abstract>The computational model described here is driven by the hypothesis that a major function of the entorhinal cortex (EC)-hippocampal system is to alter synaptic connections in the neocortex. It is based on the following postulates: (1) The EC compares the difference between neocortical representations (primary input) and feedback information conveyed by the hippocampus (the&quot;reconstructed input&quot;). The difference between the primary input and the reconstructed input (termed&quot;error&quot;) initiates plastic changes in the hippocampal networks (error compensation). (2) Comparison of the primary input and reconstructed input requires that these representations are available simultaneously in the EC network. We suggest that compensation of time delays is achieved by predictive structures, such as the CA3 recurrent network and EC-CA1 connections. (3) Alteration of intrahippocampal connections gives rise to a new hippocampal output. The hippocampus generates separated (independent) outputs, which, in turn, train long-term memory traces in the EC (independent components, IC). The ICs of the long-term memory trace are generated in a two-step manner, the operations of which we attribute to the activities of the CA3 (whitening) and CA1 (separation) fields. (4) The different hippocampal fields can perform both nonlinear and linear operations, albeit at different times (theta and sharp phases). We suggest that long-term memory is represented in a distributed and hierarchical reconstruction network, which is under the supervision of the hippocampal output. Several of these model predictions can be tested experimentally.</abstract>
+<pubmed_id>10911869</pubmed_id>
+</detail>
+</item>

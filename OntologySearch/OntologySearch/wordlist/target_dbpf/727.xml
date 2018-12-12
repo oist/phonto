@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="727">
+<itemtype>xnppaper</itemtype>
+<titles><title>Memory and the hippocampus: a synthesis from findings with rats, monkeys, and humans.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-11T01:29:35Z</last_update_date>
+<creation_date>2008-07-11T01:29:35Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=727</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="727" version="1.02">
+<authors><author>Squire LR</author></authors>
+<journal>Psychological review</journal>
+<volume>99</volume>
+<number>2</number>
+<page>195-231</page>
+<abstract>This article considers the role of the hippocampus in memory function. A central thesis is that work with rats, monkeys, and humans--which has sometimes seemed to proceed independently in 3 separate literatures--is now largely in agreement about the function of the hippocampus and related structures. A biological perspective is presented, which proposes multiple memory systems with different functions and distinct anatomical organizations. The hippocampus (together with anatomically related structures) is essential for a specific kind of memory, here termed declarative memory (similar terms include explicit and relational). Declarative memory is contrasted with a heterogeneous collection of nondeclarative (implicit) memory abilities that do not require the hippocampus (skills and habits, simple conditioning, and the phenomenon of priming). The hippocampus is needed temporarily to bind together distributed sites in neocortex that together represent a whole memory.</abstract>
+<pubmed_id>1594723 </pubmed_id>
+</detail>
+</item>

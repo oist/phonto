@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1772">
+<itemtype>xnppaper</itemtype>
+<titles><title>Synapse formation on neurons born in the adult hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-10-14T05:54:19Z</last_update_date>
+<creation_date>2008-10-14T05:54:19Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1772</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1772" version="1.02">
+<authors><author>Toni N</author><author>Teng EM</author><author>Bushong EA</author><author>Aimone JB</author><author>Zhao C</author><author>Consiglio A</author><author>van Praag H</author><author>Martone ME</author><author>Ellisman MH</author><author>Gage FH</author></authors>
+<journal>Nature neuroscience</journal>
+<volume>10</volume>
+<number>6</number>
+<page>727-34</page>
+<abstract>Although new and functional neurons are produced in the adult brain, little is known about how they integrate into mature networks. Here we explored the mechanisms of synaptogenesis on neurons born in the adult mouse hippocampus using confocal microscopy, electron microscopy and live imaging. We report that new neurons, similar to mature granule neurons, were contacted by axosomatic, axodendritic and axospinous synapses. Consistent with their putative role in synaptogenesis, dendritic filopodia were more abundant during the early stages of maturation and, when analyzed in three dimensions, the tips of all filopodia were found within 200 nm of preexisting boutons that already synapsed on other neurons. Furthermore, dendritic spines primarily synapsed on multiple-synapse boutons, suggesting that initial contacts were preferentially made with preexisting boutons already involved in a synapse. The connectivity of new neurons continued to change until at least 2 months, long after the formation of the first dendritic protrusions.</abstract>
+<pubmed_id>17486101</pubmed_id>
+</detail>
+</item>

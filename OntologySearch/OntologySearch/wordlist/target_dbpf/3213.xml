@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3213">
+<itemtype>xnppaper</itemtype>
+<titles><title>Region-specific modulation of electrically induced synchronous oscillations in the rat hippocampus and cerebral cortex.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-03-10T08:03:32Z</last_update_date>
+<creation_date>2010-03-10T08:03:32Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3213</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3213" version="1.02">
+<authors><author>Kaneda K</author><author>Fujiwara-Tsukamoto Y</author><author>Isomura Y</author><author>Takada M</author></authors>
+<journal>Neuroscience research</journal>
+<volume>52</volume>
+<number>1</number>
+<page>83-94</page>
+<abstract>Strong tetanization induces synchronous membrane potential oscillations (seizure-like afterdischarge) in mature pyramidal cells of the hippocampal CA1 region. To investigate whether local networks in other brain regions can generate such an afterdischarge independently, we studied the inducibility of afterdischarge in individual &#039;isolated slices&#039; of the rat hippocampal CA1 and CA3 regions, dentate gyrus (DG), entorhinal cortex (EC), and temporal cortex (TC) using intracellular and extracellular recordings. The strong tetanization constantly induced afterdischarges in the CA1 and CA3 pyramidal cells as well as in the EC and TC superficial principal cells. However, parameters of the afterdischarges, such as the frequency and duration of afterdischarges, varied among the regions. A mixture of N-methyl-D-aspartate (NMDA) and non-NMDA receptor antagonists or a GABA(A) receptor antagonist completely blocked the afterdischarges. Local GABA application during the afterdischarge elicited depolarization, rather than hyperpolarization. Moreover, reversal potentials of the afterdischarge were around -40 mV. In contrast, the tetanization resulted in occasional afterdischarge-like activities in DG slices, which were blocked by the non-NMDA or GABA(A) receptor antagonist. These findings suggest that the afterdischarges mediated through the excitatory GABAergic and glutamatergic transmissions might be common to, but be modulated differently by individual local networks in the hippocampus and cortex.</abstract>
+<pubmed_id>15811556</pubmed_id>
+</detail>
+</item>

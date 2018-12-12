@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6674">
+<itemtype>xnppaper</itemtype>
+<titles><title>Support for an auto-associative model of spoken cued recall: evidence from fMRI.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cues</keyword>
+<keyword>Dominance</keyword>
+<keyword>Cerebral</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Imaging</keyword>
+<keyword>Three-Dimensional</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>Short-Term</keyword>
+<keyword>physiology</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Neocortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Paired-Associate Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Parietal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Retention (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:08:05Z</last_update_date>
+<creation_date>2013-02-26T07:08:05Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6674</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6674" version="1.02">
+<authors><author>de Zubicaray G</author><author>McMahon K</author><author>Eastburn M</author><author>Pringle AJ</author><author>Lorenz L</author><author>Humphreys MS</author></authors>
+<journal>Neuropsychologia</journal>
+<volume>45</volume>
+<number>4</number>
+<page>824-35</page>
+<abstract>Cued recall and item recognition are considered the standard episodic memory retrieval tasks. However, only the neural correlates of the latter have been studied in detail with fMRI. Using an event-related fMRI experimental design that permits spoken responses, we tested hypotheses from an auto-associative model of cued recall and item recognition [Chappell, M.,&amp;Humphreys, M. S. (1994). An auto-associative neural network for sparse representations: Analysis and application to models of recognition and cued recall. Psychological Review, 101, 103-128]. In brief, the model assumes that cues elicit a network of phonological short term memory (STM) and semantic long term memory (LTM) representations distributed throughout the neocortex as patterns of sparse activations. This information is transferred to the hippocampus which converges upon the item closest to a stored pattern and outputs a response. Word pairs were learned from a study list, with one member of the pair serving as the cue at test. Unstudied words were also intermingled at test in order to provide an analogue of yes/no recognition tasks. Compared to incorrectly rejected studied items (misses) and correctly rejected (CR) unstudied items, correctly recalled items (hits) elicited increased responses in the left hippocampus and neocortical regions including the left inferior prefrontal cortex (LIPC), left mid lateral temporal cortex and inferior parietal cortex, consistent with predictions from the model. This network was very similar to that observed in yes/no recognition studies, supporting proposals that cued recall and item recognition involve common rather than separate mechanisms.</abstract>
+<pubmed_id>16989874</pubmed_id>
+</detail>
+</item>

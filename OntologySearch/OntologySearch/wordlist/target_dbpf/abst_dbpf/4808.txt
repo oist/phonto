@@ -1,0 +1,29 @@
+Animals
+Avoidance Learning
+physiology
+Behavior
+Animal
+physiology
+Choline O-Acetyltransferase
+metabolism
+Drinking
+physiology
+Ganglionectomy
+Hippocampus
+physiology
+Male
+Motor Activity
+physiology
+Neurotransmitter Agents
+physiology
+Norepinephrine
+metabolism
+Rats
+Rats
+Inbred Strains
+Septum Pellucidum
+physiology
+surgery
+Sympathetic Nervous System
+physiology
+Recent research has suggested that normal learning/memory may depend upon the balance between central noradrenergic and cholinergic systems. This hypothesis has particular relevance to the study of the neuronal rearrangement that follows cholinergic denervation of hippocampus. In this, peripheral noradrenergic fibers, originating from the superior cervical ganglion, grow into the hippocampus in response to lesions of the medial septal (MS) cholinergic cell bodies. To understand further the influence of hippocampal sympathetic ingrowth (HSI) on behavior, gustatory neophobia, passive avoidance (PA) learning, and open field activity were studied. Male Sprague-Dawley rats underwent one of four surgical procedures: MS lesions and sham ganglionectomy (ingrowth group; MS/HSI group), sham MS lesions and ganglionectomy (Gx group), MS lesions and ganglionectomy (no-ingrowth group; MS/Gx group), or sham MS lesions and sham ganglionectomy (CON group). Behavioral testing began 4 weeks following surgery. The time to acquire the PA task was similar among all groups; however, the initial latency to enter the dark chamber of the PA apparatus was longer, and the number of partial reentries greatest, for MS/HSI animals. Retention testing at 24 hr revealed that MS/HSI animals were significantly impaired when compared to the CON and MS/Gx groups. The MS/Gx and the CON groups demonstrated gustatory neophobia, preferring water to saccharin solution, while gustatory neophobia was absent in the MS/HSI and Gx groups. MS/HSI animals were found to be more active in the open field than the other groups. Biochemical studies revealed the expected loss of ChAT activity in the dorsal and ventral hippocampi of lesioned animals along with elevated levels of norepinephrine (NE) in the dorsal hippocampus of MS/HSI animals.(ABSTRACT TRUNCATED AT 250 WORDS)

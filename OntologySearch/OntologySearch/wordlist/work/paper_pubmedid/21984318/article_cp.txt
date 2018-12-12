@@ -1,0 +1,447 @@
+J Comput Neurosci. Author manuscript; available in PMC 2013 May 1.
+Published in final edited form as:
+J Comput Neurosci. 2012 Jun; 32(3): 499?519.
+Published online 2011 Oct 5. doi:  10.1007/s10827-011-0366-4
+PMCID: PMC3288232
+NIHMSID: NIHMS335546
+Relative contributions of local cell and passing fiber activation and silencing to changes in thalamic fidelity during deep brain stimulation and lesioning: a computational modeling study
+Rosa Q. So,1 Alexander R. Kent,1 and Warren M. Grill1,2,3
+Author information ? Copyright and License information ?
+The publisher's final edited version of this article is available at J Comput Neurosci
+See other articles in PMC that cite the published article.
+Go to:
+Abstract
+Deep brain stimulation (DBS) and lesioning are two surgical techniques used in the treatment of advanced ParkinsonÅfs disease (PD) in patients whose symptoms are not well controlled by drugs, or who experience dyskinesias as a side effect of medications. Although these treatments have been widely practiced, the mechanisms behind DBS and lesioning are still not well understood. The subthalamic nucleus (STN) and globus pallidus pars interna (GPi) are two common targets for both DBS and lesioning. Previous studies have indicated that DBS not only affects local cells within the target, but also passing axons within neighboring regions. Using a computational model of the basal ganglia-thalamic network, we studied the relative contributions of activation and silencing of local cells (LCs) and fibers of passage (FOPs) to changes in the accuracy of information transmission through the thalamus (thalamic fidelity), which is correlated with the effectiveness of DBS. Activation of both LCs and FOPs during STN and GPi-DBS were beneficial to the outcome of stimulation. During STN and GPi lesioning, effects of silencing LCs and FOPs were different between the two types of lesioning. For STN lesioning, silencing GPi FOPs mainly contributed to its effectiveness, while silencing only STN LCs did not improve thalamic fidelity. In contrast, silencing both GPi LCs and GPe FOPs during GPi lesioning contributed to improvements in thalamic fidelity. Thus, two distinct mechanisms produced comparable improvements in thalamic function: driving the output of the basal ganglia to produce tonic inhibition and silencing the output of the basal ganglia to produce tonic disinhibition. These results show the importance of considering effects of activating or silencing fibers passing close to the nucleus when deciding upon a target location for DBS or lesioning.
+
+Go to:
+1. Introduction
+Surgical treatments, including deep brain stimulation (DBS) and lesioning, are used to treat symptoms in patients with advanced Parkinson's disease (PD) who are less responsive to pharmacological treatments or suffer from disabling dyskinesias. Clinicians have targeted both the subthalamic nucleus (STN) and globus pallidus interna (GPi) for DBS in PD, and clinical results indicate that both targets are effective at reducing dyskinesias and motor symptoms including tremor, bradykinesia, and rigidity (Weaver et al. 2009; Moro et al. 2010). However, several aspects of DBS remain to be optimized, largely due to the lack of understanding of the mechanisms of action. For example, DBS is not equally effective for all patients, and some symptoms may respond better to DBS than other symptoms (St. George et al. 2010). Furthermore, the choice of parameters for stimulation remains largely empirical, and the process of device tuning is time consuming and tedious, presenting a burden for clinicians, and causing discomfort and frustration for patients (Kuncel and Grill 2004). Lesioning of the STN or GPi is an alternative when DBS is not available or feasible (Okun and Vitek 2004). Although lesioning may be as effective as DBS (Gross 2008), side effects remain a major concern. Lesioning of the STN is still not considered safe because of persistent hemiballism that occurs in a high percentage of patients who undergo the procedure (Alverez et al. 2009; Tarsy 2009), and lesions are usually restricted to only one side as bilateral pallidotomy is associated with adverse effects on gait, speech, and cognition (Gross, 2008).
+
+To understand the mechanisms underlying these two surgical treatments, knowledge of changes in neural activity during DBS and after lesioning is required. The development of PD is associated with complex changes in neuronal firing rates and patterns within the basal ganglia, including increases in bursting and oscillatory behavior (Levy et al. 2000; Magnin et al. 2000; Benazzouz et al. 2002; Levy et al. 2002). It was surmised early on that DBS created a virtual lesion by depolarization blockade of neural activity, but several lines of evidence now support that activation of the target nucleus is responsible for the alleviation of symptoms during DBS (Hashimoto et al. 2003; Grill et al. 2004; McIntyre et al. 2004; Rubin and Terman 2004; Garcia 2005; Montgomery 2005; Xu et al. 2008; Dorval et al. 2009; Dorval et al. 2010). The regularization of firing patterns within the basal ganglia during DBS could eliminate pathological activity and thereby normalize basal ganglia function (McIntyre and Hahn, 2009). Similarly, lesioning of the STN or GPi is thought to eliminate pathological output from the basal ganglia to the thalamus.
+
+Recent studies calculated the spatial extent of neural activation generated by DBS in the STN and GPi. Miocinovic et al. (2006) and Johnson et al. (2008) used computational modeling to show that stimulation not only activates local cells (LCs) in the target nucleus, but also fibers of passage (FOPs) that project to other nuclei but pass close to the target. Thus, stimulation at one target site can have effects on multiple anatomical locations. Using three-dimensional anatomical reconstructions, they determined the distributions of LCs and FOPs that were activated during DBS under various stimulation conditions. However, the impact of the relative proportions of activation of different neuronal populations (e.g., LCs in STN versus GPi FOPs) on the thalamus and the subsequent link to therapeutic benefits of DBS are still unclear.
+
+The objective of the present study was to quantify the relative contributions of changes in LC and FOP activity to the accuracy of thalamic transmission during both DBS and lesioning. We implemented a computational model of a basal ganglia-thalamic network (BG model) by modifying and validating the model developed by Rubin and Terman (2004), and used the modified model to study the effect of neural activation or silencing on the relay of information through the thalamus. Thalamic relay fidelity is correlated with the efficacy of symptom alleviation in an animal model of PD (Guo et al. 2008) as well as the degree of bradykinesia in persons with PD (Dorval et al. 2010), and thereby serves as a valid proxy for treatment effectiveness.
+
+Go to:
+2. Methods
+2.1 Model of the Basal Ganglia-Thalamic Network (BG model)
+
+The model used in our simulations was modified from the basal ganglia-thalamic network model developed by Rubin and Terman (RT model) (Terman et al. 2002; Rubin and Terman 2004). The BG model was comprised of thalamic (TH), subthalamic nucleus (STN), and globus pallidus pars externa and interna (GPe and GPi) neurons, interconnected to form a network which responds to input from the sensorimotor cortex (SMC) (figure 1A). We expanded the original model from 16 cells to 100 cells in each population of TH, STN, GPe and GPi neurons in the BG model to allow fine-grained modulation of the proportion of individual neurons activated or lesioned. While the use of a smaller number of neurons in each population (10) resulted in the same trends described for the results with 100 neurons, it did not enable fine modulation of the proportion of neurons activated or silenced. All equations for the model and comparisons to the original RT model are provided in Appendix A.
+
+Figure 1
+Figure 1
+Basal ganglia-thalamic network model (BG model), modified from the Rubin and Terman model (Rubin & Terman, 2004). (A) Connections within the network are according to known biology of the basal ganglia, showing GPi fibers passing dorsally to the ...
+Models for the individual STN, GPe, GPi and TH neurons in the BG model were similar to those used in the RT model, but changes were made to match more closely experimental data on neuron firing properties. The dynamics of the calcium currents and afterhyperpolarization currents in the STN model neuron were modified to match those described in Wilson et al. (2004). The afterhyperpolarization current in the GP model was altered to enhance accommodation seen in GP cells (Weaver et al. 2009; Moro et al. 2010). The reversal potential of the leak current of GP cells was made less depolarized prevent spontaneous firing in the absence of any applied current (Nambu and Llinas 1994). Finally, the dynamics of the calcium current were slowed and the reversal potential of the potassium current was made less hyperpolarized in the TH model to reduce oscillations in membrane voltage and decrease the depth of the afterhyperpolarization.
+
+Neurons in the BG model were connected in a sparse but structured manner (figure 1B), similar to the RT model. Modifications were made such that there were an equal number of projections from the STN to the GPe and GPi. Each STN cell had excitatory projections to two GPe and two GPi neurons; and each GPe cell had inhibitory projections to two STN, two GPi and two GPe neurons. These projections were chosen in accordance with the topographical organization and the convergence and divergence of synaptic connectivity within the basal ganglia (Smith et al. 1998). Each GPi neuron made one inhibitory projection to a single thalamic neuron. Parent et al. (2001) identified multiple branches and axon terminals from the GPi within the thalamic nucleus, with single GPi axons forming collaterals on various thalamic cells, suggesting that each GPi axon projected to a single functional thalamic unit comprised of multiple thalamic cells.
+
+Synaptic currents were modeled using the equation Isyn = gsynS(v ? Esyn). For STN and GPi efferents, the first order model of the synapse used in the RT model was replaced by a second order alpha synapse to enable additive synaptic effects when DBS was applied. For all other synaptic connections, the original synapse in the RT model was retained, where S followed a first order differential equation.
+
+The SMC input was modeled as a series of monophasic current pulses with an amplitude of 3.5 uA/cm2 and a duration of 5 ms. The instantaneous frequencies of incoming pulses were drawn from a gamma distribution with an average rate of 14 Hz and a coefficient of variation of 0.2. We included variance in the SMC input to simulate the non-regular nature of incoming signals from the cortex to the thalamus. Positive constant bias currents (Iapp), which can be viewed as the net synaptic input to these cells from other brain regions, were applied to the STN, GPe and GPi neurons to maintain baseline firing rates of 70 Hz and 80 Hz for GPe and GPi (Boraud et al. 1998), and 10 Hz for STN (Steigerwald et al. 2008). The applied currents in the BG model were mostly higher than in the RT model to match physiological recordings more closely. Finally, as in the RT model, monophasic DBS pulses were applied intracellularly to STN, GPi or GPe neurons with an amplitude of 300 uA/cm2 and a pulse width of 0.3 ms to evoke one action potential with every pulse that was applied.
+
+The switch from healthy condition to Parkinsonian condition in the BG model was achieved by decreasing the constant bias currents Iapp applied to the STN, GPe and GPi. The result was an increase in bursting behavior and synchronization of the GPe and GPi neurons, similar to the original RT model, and consistent with what is observed in humans with PD (Levy et al. 2000; Magnin et al. 2000; Brown et al. 2001; Benazzouz et al. 2002; Levy et al. 2002), as well as in dopamine-depleted rodents (Hassani et al. 1996; Beurrier et al. 1999; Costa et al. 2006; Wilson et al., 2006) and monkeys (Bergman et al. 1994; Wichmann et al. 1994b; Bergman et al. 1998). Further, these alterations were consistent with recent modeling results illustrating that firing patterns in PD result from changes in the inputs to the basal ganglia (Hahn and McIntyre 2010). All simulations with DBS and lesioning in the present study were conducted in the Parkinsonian condition.
+
+Simulations were implemented in Matlab 7.4.0 (The MathWorks, Natick, MA) with equations solved using the forward Euler method with a time step of 0.01 ms.
+
+2.2 Model assessment
+
+The performance of the BG network was quantified by measuring how accurately the TH neurons relayed inputs from the SMC. The error index (EI), as described by Rubin and Terman (2004), is a quantitative measure of the fidelity of thalamic throughput. The network achieves optimum performance when each input pulse from the SMC results in a single action potential in each thalamic neuron, detected as transmembrane voltage crossing a threshold of ?40mV. EI is defined as the total number of errors divided by the total number of input stimuli.
+
+Three types of errors in thalamic transmission were considered (figure 1C): misses, bursts and spurious events. A miss occurred when a neuron failed to spike, a burst occurred when a neuron spiked more than once within 25 ms of a stimulating input, and a spurious event occurred if the thalamic cell fired in the absence of a stimulating input. For each condition tested, the EIs were averaged across 20 ten-second simulations with a unique pattern of SMC input delivered during each simulation.
+
+2.3 Profiles of activation or lesioning
+
+The STN and GPi are both targets of DBS or lesioning for relieving the symptoms of PD. Although the electrode is placed within the STN or GPi during DBS, activation could extend beyond local cells (LCs) within the nucleus to fibers of passage (FOPs) nearby. Similarly, lesioning of a target nucleus could result in lesioning of neighboring FOPs. The activation or lesioning profiles specify the proportions of LC and FOP activated or silenced during DBS or lesion, respectively.
+
+Miocinovic et al. analyzed STN DBS using experimental data from two monkeys and a three-dimensional anatomical model of the basal ganglia to calculate the proportion of activation of STN LCs and GPi FOPs during behaviorally ineffective and effective stimulation (Miocinovic et al. 2006). Similarly, Johnson et al. quantified activation of GPi LCs and GPe FOPs passing near and through the GPi during GPi DBS (Johnson et al. 2008). We implemented these activation profiles in the BG model by applying DBS to only select groups of neurons, mimicking the proportions of LC and FOP that were activated in the two studies. For a given level of activation, the specific cells that were stimulated were randomly selected from each population of 100 neurons.
+
+In addition, we expanded the range of activation profiles to include all permutations of the proportions of LC and FOP activated for both STN and GPi DBS (from 0 to 100 percent, in 2 percent increments). Similarly, lesioning profiles were implemented by silencing various proportions of LCs and FOPs to simulate lesion of the STN and GPi. The two factors potentially affecting the thalamic output ? the total proportion activated or silenced and the LC:FOP activation/silencing ratio ? were analyzed.
+
+Go to:
+3. Model Validation
+To validate the properties of the BG model, we first compared the behavior of each individual type of neuron with published frequency-intensity (f?i) curves, as well as patterns of firing under different stimulation conditions. Subsequently, we compared firing rates of the interconnected neurons in the network to experimental data, and finally, compared the effects of DBS frequency on thalamic fidelity to published results of the effects of DBS frequency on symptoms.
+
+3.1 Single cell validation
+
+Thalamic neuron
+The TH cell does not fire spontaneously, but its firing rate increases with increased constant current injections during experimental studies (figure 2A). The f?i curve of the model thalamic cell exhibited a similar trend with a decrease in slope with increased current amplitude, although the same magnitude of applied current generally resulted in higher firing rates in the model thalamic cells than in the experimental data.
+
+Figure 2
+Figure 2
+(Top) Characteristics of thalamic cells from intracellular recordings (Jahnsen and Llinas, 1984); (Bottom) comparable simulation results from model assuming a cell surface area of 2625 um2 (Destexhe et al., 1998). (A) Frequency-intensity (f?i) ...
+The thalamic cell exhibits some unique electrophysiological characteristics due to the presence of T-type calcium currents, and these were reproduced by the model thalamic neuron (figure 2B). A depolarizing current applied at an intermediate resting potential produced subthreshold charging and discharging of the cell membrane. The same current applied at a hyperpolarized rest potential led to a burst of action potentials. Finally, when the same depolarizing pulse was applied at a depolarized resting potential, a train of action potentials was generated.
+
+STN neuron
+STN neurons fire at low rates in the absence of applied current (Bevan and Wilson 1999) and have a sigmoidal f?i curve, with a secondary range that has a greater slope than the primary range (Wilson et al. 2004). Model STN neurons had a spontaneous firing rate of 2 Hz and displayed similar primary and secondary ranges in the f?i curve (figure 3A). A tertiary range in the f?i curve present in experimental recordings was not seen in the model neuron, and the slope of the model f?i curve was less steep than in the experimental data.
+
+Figure 3
+Figure 3
+(Top) Characteristics of subthalamic nucleus (STN) cells from intracellular recordings (Hallworth et al., 2003; Wilson et al., 2004); (Bottom) comparable simulation results from model, assuming a cell surface area of 800 um2 (Afsharpour S. 1985). (A) ...
+STN neurons respond to depolarizing current injection with repetitive firing and exhibit rebound bursts at the cessation of a hyperpolarizing current (Hallworth et al. 2003). Model STN neurons exhibited similar patterns of firing (figure 3B), but the rebound bursts often did not last as long as those in the experimental recordings because of more rapid de-activation of T-type calcium currents. STN neurons exhibit reverse adaptation (Hallworth et al. 2003), or an increase in firing rate over the first 10?50 action potentials during repetitive firing. Reverse adaptation was observed in the model STN neuron, but with a slight decrease in firing rate after the initial acceleration (figure 3C). Finally, spontaneous activity was delayed following high frequency firing of the STN neuron (figure 4) due to calcium accumulation during repetitive firing generating activation of calcium-activated potassium channels (Hallworth et al. 2003). The model STN neuron qualitatively reproduced this firing pattern, although the delay to the start of spontaneous activity was often longer in the model than in the experiments.
+
+Figure 4
+Figure 4
+(Top) Data from intracellular recordings (Hallworth et al., 2003); (Bottom) comparable simulation results from the model, assuming a cell surface area of 800 um2 (Afsharpour S. 1985). STN cells display a delayed start of spontaneous activity after high ...
+Globus Pallidus neurons
+Globus pallidus (GP) neurons have variable firing properties and can be classified into 3 or more subtypes. Only the Ågcontinuous repetitive firingÅh GP neuron reported by Kita and Kitai (1991), similar to the ÅgType IIÅh neurons reported by Nambu and Llinas (1994), was considered in the BG model, as in the original RT model. The firing rate of the GP neurons observed experimentally increased almost linearly with increased current injection, and the f?i curve of the model GP neuron followed a similar trend, with a slight decrease in slope with increased current (figure 5A). This type of GP neuron exhibits weak accommodation during the course of a depolarizing pulse (Nambu and Llinas 1994), and although present in the model, accommodation was weaker than in experimental recordings (figure 5A). Finally, the model GP neuron exhibited a rebound burst after release from a hyperpolarizing current (figure 5B) similar to experimental recordings, largely due to T-type calcium channels that were de-inactivated during hyperpolarization.
+
+Figure 5
+Figure 5
+(Top) Characteristics of globus pallidus (GP) cells from intracellular recordings (Kita and Kitai, 1991; Nambu and Llinas, 1994); (Bottom) comparable simulation results from model, assuming a cell surface area of 3000um2 (Cooper and Stanford, 2000) (A) ...
+3.2. Network Validation
+
+Firing rate and patterns
+Recordings in MPTP-treated monkeys indicate that firing rate decreases in the GPe, increases in the GPi, and increases in the STN after administration of MPTP (Bergman et al. 1994; Wichmann et al. 1994b; Boraud et al. 1998; Wichmann and Soares 2006). Similarly, the firing rates of STN neurons in PD patients are higher than in non-PD patients (Steigerwald et al. 2008). Symptom-relieving high frequency stimulation in the STN of MPTP-treated monkeys increased the mean firing rates of both GPe and GPi neurons (Hashimoto et al. 2003). Changes in firing rates of neurons in the BG model were consistent with these experimental results (figure 6): under the Parkinsonian condition, firing rates of STN and GPi neurons increased, while those of GPe neurons decreased, and the firing rates of all three types of neuron increased during application of 130 Hz STN DBS. The proportional increases in firing rates of STN and GPi from the healthy to PD condition were lower than expected, while the proportional decrease in firing rate of GPe was greater than that found experimentally (Boraud et al. 1998; Steigerwald et al. 2008). The proportional increase in firing rate of the GPi and GPe neurons during DBS was equivalent to experimental recordings (Hashimoto et al. 2003).
+
+Figure 6
+Figure 6
+Firing rates for subthalamic nucleus (STN), globus pallidus externa (GPe) and interna (GPi) cells under healthy, ParkinsonÅfs disease (PD), and PD with 130 Hz deep brain stimulation (DBS) conditions. The firing rates for STN and GPi increased with ...
+In the healthy condition, the STN, GPe and GPi cells exhibited regular firing at near constant frequencies (figure 7A). Changes in firing patterns observed in the BG model upon switching from the healthy condition to the Parkinsonian condition paralleled those in the original RT model: the STN cells exhibited more irregularity with varied interspike intervals, and GPe and GPi neurons fired more frequently in a burst-like manner.
+
+Figure 7
+Figure 7
+(A) Firing patterns of subthalamic nucleus (STN), globus pallidus externa (GPe), globus pallidus interna (GPi) and thalamic (TH) neurons under healthy condition, ParkinsonÅfs disease (PD) condition, and PD condition with deep brain stimulation ...
+Frequency profile
+There is a distinct correlation between DBS frequency and its effectiveness in alleviating symptoms of PD. The beneficial effects of DBS are seen only during stimulation with frequencies above 100 Hz, while stimulation frequencies below 50 Hz are usually ineffective, and may even exacerbate symptoms (Moro et al. 2002; Timmermann et al. 2004; Fogelson et al. 2005; Birdno and Grill 2008; Eusebio et al. 2008).
+
+Application of low frequency DBS to the STN did not cause any significant change in the firing patterns of model network neurons. As the stimulation frequency was increased, STN neurons fired more regularly, synchronized with the DBS pulses, and thereby masked the intrinsic activity of the STN neuron. The STN cells in turn excited GPe and GPi neurons, which exhibited high-frequency regularized firing, as well (figure 7A).
+
+Changes in patterns of neuronal firing during DBS influenced the fidelity of thalamic relay. Thalamic fidelity, quantified using the error index (EI) in the model, is correlated with symptom reduction in both animal models and persons with PD (Guo et al. 2008; Dorval et al. 2010). The profile of changes in EI versus changes in DBS frequency in the modified BG model matched well the profile observed clinically, while the profile from the original RT model did not. In the RT model, DBS at 20 Hz and above was effective at restoring thalamic fidelity (figure 7B), which is inconsistent with clinical observations of the effects of DBS frequency on symptoms. Past studies using the RT model or models modified from the RT model have reported similar frequency profiles with STN DBS (Feng et al. 2007; Pirini et al. 2009). In contrast, low frequency DBS (? 40 Hz) in the BG model resulted in little or no improvement of thalamic fidelity. The EI decreased progressively between 40 Hz and 100 Hz, and the thalamic cell responded with fidelity comparable to the healthy condition only at stimulation frequencies greater than 100 Hz (figure 7C).
+
+Go to:
+4. Results
+4.1 STN DBS
+
+Activation profiles obtained from two monkeys under effective and ineffective STN-DBS (Miocinovic et al. 2006) were applied to the BG model. The error index decreased between the ineffective and effective stimulation conditions for both monkeys (figure 8), consistent with the increase in DBS effectiveness observed experimentally. The EIs for monkey R370 for both the effective and ineffective stimulation conditions were lower than those for monkey R7160, because monkey R370Åfs cathode was placed more dorsally within the STN, resulting in greater GPi FOP activation, as well as a greater total proportion of neural elements activated for Monkey R370. Nonetheless, the activation profile of therapeutically effective parameters in both monkeys produced greater thalamic fidelity compared to therapeutically ineffective parameters.
+
+Figure 8
+Figure 8
+Results from BG model using proportions of STN local cell and GPi fiber of passage activation from two animals which had ineffective and effective STN DBS being applied at 130 Hz (Monkey R7160: 28% STN, 10% GPi for ineffective; 38% STN, 16% GPi for effective. ...
+Activation of both STN LCs and GPi FOPs led to an improvement in thalamic fidelity. 130 Hz stimulation of STN LCs resulted in high frequency regular firing of neurons in both GPe and GPi due to the excitatory projections from STN to GP (figure 9Ai). Activation of FOPs originating from the GPi produced regular high frequency firing only in these GPi fibers (figure 9Aii), and since GPi had no efferent connections to STN or GPe, the firing patterns of GPe and STN neurons were not affected by activation of GPi FOPs. The GPi has inhibitory connections to the thalamic cells, and regularization of the output from the GPi resulting from either STN LC or GPi FOP activation resulted in the thalamus receiving regular tonic inhibition, which led to higher thalamic fidelity (Guo et al. 2008; Dorval et al. 2010).
+
+Figure 9
+Figure 9
+(A) Firing patterns of subthalmic nucleus (STN), globus pallidus externa (GPe), globus pallidus interna (GPi) and thalamic (TH) cells during activation of STN local cells (LCs) and GPi fibers of passage (FOPs) during 130 Hz STN-DBS. Examples from one ...
+The combined results from all permutations of different proportions of STN LC and GPi FOP activation indicated that EI decreased with the increase in total percentage of STN cells and GPi fibers being stimulated (figure 9B). Maximal activation of only STN LC or only GPi FOP resulted in low error rates, but improved thalamic fidelity could also be achieved by co-activation of STN LCs and GPi FOPs. There was some benefit to activation of STN LC over GPi FOP activation, with lower EIs produced when only STN LCs were activated compared to when only GPi FOPs were activated. Thalamic output was less affected by the ratio of LC activation to FOP activation, with all ratios resulting in a wide range of errors, dependent on the overall level of activation (figure 9C).
+
+4.2 GPi-DBS
+
+Activation profiles of local GPi cells and passing GPe fibers during GPi DBS with different electrode contacts and voltages (Johnson and McIntyre 2008) were applied to the BG model. Activation profiles corresponding to those produced by stimulating middle contacts C1 and C2 produced lower EIs than activation profiles corresponding to stimulating contacts C0 and C3 (figure 10). In fact, activation profiles from stimulating contacts C1 and C2 at 2V produced results similar to using activation profiles from stimulating contacts C0 and C3 at 5V.
+
+Figure 10
+Figure 10
+Results from BG model using proportions of GPi local cell and GPe fiber of passage activation during 130 Hz GPi-DBS for four different active contacts and two amplitudes (activation profiles for contacts C0, C1, C2 and C3 respectively were 2V: [42% GPi, ...
+Activation of both GPi LCs and GPe FOPs during GPi-DBS led to higher thalamic fidelity. However, the mechanism behind the decreases in EI was different for the activation of GPi LCs and GPe FOPs. Direct stimulation of the GPi LCs caused high frequency regular firing of the GPi neurons and therefore a near constant level of inhibition to the thalamus, resulting in higher fidelity (figure 11Ai). On the other hand, activation of FOPs from the GPe led to inhibition and silencing of neurons in both the STN and GPi, thereby creating a virtual lesion. Silencing of parts of the GPi in turn led to a loss of inhibition of the thalamic neurons, which also resulted in improved thalamic transmission compared to the Parkinsonian condition (figure 11Aii). Although these two mechanisms are seemingly opposite in effect, they are actually complimentary since they both lead to increased thalamic transmission fidelity. If a GPi neuron receives both direct stimulation and tonic inhibition from afferent GPe FOPs at the same time, the efferent output would be tonic high frequency firing (McIntyre et al. 2004).
+
+Figure 11
+Figure 11
+(A) Firing patterns of subthalmic nucleus (STN), globus pallidus externa (GPe), globus pallidus interna (GPi) and thalamic (TH) cells during activation of GPi local cells (LCs) and GPe fibers of passage (FOPs) during 130 Hz GPi-DBS. Examples from one ...
+Combined results from all permutations of different proportions of GPi LC and GPe FOP activation revealed an overall decrease in EI with the increase in the total percentage of GPi cells and GPe fibers activated (figure 11B). Similar to STN DBS, maximal activation of only GPi LC or only GPe FOP resulted in low error rates, but improved thalamic fidelity could also be achieved by co-activation of GPi LC and GPe FOP. Although activation of GPi LCs and GPe FOPs had differing effects on the thalamus, either tonic inhibition or disinhibition of the thalamus respectively, both of these effects led to improved thalamic fidelity. Therefore during co-activation of GPe FOPs and GPi LCs, the thalamic cells experienced both disinhibition, via GPi cells inhibition by GPe FOP activation, and tonic inhibition via GPi LC activation, both resulting in increased thalamic transmission accuracy. There was a marginal benefit of GPe activation over GPi activation, with slightly lower EIs produced when only GPe FOPs were activated as compared to activation of only GPi LCs. Thalamic output was again less affected by the ratio of LC to FOP activation, with all ratios resulting in a wide range of EIs, dependent on the overall level of activation (figure 11C).
+
+4.3 STN/GPi Lesion
+
+The effects of lesions in the STN and GPi on thalamic relay fidelity were investigated by silencing different proportions of LCs and FOPs. Silencing of STN LCs by lesioning resulted in a decrease in thalamic fidelity because GP neurons had a propensity to fire in bursts in the Parkinsonian condition (figure 12Ai). Silencing of GPi FOPs, however, led to a removal of thalamic inhibition, and increased fidelity (figure 12Aii). Since silencing of STN LCs and GPi FOPs had opposing effects on thalamic fidelity, the ratio of STN LC silencing to GPi FOP silencing, instead of the total percentage of neurons silenced, determined the EI (figure 12B, 12C), and thalamic fidelity was restored only when a greater number of GPi FOPs than STN LCs were silenced.
+
+Figure 12
+Figure 12
+(A) Firing patterns of subthalmic nucleus (STN), globus pallidus externa (GPe), globus pallidus interna (GPi) and thalamic (TH) cells during silencing of STN local cells (LCs) and GPi fibers of passage (FOPs) during STN lesion. Examples from one neuron ...
+During GPi lesioning, silencing of GPi LCs, GPe FOPs, or combinations thereof led to increased thalamic fidelity. Similar to silencing of the GPi FOPs, silencing of GPi LCs removed inhibition from thalamic neurons, and the thalamus responded more faithfully to inputs (figure 13Ai). When GPe FOPs were silenced, both the STN and GPi were disinhibited, and GPi neurons fired at a regular high rate. This change in firing pattern within the GPi regularized inhibition to the thalamus, and the fidelity of information relay was restored (figure 13Aii). Since silencing of both GPi LCs and GPe FOPs led to a decrease in thalamic errors, the error index decreased with the increase in the total percentage of GPi LCs and GPe FOPs silenced (figure 13B). There was a slight benefit of silencing only GPe FOPs over silencing only GPi LCs. Thalamic output was less affected by the ratio of LC to FOP silencing, with all ratios resulting in a wide range of EIs, dependent on the overall proportion of neurons silenced (figure 13C).
+
+Figure 13
+Figure 13
+(A) Firing patterns of subthalmic nucleus (STN), globus pallidus externa (GPe), globus pallidus interna (GPi) and thalamic (TH) cells during silencing of GPi local cells (LCs) and GPe fibers of passage (FOPs) during GPi lesion. Examples from one neuron ...
+Go to:
+5. Discussion
+We modified and validated a computational model of the basal ganglia-thalamic network, and subsequently used this model to investigate the effectiveness of STN and GPi DBS as well as lesion when various proportions of local cells and fibers of passage were activated or silenced, respectively. The BG network exhibited characteristics consistent with published experimental data, both on the level of single cells and on the network level. Perhaps most notably, and in contrast to the original RT model, the changes in the thalamic error index with changes in the DBS frequency matched well the changes in clinical symptoms with changes in DBS frequency (Moro et al. 2002; Timmermann et al. 2004; Fogelson et al. 2005; Birdno and Grill 2008; Eusebio et al. 2008). The model revealed two distinct mechanisms by which both DBS and lesion led to improvements in thalamic throughput fidelity ? either driving the output of the basal ganglia to reduce bursting in the GPi, producing tonic inhibition of the thalamus, consistent with experimental recordings (Hahn et al. 2008), and the previous computational work of Rubin and Terman (2004) and Hahn et al. (2010); or silencing the output of the basal ganglia to produce tonic disinhibition of the thalamus, consistent with the classical view of the Ågvirtual lesionÅh effects of DBS. The regularized pattern of thalamic inhibition with stimulation or lesion was in strong contrast to the phasic inhibition of the thalamus driven by the GPi bursting activity present in PD, and regular inhibition is correlated with symptom reduction during DBS in MPTP treated monkeys (Guo et al. 2008) and persons with PD (Dorval et al. 2010).
+
+5.1 Applications in DBS
+
+The outcome of DBS was highly dependent on the extent of activation of various neural elements within the basal ganglia. Different sites of stimulation within the same target can activate different proportions of LCs of the target nucleus and axon FOPs from neighboring nuclei (Miocinovic et al. 2006; Johnson et al. 2008). In general, co-activation of both LC and FOP was neither detrimental nor advantageous as compared to selective activation of either LC or FOP alone, when considering only changes in EI for both STN and GPi DBS. Furthermore, the ratio of LC to FOP activation did not play an important role in determining the outcome of either STN or GPi DBS. A particular ratio of LC to FOP activation produced a wide range of EIs, and multiple combinations of LC to FOP activation resulted in comparable effectiveness. Since the activation of the passing fibers did not work against but instead enhanced the effect of DBS, the total proportion of activation of all neural elements was the stronger influence in determining DBS effectiveness for both STN and GPi DBS, regardless of the ratio of LC to FOP activation. However, the present analysis did not consider the role of activation or silencing of different neural elements in side effects from DBS or lesion.
+
+Results from the present study provide potential explanations for clinical observations related to contact choice in both STN and GPi-DBS. The model shows that activation of GPi FOPs during STN-DBS may be beneficial to the final outcome of the treatment. GPi fibers within the lenticular fasiculus run dorsal to the STN (Parent and Parent 2004). Selection of the dorsal contacts within the STN as cathodes would cause activation of these GPi fibers, as well as increase co-activation of STN LCs and GPi FOPs. Therefore, the results from the model support the use of dorsal contacts for STN-DBS. This is consistent with clinical studies that have shown correlations between the location of the active contact within the target nuclei and the outcome of STN-DBS. Retrospective studies using magnetic resonance imaging have indicated that the dorsal areas of the STN, the dorsal border of the STN, and structures dorsal to the STN (e.g., zona incerta) are effective sites for STN DBS in PD (Voges et al. 2002; Hamel et al. 2003; Yelnik et al. 2003; Zonenshayn et al. 2004; Godinho et al. 2006; Yokoyama et al. 2006; Pollo et al. 2007; Johnsen et al. 2010). Computational studies that combined quantitative clinical outcome measures with brain atlas models have also indentified areas dorsal to the STN as optimal target regions for treating rigidity and bradykinesia (Butson et al. 2010).
+
+Similarly for GPi-DBS, activation of GPe FOPs enhanced the effect of GPi-DBS on EI. GPe fibers mainly course through the GPi (Parent et al. 2000; Sato et al 2000), and the model supports the use of contacts within central GPi as cathodes to maximize both GPi LC and GPe FOP recruitment. Indeed, using activation profiles of LC and FOP during GPi-DBS from Johnson et al. (2008), the middle contacts resulted in greater effectiveness as compared to the contacts at the edge of the lead, and a lower voltage could be used with similar effectiveness for contacts located in the center of the GPi. This result is consistent with a recent mapping of the GPi that suggested the medial portions of the GPi as the targets during GPi DBS for PD since more fibers traverse through these sensorimotor regions of the GPi (Baker et al., 2010). Another study on GPi-DBS showed that stimulating ventral GPi leads to improvement in levodopainduced dyskinesias and rigidity but worsening of akinesia and gait, while stimulation of dorsal GPi could lead to worsening of dyskinesias but improved gait and rigidity (Bejjani et al. 1997; Krack et al. 1998), showing that stimulating either of the GPi polar regions is not completely ideal.
+
+5.2 Applications in Lesioning
+
+The outcome of STN lesioning was dependent on the type of neural element being silenced. STN lesioning was effective when only GPi FOPs were silenced, but not when only STN LCs were silenced. Our model showed that without STN input, GPe and GPi cells exhibited increased bursting activity which reduced the fidelity of thalamic transmission, in contrast to recent findings by Hahn and McIntyre (2010) that showed a decrease in GPi bursting when STN was silenced. Although an increase in bursting of GP neurons following STN lesion has been observed experimentally (Chang et al. 2003), the mechanism(s) underlying this effect is unclear. It is well known that the reciprocal STN-GPe connection is involved in the generation and propagation of oscillations in the basal ganglia (Plenz and Kital 1999). However, lateral inhibition between GP neurons could also play a part in generating the abnormal oscillations (Stanford 2003; Mallet et al. 2008). Whether an intact STN-GPe connection is required for the generation of these oscillations, or whether they could be sustained by the lateral GPe-GPe inhibition or other cortical or striatal inputs to the GPe (Magill et al. 2001; Kita and Kita 2011) remains to be confirmed experimentally. Our model shows that bursting in the GPe cells became more pronounced when STN input was removed, but was replaced by tonic high frequency firing when inhibition from neighboring GPe cells was removed (results not shown). This supports the hypothesis that increased bursting of GP neurons following STN lesion arises from lateral GPe-GPe inhibitory interactions.
+
+Our results provide a possible explanation for effects seen during lesioning of the STN. Subthalamotomy, or lesioning of the STN, is effective in alleviating symptoms of PD such as akinesia, tremor, and rigidity in MPTP-treated monkeys as well as in persons with advanced PD (Bergman et al. 1990; Aziz et al. 1991). One concern associated with subthalamotomy for the treatment of advanced PD is the high rate of extreme dyskinesias or hemiballism after surgery (Alvarez et al. 2009; Tarsy 2009). It is thought that the size of the STN lesion is related to the development of this side effect. In a lesioning experiment done in normal monkeys, hemiballism was produced by discrete lesions limited to the STN, but not larger lesions that expanded beyond the borders of the STN (Carpenter et al. 1950). In agreement with this finding, a clinical study of reported that 2 out 21 patients who developed persistent dyskinesias had subthalamotomy confined within the STN, while subjects who did not develop side effects had lesions that extended beyond the STN (Patel et al. 2003). However, a consistent correlation has not been established and other studies have shown the opposite trend (Su et al. 2002; Alvarez et al. 2009).
+
+Our results support the involvement of the pallidothalamic pathways in producing beneficial effects of STN lesioning. Larger STN lesions that include the passing GPi fibers may be beneficial since silencing the output from GPi to the thalamus increased the accuracy of thalamic transmission, which is correlated with a reduction in motor symptoms (Dorval et al. 2010). Lesions confined within the STN, however, may not result in benefit, and may contribute to the development of dyskinesias by promoting bursting in GP neurons.
+
+Following GPi lesioning, the BG model showed that silencing of the GPi and GPe would either eliminate or regularize basal ganglia output respectively, which both reduced thalamic transmission errors as compared to phasic inhibition of the thalamus. Pallidotomy, or lesioning of the GPi, alleviates motor symptoms in advanced PD patients, and is at times used in combination with DBS to suppress symptoms or dyskinesias (Alvarez et al. 2009; Coban et al. 2009; Nishio et al. 2009; Kleiner-Fisman et al. 2010). In one study that correlated position of pallidotomy with outcome measures, the unified Parkinson's disease rating scale (UPDRS) motor scores improved more with posterior and centrally located GPi lesions than with anterior lesions (Obwegeser et al. 2008). The better results of central pallidotomy, are consistent with the model findings, as such lesions would not only maximize the number of GPi neurons silenced, but also the number of passing GPe fibers as well.
+
+5.3 Limitations
+
+The BG model is a biologically plausible model of the basal ganglia-thalamic network, and uses a simple error index to quantify the fidelity of thalamic throughput. Thalamic fidelity is correlated with efficacy of symptom alleviation from DBS in both animal models of PD (Guo et al. 2008) and persons with PD (Dorval et al. 2010), providing a quantifiable measurement of DBS and lesion effectiveness. Using this model we examined the different factors that affected the outcome of DBS and lesioning, and the mechanisms involved in producing an effective response. However, there are several limitations to be considered.
+
+Although the model neurons were able to replicate most patterns of firing exhibited by biological neurons in experimental recordings, some differences were present. f?i curves of TH and GP cells had slopes that were either greater or less than expected. The sigmoidal shape of the STN cellsÅf f?i curve was not fully replicated due to the absence of the tertiary range, but such high current amplitudes within the tertiary range were seldom used in our simulations. Cellular firing properties reproduced some but not all of those observed experimentally, and this could influence the dynamics when connected within the BG network. For example, the model GP neuron did not accommodate as readily as biological cells, STN cells responded to hyperpolarizing pulses with a shorter period of bursting, and the delay to the start of spontaneous STN activity after a period of constant stimulation was longer in the model as compared to biological cells. However, such long periods of constant current stimulation followed by a pause were not used in our simulations.
+
+The network under healthy and Parkinsonian conditions exhibited changes in firing rates that were consistent with reported trends in literature, but the proportional increase in firing rates of STN and GPi neurons were lower than expected, while the proportional decrease in firing rate of GPe was greater than that found experimentally. However, even with muted changes in firing rates in the STN and GPi, there were significant changes in patterns of firing in GP model cells from regular to burst-like that resulted in decreases in the fidelity of thalamic throughput.
+
+The bias currents Iapp applied to the STN, GPe, and GPi cells were viewed as the net input from other areas of the brain, and a decrease in Iapp in all three regions was needed to induce bursting in the GP neurons in the Parkinsonian condition. The decrease in applied bias current to the GPi is not consistent with the known decrease in inhibitory striatal input to the GPi during PD. One possible reason for this discrepancy could be that in addition to changes in the level of striatal input, there may be a change in the pattern of firing (i.e., increase in bursting) in the striatal neurons projecting to the GP (Kita and Kita 2011). Hence, there may be an overall decrease in the average amplitude of the current, but an increased oscillatory pattern of current applied to the GPi neurons. However, this possible effect was not captured by the BG model, which assumed a constant Iapp to all the basal ganglia neurons under both the normal and Parkinsonian conditions.
+
+The BG model used single compartment Hodgkin Huxley type neurons and did not take into account the three-dimensional orientation of the different nuclei, the directions of the neuronal projections, or the position of the stimulating electrode. Results from Miocinovic et al. (2006) and Johnson et al. (2008) provided accurate LC and FOP activation profiles, but we were not able to determine the exact neurons to be activated or silenced in a given condition. Proportions of neurons being excited or silenced in our simulations were selected at random, but selecting continuous clusters of neurons for activation or silencing also resulted in the same trends described for random activation. Activation of LCs and FOPs was achieved using intracellular current injection to evoke single spikes following each pulse, and this implementation is valid because activation of either the local cells or fibers produces the same downstream effect, regardless of the origin of action potential. However, the slightly higher synaptic delay for local cell activation compared to activation in the fiber was ignored.
+
+This model did not include connections from structures outside of the basal ganglia, and other fibers of passage surrounding the STN and GPi. For example, there are GPe fibers projecting into and away from the STN and STN fibers projecting through the GP nuclei (Parent and Parent 2000). These GPe FOPs near the STN, or STN FOPs near the GPi could potentially be activated or silenced during STN and GPi DBS or lesioning, respectively, but were not considered in this model. Possible antidromic effects of stimulation of presynaptic axons were also not considered, although antidromic activity may influence the network response to DBS (McIntyre and Hahn 2009).
+
+Another limitation is that the BG model does not take into account side effects of DBS or lesioning, which are important considerations when setting parameters for DBS or when determining areas for lesioning. The absence of paresthesias and dyskinesias is essential for successful DBS and lesioning treatment. Potential side effects could arise from the activation of motor or sensory fibers close to the stimulation target or from lesioning critical areas outside of the STN and GPi. For example, stimulating either the ventral or dorsal GPi produced side effects (Bejjani et al. 1997; Krack et al. 1998), possibly due to the spread of current outside of the target zone. The energy required to achieve activation is also an important consideration when selecting parameters to maximize the lifespan of the stimulator battery (Kuncel and Grill 2004). Although results from the BG network for both STN and GPi-DBS showed that maximal activation of both LCs and FOPs produced the lowest error indexes, the high amplitudes of stimulation needed for greater activation could also produce adverse effects, and this should be considered when drawing conclusions from the BG model.
+
+Go to:
+6. Conclusion
+Surgical intervention continues to be an option for treatment of patients with advanced ParkinsonÅfs disease who do not respond well or have severe side effects from medication. DBS and lesioning can affect both local cells within the target nuclei and fibers of passage from neighboring nuclei, and the relative contributions of local cell and fiber activation and silencing were found to be variable between DBS and lesioning. Activation of both local cells and passing fibers during STN and GPi DBS reduced thalamic transmission errors. During STN lesioning, silencing of GPi fibers contributed to its effectiveness in improving thalamic information transmission. Silencing of STN cells, however, increased bursting of GPe and GPi neurons, resulting in a worsening of the thalamic fidelity. This increase in GP bursting after silencing STN local cells could be a possible mechanism for hemiballism following STN lesioning. Finally, following GPi lesioning, silencing of both local cells and passing GPe fibers contributed to the increase in thalamic fidelity. Our results may provide explanations for the observations that lesioning and selecting active contacts in the dorsal STN and within the central region of the GPi produce the most desired outcomes. Better understanding of the mechanisms behind these surgical techniques could lead to improved surgical treatment options for ParkinsonÅfs disease.
+
+Go to:
+Acknowledgments
+This work was supported in part by a grant from the US National Institutes of Health (NIH R01 NS040894) and in part by Singapore A*STAR BS-PhD National Science Scholarship
+
+Go to:
+Appendix A
+Here we describe the equations and parameters used for each cell type and for the synaptic connections. All potentials have the unit of mV, conductances have the unit of mS/cm2, currents have unit of uA/cm2, and time constants have unit of msec. For all cell models the membrane capacitance is 1 uF/cm2.
+
+Membrane potentials (v) of the TH cells were governed by the equations:
+
+     CmvÅå = ?IL ? INa ? IK ? IT ? IGPiÅ®Th + ISMC
+hÅå = [hÅá(v) ? h]/É—h(v)
+rÅå = [rÅá(v) ? r]/É—r(v)
+Table 1
+
+TH cell model equations and parameters
+
+Current	Equation	Gating variables	Gating variables	Parameters
+IL	     gL(v ? EL)			gL = 0.05
+EL = ?70
+INa	gNamÅá(v)3h(v ? ENa)	mÅá(v)=1/[1+exp(?v+377)]	hÅá(v)=1/[1+exp(v+414)]É—h(v)=1/[0.128exp(?v+4618)+4/(1+exp(?v+235)]	gNa = 3
+ENa = 50
+IK	gK[0.75(1 ? h)](v ? EK)
+*same h as in INa			gK = 5
+EK = ?75
+IT	gTpÅá(v)2r(v ? ET)	pÅá(v)=1/[1+exp(?v+606.2)]	rÅá(v)=1/[1+exp(v+844)]É—r(v)=0.15[28+exp(?v+2510.5)]	gT = 5
+ET = 0
+View it in a separate window
+Membrane potentials (v) of the STN cells were governed by the equations:
+
+     CmvÅå = ?IL ? INa ? IK ? IT ? ICa ? Iahp ? IGPeÅ®STN+Iapp + Idbs
+hÅå = 0.75[hÅá(v) ? h]/É—h(v)
+nÅå = 0.75[nÅá(v) ? n]/É—n(v)
+rÅå = 0.2[rÅá(v) ? r]/É—r(v)
+cÅå = 0.08[cÅá(v) ? c]/É—c(v)
+CAÅå = 3.75 Å~ 10?5 (?ICa ? IT ? 22.5 Å~ CA)
+Table 2
+
+STN cell model equations and parameters
+
+Current	Equation	Gating variables	Gating variables	Parameters
+IL	gL(v ? EL)			gL = 2.25
+EL = ?60
+INa	gNamÅá(v)3h(v ? ENa)	mÅá(v)=1/[1+exp(?v+3015)]	hÅá(v)=1/[1+exp(v+393.1)]É—h(v)=1+500/[1+exp(?v+57?3)]	gNa = 37
+ENa = 55
+IK	gKn4(v ? EK)	nÅá(v)=1/[1+exp(?v+328)]É—n(v)=1+100/[1+exp(?v+80?26)]		gK = 45
+EK = ?80
+IT	gTaÅá(v)3bÅá(r)2r(v ? ET)	aÅá(v)=1/[1+exp(?v+637.8)]bÅá(r)=1/[1+exp(?r?0.40.1)]?[1/[1+exp(4)]	rÅá(v)=1/[1+exp(v+672)]É—r(v)=7.1+17.5/[1+exp(?v+68?2.2)]	gT = 0.5
+ET = 0
+Ica	gcac2(v ? Eca)	cÅá(v)=1/[1+exp(?v+208)]É—c(v)=1+10/[1+exp(v+8026)]		gca = 2
+Eca = 140
+Iahp	gahp(v?Eahp)(CACA+15)			gahp = 20
+Eahp = ?80
+View it in a separate window
+GPe and GPi cells were modeled similarly. Membrane potentials (v) of the GP cells were governed by the equations:
+
+     CmvÅå = ?IL ? INa ? IK ? IT ? ICa ? Iahp ? ISTNÅ®GP + IGPeÅ®GPe/GPi+Iapp + Idbs
+hÅå = 0.75[hÅá(v) ? h]/É—h(v)
+nÅå = 0.75[nÅá(v) ? n]/É—n(v)
+rÅå = 0.2[rÅá(v) ? r]/30
+CAÅå = 1 Å~ 10?4[?ICa ?IT ? 15 Å~ CA
+Table 3
+
+GP cell model equations and parameters
+
+Current	Equation	Gating variables	Gating variables	Parameters
+IL	gL(v ? EL)			gL = 0.1
+EL = ?65
+INa	gNamÅá(v)3h(v ? ENa)	mÅá(v)=1/[1+exp(?v+3710)]	hÅá(v)=1/[1+exp(v+5812)]É—h(v)=0.05+0.27/[1+exp(?v+40?12)]	gNa = 120
+ENa = 55
+IK	gKn4(v ? EK)	nÅá(v)=1/[1+exp(?v+5014)]É—n(v)=0.05+0.27/[1+exp(?v+40?12)]		gK = 30
+EK = ?80
+IT	gTaÅá(v)3r(v ? ET)	aÅá(v)=1/[1+exp(?v+572)]	rÅá(v)=1/[1+exp(v+702)]	gT = 0.5
+ET = 0
+Ica	gcaSÅá(v)3(v ? Eca)	SÅá(v)=1/[1+exp(?v+352)]		gca = 0.15
+Eca = 120
+Iahp	gahp(v?Eahp)(CACA+10)			gahp = 10
+Eahp = ?80
+View it in a separate window
+Table 4
+
+Parameters for synapses
+
+Synapses	Parameters
+ISTNÅ®GPe	gsyn = 0.15, Esyn = 0
+ISTNÅ®GPi	gsyn = 0.15, Esyn = 0
+IGPeÅ®STN	gsyn = 0.5, Esyn = ?85
+IGPeÅ®GPe	gsyn = 0.5, Esyn = ?85
+IGPeÅ®GPi	gsyn = 0.5, Esyn = ?85
+IGPiÅ®TH	gsyn = 0.17, Esyn = ?85
+Table 5
+
+Applied currents to basal ganglia under healthy and parkinsonian conditions
+
+Conditions	Iapp for STN	Iapp for GPe	Iapp for GPi
+Healthy	33 uA/cm2	20 uA/cm2	21 uA/cm2
+Parkinsonian	23 uA/cm2	7 uA/cm2	15 uA/cm2
+Table 6
+
+Differences between original Rubin and Terman Model and modified basal ganglia model
+
+Original Rubin and Terman model
+(2004)	Modified BG model
+Thalamic model
+IK	EK = ?90	EK = ?75
+IT	É—r(v)=28+exp(?v+2510.5)	É—r(v)=0.15[28+exp(?v+2510.5)]
+STN model
+IT	É—r(v)=40+17.5/[1+exp(?v+68?2.2)]	É—r(v)=7.1+17.5/[1+exp(?v+68?2.2)]
+Ica	Ica=gcaSÅá(v)2(v?Eca)SÅá(v)=1/[1+exp(?v+398)]gca=0.5	Ica=gcac2(v?Eca)cÅá(v)=1/[1+exp(?v+208)]É—c(v)=1+10/[1+exp(v+8026)]gca=2
+Iahp	gahp = 9	gahp = 20
+GP model
+IL	EL = ?55	EL = ?65
+Iahp	Iahp=gahp(v?Eahp)(CACA+30)gahp=30	Iahp=gahp(v?Eahp)(CACA+10)gahp=10
+Applied constant currents
+Iapp_stn = 25
+Iapp_gpe = 2/2.2 (healthy/PD)
+Iapp_gpi = 5	Iapp_stn = 33/23 (healthy/PD)
+Iapp_gpe = 21/8 (healthy/PD) 
+Iapp_gpi = 22/16 (healthy/PD)
+Synaptic currents
+Isyn = gsynS(v ? Esyn)
+For all synaptic connections,
+dSdt=2(1?S)HÅá(v?20)?0.04SHÅá(v)=1/[1+exp(?V+572)]	Isyn = gsynS(v ? Esyn)
+For STNÅ®GPe, STNÅ®GPi, GPiÅ®TH (alpha synapse),
+dSdt=zdzdt=0.234u(t)?0.4z?0.04S
+
+u(t)=1 if the presynaptic cell crosses a threshold of ?10mV at time t, indicating the presence of an action potential in the presynaptic cell. Otherwise, u(t)=0.
+
+For GPeÅ®STN, GPeÅ®GPi, GPeÅ®GPe, dSdt=2(1?S)HÅá(v?20)?0.04SHÅá(v)=1/[1+exp(?V+572)]
+gSTNÅ®GPe = 0.3
+gSTNÅ®GPi = 0.3
+gGPeÅ®STN = 0.9
+gGPeÅ®GPe = 1.2/1 (healthy/PD)
+gGPeÅ®GPi = 1
+gGPiÅ®TH = 0.06	gSTNÅ®GPe = 0.15
+gSTNÅ®GPi = 0.15
+gGPeÅ®STN = 0.5
+gGPeÅ®GPe = 0.5
+gGPeÅ®GPi = 0.5
+gGPiÅ®TH = 0.17
+ESTNÅ®GPe = 0
+ESTNÅ®GPi = 0
+EGPeÅ®STN = ?100
+EGPeÅ®GPe = ?80
+EGPeÅ®GPi = ?100
+EGPiÅ®TH = ?85	ESTNÅ®GPe = 0
+ESTNÅ®GPi = 0
+EGPeÅ®STN = ?85
+EGPeÅ®GPe = ?85
+EGPeÅ®GPi = ?85
+EGPiÅ®TH = ?85
+Connections
+3 STN Å®1 GPe
+1 STN Å®1 GPi
+2 GPe Å®1 STN
+2 GPe Å®1 GPe
+2 GPe Å®1 GPi
+8 GPi Å®1 TH	2 STN Å®1 GPe
+2 STN Å®1 GPi
+2 GPe Å®1 STN
+2 GPe Å®1 GPe
+2 GPe Å®1 GPi
+1 GPi Å®1 TH
+Go to:
+References
+1. Afsharpour S. Light microscopic analysis of Golgi-impregnated rat subthalamic neurons. Journal of Computational Neurology. 1985;236(1):1?13. [PubMed]
+2. Alvarez L, Macias R, Pavon N, Lopez G, Rodriguez-Oroz MC, Rodriguez R, Alvarez M, Pedroso I, Teijeiro J, Fernandez R, Casabona E, Salazar S, Maragoto C, Carballo M, Garcia I, Guridi J, Juncos JL, DeLong MR, Obeso JA. Therapeutic efficacy of unilateral subthalamotomy in Parkinson's disease: results in 89 patients followed for up to 36 months. Journal of Neurology, Neurosurgery and Psychiatry. 2009;80(9):979?985. [PubMed]
+3. Aziz TZ, Peggs D, Sambrook MA, Crossman AR. Lesion of the subthalamic nucleus for the alleviation of 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP)-induced parkinsonism in the primate. Movement Disorders. 1991;6(4):288?292. [PubMed]
+4. Baker KB, Lee JY, Mavinkurve G, Russo GS, Walter B, DeLong MR, Bakay RA, Vitek JL. Somatotopic organization in the internal segment of the globus pallidus in Parkinson's disease. Experimental neurology. 2010;2:219?225. [PubMed]
+5. Bejjani B, Damier P, Arnulf I, Bonnet AM, Vidailhet M, Dormont D, Pidoux B, Cornu P, Marsault C, Agid Y. Pallidal stimulation for ParkinsonÅfs disease: Two targets? Neurology. 1997;49:1564?1569. [PubMed]
+6. Begman H, Wichmann T, DeLong MR. Reversal of Experimental Parkinsonism By Lesions of the STN. Science. 1990;249:1436?1438. [PubMed]
+7. Bergman H, Wichmann T, Karmon B, DeLong MR. The primate subthalamic nucleus. II. Neuronal activity in the MPTP model of parkinsonism. Journal of Neurophysiology. 1994;72:507?520. [PubMed]
+8. Bergman H, Feingold A, Nini A, Raz A, Slovin H, Abeles M, Vaadia E. Physiological aspects of information processing in the basal ganglia of normal and parkinsonian primates. Trends in Neuroscience. 1998;21 32-28. [PubMed]
+9. Benazzouz A, Breit S, Koudsie A, Pollak P, Krack P, Benabid AL. Intraoperative microrecordings of the subthalamic nucleus in Parkinson's disease. Movement Disorders. 2002;17(Suppl 3):S145?S149. [PubMed]
+10. Beurrier C, Congar P, Bioulac B, Hammond C. Subthalamic Nucleus Neurons Switch from Single-Spike Activity to Burst-Firing Mode. Journal of Neuroscience. 1999;19:599?609. [PubMed]
+11. Bevan MD, Wilson CJ. Mechanisms underlying spontaneous oscillation and rhythmic firing in rat subthalamic neurons. Journal of Neuroscience. 1999;19(17):7617?7628. [PubMed]
+12. Bevan MD, Magill PJ, Terman D, Bolam JP, Wilson CJ. Move to the rhythm: oscillations in the subthalamic nucleus?external globus pallidus network. Trends in Neurosciences. 2002;25:525?531. [PubMed]
+13. Birdno MJ, Grill WM. Mechanisms of deep brain stimulation in movement disorders as revealed by changes in stimulus frequency. Neurotherapeutics. 2008;5(1):14?25. Review. [PMC free article] [PubMed]
+14. Boraud T, Bezard E, Guehl D, Bioulac B, Gross C. Effects of L-DOPA on neuronal activity of the globus pallidus externalis (GPe) and globus pallidus internalis (GPi) in the MPTP-treated monkey. Brain Research. 1998;787:157?160. [PubMed]
+15. Brown P, Oliviero A, Mazzone P, Insola A, Tonali P, Di Lazzaro V. Dopamine Dependency of Oscillations between Subthalamic Nucleus and Pallidum in ParkinsonÅfs Disease. Journal of Neuroscience. 2001;21:1033?1038. [PubMed]
+16. Butson CR, Cooper SE, Henderson JM, Wolgamuth B, McIntyre CC. Probabilistic analysis of activation volumes generated during deep brain stimulation. Neuroimage. 2010;54(3):2096?2104. [PMC free article] [PubMed]
+17. Carpenter MB, Whittier JR, Mettler FA. Analysis of choreoid hyperkinesia in the Rhesus monkey; surgical and pharmacological analysis of hyperkinesia resulting from lesions in the subthalamic nucleus of Luys. Journal of Comparative Neurology. 1950;92(3):293?331. [PubMed]
+18. Chang JW, Yang JS, Jeon MF, Lee BH, Chung SS. Effect of subthalamic lesion with kainic acid on the neuronal activities of the basal ganglia of rat parkinsonian models with 6-hydroxydopamine. Acta neurochirurgica. 2003;(Supplement 87):163?168. [PubMed]
+19. Coban A, Hanagasi HA, Karamursel S, Barlas O. Comparison of unilateral pallidotomy and subthalamotomy findings in advanced idiopathic Parkinson's disease. British Journal of Neurosurgery. 2009;23(1):23?29. [PubMed]
+20. Cooper AJ, Stanford IM. Electrophysiological and morphological characteristics of three subtypes of rat globus pallidus neurone in vitro. Journal of Physiology. 2000;527(Pt 2):291?304. [PMC free article] [PubMed]
+21. Costa RM, Lin SC, Sotnikova TD, Cyr M, Gainetdinov RR, Caron MG, Nicolelis MA. Rapid alterations in corticostriatal ensemble coordination during acute dopamine-dependent motor dysfunction. Neuron. 2006;52:359?369. [PubMed]
+22. Destexhe A, Neubig M, Ulrich D, Huguenard J. Dendritic low-threshold calcium currents in thalamic relay cells. Journal of Neuroscience. 1998;18(10):3574?3588. [PubMed]
+23. Dorval AD, Russo GS, Hashimoto T, Xu W, Grill WM, Vitek JL. Deep Brain Stimulation Reduces Neuronal Entropy in the MPTP-Primate Model of ParkinsonÅfs disease. Journal of Neurophysiology. 2009;100:2807?2818. [PMC free article] [PubMed]
+24. Dorval AD, Kuncel AM, Birdno MJ, Turner DA, Grill WM. Deep brain stimulation alleviates parkinsonian bradykinesia by regularizing pallidal activity. Journal of Neurophysiology. 2010;801 [PMC free article] [PubMed]
+25. Eusebio A, Chen CC, Lu CS, Lee ST, Tsai CH, Limousin P, Hariz M, Brown P. Effects of low-frequency stimulation of the subthalamic nucleus on movement in Parkinson's disease. Experimental Neurology. 2008;209:125?130. [PMC free article] [PubMed]
+26. Feng XJ, Shea-Brown E, Greenwald B, Kosut R, Rabitz H. Optimal deep brain stimulation of the subthalamic nucleus--a computational study. Journal of Computational Neuroscience. 2007;23(3):265?282. [PubMed]
+27. Fogelson N, Kuhn AA, Silberstein P, Limousin PD, Hariz M, Trottenberg T, Kupsch A, Brown P. Frequency dependent effects of subthalamic nucleus stimulation in ParkinsonÅfs disease. Neuroscience letters. 2005;382:5?9. [PubMed]
+28. Garcia L, D'Alessandro G, Fernagut PO, Bioulac B, Hammond C. Impact of High-Frequency Stimulation Parameters on the Pattern of Discharge of Subthalamic Neurons. Journal of Neurophysiology. 2005;94:3662?3669. [PubMed]
+29. Godinho F, Thobois S, Magnin M, Guenot M, Polo G, Benatru I, Xie J, Salvetti A, Garcia-Larrea L, Broussolle E, Mertens P. Subthalamic nucleus stimulation in ParkinsonÅfs disease: anatomical and electrophysiological localization of active contacts. Journal of Neurology. 2006;253:1347?1355. [PubMed]
+30. Grill WM, Snyder AN, Miocinovic S. Deep brain stimulation creates an informational lesion of the stimulated nucleus. Neuroreport. 2004;15:1137?1140. [PubMed]
+31. Gross RE. What happened to posteroventral pallidotomy for Parkinson's disease and dystonia? Neurotherapeutics. 2008;5(2):281?293. [PubMed]
+32. Guo Y, Rubin JE, McIntyre CC, Vitek JL, Terman D. Thalamocortical relay fidelity varies across subthalamic nucleus deep brain stimulation protocols in a data-driven computation model. Journal of Neurophysiology. 2008;99:1477?1492. [PubMed]
+33. Hahn PJ, Hashimoto T, Russo GS, Xu W, Miocinovic S, Mcintyre C, Vitek JL. Pallidal burst activity during therapeutic deep brain stimulation. Experimental Neurology. 2008;211:243?251. [PMC free article] [PubMed]
+34. Hahn PJ, McIntyre CC. Modeling shifts in the rate and pattern of subthalamopallidal network activity during deep brain stimulation. Journal of computational neuroscience. 2010;28:425?441. [PMC free article] [PubMed]
+35. Hallworth N, Wilson C, Bevan M. Apamin-Sensitive Small Conductance Calcium-Activated Potassium Channels, through their Selective Coupling to Voltage-Gated Calcium Channels, Are Critical Determinants of the Precision, Pace, and Pattern of Action Potential Generation in Rat. Journal of Neuroscience. 2003;23:7525?7542. [PubMed]
+36. Hamel W, Fietzek U, Morsnowski A, Schrader B, Herzog J, Weinert D, Pfister G, Muller D, Volkmann J, Deuschl G, Mehdorn HM. Deep brain stimulation of the subthalamic nucleus in ParkinsonÅfs disease: evaluation of active electrode contacts. Journal of Neurology, Neurosurgery and Psychiatry. 2003;74:1036?1046. [PMC free article] [PubMed]
+37. Hashimoto T, Elder CM, Okun MS, Patrick SK, Vitek JL. Stimulation of the subthalamic nucleus changes the firing pattern of pallidal neurons. Journal of Neuroscience. 2003;23:1916?1923. [PubMed]
+38. Hassini OK, Mouroux M, Feger J. Increased subthalamic neuronal activity after nigral dopaminergic lesion independent of disinhibition via the globus pallidus. Neuroscience. 1996;72:105?115. [PubMed]
+39. Jahnsen H, Llinas R. Electrophysiological properties of guinea-pig thalamic neurones: An In Vitro Study. Journal of Physiology. 1984;349:205?226. [PMC free article] [PubMed]
+40. Johnsen EL, Sunde N, Mogensen PH, Ostergaard K. MRI verified STN stimulation site ? gait improvement and clinical outcome. European Journal of Neurology. 2010;17:746?753. [PubMed]
+41. Johnson MD, McIntyre CC. Quantifying the Neural Elements Activated and Inhibited by Globus Pallidus Deep Brain Stimulation. Journal of Neurophysiology. 2008;100:2549?2563. [PMC free article] [PubMed]
+42. Kita H, Kitai ST. Intracellular study of rat globus pallidus neurons: membrane properties and responses to neostriatal, subthalamic and nigral stimulation. Brain Research. 1991;564:296?305. [PubMed]
+43. Kita H, Kita T. Role of Striatum in the Pause and Burst Generation in the Globus Pallidus of 6-OHDA-Treated Rats. Frontiers in systems neuroscience. 2011;5:1?11. [PMC free article] [PubMed]
+44. Kleiner-Fisman G, Lozano A, Moro E, Poon YY, Lang AE. Long-term effect of unilateral pallidotomy on levodopa-induced dyskinesia. Movment Disorders. 2010;25(10):1496?1498. [PubMed]
+45. Krack P, Pollak P, Limousin P, Hoffmann D, Benazzouz A, Le Bas JF, Koudsie A, Benabid AL. Opposite motor effects of pallidal stimulation in ParkinsonÅfs disease. Annals of Neurology. 1998;43:180?192. [PubMed]
+46. Levy R, Hutchison WD, Lozano AM, Dostrovsky JO. High-frequency Synchronization of Neuronal Activity in the Subthalamic Nucleus of Parkinsonian Patients with Limb Tremor. Journal of Neuroscience. 2000;20:7766?7775. [PubMed]
+47. Levy R, Ashby P, Hutchison WD, Lang AE, Lozano AM, Dostrovsky JO. Dependence of subthalamic nucleus oscillations on movement and dopamine in Parkinson's disease. Brain. 2002;125:1196?1209. [PubMed]
+48. Magill PJ, Bolam JP, Bevan MD. Dopamine regulates the impact of the cerebral cortex on the subthalamic nucleus globus pallidus network. Neuroscience. 2001;106:313?330. [PubMed]
+49. Magnin M, Morel A, Jeanmonod D. Single-unit analysis of the pallidum, thalamus and subthalamic nucleus in parkinsonian patients. Neuroscience. 2000;96:549?564. [PubMed]
+50. Mallet N, Pogosyan A, Marton LF, Bolam, Paul BJ, Peter B, Magill PJ. Parkinsonian beta oscillations in the external globus pallidus and their relationship with subthalamic nucleus activity. Journal of neuroscience. 2008;28:14245?14258. [PMC free article] [PubMed]
+51. McIntyre CC, Grill WM, Sherman DL, Thakor NV. Cellular effects of deep brain stimulation: model-based analysis of activation and inhibition. Journal of Neurophysiology. 2004;91:1457?1469. [PubMed]
+52. McIntyre CC, Hahn PJ. Network perspectives on the mechanisms of deep brain stimulation. Neurobiology of Disease. 2009;38(3):329?337. [PMC free article] [PubMed]
+53. Miocinovic S, Parent M, Butson CR, Hahn PJ, Russo GS, Vitek JL, McIntyre CC. Computational analysis of subthalamic nucleus and lenticular fasciulus activation during therapeutic deep brain stimulation. Journal of Neurophysiology. 2006;96:1569?1580. [PubMed]
+54. Moro E, Esselink RJ, Xie J, Hommel M, Benabid AL, Pollak P. The impact on ParkinsonÅfs disease of electrical parameter settings in STN stimulation. Neurology. 2002;59:706?713. [PubMed]
+55. Moro E, Lozano AM, Pollak P, Agid Y, Rehncrona S, Volkmann J, Kulisevsky J, Obeso JA, Albanese A, Hariz MI, Quinn NP, Speelman JD, Benabid AL, Fraix V, Mendes A, Welter ML, Houeto JL, Cornu P, Dormont D, Tornqvist AL, Ekberg R, Schnitzler A, Timmermann L, Wojtecki L, Gironell A, Rodriguez-Oroz MC, Guridi J, Bentivoglio AR, Contarino MF, Romito L, Scerrati M, Janssens M, Lang AE. Long-Term Results of a Multicenter Study on Subthalamic and Pallidal Stimulation in ParkinsonÅfs disease. Movement Disorders. 2010;25:578?586. [PubMed]
+56. Montgomery EB., Jr Effect of subthalamic nucleus stimulation patterns on motor performance in Parkinson's disease. Parkinsonism and related disorders. 2005;11:167?171. [PubMed]
+57. Nambu A, Llinas R. Electrophysiology of Globus Pallidus Neurons In Vitro. Journal of Neurophysiology. 1994;72:1127?1139. [PubMed]
+58. Nishio M, Korematsu K, Yoshioka S, Nagai Y, Maruo T, Ushio Y, Kaji R, Goto S. Long-term suppression of tremor by deep brain stimulation of the ventral intermediate nucleus of the thalamus combined with pallidotomy in hemiparkinsonian patients. Journal of Clinical Neuroscience. 2009;16(11):1489?1491. [PubMed]
+59. Obwegeser AA, Uitti RJ, Lucas JA, Witte RJ, Turk MF, Galiano K, Wharen RE. Correlation of outcome to neurosurgical lesions: confirmation of a new method using data after microelectrode-guided pallidotomy. British Journal of Neurosurgery. 2008;22(5):654?662. [PubMed]
+60. Okun MS, Vitek JL. Lesion therapy for Parkinson's disease and other movement disorders: update and controversies. Movement Disorders. 2004;19(4):375?389. [PubMed]
+61. Parent A, Sato F, Wu Y, Gauthier J, Levesque M, Parent M. Organization of the basal ganglia: the importance of axonal collateralization. Trends in Neuroscience. 2000;10(Suppl):S20?S27. [PubMed]
+62. Parent M, Levesque M, Parent A. Two types of projection neurons in the internal pallidum of primates: single-axon tracing and three-dimensional reconstruction. The Journal of comparative neurology. 2001;439:162?175. [PubMed]
+63. Parent M, Parent A. The pallidofugal motor fiber system in primates. Parkinsonism and Related Disorders. 2004;10:203?211. [PubMed]
+64. Patel NK, Heywood P, O'Sullivan K, McCarter R, Love S, Gill SS. Unilateral subthalamotomy in the treatment of Parkinson's disease. Brain. 2003;126(Pt 5):1136?1145. [PubMed]
+65. Pirini M, Rocchi L, Sensi M, Chiari L. A computational modelling approach to investigate different targets in deep brain stimulation for Parkinson's disease. Journal of Computational Neuroscience. 2009;26(1):91?107. [PubMed]
+66. Plenz D, Kital ST. A basal ganglia pacemaker formed by the subthalamic nucleus and external globus pallidus. Nature. 1999;400:677?682. [PubMed]
+67. Pollo C, Vingerhoets F, Pralong E, Ghika J, Maeder P, Meuli R, Thiran JP, Villemure JG. Localization of electrodes in the subthalamic nucleus on magnetic resonance imaging. Journal of Neurosurgery. 2007;106:36?44. [PubMed]
+68. Rubin JE, Terman D. High frequency stimulation of the subthalamic nucleus eliminates pathological thalamic rhythmicity in a computational model. Journal of Computational Neuroscience. 2004;16:211?235. [PubMed]
+69. Sato F, Lavallee P, Levesque M, Parent A. Single-axon tracing study of neurons of the external segment of the globus pallidus in primate. Journal of Comparative Neurology. 2000;417:17?31. [PubMed]
+70. Smith Y, Bevan MD, Shink E, Bolam JP. Microcircuitry of the direct and indirect pathways of the basal ganglia. Neuroscience. 1998;86:353?387. [PubMed]
+71. St George RJ, Nutt JG, Burchiel KJ, Horak FB. A meta-regression of the long-term effects of deep brain stimulation on balance and gait in PD. Neurology. 2010;75(14):1292?1299. [PMC free article] [PubMed]
+72. Steigerwald F, Potter M, Herzog J, Pinsker M, Kopper F, Mehdorn H, Deuschl G, Volkmann J. Neuronal Activity of the Human Subthalamic Nucleus in the Parkinsonian and Nonparkinsonian State. Journal of Neurophysiology. 2008;100:2515?2524. [PubMed]
+73. Su PC, Tseng HM, Liu HM, Yen RF, Liou HH. Subthalamotomy for advanced Parkinson disease. Journal of Neurosurgery. 2002;97(3):598?606. [PubMed]
+74. Surmeier DJ, Ding J, Day M, Wang Z, Shen W. D1 and D2 dopamine-receptor modulation of striatal glutamatergic signaling in striatal medium spiny neurons. Trends in neurosciences. 2007;5:228?235. [PubMed]
+75. Tarsy D. Does subthalamotomy have a place in the treatment of Parkinson's disease? Journal of Neurology, Neurosurgery and Psychiatry. 2009;80(9):939?940. [PubMed]
+76. Terman D, Rubin JE, Yew AC, Wilson CJ. Activity patterns in a model for the subthalamopallidal network of the basal ganglia. Journal of Neuroscience. 2002;22:2963?2976. [PubMed]
+77. Timmermann L, Wojtecki L, Gross J, Lehrke R, Voges J, Maarouf M, Treuer H, Sturm V, Schnitzler A. Ten-hertz stimulation of subthalamic nucleus deteriorates motor symptoms in Parkinson's disease. Movement Disorders. 2004;19:1328?1333. [PubMed]
+78. Voges J, Volkmann J, Allert N, Lehrke R, Koulousakis A, Freund HJ, Sturm V. Bilateral high-frequency stimulation in the subthalamic nucleus for the treatment of Parkinson disease: correlation of therapeutic effect with anatomical electrode position. Journal of Neurosurgery. 2002;96:269?279. [PubMed]
+79. Weaver FM, Follett K, Stern M, Hur K, Harris C, Marks WJ, Jr, Rothlind J, Sagher O, Reda D, Moy CS, Pahwa R, Burchiel K, Hogarth P, Lai EC, Duda JE, Holloway K, Samii A, Horn S, Bronstein J, Stoner G, Heemskerk J, Huang GD. CSP 468 Study Group. Bilateral Deep Brain Stimulation vs Best Medical Therapy for Patients With Advanced Parkinson Disease: A Randomized Controlled Trial. JAMA. 2009;301:63?73. [PMC free article] [PubMed]
+80. Wilson CJ, Weyrick A, Terman D, Hallworth NE, Bevan MD. A Model of Reverse Spike Frequency Adaptation and Repetitive Firing of Subthalamic Nucleus Neurons. Journal of Neurophysiology. 2004;91:1963?1980. [PubMed]
+81. Wilson CL, Cash D, Galley K, Chapman H, Lacey MG, Stanford IM. Subthalamic nucleus neurones in slices from 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine-lesioned mice show irregular, dopamine-reversible firing pattern changes, but without synchronous activity. Neuroscience. 2006;143:565?572. [PubMed]
+82. Wichmann T, Bergman H, DeLong MR. The primate subthalamic nucleus. III. Changes in motor behavior and neuronal activity in the internal pallidum induced by subthalamic inactivation in the MPTP model of parkinsonism. Journal of Neurophysiology. 1994b;72:521?530. [PubMed]
+83. Wichmann T, Soares J. Neuronal firing before and after burst discharges in the monkey basal ganglia is predictably patterned in the normal state and altered in parkinsonism. Journal of Neurophysiology. 2006;95:2120?2133. [PubMed]
+84. Xu W, Russo GS, Hashimoto T, Zhang J, Vitek JL. Subthalamic Nucleus Stimulation Modulates Thalamic Neuronal Activity. Journal of Neuroscience. 2008;28:11916?11924. [PMC free article] [PubMed]
+85. Yelnik J, Damier P, Demeret S, Gervais D, Bardinet E, Bejjani BP, Francois C, Houeto JL, Arnule I, Dormont D, Galanaud D, Pidoux B, Cornu P, Agid Y. Localization of 29 stimulating electrodes in patients with Parkinson disease by using a three-dimensional atlas-magnetic resonance imaging coregistration method. Journal of Neurosurgery. 2003;99:89?99. [PubMed]
+86. Yokoyama T, Ando N, Sugiyama K, Akamine S, Namba H. Relationship of stimulation site location within the subthalamic nucleus region to clinical effects on parkinsonian symptoms. Stereotactic and Functional Neurosurgery. 2006;84(4):70?175. [PubMed]
+87. Zonenshayn M, Sterio D, Kelly PJ, Rezai AR, Beric A. Location of the active contact within the subthalamic nucleus (STN) in the treatment of idiopathic ParkinsonÅfs disease. Surgical Neurology. 2004;62:216?226. [PubMed]

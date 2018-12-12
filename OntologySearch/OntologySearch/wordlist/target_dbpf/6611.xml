@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6611">
+<itemtype>xnppaper</itemtype>
+<titles><title>Multiple repetitions reveal functionally and anatomically distinct patterns of hippocampal activity during continuous recognition memory.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Female</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:11:32Z</last_update_date>
+<creation_date>2013-02-26T06:11:32Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6611</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6611" version="1.02">
+<authors><author>Johnson JD</author><author>Muftuler LT</author><author>Rugg MD</author></authors>
+<journal>Hippocampus</journal>
+<volume>18</volume>
+<number>10</number>
+<page>975-80</page>
+<abstract>We used a continuous recognition procedure that included multiple presentations of test items, along with high-resolution functional magnetic resonance imaging (fMRI), to investigate the relationship between item novelty and recognition-related activity in the medial temporal lobe (MTL). In several regions of hippocampus and parahippocampal cortex, activity elicited by new items exceeded that for old items, whereas no MTL regions exhibited greater activity for old items. Critically, anatomically distinct regions of MTL were engaged by item novelty in two different ways, as evidenced by statistically dissociable profiles of activity. In bilateral medial hippocampus and left posterior parahippocampal cortex, activity followed a categorical profile in which it was greater for new than old items but did not differ further with additional presentations of old items. By contrast, effects in adjacent regions of right lateral hippocampus and left parahippocampal cortex were graded, whereby activity declined linearly with respect to each successive item presentation. These findings suggest that the relationship between hippocampal (and parahippocampal) activity and continuous psychological dimensions, such as item novelty, cannot be captured by a unitary function.</abstract>
+<pubmed_id>18548578</pubmed_id>
+</detail>
+</item>

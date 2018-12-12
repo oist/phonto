@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="9267">
+<itemtype>xnppaper</itemtype>
+<titles><title>Attenuation of mania-like behavior in Na(+),K(+)-ATPaseα3 mutant mice by prospective therapies for bipolar disorder: melatonin and exercise.</title>
+</titles>
+<contributor uname='admin_KWL2'>Hiroaki Wagatsuma(admin_KWL2)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>drug effects</keyword>
+<keyword>Bipolar Disorder</keyword>
+<keyword>drug therapy</keyword>
+<keyword>therapy</keyword>
+<keyword>Brain-Derived Neurotrophic Factor</keyword>
+<keyword>metabolism</keyword>
+<keyword>Disease Models</keyword>
+<keyword>Animal</keyword>
+<keyword>Exercise Therapy</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>Male</keyword>
+<keyword>Melatonin</keyword>
+<keyword>therapeutic use</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Mice</keyword>
+<keyword>Mutant Strains</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>drug effects</keyword>
+<keyword>Sleep</keyword>
+<keyword>drug effects</keyword>
+<keyword>Sodium-Potassium-Exchanging ATPase</keyword>
+<keyword>genetics</keyword>
+</keywords>
+<description>Wagatsuma Lab, FY2015, EEG-EMG, Balbir Singh</description>
+<doi></doi>
+<last_update_date>2015-03-28T08:16:43Z</last_update_date>
+<creation_date>2015-03-28T08:16:43Z</creation_date>
+<publication_year>2014</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=9267</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="9267" version="1.02">
+<authors><author>Kirshenbaum GS</author><author>Burgess CR</author><author>Déry N</author><author>Fahnestock M</author><author>Peever JH</author><author>Roder JC</author></authors>
+<journal>Neuroscience</journal>
+<volume>260</volume>
+<number></number>
+<page>195-204</page>
+<abstract>Bipolar disorder is a neuropsychiatric disease characterized by states of mania with or without depression. Pharmacological treatments can be inadequate at regulating mood for many individuals. Melatonin therapy and aerobic exercise are independent prospective therapies for bipolar disorder that have shown potential as mood stabilizers in humans. Myshkin mice (Myk/+) carry a heterozygous missense mutation in the neuronal Na(+),K(+)-ATPaseα3 and model mania-related symptoms of bipolar disorder including increased activity, risk-taking behavior and reductions in sleep. One cohort of Myk/+ and wild-type littermates (+/+) was treated with melatonin and a separate cohort was treated with voluntary exercise. Mania-related behavior was assessed in both cohorts. The effect of melatonin on sleep and the effect of exercise on brain-derived neurotrophic factor (BDNF) expression in the hippocampus were assayed. Melatonin and voluntary wheel running were both effective at reducing mania-related behavior in Myk/+ but did not affect behavior in +/+. Melatonin increased sleep in Myk/+ and did not change sleep in +/+. Myk/+ showed higher baseline levels of BDNF protein in the hippocampus than +/+. Exercise increased BDNF protein in +/+ hippocampus, while it did not significantly affect BDNF levels in Myk/+ hippocampus. These findings support initial studies in humans indicating that melatonin and exercise are useful independent adjunct therapies for bipolar disorder. Their effects on mood regulation should be further examined in randomized clinical trials. Our results also suggest that hippocampal BDNF may not mediate the effectsof exercise on mania-related behavior in the Myk/+ model of mania.</abstract>
+<pubmed_id>24342563</pubmed_id>
+</detail>
+</item>

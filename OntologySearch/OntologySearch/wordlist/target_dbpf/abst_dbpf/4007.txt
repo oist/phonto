@@ -1,0 +1,25 @@
+DEIA
+Adult
+Data Interpretation
+Statistical
+Environment
+Evoked Potentials
+Female
+Hippocampus
+physiology
+Humans
+Image Processing
+Computer-Assisted
+Logic
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Mental Processes
+physiology
+Photic Stimulation
+Reaction Time
+physiology
+Space Perception
+physiology
+It has recently been shown that syllogistic reasoning engages two dissociable neural systems. Reasoning about familiar situations engages a frontal-temporal lobe system, whereas formally identical reasoning tasks involving unfamiliar situations recruit a frontal-parietal visuospatial network. These two systems may correspond to the "heuristic" and "formal" methods, respectively, postulated by cognitive theory. To determine if this dissociation generalizes to reasoning about transitive spatial relations, we studied 14 volunteers using event-related fMRI, as they reasoned about landmarks in familiar and unfamiliar environments. Our main finding is a task (reasoning and baseline) by spatial content (familiar and unfamiliar) interaction. Modulation of reasoning toward unfamiliar landmarks resulted in bilateral activation of superior and inferior parietal lobules (BA 7, 40), dorsal superior frontal cortex (BA 6), and right superior and middle frontal gyri (BA 8), regions widely implicated in visuospatial processing. By contrast, modulation of the reasoning task toward familiar landmarks, engaged the right inferior/orbital frontal gyrus (BA 11/47), bilateral occipital (BA 18, 19), and temporal lobes. The temporal lobe activation included the right inferior temporal gyrus (BA 37), posterior hippocampus, and parahippocampal gyrus, regions implicated in spatial memory and navigation tasks. These results provide support for the generalization of dual mechanism theory to transitive reasoning and highlight the importance of the hippocampal system in reasoning about familiar spatial environments.

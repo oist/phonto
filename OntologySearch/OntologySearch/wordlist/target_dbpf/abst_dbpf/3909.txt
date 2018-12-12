@@ -1,0 +1,18 @@
+Animals
+Computer Simulation
+Electric Stimulation
+Hippocampus
+cytology
+Humans
+Learning
+physiology
+Nerve Net
+physiology
+Neural Networks (Computer)
+Neuronal Plasticity
+physiology
+Neurons
+physiology
+Synaptic Transmission
+Time Factors
+The hippocampus plays an important role in the course of establishing long-term memory, i.e., to make short-term memory of spatially and temporally associated input information. In 1996 (Tsukada et al. 1996), the spatiotemporal learning rule was proposed based on differences observed in hippocampal long-term potentiation (LTP) induced by various spatiotemporal pattern stimuli. One essential point of this learning rule is that the change of synaptic weight depends on both spatial coincidence and the temporal summation of input pulses. We applied this rule to a single-layered neural network and compared its ability to separate spatiotemporal patterns with that of other rules, including the Hebbian learning rule and its extended rules. The simulated results showed that the spatiotemporal learning rule had the highest efficiency in discriminating spatiotemporal pattern sequences, while the Hebbian learning rule (including its extended rules) was sensitive to differences in spatial patterns.

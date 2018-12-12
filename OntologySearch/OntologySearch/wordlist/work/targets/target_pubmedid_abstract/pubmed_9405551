@@ -1,0 +1,57 @@
+1. J Neurophysiol. 1997 Dec;78(6):3371-85.
+
+Compartmental model of vertebrate motoneurons for Ca2+-dependent spiking and
+plateau potentials under pharmacological treatment.
+
+Booth V(1), Rinzel J, Kiehn O.
+
+Author information: 
+(1)Mathematical Research Branch, National Institute of Diabetes and Digestive and
+Kidney Diseases, National Institutes of Health 9190, Bethesda, Maryland 20814,
+USA.
+
+In contrast to the limited response properties observed under normal experimental
+conditions, spinal motoneurons generate complex firing patterns, such as
+Ca2+-dependent regenerative spiking and plateaus, in the presence of certain
+neurotransmitters and ion-channel blockers. We have developed a quantitative
+motoneuron model, based on turtle motoneuron data, toinvestigate the roles of
+specific ionic currents and the effects of their soma and dendritic distribution 
+in generating these complex firing patterns. In addition, the model is used to
+explore the effects of multiple ion channel blockers and neurotransmitters that
+are known to modulate motoneuron firing patterns. To represent the distribution
+of ionic currents across the soma and dendrites, the model contains two
+compartments. The soma compartment, representing the soma and proximal dendrites,
+contains Hodgkin-Huxley-like sodium (INa) and delayed rectifier K+ (IK-dr)
+currents, an N-like Ca2+ current (ICa-N), and a calcium-dependent K+ current
+[IK(Ca)]. The dendritic compartment, representing the lumped distal dendrites,
+contains, in addition to ICa-N and IK(Ca) as in the soma, a persistent L-like
+calcium current (ICa-L). We determined kinetic parameters for INa, IK-dr, ICa-N, 
+and IK(Ca) in order to reproduce normal action-potential firing observed in
+turtle spinal motoneurons, including fast and slow afterhyperpolarizations (AHPs)
+and a linear steady-state frequency-current relation. With this parameter set as 
+default, a sequence of pharmacological manipulations were systematically
+simulated. A small reduction of IK-dr [mimicking the experimental effect of
+tetraethylammonium (TEA) in low concentration] enhanced the slow AHP and caused
+calcium spiking (mediated by ICa-N) when INa was blocked. Firing patterns
+observed experimentally in high TEA [and tetrodotoxin (TTX)], namely calcium
+spikes riding on a calcium plateau, were reproduced only when both IK-dr and
+IK(Ca) were reduced. Dendritic plateau potentials, mediated by ICa-L, were
+reliably unmasked when IK(Ca) was reduced, mimicking the experimental effect of
+the bee venom apamin. The effect of 5-HT, which experimentally induces the
+ability to generate calcium-dependent plateau potentials but not calcium spiking,
+was reproduced in the model by reducing IK(Ca) alone. The plateau threshold
+current level, however, was reduced substantially if a simultaneous increase in
+ICa-L was simulated, suggesting that serotonin (5-HT) induces plateau potentials 
+by regulating more than one conductance. The onset of the plateau potential
+showed significant delays in response to near-threshold, depolarizing current
+steps. In addition, the delay times were sensitive to the current step amplitude.
+The delay and its sensitivity were explained by examining the model's behavior
+near the threshold for plateau onset. This modeling study thus accurately
+accounts for the basic firing behavior of vertebrate motoneurons as well as a
+range of complex firing patterns invoked by ion-channel blockers and 5-HT. In
+addition, our computational results support the hypothesis that the
+electroresponsiveness of motoneurons depends on a nonuniform distribution of
+ionic conductances, and they predict modulatory effects of 5-HT and properties of
+plateau activation that have yet to be tested experimentally.
+
+PMID: 9405551  [PubMed - indexed for MEDLINE]

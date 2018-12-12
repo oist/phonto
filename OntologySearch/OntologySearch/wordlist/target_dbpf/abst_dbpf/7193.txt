@@ -1,0 +1,40 @@
+Animals
+Central Nervous System Stimulants
+pharmacology
+Cyclic AMP
+metabolism
+pharmacology
+Cyclic AMP Response Element-Binding Protein
+metabolism
+Electrophysiology
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+GABA Antagonists
+pharmacology
+GABA-A Receptor Antagonists
+Hippocampus
+cytology
+drug effects
+metabolism
+Immunohistochemistry
+Long-Term Potentiation
+drug effects
+physiology
+Long-Term Synaptic Depression
+drug effects
+physiology
+Neuronal Plasticity
+drug effects
+physiology
+Organ Culture Techniques
+Picrotoxin
+pharmacology
+Rats
+Synapses
+drug effects
+physiology
+Synaptic Transmission
+drug effects
+Time Factors
+Previous reports show that bath application of the adenosine 3' : 5'-cyclic monophosphate (cAMP) analog, Sp-cAMPS, induces a protein kinase A (PKA)-dependent and protein synthesis-dependent long-term potentiation (LTP) at hippocampal CA3-CA1 synapses. Recently, we reported a novel form of long-term depression (LTD) induced by concurrent application of Sp-cAMPS and picrotoxin, the gamma-aminobutyric acid type A (GABA(A)) receptor antagonist. In the present study, we further investigated the mechanisms underlying such cAMP-mediated LTD. Synaptically connected CA3 and CA1 cells of hippocampal slice cultures were impaled by sharp electrodes. Excitatory postsynaptic potentials recorded from a CA1 pyramidal cell were evoked by single action potentials in a CA3 cell. Picrotoxin was applied to slices at various time points after Sp-cAMPS was perfused. We found that Sp-cAMPS-induced potentiation could be converted to depression when picrotoxin was applied within 30 min after perfusion of Sp-cAMPS. Picrotoxin applied 1 h after perfusion of Sp-cAMPS had no effect on Sp-cAMPS-induced synaptic potentiation. Once LTP was induced by Sp-cAMPS and expressed for 1 h, the subsequent application of Sp-cAMPS and picrotoxin produced no new changes in synaptic strength. Also, once LTD was induced and expressed for 1 h, subsequent Sp-cAMPS produced no new changes in synaptic strength. These findings suggest that a synapse is committed irreversibly to cAMP-mediated LTP or LTD during a critical period and that later signals cannot interconvert these two fates.

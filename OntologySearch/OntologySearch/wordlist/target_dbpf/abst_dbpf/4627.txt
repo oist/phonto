@@ -1,0 +1,15 @@
+Amnesia
+psychology
+Animals
+Arousal
+Association Learning
+Cognition
+Hippocampus
+physiology
+Humans
+Learning
+Memory
+Models
+Psychological
+Reinforcement (Psychology)
+Defined horizontal vs vertical associative memory concepts. Vertical associative memory involves chunking: the specifications of new (previously free) nodes to represent combinations of old (bound) nodes. Chunking is considered to be the basis of semantic memory, configuring in conditioning, and cognitive (as opposed to stimulus-response) learning. The cortex has the capacity for chunking, but the hippocampal (limbic) arousal system plays a critical role in the chunking process by differentially priming (partially activating) free, as opposed to bound, neurons. Binding a neuron produces negatively accelerated repression of its connections to the hippocampal arousal system, consolidating the memory by protecting the newly bound neuron from diffuse hippocampal input and thus retarding forgetting. Disruption of the hippocampal arousal system produces the amnesic syndrome of an inability to do new chunking (cognitive learning)–anterograde amnesia–and an inability to retrieve recently specified chunks–retrograde amnesia. (106 ref) (PsycINFO Database Record (c) 2006 APA, all rights reserved)

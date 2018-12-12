@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1781">
+<itemtype>xnppaper</itemtype>
+<titles><title>The functional nature of synaptic circuitry is altered in area CA3 of the hippocampus in a mouse model of Down&#039;s syndrome.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-10-14T06:20:35Z</last_update_date>
+<creation_date>2008-10-14T06:20:35Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1781</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1781" version="1.02">
+<authors><author>Hanson JE</author><author>Blank M</author><author>Valenzuela RA</author><author>Garner CC</author><author>Madison DV</author></authors>
+<journal>The Journal of physiology</journal>
+<volume>579</volume>
+<number></number>
+<page>53-67</page>
+<abstract>Down&#039;s syndrome (DS) is the most common cause of mental retardation, and memory impairments are more severe in DS than in most if not all other causes of mental retardation. The Ts65Dn mouse, a genetic model of DS, exhibits phenotypes of DS, including memory impairments indicative of hippocampal dysfunction. We examined functional synaptic connectivity in area CA3 of the hippocampus of Ts65Dn mice using organotypic slice cultures as a model. We found reductions in multiple measures of synaptic function in both excitatory and inhibitory inputs to pyramidal neurons in CA3 of the Ts65Dn hippocampus. However, associational synaptic connections between pyramidal neurons were more abundant and more likely to be active rather than silent in the Ts65Dn hippocampus. Synaptic potentiation was normal in these associational connections. Decreased overall functional synaptic input onto pyramidal neurons expressed along with the specific hyperconnectivity of associational connections between pyramidal neurons will result in predictable alterations of CA3 network function, which may contribute to the memory impairments seen in DS.</abstract>
+<pubmed_id>17158177</pubmed_id>
+</detail>
+</item>

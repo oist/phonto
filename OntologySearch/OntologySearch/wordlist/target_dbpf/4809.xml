@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4809">
+<itemtype>xnppaper</itemtype>
+<titles><title>Sequential dependencies regulate sensory evoked responses of single units in the rat hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Acoustic Stimulation</keyword>
+<keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Auditory Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Auditory</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>classification</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Reaction Time</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:25:55Z</last_update_date>
+<creation_date>2011-04-28T05:25:55Z</creation_date>
+<publication_year>1987</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4809</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4809" version="1.02">
+<authors><author>Foster TC</author><author>Christian EP</author><author>Hampson RE</author><author>Campbell KA</author><author>Deadwyler SA</author></authors>
+<journal>Brain research</journal>
+<volume>408</volume>
+<number>1</number>
+<page>86-96</page>
+<abstract>Unit activity from 3 major types of hippocampal cells were recorded from the CA1, CA3 and dentate granule cell layers of the hippocampus in awake freely moving rats. Units were classified as complex spike (ComSp), theta and dentate granule cells (G-cell) based on their spontaneous and stimulus-evoked firing characteristics. Single trial records for each cell type were collected during criterion performance of a two-tone discrimination task. Results showed that: tone-evoked discharges of theta- and G-cells, but not ComSp cells, were influenced by the reward status of the tone presented; the firing tendency of all cell types was significantly influenced by the preceding trial sequence; different types of preceding trial sequences including single and double alternation and runs of positive or negative trials significantly affected the firing tendency of all 3 cell types; the pattern of theta- and G-cell discharges differed with respect to latency to peak discharge and the duration of the discharge following long runs of similar trials. These effects were similar to previously described sequential influence on synaptically identified sensory evoked potentials in the dentate gyrus.</abstract>
+<pubmed_id>3594233</pubmed_id>
+</detail>
+</item>

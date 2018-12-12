@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4899">
+<itemtype>xnppaper</itemtype>
+<titles><title>Changes in synaptic plasticity in the rat hippocampo-medial prefrontal cortex pathway induced by repeated treatments with fluvoxamine.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Afferent Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Fluvoxamine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>Male</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>drug effects</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Serotonin Uptake Inhibitors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T01:11:51Z</last_update_date>
+<creation_date>2011-05-09T01:11:51Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4899</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4899" version="1.02">
+<authors><author>Ohashi S</author><author>Matsumoto M</author><author>Otani H</author><author>Mori K</author><author>Togashi H</author><author>Ueno K</author><author>Kaku A</author><author>Yoshioka M</author></authors>
+<journal>Brain research</journal>
+<volume>949</volume>
+<number>1</number>
+<page>131-8</page>
+<abstract>The present studies were conducted to examine the effects of single and repeated treatments with fluvoxamine, which is a selective serotonin reuptake inhibitor (SSRI), on the synaptic efficacy and synaptic plasticity in the rat hippocampo-medial prefrontal cortex (mPFC) pathway in vivo. It has been reported that the projections arising from the hippocampal structures to the mPFC are involved in the execution of higher cognitive functions in rats. The evoked potentials were recorded in the mPFC by stimulation of the CA1/subicular region of the ventral hippocampus in halothane-anesthetized rats. Single administration of fluvoxamine (10 and 30 mg/kg, i.p.) enhanced synaptic efficacy in the hippocampo-mPFC pathway in a dose-dependent manner. Although repeated treatments with fluvoxamine (30 mg/kg, i.p. after 30 mg/kg/dayx21 days, p.o.) caused an enhancement of synaptic efficacy, there was no significant difference between single and repeated treatments. The input/output characteristics showed hypersensitivity to stimulation intensity in the group with repeated fluvoxamine treatments. The establishment of long-term potentiation (LTP) in the hippocampo-mPFC pathway after a single administration of fluvoxamine was not different from that in the saline-injected group. On the other hand, the hippocampo-mPFC LTP was significantly augmented by repeated treatments with fluvoxamine when compared to a single treatment. These findings suggest that the serotonergic system could modulate the synaptic plasticity at hippocampal-mPFC synapses. The present study, furthermore, suggests that the enhancement of LTP in the hippocampo-mPFC pathway produced by repeated treatments with fluvoxamine may be implicated in the SSRI-induced therapeutic effect on psychiatric disorders.</abstract>
+<pubmed_id>12213308</pubmed_id>
+</detail>
+</item>

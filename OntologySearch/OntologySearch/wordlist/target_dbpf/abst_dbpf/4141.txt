@@ -1,0 +1,18 @@
+DEIA
+Animals
+Hippocampus
+physiology
+Humans
+Models
+Neurological
+Movement
+physiology
+Neocortex
+physiology
+Nerve Net
+physiology
+Neural Networks (Computer)
+Neural Pathways
+physiology
+Periodicity
+To understand the interface between global brain function and molecular neuroscience--that is, the microcircuit level--a major challenge. Such understanding is prerequisite if we are to account for neural function in cellular terms. Very few vertebrate microcircuits are yet understood because their analysis is demanding technically. In this review of the TINS Microcircuits Special Feature, we attempt to shed light on the problem by comparing the operation of four types of microcircuit, to identify common molecular and cellular components. Central pattern generator (CPG) networks underlying rhythmic movements and hippocampal microcircuits that generate gamma and theta rhythms are compared with the neocortical microcircuits used in cognitive tasks and a cerebellar network. The long-term goal is to identify the components of a molecular and synaptic tool kit for the design of different microcircuits.

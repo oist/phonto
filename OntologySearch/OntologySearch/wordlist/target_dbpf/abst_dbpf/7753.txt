@@ -1,0 +1,27 @@
+Action Potentials
+drug effects
+Animals
+Bicuculline
+pharmacology
+Electric Stimulation
+Glutamate Decarboxylase
+analysis
+Guinea Pigs
+Hippocampus
+cytology
+drug effects
+physiology
+Immunoenzyme Techniques
+Membrane Potentials
+Microscopy
+Electron
+Neural Inhibition
+drug effects
+Neurons
+analysis
+physiology
+ultrastructure
+gamma-Aminobutyric Acid
+metabolism
+physiology
+Intracellular recording and staining was applied to study non-pyramidal neurons in the guinea-pig hippocampus. To avoid accidental impalement of pyramidal or granule cells, two hippocampal regions known to be devoid of pyramidal or granule cells were chosen. In transverse and longitudinal slices, neurons of the deep hilar region (zone 4 of Amaral3), and in transverse slices, neurons of the stratum lacunosum-moleculare (CA3) were impaled. The intracellular staining with Lucifer Yellow revealed that of 20 neurons stained in these zones all were non-pyramidal neurons. Hilar neurons, situated just below the granular layer, differed from granule cells and CA3 neurons with respect to their action potential waveform and their current/voltage relationship. In contrast to granule cells, hilar neurons exhibited spontaneous bursts in the presence of bicuculline (25 microM). In all neurons impaled in the hilar region and the stratum lacunosum-moleculare (n = 42), inhibitory postsynaptic potentials could be elicited. These inhibitory postsynaptic potentials were blocked by bicuculline. In transverse slices, perforant path stimulation elicited inhibition preceding excitation in hilar neurons and excitation preceding inhibition in granule cells. Since non-pyramidal neurons are likely to be inhibitory neurons, our data suggest that GABAergic neurons in the hilus or in the stratum lacunosum-moleculare are controlled by inhibitory GABAergic synapses. This was verified by immunocytochemistry using antibodies against glutamate decarboxylase, the gamma-aminobutyric acid synthetizing enzyme. In both hippocampal regions studied, glutamate decarboxylase-positive synaptic terminals on glutamate decarboxylase-positive cells were observed. It is concluded that disinhibition is an important feature of information processing in the hippocampus, and that disinhibition is mediated by GABAergic synapses on GABAergic neurons.

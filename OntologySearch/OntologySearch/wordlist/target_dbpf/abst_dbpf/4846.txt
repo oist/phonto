@@ -1,0 +1,12 @@
+Adult
+Cell Count
+instrumentation
+Entorhinal Cortex
+cytology
+Humans
+Male
+Middle Aged
+Neurons
+cytology
+Optics and Photonics
+The total number of neurons in the major laminae of the human entorhinal cortex were estimated with a design-based stereological technique, the optical fractionator. Detailed descriptions of the laminar organization and the cortical limits of the region required for the analysis are provided, along with detailed descriptions of the sampling scheme employed. The individual, mean values, and variances for estimates made in layers II, III, V, and VI are presented and discussed in terms of the precision of the estimation procedure and the results of other studies. Neuron numbers were estimated to be about 1 million layer II cells, 5 million layer III cells, 2 million layer V cells, and 4 million layer VI cells, for a total of slightly more that 13 million neurons in the entorhinal cortex. Combined with data from a similar study carried out in the human hippocampus, the data presented represent the first rigorous stereological evidence of the divergence of entorhinal projections to the hippocampus. The data presented also indicate that projections from layer II of the entorhinal cortex to the dentate gyrus and CA2/3 and projections from layer III of the entorhinal cortex to CA1 differ in the degrees of their divergence.

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="997">
+<itemtype>xnppaper</itemtype>
+<titles><title>Simulations of epileptiform activity in the hippocampal CA3 region in vitro.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-22T05:30:44Z</last_update_date>
+<creation_date>2008-07-22T05:30:44Z</creation_date>
+<publication_year>1994</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=997</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="997" version="1.02">
+<authors><author>Traub RD</author><author>Jefferys JG</author></authors>
+<journal>Hippocampus</journal>
+<volume>4</volume>
+<number>3</number>
+<page>281-5</page>
+<abstract></abstract>
+<pubmed_id>7842050</pubmed_id>
+</detail>
+</item>

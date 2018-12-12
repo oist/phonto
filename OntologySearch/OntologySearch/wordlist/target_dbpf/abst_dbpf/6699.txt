@@ -1,0 +1,34 @@
+Adolescent
+Adult
+Brain Mapping
+methods
+Clinical Protocols
+Epilepsy
+Temporal Lobe
+diagnosis
+physiopathology
+surgery
+Exploratory Behavior
+physiology
+Female
+Functional Laterality
+physiology
+Hippocampus
+physiology
+Humans
+Magnetic Resonance Imaging
+methods
+Male
+Memory
+physiology
+Models
+Neurological
+Photic Stimulation
+methods
+Preoperative Care
+Semantics
+Temporal Lobe
+physiopathology
+Visual Perception
+physiology
+Previous research suggests that the hippocampus is modulated both by stimulus novelty and by the extent to which relational processing (formation of associations) occurs during episodic encoding. The aim of this study was to compare hippocampal activation patterns measured by functional magnetic resonance imaging (fMRI) during encoding protocols emphasizing either novelty or relational processing.fMRI was performed on 32 healthy volunteers while they encoded complex visual scenes or unrecognizable scrambled versions of the same scenes. In the Novelty contrast, encoding of novel scenes was compared with encoding of a repeated pair of scenes. In the Relational Processing contrast, semantic encoding of novel scenes was compared with structural encoding of scrambled scenes.Both protocols elicited bilateral hippocampal activation. Overall mean activation values were similar for the two protocols, but the Relational Processing protocol resulted in a larger volume of hippocampal activation. The pattern of activation along the longitudinal hippocampal axis differed for the two protocols. The Novelty contrast produced stronger activation in the posterior hippocampus, whereas the Relational Processing contrast produced stronger activation in the anterior hippocampus.Hippocampal activation is determined by both stimulus novelty and degree of relational processing during encoding. Given the importance of anterior hippocampal pathology in temporal lobe epilepsy, an approach emphasizing modulation of relational processing may be preferable for clinical fMRI of the medial temporal lobes.

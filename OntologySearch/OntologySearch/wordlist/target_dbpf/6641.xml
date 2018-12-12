@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6641">
+<itemtype>xnppaper</itemtype>
+<titles><title>Differential effects of semantic processing on memory encoding.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Decision Making</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Semantics</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:36:06Z</last_update_date>
+<creation_date>2013-02-26T06:36:06Z</creation_date>
+<publication_year>2010</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6641</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6641" version="1.02">
+<authors><author>Fliessbach K</author><author>Buerger C</author><author>Trautner P</author><author>Elger CE</author><author>Weber B</author></authors>
+<journal>Human brain mapping</journal>
+<volume>31</volume>
+<number>11</number>
+<page>1653-64</page>
+<abstract>Deeper semantic processing of words leads to enhanced memory encoding (depth of processing effect). The left inferior prefrontal cortex (LIPC) and the left hippocampus are known to be involved in this effect. We tested the hypothesis that different semantic encoding processes contribute qualitatively differently to memory encoding. In a memory experiment using functional magnetic resonance imaging, we compared three different encoding tasks: a nonsemantic alphabetical, an animacy decision, and a size comparison tasks. Recognition memory was tested subsequently. We hypothesized that the size comparison task would activate brain areas involved in the processing of object features and that this would be associated with successful memory encoding. Results showed that the size comparison task led to significantly better memory encoding than the two other tasks. As with the animacy decision task, it led to stronger activation of the LIPC and left hippocampus than the nonsemantic task. Both regions also had stronger activations for later remembered than for nonremembered words. The size comparison task additionally led to stronger activation in the left anterior fusiform gyrus, which was also associated with successful memory encoding. We conclude that different types of semantic processing affect memory encoding based on distinguishable brain processes.</abstract>
+<pubmed_id>20162599</pubmed_id>
+</detail>
+</item>

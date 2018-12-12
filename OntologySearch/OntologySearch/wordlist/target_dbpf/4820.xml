@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4820">
+<itemtype>xnppaper</itemtype>
+<titles><title>Amnesia, the hippocampus, and episodic memory.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Amnesia</keyword>
+<keyword>etiology</keyword>
+<keyword>psychology</keyword>
+<keyword>Animals</keyword>
+<keyword>Brain Diseases</keyword>
+<keyword>complications</keyword>
+<keyword>physiopathology</keyword>
+<keyword>psychology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:44:53Z</last_update_date>
+<creation_date>2011-04-28T05:44:53Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4820</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4820" version="1.02">
+<authors><author>Eichenbaum HB</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>3</number>
+<page>197</page>
+<abstract></abstract>
+<pubmed_id>9662133</pubmed_id>
+</detail>
+</item>

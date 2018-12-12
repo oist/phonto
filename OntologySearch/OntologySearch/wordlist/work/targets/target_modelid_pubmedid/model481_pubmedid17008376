@@ -1,0 +1,40 @@
+1. J Physiol. 2006 Dec 1;577(Pt 2):617-39. Epub 2006 Sep 28.
+
+Modelling spinal circuitry involved in locomotor pattern generation: insights
+from deletions during fictive locomotion.
+
+Rybak IA(1), Shevtsova NA, Lafreniere-Roula M, McCrea DA.
+
+Author information: 
+(1)Department of Neurobiology and Anatomy, Drexel University College of Medicine,
+Philadelphia, PA 19129, USA.
+
+Comment in
+    J Physiol. 2007 Apr 15;580(Pt. 2):363-4.
+
+The mammalian spinal cord contains a locomotor central pattern generator (CPG)
+that can produce alternating rhythmic activity of flexor and extensor
+motoneurones in the absence of rhythmic input and proprioceptive feedback. During
+such fictive locomotor activity in decerebrate cats, spontaneous omissions of
+activity occur simultaneously in multiple agonist motoneurone pools for a number 
+of cycles. During these 'deletions', antagonist motoneurone pools usually become 
+tonically active but may also continue to be rhythmic. The rhythmic activity that
+re-emerges following a deletion is often not phase shifted. This suggests that
+some neuronal mechanism can maintain the locomotor period when motoneurone
+activity fails. To account for these observations, a simplified computational
+model of the spinal circuitry has been developed in which the locomotor CPG
+consists of two levels: a half-centre rhythm generator (RG) and a pattern
+formation (PF) network, with reciprocal inhibitory interactions between
+antagonist neural populations at each level. The model represents a network of
+interacting neural populations with single interneurones and motoneurones
+described in the Hodgkin-Huxley style. The model reproduces the range of
+locomotor periods and phase durations observed during real locomotion in adult
+cats and permits independent control of the level of motoneurone activity and of 
+step cycle timing. By altering the excitability of neural populations within the 
+PF network, the model can reproduce deletions in which motoneurone activity fails
+but the phase of locomotor oscillations is maintained. The model also suggests
+criteria for the functional identification of spinal interneurones involved in
+the mammalian locomotor pattern generation.
+
+PMCID: PMC1890439
+PMID: 17008376  [PubMed - indexed for MEDLINE]

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6801">
+<itemtype>xnppaper</itemtype>
+<titles><title>Learning-related facilitation of rhinal interactions by medial prefrontal inputs.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Analysis of Variance</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Cats</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Operant</keyword>
+<keyword>physiology</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Reward</keyword>
+<keyword>Spectrum Analysis</keyword>
+<keyword>Statistics as Topic</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T01:36:23Z</last_update_date>
+<creation_date>2013-02-27T01:36:23Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6801</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6801" version="1.02">
+<authors><author>Paz R</author><author>Bauer EP</author><author>Paré D</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>27</volume>
+<number>24</number>
+<page>6542-51</page>
+<abstract>Much data suggests that hippocampal-medial prefrontal cortex (mPFC) interactions support memory consolidation. This process is thought to involve the gradual transfer of transient hippocampal-dependent memories to distributed neocortical sites for long-term storage. However, hippocampal projections to the neocortex involve a multisynaptic pathway that sequentially progresses through the entorhinal and perirhinal regions before reaching the neocortex. Similarly, the mPFC influences the hippocampus via the rhinal cortices, suggesting that the rhinal cortices occupy a strategic position in this network. The present study thus tested the idea that the mPFC supports memory by facilitating the transfer of hippocampal activity to the neocortex via an enhancement of entorhinal to perirhinal communication. To this end, we simultaneously recorded mPFC, perirhinal, and entorhinal neurons during the acquisition of a trace-conditioning task in which a visual conditioned stimulus (CS) was followed by a delay period after which a liquid reward was administered. At learning onset, correlated perirhinal-entorhinal firing increased in relation to mPFC activity, but with no preferential directionality, and only after reward delivery. However, as learning progressed across days, mPFC activity gradually enhanced rhinal correlations in relation to the CS as well, and did so in a specific direction: from entorhinal to perirhinal neurons. This suggests that, at late stages of learning, mPFC activity facilitates entorhinal to perirhinal communication. Because this connection is a necessary step for the transfer of hippocampal activity to the neocortex, our results suggest that the mPFC is involved in the slow iterative process supporting the integration of hippocampal-dependent memories into neocortical networks.</abstract>
+<pubmed_id>17567815</pubmed_id>
+</detail>
+</item>

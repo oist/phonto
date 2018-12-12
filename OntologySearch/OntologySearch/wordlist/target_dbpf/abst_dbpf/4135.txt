@@ -1,0 +1,19 @@
+DEIA
+Animals
+Behavior
+Animal
+Biological Clocks
+physiology
+Corpus Striatum
+physiology
+Decision Making
+Electroencephalography
+Hippocampus
+physiology
+Maze Learning
+Mental Processes
+physiology
+Neural Pathways
+physiology
+Rats
+Oscillatory rhythms in different frequency ranges mark different behavioral states and are thought to provide distinct temporal windows that coherently bind cooperating neuronal assemblies. However, the rhythms in different bands can also interact with each other, suggesting the possibility of higher-order representations of brain states by such rhythmic activity. To explore this possibility, we analyzed local field potential oscillations recorded simultaneously from the striatum and the hippocampus. As rats performed a task requiring active navigation and decision making, the amplitudes of multiple high-frequency oscillations were dynamically modulated in task-dependent patterns by the phase of cooccurring theta-band oscillations both within and across these structures, particularly during decision-making behavioral epochs. Moreover, the modulation patterns uncovered distinctions among both high- and low-frequency subbands. Cross-frequency coupling of multiple neuronal rhythms could be a general mechanism used by the brain to perform network-level dynamical computations underlying voluntary behavior.

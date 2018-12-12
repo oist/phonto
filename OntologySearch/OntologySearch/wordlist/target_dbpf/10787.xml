@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="10787">
+<itemtype>xnppaper</itemtype>
+<titles><title>Observing frequency content time evolution of independent hippocampal signals.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Algorithms</keyword>
+<keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>methods</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>methods</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Principal Component Analysis</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Time Factors</keyword>
+<keyword>EEG data analysis</keyword>
+<keyword>Balbir</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2016-03-18T01:55:52Z</last_update_date>
+<creation_date>2016-03-18T01:55:52Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=10787</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="10787" version="1.02">
+<authors><author>Tanskanen JM</author><author>Mikkonen JE</author><author>Hyttinen JA</author><author>Penttonen M</author></authors>
+<journal>Conference proceedings : ... Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual Conference</journal>
+<volume>1</volume>
+<number></number>
+<page>727-30</page>
+<abstract>In this paper, we propose a method for observing frequency contents of independent hippocampal signals in time. The method is based on calculating independent component analysis (ICA) on electrophysiological multielectrode field potential measurements (MFPMs) in a running window. We have previously proposed a method for observing independently operating neural populations, i.e., functional populations (FUPOs) from MFPMs and outlined the concept, which is elaborated upon and extended in this paper, in order to facilitate analysis of functioning of the target brain area. In this paper, the proposed method is demonstrated with an example with three concurrent hippocampal measurements from an anesthetized rat brain. The proposed method can be applied in analysis of any recordings of neural networks in which contributions from a number of neural populations (NPs) are simultaneously recorded via a number of measurement points (MPs), as well in vivo as in vitro.</abstract>
+<pubmed_id>17945994</pubmed_id>
+</detail>
+</item>

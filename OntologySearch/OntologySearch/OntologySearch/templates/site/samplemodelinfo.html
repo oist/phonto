@@ -1,0 +1,129 @@
+
+{% extends "site/base.tpl.html" %}
+
+{%load static %}
+
+{% load i18n %}
+
+{% block extrajs %}
+{% endblock %} {# end of extrajs block #}
+
+{% block handstyle %}
+<style type="text/css">
+<!--
+html body *{
+	font-family: "Meiryo UI","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+	font-size:12px;
+}
+#debug{
+position:absolute;
+bottom:0px;
+border: 1px solid gray
+}
+
+/* css for each class */
+.floatleft{float:left;}
+.clearboth{clear:both;}
+.pagetitle{
+	font-size:16px;
+	font-weight:bold;
+	padding-left:1%;
+	padding-top:8px;
+	height:32px;
+}
+.title , .resulttitle{
+	font-size:14px;
+	margin-bottom:4px;
+}
+-->
+</style>
+{% endblock %}{# end of handstyle block #}
+
+{% block handscript %}
+<script type="text/javascript" src="{% static 'js/md5/md5.js' %}"></script>
+<script type="text/javascript">
+<!--
+	var pretext="";
+	var pretext_s="";
+	var prefixes={};
+	var myhost = "{{myhost}}"
+	$(document).ready(function(){
+
+		$.ajaxSetup( {data: {
+		    csrfmiddlewaretoken: '{{ csrf_token }}'
+		}});
+	});
+
+	//get token
+	function test_gettoken(){
+		$("#testres").html("");
+
+		var uname = $("#username").val();
+		var pwd = MD5_hexhash($("#userpass").val())
+		var targ = $("#targetdb").val();
+		var param = {
+				  "username": uname
+				 ,"password": pwd
+				 ,"dbname": targ
+		};
+		request({
+			 "url"     :"apps/gettoken"
+			,"pars"    :param
+			,"type"    :"POST"
+			,"complete":function(msg){
+				aftertoken(msg)
+			 }
+		});
+	}
+
+
+	function aftertoken(msg){
+		var res={};
+		eval("res=" + msg.responseText);
+		var result={};
+		if(res && res.payload){
+			result= res.payload;
+		}
+		$("#testres").html(toJSONString(result));
+
+		if(result.token){
+			var token = result.token
+			$("#a_updatemodel")
+				.attr("href","apps/updatemodel/test/1/model1/"+ token)
+				.html(myhost + "apps/updatemodel/test/1/model1/"+ token);
+
+			$("#a_deletemodel")
+				.attr("href","apps/deletemodel/test/1/"+ token)
+				.html(myhost + "apps/deletemodel/test/1/"+ token);
+
+			$("#a_insertkeyword")
+				.attr("href","apps/insertkeyword/test/1/keyword1/"+ token)
+				.html(myhost + "apps/insertkeyword/test/1/keyword1/"+ token);
+
+			$("#a_deletekeyword")
+				.attr("href","apps/deletekeyword/test/1/keyword1/"+ token)
+				.html(myhost + "apps/deletekeyword/test/1/keyword1/"+ token);
+		}
+
+	}
+
+//-->
+</script>
+{% endblock %} {# end of handscript block #}
+
+{% block header %}
+<div>
+	<div class="pagetitle">Sample Model Info</div>
+</div>
+{% endblock %} {# end of header block #}
+
+
+{% block content %}
+<br>
+<div style="padding:10px;">
+	This is Sample model page (modelid:{{modelid}})
+</div>
+
+{% endblock %} {# end of content block #}
+
+

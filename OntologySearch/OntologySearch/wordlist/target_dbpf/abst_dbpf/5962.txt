@@ -1,0 +1,31 @@
+Animals
+Drug Administration Schedule
+Electric Stimulation
+Electrophysiology
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+Hippocampus
+cytology
+drug effects
+metabolism
+Long-Term Potentiation
+drug effects
+physiology
+Neurons
+cytology
+drug effects
+metabolism
+Nicotinic Agonists
+pharmacology
+Nicotinic Antagonists
+pharmacology
+Rats
+Rats
+Sprague-Dawley
+Receptors
+Nicotinic
+drug effects
+metabolism
+Time Factors
+Acute and chronic nicotine exposure differentially facilitate the induction of long-term potentiation (LTP), a synaptic model of learning and memory, in the hippocampal CA1 region. The mechanisms underlying these effects of nicotine, however, are unknown. In the present study, both nicotinic acetylcholine receptor (nAChR) agonists and an alpha7 nAChR antagonist facilitated the induction LTP in the hippocampal CA1 region of naive rat. Furthermore, chronic nicotine treatment lowered the threshold for induction of LTP, and acute application of nicotinic agonists, but not an alpha7 antagonist, further facilitated LTP induction in the chronic-nicotine-treated hippocampus. These results suggest not only that both activation of non-alpha7 nAChRs and inactivation of alpha7 nAChRs contribute to LTP induction, but also that chronic-nicotine-mediated facilitation of LTP induction is due to chronic-nicotine-induced desensitization of alpha7 nAChRs.

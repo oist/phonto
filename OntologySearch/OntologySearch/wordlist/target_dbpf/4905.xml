@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4905">
+<itemtype>xnppaper</itemtype>
+<titles><title>Rhythmical bursting activity and GABAergic mechanisms in the medial septum of normal and pertussis toxin-pretreated rats.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Baclofen</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Bicuculline</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Nipecotic Acids</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Pertussis Toxin</keyword>
+<keyword>Proline</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Septum Pellucidum</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Virulence Factors</keyword>
+<keyword>Bordetella</keyword>
+<keyword>pharmacology</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T01:45:42Z</last_update_date>
+<creation_date>2011-05-09T01:45:42Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4905</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4905" version="1.02">
+<authors><author>Dutar P</author><author>Rascol O</author><author>Lamour Y</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>77</volume>
+<number>2</number>
+<page>374-80</page>
+<abstract>The possible involvement of GABA in the control of the rhythmical bursting activity (RBA) of septo-hippocampal neurons (SHNs) has been studied in the rat in vivo. The discharge frequency of SHNs was modified by the iontophoretic application of a GABA agonist and antagonist as well as by the application of the GABA uptake blocker, nipecotic acid. The GABAB agonist baclofen inhibited the SHNs&#039; activity, this effect being antagonized by the GABAB antagonist phaclofen. However, these different pharmacological manipulations did not modify the RBA frequency. Pretreatment of the rats with pertussis toxin, a substance which is known to block the events mediated by G-proteins (Gi or Go), decreased the RBA frequency. Neither agonists nor antagonists of GABAA or GABAB types had significant effects on the rhythmical bursting activity of SHNs. The effect of pertussis toxin suggests that other neurotransmitters or intrinsic mechanisms involving a G-protein influence this rhythm.</abstract>
+<pubmed_id>2792283</pubmed_id>
+</detail>
+</item>

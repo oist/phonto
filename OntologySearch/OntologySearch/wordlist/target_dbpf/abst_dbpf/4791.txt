@@ -1,0 +1,15 @@
+Animals
+Calcium
+physiology
+Extracellular Space
+physiology
+Hippocampus
+cytology
+physiology
+Potassium
+physiology
+Rats
+Synapses
+physiology
+Synaptic Transmission
+Transmission of neural activity in the mammalian cortex involves the operation of chemical synapses. Here we report that activity of hippocampal pyramidal cells (HPC) in vitro can spread through the neural aggregate even when chemical synaptic transmission is blocked by lowering the external Ca2+ concentration ( [Ca2+]0). In these conditions focal stimulation of the HPC body layer (stratum pyramidale) at area CA1 evokes a localized repetitive neural response which, when large enough, spreads along this layer in both transverse directions. It was recently reported for similar conditions that the activated HPC often discharge in synchrony. However, the spread of the neural response does not depend upon the occurrence of synchronized HPC activity, and therefore represents a distinct phenomenon.

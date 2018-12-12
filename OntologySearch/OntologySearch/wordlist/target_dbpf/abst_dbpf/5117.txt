@@ -1,0 +1,30 @@
+Actins
+metabolism
+ultrastructure
+Activins
+genetics
+metabolism
+Animals
+Cells
+Cultured
+Dendrites
+metabolism
+ultrastructure
+Hippocampus
+cytology
+Long-Term Potentiation
+physiology
+MAP Kinase Signaling System
+physiology
+Mitogen-Activated Protein Kinases
+metabolism
+Neurons
+cytology
+metabolism
+Rats
+Synapses
+metabolism
+ultrastructure
+Synaptic Transmission
+physiology
+Long-lasting modifications in synaptic transmission depend on de novo gene expression in neurons. The expression of activin, a member of the transforming growth factor beta (TGF-beta) superfamily, is upregulated during hippocampal long-term potentiation (LTP). Here, we show that activin increased the average number of presynaptic contacts on dendritic spines by increasing the population of spines that were contacted by multiple presynaptic terminals in cultured neurons. Activin also induced spine lengthening, primarily by elongating the neck, resulting in longer mushroom-shaped spines. The number of spines and spine head size were not significantly affected by activin treatment. The effects of activin on spinal filamentous actin (F-actin) morphology were independent of protein and RNA synthesis. Inhibition of cytoskeletal actin dynamics or of the mitogen-activated protein (MAP) kinase pathway blocked not only the activin-induced increase in the number of terminals contacting a spine but also the activin-induced lengthening of spines. These results strongly suggest that activin increases the number of synaptic contacts by modulating actin dynamics in spines, a process that might contribute to the establishment of late-phase LTP.

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7235">
+<itemtype>xnppaper</itemtype>
+<titles><title>Target-cell-specific bidirectional synaptic plasticity at hippocampal output synapses.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:23:15Z</last_update_date>
+<creation_date>2013-02-28T01:23:15Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7235</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7235" version="1.02">
+<authors><author>Fidzinski P</author><author>Shor O</author><author>Behr J</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>27</volume>
+<number>5</number>
+<page>1111-8</page>
+<abstract>It is commonly accepted that the hippocampus is critically involved in the explicit memory formation of mammals. The subiculum is the principal target of CA1 pyramidal cells and thus serves as the major relay station for the outgoing hippocampal information. Pyramidal cells in the subiculum can be classified according to their firing properties into burst-spiking and regular-spiking cells. In the present study we demonstrate that burst-spiking and regular-spiking cells show fundamentally different forms of low frequency-induced synaptic plasticity in rats. In burst-spiking cells, low-frequency stimulation (at 0.5-5 Hz) induces frequency-dependent long-term depression (LTD) with a maximum at 1 Hz. This LTD is dependent on the activation of NMDAR and masks an mGluR-dependent long-term potentiation (LTP). In contrast, in regular-spiking cells low-frequency stimulation induces an mGluR-dependent LTP that masks an NMDAR-dependent LTD. Both processes depend on postsynaptic Ca(2+)-signaling as BAPTA prevents the induction of synaptic plasticity in both cell types. Thus, mGluR-dependent LTP and NMDAR-dependent LTD occur simultaneously at CA1-subiculum synapses and the predominant direction of synaptic plasticity relies on the cell type investigated. Our data indicate a novel mechanism for the sliding-threshold model of synaptic plasticity, in which induction of LTP and LTD seems to be driven by the relative activation state of NMDAR and mGluR. Our observation that the direction of synaptic plasticity correlates with the discharge properties of the postsynaptic cell reveals a novel and intriguing mechanism of target specificity that may serve in tuning the significance of neuronal information by trafficking hippocampal output onto either subicular burst-spiking or regular-spiking cells.</abstract>
+<pubmed_id>18312585</pubmed_id>
+</detail>
+</item>

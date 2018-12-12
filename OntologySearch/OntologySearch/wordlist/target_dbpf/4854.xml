@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4854">
+<itemtype>xnppaper</itemtype>
+<titles><title>Selective hippocampal lesions yield nonspatial memory impairments in rhesus monkeys.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Macaca mulatta</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T02:06:42Z</last_update_date>
+<creation_date>2011-05-02T02:06:42Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4854</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4854" version="1.02">
+<authors><author>Doré FY</author><author>Thornton JA</author><author>White NM</author><author>Murray EA</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>4</number>
+<page>323-9</page>
+<abstract>Monkeys with removals of medial temporal lobe (MTL) structures are widely recognized as valid models of human global anterograde amnesia, a syndrome that arises consequent to damage to a finite set of brain structures situated in the medial temporal lobe and/or medial diencephalon. However, a comparison of memory deficits in human and nonhuman primates with MTL damage has presented a long-standing puzzle. Whereas amnesic patients are impaired in learning object discrimination problems, monkeys with MTL damage are typically not. One possible explanation for this difference is that object discrimination tasks for humans and monkeys differ in that the former but not the latter requires the use of contextual information. If this analysis is correct, monkeys with MTL damage might be disadvantaged in learning to discriminate similar objects presented in different contexts. To test this possibility, we evaluated the effects of excitotoxic lesions of one of the MTL structures, the hippocampus, on the rate of learning of discrimination problems embedded within unique contexts. Monkeys with hippocampal lesions were impaired relative to controls in learning object discrimination problems of this type. These findings strongly support the idea that the difference in the effect on object memory of MTL damage in human and nonhuman primates is due to a difference in the opportunity to employ contextual cues rather than to a difference in the organization of memory.</abstract>
+<pubmed_id>9744419</pubmed_id>
+</detail>
+</item>

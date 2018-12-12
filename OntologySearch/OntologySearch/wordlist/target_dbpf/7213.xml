@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7213">
+<itemtype>xnppaper</itemtype>
+<titles><title>A nitric oxide-independent and beta-adrenergic receptor-sensitive form of metaplasticity limits theta-frequency stimulation-induced LTP in the hippocampal CA1 region.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>chemistry</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Nitric Oxide</keyword>
+<keyword>metabolism</keyword>
+<keyword>Receptors</keyword>
+<keyword>Adrenergic</keyword>
+<keyword>beta</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>chemistry</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:58:42Z</last_update_date>
+<creation_date>2013-02-27T07:58:42Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7213</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7213" version="1.02">
+<authors><author>Moody TD</author><author>Carlisle HJ</author><author>O&#039;Dell TJ</author></authors>
+<journal>Learning&amp;memory (Cold Spring Harbor, N.Y.)</journal>
+<volume>6</volume>
+<number>6</number>
+<page>619-33</page>
+<abstract>The induction of long-term potentiation (LTP) and long-term depression (LTD) at excitatory synapses in the hippocampus can be strongly modulated by patterns of synaptic stimulation that otherwise have no direct effect on synaptic strength. Likewise, patterns of synaptic stimulation that induce LTP or LTD not only modify synaptic strength but can also induce lasting changes that regulate how synapses will respond to subsequent trains of stimulation. Collectively known as metaplasticity, these activity-dependent processes that regulate LTP and LTD induction allow the recent history of synaptic activity to influence the induction of activity-dependent changes in synaptic strength and may thus have an important role in information storage during memory formation. To explore the cellular and molecular mechanisms underlying metaplasticity, we investigated the role of metaplasticity in the induction of LTP by theta-frequency (5-Hz) synaptic stimulation in the hippocampal CA1 region. Our results show that brief trains of theta-frequency stimulation not only induce LTP but also activate a process that inhibits the induction of additional LTP at potentiated synapses. Unlike other forms of metaplasticity, the inhibition of LTP induction at potentiated synapses does not appear to arise from activity-dependent changes in NMDA receptor function, does not require nitric oxide signaling, and is strongly modulated by beta-adrenergic receptor activation. Together with previous findings, our results indicate that mechanistically distinct forms of metaplasticity regulate LTP induction and suggest that one way modulatory transmitters may act to regulate synaptic plasticity is by modulating metaplasticity.</abstract>
+<pubmed_id>10641766</pubmed_id>
+</detail>
+</item>

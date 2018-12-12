@@ -1,0 +1,10 @@
+Animals
+Hippocampus
+physiology
+Male
+Rats
+Rats
+Long-Evans
+Theta Rhythm
+physiology
+A topographical relationship exists between the hippocampus-entorhinal cortex and the neocortex. However, it is not known how these anatomical connections are utilized during information exchange and behavior. We recorded theta oscillations along the entire extent of the septotemporal axis of the hippocampal CA1 pyramidal layer. While the frequency of theta oscillation remained same along the entire long axis, the amplitude and coherence between recording sites decreased from dorsal to ventral hippocampus (VH). Theta phase shifted monotonically with distance along the longitudinal axis, reaching∼180° between the septal and temporal poles. The majority of concurrently recorded units were phase-locked to the local field theta at all dorsoventral segments. The power of VH theta had only a weak correlation with locomotion velocity, and its amplitude varied largely independently from theta in the dorsal part. Thus, theta oscillations can temporally combine or segregate neocortical representations along the septotemporal axis of the hippocampus.

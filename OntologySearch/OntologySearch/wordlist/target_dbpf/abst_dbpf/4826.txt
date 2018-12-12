@@ -1,0 +1,12 @@
+Animals
+Electrophysiology
+Guinea Pigs
+Hippocampus
+cytology
+Horseradish Peroxidase
+Mathematics
+Models
+Biological
+Neurons
+physiology
+This study describes a detailed cable model of neuronal structure, which can predict the effects of discrete transient inputs. Neurons in in vitro hippocampal slices (CA1 and CA3 pyramidal cells and dentate granule neurons; n = 4 each) were physiologically characterized and stained with horseradish peroxidase (HRP). The HRP morphology was approximated with numerous small segments. The cable model included both these segments and spatially dispersed dendritic spines. The transient response function at the soma of the segmental model was numerically derived, and charging responses to simulated current inputs were computed. These simulations were compared with the physiological charging responses from the somatic penetrations, using an analysis of the charging time constants (tau i) and intercepts. The time constant ratio (tau 0/tau 1) did not significantly differ between the observed and simulated responses. A second index of comparison was the equivalent cylinder electrotonic length (L), which was derived using only the tau i values and their intercepts. The L values also did not differ significantly between the observed and simulated transients and averaged 0.91 length constant. Thus, using criteria based only on analysis of charging responses, the segmental cable model recreated accurately the observed transients at the soma. The equivalent cylinder model (with a lumped soma) could also adequately simulate the observed somatic transients, using the same criteria. However, the hippocampal neurons (particularly the pyramidal cells) did not appear to satisfy the equivalent cylinder assumption anatomically. Thus, the analysis of somatic charging transients alone may not be sufficient to discriminate between the two models of hippocampal neurons. Anatomical evidence indicates that, particularly for discrete dendritic inputs, the detailed segmental model may be more appropriate than the equivalent cylinder model.

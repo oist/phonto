@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4493">
+<itemtype>xnppaper</itemtype>
+<titles><title>Positron emission tomography correlations in and beyond medial temporal lobes.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>radiography</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>radiography</keyword>
+<keyword>Tomography</keyword>
+<keyword>Emission-Computed</keyword>
+<keyword>methods</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T04:18:49Z</last_update_date>
+<creation_date>2011-01-28T04:18:49Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4493</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4493" version="1.02">
+<authors><author>Tulving E</author><author>Habib R</author><author>Nyberg L</author><author>Lepage M</author><author>McIntosh AR</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>1</number>
+<page>71-82</page>
+<abstract>This article discusses the potential usefulness of brain/ behavior correlational analyses in functional neuroimaging studies of memory, and how such analyses can illuminate the role of medial temporal lobes (MTL) and the hippocampus in episodic and declarative memory processes such as encoding and retrieval. Reanalysis of the results of four previously reported positron emission tomography (PET) studies yielded evidence of both positive and negative between-subjects correlations between recognition-memory accuracy and regional blood flow. The sites of these correlations were in MTL regions as well as in other cortical and subcortical areas, including frontal lobes (Brodmann areas 6, 9, 10, 11, and 47), temporal lobes (BAs 21, 22, and 38), insula, fusiform gyrus, and cuneus/precuneus. These findings were discussed with respect to issues such as localization of the correlation sites, the distinction between brain sites revealed by brain/cognition correlational analyses (&quot;how&quot; sites) and those yielded by cognitive subtraction methods (&quot;what&quot; sites), the tendency of the &quot;how&quot; sites in MTL to occur in the left hemisphere, the tendency of other &quot;how&quot; sites to occur in one or the other hemisphere, rather than bilaterally, and the meaning and &quot;reality&quot; of both brain/behavior correlations and task-related activations. Because of the known incidence of false-positives, all neuroimaging data, including those involving the localization of &quot;what&quot; and &quot;how&quot; memory sites in MTL and other brain regions, need to be interpreted cautiously, and findings of individual studies should not be overinterpreted.</abstract>
+<pubmed_id>10088902</pubmed_id>
+</detail>
+</item>

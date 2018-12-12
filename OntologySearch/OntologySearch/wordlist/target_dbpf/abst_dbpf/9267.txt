@@ -1,0 +1,30 @@
+Animals
+Behavior
+Animal
+drug effects
+Bipolar Disorder
+drug therapy
+therapy
+Brain-Derived Neurotrophic Factor
+metabolism
+Disease Models
+Animal
+Exercise Therapy
+Female
+Hippocampus
+drug effects
+Male
+Melatonin
+therapeutic use
+Mice
+Mice
+Inbred C57BL
+Mice
+Mutant Strains
+Motor Activity
+drug effects
+Sleep
+drug effects
+Sodium-Potassium-Exchanging ATPase
+genetics
+Bipolar disorder is a neuropsychiatric disease characterized by states of mania with or without depression. Pharmacological treatments can be inadequate at regulating mood for many individuals. Melatonin therapy and aerobic exercise are independent prospective therapies for bipolar disorder that have shown potential as mood stabilizers in humans. Myshkin mice (Myk/+) carry a heterozygous missense mutation in the neuronal Na(+),K(+)-ATPaseα3 and model mania-related symptoms of bipolar disorder including increased activity, risk-taking behavior and reductions in sleep. One cohort of Myk/+ and wild-type littermates (+/+) was treated with melatonin and a separate cohort was treated with voluntary exercise. Mania-related behavior was assessed in both cohorts. The effect of melatonin on sleep and the effect of exercise on brain-derived neurotrophic factor (BDNF) expression in the hippocampus were assayed. Melatonin and voluntary wheel running were both effective at reducing mania-related behavior in Myk/+ but did not affect behavior in +/+. Melatonin increased sleep in Myk/+ and did not change sleep in +/+. Myk/+ showed higher baseline levels of BDNF protein in the hippocampus than +/+. Exercise increased BDNF protein in +/+ hippocampus, while it did not significantly affect BDNF levels in Myk/+ hippocampus. These findings support initial studies in humans indicating that melatonin and exercise are useful independent adjunct therapies for bipolar disorder. Their effects on mood regulation should be further examined in randomized clinical trials. Our results also suggest that hippocampal BDNF may not mediate the effectsof exercise on mania-related behavior in the Myk/+ model of mania.

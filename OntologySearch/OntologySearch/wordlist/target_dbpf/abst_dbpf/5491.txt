@@ -1,0 +1,18 @@
+Animals
+Brain Mapping
+Evoked Potentials
+Hippocampus
+physiology
+Mesencephalon
+physiology
+Neural Pathways
+physiology
+Raphe Nuclei
+physiology
+Rats
+Sleep Stages
+physiology
+Synaptic Transmission
+Wakefulness
+physiology
+We have previously reported that activation of an ascending brainstem pathway by stimulation of the median raphe nucleus (MR) influences neuronal transmission from the perforant pathway through the dentate gyrus in a behaviorally dependent manner. In particular, stimulation of the MR markedly facilitated such transmission when applied during slow-wave sleep (SWS), but was ineffective when applied during the still-alert state (SAL). We present here evidence for a relay in this circuit located rostral to the MR in cells proximal to the fasciculus retroflexus (PF, parafascicular region). In contrast to stimulation of the MR, stimulation of the PF facilitates neuronal transmission from the perforant pathway through the dentate gyrus during both SWS and SAL indicating the presence of a gate at or proximal to the PF that is preferentially closed during SAL.

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4639">
+<itemtype>xnppaper</itemtype>
+<titles><title>Sleep-dependent memory consolidation.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Dreams</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-04T02:45:55Z</last_update_date>
+<creation_date>2011-02-04T02:45:55Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4639</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4639" version="1.02">
+<authors><author>Stickgold R</author></authors>
+<journal>Nature</journal>
+<volume>437</volume>
+<number>7063</number>
+<page>1272-8</page>
+<abstract>The concept of &#039;sleeping on a problem&#039; is familiar to most of us. But with myriad stages of sleep, forms of memory and processes of memory encoding and consolidation, sorting out how sleep contributes to memory has been anything but straightforward. Nevertheless, converging evidence, from the molecular to the phenomenological, leaves little doubt that offline memory reprocessing during sleep is an important component of how our memories are formed and ultimately shaped.</abstract>
+<pubmed_id>16251952</pubmed_id>
+</detail>
+</item>

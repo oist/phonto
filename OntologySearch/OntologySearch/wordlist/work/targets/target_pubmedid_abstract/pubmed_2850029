@@ -1,0 +1,28 @@
+1. Biophys J. 1988 Sep;54(3):411-25.
+
+Emergence of organized bursting in clusters of pancreatic beta-cells by channel
+sharing.
+
+Sherman A(1), Rinzel J, Keizer J.
+
+Author information: 
+(1)National Institute of Diabetes and Digestive and Kidney Diseases-Mathematical 
+Research Branch, Bethesda, Maryland.
+
+Pancreatic beta-cells in an intact Islet of Langerhans exhibit bursting
+electrical behavior. The Chay-Keizer model describes this using a
+calcium-activated potassium (K-Ca) channel, but cannot account for the irregular 
+spiking of isolated beta-cells. Atwater I., L. Rosario, and E. Rojas, Cell
+Calcium. 4:451-461, proposed that the K-Ca channels, which are rarely open, are
+shared by several cells. This suggests that the chaotic behavior of isolated
+cells is stochastic. We have revised the Chay-Keizer model to incorporate voltage
+clamp data of Rorsman and Trube and extended it to include stochastic K-Ca
+channels. This model can describe the behavior of single cells, as well as that
+of clusters of cells tightly coupled by gap junctions. As the size of the
+clusters is increased, the electrical activity shows a transition from chaotic
+spiking to regular bursting. Although the model of coupling is over-simplified,
+the simulations lend support to the hypothesis that bursting is the result of
+channel sharing.
+
+PMCID: PMC1330341
+PMID: 2850029  [PubMed - indexed for MEDLINE]

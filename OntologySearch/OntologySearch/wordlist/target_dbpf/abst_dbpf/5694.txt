@@ -1,0 +1,19 @@
+Adult
+Behavior
+physiology
+Brain Mapping
+Female
+Humans
+Judgment
+physiology
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Mental Processes
+physiology
+Reaction Time
+Semantics
+Temporal Lobe
+physiology
+The role of medial temporal lobe (MTL) in deep semantic processing was examined in a triple semantic judgment task in which subjects were asked to decide which one of the two bottom words was more semantically fit to the top word. By changing the number of bottom words that are semantically related to the top word, we can disassociate effects of reactivating the "old" semantic associations and effects of establishing "new" semantic associations on the MTL. The results of event-related fMRI analysis indicated that MTL was more activated in the retrieval of old semantic associations than in the establishment of new semantic associations. The function of MTL in this semantic judgment task was explained as subserving the process of extensive retrieval of task-related knowledge.

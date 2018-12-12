@@ -1,0 +1,23 @@
+Adolescent
+Adult
+Electroencephalography
+Epilepsies
+Partial
+physiopathology
+Evoked Potentials
+Female
+Frontal Lobe
+physiology
+Hippocampus
+physiology
+Humans
+Male
+Memory
+physiology
+Occipital Lobe
+physiology
+Parietal Lobe
+physiology
+Psychomotor Performance
+Spectrum Analysis
+Cortical potentials were recorded from implanted electrodes during a difficult working memory task requiring rapid storage, modification and retrieval of multiple memoranda. Synchronous event-related potentials were generated in distributed occipital, parietal, Rolandic and prefrontal sites beginning approximately 130 ms after stimulus onset and continuing for>500 ms. Coherent phase-locked, event-related oscillations supported interaction between these dorsal stream structures throughout the task period. The Rolandic structures generated early as well as sustained potentials to sensory stimuli in the absence of movement. Activation peaks and phase lags between synaptic populations suggested that perceptual processing occurred exclusively in the visual association cortex from approximately 90 to 130 ms, with its results projected to fronto-parietal areas for interpretation from approximately 130 to 280 ms. The direction of interaction then appeared to reverse from approximately 300 to 400 ms, consistent with mental arithmetic being performed by fronto-parietal areas operating upon a visual scratch pad in the dorsolateral occipital cortex. A second reversal, from approximately 420 to 600 ms, may have represented an updating of memoranda stored in fronto-parietal sites. Lateralized perisylvian oscillations suggested an articulatory loop. Anterior cingulate activity was evoked by feedback signals indicating errors. These results indicate how a fronto-centro-parietal 'central executive' might interact with an occipital visual scratch pad, perisylvian articulatory loop and limbic monitor to implement the sequential stages of a complex mental operation.

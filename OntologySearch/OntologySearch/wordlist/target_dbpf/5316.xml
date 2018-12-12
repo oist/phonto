@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5316">
+<itemtype>xnppaper</itemtype>
+<titles><title>Shrinkage of dendritic spines associated with long-term depression of hippocampal synapses.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Actin Depolymerizing Factors</keyword>
+<keyword>Animals</keyword>
+<keyword>Dendritic Spines</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Long-Term Synaptic Depression</keyword>
+<keyword>physiology</keyword>
+<keyword>Microfilament Proteins</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Signal Transduction</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>ultrastructure</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-03T04:45:09Z</last_update_date>
+<creation_date>2011-06-03T04:45:09Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5316</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5316" version="1.02">
+<authors><author>Zhou Q</author><author>Homma KJ</author><author>Poo MM</author></authors>
+<journal>Neuron</journal>
+<volume>44</volume>
+<number>5</number>
+<page>749-57</page>
+<abstract>Activity-induced modification of neuronal connections is essential for the development of the nervous system and may also underlie learning and memory functions of mature brain. Previous studies have shown an increase in dendritic spine density and/or enlargement of spines after the induction of long-term potentiation (LTP). Using two-photon time-lapse imaging of dendritic spines in acute hippocampal slices from neonatal rats, we found that the induction of long-term depression (LTD) by low-frequency stimulation is accompanied by a marked shrinkage of spines, which can be reversed by subsequent high-frequency stimulation that induces LTP. The spine shrinkage requires activation of NMDA receptors and calcineurin, similar to that for LTD. However, spine shrinkage is mediated by cofilin, but not by protein phosphatase 1 (PP1), which is essential for LTD, suggesting that different downstream pathways are involved in spine shrinkage and LTD. This activity-induced spine shrinkage may contribute to activity-dependent elimination of synaptic connections.</abstract>
+<pubmed_id>15572107</pubmed_id>
+</detail>
+</item>

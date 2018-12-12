@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4922">
+<itemtype>xnppaper</itemtype>
+<titles><title>Effects of adenosine and gamma-aminobutyric acid A receptor antagonists on N-methyl-D-aspartate induced neurotoxicity in the rat hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Atrophy</keyword>
+<keyword>Caffeine</keyword>
+<keyword>administration</keyword>
+<keyword>&amp;</keyword>
+<keyword>dosage</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>GABA-A Receptor Antagonists</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>pathology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Microinjections</keyword>
+<keyword>N-Methylaspartate</keyword>
+<keyword>administration</keyword>
+<keyword>&amp;</keyword>
+<keyword>dosage</keyword>
+<keyword>toxicity</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>pathology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurotoxins</keyword>
+<keyword>toxicity</keyword>
+<keyword>Purinergic P1 Receptor Antagonists</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Xanthines</keyword>
+<keyword>administration</keyword>
+<keyword>&amp;</keyword>
+<keyword>dosage</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:12:41Z</last_update_date>
+<creation_date>2011-05-09T02:12:41Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4922</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4922" version="1.02">
+<authors><author>Robledo P</author><author>Ursu G</author><author>Mahy N</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>5</number>
+<page>527-33</page>
+<abstract>This study investigated the modulatory actions of adenosine and gamma-aminobutyric acid (GABA) on several aspects of N-methyl-D-aspartate (NMDA)-induced neurotoxicity, including neuronal loss, atrophy, necrosis, and calcium accumulation in the hippocampus. For this purpose, we combined unilateral intrahippocampal injections of NMDA (24 nmoles) with acute injections of the selective A1 adenosine receptor antagonist DPCPX (0.03 pmoles), the selective adenosine A2a receptor antagonist CSC (1.5 pmoles), a combination of these two antagonists, and injections of the selective GABA A receptor antagonist bicuculline (60 pmoles). Fifteen days after NMDA injection, neuronal loss with preservation of architecture was observed in stratum oriens, pyramidale, radiatum, lacunosum-moleculare, and stratum moleculare of Ammon&#039;s horn, and in radial and granular layers of the dentate gyrus. NMDA plus vehicle also produced a small degree of brain tissue necrosis (holes in the structure) in four of five brains. Acute injections of CSC, but not DPCPX or bicuculline, significantly increased the extent of neuronal loss produced by NMDA plus vehicle. CSC in combination with NMDA induced significantly more necrosis than NMDA plus vehicle. A significant degree of atrophy was observed in the hippocampus after treatment with NMDA plus vehicle, and bicuculline significantly increased the magnitude of this atrophy. NMDA-induced calcium deposits were detected within the radiatum and lacunosum-moleculare layers of the hippocampus and in the hilus of the dentate, but not in the stratum oriens, stratum pyramidale, or in the granular layer of the dentate gyrus. However, treatment with the different antagonists did not significantly modify the magnitude of the NMDA-induced calcium deposits. These results reveal a selective vulnerability of certain areas of the hippocampus to the accumulation of calcium deposits, and a selective interaction between adenosine receptors and NMDA-induced neurotoxicity in the hippocampus.</abstract>
+<pubmed_id>10560923</pubmed_id>
+</detail>
+</item>

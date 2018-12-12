@@ -1,0 +1,34 @@
+1. Biophys J. 2007 Mar 1;92(5):1522-43. Epub 2006 Dec 8.
+
+Kinetic properties of the cardiac L-type Ca2+ channel and its role in myocyte
+electrophysiology: a theoretical investigation.
+
+Faber GM(1), Silva J, Livshitz L, Rudy Y.
+
+Author information: 
+(1)Department of Biomedical Engineering, Case Western Reserve University,
+Cleveland, Ohio, USA.
+
+The L-type Ca(2+) channel (Ca(V)1.2) plays an important role in action potential 
+(AP) generation, morphology, and duration (APD) and is the primary source of
+triggering Ca(2+) for the initiation of Ca(2+)-induced Ca(2+)-release in cardiac 
+myocytes. In this article we present: 1), a detailed kinetic model of Ca(V)1.2,
+which is incorporated into a model of the ventricular mycoyte where it interacts 
+with a kinetic model of the ryanodine receptor in a restricted subcellular space;
+2), evaluation of the contribution of voltage-dependent inactivation (VDI) and
+Ca(2+)-dependent inactivation (CDI) to total inactivation of Ca(V)1.2; and 3),
+description of dynamic Ca(V)1.2 and ryanodine receptor channel-state occupancy
+during the AP. Results are: 1), the Ca(V)1.2 model reproduces experimental
+single-channel and macroscopic-current data; 2), the model reproduces rate
+dependence of APD, [Na(+)](i), and the Ca(2+)-transient (CaT), and restitution of
+APD and CaT during premature stimuli; 3), CDI of Ca(V)1.2 is sensitive to Ca(2+) 
+that enters the subspace through the channel and from SR release. The relative
+contributions of these Ca(2+) sources to total CDI during the AP vary with time
+after depolarization, switching from early SR dominance to late Ca(V)1.2
+dominance. 4), The relative contribution of CDI to total inactivation of Ca(V)1.2
+is greater at negative potentials, when VDI is weak; and 5), loss of VDI due to
+the Ca(V)1.2 mutation G406R (linked to the Timothy syndrome) results in APD
+prolongation and increased CaT.
+
+PMCID: PMC1796810
+PMID: 17158566  [PubMed - indexed for MEDLINE]

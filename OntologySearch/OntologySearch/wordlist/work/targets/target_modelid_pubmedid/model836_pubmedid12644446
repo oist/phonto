@@ -1,0 +1,25 @@
+1. Am J Physiol Endocrinol Metab. 2003 Jul;285(1):E138-54. Epub 2003 Mar 18.
+
+Modeling of Ca2+ flux in pancreatic beta-cells: role of the plasma membrane and
+intracellular stores.
+
+Fridlyand LE(1), Tamarina N, Philipson LH.
+
+Author information: 
+(1)Department of Medicine, University of Chicago, Illinois 60637, USA.
+
+We have developed a detailed mathematical model of ionic flux in beta-cells that 
+includes the most essential channels and pumps in the plasma membrane. This model
+is coupled to equations describing Ca2+, inositol 1,4,5-trisphosphate (IP3), ATP,
+and Na+ homeostasis, including the uptake and release of Ca2+ by the endoplasmic 
+reticulum (ER). In our model, metabolically derived ATP activates inward Ca2+
+flux by regulation of ATP-sensitive K+ channels and depolarization of the plasma 
+membrane. Results from the simulations support the hypothesis that intracellular 
+Na+ and Ca2+ in the ER can be the main variables driving both fast (2-7 osc/min) 
+and slow intracellular Ca2+ concentration oscillations (0.3-0.9 osc/min) and that
+the effect of IP3 on Ca2+ leak from the ER contributes to the pattern of slow
+calcium oscillations. Simulations also show that filling the ER Ca2+ stores leads
+to faster electrical bursting and Ca2+ oscillations. Specific Ca2+ oscillations
+in isolated beta-cell lines can also be simulated.
+
+PMID: 12644446  [PubMed - indexed for MEDLINE]

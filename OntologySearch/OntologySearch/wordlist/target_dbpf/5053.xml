@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5053">
+<itemtype>xnppaper</itemtype>
+<titles><title>Rapid integration of young newborn dentate gyrus granule cells in the adult hippocampal circuitry.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Adenoviridae</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Animals</keyword>
+<keyword>Animals</keyword>
+<keyword>Newborn</keyword>
+<keyword>Cell Lineage</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>cytology</keyword>
+<keyword>Female</keyword>
+<keyword>Green Fluorescent Proteins</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Intermediate Filament Proteins</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Mice</keyword>
+<keyword>Transgenic</keyword>
+<keyword>Mitosis</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Tissue Proteins</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Stem Cells</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T02:51:14Z</last_update_date>
+<creation_date>2011-05-16T02:51:14Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5053</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5053" version="1.02">
+<authors><author>Ide Y</author><author>Fujiyama F</author><author>Okamoto-Furuta K</author><author>Tamamaki N</author><author>Kaneko T</author><author>Hisatsune T</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>28</volume>
+<number>12</number>
+<page>2381-92</page>
+<abstract>Newborn dentate gyrus granule cells (DGCs) are integrated into the hippocampal circuitry and contribute to the cognitive functions of learning and memory. The dendritic maturation of newborn DGCs in adult mice occurs by the first 3-4 weeks, but DGCs seem to receive a variety of neural inputs at both their dendrites and soma even shortly after their birth. However, few studies on the axonal maturation of newborn DGCs have focused on synaptic structure. Here, we investigated the potentiality of output and input in newborn DGCs, especially in the early period after terminal mitosis. We labeled nestin-positive progenitor cells by injecting GFP Cre-reporter adenovirus into Nestin-Cre mice, enabling us to trace the development of progenitor cells by their GFP expression. In addition to GABAergic input from interneurons, we observed that the young DGCs received axosomatic input from the medial septum as early as postinfection day 7 (PID 7). To evaluate the axonal maturation of the newborn DGCs compared with mature DCGs, we performed confocal and electron microscopic analyses. We observed that newborn DGCs projected their mossy fibers to the CA3 region, forming small terminals on hilar or CA3 interneurons and large boutons on CA3 pyramidal cells. These terminals expressed vesicular glutamate transporter 1, indicating they were glutamatergic terminals. Intriguingly, the terminals at PID 7 had already formed asymmetric synapses, similar to those of mature DGCs. Together, our findings suggest that newborn DGCs may form excitatory synapses on both interneurons and CA3 pyramidal cells within 7 days of their terminal mitosis.</abstract>
+<pubmed_id>19087169</pubmed_id>
+</detail>
+</item>

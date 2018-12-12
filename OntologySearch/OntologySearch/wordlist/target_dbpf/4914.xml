@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4914">
+<itemtype>xnppaper</itemtype>
+<titles><title>Intracellular records of theta rhythm in hippocampal CA1 cells of the rat.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:01:11Z</last_update_date>
+<creation_date>2011-05-09T02:01:11Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4914</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4914" version="1.02">
+<authors><author>Leung LS</author><author>Yim CY</author></authors>
+<journal>Brain research</journal>
+<volume>367</volume>
+<number>1</number>
+<page>323-7</page>
+<abstract>In the urethane-anesthetized rat, intracellular recordings from hippocampal CA1 cells, some of them identified as projection (probably pyramidal) cells, showed oscillations of the resting membrane potential in the theta frequency range (&#039;intracellular theta rhythm&#039;) which is phase-locked to the extracellularly recorded theta rhythm. Current injection or acetate ion diffusion, which reversed an inhibitory postsynaptic potential (IPSP) evoked by alvear stimulation, inverted the phase relationship between intracellular and extracellular theta rhythms. A high correlation was also found between amplitudes of the intracellular theta and the evoked IPSP at different membrane potentials. These results indicate that hippocampal theta rhythm in the urethane-anesthetized rat is predominantly caused by a rhythmic modulation of impinging IPSPs on pyramidal cells.</abstract>
+<pubmed_id>3008923</pubmed_id>
+</detail>
+</item>

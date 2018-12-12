@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7483">
+<itemtype>xnppaper</itemtype>
+<titles><title>The functional neuroanatomy of episodic memory: the role of the frontal lobes, the hippocampal formation, and other areas.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Brain Mapping</keyword>
+<keyword>Dominance</keyword>
+<keyword>Cerebral</keyword>
+<keyword>physiology</keyword>
+<keyword>Frontal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Retention (Psychology)</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T00:58:25Z</last_update_date>
+<creation_date>2013-03-28T00:58:25Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7483</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7483" version="1.02">
+<authors><author>Desgranges B</author><author>Baron JC</author><author>Eustache F</author></authors>
+<journal>NeuroImage</journal>
+<volume>8</volume>
+<number>2</number>
+<page>198-213</page>
+<abstract>Because it allows direct mapping of synaptic activity during behavior in the normal subject, functional neuroimaging with the activation paradigm, especially positron emission tomography, has recently provided insight into our understanding of the functional neuroanatomy of episodic memory over and above established knowledge from lesional neuropsychology. The most striking application relates to the ability to distinguish the structures implicated in the encoding and the retrieval of episodic information, as these processes are extremely difficult to differentiate with behavioral tasks, either in healthy subjects or in brain-damaged patients. Regarding encoding and retrieval, the results from most studies converge on the involvement of the prefrontal cortex in these processes, with a hemispheric encoding/retrieval asymmetry (HERA) such that the left side is preferentially involved in encoding, and the right in retrieval. However, there are still some questions, for instance, about bilateral activation during retrieval and a possible specialization within the prefrontal cortex. More expected from human and monkey lesional data, the hippocampal formation appears to play a role in both the encoding and the retrieval of episodic information, but the exact conditions which determine hippocampal activation and its fine-grained functional neuroanatomy have yet to be fully elucidated. Other structures are activated during episodic memory tasks, with asymmetric activation that fits the HERA model, such as preferentially left-sided activation of the association temporal and posterior cingulate areas in encoding tasks and preferentially right-sided activation of the association parietal cortex, cerebellum, and posterior cingulate in retrieval tasks. However, this hemispheric asymmetry appears to depend to some extent on the material used. These new data enhance our capacity to comprehend episodic memory deficits in neuropsychology, as well as the neural mechanisms underlying the age-related changes in episodic memory performances.</abstract>
+<pubmed_id>9740762</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,13 @@
+Action Potentials
+Animals
+Electric Stimulation
+Electroencephalography
+Hippocampus
+cytology
+physiology
+Membrane Potentials
+Rats
+Rats
+Inbred Strains
+Theta Rhythm
+The hippocampal EEG and the transmembrane potential of CA1-CA3 hippocampal pyramids were recorded in curarized and urethanized rats. Pyramids were identified by antidromic driving and intracellular staining with Lucifer yellow. During theta-rhythm most pyramids showed 10-20 mV sustained depolarizations and potential oscillations either consisting of 5-10 mV smooth sine-like waves or slow spikes of up to 60 mV. Fast Na+ and slow, probably Ca2+-mediated, spikes were triggered by depolarizing pulses or spontaneously. Depolarizations greater than 15 mV triggered rhythmic slow spikes at theta-frequency, but if less than 15 mV, slow spikes were irregular and at lower rates. With depolarizations of less than 10 mV, no slow spikes were triggered. Sine-like intracellular theta-wave amplitudes increased with hyper- and decreased with depolarizing pulses, showing the behavior of rhythmic EPSPs. Periodic fast spike bursts were theta-correlated. Cells with intracellular theta could either fire periodic fast spike bursts or at random, but always at a preferred phase of the theta-wave. Slow spikes were generated above a potential threshold by a slow depolarization and driven by periodic EPSPs. Intracellular theta is the reflection of EPSPs and of slow spikes; the oscillatory phenomena are not exclusively generated, as previously hypothesized, by network properties which may, however, contribute as tuning and modulatory elements. The determining events in intracellular theta-generation are the intrinsic biophysical characteristics of the pyramidal neuron membrane.

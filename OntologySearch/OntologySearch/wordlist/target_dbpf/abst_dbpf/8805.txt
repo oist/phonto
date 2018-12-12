@@ -1,0 +1,25 @@
+Action Potentials
+Animals
+Electric Stimulation
+Epilepsy
+pathology
+physiopathology
+Hippocampus
+drug effects
+pathology
+physiopathology
+In Vitro Techniques
+Male
+Nerve Fibers
+physiology
+Neurons
+physiology
+Penicillins
+pharmacology
+Potassium
+pharmacology
+Rats
+Rats
+Wistar
+Time Factors
+Undoubted evidence of chaotic activity of a biological neural network are given. Spontaneous epileptiform bursts of a neuron population in the CA3 region of rat hippocampal slices were caused in a perfusing medium with 2 mM penicillin and 8 mM K+ ions, and responses of field potential in the CA3 region to a periodic mossy fiber stimulation were investigated. Phase-locked and chaotic responses occur depending on stimulus parameters; for example, when the frequency of the stimulation increases, 1:1 phase-locking bifurcates to chaos through 1:2 phase-locking. The chaotic responses show a broad-band spectrum, and their trajectories in the three-dimensional phase space (V(t), V(t + tau), V(t + 2 tau)) reconstruct a strange attractor. Lyapunov exponents of the strange attractors estimated by the Wolf's algorithm are positive. Moreover, one-dimensional strobomaps obtained from the chaotic responses show a non-invertible function. Since the slope of each strobomap at their fixed point is more negative than -1, the fixed points are unstable. These are undoubted evidences for chaotic responses of the CA3 region in hippocampal slices maintained in vitro. Cross-correlation functions between field potential responses which were simultaneously observed at different sites show that the responses are spatially coherent throughout the CA3 region even when the responses are chaotic.

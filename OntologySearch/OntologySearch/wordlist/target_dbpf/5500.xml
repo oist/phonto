@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5500">
+<itemtype>xnppaper</itemtype>
+<titles><title>Frequency-dependent involvement of NMDA receptors in the hippocampus: a novel synaptic mechanism.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>2-Amino-5-phosphonovalerate</keyword>
+<keyword>Animals</keyword>
+<keyword>Aspartic Acid</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Magnesium</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>N-Methylaspartate</keyword>
+<keyword>Rats</keyword>
+<keyword>Receptors</keyword>
+<keyword>AMPA</keyword>
+<keyword>Receptors</keyword>
+<keyword>Drug</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>Kainic Acid</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>Receptors</keyword>
+<keyword>Neurotransmitter</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+<keyword>Valine</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:34:28Z</last_update_date>
+<creation_date>2011-06-14T00:34:28Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5500</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5500" version="1.02">
+<authors><author>Herron CE</author><author>Lester RA</author><author>Coan EJ</author><author>Collingridge GL</author></authors>
+<journal>Nature</journal>
+<volume>322</volume>
+<number>6076</number>
+<page>265-8</page>
+<abstract>Acidic amino acids, such as l-glutamate, are believed to be excitatory neurotransmitters in the mammalian brain and exert effects on several different receptors named after the selective agonists kainate, quisqualate and N-methyl-D-aspartate (NMDA). The first two receptors collectively termed non-NMDA receptors, have been implicated in the mediation of synaptic transmission in many excitatory pathways in the central nervous system (CNS), whereas NMDA receptors, with few exceptions do not appear to be involved; this is typified in the hippocampus where there is a high density of NMDA receptors yet selective NMDA receptor antagonists, such as D-2-amino-5-phosphonovalerate (APV), do not affect synaptic potentials. NMDA receptors have, however, been shown to be involved in long-term potentiation (LTP) in the hippocampus, a form of synaptic plasticity which may be involved in learning and memory. NMDA receptors have also been found to contribute to epileptiform activity in this region. We now describe how NMDA receptors can participate during high-frequency synaptic transmission in the hippocampus, their involvement during low-frequency transmission being greatly suppressed by Mg2+. A frequency dependent alleviation of this blockade provides a novel synaptic mechanism whereby a single neurotransmitter can transmit very different information depending on the temporal nature of the input. This mechanism could account for the involvement of NMDA receptors in the initiation of LPT and their contribution, in part, to epileptic activity.</abstract>
+<pubmed_id>2874493</pubmed_id>
+</detail>
+</item>

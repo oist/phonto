@@ -1,0 +1,17 @@
+Amygdala
+physiology
+Animals
+Extinction
+Psychological
+physiology
+Fear
+physiology
+Hippocampus
+physiology
+Male
+Mice
+Mice
+Inbred C3H
+Prefrontal Cortex
+physiology
+Signals related to fear memory and extinction are processed within brain pathways involving the lateral amygdala (LA) for formation of aversive stimulus associations, the CA1 area of the hippocampus for context-dependent modulation of these associations, and the infralimbic region of the medial prefrontal cortex (mPFC) for extinction processes. While many studies have addressed the contribution of each of these modules individually, little is known about their interactions and how they function as an integrated system. Here we show, by combining multiple site local field potential (LFP) and unit recordings in freely behaving mice in a fear conditioning paradigm, that theta oscillations may provide a means for temporally and functionally connecting these modules. Theta oscillations occurred with high specificity in the CA1-LA-mPFC network. Theta coupling increased between all areas during retrieval of conditioned fear, and declined during extinction learning. During extinction recall, theta coupling partly rebounded in LA-mPFC and CA1-mPFC, and remained at a low level in CA1-LA. Interfering with theta coupling through local electrical microstimulation in CA1-LA affected conditioned fear and extinction recall depending on theta phase. These results support the hypothesis that theta coupling provides a means for inter-areal coordination in conditioned behavioral responsiveness. More specifically, theta oscillations seem to contribute to a population code indicating conditioned stimuli during recall of fear memory before and after extinction.

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7514">
+<itemtype>xnppaper</itemtype>
+<titles><title>Recollection-like memory retrieval in rats is dependent on the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Bias (Epidemiology)</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>injuries</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Language</keyword>
+<keyword>Male</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Odors</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Smell</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T06:57:49Z</last_update_date>
+<creation_date>2013-03-28T06:57:49Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7514</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7514" version="1.02">
+<authors><author>Fortin NJ</author><author>Wright SP</author><author>Eichenbaum H</author></authors>
+<journal>Nature</journal>
+<volume>431</volume>
+<number>7005</number>
+<page>188-91</page>
+<abstract>Recognition memory may be supported by two independent types of retrieval, conscious recollection of a specific experience and a sense of familiarity gained from previous exposure to particular stimuli. In humans, signal detection techniques have been used to distinguish recollection and familiarity, respectively, in asymmetrical and curvilinear components of their receiver operating characteristic (ROC) curves, standard curves that represent item recognition across different levels of confidence or bias. To determine whether animals also employ multiple processes in recognition memory and to explore the anatomical basis of this distinction, we adapted these techniques to examine odour recognition memory in rats. Their ROC curve had asymmetrical and curvilinear components, indicating the existence of both recollection and familiarity in rats. Furthermore, following selective damage to the hippocampus the ROC curve became entirely symmetrical and remained curvilinear, supporting the view that the hippocampus specifically mediates the capacity for recollection.</abstract>
+<pubmed_id>15356631</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4866">
+<itemtype>xnppaper</itemtype>
+<titles><title>The human hippocampus and spatial and episodic memory.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory Disorders</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Motion Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>User-Computer Interface</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:03:28Z</last_update_date>
+<creation_date>2011-05-02T02:31:53Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4866</url>
+<changelogs>
+<changelog date='2013-03-28T02:03:28Z'>Modified; Item Description.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4866" version="1.02">
+<authors><author>Burgess N</author><author>Maguire EA</author><author>O&#039;Keefe J</author></authors>
+<journal>Neuron</journal>
+<volume>35</volume>
+<number>4</number>
+<page>625-41</page>
+<abstract>Finding one&#039;s way around an environment and remembering the events that occur within it are crucial cognitive abilities that have been linked to the hippocampus and medial temporal lobes. Our review of neuropsychological, behavioral, and neuroimaging studies of human hippocampal involvement in spatial memory concentrates on three important concepts in this field: spatial frameworks, dimensionality, and orientation and self-motion. We also compare variation in hippocampal structure and function across and within species. We discuss how its spatial role relates to its accepted role in episodic memory. Five related studies use virtual reality to examine these two types of memory in ecologically valid situations. While processing of spatial scenes involves the parahippocampus, the right hippocampus appears particularly involved in memory for locations within an environment, with the left hippocampus more involved in context-dependent episodic or autobiographical memory.</abstract>
+<pubmed_id>12194864</pubmed_id>
+</detail>
+</item>

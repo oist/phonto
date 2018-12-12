@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5508">
+<itemtype>xnppaper</itemtype>
+<titles><title>Facilitation of hippocampal long-lasting potentiation by GABA antagonists.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Afferent Pathways</keyword>
+<keyword>drug effects</keyword>
+<keyword>Animals</keyword>
+<keyword>Bicuculline</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Guinea Pigs</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>Muscle Contraction</keyword>
+<keyword>drug effects</keyword>
+<keyword>Penicillins</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Picrotoxin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Receptors</keyword>
+<keyword>GABA-A</keyword>
+<keyword>drug effects</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:50:35Z</last_update_date>
+<creation_date>2011-06-14T00:50:35Z</creation_date>
+<publication_year>1985</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5508</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5508" version="1.02">
+<authors><author>Wigström H</author><author>Gustafsson B</author></authors>
+<journal>Acta physiologica Scandinavica</journal>
+<volume>125</volume>
+<number>1</number>
+<page>159-72</page>
+<abstract>Long-lasting potentiation (LLP) of synaptic transmission in the CAI region of the hippocampal slice preparation has been examined. The effects of reduced postsynaptic inhibition given by application of gamma-aminobutyric acid (GABA) antagonists (mainly picrotoxin) on the generation of LLP were investigated. It was first demonstrated that picrotoxin had little effect on excitatory synaptic transmission itself as judged by the rising phase of the field EPSP. Moreover, there were largely no actions on short-lasting synaptic effects such as paired pulse facilitation and frequency potentiation. On the other hand, following drug application, much fewer afferent volleys were needed to generate a given amount of LLP. Long-lasting potentiation could be produced by trains containing as few as 2-5 impulses, trains that normally give rise to only short-lasting effects. There was no apparent difference in the maximal amount of LLP that could be produced for a given input, suggesting that the GABA antagonists do not operate by enhancing the capacity for LLP production but by facilitating its induction. As in normal solution, the LLP in the presence of the drugs was confined to the tetanized pathway. Tetanization in the treated slices was associated with enhanced somatic firing as well as an increase of the negative extracellular potential recorded in the dendritic layer. It is proposed that part of this increased negativity represents current through synaptically opened N-methyl-D-aspartate (NMDA) receptor channels. Furthermore, it is suggested that the facilitated induction of LLP in the presence of GABA antagonists is related to a facilitated activation of these NMDA receptor channels which is secondary to the higher levels of dendritic depolarization attained during tetanization under conditions of reduced postsynaptic inhibition.</abstract>
+<pubmed_id>2996303</pubmed_id>
+</detail>
+</item>

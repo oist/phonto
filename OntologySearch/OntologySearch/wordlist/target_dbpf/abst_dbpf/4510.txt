@@ -1,0 +1,18 @@
+Animals
+Behavior
+Animal
+physiology
+Conditioning
+Classical
+physiology
+Discrimination Learning
+physiology
+Feeding Behavior
+physiology
+Hippocampus
+physiopathology
+Male
+Rats
+Rats
+Long-Evans
+Rats were trained with either a serial feature positive (L-->T1+ T-) or a serial feature negative (L-->T1-, T1+) discrimination, intermixed with training on another, nonconditional discrimination (T2+, N-), using a Pavlovian appetitive conditioning preparation with multiple response measures. Among rats trained with the serial feature positive discrimination, neurotoxic lesions of the hippocampus produced a transient impairment in the acquisition of that discrimination, but did not affect acquisition of the nonconditional discrimination. In contrast, among rats that received serial feature negative discrimination training, hippocampal lesions produced enduring deficits in the acquisition of both discriminations. The results of transfer tests indicated that both lesioned and control rats used a conditional learning strategy (occasion setting) to solve the feature positive and feature negative discriminations. Furthermore, lesioned rats, especially those that received training with the feature negative discrimination, displayed increasingly higher levels of general activity as training progressed. The results suggest that hippocampal lesions particularly interfere with inhibitory learning (negative occasion setting) about both explicit and contextual cues.

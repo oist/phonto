@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="2526">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neural dynamics of the cognitive map in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2009-07-07T01:43:33Z</last_update_date>
+<creation_date>2009-06-09T04:55:02Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=2526</url>
+<changelogs>
+<changelog date='2009-07-07T01:43:33Z'>PDFリプリント を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="2526" version="1.02">
+<authors><author>Wagatsuma H</author><author>Yamaguchi Y</author></authors>
+<journal>Cognitive neurodynamics</journal>
+<volume>1</volume>
+<number>2</number>
+<page>119-41</page>
+<abstract>The rodent hippocampus has been thought to represent the spatial environment as a cognitive map. In the classical theory, the cognitive map has been explained as a consequence of the fact that different spatial regions are assigned to different cell populations in the framework of rate coding. Recently, the relation between place cell firing and local field oscillation theta in terms of theta phase precession was experimentally discovered and suggested as a temporal coding mechanism leading to memory formation of behavioral sequences accompanied with asymmetric Hebbian plasticity. The cognitive map theory is apparently outside of the sequence memory view. Therefore, theoretical analysis is necessary to consider the biological neural dynamics for the sequence encoding of the memory of behavioral sequences, providing the cognitive map formation. In this article, we summarize the theoretical neural dynamics of the real-time sequence encoding by theta phase precession, called theta phase coding, and review a series of theoretical models with the theta phase coding that we previously reported. With respect to memory encoding functions, instantaneous memory formation of one-time experience was first demonstrated, and then the ability of integration of memories of behavioral sequences into a network of the cognitive map was shown. In terms of memory retrieval functions, theta phase coding enables the hippocampus to represent the spatial location in the current behavioral context even with ambiguous sensory input when multiple sequences were coded. Finally, for utilization, retrieved temporal sequences in the hippocampus can be available for action selection, through the process of reverting theta rhythm-dependent activities to information in the behavioral time scale. This theoretical approach allows us to investigate how the behavioral sequences are encoded, updated, retrieved and used in the hippocampus, as the real-time interaction with the external environment. It may indeed be the bridge to the episodic memory function in human hippocampus.</abstract>
+<pubmed_id>19003507</pubmed_id>
+</detail>
+</item>

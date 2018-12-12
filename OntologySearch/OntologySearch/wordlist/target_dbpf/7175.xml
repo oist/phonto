@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7175">
+<itemtype>xnppaper</itemtype>
+<titles><title>Postsynaptic induction and presynaptic expression of group 1 mGluR-dependent LTD in the hippocampal CA1 region.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>4-Aminopyridine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Amino Acids</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Calcium Signaling</keyword>
+<keyword>physiology</keyword>
+<keyword>Excitatory Amino Acid Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Methoxyhydroxyphenylglycol</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Organ Culture Techniques</keyword>
+<keyword>Potassium Channel Blockers</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Presynaptic Terminals</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>Metabotropic Glutamate</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Xanthenes</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:35:37Z</last_update_date>
+<creation_date>2013-02-27T07:35:37Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7175</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7175" version="1.02">
+<authors><author>Watabe AM</author><author>Carlisle HJ</author><author>O&#039;Dell TJ</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>87</volume>
+<number>3</number>
+<page>1395-403</page>
+<abstract>Activation of metabotropic glutamate receptors (mGluRs) with the group I mGluR selective agonist (R,S)-3,5-dihydroxyphenylglycine (DHPG) induces a long-term depression (LTD) of excitatory synaptic transmission in the CA1 region of the hippocampus. Here we investigated the potential roles of pre- and postsynaptic processes in the DHPG-induced LTD at excitatory synapses onto hippocampal pyramidal cells in the mouse hippocampus. Activation of mGluRs with DHPG, but not ACPD, induced LTD at both Schaffer collateral/commissural fiber synapses onto CA1 pyramidal cells and at associational/commissural fiber synapses onto CA3 pyramidal cells. DHPG-induced LTD was blocked when the G-protein inhibitor guanosine-5&#039;-O-(2-thiodiphosphate) was selectively delivered into postsynaptic CA1 pyramidal cells via an intracellular recording electrode, suggesting that DHPG depresses synaptic transmission through a postsynaptic, GTP-dependent signaling pathway. The effects of DHPG were also strongly modulated, however, by experimental manipulations that altered presynaptic calcium influx. In these experiments, we found that elevating extracellular Ca(2+) concentrations ([Ca(2+)](o)) to 6 mM almost completely blocked the effects of DHPG, whereas lowering [Ca(2+)](o) to 1 mM significantly enhanced the ability of DHPG to depress synaptic transmission. Enhancing Ca(2+) influx by prolonging action potential duration with bath applications of the K(+) channel blocker 4-aminopyridine (4-AP) also strongly reduced the effects of DHPG in the presence of normal [Ca(2+)](o) (2 mM). Although these findings indicate that alterations in Ca(2+)-dependent signaling processes strongly regulate the effects of DHPG on synaptic transmission, they do not distinguish between potential pre- versus postsynaptic sites of action. We found, however, that while inhibiting both pre- and postsynaptic K(+) channels with bath-applied 4-AP blocked the effects of DHPG; inhibition of postsynaptic K(+) channels alone with intracellular Cs(+) and TEA had no effect on the ability of DHPG to inhibit synaptic transmission. This suggests that presynaptic changes in transmitter release contribute to the depression of synaptic transmission by DHPG. Consistent with this, DHPG induced a persistent depression of both AMPA and N-methyl-D-aspartate receptor-mediated components of excitatory postsynaptic currents in voltage-clamped pyramidal cells. Together our results suggest that activation of postsynaptic mGluRs suppresses transmission at excitatory synapses onto CA1 pyramidal cells through presynaptic effects on transmitter release.</abstract>
+<pubmed_id>11877514</pubmed_id>
+</detail>
+</item>

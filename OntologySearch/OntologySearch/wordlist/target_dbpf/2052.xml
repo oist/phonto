@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="2052">
+<itemtype>xnppresentation</itemtype>
+<titles><title>Cantor Coding in a Model of Hippocampus</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2009-07-27T11:21:29Z</last_update_date>
+<creation_date>2009-03-11T07:01:08Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>3</publication_month>
+<publication_mday>2</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=2052</url>
+<changelogs>
+<changelog date='2009-07-27T11:21:29Z'>インデックス, Rights を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="2052" version="1.03">
+<presentation_type>pdf</presentation_type>
+<creators><creator>Y. Yamaguchi</creator></creators>
+<readme>PDF file need the password “dynamicbrain” to open.</readme>
+<rights>All rights reserved.
+License:</rights>
+<use_cc>0</use_cc>
+<cc_commercial_use>1</cc_commercial_use>
+<cc_modification>2</cc_modification>
+<attachment_dl_limit>1</attachment_dl_limit>
+<attachment_dl_notify>1</attachment_dl_notify>
+</detail>
+</item>

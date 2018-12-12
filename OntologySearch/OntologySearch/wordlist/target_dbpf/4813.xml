@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4813">
+<itemtype>xnppaper</itemtype>
+<titles><title>The role of medial and lateral hippocampal perforant path lesions and object distinctiveness in rats&#039; reaction to novelty.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Arousal</keyword>
+<keyword>physiology</keyword>
+<keyword>Attention</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Exploratory Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Form Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Limbic System</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Smell</keyword>
+<keyword>physiology</keyword>
+<keyword>Touch</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:31:15Z</last_update_date>
+<creation_date>2011-04-28T05:31:15Z</creation_date>
+<publication_year>1988</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4813</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4813" version="1.02">
+<authors><author>Myhrer T</author></authors>
+<journal>Physiology&amp;behavior</journal>
+<volume>42</volume>
+<number>4</number>
+<page>371-7</page>
+<abstract>The purpose of the present study was to investigate whether damage to the medial (MPP) or lateral hippocampal perforant path (LPP) may differentially affect rats&#039; ability to react to novelty or environmental change. Three different types of task were used based on various sets of stimuli; visual/tactile, olfactory, or visual only. The results showed that the lesions produced different responses to different novel stimuli. In contrast to control and MPP animals, LPP rats displayed excessive exploration of the test cage. The results are discussed in terms of impoverished cognitive structure following perforant path disruptions and functional differentiation between MPP and LPP.</abstract>
+<pubmed_id>3387491</pubmed_id>
+</detail>
+</item>

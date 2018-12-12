@@ -1,0 +1,44 @@
+Animals
+Cannabinoid Receptor Modulators
+antagonists
+&
+inhibitors
+physiology
+Dose-Response Relationship
+Radiation
+Electric Stimulation
+methods
+Endocannabinoids
+Excitatory Amino Acid Antagonists
+pharmacology
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+radiation effects
+Hippocampus
+cytology
+Inhibitory Postsynaptic Potentials
+drug effects
+physiology
+radiation effects
+Neural Inhibition
+Neuronal Plasticity
+drug effects
+physiology
+Neurons
+physiology
+Patch-Clamp Techniques
+methods
+Piperidines
+pharmacology
+Pyrazoles
+pharmacology
+Pyridines
+pharmacology
+Rats
+Rats
+Sprague-Dawley
+Synapses
+physiology
+Time Factors
+Learning and memory are thought to involve activity-dependent changes in synaptic efficacy such as long-term potentiation (LTP) and long-term depression (LTD). Recent studies have indicated that endocannabinoid-dependent modulation of inhibitory transmission facilitates induction of hippocampal LTP and that endocannabinoids play a key role in certain forms of LTD. Here, we show that repetitive low-frequency synaptic stimulation (LFS) produces persistent up-regulation of endocannabinoid signaling at hippocampal CA1 GABAergic synapses. This LFS also produces LTD of inhibitory synapses and facilitates LTP at excitatory, glutamatergic synapses. These endocannabinoid-mediated plastic changes could contribute to information storage within the brain.

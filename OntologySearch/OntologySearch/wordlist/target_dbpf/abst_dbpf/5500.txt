@@ -1,0 +1,40 @@
+2-Amino-5-phosphonovalerate
+Animals
+Aspartic Acid
+analogs
+&
+derivatives
+physiology
+Female
+Hippocampus
+physiology
+Magnesium
+pharmacology
+Models
+Neurological
+N-Methylaspartate
+Rats
+Receptors
+AMPA
+Receptors
+Drug
+drug effects
+physiology
+Receptors
+Kainic Acid
+Receptors
+N-Methyl-D-Aspartate
+Receptors
+Neurotransmitter
+drug effects
+physiology
+Synapses
+physiology
+Synaptic Transmission
+drug effects
+Valine
+analogs
+&
+derivatives
+pharmacology
+Acidic amino acids, such as l-glutamate, are believed to be excitatory neurotransmitters in the mammalian brain and exert effects on several different receptors named after the selective agonists kainate, quisqualate and N-methyl-D-aspartate (NMDA). The first two receptors collectively termed non-NMDA receptors, have been implicated in the mediation of synaptic transmission in many excitatory pathways in the central nervous system (CNS), whereas NMDA receptors, with few exceptions do not appear to be involved; this is typified in the hippocampus where there is a high density of NMDA receptors yet selective NMDA receptor antagonists, such as D-2-amino-5-phosphonovalerate (APV), do not affect synaptic potentials. NMDA receptors have, however, been shown to be involved in long-term potentiation (LTP) in the hippocampus, a form of synaptic plasticity which may be involved in learning and memory. NMDA receptors have also been found to contribute to epileptiform activity in this region. We now describe how NMDA receptors can participate during high-frequency synaptic transmission in the hippocampus, their involvement during low-frequency transmission being greatly suppressed by Mg2+. A frequency dependent alleviation of this blockade provides a novel synaptic mechanism whereby a single neurotransmitter can transmit very different information depending on the temporal nature of the input. This mechanism could account for the involvement of NMDA receptors in the initiation of LPT and their contribution, in part, to epileptic activity.

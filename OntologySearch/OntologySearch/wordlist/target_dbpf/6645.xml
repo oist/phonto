@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6645">
+<itemtype>xnppaper</itemtype>
+<titles><title>Process dissociation between contextual retrieval and item recognition.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Color Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>methods</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Male</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Oxygen</keyword>
+<keyword>blood</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:38:58Z</last_update_date>
+<creation_date>2013-02-26T06:38:58Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6645</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6645" version="1.02">
+<authors><author>Weis S</author><author>Specht K</author><author>Klaver P</author><author>Tendolkar I</author><author>Willmes K</author><author>Ruhlmann J</author><author>Elger CE</author><author>Fernández G</author></authors>
+<journal>Neuroreport</journal>
+<volume>15</volume>
+<number>18</number>
+<page>2729-33</page>
+<abstract>We employed a source memory task in an event related fMRI study to dissociate MTL processes associated with either contextual retrieval or item recognition. To introduce context during study, stimuli (photographs of buildings and natural landscapes) were transformed into one of four single-color-scales: red, blue, yellow, or green. In the subsequent old/new recognition memory test, all stimuli were presented as gray scale photographs, and old-responses were followed by a four-alternative source judgment referring to the color in which the stimulus was presented during study. Our results suggest a clear-cut process dissociation within the human MTL. While an activity increase accompanies successful retrieval of contextual information, an activity decrease provides a familiarity signal that is sufficient for successful item recognition.</abstract>
+<pubmed_id>15597043</pubmed_id>
+</detail>
+</item>

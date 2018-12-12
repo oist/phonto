@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5516">
+<itemtype>xnppaper</itemtype>
+<titles><title>Epileptic activity prevents synapse formation of hippocampal mossy fibers via L-type calcium channel activation in vitro.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium Channels</keyword>
+<keyword>physiology</keyword>
+<keyword>Epilepsy</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Picrotoxin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-15T05:28:38Z</last_update_date>
+<creation_date>2011-06-15T05:28:38Z</creation_date>
+<publication_year>1997</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5516</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5516" version="1.02">
+<authors><author>Ikegaya Y</author><author>Yoshida M</author><author>Saito H</author><author>Nishiyama N</author></authors>
+<journal>The Journal of pharmacology and experimental therapeutics</journal>
+<volume>280</volume>
+<number>1</number>
+<page>471-6</page>
+<abstract>Hippocampal slice from early postnatal rat was used to elucidate the influence of epileptic activity elicited by picrotoxin on synapse formation of mossy fibers. Neurite reelongation and synaptogenesis of mossy fibers transected at 8 days in vitro were confirmed by staining with Dil, a fluorescent membrane dye used as a neuronal tracer, and by recording field excitatory postsynaptic potentials (fEPSP) in the CA3 region evoked by stimulation of the dentate gyrus. Picrotoxin (50 microM), which evoked spontaneous epileptiform firing in the CA3 region that was occluded by tetrodotoxin (1 microM), hindered development of fEPSP amplitude after a lesion of mossy fibers. Furthermore, observations using a Timm method, a histochemical technique that preferentially labels synaptic terminals of mossy fibers, revealed that picrotoxin prevented synaptogenesis in the CA3 region. This inhibitory effect of picrotoxin was completely abolished by tetrodotoxin or nicardipine (10 microM), a L-type calcium channel blocker, but not by 2-amino-5-phosphonopentanoic acid (50 microM), a N-methyl-D-aspartate receptor antagonist, suggesting that influx of calcium ion via L-type calcium channels during epileptic bursts mediated the disturbance of appropriate synapse formation of mossy fibers.</abstract>
+<pubmed_id>8996230</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4757">
+<itemtype>xnppaper</itemtype>
+<titles><title>Feed-forward dendritic inhibition in rat hippocampal pyramidal cells studied in vitro.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Dendrites</keyword>
+<keyword>physiology</keyword>
+<keyword>Diazepam</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>Pentobarbital</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Phenobarbital</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Pyramidal Tracts</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Temperature</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T03:46:04Z</last_update_date>
+<creation_date>2011-04-28T03:46:04Z</creation_date>
+<publication_year>1982</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4757</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4757" version="1.02">
+<authors><author>Alger BE</author><author>Nicoll RA</author></authors>
+<journal>The Journal of physiology</journal>
+<volume>328</volume>
+<number></number>
+<page>105-23</page>
+<abstract>1. Intracellular recordings from CA1 pyramidal cells in the rat hippocampal slice preparation have been used to study the neuronal pathways involved in hippocampal synaptic inhibition.2. When direct comparisons are made in a single pyramidal cell, orthodromic stimulation delivered to stratum (s.) radiatum in normal recording conditions is found to be more effective than antidromic stimulation in producing inhibitory post-synaptic potentials (i.p.s.p.s).3. Orthodromic i.p.s.p.s in normal conditions appear to be complex, multiphasic events, whereas antidromic i.p.s.p.s are relatively simple. The orthodromic i.p.s.p. involves both a GABA-mediated dendritic component and a non-GABA-mediated component neither of which is activated by antidromic stimulation.4. Barbiturates induce a late depolarizing phase of the orthodromic response, a ;depolarizing i.p.s.p.&#039;, which is mediated by GABA. The depolarizing i.p.s.p. is not produced by antidromic stimulation.5. Injections of tetrodotoxin and bicuculline methiodide localized to either somatic or apical dendritic regions reveal that the depolarizing i.p.s.p. is produced by GABA released from neuronal elements in the dendritic field which acts on pyramidal cell dendrites.6. The depolarizing i.p.s.p. is strongly temperature-dependent and increases in amplitude and duration progressively as slices are cooled from 37 to 22 degrees C.7. Depolarizing i.p.s.p.s can be produced by orthodromic stimulation in s. oriens as well as in s. radiatum. In each case the depolarizing i.p.s.p.s appear localized to the dendrites in the field stimulated.8. We conclude that the depolarizing i.p.s.p. evident in the presence of barbiturates is caused by the same synaptic release of GABA which in normal conditions produces hyperpolarizing dendritic i.p.s.p.s.9. Numerous comparisons between orthodromic and antidromic stimulation indicate that dendritic i.p.s.p.s are activated by feed-forward pathways.</abstract>
+<pubmed_id>7131309</pubmed_id>
+</detail>
+</item>

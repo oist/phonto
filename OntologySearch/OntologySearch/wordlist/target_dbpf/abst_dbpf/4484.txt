@@ -1,0 +1,21 @@
+Animals
+Animals
+Newborn
+Brain Mapping
+Dentate Gyrus
+physiology
+Functional Laterality
+Hippocampus
+drug effects
+physiology
+radiation effects
+Maze Learning
+physiology
+Memory
+physiology
+Rats
+Tetrodotoxin
+toxicity
+Time Factors
+X-Rays
+Unilateral blockade of the dorsal hippocampus by tetrodotoxin makes it possible to form lateralized spatial memories, which rapidly transfer to the naive hippocampus when training continues with intact brain. Unilateral X-ray irradiation of newborn rats causes irreversible destruction of granule cells in the ipsilateral fascia dentata (FD). Possible compensation of poor learning in the lesioned hemisphere by commissural transfer of memories from the intact hippocampus was examined in seven rats with unilateral FD lesion, which were first trained in the Morris water maze to asymptotic performance (mean escape latency 6+/-1 s). Subsequent testing during functional ablation either of the intact or of the lesioned hippocampus by tetrodotoxin revealed escape latencies 35+/-8 s or 8+/-1 s, respectively. Probe trial tests during inactivation of the intact and lesioned hippocampus showed target quadrant preference of 32+/-2% or 54+/-3%, respectively. The results indicate: (a) that one intact hippocampus alone can support the water maze task, (b) that no, or only a very weak, memory trace is available in the lesioned hippocampus. It is concluded that the above results are due to the inability of the FD lesioned hippocampus to process the information received from the ipsilateral entorhinal cortex.

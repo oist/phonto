@@ -1,0 +1,32 @@
+Actins
+metabolism
+Alternative Splicing
+Animals
+Cells
+Cultured
+Dendritic Spines
+metabolism
+Female
+Fluorescent Dyes
+Gene Expression
+physiology
+Green Fluorescent Proteins
+genetics
+Hippocampus
+cytology
+Long-Term Potentiation
+physiology
+Luminescent Proteins
+Male
+Microfilament Proteins
+genetics
+metabolism
+Neurons
+physiology
+ultrastructure
+Potoroidae
+Pregnancy
+Rats
+Rats
+Wistar
+Synaptopodin (SYNPO) is an F-actin interacting protein expressed in dendritic spines and upregulated during the late-phase of long-term potentiation. Here, we investigated whether SYNPO regulates spine morphology through interactions with F-actin, the major cytoskeletal element of spines. In primary hippocampal neuron cultures, both endogenous and exogenous SYNPO localized preferentially in large spines under basal conditions. SYNPO overexpression did not affect the number or volume of spines in unstimulated neurons. Pharmacological activation of synaptic NMDA receptors transiently increased spine volume in control neurons, while the increase was persistent in neurons overexpressing SYNPO. In addition, exogenous SYNPO in PtK2 cells suppressed staurosporine-dependent disruption of F-actin stress fibers, suggesting that SYNPO protected F-actin from disruption. These results suggest that SYNPO stabilized activity-dependent increases in spine volume and imply that late-phase changes in spine morphology involve SYNPO.

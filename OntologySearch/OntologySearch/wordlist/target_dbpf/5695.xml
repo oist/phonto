@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5695">
+<itemtype>xnppaper</itemtype>
+<titles><title>Robotic and neuronal simulation of the hippocampus and rat navigation.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Networks (Computer)</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Robotics</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T03:43:09Z</last_update_date>
+<creation_date>2011-09-22T03:43:09Z</creation_date>
+<publication_year>1997</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5695</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5695" version="1.02">
+<authors><author>Burgess N</author><author>Donnett JG</author><author>Jeffery KJ</author><author>O&#039;Keefe J</author></authors>
+<journal>Philosophical transactions of the Royal Society of London. Series B, Biological sciences</journal>
+<volume>352</volume>
+<number>1360</number>
+<page>1535-43</page>
+<abstract>The properties of hippocampal place cells are reviewed, with particular attention to the nature of the internal and external signals that support their firing. A neuronal simulation of the firing of place cells in open-field environments of varying shape is presented. This simulation is coupled with an existing model of how place-cell firing can be used to drive navigation, and is tested by implementation as a miniature mobile robot. The sensors on the robot provide visual, odometric and short-range proximity data, which are combined to estimate the distance of the walls of the enclosure from the robot and the robot&#039;s current heading direction. These inputs drive the hippocampal simulation, in which the robot&#039;s location is represented as the firing of place cells. If a goal location is encountered, learning occurs in connections from the concurrently active place cells to a set of &#039;goal cells&#039;, which guide subsequent navigation, allowing the robot to return to an unmarked location. The system shows good agreement with actual place-cell firing, and makes predictions regarding the firing of cells in the subiculum, the effect of blocking long-term synaptic changes, and the locus of search of rats after deformation of their environment.</abstract>
+<pubmed_id>9368942</pubmed_id>
+</detail>
+</item>

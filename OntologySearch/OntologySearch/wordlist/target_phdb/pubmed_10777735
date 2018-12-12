@@ -1,0 +1,1327 @@
+2392
+
+Biophysical Journal Volume 78 May 2000 2392–2404
+
+Action Potential and Contractility Changes in [Na1]i Overloaded Cardiac
+Myocytes: A Simulation Study
+
+Gregory M. Faber and Yoram Rudy
+Cardiac Bioelectricity Research and Training Center and Department of Biomedical Engineering, Case Western Reserve University,
+Cleveland, Ohio 44106-7207 USA
+
+ABSTRACT Sodium overload of cardiac cells can accompany various pathologies and induce fatal cardiac arrhythmias. We
+investigate effects of elevated intracellular sodium on the cardiac action potential (AP) and on intracellular calcium using the
+Luo–Rudy model of a mammalian ventricular myocyte. The results are: 1) During rapid pacing, AP duration (APD) shortens in
+two phases, a rapid phase without Na1 accumulation and a slower phase that depends on [Na1]i. 2) The rapid APD shortening
+is due to incomplete deactivation (accumulation) of IKs. 3) The slow phase is due to increased repolarizing currents INaK and
+reverse-mode INaCa, secondary to elevated [Na1]i. 4) Na1-overload slows the rate of AP depolarization, allowing time for
+greater ICa(L) activation; it also enhances reverse-mode INaCa. The resulting increased Ca21 influx triggers a greater [Ca21]i
+transient. 5) Reverse-mode INaCa alone can trigger Ca21 release in a voltage and [Na1]i-dependent manner. 6) During INaK
+block, Na1 and Ca21 accumulate and APD shortens due to enhanced reverse-mode INaCa; contribution of IK(Na) to APD
+shortening is negligible. By slowing AP depolarization (hence velocity) and shortening APD, Na1-overload acts to enhance
+inducibility of reentrant arrhythmias. Shortened APD with elevated [Ca21]i (secondary to Na1-overload) also predisposes the
+myocardium to arrhythmogenic delayed afterdepolarizations.
+
+INTRODUCTION
+
+Ion regulation and the maintenance of ion gradients across
+the cell membrane are important for cell homeostasis. In
+cardiac tissue, ionic imbalances can be the precursor to the
+genesis of arrhythmias (Levi et al., 1997; Wier and Hess,
+1984; Cranefield and Aronson, 1988), which may degener-
+ate to fibrillation and sudden cardiac death. Abnormal ele-
+vations of both intracellular sodium and calcium have been
+observed in myocytes during conditions of metabolic com-
+promise, including ischemia (van Echteld et al., 1991; Tani
+and Neely, 1990) and digitalis toxicity (Levi, 1991; Harri-
+son et al., 1992). Intracellular sodium can also accumulate
+when inactivation of voltage-gated sodium channels is ab-
+normal or incomplete, leading to a sustained inward current.
+This can be due to modification of inactivation by drugs
+(Brill and Wasserstrom, 1986), such as veratridine and
+aconitine, or sodium channel mutation as occurs in the
+
+Received for publication 20 September 1999 and in final form 24 January
+2000.
+Address reprint requests to Yoram Rudy, Director, Cardiac Bioelectricity
+Research and Training Center, 509 Wickenden Building, Case Western
+Reserve University, Cleveland, OH 44106-7207. Tel: 216-368-4051; Fax:
+216-368-8672; E-mail: yxr@po.cwru.edu. Abbreviations used: INaK, sodi-
+um–potassium pump current; INaCa, sodium– calcium exchange current;
+AP, action potential; APD, action potential duration; CICR, calcium-
+induced calcium release; BCL, basic cycle length; [Na1]i, intracellular
+sodium concentration;
+intracellular calcium concentration;
+[Ca21]i,max, peak intracellular calcium concentration; Vmax, maximum
+membrane potential; dV/dtmax, maximum rate of change of membrane
+potential; DAD, delayed afterdepolarization; SR, sarcoplasmic reticulum;
+Irel, calcium release from the SR; IK(Na), sodium-activated potassium cur-
+rent; ICa(L), L-type calcium current; IKs, slow component of the delayed
+rectifier potassium current; IKr, rapid component of the delayed rectifier
+potassium current.
+© 2000 by the Biophysical Society
+0006-3495/00/05/2392/13
+
+[Ca21]i,
+
+$2.00
+
+LQT3-type of the long QT syndrome (Bennett et al., 1995;
+Dumaine et al., 1996; Chandra et al., 1998; Nagatomo et al.,
+1998; Clancy and Rudy, 1999). In addition, fast rates during
+tachycardia and fibrillation also lead to intracellular sodium
+accumulation. An understanding of how ionic imbalances
+develop and how they affect the cardiac myocyte’s electri-
+cal and mechanical properties may lead to the advancement
+of clinical treatment or preventive strategies (Lu and de
+Clerck, 1993; Haigney et al., 1994; Ravens and Himmel,
+1999).
+
+The sodium–potassium pump and the sodium– calcium
+exchanger are two important ion-regulating transporters that
+play a critical role in maintaining the ionic balance across a
+cardiac myocyte’s membrane. In addition to this function,
+the electrogenic nature of these transporters implies that
+they also have a direct effect on membrane potential. Rapid
+pacing and fast rates during tachyarrhythmias increase the
+rates of Na1 and Ca21 influx to an extent whereby sodium-
+potassium pump and sodium-calcium exchanger are unable
+to restore the ionic concentrations to normal levels. Rapid
+pacing has a positive inotropic effect (in healthy tissue) and
+the relationship between stimulation frequency and contrac-
+tility has been extensively documented (Cohen et al., 1982;
+Wang et al., 1988). In experiments investigating cell elec-
+trophysiology, measurements of membrane potential and
+ion activity are attainable using microelectrodes and fluo-
+rescence techniques. However, the underlying membrane
+ionic currents and ion fluxes responsible for arrhythmogenic
+action potential changes and changes in contractility cannot
+be directly measured.
+
+In this study, we use a detailed theoretical model of a
+cardiac myocyte (Luo and Rudy, 1994a; Zeng et al., 1995;
+Viswanathan et al., 1999) to investigate the effects of so-
+dium overload on the cellular electrophysiologic behavior
+
+AP Changes in [Na1]i Overloaded Myocytes
+
+2393
+
+and on the calcium transient (the trigger of contraction). The
+use of a comprehensive ionic-based model permits us to di-
+rectly observe transmembrane currents and ion fluxes contin-
+uously during the AP. This can be done in a controlled fashion
+for different pacing rates and different imposed conditions of
+sodium elevation. Special attention is given to the roles of
+INaCa and INaK in ion regulation and their effects on AP
+morphology. In addition, the contribution of IK(Na) to AP
+shortening during sodium overload is evaluated.
+
+METHODS
+
+Cell model
+
+The theoretical Luo–Rudy (LRd) model of a mammalian ventricular
+action potential (Luo and Rudy, 1994a; Zeng et al., 1995; Viswanathan et
+al., 1999) (Fig. 1) provides the basis for the simulations in this study. The
+model is based mostly on guinea pig experimental data; it includes mem-
+brane ionic channel currents that are formulated mathematically using the
+Hodgkin–Huxley approach and ionic pumps and exchangers. The model
+also accounts for processes that
+regulate intracellular concentration
+changes of Na1, K1, and Ca21. Intracellular processes represented in the
+model include Ca21 uptake and Ca21 release by the SR and Ca21 buffering
+by calmodulin and troponin (in the myoplasm) and calsequestrin (in the
+SR). For the purpose of this study, the formulations of INaK, INaCa, and the
+CICR process are adjusted to cover the range of greatly elevated intracel-
+
+lular Na1 and Ca21 (Appendix). In addition, IK(Na) is incorporated in the
+model (see below).
+
+Na1-activated K1 current, IK(Na)
+
+It has been suggested that IK(Na) may play a significant role in APD
+shortening during conditions of elevated [Na1]i (Kameyama et al., 1984;
+Levi et al., 1997; Veldkamp et al., 1994). To investigate this possibility, a
+formulation for IK(Na) is incorporated into the LRd model. IK(Na) is modeled
+as an outwardly rectifying (Luk and Carmeliet, 1990) time-independent
+current with [Na1]i and voltage dependence (Kameyama et al., 1984;
+Sanguinetti, 1990). It is highly selective (Wang et al., 1991) for K1 and has
+a maximum conductance (g#
+K(Na)) of 0.12848 mS/cm2. Formulation of this
+current is provided in the Appendix. The current–voltage ( I–V ) relation-
+ship of IK(Na) is shown in Fig. 2. It is linear within the physiological range
+is less than 0.05 mA/mF for
+of membrane voltages, and the current
+concentrations of [Na1]i smaller than 10 mM.
+
+Simulation protocols
+
+5 140 mM, and [Ca21]o
+
+For all simulations, unless otherwise specified, [K1]o
+
+5 4.5 mM,
+[Na1]o
+5 1.8 mM. The cell remains at rest until
+a steady state of intracellular ionic concentrations is achieved before the
+application of the first stimulus. For simulations that involve [Na1]i clamp
+protocols (where [Na1]i is set to a specific concentration), [Na1]i is
+clamped to an assigned value just before application of the pacing stimulus.
+A stimulus of 280 mA/mF is applied for a duration of 0.5 ms. A discrete
+
+FIGURE 1 Schematic diagram of the dynamic Luo–Rudy (LRd) mammalian ventricular cell model. The major ion transporters, the sodium–potassium
+pump current, INaK and the sodium– calcium exchange current, INaCa, are highlighted, as well as the sodium-activated potassium current, IK(Na). Additional
+currents of significance in this study: INa, fast sodium current; ICa(L), calcium current through L-type calcium channels; ICa(T), calcium current through
+T-type calcium channels; IKr, fast component of the delayed rectifier potassium current; IKs, slow component of the delayed rectifier potassium current;
+Ip(Ca), calcium pump in the sarcolemma; ICa,b, calcium background current; Iup, calcium uptake from the myoplasm to network sarcoplasmic reticulum
+(NSR); Irel, calcium release from the junctional sarcoplasmic reticulum (JSR). For details see Luo and Rudy (1994a), Zeng et al. (1995), and Viswanathan
+et al. (1999). The LRd model code can be downloaded from the research sectoin of http://www.CWRU.edu/med/CBRTC.
+
+Biophysical Journal 78(5) 2392–2404
+
+2394
+
+Faber and Rudy
+
+Due to the electrogenic nature of these transporters, alter-
+ations of their function can have a direct affect on AP
+morphology. In Fig. 3, I–V relationships of these two trans-
+porters are shown for varying [Na1]i.
+
+The I–V relationship for INaCa (Fig. 3 A) closely dupli-
+cates the experimental findings of Matsuoka and Hilgemann
+(1992). Several properties of INaCa are demonstrated, in-
+cluding saturation of the current with increasing voltage and
+increasing [Na1]i (inset), and a shift of the reversal potential
+to more hyperpolarized potentials with increasing [Na1]i.
+This shift implies that INaCa operates in its reverse mode
+(bringing in Ca21 and extruding Na1 with 1:3 stoichiome-
+try, generating a repolarizing current) for a longer duration
+during the AP, shifting the balance in favor of Ca21 loading.
+The model simulates the experimental behavior, including
+the “jump” in current magnitude between 10 and 20 mM
+[Na1]i
+(arrow) and the saturation at high voltage
+and [Na1]i.
+
+The I-V relationship for INaK (Fig. 3 B) duplicates quite
+well
+the experimental findings of Nakao and Gadsby
+(1989). Of importance is the increase in current magnitude
+due to both an increase in voltage and an increase in [Na1]i.
+
+Ion accumulation during pacing
+
+During pacing, ions accumulate within the cell and intra-
+specifically [Na1]i and
+cellular
+[Ca21]i, differ greatly from those of the quiescent myocyte.
+The relationship between ionic concentrations and pacing
+
+ionic concentrations,
+
+FIGURE 2 Current–voltage relationship of IK(Na), the Na1-activated K1
+current. Current–voltage relationships are shown for 5 mM (f), 10 mM
+(F), 15 mM ((cid:140)), and 20 mM (l) [Na1]i. All curves are obtained with 132
+mM [K1]i and 4.5 mM [K1]o.
+
+time step of 1 ms is used in the computations except for the 20 ms after the
+start of the pacing stimulus, when 2 ms is used. APD is measured as the
+interval between the time of dV/dtmax and 90% repolarization (APD90).
+
+RESULTS
+INaCa and INaK increase in magnitude with
+increasing [Na1]i
+
+An important step in investigating the effects of elevated
+[Na1]i on the electrical and contractile properties of the
+myocyte is to characterize its effect on processes that reg-
+ulate ionic concentrations. Two important ion transporters
+that are affected by alterations in [Na1]i are INaCa and INaK.
+
+FIGURE 3 Current–voltage relationships for
+INaCa
+and INaK as a function of [Na1]i. (A) Simulated (top) and
+experimentally measured (bottom, adapted from Mat-
+suoka and Hilgemann, 1992) INaCa I–V relationships for
+5 mM ((cid:130)), 10 mM (f), 20 mM (M), 30 mM ((cid:141)), and 40
+mM ((cid:131)) [Na1]i, obtained with 1 mM [Ca21]i, 2 mM
+[Ca21]o, and 150 mM [Na1]o. The insets show INaCa
+magnitude versus [Na1]i, measured at 20 mV, demon-
+strating saturation of the current with increasing [Na1]i.
+(B) Simulated (top) and experimentally measured (bot-
+tom, adapted from Nakao and Gadsby, 1989) INaK I–V
+relationships for 3 mM (F), 8 mM (f), and 50 mM ((cid:140))
+[Na1]i, obtained with 5.4 [K1]o, 140 [K1]i, and 145
+mM [Na1]o.
+
+Biophysical Journal 78(5) 2392–2404
+
+AP Changes in [Na1]i Overloaded Myocytes
+
+2395
+
+i
+
+frequency can be represented in the form of a concentration-
+frequency staircase. Experiments conducted by Wang et al.
+1-
+(1988) (Fig. 4 B) demonstrate that both intracellular Nai
+, a measure of [Na1]i) and twitch force (a
+activity (aNa
+measure of [Ca21]i) increase with increasing frequency and
+decrease with decreasing frequency. In Fig. 4 A, the theo-
+retical simulation closely reproduces the experimental re-
+sults. The panels to the right of the staircases contain
+simulated (top) and measured (bottom) APs at the various
+pacing frequencies increasing from a to g. Note that APD
+shortens as pacing frequency increases and ion accumula-
+tion occurs.
+
+and
+
+peak
+
+An adaptation curve is shown in Fig. 5, summarizing the
+relationship between APD and pacing frequency. Steady-
+state APD is approximately 185 ms for cycle lengths .2000
+ms and decreases to ;65 ms at a cycle length of 100 ms.
+[Na1]i
+intracellular Ca21 concentration
+([Ca21]i,max) at the corresponding cycle lengths are also
+plotted, showing the concomitant rise of Na1 and Ca21 as
+cycle length decreases. The accumulation of these intracel-
+lular ions is due to the inability of the Na1–K1 pump and
+the Na1–Ca21 exchanger to balance the rate of ion entry.
+The rise in these intracellular ions affects several Na1- and
+Ca21-dependent currents, which results in the shortening of
+
+APD and other changes in the cells’ electrophysiologic
+properties as investigated below.
+
+The role of IKs and [Na1]i in APD shortening
+
+The accumulation of intracellular ions is not the primary
+cause of APD adaptation, as is demonstrated in Fig. 6,
+where [Na1]i is plotted versus APD for two different cycle
+lengths (BCL 5 300 and 1000 ms). The cells are paced from
+rest, and reach a steady state after approximately 5 min. The
+beat number gives an indication of the rate of [Na1]i accu-
+mulation, which occurs rapidly at first and then slows as the
+cell approaches steady state. For both BCLs, two phases of
+APD shortening are observed, a rapid phase with no signif-
+icant change in [Na1]i, and a much slower phase with strong
+[Na1]i dependence. For a BCL of 300 ms, the rapid short-
+ening of APD occurs within the first 5–10 beats, resulting in
+a change in APD from 190 to 130 ms. The cause of this
+rapid shortening is accumulation (incomplete deactivation
+and residual activation) of the slow delayed rectifier K1
+current, IKs. The first five action potentials and the corre-
+sponding IKs current are shown in the inset of Fig. 6. At this
+cycle length, IKs does not have sufficient time to completely
+
+[Na1]i and [Ca21]i as a function of pacing frequency. (A) Simulated concentration-frequency staircase, showing changes of [Na1]i and
+FIGURE 4
+[Ca21]i during a staircase protocol where frequency is stepped from 0.5 to 1 Hz and then to 6 Hz in increments of 1 Hz (5 min. at each pacing frequency).
+After 10 min. of pacing at 6 Hz, frequency is stepped down in reverse order. (B) The corresponding experiment showing measured intracellular sodium
+i ) and twitch force for the same protocol (Wang et al., 1988). Both simulation and experiment were conducted using 5.4 mM [K1]o, 1.8 mM
+activity (aNa
+[Ca21]o, and 137 mM [Na1]o. To the right of (A) and (B), the corresponding computed and measured action potentials at times a– g are shown.
+
+Biophysical Journal 78(5) 2392–2404
+
+2396
+
+Faber and Rudy
+
+FIGURE 5 APD adaptation curve. The figure shows
+the steady-state relationship (achieved after 5 min. of
+pacing) between cycle length and APD (f) as generated
+by the LRd model. Corresponding changes
+in
+[Ca21]i,max ((cid:140)) and [Na1]i (E) are also shown.
+
+deactivate between beats. This results in an instantaneous
+jump in the current when the next stimulus is applied. The
+resulting greater repolarizing current acts to shorten APD.
+Beyond these initial beats, the magnitude of the instanta-
+neous current does not increase, but APD continues to
+shorten. This is due to the gradual rise in [Na1]i. The slow
+accumulation of [Na1]i alters the behavior of several Na1-
+dependent currents resulting in the continued shortening. At
+the time when steady state is reached, [Na1]i is responsible
+for ;20% of the total APD shortening, whereas IKs accu-
+mulation is responsible for ;80%. At a BCL of 1000 ms,
+which is more typical of human heart rate, IKs has a longer
+recovery time between beats, thus there is less accumulation of
+the current. In this case, accumulation of [Na1]i is responsible
+for more than 50% of the total APD shortening. The mecha-
+nism of Na1-dependant APD shortening is studied below.
+
+Effects of [Na1]i on ionic currents, action
+potential, and [Ca21]i
+
+To characterize the effect of elevated [Na1]i on the AP
+and its underlying ionic currents, APs generated by a cell
+under conditions that differ only in [Na1]i are presented in
+Fig. 7. The initial conditions for the two action potentials
+are identical (steady-state values of a quiescent cell with
+[Na1]i
+5 10 mM) and [Na1]i is clamped to an assigned
+value (10 mM or 20 mM) just before the stimulus (only one
+stimulus is applied). This allows examination of effects that
+can be attributed specifically to [Na1]i. Observed changes
+to the AP due to elevated [Na1]i include reduced maximum
+voltage, reduced plateau potential, and shortened APD. In
+addition to these changes in membrane voltage, there is
+greater release of Ca21 from the SR.
+
+FIGURE 6 The role of [Na1]i and IKs in APD short-
+ening during pacing. Figure shows the relationship be-
+tween [Na1]i and APD for two different cycle lengths
+(BCL 5 300 ms and BCL 5 1000 ms). The cell is paced
+from rest for 5 min (1000 beats for a BCL of 300 ms and
+300 beats for a BCL of 1000 ms) while simultaneous
+measurements of [Na1]i and APD are made. Beat num-
+bers are indicated to the right of each curve. For a BCL
+of 300 ms, the important mechanisms responsible for
+APD shortening are indicated beneath the curve, where
+IKs accumulation is responsible for approximately 80%
+1 accumulation is respon-
+of the total shortening and Nai
+1 accumulation
+sible for 20%. For BCL of 1000 ms, Nai
+is responsible for more than 50% of the total shortening.
+The inset shows the first five action potentials and the
+corresponding IKs current recorded at BCL of 300 ms.
+Rapid shortening of APD occurs within the first 5 beats
+due an increase in the instantaneous IKs current (indi-
+cated by the arrows) caused by incomplete deactivation
+of IKs between beats.
+
+Biophysical Journal 78(5) 2392–2404
+
+AP Changes in [Na1]i Overloaded Myocytes
+
+2397
+
+difference in the [Ca21]i transient is secondary to the dif-
+ference in [Na1]i that is imposed (clamped) before the
+pacing stimulus. Two sources of Ca21 entry that signifi-
+cantly contribute to triggering SR release are the L-type
+Ca21 channels and reverse-mode Na1–Ca21 exchanger. As
+can be seen in Fig. 7, C and D, the current through these
+channels is significantly increased at the elevated [Na1]i
+case before Ca21 release. The slowed action potential up-
+stroke due to the decreased INa increases the activation time
+for ICa(L). Also, as a consequence of the bell-shaped I–V
+relationship of ICa(L) (maximum at ;10 mV, see Fig. 10) the
+reduced AP voltage enhances the current. The reduced AP
+voltage is also further away from the Ca21 reversal poten-
+tial, which increases the driving force for Ca21. The com-
+bination of increased channel conductance and driving force
+results in an increased early phase of ICa(L). During the
+plateau, ICa(L) is of similar magnitude for the two [Na1]i
+levels because the greater [Ca21]i
+transient at elevated
+[Na1]i reduces the current through Ca21-dependant inacti-
+vation, compensating for the increase in driving force.
+
+A summary of the [Na1]i-dependent changes in AP mor-
+phology and [Ca21]i is presented in Fig. 8. The solid curves
+show the isolated effects of [Na1]i
+is
+clamped to an assigned value just before application of a
+single stimulus, all other parameters are at resting steady-
+state values). With increasing [Na1]i, Vmax decreases, APD
+shortens, dV/dtmax decreases, and [Ca21]i,max increases.
+Specifically, a 100% increase in [Na1]i from 10 to 20 mM
+results in a decrease of Vmax by 22%, a shortening of APD
+
+increase ([Na1]i
+
+[Na1]i-dependent changes of action potential morphology
+FIGURE 8
+and of peak [Ca21]i. Changes in peak membrane voltage (Vmax), action
+potential duration (APD), maximum rate of rise of the action potential
+upstroke (dV/dtmax), and peak calcium transient ([Ca21]i,max) are shown for
+two different experimental protocols. The solid curves show the isolated
+effect of [Na1]i changes ([Na1]i is clamped to an assigned value just
+before a single stimulus; same protocol as Fig. 7). The dashed curves show
+values computed after 5 min. of pacing at various cycle lengths, allowing
+all concentrations to vary (same protocol as in Fig. 5).
+
+Biophysical Journal 78(5) 2392–2404
+
+Isolated effect of elevated [Na1]i on the action potential. The
+FIGURE 7
+figure shows the action potential (AP), calcium transient ([Ca21]i), ICa(L),
+INaCa, IKs, IKr, and INaK for two different concentrations of intracellular
+Na1, [Na1]i
+5 20 mM (dashed lines).
+For the curve of ICa(L) (Panel C), the arrow indicates the peak of the current
+for [Na1]i
+
+5 10 mM (solid lines) and [Na1]i
+
+5 10 mM.
+
+The currents that are directly affected by the rise in
+[Na1]i are INa, INaCa, INaK, and IK(Na). The role of IK(Na) is
+explored in the next section in the context of INaK block.
+With [Na1]i accumulation, the reduction in the driving force
+decreases INa, thereby reducing the rate of AP upstroke
+(dV/dtmax) and the Vmax (Fig. 7 A). Similarly, the elevated
+[Na1]i drives INaCa and INaK in the outward direction (Fig.
+7, D and G) providing significantly greater repolarizing
+current during the early stages and throughout the AP,
+which results in a reduced plateau potential and shortened
+APD (Fig. 7 A). Although IKr (the rapid delayed rectifier)
+shows no significant change (Fig. 7 F), the reduced AP
+plateau potential slows IKs activation and decreases the
+driving force for K1, resulting in a greatly reduced IKs (Fig.
+7 E). Smaller IKs is typically associated with APD prolon-
+gation, but enhanced INaCa and INaK more than compensate
+for this loss of repolarizing current. The “paradoxical” APD
+shortening with reduced IKs demonstrates the delicate bal-
+ance of currents that determine the AP plateau and duration.
+Elevated [Na1]i is accompanied by a large [Ca21]i tran-
+sient as a result of greater Ca21 entry that triggers Ca21
+release from the SR through the CICR process (Fig. 7 B,
+dashed curve). It is important to note that the increased
+[Ca21]i transient is not due to larger Ca21 stores within the
+SR because both cells in this simulation have identical
+initial conditions, including [Ca21]i values. Therefore, the
+
+2398
+
+Faber and Rudy
+
+by 35%, a decrease in dV/dtmax by 21%, and an increase in
+[Ca21]i,max by 46%.
+
+The dashed curves in Fig. 8 are values computed using
+the same protocol as in Fig. 5, where the cell is paced from
+rest for 5 min, and all parameters and concentrations are free
+to change during pacing. Comparison between the paced
+myocyte and the [Na1]i clamped myocyte subject to a
+single stimulus (solid curves) helps to determine the differ-
+ences that occur when more than just [Na1]i is allowed to
+change. Perhaps the most significant difference is the dra-
+matic increase in [Ca21]i,max. During pacing, [Na1]i and
+[Ca21]i rise simultaneously, and the increased [Ca21]i tran-
+sient is a result of both increased Ca21 loading and in-
+creased triggering of release due to increased INaCa and
+ICa(L) as discussed earlier. The more significant APD short-
+ening observed in the paced cell is due to accumulation of
+IKs at faster pacing rates. Finally, the steep decrease of Vmax
+and dV/dtmax for the paced cell is due to incomplete recov-
+ery of INa at very rapid rates.
+
+[Na1]i-overload generated by Na1–K1 pump
+block and its ramifications
+
+The use of Na1–K1 pump blockers, such as digitalis and
+strophanthidin, is a common treatment for relief of symp-
+
+toms of heart failure (for review, see Smith et al., 1984).
+The mechanism by which pump blockers restore contractil-
+ity begins with an elevation of [Na1]i resulting from the loss
+of Na1–K1 pump function. This rise in [Na1]i increases
+reverse-mode Na1–Ca21 exchange resulting in a rise of
+[Ca21]i, which augments contraction and enhances cardiac
+function. In Fig. 9 A, the simulated condition of Na1–K1
+pump block (90% reduction of INaK) is compared to exper-
+imental data from guinea pig myocytes during strophanthi-
+din application (Levi, 1991). The simulated behavior of
+APD and [Ca21]i corresponds well to that observed exper-
+imentally. [Na1]i and INaCa (not measured in the experi-
+ments) are also shown in the figure. Following the block of
+the Na1–K1 pump, [Na1]i and [Ca21]i begin to rise. The
+initial brief lengthening of APD is due to the loss of the
+repolarizing Na1–K1 pump current. As [Na1]i accumu-
+lates, reverse-mode (repolarizing) Na1–Ca21 exchange cur-
+rent is increased, shortening APD. The enhanced reverse-
+mode INaCa contributes to the rise in [Ca21]i. During
+washout (simulated as a gradual removal of the pump block)
+the restored Na1–K1 pump current results in a period of
+continued APD shortening until a significant amount of
+[Na1]i is removed, decreasing INaCa and INaK with a gradual
+prolongation of APD to its preblock value.
+
+FIGURE 9 The effect of INaK block on APD; Role of INaCa and IK(Na) in APD shortening. (A) Simulated effect of INaK block on APD, [Ca21]i, [Na1]i,
+and peak outward (reverse-mode) INaCa. On the right are corresponding experimental recordings made by Levi (1991) in a guinea pig ventricular myocyte,
+showing changes in APD and active shortening following the application of the INaK blocker strophanthidin (the stimulation was temporarily subthreshold,
+where the recorded APD is zero). For both the simulated and measured data, cells are paced at a cycle length of 1000 ms using 5.4 mM [K1]o, 1.5 mM
+[Ca21]o, and 130 mM [Na1]o. The Na1-activated K1 current (IK(Na)) is included in this simulation. (B) The role of INaCa and IK(Na) in APD shortening
+following INaK block. The solid curves show action potentials computed at times a, b, and c, indicated by the arrows in (A). The dashed curves show action
+potentials computed at time c, but with IK(Na) subjected to [Na1]i as at time b (APD recovers by only 4 ms), or with INaCa subjected to [Na1]i as at time
+b (APD recovers by approximately 35 ms, almost to the original APD at time b).
+
+Biophysical Journal 78(5) 2392–2404
+
+AP Changes in [Na1]i Overloaded Myocytes
+
+2399
+
+In addition to APD shortening due to an increase in
+reverse-mode INaCa, it has been hypothesized that the Na1-
+activated K1 current may play a significant role in APD
+shortening during conditions of Na1–K1 pump block (Ka-
+meyama et al., 1984). Its contribution is explored in Fig.
+9 B, where APs computed at times a, b, and c of Fig. 9 A are
+shown (solid curves). The dashed curves are APs computed
+at time c ([Na1]i
+’ 15 mM) with either IK(Na) or INaCa
+reduced to their values at time b ([Na1]i
+’ 9.2 mM). As can
+be seen, INaCa accounts for almost the entire APD shorten-
+ing between b and c, with minimal contribution from IK(Na).
+In Fig. 2, for [Na1]i
+5 15 mM and a membrane potential of
+40 mV (a typical maximum voltage during an action poten-
+tial), the peak IK(Na) current is approximately 0.15 mA/mF.
+Due to the linear I–V relationship of IK(Na) and its time
+independence, the morphology of the current during an
+action potential follows that of the membrane voltage. In
+Fig. 9, for the AP computed at time c ([Na1]i
+’ 15 mM),
+the peak IK(Na) current is 0.17 mA/mF, which is less than
+18% of peak IKr and less than 15% of peak IKs.
+
+Contribution of reverse-mode INaCa to triggering
+SR Ca21 release
+
+The role of reverse-mode INaCa in triggering SR Ca21
+release is controversial, with conflicting experimental evi-
+dence for and against its ability to do so. In the previous
+simulations, CICR considered Ca21 entry via both INaCa and
+ICa(L) as a trigger for Ca21 release from the SR. In Fig. 10,
+A and B, we investigate the individual roles of ICa(L) and
+INaCa in triggering Ca21 release and compare it with the
+
+release elicited when these two currents act together. In Fig.
+10 A, where [Na1]i
+5 10 mM, peak [Ca21]i transient, when
+only ICa(L) serves as a trigger (M), closely follows the
+bell-shaped I–V relationship of ICa(L) (6) as expected. A
+similar behavior is also observed when both ICa(L) and INaCa
+contribute Ca21 to trigger release (F). INaCa alone, in the
+presence of 100% ICa(L) block, is able to trigger Ca21
+release from the SR (E). However, the resulting [Ca21]i,max
+is small compared to that elicited by ICa(L) over most of the
+potential range shown (the relative INaCa contribution is 8%
+at V 5 0 mV and 25% at V 5 40 mV). In Fig. 10 B, where
+[Na1]i
+5 20 mM, [Ca21]i,max elicited by ICa(L) alone (M)
+once again closely follows the ICa(L) I–V relationship (6).
+However, when ICa(L) and INaCa both contribute Ca21 to
+trigger release (F), the peak [Ca21]i transient deviates from
+the ICa(L) I–V curve, especially for voltage steps to poten-
+tials greater than 20 mV. This observation, which is in
+agreement with results observed experimentally by several
+investigators (Nuss and Houser, 1992; Levi et al., 1994;
+Kohomoto et al., 1994; Litwin and Bridge, 1997), provides
+evidence for the exchanger’s participation in the triggering
+of SR release in a voltage- and [Na1]i-dependent manner.
+The results of Fig. 10 A cannot be readily extrapolated to
+the exchanger’s role in triggering release during the AP at
+physiological [Na1]i. In Fig. 11 I, ([Na1]i
+5 10 mM),
+computed APs, and corresponding [Ca21]i transients are
+
+(A and B) Relationship between Ca21 entry and Peak
+FIGURE 10
+[Ca21]i for two different concentrations of [Na1]i. (A) ([Na1]i
+5 10 mM)
+and (B) ([Na1]i
+5 20 mM) peak ICa(L) (6; shown with reversed polarity)
+[Ca21]i,max curves. These
+are shown together with three different
+[Ca21]i,max curves are generated by three different modes of SR triggering:
+Ca21 entering through any mechanism contributes to triggering SR Ca21
+release (F), only Ca21 carried by ICa(L) contributes (M), and only Ca21
+carried by reverse-mode INaCa contributes (E). The dashed line indicates
+resting [Ca21]i.
+
+FIGURE 11 Contribution of ICa(L) and INaCa to Ca21 release during the
+action potential. Action potentials and their corresponding Ca21 transients
+are shown for (A) control conditions, (B) conditions of ICa(L) block, and (C)
+both ICa(L) and INaCa block. Channel block is applied just before stimulus,
+ensuring equal SR loading. Panel I shows results for physiologic [Na1]i
+5
+10 mM. Panel II shows results for elevated [Na1]i
+5 20 mM (sodium
+overload).
+
+Biophysical Journal 78(5) 2392–2404
+
+2400
+
+Faber and Rudy
+
+shown for three different protocols: (A) control, both ICa(L)
+and INaCa contribute to signaling release; (B) ICa(L)
+is
+blocked and INaCa is the primary contributor to signaling
+release; (C) both ICa(L) and INaCa are blocked. In (B), the
+[Ca21]i transient elicited by INaCa triggering alone is 25% of
+control. In (C), there is a small residual [Ca21]i transient
+(only 2% of control) triggered by Ca21 entry via T-type
+Ca21 channels and background Ca21 current. Note that the
+exchanger’s contribution during the AP is consistent with its
+contribution during a square pulse to 140 mV (Fig. 10 A),
+a potential similar to the peak potential of the AP. Fig. 11 II
+shows computed APs and corresponding [Ca21]i transients
+for the same protocols as Fig. 11 I, but for [Na1]i
+5 20 mM.
+In this case, the [Ca21]i transient elicited by INaCa triggering
+alone (panel B) is 33% of the control.
+
+DISCUSSION
+
+There are several important findings of this study: 1)
+[Na1]i accumulation at rapid heart rates plays an important
+role in APD shortening (in addition to the well-established
+role of IKs); the Na1-dependent shortening is a result of
+increased outward INaCa and INaK. 2) APD shortening re-
+sulting from [Na1]i overload alone (in the absence of rapid
+pacing) occurs despite a reduced IKs (which acts to prolong
+APD). 3) IK(Na) contributes little to APD shortening, even
+during conditions of elevated [Na1]i. 4) Ca21 entry via both
+INaCa and ICa(L) increases with increasing [Na1]i, triggering
+a larger [Ca21]i transient; at higher [Na1]i, reverse-mode
+INaCa alone can trigger Ca21 release from the SR. 5) During
+INaK block, both intracellular Na1 and Ca21 accumulate,
+and APD shortens due to enhanced outward INaCa.
+
+Elevated [Na1]i plays an important role in
+APD shortening
+
+It is common knowledge that rapid pacing results in
+shortening of APD. The ability of the myocyte to adapt its
+APD in response to changes in pacing frequency is primar-
+ily due to accumulation of the IKs resulting from incomplete
+deactivation between beats. However, we have shown that
+accumulation of intracellular sodium also plays an impor-
+tant role. The time course of these two processes is quite
+different. APD shortening due to IKs accumulation occurs
+within a few beats, whereas APD shortening due to accu-
+mulation of [Na1]i occurs over a period of minutes. [Na1]i
+accumulates due to the inability of the Na1–K1 pump to
+1 at a rate that is sufficient to compensate for the
+remove Nai
+increased Na1 entry during fast pacing.
+
+An increase in [Na1]i results in an increase of INaK and
+reverse-mode INaCa (Fig. 3), both of which are repolarizing
+currents. Their influence on membrane potential becomes
+substantial under these conditions, resulting in a shortening
+of APD. For the protocol shown in Fig. 7, INaK and reverse
+
+Biophysical Journal 78(5) 2392–2404
+
+INaCa account for approximately 28% of the total repolariz-
+ing current when [Na1]i
+5 10 mM and for 52% when
+[Na1]i
+5 20 mM. Note that both currents are of large
+outward magnitude at the initial phase of the AP. This acts
+to reduce the AP and plateau potential, which, in turn,
+accelerates repolarization.
+
+IK(Na) contribution to APD shortening is negligible
+The simulations show that IK(Na) is activated during so-
+dium overload (e.g., due to compromised INaK) and acts to
+shorten APD. However, its quantitative effect on APD is
+minimal even when [Na1]i is greatly elevated to 16 mM.
+The physiological function of IK(Na) remains unclear. One
+possibility is that the channel plays an important role in
+other cell types or species, but is a vestigial channel in the
+guinea pig ventricular myocyte. Another possibility is that
+[Na1]i can reach values much higher than commonly be-
+lieved. Using atomic absorption spectroscopy, Radford et
+al. (1998) measured [Na1]i greater than 30 mM in guinea
+pig myocytes. These concentrations are supported by Na1-
+sensitive microelectrodes recordings (Ellis, 1977), but only
+if an activity coefficient of 0.2 is used for converting aNa
+to
+[Na1]i rather than the commonly accepted value of 0.75.
+Based on our simulations, for concentrations of intracellular
+Na1 greater than 30 mM, IK(Na) is significantly activated
+and generates a current similar in magnitude to IKr or IKs.
+Although whole cell concentrations of this magnitude seem
+unlikely, it is possible that such concentrations are achieved
+in a restricted subsarcolemmal space, as has been suggested
+by several studies (for review, see Carmeliet, 1992). Using
+electron probe microanalysis, Wendt-Gallitelli et al. (1993)
+measured
+sodium
+large
+([Na1]subsarcolemmal
+5 40 6 7 mM) following a rapid pacing
+protocol, and were able to observe the opening of Na1-
+activated K1 channels in these areas of high Na1. Important
+information about subsarcolemmal spaces must be obtained
+before a better understanding of the function of ion-regu-
+lated transporters and channels, including IK(Na), can be
+achieved. Such information includes the location and dis-
+tribution of membrane ion channels relative to the subsar-
+colemmal spaces, the surface area of membrane exposed to
+these spaces, subsarcolemmal volumes, ion concentrations
+in these volumes, and ion diffusion rates from these re-
+stricted spaces to the bulk myoplasm.
+
+subsarcolemmal
+
+a
+
+i
+
+rise
+
+in
+
+Ca21-entry through INaCa and its role in CICR
+
+The Na1–Ca21 exchanger plays a critical role in the
+Ca21-handling processes of the cell. It helps to maintain low
+levels of resting [Ca21]i and keeps a steady-state balance of
+[Ca21]i by removing Ca21 that entered the myocyte through
+voltage-gated Ca21 channels during the course of the AP. A
+more debated contribution of the Na1–Ca21 exchanger to
+
+AP Changes in [Na1]i Overloaded Myocytes
+
+Ca21 cycling is its role in the CICR process. ICa(L) provides
+the primary source of Ca21, which signals the opening of
+ryanodine receptors on the SR membrane. Once opened, the
+SR releases its Ca21 store, resulting in a 10-fold increase in
+[Ca21]i from 0.1 to 1 mM, which triggers contraction. The
+exchanger’s ability to contribute to the signaling of SR
+Ca21 release was first suggested and shown in the late
+1980s (Berlin et al., 1987; Bers et al., 1988; Leblanc and
+Hume, 1990) and has since been extensively investigated.
+Membrane structure plays in important role in the exci-
+tation– contraction process. Using immunofluorescence lo-
+calization, Gao et al. (1997) have shown that L-type channel
+proteins are present with greatest density in the t-tubules in
+close proximity to SR release sites, reaffirming their impor-
+tant role in excitation– contraction coupling. This technique
+has also provided evidence for the importance of the Na1–
+Ca21 exchanger in CICR. Immunofluorescence of the Na1–
+Ca21 exchange protein (Frank et al., 1992; Kieval et al.,
+1992) has shown that these proteins are also present with
+greatest density within the t-tubules. It is possible that their
+localization to the t-tubules is not because of a functional
+role in CICR, but for efficient removal of Ca21 from the
+high-concentration restricted space. Even so, several inves-
+tigators have provided evidence suggesting that INaCa plays
+an important role in triggering Ca21 release from the SR
+during CICR.
+
+Perhaps the most persuasive evidence is experiments
+showing deviation of cell contraction from the ICa(L) I–V
+relationship (Levi et al., 1994; Kohomoto et al., 1994;
+Litwin et al., 1996). As shown in Fig. 10, the ICa(L) I–V
+relationship is bell-shaped with maximum current around 10
+mV. For the case of elevated [Na1]i (Fig. 10 B, [Na1]i
+5 20
+mM), the [Ca21]i,max, F deviates significantly from this
+relationship for voltages .20 mV. This is due to increased
+Ca21 entry via reverse-mode INaCa, which participates in
+CICR to trigger greater SR release. For normal physiolog-
+ical [Na1]i of 10 mM (Fig. 10 A), the [Ca21]i,max curve
+follows closely the ICa(L) curve, but deviates from it starting
+at V 5 40 mV, indicating a contribution from INaCa for V .
+40 mV. Because the peak AP is in this voltage range, one
+expects a contribution from INaCa to triggering release dur-
+ing an AP for normal [Na1]i. This hypothesis is confirmed
+by the simulation in Fig. 11 I, where INaCa alone triggers a
+Ca21 transient with magnitude 25% of control. As expected,
+the role of INaCa increases as [Na1]i increases, contributing
+33% to triggering release at [Na1]i
+5 20 mM (Fig. 11 II).
+The results of these simulations are consistent with exper-
+iments that demonstrate an attenuated contraction when
+ICa(L) is blocked and absence of contraction when both ICa(L)
+and INaCa are blocked (Levi, 1993; Levesque et al., 1994).
+Recent experiments at physiological [Na1]i (Vornanen et
+al., 1994; Litwin et al., 1998; Wasserstrom and Vites, 1999)
+demonstrated greater deviation of cell shortening (or ten-
+sion) from the bell-shaped ICa(L) curve than the simulation
+in Fig. 10 A. These quantitative differences might reflect
+
+2401
+
+differences in details of the protocols. They could also
+be due to voltage-activated Ca21 release (Ferrier and
+Howlett, 1995), a suggested mechanism that is not included
+in the LRd model and requires further experimental study and
+characterization.
+
+One of the interesting mechanistic findings of this study
+is that the initial spike of ICa(L) increases with increasing
+[Na1]i (Fig. 7 C). It is this early entry of Ca21 that signals
+the release of Ca21 from the SR. Therefore, augmentation
+of early ICa(L) is an important contributor to the increased
+[Ca21]i
+transients observed with increased [Na1]i. The
+cause for the increase in early ICa(L) is longer activation time
+of the current resulting from the slowed rising phase of the
+AP upstroke. In addition, the ICa(L) driving force is also
+increased because of reduced membrane potential. As can
+be seen in Fig. 10, where the membrane potential is held
+constant using the voltage clamp protocol, there is no in-
+crease in ICa(L) due to increased [Na1]i per se.
+
+Possible arrhythmogenic consequences of
+sodium overload
+
+Sodium overload can arise as a result of a multitude of
+disorders. Examples include conditions of metabolic com-
+increased Na1 entry via the
+promise, digitalis toxicity,
+Na1–H1 exchange as a result of intracellular acidosis,
+increased Na1 entry due to persistent INa in the long QT
+syndrome, LQT3, and rapid rates during episodes of tachy-
+cardia and fibrillation.
+
+Many of the AP changes observed in our simulations can
+facilitate the induction and subsistence of reentrant arrhyth-
+mias. For reentry to persist, the pathlength must be greater
+than the wavelength (the product of APD and velocity of
+propagation). If this condition is not maintained, the acti-
+vation front will propagate into refractory tissue and the
+activity will terminate. Elevated [Na1]i reduces the trans-
+membrane Na1 gradient, resulting in decreased dV/dt (Fig.
+8) and, thus, slowed conduction. Elevated [Na1]i also acts
+to reduce APD, primarily due to increased reverse-mode
+INaCa and INaK. These two conditions of Na1 overload favor
+stabilization of reentry through reduction of the wavelength.
+Another consequence of elevated [Na1]i is an accompa-
+nying elevation of [Ca21]i. If Ca21 stores within the SR
+become greatly overloaded, episodes of spontaneous release
+will occur (Wier and Hess, 1984; Luo and Rudy, 1994b).
+This release can activate INaCa to depolarize the cell and
+trigger arrhythmogenic DADs (Zeng and Rudy, 1995; Luo
+and Rudy, 1994b). Because DADs depolarize from rest
+potential, the combination of short APD and elevated intra-
+cellular Ca21 that exists during Na1 overload provides
+highly favorable conditions for DAD development. The
+DADs can provide the trigger (premature beat) for reentry
+to a substrate that is highly susceptible to reentrant rhythms
+as discussed above. It has been demonstrated that drugs that
+inhibit [Na1]i and [Ca21]i overload are effective in the
+
+Biophysical Journal 78(5) 2392–2404
+
+2402
+
+Faber and Rudy
+
+prevention of arrhythmias (for review, see Ravens and Him-
+mel, 1999).
+
+Sodium overload may also result in a lowering of intra-
+cellular pH (acidosis) by reducing the rate of H1 removal
+via the Na1–H1 exchange. Intracellular acidosis has been
+shown to result in a reduction of the magnitude of the
+L-type calcium current (Irisawa and Sato, 1986; Shaw and
+Rudy, 1997) which would lead to APD shortening. Inter-
+estingly, acidosis can also be a cause of Na1 overload,
+especially following reperfusion of ischemic tissue. This
+suggests a potential antiarrhythmic role for Na1–H1 ex-
+change blockers (for review, see Karmazyn, 1996).
+
+Limitations of the study
+
+The simulations are conducted using measured global
+intracellular values of [Na1]i and [Ca21]i and accurately
+reproduce the experimentally observed behavior of the
+[Ca21]i transient in response to pacing and [Na1]i loading.
+Several studies have provided evidence for the existence of
+subcellular spaces, which may have much higher concen-
+trations of ions. The data necessary to accurately model
+restricted spaces are either limited or unavailable, making
+such an endeavor premature. With the development of higher-
+resolution measurement techniques for imaging structure
+and measuring local ionic concentrations, realistic modeling
+of the intracellular organization and its effects on function
+will become an achievable, important, and exciting goal.
+
+Related to the above limitation is the method one uses to
+calculate Irel (see Appendix). In the model, Irel is formulated
+such that any source of Ca21 entry is equally capable of
+triggering SR release. The close proximity of dihydropyri-
+dine receptors and ryanodine receptors suggests that ICa(L) is
+the dominant pathway of Ca21 entry responsible for trig-
+gering Irel (Carl et al., 1995). It has been suggested that
+other pathways of Ca21 entry (e.g., INaCa) are much less
+efficient in triggering release (Sipido et al., 1997). This may
+be due to a long diffusion time of Ca21 from the sites of
+entry to SR release sites or due to Ca21 influx that is much
+smaller than that through the L-type Ca21 channels. In our
+simulations, Ca21 entry via ICa(L) is the major source of
+Ca21 that triggers SR release, even under conditions of
+greatly elevated [Na1]i. However, under such conditions
+INaCa contributes to CICR and can trigger release in the
+absence of ICa(L). In the model, the lower efficiency of INaCa,
+compared to ICa(L) in triggering SR release, is a conse-
+quence of the smaller Ca21 flux through INaCa, not of the
+spatial organization of the cell.
+
+APPENDIX
+
+[Na1]i-overload
+
+Modeling
+
+the LRd model
+(Viswanathan et al., 1999; Zeng et al., 1995; Luo and Rudy, 1994a):
+formulation of Irel, INaCa, and IK(Na).
+
+conditions with
+
+Biophysical Journal 78(5) 2392–2404
+
+Ca21 release from Junctional Sarcoplasmic
+Reticulum to myoplasm, Irel
+
+Irel
+grel
+
+5 grel z RyRopen z RyRclose z ~@Ca21#JSR 2 @Ca21#i!
+5 150/(11exp$@~ICa(L) 1 ICa,b 1 Ip(Ca)
+
+1ICa(T) 2 2 z INaCa! 1 5#/0.9%!
+
+RyRopen 5 1/~1 1 exp~~ 2 t 1 4!/0.5!!
+
+RyRclose 5 1 2 ~1/@1 1 exp~~ 2 t 1 4!/0.5!#!
+
+rate of opening of release channels
+
+rate of closing of release channels
+
+The value for t is set to 0 at the time of dV/dtmax.
+
+Na1–Ca21 exchanger, INaCa (based on Varghese
+and Sell, 1997)
+
+INaCa 5 c1 z e~g21!VF/RT
+
+z
+
+eVF/RT z @Na1#i
+
+1 1 c2 z e~g21!VF/RT zSeVF/RT z @Na1#i
+
+3 z @Ca21#o 2 @Na1#o
+
+3 z @Ca21#i
+
+3 z @Ca21#o 1 @Na1#o
+
+3 z @Ca21#iD ,
+
+c1 5 0.00025,
+
+c2 5 0.0001, g5 0.15
+
+Na1-activated K1 current, IK(Na)
+IK(Na) 5 g# K(Na) z PoNai z PoV z ~Em 2 EK!,
+g# K(Na) 5 0.12848 mS/cm2
+
+PoV 5 0.8 2
+
+0.65
+
+maximum membrane conductance of IK(Na)
+
+~1 1 exp@~V 1 125!/15#!
+
+voltage dependence (Sanguinetti, 1990)
+
+PoNai 5
+
+0.85
+
+1 1 ~KD/@Na1#i!n
+
+@Na1]i dependence (Kameyama et al., 1984)
+
+n 5 2.8
+
+KD 5 66 mM,
+Other parameter values
+I#
+up 5 0.00875 mM/ms maximum current through Iup
+I#
+NaK 5 2.25 mA/mF maximum current through INaK
+
+This study was supported by grants R01-HL49054 and R37-HL33343 (to
+YR) from the National Heart, Lung, and Blood Institute of the National
+Institutes of Health, and by a Whitaker Foundation Development Award.
+
+REFERENCES
+
+Bennett, P., K. Yazawa, N. Makita, and A. J. George. 1995. Molecular
+mechanism for an inherited cardiac arrhythmia. Nature. 376:683– 685.
+Berlin, J., M. Cannell, and W. Lederer. 1987. Regulation of twitch tension
+in sheep cardiac Purkinje fibers during calcium overload. Am. J. Physiol.
+Heart Circ. Physiol. 253:H1540 –H1547.
+
+Bers, D., D. Christensen, and T. Nguyen. 1988. Can Ca21 entry via
+Na1–Ca21 exchange directly activate cardiac muscle contraction?
+J. Mol. Cell. Cardiol. 20:405– 414.
+
+AP Changes in [Na1]i Overloaded Myocytes
+
+2403
+
+Brill, D. M., and J. A. Wasserstrom. 1986. Intracellular sodium and the
+positive inotropic effect of veratridine and cardiac glycoside in sheep
+Purkinje fibers. Circ. Res. 58:109 –119.
+
+Levi, A. 1993. A role for sodium/calcium exchange in the action potential
+shortening caused by strophanthidin in guinea pig ventricular myocytes.
+Cardiovasc. Res. 27:471– 481.
+
+Carl, S., K. Felix, A. Caswell, N. Brandt, W. J. Ball, P. Vaghy, G.
+Meissner, and D. Ferguson. 1995. Immunolocalization of sarcolemmal
+dihydropyridine receptor and sarcoplasmic reticular triadin and ryano-
+dine receptor in rabbit ventricle and atrium. J. Cell Biol. 129:672– 682.
+Carmeliet, E. 1992. A fuzzy subsarcolemmal space for intracellular Na1 in
+
+cardiac cells? Cardiovasc. Res. 26:433– 442.
+
+Chandra, R., C. F. Starmer, and A. O. Grant. 1998. Multiple effects of the
+KPQ deletion on gating of human cardiac Na1 channels expressed in
+mammalian cells. Am. J. Physiol. Heart Circ. Physiol. 274:
+H1643–H1654.
+
+Clancy, C. E., and Y. Rudy. 1999. Linking a genetic defect to its cellular
+
+phenotype in a cardiac arrhythmia. Nature. 400:566 –569.
+
+Cohen, C. J., H. A. Fozzard, and S. S. Sheu. 1982. Increase in intracellular
+sodium ion activity during stimulation in mammalian cardiac muscle.
+Circ. Res. 50:651– 662.
+
+Cranefield, F. P., and R. S. Aronson. 1988. Cardiac Arrhythmias: The Role
+of Triggered Activity and Other Mechanisms. Futura Publishing Com-
+pany, Inc., New York.
+
+Dumaine, R., Q. Wang, M. Keating, H. Hartmann, P. Schwartz, A. Brown,
+and G. Kirsch. 1996. Multiple mechanisms of Na1 channel-linked
+long-QT syndrome. Circ. Res. 78:916 –924.
+
+Ellis, D. 1977. The effects of external cations and ouabain on the intracel-
+lular sodium activity of sheep heart Purkinje fibres. J. Physiol. 273:
+211–240.
+
+Ferrier, G. R. and S. E. Howlett. 1995. Contractions in guinea-pig ventric-
+ular myocytes triggered by a calcium-release mechanism separate from
+Na1 and L-currents. J. Physiol. 484:107–122.
+
+Frank, J., G. Mottino, D. Reid, R. Molday, and K. Philipson. 1992.
+Distribution of the Na1–Ca21 exchange protein in mammalian cardiac
+myocytes: an immunofluorescence and immunocolloidal gold-labeling
+study. J. Cell Biol. 117:337–345.
+
+Gao, T., T. Puri, B. Gerhardstein, A. Chien, R. Green, and M. Hosey. 1997.
+Identification and subcellular localization of the subunits of L-type
+calcium channels and adenylyl cyclase in cardiac myocytes. J. Biol.
+Chem. 272:19401–19407.
+
+Haigney, M., E. Lakatta, M. Stern, and H. Silverman. 1994. Sodium
+channel blockade reduces hypoxic sodium loading and sodium-
+dependent calcium loading. Circulation. 90:391–399.
+
+Harrison, S. M., E. McCall, and M. R. Boyett. 1992. The relationship
+between contraction and intracellular sodium in rat and guinea-pig
+ventricular myocytes. J. Physiol. 449:517–550.
+
+Irisawa, H., and R. Sato. 1986. Intra- and extracellular actions of proton on
+the calcium current of isolated guinea pig ventricular cells. Circ. Res.
+59:348 –355.
+
+Kameyama, M., M. Kakei, R. Sato, T. Shibasaki, H. Matsuda, and H.
+Irisawa. 1984. Intracellular Na1 activates a K1 channel in mammalian
+cardiac cells. Nature. 309:354 –356.
+
+Karmazyn, M. 1996. The sodium– hydrogen exchange system in the heart:
+its role in ischemic and reperfusion injury and therapeutic implications.
+Can. J. Cardiol. 12:1074 –1082.
+
+Kieval, R., R. Bloch, G. Lindenmayer, A. Ambesi, and W. Lederer. 1992.
+Immunofluorescence localization of the Na–Ca exchanger in heart cells.
+Am. J. Physiol. Cell Physiol. 263:C545–C550.
+
+Kohomoto, O., A. Levi, and J. Bridge. 1994. Relation between reverse
+sodium– calcium exchange and sarcoplasmic reticulum calcium release
+in guinea pig ventricular cells. Circ. Res. 74:550 –554.
+
+Leblanc, N., and J. Hume. 1990. Sodium current-induced release of cal-
+
+cium from cardiac sarcoplasmic reticulum. Science. 248:372–376.
+
+Levesque, P., N. Leblanc, and J. Hume. 1994. Release of calcium from
+guinea pig cardiac sarcoplasmic reticulum induced by sodium– calcium
+exchange. Cardiovasc. Res. 28:370 –378.
+
+Levi, A. 1991. The effect of strophanthidin on action potential, calcium
+current and contraction in isolated guinea-pig ventricular myocytes.
+J. Physiol. 443:1–23.
+
+Levi, A., K. Spitzer, O. Kohmoto, and J. Bridge. 1994. Depolarization-
+induced Ca21 entry via Na1–Ca21 exchange triggers SR release in
+guinea pig cardiac myocytes. Am. J. Physiol. Heart Circ. Physiol.
+266:H1422–H1433.
+
+Levi, A. J., G. R. Dalton, J. C. Hancox, J. S. Mitcheson, J. Issberner, J. A.
+Bates, S. J. Evans, F. C. Howarth, I. A. Hobai, and J. V. Jones. 1997.
+Role of intracellular sodium overload in the genesis of cardiac arrhyth-
+mias. J. Cardiovasc. Electrophysiol. 8:700 –721.
+
+Litwin, S., O. Kohmoto, A. Levi, K. Spitzer, and J. Bridge. 1996. Evidence
+that reverse Na1–Ca21 exchange can trigger SR calcium release. Ann.
+NY Acad. Sciences. 779:451– 463.
+
+Litwin, S., J. Li, and J. Bridge. 1998. Na1–Ca21 exchange and the trigger
+for sarcoplasmic reticulum Ca21 release: studies in adult rabbit ventric-
+ular myocytes. Biophys. J. 75:359 –371.
+
+Litwin, S. E., and J. H. B. Bridge. 1997. Enhanced Na1–Ca21 exchange in
+
+the infarcted heart. Circ. Res. 81:1083–1093.
+
+Lu, H., and F. de Clerck. 1993. R56865, a Na1/Ca21-overload inhibitor,
+protects against aconitine-induced cardiac arrhythmias in vivo. J. Car-
+diovasc. Pharmacol. 22:120 –125.
+
+Luk, H. N., and E. Carmeliet. 1990. Na1-activated K1 current in cardiac
+cells: rectification, open probability, block and role in digitalis toxicity.
+Pflug. Archiv. Eur. J. Physiol. 416:766 –768.
+
+Luo, C. H., and Y. Rudy. 1994a. A dynamic model of the cardiac ventric-
+ular action potential. I. Simulations of ionic currents and concentration
+changes. Circ. Res. 74:1071–1096.
+
+Luo, C. H., and Y. Rudy. 1994b. A dynamic model of the cardiac ventric-
+ular action potential. II. Afterdepolarizations, triggered activity, and
+potentiation. Circ. Res. 74:1097–1113.
+
+Matsuoka, S., and D. Hilgemann. 1992. Steady-state and dynamic proper-
+ties of cardiac sodium– calcium exchange. Ion and voltage dependencies
+of the transport cycle. J. Gen. Physiol. 100:963–1001.
+
+Nagatomo, T., Z. Fan, B. Ye, G. Tonkovich, C. January, J. Kyle, and J.
+Makielski. 1998. Temperature dependence of early and late currents in
+human cardiac wild-type and long Q-T DKPQ Na1 channels.
+Am. J. Physiol. Heat Circ. Physiol. 275:H2016 –H2024.
+
+Nakao, M., and D. Gadsby. 1989. [Na] and [K] dependence of the Na/K
+pump current–voltage relationship in guinea pig ventricular myocytes.
+J. Gen. Physiol. 94:539 –565.
+
+Nuss, H., and S. Houser. 1992. Sodium– calcium exchange-mediated con-
+tractions in feline ventricular myocytes. Am. J. Physiol. Heart Circ.
+Physiol. 263:H1161–H1169.
+
+Radford, N. B., J. D. Makos, R. Ramasamy, A. D. Sherry, and C. R.
+Malloy. 1998. Dissociation of intracellular sodium from contractile state
+in guinea-pig hearts treated with ouabain. J. Mol. Cell. Cardiol. 30:
+639 – 647.
+
+Ravens, U., and H. Himmel. 1999. Drugs preventing Na1 and Ca21
+
+overload. Pharmacol. Res. 39:167–174.
+
+Sanguinetti, M. C. 1990. Na1-activated and ATP-sensitive K1 channels in
+the heart. In Potassium Channels: Basic Function and Therapeutic As-
+pects. T. J. Colatsky, editor. Alan R. Liss, Inc, New York. 85–109.
+
+Shaw, R., and Y. Rudy. 1997. Electrophysiologic effects of acute myocar-
+dial ischemia: a theoretical study of altered cell excitability and action
+potential duration. Cardiovasc. Res. 35:256 –272.
+
+Sipido, K., M. Maes, and F. van de Werf. 1997. Low efficiency of Ca21
+entry through the Na1–Ca21 exchanger as trigger for Ca21 release from
+the sarcoplasmic reticulum. A comparison between L-type Ca21 current
+and reverse-mode Na1–Ca21 exchange. Circ. Res. 81:1034 –1044.
+
+Smith, T., E. Antman, P. Friedman, C. Blatt, and J. Marsh. 1984. Digitalis
+glycosides: mechanisms and manifestations of toxicity. Prog. Cardio-
+vasc. Dis. 26:413– 458, 495–523; 27:21–56.
+
+Tani, M., and J. Neely. 1990. Na1 accumulation increases Ca21 overload
+and impairs function in anoxic rat heart. J. Mol. Cell. Cardiol. 22:57–72.
+
+Biophysical Journal 78(5) 2392–2404
+
+2404
+
+Faber and Rudy
+
+van Echteld, C., J. Kirkels, M. Eijgelshoven, P. van der Meer, and T.
+Ruigrok. 1991. Intracellular sodium during ischemia and calcium-free
+perfusion: a 23Na NMR study. J. Mol. Cell. Cardiol. 23:297–307.
+
+Wang, Z., T. Kimitsuki, and A. Noma. 1991. Conductance properties of the
+Na1-activated K1 channel in guinea-pig ventricular cells. J. Physiol.
+433:241–257.
+
+Varghese, A., and G. Sell. 1997. A conservation principle and its effect on
+in cardiac cells.
+
+the formulation of Na1–Ca21 exchanger current
+J. Theoret. Biol. 189:33– 40.
+
+Veldkamp, M. W., J. Vereecke, and E. Carmeliet. 1994. Effects of intra-
+cellular sodium and hydrogen ion on the sodium activated potassium
+channel in isolated patches from guinea pig ventricular myocytes. Car-
+diovasc. Res. 28:1036 –1041.
+
+Viswanathan, P., R. Shaw, and Y. Rudy. 1999. Effects of IKr and IKs
+heterogeneity on action potential duration and its rate dependence: a
+simulation study. Circulation. 99:2466 –2474.
+
+Vornanen, M., N. Shepherd, and G. Isenberg. 1994. Tension–voltage
+relations of single myocytes reflect Ca release triggered by Na/Ca
+exchange at 35 degrees C but not 23 degrees C. Am. J. Physiol. Cell
+Physiol. 267:C623–C632.
+
+Wang, D. Y., S. W. Chae, Q. Y. Gong, and C. O. Lee. 1988. Role of aNa
+in positive force-frequency staircase in guinea pig papillary muscle.
+Am. J. Physiol. Cell Physiol. 255:C798 –C807.
+
+i
+
+Wasserstrom, J., and A. Vites. 1999. Activation of contraction in cat
+ventricular myocytes: effects of low Cd21 concentration and tempera-
+ture. Am. J. Physiol. Heart Circ. Physiol. 277:H488 –H498.
+
+Wendt-Gallitelli, M. F., T. Voigt, and G. Isenberg. 1993. Microheteroge-
+neity of subsarcolemmal sodium gradients. Electron probe microanalysis
+in guinea-pig ventricular myocytes. J. Physiol. 472:33– 44.
+
+Wier, W., and P. Hess. 1984. Excitation– contraction coupling in cardiac
+Purkinje fibers. Effects of cardiotonic steroids on the intracellular [Ca21]
+transient, membrane potential, and contraction. J. Gen. Physiol. 83:
+395– 415.
+
+Zeng, J., K. R. Laurita, D. S. Rosenbaum, and Y. Rudy. 1995. Two
+components of the delayed rectifier K1 current in ventricular myocytes
+of the guinea pig type. Theoretical formulation and their role in repo-
+larization. Circ. Res. 77:140 –152.
+
+Zeng, J., and Y. Rudy. 1995. Early afterdepolarizations in cardiac
+
+myocytes: mechanism and rate dependence. Biophys. J. 68:949 –964.
+
+Biophysical Journal 78(5) 2392–2404
+
+

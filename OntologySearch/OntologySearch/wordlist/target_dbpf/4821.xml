@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4821">
+<itemtype>xnppaper</itemtype>
+<titles><title>Representation in the hippocampus: what do hippocampal neurons code?</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:46:12Z</last_update_date>
+<creation_date>2011-04-28T05:46:12Z</creation_date>
+<publication_year>1988</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4821</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4821" version="1.02">
+<authors><author>Eichenbaum H</author><author>Cohen NJ</author></authors>
+<journal>Trends in neurosciences</journal>
+<volume>11</volume>
+<number>6</number>
+<page>244-8</page>
+<abstract></abstract>
+<pubmed_id>2465617</pubmed_id>
+</detail>
+</item>

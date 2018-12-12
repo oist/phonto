@@ -1,0 +1,39 @@
+Animals
+Dendrites
+metabolism
+Diabetes Mellitus
+Experimental
+complications
+physiopathology
+Disease Models
+Animal
+Electric Stimulation
+Hippocampus
+metabolism
+physiopathology
+Long-Term Potentiation
+physiology
+Long-Term Synaptic Depression
+physiology
+Male
+Membrane Potentials
+physiology
+Memory Disorders
+etiology
+metabolism
+physiopathology
+Neural Inhibition
+physiology
+Neural Pathways
+metabolism
+physiopathology
+Organ Culture Techniques
+Patch-Clamp Techniques
+Presynaptic Terminals
+metabolism
+Rats
+Rats
+Wistar
+Synaptic Transmission
+physiology
+Memory impairments, which occur regularly across species as a result of ageing, disease (such as diabetes mellitus) and psychological insults, constitute a useful area for investigating the neurobiological basis of learning and memory. Previous studies in rats found that induction of diabetes (with streptozotocin, STZ) impairs long-term potentiation (LTP) but enhances long-term depression (LTD) induced by high- (HFS) and low-frequency stimulations (LFS), respectively. Using a pairing protocol under whole-cell recording conditions to induce synaptic plasticity at Schaffer collateral synapses in hippocampal CA1 slices, we show that LTD and LTP have similar magnitudes in diabetic and age-matched control rats. But, in diabetic animals, LTD is induced at more polarized and LTP more depolarized membrane potentials (V(ms)) compared with controls: diabetes produces a 10 mV leftward shift in the threshold for LTD induction and 10 mV rightward shift in the LTD-LTP crossover point of the voltage-response curve for synaptic plasticity. Prior repeated short-term potentiations or LTP are known to similarly, though reversibly, lower the threshold for LTD induction and raise that for LTP induction. Thus, diabetes- and activity-dependent modulation of synaptic plasticity (referred to as metaplasticity) display similar phenomenologies. In addition, compared with naïve synapses, prior induction of LTP produces a 10 mV leftward shift in Vms for inducing subsequent LTD in control but not in diabetic rats. This could indicate that diabetes acts on synaptic plasticity through mechanisms involved in metaplasticity. Persistent facilitation of LTD and inhibition ofLTP may contribute to learning and memory impairments associated with diabetes mellitus.

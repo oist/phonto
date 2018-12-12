@@ -1,0 +1,21 @@
+Adrenal Cortex Hormones
+physiology
+Amygdala
+anatomy
+&
+histology
+physiology
+Animals
+Arousal
+physiology
+Emotions
+physiology
+Hippocampus
+physiology
+Humans
+Memory
+physiology
+Neurotransmitter Agents
+physiology
+Time
+Typically, emotionally charged events are better remembered than neutral ones. This paper reviews data indicating that the amygdala is responsible for this facilitation of memory by emotional arousal. Pharmacological and behavioral studies have shown that the release of adrenal stress hormones facilitates memory consolidation. The available evidence suggests that this effect depends on a central action of stress hormones involving the release of the neuromodulators noradrenaline (NA) and acetylcholine in the basolateral complex of the amygdala (BLA). Indeed, BLA lesions block the memory modulating effects of stress hormones. Moreover, microdialysis studies have revealed that BLA concentrations of NA and acetylcholine are transiently (2h) elevated following emotionally arousing learning episodes. Last, post-learning intra-BLA injections of beta-adrenergic or muscarinic receptor antagonists reduce retention. These results have led to the hypothesis that NA and acetylcholine increase the activity of BLA neurons in the hours after the learning episode. In turn, the BLA would facilitate synaptic plasticity in other brain structures, believed to constitute the storage sites for different types of memory. Consistent with this, post-learning treatments that reduce or enhance the excitability of BLA neurons respectively decrease or improve long-term retention on various emotionally charged learning tasks. However, a number of issues remain unresolved. Chief among them is how the BLA facilitates synaptic plasticity elsewhere in the brain. The present review concludes with a consideration of this issue based on recent advances in our understanding of the BLA. Among other possibilities, it is suggested that rhythmic BLA activity at the theta frequency during arousal as well as the uniform conduction times of BLA axons to distributed rhinal sites may promote plasticity in co-active structures of the temporal lobe.

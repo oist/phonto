@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4781">
+<itemtype>xnppaper</itemtype>
+<titles><title>Muscarinic potentiation of IK in hippocampal neurons: electrophysiological characterization of the signal transduction pathway.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium</keyword>
+<keyword>physiology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Enzyme Activation</keyword>
+<keyword>GTP-Binding Proteins</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Intracellular Membranes</keyword>
+<keyword>metabolism</keyword>
+<keyword>Muscarine</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Phosphorylation</keyword>
+<keyword>Potassium</keyword>
+<keyword>physiology</keyword>
+<keyword>Protein Kinase C</keyword>
+<keyword>metabolism</keyword>
+<keyword>Rats</keyword>
+<keyword>Signal Transduction</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:45:22Z</last_update_date>
+<creation_date>2011-04-28T04:45:22Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4781</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4781" version="1.02">
+<authors><author>Zhang L</author><author>Weiner JL</author><author>Carlen PL</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>12</volume>
+<number>11</number>
+<page>4510-20</page>
+<abstract>Central cholinergic (muscarinic) systems play an important role in learning and memory. In mammalian central neurons, muscarinic stimulation depresses several voltage-activated K+ currents and modulates synaptic transmission. Using whole-cell voltage-clamp recordings in hippocampal CA1 neurons of rat brain slices, we report that activation of muscarinic receptors potentiates a voltage-activated, sustained K+ current (IK-type). This potentiation of IK is mediated by activation of protein kinase C and involves a G-protein-linked, intracellular Ca(2+)-dependent process. This underlying second messenger pathway may prove to be important in the mediation of other previously reported muscarinic neuronal actions.</abstract>
+<pubmed_id>1432107</pubmed_id>
+</detail>
+</item>

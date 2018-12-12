@@ -1,0 +1,28 @@
+Animals
+Animals
+Newborn
+Blotting
+Western
+methods
+Carrier Proteins
+metabolism
+Cells
+Cultured
+Hippocampus
+cytology
+Immunohistochemistry
+methods
+Immunoprecipitation
+methods
+Mice
+Mice
+Inbred C57BL
+Models
+Biological
+Neurofilament Proteins
+metabolism
+Neurons
+metabolism
+TRPP Cation Channels
+metabolism
+Polycystin-1 (PC-1) has been identified as critical to development of the nervous system, but the significance of PC-1 expression in neurons remains undefined, and little is known of its roles outside the kidney, where mutation results in autosomal dominant polycystic kidney disease (ADPKD). In kidney, PC-1 interacts with cadherins, catenins, and its cognate calcium channel polycystin-2 (PC-2), which in turn interacts with a number of actin-regulatory proteins. Because some of the proteins that interact with PC-1 in kidney also participate in synaptic remodeling and plasticity in the hippocampus, we decided to test PC-1's potential to interact with a recently discovered type of plasticity-associated protein (homer 1a/Vesl-1S) in postnatal mouse hippocampus. Homer 1a/Vesl-1S is an activity-induced protein believed to participate in synaptic remodeling/plasticity responses to temporal lobe seizure and learning. Here we report the following. 1) PC-1 contains a homer-binding motif (PPxxF), which lies within its purported cytoplasmic domain. 2) Immunoreactivity for PC-1 (PC-1-ir) is highly colocalized with homer 1a immunoreactivity (H1a-ir) in primary cultured hippocampal neurons. 3) PC-1-ir and H1a-ir are present and appear to be colocalized in mouse hippocampus but not cortex on postnatal day 2 (P2), when higher frequencies of spontaneous activity are normal for hippocampus compared with cortex. 4) An endogenous PC-1-ir band with the correct size for the reported C-terminal G-protein-sensitive domain cleavage product of PC-1 (approximately 150 kDa) coimmunoprecipitates with endogenous homer 1/Vesl-1 proteins from mouse brain, suggesting that PC-1 can interact with homer 1/Vesl-1 proteins in postnatal hippocampal neurons.

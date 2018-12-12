@@ -1,0 +1,1628 @@
+ON THE EFFECT OF THE INTRACELLULAR
+CALCIUM-SENSITIVE K+ CHANNEL IN THE BURSTING
+PANCREATIC A-CELL
+
+TERESA REE CHAY
+Department ofBiological Sciences, University ofPittsburgh, Pittsburgh, Pennsylvania
+
+Based on the observation that the calcium-activated K+ channel in the pancreatic islet cells can also be
+ABSTRACT
+activated by the membrane potential, we have formulated a mathematical model for the electrical activity in the
+pancreatic fl-cell. Our model contains two types of ionic channels, which are active above the subthreshold glucose
+concentration in the limit-cycle region: a Ca2"-activated, voltage-gated K+ channel and voltage-gated Ca2" channel.
+Numerical simulation of the model generates bursts of electrical activity in response to a variation of kc., the rate
+constant for sequestration of intracellular calcium ions. The period and duration of the bursts in response to kca are in
+good agreement with experiment. The model predicts that (a) a combined spike and burst pattern can be created using
+only single species of inward and outward currents, (b) the inactivation kinetics (i.e., h) in the inward current is not a
+necessary condition for the generation of the pattern, and (c) a given pattern or intensity of electrical activity may
+produce different levels of intracellular Ca2" depending on the set of certain electrical parameters.
+
+INTRODUCTION
+
+The cells in the pancreas that secrete insulin are called
+(3-cells. They are situated in tightly associated cellular
+aggregates known as the islets of Langerhans. One of the
+most interesting properties of the fl-cell is its ability to
+exhibit a characteristic electrical activity when glucose is
+added in the perfusion medium (Dean and Mathews, 1970;
+Ribalet and Beigleman, 1979; Atwater et al., 1980). In the
+presence of low glucose concentration (i.e., below 5 mM),
+the voltage across the plasma membrane of the f-cell
+remains at the resting level of -68 mV (Ashcroft et al.,
+1984). When the glucose concentration is raised above
+-5.5 mM, however, the membrane potential displays the
+burst activity. This consists of an active phase during which
+spikes are generated and a silent phase during which the
+membrane is hyperpolarized. The burst activity continues
+until the glucose level reaches - 16.6 mM. Characteristics
+of the electrical burst, which change appreciably as glucose
+increases, are the relative duration of the active phase and
+the burst period; increasing glucose increases the relative
+duration of the active phase (Beigelman et al., 1977;
+Meissner and Pressler, 1980; Atwater et al., 1980), while
+the burst period decreases at first but starts to increase
+near the glucose saturation level (i.e., 16.5 mM) (Meissner
+and Schmelz, 1974; Beigelman et al., 1977). In high
+glucose concentrations (i.e., above 16.6 mM), the burst
+pattern disappears and spike activity becomes continuous.
+Simultaneous measurements of electrical activity in
+impaled fl-cells and insulin release from the corresponding
+islets (Atwater et al., 1979; Scott et al., 1981) have shown
+
+that insulin is released from the f-cell during these bursts.
+The insulin release rate has a periodicity close to that of the
+burst of electrical activity. The mechanism involved in the
+regulation of insulin release has been the subject of exten-
+sive investigation.
+
+A large body of evidence suggests that the cytosolic
+calcium ionic concentration, [Ca2+]i, regulates insulin
+release. Using the intracellular trapped fluorescent Ca2+
+indicator quin2, Rorsman et al. (1984) have shown that
+glucose stimulates an increase of the cytosolic free Ca2+
+concentration in adult noninbred obese-f-cells. Also, Woll-
+heim and Pozzan (1984) have given direct experimental
+evidence that in suspension of RINm5F, secretagogue-
+induced insulin release was accompanied by a rise in
+[Ca2,] . Thus, how [Ca2+]i changes in response to glucose
+and how the electrical activity controls the level of [Ca2+]i
+seem to be a key to understand the insulin release mecha-
+nism.
+
+The Ca2+-activated K+ channel is believed to be an
+important link between [Ca2+]i and the bursting electrical
+activity (Atwater et al., 1979; Petersen and Maruyama,
+1984). Based on the existence of this channel and also on
+evidence that the fl-cell possesses both the voltage-gated
+K+ channel (Ribalet and Beigelman, 1979) and the volt-
+age-gated Ca2, channel (Matthews and Sakamoto, 1975;
+Atwater et al., 1980), Chay and Keizer (1983) have
+proposed a mathematical model for the bursting phenome-
+non in the electrical activity of the f-cell. This model
+consists of the following: a potassium channel with a
+conductance that is activated by the binding of intracellu-
+lar Ca2+; Hodgkin-Huxley-like conductances for K+ and
+
+BIOPHYS. J.
+Volume 50 November 1986
+
+Biophysical Society
+
+765-777
+
+*
+
+0006-3495/86/11/765/13
+
+$1.00
+
+765
+
+Ca2" (Ca2" replaces Na+ in the Hodgkin-Huxley model);
+and a sink for intracellular Ca2" stores, possibly mitochon-
+dria, which is activated by glucose (Rorsman et al., 1984).
+The glucose dependence in the Chay-Keizer model comes
+in through the rate constant of the efflux of Cal.
+
+The advent of the patch-clamp technique for studying
+the properties of single ionic channels have made possible
+to characterize a high-conductance K+ channel, which is
+activated by intracellular Ca2" ions (Cook et al., 1984;
+Findlay et al., 1985b) and a low-conducatance K+ channel
+that is inhibited by a metabolite of glucose (i.e., ATP) and
+has therefore been called the ATP-inhibited K+-channel
+(Cook and Hales, 1984; Ashcroft et al., 1984; Findlay et
+al., 1985a). The low-conductance K+-channel is insensitive
+to membrane potential and Cai (Findlay et al., 1985a), but
+could be inhibited a glucose concentration 10 mM (Ash-
+croft et al., 1984). The experiments of Cook et al. (1984)
+and Findlay et al. (1985b), on the other hand, reveal that
+the high-conductance K+ channels in the islet cells can be
+activated by both membrane potential and cytosolic Ca2"
+ions. The "open probability" of their K+ channel suggests
+further that the voltage-sensitive K+ channel, which is
+believed to exist in the fl-cell (Atwater et al., 1979), is
+indeed the high-conductance Cat-sensitive K+ channel, i.e.
+the V-gated K+ channel and Cai-sensitive K+ channels are
+identical.
+
+In this paper, we modify the Chay-Keizer model (which
+assumes the existence of two separate K+ channels) and
+demonstrate that a Ca1-sensitive K+ channel that is acti-
+vated by membrane potential, along with a voltage-gated
+Ca2" channel, is sufficient to produce the observed steady
+state bursts of the d-cell electrical activity.
+
+MODEL
+
+In the f-cell, the total ionic current consists of a calcium
+current, potassium current, and leak current. There are
+two types of potassium currents: the ATP-inhibited K+
+current IK,ATP and the Cai-sensitive K+ current IK,Ca* In the
+resting state, IK,ATP in the f-cell dominates the resting-cell
+K+ permeability (Aschcroft et al., 1984), and this current
+is primarily responsible for the resting membrane potential
+of about - 70 mV. At this low potential, there is essentially
+no current flowing through Ca2+-activated K+ channels
+and also voltage-gated Ca2` channels. Addition of glucose
+results in an inhibition of ATP-inhibited K+ channels,
+which in turn gives rise to ICa and IKCa. Thus, above 5 mM
+of glucose concentration, IKATP is not operative in the
+steady state (private communication with Dr. B. Ribalet),
+the outward current is primarily due to IK,Ca, and the
+inward current is exclusively carried by Ca2` ions through
+the V-gated Ca2` channel. It should be emphasized here
+that IK,ATP is quite significant in the initial transient state
+(first 2-3 min after addition of glucose). Our model is
+concerned with the bursting "limit-cycle" regime, where
+IK,ATP is negligible (i.e., 15 min or so after addition of 5 mM
+or higher glucose concentration).
+
+In terms of a Hodgkin-Huxley-like circuit model, the
+dynamics of the membrane potential V of such a system
+may be written as
+
+47rr Cm dV/dt = Ica + IKCa + IL,
+
+(1)
+where Cm is the membrane capacitance, r is the radius, and
+ICa' IK,Ca' and IL are, respectively, the voltage-gated cal-
+cium channel current, the Cai- and V-sensitive K+ channel
+current, and the leak current. The leak current includes the
+currents due to the electrogenic pumps (e.g. Na/K and
+Ca-ATPase pumps) and the electrogenic exchange carrier
+systems (e.g., Na/Ca exchanger).
+
+The ionic current carried by X ions may be expressed by
+a driving force multiplied by its conductance. The driving
+force is the difference between the membrane potential
+and reversal potential, which is the voltage at which no net
+current flows through the channel
+
+Ix = gx (Vx-V),
+
+(2)
+where X stands for K+, Ca2+, and leak ions, gx is the
+conductance of X ions, and Vx is the reversal potential. The
+reversal potential for X ion can be conveniently expressed
+by the Nernst equation of the following form:
+
+Vx = RT/ZxF In ([X]0/ [X]i),
+
+(3)
+where Zx is the charge of X ion, RT carries its usual
+meaning, F is the Faraday constant, [X]0 and [X]i are the
+X ionic concentrations for the extracellular and intracellu-
+lar spaces, respectively. Since the concentrations of leak
+ions in the two phases are not known, we simply take VL to
+be constant.
+
+A single channel conductance is a measure of the
+permeability of X ions through a channel that permits X
+ions to pass through. It is equal to the total cell conduc-
+tance gx in Eq. 2 divided by the number of the channels.
+This channel consists of protein molecules whose rear-
+rangements are responsible for the changes in conduc-
+tance. The kinetics of the molecular rearrangements that
+cause conductance changes are complicated functions of
+membrane potential. The relaxation time for conforma-
+tional changes is in the millisecond range and depends on
+the membrane potential. Thus, the conductances of the
+Ca2" and K+ channels depend sensitively on the voltage
+across the membrane as well as the relaxation time. A
+detailed knowledge of how the proteins sense gating and
+how this causes the channel to open or close is essential for
+successful mathematical modeling.
+
+Unfortunately, detailed information on the kinetics of
+the V-gated Ca2+ channel and also the Cat-sensitive K+
+channel is not available in the literature. Thus, we are led
+to deduce a plausible kinetic mechanism for these two
+channels, based on the observed electrical activity of the
+fl-cell. The spikes that occur during the active phase
+certainly demonstrate the importance of Ca2' and K+
+permeability changes and moreover suggest that their
+
+766
+
+BIOPHYSICAL JOURNAL VOLUME 50
+
+1986
+
+kinetics must follow a general shape given by the Hodgkin-
+Huxley Na+ and K+ kinetics. We assume that the V-gated
+calcium channel conductance, gca, takes a form similar to
+the Hodgkin-Huxley Na+ channel conductance and the
+Cai-sensitive K+ channel conductance, gK,ca, takes a form
+similar to the Hodgkin-Huxley K+ channel conductance.
+That is, gca and gK,ca, which yield the spikes at the plateau
+potential of about -37 mV, take, respectively, the follow-
+ing expressions:
+
+gK.Ca = gK,Ca n
+
+(4)
+
+gca = gca m",
+
+(5)
+ca and gCa are, respectively, the maximum con-
+where -
+ductances of the Ca1-sensitive potassium and voltage-gated
+calcium channels, n is the probability of opening of the
+Cat-sensitive K+-channel, and mc. is the probability of the
+activation of the Ca2+ channel conductance in the steady
+state. Here, the assumption of rapid equilibrium for the m
+kinetics is due to the fact that the time required for the
+15ims) observed by Satin and
+complete activation (i.e.,
+Cook (1985) in cultured neonatal rat islet cells and by
+Findlay and Dunne (1985) in RINm5F is much shorter
+than the bursting periods (i.e., -10 s, which is of our
+interest). We did not include the inactivation term "h" in
+gc, because the experiment of Satin and Cook (1985) (and
+also private communication with Dr. Ribalet) conclusively
+shows that neither Ba2' nor Ca2, inactivates ICa com-
+pletely within 40 ms. The voltage dependence of m<,, in our
+model is that of Hodgkin and Huxley (1952) but V in
+Hodgkin Huxley is replaced by - V + Vm, where Vm is a
+constant that yields spikes at a plateau potential of about
+-37 mV (see Appendix A). Note that in the Hodgkin-
+Huxley model the exponents in Eqs. 4 and 5 are 4 and 3,
+respectively. Our choice of using the exponent 2 in Eq. 4 is
+that the open probability curves of Cook et al. (1984) and
+also Findlay et al. (1985b) suggest that the slopes of the
+open probability curves (at the half-maximal voltage) are
+not so steep, such that the second power may fit these
+curves better than the fourth. Our choice of the second
+power in Eq. 5 is that it is the lowest power that gives rise to
+the spike activity. We have done some computations (not
+shown here) using higher exponents for both gCa and gK,
+but the use of higher exponents forced us to use larger gK,Ca
+and
+
+values than those in Table I.
+
+The open probability, n, in Eq. 4 is a dynamic variable,
+with the relaxation time much larger than that of the m
+kinetics, and according to the Hodgkin-Huxley kinetics it
+should follow first-order kinetics
+
+dn/dt = X[n_ - n]/rI,,
+
+(6)
+
+where n. is the steady state value of n, and r1,
+is the
+relaxation time having the unit of milliseconds, and X is a
+unitless time scaling factor. The voltage dependence of n.
+and -r
+is that of Hodgkin and Huxley shifted by - Vn -Vc
+mV on the voltage axis, i.e., V in the Hodgkin-Huxley
+
+Vc= A In ([Ca2+]j/1IgM),
+
+expression replaced by - V + Vn + Vc. The sensitivity of
+gK.Ca on Ca, comes in through Vc, which depends on Cai
+according to the relation (see Eq. 3 of Wong et al., 1982)
+(7)
+where A is a constant, which measures a sensitivity of the
+open probability to Cai (Cook et al., 1984). The inactiva-
+tion of gK,ca observed in the experiment of Findlay et al.
+(1985b) was not considered here because the experimental
+n., curves suggest that the inactivation term becomes
+significant only in very high depolarization. The leak
+conductance, gL, is taken to be constant.
+
+In the (3-cell, the cytosolic Ca2" concentration is regu-
+lated by influx of extracellular Ca2" ions entering the cell
+from the extracellular space and efflux of Cai ions disap-
+pearing from the transport systems located not only in
+plasma membrane but also in membranes of mitochondria,
+endoplasmic reticulum, and perhaps secretory granules.
+Using the rate law, the time derivative of [Ca]i may be
+expressed by
+
+d[Ca2+ ]i/dt = f {3Ica/4ir3Fr -kF a [Ca2+ ]il,
+
+(8)
+where f is a ratio between the dissociation constant and
+calcium binding buffer concentration (Chay, 1985b), and
+kC, is the rate constant of effilux of intracellular Ca2+ ions.
+A simple rate expression (i.e., kc, [Ca2]]i) was used for the
+effilux term in place of a Michaelis-Menten equation or
+Hill equation because the numerical solutions using either
+of these equations yield essentially the same results as
+reported here (Chay, 1985b). Moreover, since both the
+Michaelis-Menten or Hill equation make use of additional
+parameters (i.e., the Hill coefficient and the binding
+constant), we find no advantage to using either of them.
+Note that in our model glucose activates kca, the efflux
+rate constant.
+
+NUMERICAL RESULTS
+
+As discussed in the previous section, our present model
+contains the following dynamic variables: (a) the mem-
+brane potential, V, whose variation with time is expressed
+as the sum of ionic currents carried by K+ ions through a
+Cai-sensitive K+ channel and by Ca2, ions through a
+voltage-gated Ca2, channel, and by the electrogenic pumps
+and carriers (see Eq. 1); (b) the probability of opening of
+the Cat-sensitive K+ gate, n (see Eq. 6); and (c) the
+intracellular Ca2, ionic concentration (see Eq. 8).
+
+These differential equations were solved numerically on
+a DEC-10 computer (Digital Equipment Corp., Malboro,
+MA). A Gear algorithm (Hindmarsh, 1974) was used to
+solve the three equations, where we set both the absolute
+and relative error tolerances at 10'. This numerical
+ordinary differential equation solver is very well suited to
+solve stiff equations like ours. Most of the parameters (e.g.,
+the radius r, the capacitance Cm, the extracellular and
+intracellular potassium concentrations, the extracellular
+
+CHAY Role ofthe Intracellular Ca" -Sensitive K+ Channel in Bursting Pancreatic (-cell
+
+767
+
+TABLE I
+
+PARAMETER VALUES OF THE MODEL
+
+Parameter
+
+Unit
+
+Numerical Value
+
+Cm
+gCa
+gK,Ca
+gL
+[K+]o
+[K+]i
+[Ca2+]0
+VL
+Vm
+V.
+A
+r
+f
+x -'
+T
+kca
+
+,sF cm-2
+
+PS
+pS
+PS
+mM
+mM
+mM
+mV
+mV
+mV
+mV
+Am
+
+OK
+ms-
+
+1
+250
+1,500
+10
+5
+130
+2.5
+-45
+-55
+-35
+-50
+6
+
+lx 10-4
+
+1.35
+310
+0.04
+
+, a
+
+-i
+
+I
+
+II
+
+aa
+U,
+aui
+u-'S_I
+a
+
+E
+- oa
+>U;
+
+I
+a
+
+ini
+,V._
+0.00
+
+5.00
+
+10.00
+
+15.00
+
+20.00
+
+25.00
+
+30.00-
+
+- Time
+
+calcium concentration, and the maximum conductances)
+in the model are not adjustable parameters, and hence we
+have obtained their values from experimental data on the
+(-cells. Those that were not available in fl-cell experiments
+were estimated from experiments on other cells. The
+parameteric values used in our computation are listed in
+Table I. Whenever the values other than those in Table I
+are used, we listed them in the figure captions.
+
+Fig. 1 illustrates the numerical solutions of the dynamics
+of d-cell electrical activity obtained with an increasing
+order of kc. from the top trace to the bottom. Bursts in the
+membrane potential (solid line) and oscillations in the
+intracellular calcium ionic concentration (dash line) result
+from a limit cycle oscillation. As can be seen in the figure,
+the burst mode in each panel has the following characteris-
+tics: When the glucose concentration is raised (i.e., an
+increase in kc.) beyond a certain value (i.e., kca > 0.007),
+the membrane potential exhibits a typical pattern of a
+
+kcs = 0.01
+
+kce = 0.03
+
+kkco = 0.044
+
+I.
+
+I
+
+a
+0
+o
+
+00
+o.460.
+*5
+0 c
+o
+O.,.
+a
+°C )
+.D
+
+.
+
+o
+
+e
+
+Cae
+ii 0i
+
+.
+
+35.00
+
+(s)
+
+40.00
+
+45, 00
+
+50. 00
+
+55.00
+
+60. 00
+
+e5 G
+
+.7b. 00
+
+The burst behavior in response to increasing kc,, the Ca; efflux rate constant. The solid line shows the membrane potential, and
+FIGURE 1
+the dashed line shows the associated changes in the concentration of intracellular Ca2" ions. Here, the values of kc,'s used for the computation
+are, from the top panel to the bottom, 0.01 ms-', 0.03 ms-', and 0.044 ms- , respectively.
+
+768
+
+BIOPHYSICAL JOURNAL VOLUME 50
+
+1986
+
+burst, which includes a silent phase of repolarization
+followed by a rapid depolarization and continuous spike
+activity. The period of intracellular Ca2" oscillations is
+identical to the burst period of membrane potential,
+although their shapes are quite different. At the beginning
+of a burst the Ca2" concentration rises rapidly, peaking
+near the termination of the burst. This increase is caused
+by the action potential spikes, and during spiking Ca2" ions
+flow into the cell from the perfusion medium. When
+[Ca2"]i approaches the maximum level, the membrane
+potential falls abruptly to the minimum level of -52 mV.
+Note that the amplitude of [Ca] oscillation is -16 nM
+([Ca2+] nin= 0.886 and [Ca2,] max = 0.902). This is much
+smaller than that obtained using our previous model, which
+contains two separate K+ channels, i.e., a voltage-gated,
+
+Ca,-insensitive K+ channel and a Cal-sensitive, voltage-
+independent K+ channel (Chay and Keizer, 1983, 1985;
+Chay, 1985b). The amplitude of [Ca]i oscillation, however,
+could be made much bigger as A in Eq. 7 becomes smaller
+(see the top panel of Fig. 5).
+
+In the burst regime, we observe that the shape of
+membrane potential depends very little on kca: i.e., the
+maximum repolarization potential V, is -51.9 mV; the
+plateau potential Vp is around -39 mV (at the beginning
+of the burst Vp= -38.8 and V.,,= -19.8 at the end of
+the burst Vp = -39.8 and V.,, = -25.8); the amplitude of
+spike potential is -16 mV. The period of spikes at the
+beginning of the burst is -100 ms, while it increases to
+-400 ms at the termination of the burst. The above
+observations are consistent with the experimental results of
+
+/
+
+so.9 /
+
+7/
+
+ip'y,
+
+O<l
+/
+/1
+,1
+(p/
+
+/
+
+/
+
+/
+
+/
+
+0!.,
+
+./
+
+0
+
+cu
+
+0
+
+cl.;
+
+c 0.
+LIU,
+u
+
+Co
+U')
+
+/ a~~
+
+//~'J/
+
+/;p/,7 /
+,
+/
+
+4_A.; S,,j
+
+I--,'
+
+---. o
+
+C) ~
+_-55.00
+
+~
+
+-50.00
+
+-45.00
+
+-40.00
+
+MEMBRANE PO[l-ENTIAL (mV)
+
+-35.00
+
+-30.00
+
+.00
+
+//
+
+/
+
+11 '/ 1
+
+4*,' ,
+
+/I 9z.
+
+I/
+
+/1
+
+,6_
+
+-
+
+_ _
+
+IL
+
+-25.00
+
+-20.00
+
+-15.00
+
+(A) The top panel shows a steady state voltage-gated Ca2+ contuctance gc,' and a steady state Ca3-sensitive K+ conductance gKC,
+FIGURE 2
+at two different values of [Ca2"]I. The bottom panel shows the steady state calcium current -Ic and steady state potassium current IKYCa' for
+two different values of [Ca2q]. (B) The steady state IKc. v. membrane potential in response to changes of A (the top panel) and of V. (the
+bottom panel), when [Cali is fixed at 0.8 AM.
+
+CHAY Role of the Intracellular Ca++-Sensitive K+ Channel in Bursting Pancreatic 3-cell
+
+769
+
+0
+0
+
+C-
+
++F
+c
+a)
+L- a
+
+:3o_-
+U -
+
+V-
+
+0
+
+< 0
+
+C~
+
+a)
+U..C
+0
+
+/7
+
+L)
+
+2500 -45.00
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+_'-/
+
+,Z. /
+
+/
+
+/
+
+4't
+
+/
+
+le0 /
+/ l/
+
+/
+
+-40.00
+
+-35.00
+
+-30.00
+
+MEMBRANE POTENTIAL (mV)
+
+/
+
+4'/
+
+/
+
+/
+
+/
+
+7/
+
+-25.00
+
+-20.00
+
+-15.00
+
+/
+
+.* /
+I/
+
+7-1
+
+0
+0
+_ _
+
+-D55. 00
+
+-45.00
+
+-40.00
+
+f ~~~- F= - -.
+
+-50. 00
+
+-45 .00
+
+-40 .00
+
+- -
+
+-5 -.0 -0
+
+¶1--\o
+
+- -
+
+-
+
+I
+
+-35.00
+
+-- r-
+
+-
+
+-30.00
+
+I
+
+-25.00
+
+I
+
+-20.00
+
+I
+
+-15.00
+
+MEMBRANE POTENTIAL (mV)
+
+FIGURE 2
+
+continued
+
+Meissner and Preissler (1979). It is worthwhile to point out
+here that the lack of dependence upon kc, of the Ca-range
+and of the V-envelope (i.e., spike heights, plateau potential,
+and silent phase - max V and min V), during bursting
+could be seen nicely from Rinzel's mathematical analysis
+(Rinzel, 1985). This independence is true for changes in
+any parameters that appear only in the slow-variable
+equation, c.f. Eq. 8.
+
+Although the shape of V bursts looks the same for all the
+kc. values, the duration of the silent phase becomes shorter
+and the active period becomes longer as kca increases.
+Increasing kca also results in a decrease in the burst
+periodicity. But as kca is increased further the burst period
+increases again. Above a certain kCa value (i.e., kca > 0.045
+ms-'), the bursts disappear entirely and only spikes
+remain. The kca response on the active duration and the
+
+is consistent with the
+burst periodicity shown in Fig. 1
+glucose dose response on the ,B-cell electrical activity
+observed experimentally (Beigelman et al., 1977; Ribalet
+and Beigleman, 1979). As shown in the bottom trace, the
+bursts near the onset of continuous spiking occur in a
+chaotic manner. This aperiodicity is known as determinitic
+chaos and is inherent in nonlinear dynamic systems like
+ours (Chay and Rinzel, 1985; Chay 1985a). Aperiodicity
+similar to this has been observed in experiments on the
+fl-cells in high intermediate glucose concentration (Beigle-
+man et al., 1977; Henquin et al., 1982).
+
+In the top panel of Fig. 2 A, we show the two steady state
+conductances gCa and gC., and in the bottom panel we
+show the steady state currents, -ICa and 'KCa. Long dashes
+are obtained using [Ca2"Ii = 1.0 gM, and short dashes
+using [Ca], = 0.6,uM. Note that [Ca2"], activates IKCa but
+
+770
+
+BIOPHYSICAL JOURNAL VOLUME 50
+
+1986
+
+inhibits Ic. Note also that the two ICa curves fall between
+the two IK.C* curves. This explains how the burst may arise
+from a system like ours. In the silent regime of the
+membrane potential, the V-gated calcium channel is quite
+inactive because of the low potential, and thus efflux of
+[Ca]l is larger than the influx (see Eq. 8). Indeed, in the
+earlier part of the silent regime, -IK,Ca is much larger than
+Ica, since gK,c depends not only on V but also on [Ca2"] .
+As the cytosolic calcium ionic concentration decreases, the
+sum of the two currents, IK,Ca + ICa, becomes smaller,
+finally reversing its sign near the termination of the silent
+phase, i.e., -IK,Ca > Ia, This reversal of the sign, in turn,
+activates V-gated calcium channels. In the active phase,
+IK,Ca + Ic, maintains the positive sign, i.e., ICa is larger than
+-IK,Ca' As the Ca2` channels open, calcium ions start to
+enter from the extracellular space; this gives rise to
+[Ca2`]j. An increase in [Ca2+]i activates Ca1-sensitive K+
+channels. When enough Ca2` ions enter the cell, the sum,
+
+IK,Ca + Ica,, becomes essentially zero, and the active phase
+terminates when the sign is reversed. The cycle repeats
+again.
+
+Fig. 2 A was obtained using A = -50 mV and V. = -35
+mV. IK,. depends not only on Cai but also on A and V,. To
+show how the steady state IK,ca depends on these parame-
+teric values, we have shown, in Fig. 2 B, the steady state
+K+ current-voltage relation, for various values of A and V,.
+As shown in this figure, increasing -A shifts the I-Vcurve
+to the right (top) and increasing - V, shifts the curve to the
+left (bottom).
+
+The parameter A in Eq. 7, which measures a sensitivity
+of Ca, on n.,, is highly variable for different types of insulin
+secreting cells (Cook et al., 1984; Findlay et al., 1985) and
+even within the same cell type (Cook et al., 1984), ranging
+all the way from - 17 to -57 mV. We have examined the
+effect of A on the bursting pattern by varying the value of
+A, and the result is presented in Fig. 3. Note that an
+
+A
+
+-50 mV
+
+0
+
+.10
+
+0
+
+0
+
+C!
+e
+
+III,
+
+A
+
+-30 mV
+
+*
+
+S
+
+w
+
+I
+
+|
+
+|
+
+_
+
+Ion10
+
+CII
+
+>
+
+to0
+
+..-L
+
+AC-1O,V
+
+-FI ~~~~~~~~1
+
+~~~~~~~~~ ~
+
+go
+
+In.*I
+
+a
+
+0~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~A
+in
+
+o oo0
+
+51.00
+
+10.00
+
+15.00
+
+20.00
+
+25.00
+
+30.00
+
+Time
+
+3s.00
+
+( s )
+
+40.00
+
+45.00
+
+50.00
+
+5s. 00
+
+60.00
+
+rsob.0
+
+7b.00 u)
+
+FIGURE 3 The burst behavior in response to decreasing -A, which measures the Ca, sensitivity to gKCa
+
+CHAY Role ofthe Intracellular Ca`+-Sensitive K+ Channel in Bursting Pancreatic ,8-cell
+
+771
+
+increase of -A results in an increase of [Ca2+]i. Note,
+however, that this increase gives rise to a decrease in the
+amplitude Ca, oscillations. Note also that the increase in
+[Ca2+]i is such that Vc = -A ln[Ca2"]m.n would remain
+always at -6 mV (i.e., the sum Vn + Vc is maintained at
+about -29 mV, if all other parameters are fixed at the
+values given in Table I). Due to this requirement, [Ca]i
+could never become greater than 1 ,uM, and as -A
+becomes very large [Ca]i approach 1 AM. To have a value
+greater than 1 ,uM, then, V1, should be larger than -29
+mV. For V. larger than -29 mV, an increase in the
+magnitude of A results in a decreases [Ca2+]i, i.e., as -A
+becomes larger [Ca2+]i approaches 1 ,M with a smaller
+amplitude of the oscillation. As shown in this example, V.
+is a parameter that is responsible for raising a level of the
+intracellular Ca2+ concentration. On the other hand, A is a
+parameter which controls the amplitude of [Ca]; oscilla-
+tions.
+
+Cook et al. (1984) have shown that Ca2"-activated K+
+channels in neonatal fl-cells are sensitive to pH; with the
+slopes of E50 (i.e., the half maximal V) v. pH; curves
+ranging from -31 to -100 mV per pH unit. To study the
+effect of pH; on the burst pattern, we assume that H+ to be
+a competitive inhibitor to Ca;, which affects the calcium
+binding constant. In our model, the calcium binding con-
+stant is modeled in Vn. The effect of varying Vn on bursting
+behavior is shown in Fig. 4. Note that an increase of Vn
+results in an increase in not only [Ca]i but also its
+amplitude. Note also that the increase induces an increase
+in the duration of the active phase similar to that evoked by
+higher concentrations of glucose. This is consistent with the
+observation made by Pace et al. (1983) and Eddlestone and
+Beigelman (1983) on islet fl-cells in response to pH;, which
+was made possible using the specific blockers of the Na/H
+exchange system.
+
+Above two figures suggest how varying A and Vn
+
+Vn = -50 mV
+
+Vn = -40 mV
+
+Ui,
+
+0
+I o
+
+I:
+U
+
+10Io
+[o
+
+I,.
+
+FIGURE 4 The burst behavior in response to decreasing -V., which measures the strength of the binding constant of Ca, on the
+calcium-sensitive K+ receptor protein.
+
+772
+
+BIOPHYSICAL JOURNAL VOLUME 50
+
+1986
+
+II .I
+
+H.t
+
+It
+
+FIGURE 5 A large amplitude [CaJi oscillation achieved by decreasing the magnitude of A and V. (the top panel), a small amplitude achieved
+by increasing the magnitude of both A and V. (the bottom panel). The parameters used for the top panel are A = -1 mV, V. = - 30 mV,f =
+2 x IO-3, and those for the bottom panel are A - -30 mV, V. = -70 mV,f 5 x Io-5, kc. = 0.1, A = 1.2.
+
+controls the amplitude and magnitude of [Ca2"]i oscilla-
+tion. That is, an increase of the amplitude can be achieved
+by decreasing -A and/or - Vn. Likewise, an increase of
+[Ca2+]i can be achieved by increasing -A and/or by
+decreasing -Vn. This effect is demonstrated in Fig. 5.
+Decreasing -A and - Vn to 1 mV and 30 mV, respectively,
+gives rise to a very large amplitude (i.e., 340 nM) and a
+relatively high [Ca2"]j, and increasing -A and - Vn to 30
+mV and 70 mV, respectively, gives rise to a very small
+amplitude (i.e., 8 nM) and low [Ca2"];. Implications of this
+result are that a cell whose gK,c, is insensitive to Cai would
+yield a very large amplitude of [Ca]i oscillation during the
+electrical bursting (see the top panel) and that the elec-
+trical burst does not necessarily couple with a rise in the
+intracellular calcium concentration (the bottom panel).
+
+DISCUSSION
+
+With mathematical modeling, we exploit the crucial role
+that the Ca1-activated K+ channel plays on the electrical
+activity of insulin-secreting pancreatic A-cells. Our model
+reveals that the burst is, in fact, a consequence of the
+existence of Ca2"-activated K+ permeability, which, with
+voltage-gated Ca2" permeability, triggers the spike activity
+and also terminates the active phase when a sufficient
+amount of cytosolic Ca2" ions is raised. IK,Ca would domi-
+nate the silent phase of the burst. On the other hand, ICa
+would dominate the active phase, such that the influx of
+
+Ca2" ions is larger than the efflux during the active phase,
+and the reverse is true during the silent phase. This is why
+the cytosolic Ca2' concentration oscillates in synchrony
+with the membrane potential.
+
+It appears that the role of the ATP-inhibited K+-
+channel is to hold the membrane potential at the resting
+potential of about - 70 mV, and thus an inhibition ofgKATp
+(conductance of ATP-inhibited K+-channel) gives rise to
+an activation of the voltage-gated Ca2' channel and Cat-
+sensitive K+ channel activities. At the resting state, the
+cytosolic calcium concentration is very low, because the
+Ca2' channel gate is completed closed. The primary role of
+glucose on the electrical activity is, then, to inhibit the
+ATP-inhibited K+-channel activity, so as to activate both
+voltage-gated Ca2" channels and Cai-sensitive K+ chan-
+nels. The secondary role of glucose is to activate efflux of
+Ca;, as our simulation result in Fig. 1 suggests. The fact
+that a decrease in - V. gives rise to a long active phase and
+an increase in [Ca2 ]i (see Fig. 4) raises an interesting
+possibility that the initial rich active phase observed in the
+transient biphasic phase may owe its origin to cytoplasmic
+acidification as a result of mitochondrial sequestration.
+The nadir observed in insulin release (Charles et al., 1975)
+may then be a result of a rise in [Ca2+]j, due to a decrease
+in pHi.
+
+Lebrun et al. (1985) have observed that methylamine
+inhibits glucose-induced insulin release without affecting
+
+CHAY Role ofthe Intracellular Ca` -Sensitive K+ Channel in Bursting Pancreatic ,8-cell
+
+773
+
+electrical activity, which was simultaneously measured in
+single perifused islet from normal mice. Based on this
+result, they have concluded that the glucose-induced elec-
+trical activity represents an early event in the process of
+stimulus-secretion coupling of insulin release. In view of
+the fact that an increase of - VI/ induces a decrease of
+[Ca2"]i without affecting the electrical activity (see the
+bottom panel of Fig. 5), it is tempting to speculate that the
+role of methylamine is to increase - VK, either by directly
+affecting V,, or by raising pHi. Under such a low level of
+[Ca]i, the f-cell can not release insulin.
+
+With simultaneous recordings of membrane potential
+and absorbance changes from an arsenazo III-injected
+Aplysia neuron, Gorman and Thomas (1978) have shown
+that [Ca2+]i rose during each spontaneous burst of action
+potentials, and it fell in the silent phase. The amplitude of
+the [Ca2+]i was estimated to be -50 nM. This value is
+about the same as our simulated result shown in the bottom
+trace of Fig. 3, which was obtained using A = -10 mV
+(i.e., a cell which is not very sensitive to Ca1). If one can
+find a way to decrease -A (i.e., to lessen the sensitivity of
+to Ca1) without affect V1, it is quite feasible to
+gK,c
+monitor the [Ca2"]1
+oscillation in the d-cell using the
+fluorescent dyes such as quin2.
+
+The value of 250 pS was estimated from measurements
+of the single Ca1-sensitive K+ channel conductance of the
+islet cells (Cook et al., 1984; Findlay et al., 1985). No
+estimation was made for the number of these channels per
+cell, however. Measurements in pancreatic acinar tissue
+suggest that there may be as many as 45 channels per cell
+(Maruyama et al., 1983). Using these values, we estimate
+the maximum conductance to be -11.3 nS. This way of
+estimating the maximum conductance value, however,
+gives -50% larger than the actual K,Ca. Taking this into
+consideration, we find gK,Ca to be 5.7 nS, which is about
+four times larger than the value we have used in our
+computation (see Table I). To demonstrate that we may
+have easily doubled the value without affecting our results,
+we have presented, in Fig. 6, the electrical burst, which was
+obtained using kKc. = 3nS. The major difference between
+this figure and that shown in the top panel of Fig. 2 is that
+
+the spike frequency shown in Fig. 6 is about twice larger
+than that of Fig. 2. It should be pointed out that a higher
+exponent (than two) for the variable n (see Eq. 4) would
+also give a bigger maximal conductance value.
+
+While Hodgkin-Huxley kinetic constants have not been
+determined for the fl-cell Ca2+ channel, peak I-V curves
+have been determined by Satin and Cook (1985) in
+neonatal fl-cells and Findlay and Dunne (1985) in
+RINm5F. The former investigators have found that inacti-
+vation is only partial and, therefore, not reproduced by
+Hodgkin-Huxley kinetics and that the reversal potential
+for Ca2+ appears to be in the neighborhood of +40 mV
+indicating that the open channel I-V is very nonlinear and
+probably dominated by constant field rectification. We
+have included partial inactivation in Eq. 5 (i.e., by adding
+the term h to the 0.3 power), and the result is presented in
+Fig. 7. Note from this figure that although the inclusion of
+inactivation gives a larger gC value, there is no indication
+that the inactivation term is a crucial factor for the cell to
+burst. We believe, however, that the rectification observed
+by Satin and Cook may become important for varying
+extracellular calcium concentration (which is not of our
+interest in the present study). In regard to the value of gCa,
+= 250 pS in our computation (see Table
+we have used -
+I). The upper bound of the single calcium conductance was
+estimated to be 5 pS from the voltage noise measurements
+across the pancreatic fl-cell membrane (Atwater et al.,
+1981). Assuming that an estimation of the maximum
+channel conductance from a single channel conductance
+yields a value larger by a factor of 30%, we find that there
+are at least 170 calcium channels per f-cell. Inclusion of a
+mild inactivation term (see the caption of Fig. 7) gives a
+much larger number of the channels (using the maximum
+conductance value of 900 pS we estimate the minimum
+number of calcium channels to be about 600 per cell).
+
+We believe that the kinetics of gca and gK,Ca given in Eqs.
+4 and 5 are not unique (for the cell to burst). We believe,
+however, that the true channel activity (in the steady state)
+has a shape similar to Ic, and IK,ca shown in Fig. 2. That is,
+both 9Ca and gK,c have a sigmoidal shape; in physiological
+[Ca2+]i they are steeply rising functions of membrane
+
+0
+
+E
+
+0
+
+.CD0
+
+10
+
+ID
+
+a
+
+774
+
+.o00
+
+5.00
+
+10.00
+
+15.00
+
+210.O0
+
+25.00
+
+30.00
+
+Time
+
+35.00
+
+( s )
+
+4b.00
+
+45.00
+
+50.00
+
+55.00
+
+60.00
+
+65.00
+
+70.00
+
+C!
+~~~~~~~~~~~~~~~~~~~~~~~0
+co
+
+FIGURE 6
+Also, kc, was doubled, andfand X (i.e., 0.68) were halved.
+
+This figure compares the bursting behaviors with those shown in the top panel of Fig. 3 when ga's are doubled by a factor of two.
+
+BIOPHYSICAL JOURNAL VOLUME 50
+
+1986
+
+M.0-1.5.Q......20.025
+..,.t......q..+.u;;i;@r
+
+',
+
+^
+
+S
+
+i
+
+*.;
+
+)
+
+A
+
+kcm = 0.155
+
+, _ ;;,
+
+_,,
+
+....
+
+..3.03i 0o
+
+.Time
+
+(s)
+
+FIGURE 7 The burst behavior obtained by adding the inactivation term ho,3 to Eq. 5. Here, the values of kc's used for the computation are,
+from the top panel to the bottom, 0.04 ms-', 0.08 ms-', 0.12 ms-', and 0.155 ms-', respectively. Those parameteric values that are different
+from Appendix B are: gCa = 900 pS,CkK
+= 1,300 pS, gL = 20 pS, Vn = -37 mV, Vm = -50 mV, A = - mV,X-' = 1.3, andf = 2 x 10-4.
+
+potential near -35 mV; gK,C should be activated by
+[Ca2" ]j; on the other hand, ICa should be inhibited either by
+the "h" kinetics or by [Ca2+]. Perhaps, it
+is worth
+mentioning here that IK,C, in Fig. 2 has about the same
+magnitude and shape as two potassium currents (Cat-
+sensitive, V-insensitive K+ channel and V-gated, Cat-
+insensitive K+ channel currents) combined in our earlier
+model (Chay and Keizer, 1983, 1985; Chay, 1985a, b).
+
+There is no direct experimental evidence to verify the
+existence of the two separate K+ channels. Instead, the
+single channel recording of Cook et al. (1984) and Findlay
+et al. (1985) suggests that these two channels are indeed
+identical.
+Accurate determination of the channel properties is vital
+to our understanding of the role of [Ca2"]i on the insulin
+release mechanism. Continuing refinements of resolution
+
+CHAY Role of the Intracellular Ca" -Sensitive K+ Channel in Bursting Pancreatic ,8-cell
+
+775
+
+of patch-clamp recording will someday reveal detailed
+information on the kinetics of the ionic channels in the
+(3-cell. We will, then, be able to complete our mathematical
+modeling. Nevertheless, a usefulness of our model, even
+though it is still in its early stage, stems from its simplicity
+and its accuracy to predict glucose-induced changes in
+cytosolic free Ca2" concentration, which are not yet possi-
+ble to measure in intact islets. In addition, our model would
+help to sort out the relative functional importance of the
+Cat-sensitive K+ channel and the voltage-gated Ca2" chan-
+nel on the burst electrical activity.
+
+APPENDIX
+
+In this appendix we provide explicit forms for the steady state probability
+functions, m, and n. and the relaxation time rn-
+
+We assume that the voltage dependencies of these quantities take the
+same expressions as the original Hodgkin-Huxley equations but V is
+shifted along voltage axis by Vm and Vn + Vc, respectively. Thus,
+
+Y_ = ay/(ay + fly),
+
+where Y_ stands for mO. and n_, and
+
+am =0.1 (25- V+ Vm)/{e(-v+ V+25)/10 1-
+
+(3m = 4e(-V + V,)/18
+
+an= 0.01 (10- V + Vn + Vc)/{e-V+Vn + Vc + 10)/10- I
+
+(Al)
+
+(A2)
+(A3)
+(A4)
+
+n = 0. 125e(-V + Vn + Vc)/80
+
+(A5)
+where Vc is given by Eq. 7 in the text. We also assume that the relaxation
+time T. in Eq. 6 follows the expression similar to that of Hodgkin and
+Huxley
+
+Tn = 1/(aC + An) *
+
+(A6)
+
+I would like to thank Dr. Bernald Ribalet for pointing out a possibility
+that the Ca1-sensitive and V-gated K+ channels are the same and that the
+voltage-gated Ca2` channel does not inactivate. I would also like to thank
+Dr. John Rinzel at the National Institutes of Health for helpful
+comments.
+This work was supported by National Science Foundation grant PCM82
+15583.
+Receivedfor publication 14 April 1986 and infinalform S June 1986.
+
+REFERENCES
+
+1. Ashcroft, F. M., D. E. Harrison and S. J. H. Ashcroft. 1984. Glucose
+induces closure of single potassium channels in isolated rat pan-
+creatic (3-cells. Nature (Lond.). 312:446-448.
+
+2. Atwater, I., C. M. Dawson, G. T. Eddlestone, and E. Rojas. 1981.
+Voltage noise measurements across the pancreatic ,8-cell mem-
+(Lond.).
+brane: calcium channel characteristics.
+313:195-212.
+
+Physiol.
+
+3. Atwater, I., C. M. Dawson, B. Ribalet, and E. Rojas. 1979. Potas-
+sium permeability activated by intracellular calcium ion concen-
+tration in ithe pancreatic B-cell. J. Physiol. (Lond.). 278:575-588.
+4. Atwater, I., C. M. Dawson, A. Scott, G. Eddlestone, and E. Rojas.
+1980. The nature of the oscillatory behavior in electrical activity
+for pancreatic (3-cell. In Biochemistry Biophysics of the Pancreatic
+,8-cell. Georg Thieme Verlag, New York. 100-107.
+
+5. Atwater, I., E. Rojas, and A. Scott. 1979. Simultaneous measure-
+ments of insulin release and electrical activity from single micro-
+
+J.
+
+dissected mouse islets of Langerhans. J.
+291 :57P.
+
+Physiol.
+
+(Lond.).
+
+6. Beigelman, P. M., B. Ribalet, and I. Atwater. 1977. Electrical
+activity of mouse pancreatic beta-cells. J. Physiol. (Paris). 73:201-
+217.
+
+7. Charles, A., J. Lawecki, R. Pictet, and G. M. Grodsky. 1975. Insulin
+secretion: Interrelationships of glucose, cyclic adenosine 3':5'-
+monophosphate. J. Biol. Chem. 250:6134-6140.
+
+8. Chay, T. R. 1985a. Chaos in a three-variable excitable cell model.
+
+Physica. 16D:233-242.
+
+9. Chay, T. R. 1985b. Glucose response to bursting-spiking pancreatic
+
+/3-cells by a barrier kinetic model. Biol. Cybern. 52:339-349.
+
+10. Chay, T. R., and J. Keizer. 1983. Minimal model for membrane
+
+oscillations in the pancreatic /3-cell. Biophys. J. 42:181-190.
+
+11. Chay, T. R., and J. Keizer. 1985. Theory of the effect of extracellular
+potassium on oscillations in the pancreatic /3-cell. Biophys. J.
+48:815-827.
+
+12. Chay, T. R., and J. Rinzel. 1985. Bursting, beating, and chaos in an
+
+excitable membrane model. Biophys. J. 47:357-366.
+
+13. Cook, D. L., M. Ikeuchi, and W. Fujimoto. 1984. Lowering of pHi
+inhibits Ca2"-activated K+ channels in pancreatic B-cells. Nature
+(Lond.). 311:269-271.
+
+14. Cook, D. L., and C. N. Hales. 1984. Intracellular ATP directly
+blocks K+ channels in pancreatic B-cells. Nature (Lond.).
+311:271-273.
+
+15. Dean, P. M., and E. K. Matthews. 1970. Glucose-induced electrical
+activity in pancreatic islet cells. J. Physiol. (Lond.). 210:255-264.
+16. Eddlestone, G. T., and P. M. Beigelman. 1983. Pancreatic /3-cell
+electrical activity: the role of anions and the control of pH. Am. J.
+Physiol. 13:Cl88-C197.
+
+17. Findlay, I., and M. Dunne. 1985. Voltage-activated Ca2" currents in
+insulin-secreting cells. FEBS (Fed. Eur. Biochem. Soc.) Lett.
+189:281-285.
+
+18. Findlay, I., M. J. Dunne, and 0. H. Petersen. 1985a. ATP-sensitive
+inward rectifier and voltage- and calcium-activated K' channels in
+cultured pancreatic islet cells. J. Membr. Biol. 88:165-172.
+
+19. Findlay, I., M. J. Dunne, and 0. H. Petersen. 1985b. High-
+conductance K' channel in pancreatic islet cells can be activated
+and inactivated by internal calcium. J. Membr. Biol. 83:169-175.
+20. Gorman, A. L. F., and M. V. Thomas. 1978. Changes in the
+intracellular concentration of free calcium ions in a pace-maker
+neurone, measured with the metallochromic indicator dye
+arsenazo III. J. Physiol. (Lond.). 275:357-376.
+
+21. Henquin, J. C., H. P. Meissner, and W. Schmeer. 1982. Cyclic
+variations of glucose-induced electrical activity in pancreatic B
+cells. Pfluegers Arch. Eur. J. Physiol. 393:322-327.
+
+22. Hindmarsh, A. C. 1974. Ordinary Differential Equations Systems
+Solver. Lawrence Livermore Laboratory. Livermore, CA. Report
+UCID-30001.
+
+23. Hodgkin, A., and A. F. Huxley. 1952. A quantitative description of
+membrane current and application to conduction and excitation in
+nerve. J. Physiol. (Lond.). 117:500-544.
+
+24. Lebrun, P., I. Atwater, L. M. Rosario, A. Herchuelz, and W. J.
+Malaisse. 1985. Dissociation by methlamine of insulin release from
+glucose-induced electrical activity in isolated mouse islets of
+Langerhans. Metabolism. 34:1122-1127.
+
+25. Maruyama, Y., 0. H. Petersen, P. Flanagan, and G. T. Pearson.
+1983. Quantification of Ca2"-activated K' channels under hor-
+monal control in pig pancrease acinar cells. Nature (Lond.).
+305:228-232.
+
+26. Matthews, E. K., and Y. Sakamoto. 1975. Electrical characteristics
+
+of pancreatic islet cells. J. Physiol. (Lond.). 246:421-437.
+
+27. Meissner, H. P., and M. Preissler. 1979. Glucose-induced changes of
+pancreatic B-cells: Their significance for the regulation of insulin
+release. In Treatment of early diabetes. R. A. Camerini-Davalos
+and B. Hanover, editors. Plenum Publishing Corp., New York.
+97-107.
+
+776
+
+BIOPHYSICAL JOURNAL VOLUME 50
+
+1986
+
+28. Meissner, H. P., and M. Preissler. 1980. Ionic mechanisms of the
+glucose-induced membrane potential changes in B-cells. In Bio-
+chemistry and Biophysics of the Pancreatic-B-Cell. Springer-
+Verlag, New York. 91-99.
+
+29. Meissner, H. P., and H. Schmelz. 1974. Membrane potential of
+beta-cells in pancreatic islets. Pfluegers Arch. Eur. J. Physiol.
+351:195-206.
+
+30. Pace, C. S., J. T. Tarvin, and J. S. Simith. 1983. Stimulus-secretion
+coupling in ,B-cells: modulation by pH. Am. J. Physiol. 244:E3-
+E18.
+
+31. Petersen, 0. H., and Y. Maruyama. 1984. Calcium-activated potas-
+sium channels and their role in secretion. Nature (Lond.). 307:693-
+696.
+
+32. Ribalet, B., and P. M. Beigelman. 1979. Cyclic variation of K+
+conductance in pancreatic ,B-cells: Ca2" and voltage dependence.
+Am. J. Physiol. 237:C137-C146.
+
+33. Rinzel, J. 1985. Bursting oscillations in an excitable membrane
+model. in Lecture notes in mathematics. A. Dold and B. Eckmann,
+
+editors. Ordinary and partial differential equations. Proceedings of
+the eighth conference held at Dundee, Scotland, June 25-29, 1984.
+Springer-Verlag Berlin, Hedelberg, New York, Tokyo.
+
+34. Rorsman, P., H. Abrahamsson, E. Gylfe, and B. Hellman. 1984.
+Dual effects of glucose on the cytosolic Ca2" activity of mouse
+pancreatic f3-cells. FEBS (Fed. Eur. Biochem Soc.) Lett. 170:196-
+200.
+
+35. Satin, L. S., and D. L. Cook. 1985. Voltage-gated Ca2" current in
+
+pancreatic B-cells. Pfluegers Arch. 404:385-387.
+
+36. Scott, A. M., I. Atwater, and E. Rojas. 1981. A method for the
+simultaneous measurement of insulin release and B cell membrane
+potential in single mouse islets of Langerhans. Diabetologia.
+21:470-475.
+
+37. Wollheim, C. B., and T. Rozzan. 1984. Correlation between cytosolic
+free Ca2" and insulin release in an insulin-secreting cell line. J.
+Biol. Chem. 259:2262-2267.
+
+38. Wong, B. S., H. Lecar, M. Adler. 1982. Single calcium-dependent
+potassium channels in clonal anterior pituitary cells. Biophys. J.
+39:313-317.
+
+CHAY Role ofthe Intracellular Ca` -Sensitive K+ Channel in Bursting Pancreatic :-cell
+
+777
+
+

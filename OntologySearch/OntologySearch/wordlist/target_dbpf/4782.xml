@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4782">
+<itemtype>xnppaper</itemtype>
+<titles><title>Calcium concentration dynamics produced by synaptic activation of CA1 hippocampal pyramidal cells.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>2-Amino-5-phosphonovalerate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Calcium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Fura-2</keyword>
+<keyword>Guinea Pigs</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Osmolar Concentration</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:46:20Z</last_update_date>
+<creation_date>2011-04-28T04:46:20Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4782</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4782" version="1.02">
+<authors><author>Regehr WG</author><author>Tank DW</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>12</volume>
+<number>11</number>
+<page>4202-23</page>
+<abstract>The spatial and temporal dynamics of many electrophysiological and biochemical processes in nerve cells are in turn dependent on the concentration dynamics of the second messenger calcium. We have used microfluorimetry of the calcium indicator fura-2 (Grynkiewicz et al., 1985) to measure and characterize synaptically activated calcium changes in individual CA1 pyramidal cells contained within guinea pig hippocampal slices. One component of the calcium changes was largely produced by influx through voltage-dependent Ca2+ channels (VDCCs). It consisted of large transient accumulations in the proximal-apical and basal dendrites; the amplitude was smaller in the distal-apical dendrites and the soma. This spatial profile was insensitive to the method of cell activation: stimulation of inputs located at different positions on the dendritic tree as well as antidromic stimulation produced only slight modifications. This component was not blocked by the NMDA antagonist 5-amino-4-phosphonovalerate (AP5) (Collingridge et al., 1983), was greatly reduced by Cd2+, partially reduced by nifedipine, and was increased by Bay-K 8644, providing the evidence that it was largely produced by influx through VDCCs. Blocking postsynaptic Na+ channels with QX-314 greatly reduced the accumulation amplitude, and spatial differences between proximal-dendritic and distal-dendritic regions were less pronounced, suggesting that active sodium conductances contribute significantly to the spatial activation of calcium conductances. Residual spatial differences that persist in QX-314 experiments are consistent with the idea that VDCCs have decreased density on distal-apical dendrites. A second component of accumulation was induced by ionic currents through NMDA receptor channels. It was blocked by AP5, unaffected by QX-314, attenuated and slowed down by elevated calcium buffering, and spatially localized to regions receiving activated synaptic inputs. The magnitude of this component was strongly dependent on the frequency and amplitude of synaptic activation. At high frequency, it was generally very large, often saturating the fura-2 (&gt;2 microM). Measurements made with the indicator furaptra also showed large localized AP5-sensitive fluorescence changes. Our results suggest that in dendritic regions near activated input fibers calcium levels may reach 2-10 microM. In general, our measurements of calcium dynamics provide an experimental basis for evaluating the spatial distribution of calcium conductances, the spatial distribution of calcium-activated electrophysiological and biochemical processes, and the spatial uniformity of calcium buffering and removal systems in CA1 hippocampal pyramidal cells. The time course and amplitude of Ca2+ transients we measured suggest that activation of Ca(2+)-dependent conductances [e.g., IK(Ca)] will be markedly different for different cellular regions.(ABSTRACT TRUNCATED AT 400 WORDS)</abstract>
+<pubmed_id>1359030</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,47 @@
+2-Amino-5-phosphonovalerate
+pharmacology
+Animals
+Carbachol
+pharmacology
+Data Interpretation
+Statistical
+Electric Stimulation
+Electrophysiology
+Excitatory Amino Acid Antagonists
+pharmacology
+Excitatory Postsynaptic Potentials
+drug effects
+Glycine
+analogs
+&
+derivatives
+pharmacology
+Hippocampus
+cytology
+drug effects
+physiology
+Long-Term Potentiation
+drug effects
+Muscarinic Agonists
+pharmacology
+Neuronal Plasticity
+drug effects
+physiology
+Rats
+Rats
+Sprague-Dawley
+Receptors
+Metabotropic Glutamate
+drug effects
+metabolism
+Receptors
+Muscarinic
+drug effects
+physiology
+Receptors
+N-Methyl-D-Aspartate
+drug effects
+Synapses
+drug effects
+physiology
+Our laboratory recently characterized a form of long-term depression (LTD) at CA3-CA1 synapses mediated by M1 muscarinic receptors (mAChRs), termed muscarinic LTD (mLTD). mLTD is both activity and NMDAR dependent, characteristics shared by forms of synaptic plasticity thought to be relevant to learning and memory, including long-term potentiation (LTP) induced by high-frequency stimulation (HFS-LTP) and long-term depression induced by low-frequency stimulation (LFS-LTD). However, it remains unclear whether mLTD can occur sequentially with these electrically induced forms of hippocampal plasticity or whether mLTD might interact with them. The first goal of this study was to examine the interplay of mLTD and HFS-LTP. We report that mLTD expression does not alter subsequent induction of HFS-LTP and, further, at synapses expressing HFS-LTP, mLTD can mediate a novel form of depotentiation. The second goal was to determine whether mLTD would alter LFS-LTD induction and/or expression. Although we show that mLTD is occluded by saturation of LFS-LTD, suggesting mechanistic similarity between these two plasticities, saturation of mLTD does not occlude LFS-LTD. Surprisingly, however, the LFS-LTD that follows cholinergic receptor activation is NMDAR independent, indicating that application of muscarinic agonist induces a change in the induction mechanism required for LFS-LTD. These data demonstrate that mLTD can coexist with electrically induced forms of synaptic plasticity and support the hypothesis that mLTD is one of the mechanisms by which the cholinergic system modulates hippocampal function.

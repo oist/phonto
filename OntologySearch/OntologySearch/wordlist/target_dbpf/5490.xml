@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5490">
+<itemtype>xnppaper</itemtype>
+<titles><title>Effect of 5-HT depletion of the hippocampus on neuronal transmission from perforant path through dentate gyrus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>5</keyword>
+<keyword>7-Dihydroxytryptamine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Desipramine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Raphe Nuclei</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Serotonin</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>p-Chloroamphetamine</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:09:09Z</last_update_date>
+<creation_date>2011-06-14T00:09:09Z</creation_date>
+<publication_year>1982</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5490</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5490" version="1.02">
+<authors><author>Srebro B</author><author>Azmitia EC</author><author>Winson J</author></authors>
+<journal>Brain research</journal>
+<volume>235</volume>
+<number>1</number>
+<page>142-7</page>
+<abstract>Stimulation of the perforant pathway (pp) elicits a characteristic evoked action potential (EAP) in the granule cell layer of the dentate gyrus. The EAP was recorded in rats depleted of hippocampal serotonin (5-HT) by prior injection of p-chloroamphetamine (PCA) or 5,7-dihydroxy-tryptamine (5,7-DHT) as well as in untreated animals during two behavioral states, slow-wave sleep (SWS) and still-alert behavior (SAL). As reported previously, in untreated rats the amplitude of the EAP response was significantly greater during SWS than SAL. Stimulation of the median raphe nucleus (MR) prior to stimulating the pp (prestimulation) augmented the EAP response, but only during SWS. In contrast, in animals injected with PCA or 5,7-DHT there was no difference of the amplitude of the EAP during SWS and SAL. However, the augmentation of the EAP during SWS produced by prestimulation of the median raphe was still present. It is concluded that 5-HT innervation of the dentate gyrus may be involved in the behavioral modulation of the EAP response. Modulation of the EAP following prestimulation of the MR appears to be effected by a non-serotonergic input to the dentate gyrus originating in, or coursing through, the median raphe.</abstract>
+<pubmed_id>6329412</pubmed_id>
+</detail>
+</item>

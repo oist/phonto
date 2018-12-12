@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5093">
+<itemtype>xnppaper</itemtype>
+<titles><title>Dynamic synapse: a new concept of neural representation and computation.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Acoustic Stimulation</keyword>
+<keyword>Animals</keyword>
+<keyword>Auditory Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Speech</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T03:31:44Z</last_update_date>
+<creation_date>2011-05-16T03:31:44Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5093</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5093" version="1.02">
+<authors><author>Liaw JS</author><author>Berger TW</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>591-600</page>
+<abstract>Presynaptic mechanisms influencing the probability of neurotransmitter release from an axon terminal, such as facilitation, augmentation, and presynaptic feedback inhibition, are fundamental features of biological neurons and are cardinal physiological properties of synaptic connections in the hippocampus. The consequence of these presynaptic mechanisms is that the probability of release becomes a function of the temporal pattern of action potential occurrence, and hence, the strength of a given synapse varies upon the arrival of each action potential invading the terminal region. From the perspective of neural information processing, the capability of dynamically tuning the synaptic strength as a function of the level of neuronal activation gives rise to a significant representational and processing power of temporal spike patterns at the synaptic level. Furthermore, there is an exponential growth in such computational power when the specific dynamics of presynaptic mechanisms varies quantitatively across axon terminals of a single neuron, a recently established characteristic of hippocampal synapses. During learning, alterations in the presynaptic mechanisms lead to different pattern transformation functions, whereas changes in the postsynaptic mechanisms determine how the synaptic signals are to be combined. We demonstrate the computational capability of dynamic synapses by performing speech recognition from unprocessed, noisy raw waveforms of words spoken by multiple speakers with a simple neural network consisting of a small number of neurons connected with synapses incorporating dynamically determined probability of release. The dynamics included in the model are consistent with available experimental data on hippocampal neurons in that parameter values were chosen so as to be consistent with time constants of facilitative and inhibitory processes governing the dynamics of hippocampal synaptic transmission studied using nonlinear systems analytic procedures.</abstract>
+<pubmed_id>9034848</pubmed_id>
+</detail>
+</item>

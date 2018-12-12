@@ -1,0 +1,16 @@
+Animals
+Calcium Channels
+physiology
+Epilepsy
+physiopathology
+Hippocampus
+physiology
+Picrotoxin
+pharmacology
+Rats
+Rats
+Wistar
+Synapses
+physiology
+Synaptic Transmission
+Hippocampal slice from early postnatal rat was used to elucidate the influence of epileptic activity elicited by picrotoxin on synapse formation of mossy fibers. Neurite reelongation and synaptogenesis of mossy fibers transected at 8 days in vitro were confirmed by staining with Dil, a fluorescent membrane dye used as a neuronal tracer, and by recording field excitatory postsynaptic potentials (fEPSP) in the CA3 region evoked by stimulation of the dentate gyrus. Picrotoxin (50 microM), which evoked spontaneous epileptiform firing in the CA3 region that was occluded by tetrodotoxin (1 microM), hindered development of fEPSP amplitude after a lesion of mossy fibers. Furthermore, observations using a Timm method, a histochemical technique that preferentially labels synaptic terminals of mossy fibers, revealed that picrotoxin prevented synaptogenesis in the CA3 region. This inhibitory effect of picrotoxin was completely abolished by tetrodotoxin or nicardipine (10 microM), a L-type calcium channel blocker, but not by 2-amino-5-phosphonopentanoic acid (50 microM), a N-methyl-D-aspartate receptor antagonist, suggesting that influx of calcium ion via L-type calcium channels during epileptic bursts mediated the disturbance of appropriate synapse formation of mossy fibers.

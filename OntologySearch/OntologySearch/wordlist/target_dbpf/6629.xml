@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6629">
+<itemtype>xnppaper</itemtype>
+<titles><title>Late onset of anterior prefrontal activity during true and false recognition: an event-related fMRI study.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Frontal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Paired-Associate Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Parietal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Retention (Psychology)</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:27:12Z</last_update_date>
+<creation_date>2013-02-26T06:27:12Z</creation_date>
+<publication_year>1997</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6629</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6629" version="1.02">
+<authors><author>Schacter DL</author><author>Buckner RL</author><author>Koutstaal W</author><author>Dale AM</author><author>Rosen BR</author></authors>
+<journal>NeuroImage</journal>
+<volume>6</volume>
+<number>4</number>
+<page>259-69</page>
+<abstract>Previous studies using PET and fMRI to examine memory retrieval have been limited by the requirement to test different types of items in separate blocks and to average data across items and response types within blocks. We used recently developed procedures for analyzing event-related mixed trial data from fMRI experiments to compare brain activity during true recognition of previously studied words and false recognition of semantic associates. A previous PET study using blocked testing procedures reported similarities and differences in rCBF patterns associated with true and false recognition (Schacter et al., 1996a). We examined brain activity during blocked testing of studied words and nonstudied semantic associates (similar to PET), and also during event-related mixed trials, where studied words and nonstudied semantic associates are intermixed. Six subjects initially heard lists of semantically related words and were later tested for old/new recognition with studied words and nonstudied semantic associates, either in separate blocks or intermixed randomly for the event-related analysis. Compared to a fixation control condition, a variety of regions previously reported in the PET study showed significant activation for both true and false recognition, including anterior prefrontal, frontal opercular, medial parietal, and visual cortex extending into hippocampal/parahippocampal regions. Differences across trial types were not clearly present. Event-related analyses of time course data show a relatively late onset and sustained duration for anterior prefrontal signal changes compared to signal changes in other activated regions. Further study is needed to resolve whether this late onset originates from variance in hemodynamic response properties or is attributable to delayed neural activity. The delayed onset is consistent with the idea that anterior prefrontal regions participate in postretrieval monitoring processes.</abstract>
+<pubmed_id>9417969</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,274 @@
+A mechanism underlying compound-induced voltage shift in the current activation of hERG by antiarrhythmic agents
+
+Kazuharu Furutania, b, , , Yuko Yamakawac, Atsushi Inanobea, b, Miki Iwataa, Yuko Ohnoc, Yoshihisa Kurachia, b, , 
+ Show more
+doi:10.1016/j.bbrc.2011.10.034
+Get rights and content
+Abstract
+Nifekalant and azimilide, Class III antiarrhythmic agents, block the human ether-a-go-go-related gene K+ (hERG) channel. However, when a depolarizing membrane potential is applied, they also increase the current at low potentials by shifting its activation curve towards hyperpolarizing voltages. This phenomenon is called ÅefacilitationÅf. In this study, we tried to address the mechanism underlying the facilitation by analyzing the effects of various compounds on hERG expressed in Xenopus oocytes. Like nifekalant, amiodarone, quinidine and carvedilol, but not by dofetilide, caused the current facilitation of hERG, suggesting that the facilitation is a common effect to a subset of hERG blockers. As the concentration of each compound was increased, the total hERG current was suppressed progressively, while the current at low potentials was augmented. Activation curves of the remaining hERG current in the facilitation condition could be described as the sum of two Boltzmann functions reflecting two populations of hERG currents having different activation curves. The voltage shift in the activation curve from control was constant for each compound even at different concentrations; ?31 mV in amiodarone, ?27 mV in nifekalant, ?17 mV in quinidine and ?12 mV in carvedilol. Therefore, the facilitation is based on the appearance of hERG whose voltage-dependence for the activation is shifted towards hyperpolarizing voltages.
+
+Highlights
+
+? We examined the mechanism of the compound-induced facilitation of the hERG current. ? Amiodarone, nifekalant, carvedilol and quinidine facilitate hERG currents. ? Facilitation is a negative shift of the voltage-dependent activation curve. ? Depolarization promotes the formation of a drug-channel interaction for facilitation.
+
+
+Abbreviations
+hERG, human ether-a-go-go relatedgene; AP, action potential; APD, action potential duration
+Keywords
+Activation gating; Antiarrhythmic agent; hERG; Pharmacology; K channel
+1. Introduction
+The human ether-a-go-go related gene (hERG) encodes the pore-forming subunits of voltage-dependent potassium (K+) channels that mediate the cardiac rapid delayed rectifier potassium current, IKr. This potassium current plays an important role in the repolarization of action potential (AP), especially in the ventricular muscle [1], [2] and [3]. Class III antiarrhythmic agents [4] such as amiodarone decrease repolarizing K+ currents including IKr [5] and [6], prolonging both the action potential duration (APD) and refractory period of the cardiac muscle. Amiodarone and other Class III antiarrhythmic agents blocked cloned hERG channel currents in heterologous expression systems [7], [8], [9], [10], [11], [12] and [13]. However, it has also become clear that hERG channels can be blocked by a number of compounds with high proarrhythmic risk [2], [14] and [15]. The unintended block of hERG channels causes an acquired form of QT interval prolongation, increases the transmural dispersion of repolarization and forms the substrate for generating life-threatening cardiac arrhythmias, including torsades de pointes [2] and [14].
+
+Some, but not all, Class III antiarrhythmics are reported to have a dual effect on hERG currents. They not only block the channel, but also increase hERG current availability at potentials close to the threshold for channel activation [9], [12] and [16]. This latter effect is triggered by a preconditioning depolarization [9] and [16] and involves several residues (such as Ser624 or Ser649) in the channel pore [9]. However, the underlying voltage-dependent process is not clear. Nor is it clear neither the facilitation of hERG activation is a common property of antiarrhythmic agents used in clinical practice rather than the potentially dangerous pure channel block.
+
+Extending the previous observations, here we report that other antiarrhythmic agents exhibit the same behavior. Amiodarone, carvedilol and quinidine can facilitate hERG currents. The effect is particularly prominent with amiodarone. We explore the phenomenon in greater detail, showing that the conditioning depolarization promotes the formation of a drug-channel interaction that shifts the activation curve towards negative membrane potentials.
+
+2. Materials and methods
+Frogs (Xenopus laevis) were treated in accordance with the guidelines for the use of laboratory animals of Osaka University Graduate School of Medicine. Isolation and maintenance of the oocytes and injection with cRNA were performed as described previously [9]. hERG cDNA (NM_000238) subcloned into the pSP64 vector [1] was kindly provided by Dr. M.T. Keating and Dr. M.C. Sanguinetti. The oocytes were injected with 5 ng hERG cRNA, and incubated at 18 ÅãC in ND96 solution (96 mM NaCl, 2 mM KCl, 1.8 mM CaCl2, 1 mM MgCl2, and 5 mM HEPES, pH 7.6 with NaOH) supplemented with 50 É g/ml gentamicin. Membrane currents were recorded using the two-electrode voltage-clamp technique and a GeneClamp 500 amplifier (Molecular Devices, Sunnyvale, CA) 4 to 7 days after cRNA injection. The electrical resistance of the glass electrodes was 0.4?1.5 MÉ∂ when filled with 3 M KCl. Oocytes were bathed in a low-Cl? solution (96 mM Na-[2-(N-morpholino)ethanesulfonic acid] (NaMes), 2 mM KMes, 2 mM CaCl2, 1 mM MgCl2, and 5 mM HEPES, pH 7.6 with methane sulfonic acid) to minimize interference from endogenous Cl? currents. All experiments were conducted at ambient temperature (22?24 ÅãC).
+
+Data was collected and analyzed using Clampfit 9.2 software (Molecular Devices), SigmaPlot (Systat Software Inc., Chicago, IL), and Igor Pro 5 (WaveMetrics, Portland, OR). The activation curve of the peak tail currents recorded upon repolarization to ?80 mV following voltage steps to various membrane potentials was fitted with the following Boltzmann function:
+
+I/Imax=Fmax(1-1/(1+exp((V-V1/2)/k)))
+Turn MathJax on
+
+where I is the tail current amplitude recorded at ?80 mV in the absence or presence of drugs following voltage steps to different membrane potentials, Imax is the current amplitude recorded at ?80 mV following a voltage step to +10 mV in the absence of drugs, Fmax is the maximal current fraction, V and V1/2 are the membrane potential and the half-activation voltage, respectively, and k is the slope factor of the current. Fmax, V1/2 and k corresponding to the activation curve of hERG were fitted as free parameters. To obtain the current activation curve during facilitation, the current?voltage (I/V) relationship was fitted with the sum of the two Boltzmann functions for the control hERG, and a compound-bound and facilitated hERG. For compound concentration?response curves, the peak currents were fitted with the Hill equation.
+3. Results
+3.1. A negative shift of the voltage-dependent activation curve of hERG channels by amiodarone
+
+Fig. 1 shows that 3 É M amiodarone (Fig. 1A) can markedly facilitate hERG channel currents. We expressed hERG in Xenopus oocytes. Test pulse (4 s) from holding potential of ?90 mV to ?50 mV, followed by a pulse to ?80 mV (1 s) was delivered with 15 s interval. Under the control conditions, the application of a single conditioning pulse (voltage step to +60 mV for 4 s, filled arrowhead in Fig. 1Bb) had no effect on subsequent repetitive activation of hERG currents by test pulse (open circles). The application of 3 É M amiodarone reduced the hERG current amplitude at every potential (open squares, Fig. 1Bb). Once the current levels reached a steady state in the presence of amiodarone, a single conditioning pulse (red arrowhead) increased both the hERG currents evoked by a voltage step to ?50 mV and the tail currents recorded during the following repolarization to ?80 mV to a level greater than that recorded even in the absence of amiodarone ( Fig. 1Ba and Bb). With the continued presence of amiodarone, in the minutes following the single conditioning pulse, hERG current amplitudes gradually decreased and returned to steady-state levels similar to those observed before the application of the conditioning pulse (filled circles, Fig. 1Bb). This drug effect on hERG currents could be repetitively induced in the same cell. It should be noted that this transient increase of drug-blocked hERG currents by a conditioning pulse was not recorded at all voltages. Fig. 1Bc and C illustrate that activation of hERG channels by voltage steps greater than ?20 mV was not facilitated by a prior conditioning pulse. Rather, this drug effect corresponded to a substantial negative shift in the hERG current voltage-dependent activation curve without increasing the maximal activation (ÅgfacilitationÅh of activation) ( Fig. 1C).
+
+Full-size image (53 K)
+Fig. 1. 
+Amiodarone induces facilitation of hERG activation. (A) Chemical structure of amiodarone. (B) Effects of amiodarone on hERG currents recorded in Xenopus oocytes. Superimposed cell currents recorded in the same oocyte before (cont) and after perfusion of 3 É M amiodarone (3 ami) with (+prepulse) or without a conditioning pulse (Ba and Bc). Time course of changes in the hERG tail current (recorded at ?80 mV) evoked by repetitive test pulses to ?50 mV every 15 s (Bb). The conditioning pulses were applied twice in this experiment, first in the absence (black arrow head) and then in the presence (red arrow head) of amiodarone. (C) Voltage-dependent hERG activation curves. The amplitudes of hERG tail currents in the absence (open circles), and in the presence of 3 É M amiodarone with (filled circles) or without (open squares) the conditioning pulse were measured at the peak during the repolarizing pulse to ?80 mV. Data was normalized to the currents evoked by voltage steps to +10 mV in the absence of amiodarone.
+Figure options
+3.2. Facilitation: The effect on activation of the hERG channel
+
+We next determined the effects of amiodarone on the hERG activation curve (Fig. 2). Amiodarone blocked the hERG currents in a concentration-dependent manner with an IC50 of 4.3 É M and a Hill coefficient of 1.0 ( Fig. 2C), implying that a single molecule mediates the channel block. As reported by Kiehn et al. [11], the block was not complete with 30 É M amiodarone (67.8 Å} 0.7% of the control, n = 6).
+
+Full-size image (65 K)
+Fig. 2. 
+Concentration dependence of block and facilitation of hERG currents by amiodarone. (A) Voltage dependence of the hERG activation curves in the presence of 0.3, 1.0, 3 and 30 É M amiodarone. The tail currents of hERG in the absence (open circles), and in the presence of various concentrations of amiodarone with (filled circles) or without (open squares) the conditioning pulse were measured during the repolarizing pulse to ?80 mV. Data was normalized to the current amplitude recorded following a voltage step to +10 mV in the absence of amiodarone. The normalized activation curve recorded in amiodarone following facilitation (filled circles) could be fitted with two Boltzmann functions. The first represented the conventional gating function (blue dashed lines) with V1/2 at ?23.8 mV and k at 8.0 mV. The second represented the low-voltage activated fraction (orange dashed line) with V1/2 at ?55.0 mV and k at 6.1 mV. The red lines represent the sum of these two functions. (B) In the presence of amiodarone, conditioning pulses altered the form of the hERG current activation curves. Here, data obtained under different conditions (open symbols represent experiments conducted in the absence of a conditioning voltage step; filled symbols represent data obtained following a conditioning pulse) indicated in the panel was normalized to the current amplitudes at +10 mV. (C) The fractions of hERG current block at each concentration of amiodarone were obtained by dividing the current amplitude recorded during a voltage step to +10 mV in the presence of the drug by that recorded in its absence. For facilitation, the fractions of the total current corresponding to conventional and amiodarone-associated facilitated hERG were obtained by fitting the activation curve to two Boltzmann functions. Data is means Å} SEM.
+Figure options
+The voltage-dependent activation curve of the control hERG currents could be fitted with a single Boltzmann function [1]. In our experiments, the V1/2 and k values were, respectively, ?23.8 Å} 0.7 mV and 8.0 Å} 0.4 mV (n = 9) ( Fig. 1C and Table 1). In the presence of amiodarone, the V1/2 and k values of the activation curves were, respectively, ?25.3 Å} 1.3 mV and 7.6 Å} 0.7 mV with 3 É M, ?25.6 Å} 1.3 mV and 7.1 Å} 0.6 mV with 10 É M, ?26.6 Å} 1.2 mV and 6.0 Å} 0.3 mV with 30 É M, and ?28.4 Å} 0.4 mV and 7.3 Å} 0.7 mV with 60 É M amiodarone ( Fig. 2B). Therefore, before the induction of facilitation, amiodarone had no effect upon the biophysical properties of conducting hERG channels. Prior depolarization in the presence of amiodarone caused a negative shift in the hERG current activation curve without increasing the maximum hERG current (Figs. 1C and 3). It should also be noted that while a low concentration of amiodarone (0.3 É M) had little effect on the maximal amplitude of hERG currents (98.0 Å} 0.8% of the control, n = 3), the conditioning voltage step negatively shifted the activation curve, which increased the currents activated at ?50 mV by 139 Å} 19% of the control (n = 3) ( Fig. 2A and B). The lower voltage limits of activation after facilitation were comparable at every concentration of amiodarone ( Fig. 2B). The concentration-dependent effects of amiodarone upon the conditioning pulse facilitation of the hERG activation curve were complex. They could not be described by a single, simple negative shift of the Boltzmann relationship for channel activation. However, they could be described by two Boltzmann functions representing different populations of hERG channels with different biophysical parameters ( Fig. 2A). By assuming that the high V1/2 fraction of the hERG channel population has the biophysical parameters of typical hERG channels (V1/2, ?23.8 mV; k, 8.0 mV), we postulated that the low V1/2 fraction of the population corresponds to channels with chemically modulated activation. The V1/2 of low-voltage activated hERG channels was about 30 mV negative to that of the control hERG channels and this seemed to be largely independent of amiodarone concentration ( Table 1). According to the titration curve, it was the fraction of the total hERG current showing low-voltage activation that increased with amiodarone concentration ( Fig. 2A and C). The fraction of hERG current that could show low-voltage activation saturated at approximately 48% of the total current ( Fig. 2C). The titration curve gave a Kd value of 0.7 É M, suggesting that facilitation is caused at lower concentrations of amiodarone than that for the current block. The Hill coefficient for facilitation was 1.1, indicating no positive cooperative binding reaction for facilitation. Based on these observations, the changes evoked in the macroscopic currents by the conditioning pulse could be explained by a mode transition from conventional, but not blocked, channels to a compound-induced facilitated mode with a negatively shifted activation curve.
+
+Table 1.
+Biophysical parameters of facilitated fraction of hERG channels.
+Treatment		V1/2 (mV)	k	É¢V1/2	n
+Control		?23.8 Å} 0.7	8.0 Å} 0.4		9
+Amiodarone	0.1 É M	?56.7 Å} 3.3	5.7 Å} 0.6	?32.8	3
+0.3 É M	?52.4 Å} 1.7	9.7 Å} 0.5	?28.5	4
+1 É M	?53.3 Å} 2.4	7.9 Å} 1.2	?29.5	4
+3 É M	?55.0 Å} 0.3	6.1 Å} 0.3	?31.2	3
+30 É M	?53.6 Å} 1.4	5.7 Å} 0.6	?29.9	6
+Nifekalant	3 É M	?50.7 Å} 1.9	6.2 Å} 0.7	?26.9	4
+10 É M	?50.7 Å} 1.0	6.3 Å} 0.5	?26.8	4
+30 É M	?48.9 Å} 1.2	7.0 Å} 0.5	?25.1	3
+60 É M	?51.0 Å} 1.1	8.1 Å} 0.4	?27.2	4
+Carvedilol	1 É M	?39.1 Å} 0.8	4.7 Å} 0.8	?15.3	6
+3 É M	?39.0 Å} 0.9	5.3 Å} 0.3	?15.2	6
+10 É M	?38.3 Å} 0.7	5.6 Å} 0.2	?14.4	4
+30 É M	?39.8 Å} 0.3	4.0 Å} 0.3	?16.0	4
+Quinidine	0.3 É M	?43.6 Å} 2.2	7.4 Å} 0.5	?19.8	5
+1 É M	?43.8 Å} 1.5	8.0 Å} 0.3	?20.0	6
+3 É M	?43.9 Å} 1.7	7.7 Å} 0.4	?20.1	5
+10 É M	?42.9 Å} 1.0	8.0 Å} 0.3	?19.1	5
+30 É M	?45.5 Å} 0.7	6.6 Å} 1.2	?21.7	5
+Data is presented as mean Å} SEM (n = number of observations).
+
+Table options
+Full-size image (126 K)
+Fig. 3. 
+Comparison of facilitation of hERG activation by various hERG blockers. (A) Upper panels: Chemical structures of nifekalant, carvedilol, quinidine, and dofetilide. Middle panels: Superimposed hERG currents recorded in the same oocyte before (cont) and after perfusion of 10 É M nifekalant, 10 É M carvedilol, 3 É M quinidine, and 1 É M dofetilide with (+prepulse) or without the conditioning pulse. Lower panels: Time course of changes in the hERG tail current (recorded at ?80 mV) evoked by repetitive test pulses to ?50 mV (4 s) every 15 s. The conditioning pulses were applied twice in this experiment, first in the absence (black arrow head) and then in the presence (red arrow head) of compound. (B) The amplitude of hERG in the absence (open circles), and in the presence of each compound with (filled circles) or without (open squares) the conditioning pulse was measured at the peak of the tail current recorded during the repolarizing pulse to ?80 mV and normalized to those recorded in the absence of the compound following a voltage step to +10 mV. The blue and orange dashed lines represent the conventional and the low-voltage activated fractions of hERG currents, respectively, and the red lines indicate their sum. The biophysical parameters are summarized in Table 1. (C) The concentration?response relationships for compound-induced block and facilitation by nifekalant, carvedilol, and quinidine. The fractions of block and facilitation were obtained as described in Fig. 2C. Data is means Å} SEM.
+Figure options
+3.3. Do other hERG blockers cause ÅgfacilitationÅh?
+
+Dofetilide (Class III antiarrhythmic agent) [17], quinidine (Class Ia antiarrhythmic agent) [18], and carvedilol (É¿-blocker) [19] are known to block hERG currents. Fig. 3 shows that quinidine and carvedilol, but not dofetilide, were also associated with depolarization-induced facilitation of hERG activation. The effects of a conditioning pulse on hERG activation were small in quinidine and carvedilol when compared with those associated with nifekalant and amiodarone (Fig. 3), but the voltage shifts in the activation curve were reproducible. As with amiodarone, the activation curves were well described by the sum of two Boltzmann functions for conventional and low-voltage activated hERG channels. V1/2 and k values for the facilitated hERG channels were, respectively, almost ?50 mV and 6?8 mV in nifekalant, almost ?40 mV and 4?6 mV in carvedilol and almost ?45 mV and 6.5?8 mV in quinidine ( Table 1). It was clear that the degree of voltage shift in the activation curve differed between compounds. As with amiodarone, facilitation by quinidine or carvedilol was observed at lower concentrations than that for the current block, which was not the case for nifekalant.
+
+4. Discussion
+In the present study, we examined the mechanism of the compound-induced facilitation of the hERG current. The phenomenon is the enlargement of the current amplitude at low membrane potentials triggered by the application of depolarizing membrane potential. Among 5 total hERG blockers, nifekalant, amiodarone, quinidine and carvedilol, but not dofetilide, possessed the effect of facilitation on the hERG activation, suggesting that the part of hERG blockers possesses the activity to facilitate the hERG current. The facilitation elicited by these compounds could be characterized by the appearance of hERG whose V1/2 value for the activation was shifted to the negative potential compared to that of the compound-free hERG. The voltage dependence of C-type inactivation is insensitive to nifekalant [9] and [12], amiodarone [11], quinidine [18], [20] and [21] and carvedilol [19]. Therefore, depolarizing membrane potential may result in the stabilization of open state conformation of hERG by modulating the activation gating by compound.
+
+The presence of compounds is an unambiguous prerequisite for both the current facilitation and the current block. Four amino acids, Thr623, Ser624 in the loop between the pore helix and the selectivity filter, and Tyr652 and Phe656 in the S6 helix, are involved in both the block and the facilitation of the hERG current by nifekalant [9] and [10]. However, nifekalant makes a contact with a side chain of Ser649 on the S6 helix to cause the facilitation, while it is located slightly apart from the residue during the current block [9]. Therefore, the direct association of compound with the central cavity of hERG could yield both the current block and the current facilitation, and the interaction configurations of nifekalant and hERG may be different between two pharmacological effects. The presence of these different interaction configurations is further supported by the following two experimental observations. The first is that the effect of a single depolarizing voltage step on the facilitation was transient. The second is that the depolarizing membrane potential never affected on the maximal current amplitude in the presence of compounds. These results strongly indicated that the current block and the current facilitation were based on two different interaction configurations in the central cavity of hERG, and also presented that there was no apparent transition between the two interaction configurations.
+
+The major interaction site of compounds on hERG is its central cavity [2]. The central cavity possesses a widened and water-filled interaction site for compounds with a fourfold symmetrical arrangement of the residues involved in the compound association. These characteristics may provide to hERG the ability to accommodate a large number of compounds. When focusing on two aromatic residues, Tyr652 and Phe656, on the S6 helix, these residues have been identified as determinants of the current block of hERG by nifekalant [9] and [10], amiodarone [22] and dofetilide [10] and [13]. However, Phe656, but not Tyr652, is required for the current block by quinidine [13]. The effects of hERG blockers such as propafenone [23] and bepridil [10] were also reported to be selectively mediated by Phe656. Therefore, the amino acids required for the compound-association may not correspond to those essentially for the current block. This may be interpreted by the different interaction configurations for the modes of compound docking on hERG, and compound preventing the ion flow. Furthermore, in the interaction configuration of the facilitation, the compounds may position in the central cavity of hERG without disturbing the ion conduction. This configuration is sharply contrast to that for the current block where compound may act as a physical constraint for the ion permeation. Therefore, voltage-dependent conformational change might be also one of the characteristics of the central cavity of hERG which would contribute to different interaction configurations even for a single molecule.
+
+Multiple interaction configurations of compound and hERG have been proposed by computational analyses by docking compounds on hERG homology model [9], [24] and [25]. These analyses showed the multiple contacts of various hERG blockers with aromatic residues of hERG and the ambiguity of the function of each amino acid involved in the compound-hERG association compared to that predicted previously [2] and [26]. Therefore, the central cavity of hERG may be able to accommodate compounds in multiple interaction configurations either while it is docked to interact with hERG, while it blocks the ion flow, or while it facilitates the hERG activation. Additional experiments on the interaction configurations of compound and hERG will be required to establish how these interaction configurations link to the modulation of channel function.
+
+The pure IKr blockers will not only cause the prolongation of ventricular action potential duration, but also decrease the repolarization strength leading to the worsening of transmural dispersion of repolarization, which is thought to be a major risk for the arrhythmias. Since, in the presence of compound that causes facilitation, small depolarization could enhance the hERG current at low potentials, the normal frequency of action potential might be sufficient to induce the facilitation effect by compounds. This effect might permit the clinical application of amiodarone for refractory ventricular arrhythmias, even though it possesses a variety of effects on the cardiac action potential [27], [28] and [29]. Therefore, the hERG blockers possessing the activity to facilitate the hERG current are possible to have a lower risk for the induction of the action potential duration alternans and be more suitable for the treatment of arrhythmias than specific IKr blockers.
+
+Acknowledgments
+We express our appreciation to Dr. Ian Findlay (Universite Francois-Rabelais) for his critical reading of this manuscript. We are grateful to Dr. M.T. Keating and Dr. M.C. Sanguinetti (University of Utah) for providing us with hERG clone.
+
+This work was supported by Grants-in-Aid for the Leading Project for Biosimulation ÅgDevelopment of models for disease and drug actionÅh; the Global COE Program ÅgIn Silico MedicineÅh at Osaka University; Scientific Research (A) 20249012 (to Y.K.) and Scientific Research on Innovative Areas 22136002 (to Y.K.) from the Ministry of Education, Science, Sports and Culture of Japan.
+
+References
+[1]
+M.C. Sanguinetti, C. Jiang, M.E. Curran, et al.
+A mechanistic link between an inherited and an acquired cardiac arrhythmia: HERG encodes the IKr potassium channel
+Cell, 81 (1995), pp. 299?307
+
+Article |  PDF (773 K) | View Record in Scopus
+[2]
+M.C. Sanguinetti, M. Tristani-Firouzi
+HERG potassium channels and cardiac arrhythmia
+Nature, 440 (2006), pp. 463?469
+
+View Record in Scopus | Full Text via CrossRef
+[3]
+M.C. Trudeau, J.W. Warmke, B. Ganetzky, et al.
+HERG, a human inward rectifier in the voltage-gated potassium channel family
+Science, 269 (1995), pp. 92?95
+
+View Record in Scopus
+[4]
+E.M. Vaughan Williams
+A classification of antiarrhythmic actions reassessed after a decade of new drugs
+J. Clin. Pharmacol., 24 (1984), pp. 129?147
+
+View Record in Scopus
+[5]
+K. Kamiya, A. Nishiyama, K. Yasui, et al.
+Short- and long-term effects of amiodarone on the two components of cardiac delayed rectifier K(+) current
+Circulation, 103 (2001), pp. 1317?1324
+
+View Record in Scopus | Full Text via CrossRef
+[6]
+M.C. Sanguinetti, N.K. Jurkiewicz
+Two components of cardiac delayed rectifier K+ current. Differential sensitivity to block by class III antiarrhythmic agents
+J. Gen. Physiol., 96 (1990), pp. 195?215
+
+View Record in Scopus | Full Text via CrossRef
+[7]
+E. Carmeliet
+Use-dependent block and use-dependent unblock of the delayed rectifier K+ current by almokalant in rabbit ventricular myocytes
+Circ. Res., 73 (1993), pp. 857?868
+
+View Record in Scopus | Full Text via CrossRef
+[8]
+E. Carmeliet, K. Mubagwa
+Antiarrhythmic drugs and cardiac ion channels: mechanisms of action
+Prog. Biophys. Mol. Biol., 70 (1998), pp. 1?72
+
+Article |  PDF (1573 K) | View Record in Scopus
+[9]
+Y. Hosaka, M. Iwata, N. Kamiya, et al.
+Mutational analysis of block and facilitation of HERG current by a class III anti-arrhythmic agent, nifekalant
+Channels (Austin), 1 (2007), pp. 198?208
+
+View Record in Scopus | Full Text via CrossRef
+[10]
+K. Kamiya, R. Niwa, J.S. Mitcheson, et al.
+Molecular determinants of HERG channel block
+Mol. Pharmacol., 69 (2006), pp. 1709?1716
+
+View Record in Scopus | Full Text via CrossRef
+[11]
+J. Kiehn, D. Thomas, C.A. Karle, et al.
+Inhibitory effects of the class III antiarrhythmic drug amiodarone on cloned HERG potassium channels
+Naunyn. Schmiedebergs. Arch. Pharmacol., 359 (1999), pp. 212?219
+
+View Record in Scopus | Full Text via CrossRef
+[12]
+S. Kushida, T. Ogura, I. Komuro, et al.
+Inhibitory effect of the class III antiarrhythmic drug nifekalant on HERG channels: mode of action
+Eur. J. Pharmacol., 457 (2002), pp. 19?27
+
+Article |  PDF (252 K) | View Record in Scopus
+[13]
+J.P. Lees-Miller, Y. Duan, G.Q. Teng
+Molecular determinant of high-affinity dofetilide binding to HERG1 expressed in Xenopus oocytes: involvement of S6 sites
+Mol. Pharmacol., 57 (2000), pp. 367?374
+
+View Record in Scopus
+[14]
+D.M. Roden
+Acquired long QT syndromes and the risk of proarrhythmia
+J. Cardiovasc. Electrophysiol., 11 (2000), pp. 938?940
+
+View Record in Scopus | Full Text via CrossRef
+[15]
+W.S. Redfern, L. Carlsson, A.S. Davis, et al.
+Relationships between preclinical cardiac electrophysiology, clinical QT interval prolongation and torsade de pointes for a broad range of drugs: evidence for a provisional safety margin in drug development
+Cardiovasc. Res., 58 (2003), pp. 32?45
+
+View Record in Scopus
+[16]
+M. Jiang, W. Dun, J.S. Fan, et al.
+Use-dependent ÅeagonistÅf effect of azimilide on the HERG channel
+J. Pharmacol. Exp. Ther., 291 (1999), pp. 1324?1336
+
+View Record in Scopus
+[17]
+H.S. Rasmussen, M.J. Allen, K.J. Blackburn, et al.
+Dofetilide, a novel class III antiarrhythmic agent
+J. Cardiovasc. Pharmacol., 20 (Suppl. 2) (1992), pp. S96?S105
+
+View Record in Scopus | Full Text via CrossRef
+[18]
+S.S. Po, D.W. Wang, I.C. Yang, et al.
+Modulation of HERG potassium channels by extracellular magnesium and quinidine
+J. Cardiovasc. Pharmacol., 33 (1999), pp. 181?185
+
+View Record in Scopus | Full Text via CrossRef
+[19]
+C.A. Karle, V.A. Kreye, D. Thomas, et al.
+Antiarrhythmic drug carvedilol inhibits HERG potassium channels
+Cardiovasc. Res., 49 (2001), pp. 361?370
+
+View Record in Scopus
+[20]
+M.D. Drici, T.R. Burklow, V. Haridasse, et al.
+Sex hormones prolong the QT interval and downregulate potassium channel expression in the rabbit heart
+Circulation, 94 (1996), pp. 1471?1474
+
+View Record in Scopus | Full Text via CrossRef
+[21]
+M.J. Perrin, P.W. Kuchel, T.J. Campbell, et al., Drug binding to the inactivated state is necessary but not sufficient for high affinity binding to hERG channels, Mol. Pharmacol. (2008).
+[22]
+J.M. Ridley, J.T. Milnes, H.J. Witchel
+Et al., High affinity HERG K(+) channel blockade by the antiarrhythmic agent dronedarone: resistance to mutations of the S6 residues Y652 and F656
+Biochem. Biophys. Res. Commun., 325 (2004), pp. 883?891
+
+Article |  PDF (481 K) | View Record in Scopus | Citing articles (58)
+[23]
+H.J. Witchel, C.E. Dempsey, R.B. Sessions, et al.
+The low-potency, voltage-dependent HERG blocker propafenone?molecular determinants and drug trapping
+Mol. Pharmacol., 66 (2004), pp. 1201?1212
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (76)
+[24]
+R. Farid, T. Day, R.A. Friesner, et al.
+New insights about HERG blockade obtained from protein modeling, potential energy mapping, and docking studies
+Bioorg. Med. Chem., 14 (2006), pp. 3160?3173
+
+Article |  PDF (1671 K) | View Record in Scopus | Citing articles (112)
+[25]
+F. Osterberg, J. Aqvist
+Exploring blocker binding to a homology model of the open hERG K+ channel using docking and molecular dynamics methods
+FEBS Lett., 579 (2005), pp. 2939?2944
+
+Article |  PDF (266 K) | View Record in Scopus | Citing articles (86)
+[26]
+A.M. Aronov
+Predictive in silico modeling for hERG channel blockers
+Drug Discov. Today, 10 (2005), pp. 149?155
+
+Article |  PDF (316 K) | View Record in Scopus | Citing articles (138)
+[27]
+M.B. Rosenbaum, P.A. Chiale, M.S. Halpern, et al.
+Clinical efficacy of amiodarone as an antiarrhythmic agent
+Am. J. Cardiol., 38 (1976), pp. 934?944
+
+Article |  PDF (1380 K) | View Record in Scopus | Citing articles (228)
+[28]
+B.N. Singh
+Amiodarone: a multifaceted antiarrhythmic drug
+Curr. Cardiol. Rep., 8 (2006), pp. 349?355
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (31)
+[29]
+P. Vassallo, R.G. Trohman
+Prescribing amiodarone: an evidence-based review of clinical indications
+Jama, 298 (2007), pp. 1312?1322
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (181)
+Corresponding authors at: Division of Molecular and Cellular Pharmacology, Department of Pharmacology, Graduate School of Medicine, Osaka University, 2-2 Yamada-oka, Suita, Osaka 565-0871, Japan. Fax: +81 6 6879 3519.

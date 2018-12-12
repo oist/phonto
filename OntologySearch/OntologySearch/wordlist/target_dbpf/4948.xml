@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4948">
+<itemtype>xnppaper</itemtype>
+<titles><title>Lesions of the rat postsubiculum impair performance on spatial tasks.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Avoidance Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Classical</keyword>
+<keyword>physiology</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Escape Reaction</keyword>
+<keyword>physiology</keyword>
+<keyword>Fear</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Retention (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Social Environment</keyword>
+<keyword>Taste</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:50:30Z</last_update_date>
+<creation_date>2011-05-09T02:50:30Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4948</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4948" version="1.02">
+<authors><author>Taube JS</author><author>Kesslak JP</author><author>Cotman CW</author></authors>
+<journal>Behavioral and neural biology</journal>
+<volume>57</volume>
+<number>2</number>
+<page>131-43</page>
+<abstract>Previous studies have identified a population of neurons in the postsubiculum that discharge as a function of the rat&#039;s head direction in the horizontal plane (Taube, Muller,&amp;Ranck, 1990a). To assess the contribution of these cells in spatial learning, Long-Evans rats were tested in a variety of spatial and nonspatial tasks following bilateral electrolytic or neurotoxic lesions of the postsubiculum. Compared to unlesioned control animals, lesioned animals were impaired on two spatial tasks, a radial eight-arm maze task and a Morris water task, although the performance scores of both lesion groups improved over the course of behavioral testing. In contrast, lesioned animals were unimpaired on two nonspatial tasks, a cued version of the water maze task and a conditioned taste-aversion paradigm. In addition, lesioned animals showed transient hyperactivity in an open-field activity test. These results support the concept that neurons in the postsubiculum are part of a neural network involved in the processing of spatial information.</abstract>
+<pubmed_id>1586352</pubmed_id>
+</detail>
+</item>

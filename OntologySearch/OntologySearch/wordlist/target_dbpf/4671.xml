@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4671">
+<itemtype>xnppaper</itemtype>
+<titles><title>Response differences in monkey TE and perirhinal cortex: stimulus association related to reward schedules.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Operant</keyword>
+<keyword>physiology</keyword>
+<keyword>Cues</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Macaca mulatta</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Reinforcement Schedule</keyword>
+<keyword>Reward</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-10T03:31:17Z</last_update_date>
+<creation_date>2011-02-10T03:31:17Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4671</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4671" version="1.02">
+<authors><author>Liu Z</author><author>Richmond BJ</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>83</volume>
+<number>3</number>
+<page>1677-92</page>
+<abstract>Anatomic and behavioral evidence shows that TE and perirhinal cortices are two directly connected but distinct inferior temporal areas. Despite this distinctness, physiological properties of neurons in these two areas generally have been similar with neurons in both areas showing selectivity for complex visual patterns and showing response modulations related to behavioral context in the sequential delayed match-to-sample (DMS) trials, attention, and stimulus familiarity. Here we identify physiological differences in the neuronal activity of these two areas. We recorded single neurons from area TE and perirhinal cortex while the monkeys performed a simple behavioral task using randomly interleaved visually cued reward schedules of one, two, or three DMS trials. The monkeys used the cue&#039;s relation to the reward schedule (indicated by the brightness) to adjust their behavioral performance. They performed most quickly and most accurately in trials in which reward was immediately forthcoming and progressively less well as more intermediate trials remained. Thus the monkeys appeared more motivated as they progressed through the trial schedule. Neurons in both TE and perirhinal cortex responded to both the visual cues related to the reward schedules and the stimulus patterns used in the DMS trials. As expected, neurons in both areas showed response selectivity to the DMS patterns, and significant, but small, modulations related to the behavioral context in the DMS trial. However, TE and perirhinal neurons showed strikingly different response properties. The latency distribution of perirhinal responses was centered 66 ms later than the distribution of TE responses, a larger difference than the 10-15 ms usually found in sequentially connected visual cortical areas. In TE, cue-related responses were related to the cue&#039;s brightness. In perirhinal cortex, cue-related responses were related to the trial schedules independently of the cue&#039;s brightness. For example, some perirhinal neurons responded in the first trial of any reward schedule including the one trial schedule, whereas other neurons failed to respond in the first trial but respond in the last trial of any schedule. The majority of perirhinal neurons had more complicated relations to the schedule. The cue-related activity of TE neurons is interpreted most parsimoniously as a response to the stimulus brightness, whereas the cue-related activity of perirhinal neurons is interpreted most parsimoniously as carrying associative information about the animal&#039;s progress through the reward schedule. Perirhinal cortex may be part of a system gauging the relation between work schedules and rewards.</abstract>
+<pubmed_id>10712488</pubmed_id>
+</detail>
+</item>

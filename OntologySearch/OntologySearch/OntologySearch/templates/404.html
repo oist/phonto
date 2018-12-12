@@ -1,0 +1,65 @@
+
+{% extends "site/base.tpl.html" %}
+
+{%load static %}
+
+{% load i18n %}
+
+{% block extrajs %}
+{% endblock %} {# end of extrajs block #}
+
+{% block handstyle %}
+<style type="text/css">
+<!--
+/* base object style */
+html,body { height:100%; }
+html body *{
+	font-family: "Meiryo UI","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+	font-size:12px;
+}
+span { white-space: nowrap; }
+#container{padding:1%;}
+#debug{
+position:absolute;
+bottom:0px;
+border: 1px solid gray
+}
+
+/* css for each class */
+.floatleft{float:left;}
+.clearboth{clear:both;}
+.pagetitle{
+	font-size:16px;
+	font-weight:bold;
+	padding-left:1%;
+	padding-top:8px;
+	height:32px;
+}
+.title , .resulttitle{
+	font-size:14px;
+	margin-bottom:4px;
+}
+/* css for each object */
+
+
+-->
+</style>
+{% endblock %}{# end of handstyle block #}
+
+{% block handscript %}
+{% endblock %} {# end of handscript block #}
+
+{% block header %}
+{% endblock %} {# end of header block #}
+
+{% block content %}
+<div>
+404 Not Found
+</div>
+<div>
+back to <a href="/">Top page</a>
+
+</div>
+{% endblock %} {# end of content block #}
+
+

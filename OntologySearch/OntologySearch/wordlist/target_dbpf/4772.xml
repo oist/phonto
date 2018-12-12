@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4772">
+<itemtype>xnppaper</itemtype>
+<titles><title>Fimbria-fornix lesions impair spatial working memory but not cognitive mapping.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Transfer (Psychology)</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:27:34Z</last_update_date>
+<creation_date>2011-04-28T04:27:34Z</creation_date>
+<publication_year>1984</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4772</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4772" version="1.02">
+<authors><author>Walker JA</author><author>Olton DS</author></authors>
+<journal>Behavioral neuroscience</journal>
+<volume>98</volume>
+<number>2</number>
+<page>226-42</page>
+<abstract>Three experiments were designed to evaluate the relative merits of two theories of hippocampal function, the cognitive mapping theory and the working memory theory. Rats were tested in a series of maze tasks that varied in memory requirements. In the experiments that required cognitive mapping but not working memory (Experiments 1 and 3), rats with fimbria-fornix lesions reached stable levels of performance that were as accurate as those of control rats, and they also performed accurately during transfer tests, results demonstrating that they used a cognitive mapping strategy to solve the discrimination. In the experiment that required working memory (Experiment 2), rats with fimbria-fornix lesions performed at chance levels during all of postoperative testing, and they distributed their choices randomly between the correct and the incorrect goals. These results are seen as generally refuting the predictions made by the cognitive mapping theory and supporting the predictions made by the working memory theory. Additional analyses (Experiment 3) examined the nature of a transitory impairment exhibited by rats with fimbria-fornix lesions in two tasks that did not require working memory. Postoperatively, the performance of the rats with lesions was initially impaired but recovered to normal levels with a time course similar to that seen during preoperative acquisition. These results are seen as requiring an extension of the working memory theory of hippocampal function, and discussion is focused on the possibility of a temporary retrograde amnesia following fimbria-fornix lesions and the distinctions between different types of memory abilities.</abstract>
+<pubmed_id>6721924</pubmed_id>
+</detail>
+</item>

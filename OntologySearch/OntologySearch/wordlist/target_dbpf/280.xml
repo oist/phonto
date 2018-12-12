@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="280">
+<itemtype>xnppaper</itemtype>
+<titles><title>Encoding and retrieval of episodic memories: role of cholinergic and GABAergic modulation in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T01:44:08Z</last_update_date>
+<creation_date>2008-06-20T03:31:12Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=280</url>
+<changelogs>
+<changelog date='2013-03-28T01:44:08Z'>Modified; Item Description, Index.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="280" version="1.02">
+<authors><author>Hasselmo ME</author><author>Wyble BP</author><author>Wallenstein GV</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>693-708</page>
+<abstract>This research focuses on linking episodic memory function to the cellular physiology of hippocampal neurons, with a particular emphasis on modulatory effects at cholinergic and gamma-aminobutyric acid B receptors. Drugs which block acetylcholine receptors (e.g., scopolamine) have been shown to impair encoding of new information in humans, nonhuman primates, and rodents. Extensive data have been gathered about the cellular effects of acetylcholine in the hippocampus. In this research, models of individual hippocampal subregions have been utilized to understand the significance of particular features of modulation, and these hippocampal subregions have been combined in a network simulation which can replicate the selective encoding impairment produced by scopolamine in human subjects.</abstract>
+<pubmed_id>9034856</pubmed_id>
+</detail>
+</item>

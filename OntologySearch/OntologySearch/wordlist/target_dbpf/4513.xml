@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4513">
+<itemtype>xnppaper</itemtype>
+<titles><title>Evidence for changing positions of GABA neurons in the developing rat dentate gyrus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Antimetabolites</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Bromodeoxyuridine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>growth</keyword>
+<keyword>&amp;</keyword>
+<keyword>development</keyword>
+<keyword>Female</keyword>
+<keyword>Gene Expression Regulation</keyword>
+<keyword>Developmental</keyword>
+<keyword>Gene Expression Regulation</keyword>
+<keyword>Enzymologic</keyword>
+<keyword>Glutamate Decarboxylase</keyword>
+<keyword>analysis</keyword>
+<keyword>genetics</keyword>
+<keyword>In Situ Hybridization</keyword>
+<keyword>Neurons</keyword>
+<keyword>chemistry</keyword>
+<keyword>cytology</keyword>
+<keyword>enzymology</keyword>
+<keyword>Pregnancy</keyword>
+<keyword>RNA</keyword>
+<keyword>Messenger</keyword>
+<keyword>analysis</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>analysis</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T05:07:39Z</last_update_date>
+<creation_date>2011-01-28T05:07:39Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4513</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4513" version="1.02">
+<authors><author>Dupuy-Davies S</author><author>Houser CR</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>2</number>
+<page>186-99</page>
+<abstract>In recent studies, we demonstrated a distinct change in the distribution of glutamate decarboxylase 67 (GAD67) mRNA-containing neurons within the rat dentate gyrus from embryonic day 20 (E20) to postnatal day 15 (PN15) (Dupuy and Houser, J Comp Neurol 1997;389:402-418). We also observed a similar changing pattern for cells with birthdates of many of the mature GAD-containing neurons in the dentate gyrus (Dupuy and Houser, J Comp Neurol 1997;389:402-418). These observations suggested that some early-appearing GABA neurons within the developing molecular layer of the dentate gyrus may gradually alter their positions to become the mature GABAergic cells along the inner border of the granule cell layer. The goal of the present study was to provide additional evidence for our hypothesis by demonstrating the spatial relationships between GAD-containing neurons and granule cells at progressively older ages during development. In this study, immunohistochemical or in situ hybridization methods for the localization of GAD67 or its mRNA were combined with bromodeoxyuridine birthdating techniques that labeled early-generated granule cells with birthdates on E17. At E20, GAD67-containing neurons were located above the granule cell layer that contained E17 birthdated granule cells. During the first two postnatal weeks, both GAD67 mRNA-containing neurons and early-born granule cells were primarily concentrated within the granule cell layer. Double-labeled neurons were rarely observed, and this suggests that these two groups are separate populations. By PN15-PN30, most GAD67 mRNA-containing neurons were distributed along the base of the granule cell layer, significantly below the E17 birthdated granule cells. These findings support our new hypothesis that mature GABA neurons along the inner border of the granule cell layer reach their positions by migrating or translocating through the developing granule cell layer.</abstract>
+<pubmed_id>10226778</pubmed_id>
+</detail>
+</item>

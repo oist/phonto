@@ -1,0 +1,35 @@
+1. Prog Biophys Mol Biol. 2008 Sep;98(1):52-60. doi:
+10.1016/j.pbiomolbio.2008.05.003. Epub 2008 May 29.
+
+In silico risk assessment for drug-induction of cardiac arrhythmia.
+
+Suzuki S(1), Murakami S, Tsujimae K, Findlay I, Kurachi Y.
+
+Author information: 
+(1)Department of Pharmacology, Graduate School of Medicine, Osaka University,
+Suita, Osaka, Japan.
+
+The main components of repolarization reserve for the ventricular action
+potential (AP) are the rapid (I(Kr)) and slow (I(Ks)) delayed outward K(+)
+currents. While many drugs block I(Kr) and cause life-threatening arrhythmias
+including torsades de pointes, the frequency of arrhythmias varies between
+different I(Kr)-blockers. Different types of block of I(Kr) cause distinct
+phenotypes of prolongation of action potential duration (APD), increase in
+transmural dispersion of repolarization (TDR) and, accordingly, occurrence of
+torsades de pointes. Therefore the assessment of a drug's proarrhythmic risk
+requires a method that provides quantitative and comprehensive comparison of the 
+effects of different forms of I(Kr)-blockade upon APDs and TDR. However, most
+currently available methods are not adapted to such an extensive comparison.
+Here, we introduce I(Kr)-I(Ks) two-dimensional maps of APD and TDR as a novel
+risk-assessment method. Taking the kinetics of I(Kr)-blockade into account, APDs 
+can be calculated upon a ventricular AP model which systematically alters the
+magnitudes of I(Kr) and I(Ks). The calculated APDs are then plotted on a map
+where the x axis represents the conductance of I(Kr) while the y axis represents 
+that of I(Ks). TDR is simulated with models corresponding to APs in epicardial,
+midcardial and endocardial myocardium. These two-dimensional maps of APD and TDR 
+successfully account for differences in the risk resulting from three distinct
+types of I(Kr)-blockade which correspond to the effects of dofetilide, quinidine 
+and vesnarinone. This method may be of use to assess the arrhythmogenic risk of
+various I(Kr)-blockers.
+
+PMID: 18635251  [PubMed - indexed for MEDLINE]

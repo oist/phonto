@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7251">
+<itemtype>xnppaper</itemtype>
+<titles><title>[A possible mechanism of the influence of neuromodulators and modifiable inhibition on long-term potentiation and long-term depression of excitatory inputs to main hippocampal neurons].</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Synaptic Depression</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neurotransmitter Agents</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>metabolism</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:33:09Z</last_update_date>
+<creation_date>2013-02-28T01:33:09Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7251</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7251" version="1.02">
+<authors><author>Sil&#039;kis IG</author></authors>
+<journal>Zhurnal vyssheĭ nervnoĭ deiatelnosti imeni I P Pavlova</journal>
+<volume>52</volume>
+<number>4</number>
+<page>392-405</page>
+<abstract>A hypothetic mechanism explaining the influence of various neuromodulators and modifiable disynaptic inhibition on the long-term potentiation and depression (LTP and LTD) of excitatory inputs to granule and pyramidal hippocampal cells is proposed. According to this mechanism, facilitation of the LTD/LTP of excitatory inputs to an inhibitory interneuron caused by the action of a neuromodulator on a receptor bound with Gi/0/(Gs or Gq/11) protein can reduce/augment the GABA release, weaken/intensify the target cell inhibition, and promote the induction of the LTP/LTD of excitatory inputs to this cell. In the absence of the inhibition, the same neuromodulator would promote the LTD/LTP induction in the target cell by activating the same receptor types. The resulting effect of a neuromodulator on a target cell depends on the ratio between the&quot;strengths&quot;of its excitatory and inhibitory inputs, on the presence of receptors of the same or different types at the interneuron and the target cell, and on the neuromodulator concentration due to its different affinity for receptors, interaction with which provide its influence on postsynaptic processes in opposite directions. The consequences of suggested mechanism are in agreement with the known experimental data.</abstract>
+<pubmed_id>12391866</pubmed_id>
+</detail>
+</item>

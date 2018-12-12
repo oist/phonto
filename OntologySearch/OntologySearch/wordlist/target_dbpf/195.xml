@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="195">
+<itemtype>xnppaper</itemtype>
+<titles><title>Theta activity, virtual navigation and the human hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-06-20T01:13:13Z</last_update_date>
+<creation_date>2008-06-20T01:13:13Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=195</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="195" version="1.02">
+<authors><author>O&#039;Keefe J</author><author>Burgess N</author></authors>
+<journal>Trends in cognitive sciences</journal>
+<volume>3</volume>
+<number>11</number>
+<page>403-406</page>
+<abstract></abstract>
+<pubmed_id>10529792 </pubmed_id>
+</detail>
+</item>

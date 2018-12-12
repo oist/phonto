@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5095">
+<itemtype>xnppaper</itemtype>
+<titles><title>Attention, configuration, and hippocampal function.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Attention</keyword>
+<keyword>physiology</keyword>
+<keyword>Cerebellum</keyword>
+<keyword>physiology</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Conditioning (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Dopamine Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Evaluation Studies as Topic</keyword>
+<keyword>Haloperidol</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>physiology</keyword>
+<keyword>Parasympathomimetics</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Physostigmine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Septal Nuclei</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T03:33:02Z</last_update_date>
+<creation_date>2011-05-16T03:33:02Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5095</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5095" version="1.02">
+<authors><author>Buhusi CV</author><author>Schmajuk NA</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>621-42</page>
+<abstract>We present a neural network that characterizes a remarkably large number of classical conditioning paradigms and describes the effects of many neurophysiological manipulations. First, the network 1) describes behavior in real time 2) comprises simple and configural stimulus representations, and 3) includes attentional control of storage and retrieval. Second, mapping of the network onto the brain can be summarized by several information processing loops: 1) a hippocampal-cortical configural loop, 2) a hippocampal-cerebellar conditioned-response loop, 3) a hippocampal-accumbens-thalamic attentional loop, and 4) a hippocampal-medial raphe-medial septum error loop. Third, within this global view of brain function, it is assumed that the hippocampal formation computes 1) the aggregate prediction of environmental events and 2) the error signals for cortical learning. These assumptions are supported by rigorous computer simulations consistent with a large body of data on hippocampal and septal neural activity, induction and blockade of hippocampal long-term potentiation, administration of cholinergic agonists and antagonists, administration of haloperidol, and selective and nonselective hippocampal and cortical lesions.</abstract>
+<pubmed_id>9034850</pubmed_id>
+</detail>
+</item>

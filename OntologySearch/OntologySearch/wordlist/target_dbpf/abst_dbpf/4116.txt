@@ -1,0 +1,27 @@
+DEIA
+Action Potentials
+Algorithms
+Analysis of Variance
+Animals
+Electrodes
+Implanted
+Hippocampus
+physiology
+Male
+Maze Learning
+physiology
+Memory
+physiology
+Microelectrodes
+Periodicity
+Prefrontal Cortex
+physiology
+Rats
+Rats
+Long-Evans
+Sleep
+physiology
+Time Factors
+Wakefulness
+physiology
+Slow-wave sleep (SWS) is important for memory consolidation. During sleep, neural patterns reflecting previously acquired information are replayed. One possible reason for this is that such replay exchanges information between hippocampus and neocortex, supporting consolidation. We recorded neuron ensembles in the rat medial prefrontal cortex (mPFC) to study memory trace reactivation during SWS following learning and execution of cross-modal strategy shifts. In general, reactivation of learning-related patterns occurred in distinct, highly synchronized transient bouts, mostly simultaneous with hippocampal sharp wave/ripple complexes (SPWRs), when hippocampal ensemble reactivation and cortico-hippocampal interaction is enhanced. During sleep following learning of a new rule, mPFC neural patterns that appeared during response selection replayed prominently, coincident with hippocampal SPWRs. This was learning dependent, as the patterns appeared only after rule acquisition. Therefore, learning, or the resulting reliable reward, influenced which patterns were most strongly encoded and successively reactivated in the hippocampal/prefrontal network.

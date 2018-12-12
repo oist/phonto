@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4753">
+<itemtype>xnppaper</itemtype>
+<titles><title>Reversible inactivation of the medial septum: selective effects on the spontaneous unit activity of different hippocampal cell types.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Lidocaine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Male</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>drug effects</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred F344</keyword>
+<keyword>Septal Nuclei</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T03:31:16Z</last_update_date>
+<creation_date>2011-04-28T03:31:16Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4753</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4753" version="1.02">
+<authors><author>Mizumori SJ</author><author>Barnes CA</author><author>McNaughton BL</author></authors>
+<journal>Brain research</journal>
+<volume>500</volume>
+<number>1</number>
+<page>99-106</page>
+<abstract>The contribution of septal afferents to spontaneous hippocampal single unit activity was examined by reversibly inactivating the medial septal nucleus using microinjections of the local anesthetic lidocaine. Septal inactivation reduced spontaneous firing of cells in stratum granulosum and in the hilar/CA3 region for periods of up to about 15 min. The firing rates of CA1 complex-spike (pyramidal) cells, however, were not changed, although CA1 theta cells (inhibitory interneurons) exhibited a significant reduction in spontaneous rate. One interpretation of this pattern of results is that the output of CA1 pyramidal cells is maintained roughly constant in spite of reduced input from CA3 because of a proportional reduction in feedforward inhibition. This interpretation is consistent with Marr&#039;s 22 formulation of the manner in which the hippocampus implements distributed associative memory. Alternatively, afferents to CA1 originating from regions other than CA3 may play a larger role in regulating CA1 output than previously assumed.</abstract>
+<pubmed_id>2605512</pubmed_id>
+</detail>
+</item>

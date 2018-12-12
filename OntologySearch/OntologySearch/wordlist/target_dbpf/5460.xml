@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5460">
+<itemtype>xnppaper</itemtype>
+<titles><title>Memorizing and recalling spatial-temporal patterns in an oscillator model of the hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Markov Chains</keyword>
+<keyword>Memory</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>Models</keyword>
+<keyword>Biological</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-13T02:28:26Z</last_update_date>
+<creation_date>2011-06-13T02:28:26Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5460</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5460" version="1.02">
+<authors><author>Borisyuk RM</author><author>Hoppensteadt FC</author></authors>
+<journal>Bio Systems</journal>
+<volume>48</volume>
+<number>1</number>
+<page>3-10</page>
+<abstract>We describe the model of the hippocampus consisting of interactive oscillators with input from the entorhinal cortex (modulating the main information flow by a theta rhythm) and the septum (a theta rhythm generator). When interconnections between oscillators are allowed to strengthen in an adaptive way, the network can be trained using a series of lessons. This results in a connection matrix that memorizes the temporal sequence of inputs. Presenting one of the lessons to the trained network results in reproduction of the remainder of the sequence. In this paper, we create such a connection matrix, derive from it an appropriate Markov chain and simulate the chain to illustrate its dynamics.</abstract>
+<pubmed_id>9886626</pubmed_id>
+</detail>
+</item>

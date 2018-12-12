@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5686">
+<itemtype>xnppaper</itemtype>
+<titles><title>Deficient hippocampal long-term potentiation in alpha-calcium-calmodulin kinase II mutant mice.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Blotting</keyword>
+<keyword>Northern</keyword>
+<keyword>Blotting</keyword>
+<keyword>Southern</keyword>
+<keyword>Calcium-Calmodulin-Dependent Protein Kinases</keyword>
+<keyword>Chromosome Mapping</keyword>
+<keyword>DNA</keyword>
+<keyword>analysis</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred BALB C</keyword>
+<keyword>Mice</keyword>
+<keyword>Mutant Strains</keyword>
+<keyword>genetics</keyword>
+<keyword>Mutagenesis</keyword>
+<keyword>Site-Directed</keyword>
+<keyword>Plasmids</keyword>
+<keyword>Protein Kinases</keyword>
+<keyword>deficiency</keyword>
+<keyword>physiology</keyword>
+<keyword>RNA</keyword>
+<keyword>analysis</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Transfection</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T03:20:29Z</last_update_date>
+<creation_date>2011-09-22T03:20:29Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5686</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5686" version="1.02">
+<authors><author>Silva AJ</author><author>Stevens CF</author><author>Tonegawa S</author><author>Wang Y</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>257</volume>
+<number>5067</number>
+<page>201-6</page>
+<abstract>As a first step in a program to use genetically altered mice in the study of memory mechanisms, mutant mice were produced that do not express the alpha-calcium-calmodulin-dependent kinase II (alpha-CaMKII). The alpha-CaMKII is highly enriched in postsynaptic densities of hippocampus and neocortex and may be involved in the regulation of long-term potentiation (LTP). Such mutant mice exhibited mostly normal behaviors and presented no obvious neuroanatomical defects. Whole cell recordings reveal that postsynaptic mechanisms, including N-methyl-D-aspartate (NMDA) receptor function, are intact. Despite normal postsynaptic mechanisms, these mice are deficient in their ability to produce LTP and are therefore a suitable model for studying the relation between LTP and learning processes.</abstract>
+<pubmed_id>1378648</pubmed_id>
+</detail>
+</item>

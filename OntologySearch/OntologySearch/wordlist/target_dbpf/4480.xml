@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4480">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neurochemistry and pharmacology of the major hippocampal transmitter systems: synaptic and nonsynaptic interactions.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>metabolism</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurotransmitter Agents</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>Neurotransmitter</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T03:35:32Z</last_update_date>
+<creation_date>2011-01-28T03:35:32Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4480</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4480" version="1.02">
+<authors><author>Vizi ES</author><author>Kiss JP</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>6</number>
+<page>566-607</page>
+<abstract>Hippocampus plays a crucial role in important brain functions (e.g. memory, learning) thus in the past two decades this brain region became a major objective of neuroscience research. During this period large number of anatomical, neurochemical and electrophysiological data have been accumulated. While excellent reviews have been published on the anatomy and electrophysiology of hippocampal formation, the neurochemistry of this area has not been thoroughly surveyed. Therefore the aim of this review is to summarize the neurochemical and pharmacological data on the release of the major neurotransmitters found in the hippocampal region: glutamate (GLU), gamma-amino butyric acid (GABA), acetylcholine (ACh), noradrenaline (NA) and serotonin (5-HT). In addition, this review analyzes the synaptic and nonsynaptic interactions between hippocampal neuronal elements and overviews how auto- and heteroreceptors are involved in the presynaptic modulation of transmitter release. The presented data clearly show that transmitters released from axon terminals without synaptic contact play an important role in the fine tuning of communication between neurons within a neuronal circuit.</abstract>
+<pubmed_id>9882017</pubmed_id>
+</detail>
+</item>

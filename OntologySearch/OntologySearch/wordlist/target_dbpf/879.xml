@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="879">
+<itemtype>xnppaper</itemtype>
+<titles><title>Memory of sequential experience in the hippocampus during slow wave sleep.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-16T03:22:01Z</last_update_date>
+<creation_date>2008-07-16T03:22:01Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=879</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="879" version="1.02">
+<authors><author>Lee AK</author><author>Wilson MA</author></authors>
+<journal>Neuron</journal>
+<volume>36</volume>
+<number>6</number>
+<page>1183-94</page>
+<abstract>Rats repeatedly ran through a sequence of spatial receptive fields of hippocampal CA1 place cells in a fixed temporal order. A novel combinatorial decoding method reveals that these neurons repeatedly fired in precisely this order in long sequences involving four or more cells during slow wave sleep (SWS) immediately following, but not preceding, the experience. The SWS sequences occurred intermittently in brief ( approximately 100 ms) bursts, each compressing the behavioral sequence in time by approximately 20-fold. This rapid encoding of sequential experience is consistent with evidence that the hippocampus is crucial for spatial learning in rodents and the formation of long-term memories of events in time in humans.</abstract>
+<pubmed_id>12495631 </pubmed_id>
+</detail>
+</item>

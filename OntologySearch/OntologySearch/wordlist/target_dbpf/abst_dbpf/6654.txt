@@ -1,0 +1,28 @@
+Adult
+Female
+Hippocampus
+anatomy
+&
+histology
+physiology
+Humans
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Neuropsychological Tests
+Parahippocampal Gyrus
+anatomy
+&
+histology
+physiology
+Prefrontal Cortex
+anatomy
+&
+histology
+physiology
+Recognition (Psychology)
+physiology
+Visual Perception
+physiology
+fMRI studies of recognition memory have often been interpreted to mean that the hippocampus selectively subserves recollection and that adjacent regions selectively subserve familiarity. Yet, many of these studies have confounded recollection and familiarity with strong and weak memories. In a source memory experiment, we compared correct source judgments (which reflect recollection) and incorrect source judgments (often thought to reflect familiarity) while equating for old-new memory strength by including only high-confidence hits in the analysis. Hippocampal activity associated with both correct source judgments and incorrect source judgments exceeded the activity associated with forgotten items and did so to a similar extent. Further, hippocampal activity was greater for high-confidence old decisions relative to forgotten items even when source decisions were at chance. These results identify a recollection signal in the hippocampus and may identify a familiarity signal as well. Similar results were obtained in the parahippocampal gyrus. Unlike in the medial temporal lobe, activation in prefrontal cortex increased differentially in association with source recollection.

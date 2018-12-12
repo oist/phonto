@@ -1,0 +1,52 @@
+Adenosine Triphosphate
+metabolism
+pharmacology
+Animals
+Calcium
+metabolism
+Calcium Channels
+drug effects
+metabolism
+Calcium Signaling
+drug effects
+physiology
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+Guinea Pigs
+Hippocampus
+drug effects
+metabolism
+Long-Term Potentiation
+drug effects
+physiology
+Long-Term Synaptic Depression
+drug effects
+physiology
+Neural Pathways
+drug effects
+metabolism
+Neurons
+drug effects
+metabolism
+Organ Culture Techniques
+Purinergic P2 Receptor Antagonists
+Pyramidal Cells
+drug effects
+metabolism
+Receptors
+N-Methyl-D-Aspartate
+antagonists
+&
+inhibitors
+metabolism
+Receptors
+Purinergic P2
+metabolism
+Synapses
+drug effects
+metabolism
+Synaptic Transmission
+drug effects
+physiology
+The present study has investigated the role of ATP in the induction of synaptic plasticity, using local application of ATP by picopump administration into the stratum radiatum of guinea pig hippocampal region CA1. Excitatory postsynaptic currents (EPSCs) evoked by stimulation of Schaffer collateral/commissural afferents synapsing on CA1 pyramidal cells of hippocampal slices were monitored in voltage-clamp mode, using whole-cell recording. Brief local application of ATP (1 mM) induced an inward current, usually consisting of early- and late-phase components. Because the late-phase component of an ATP-induced current was largely inhibited by Ca2+-free solution, this component is supposed to depend on extracellular Ca2+. After local application of ATP, long-term synaptic modification of EPSCs was induced: LTP was detected in neurons exhibiting a small late Ca2+ current, while LTD was obtained from recordings showing a large late Ca2+ current in response to ATP application. There was a statistically significant correlation between the magnitude of long-term plastic changes and the size of Ca2+ currents in response to ATP application. Furthermore, there was significant difference between the average size of the Ca2+ current in the LTP group and the size in the LTD group. These results suggest that a small Ca2+ influx in response to ATP application induces LTP, whereas a large one induces LTD in guinea pig hippocampal CA1 neurons.

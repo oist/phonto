@@ -1,0 +1,49 @@
+Animals
+Cell Shape
+Electric Stimulation
+GABA-B Receptor Antagonists
+Hippocampus
+metabolism
+Interneurons
+drug effects
+metabolism
+Male
+Membrane Potentials
+drug effects
+physiology
+Neural Inhibition
+physiology
+Neural Pathways
+drug effects
+metabolism
+Neuronal Plasticity
+drug effects
+physiology
+Organ Culture Techniques
+Patch-Clamp Techniques
+Presynaptic Terminals
+drug effects
+metabolism
+Pyramidal Cells
+drug effects
+metabolism
+Rats
+Rats
+Sprague-Dawley
+Receptors
+GABA-B
+metabolism
+Receptors
+Metabotropic Glutamate
+antagonists
+&
+inhibitors
+metabolism
+Synaptic Transmission
+drug effects
+physiology
+Theta Rhythm
+drug effects
+gamma-Aminobutyric Acid
+metabolism
+Abstract In hippocampal pyramidal cells, the efficacy of synaptic transmission at gamma-aminobutyric acid (GABA)ergic synapses, is modulated by activity. However, whether such plasticity occurs at inhibitory synapses on interneurons remains largely unknown. Using whole-cell voltage-clamp recordings of inhibitory postsynaptic currents (IPSCs) in Sprague-Dawley rat hippocampal slices, we examined whether GABA synapses of stratum radiatum interneurons were affected by stimulation protocols known to alter efficacy at inhibitory synapses of CA1 pyramidal cells. Monosynaptically evoked IPSCs (eIPSCs) exhibited different properties with significantly faster kinetics, higher coefficients of variation, a current-voltage (I-V) relationship shifted to depolarized values and a smaller paired-pulse depression, in interneurons than in pyramidal cells. GABA synapses on interneurons also showed a different capacity for plasticity. Indeed, theta-burst stimulation induced a long-term potentiation of eIPSCs in both cell types, but the induction mechanisms differed in interneurons, as it was not affected by antagonists of GABAB receptors and group I/II metabotropic glutamate receptors (mGluRs). Furthermore, 100-Hz tetanization selectively elicited a short-term depression of eIPSCs in pyramidal cells. A postsynaptic depolarization produced a transient suppression of eIPSCs (depolarization-induced suppression of inhibition) in pyramidal cells but not in interneurons. Spontaneous IPSCs were similarly reduced following depolarization in pyramidal cells, but not in interneurons. These results indicate that GABA synapses of stratum radiatum interneurons exhibit different properties and capacity for activity-dependent plasticity than those of pyramidal cells. This cell-type specific mode of transmission and adaptive regulation of GABA synapses may contribute to hippocampal plasticity and functions.

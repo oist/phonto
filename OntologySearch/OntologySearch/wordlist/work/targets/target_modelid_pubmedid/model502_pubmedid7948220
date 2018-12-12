@@ -1,0 +1,32 @@
+1. Biol Cybern. 1994;71(4):281-91.
+
+Analysis of bursting in a thalamic neuron model.
+
+Rush ME(1), Rinzel J.
+
+Author information: 
+(1)Mathematical Research Branch, NIDDK, National Institutes of Health, Bethesda, 
+MD 20892.
+
+We extend a quantitative model for low-voltage, slow-wave excitability based on
+the T-type calcium current (Wang et al. 1991) by juxtaposing it with a
+Hodgkin-Huxley-like model for fast sodium spiking in the high voltage regime to
+account for the distinct firing modes of thalamic neurons. We employ bifurcation 
+analysis to illustrate the stimulus-response behavior of the full model under
+both voltage regimes. The model neuron shows continuous sodium spiking when
+depolarized sufficiently from rest. Depending on the parameters of calcium
+current inactivation, there are two types of low-voltage responses to a
+hyperpolarizing current step: a single rebound low threshold spike (LTS) upon
+release of the step and periodic LTSs. Bursting is seen as sodium spikes ride the
+LTS crest. In both cases, we analyze the LTS burst response by projecting its
+trajectory into a fast/slow phase plane. We also use phase plane methods to show 
+that a potassium A-current shifts the threshold for sodium spikes, reducing the
+number of fast sodium spikes in an LTS burst. It can also annihilate periodic
+bursting. We extend the previous work of Rose and Hindmarsh (1989a-c) for a
+thalamic neuron and propose a simpler model for thalamic activity. We consider
+burst modulation by using a neuromodulator-dependent potassium leakage
+conductance as a control parameter. These results correspond with experiments
+showing that the application of certain neurotransmitters can switch firing
+modes.
+
+PMID: 7948220  [PubMed - indexed for MEDLINE]

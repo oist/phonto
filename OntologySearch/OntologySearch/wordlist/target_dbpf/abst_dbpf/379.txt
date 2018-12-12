@@ -1,0 +1,21 @@
+Animals
+Conditioning
+Operant
+drug effects
+Electroencephalography
+Electrophysiology
+methods
+Food Deprivation
+Hippocampus
+drug effects
+physiology
+Male
+Pyramidal Tracts
+drug effects
+physiology
+Rats
+Rats
+Inbred F344
+Tetracaine
+pharmacology
+Medial septal modulation of hippocampal single-unit activity was examined by assessing the behavioral and physiological consequences of reversibly inactivating the medial septum via microinjection of a local anesthetic (tetracaine) in freely behaving rats trained to solve a working memory problem on a radial maze. Reversible septal inactivation resulted in a dramatic, but temporary (15-20 min), impairment in choice accuracy. In addition, movement-induced theta (theta) modulation of the hippocampal EEG was eliminated. Septal injection of tetracaine also produced a significant reduction in location-specific firing by hilar/CA3c complex-spike cells (about 50%), with no significant change in the place-specific firing properties of CA1 complex-spike units. The mean spontaneous rates of stratum granulosum and CA1 theta cells were temporarily reduced by about 50% following septal injection of tetracaine. Although there was a significant reduction in the activities of inhibitory interneurons (theta cells) in CA1, there was no loss of spatial selectivity in the CA1 pyramidal cell discharge patterns. We interpret these results as support for the proposal originally put forth by Marr (1969, 1971) that hippocampal circuits perform pattern completion on fragmentary input information as a result of a normalization operation carried out by inhibitory interneurons. A second major finding in this study was that location specific firing of CA1 cells can be maintained in the virtual absence of the hippocampal theta-rhythm.

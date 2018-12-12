@@ -1,0 +1,40 @@
+Adrenocorticotropic Hormone
+physiology
+Amygdala
+physiology
+Animals
+Corticotropin-Releasing Hormone
+physiology
+Glucocorticoids
+physiology
+Hippocampus
+physiology
+Humans
+Hypothalamo-Hypophyseal System
+physiology
+physiopathology
+Hypothalamus
+physiology
+Limbic System
+physiology
+physiopathology
+Paraventricular Hypothalamic Nucleus
+physiology
+physiopathology
+Pituitary-Adrenal System
+physiology
+physiopathology
+Prefrontal Cortex
+physiology
+Raphe Nuclei
+physiology
+Septal Nuclei
+physiology
+Solitary Nucleus
+physiology
+Stress
+Physiological
+physiopathology
+Thalamus
+physiology
+Appropriate regulatory control of the hypothalamo-pituitary-adrenocortical stress axis is essential to health and survival. The following review documents the principle extrinsic and intrinsic mechanisms responsible for regulating stress-responsive CRH neurons of the hypothalamic paraventricular nucleus, which summate excitatory and inhibitory inputs into a net secretory signal at the pituitary gland. Regions that directly innervate these neurons are primed to relay sensory information, including visceral afferents, nociceptors and circumventricular organs, thereby promoting 'reactive' corticosteroid responses to emergent homeostatic challenges. Indirect inputs from the limbic-associated structures are capable of activating these same cells in the absence of frank physiological challenges; such 'anticipatory' signals regulate glucocorticoid release under conditions in which physical challenges may be predicted, either by innate programs or conditioned stimuli. Importantly, 'anticipatory' circuits are integrated with neural pathways subserving 'reactive' responses at multiple levels. The resultant hierarchical organization of stress-responsive neurocircuitries is capable of comparing information from multiple limbic sources with internally generated and peripherally sensed information, thereby tuning the relative activity of the adrenal cortex. Imbalances among these limbic pathways and homeostatic sensors are likely to underlie hypothalamo-pituitary-adrenocortical dysfunction associated with numerous disease processes.

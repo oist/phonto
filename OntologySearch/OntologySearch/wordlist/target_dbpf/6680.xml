@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6680">
+<itemtype>xnppaper</itemtype>
+<titles><title>Amygdala activity is associated with the successful encoding of item, but not source, information for positive and negative stimuli.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Amygdala</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Analysis of Variance</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Emotions</keyword>
+<keyword>physiology</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>methods</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>Oxygen</keyword>
+<keyword>blood</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Reaction Time</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:11:41Z</last_update_date>
+<creation_date>2013-02-26T07:11:41Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6680</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6680" version="1.02">
+<authors><author>Kensinger EA</author><author>Schacter DL</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>26</volume>
+<number>9</number>
+<page>2564-70</page>
+<abstract>It has been debated whether the link between amygdala activity and subsequent memory is equally strong for positive and negative information. Moreover, it has been unclear whether amygdala activity at encoding corresponds with enhanced memory for all contextual aspects of the presentation of an emotional item, or whether amygdala activity primarily enhances memory for the emotional item itself. In the present functional magnetic resonance imaging study, participants encoded positive and negative stimuli while performing one of two tasks (judgment of animacy or commonness). Amygdala activity at encoding was related to subsequent memory for the positive and negative items but not to subsequent memory for the task performed. Amygdala activity showed no relationship to subsequent-memory performance for the neutral items. Regardless of the emotional content of the items, activity in the entorhinal cortex corresponded with subsequent memory for the item but not with memory for the task performed, whereas hippocampal activity corresponded with subsequent memory for the task performed. These results are the first to demonstrate that the amygdala can be equally engaged during the successful encoding of positive and negative items but that its activity does not facilitate the encoding of all contextual elements present during an encoding episode. The results further suggest that dissociations within the medial temporal lobe sometimes noted for nonemotional information (i.e., activity in the hippocampus proper leading to later memory for context, and activity in the entorhinal cortex leading to later memory for an item but not its context) also hold for emotional information.</abstract>
+<pubmed_id>16510734</pubmed_id>
+</detail>
+</item>

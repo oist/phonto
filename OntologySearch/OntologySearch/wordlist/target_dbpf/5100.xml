@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5100">
+<itemtype>xnppaper</itemtype>
+<titles><title>Modeling the spontaneous reactivation of experience-specific hippocampal cell assembles during sleep.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T03:36:26Z</last_update_date>
+<creation_date>2011-05-16T03:36:26Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5100</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5100" version="1.02">
+<authors><author>Shen B</author><author>McNaughton BL</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>685-92</page>
+<abstract>During slow-wave sleep (SWS) following periods of spatial activity, hippocampal place cells that were temporally correlated, by virtue of the overlap of their place fields, exhibit enhanced temporal correlations, even though the animal sleeps in a different location (Wilson and McNaughton [1994] Science 267:676-679). The discharge of cells with overlapped place fields is more correlated in subsequent sleep, particularly during sharp waves, than in sleep episodes prior to the behavior, or than cell pairs with non-overlapped place fields. The reactivated correlated states appear during hippocampal sharp waves (SPWs), and are weak or absent in the inter-SPW interval. A simple conceptual hypothesis for this phenomenon is developed, based on the idea that hippocampal place fields reflect a two-dimensional distribution of continuously overlapping dynamic attractors in which each location is represented by the self-sustaining activity of a small subset of neurons with overlapping place fields. A numerical simulation of this hypothesis, based on a simplified representation of the CA8 recurrent network, accounts qualitatively for the main observations, including SPW-like dynamics. It is shown that, under conditions in which the connection patterns have been previously established, either associative or nonassociative mechanisms might underlie the reactivation of recently experienced states. These two alternatives appear, under at least some conditions (e.g., sparse coding), to be indistinguishable.</abstract>
+<pubmed_id>9034855</pubmed_id>
+</detail>
+</item>

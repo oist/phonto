@@ -1,0 +1,19 @@
+Animals
+Brain Mapping
+Female
+Head Movements
+physiology
+Hippocampus
+cytology
+physiology
+Motor Activity
+physiology
+Neurons
+physiology
+Orientation
+Rats
+Reaction Time
+Rotation
+Thalamic Nuclei
+physiology
+Single cells in the rat anterior thalamic nucleus (ATN) and postsubiculum (PoS) discharge as a function of the rat's directional heading in the horizontal plane, independent of its location. A previous study that compared cell firing during clockwise and counterclockwise head turns concluded that ATN 'head direction' (HD) cell discharge anticipates the rat's future directional heading, while PoS HD cell discharge is in register with the rat's current directional heading (Blair and Sharp [1995] J Neurosci 15:6260-6270). In the current study we extend these findings by using a different method of analysis. HD cells in the ATN and PoS were first characterized by three different measures: peak firing rate, range width, and information content. We then examined how these measures varied when cell firing was aligned with past (negative time shift) or future (positive time shift) head direction of the rat. We report that all three measures were optimized when ATN cell firing was aligned with the animal's future directional heading by about +23 msec. In contrast, PoS HD cell firing was optimized when cell firing was aligned with the rat's past head direction by about -7 msec. When the optimal value was plotted as a function of the amount of time spikes were shifted relative to head orientation, the mean ATN function was shifted to the right of the PoS function only at negative time shifts; at positive time shifts the two functions overlapped. Analysis of two recording sessions from the same cell indicated that each cell in a particular brain area is 'tuned' to a specific time shift so that all cells within a brain area are not uniformly tuned to the same time shift. Other analyses showed that the clockwise and counterclockwise tuning functions were not skewed in the direction of the head turn as postulated by Redish et al. ([1996] Network: Computation in Neural Systems 7:671-685) and Blair et al. ([1997] J Neurophysiol 17:145-159). Additional analysis on episodes when the rat happened to continually point its head in the preferred direction indicated that HD cell firing undergoes little adaptation. In the Discussion, we argue that these results are best accounted for by a motor efference copy signal operating on both types of HD cells such that the copy associated with the PoS HD cells is delayed in time by about 30 msec relative to the copy associated with ATN HD cells.

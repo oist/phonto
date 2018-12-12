@@ -1,0 +1,26 @@
+Action Potentials
+physiology
+Animals
+Entorhinal Cortex
+cytology
+physiopathology
+Epilepsy
+Temporal Lobe
+physiopathology
+Excitatory Postsynaptic Potentials
+physiology
+Hippocampus
+cytology
+physiopathology
+Humans
+Interneurons
+physiology
+Microelectrodes
+Neurons
+Afferent
+physiology
+Periodicity
+Pyramidal Cells
+physiology
+Rats
+Ripples are 100-200 Hz short-duration oscillatory field potentials that have recently been recorded in rat hippocampus and entorhinal cortex. They reflect fast IPSPs on the soma of pyramidal cells, which occur during synchronous afferent excitation of principal cells and interneuron networks. We now describe two similar types of high-frequency field oscillations recorded from the entorhinal cortex and hippocampus of patients with mesial temporal lobe epilepsy. The first type appears be the human equivalent of normal ripples in the rat. The second, which we have termed fast ripples (FR), are in the frequency range of 250-500 Hz. FR are found in the epileptogenic region and may reflect pathological hypersynchronous population spikes of bursting pyramidal cells.

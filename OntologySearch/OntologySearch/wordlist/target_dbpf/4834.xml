@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4834">
+<itemtype>xnppaper</itemtype>
+<titles><title>Testing neural network models of memory with behavioral experiments.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mice</keyword>
+<keyword>Neural Networks (Computer)</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Automated</keyword>
+<keyword>Rats</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T06:19:12Z</last_update_date>
+<creation_date>2011-04-28T06:19:12Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4834</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4834" version="1.02">
+<authors><author>Kesner RP</author><author>Gilbert PE</author><author>Wallenstein GV</author></authors>
+<journal>Current opinion in neurobiology</journal>
+<volume>10</volume>
+<number>2</number>
+<page>260-5</page>
+<abstract>In recent years, a number of computational neural networks have been proposed aimed at describing memory functions associated with different subregions of the hippocampus, namely dentate gyrus, CA3 and CA1. Recent evidence suggests that indeed specific subregions of the hippocampus may subserve different computational functions, such as spatial and temporal pattern separation, short-term or working memory, pattern association, and temporal pattern completion.</abstract>
+<pubmed_id>10753789</pubmed_id>
+</detail>
+</item>

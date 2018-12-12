@@ -1,0 +1,25 @@
+6-Cyano-7-nitroquinoxaline-2
+3-dione
+Animals
+Anticonvulsants
+pharmacology
+Epilepsy
+chemically induced
+metabolism
+physiopathology
+Hippocampus
+drug effects
+physiopathology
+Picrotoxin
+Quinoxalines
+pharmacology
+Rats
+Rats
+Inbred Strains
+Receptors
+Amino Acid
+Receptors
+Cell Surface
+drug effects
+physiology
+The ability of the non-NMDA receptor antagonist 6-cyano-7-nitroquinoxaline-2,3-dione (CNQX) to suppress picrotoxin-induced epileptiform burst activity was examined. Intracellular recordings were obtained from hippocampal CA1 and CA3 pyramidal neurons maintained in vitro. Bath application of CNQX (5 microM) significantly reduced or abolished evoked paroxysmal depolarizing shifts (PDSs) in all CA1 and CA3 neurons tested. In cells where a CNQX-insensitive component in the PDS was manifest, this remaining activity was abolished by the N-methyl-D-aspartate (NMDA) receptor antagonist D-2-amino-5-phosphonovaleric acid (20 microM), suggesting the existence of a NMDA-mediated synaptic potential. Our results indicate that non-NMDA receptor antagonists are capable of markedly reducing picrotoxin-induced epileptiform activity and that these receptors play an important role in generation of PDSs.

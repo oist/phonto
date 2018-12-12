@@ -1,0 +1,49 @@
+Animals
+Biotransformation
+physiology
+Calcium
+physiology
+Electrophysiology
+Excitatory Postsynaptic Potentials
+GABA Agonists
+pharmacology
+GABA Antagonists
+pharmacology
+GTP-Binding Proteins
+metabolism
+Hippocampus
+drug effects
+physiology
+Interneurons
+physiology
+Long-Term Potentiation
+physiology
+Male
+Membrane Potentials
+physiology
+Neurons
+Afferent
+physiology
+Patch-Clamp Techniques
+Pyramidal Cells
+physiology
+Rats
+Rats
+Sprague-Dawley
+Receptors
+GABA-A
+drug effects
+physiology
+Receptors
+GABA-B
+drug effects
+physiology
+Receptors
+Metabotropic Glutamate
+physiology
+Synaptic Transmission
+drug effects
+physiology
+gamma-Aminobutyric Acid
+metabolism
+Repetitive stimulation of Schaffer collaterals induces activity-dependent changes in the strength of polysynaptic inhibitory postsynaptic potentials (IPSPs) in hippocampal CA1 pyramidal neurons that are dependent on stimulation parameters. In the present study, we investigated the effects of two stimulation patterns, theta-burst stimulation (TBS) and 100 Hz tetani, on pharmacologically isolated monosynaptic GABAergic responses in adult CA1 pyramidal cells. Tetanization with 100 Hz trains transiently depressed both early and late IPSPs, whereas TBS induced long-term potentiation (LTP) of early IPSPs that lasted at least 30 min. Mechanisms mediating this TBS-induced potentiation were examined using whole-cell recordings. The paired-pulse ratio of monosynaptic inhibitory postsynaptic currents (IPSCs) was not affected during LTP, suggesting that presynaptic changes in GABA release are not involved in the potentiation. Bath application of the GABAB receptor antagonist CGP55845 or the group I/II metabotropic glutamate receptor antagonist E4-CPG inhibited IPSC potentiation. Preventing postsynaptic G-protein activation or Ca2+ rise by postsynaptic injection of GDP-beta-S or BAPTA, respectively, abolished LTP, indicating a G-protein- and Ca2+-dependent induction in this LTP. Finally during paired-recordings, activation of individual interneurons by intracellular TBS elicited solely short-term increases in average unitary IPSCs in pyramidal cells. These results indicate that a stimulation paradigm mimicking the endogenous theta rhythm activates cooperative postsynaptic mechanisms dependent on GABABR, mGluR, G-proteins and intracellular Ca2+, which lead to a sustained potentiation of GABAA synaptic transmission in pyramidal cells. GABAergic synapses may therefore contribute to functional synaptic plasticity in adult hippocampus.

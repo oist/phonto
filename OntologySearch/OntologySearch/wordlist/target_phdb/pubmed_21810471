@@ -1,0 +1,892 @@
+Biochimica et Biophysica Acta 1812 (2011) 1452–1459
+
+Contents lists available at ScienceDirect
+
+Biochimica et Biophysica Acta
+
+j ou r n a l h o me pa g e : ww w. e l s ev i e r. c o m/ l o c a t e / b ba di s
+
+Identiﬁcation and functional characterization of KCNQ1 mutations around the exon
+7–intron 7 junction affecting the splicing process
+Keiko Tsuji–Wakisaka a, Masaharu Akao b, Takahiro M. Ishii c, Takashi Ashihara a, Takeru Makiyama b,
+Seiko Ohno b, Futoshi Toyoda d, Kenichi Dochi a, Hiroshi Matsuura d, Minoru Horie a,⁎
+a Department of Cardiovascular and Respiratory Medicine, Shiga University of Medical Science, Otsu, Japan
+b Department of Cardiovascular Medicine, Kyoto University Graduate School of Medicine, Kyoto, Japan
+c Department of Physiology, Kyoto University Graduate School of Medicine, Kyoto, Japan
+d Department of Physiology, Shiga University of Medical Science, Otsu, Japan
+
+a r t i c l e
+
+i n f o
+
+a b s t r a c t
+
+Article history:
+Received 17 March 2011
+Received in revised form 28 June 2011
+Accepted 18 July 2011
+Available online 24 July 2011
+
+Keywords:
+Long QT syndrome
+Ion channel
+Splicing mutation
+
+Background. KCNQ1 gene encodes the delayed rectiﬁer K+ channel in cardiac muscle, and its mutations cause
+long QT syndrome type 1 (LQT1). Especially exercise-related cardiac events predominate in LQT1. We
+previously reported that a KCNQ1 splicing mutation displays LQT1 phenotypes. Methods and results. We
+identiﬁed novel mutation at the third base of intron 7 (IVS7 +3A NG) in exercise-induced LQT1 patients.
+Minigene assay in COS7 cells and RT-PCR analysis of patients' lymphocytes demonstrated the presence of exon
+7-deﬁcient mRNA in IVS7 +3A N G, as well as c.1032G NA, but not in c.1022C N T. Real-time RT-PCR
+demonstrated that both IVS7 +3A N G and c.1032G N A carrier expressed signiﬁcant amounts of exon-skipping
+mRNAs (18.8% and 44.8% of total KCNQ1 mRNA). Current recordings from Xenopus oocytes injected cRNA by
+simulating its ratios of exon skipping displayed a signiﬁcant reduction in currents to 64.8 ± 4.5% for IVS7 +
+3A NG and to 41.4 ± 9.5% for c.1032G N A carrier, respectively, compared to the condition without splicing error.
+Computer simulation incorporating these quantitative results revealed the pronounced QT prolongation under
+beta-adrenergic stimulation in IVS7 +3A N G carrier model. Conclusion. Here we report a novel splicing
+mutation IVS7 +3A NG, identiﬁed in a family with mild form LQT1 phenotypes, and examined functional
+outcome in comparison with three other variants around the exon 7–intron 7 junction. In addition to
+c.1032G N A mutation, IVS7 +3A N G generates exon-skipping mRNAs, and thereby causing LQT1 phenotype.
+The severity of clinical phenotypes appeared to differ between the two splicing-related mutations and to result
+from the amount of resultant mRNAs and their functional consequences.
+
+© 2011 Elsevier B.V. All rights reserved.
+
+1. Introduction
+
+Long QT syndrome (LQTS) is characterized by prolongation of the
+cardiac action potential, syncopal attacks, torsades de pointes arrhyth-
+mias and sudden cardiac death [1–3]. The slow component of delayed
+rectiﬁer K+ current (IKs) in the heart modulates repolarization of cardiac
+action potential. The IKs channel is formed by the co-assembly of KCNQ1
+α-subunits and KCNE1 β-subunits [4,5]. Mutations in the KCNQ1 cause
+the most frequent form of inherited LQT1 [6]. Exercise-related cardiac
+events dominate the clinical picture of LQT1 patients.
+
+Pre-mRNA processing is an important aspect of gene expression
+and consists of the precise recognition of exons and removal of introns
+in such a way that the exons are joined to form mature mRNAs with
+intact translational reading frames [7,8]. Disruption of normal splicing
+as a result of genetic mutation can lead to the generation of abnormal
+
+⁎ Corresponding author at: Department of Cardiovascular Medicine, Shiga University
+
+of Medical Sciences, Japan. Tel.: +81 77 548 2213; fax: +81 77 543 5839.
+
+E-mail address: horie@belle.shiga-med.ac.jp (M. Horie).
+
+0925-4439/$ – see front matter © 2011 Elsevier B.V. All rights reserved.
+doi:10.1016/j.bbadis.2011.07.011
+
+proteins or the degradation of aberrant transcripts through nonsense-
+mediated decay, and thus to the pathogenesis of a variety of human
+diseases [9].
+
+We previously reported three LQTS families, in whom a G to A
+change in the last base of KCNQ1 exon 7 (c.1032G NA) was identiﬁed
+[10]. The mutation alters the 5′ splice-site of intron 7, resulting in the
+production of exon-skipping transcripts, but not to alter the coded
+alanine (A344A) [11,12], since it involves the characteristic consensus
+sequence of the splicing donor site, AG/GUAAGU. The vicinity of junction
+around the KCNQ1 exon 7–intron 7 appeared to be a hot area for genetic
+variants that may potentially cause aberrant splicing, and we identiﬁed
+a novel mutation that changes an A to G at the third base of intron 7
+(IVS7 +3ANG) in LQTS family with mild clinical phenotypes. In con-
+trast, another neighboring KCNQ1 mutation, c.1022C NT (p. A341V) is
+known to produce severe clinical phenotypes [13].
+
+To test the potential inﬂuence of these mutations that may affect the
+KCNQ1 splicing, we established a minigene assay system in which a
+respective mutant construct is transcribed in COS7 cells and examined
+the genetic and biophysical characterization of the novel IVS7 +3ANG
+
+K. Tsuji–Wakisaka et al. / Biochimica et Biophysica Acta 1812 (2011) 1452–1459
+
+1453
+
+mutation. For comparison, we also investigated two other mutations
+around the exon 7–intron 7 junction; c.1022C NT and c.1032GNA. We
+quantitatively analyzed the aberrant splicing and its functional con-
+sequences and then carried out a computer simulation to explore how
+this mutation could be associated with exercise-induced QT prolonga-
+tion and tachyarrhythmias.
+
+based on the Ct values and normalized by the GAPDH level of each
+sample. The amounts of mutant cDNA were expressed as a percent-
+age of the total KCNQ1 mRNA, for which exons 9 through 10 were
+ampliﬁed with the exon 9-F forward primer (5′-CGCATGGAGGTGC-
+TATGCT-3′) and the exon 10-R reverse primer.
+
+2. Materials and methods
+
+2.1. Genomic DNA isolation and mutation analysis
+
+Mutation analysis was carried out as previously described [10].
+Genomic DNA was prepared from peripheral blood leukocytes. Sixteen
+exons of the KCNQ1 gene were ampliﬁed by PCR. Genetic screening was
+performed for KCNQ1 by denaturing high-performance liquid chroma-
+tography (DHPLC) using a WAVE System Model 3500 (Transgenomic:
+Omaha, NE). We optimized the running optimum temperature at
+64.6 °C. Abnormal conformers were ampliﬁed by PCR and sequencing
+was performed on an ABI PRISM3130 DNA sequencer (Applied
+Biosystems: Foster City, CA). We also carried out a complete screening
+for other LQTS-causing genes; KCNH2, SCN5A, KCNE1, KCNE2, and
+KCNJ2.
+
+2.2. Construction of splicing minigene and transfection
+
+Exon 7 of the KCNQ1 gene (111 bps) and its ﬂanking introns
+(507 bps at 5′ arm and 453 bps at 3′ arm) were ampliﬁed by PCR using
+genomic DNA from control and patients. PCR fragments were cloned
+into the pSPL3 exon trapping vector (Gibco BRL) digested with EcoRV
+within the multiple cloning site. The pSPL3 vector contains the HIV-1
+tat exons and the intervening intron with EcoRV site. COS7, CHO and
+HL-1cells were transfected with 0.25 μg plasmid DNA using Lipofecta-
+min transfection reagent (Invitrogen). Cells were harvested 48 h post-
+transfection.
+
+2.3. RNA extraction and RT-PCR
+
+Total cellular RNA was isolated with QIAamp RNA Blood Mini Kits
+(Qiagen). Subsequently, total RNA was reverse-transcribed by use of the
+SuperScriptIII FirstStrand Synthesis System (Invitrogen: Carlsbad, CA),
+and was used as a template for subsequent PCR reactions. We used the
+forward primer (5′-TCTGAGTCACCTGGACAACC-3′) and the reverse
+primer (5′-ATCTCAGTGGTATTTGTGAGC-3′), both of which anneal to
+the pSPL3 vector sequence.
+
+Total RNA was extracted from leukocytes of fresh blood and was
+reverse-transcribed using the same methods described above. Using
+the cDNAs as templates, PCR ampliﬁcation was performed with the
+exon 5-F forward primer (5′-GGGCATCCGCTTCCTGCAGA-3′) and the
+exon10-R reverse primer (5′-CCATTGTCTTTGTCCAGCTTGAAC-3′) to
+amplify KCNQ1 cDNA from exons 5 through 10.
+
+Measurements of normal and mutant mRNA levels were performed by
+real-time RT-PCR by use of an ABI PRISM 7900HT Sequence Detection
+System (Applied Biosystems). The reaction mixture contained SYBR Green
+PCR Master Mix (Applied Biosystems), cDNA template, and PCR primers.
+In order to selectively amplify these splicing variants, PCR primers were
+designed so that they spanned the adjacent exons: exon 6.8-F: 5′-
+CTGTGGTGGGGGGTG-GGGATT-3′, exon 6.9-F: 5′-TGTGGTGGGGGGTG-
+ACCGCAT-3′, and exon 7.9-F: 5′-CTTTGCGCTCCCAGCG-ACCG-3′ (all
+the hyphens inside the primer sequence indicate the boundaries of
+exons). In all cases, the dissociation curves showed that there was no
+signiﬁcant contribution of relatively short by-products to the measured
+ﬂuorescence intensities.
+
+All the samples were tested in duplicate. A standard curve for each
+primer pair was obtained using serial dilutions of a recombinant
+plasmid containing cDNA. The threshold cycle (Ct) was subsequently
+determined. Relative mRNA levels of splice mutants were calculated
+
+2.4. Oocyte isolation and electrophysiology
+
+Xenopus laevis oocytes were prepared and current recordings were
+carried out as described previously [14]. Wild-type (WT) cRNA plus
+mutant-cRNA (total 10 ng) was injected into Xenopus oocytes. All the
+current recordings in the present study were performed in the presence
+of KCNE1 β-subunits (1 ng). An axoclamp-2B ampliﬁer (Axon In-
+struments: Union City, CA) was used to record currents at 25 °C in
+oocytes 3–4 days after cRNA injection, using standard two-electrode
+voltage-clamp techniques. To decrease the interference from endoge-
+nous Cl− current, we used a low-Cl− bath solution (mM): NaOH 96,
+KOH 2, CaCl2 2, MgCl2 1, MeS 101, HEPES 5 (pH titrated to 7.6 with
+methanesulfonic acid). Currents were sampled at 10 kHz and ﬁltered
+at 2 kHz. Voltage steps were applied with 3-second pulses in 10 mV
+increments from a holding potential of −80 mV to voltages from −70
+to +30 mV, and then to−30 mV. Current amplitudes were measured at
+1.8-second after the initiation of 3-second pulse applied to a +30 mV
+test potential, followed by the subtraction of background IKs current
+(22.9 nA).
+
+2.5. Computer simulation
+
+We conducted simulations of paced propagation in a one-
+dimensional (1D) bidomain myocardial model of 9.0-mm length
+with transverse conductivity, mimicking transmural section of left
+ventricular free wall. Membrane kinetics was represented by the
+Priebe–Beuckelmann model [15], which can simulate human ventric-
+ular action potentials.
+
+To obtain the ventricular transmural gradient, we deﬁned endocar-
+dial, mid-myocardial, and epicardial tissues of lengths (thicknesses)
+0.6 mm, 6.0 mm, and 2.4 mm, respectively, and then we incorporated
+modiﬁcations of ion channel conductance (Table 1), based on the
+previous studies [16,17]. Pacing stimuli of 3-ms duration and strength
+twice-diastolic threshold were applied transmembranously to the
+endocardial end at a cycle length of 1000 ms. To get ECG similar to the
+left precordial ECG, a unipolar recording electrode was located 3 cm
+above the epicardial end of the tissue. Other model parameters, such
+as the tissue conductivities and the boundary conditions, can be found
+elsewhere [18,19].
+
+To achieve the beta-adrenergic stimulation, we set the param-
+eters as previously described [20–22]: (1) shifting the fast and slow
+inactivation curves of the sodium current (INa) –3.4 mV, (2) increasing
+the L-type calcium current (ICaL) 3 times and slowing the time constant
+of inactivation 1.13 times, (3) increasing the half-point concentration
+for the calcium-dependent inactivation (fCa) from 0.7 to 0.9 μM, and
+setting its non-zero minimum value to 0.03, (4) increasing the slowly
+
+Table 1
+Model modiﬁcation values for ventricular transmural gradient.
+
+GKs
+GK1
+GNaCa
+Gto
+Gj
+
+Endo
+
+208%
+82%
+72%
+25%
+100%
+
+M
+
+52%
+83%
+108%
+87%
+100%
+
+Epi
+
+280%
+100%
+100%
+100%
+76%
+
+GKs, conductance of slowly activating component of delayed rectiﬁer potassium
+channel; GK1, conductance of inward rectiﬁer potassium channel; GNaCa, conductance of
+sodium–calcium exchanger; Gto, conductance of transient outward potassium channel;
+Gj; gap junctional conductance. All values are expressed in percentage compared to
+original values [15]. Endo; endocardial cell, M; midcardial cell, Epi; epicardial cell.
+
+1454
+
+K. Tsuji–Wakisaka et al. / Biochimica et Biophysica Acta 1812 (2011) 1452–1459
+
+activating component of delayed rectiﬁer potassium current (IKs) 2
+times and shifting the activation curve −8 mV, and (5) increasing
+currents of the calcium pump in sarcoplasmic reticulum (Iup) and the
+sodium–potassium pump (INaK) 1.41 and 1.2 times, respectively.
+
+The numerical approach, including methods for integration and
+solution of the linear system, has been described elsewhere [18]. The
+time and spatial discretization steps were 10 μs and 75 μm, respec-
+tively. The method for calculating ECG was also described previously
+[23]. QT interval was numerically deﬁned as the time period from the
+onset of Q wave to the last peak of second derivative of T wave. The
+convergence of the simulation results was tested by repeating some
+simulations with half of the spatial and time discretization steps.
+
+2.6. Statistical analysis
+
+Quantitative data are presented as the mean±SEM. Multiple
+comparisons among groups were carried out by one-way ANOVA with
+Bonferroni's least signiﬁcant difference as the post-hoc test. A level of
+P b0.05 was accepted as statistically signiﬁcant.
+
+3. Results
+
+3.1. Clinical phenotypes
+
+Pedigree for the family with novel IVS7 +3A NG mutation is shown
+in Fig. 1a. The proband, 34-year-old woman (II-1), was ﬁrst diagnosed
+with LQTS at age 14, and has remained asymptomatic. The ECG
+recording at rest showed a marked QT prolongation (QTc=558 ms:
+Fig. 1b). Her mother (I-2) had no syncopal episodes, despite a re-
+markable QT prolongation at rest (QTc=536 ms: Fig. 1b, I-2). Her father
+(I-1) had normal QTc interval (QTc=367 ms: Fig. 1b, I-1). None of her
+relatives have had a history of syncope or cardiac sudden death.
+Treadmill test of the proband revealed a pronounced exercise-induced
+QT prolongation (QTc=503 ms before exercise, 615 ms at stage 4:
+Fig. 1c).
+
+Regarding the families with c.1032G NA mutation, there were 9
+probands from 9 unrelated families. Eight of them (89%) were symp-
+tomatic, and seven (78%) developed cardiac events before age 15. Their
+episodes were triggered by exercise, especially swimming (ﬁve cases).
+Seven of 9 families (78%) had at least N2 symptomatic mutation carriers.
+
+a
+
+I
+
+II
+
+b
+II-1
+II
+
+I-1
+II
+
+I-2
+II
+
+I-3
+
+1
+
+2
+
+3
+
+proband
+
+1
+
+QTc 558 ms
+
+c
+rest
+
+non mutation carrier
+mutation carrier
+no DNA test
+
+QTc 503 ms
+
+QTc 367 ms
+
+stage 4
+
+QTc 615 ms
+
+QTc 536 ms
+
+recovery 1.5’
+
+QTc 531 ms
+
+QTc 396 ms
+
+400ms
+
+recovery 8’
+
+QTc 539 ms
+
+400ms
+
+Fig. 1. Clinical and genetic characteristics of the family. (a) Pedigree. Circles represent females and squares represent males. The arrows indicate the proband. Members carrying the
+mutation are represented by solid symbols. (b) ECG recordings. ECG panels show ECG recordings at rest of various individuals. The QTc interval is indicated. (c) ECG recordings at
+treadmill exercise test.
+
+K. Tsuji–Wakisaka et al. / Biochimica et Biophysica Acta 1812 (2011) 1452–1459
+
+1455
+
+Mean QTc interval of 9 probands were 494±90 ms. Although there is
+only one family with IVS7 +3A NG mutation, clinical features were
+apparently severer in families with c.1032GNA mutation.
+
+3.2. Mutation analysis
+
+DNA samples from 3 members of the family were subjected to a
+mutation screening of the KCNQ1 gene. An abnormal migration
+pattern was identiﬁed by DHPLC analysis (Fig. 2a; note the greater
+height of the left peak in II-1 and I-2 as indicated by the arrows) in
+KCNQ1 exon 7 of the 2 affected individuals. The control sample and
+the father (I-1) showed a normal pattern, as indicated by the com-
+parable height of the left and right peaks (Fig. 2a). DNA sequencing
+identiﬁed a heterozygous adenine to guanine transition in KCNQ1 at
+nucleotide IVS7+3 (IVS7 +3A NG) (Fig. 2b right panel), which
+located in the 5′ splice-site of intron 7. Fig. 2b left panel shows a
+schematic structure of KCNQ1 channel subunit. The exon 7 spans from
+part of the P-loop to part of the S6 region (indicated by red color).
+
+3.3. Screening of KCNQ1 splicing mutation using minigene assay
+
+Minigene assay was performed in COS7 cells to assess the effect
+of the IVS7 +3A NG mutation on the splicing of KCNQ1 exon 7. Fig. 3a
+shows the construct of minigene harboring KCNQ1 exon 7 and its
+ﬂanking introns inserted into the pSPL3 vector. We also tested 3
+other neighboring mutations that may affect the splicing of exon 7
+(c.1022C NT, c.1032G NA, IVS7 +28T NC). c.1032G NA was used as a
+positive control that we and others reported to cause skipping of
+exon 7 [10,12].
+
+The control KCNQ1 minigene expression in COS7 cells resulted in a
+production of the single mRNA band that corresponds to KCNQ1 exon
+7 joined to the vector exons (Fig. 3b). The mutant minigene containing
+c.1022C NT or IVS7 +28T NC also showed the same single mRNA,
+indicating these mutations do not cause aberrant splicing (Fig. 3b).
+However, the mutant minigene containing IVS7 +3A NG, as well as the
+positive control c.1032G NA, generated 2 major mRNA bands that
+correspond to the normal transcript and a shorter transcript lacking
+KCNQ1 exon 7 respectively (Fig. 3b). The expression level of the
+shorter mRNA band appeared to be greater in c.1032G NA compared
+with IVS7 +3A NG. No band was detected in the RNA sample without
+reverse-transcriptase. We conﬁrmed similar results both in CHO and
+HL-1cells under the same experimental conditions (data not shown).
+
+(Fig. 4a), using primers spanning exons 5 through 10. Samples from
+individuals having IVS7 +3A NG and c.1032G NA showed shorter
+bands as well as the normal-sized WT. The direct sequencing of these
+short-sized transcripts revealed the existence of three kinds of exon-
+skipping mRNAs as indicated to the right of panel 4a (Δ7-8:399 bp,
+Δ7: 495 bp, Δ8: 510 bp, WT: 606 bp). Nucleotide sequence of each
+of the exon-skipping mRNAs is also shown. Control, c.1022C NT and
+IVS7 +28T NC showed normal patterns; the predominant WT and a
+small portion of Δ8.
+
+3.5. Quantiﬁcation of exon-skipping KCNQ1 mRNAs using real-time RT-PCR
+
+We carried out quantitative analysis of short-sized mutant mRNAs
+in affected patients carrying the IVS7 +3A NG or c.1032G NA mutation,
+using real-time RT-PCR. Normal individuals had minor fractions of
+splicing variants (WT: 93.0±0.7%, Δ7: 0.0±0.0%, Δ7-8: 0.1±0.0%, Δ8:
+6.9±0.7%, of total KCNQ1 transcripts; n=4) as shown in the left bar
+graph of Fig. 4b. In contrast to c.1032GNA carriers who displayed a
+distinct exon skipping (WT: 55.2±0.9%, Δ7: 23.5±1.7%, Δ7-8: 16.8±
+0.9%, Δ8: 4.5±0.7%; n=3, right bar graph in panel 4b), IVS7 +3ANG
+carrier showed modest but signiﬁcant amount of exon skipping (WT:
+81.2%, Δ7: 9.7%, Δ7-8: 5.7%, Δ8: 3.4%; n=1, middle bar graph).
+
+3.6. Biophysical characteristics of exon-skipping KCNQ1 proteins
+
+Previously, we performed biophysical characterization of mutant
+KCNQ1 proteins (Δ7, Δ7-8, and Δ8) in X. laevis oocytes injected with
+mutant cRNAs. We demonstrated the Xenopus oocytes injected with Δ7,
+Δ7-8, or Δ8 alone displayed no time-dependent currents, indicating
+these mutants were non-functional. Furthermore, each exon-skipping
+KCNQ1 protein had the mutant-speciﬁc level of dominant-negative
+effect on WT channels [10].
+
+In order to simulate the electrophysiological properties of cardiac
+cells of the affected patients, we injected the cRNAs (total 10 ng) with
+the relative ratios of WT and mutant KCNQ1 inferred from the data
+obtained in the real-time RT-PCR experiment (Fig. 4b). Oocytes injected
+at cRNA ratios comparable to those evaluated in IVS7 +3A NG showed
+remarkable reduction in currents compared with those of normal indi-
+viduals, but less pronounced than c.1032G NA carriers; 100±14.5%
+(n=6) for control, 64.8±4.5% (n=7) for IVS7 +3A NG carriers
+(pb0.05), 41.4±9.5% (n=6) for c.1032GNA carriers (pb0.05) (Fig. 5).
+
+3.4. Identiﬁcation of exon-skipping KCNQ1 mRNAs in patient's blood
+sample
+
+To directly conﬁrm the minigene assay results, total RNA samples
+extracted from the patients' lymphocytes were subjected to RT-PCR
+
+Finally, we performed a computer simulation study employing the
+1D myocardial model (Fig. 6a) to explore the cellular mechanisms by
+which these splicing mutations manifest QT prolongation under
+exercise and induce ventricular tachyarrhythmias.
+
+3.7. Computer simulation
+
+a
+
+b
+
+Fig. 2. Mutation analysis. (a) DHPLC revealed abnormal migration patterns in the affected individuals. (b) Left panel: scheme of the transmembrane topology of the cardiac KCNQ1
+channel illustrating the location of exons 7 (red). Right panel: automated DNA sequencing electropherogram demonstrates IVS7 +3A NG mutation.
+
+1456
+
+K. Tsuji–Wakisaka et al. / Biochimica et Biophysica Acta 1812 (2011) 1452–1459
+
+a
+
+primer
+
+intron
+
+Vector exon
+
+primer
+
+intron
+
+Vector exon
+
+(A341V)
+
+(A344A)
+
+b
+
+Control
+
+IVS7 +3A>G
+
+c.1032 G>A
+(A344A)
+
+IVS7 +28T>C
+c.1022 C>T
+(A341V)
+
+RT(-)
+
+Fig. 3. Minigene analysis. (a) The structure of the minigene harboring KCNQ1 exon 7 (dark shaded box) and its ﬂanking introns (lines between EcoRV sites) inserted into the pSPL3
+vector. Open boxes and its ﬂanking lines indicate pSLP3 vector exons and introns, respectively. Arrows upon the open boxes indicate the forward and reverse primers for RT-PCR. The
+locations of mutations studied in the assay are indicated. (b) RT-PCR from COS7 cells transfected with the minigene constructs. Two major bands were identiﬁed; one with KCNQ1
+exon joined to vector exons, the other with vector exons only.
+
+a
+
+b
+
+Fig. 6b presents regional action potentials of endocardial, mid-
+myocardial, and epicardial tissues of the 1D model during pacing at 1 Hz
+in the cases of control (black line), IKs 60% as a model of IVS7 +3ANG
+carrier (dark gray line), and IKs 60% with β-adrenergic stimulation as a
+model of IVS7 +3A NG carrier under exercise stress (light gray line).
+Simulated ECGs in the above 3 cases are also shown in the bottom. In the
+model of IVS7 +3ANG carrier, the β-adrenergic stimulation markedly
+prolonged the QTc (668 ms) while the IKs 60% alone did not (388 ms vs.
+366 ms in control case).
+
+Similar to Fig. 6b, c presents regional action potentials and simulated
+ECGs in the cases of control (black line), IKs 40% as a model of c.1032GNA
+carrier (dark gray line), and IKs 40% with β-adrenergic stimulation as a
+model of c.1032G NA carrier under exercise stress (light gray line). In the
+model of c.1032G NA carrier, the β-adrenergic stimulation markedly
+prolonged the QTc (741 ms) while the IKs 40% alone did not (405 ms).
+Fig. 6d and e show regional action potentials and simulated ECGs
+for a longer period (21–40 s after the ﬁrst pacing stimulus) in the cases
+of IKs 60% (IVS7 +3A NG carrier) with β-adrenergic stimulation and IKs
+40% (c.1032G NA carrier) with β-adrenergic stimulation, respectively.
+Intriguingly, no arrhythmia was induced for IVS7 +3A NG carrier model
+(Fig. 6d) whereas tachyarrhythmia was induced for c.1032GNA carrier
+model (Fig. 6e). In the latter, the monomorphic ventricular tachycardia
+(VT) was initially derived from triggered activities due to delayed
+afterdepolarization (asterisks) in the epicardial region. The VT soon
+degenerated into the ﬁbrillation-like activities (VF) because of marked
+long APD in the mid-myocardial region, causing decremental conduc-
+tion (†, endocardial to mid-myocardial regions) followed by propagated
+graded response (mid-myocardial to endocardial regions) and phase-2
+reentry (‡, epicardial activation originating from action potential
+plateau in the mid-myocardial region).
+
+4. Discussion
+
+Fig. 4. RT-PCR analysis of patients' blood samples. (a) The result of RT-PCR with total
+RNA samples extracted from patients' lymphocytes. PCR was performed using primers
+spanning exons 5 though 10. Nucleotide sequence of each of the exon-skipping mRNAs
+is also shown. (b) The amounts of WT and mutant mRNAs expressed as a percentage of
+the total KCNQ1 mRNA. Controls: 4 normal healthy individuals, IVS7 +3A NG: the
+proband, c.1032G NA: 3 mutation carriers.
+
+4.1. Identiﬁcation of the novel splicing mutation using minigene assay
+
+A signiﬁcant fraction of disease-causing mutations affect pre-mRNA
+splicing. In the present study, three potential splice mutations as well
+as one deﬁnite splice mutation (c.1032G NA) in the intron 7 5′ splice-site
+
+K. Tsuji–Wakisaka et al. / Biochimica et Biophysica Acta 1812 (2011) 1452–1459
+
+1457
+
+a
+
++30mV
+
+-70mV
+
+b
+
+(%)
+100
+
+*
+
+*
+
+Control
+
+1mA
+
+t
+n
+e
+r
+r
+u
+c
+
+1s
+
+80
+
+60
+
+40
+
+20
+
+0
+
+IVS7 +3A>G Carrier
+
+c.1032 G>A Carrier
+
+Control
+
+IVS7 + 3A>G
+
+Carrier
+
+c.1032G>A
+
+Carrier
+
+Fig. 5. Electrophysiological analysis. (a) Representative current traces recorded from two-electrode voltage-clamp of Xenopus oocytes simulating the proportions of mRNA of control
+individuals and mutation carriers. Currents were recorded at various membrane potentials from −70 to +30 mV for 3 s in 10 mV increments from a holding potential of −80 mV. A
+total of 10 ng of cRNA was injected with the relative ratios of WT and mutant KCNQ1 inferred from the data obtained in the real-time RT-PCR experiment. All the current recordings
+in the present study were performed in the presence of KCNE1 β-subunits (1 ng). (b) Pooled data of currents. Current amplitudes were measured at 1.8 s after the initiation of 3-s
+pulse applied to a +30 mV test potential. Background IKs current (22.9 nA) was subtracted. n =7 for control, 8 for IVS7 +3A NG and 7 for c.1032G NA. *p b0.01 vs. control.
+
+of KCNQ1 identiﬁed in clinically-diagnosed LQTS patients were studied.
+First, we assessed the effects exerted by these mutations on splicing of
+the KCNQ1 transcript using a hybrid minigene in transient transfection
+experiments, and found that c.1032GNA and IVS7 +3ANG resulted in
+the skipping of KCNQ1 exon 7 (Fig. 3). In good agreement with the
+minigene assay results, we conﬁrmed the presence of exon-skipping
+transcripts in the blood samples of the mutation carriers (Fig. 4a). The
+minigene assay is a useful tool to screen for potential splicing mutations
+in clinically-diagnosed LQTS patients with no mutation in the KCNQ1
+coding sequence.
+
+4.2. Mechanistic basis of splicing abnormality
+
+Splice sites are conserved sequences at both ends of an intron that
+are recognized during the initial steps of splicing [24]. Mutations at 5′
+splice-site are frequent among mutations that cause human diseases
+[25,26]. The human 5′ splice-site consensus sequence is MAG/GTRAGT
+(M is A or C; R is A or G), spanning from position −3 to position +6
+relative to the exon–intron junction. A (59%) and G (35%) are conserved
+at position +3 [27], but it has been shown that 5′ splice-site with
+disease-causing +3ANG mutations are frequently associated with non-
+consensus nucleotides at positions +4 and +5 [28]. Indeed, the KCNQ1
+intron7 5′ splice-site sequence, GCG/GTAGGT, has non-consensus G
+at position +4, which presumably facilitates the skipping of exon
+under +3ANG mutation. These dependencies between +3 (A/G)
+and +4/+5 were demonstrated by other investigators'in in vitro ex-
+periment; the splicing defect in the +3ANG mutant was successfully
+ﬁxed by converting either +4 or +5 independently to the consensus
+[28]. In contrast, G at position-1 is more strictly conserved, and
+mutations at this position, as c.1032GNA, cause robust splicing defects
+[28]. Hence, these differences in the strength of 5′ splice-site sequence
+dictate the extent to which splicing is disrupted, as indicated by the
+greater amount of exon-skipped transcripts in c.1032G NA compared
+with IVS7 +3ANG (Fig. 4b).
+
+4.3. Signiﬁcance of quantitative assessment of splicing abnormality in
+risk stratiﬁcation
+
+The family with IVS7 +3ANG splicing mutation showed mild LQTS
+phenotype; asymptomatic and had no history of sudden cardiac death,
+despite an exercise-induced QT prolongation (Fig. 1). Meanwhile,
+c.1032G NA mutation, a similar KCNQ1 splicing mutation, was more
+malignant; 8 families out of 9 were symptomatic with episodes of
+syncope (mostly during exercise or swimming) or sudden death, as we
+previously reported [10]. These observations strongly suggest the
+possible correlation between genotypes and clinical phenotypes in
+LQTS caused by aberrant splicing of KCNQ1. This profound suppression
+in IKs currents may underlie the pathophysiology of these patients.
+Moreover, the level of aberrant proteins may parallel the clinical
+severity.
+
+We previously showed that the exon-skipping mutant channel
+subunits (Δ7, Δ7-8, or Δ8) are non-functional, and they have mutant-
+speciﬁc degree of dominant-negative effect on WT channels, by
+trapping WT intracellularly and thereby interfering its translocation
+to the plasma membrane [10]. On the assumption that as the result of
+splicing error the reduction in potassium current would occur in
+the mutant carriers with similar degrees evaluated by the real-time
+RT-PCR (Fig. 4b), we estimated functional consequences of these
+splicing mutation (IVS7 +3A NG and c.1032G NA). Ratios simulating
+the proportions of various transcripts of KCNQ1 in affected individuals
+resulted in a pronounced reduction in the whole-cell potassium
+current in Xenopus oocytes, compared with ratios simulating those in
+normal individuals; 64.8% for IVS7 +3A NG, and 41.4% for c.1032G NA
+(Fig. 5b).
+
+The computer simulation study (Fig. 6) incorporating these
+quantitative results demonstrated the pronounced QT prolonga-
+tion under beta-stimulation in both IVS7 +3A NG and c.1032G NA,
+and the occurrence of tachyarrhythmias only in c.1032G NA. Our com-
+puter model was human ventricular model [15] and the parameters
+for beta-stimulation were based on physiological data reported
+
+1458
+
+K. Tsuji–Wakisaka et al. / Biochimica et Biophysica Acta 1812 (2011) 1452–1459
+
+a
+
+b
+
+d
+
+c
+
+e
+
+Fig. 6. Computer simulation. (a) One-dimensional myocardial simulated tissue, representing the electrical behaviors of left ventricular free wall. Endo, endocardium; M, mid-
+myocardium; and Epi, epicardium. Open circles indicate recording sites for regional action potentials, whereas the ﬁlled circle represents a unipolar recording electrode for ECG.
+(b and c) Regional action potentials and simulated ECG during 1 Hz pacing for IVS7 +3A NG carrier and c.1032G NA carrier, respectively. Open triangles denote timings of 1 Hz
+pacing. (d and e) No arrhythmia was induced for IVS7 +3A NG carrier, whereas tachyarrhythmia was induced for c.1032G NA carrier. See text for details.
+
+previously [20–22]. These observations appear to parallel with clinical
+phenotypes of the mutation carriers; syncopal episodes mainly during
+exercise in c.1032G NA but not IVS7 +3A NG patients, whereas asymp-
+tomatic IVS7 +3A NG carriers. Thus, the quantitative assessments of
+splicing abnormality could be useful in the risk stratiﬁcation of LQTS
+patients associated with KCNQ1 splicing mutations.
+
+4.4. Study limitations
+
+Compared to the clinical data on c.1032G NA, those on IVS7 +3A NG
+were gathered from two patients, because we failed to conduct the
+genetic test and clinical tests in their remaining relatives. Because of a
+relative mildness of their phenotypes, carriers of IVS7 +3ANG mutation
+may be less frequently recommended for the genetic test, and this may
+partially explain why the number of identiﬁed IVS7 +3ANG family was
+small.
+
+4.5. Conclusions
+
+A novel KCNQ1 splicing mutation IVS7 +3A NG generates exon-
+skipping mRNAs, and manifests a mild phenotype of LQTS. The amount
+of these mRNAs and its functional consequences may determine the
+clinical severity of the disease.
+
+References
+
+[1] C. Romano, Congenital cardiac arrhythmia, Lancet 17 (1965) 658–659.
+
+[2] O.C. Ward, A new familial cardiac syndrome in children, J. Ir. Med. Assoc. 54
+
+(1964) 103–106.
+
+[3] A.J. Moss, R.S. Kass, Long QT syndrome: from channels to cardiac arrhythmias,
+
+J. Clin. Invest. 115 (8) (2005) 2018–2024.
+
+[4] J. Barhanin, F. Lesage, E. Guillemare, M. Fink, M. Lazdunski, G. Romey, K(V)LQT1
+and lsK (minK) proteins associate to form the I(Ks) cardiac potassium current,
+Nature 384 (6604) (1996) 78–80.
+
+[5] M.C. Sanguinetti, M.E. Curran, A. Zou, J. Shen, P.S. Spector, D.L. Atkinson, M.T.
+Keating, Coassembly of K(V)LQT1 and minK (IsK) proteins to form cardiac I(Ks)
+potassium channel, Nature 384 (6604) (1996) 80–83.
+
+[6] Q. Wang, M.E. Curran, I. Splawski, T.C. Burn, J.M. Millholland, T.J. VanRaay, J. Shen, K.W.
+Timothy, G.M. Vincent, T. de Jager, P.J. Schwartz, J.A. Toubin, A.J. Moss, D.L. Atkinson, G.M.
+Landes, T.D. Connors, M.T. Keating, Positional cloning of a novel potassium channel
+gene: KVLQT1 mutations cause cardiac arrhythmias, Nat. Genet. 12 (1) (1996) 17–23.
+[7] G. Dreyfuss, V.N. Kim, N. Kataoka, Messenger-RNA-binding proteins and the
+
+messages they carry, Nat. Rev. Mol. Cell Biol. 3 (3) (2002) 195–205.
+
+[8] A. Kramer, The structure and function of proteins involved in mammalian pre-mRNA
+
+splicing, Annu. Rev. Biochem. 65 (1996) 367–409.
+
+[9] N.A. Faustino, T.A. Cooper, Pre-mRNA splicing and human disease, Genes Dev. 17
+
+(4) (2003) 419–437.
+
+[10] K. Tsuji, M. Akao, T.M. Ishii, S. Ohno, T. Makiyama, K. Takenaka, T. Doi, Y. Haruna, H.
+Yoshida, T. Nakashima, T. Kita, M. Horie, Mechanistic basis for the pathogenesis of
+long QT syndrome associated with a common splicing mutation in KCNQ1 gene,
+J. Mol. Cell. Cardiol. 42 (3) (2007) 662–669.
+
+[11] H. Li, Q. Chen, A.J. Moss, J. Robinson, V. Goytia, J.C. Perry, G.M. Vincent, S.G. Priori,
+M.H. Lehmann, S.W. Denﬁeld, D. Duff, S. Kaine, W. Shimizu, P.J. Schwartz, Q. Wang,
+J.A. Towbin, New mutations in the KVLQT1 potassium channel that cause long-QT
+syndrome, Circulation 97 (13) (1998) 1264–1269.
+
+[12] A. Murray, C. Donger, C. Fenske, I. Spillman, P. Richard, Y.B. Dong, N. Neyroud, P.
+Chevalier, I. Denjoy, N. Carter, P. Syrris, A.R. Afzal, M.A. Patton, P. Guicheney, S.
+Jeffery, Splicing mutations in KCNQ1: a mutation hot spot at codon 344 that
+produces in frame transcripts, Circulation 100 (10) (1999) 1077–1084.
+
+[13] L. Crotti, C. Spazzolini, P.J. Schwartz, W. Shimizu, I. Denjoy, E. Schulze-Bahr, E.V.
+Zaklyazminskaya, H. Swan, M.J. Ackerman, A.J. Moss, A.A. Wilde, M. Horie, P.A. Brink,
+R. Insolia, G.M. De Ferrari, G. Crimi, The common long-QT syndrome mutation
+
+K. Tsuji–Wakisaka et al. / Biochimica et Biophysica Acta 1812 (2011) 1452–1459
+
+1459
+
+KCNQ1/A341V causes unusually severe clinical manifestations in patients with
+different ethnic backgrounds: toward a mutation-speciﬁc risk stratiﬁcation,
+Circulation 116 (21) (2007) 2366–2375.
+
+[14] T.M. Ishii, C. Silvia, B. Hirschberg, C.T. Bond, J.P. Adelman, J. Maylie, A human
+intermediate conductance calcium-activated potassium channel, Proc. Natl. Acad.
+Sci. USA 94 (21) (1997) 11651–11656.
+
+[15] L. Priebe, D.J. Beuckelmann, Simulation study of cellular electric properties in
+
+heart failure, Circ. Res. 82 (11) (1998) 1206–1223.
+
+[16] S. Poelzing, F.G. Akar, E. Baron, D.S. Rosenbaum, Heterogeneous connexin43
+expression produces electrophysiological heterogeneities across ventricular wall,
+Am. J. Physiol. Heart Circ. Physiol. 286 (5) (2004) H2001–H2009.
+
+[17] G. Seemann, F.B. Sachse, D.L. Weiss, O. Dossel, Quantitative reconstruction of
+J.
+
+cardiac electromechanics in human myocardium: regional heterogeneity,
+Cardiovasc. Electrophysiol. 14 (10 Suppl) (2003) S219–S228.
+
+[18] T. Ashihara, T. Namba, T. Yao, T. Ozawa, A. Kawase, T. Ikeda, K. Nakazawa, M. Ito,
+Vortex cordis as a mechanism of postshock activation: arrhythmia induction study
+using a bidomain model, J. Cardiovasc. Electrophysiol. 14 (3) (2003) 295–302.
+
+[19] T. Ashihara, N.A. Trayanova, Asymmetry in membrane responses to electric
+shocks: insights from bidomain simulations, Biophys. J. 87 (4) (2004) 2271–2282.
+[20] A. Kobori, N. Sarai, W. Shimizu, Y. Nakamura, Y. Murakami, T. Makiyama, S. Ohno,
+K. Takenaka, T. Ninomiya, Y. Fujiwara, S. Matsuoka, M. Takano, A. Noma, T. Kita, M.
+Horie, Additional gene variants reduce effectiveness of beta-blockers in the LQT1
+form of long QT syndrome, J. Cardiovasc. Electrophysiol. 15 (2) (2004) 190–199.
+
+[21] C. Terrenoire, C.E. Clancy, J.W. Cormier, K.J. Sampson, R.S. Kass, Autonomic control
+of cardiac action potentials: role of potassium channel kinetics in response to
+sympathetic stimulation, Circ. Res. 96 (5) (2005) e25–e34.
+
+[22] J. Zeng, Y. Rudy, Early afterdepolarizations in cardiac myocytes: mechanism and
+
+rate dependence, Biophys. J. 68 (3) (1995) 949–964.
+
+[23] T. Ashihara, T. Namba, T. Ikeda, M. Ito, M. Kinoshita, K. Nakazawa, Breakthrough
+waves during ventricular ﬁbrillation depend on the degree of rotational anisotropy
+and the boundary conditions: a simulation study, J. Cardiovasc. Electrophysiol. 12 (3)
+(2001) 312–322.
+
+[24] M.L. Hastings, A.R. Krainer, Pre-mRNA splicing in the new millennium, Curr. Opin.
+
+Cell Biol. 13 (3) (2001) 302–309.
+
+[25] M. Krawczak, J. Reiss, D.N. Cooper, The mutational spectrum of single base-pair
+substitutions in mRNA splice junctions of human genes: causes and consequences,
+Hum. Genet. 90 (1–2) (1992) 41–54.
+
+[26] K. Nakai, H. Sakamoto, Construction of a novel database containing aberrant
+
+splicing mutations of mammalian genes, Gene 141 (2) (1994) 171–177.
+
+[27] N. Sheth, X. Roca, M.L. Hastings, T. Roeder, A.R. Krainer, R. Sachidanandam,
+Comprehensive splice-site analysis using comparative genomics, Nucleic Acids
+Res. 34 (14) (2006) 3955–3967.
+
+[28] X. Roca, A.J. Olson, A.R. Rao, E. Enerly, V.N. Kristensen, A.L. Borresen-Dale, B.S.
+Andresen, A.R. Krainer, R. Sachidanandam, Features of 5′-splice-site efﬁciency
+derived from disease-causing mutations and comparative genomics, Genome Res.
+18 (1) (2008) 77–87.
+
+

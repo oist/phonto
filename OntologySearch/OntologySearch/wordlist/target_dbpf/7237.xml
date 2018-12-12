@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7237">
+<itemtype>xnppaper</itemtype>
+<titles><title>Activation of presynaptic and postsynaptic ryanodine-sensitive calcium stores is required for the induction of long-term depression at GABAergic synapses in the neonatal rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Animals</keyword>
+<keyword>Newborn</keyword>
+<keyword>Calcium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Coloring Agents</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Heparin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>N-Methylaspartate</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>Presynaptic Terminals</keyword>
+<keyword>metabolism</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Receptors</keyword>
+<keyword>GABA-A</keyword>
+<keyword>metabolism</keyword>
+<keyword>Ruthenium Red</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Ryanodine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Time</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>metabolism</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:24:13Z</last_update_date>
+<creation_date>2013-02-28T01:24:13Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7237</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7237" version="1.02">
+<authors><author>Caillard O</author><author>Ben-Ari Y</author><author>Gaïarsa JL</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>20</volume>
+<number>17</number>
+<page>RC94</page>
+<abstract>The role of internal calcium stores in the induction of long-term depression at GABAergic synapses was investigated in the neonatal rat hippocampus. Whole-cell recordings of CA3 pyramidal neurons were performed on hippocampal slices from neonatal (2-4 d old) rats. In control conditions, tetanic stimulation (TS) evoked an NMDA-dependent long-term depression of GABA(A) receptor-mediated postsynaptic responses (LTD(GABA-A)). LTD(GABA-A) was prevented when the cells were loaded with ruthenium red, a blocker of Ca2+-induced Ca2+ release (CICR) stores, whereas loading the cells with heparin, a blocker of IP3-induced Ca2+ release stores, had no effect. The effects of ryanodine, another compound that interferes with CICR stores, were also investigated. Intracellular injection of ryanodine prevented the induction of LTD(GABA-A) only when the TS was preceded by depolarizing pulses that increase intracellular Ca2+ concentration. When applied in the bath, ryanodine prevented the induction of LTD(GABA-A). Altogether, these results suggest that ryanodine acts as a Ca2+-dependent blocker of CICR stores and that the induction of LTD(GABA-A) required the activation of both presynaptic and postsynaptic CICR stores.</abstract>
+<pubmed_id>10952733</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,27 @@
+Animals
+Behavior
+Animal
+physiology
+Hippocampus
+physiology
+Humans
+Memory
+physiology
+Neocortex
+physiology
+Nerve Net
+physiology
+Neural Inhibition
+physiology
+Neurons
+physiology
+Periodicity
+Rats
+Sleep
+physiology
+Sleep
+REM
+physiology
+Wakefulness
+physiology
+During active behavior, patterns of hippocampal and neocortical neuronal activity reflect ongoing inputs and their contexts. Recent neurophysiological investigations have shown that during 'off-line' periods, traces of these experiences are spontaneously reactivated in both structures. Although the functional importance of this phenomenon remains to be demonstrated, it does provide clues about the nature and mechanisms of memory retrieval and consolidation.

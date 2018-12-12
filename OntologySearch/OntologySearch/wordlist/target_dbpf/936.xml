@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="936">
+<itemtype>xnppaper</itemtype>
+<titles><title>Phase relationship between hippocampal place units and the EEG theta rhythm.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-16T06:18:20Z</last_update_date>
+<creation_date>2008-07-16T06:18:20Z</creation_date>
+<publication_year>1993</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=936</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="936" version="1.02">
+<authors><author>O&#039;Keefe J</author><author>Recce ML</author></authors>
+<journal>Hippocampus</journal>
+<volume>3</volume>
+<number>3</number>
+<page>317-30</page>
+<abstract>Many complex spike cells in the hippocampus of the freely moving rat have as their primary correlate the animal&#039;s location in an environment (place cells). In contrast, the hippocampal electroencephalograph theta pattern of rhythmical waves (7-12 Hz) is better correlated with a class of movements that change the rat&#039;s location in an environment. During movement through the place field, the complex spike cells often fire in a bursting pattern with an interburst frequency in the same range as the concurrent electroencephalograph theta. The present study examined the phase of the theta wave at which the place cells fired. It was found that firing consistently began at a particular phase as the rat entered the field but then shifted in a systematic way during traversal of the field, moving progressively forward on each theta cycle. This precession of the phase ranged from 100 degrees to 355 degrees in different cells. The effect appeared to be due to the fact that individual cells had a higher interburst rate than the theta frequency. The phase was highly correlated with spatial location and less well correlated with temporal aspects of behavior, such as the time after place field entry. These results have implications for several aspects of hippocampal function. First, by using the phase relationship as well as the firing rate, place cells can improve the accuracy of place coding. Second, the characteristics of the phase shift constrain the models that define the construction of place fields. Third, the results restrict the temporal and spatial circumstances under which synapses in the hippocampus could be modified.</abstract>
+<pubmed_id> 8353611 </pubmed_id>
+</detail>
+</item>

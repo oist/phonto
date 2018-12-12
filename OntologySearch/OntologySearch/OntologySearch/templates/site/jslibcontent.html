@@ -1,0 +1,33 @@
+
+{% extends "site/base.tpl.html" %}
+
+{%load static %}
+
+{% load i18n %}
+
+{% block extrajs %}
+{% endblock %} {# end of extrajs block #}
+
+{% block handstyle %}
+{% endblock %}{# end of handstyle block #}
+
+{% block handscript %}
+<script type="text/javascript" src="{% static 'js/md5/md5.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jslibcontent.js' %}"></script>
+<script type="text/javascript">
+<!-- -->
+$(document).ready(function(){
+	jslibcontent.init();
+});
+//-->
+</script>
+{% endblock %} {# end of handscript block #}
+
+{% block header %}
+{% endblock %} {# end of header block #}
+
+
+{% block content %}
+{% endblock %} {# end of content block #}
+
+

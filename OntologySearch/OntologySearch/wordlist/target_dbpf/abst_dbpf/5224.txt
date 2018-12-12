@@ -1,0 +1,15 @@
+Animals
+Hippocampus
+physiology
+Humans
+Kinetics
+Long-Term Potentiation
+physiology
+Neural Networks (Computer)
+Phosphoprotein Phosphatases
+physiology
+Protein Phosphatase 1
+Protein Phosphatase 2
+Signal Transduction
+physiology
+We modeled and analyzed a signal transduction system of long-term potentiation (LTP) in hippocampal post-synapse. Bhalla and Iyengar [Science 283(1999) 381] have developed a hippocampal LTP model. In the conventional model, the concentration of protein phosphatase 2A (PP2A) was fixed. However, it was reported that dynamic inactivation of PP2A was essential for LTP [J. Neurochem. 74 (2000) 807]. We introduced a dynamic modeling of PP2A; inactivation (phosphorylation) of PP2A by calcium/calmodulin-dependent protein kinase II (CaMKII) in the presence of calcium/calmodulin, self-activation (autodephosphorylation) of PP2A, and inactivation (dephosphorylation) of CaMKII by PP2A. This model includes complex feedback loops; both CaMKII and PP2A are autoactivated, while they inactivate each other. Moreover, we proposed an analysis strategy for model validation by applying the results of sensitivity analysis. In our system, calcineurin (CaN) played an essential role, rather than the activation of protein kinase C (PKC) as documented in the conventional model. From results of the analysis of our model, we found the following robustness as characteristics of bistability in our model: (1). PP2A reactions against calcium ion (Ca(2+)) perturbation; (2). PP2A inactivation against PP2A increase; (3). protein phosphatase 1 (PP1) activation against PF2A increase; and (4). PP2A reactions against PP2A initial concentration. These properties facilitated LTP induction in our system. We showed that another mechanism could introduce bistable behavior by adding dynamic reactions of PP2A.

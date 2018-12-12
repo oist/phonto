@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="871">
+<itemtype>xnppaper</itemtype>
+<titles><title>Trajectory encoding in the hippocampus and entorhinal cortex.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-16T03:12:34Z</last_update_date>
+<creation_date>2008-07-16T03:12:34Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=871</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="871" version="1.02">
+<authors><author>Frank LM</author><author>Brown EN</author><author>Wilson M</author></authors>
+<journal>Neuron</journal>
+<volume>27</volume>
+<number>1</number>
+<page>169-78</page>
+<abstract>We recorded from single neurons in the hippocampus and entorhinal cortex (EC) of rats to investigate the role of these structures in navigation and memory representation. Our results revealed two novel phenomena: first, many cells in CA1 and the EC fired at significantly different rates when the animal was in the same position depending on where the animal had come from or where it was going. Second, cells in deep layers of the EC, the targets of hippocampal outputs, appeared to represent the similarities between locations on spatially distinct trajectories through the environment. Our findings suggest that the hippocampus represents the animal&#039;s position in the context of a trajectory through space and that the EC represents regularities across different trajectories that could allow for generalization across experiences.</abstract>
+<pubmed_id>10939340 </pubmed_id>
+</detail>
+</item>

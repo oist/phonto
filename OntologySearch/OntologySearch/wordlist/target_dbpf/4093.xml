@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4093">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal theta oscillations are travelling waves.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T06:09:16Z</last_update_date>
+<creation_date>2010-10-08T06:09:16Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4093</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4093" version="1.02">
+<authors><author>Lubenov EV</author><author>Siapas AG</author></authors>
+<journal>Nature</journal>
+<volume>459</volume>
+<number>7246</number>
+<page>534-9</page>
+<abstract>Theta oscillations clock hippocampal activity during awake behaviour and rapid eye movement (REM) sleep. These oscillations are prominent in the local field potential, and they also reflect the subthreshold membrane potential and strongly modulate the spiking of hippocampal neurons. The prevailing view is that theta oscillations are synchronized throughout the hippocampus, despite the lack of conclusive experimental evidence. In contrast, here we show that in freely behaving rats, theta oscillations in area CA1 are travelling waves that propagate roughly along the septotemporal axis of the hippocampus. Furthermore, we find that spiking in the CA1 pyramidal cell layer is modulated in a consistent travelling wave pattern. Our results demonstrate that theta oscillations pattern hippocampal activity not only in time, but also across anatomical space. The presence of travelling waves indicates that the instantaneous output of the hippocampus is topographically organized and represents a segment, rather than a point, of physical space.</abstract>
+<pubmed_id>19489117</pubmed_id>
+</detail>
+</item>

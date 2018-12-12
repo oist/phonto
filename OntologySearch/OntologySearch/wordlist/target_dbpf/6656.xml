@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6656">
+<itemtype>xnppaper</itemtype>
+<titles><title>Making memories without trying: medial temporal lobe activity associated with incidental memory formation during recognition.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Analysis of Variance</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:50:53Z</last_update_date>
+<creation_date>2013-02-26T06:50:53Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6656</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6656" version="1.02">
+<authors><author>Stark CE</author><author>Okado Y</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>23</volume>
+<number>17</number>
+<page>6748-53</page>
+<abstract>Structures in the medial portions of the human temporal lobes (MTL) play a vital role in the ability to learn new facts and events, whether such learning is intentional or incidental. We examined neural activity in the MTL both while participants studied pictures of novel scenes and while they attempted to recognize which scenes had been previously presented. In a second surprise test we assessed participants&#039; memory for items that were presented only during the previous recognition memory test. We present a novel approach to cross-participant alignment of neuroimaging data that provides more precise localization and enhanced statistical power within regions such as the MTL. Using this technique, we observed that the amount of MTL activity predicted participants&#039; ability to subsequently remember scenes not only during the intentional study task, but also during the first memory retrieval test when only incidental encoding occurred. This encoding-related activity during memory retrieval was in the same subregions of the MTL as encoding-related activity during intentional study and is hypothesized to be one of the primary reasons why retrieval-related activity is often difficult to observe with neuroimaging techniques.</abstract>
+<pubmed_id>12890767</pubmed_id>
+</detail>
+</item>

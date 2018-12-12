@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5106">
+<itemtype>xnppaper</itemtype>
+<titles><title>Decreased postnatal neurogenesis in the hippocampus combined with stress experience during adolescence is accompanied by an enhanced incidence of behavioral pathologies in adult mice.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Aging</keyword>
+<keyword>pathology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Animals</keyword>
+<keyword>Animals</keyword>
+<keyword>Newborn</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Cell Count</keyword>
+<keyword>Cell Death</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Cell Proliferation</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>pathology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Humans</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Neurogenesis</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Stress</keyword>
+<keyword>Psychological</keyword>
+<keyword>pathology</keyword>
+<keyword>X-Rays</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T05:20:36Z</last_update_date>
+<creation_date>2011-05-16T05:20:36Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5106</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5106" version="1.02">
+<authors><author>Hayashi F</author><author>Takashima N</author><author>Murayama A</author><author>Inokuchi K</author></authors>
+<journal>Molecular brain</journal>
+<volume>1</volume>
+<number></number>
+<page>22</page>
+<abstract>Adolescence is a vulnerable period in that stress experienced during this time can affect the incidence of psychiatric disorders later, during adulthood. Neurogenesis is known to be involved in the postnatal development of the brain, but its role in determining an individual&#039;s biological vulnerability to the onset of psychiatric disorders has not been addressed.We examined the role of postnatal neurogenesis during adolescence, a period between 3 to 8 weeks of age in rodents. Mice were X-irradiated at 4 weeks of age, to inhibit postnatal neurogenesis in the sub-granule cell layer of the hippocampus. Electrical footshock stress (FSS) was administered at 8 weeks old, the time at which neurons being recruited to granule cell layer were those that had begun their differentiation at 4 weeks of age, during X-irradiation. X-irradiated mice subjected to FSS during adolescence exhibited decreased locomotor activity in the novel open field, and showed prepulse inhibition deficits in adulthood. X-irradiation or FSS alone exerted no effects on these behaviors.These results suggest that mice with decreased postnatal neurogenesis during adolescence exhibit vulnerability to stress, and that persistence of this condition may result in decreased activity, and cognitive deficits in adulthood.</abstract>
+<pubmed_id>19091092</pubmed_id>
+</detail>
+</item>

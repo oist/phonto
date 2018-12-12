@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4485">
+<itemtype>xnppaper</itemtype>
+<titles><title>Plasticity of directional place fields in a model of rodent CA3.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Exploratory Behavior</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Mathematics</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Networks (Computer)</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T03:49:33Z</last_update_date>
+<creation_date>2011-01-28T03:49:33Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4485</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4485" version="1.02">
+<authors><author>Brunel N</author><author>Trullier O</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>6</number>
+<page>651-65</page>
+<abstract>We propose a computational model of the CA3 region of the rat hippocampus that is able to reproduce the available experimental data concerning the dependence of directional selectivity of the place cell discharge on the environment and on the spatial task. The main feature of our model is a continuous, unsupervised Hebbian learning dynamics of recurrent connections, which is driven by the neuronal activities imposed upon the network by the environment-dependent external input. In our simulations, the environment and the movements of the rat are chosen to mimic those commonly observed in neurophysiological experiments. The environment is represented as local views that depend on both the position and the heading direction of the rat. We hypothesize that place cells are intrinsically directional, that is, they respond to local views. We show that the synaptic dynamics in the recurrent neural network rapidly modify the discharge correlates of the place cells: Cells tend to become omnidirectional place cells in open fields, while their directionality tends to get stronger in radial-arm mazes. We also find that the synaptic learning mechanisms account for other properties of place cell activity, such as an increase in the place cell peak firing rates as well as clustering of place fields during exploration. Our model makes several experimental predictions that can be tested using current techniques.</abstract>
+<pubmed_id>9882023</pubmed_id>
+</detail>
+</item>

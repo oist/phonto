@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4808">
+<itemtype>xnppaper</itemtype>
+<titles><title>Interaction of neurotransmitter systems in the hippocampus: a study of some behavioral effects of hippocampal sympathetic ingrowth.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Avoidance Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Choline O-Acetyltransferase</keyword>
+<keyword>metabolism</keyword>
+<keyword>Drinking</keyword>
+<keyword>physiology</keyword>
+<keyword>Ganglionectomy</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurotransmitter Agents</keyword>
+<keyword>physiology</keyword>
+<keyword>Norepinephrine</keyword>
+<keyword>metabolism</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Septum Pellucidum</keyword>
+<keyword>physiology</keyword>
+<keyword>surgery</keyword>
+<keyword>Sympathetic Nervous System</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:24:40Z</last_update_date>
+<creation_date>2011-04-28T05:24:40Z</creation_date>
+<publication_year>1991</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4808</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4808" version="1.02">
+<authors><author>Ayyagari V</author><author>Harrell LE</author><author>Parsons DS</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>11</volume>
+<number>9</number>
+<page>2848-54</page>
+<abstract>Recent research has suggested that normal learning/memory may depend upon the balance between central noradrenergic and cholinergic systems. This hypothesis has particular relevance to the study of the neuronal rearrangement that follows cholinergic denervation of hippocampus. In this, peripheral noradrenergic fibers, originating from the superior cervical ganglion, grow into the hippocampus in response to lesions of the medial septal (MS) cholinergic cell bodies. To understand further the influence of hippocampal sympathetic ingrowth (HSI) on behavior, gustatory neophobia, passive avoidance (PA) learning, and open field activity were studied. Male Sprague-Dawley rats underwent one of four surgical procedures: MS lesions and sham ganglionectomy (ingrowth group; MS/HSI group), sham MS lesions and ganglionectomy (Gx group), MS lesions and ganglionectomy (no-ingrowth group; MS/Gx group), or sham MS lesions and sham ganglionectomy (CON group). Behavioral testing began 4 weeks following surgery. The time to acquire the PA task was similar among all groups; however, the initial latency to enter the dark chamber of the PA apparatus was longer, and the number of partial reentries greatest, for MS/HSI animals. Retention testing at 24 hr revealed that MS/HSI animals were significantly impaired when compared to the CON and MS/Gx groups. The MS/Gx and the CON groups demonstrated gustatory neophobia, preferring water to saccharin solution, while gustatory neophobia was absent in the MS/HSI and Gx groups. MS/HSI animals were found to be more active in the open field than the other groups. Biochemical studies revealed the expected loss of ChAT activity in the dorsal and ventral hippocampi of lesioned animals along with elevated levels of norepinephrine (NE) in the dorsal hippocampus of MS/HSI animals.(ABSTRACT TRUNCATED AT 250 WORDS)</abstract>
+<pubmed_id>1679124</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4119">
+<itemtype>xnppaper</itemtype>
+<titles><title>GABAergic neurons of the medial septum lead the hippocampal network during theta activity.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Cyclic Nucleotide-Gated Cation Channels</keyword>
+<keyword>metabolism</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Immunohistochemistry</keyword>
+<keyword>Interneurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Parvalbumins</keyword>
+<keyword>metabolism</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>Septal Nuclei</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>Time Factors</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>metabolism</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T06:31:29Z</last_update_date>
+<creation_date>2010-10-08T06:31:29Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4119</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4119" version="1.02">
+<authors><author>Hangya B</author><author>Borhegyi Z</author><author>Szilágyi N</author><author>Freund TF</author><author>Varga V</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>29</volume>
+<number>25</number>
+<page>8094-102</page>
+<abstract>Information processing in the hippocampus critically relies on its reciprocal interaction with the medial septum (MS). Synchronization of the septo-hippocampal system was demonstrated during both major hippocampal activity states, the regular theta rhythm and the large amplitude irregular activity. Previous experimental and modeling data suggest that the MS provides rhythmic drive to the hippocampus, and hippocampo-septal feedback synchronizes septal pacemaker units. However, this view has recently been questioned based on the possibility of intrahippocampal theta genesis. Previously, we identified putative pacemaker neurons expressing parvalbumin (PV) and/or the pacemaker hyperpolarization-activated and cyclic nucleotide-gated nonselective cation channel (HCN) in the MS. In this study, by analyzing the temporal relationship of activity between the PV/HCN-containing medial septal neurons and hippocampal local field potential, we aimed to uncover whether the sequence of events during theta formation supports the classic view of septal drive or the challenging theory of hippocampal pacing of theta. Importantly, by implementing a circular statistical method, a temporal lead of these septal neurons over the hippocampus was observed on the course of theta synchronization. Moreover, the activity of putative hippocampal interneurons also preceded hippocampal local field theta, but by a shorter time period compared with PV/HCN-containing septal neurons. Using the concept of mutual information, the action potential series of PV/HCN-containing neurons shared higher amount of information with hippocampal field oscillation than PV/HCN-immunonegative cells. Thus, a pacemaker neuron population of the MS leads hippocampal activity, presumably via the synchronization of hippocampal interneurons.</abstract>
+<pubmed_id>19553449</pubmed_id>
+</detail>
+</item>

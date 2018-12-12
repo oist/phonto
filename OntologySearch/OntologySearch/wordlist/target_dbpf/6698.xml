@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6698">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal differentiation without recognition: an fMRI analysis of the contextual cueing task.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Consciousness</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Unconscious (Psychology)</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:24:24Z</last_update_date>
+<creation_date>2013-02-26T07:24:24Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6698</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6698" version="1.02">
+<authors><author>Greene AJ</author><author>Gross WL</author><author>Elsinger CL</author><author>Rao SM</author></authors>
+<journal>Learning&amp;memory (Cold Spring Harbor, N.Y.)</journal>
+<volume>14</volume>
+<number>8</number>
+<page>548-53</page>
+<abstract>A central role of the hippocampus is to consolidate conscious forms of learning and memory, while performance on implicit tasks appears to depend upon other structures. Recently, considerable debate has emerged about whether hippocampal-dependent tasks necessarily entail task awareness. In the contextual cueing task, repetition facilitation is implicit, but impaired in patients with amnesia. Whether the hippocampus alone or other MTL structures are required is unclear. Event-related functional magnetic resonance imaging revealed hippocampal activity that differentiates novel from repeated arrays. This pattern of results was observed without recognition of the repeating arrays. This finding provides support for the claim that the hippocampus is involved in processes outside the domain of conscious learning and memory.</abstract>
+<pubmed_id>17690338</pubmed_id>
+</detail>
+</item>

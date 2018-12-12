@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="10812">
+<itemtype>xnppaper</itemtype>
+<titles><title>Fast automatic template matching for spike sorting based on Davies-Bouldin validation indices.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Algorithms</keyword>
+<keyword>Animals</keyword>
+<keyword>Artificial Intelligence</keyword>
+<keyword>Diagnosis</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>methods</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>methods</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Automated</keyword>
+<keyword>methods</keyword>
+<keyword>Rats</keyword>
+<keyword>EEG data analysis</keyword>
+<keyword>Balbir</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2016-03-24T05:56:07Z</last_update_date>
+<creation_date>2016-03-24T05:56:07Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=10812</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="10812" version="1.02">
+<authors><author>Sato T</author><author>Suzuki T</author><author>Mabuchi K</author></authors>
+<journal>Conference proceedings : ... Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual Conference</journal>
+<volume>2007</volume>
+<number></number>
+<page>3200-3</page>
+<abstract>The present study introduces an approach to detecting and classifying the extracellular action potentials of neurons, a process usually referred to as spike sorting. Our approach is based on template matching which is an optimal filter under Gaussian noise. However, this is usually expensive in terms of computational time, and constructing appropriate templates can be also problematic. Despite its theoretical consistency, only a few algorithms have been proposed to efficiently solve this problem. To speed up the filter, it is important to curtail the matching process when the distance between the template and waveform exceeds some threshold. We approach this aspect of the problem using Davies-Bouldin validation indices (DBVIs), which are a function of the ratio of the sum of within-cluster scatter to between-cluster separation to prioritize point-by-point calculation. The templates are also constructed automatically by combining principle component analysis (PCA) and k-means clustering. This matching process performed well, with a shorter computational time and fewer incorrect classifications than other ordering methods.</abstract>
+<pubmed_id>18002676</pubmed_id>
+</detail>
+</item>

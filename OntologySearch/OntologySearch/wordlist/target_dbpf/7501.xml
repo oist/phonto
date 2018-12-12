@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7501">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampus: mapping or memory</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:16:21Z</last_update_date>
+<creation_date>2013-03-28T02:16:21Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7501</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7501" version="1.02">
+<authors><author>Howard Eichenbaum</author></authors>
+<journal>Current Biology</journal>
+<volume>10</volume>
+<number>21</number>
+<page>785-787</page>
+<abstract>The identification of &quot;place cells&quot; in the hippocampus has suggested a special role for this brain structure in spatial mapping, but other studies have inidicated a more general role in memory.  New findins on place cells point the way towards a reconciliation of the mapping and memory views.</abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

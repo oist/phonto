@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4818">
+<itemtype>xnppaper</itemtype>
+<titles><title>Place-cell firing does not depend on the direction of turn in a Y-maze alternation task.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:42:22Z</last_update_date>
+<creation_date>2011-04-28T05:42:22Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4818</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4818" version="1.02">
+<authors><author>Lenck-Santini PP</author><author>Save E</author><author>Poucet B</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>13</volume>
+<number>5</number>
+<page>1055-8</page>
+<abstract>Hippocampal place cells were recorded while rats solved a continuous spatial alternation task requiring short-term spatial memory. All cells that had a firing field on the stem of the Y-shaped maze were found to have a very similar pattern of discharge whether the rat was about to make a right or a left turn, and whether the preceding turn was a right or a left turn. Thus, the view that place cells encode a variety of events (including the direction of turns) useful for solving memory tasks is not well supported by the present data. We suggest several possible explanations to account for the discrepancy with other recent studies showing turn-related modulation of place-cell activity.</abstract>
+<pubmed_id>11264680</pubmed_id>
+</detail>
+</item>

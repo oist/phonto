@@ -1,0 +1,34 @@
+1. Biophys J. 1995 Mar;68(3):949-64.
+
+Early afterdepolarizations in cardiac myocytes: mechanism and rate dependence.
+
+Zeng J(1), Rudy Y.
+
+Author information: 
+(1)Department of Biomedical Engineering, Case Western Reserve University,
+Cleveland, Ohio 44106-7207, USA.
+
+A model of the cardiac ventricular action potential that accounts for dynamic
+changes in ionic concentrations was used to study the mechanism, characteristics,
+and rate dependence of early after depolarizations (EADs). A simulation approach 
+to the study of the effects of pharmacological agents on cellular processes was
+introduced. The simulation results are qualitatively consistent with experimental
+observations and help resolve contradictory conclusions in the literature
+regarding the mechanism of EADs. Our results demonstrate that: 1) the L-type
+calcium current, ICa, is necessary as a depolarizing charge carrier during an
+EAD; 2) recovery and reactivation of ICa is the mechanism of EAD formation,
+independent of the intervention used to induce the EADs (cesium, Bay K 8644, or
+isoproterenol were used in our simulations, following similar published
+experimental protocols); 3) high [Ca2+]i is not required for EADs to develop and 
+calcium release by the sarcoplasmic reticulum does not occur during the EAD; 4)
+although the primary mechanism of EAD formation is recovery of ICa, other plateau
+currents can modulate EAD formation by affecting the balance of currents during a
+conditional phase before the EAD take-off; and 5) EADs are present at drive cycle
+lengths longer than 1000 ms. Because of the very long activation time constant of
+the delayed rectifier potassium current, IK, the activation gate of IK does not
+deactivate completely between consecutive stimuli at fast rates (drive cycle
+length < 1000 ms). As a result, IK plays a key role in determining the rate
+dependence of EADs.
+
+PMCID: PMC1281819
+PMID: 7538806  [PubMed - indexed for MEDLINE]

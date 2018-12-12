@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5495">
+<itemtype>xnppaper</itemtype>
+<titles><title>Selective presynaptic propagation of long-term potentiation in defined neural networks.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>Glutamic Acid</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>embryology</keyword>
+<keyword>physiology</keyword>
+<keyword>Interneurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Presynaptic Terminals</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:27:03Z</last_update_date>
+<creation_date>2011-06-14T00:27:03Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5495</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5495" version="1.02">
+<authors><author>Tao H</author><author>Zhang LI</author><author>Bi G</author><author>Poo M</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>20</volume>
+<number>9</number>
+<page>3233-43</page>
+<abstract>Induction of long-term potentiation (LTP) of the synaptic connection between two hippocampal glutamatergic neurons in a neural network formed in cell culture resulted in a specific pattern of potentiation at other connections within the network. We found that potentiation propagated from the site of induction retrogradely to glutamatergic or GABAergic synapses received by the dendrites of the presynaptic neuron and laterally to those made by its axonal collaterals onto other glutamatergic cells. In contrast, synapses made by the same presynaptic neuron onto GABAergic cells were not affected, and there was no postsynaptic lateral or forward propagation to other synapses received or made by the postsynaptic neuron. In addition, there was no secondary propagation to synapses not directly associated with the presynaptic neuron. Both induction and propagation of LTP required correlated spiking of the postsynaptic cell as well as the activation of the NMDA subtype of glutamate receptors. Such selective propagation suggests the existence of a long-range cytoplasmic signaling within the presynaptic neuron, leading to a specific pattern of coordinated potentiation along excitatory pathways in a neural network.</abstract>
+<pubmed_id>10777788</pubmed_id>
+</detail>
+</item>

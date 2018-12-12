@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4822">
+<itemtype>xnppaper</itemtype>
+<titles><title>The organization of spatial coding in the hippocampus: a study of neural ensemble activity.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:47:58Z</last_update_date>
+<creation_date>2011-04-28T05:47:58Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4822</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4822" version="1.02">
+<authors><author>Eichenbaum H</author><author>Wiener SI</author><author>Shapiro ML</author><author>Cohen NJ</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>9</volume>
+<number>8</number>
+<page>2764-75</page>
+<abstract>Neural activity was recorded from local groups of hippocampal single units in rats performing a spatial-memory task. The organization of functional correlates in these neural ensembles was investigated by examining the spatial relationships among the place fields of single units in each ensemble. The distance and overlap between place fields were determined together with the tuning of cellular activity to behavioral variables, including direction, speed, and turning angle during movements within place fields. The place fields of recorded neural ensembles were significantly clustered: closer in space and considerably more overlapped than chance when compared statistically with Monte Carlo simulations. Just as single units often have significant firing in more than one distinct location in the environment (subfields), the ensembles had multiple and distinct clusters of overlapping subfields. In addition, proximity and overlap between place fields were significantly, but weakly, correlated with similarity in optimal movement tuning parameters. These results suggest that the hippocampus maintains a local organization with respect to place fields despite having no apparent large-scale isomorphism with the spatial environment. The organization of multiple, clustered place fields with correlated movement tuning properties in small neural ensembles suggests the existence of functional neural ensembles serving to encode multiple sensory and behavioral aspects of a place or event. Such an organization is similar to that observed for neocortical association areas afferent to the hippocampal system.</abstract>
+<pubmed_id>2769365</pubmed_id>
+</detail>
+</item>

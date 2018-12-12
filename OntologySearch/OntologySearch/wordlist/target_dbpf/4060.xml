@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4060">
+<itemtype>xnppaper</itemtype>
+<titles><title>Spontaneous changes of neocortical code for associative memory during consolidation.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Animals</keyword>
+<keyword>Association Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Blinking</keyword>
+<keyword>Conditioning (Psychology)</keyword>
+<keyword>Electrodes</keyword>
+<keyword>Implanted</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neocortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T05:22:51Z</last_update_date>
+<creation_date>2010-10-08T05:22:51Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4060</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4060" version="1.02">
+<authors><author>Takehara-Nishiuchi K</author><author>McNaughton BL</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>322</volume>
+<number>5903</number>
+<page>960-3</page>
+<abstract>After learning, the medial prefrontal cortex (mPFC) gradually comes to modulate the expression of memories that initially depended on the hippocampus. We show that during this consolidation period, neural firing in the mPFC becomes selective for the acquired memories. After acquisition of memory associations, neuron populations in the mPFC of rats developed sustained activity during the interval between two paired stimuli, but reduced activity during the corresponding interval between two unpaired stimuli. These new patterns developed over a period of several weeks after learning, with and without continued conditioning trials. Thus, in agreement with a central tenet of consolidation theory, acquired associations initiate subsequent, gradual processes that result in lasting changes of the mPFC&#039;s code, without continued training.</abstract>
+<pubmed_id>18988855</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="110">
+<itemtype>xnppaper</itemtype>
+<titles><title>Spatiotemporal visualization of long-term potentiation and depression in the hippocampal CA1 area.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-06-18T03:37:01Z</last_update_date>
+<creation_date>2008-06-18T03:37:01Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=110</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="110" version="1.02">
+<authors><author>Aihara T</author><author>Kobayashi Y</author><author>Tsukada M</author></authors>
+<journal>Hippocampus</journal>
+<volume>15</volume>
+<number>1</number>
+<page>68-78</page>
+<abstract>Long-term potentiation (LTP) in the CA1 area of the hippocampus depends critically on the statistical characteristics of its stimulus. The ability of optical imaging to record spatial distribution has made it possible to examine systematically the effect of higher-order statistical characteristics, such as the correlation between successive pairs of inter-stimulus intervals (ISIs) on the induction of LTP. Therefore, the function of frequency (first-order) and temporal pattern (second-order) was examined using this imaging technique. To investigate the dependence of LTP on frequency, periodic stimuli with the same number of pulses were applied at different frequencies (1-10 Hz, n=200) to Schaffer commissural-collateral fibers. While stimulus frequencies from 2-10 Hz induced LTP of varying magnitudes and low-frequency stimuli (1 Hz) induced long-term depression (LTD), spatial distribution remained consistent. These results suggest that induction frequency has a greater effect on the magnitude of LTP than on its spatial distribution. By employing nonperiodic stimuli at the same mean frequency (2 Hz), the effect of varying the temporal structure of a stimulus was also investigated. As the correlation of successive ISIs was increased from negative to positive, not only did the magnitude of LTP increase, there was also a statistically significant change in the spatial distribution of LTP. Interestingly, when a strong negatively correlated stimulus was applied, both LTP and LTD were simultaneously observed in the CA1 area. It was also found that the magnitude of LTP 200-300 mum distal to the cellular layer was larger than that of the LTP induced proximal (&lt;100 microm) to that layer. These results support the hypothesis that the spatial distribution of LTP throughout the hippocampus relies principally on the temporal patterning of input stimulation. This insight into the structure of the CA1 neural network may reveal the importance of stimulus timing events in the spatial encoding of memories.</abstract>
+<pubmed_id>15390164</pubmed_id>
+</detail>
+</item>

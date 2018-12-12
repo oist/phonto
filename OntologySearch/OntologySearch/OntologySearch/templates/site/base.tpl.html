@@ -1,0 +1,48 @@
+{%load static %}<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE|default:"en-us" }}">
+<head>
+{% block blockbots %}<meta name="robots" content="NONE,NOARCHIVE" />{% endblock %}
+<meta name="author" content="Ontology Search Project"/>
+<title>{% block title %} Ontology Search {% endblock %}</title>
+<link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}"/>
+{% if is_mobile %}
+<!-- TODO support jquery-mobile -->
+{% else %}
+<link rel="stylesheet" type="text/css" href="{% static 'js/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'js/jquery.treeview/jquery.treeview.css' %}"/>
+{% endif %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/common.css' %}"/>
+{% block extrastyle %}{% endblock %}
+{% block handstyle %}{% endblock %}
+
+<!-- load the javascript files -->
+  <script type="text/javascript" src="{% static 'js/jquery_1.11.0/jquery-1.11.0.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/jquery.cookie/jquery.cookie.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/jquery.treeview/jquery.treeview.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/common.js' %}"></script>
+{% block extrajs %}
+{% endblock %} {# end of extrajs block #}
+{% block handscript %}
+{% endblock %} {# end of script block #}
+
+</head>
+{% load i18n %}
+<body>
+
+  <header id="header">
+  {% block header %}
+  {% endblock %} {# end of header block #}
+  </header> <!-- end of header tag -->
+  <div id="container">
+
+    {% block content %}
+    {% endblock %} {# end of content block #}
+  </div> <!-- end of #container -->
+
+  {% block footer %}
+  <footer id="footer">
+  </footer>
+  {% endblock %} {# end of footer block #}
+</body>
+</html>

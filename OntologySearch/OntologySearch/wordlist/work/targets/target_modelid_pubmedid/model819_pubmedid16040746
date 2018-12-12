@@ -1,0 +1,32 @@
+1. Biophys J. 2005 Oct;89(4):2865-87. Epub 2005 Jul 22.
+
+Dynamical mechanisms of pacemaker generation in IK1-downregulated human
+ventricular myocytes: insights from bifurcation analyses of a mathematical model.
+
+Kurata Y(1), Hisatome I, Matsuda H, Shibamoto T.
+
+Author information: 
+(1)Department of Physiology, Kanazawa Medical University, Ishikawa 920-0293,
+Japan. yasu@kanazawa-med.ac.jp
+
+Dynamical mechanisms of the biological pacemaker (BP) generation in human
+ventricular myocytes were investigated by bifurcation analyses of a mathematical 
+model. Equilibrium points (EPs), periodic orbits, stability of EPs, and
+bifurcation points were determined as functions of bifurcation parameters, such
+as the maximum conductance of inward-rectifier K+ current (I(K1)), for
+constructing bifurcation diagrams. Stable limit cycles (BP activity) abruptly
+appeared around an unstable EP via a saddle-node bifurcation when I(K1) was
+suppressed by 84.6%. After the bifurcation at which a stable EP disappears, the
+I(K1)-reduced system has an unstable EP only, which is essentially important for 
+stable pacemaking. To elucidate how individual sarcolemmal currents contribute to
+EP instability and BP generation, we further explored the bifurcation structures 
+of the system during changes in L-type Ca2+ channel current (I(Ca,L)),
+delayed-rectifier K+ currents (I(K)), or Na(+)/Ca2+ exchanger current (I(NaCa)). 
+Our results suggest that 1), I(Ca,L) is, but I(K) or I(NaCa) is not, responsible 
+for EP instability as a requisite to stable BP generation; 2), I(K) is
+indispensable for robust pacemaking with large amplitude, high upstroke velocity,
+and stable frequency; and 3), I(NaCa) is the dominant pacemaker current but is
+not necessarily required for the generation of spontaneous oscillations.
+
+PMCID: PMC1366784
+PMID: 16040746  [PubMed - indexed for MEDLINE]

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4908">
+<itemtype>xnppaper</itemtype>
+<titles><title>Spectral characteristics of the hippocampal EEG in the freely moving rat.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Computers</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>physiology</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+<keyword>Sleep</keyword>
+<keyword>REM</keyword>
+<keyword>physiology</keyword>
+<keyword>Spectrum Analysis</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T01:52:52Z</last_update_date>
+<creation_date>2011-05-09T01:52:52Z</creation_date>
+<publication_year>1982</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4908</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4908" version="1.02">
+<authors><author>Leung LW</author><author>Lopes da Silva FH</author><author>Wadman WJ</author></authors>
+<journal>Electroencephalography and clinical neurophysiology</journal>
+<volume>54</volume>
+<number>2</number>
+<page>203-19</page>
+<abstract></abstract>
+<pubmed_id>6179745</pubmed_id>
+</detail>
+</item>

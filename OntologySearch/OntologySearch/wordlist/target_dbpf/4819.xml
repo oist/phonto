@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4819">
+<itemtype>xnppaper</itemtype>
+<titles><title>Conscious awareness, memory and the hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Amnesia</keyword>
+<keyword>physiopathology</keyword>
+<keyword>psychology</keyword>
+<keyword>Awareness</keyword>
+<keyword>physiology</keyword>
+<keyword>Consciousness</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:10:56Z</last_update_date>
+<creation_date>2011-04-28T05:43:42Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4819</url>
+<changelogs>
+<changelog date='2013-03-28T02:10:56Z'>Modified; Item Description.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4819" version="1.02">
+<authors><author>Eichenbaum H</author></authors>
+<journal>Nature neuroscience</journal>
+<volume>2</volume>
+<number>9</number>
+<page>775-6</page>
+<abstract>Declarative memory, the conscious recollection of past experiences, is known to involve the hippocampus. Now a study of amnesic patients shows that hippocampus-dependent learning can occur in the absence of conscious awareness.</abstract>
+<pubmed_id>10461210</pubmed_id>
+</detail>
+</item>

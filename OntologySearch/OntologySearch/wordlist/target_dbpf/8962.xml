@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8962">
+<itemtype>xnppaper</itemtype>
+<titles><title>Medial prefrontal cortex cells show dynamic modulation with the hippocampal theta rhythm dependent on behavior.</title>
+</titles>
+<contributor uname='admin_KWL2'>Hiroaki Wagatsuma(admin_KWL2)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Feeding Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description>Wagatsuma Lab, FY2015, saito</description>
+<doi></doi>
+<last_update_date>2015-03-27T10:20:41Z</last_update_date>
+<creation_date>2015-03-27T10:20:41Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8962</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8962" version="1.02">
+<authors><author>Hyman JM</author><author>Zilli EA</author><author>Paley AM</author><author>Hasselmo ME</author></authors>
+<journal>Hippocampus</journal>
+<volume>15</volume>
+<number>6</number>
+<page>739-49</page>
+<abstract>Both the hippocampus and the medial prefrontal cortex are essential for successful performance in learning- and memory-related tasks. Within the hippocampus the theta rhythm plays an integral role in the timing of action potentials of hippocampal neurons responding to elements of any given task. Medial prefrontal cortex (mPFC) neurons display firing rate changes to specific facets of behavioral tasks (Jung et al., 1998. Cereb Cortex 8:437--450). We recorded units in the mPFC and field potentials in the hippocampus to determine whether behaviorally correlated mPFC cells fired with phase relationships to the hippocampal theta rhythm. In two different behavioral tasks (running a linear track and foraging in two distinct environments) we found mPFC cells that alternated between theta entrained firing and nonphasic firing depending on the ongoing behavior, while other cells were modulated during all conditions in both tasks. The majority of the mPFC cells with a significant correlation of firing rate changes with behavior were entrained to hippocampal theta. Cells that fired to specific events during only one direction of running were predisposed to theta modulation only in that direction. mPFC neurons have the capability to respond to behaviorally relevant elements by dynamically alternating between hippocampal theta entrained and nonphasic firing.</abstract>
+<pubmed_id>16015622</pubmed_id>
+</detail>
+</item>

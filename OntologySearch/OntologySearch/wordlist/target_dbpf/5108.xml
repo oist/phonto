@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5108">
+<itemtype>xnppaper</itemtype>
+<titles><title>Synaptopodin maintains the neural activity-dependent enlargement of dendritic spines in hippocampal neurons.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Actins</keyword>
+<keyword>metabolism</keyword>
+<keyword>Alternative Splicing</keyword>
+<keyword>Animals</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>Dendritic Spines</keyword>
+<keyword>metabolism</keyword>
+<keyword>Female</keyword>
+<keyword>Fluorescent Dyes</keyword>
+<keyword>Gene Expression</keyword>
+<keyword>physiology</keyword>
+<keyword>Green Fluorescent Proteins</keyword>
+<keyword>genetics</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Luminescent Proteins</keyword>
+<keyword>Male</keyword>
+<keyword>Microfilament Proteins</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Potoroidae</keyword>
+<keyword>Pregnancy</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T05:23:29Z</last_update_date>
+<creation_date>2011-05-16T05:23:29Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5108</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5108" version="1.02">
+<authors><author>Okubo-Suzuki R</author><author>Okada D</author><author>Sekiguchi M</author><author>Inokuchi K</author></authors>
+<journal>Molecular and cellular neurosciences</journal>
+<volume>38</volume>
+<number>2</number>
+<page>266-76</page>
+<abstract>Synaptopodin (SYNPO) is an F-actin interacting protein expressed in dendritic spines and upregulated during the late-phase of long-term potentiation. Here, we investigated whether SYNPO regulates spine morphology through interactions with F-actin, the major cytoskeletal element of spines. In primary hippocampal neuron cultures, both endogenous and exogenous SYNPO localized preferentially in large spines under basal conditions. SYNPO overexpression did not affect the number or volume of spines in unstimulated neurons. Pharmacological activation of synaptic NMDA receptors transiently increased spine volume in control neurons, while the increase was persistent in neurons overexpressing SYNPO. In addition, exogenous SYNPO in PtK2 cells suppressed staurosporine-dependent disruption of F-actin stress fibers, suggesting that SYNPO protected F-actin from disruption. These results suggest that SYNPO stabilized activity-dependent increases in spine volume and imply that late-phase changes in spine morphology involve SYNPO.</abstract>
+<pubmed_id>18424168</pubmed_id>
+</detail>
+</item>

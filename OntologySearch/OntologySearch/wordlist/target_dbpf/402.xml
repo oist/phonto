@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="402">
+<itemtype>xnppaper</itemtype>
+<titles><title>Input source and strength influences overall firing phase of model hippocampal CA1 pyramidal cells during theta: relevance to REM sleep reactivation and memory consolidation.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-06-25T04:59:12Z</last_update_date>
+<creation_date>2008-06-25T04:59:12Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=402</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="402" version="1.02">
+<authors><author>Booth V</author><author>Poe GR</author></authors>
+<journal>Hippocampus</journal>
+<volume>16</volume>
+<number>2</number>
+<page>161-73</page>
+<abstract>In simulation studies using a realistic model CA1 pyramidal cell, we accounted for the shift in mean firing phase from theta cycle peaks to theta cycle troughs during rapid-eye movement (REM) sleep reactivation of hippocampal CA1 place cells over several days of growing familiarization with an environment (Brain Res 855:176-180). Changes in the theta drive phase and amplitude between proximal and distal dendritic regions of the cell modulated the theta phase of firing when stimuli were presented at proximal and distal dendritic locations. Stimuli at proximal dendritic sites (proximal to 100 microm from the soma) invoked firing with a significant phase preference at the depolarizing theta peaks, while distal stimuli (&gt;290 microm from the soma) invoked firing at hyperpolarizing theta troughs. The input location-related phase preference depended on active dendritic conductances, a sufficient electrotonic separation between input sites and theta-induced subthreshold membrane potential oscillations in the cell. The simulation results predict that the shift in mean theta phase during REM sleep cellular reactivation could occur through potentiation of distal dendritic (temporo-ammonic) synapses and depotentiation of proximal dendritic (Schaffer collateral) synapses over the course of familiarization.</abstract>
+<pubmed_id>16411243 </pubmed_id>
+</detail>
+</item>

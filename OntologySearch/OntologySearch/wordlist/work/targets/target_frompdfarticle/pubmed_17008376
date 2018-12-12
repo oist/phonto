@@ -1,0 +1,2755 @@
+J Physiol 577.2 (2006) pp 617–639
+
+617
+
+Modelling spinal circuitry involved in locomotor pattern
+generation: insights from deletions during ﬁctive
+locomotion
+
+Ilya A. Rybak1, Natalia A. Shevtsova1,2, Myriam Lafreniere-Roula3 and David A. McCrea3
+
+1Department of Neurobiology and Anatomy, Drexel University College of Medicine, Philadelphia, PA 19129, USA
+2A. B. Kogan Research Institute for Neurocybernetics, Rostov State University, Rostov-on-Don 344090, Russia
+3Spinal Cord Research Centre and Department of Physiology, University of Manitoba, Winnipeg, Manitoba R3E 3J7, Canada
+
+The mammalian spinal cord contains a locomotor central pattern generator (CPG) that can
+produce alternating rhythmic activity of ﬂexor and extensor motoneurones in the absence
+of rhythmic input and proprioceptive feedback. During such ﬁctive locomotor activity in
+decerebrate cats, spontaneous omissions of activity occur simultaneously in multiple agonist
+motoneurone pools for a number of cycles. During these ‘deletions’, antagonist motoneurone
+pools usually become tonically active but may also continue to be rhythmic. The rhythmic
+activity that re-emerges following a deletion is often not phase shifted. This suggests that some
+neuronal mechanism can maintain the locomotor period when motoneurone activity fails. To
+account for these observations, a simpliﬁed computational model of the spinal circuitry has been
+developed in which the locomotor CPG consists of two levels: a half-centre rhythm generator
+(RG) and a pattern formation (PF) network, with reciprocal inhibitory interactions between
+antagonist neural populations at each level. The model represents a network of interacting neural
+populations with single interneurones and motoneurones described in the Hodgkin-Huxley
+style. The model reproduces the range of locomotor periods and phase durations observed
+during real locomotion in adult cats and permits independent control of the level of motoneurone
+activity and of step cycle timing. By altering the excitability of neural populations within the
+PF network, the model can reproduce deletions in which motoneurone activity fails but the
+phase of locomotor oscillations is maintained. The model also suggests criteria for the functional
+identiﬁcation of spinal interneurones involved in the mammalian locomotor pattern generation.
+
+(Resubmitted 4 August 2006; accepted after revision 24 September 2006; ﬁrst published online 28 September 2006)
+Corresponding author D. A. McCrea: Spinal Cord Research Centre, University of Manitoba, 730 William Avenue,
+Winnipeg, Manitoba, R3E3J7 Canada. Email: dave@scrc.umanitoba.ca
+
+Locomotor central pattern generator
+in the mammalian spinal cord
+
+It is widely accepted that the mammalian spinal cord
+contains a central pattern generator (CPG) that can
+produce the basic locomotor rhythm in the absence
+of rhythmic input
+from higher brain centres and
+peripheral sensory feedback (Graham Brown, 1911;
+Grillner, 1981; Rossignol, 1996; Orlovsky et al. 1999).
+Although the neuronal organization of this CPG remains
+largely unknown, there appears to be at least one CPG
+for each hindlimb because the hindlimbs of cats with
+chronic thoracic spinal lesions can step at independent
+rates (Forssberg et al. 1980). Graham Brown (1914)
+offered the ﬁrst conceptual scheme of the mammalian
+CPG based on a half-centre concept. According to this
+concept, the locomotor rhythm results from interplay
+
+between tonic excitation of two populations of excitatory
+interneurones (referred to as half-centres) and the
+inhibition between them. Each half-centre
+reciprocal
+excites
+synergist motoneurones
+activates
+antagonist motoneurones
+interneurones
+(e.g. Jankowska et al. 1967a,b; Lundberg, 1981). In this
+organization, a single network controls the rhythm and
+pattern of motoneurone activity during locomotion.
+
+inhibiting
+
+and
+
+To overcome some of the inherent limitations of a single
+CPG network and provide for a variety of motoneurone
+recruitment patterns, Grillner (1981) suggested that
+subsets of motoneurone pools are controlled by multiple,
+coupled, unit burst generators (UBGs) (see also Stein
+& Smith, 1997). Others have suggested that a bipartite
+(half-centre) organization can also sculpt the activity
+of individual motoneurone pools if additional neural
+circuits operate between the rhythm generator (RG) and
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+DOI: 10.1113/jphysiol.2006.118703
+
+618
+
+I. A. Rybak and others
+
+J Physiol 577.2
+
+motoneurones. Such intermediate neural circuits have
+been proposed to reproduce the complex pattern of activity
+in motoneurone pools innervating bifunctional muscles or
+to provide a separation of the tasks of rhythm generation
+and motoneurone activation during locomotion (Perret &
+Cabelguen, 1980; Perret, 1983; Koshland & Smith, 1989;
+Kriellaars et al. 1994; Burke et al. 2001).
+
+Insights into CPG organization from experimental
+studies of ﬁctive locomotion
+
+stimulation of
+
+Continuous electrical
+the midbrain
+locomotor region (MLR) in the immobilized decerebrate
+cat produces ‘ﬁctive locomotion’ consisting of rhythmic
+alternating activation of ﬂexor and extensor motoneurones
+similar to that occurring during normal
+locomotion
+in the intact animal (see Rossignol, 1996). Two types
+of experimental studies of ﬁctive locomotion in our
+laboratory motivated the development of
+the CPG
+architecture presented here. The ﬁrst was an investigation
+of the effects of stimulation of hindlimb sensory afferents
+on motoneurone activity and step cycle timing (e.g.
+Guertin et al. 1995; Perreault et al. 1995; McCrea, 2001;
+Stecina et al. 2005). These studies revealed that in many
+cases, afferent stimulation can delay or cause a premature
+phase switching within the ongoing step cycle without
+changing the timing of the following step cycles (see the
+following paper, Rybak et al. 2006).
+
+The other experimental ﬁndings that motivated the
+present study came from an investigation of ‘deletions’
+– spontaneous errors
+in the rhythmic activity of
+motoneurones occurring during ﬁctive locomotion and
+scratch (Lafreniere-Roula & McCrea, 2005). Such deletions
+of rhythmic motoneurone activity have been observed
+during ﬁctive (e.g. Grillner & Zangger, 1979) and treadmill
+locomotion in cats (e.g. Duysens, 1977) and extensively
+described in turtles during the scratch reﬂex (e.g. Stein
+& Grossman, 1980; Stein, 2005). Deletions observed
+during ﬁctive locomotion in cats are characterized by
+brief periods of inactivity occurring simultaneously in
+multiple synergist motoneurone populations. During
+these deletions, the activity of antagonist motoneurone
+populations usually becomes tonic but may continue
+to be rhythmic (Lafreniere-Roula & McCrea, 2005).
+The widespread effect of deletions on the activity of
+multiple motoneurone pools throughout the limb is strong
+evidence that they are produced by failures in the operation
+of some common spinal circuitry, such as the CPG, and
+not a result of local perturbations affecting the excitability
+of particular motoneurones.
+
+An analysis of motoneurone activities during and
+following deletions revealed that some deletions are
+the rhythm which
+accompanied by a resetting of
+can be recognized by a shift
+the
+re-emerging rhythm relative to the rhythm preceding
+
+in the phase of
+
+the deletion (Lafreniere-Roula & McCrea, 2005). Such
+rhythm resetting or phase shifting after a deletion
+can be easily explained within the framework of the
+classical half-centre CPG organization. For example,
+because of reciprocal inhibition between the half-centres, a
+spontaneous temporary increase in the excitability of one
+half-centre would cause an inhibition of the antagonist
+half-centre, resulting in a deletion of the activity of
+the corresponding antagonist motoneurone pools. As the
+duration of the perturbation causing the deletion may be
+arbitrary, the rhythm following the perturbation should
+generally be accompanied by a shift of the phase of the
+post-deletion rhythm relative to the pre-deletion rhythm.
+Most spontaneous deletions observed during ﬁctive
+locomotion are characterized, however, by a maintenance
+of the phase of locomotor oscillations after the deletion
+(Lafreniere-Roula & McCrea, 2005). Thus the bursts of
+motoneurone activity that re-emerge after a deletion often
+occur at an integer number of the missing locomotor
+periods. In other words, the post-deletion motoneurone
+bursts appear at the times which would have been expected
+if the deletion had not occurred (i.e. the locomotor
+rhythm is not reset) (Lafreniere-Roula & McCrea, 2005).
+These observations suggest that the internal structure of
+the CPG can ‘remember’ and maintain the locomotor
+cycle period when motoneurone activity falls silent. Such
+rhythm and phase maintenance is inconsistent with the
+classical half-centre CPG organization, in which a single
+network is responsible for both rhythm generation and
+motoneurone activation.
+
+The present study explores a novel architecture of
+the locomotor CPG that incorporates features of both
+the half-centre and the UBG organizations. In order
+to explain the above experimental ﬁndings, we suggest
+that the locomotor CPG has a two-level architecture
+containing a half-centre RG, performing a ‘clock’ function,
+and an intermediate pattern formation (PF) network
+that distributes and coordinates the activities of multiple
+motoneurone populations (see Fig. 1). The RG deﬁnes the
+locomotor rhythm and durations of ﬂexor and extensor
+phases. It also controls the activity of the PF network
+interposed between the RG and motoneurones. The PF
+network contains multiple interneurone populations each
+of which projects to multiple synergist motoneurone
+populations and reciprocally inhibits other populations
+within the PF network. Depending on the input from
+the RG network and the interactions within the PF
+network, each PF population is active during a particular
+phase(s) of the step cycle and produces a phase-speciﬁc
+synchronized activation of the corresponding group of
+synergist motoneurone pools (see Fig. 1).
+
+The hypothesized two-level organization of the CPG
+the locomotor rhythm
+the RG level) and the pattern of motoneurone
+the PF level). Consequently, sensory
+
+allows a separate control of
+(at
+activations (at
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+J Physiol 577.2
+
+Modelling spinal circuitry involved in locomotor pattern generation
+
+619
+
+signals or a spontaneously occurring perturbation may
+affect CPG operation at
+the RG level, altering the
+locomotor rhythm (e.g. producing a phase shift or rhythm
+resetting) or act at the PF level, altering the pattern of
+motoneurone activation without resetting the rythm or
+shifting the phase (see Fig. 1). In the present report we
+describe a computational model representing a reduced
+version of the above conceptual model and compare
+the results of modelling with the experimental study of
+deletions observed during MLR-evoked ﬁctive locomotion
+in decerebrate cats. Modelling the effects of afferent
+stimulation on the locomotor rhythm and pattern is
+presented in the following paper (Rybak et al. 2006). Some
+results have been presented in abstract form (Rybak et al.
+2004a; Rybak & McCrea, 2005).
+
+Figure 1. Schematic illustration of the two-level central pattern
+generator (CPG) concept
+The locomotor CPG consists of a half-centre rhythm generator (RG)
+and a pattern formation (PF) network. The RG deﬁnes the locomotor
+rhythm and the durations of ﬂexor and extensor phases and controls
+the activity of the PF network. The PF network contains interneurone
+populations (green spheres), each of which provides excitation to
+multiple synergist motoneurone pools (diamonds) and is connected
+with other PF populations via a network of inhibitory connections.
+Activation of a particular PF population activates the corresponding
+muscle synergy. The PF network mediates rhythmic input from the RG
+to motoneurones and distributes it among the motoneurone pools.
+Depending on the input from the RG and the interactions within the
+PF network, each PF population is active within particular phase(s) of
+the step cycle and produces a phase-speciﬁc, synchronized activation
+of the corresponding group of synergist motoneurone pools. Afferent
+feedback and spontaneous perturbations may affect the CPG either at
+the level of the RG, producing alterations (e.g. phase shifting or
+resetting) of the locomotor rhythm, or at the level of PF, altering the
+level of motoneurone activation and/or the timing of phase transitions
+without shifting the phase of (or resetting) the locomotor rhythm
+generated by the RG. See details in the text.
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+Methods
+
+Models of single motoneurones and interneurones
+
+have
+
+channel
+
+as
+had
+
+conductances)
+
+Interneurones were
+
+All neurones were modelled in the Hodgkin-Huxley
+simulated
+style.
+single-
+compartment models. Motoneurones
+two
+compartments: soma and dendrite. In this study, we
+accepted and used the two-compartment motoneurone
+model described by Booth et al. (1997). In accordance
+with this model, the following ionic currents (with the
+corresponding
+been
+considered: fast sodium (I Na with maximal conductance
+¯gNa); delayed-rectiﬁer potassium (I K with maximal
+¯gK);
+calcium-N (I CaN with maximal
+conductance
+¯gCaN); calcium-L (I CaL with maximal
+conductance
+conductance ¯gCaL), calcium-dependent potassium (I K,Ca
+¯gK,Ca), and leakage (I L
+with maximal conductance
+with constant conductance g L) currents. In addition,
+based on evidence for the presence of the persistent
+(slowly inactivating) sodium current (I NaP) in spinal cord
+interneurones and motoneurones (Lee & Heckman, 2001;
+Darbon et al. 2004; Streit et al. 2005), this current has
+been also included in our neurone models (with maximal
+conductance ¯gNaP). The above ionic currents are described
+as follows:
+
+Na
+
+× hNa × (V − ENa);
+× (V − EK);
+
+INa = ¯gNa × m3
+INaP = ¯gNaP × mNaP × hNaP × (V − ENa);
+IK = ¯gK × m4
+ICaN = ¯gCaN × m2
+× hCaN × (V − ECa);
+ICaL = ¯gCaL × mCaL × (V − ECa);
+IK,Ca = ¯gK,Ca × mK,Ca
+× (V − EK);
+IL = gL × (V − EL),
+
+CaN
+
+K
+
+(1)
+
+where V is the membrane potential of the corresponding
+neurone compartment (i.e. soma (V (S)) or dendrite
+(V (D))) in two-compartment models, or the neurone
+membrane potential V in one-compartment models; ENa,
+EK, ECa and EL are the reversal potentials for sodium,
+potassium, calcium and leakage currents, respectively;
+variables m and h with indices indicating ionic currents
+represent, respectively, the activation and inactivation
+variables of the corresponding ionic channels.
+
+The
+
+dendrite–soma
+
+(with
+conductance g C) for soma (I C(S)) and dendrite (I C(D)) are
+described following the Booth et al. (1997) model:
+
+coupling
+
+currents
+
+× (V(S) − V(D));
+
+IC(S) = gC
+p
+IC(D) = gC
+1 − p
+
+× (V(D) − V(S)),
+
+(2)
+
+where p is the parameter deﬁning the ratio of somatic
+surface area to total surface area.
+
+620
+
+I. A. Rybak and others
+
+J Physiol 577.2
+
+Synaptic excitatory (I SynE with conductance g SynE
+and reversal potential ESynE) and inhibitory (I SynI with
+conductance g SynI and reversal potential ESynI) currents
+have also been incorporated into our models:
+ISynE = gSynE × (V − ESynE);
+ISynI = gSynI × (V − ESynI).
+
+(3)
+
+The kinetics of intracellular Ca2+
+concentration (Ca,
+described separately for each compartment) is modelled
+according to the following equation (Booth et al. 1997):
+
+Ca = f × (−α × ICa − kCa × Ca),
+
+(4)
+
+d
+dt
+
+where f deﬁnes the percentage of free to total Ca2+
+converts the total Ca2+
+and kCa represents the Ca2+
+
+current, I Ca, to Ca2+
+removal rate.
+
+, α
+concentration
+
+In accordance with the two-compartment motoneurone
+model of Booth et al. (1997) but with the inclusion of I NaP
+to the motoneurone dendrite, the membrane potentials
+of the motoneurone soma (V (S)) and dendrite (V (D)) are
+described by the following differential equations:
+C × dV(S)
+dt
+
+= −INa(S) − IK(S) − ICaN(S)
+−IK,Ca(S) − IL(S) − IC(S);
+
+C × dV(D)
+dt
+
+= −INaP(D) − ICaN(D) − ICaL(D) − IK,Ca(D)
+
+−IL(D) − IC(D) − ISynE − ISynI,
+
+(5)
+
+where C is the membrane capacitance and t is time.
+
+For simplicity and because of the lack of speciﬁc data,
+all interneurones (single-compartment models) except
+RG and PF neurons contain only a minimal set of ionic
+currents:
+
+C × dV
+dt
+
+= −INa − IK − IL − ISynE − ISynI.
+
+(6)
+
+The excitatory neurons of the CPG comprising the RG and
+PF populations have the persistent (slowly inactivating)
+sodium current, I NaP, which has been suggested to play an
+important role in the intrinsic rhythmogenesis in spinal
+interneurones (Darbon et al. 2004; Streit et al. 2005). The
+membrane potential of these interneurones is described as
+follows:
+
+C × dV
+dt
+
+= −INa − INaP − IK − IL − ISynE − ISynI.
+
+(7)
+
+Activation m and inactivation h of voltage-dependent
+) are
+ionic channels (e.g. Na
+
+, K
+
+2+
+
+2+
+
+, CaN
+
+, NaP
+
+, CaL
+
++
+
++
+
++
+
+described by the following differential equations:
+
+(8)
+
+mi = m∞i (V ) − mi ;
+hi = h∞i (V ) − hi ,
+
+τmi (V ) × d
+dt
+τhi (V ) × d
+dt
+identiﬁes the name of the channel, m∞i(V )
+where i
+and h∞i(V ) deﬁne the voltage-dependent steady-state
+activation and inactivation, respectively, and τ mi(V ) and
+τ hi(V ) deﬁne the corresponding time constants (see
+Table 1 in Appendix). Activation of the sodium channels
+is considered to be instantaneous (τ mNa = τ mNaP = 0, see
+Booth et al. 1997; Butera et al. 1999a,b).
+Activation of the Ca2+
+
+-dependent potassium channels
+is also considered instantaneous and described as follows
+(Booth et al. 1997):
+
+Ca
+
+mK,Ca =
+the Ca2+
+
+Ca + Kd
+concentration within the
+where Ca is
+corresponding compartment or neurone, and K d deﬁnes
+the half-saturation level of this conductance.
+
+(9)
+
+,
+
+The excitatory (g SynE) and inhibitory synaptic (g SynI)
+conductances are equal to zero at rest and may be
+activated (opened) by the excitatory or inhibitory inputs,
+respectively:
+gSynEi(t) = ¯gE × (cid:2)
+
+m
+
+(10)
+where the function S{x} = x, if x ≥ 0, and 0 if x < 0.
+The excitatory and inhibitory synaptic conductances in
+equation (10) (gSyEi(t) and gSynIi(t), respectively) have
+two terms. The ﬁrst term describes the integrated effect
+of inputs from other neurones in the network. The second
+term describes the integrated effect of inputs from external
+drive or afferent stimulation dmi (e.g. MLR drive or sensory
+input from peripheral afferents; see also Rybak et al. 1997,
+2003). Each spike arriving to neurone i from neurone j
+at time t kj increases the excitatory synaptic conductance
+by ¯gE × w ji if the synaptic weight w ji > 0, or increases
+the inhibitory synaptic conductance by – ¯gI × w ji if the
+synaptic weight w ji < 0. ¯gE and ¯gI are the parameters
+deﬁning an increase in the excitatory or inhibitory synaptic
+conductance, respectively, produced by one arriving spike
+at|w ji| = 1. τ SynE and τ SynE are the decay time constants for
+the excitatory and inhibitory conductances, respectively.
+In the second terms of eqn (10), ¯gEd and ¯gId are the
+parameters deﬁning the increase in the excitatory or
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+j
+
+<t
+
++ ¯gEd × (cid:2)
+
+gSyn I i (t) = ¯gI × (cid:2)
+
+m
+
+j
+
+<t
+
++ ¯gId × (cid:2)
+
+S{w ji} × exp(−(t − tk j )/τSynE)
+S{wdmi} × dmi ;
+S{−w ji} × exp(−(t − tk j )/τSynI)
+S{−wdmi} × dmi ,
+
+(cid:2)
+(cid:2)
+J Physiol 577.2
+
+Modelling spinal circuitry involved in locomotor pattern generation
+
+621
+
+inhibitory synaptic conductance, respectively, produced
+by external input drive dmi = 1 with a synaptic weight of
+|wdmi| = 1.
+The values of maximal channel conductances and other
+ﬁxed parameters of neurone models are speciﬁed in the
+Appendix.
+
+Modelling neural populations
+
+In the present model, each functional type of neurone is
+represented by a population of 20 neurones. Connections
+between the populations were established such that if
+population A was assigned to receive an excitatory or
+inhibitory input from population B or external drive
+D, then each neurone in population A received the
+corresponding excitatory or inhibitory synaptic input
+from each neurone in population B or from drive D,
+respectively. The heterogeneity of neurones within each
+population was set by a random distribution of EL (see
+mean values± s.d. in Appendix) and initial conditions for
+values of membrane potential, calcium concentrations and
+channel conductances. In all simulations, initial conditions
+were chosen randomly from a uniform distribution for
+each variable, and a settling period of 20 s was allowed
+in each simulation before data were collected. Each
+simulation was repeated 20–30 times, and demonstrated
+qualitatively similar behaviour for particular values of
+EL and initial conditions taken within the standard
+deviations.
+
+Computer simulations
+
+All simulations were performed using a simulation
+package NSM 2.0 (for Windows XP) developed at Drexel
+University by I. A. Rybak, S. N. Markin and N. A. Shevtsova.
+Differential equations were solved using the exponential
+Euler integration method (MacGregor, 1987) with a step
+of 0.1 ms (further details in Rybak et al. 2003).
+
+Recordings from ﬁctive locomotion preparations
+
+simulations
+
+comparisons
+
+locomotion were
+of
+
+This investigation sought to simulate the activity of
+motoneurones observed during ﬁctive locomotion in
+decerebrate cats previously described by Lafreniere-Roula
+& McCrea (2005). No new animal data on motoneurone
+activity during ﬁctive
+collected.
+Instead
+from the
+present model were made with records of electro-
+neurogram (ENG) activity and intracellular recordings
+from hindlimb motoneurones during ﬁctive locomotion
+obtained previously (e.g. Lafreniere-Roula & McCrea,
+2005). Brieﬂy,
+those recordings were obtained from
+precollicular–postmammillary decerebrate cats in which
+all cortex and rostral brainstem regions were removed
+before discontinuing the anaesthetic. Surgical and
+experimental protocols were in compliance with the
+guidelines set out by the Canadian Council on Animal
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+region (MLR)
+
+Care and the University of Manitoba. Fictive locomotion
+was evoked by electrical stimulation of the midbrain
+locomoter
+following neuromuscular
+blockade. ENG records were rectiﬁed and integrated
+before digitization at 500 Hz and intracellular recordings
+from lumbar motoneurones were made using sharp glass
+microelectrodes (for further details, see Lafreniere-Roula
+& McCrea, 2005). The records in Figs. 9A, 10A, and 11A
+are taken from Lafreniere-Roula & McCrea (2005) and
+are used by permission from the American Physiological
+Society.
+
+Results
+
+Modelling spinal circuits with a two-level
+locomotor CPG
+
+Because the internal organization of the mammalian CPG
+remains unknown, our primary goal was to create a
+model that could demonstrate an important subset of the
+characteristics of activity seen during ﬁctive locomotion in
+decerebrate cats. The speciﬁc features of locomotion that
+the model should be able to reproduce were the following.
+(1) Tonic drive (e.g. constant MLR stimulation) to the
+CPG should evoke rhythmic activity with two alternating
+phases (‘ﬂexion’ and ‘extension’) coupled without inter-
+vening quiescent periods. (2) The model should be able to
+generate locomotor step cycle periods (T) in the range
+of 0.4–1.5 s and ratios of ﬂexor (T F) or extensor (T E)
+duration to the period (T F/T and T E/T) in the range
+of 0.25–0.75, observed during ﬁctive locomotion (e.g.
+Yakovenko et al. 2005). (3) Locomotor speed should
+increase (i.e. the period decrease) with increasing MLR
+drive (Sirota & Shik, 1973). (4) In the absence of
+MLR drive, an increase in excitability of CPG neurons
+should produce a slow locomotor-like activity (T = 2–5 s)
+similar to that evoked by intravenous administration of
+monoamine precursors
+in cats in vivo (e.g. Jankowska
+et al. 1967a,b), or by 5-HT in the neonatal rodent
+isolated spinal cord (e.g. Cowley & Schmidt, 1995; Whelan,
+2003). (5) A blockade of synaptic inhibition should
+trigger synchronized oscillations of ﬂexors and extensors
+(e.g. Noga et al. 1993; Cowley & Schmidt, 1995; Beato &
+Nistri, 1999).
+
+the
+
+A consideration of the above features led us to the
+suggestion that the RG half-centres contain populations
+of neurons with intrinsic rhythmogenic properties inter-
+connected via mutual excitatory connections within
+and between the half-centres and that the generation
+of
+rhythm involves both intrinsic
+rhythmogenic mechanisms, allowing each half-centre
+to generate
+rhythmic activity on its own under
+certain conditions, and reciprocal inhibitory interactions
+between the half-centres. While the intrinsic mechanisms
+deﬁning rhythmogenic properties of CPG neurons remain
+unknown, there is indirect evidence for the role of
+
+locomotor
+
+622
+
+I. A. Rybak and others
+
+J Physiol 577.2
+
+persistent (or slowly inactivating) sodium current, I NaP,
+in rhythmogenesis. This current is found in spinal cord
+motoneurones and interneurones (e.g. Lee & Heckman,
+2001; Darbon et al. 2004; Streit et al. 2005) and its blockade
+by riluzole abolishes intrinsic cellular oscillations and
+rhythm generation in the networks of cultured rat spinal
+cord neurons (Darbon et al. 2004; Streit et al. 2005). Slowly
+inactivating I NaP has also been found to play a major role
+in the respiratory rhythm generation in the pre-B¨otzinger
+complex in vitro (Butera et al. 1999a,b) and, under certain
+conditions, in vivo (Rybak et al. 2004b). Based on this
+indirect evidence, we incorporated I NaP into the neurons
+comprising the CPG excitatory populations to provide
+them with intrinsic rhythmogenic properties similar to
+those described in the models of the respiratory CPG by
+Butera et al. (1999b) and Rybak et al. (2003).
+
+The ability of neurones with NaP channels to generate
+endogenous oscillations is deﬁned by the ratio of the
+maximal conductance of NaP channels to the maximum
+conductance of potassium leak (Del Negro et al. 2002)
+and voltage-gated potassium (Rybak et al. 2003) channels.
+If maximal conductances of leak and potassium channels
+are ﬁxed, then in order for a neurone to generate
+bursting activity,
+the maximal conductance of NaP
+channels should exceed some critical value. In our model,
+the average value for the maximal conductance for
+NaP channels in PF neurones was set less than that
+−2, see
+in RG neurones (0.1 mS cm
+Appendix) and speciﬁcally below the level allowing the
+expression of NaP-dependent rhythmogenic properties
+under normal conditions. Therefore under normal
+conditions in our model, the PF network cannot generate
+its own oscillations, but operates in a forced mode receiving
+oscillatory inputs from the RG. We assume that this
+regime corresponds to normal in vivo conditions which
+we intended to model in this work.
+
+−2 versus 0.25 mS cm
+
+Our central hypothesis is that the locomotor CPG has
+two functional levels: a half-centre RG and an intermediate
+PF network that distributes and coordinates the activities
+of multiple motoneurone populations under control of
+the RG (see Fig. 1). The schematic of the computational
+model explored in the present study is shown in Fig. 2A.
+To maintain the analogy with the experimental data in
+decerebrate cats, locomotion is initiated in the model
+by external tonic excitation (from the ‘MLR’) that is
+distributed among the excitatory neural populations of
+the CPG (RG and PF networks). The RG consists of
+two populations (RG-E and RG-F) of excitatory neurones
+with I NaP-dependent pacemaker properties and mutual
+excitatory synaptic connections within and between
+them. Mutual inhibition between the RG-E and RG-F
+populations is mediated by the extensor and ﬂexor
+inhibitory populations (Inrg-E and Inrg-F, respectively).
+In the absence of
+the alternating
+busting activities of RG-E and RG-F populations deﬁne
+
+sensory input,
+
+the locomotor
+the extensor and ﬂexor phases of
+cycle, respectively. The activity of
+these populations
+is controlled by MLR excitatory drive, I NaP-dependent
+subthreshold activation, mutual synaptic excitation within
+and between the RG-E and RG-F populations, and mutual
+inhibition mediated by the inhibitory Inrg-E and Inrg-F
+populations.
+
+the model
+
+The PF network represents the second level of the
+CPG. According to our theoretical concept (see Fig. 1),
+this network should contain multiple PF populations
+controlled by the RG and provide phase-dependent
+activation of
+the corresponding groups of synergist
+motoneurone populations including the populations
+activating bifunctional muscles (acting across more
+in the reduced version
+than one joint). However
+of
+the PF network
+contains only two neural populations, PF-E and
+PF-F (see Fig. 2A). These populations receive tonic
+excitatory drive from the MLR, a weak excitatory
+input from the homonymous RG population, strong
+inhibition from the opposite RG population via a
+corresponding inhibitory population (Inrg-E or Inrg-F),
+and reciprocal inhibition from the opposite PF population
+via another inhibitory population (Inpf-F or Inpf-E)
+(see Fig. 2A).
+
+considered here,
+
+Alternating activity of the RG populations results
+in periodic, alternating activity of the PF-E and PF-F
+populations. The PF populations transmit alternating
+rhythmic excitation to the extensor (Mn-E) and ﬂexor
+(Mn-F) motoneurones and to inhibitory extensor (Ia-E)
+and ﬂexor (Ia-F) interneurones (Fig. 2A). These Ia
+populations form a third level of reciprocal inhibition
+in the system. In the model they provide the rhythmic
+inhibition of motoneurone populations during the
+inactive phase of the step cycle (e.g. McCrea et al. 1980;
+Shefchyk & Jordan, 1985). According to our concept
+and in agreement with previous suggestions (Pratt &
+Jordan, 1987; Orlovsky et al. 1999), these ‘local’ reciprocal
+interactions between the direct antagonists sculpt the
+ﬁring patterns of individual motoneurone pools. During
+in the presence of afferent
+normal
+feedback),
+reﬂex,
+antagonist
+group
+motoneurones
+Jankowska,
+1992). The model also includes populations of extensor
+and ﬂexor Renshaw cells, R-E and R-F, respectively, which
+receive collateral excitatory input from the corresponding
+motoneurone populations (Mn-E and Mn-F) and provide
+feedback inhibition to the homonymous motoneurones.
+The circuitry of mutual inhibition between Ia-E and Ia-F
+populations, their inhibition by Renshaw cells and the
+mutual inhibition between Renshaw cells (see Fig. 2A)
+is in accord with the extensive work done on these
+interneurones in anaesthetized preparations (references
+in Jankowska, 1992). Unlike previous proposals (Miller
+
+locomotion (i.e.
+
+of
+1981;
+
+Lundberg,
+
+Ia
+
+interneurones
+
+also mediate
+
+(e.g.
+
+Ia,
+
+reciprocal
+
+inhibition
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+J Physiol 577.2
+
+Modelling spinal circuitry involved in locomotor pattern generation
+
+623
+
+& Scott, 1977), the Ia and Renshaw populations do not
+participate in the maintenance or generation of rhythm
+(discussed in McCrea et al. 1980; Noga et al. 1987).
+
+The weights of synaptic connections between the neural
+populations in our model are shown in Table 2 (see
+Appendix).
+
+Figure 2B and C shows examples of
+
+computer
+simulations of locomotor rhythm generation and ﬂexor
+and extensor motoneurone activity. Activity is represented
+by histograms of average neurone activity in the
+population. The basic locomotor rhythm is generated
+by the RG network. The alternating rhythmic bursts of
+the RG populations (top two traces of Fig. 2B and C)
+deﬁne the durations of extensor and ﬂexor phases and
+hence the locomotor cycle period. An increase in MLR
+excitation to one RG population reduces the opposite
+phase duration (see below). In Fig. 2B the MLR drive
+to RG-E is stronger than that to RG-F, resulting in a
+longer duration extensor phase. In Fig. 2C increased drive
+to the RG-F population results in a ﬂexor-dominated
+
+rhythm. Note that because of the separation of rhythm
+generating and motoneurone activating networks, the
+average ﬁring rates of the motoneurone populations (two
+lower traces in Fig. 2B and C) are similar in the extensor-
+and ﬂexor-dominated rhythms. In the reduced model
+considered here, in which the PF network consists of
+only two (extensor and ﬂexor) populations reciprocally
+inhibiting each other, the activity of each PF population
+closely follows the activity of the corresponding RG
+population, and the activities of Ia inhibitory inter-
+neurones, motoneurones and Renshaw cells follow the
+activity of the corresponding (extensor or ﬂexor) PF
+populations (see Fig. 2B and C). The rhythmic activity of Ia
+and Renshaw cells during ﬁctive locomotion in the absence
+of sensory feedback has been previously demonstrated
+(Feldman & Orlovsky, 1975; McCrea et al. 1980; Pratt &
+Jordan, 1987).
+
+Figure 3A illustrates the mechanisms for the locomotor
+rhythm generation induced by excitatory (MLR) drive
+to the CPG. The top three traces in this ﬁgure show,
+
+Figure 2. Model schematic and performance
+A, schematic of the model. Populations of interneurones are represented by spheres. Excitatory and inhibitory
+synaptic connections are shown by arrows and small circles, respectively. Populations of motoneurones are
+represented by diamonds. See explanations in the text. B and C, model performance: the locomotor patterns
+generated by the model. Activity of each population is represented by a histogram of average ﬁring frequency
+(number of spikes per second per neurone, bin = 30 ms). In B, the MLR drive to RG-E (drg-e) population is larger
+than to RG-F population (drg-f = 0.43; drg-e = 0.5), and the model generates a rhythm with a longer duration
+extensor phase (T E > T F). In C, the RG-F population receives a larger drive (drg-f = 0.51; drg-e = 0.45), and the
+model generates a ﬂexion-dominated rhythm (T F > T E).
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+624
+
+I. A. Rybak and others
+
+J Physiol 577.2
+
+respectively: the average histogram of neurone activity in
+the RG-F population, the membrane potential trajectory
+of a single neurone from this population, and the change
+in the inactivation variable for NaP channel (hNaP, see
+eqn (1)) in this neurone. The next three traces show
+the same variables for the RG-E population. The ﬁgure
+shows that during the phase of activity of each RG
+population, the I NaP in neurones of this population
+is inactivating (see the slow reduction of hNaP). The
+ﬁring activity of the population is, however, maintained
+because of the supra-threshold activation of the fast
+sodium current. At the same time, there is an increasing
+excitability of the opposite (inactive) RG population
+due to the slowly increasing hNaP (i.e. de-inactivation
+of I NaP). At some point, the most excitable neurones
+in the previously silent RG population start ﬁring.
+Mutual excitatory connections within the population
+further increase population excitability and synchronize
+neuronal activation. Firing in this RG population
+activates the corresponding Inrg inhibitory population
+(see traces
+in
+the previously
+Fig. 3A) which reciprocally inhibits
+active RG population and thus produces locomotor
+phase switching. Repetition of these processes produces
+alternating ﬁring bursts of RG-E and RG-F populations
+
+Inrg-F and Inrg-E populations
+
+for
+
+and alternating activities of the extensor and ﬂexor
+motoneurone
+bottom
+traces).
+
+populations
+
+(see
+
+Fig. 3A,
+
+the generation of
+
+As described above,
+
+locomotor
+rhythm in the model results from a combination of
+I NaP-dependent intrinsic mechanisms operating within
+each RG population, and the reciprocal inhibition between
+these populations. Speciﬁcally, the onset of bursts is
+critically dependent on intrinsic excitatory mechanisms
+(activation of I NaP), whereas burst termination is mostly
+deﬁned by the reciprocal inhibition. As a result, step cycle
+duration (locomotor period) is dependent upon (and may
+be regulated by) the external (MLR) drive to the RG and
+the reciprocal inhibition between the RG half-centres, as
+well as by the intrinsic characteristics of NaP channels in
+RG neurons. Figure 4Aa shows that locomotor period T
+decreases monotonically with an increase of MLR drive
+(consistent with the data of Sirota & Shik, 1973) and
+Fig. 4Ab shows the shortening of cycle period with an
+increase of reciprocal (mutual) inhibition between the
+RG half-centres. At the same time, T decreases mono-
+tonically with an increase of the maximal conductance
+of NaP channels in RG neurons (Fig. 4Ac) and increases
+linearly with an increase of the time constant for NaP
+channel inactivation (Fig. 4Ad).
+
+Figure 3. Rhythm generator performance under different conditions
+A, generation of rhythmic activity evoked by supraspinal (MLR) drive to the RG (drg-f = 0.51; drg-e = 0.45).
+B, imitation of pharmacologically evoked rhythm in the model. The slow rhythmic activity was produced by an
+increase in excitability of the excitatory CPG populations (RGs and PFs) in the absence of external (MLR) drive.
+The increase of excitability was produced by a 6 mV depolarization of the average leakage reversal potential in
+all neurons of these populations. C, rhythmic activity produced in the model by disinhibiton. To simulate this
+behaviour, the weights of all inhibitory connections in the model were set to zero. Note synchronized rhythmic
+bursts of ﬂexors and extensors. See details in the text.
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+J Physiol 577.2
+
+Modelling spinal circuitry involved in locomotor pattern generation
+
+625
+
+In order to investigate the relative durations of the
+locomotor phases produced by the model, the MLR drive
+to one RG population (RG-E in Fig. 4Ba–Bd) was held
+constant (at 0.52 in Fig. 4Ba and Bc and at 0.41 in
+panels Fig. 4Bb and Bd), while the drive to the other RG
+population (RG-F) was progressively increased. Increasing
+MLR drive to one of the RG populations produced only
+small changes in the burst duration of that population
+and hence the duration of the corresponding locomotor
+phase (ﬂexor in the example shown), but substantially
+reduced the duration of the opposite (extensor) phase
+and, correspondingly, the total duration of the step
+cycle. As seen in Fig. 4Ba–Bd, the model was able to
+generate MLR-evoked oscillations with step cycle period
+T = 0.4–2.5 s and ratio of phase durations to the period
+T F/T (or T E/T) = 0.21–0.79 that span the range of step
+cycle periods and phase durations observed during ﬁctive
+locomotion in decerebrate cats (Yakovenko et al. 2005).
+
+The results of our attempts to model oscillations under
+other conditions with no external MLR drive are shown
+in Fig. 3B and C. To model oscillations produced by
+monoamine neuromodulators, we suggest that neuro-
+modulators increase the excitability of CPG excitatory
+populations (RGs and PFs). This suggestion is consistent
+with the data of Fedirchuk & Dai (2004) showing that
+monoamines (5-HT and noradrenaline) increase the
+excitability of spinal neurones in the rat via a 2–7 mV
+reduction in the threshold for action potential production.
+The mechanism of such an increase of excitability may
+leak conductance
+also involve the inhibition of K
+(e.g. Kjaerulff & Kiehn, 2001; Perrier et al. 2003). To
+imitate the pharmacological increase of excitability in our
+model, the average leakage current reversal potential EL
+was depolarized in all excitatory CPG neurone populations
+(RG and PF). Figure 3B shows that a depolarization of
+EL by 6 mV in the model (in the absence of MLR drive)
+evoked slow locomotor-like oscillations with alternating
+ﬂexor and extensor activities and T = ∼5 s.
+
++
+
+In our model the inhibitory interneurone populations,
+Inrg-F and Inrg-E, have a low level background activity
+between the RG-driven bursts. At rest this activity normally
+prevents CPG network operation in the absence of MLR
+drive. To simulate the oscillations evoked by blocking
+inhibitory transmission, the weights of all
+inhibitory
+connections in the model were set to zero. This produced
+spontaneous bursting activity in which ﬂexor and extensor
+motoneurones are co-active (see Fig. 3C). Such activity
+
+constant (drg-e = 0.52 in Ba and Bc, and drg-e = 0.41 in Bb and Bd).
+Drive to RG-F (drg-f) was progressively increased from 0.32 to 0.52 in
+Ba and Bc, and from 0.31 to 0.51 in Bb and Bd, see the horizontal
+axes in Ba–Bd. Note that an increase of MLR drive to RG-F produces
+only small changes in the duration of the ﬂexor phase, but
+substantially reduces the duration of the extensor phase and,
+correspondingly, the total duration of the step cycle.
+
+Figure 4. Durations of locomotor phases and step cycle and
+their dependence on model parameters
+Aa, increased drive to the RG populations reduces step cycle duration
+(T) (a symmetrical case is considered: drg-f = drg-e = 0.32–0.52, see
+the horizontal axis). Ab, T monotonically increases with an increase in
+mutual inhibition between the RG populations. The increase of mutual
+inhibition was imposed by increasing the absolute value of the weight
+of inhibitory synaptic input from Inrg-E to RG-E and from Inrg-F to
+RG-F, which is indicated in the horizontal axis (see Fig. 2A). Ac, T
+monotonically decreases with an increase of the maximal conductance
+of NaP channels in RG neurons ( ¯gNaP) whose value is indicated in the
+horizontal axis. Ad, T linearly increases with an increasing maximal
+time constant for NaP channel inactivation (τ hNaPmax) indicated in the
+horizontal axis. In Ab–Ad, drg-f = drg-e = 0.42. Ba–Bd, the duration of
+step cycle and locomotor phases (T, T F and T E in Ba and Bb) and the
+relative durations of locomotor phases (T F/T and T E/T in Bc and Bd)
+produced by the model. MLR drive to the RG-E population was
+maintained
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+626
+
+I. A. Rybak and others
+
+J Physiol 577.2
+
+is qualitatively consistent with the experimental data
+obtained in the rat isolated spinal cord (Cowley & Schmidt,
+1995; Bracci et al. 1996; Beato & Nistri, 1999) and during
+ﬁctive locomotion in cats (Noga et al. 1993) using blockers
+of inhibitory synaptic transmission such as bicuculline and
+strychnine.
+
+activities
+
+of
+
+and
+
+ﬂexor
+
+in the model
+
+Figure 5 shows a comparison of modelled and
+experimental
+extensor
+motoneurones during locomotion. The average spiking
+frequency of motoneurones
+reaches
+−1 (top and fourth traces in Fig. 5A) which is
+40 spikes s
+in general agreement with motoneurone ﬁring during
+ﬁctive locomotion in the cat (e.g. Brownstone et al. 1992).
+At the same time, because of the random distribution
+of motoneurone parameters within each population
+(speciﬁcally EL),
+there are differences in the ﬁring
+frequency, ﬁring duration and recruitment of individual
+motoneurones (see raster plots, second and ﬁfth traces in
+Fig. 5A). Similar to the intracellular recordings from single
+motoneurones during ﬁctive locomotion, motoneurones
+in the model are hyperpolarized from their resting level
+(horizontal dashed lines in the third and bottom traces
+in Fig. 5A) during the phase in which they are inactive.
+Fig. 5B shows records from a bout of MLR-evoked
+ﬁctive locomotion in a decerebrate cat plotted at the
+same time scale as the modelled results in Fig. 5A. The
+
+third and bottom traces are simultaneous intracellular
+recordings from a hip ﬂexor (sartorius (Sart)) and a hip
+extensor (semimembranosus or anterior biceps (SmAB))
+motoneurone, respectively. The remaining traces are
+population records (rectiﬁed, integrated neurograms) of
+ﬂexor (hip, Sart, and ankle, tibialis anterior (TA)) and
+extensor (hip, SmAB, and ankle, medial gastrocnemius
+(MG)) motoneurone pool activities. A comparison of
+the left and right panels in Fig. 5 shows that the patterns
+of population activity of motoneurones and the traces
+of membrane potentials (and ﬁring patterns) of single
+motoneurones in the model are qualitatively similar to
+those seen during ﬁctive locomotion.
+
+Modelling deletions
+
+As described in the Introduction, deletions are brief
+failures in the alternating rhythmic activity of ﬂexor
+and extensor motoneurones that occur spontaneously
+during ﬁctive locomotion. During deletions the activity of
+multiple agonist motoneurone populations is missing for
+some period of time while the activity of their antagonists
+becomes tonic or continues to be rhythmic. Using our
+model, we suggest that deletions result from additional
+excitatory or inhibitory drive that changes the excitability
+of particular CPG populations.
+
+Figure 5. Motoneurone activities in the model and in the cat
+A, examples of population activities of ﬂexor and extensor motoneurones and membrane potential traces of
+single motoneurones in the model. Activities of ﬂexor and extensor populations are represented by the average
+histograms (top trace for Mn-F and fourth trace for Mn-E) and raster plots (second trace for Mn-F and ﬁfth trace for
+Mn-E). In both raster plots, the lines correspond to single motoneurones arranged by neurone numbers from 1 to
+20, and the dots in each line represent spikes. Membrane potentials of one ﬂexor and one extensor motoneurone
+are shown in third and bottom traces, respectively, with action potentials truncated at the level of −10 mV. In this
+simulation, the MLR drive to RG-F (drg-f) was 0.52 and to RG-E (drg-e) 0.46. B, records during MLR-evoked ﬁctive
+locomotion showing electroneurogram (ENG) activity of ankle (tibialis anterior, TA) and hip (sartorius, Sart) ﬂexors,
+ankle (medial gastrocnemius, MG) and hip (semimembranosus combined with anterior biceps, SmAB) extensors,
+and simultaneous intracellular recordings from a Sart and an SmAB motoneurone.
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+J Physiol 577.2
+
+Modelling spinal circuitry involved in locomotor pattern generation
+
+627
+
+Figure 6A shows the results of our simulations in
+which an additional drive temporarily affects one of the
+RG populations. In this example, increased excitatory
+drive to RG-E (see the top trace in Fig. 6A) produces
+sustained activity in the RG-E half-centre and substantially
+reduces (or eliminates) activity in the opposite (RG-F)
+half-centre. As a result, at the motoneurone level (two
+bottom traces in Fig. 6A), there is a deletion of ﬂexor
+motoneurone activity with a sustained activity of extensor
+motoneurones. A similar deletion of ﬂexor motoneurone
+activity can be produced by temporarily reducing (or
+eliminating) excitatory drive to the ﬂexor half-centre (see
+Fig. 6B). What is important to note in both Fig. 6A and B
+is that the onset and offset of the temporary change in RG
+excitability could occur at an arbitrary time with respect
+to the locomotor rhythm. Therefore, the post-deletion
+rhythm should be generally phase shifted or reset with
+respect to the pre-deletion rhythm (see Fig. 6A and B).
+Such ‘resetting’ deletions have been observed during
+ﬁctive locomotion (Lafreniere-Roula & McCrea, 2005). An
+example is shown in Fig. 7A. In this example, the activity
+of all ﬂexors (hip ﬂexor – Sart, and ankle ﬂexor –TA) was
+prolonged for some time period during which the extensor
+activity (hip extensor – SmAB, and ankle extensors – MG
+and lateral gastrocnemius combined with soleus (LGS))
+was suppressed. This behaviour was closely reproduced
+in our model (see Fig. 7B) by applying a brief increase
+in excitatory drive to the RG-F population (top trace in
+Fig. 7B). In both the experimental and modelled cases
+there is an obvious phase shift of the post-deletion rhythm.
+In contrast to the effects of altering excitability at the
+RG level, a temporary change in excitability of one of the
+PF populations produces a deletion without phase shift
+of the post-deletion rhythm. Figure 8A shows the effect
+of increased drive to the PF-E population (see the top
+trace). This increase results in sustained activity in the
+PF-E population and inhibition of activity in the opposite
+(PF-F) population. At the motoneurone level (two bottom
+traces in Fig. 8A), there is a deletion of ﬂexor motoneurone
+activity with sustained activity of extensor motoneurones.
+Note, however, that there is a weak rhythmic modulation of
+
+populations on the extensor side of the network (Ia-E, R-E and Mn-E)
+showed sustained activity, whereas all populations on the ﬂexor side
+(Ia-F, R-F and Mn-F) were inhibited. As a result, at the motoneurone
+level (two bottom traces) there was a typical deletion of ﬂexor
+motoneurone activity with a sustained activity of extensor
+motoneurones. B, in this example, the deletion of ﬂexor activity was
+produced by a temporary removal of excitatory drive to the RG-F
+population (see the top trace). In both A and B, the vertical dotted
+lines are plotted at intervals representing the step cycle period
+preceding the deletion. These lines indicate where the onsets of
+extensor bursts would have occurred if there had been no deletion.
+Note that in both cases (A and B), when the applied ‘perturbation’
+ends, the post-deletion rhythm re-appears with a phase shift in respect
+to the pre-deletion rhythm (see arrows at the bottom of each panel).
+In these simulations: drg-f = 0.46; drg-e = 0.5.
+
+Figure 6. Simulations of ‘resetting’ deletions
+A, an example of simulation of a resetting deletion. In this example,
+the deletion of ﬂexor activity was produced by a temporary 400%
+increase in excitatory drive to the RG-E population (see the top trace).
+The increased drive changed RG-E population activity from phasic to
+sustained. Consequently during this additional excitation, all
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+628
+
+I. A. Rybak and others
+
+J Physiol 577.2
+
+extensor motoneurone activity during the periods where
+ﬂexor bursts ‘should’ have occurred as determined by
+continued rhythmic activity at the RG level.
+
+If instead of increasing excitation to one of the excitatory
+PF populations the drive is reduced or eliminated, a
+different type of deletion occurs. This is shown in Fig. 8B,
+in which elimination of the excitatory drive to the PF-F
+population produced a deletion of ﬂexor motoneurone
+activity accompanied by continued rhythmic activity
+of extensor motoneurones (see two bottom traces in
+Fig. 8B). Without a strong tonic excitatory drive to PF-F,
+the relatively weak phasic excitation from RG-F is not
+sufﬁcient to overcome inhibition from Inrg-F. Therefore,
+the PF-F population and hence the Mn-F population
+remain inactive (a ﬂexor deletion). On the other hand, the
+PF-E population receives both strong tonic (from MLR)
+and weak phasic (from RG-E) excitatory inputs and strong
+phasic inhibition (From Inrg-E). As a result, the activity
+in PF-E and hence Mn-E population remains rhythmic
+during the ﬂexor deletion.
+
+feature of
+
+An important
+
+the simulated deletions
+produced by alterations in PF network excitability (Fig. 8A
+and B) that distinguishes them from those produced by
+alterations in RG network excitability (Figs 6 and 7B) is
+the lack of resetting of the post-deletion rhythm. Because
+the locomotor rhythm is controlled by the RG, which is
+unaffected by the applied perturbations, the re-appearance
+of the rhythm after deletions occurs without shifting the
+phase of post-deletion oscillations. Such ‘non-resetting’
+deletions do occur during ﬁctive locomotion and are in
+fact more frequent than the ‘resetting’ type of deletion
+(see Lafreniere-Roula & McCrea, 2005).
+
+Figure 7. Example of ‘resetting’ deletion
+A, a brief deletion of extensor activity that occurred during
+MLR-evoked ﬁctive locomotion (Lafreniere-Roula & McCrea, 2005).
+The traces are rectiﬁed-integrated recordings from hip (sartorius, Sart)
+and ankle (tibialis anterior, TA) ﬂexors, and hip (semimembranosus
+combined with anterior biceps, SmAB) and ankle (medial
+gastrocnemius (MG)) and lateral gastrocnemius combined with soleus,
+LGS) extensors. The bottom traces show simultaneous intracellular
+recordings from a Sart and a SmAB motoneurone. The vertical dotted
+lines are plotted at the intervals representing the average period
+calculated for the ﬁve step-cycle periods preceding the deletions.
+These lines indicate approximately where the onsets of ﬂexor bursts
+would have occurred had there been no deletion. They show that the
+deletion is accompanied by an obvious phase shift of the post-deletion
+rhythm with respect to the pre-deletion rhythm (see arrows at the
+bottom). B, data from our simulation (similar to that in Fig. 6A) with
+the parameters (MLR drives) adjusted to ﬁt phase durations in A
+(drg-f = 0.48; drg-e = 0.5). In this simulation, a deletion of extensor
+activity was produced by additional excitatory drive to the RG-F
+population (see the top trace). The two bottom traces show changes in
+the membrane potential of a single ﬂexor and extensor motoneurone,
+respectively (action potentials truncated at −40 mV). As in the case of
+experimental recordings (see A), the ‘perturbation’ applied to the RG
+produced a resetting deletion accompanied by a shift in the phase of
+the post-deletion rhythm (see arrows at the bottom).
+
+Figure 9Aa and Ab shows examples of non-resetting
+deletions of ﬂexor activity obtained during bouts of ﬁctive
+locomotion. In Fig. 9Aa (data from Lafreniere-Roula &
+McCrea, 2005), the failure of hip (Sart) and ankle (extensor
+digitorum longus (EDL)) ﬂexor motoneurone activation
+is accompanied by the continuous activity of extensors
+operating at the hip (SmAB), knee (quadriceps (Quad))
+and ankle (Plantaris (Plant)). Note that ﬂexor activity
+re-appears at the moments expected had the deletion
+not occured (see the fourth and sixth (from the left)
+vertical dashed lines). Note also that during some of
+the expected bursts there is a weak modulation of the
+sustained extensor motoneurone activity (marked by
+asterisk). Fig. 9Ab (M. Angel, P. Guertin, M.C. Perreault &
+D. McCrea, unpublished observations) shows the results
+of an experiment in which both ipsilateral and contra-
+lateral ﬂexor and extensor activities were recorded. During
+the bout of ﬁctive locomotion illustrated, there was no
+activity in the contralateral ﬂexor and extensor nerves (see
+coTA and coMG traces). This non-resetting deletion of
+ipsilateral ﬂexor activity (omitting two bursts in the iTA
+trace) was accompanied by a sustained ﬁring of ipsilateral
+extensors (iAB and iLGS). This example shows that the
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+J Physiol 577.2
+
+Modelling spinal circuitry involved in locomotor pattern generation
+
+629
+
+maintenance of the phase of locomotor oscillations during
+non-resetting deletions is not dependent upon continued
+rhythm in the contralateral hindlimb. The activities shown
+in Fig. 9Aa and 9Ab were simulated in a manner similar to
+in the example shown in Fig. 8A by temporarily increasing
+excitatory drive to the PF-E population (see Fig. 9Ba and
+9Bb). In both examples, the locomotor period (deﬁned by
+neural activity at the RG level) was unaffected even though
+there was a failure to excite ﬂexor motoneurones. The
+simulations show a rhythmic modulation of the sustained
+activity of extensor motoneurones (Mn-E) during ﬂexor
+deletions that is similar to that observed in the extensor
+ENGs during ﬁctive locomotion (e.g. see traces for SmAB,
+Quad, MG and Plant in Fig. 9Aa).
+
+Figure 10A shows an example of a non-resetting deletion
+of extensor activity during ﬁctive locomotion (from
+Lafreniere-Roula & McCrea, 2005). In this example, an
+unknown spontaneous perturbation caused the deletion
+of activity of extensor motoneurones operating at hip
+(SmAB) and ankle (gastrocnemius combined with soleus
+(GS) and Plant) accompanied by a sustained activity of
+ﬂexor motoneurones (TA and peroneus longus (PerL)).
+The failure of ﬂexor motoneurones to hyperpolarize
+during this period is illustrated in the intracellular record
+from a TA motoneurone (Fig. 10A, bottom trace). The
+re-appearance of extensor ENG activity (SmAB, GS and
+Plant) occurred at the time expected had the deletion
+not occurred. Note the hyperpolarization of the ﬂexor
+(TA) motoneurone when extensor motoneurone activity
+re-appears following the deletion. This behaviour was
+simulated with our model by applying a temporary
+increase in total excitatory drive to the PF-F population
+
+produced sustained PF-E population activity that inhibited the PF-F
+population. As a result, during the deletion there was sustained
+activity in all populations on the extensor side of the network (Ia-E, R-E
+and Mn-E), whereas all populations on the ﬂexor side (Ia-F, R-F and
+Mn-F) were inhibited. At the motoneurone level (two bottom traces),
+there was a typical deletion of ﬂexor motoneurone activity with a
+sustained activity of extensor motoneurones. B, an example of
+simulation of a non-resetting deletion with maintained rhythmic
+activity in antagonists. A temporary removal of excitatory drive to the
+PF-F population (see the top trace) stopped the activity of this
+population. Rhythmic activity was maintained, however, in the PF-E
+population because of the phasic inhibition provided by the RG-F
+population via the Inrg-E population (see Fig. 2A). As a result, at the
+motoneurone level (two bottom traces) there was a deletion of ﬂexor
+motoneurone activity with maintained rhythmic activity of extensor
+motoneurones. As in Fig. 6, the vertical dotted lines in both panels are
+plotted at intervals representing the step cycle period preceding the
+deletion. These lines show that in both cases (A and B), the rhythm
+re-appeared after deletion without a phase shift with respect to the
+pre-deletion rhythm (see arrows at the bottom of each panels). In both
+simulations: drg-f = 0.48; drg-e = 0.5. Note that all changes (stepwise
+increase and decrease) of the total drive were applied in the middle of
+the ongoing phase to ensure that the timing of the post-deletion
+rhythm was controlled by rhythmic input from the RG.
+
+Figure 8. Simulation of ‘non-resetting’ deletions
+A, an example of simulation of non-resetting deletion. The deletion of
+ﬂexor activity was produced by a temporary 90% increase in excitatory
+drive to the PF-E population (see the top trace). This additional drive
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+630
+
+I. A. Rybak and others
+
+J Physiol 577.2
+
+∗
+
+Figure 9. ‘Non-resetting’ deletions of ﬂexor activity with a sustained activity of extensors
+Aa, an example of deletion of ﬂexor activity occurring during MLR-evoked ﬁctive locomotion (Lafreniere-Roula
+& McCrea, 2005). The traces are rectiﬁed–integrated recordings from hindlimb ﬂexors (hip – sartorius (Sart),
+and ankle – extensor digitorum longus (EDL)) and extensors (hip – semimembranosus combined with anterior
+biceps (SmAB), knee – quadriceps (Quad) and ankle – medial gastrocnemius (MG) and plantaris (Plant)). As in
+Fig. 7, the distance between the vertical dotted lines is the average step cycle period prior to the deletions. These
+lines indicate where the onsets of ﬂexor bursts would have occurred if there had been no deletion. They show
+that the phase of the locomotor rhythm is maintained after the deletion. A weak modulation of the sustained
+). Ab, another example of deletion of ﬂexor activity. An epoch of ﬁctive
+extensor motoneurone activity is indicated (
+locomotion is shown during which there was no contralateral (co) ﬂexor and extensor activity (see coTA and coMG
+traces). The non-resetting deletion of ipsilateral ﬂexor activity (in which two bursts in the iTA trace were omitted)
+was accompanied by a sustained ﬁring of ipsilateral (i) extensors (iAB and iLGS). As in the example shown in Aa,
+the vertical dotted lines show that the phase of the locomotor rhythm is maintained after the deletion despite
+the absence of contralateral locomotor activity. Ba, data from our simulation (as in Fig. 8A) with the parameters
+(MLR drives) adjusted to ﬁt phase durations in Aa (drg-f = 0.44; drg-e = 0.55). In this simulation, a deletion of ﬂexor
+activity was produced by increased excitatory drive to the PF-E population (see the top trace). As in the experimental
+recordings in Aa, the phase of the locomotor rhythm is maintained after the deletion. The two bottom traces show
+changes in the membrane potential of single ﬂexor and extensor motoneurones, respectively (action potentials
+truncated at −40 mV). In the experimentally observed deletion shown in Aa, ﬁrst two ﬂexor bursts are missing
+then one burst appears and then another is missing. To reproduce a similar pattern in the simulation, the drive
+to PF-E was increased to near threshold for reproducing the deletion (providing an 88% increase in total drive).
+Using a randomization process, the simulation was repeated until the data illustrated in Ba were obtained. Other
+deletion trials showed deletions of all four sequential ﬂexor bursts or had ﬂexor activity in one of the other deleted
+cycles. Note that during the deletion, the simulated ﬂexor motoneurone (Mn-F) is hyperpolarized. The extensor
+motoneurone shows phasic modulation in its spiking without hyperpolarization, similar to that observed in ENGs
+of extensors (SmAB, Quad and Plant) in Aa. Bb, data from our simulation (similar to data in Fig. 8A) with the MLR
+drives adjusted to ﬁt phase durations in Ab (drg-f = 0.5; drg-e = 0.5). The deletion of ﬂexor activity was produced
+by an additional temporary excitatory drive to the PF-E population (see the top trace). As in the experimental
+recordings in Ab, the phase of the locomotor rhythm is maintained after the deletion.
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+J Physiol 577.2
+
+Modelling spinal circuitry involved in locomotor pattern generation
+
+631
+
+of deletions observed during ﬁctive locomotion in
+the cat (Lafreniere-Roula & McCrea, 2005). In the
+companion paper (Rybak et al. 2006) we also show
+two-level CPG structure can provide an
+that
+explanation for
+stimulation
+to control rhythm generation without changing the
+level of motoneurone activity (e.g. Kriellaars et al.
+
+the ability of afferent
+
+this
+
+(see Fig. 10B). This resulted in a striking similarity to the
+deletion occurring during ﬁctive locomotion including the
+weak modulation of ﬂexor activity at the point of expected
+extensor activity (marked by asterisks in Fig. 10A).
+
+Our
+
+simulations
+
+that
+
+demonstrate
+
+individual
+motoneurones whose activity is ‘deleted’ are hyper-
+polarized during the deletion (see the second traces
+from the bottom in Fig. 9Ba and Bb and the bottom
+trace in Fig. 10B). In the model, this hyperpolarization is
+provided by the continuous inhibition from the antagonist
+Ia population. In contrast,
+individual motoneurones
+from the population active during the deletion show a
+modulation of ﬁring but not a hyperpolarization (see
+bottom traces in Fig. 9Ba and Bb and fourth trace in
+Fig. 10B). These modelling results are consistent with the
+intracellular recordings of motoneurone activity during
+deletions (see Fig. 10A, bottom trace).
+
+Figure 11A shows an example of a non-resetting deletion
+of agonist motoneurones with continued rhythmic
+activity of antagonists observed during ﬁctive locomotion
+(from Lafreniere-Roula & McCrea, 2005). The failure
+of excitation of extensor motoneurones operating at the
+hip (SmAB) and ankle (MG and LGS) was accompanied
+by bursting of ﬂexor motoneurones (hip ﬂexor – Sart,
+and ankle ﬂexors – TA and PerL). After the deletion,
+extensor activity re-appears without phase shift (i.e.
+similar to that during other non-resetting deletions).
+This behaviour could be simulated with our model
+(as in the example shown in Fig. 8B) by a temporary
+suppression of excitatory drive to the PF-E population (see
+Fig. 11B). Under these conditions, the model reproduced
+the deletion of activity of extensor motoneurones
+accompanied by continued bursting activity of
+the
+ﬂexor motoneurone population. As in the experimental
+recordings (Fig. 11A), locomotor periods (deﬁned by RG)
+remained unaffected when ﬂexor motoneurone activity
+dropped out (Fig. 11B).
+
+Discussion
+
+The major hypothesis explored in this study is that the
+locomotor CPG has a two-level architecture consisting of a
+half-centre RG and a PF network (Figs 1 and 2A). Although
+some features of this architecture have been suggested
+previously (e.g. Koshland & Smith, 1989; Kriellaars et al.
+1994), we are unaware of any formal consideration of the
+internal organization or modelling of network operation
+using such an architecture. The proposed two-level CPG
+architecture has several advantages. In particular, the
+separation of RG and PF networks permits independent
+control of rhythm generation at the RG level and patterns
+of motoneurone activity at the PF level. The present
+results show that the suggested CPG architecture can
+readily account for the resetting and non-resetting types
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+Figure 10. ‘Non-resetting’ deletion of extensor activity with a
+sustained activity of ﬂexors
+A, an example of a deletion of extensor activity during ﬁctive
+locomotion. The recordings were made from ankle ﬂexors (tibialis
+anterior, TA) and peroneus longus, PerL), and hip (semimembranosus
+combined with anterior biceps, SmAB) and ankle (gastrocnemius
+combined with soleus, GS, and plantaris, Plant) extensors
+(Lafreniere-Roula & McCrea, 2005). The vertical dotted lines,
+indicating where the onsets of extensor bursts would have occurred
+had there been no deletion, show that the phase of the locomotor
+rhythm is maintained after the deletion. The bottom trace is an
+intracellular recording from TA motoneurone. B, data from our
+simulation with the parameters (MLR drives) adjusted to ﬁt phase
+durations in A (drg-f = 0.62; drg-e = 0.44). In this simulation, a
+deletion of extensor activity was produced by a 100% increase in
+excitatory drive to the PF-F population (see the top trace). As in the
+experimental recordings in A, the phase of the locomotor rhythm is
+maintained after deletion. The two bottom traces show changes in the
+membrane potential of single ﬂexor and extensor motoneurones,
+respectively (action potentials truncated at −40 mV). Note that during
+the deletion the extensor motoneurone is hyperpolarized whereas the
+ﬂexor motoneurone shows phasic modulation without an obvious
+hyperpolarization similar to that in an intracellular recording from TA
+motoneurone (see the bottom trace in A).
+
+632
+
+I. A. Rybak and others
+
+J Physiol 577.2
+
+1994) and to control motoneurone activity without
+changing the rhythm (e.g. Guertin et al. 1995).
+
+The half-centre concept and the two-level
+CPG architecture
+
+In accord with the original Graham Brown-Lundberg
+half-centre model, our model employs ﬂexor and extensor
+circuits that are organized symmetrically within the CPG.
+An alternative view is that the periodic inactivation
+
+Figure 11. Example of a non-resetting deletion with maintained
+rhythmic activity of antagonist motoneurones
+A, example of a deletion of extensor activity accompanied by
+continued rhythmic activity of ﬂexor motoneurones (Lafreniere-Roula
+& McCrea, 2005). The recordings were made from hip (sartorius, Sart)
+and ankle (tibialis anterior, TA, and peroneus longus, PerL) ﬂexors, and
+hip (semimembranosus combined with anterior biceps, SmAB) and
+ankle (medial gastrocnemius, MG, and lateral gastrocnemius combined
+with soleus, LGS) extensors. The bottom trace shows intracellular
+recording from an extensor digitorum longus (EDL) motoneurone that
+did not generate action potentials during ﬁctive locomotion. The
+vertical dotted lines indicate where the termination of extensor bursts
+would have occurred if there had been no deletion. They show that
+the phase of the locomotor rhythm is maintained after deletion. B,
+data from our simulation (similar to data in Fig. 8B) with the MLR
+drives adjusted to ﬁt phase durations in A (drg-f = 0.46; drg-e = 0.48).
+In this simulation, a deletion of ﬂexor activity was produced by a
+temporary removal of excitatory drive to the PF-E population (see the
+top trace). Two bottom traces show membrane potentials of single
+ﬂexor and extensor motoneurones, respectively (action potentials
+truncated at −45 mV). As in the experimental recordings in A, the
+phase of the locomotor rhythm did not change after deletion.
+
+of extensor bursts requires inhibition from a ﬂexor
+half-centre whereas the inverse is not true (see Duysens
+et al. 2006). Evidence against this view includes the
+existence of spontaneous deletions of activity during ﬁctive
+locomotion in both the ﬂexors (e.g. see Fig. 9Aa and Ab)
+and extensors (e.g. Fig. 10A) that are both accompanied
+by sustained activity of the antagonists (Lafreniere-Roula
+& McCrea, 2005). Moreover, in the absence of proprio-
+ceptive feedback during MLR-evoked ﬁctive locomotion,
+there can be a dominance in duration of either the ﬂexor or
+the extensor phase (Yakovenko et al. 2005). Thus we suggest
+that although CPG can operate asymmetrically during
+normal locomotion (as a consequence of afferent feed-
+back), its organization appears to be symmetrical for the
+generation of ﬂexor and extensor motoneurone activities
+(see Duysens et al. 2006).
+
+The idea that a mammalian CPG can contain separate
+RG and PF circuits was suggested in studies of the
+respiratory CPG (e.g. Rekling & Feldman, 1998; Feldman
+& McCrimmon, 1998; Smith et al. 2000), but was not
+commonly accepted and conﬁrmed experimentally (e.g.
+see McCrimmon et al. 2000). The concept of the two-level
+organization of the locomotor CPG proposed here has
+been drawn explicitly from our experimental ﬁndings of
+non-resetting deletions occurring spontaneously during
+MLR-evoked ﬁctive locomotion (Lafreniere-Roula &
+McCrea, 2005). Accordingly, we suggest
+that phase
+maintenance during non-resetting deletions occurs with
+changes in excitability that affect the PF but not the
+RG network. An alternative explanation is that activity
+in the contralateral limb or in the forelimbs maintains
+the phase during non-resetting deletions. While strong
+interactions between the limbs can inﬂuence step cycle
+timing in preparations with intact proprioceptive feed-
+back, Fig. 9Ab illustrates that during ﬁctive locomotion in
+immobilized cats, ipsilateral cycle timing during deletions
+can be maintained even in the absence of contralateral
+rhythmic activity. Of importance, cycle timing can also
+be maintained throughout deletions during ﬁctive scratch
+where rhythmic activity in the other limbs is expected to be
+absent or very weak (Lafreniere-Roula & McCrea, 2005).
+While the possibility that contralateral or forelimb CPGs
+contribute to phase preservation during some deletions
+cannot be excluded, the evidence suggests that the circuitry
+controlling the ipsilateral hindlimb is itself able to maintain
+the phase of locomotor oscillations during deletions.
+We consider the frequent occurrence of non-resetting
+deletions as strong support for the concept of the two-level
+CPG proposed in this study.
+
+As in the original Graham Brown-Lundberg half-centre
+model, we suggest a bipartite organization of the RG. One
+general difﬁculty with such an organization (discussed
+by Grillner, 1981; Stein & Smith, 1997) is that the
+classical one-level half-centre CPG cannot readily account
+for complex activities of different motoneurone pools
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+J Physiol 577.2
+
+Modelling spinal circuitry involved in locomotor pattern generation
+
+633
+
+locomotion or during different
+during ﬁctive or real
+locomotor tasks (Engberg & Lundberg, 1969; Perret &
+Cabelguen, 1980; Smith et al. 1998; Krouchev et al.
+2006). One potential solution to this problem proposed
+by Grillner (1981) is that the CPG consists of multiple
+coupled oscillators or UBGs controlling motoneurones
+operating at each joint (see Edgerton et al. 1976; Grillner
+& Zangger, 1979; Stein, 1985; Stein & Smith, 1997). The
+UBG concept can potentially resolve many difﬁculties of a
+simple half-centre model (see Grillner, 1981). However,
+the UBG schematic in which a single network within
+each unit is responsible for both rhythm generation and
+motoneurone excitation appears to be principally unable
+to reproduce (or provide a reasonable explanation for)
+the maintenance of the phase of locomotor oscillations
+observed after non-resetting deletions or during afferent
+stimulation (see Introduction and accompanying paper
+Rybak et al. 2006). Further discussion of the UBG and
+the present concept of CPG organization is presented
+elsewhere (Lafreniere-Roula & McCrea, 2005).
+
+the RG but
+
+Another solution of the problem is to maintain a
+incorporate a
+bipartite organization of
+more complicated intermediate PF network, operating
+between the rhythm generator and motoneurones (Perret
+& Cabelguen, 1980; Perret, 1983; Burke et al. 2001).
+This idea led to the two-level architecture of
+the
+locomotor CPG proposed here (see Fig. 1). The proposed
+two-level CPG includes a network of multiple PF
+populations operating at PF level. We believe that suitable
+interactions within the PF network and between the RG
+and PF networks can provide the generation and shaping
+of more complicated motoneurone activity including that
+of bifunctional motoneurones (see Chakrabarty et al.
+2004), and overcome most of the limitations of the simple
+half-centre organization. In our opinion, a principal
+advantage of the UBG, namely the control of activity of
+subsets of motoneurones during locomotion, could also
+be accomplished within an organization composed of
+multiple PF networks of varying complexity.
+
+It is important to notice that our model proposes three
+levels of reciprocity in the spinal circuitry: inhibitory
+interactions operating at the RG and PF levels and
+inhibition between antagonist motoneurones produced
+by populations of interneurones outside of the CPG per
+se and represented in the model by Ia interneurones.
+Recent evidence suggests that the rhythmic inhibition of
+motoneurones during locomotion involves interneurone
+populations in addition to the Ia interneurones depicted
+in the present model (Gosgnach et al. 2006). Regardless
+of their identity, additional control of motoneurone
+excitability by inhibitory interneurones involved in RG
+or PF networks would allow for the dissociation of
+rhythmic excitation and inhibition of motoneurones
+observed in some neonatal preparations (Hochman &
+Schmidt, 1998). In agreement with previous suggestions
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+(Pratt & Jordan, 1987; Orlovsky et al. 1999), the ‘local’
+reciprocal interactions via Ia interneurones provide an
+additional ﬂexibility that could be manipulated (e.g. by
+afferent feedback) to shape the ﬁring patterns of individual
+motoneurone pools. However, the reduced version of
+the model considered here, which contains only two PF
+populations and two motoneurone populations, cannot
+of course reproduce the full repertoire of motoneurone
+patterns recorded during ﬁctive or real locomotion. This
+issue will be considered in future investigations using more
+complete computational models.
+
+Modelling motoneurones, interneurones
+and the rhythm generating circuit
+
+The intrinsic biophysical properties of different inter-
+neurone types in the mammalian spinal cord (such as
+the types of ionic channels and their voltage gating and
+temporal characteristics) have not been well characterized.
+This is especially true for the interneurones involved
+in CPG operation. Our models of interneurones do
+not represent realistic models of any particular spinal
+interneurones, but rather are generic models of the
+Hodgkin-Huxley type. At the same time, we believe that
+using such models gave us an opportunity to account for
+some non-linear properties of real neurones provided by
+the Hodgkin–Huxley formal descriptions.
+
+more
+
+detailed
+
+Although
+
+multicompartment
+computational models of cat motoneurones are available
+(e.g. Dai et al. 2002), we used a two-compartment model
+(Booth et al. 1997) for computational efﬁciency. This
+model is able to reproduce the normal action potential
+ﬁring behaviour observed in spinal motoneurones
+as well as a range of complex ﬁring patterns, such
+as Ca2+
+-dependent regenerative spiking and plateau
+potentials (Booth et al. 1997). Based on existing evidence
+(e.g. Lee & Heckman, 2001), we also incorporated
+persistent sodium channels in our model. A number of
+changes in motoneurone conductances during the trans-
+ition from rest to ﬁctive locomotion have been recently
+described in decerebrate cats. These include activation of
+voltage-dependent excitatory conductances, a reduction
+in the spike afterhyperpolarization and a lowering of
+voltage threshold for spike initiation (see Krawitz et al.
+2001; Dai et al. 2002). We have not incorporated these
+changes in the present model. Instead, parameters were
+chosen to reproduce realistic ﬁring rates and recruitment
+during locomotion in the simpliﬁed motoneurone models
+used. The present motoneurone model does, however,
+demonstrate realistic changes in the membrane potential
+and average ﬁring frequency of single motoneurones and
+a range of individual motoneurone frequencies within the
+motoneurone populations (e.g. see Fig. 5).
+
+Because the intrinsic neuronal mechanisms deﬁning
+rhythmogenic properties of neurones comprising the
+
+634
+
+I. A. Rybak and others
+
+J Physiol 577.2
+
+locomotor CPG are unknown, we chose to use a
+mechanism based on the persistent (slowly inactivating)
+I NaP that has been shown to contribute to rhythmogenesis
+in other systems including respiratory rhythm generation
+(Butera et al. 1999a,b). The existing data, however, are
+certainly not sufﬁcient to claim that the I NaP-dependent
+mechanism employed in our model operates in the real
+locomotor CPG in the spinal cord. Other mechanisms
+based on different cellular properties, including those
+found in other preparations (see El Manira et al. 1994;
+B¨uschges et al. 2000; Grillner et al. 2001; Butt et al. 2002;
+Grillner & Wall´en, 2002; Grillner, 2003), may be essential
+to the generation of locomotor rhythm in adult mammals.
+We suggest that the hypothesized two-level architecture
+of the locomotor CPG proposed in our model has
+merit regardless of the particular cellular rhythmogenic
+mechanism employed in the model. An intrinsic excitatory
+rhythmogenic mechanism such as I NaP is, however, critical
+to the generation of pharmacologically evoked rhythms
+(Fig. 3B) and the synchronized rhythmic activity of ﬂexors
+and extensors when inhibition is blocked (Fig. 3C). Thus
+the generation of locomotor rhythm in our model is based
+on RG half-centres containing populations of neurons
+with intrinsic rhythmogenic properties allowing each
+half-centre, under certain conditions, to generate rhythmic
+activity on its own.
+
+At the same time, the locomotor rhythm and pattern
+generated in our model is strongly dependent on the
+reciprocal inhibition between the RG half-centres (e.g. see
+Fig. 4Ab). Moreover, this inhibition plays a crucial role
+in the coupling of locomotor phases, phase switching,
+and hence in the regulation of the duration of locomotor
+phases and step cycle. A combination of the intrinsic
+I NaP-dependent properties of RG neurones with the
+reciprocal inhibition between the RG half-centres allowed
+our model to simulate MLR-evoked locomotor oscillations
+with a realistic range of step cycle durations and ratio of one
+phase duration to the period (Fig. 4Ba and Bb). Therefore,
+we believe that regardless of the intrinsic rhythmogenic
+mechanisms operating in spinal neurons comprising the
+CPG, the reciprocal inhibitory interactions between the
+RG half-centres are extremely important for locomotor
+rhythm generation. Moreover, we think that reciprocal
+inhibitory interactions between functionally antagonistic
+neural populations at all levels, from the level of rhythm
+generator to the level of local, Ia-mediated interactions
+between direct antagonists, are essential for coordination
+and shaping the locomotor pattern.
+
+Deletions
+
+The CPG model described here evolved primarily
+from observations of deletions in motoneurone activity
+occurring spontaneously during MLR-evoked ﬁctive
+locomotion in adult decerebrate cats (Lafreniere-Roula &
+
+McCrea, 2005). The major ﬁndings of that experimental
+study were that: (1) deletions of ﬂexor or extensor activities
+are accompanied by either sustained (see examples in
+Figs 9Aa and 9Ab and 10A) or rhythmic (Fig. 11A) activity
+in antagonists; (2) deletions occur simultaneously in distal
+and proximal motoneurone pools; and (3) the majority
+of deletions are characterized by a maintenance of the
+phase of the post-deletion rhythm (Figs 9Aa and 9Ab,
+10A and 11A). The two-level CPG architecture (with RG
+and PF levels, see Figs 1 and 2A) permits CPG operation
+with an unperturbed performance of the RG circuit when
+the motoneurone activations are altered by disturbances
+at the PF level. The incorporation of a PF network
+with reciprocal inhibition between the PF populations
+providing excitation to multiple groups of synergistic
+motoneurone pools, allows the model to reproduce and
+explain almost all of the experimental ﬁndings concerning
+deletions (Lafreniere-Roula & McCrea, 2005).
+
+It is commonly accepted that reciprocal inhibition is
+necessary for the coordination of ﬂexor and extensor
+motoneurone activities. This concept has been expressed
+as a ‘reciprocity module’
+in which the excitation of
+antagonists is strictly coupled to inhibition of antagonists
+by speciﬁc interactions among Ia interneurones, Renshaw
+cells and motoneurones (Jordan, 1991). Studies of
+deletions provide additional experimental support for
+such an organization by showing that the reciprocal
+hyperpolarization of antagonist motoneurones observed
+during normal ﬁctive behaviours is usually maintained
+during deletions (see Jordan, 1991; Lafreniere-Roula
+& McCrea, 2005). The present model incorporating a
+single reciprocity module shows that deletions of agonist
+activity are accompanied by a reduced hyperpolarization of
+antagonist motoneurones (see Figs 9Ba and Bb, and 10B).
+Our modelling results give rise to the following hypo-
+theses: (1) resetting deletions observed during ﬁctive
+locomotion, that are associated with a phase shift in
+the post-deletion rhythm (as in Fig. 7A), result from
+spontaneous perturbations that change the excitability
+of one of the RG half-centres (see Figs 6A and 7B); (2)
+non-resetting deletions, characterized by the maintenance
+of
+the post-deletion rhythm (similar
+to those shown in Figs 9Aa and Ab, 10A and 11A),
+result from perturbations that do not affect the RG
+but instead change the excitability of one of the PF
+populations (see Figs 8A and B, 9Ba and Bb, 10B and
+11B); (3) non-resetting deletions of motoneurone activity
+accompanied by a sustained activity of antagonists (e.g.
+shown in Figs 9Aa and Ab, and 10A) are produced
+by spontaneous perturbations increasing the excitability
+of the PF population projecting to the motoneurones
+with sustained activity during deletion (see Figs 8A,
+9Ba and Bb, and 10B).
+In contrast, non-resetting
+deletions accompanied by continued rhythmic activity of
+antagonists (as in Fig. 11A) result from a spontaneous
+
+the phase of
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+J Physiol 577.2
+
+Modelling spinal circuitry involved in locomotor pattern generation
+
+635
+
+Table 1. Steady-state activation and inactivation variables and time constants for voltage-dependent ionic
+channels
+
+Ionic
+channels
+
++
+
+Na
+
++
+
+NaP
+
++
+K
+
+2+
+
+CaN
+
+2+
+
+CaL
+
+m∞(V), V is in mV
+h∞(V), V is in mV
+
+−1
+
+−1
+
+m∞Na = (1 + exp (−(V + 35)/7.8))
+h∞Na = (1 + exp((V + 55)/7))
+−1
+m∞NaP = (1 + exp(−(V + 47.1)/3.1))
+h∞NaP = (1 + exp((V + 59)/8))
+−1
+m∞K = (1 + exp(−(V + 28)/15))
+−1
+m∞CaN = (1 + exp(−(V + 30)/5))
+−1
+h∞CaN = (1 + exp((V + 45)/5))
+−1
+m∞CaL = (1 + exp(−(V + 40)/7))
+
+hK = 1
+
+−1
+
+hCaL = 1
+
+τ m(V), ms
+τ h(V), ms
+τ mNa = 0
+τ mNaP = 0
+
+τ hNa = 30/(exp((V + 50)/15) + exp(−(V + 50)/16))
+τ hNaP = τ hNaPmax/cosh(V + 59)/16), τ hNaPmax = 1200
+τ mK = 7/(exp((V + 40)/40) + exp((—V + 40)/50))
+
+τ mCaN = 4
+τ hCaN = 40
+τ mCaL = 40
+
++
+
+channel, are taken from Booth et al. (1997). The
+
+All expressions and parameters, except those for the NaP
+expressions for the NaP
+
+channel are from Rybak et al. (2003).
+
++
+
+decrease in excitability of the PF populations projecting to
+the motoneurones whose activity is ‘deleted’ (see Figs 8B
+and 11B).
+
+than to affect
+
+Our analysis shows that in order for the model to
+operate properly, the mutual inhibition between the RG
+populations should be stronger than that between the PF
+populations. Accordingly, a much stronger perturbation
+is required to produce a resetting deletion at the RG
+level
+the PF circuit and produce a
+non-resetting deletion (see ﬁgure legends for Fig. 6A and
+Fig. 8A and compare the top traces in these ﬁgures).
+This might explain why non-resetting deletions occur
+more frequently during ﬁctive locomotion than resetting
+deletions (Lafreniere-Roula & McCrea, 2005). Another
+feature of the model is that a deletion that silences activity
+in the longer duration locomotor phase requires a much
+greater increase in the excitability of the antagonistic PF
+population than a deletion affecting the shorter duration
+locomotor phase. This is consistent with the observation
+that most deletions during ﬁctive locomotion occur in
+motoneurones active in the shorter duration locomotor
+phase (whether this shorter phase is ﬂexion or extension).
+
+Some modelling predictions
+
+In this paper we have presented a simpliﬁed model of
+the spinal cord circuitry organization that reproduces
+and offers explanations for spontaneous deletions of
+motoneurone activity occurring with and without a
+resetting of
+the locomotor pattern. One immediate
+application of the present model is the formulation of
+criteria for the functional identiﬁcation of new classes of
+spinal interneurones involved in the locomotor pattern
+generation. Based on our model, we suggest that the
+neurones comprising the RG may be identiﬁed in ﬁctive
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+locomotion preparations using the following criteria.
+These neurones should (1) receive excitation from the
+MLR region, (2) demonstrate rhythmic activity during
+ﬁctive locomotion that persists during non-resetting
+deletions and (3) not be monosynaptically coupled to
+motoneurones. In contrast, the neurones comprising the
+PF network should (1) demonstrate rhythmic activity
+during ﬁctive locomotion that
+fails during deletion
+episodes and (2) produce monosynaptic EPSPs in synergist
+motoneurones.
+
+Appendix
+
+General model parameters
+
+∗
+
+ENa = 55 mV;
+C = 1 μF cm
+
+EK = −80 mV;
+−2.
+
+ECa = 80 mV;
+
+Parameters of synapses
+ESynE = −10 mV;
+¯gE = 0.05 mS cm
+−2;
+¯gEd = 0.05 mS cm
+−2;
+τSynE = 5 ms;
+
+ESynI = −70 mV;
+¯gI = 0.05 mS cm
+¯gId = 0.05 mS cm
+τSynI = 5 ms.
+
+−2;
+−2;
+
+Neurone parameters
+
+RG neurones:
+
+¯gNa = 30 mS cm
+−2;
+¯gK = 1 mS cm
+−2;
+EL = −64.0 ± 0.64 mV.
+
+¯gNaP = 0.25 mS cm
+gL = 0.1 mS cm
+−2;
+
+−2;
+
+636
+
+I. A. Rybak and others
+
+J Physiol 577.2
+
+Table 2 . Weights of synaptic connections in the network
+
+Target population
+
+RG-E
+RG-F
+Inrg-E
+Inrg-F
+PF-E
+PF-F
+Inpf-E
+Inpf-F
+Ia-E
+Ia-F
+R-E
+R-F
+Mn-E
+Mn-F
+
+Source population or drive (weight of synaptic input to one neurone)
+MLR (1); RG-E (0.0125); RG-F (0.0125); Inrg-E (−0.115)
+MLR (1); RG-E (0.0125); RG-F (0.0125); Inrg-F (−0.115)
+RG-F (0.45)
+RG-E (0.45)
+MLR (1); RG-E (0.0075); Inrg-E (−0.05); Inpf-E (−0.35)
+MLR (1); RG-F (0.0075); Inrg-F (−0.05); Inpf-F (−0.35)
+PF-F (0.2)
+PF-E (0.2)
+PF-E (0.4); Ia-F (−0.1); R-E (−0.1)
+PF-F (0.4); Ia-F (−0.1); R-F (−0.1)
+Mn-E (0.25); R-F (−0.1)
+Mn-F (0.25); R-E (−0.1)
+PF-E (0.5); Ia-F (−0.6); R-E (−0.2)
+PF-F (0.5); Ia-E (−0.6); R-F (−0.2)
+
+Values in brackets represent relative weights of synaptic inputs from the corresponding source
+populations (wji) or drives (wdmi), see Eqn. (10). MLR drives to PF-E and PF-F (dpf-e = dpf-f) = 0.5
+for MLR drives to RG-E and RG-F (drg-e and drg-f ) see ﬁgure legends.
+
+PF neurones:
+
+¯gNa = 30 mS cm
+−2;
+¯gK = 1.2 mS cm
+−2;
+EL = −64.0 ± 0.64 mV.
+
+¯gNaP = 0.1 mS cm
+−2;
+gL = 0.1 mS cm
+−2;
+
+∗
+Motoneurones
+
+:
+
+¯gNa(S) = 120 mS cm
+−2;
+¯gCaN(S) = 14 mS cm
+−2;
+gL(S) = 0.51 mS cm
+−2;
+¯gCaN(D) = 0.3 mS cm
+−2;
+¯gK,Ca(D) = 1.1 mS cm
+−2;
+gL(D) = 0.51 mS cm
+−2;
+gC = 0.1 mS cm
+−2;
+α = 0.0009 mol C
+Kd = 0.2 μM.
+
+¯gK(S) = 100 mS cm
+−2;
+¯gK,Ca(S) = 5 mS cm
+−2
+EL(S) = −65.0 ± 6.5 mV;
+¯gCaL(D) = 0.33 mS cm
+−2;
+¯gNaP(D) = 0.10 mS cm
+−2;
+EL(D) = −65.0 ± 3.25 mV;
+p = 0.1;
+−1;
+
+f = 0.01;
+kCa = 2 ms
+−1;
+
+−1 μm
+
+∗
+Other interneurones
+
+:
+¯gNa = 120 mS cm
+−2;
+gL = 0.51 mS cm
+−2;
+
+¯gK = 100 mS cm
+
+−2;
+
+EL =
+−64.0 ± 3.2 mV (for all interneurones except Inrg)
+
+and
+EL = 57.5 ± 2.875 mV(for Inrg).
+
+∗
+
+(except for E L) are taken
+The parameters indicated by
+from Booth et al. (1997). To provide heterogeneity of
+neurones within neural populations, the value of EL was
+randomly assigned from normal distributions (see mean
+values ± s.d.).
+
+References
+
+Beato M & Nistri A (1999). Interaction between disinhibited
+
+Booth V, Rinzel J & Kiehn O (1997). Compartmental model of
+
+bursting and ﬁctive locomotor patterns in the rat
+isolated spinal cord. J Neurophysiol 82,
+2029–2038.
+vertebrate motoneurons for Ca2+
+plateau potentials under pharmacological treatment.
+J Neurophysiol 78, 3371–3385.
+
+-dependent spiking and
+
+Bracci E, Ballerini L & Nistri A (1996). Localization of
+
+rhythmogenic networks responsible for spontaneous bursts
+induced by strychnine and bicuculline in the rat isolated
+spinal cord. J Neurosci 16, 7063–7076.
+
+Brownstone RM, Jordan LM, Kriellaars DJ, Noga BR &
+
+Shefchyk SJ (1992). On the regulation of repetitive ﬁring in
+lumbar motoneurones during ﬁctive locomotion in the cat.
+Exp Brain Res 90, 441–455.
+
+Burke RE, Degtyarenko AM & Simon ES (2001). Patterns of
+
+locomotor drive to motoneurons and last-order
+interneurons: clues to the structure of the CPG.
+J Neurophysiol 86, 447–462.
+
+B¨uschges A, Wikstrom MA, Grillner S & El Manira A (2000).
+
+Roles of high-voltage activated calcium channel subtypes in a
+vertebrate spinal locomotor network. J Neurophysiol 84,
+2758–2766.
+
+Butera RJ, Rinzel JR & Smith JC (1999a). Models of respiratory
+rhythm generation in the pre-B¨otzinger complex. I. Bursting
+pacemaker neurons. J Neurophysiol 82, 382–397.
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+J Physiol 577.2
+
+Modelling spinal circuitry involved in locomotor pattern generation
+
+637
+
+Butera RJ, Rinzel JR & Smith JC (1999b). Models of respiratory
+
+rhythm generation in the pre-B¨otzinger complex. II.
+Populations of coupled pacemaker neurons. J Neurophysiol
+82, 398–415.
+
+Butt SJB, Harris-Warrick RM & Kiehn O (2002). Firing
+
+properties of identiﬁed interneuron populations in the
+mammalian hindlimb central pattern generator. J Neurosci
+22, 9961–9971.
+
+Chakrabarty S, Rybak IA & McCrea DA (2004). Modelling the
+
+variety of activation patterns of bifunctional hindlimb
+motoneurons during ﬁctive locomotion. Abstr Soc Neurosci
+883.2.
+
+Gosgnach S, Lanuza GM, Butt SJ, Saueressig H, Zhang Y,
+Velasquez T, Riethmacher D, Callaway EM, Kiehn O &
+Goulding M (2006). V1 spinal neurons regulate the speed of
+vertebrate locomotor outputs. Nature 440, 215–219.
+
+Graham Brown T (1911). The intrinsic factors in the act of
+
+progression in the mammal. Proc R Soc Lond B Biol Sci 84,
+308–319.
+
+Graham Brown T (1914). On the fundamental activity of the
+
+nervous centres: together with an analysis of the
+conditioning of rhythmic activity in progression, and a
+theory of the evolution of function in the nervous system.
+J Physiol 48, 18–41.
+
+Cowley KC & Schmidt BJ (1995). Effects of inhibitory amino
+
+Grillner S (1981). Control of locomotion in bipeds, tetrapods,
+
+acid antagonists on reciprocal inhibitory interactions during
+rhythmic motor activity in the in vitro neonatal rat spinal
+cord. J Neurophysiol 74, 1109–1117.
+
+Dai Y, Jones KE, Fedirchuk B, McCrea DA & Jordan LM (2002).
+A modelling study of locomotion-induced hyperpolarization
+of voltage threshold in cat lumbar motoneurones. J Physiol
+544, 521–536.
+
+Darbon P, Yvon C, Legrand JC & Streit J (2004). INaP underlies
+
+intrinsic spiking and rhythm generation in networks of
+cultured rat spinal cord neurons. Eur J Neurosci 20,
+976–988.
+
+Del Negro CA, Koshiya N, Butera RJ & Smith JC (2002).
+Persistent sodium current, membrane properties and
+bursting behavior of pre-B¨otzinger complex inspiratory
+neurons in vitro. J Neurophysiol 88, 2242–2250.
+
+Duysens J (1977). Reﬂex control locomotion as revealed by
+
+stimulation of cutaneous afferents in spontaneously walking
+premammillary cats. J Neurophysiol 40, 737–751.
+
+Duysens J, McCrea D & Lafreniere-Roula M (2006). How
+deletions in a model could help explain deletions in the
+laboratory. J Neurophysiol 95, 562–565.
+
+Edgerton VR, Grillner S, Sjostrom A & Zangger P (1976).
+
+Central generation of locomotion in vertebrates. In Neural
+Control of Locomotion, ed. Herman RM, Grillner S, Stein
+PSG & Stuart DG, pp. 439–464. Plenum Press, New York.
+
+El Manira A, Tegner J & Grillner S (1994). Calcium-dependent
+potassium channels play a critical role for burst termination
+in the locomotor network in lamprey. J Neurophysiol 72,
+1852–1861.
+
+Engberg I & Lundberg A (1969). An electromyographic analysis
+
+of muscular activity in the hindlimb of the cat during
+unrestrained locomotion. Acta Physiol Scand 75, 614–630.
+
+Fedirchuk B & Dai Y (2004). Monoamines increase the
+excitability of spinal neurones in the neonatal rat by
+hyperpolarizing the threshold for action potential
+production. J Physiol 557, 355–361.
+
+Feldman AG & Orlovsky GN (1975). Activity of interneurons
+
+mediating reciprocal 1a inhibition during locomotion. Brain
+Res 84, 181–194.
+
+Feldman JL & McCrimmon DR (1998). Neural control of
+breathing. In Fundamental Neuroscience, ed. Bloom FE,
+Landis SC, Roberts JL, Squire LC & Zigmond MJ, chap. 40,
+pp. 1063–1090. Academic Press, New York.
+
+Forssberg H, Grillner S, Halbertsma J & Rossignol S (1980).
+
+The locomotion of the low spinal cat. II. Interlimb
+coordination. Acta Physiol Scand 108, 289–295.
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+and ﬁsh. In Handbook of Physiology. The Nervous System.
+Motor Control sect.1, vol II, ed. Brookhart JM &
+Mountcastle VB, pp. 1179–1236. American Physiological
+Society, Bethesda.
+
+Grillner S (2003). The motor infrastructure: from ion channels
+
+to neuronal networks. Nat Rev Neurosci 4, 573–586.
+
+Grillner S & Wall´en P (2002). Cellular bases of a vertebrate
+
+locomotor system-steering, intersegmental and segmental
+co-ordination and sensory control. Brain Res Rev 40, 92–106.
+Grillner S, Wall´en P, Hill R, Cangiano L & El Manira A (2001).
+
+Ion channels of importance for the locomotor pattern
+generation in the lamprey brainstem-spinal cord. J Physiol
+533, 23–30.
+
+Grillner S & Zangger P (1979). On the central generation of
+
+locomotion in the low spinal cat. Exp Brain Res 34,
+241–261.
+
+Guertin P, Angel MJ, Perreault M-C & McCrea DA (1995).
+
+Ankle extensor group I afferents excite extensors throughout
+the hindlimb during ﬁctive locomotion in the cat. J Physiol
+487, 197–209.
+
+Hochman S & Schmidt BJ (1998). Whole cell recordings of
+
+lumbar motoneurons during locomotor-like activity in the
+in vitro neonatal rat spinal cord. J Neurophysiol 79,
+743–752.
+
+Jankowska E (1992). Interneuronal relay in spinal pathways
+
+from proprioceptors. Prog Neurobiol 38, 335–378.
+
+Jankowska E, Jukes MGM, Lund S & Lundberg A (1967a). The
+
+effect of DOPA on the spinal cord. V. Reciprocal
+organization of pathways transmitting excitatory action to
+alpha motoneurones of ﬂexors and extensors. Acta Physiol
+Scand 70, 369–388.
+
+Jankowska E, Jukes MGM, Lund S & Lundberg A (1967b). The
+
+effect of DOPA on the spinal cord. VI. Half-centre
+organization of interneurones transmitting effects from the
+ﬂexor reﬂex afferents. Acta Physiol Scand 70, 389–402.
+
+Jordan LM (1991). Brainstem and spinal cord mechanisms for
+
+the initiation of locomotion. In Neurobiological Basis of
+Human Locomotion, ed. Shimamura M, Grillner S &
+Edgerton VR, pp. 3–20. Japan Scientiﬁc Societies Press,
+Tokyo.
+
+Kjaerulff O & Kiehn O (2001). 5-HT modulation of multiple
+inward rectiﬁers in motoneurons in intact preparations of
+the neonatal rat spinal cord. J Neurophysiol 85, 580–593.
+
+Koshland G & Smith JL (1989). Mutable and immutable
+
+features of paw-shake responses after hindlimb
+deafferentation in the cat. J Neurophysiol 62, 162–173.
+
+638
+
+I. A. Rybak and others
+
+J Physiol 577.2
+
+Krawitz S, Fedirchuk B, Dai Y, Jordan LM & McCrea DA
+(2001). State-dependent hyperpolarization of voltage
+threshold enhances motoneurone excitability during ﬁctive
+locomotion in the cat. J Physiol 532, 271–281.
+
+Kriellaars DJ, Brownstone RM, Noga BR & Jordan LM (1994).
+
+Mechanical entrainment of ﬁctive locomotion in the
+decerebrate cat. J Neurophysiol 71, 2074–2086.
+
+Pratt CA & Jordan LM (1987). Ia inhibitory interneurons and
+Renshaw cells as contributors to the spinal mechanisms of
+ﬁctive locomotion. J Neurophysiol 57, 56–71.
+
+Rekling JC & Feldman JL (1998). PreB¨otzinger complex and
+
+pacemaker neurons: hypothesized site and kernel for
+respiratory rhythm generation. Annu Rev Physiol 60,
+385–405.
+
+Krouchev N, Kalaska JF & Drew T (2006). Sequential activation
+
+Rossignol S (1996). Neural control of stereotypic limb
+
+of muscle synergies during locomotion in the intact cat as
+revealed by cluster analysis and direct decomposition.
+J Neurophysiol 96, 1991–2010.
+
+Lafreniere-Roula M & McCrea DA (2005). Deletions of
+
+rhythmic motoneuron activity during ﬁctive locomotion and
+scratch provide clues to the organization of the mammalian
+central pattern generator. J Neurophysiol 94, 1120–1132.
+
+Lee RH & Heckman CJ (2001). Essential role of a fast persistent
+
+inward current in action potential initiation and control of
+rhythmic ﬁring. J Neurophysiol 85, 472–475.
+
+Lundberg A (1981). Half-centres revisited. In Regulatory
+
+Functions of the CNS. Motion and Organization Principles, ed.
+Szentagothai J, Palkovits M & Hamori J, pp. 155–167.
+Pergamon Akadem Kiado, Budapest.
+
+movements. In Handbook of Physiology, Sect. 12 Exercise:
+Regulation and Integration of Multiple Systems, ed. Rowell
+LB & Shepherd J, chap. 12, pp. 173–216. American
+Physiological Society, Bethesda.
+
+Rybak IA, Lafreniere-Roula M, Shevtsova NA & McCrea DA
+(2004a). A. two layer model of the spinal locomotor CPG:
+insights from deletions of activity during ﬁctive locomotion.
+Abstr Soc Neurosci 883.3.
+
+Rybak IA & McCrea DA (2005). Computational modeling of
+the mammalian locomotor CPG. Abstr Soc Neurosci, 630.1.
+Rybak IA, Paton JFR & Schwaber JS (1997). Modeling neural
+mechanisms for genesis of respiratory rhythm and pattern.
+II. Network models of the central respiratory pattern
+generator. J Neurophysiol 77, 2007–2026.
+
+McCrea DA (2001). Spinal circuitry of sensorimotor control of
+
+Rybak IA, Shevtsova NA, Paton JF, Dick TE, St -John WM,
+
+locomotion. J Physiol 533, 41–50.
+
+McCrea DA, Pratt CA & Jordan LM (1980). Renshaw cell
+
+activity and recurrent effects on motoneurons during ﬁctive
+locomotion. J Neurophysiol 44, 475–488.
+
+McCrimmon DR, Monnier A, Hayashi F & Zuperku EJ (2000).
+
+Pattern formation and rhythm generation in the ventral
+respiratory group. Clin Exp Pharmacol Physiol 27,
+126–131.
+
+MacGregor RI (1987). Neural and Brain Modelling. Academic
+
+Press, New York.
+
+Miller S & Scott PD (1977). The spinal locomotor generator.
+
+Exp Brain Res 30, 387–403.
+
+Noga BR, Cowley KC, Huang A, Jordan LM & Schmidt BJ
+(1993). Effects of inhibitory amino acid antagonists on
+locomotor rhythm in the decerebrate cat. Abstr Soc Neurosci
+19, 540.
+
+Noga BR, Shefchyk SJ & Jordan LM (1987). The role of
+
+Renshaw cells in locomotion: antagonism of their excitation
+from motor axon collaterals with intravenous
+mecamylamine. Exp Brain Res 66, 99–105.
+
+Orlovsky GN, Deliagina T & Grillner S (1999). Neuronal
+
+Control of Locomotion: from Mollusc to Man. Oxford
+University Press, New York.
+
+Perreault MC, Angel MJ, Guertin P & McCrea DA (1995).
+
+Effects of stimulation of hindlimb ﬂexor group II afferents
+during ﬁctive locomotion in the cat. J Physiol 487, 211–220.
+
+Perret C (1983). Centrally generated pattern of motoneuron
+
+activity during locomotion in the cat. Symp Soc Exp Biol 37,
+405–422.
+
+Perret C & Cabelguen JM (1980). Main characteristics of the
+
+hindlimb locomotor cycle in the decorticate cat with special
+reference to bifunctional muscles. Brain Res 187, 333–352.
+
+Perrier JF, Alaburda A & Hounsgaard J (2003). 5-HT1A
+
+receptors increase excitability of spinal motoneurons by
+current in the adult turtle.
+inhibiting a TASK-1-like K
+J Physiol 548, 485–492.
+
++
+
+M¨orschel M & Dutschmann M (2004b). Modeling the
+ponto-medullary respiratory network. Respir Physiol
+Neurobiol 143, 307–319.
+
+Rybak IA, Shevtsova NA, St-John WM, Paton JFR & Pierreﬁche
+
+O (2003). Endogenous rhythm generation in the
+pre-B¨otzinger complex and ionic currents: modelling and in
+vitro studies. Eur J Neurosci 18, 239–257.
+
+Rybak IA, Stecina K, Shevtsova NA & McCrea DA (2006).
+
+Modelling spinal circuitry involved in locomotor pattern
+generation: insights from the effects of afferent stimulation.
+J Physiol 577, 641–658.
+
+Shefchyk S & Jordan LM (1985). Excitatory and inhibitory
+
+post-synaptic potentials in alpha-motoneurons produced
+during ﬁctive locomotion by stimulation of the
+mesencephalic locomotor region. J Neurophysiol 53,
+1345–1355.
+
+Sirota MG & Shik ML (1973). The cat locomotion elicited
+
+through the electrode implanted in the mid-brain. [Article in
+Russian]. Fizol Zh SSSR Im I M Sechenova 59, 1314–1321.
+Smith JC, Butera RJ, Koshiya N, Del Negro C, Wilson CG &
+
+Johnson SM (2000). Respiratory rhythm generation in
+neonatal and adult mammals: the hybrid pacemaker-
+network model. Respir Physiol 122, 131–147.
+
+Smith JL, Carlson-Kuhta P & Trank TV (1998). Forms of
+forward quadrupedal locomotion. III. A comparison of
+posture, hindlimb kinematics, and motor patterns for
+downslope and level walking. J Neurophysiol 79, 1702–1716.
+
+Stecina K, Quevedo J & McCrea DA (2005). Parallel reﬂex
+
+pathways from ﬂexor muscle afferents evoking resetting and
+ﬂexion enhancement during ﬁctive locomotion and scratch
+in the cat. J Physiol 569, 275–290.
+
+Stein PSG (1985). Neural control of vertebrate limb:
+
+multipartite pattern generators in the spinal cord. In
+Comparative Neurobiology. Modes of Communication in the
+Nervous System, ed. Cohen MJ & Strumwasser F,
+pp. 245–253. John Wiley and Sons, New York.
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+J Physiol 577.2
+
+Modelling spinal circuitry involved in locomotor pattern generation
+
+639
+
+Stein PSG (2005). Neuronal control of turtle hindlimb motor
+
+rhythms. J Comp Physiol A 191, 213–229.
+
+Stein PSG & Grossman ML (1980). Central program for
+
+Yakovenko S, McCrea DA, Stecina K & Prochazka A (2005).
+Control of locomotor cycle durations. J Neurophysiol 94,
+1057–1065.
+
+scratch reﬂex in turtle. J Comp Physiol A 140,
+287–294.
+
+Stein PSG & Smith JL (1997). Neural and biomechanical
+
+control strategies for different forms of vertebrate hindlimb
+motor tasks. In Neurons, Networks, and Motor Behavior,
+ed. Stain PSG, Grillner S, Selverston AI & Stuart DG, pp.
+61–73. MIT Press, Cambridge, MA.
+
+Streit J, Tscherter A & Darbon P (2005). Rhythm generation in
+
+spinal culture. Is it the neuron or the network? Advances in
+Network Electrophysiology Using Multi-Electrode Arrays, ed.
+Taketani M & Baudry M Springer, New York.
+
+Whelan PJ (2003). Developmental aspects of spinal locomotor
+function: insights from using the in vitro mouse spinal cord
+preparation. J Physiol 553, 695–706.
+
+Acknowledgements
+
+This study was supported by the Bioengineering Research
+Partnership grant from the National Institutes of Health (NIH)
+R01NS048844. I.A.R. and N.A.S. were initially supported by
+the NIH grants R01NS046062 and R01HL072415. D.A.M.
+and M.L-R. were also supported by grants from the NIH
+(R01NS040846) and the Canadian Institutes of Health Research
+(to D.A.M.) and the Manitoba Health Research Council
+(studentship to M.L-R.). The authors would like to thank
+Drs Larry Jordan, Michel Lemay and David Bashor for useful
+comments and discussion. Ms Maria Setterbom and Ms
+Sharon McCartney provided technical assistance with ﬁgure
+preparation.
+
+C(cid:2) 2006 The Authors. Journal compilation C(cid:2) 2006 The Physiological Society
+
+

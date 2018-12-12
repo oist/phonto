@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4106">
+<itemtype>xnppaper</itemtype>
+<titles><title>Fragmentation of grid cell maps in a multicompartment environment.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Exploratory Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>classification</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Reward</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Statistics as Topic</keyword>
+<keyword>Stereotyped Behavior</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T06:23:21Z</last_update_date>
+<creation_date>2010-10-08T06:23:21Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4106</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4106" version="1.02">
+<authors><author>Derdikman D</author><author>Whitlock JR</author><author>Tsao A</author><author>Fyhn M</author><author>Hafting T</author><author>Moser MB</author><author>Moser EI</author></authors>
+<journal>Nature neuroscience</journal>
+<volume>12</volume>
+<number>10</number>
+<page>1325-32</page>
+<abstract>To determine whether entorhinal spatial representations are continuous or fragmented, we recorded neural activity in grid cells while rats ran through a stack of interconnected, zig-zagged compartments of equal shape and orientation (a hairpin maze). The distribution of spatial firing fields was markedly similar across all compartments in which running occurred in the same direction, implying that the grid representation was fragmented into repeating submaps. Activity at neighboring positions was least correlated at the transitions between different arms, indicating that the map split regularly at the turning points. We saw similar discontinuities among place cells in the hippocampus. No fragmentation was observed when the rats followed similar trajectories in the absence of internal walls, implying that stereotypic behavior alone cannot explain the compartmentalization. These results indicate that spatial environments are represented in entorhinal cortex and hippocampus as a mosaic of discrete submaps that correspond to the geometric structure of the space.</abstract>
+<pubmed_id>19749749</pubmed_id>
+</detail>
+</item>

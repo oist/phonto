@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="2601">
+<itemtype>xnpconference</itemtype>
+<titles><title>A hierarchical representation of object-place memory obtained by theta phase coding in the hippocampus: A computational study</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2009-10-14T03:30:28Z</last_update_date>
+<creation_date>2009-07-08T07:14:28Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>11</publication_month>
+<publication_mday>12</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=2601</url>
+<changelogs>
+<changelog date='2009-10-14T03:30:28Z'>発表資料 を変更</changelog>
+<changelog date='2009-10-06T06:50:37Z'>発表資料ファイル形式 を変更</changelog>
+<changelog date='2009-10-06T06:37:28Z'>発表資料 を変更</changelog>
+<changelog date='2009-07-29T01:57:20Z'>発表資料ファイル形式, 発表資料 を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="2601" version="1.02">
+<conference_from_year>2005</conference_from_year>
+<conference_from_month>11</conference_from_month>
+<conference_from_mday>12</conference_from_mday>
+<conference_to_year>2005</conference_to_year>
+<conference_to_month>11</conference_to_month>
+<conference_to_mday>16</conference_to_mday>
+<presentation_type>other</presentation_type>
+<conference_title>Neuroscience 2005 SfN 35th Annual Meeting</conference_title>
+<place>Washington, DC, USA</place>
+<authors><author>Sato N</author><author>Yamaguchi Y</author></authors>
+<abstract></abstract>
+<attachment_dl_limit>1</attachment_dl_limit>
+<attachment_dl_notify>1</attachment_dl_notify>
+</detail>
+</item>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4747">
+<itemtype>xnppaper</itemtype>
+<titles><title>Role of the medial septum and hippocampal theta rhythm in exploration-related synaptic efficacy changes in rat fascia dentata.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred F344</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T03:20:26Z</last_update_date>
+<creation_date>2011-04-28T03:20:26Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4747</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4747" version="1.02">
+<authors><author>Green EJ</author><author>McNaughton BL</author><author>Barnes CA</author></authors>
+<journal>Brain research</journal>
+<volume>529</volume>
+<number>1</number>
+<page>102-8</page>
+<abstract>Animals transferred from their home cages to a different environment exhibited an increase in exploratory behavior which was accompanied by a substantial increase in perforant path-evoked population excitatory postsynaptic potentials and decreases in both the areas and the onset latencies of population spikes. As reported previously, these changes substantially outlasted the exploratory behaviors that induced them. Electrolytic lesions of the medial septum severely attenuated the theta rhythm of the hippocampal EEG, but had no significant effect on the exploration related changes in the synaptic and postsynaptic components of the evoked response. In urethane-anesthetized animals, long trains of hippocampal theta produced by sensory stimulation failed to affect the amplitude of evoked responses. These results show that the information critical for the exploration-related alterations in dentate evoked responses does not originate in or pass through the medial septum, and that the changes are not linked to hippocampal EEG states.</abstract>
+<pubmed_id>2178025</pubmed_id>
+</detail>
+</item>

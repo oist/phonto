@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7201">
+<itemtype>xnppaper</itemtype>
+<titles><title>GABA(B) receptor activation mediates frequency-dependent plasticity of developing GABAergic synapses.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Age Factors</keyword>
+<keyword>Amino Acids</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Animals</keyword>
+<keyword>Newborn</keyword>
+<keyword>Bumetanide</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Calcium-Calmodulin-Dependent Protein Kinase Type 2</keyword>
+<keyword>metabolism</keyword>
+<keyword>Dose-Response Relationship</keyword>
+<keyword>Radiation</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Enzyme Inhibitors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Amino Acid Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>GABA Agents</keyword>
+<keyword>pharmacology</keyword>
+<keyword>GABA-B Receptor Agonists</keyword>
+<keyword>GABA-B Receptor Antagonists</keyword>
+<keyword>Glycine</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>methods</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Receptors</keyword>
+<keyword>GABA-B</keyword>
+<keyword>physiology</keyword>
+<keyword>Sodium Potassium Chloride Symporter Inhibitors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Sodium-Potassium-Chloride Symporters</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Xanthenes</keyword>
+<keyword>pharmacology</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>metabolism</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:51:31Z</last_update_date>
+<creation_date>2013-02-27T07:51:31Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7201</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7201" version="1.02">
+<authors><author>Xu C</author><author>Zhao MX</author><author>Poo MM</author><author>Zhang XH</author></authors>
+<journal>Nature neuroscience</journal>
+<volume>11</volume>
+<number>12</number>
+<page>1410-8</page>
+<abstract>Activity-induced long-term modification of glutamatergic synapses depends on the frequency of synaptic activation. We found that long-term modification of developing rat hippocampal GABAergic synapses that was induced by repetitive coincident pre- and postsynaptic spiking was also frequency dependent. Spiking at 20-50 Hz resulted in synaptic potentiation, whereas spiking at 5 Hz led to synaptic depression. The potentiation was abolished by blocking GABA(B) receptors (GABA(B)Rs), whereas the depression was independent of GABA(B)R activation and could be converted to potentiation by elevating GABA(B)R activity. The potentiation could be attributed to a local postsynaptic increase in Na(+)/K(+)/2Cl(-) co-transporter activity near activated synapses. The activity of postsynaptic Ca(2+)/calmodulin-dependent protein kinase II was necessary for long-term potentiation of these developing GABAergic synapses and its phosphorylation at Thr286 could be enhanced by activating GABA(B)Rs with baclofen. Together with our finding that activation of GABA(B)Rs is frequency dependent, these results indicate that postsynaptic GABA(B)R activation mediates frequency-dependent potentiation of developing GABAergic synapses.</abstract>
+<pubmed_id>18953347</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6631">
+<itemtype>xnppaper</itemtype>
+<titles><title>Dissociating intentional learning from relative novelty responses in the medial temporal lobe.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Arousal</keyword>
+<keyword>physiology</keyword>
+<keyword>Association Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Attention</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Color Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Imaging</keyword>
+<keyword>Three-Dimensional</keyword>
+<keyword>Intention</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:28:18Z</last_update_date>
+<creation_date>2013-02-26T06:28:18Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6631</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6631" version="1.02">
+<authors><author>Strange BA</author><author>Hurlemann R</author><author>Duggins A</author><author>Heinze HJ</author><author>Dolan RJ</author></authors>
+<journal>NeuroImage</journal>
+<volume>25</volume>
+<number>1</number>
+<page>51-62</page>
+<abstract>The establishment of a role for medial temporal lobe (MTL) structures in episodic memory has led to an investigative focus on the specific contributions and interactions between constituent MTL regions, including the hippocampus and surrounding medial temporal cortices. By dissociating an intentional stimulus-category learning condition from a passive viewing condition, we demonstrate, using fMRI, that novelty- and familiarity-driven responses in human anterior and posterior hippocampus, respectively, only occur during intentional learning. With increasing familiarity of stimulus-category associations, there is a shift in neuronal responses from anterior to posterior hippocampal regions. This anterior/posterior response gradient may reflect a weighting of functional hippocampal architecture related to encoding of novel and retrieval of familiar information. By contrast, perirhinal cortex is engaged by novel stimuli irrespective of task, highlighting this region as a component of a generic familiarity discrimination system. By introducing distinct stimulus types, we further demonstrate that these MTL responses are independent of stimulus complexity. Different patterns of activity for intentional learning vs. passive viewing indicate that intentional encoding/retrieval of stimulus-category associations and automatic novelty/familiarity assessment of stimuli are processed in anatomically dissociable neuronal ensembles within the MTL memory system.</abstract>
+<pubmed_id>15734343</pubmed_id>
+</detail>
+</item>

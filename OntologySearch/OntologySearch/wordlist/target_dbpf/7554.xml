@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7554">
+<itemtype>xnppaper</itemtype>
+<titles><title>Recollection of episodic memory and the hippocampus: evidence from fMRI</title>
+</titles>
+<contributor uname='jokuda'>[en]Jiro Okuda[/en][ja]奥田 次郎[/ja](jokuda)</contributor>
+<keywords><keyword>B01G3</keyword>
+</keywords>
+<description>査読
+総説解説
+Maki Suzuki
+2012/06/30</description>
+<doi></doi>
+<last_update_date>2013-04-08T13:43:25Z</last_update_date>
+<creation_date>2013-04-06T08:59:27Z</creation_date>
+<publication_year>2012</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7554</url>
+<changelogs>
+<changelog date='2013-04-08T13:43:25Z'>インデックス を変更</changelog>
+<changelog date='2013-04-08T12:50:59Z'>アイテムの説明 を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7554" version="1.02">
+<authors><author>Maki Suzuki</author></authors>
+<journal>Psychologia</journal>
+<volume>55</volume>
+<number>2</number>
+<page>63-79</page>
+<abstract></abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

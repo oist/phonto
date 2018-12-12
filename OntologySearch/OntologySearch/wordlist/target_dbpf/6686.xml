@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6686">
+<itemtype>xnppaper</itemtype>
+<titles><title>The hippocampus and memory of verbal and pictorial material.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Magnetoencephalography</keyword>
+<keyword>Male</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Reading</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:16:21Z</last_update_date>
+<creation_date>2013-02-26T07:16:21Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6686</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6686" version="1.02">
+<authors><author>Papanicolaou AC</author><author>Simos PG</author><author>Castillo EM</author><author>Breier JI</author><author>Katz JS</author><author>Wright AA</author></authors>
+<journal>Learning&amp;memory (Cold Spring Harbor, N.Y.)</journal>
+<volume>9</volume>
+<number>3</number>
+<page>99-104</page>
+<abstract>Recognition of words and kaleidoscope pictures showed a double dissociation of left and right hippocampal activity using magnetic source imaging (MSI). MSI has advantages over alternative imaging techniques that measure hemodynamic changes for identifying regional changes in brain activity in real time and on an individual subject basis without the need for image subtraction. In this study, lists of words or kaleidoscope pictures were presented for memorization followed by tests of list items and foils during which brain activity was recorded. There was greater activation in the left than the right hippocampus with abstract nouns (e.g., relief) and greater activation in the right than the left hippocampus with kaleidoscope pictures. This dissociation was evident on a case by case basis. This study demonstrates the specialization of the two medial temporal lobe (MTL) regions, including the hippocampi, for mnemonic processing of verbal and pictorial items that are difficult to encode verbally.</abstract>
+<pubmed_id>12074997</pubmed_id>
+</detail>
+</item>

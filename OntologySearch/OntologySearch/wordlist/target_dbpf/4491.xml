@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4491">
+<itemtype>xnppaper</itemtype>
+<titles><title>Differential modulation of a common memory retrieval network revealed by positron emission tomography.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>radiography</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>radiography</keyword>
+<keyword>Humans</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>radiography</keyword>
+<keyword>Questionnaires</keyword>
+<keyword>Tomography</keyword>
+<keyword>Emission-Computed</keyword>
+<keyword>methods</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T04:15:43Z</last_update_date>
+<creation_date>2011-01-28T04:15:43Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4491</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4491" version="1.02">
+<authors><author>Maguire EA</author><author>Mummery CJ</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>1</number>
+<page>54-61</page>
+<abstract>Functional neuroimaging is uniquely placed to examine the dynamic nature of normal human memory, the distributed brain networks that support it, and how they are modulated. Memory has traditionally been classified into context-specific memories personally experienced (&quot;episodic memory&quot;) and impersonal non-context-specific memories (&quot;semantic memory&quot;). However, we suggest that another useful distinction is whether events are personally relevant or not. Typically the factors of personal relevance and temporal context are confounded, and it is as yet not clear the precise influence of either on how memories are stored or retrieved. Here we focus on the retrieval of real-world memories unconfounding personal relevance and temporal context during positron emission tomography (PET) scanning. Memories differed along two dimensions: They were personally relevant (or not) and had temporal specificity (or not). Recollection of each of the resultant four memory subtypes-autobiographical events, public events, autobiographical facts, and general knowledge-was associated with activation of a common network of brain regions. Within this system, however, enhanced activity was observed for retrieval of personally relevant, time-specific memories in left hippocampus, medial prefrontal cortex, and left temporal pole. Bilateral temporoparietal junctions were activated preferentially for personal memories, regardless of time specificity. Finally, left parahippocampal gyrus, left anterolateral temporal cortex, and posterior cingulate cortex were involved in memory retrieval irrespective of person or time. Our findings suggest that specializations in memory retrieval result from associations between subsets of regions within a common network. We believe that these findings throw new light on an old debate surrounding episodic and declarative theories of memory and the precise involvement of the hippocampus.</abstract>
+<pubmed_id>10088900</pubmed_id>
+</detail>
+</item>

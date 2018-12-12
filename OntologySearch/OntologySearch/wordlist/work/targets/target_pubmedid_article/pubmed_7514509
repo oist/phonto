@@ -1,0 +1,4387 @@
+1071
+
+A Dynamic Model of the Cardiac
+
+Ventricular Action Potential
+
+I. Simulations of Ionic Currents and Concentration Changes
+
+Ching-Hsing Luo, Yoram Rudy
+
+Abstract A mathematical model of the cardiac ventricular
+action potential is presented. In our previous work, the
+membrane Na+ current and K' currents were formulated. The
+present article focuses on processes that regulate intracellular
+Ca2' and depend on its concentration. The model presented
+here for the mammalian ventricular action potential is based
+mostly on the guinea pig ventricular cell. However, it provides
+the framework for modeling other types of ventricular cells
+with appropriate modifications made to account for species
+differences. The following processes are formulated: Ca2+
+current through the L-type channel (Ilc), the Na+-Ca2' ex-
+changer, Ca2+ release and uptake by the sarcoplasmic reticu-
+lum (SR), buffering of Ca2' in the SR and in the myoplasm, a
+Ca2' pump in the sarcolemma, the Na+-K+ pump, and a
+nonspecific Ca'2-activated membrane current. Activation of
+'Ca is an order of magnitude faster than in previous models.
+
+In 1991, we presented the first phase (referred to as
+the phase-1 L-R model) of a cardiac action poten-
+tial model that was based on recent data from
+single-cell and single-channel preparations.1 The earlier
+study focused on the depolarization and repolarization
+phases of the action potential and on phenomena that
+involve interaction between these processes. These in-
+cluded supernormal excitability, Wenckebach periodic-
+ity, and aperiodic responses of the cell to periodic
+stimulation. In terms of membrane ionic channel kinet-
+ics, the phase-1 model formulation concentrated on the
+fast Na4 current (INa), the time-dependent K+ current
+(IK), the time-independent K+ current (IKi), and a
+plateau K+ current (IKP). In that model, we introduced
+the dependence of the K+ currents on [K+]0. However,
+the model did not account for dynamic changes in ionic
+concentrations and ionic fluxes during the action poten-
+tial. In particular, intracellular Ca2+ transients could not
+be simulated because of the following limitations: (1)
+Ca24 current through the L-type Ca24 channel (ICa) was
+adopted from the model of Beeler and Reuter2 (re-
+ferred to as the B-R model). It was not reformulated to
+account for recent experimental findings regarding the
+channel kinetics, such as fast activation3 and inactiva-
+tion that is both voltage and Ca2+ dependent.4-8 (2) The
+
+Received October 5, 1992; accepted February 7, 1994.
+From the Department of Biomedical Engineering, Case West-
+
+ern Reserve University, Cleveland, Ohio.
+
+Previously published in part in abstract form (Circulation.
+
+1992;86[suppl I]:I-563).
+
+Reprint requests to Prof Yoram Rudy, Department of Biomed-
+ical Engineering, Case Western Reserve University, Cleveland,
+OH 44106-7207.
+
+Inactivation of Ica depends on both the membrane voltage and
+[Ca2"],. SR is divided into two subcompartments, a network
+SR (NSR) and a junctional SR (JSR). Functionally, Ca2l
+enters the NSR and translocates to the JSR following a
+monoexponential function. Release of Ca2' occurs at JSR and
+can be triggered by two different mechanisms, Ca2'-induced
+Ca2+ release and spontaneous release. The model provides the
+basis for the study of arrhythmogenic activity of the single
+myocyte including afterdepolarizations and triggered activity.
+It can simulate cellular responses under different degrees of
+Ca2' overload. Such simulations are presented in our accom-
+panying article in this issue of Circulation Research. (Circ Res.
+1994;74:1071-1096.)
+
+Key Words
+
+cardiac action potential model *
+transients * sarcoplasmic reticulum * Ca2+ release
+
+*
+
+Ca2+
+
+phase-1 model included only ionic currents through
+gated channels in the sarcolemma but not other mem-
+brane processes (ie, pumps and exchangers) that con-
+tribute to changes in ionic concentrations. (3) Intracel-
+lular processes that dynamically regulate [Ca"2]i (eg,
+Ca24 uptake and release by the sarcoplasmic reticulum
+[SR]) were not incorporated in the phase-1 model.
+
+In the phase-2 model presented here, 'Ca is reformu-
+lated on the basis of the most recent data from single-
+cell and single-channel experiments. Other processes
+that regulate the intracellular Ca24 are also incorpo-
+rated in the model. These include the following: the
+Na+-K+ pump (INaK), the Na4-Ca24 exchanger (INaCa), a
+nonspecific Ca24-activated current (Ins(Ca)), a Ca24 pump
+in the sarcolemma (1p(Ca)), buffering of Ca24 ions in the
+myoplasm and in the SR, uptake of Ca24 (Iup) by the
+network SR (NSR), translocation of Ca24 ('te) from the
+NSR to junctional SR (JSR), leakage of Ca24 (Ileak) from
+NSR, and release of Ca2+ ions ('ret) by the JSR. A
+schematic diagram of the model is provided in Fig 1.
+The shaded areas indicate the presence of Ca 2+ buffers.
+This model can simulate dynamic changes in ionic
+concentrations and, in particular, intracellular Ca2+
+transients during the action potential. This property of
+the model could be the basis for future development of
+models of the excitation-contraction coupling process in
+cardiac myocytes.
+
+In 1985, DiFrancesco and Noble9 published a model
+(D-N model) of the Purkinje action potential that
+incorporated many of the processes mentioned above.
+As we discussed previously,1 certain properties of ionic
+channels were not fully represented in the D-N model
+because of the limited data from single-cell and single-
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1072
+
+Circulation Research
+
+Vol 74, No 6
+
+June 1994
+
+a
+..... . ,,
+
+++
+.....
+
++
+
+Ca
+{ +
+
+I e
+
+i.
+
+..K
+
+. t. ' 'll.e.'akt
+
+:
+
+N +
+
+:.
+. ., ,
+
+.. /
+
+Ins(Ca)IKP'K1 IK 'NK'abN,
+
+FIG 1.
+Schematic diagram of the cell model. The abbreviations
+representing ionic currents, pumps, and exchangers are defined
+in Appendix 2. The intracellular compartment is the sarcoplasmic
+reticulum (SR), which is divided into two subcompartments, the
+network SR (NSR) and the junctional SR (JSR). Dotted areas (in
+the myoplasm and the JSR) indicate presence of Ca'+ buffers.
+
+channel experiments at the time. As a result, the D-N
+model could not simulate phenomena that were success-
+fully simulated with our phase-i model, such as Wenck-
+ebach periodicities in response to periodic stimulation.
+In addition, the D-N model did not take into account all
+processes that participate in the regulation of intracel-
+lular Ca'+. One process that was not incorporated in the
+D-N model is buffering of Ca2+ by buffers in the
+myoplasm. As will be demonstrated by simulations in
+this article, this process is essential for a correct simu-
+lation of the intracellular Ca2+ transient and related
+phenomena. Another dynamic model of a cardiac action
+potential was developed for the frog atrial cell by
+Rasmusson et al.'0 Although certain aspects of their
+model (in particular the kinetics of 'Ca) are similar to
+those of the model developed in the present study, other
+aspects are very different. A major difference is the lack
+of an SR and its role in the dynamics of intracellular
+Ca>+ in the Rasmusson model, reflecting the very small
+contribution of such processes in frog atrial cells.
+
+In the present study, we provide a detailed descrip-
+tion of the development and formulation of the various
+components of the model. We test each individual
+component by simulating physiological phenomena that
+involve this particular component. We then combine the
+individual processes into a complete model of the action
+potential and investigate the role played by the different
+components in generating the action potential. In our
+accompanying article in this issue of Circulation Re-
+search,"1 we use the model to study phenomena that are
+related to the excitation-contraction coupling process
+(eg, postextrasystolic mechanical potentiation), to Ca2+-
+overload conditions, and to arrhythmogenic activity of
+the single cell (eg. early and delayed afterdepolariza-
+tions and triggered activity). The model could also
+provide the basis for future simulation studies of certain
+aspects of ischemia and of various interventions, the
+most important being the effects and mechanisms of
+action of channel blockers and other antiarrhythmic
+drugs.
+
+In addition to the study of mechanisms that deter-
+mine the behavior of the single cell, an accurate model
+of the action potential is important to simulation studies
+of propagation of excitation in cardiac tissue. Our
+studies of propagation'2"l3 and of reentry'4 were limited
+by the inability to correctly simulate important aspects
+
+of the action potential and situations of physiological
+and clinical importance (eg, Ca2' overload and the
+effects of Ca'+ channel blockers). The need for a more
+complete model of the action potential to further elu-
+cidate mechanisms underlying abnormal propagation
+(eg, reentrant arrhythmias) provided yet another moti-
+vation for the work presented here.
+
+Materials and Methods
+
+General Approach
+
+dV/dt =- (/Cm)(Ii+ Ist)
+
+The general approach is based on a numerical reconstruc-
+tion of the ventricular action potential using the following
+differential equation that describes the rate of change of
+membrane potential (V):
+(1)
+where Cm is the membrane capacitance, 'St
+is a stimulus
+current, and Ii is the sum of all ionic currents through the
+membrane. In the model developed here, Ii includes ionic
+currents through voltage-gated channels and currents carried
+by other mechanisms (eg, INaCa and INaK). Gated channels are
+described by using Hodgkin-Huxley type formalism.15 This
+approach has been described in detail in the first phase of this
+work,' in which only gated channels were included in the
+model. In the same article,'(p1520) we also discussed the corre-
+spondence between the ensemble behavior of ionic channels,
+as described by the Hodgkin-Huxley equations, and the single-
+channel behavior. The ionic currents are determined by ionic
+gates whose gating variables are obtained as a solution to a
+coupled system of differential equations. The integration algo-
+rithm' for solving the differential equations is based on the
+hybrid methods introduced by Rush and Larsen16 and Victorri
+et al.17 An adaptive nonlinear least-squares algorithm devel-
+oped by Dennis et al18 is used for parameter estimation.
+
+d[B]/dt- (IB * ACap)/(VC * ZB * F)
+
+The model developed here accounts for dynamic changes of
+ionic concentrations during the action potential. The rate of
+change of ionic concentrations is given by
+(2)
+where [B] is the concentration of ion B, IB is the sum of ionic
+currents carrying ion B, Acap is the capacitive membrane area,
+Vc is the volume of the compartment where [B] is updated, ZB
+is the valence of ion B, and F is the Faraday constant.
+All ionic currents are computed for 1 ,uF of cell membrane
+capacitance. Note that currents measured in single cells would
+be :'~10 000 times smaller than those reported here. Specific
+membrane capacity is set at 1 ,uF/cm2."9 The formulation is
+based on experimental data adjusted to 37°C by use of the Q1o
+adjustment factor (defined in Appendix 2). For example, if 1Ca
+was 2 ,uA/,uF at 22°C with Q1,=3, then lc, at 37°C should be
+equal to 2. (Q o)(37-22)10=O10.39 gA/gF. The complete set of
+equations for all ionic currents and other processes is provided
+in Appendix 1. Geometric parameters and standard ionic
+concentrations are also depicted in Appendix 1. Symbols used
+in the equations are defined in Appendix 2.
+
+All computer programs were coded in FORTRAN 77 (Mi-
+crosoft), and all simulations were implemented (double preci-
+sion) on a Macintosh IIcx computer. The integration algorithm
+uses an adaptive time step that varies between 1 and 0.01
+millisecond, and the potential is updated at steps that range
+from 0.2 to 1 mV. A time step <0.01 millisecond is used if the
+potential step is >1 mV (details are provided in Luo and
+Rudy'). A detailed description of the formulation of the
+various components and their integration into the complete
+model of the action potential is provided in the following
+sections.
+Formulation of the Model
+Geometrical Considerations
+
+The dimensions of the mammalian ventricular cell have
+been measured by several groups.20-25 On the basis of these
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy I: A Model of the Ventricular Action Potential
+
+1073
+
+data, the shape of the cell in the model is represented as a
+circular cylinder 100 gm in length and 11 ,um in radius. In
+ventricular cells, the large degree of membrane folding results
+in an actual surface area (represented by Acap) larger than that
+calculated from the cylindrical geometry (AGeo). Assuming
+specific membrane capacity (CQ) of 1 ,uF/cm2, Isenberg and
+Klockner20 found that the ratio (RCG) of Ac,p (defined as
+CmICsc) to the geometric membrane area (AGeo) is >2. Values
+of RCG measured by other groups21'22'25,26 are also close to, or
+smaller than, 2. Therefore, we set RCG=2 in the model.
+
+On the basis of measurements of Ca2+-loading rate, drug
+effects, electron micrographs, and the density of its Ca21
+content, the SR appears to be functionally and structurally
+divided into two compartments: the JSR and the NSR.23,24,27-29
+Functionally, Ca21 ions enter the NSR from the myoplasm
+through an uptake process; they then translocate from the
+NSR into the JSR, where they are released into the myoplasm
+following the kinetics of the Ca2+-induced Ca21 release
+(CICR) process (Fabiato3-32) or the Ca2+-overload triggering
+process.33 On the basis of the measurements of Forbes et a123
+and those of other groups,34'35 we set the volume fraction of SR
+(FSR) at 6% of the cell volume. The SR volume is divided into
+JSR (8%) and NSR (92%). Therefore, FJSR is O.48%=8% . 6%
+and FNSR is 5.52%=92% *6% of the cell volume. The mito-
+chondria volume fraction (Fmito) is set at 26%.36 The remaining
+volume (Fmyo=68%) is occupied by the myoplasm. For consid-
+erations of ion accumulation in extracellular clefts, Fcel,: Fcleft is
+assumed to be 88%:12%.24,34,35
+Standard Ionic Concentrations
+
+The ionic concentrations are the same as those used in our
+previous model,' except for [Nat]i, which is decreased from 18
+to 10 mmol/L. In the phase-1 model, the value [Na+]i=18
+mmol/L was based on data measured at 22°C to 24°C.37
+However, other data suggest that [Na+]i is smaller at 37°C.
+Sheu and Fozzard38 obtained Na+ activity (aNai)=6.4+1.2
+mmol/L (equivalent to [Na+]i=9.1±1.7 mmol/L), Cannell et
+a139 obtained [Na+]i=8 mmol/L, and Abete and Vassalle40
+obtained aNai=8 mmol/L ([Na+]i=11.4 mmol/L) at 37°C. An
+overestimation of [Na+]i acts to depress the capability of INac
+to extrude Ca21 ions out of the cell. On the basis of the 37°C
+data and to maintain normal exchanger activity, we set
+[Na+]i= 10 mmol/L. The resting [Ca2+]i is set at 0.12 ,umol/L on
+the basis of the measured values of 0.136±0.026 ,umol/L by
+Takamatsu and Wier41 and ---0.12 ,umol/L by Beuckelmann
+and Wier.42
+Ionic Currents in the Sarcolemma
+
+INa, the fast Na+ current. The formulation of INa in the
+phase-2 model is the same as that in the phase-1 model,'
+except that the maximum conductance (GNa) is decreased from
+23 to 16 millisiemens/,uF to compensate for the increased
+reversal potential (ENa, from 54.4 to 70 mV) due to the lower
+[Na+]i (10 instead of 18 mmol/L). Without this adjustment of
+GNa, the computed peak inward current is too large for
+ventricular cells (>450 ,uA/IF). For GNa=16 millisiemens/,uF,
+an acceptable value (380 ,A/,F) is obtained, close to 400
+,uA/,F in the phase-1 model. Note that this value of GNa=16
+millisiemens/,uF is in the range of measured Na+ conduc-
+tances.43 It should be noted that the equation for a; (Appen-
+dix 1) is slightly modified from that given in Ebihara and
+Johnson (E-J)44; an error in sign in the original E-J article is
+corrected, and a factor of 0.1 is introduced to provide a
+realistic activation threshold of INa (-58.8 mV) in a mamma-
+lian ventricular cell. These adjustments to the E-J formulation
+were first introduced in the phase-1 model.'
+
+Ionic currents through the L-type Ca2` channel. The L-type
+channel is permeable to Ca2+, Na+, and K', with a perme-
+ability ratio of 2800:3.5:1, respectively.5,7'8'45 The total current
+through this channel is expressed as the sum of the individual
+component currents: ICa,t=ICa+ICa,K+ICaNa (see Appendix 2 for
+
+definitions). Note that in view of the much larger permeability
+to Ca 2+, the major contribution to Ilc,, is from lc,. As suggested
+by Campbell et al,45 we formulate Ic by using the constant-
+field equation (Appendix 1). Similar kinetics are assumed for
+ICa,K and 1CaNa, with the major difference being the much
+smaller permeabilities of these components. All the data
+measured at room temperature are adjusted to the physiolog-
+ical body temperature of 37°C, which is based on Qlo of 2.96
+measured by Cavalie et al.46 The maximum conductance of lCa
+is chosen as GCa=0.9 millisiemens/,F,3 and the corresponding
+permeability is Pc =5.4x 10` cm/s. Permeabilities of the other
+components are much smaller (Appendix 1) and satisfy the
+permeability ratio above.
+
+Activation kinetics (d-gate). Because of the high series resis-
+tance and voltage inhomogeneities introduced by the tissue
+architecture (gap junctions, endothelium, intercellular cleft
+space), the activation kinetics of this channel could not be
+measured precisely in multicellular tissue preparations.3 In
+single-cell preparations, Isenberg and Klockner3 were the first
+to measure the time constant of activation (Td), which was an
+order of magnitude faster than suggested by the previous
+measurements in tissue preparations. Our formulation of d
+(Appendix 1) follows that of Rasmusson et al'0 and results in
+activation kinetics an order of magnitude faster than in the
+B-R model or in our phase-1 model.
+
+Inactivation kinetics (f and fca). The inactivation process of
+Ica has been the subject of controversy since the 1980s. It has
+been characterized as purely voltage dependent (only f, Isen-
+berg and Kl6ckner3), purely Ca2` dependent (only fCa),47'48 or
+as a combined voltage- and Ca2`-dependent process (f . fCa).4-8
+On the basis of recent experiments, the combined voltage- and
+Ca2`-dependent kinetics is generally more accepted than the
+other two possibilities. This is because the voltage dependence
+of steady-state inactivation measured by the gapped double-
+pulse protocol8 cannot be explained by purely voltage-depen-
+dent kinetics. Therefore, we assume that the inactivation
+process is both, voltage and [Ca2+]i dependent, and can be
+described in terms of a purely voltage-dependent gate f and a
+purely [Ca"2]i-dependent gate fCa. To measure the purely
+voltage-dependent kinetics (ie, f), Ca2` is replaced by other
+ions that are not subject to Ca2`-dependent inactivation.
+These include Ba2+, Sr2+, K', and Na+.4,5,6,8,48-50 The use of
+these ions to measure the characteristics of f [ie, f.(V) and
+rf(V)] has resulted in a variety of conflicting results.5'8'48'49 f. is
+described as either partial-U-shaped48'49 or monotonically
+is described as either bell-shaped5'8 or
+decreasing.8 rf
+U-shaped.49 This lack of consistency may be due to the
+differences in experimental conditions. Equations describing
+these different measurements are presented in Appendix 3.
+Note that in the equations the half-saturation potential and
+the slope factor are different from the values used by Rasmus-
+son et al10 (32 and 8 mV instead of 35.06 and 8.6 mV). These
+changes were necessary for the simulated Ic, inactivation
+process (in particular the inactivation parameter f.; see "Re-
+sults") to be in the range of experimental measurements. In
+"Results," these different formulations and the formulation
+used in the D-N model9 are tested and compared in terms of
+their ability to simulate recent experiments in single ventric-
+ular cells under normal physiological conditions ([Ca 2+1o. 1.8
+mmol/L). On the basis of these simulations (described in
+"Results"), we identified the formulation in Appendix 1 as the
+best representation of the voltage-dependent inactivation pro-
+cess. This formulation was incorporated in the action potential
+model.
+
+The kinetics of the Ca2+-dependent inactivation were first
+formulated by Standen and Stanfield.47 This formulation in-
+volved an unknown subsarcolemmal space and ionic diffusion
+from this space to the myoplasm. Such a small subsarcolemmal
+space would result in a high Ca2+ concentration in this layer
+and a strong Ca 2+ dependence of inactivation. However, a high
+concentration of subsarcolemmal Ca24 was not detected by
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1074
+
+Circulation Research
+
+Vol 74, No 6 June 1994
+
+measurements of the [Ca2+]i wave using a fura 2 imaging
+system.41,42 The measured intracellular [Ca 2+] transient could
+be adequately interpreted on the basis of a single compartment
+(myoplasm). Therefore, we assume a single compartment and
+formulate the Ca2+-dependent inactivation as follows: fCa= 1/
+{1+([Ca2+]i/Km,ca)2}, where KmCa (=0.6 gmol/L) is the half-
+saturation concentration.
+IK, the time-dependent K+ current. In the phase-1 L-R model,'
+we introduced a [K+]0 dependence of the IK conductance
+[Kjk) but retained the linear dependence of IK on its
+(GKGC
+activation parameter (IK XX) as suggested by Beeler and
+Reuter2 on the basis of experiments conducted in multicellular
+preparations. More recent experiments in single cells51 dem-
+onstrated an X2 dependence of IK (see equation in Appendix
+1). We did not use this form in the phase-1 model because
+IK(X2) as suggested by Matsuura et a15' failed to repolarize the
+membrane from plateau potentials to rest potential at low
+[K+]0. We' stated that this situation would have to be reexam-
+ined once a correct formulation of 'Ca was developed and
+incorporated in the model. In the phase-2 model presented
+here, a correct 'Ca is incorporated (see previous section). With
+this reformulated ICa, the situation is reversed, and IK(X2) can
+repolarize the membrane to rest at all levels of [K+]0. The
+reasons for this different behavior will be explained in "Re-
+sults." In the phase-2 model, we adopt the X2 dependence,
+since this behavior was demonstrated in single cells.5'
+
+In, the time-independent K' current. The formulation of this
+current is the same as in the phase-1 model, except for the
+value of the maximum conductance (GKI). GK1 can be obtained
+from measurements by Sakmann and Trube52 and data from
+Isenberg and Klockner.20 At [K+]0=5.4 mmol/L and 35°C, the
+whole-cell IKI conductance is =150 nanosiemens,52 and the
+average capacitive membrane area is 2 x 10` cm2.20 Therefore,
+average GKI is estimated at 0.75 millisiemen/,F (note the 1
+gF/cm2 specific membrane capacity). In the phase-1 model,
+the value GK1=0.6 millisiemen/,uF was used on the basis of the
+'K1 curve of the B-R model. The reason we did not use the
+calculated value of 0.75 millisiemen/gF was that this value
+resulted in a plateau potential <0 mV because of the incorrect
+formulation of ICa in the B-R model. Such a low level of
+plateau potential is not consistent with experimental measure-
+ments. In the phase-2 model, lCa
+is reformulated, and
+GK1=0.75 millisiemen/,F is used.
+phase-1 L-R model.
+
+IKP, the plateau K' current. This current is the same as in the
+INaCa9 the Na+-Ca2` exchanger. In mammalian cardiac cells, it
+is generally accepted that the exchanger stoichiometry
+Na+: Ca2` is 3:142,53-56 and that K' ions are not cotransported
+by the exchanger.57 The formulation of INaCa was first proposed
+by Mullins58 and simplified by DiFrancesco and Noble.9 Ac-
+cording to recent experiments,425354 several properties were
+not represented correctly by the D-N model. These are as
+follows: [Na+]0 dependence, [Ca2+]. dependence, and satura-
+tion of INaCa at very negative potentials. A formulation that can
+correctly duplicate these properties (see "Results") is listed in
+Appendix 1. In this equation, q=0.3542,53,59,60 is the position of
+the energy barrier that controls the voltage dependence of
+INaCa, and ksat is the saturation factor that ensures saturation at
+very negative potentials.
+
+INaK, the Na+-K+ pump. Under a wide range of normal and
+abnormal physiological conditions, the reversal potential of
+INaK is very negative (. -200 mV).61 Therefore, our formula-
+tion of INaK does not consider backward operation of the pump.
+In the forward operation, the pump extrudes three Na+ ions
+from the cell in exchange for two K' ions that enter the cell.61
+A property of INaK that is not simulated correctly by the D-N
+model9 or by the model of Rasmusson et al10 is the voltage
+dependence of INaK at different levels of [Na+]0. This property
+has been measured by Nakao and Gadsby62 and Gadsby and
+Nakao.25 The parameter values in Appendix 1 are based on
+measurements by several groups.25,62-70 The resting value of
+
+INaK is =0.3 ,A/,F for standard ionic concentrations. The
+value of Km,Na (43.2 mmol/L) measured by Mogul et a169 is
+much higher than values measured by others (=10 mmol/L).
+This high value of KmNa, implies a maximum pump current
+(INaK) as high as 10 gA/gFtE in order to predict correctly the
+pump current at the resting state.62,67,69,70 Such a high value of
+INaK has never been reported. Therefore, Km,Na=10 mmol/L62
+is used in our model. Our formulation of INaK is provided in
+Appendix 1. This formulation correctly simulates the voltage
+dependence for all values of [Na+]0 (see "Results").
+
+,,s(Ca), the nonspecific Ca`2-activated current. This channel is
+suspected to conduct the arrhythmogenic transient inward
+current (IT,) under Ca 2+-overload conditions. This channel was
+not identified in single cardiac cells until Ehara et a171 pre-
+sented their observations in guinea pig ventricular cells. The
+channel is equally permeable to Na+ and K+7' and much less
+permeable to Ca2+.72 Therefore, lns(ca) is regarded as the sum
+of the Na+ current (InsNa) and the K' current (Ins,K) through
+this channel. Ins(Ca) is formulated by using the constant-field
+equation together with a Ca2`-activated term in which the Hill
+coefficient is equal to 3 (Appendix 1). The maximum conduc-
+tance of this channel is estimated in the range of 7.2 to 72
+nanosiemens for the total cell membrane,7' which is equivalent
+to a specific conductance of 0.036 to 0.36 millisiemen/,uF
+(assuming Cm=200 pF).3 The choice of the value Gns(Ca)=0.072
+millisiemen/tF (note that 1 ,uF implies a i-cm2 membrane
+area) is based on the data measured by Doerr et a173 (see
+"Results"). The corresponding Pns(Ca) is 1.75 x 10-7 cm/s.
+
+Ip,(Ca), the sarcolemmal Ca2+ pump. This pump provides an-
+other mechanism, in addition to the exchanger (INaCa), for the
+extrusion of Ca 2+ ions out of the cell. As suggested by
+Rasmusson et al,10 the pump is included in the model to
+maintain the low level of [Ca2"]i at rest. Kmp(Ca)=0.S gmol/L is
+obtained from the measurements by Caroni et al.74 Different
+values of Km,p(Ca) were used in other models.'0,75,76
+IC,,b, the Ca2+ background current. 'Ca,b is formulated as a
+linear leakage current. Its contribution to [Ca"]i is balanced
+ion extrusion through INaCa and lp(Ca) so that the
+by the Ca2
+resting level of [Ca2+]i=0.12 gtmol/L is maintained.
+INa,b, the Na+ background current. INa,b is also formulated as a
+linear leakage current. Its contribution to [Na+]i is balanced by
+Na+ ion extrusion through INaK and entry through INaCa so that
+the resting level of [Nat]i is maintained.
+
+Iv, the time-independent, purely voltage-dependent current. In
+the phase-1 L-R model, the total time-independent current,
+IK1(T), was expressed as a summation of IK1, 1Kp, and Ib, where
+lb was a K' background current.' In the phase-2 model, lb is
+replaced by a summation of INab, 1Ca,b
+Ip(Ca)y and INaK. There-
+fore, the total time-independent current is not a pure K'
+current. To clarify this situation, the notation of IK1(T)
+is
+changed to Iv, which denotes the total time-independent
+current, the sum of six ionic currents. The subscript V indi-
+cates that this current depends only on the membrane poten-
+tial and not on time.
+Ca2' Buffers in the Myoplasm
+
+The Ca 2+ buffers are located in the internal sarcolemma and
+the myoplasm. In the sarcolemma, the buffer capacity (>1
+mmol/L) is very large but may not play an important role in
+Ca2+-buffering during the excitation-contraction coupling cy-
+cle.77 In models of Ca2+ movement during muscle contrac-
+tion,78 80 sarcolemmal buffers were neglected, and the Ca2+
+ions released from the SR were only buffered in the myoplasm
+by calmodulin and troponin. We make similar assumptions in
+our model. The buffer concentrations listed in Appendix 1
+were obtained from Wier and Yue,79 and the buffering kinetics
+were from Robertson et al.77 After the approach of Hilgemann
+and Noble,75 we compute the steady-state buffering process
+numerically by using Steffensen's iterative method. The
+steady-state assumption is justified since it differs only slightly
+from the dynamic buffering process.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy I: A Model of the Ventricular Action Potential
+
+1075
+
+Ca2+ Fluxes in the SR
+
+CICR by the JSR. The mechanism of Ca2` release by the
+cardiac SR is known as the CICR process.30-32 Following the
+suggestion of Backx et al,80 we represented the release process
+in our model by assuming variable ([Ca2]i-dependent) release
+kinetics in combination with a fixed threshold for release.
+Since we are not considering [Ca2+]i wave propagation,41'80 we
+represent the release process as if it occurred from a single
+JSR release site, ignoring spatial distribution of the JSR and
+the resulting [Ca2+]i propagation.
+
+Beuckelmann and Wier,42 in agreement with Fabiato,30-32
+found that the peak intracellular Ca 2+ transient was propor-
+tional to the cumulative amount of Ca 2+ ions that enters the
+cell within 10 milliseconds from the onset of stimulation, with
+almost no further increase due to Ca 2+ entering the cell later
+than the first 10 milliseconds. This implies that the amount of
+Ca24 released from the JSR depends on the amount of Ca2+
+that enters the cell within 10 milliseconds from the onset of
+stimulation. In the model, we compute the increase in [Ca 2+]
+2 milliseconds (rather than 10 milliseconds) from the time of
+Vmax and denote it as A[Ca2+]i,2. This adjustment is made to
+account for the faster kinetics at 37°C (Beuckelmann and
+Wier's data are at 23°C). It is also consistent with the time of
+peak ICa (2 milliseconds, Fig liB), when [Ca2+]i-dependent
+inactivation of Ic, is significant, implying a sufficiently large
+intracellular Ca2+ transient that requires JSR release as early
+as at 2 milliseconds. On the basis of the data of Beuckelmann
+and Wier,42 JSR release of Ca 2+ ions is triggered at clamping
+potentials more positive than -30 mV. This potential thresh-
+old is equivalent to an increase of [Ca2+]i by 0.18 ,mol/L.
+Therefore, we define A[Ca2li,th=0.18 ,umol/L as the threshold
+for JSR release. This value is in agreement with the measure-
+ments by Kawano et al.81 The complete formulation of Irel due
+to CICR is provided in Appendix 1. The [Ca2+]i-dependent
+term is multiplied by a two-exponential term with time con-
+stants for the activation (ron) and deactivation (T0ff) of the
+release process. The half-saturation concentration K,,,re=0.8
+tmol/L was obtained from Chamberlain et al.82 rn= roff=2
+milliseconds is set to ensure that the pulse-release is com-
+pleted in 5 milliseconds.
+
+Ca2+ release by the JSR under Ca2-overload conditions. It is
+commonly found that spontaneous contractions occur in
+skinned cardiac cells,30 in damaged tissues,83 and in intact rat
+ventricular cells.84 Normal CICR from the JSR requires exter-
+nal triggering (IA[Ca2`]i in the myoplasm, outside the JSR). An
+alternative triggering process occurs from within the JSR
+under Ca24-overload conditions. A simple heuristic model of
+spontaneous Ca 2+ release from the JSR was proposed by
+Capogrossi et al84 and Stern et al.33 In this simple model, JSR
+releases all of its stored Ca 2+ ions once the level of its
+releasable Ca24 pool reaches a threshold, and then JSR-Ca2+
+is replenished following a monoexponential time course. In
+our model, JSR is reloaded by Ca2+ ions from the NSR
+through a translocation process described by a simple monoex-
+ponential function. The threshold for internal triggering of
+Ca2+ release from the overloaded JSR depends on the species.
+The tendency for spontaneous Ca2+ release, in a decreasing
+order, is: rat>hamster>dog>cat>guinea pig>rabbit.34 In
+normal rat ventricular cells at rest, spontaneous release can
+occur. Since most of the releasable Ca2+ in the JSR binds to
+the buffer calsequestrin (CSQN), we define the threshold in
+terms of percent [CSQN] that is Ca24 bound. In rat ventricular
+cells at rest and under normal conditions (no Ca24 overload),
+68.5% of total [CSQN] binds with Ca24 ions. In the model, we
+set the threshold for spontaneous release at [CSQN]th=70%
+for the rat. For species other than the rat [CSQNIth is >70%.
+The complete formulation of the spontaneous release process
+is provided in Appendix 1.
+CSQN, the Ca2` buffer in the JSR. The Ca2+ buffer CSQN
+increases the releasable pool of Ca24 ions in the JSR. Other-
+wise, with such a small volume fraction of the cell
+
+(FJSR=0.48%), JSR cannot store sufficient Ca24 ions to cause
+muscle contraction on release. The maximum value
+[CSQN]=31 mmol/L and the half-saturation concentration
+Kll,CSQN=0.8 mmol/L were used by Cannell and Allen78 in
+skeletal muscle simulations. It should be noted that the
+myoplasmic Ca2'-buffering capacity in skeletal muscle is much
+greater than in cardiac muscle; therefore, the value
+[CSQN]=10 mmol/L is used in our model to ensure that JSR
+is almost completely depleted of its Ca24 contents during each
+excitation-contraction cycle and that the simulated peak intra-
+cellular Ca2
+transient is consistent with measured data.
+Similar to buffering in the myoplasm, we compute the buffer-
+ing process in the JSR using Steffensen's iterative method
+assuming steady state.
+
+Is,, and Ikk, Ca2` uptake and leakage by the NSR. Because of
+its small volume fraction (0.48%) and slow rate of Ca24
+uptake, Ca24 uptake from the myoplasm by the JSR is
+negligible.27 Therefore, in the model, direct uptake by the JSR
+is neglected, and Ca24 ions enter the JSR only through the
+NSR by a translocation process. The kinetics of Ca24 uptake
+from the myoplasm by the NSR can be described by the
+Michaelis-Menten equation (Haynes and Mandveno85) shown
+in Appendix 1. On the basis of experimental findings85'86 and
+model simulations,79,80 maximum [Ca 21]
+in the NSR
+([Ca2+INsR) is equal to 15 mmol/L, the Hill coefficient is 1, and
+half-saturation concentration (Km,up) is 0.92 ,umol/L. A maxi-
+mum uptake rate (Iup) faster than 0.003 mmol/L per millisec-
+ond is necessary to reload into the NSR all the Ca24 ions that
+were released from the JSR during an action potential.32
+Therefore, Iup=0.005 mmol/L per millisecond was chosen in
+the model. The net rate of Ca2+ uptake into the NSR is the
+difference between lup and lleak, where 1leak=- Keak- [Ca2+4]NSR
+To obtain [Ca2+INSR=15 mmol/L, the leakage rate of Ca24 out
+of the NSR (1'leak) is set equal to IUp/[CaI2+NsR=0.000333 ms'.
+Itr, translocation of Ca2` ions from the NSR to the JSR. The
+kinetics of Ca2+ translocation from the uptake store (NSR) to
+the release store (JSR) was elucidated by investigating force-
+interval relations such as postextrasystolic restitution and
+potentiation.79,87 Both relations can be described by monoex-
+ponential functions with the same time constant.87 On the
+basis of the data (rtr=182+44 milliseconds or Ttr=176-'-18
+milliseconds) measured by Yue et al,87 'rr=180 milliseconds is
+chosen for the time constant in the model. The complete
+equation for Ilr is provided in Appendix 1.
+
+Results
+
+The "Results" section is divided into two parts. The
+first set of simulations (Figs 2 through 12) deals with
+properties of the individual components of the model.
+In particular, we evaluate the representation of each
+component by simulating relevant experimental proto-
+cols and comparing the simulated results with published
+experimental findings. We also use the simulations to
+answer important questions related to the characteris-
+tics and mechanisms of the various component pro-
+cesses. Since INa, 1K1, and IKp are the same as in the
+phase-1 model, they are not discussed here. The second
+set of simulations (Figs 13 through 19) deals with the
+integration of the various components into a complete
+model of the action potential and investigates the role
+and contribution of each component at different phases
+of the action potential.
+Physiological Behavior of Various Components of
+the Model
+Voltage-Dependent Inactivation of ICa
+
+The inactivation process Of 1Ca is both voltage and
+Ca24 dependent and can be formulated as f * fca, where
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1076
+
+Circulation Research
+
+Vol 74, No 6
+
+June 1994
+
+A
+
+B
+
+0.0
+
+4E
+
+0
+
+0.2_
+
+2
+
+0.0
+
+-100
+
+V (mV)
+
+uiVr-rancescu-Nouuie
+
+-50
+
+0
+
+50
+
+100
+
+V (mV)
+
+Graphs showing different formulations of the inactivation
+FIG 2.
+gate of the L-type Ca2+ channel (f-gate). A shows steady-state
+inactivation (f.); B, the time constant (a,). Note that rf is normal-
+ized to its maximum value. The maximum X, is 20 milliseconds for
+DiFrancesco and Noble,9 50 milliseconds for Rasmusson et al,10
+and 253.2 milliseconds for Kass and Sanguinetti.5 V indicates
+membrane potential. Data for Hadley and Hume are presented in
+Reference 8. Equations are provided in Appendix 3.
+
+f is a purely voltage-dependent gate and fca depends
+only on the concentration of free Ca2' ions in the
+myoplasm, [Ca"]i. As mentioned in "Materials and
+Methods," several conflicting measurements and differ-
+ent formulations of the f-gate exist in the litera-
+ture.584849 Steady-state inactivation (f.) and the time
+constant (,f) from several studies are plotted in Fig 2A
+and 2B, respectively, for the range of membrane poten-
+tials from -100 to + 100 mV. Corresponding equations
+are provided in Appendix 3. f. and if, measured by
+Campbell et a149 and formulated by Rasmusson et al,10
+are partially U-shaped (f., Fig 2A) and fully U-shaped
+(1rf, Fig 2B). f, and if, measured by Kass and Sangui-
+netti5 and Hadley and Hume,8 are monotonically de-
+creasing to a nonzero value (f., Fig 2A) and are
+bell-shaped (7,f, Fig 2B). All of these parameters were
+obtained by using the gapped double-pulse protocol
+(see below). In contrast, f. in the D-N model is based on
+measurements using the conventional double-step pro-
+tocol (described below) and is monotonically decreasing
+to zero (Fig 2A). if in the D-N model is monotonically
+increasing to the value of 20 milliseconds (normalized to
+1 in Fig 2B). For a more complete comparison of
+possible formulations, we add another set (f. and if),
+where f. is monotonically decreasing to zero (our fit to
+the conventional double-step data, Fig 2A) and if is
+bell-shaped (Kass-Sanguinetti, Fig 2B). In the following
+
+simulations, we use these four different formulations of
+f in an attempt to reconcile the differences between
+them and to relate them to the different experimental
+protocols used for their measurements. In all simula-
+tions (except the D-N model), fca of Appendix 1 was
+used. Simulations involving the D-N model used the
+D-N formulation as depicted in Appendix 3. Protocols 1
+and 2 below follow the experimental protocols of Camp-
+bell et al.49
+
+Protocol 1: f. (c), steady-state inactivation measured by
+the conventional double-step protocol. The protocol is as
+follows: membrane potential is first stepped from -60
+mV to various potentials for 1000 milliseconds and then
+(second step) to 10 mV for 100 milliseconds and finally
+clamped back to the holding potential of -60 mV. From
+the peak inward current obtained at the second step,
+one subtracts the minimum current at the end of this
+step. This difference peak inward current (called the
+"visual estimate" current by Isenberg and Klockner3) is
+normalized by its maximum value and plotted as a
+function of the different potentials of the first step. The
+resulting steady-state inactivation curve reflects the
+combined voltage- and Ca'-dependent processes (f,
+and fca, respectively) and is denoted as f(c) to differ-
+entiate it from fQ(g), measured by the gapped double-
+pulse protocol (see below). We simulate this protocol by
+using our model (L-R) with the conventional f, and r of
+Kass and Sanguinetti,5 with f. of Hadley and Hume8 and
+i-f of Kass and Sanguinetti, and with f of Rasmusson et
+al.10 In addition, the D-N model is used for the simula-
+tion. f.(c) obtained by using the different models is quite
+similar and is adequately described by the conventional
+Boltzmann equation f. =1/{1 +exp[(V-Vh)/K]} with dif-
+ferent values of slope factor (K) and half-saturation
+potential (Vh). Parameter values for the different mod-
+els are as follows: Vh=-35 mV and K= -8.26 for the
+conventional f. and 7 of Kass and Sanguinetti, Vh= -35
+mV and K= -5.1 mV for f, of Hadley and Hume and rf
+of Kass and Sanguinetti, Vh=-35 mV and K=-5.65
+mV for f of Rasmusson et al, and Vh= -32.5 mV and
+K=-5.92 mV for the D-N model. Note that these
+different values are all in the range of measure-
+ments.35488889 On the basis of these simulations, it is
+clear that the conventional double-step protocol cannot
+separate the four different models tested.
+
+Protocol 2: f.(g), steady-state inactivation measured by
+the gapped double-pulse protocol. The protocol is shown in
+the inset of Fig 3A and is described in the legend. The
+peak inward current obtained at the second pulse is
+normalized by its maximum value and is plotted as a
+function of the different potentials of the first pulse. We
+denote the resulting inactivation parameter as fQ(g).
+Two conditions are investigated in the simulations: (1)
+[Ca`],==0.12 ,umol/L is fixed throughout the simulation
+(denoted as [Ca+]i-fixed in the figure); this condition
+eliminates the Ca2' dependence of inactivation (fca),
+and only the voltage-dependence (f) is obtained. (2)
+[Ca2]i is free to change during the simulation (denoted
+as [Ca]i-unclamped in the figure); this condition pro-
+vides a measure of the steady-state inactivation as a
+product of fCa and f. Simulation results obtained with
+the same four models as in the previous protocol are
+shown in Fig 3. As expected, fx(g) obtained under the
+[Ca]i-fixed condition is about the same as the purely
+voltage-dependent f, shown in Fig 2. Note that unlike
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy I: A Model of the Ventricular Action Potential
+
+1077
+
+A
+
+1.0
+
+L-R(conventional f 0)
+
+1B
+
+ES,
+
+8
+
+1A.
+
+0.8-
+
+0.6
+
+0.4
+
+0.2
+
+L-R(f.. of Hadley-Hume)
+
+[Cali - fixed
+
+I/
+[Cal;-uncapd
+
+8 0.4
+
+0.24
+
+0.0
+
+-50
+
+[Cal
+
+C-aucia-ied
+50
+0
+V (mV)
+
+100
+
+o.o
+
+- 50
+
+0
+50
+V (mV)
+
+1 00
+
+C
+
+L-R(f of Rasmusson et al.)
+
+1.0
+
+0.8
+
+0.6
+~0.4.
+
+0.2
+0.0.050
+
+[Cal1
+
+ie
+
+j- urciamped
+100
+50
+0
+V (mV)
+
+D
+
+DiFrancesco-Noble
+
+1.0
+
+0.8
+
+CD
+
+0.6
+08
+
+0.4
+
+0.2
+
+.-
+-50
+
+[Cal
+
+- fixed
+
+[Cal
+
+- undamped
+
+50
+0
+V (mV)
+
+1 00
+
+Graphs showing steady-state inactivation
+FIG 3.
+[f,(g)] obtained by the gapped double-pulse protocol.
+A through D correspond to formulations 1 through 4 in
+Appendix 3. The protocol is shown in the inset of panel
+A; membrane is clamped to various potentials for 500
+milliseconds (first pulse), and after a gap of 2 millisec-
+onds at the holding potential (-60 my), a second
+clamping pulse to 0 mV for 100 milliseconds is ap-
+plied. Two conditions ([Ca]i-fixed and [Ca]i-
+unclamped) are investigated. The results indicate that
+only the formulations in panel B and panel C can
+duplicate the partial-U shape found experimentally. V
+indicates membrane potential; L-R, the Luo and Rudy
+model; and f and f., inactivation parameters. Data are
+taken from Hadley and Hume,8 Rasmusson et al,10
+and DiFrancesco and Noble.9
+
+f.(c), f(g) does not go to zero at positive potentials in
+Fig 3A and 3D. This is because at the onset of the
+second pulse, f is partially recovered from the fully
+inactivated state at the end of the first pulse (in the
+gapped protocol, the two pulses are separated by a gap
+of =2 milliseconds that permits partial recovery of f). In
+the range of positive potentials, f (~fx) at the time of
+peak inward current at the second pulse is
+0.14 and
+0.5 in panels A and D, respectively, of Fig 3. fQ(g)
+obtained under the [Ca]i-unclamped condition is very
+different and reflects, in addition to voltage depen-
+dence, the effects of changes in [Ca21]j. The models that
+adopt the conventional f. (Fig 3A and the D-N model in
+Fig 3D) fail to duplicate the partial-U shape of the
+steady-state inactivation as obtained from the gapped
+double-pulse experiments.4,6S8,4849 However, two of the
+models (Hadley and Hume,8 Fig 3B; Rasmusson et al,10
+Fig 3C) successfully simulate the partial-U shape. The
+difference between these two models is that the [Ca2+]p
+dependent component plays a much more important
+role in determining fQ(g) in the Hadley and Hume
+model (compare panels B and C in Fig 3).
+Reconstruction of the action potential. The previous
+simulations indicate that the Hadley and Hume8 and the
+Rasmusson et a110 formulations of fQ(g) cannot be easily
+distinguished and compared when using either the
+gapped double-pulse or the conventional double-step
+protocols. A further test procedure is to reconstruct the
+action potential by using these two different represen-
+tations of f. These simulations are shown in Fig 4. Fig
+4A depicts the experimental measurements of Doerr et
+al73 using the action-potential clamp technique. The
+experimental result (Fig 4A) is duplicated reasonably
+well by the model that adopts the f-gate of Rasmusson
+et al (Fig 4B). Note that both experiment (Fig 4A) and
+simulation (Fig 4B) show zero contribution of 1Ca to the
+action potential for V< -35 mV (arrows) during the
+repolarization phase, as mentioned in "Materials and
+Methods." In contrast, the action potential simulated
+using the formula of Hadley and Hume (Fig 4C) does
+not duplicate the experiment successfully. The action
+
+potential duration (APD) is very long (-415 millisec-
+onds). This results from the following property of this
+model: when the membrane potential decreases gradu-
+ally during the plateau phase, 1Ca increases (Fig 4C,
+bottom) because of the monotonic increase of f, as the
+membrane potential repolarizes from +40 to -30 mV
+(Fig 2A). 1Ca continues to increase until the membrane
+potential is more negative than -20 mV. At this poten-
+tial, Ica becomes largely inactivated because of the small
+value of the d-gate. This increasing inward (depolariz-
+ing) current during the plateau and repolarization
+
+A. Experlments(Doerr et al.)
+
+30.
+
+0.~~~~~~~
+nw A P
+
+/
+
+-110 1 X-
+
+250 i iiCa
+O~1:ICa
+
+100 msec
+
+B. L-R(d,f of Rasmusson et al.)
+~~~~~~46-
+
+>
+
+-86
+6.6
+
+A
+
+I Ca
+
+100 msec
+
+{
+
+C.
+
+L-R(Io ot Hadley-Hume)
+
+D. L-R(conventional f.,)
+
+AP
+
+-86
+6.4
+
+-
+
+o yICa
+
+0
+
+AP
+
+E
+-86
+4.6
+
+'Ca~~~~~C
+
+'a
+
+100
+~~~~sec
+
+C
+
+-
+
+1
+
+00 msec
+
+Tracings showing the behavior of the Ca2+ current (ICe)
+FIG 4.
+during an action potential (AP). A depicts the experimental
+results of Doerr et al.73 lCa with activation parameter d and
+inactivation parameter f from Rasmusson et al10 (panel B)
+duplicates well the experimental results (panel A). Note that the
+zero contribution of lCa at potentials more negative than -35 mV
+(arrow) is also duplicated in the model. Calibration bar in each
+panel is 100 milliseconds. Panels B, C, and D correspond to
+formulations 3, 2, and 1 in Appendix 3. Currents shown in the
+figures are for 1 ,F of membrane capacitance. L-R indicates the
+Luo and Rudy model; f,, steady-state inactivation parameter.
+Data are also from Hadley and Hume.8
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1078
+
+Circulation Research
+
+Vol 74, No 6 June 1994
+
+phases acts to oppose the outward (repolarizing) 'K and
+prolongs the action potential. It is clear that the simu-
+lated ICa (Fig 4C, bottom) deviates greatly during the
+plateau and repolarization phases of an action potential
+from the experimental findings (Fig 4A, bottom). Note
+that in contrast to the increase of the Hadley and Hume
+f, as the membrane potential repolarizes, f. based on
+the Rasmusson et al formulation decreases monotoni-
+cally as the membrane potential repolarizes from +50 to
+0 mV and remains smaller than 0.2 down to -20 mV
+(Fig 2A). Of course, the conventional f. (Fig 4D) cannot
+support a realistic value of Ia, during the plateau
+because of its almost zero value at plateau potentials
+(Fig 2A). In conclusion, only the formulation of Ilc
+inactivation suggested by Rasmusson et al can simulate
+successfully the conventional double-step protocol, the
+gapped double-pulse protocol, and ICa during the action
+potential. We adopt this formulation in our (L-R)
+model (Appendix 1) and use it in all of the simulations
+that follow.
+Other Characteristics of ICa
+
+The inactivation characteristics of 'Ca are complex,
+and their elucidation required several simulations, as
+described in the previous section. This section deals
+with other properties of ICa. Similar to the previous
+section, simulations are conducted and interpreted in
+relation to experimental findings.
+
+Peak inward current andpeak intracellular Ca2+ transient.
+The L-type channel is permeable to Ca2', K+, and Na+.
+The permeability ratio of Ca2': K+: Na+ is 2800:3.5:1. 'Ca.t
+is the sum of the three ionic currents (ICa, 1CaK, and ICaNa)
+through this channel. By clamping the membrane poten-
+tial from -60 mV to various potentials for 100 millisec-
+onds and then back to the holding potential of -60 mV,
+the peak inward currents of lCa,t and its three individual
+components can be obtained. We have computed these
+currents as a function of membrane potential by simulat-
+ing this protocol using our (L-R) model. lc,, and lca almost
+overlap for V<35 mV, and both display a bell-shaped
+behavior as a function of membrane potential (not
+shown). In the range of potentials from -50 to 90 mV, IcL
+is an inward current because the Nernst potential of the
+Ca2' ions (Ec,N)=127.5 mV and its maximum peak value
+is located at =0 mV; 1Ca,K is an outward current; and ICa,Na
+is an inward current for V'ENa,N (70 mV). The reversal
+potential (Ecm) of the L-type channel is at V=+56 mV,
+where Ic
+is the "apparent"
+reversal potential3,45 and can be computed by using the
+formula derived by Campbell et al.45 One should note that
+the formula Ica=Gca d . f- fca- (V-Eca) represents the
+Ca2' current only in the range of V<35 mV, where 'Cat
+and 'Ca almost overlap. For V.35 mV, Ca,K is significant
+and lCa,t becomes an outward current for V.56 mV, where
+1Ca,K is the major component current through the L-type
+channel. For comparison, we computed the peak inward
+currents using the D-N model. The behavior of these
+currents is similar to that in the L-R model, except that
+the reversal potential (Ec =75 mV, instead of ECa=56 mV
+in the L-R model) is very different and is not consistent
+with the value predicted by the constant-field equation.45
+As stated above, the peak amplitude of ICa as a
+function of the clamp potential is bell-shaped. If a larger
+peak inward current implies increased Ca 2+ entry into
+the cell during the first 2 milliseconds after the onset of
+
+is zero. This value of Ec.
+
+(UM) SIMULATIONS
+
+(L-R)
+
+(gM)
+
+h-
+8)
+c.
+CU
+
+A
+
+x
+a)
+
+Q,
+0.
+C.)
+
+B
+
+X
+
+0.
+0
+
+CU
+
+1 -
+
+1.o0
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+-40 -20
+
+V (mV)
+
+[Ca]
+
+(peak))
+
+40
+
+20
+
+0
+V (mV)
+
+1.0
+
+0.8
+
+*0.6
+
+-0.4
+
+~
+
+0
+£x
+ci
+
+.-.d
+
+0.0
+
+80
+
+60
+
+Graphs showing the relation between peak intracellular
+FIG 5.
+Ca2+ transient and Ca2+ entry. The protocol was to clamp the
+membrane potential from -60 mV to various potentials for 100
+milliseconds and then back to the holding potential of -60 mV.
+As predicted by the kinetics of the Ca2+-induced Ca2+-release
+process, the peak intracellular Ca2+ transient is proportional to
+the cumulative Ca2
+entry 2 milliseconds from onset of stimulus
+in both the model simulations (A) and the experiments (B,
+Beuckelmann and Wier.42) L-R indicates the Luo and Rudy
+model; V, membrane potential. In panel B, [Ca]l (peak) and
+[Cal-entry are both normalized by their maximum values (the
+normalization causes an apparent crossover of the experimental
+curves).
+
+depolarization, the amount of Ca2+ released from the
+JSR will also increase on the basis of the kinetics of the
+CICR process. This, in turn, will cause an increase of
+the peak intracellular Ca2+ transient. In Fig 5, both the
+Ca2' entry during the first 2 milliseconds from the onset
+of stimulus and peak intracellular Ca2+ transient are
+shown to be bell-shaped (protocol is the same as that for
+obtaining the peak L-type currents above; see legend of
+Fig 5). Fig 5A shows the simulated results; Fig 5B shows
+the corresponding experimental data of Beuckelmann
+and Wier42 (their Fig 15A). The almost identical shape
+and near proportionality of the Ca2' entry curve and
+the peak intracellular Ca21 transient curve support the
+CICR hypothesis and proposed kinetics. The similarity
+of the Ca 2+ entry curve (Fig 5) and the peak ICa
+bell-shaped curve (not shown) supports the hypothesis
+that a larger peak inward current results in a larger Ca2+
+entry during the first 2 milliseconds. The similarity of
+the simulated curves (Fig SA) and the experimental
+curves (Fig SB) demonstrates that the kinetics of ICa and
+of the CICR process are represented accurately in our
+model.
+Tail transients of [Ca"],. A "tail transient" is a
+transient increase in [Ca 2+]i elicited by repolarization. It
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy I: A Model of the Ventricular Action Potential
+
+1079
+
+A
+
+(pA4F) (Repolarization)
+
+01
+
+Tail Transient and Peak 'Ca
+
+(pM)
+1.4
+
+-100.
+
+.m
+
+-200
+
+ICa
+
++8Omv
+
+-300-
+
+-400
+
+-0 mV
+
+-100
+
+-60
+
+-20
+
+V (mV)
+
+20
+
+1.2
+
+1.0
+
+0 8
+-0.6
+
+-0.4
+
+0.2
+
+0.0
+
+60
+
+B
+
+-
+
+Tail Transient and [Cal-entry
+(p
+LM)
+-1.4
+r
+
+(Repolanzation)
+
+(gM)
+51
+
+A([Cal
+
+[Ca]-entry
+
+4.
+
+3
+
+2
+
+4
+
+O .. .
+
+-100
+
+-60
+
+.., . . ..
+
+-20
+
+.
+20
+
+V (mV)
+
+-1.2
+
+1.0
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0.0
+
+60
+
+CD
+
+0.
+
+0
+
+Graphs showing the relation between peak L-type Ca2l
+FIG 6.
+current (ica), cumulative Ca2+ entry at 2 milliseconds ([Ca]-
+entry), and tail transient (A[Ca]j). The protocol (inset) is to clamp
+the membrane potential from -50 to +80 mV for 20 milliseconds
+and then back to various repolarizing potentials. A shows that
+the tail transient does not follow the monotonic increase of the
+peak inward current. However, B shows that A[Ca]i follows
+[Cal-entry, in agreement with the proposed kinetics of the
+Ca2+-induced Ca2+-release process. Currents shown are for 1
+,uF of membrane capacitance. V indicates membrane potential.
+
+is distinct from the intracellular Ca2+ transient during
+depolarization discussed in the preceding section. It is
+suggested that tail transients arise from SR Ca2+ release
+triggered by tails of the Ca2+ current.42 These tails occur
+when the driving force for Ca2+ influx is increased by
+repolarization and the Ca2+ conductance has not yet
+become deactivated. The dependence of tail transients
+on the repolarization voltage can be studied by using the
+protocol shown in the inset of Fig 6A and described in
+the legend. The tail transient is computed by subtracting
+the average [Ca2+i] during depolarization from the peak
+[Ca2+]i after onset of repolarization. Fig 6A shows the
+tail transient, A[Ca2+]i, and the peak tail Ca2+ current,
+'Ca, as a function of the repolarization voltage, V. Note
+that for repolarizing steps to membrane potentials more
+negative than -20 mV, the tail transient decreases
+while the (negative) magnitude of peak 'Ca increases.
+This behavior is in agreement with a similar experimen-
+tal observation42 that A[Ca2+]i is not related directly to
+peak IcL for all values of V. In contrast, Fig 6B shows
+that the simulated tail transient is proportional to the
+cumulative Ca2+ entry 2 milliseconds after the onset of
+repolarization for all values of V. This proportionality is
+consistent with the CICR process and was observed
+experimentally as well.42 The lack of proportionality
+
+between peak Ic and A[Ca2"i (Fig 6A) and the propor-
+tionality between A[Ca'4]i and Ca'4 entry (Fig 6B)
+imply that peak ICa and Ca'4 entry are not proportional
+for all values of V. The reason that a larger peak inward
+Ca'+ current does not always result in a larger Ca'4
+entry is the fast inactivation of 'Ca at potentials more
+negative than -20 mV. As the repolarization potential
+becomes more negative than -20 mV, the monotonic
+decrease of d. and rd causes an early inactivation of 'Ca
+so that in spite of the large peak inward lCa, the total
+Ca2' entry during the first 2 milliseconds is reduced.
+For instance, 'Ca for step repolarization to -90 mV
+attains a larger peak inward current (374 ,tA/,uF com-
+pared with 252 ,uA/,F) but inactivates much faster than
+ICa for step repolarization to -60 mV. As a result, the
+cumulative Ca'4 entry 2 milliseconds after the onset of
+repolarization is smaller for V= -90 mV ([Ca'2] en-
+try=3.96 ,umol/L) than for V=-60 mV ([Ca'2] en-
+try=4.2 ,umol/L).
+
+Slow recovery from inactivation. The issue of slow recov-
+ery from inactivation of Ica was first discussed in 1974,9°
+but its underlying mechanism is still not completely un-
+derstood. This is because the values of the time constant of
+slow recovery from inactivation (Trec) are widely scattered.
+At V= -50 mV, Isenberg and Klockner3 obtained irec=45
+milliseconds. Two time constants of recovery were ob-
+tained by Josephson et al,4 Trec(fast)= 122 milliseconds and
+'ree(slow)=433 milliseconds. Campbell et a149 obtained the
+relation reC=728 * exp(V/46.5) milliseconds, which differs
+from the data above. These inconsistencies complicate
+and limit the comparison between the simulation results
+and measured data.
+
+In the model, 'Ca inactivation is formulated as a
+function not only of membrane potential but also of
+[Ca'4]i. As a result, the recovery of Ica is affected by the
+level of the intracellular Ca'4 transient during repolar-
+ization. During repolarization, INaCa is activated to pump
+Ca'4 ions out of the cell; therefore, the time course of
+the intracellular Ca'4 transient is determined by the
+pumping capacity of INaCa. In the range of membrane
+potentials from -100 to -30 mV, the time constant of
+the inactivation f-gate in the model is <50 milliseconds,
+whereas the time it takes for [Ca'4]I to decrease from its
+peak value to its resting state value during repolariza-
+tion is much longer than 50 milliseconds. Therefore, the
+recovery from inactivation of 'Ca in the model is con-
+trolled mostly by the time course of [Ca'4]i and hence by
+the pumping capability of INaCa during repolarization.
+The conventional protocol used to obtain rrec is shown
+in the inset of Fig 7 and is described in the legend.
+Based on our simulations, the relation rre,=355 * exp(V/
+109.5) is obtained and plotted in Fig 7. Compared with
+the experimental data at V=-50 mV, we obtained
+rrecmodel=212.8 milliseconds, much slower than the 45
+milliseconds measured by Isenberg and Klockner3 and
+the 122 milliseconds (fast) measured by Josephson et
+al.4 However, it is close to the 272±+31.9 milliseconds
+measured by Campbell et a149 and smaller than the 433
+milliseconds (slow) measured by Josephson et al.4
+IK, the Time-Dependent K' Current
+
+As discussed in "Materials and Methods," IK in the
+phase-2 model was reformulated on the basis of the
+study of Matsuura et al,51 who found that IK X2 (rather
+than IK z X, as proposed by Beeler and Reuter2 and
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1080
+
+Circulation Research
+
+Vol 74, No 6 June 1994
+
+01
+
+1000-
+
+O mV
+
+O mV
+
+b
+
+v~~~~
+
+i
+
+- >
+
+.-E
+
+variable
+
+a)0
+
+0
+
+0
+m '
+ro
+OU
+C-
+E
+0
+UcD
+
+._
+
+Trec -355-exp(V/1 09.5)
+
+C)
+a)
+
+k.i
+
+0
+
+A
+
+~~~0
+
+100
+
+-110
+
+A A
+
+-90
+
+-50
+
+-70
+v (mV)
+
+-30
+
+-10
+
+Time constant of recovery from inactivation of L-type
+FIG 7.
+Ca2l
+current (iCa) as a function of membrane potential (V). The
+double-pulse recovery protocol is shown in the inset; for a fixed
+holding potential V (the membrane was held at this potential for
+1 minute to ensure steady state), the interval between two
+clamping pulses (0 mV in amplitude and 100 milliseconds in
+duration) was varied from 40 to 1000 milliseconds to measure
+the recovery of lCa The relation between the peak inward current
+measured at the second pulse and the interval between pulses
+fits a single exponential with a single time constant (rrec). By
+varying the holding potential, ire,
+is obtained from this (simulat-
+ed) protocol for different values of V (black dots). The relation
+rec'=355 exp(V/109.5) fits closely the dependence of 'rec on V
+(solid line, note logarithmic scale). * indicates simulation; A,
+experimental data of Campbell et al.49
+
+adopted in our phase-1 model). In the phase-1 model IK
+of Matsuura et al could not repolarize the membrane
+from plateau to resting potential at low [K+],. This
+situation is reexamined here, since other currents in the
+model, and in particular 'Ca, have been reformulated in
+the phase-2 model. We have simulated the action
+potential and the slow inward current (Isi) by using the
+phase-1 model (Isi is the same as in the B-R model) and
+the action potential and 'Ca using the phase-2 model.
+Both simulations are for low [K+]0=2 mmol/L. 'Si in the
+phase-1 simulation is still very large when the mem-
+brane potential repolarizes below -35 mV. This is
+inconsistent with the experimental findings73 and results
+from the incorrect kinetics of the activation d-gate in the
+B-R model, in which d, does not go to zero at potentials
+more negative than -35 mV. This significant nonzero
+inward current at V< -35 mV leads to an incorrect
+behavior.1 For IK of Matsuura et al, the value of the
+X-gate is very small at Vc-35 mV, and IK is even
+smaller because of its X2 dependence. Therefore, IK Of
+Matsuura et al fails to repolarize the membrane at this
+low [K'], (a condition that brings about a reduction in
+GK) because of the significant opposing inward 1,i at
+these potentials. In contrast, in the phase-2 model, 'Ca is
+zero for membrane potentials more negative than -35
+mV, and IK of Matsuura et al can adequately repolarize
+the membrane. Also, the simulated APDs for [K+]0=2
+mmol/L are 540 and 325 milliseconds in the phase-1 and
+phase-2 models, respectively. Under conditions of
+[K+]0=3.8 mmol/L and [Ca2`]0=3 mmol/L, Robinson et
+a191 obtained APD= 192±16 milliseconds in isolated
+canine ventricular cells. For the same conditions, the
+APD computed by the phase-2 model is 205 millisec-
+onds, very close to the measured APD. In contrast, the
+APD computed by the phase-1 model is unrealistically
+long (410 milliseconds) because of the unrealistically
+large contribution of 1,i at Vc-35 mV in this model.
+
+Fig 8 depicts current-voltage curves of the fully
+
+50
+
+0
+
+W.
+.i.L
+1
+.e
+
+I_
+
+[M
+
+K5O
+5>
+1
+
+50
+
+150
+
+-50
+
+-1 00
+
+-50
+
+0
+
+50
+
+V (mV)
+
+Current-voltage curves of the fully activated K' current
+FIG 8.
+(denoted IK in the figure) for [K+]0=5.4, 50, and 150 mmol/L.
+Note significant crossover between curves of different values of
+[K+], and weak inward rectification. V indicates membrane
+potential. Currents shown in the figure are for 1 l.F of membrane
+capacitance.
+
+activated IK (IK=IK/X2) for [K+]0=5.4, 50, and 150
+mmol/L. The currents are simulated using the lK formu-
+lation adopted in the present (phase-2) model, ie, IKXX2
+as suggested by Matsuura et a151 (see Appendix 1). As a
+result, significant crossover between current-voltage
+curves at different values of [K'], is observed. This is
+different from the minimal crossover observed in the
+phase-1 model (Fig 11 of Luo and Rudyi). Also, the
+degree of inward rectification of the inactivation IK
+Xi-gate of Matsuura et al is ;4.8 times smaller than that
+of the B-R model IK, resulting in a fully activated
+outward IK (IK, Matsuura et al), which is much larger
+than the B-R IK at positive potentials, enhancing its
+ability to repolarize the membrane at this potential
+range.
+I,s(ca), the Nonspecific Ca2'-Activated Current
+
+This current is equally permeable to K' and Na+ and,
+therefore, is the sum of these two currents (ie,
+Ins(Ca)=lnsK+Ins,Na). In our model (simulation results are
+not shown), Ins,K displays outward rectification, whereas
+Ins,Na displays inward rectification. 1ns(ca), the sum of
+these two currents, appears as a linear leakage current
+with a reversal potential of ~0 mV, as measured by
+Ehara et al.71 Under normal conditions (no Ca> over-
+load, PnS(Ca)=l.75xl0-7, and [Ca2],i=0.12 ,mol/L), the
+maximum Ins(Ca)
+is <0.008 ,uA/,uF over the range of
+membrane potential from -100 to +100 mV (a negli-
+gible contribution). This current becomes significant,
+however, under conditions of Ca' overload.73 In the
+model, for [Ca2+]i=0.4 ,mol/L, 1ns(ca) reaches an ampli-
+tude of 4.4 ,uA/,uF.
+The value of the maximum conductance, Gns(Ca),
+estimated by Ehara et al,71 is in the wide range of 7.2 to
+72 nanosiemens for the total cell membrane, which is
+equivalent to specific conductance in the range of 0.036
+to 0.36 millisiemen/,uF. To decide on a specific value of
+Gns(Ca) within this range, we plotted the simulated action
+potential and compared it with the experimental results
+of Doerr et a173 (their Fig 5). When 1,s(ca) is activated, an
+additional outward current is present at plateau poten-
+tials, and an additional inward current is present during
+the repolarization phase. As a result, plateau potentials
+are decreased, and the rate of repolarization is also
+decreased, resulting in a prolongation of the APD. With
+GnS(Ca)=0.072 millisiemen/,uF (or P,S(ca1)=1 .75x10-7 cm!
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy I: A Model of the Ventricular Action Potential
+
+1081
+
+ksat = 0.25, Ti = 0.35
+
+ww§w*¢
+
+V (mV)
+
+-40
+
+kg.t = 0.25, Ti = 0.35
+
+-80
+
+0
+
+40
+
+[Na] = 50 mM, [K]. = 5.4 mM
+
+6z
+
+V (mV)
+
+Graph showing the effects of changes in [Na+], on the
+FIG 9.
+voltage dependence of the Na+-K+ pump (INa4 INaK depends
+strongly on membrane potential (V) for high [Na+]0. The depen-
+dence is decreased as [Na+], decreases. Also, for V20 mV, the
+dependence of 'NaK on membrane potential saturates regardless
+of the value of [Na+]0. These curves duplicate the experimental
+findings by Nakao and Gadsby.62 Currents shown in the figures
+are for 1 ,uF of membrane capacitance.
+
+s), the simulated behavior shown in Fig 13 duplicates
+accurately the experimental behavior obtained by Doerr
+et a173 (their Fig 5). As stated above, for this value of
+Pns(ca), the contribution of 1ns(Ca) is practically negligible.
+INaK, the Na+-K+ Pump
+
+The amplitude of INaK is a function of [Na+]i, [K+]10
+[Na+],, and the membrane potential.25'62 The depen-
+dence of INaK on [Na+]i and [K+], is formulated by Hill
+equations, as depicted in Appendix 1. The dependence
+of INaK on the membrane potential is a function of
+[Na+I0. This property is simulated in Fig 9, which
+duplicates correctly the experimental findings of Nakao
+and Gadsby62 (their Fig 3). For the normal concentra-
+tion of [Na+1I=140 mmol/L, INaK depends strongly on
+the membrane potential, whereas at low values of
+[Na+]1 the dependence is decreased. At all values of
+[Na+],, INaK saturates for membrane potential >0 mV.
+INaC, the Na+-Ca2' Exchanger
+Fig 1OA simulates the voltage dependence of INaCa for
+three different values of [Na+]1 in a [Na+]i-free prepa-
+ration, a situation that turns off the Ca2+-influx mode of
+INaCa. Under these conditions, INaCa becomes an inward
+current (Ca 2+ efflux and Na+ influx with a stoichiometry
+of 1: 3). The simulations (solid marks) duplicate well the
+experimental measurements (open marks) by Kimura et
+a153 (their Fig 8B). In Fig lOB, three additional simula-
+tions (solid marks) are shown to duplicate the experi-
+ments (open marks) by Kimura et a153 (their Fig 9A)
+and by Beuckelmann and Wier92 (B-W) (their Fig 6B).
+These include the voltage dependence of INaCa as a
+function of [Ca 2+]o and [Ca 2+]i. INaCa(V) is shown for
+[Ca2+]0=1 mmol/L and [Ca2+]0=4 mmol/L in a prepa-
+ration of [Na+]0=140 mmol/L, [Na+]i=10 mmol/L, and
+[Ca2+]i=0.172 ,umol/L (Fig 9A of Kimura et al53). The
+B-W curve is for [Ca2']0=2 mmol/L, [Ca2`]i=0.45
+,mol/L, [Na+]0=135 mmol/L, and [Na+]i=15 mmol/L.
+Note that the dependence of INaCa on [Ca2+]0 is dupli-
+cated well as [Ca2+]0 is changed from 1 to 4 mmol/L. A
+change in both [Ca2+]0 (from 1 and 4 mmol/L to 2
+mmol/L in the B-W curve) and [Ca2+]i (from 0.172
+,umol/L in the [Ca2+]0=1 and 4 mmol/L curves to 0.45
+
+A
+
+0-
+
+0.
+0
+z
+
+-200-
+
+-400.
+
+-600
+
+c
+
+-800 -
+-1 20
+
+B
+
+0.
+
+6
+
+z
+
+600-
+
+400-
+
+200
+
+01
+
+-200
+
+[Ca]o = 4 mM
+
+[Ca]0 = 1 mM
+
+-20
+-60
+V (mV)
+
+B-W
+
+20
+
+60
+
+-400
+
+-140
+
+-1 00
+
+Graphs showing voltage dependence of the Na+-Ca2+
+FIG 10.
+exchange current (INaCa) for different values of [Na+]k (A) and for
+different values of [Ca2+] and [Ca2+], (B). Solid symbols are
+simulated values; open symbols are experimental values. Note
+that the measured53 (Fig 8) dependence of 'NaCa on [Na+1h is
+simulated correctly by the model (A); the conditions are as
+[Na+]j free, [Ca2+]-= 1 mmol/L, and [Ca2+]j=0.43
+follows:
+,mol/L. B demonstrates that the model correctly simulates the
+voltage dependence of 'NaCa for different values of [Ca2+]0 and
+[Ca2+1]. Note that the experimentally observed property of
+saturation at very negative potentials is well simulated by the
+model, except for a deviation for [Ca2+]0= 1 mmol/L. The curves
+of [Ca2+]0= 1 mmol/L (triangles) and [Ca2+1b=4 mmol/L
+(squares) correspond to Fig 9A of Kimura et al.53 The B-W curves
+(circles) are for [Ca2+]0=2 mmol/L and correspond to Fig 6B of
+Beuckelmann and Wier.92 Conditions for the simulation in panel
+B are described in the text. kg, indicates the saturation factor of
+INaCa at very negative potentials; qi, position of the energy barrier
+controlling voltage dependence of INaCa; and V, membrane
+potential. Currents shown in the figures are for 0.49 1F of
+membrane in panel A, 0.62 gF of membrane for [Ca2%]0=1
+mmol/L and [Ca2%]=4 mmol/L in panel B, and 0.08 ,uF of
+membrane for the B-W curve in panel B. These different mem-
+brane areas result from the different cells that were used in the
+experiments.
+
+gmol/L in the B-W curve) is also duplicated well by the
+simulation. Note that the saturation characteristics of
+INaCa(V) at very negative potentials are simulated well,
+except for the curve of [Ca'2],=1 mmol/L. This is
+because INaCa measured by Kimura et a153 at [Ca+o 1
+mmol/L increases slightly at very negative potentials,
+probably because of contamination by other currents in
+this potential range. It should be mentioned that
+k,at0=.25 and 71=0.35 provide the best fit for these
+simulations. However, to reconstruct the action poten-
+tial, k,at=0.1 is used. This is because for the large value
+(ksat=0.25), the Ca2+-efflux mode of INaCa is depressed,
+and Ca 2+ ions enter the cell through the exchanger. This
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1082
+
+Circulation Research
+
+Vol 74, No 6 June 1994
+
+46 -
+
+0
+
+>
+E
+
+-86 -
+
+A P
+
+iat
+Norm
+
+-
+
+\
+
+Enlarged
+
+0
+
+(msec)
+
+100
+
+0.9
+0.
+
+Enlarged
+
+Normailt
+
+Mi
+
+I ~NaCa
+
+*
+
+-1 7-
+
+..
+
+0 (msec) 50
+
+..
+
+100
+
+..
+
+150
+
+..
+
+250
+
+200
+
+Tracings showing the effects of an augmented Nal-
+FIG 11.
+Ca2+ exchange current (INaCa) on the action potential (AP). Two
+APs are superimposed: one is for normal INaCa (normal condi-
+tions); the other is for conditions in which INaCa is doubled. The
+only effect of the increase in INaCa during the late repolarization
+phase is to prolong the AP duration. The action potential plateau
+remains unchanged. Currents shown are for 1 ,iF of membrane
+capacitance.
+
+contradicts the physiological role of INaCa, which is to
+extrude Ca2` ions out of the cell. Therefore, k,at=0.1 is
+used throughout the simulations below. In Fig 11, a
+simulated action potential is shown (top) for two differ-
+ent strengths of INaCa, normal and twice the normal
+amplitude (bottom). The only effect of the increase in
+INaCa is to prolong the APD without affecting its plateau
+potentials. This behavior is consistent with the experi-
+mental findings of Doerr et al73 (their Fig 4).
+Iv, the Total Time-Independent Current
+
+This current replaces the IK1(T) current in the phase-1
+model1 and is the sum of all the time-independent
+currents, including INaK, lp(Ca)y IK1, IKp, 1Ca,b, INa,by and
+Ins(Ca) (if activated). In Fig 12A, Iv and its components
+are shown for the range of membrane potentials from
+-100 to +50 mV. Note the major contribution of IKI (at
+V<0 mV) and IKp (at V>0 mV) to Iv. In Fig 12B,
+current-voltage curves of Iv are shown for four different
+values of [K'],. Similar to IK1(T) of the phase-1 model1
+(their Fig 3) and the experimental findings of Sakmann
+and Trube52 (their Fig 4A), Iv is characterized by a
+phase of negative slope and a large degree of crossover
+between the curves for different values of [K+],.
+Ionic Currents and Concentration Changes During
+the Action Potential
+
+In the action potential simulations, Grel of the JSR is
+set to 60 mmol/L per millisecond, which is higher than
+18 mmol/L per millisecond used in the square-pulse
+voltage-clamp simulations that were described in the
+previous sections. This is because the value of peak 'Ca
+in the action potential simulations is -6.27 ,uA/,F (Fig
+13 below), much lower than the maximum peak 'Ca of
+-32 ,uA/,uF in the square-pulse voltage-clamp simula-
+tions. This behavior is in agreement with the experimen-
+tal findings of Doerr et al,73 who used action potential
+clamp instead of square-pulse voltage clamp to study
+the current density of lCa. Doerr et al found that the
+
+-0--0-IV
+IKI
+*
+IKp
+*
+-s---.NaK
+I(C;
+
+-m
+
+-
+
+V (mV)
+
+(WAF)
+
+A
+0)
+c
+
+0C)
+U)
+0
+
+_0.10~0CL
+
+a)
+E
+
+B
+
+-1 00
+
+-50
+
+50
+
+V (mV)
+
+Graphs showing characteristics of the total time-inde-
+FIG 12.
+pendent current (Iv). A shows the various components of lv. (See
+Appendix 2 for definitions of currents.) Note the major contribu-
+tion of IK1 for V<O and of IKP for V>O. lv displays a phase of
+negative slope due to a similar property of 1K1 B shows a
+significant crossover between the current-voltage curves of lv in
+response to changes in [K]0. Currents shown are for 1 gF of
+membrane capacitance.
+
+peak current density in their action potential clamp
+measurements was much lower than the value measured
+by the square-pulse voltage clamp used by Isenberg and
+Klockner3 or by other groups.468893 Therefore, in the
+action potential simulations, to obtain a peak intracel-
+lular Ca' transient of 1.0 ,umol/L (Fig 5A) with a low
+peak Ica, Gre had to be increased from 18 to 60 mmol/L
+per millisecond. This adjustment is consistent with the
+experimental results of Beuckelmann and Wier,42 who
+found that the peak intracellular Ca2' transient mea-
+sured by the action potential clamp could reach the
+same peak value (or even a higher value) than that
+measured by the square-pulse voltage clamp. This may
+be because the physiological state of the cell is modified
+when the square-pulse voltage clamp is applied, affect-
+ing the sensitivity of the JSR release channel to changes
+in [Ca2J11.94
+Figs 13 through 19 depict the simulated time course
+of the major electrophysiological processes during an
+action potential. Once the cell is excited by a supra-
+threshold stimulus, INa depolarizes the membrane with
+a maximum rate (Vma) of 388 V/s to the overshoot
+potential of 46.5 mV (see Fig 13) and inactivates
+immediately. Subsequently, ICa is activated to support
+the action potential plateau95 against the repolarizing
+currents Iv and IK. 'Ca reaches its peak value of -6.27
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+47-
+
+E
+-86
+0
+B 'J:
+-380
+0
+
+c
+
+-6.3
+2
+D
+-0.2
+3.5
+
+0.2
+0.6_9
+
+A P
+
+INa
+
+ICa
+
+I~~~~K
+
+Lv
+
+INaCa
+
+r(msec)6o
+
+120
+
+180
+
+240 300
+
+Tracings showing major ionic currents that determine the
+FIG 13.
+shape of the action potential (AP). The fast kinetics and large
+amplitude of the fast Na+ current (INa, B) result in the upstroke of
+the AP (A). The L-type Ca2+ current (lc, C) is also activated
+quickly to support the action potential plateau against the repo-
+larizing K+ current (IK, D) and the total time-independent current
+(1v, E). Finally, the large increase of IK and the late peak of lv during
+its negative slope phase repolarize the membrane to the resting
+potential. During the late repolarization and early postrepolariza-
+tion phases, the NaW-Ca2+ exchange current (INaCa, F) is activated
+to extrude Ca2+ ions out of the cell and contributes an additional
+component of inward current. Currents shown are for 1 ,uF of
+membrane capacitance.
+
+,A/,F in 3.23 milliseconds after the onset of stimu-
+lation, whereas INa reaches its (much larger) peak
+value of -380 ,uA/,uF in 1 millisecond, a time when Ic
+is still very small (-0.97 ,uA/,F). Therefore, the early
+peak of 'Ca contributes very little to the rising phase of
+the action potential. However, the early peak of 'Ca
+determines the cumulative Ca2+ entry 2 milliseconds
+after the onset of Vma, and, in turn, the release of Ca2+
+from the JSR and the resulting intracellular Ca2+
+transient (see below). Finally, the large increase of the
+delayed IK together with Iv that operates at its negative
+slope range (peak Iv at -180 milliseconds, Fig 13)
+repolarizes the membrane to the resting potential. In
+the last panel of Fig 13, INaCa has almost zero contri-
+bution during most of the action potential plateau but
+is activated during the late plateau and repolarization
+phases to extrude Ca2, ions out of the cell.76 Note that
+at the late repolarization phase, 'Ca is inactivated, but
+INaCa is activated and slows down the rate of membrane
+repolarization.73 The APD is -180 milliseconds in the
+measurement range of 207±31 milliseconds96 and
+close to the value of 184.6 milliseconds estimated from
+the experimental results of Doerr et al.73 Other quan-
+titative measures of the simulated action potential
+morphology are also consistent with experiments. An
+average rate of potential change during the plateau is
+0.2 V/s (0.3 V/s was estimated from Doerr et al), and
+during phase-III repolarization, it is 2 V/s (2 V/s was
+estimated from Doerr et al).
+
+Luo and Rudy I: A Model of the Ventricular Action Potential
+
+1083
+
+1.8
+
+A E
+0.2
+69
+
+B (%)
+
+0.1
+67
+
+[LJSR
+
+occuied buffer in JSR
+
+(CSQN)
+
+[Calj
+
+(TRPN)
+
+D (%)
+
+occupiedbuffer
+19-in myoplasm
+
+D (%)19
+
+29
+
+E
+
+F
+
+4.8
+2
+3
+
+1.7
+
+(CMDN)
+
+occupied
+
+in myoplasm
+
+.....
+
+0()60 120
+
+.....
+
+[CaNSR
+
+180
+
+240 300
+
+Tracings showing [Ca2+] changes in the myoplasm and
+FIG 14.
+in the sarcoplasmic reticulum (SR) during an action potential.
+Once it is triggered (at 2 milliseconds), the junctional SR (JSR)
+releases almost all of its free Ca2l contents (A) and most of the
+buffered Ca2+ (calsequestrin [CSQN], B) into the myoplasm. Of
+the released Ca2+ ions, 97.8% are buffered by troponin (TRPN)
+and calmodulin (CMDN) in the myoplasm (D and E, respective-
+ly), resulting in a peak free [Ca2+1] of only 1 ,umol/L (C). The
+released Ca2+ ions reenter the network SR (NSR, F) and
+translocate into JSR. For CSQN, 100% corresponds to buffering
+of 10 mmol/L of [Ca2+]JSR; for TRPN, 100% corresponds to
+buffering of 70 ,umol/L of [Ca2+J1; and for CMDN, 100% corre-
+sponds to buffering of 50 1mol/L of [Ca2+],.
+
+Figs 14 and 15 describe the processes that regulate
+[Ca2+] in the cell. In Fig 14, cumulative Ca2' entry of
+0.375 ,lmol/L 2 milliseconds from the onset of Vm.,
+results in an increase of [Ca2+]i from 0.12 ,umol/L to
+only 0.1235 ,mol/L, which is small due to the buffering
+of Ca2' in the myoplasm. The Ca2+ entry triggers the
+release of Ca21 ions from the JSR into the myoplasm
+(Fig 14A and 14B) following the kinetics of the CICR
+process. The total amount of Ca2+ ions released is 6.37
+mmol/L (based on the small volume of the JSR), which
+is equivalent to 45 ,umol/L in the large volume of the
+myoplasm. The value of 6.37 mmol/L released by the
+JSR is made up of 1.53 mmol/L of free Ca2' and 4.84
+mmol/L of Ca2+ buffered by CSQN, demonstrating the
+importance of buffering in the JSR to increase its Ca2+
+storage capacity. Because of the large capacity buffers
+in the myoplasm, 97.8% of the released Ca2+ ions are
+buffered (71.7% by troponin and 26.1% by calmodulin),
+resulting in a peak intracellular Ca2' transient of 1
+gmol/L (Fig 14C). These simulated results demonstrate
+the importance of the myoplasm buffers in maintaining
+the low level of [Ca2+]j. Throughout the action poten-
+tial, Ca21 ions enter the NSR by the uptake process,
+increasing [Ca2,] in the NSR from 1.73 to 1.92 mmol/L
+(Fig 14F). Fig 15 depicts the movement of Ca2+ ions
+inside the cell. As indicated in Fig 15B, the Ca21 ions
+are released from the JSR into the myoplasm as a spike
+with a peak rate of 3 mmol/L per millisecond and then
+reenter the NSR (Fig 15C) with a maximum uptake rate
+of 2.6 gmol/L per millisecond, which is much greater
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1084
+
+Circulation Research
+
+Vol 74, No 6 June 1994
+
+A
+
+3r
+
+3 -
+
+B
+
+A[Cal
+
+Ie'rel
+
+JSR
+
+Myoplasm
+
+C
+
+up
+
+3
+i
+0.6 NSR *- Myoplasm
+0.6s-
+DE
+0.57
+
+/
+NSR - Myoplasm
+
+'leak
+
+E
+E S NSR - JSR
+
+Itr
+
+o(msec)60
+
+120
+
+180
+
+240 300
+
+Tracings showing Ca2+ fluxes during an action poten-
+FIG 15.
+tial. Once the junctional sarcoplasmic reticulum (JSR) is trig-
+gered, Ca21 ions are released following impulselike kinetics with
+a maximum rate of aa3 mmol/L per millisecond (Ire,, B). Then, the
+Ca2+ ions reenter the network sarcoplasmic reticulum (NSR)
+C).
+with a slow uptake rate of =3 ,umol/L per millisecond (lup
+There is also a small leakage of Ca2+ from the NSR to the
+myoplasm at a rate of 0.64 ,umol/L per millisecond (l1eak, D). The
+translocation of Ca2+ from the NSR to the JSR is at a rate of 9
+,mol/L per millisecond relative to the JSR volume (Itr, E). A
+shows the [Ca2+1] transient during the action potential.
+
+than the maximum leakage rate (Fig 15D) of 0.64
+,umol/L per millisecond, resulting in a net loading of
+Ca2' ions into the NSR as shown in Fig 14F. Finally, the
+Ca' ions that loaded the NSR are translocated into the
+JSR with a rate of 0.86 ,.mol/L per millisecond (Fig
+15E); therefore, the Ca'2 content of the JSR increases,
+as shown in Fig 14A and 14B.
+
+Fig 16 shows the gating processes of the L-type Ca'
+channel during an action potential. The d-gate is fully
+activated at the onset of the action potential upstroke,
+bringing ICa to its early peak value of -6.27 ,uA/,F.
+Then, the increase of [Ca +]i inactivates 'Ca through the
+Ca2'-dependent inactivation processes (fCa) from its
+-3.3 ,uA/,uF. During the plateau (from
+peak value to
+10 to 160 milliseconds), ICa is determined by the increase
+in the fca-gate (reflecting a decrease in [Ca]2+]) and a
+decrease in the f-gate. Finally, during the late repolar-
+ization phase, the d-gate is inactivated very early to
+close the L-type Ca' channel during this phase. In Fig
+17, the ionic currents through the L-type channel are
+shown. The peak inward current of ICat (-3.74 ,A/,uF)
+is smaller than that of 'Ca (-6.27 gA/tF) because of the
+outward K+ current, 1CaK, whose peak value is 3.87
+,uA/,F. By using the action potential clamp technique,
+Doerr et a173 found that the ratio of peak to plateau
+Ca>2 current is 1.39±0.5. In the model, this ratio for ICat
+is 1.28, in the range of the measurements. (Note that ICa,t
+is the current measured in the experiments.) There
+exists a notch in lCa and ICa,t (arrows). This is due to the
+simulated spikelike release of Ca> from the JSR,
+resulting in an extremely fast inactivation of ICa, In the
+
+0
+
+A t 0--
+
+[Ca
+
+-6.3
+
+Bd
+
+0
+
+D
+
+0.3
+
+0(msec)60
+
+120
+
+180
+
+240 300
+
+Tracings showing the gating processes of the L-type
+FIG 16.
+Ca21 channel. Once the cell is excited, activation parameter d is
+activated quickly (B) to bring the Ca2+ current (iCa) to its peak
+value of -6.27 1VA/F within 2 milliseconds (A). The increase of
+[Ca2+]j decreases the lCa via the Ca2+-dependent inactivation
+process (fca-gate, D). The slow increase of the fca-gate (D) and
+the slow decrease of the inactivation gate (f-gate, C) determine
+the plateau 'Ca. Finally, d is inactivated at the late repolarization
+phase to close the L-type Ca2+ channel. Current shown in panel
+A is for 1 gF of membrane capacitance.
+
+experimental study, a more graded release of Ca2+ from
+the JSR and dispersion of the intracellular Ca2+ tran-
+sient in the cell cause a much smoother inactivation
+process, eliminating this notch (compare panels A and
+B of Fig 4).
+
+In Fig 18, six ionic currents that contribute to the
+total time-independent current, Iv, are shown. Clearly,
+IK1 and lKp are the major components of Iv, as described
+
+0
+
+A
+
+-3.8
+
+B =L
+-6.3C
+3.19-
+
+c 3t Llk
+
+0
+
+Ca,t
+
+Ca,K
+
+-1.4 -
+
+o(rsec)60
+
+D
+
+*
+120
+
+-
+
+-
+180
+
+iCa,Na
+- *w
+240 300
+
+Tracings showing ionic currents through the L-type
+FIG 17.
+Ca2+ channel. The total current (iCa,t) through this channel is
+shown (A). The Ca2+ current (ica, B) and Na+ current (ICa,Na, D)
+are inward currents. The K+ current (ICa,K, C) is an outward
+current, resulting in a peak value of lCa,t that is smaller than that
+of lca The arrows in panels A and B indicate a notch in 1Ca,t and
+'Ca respectively (see text). Currents shown in the figures are for
+1 gF of membrane capacitance.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy I: A Model of the Ventricular Action Potential
+
+1085
+
+A
+
+B
+
+c
+
+E
+
+3.5
+
+0.2
+3.3IK
+
+0
+2.5
+
+0
+0.53
+
+0.3
+0.8
+
+0.2
+0
+
+F
+
+-0.2
+- 0.2
+G ~
+-0.7
+
+I
+
+'KI
+
+K
+
+'NaK
+
+p(a
+ip(Ca)
+
+Na,b
+
+Ca,b
+
+0(nmc)60 120
+
+180
+
+240 300
+
+Tracings showing the total time-independent current
+FIG 18.
+(Iv) and its components during the action potential. Iv (A) is
+mostly composed of the time-independent K' current (IK1, B)
+and the plateau K' current (1KP, C); note that each of these
+currents contributes during a different phase of the action
+potential. The Na+-K+ pump (INaK, D) increases during depolar-
+ization and pumps Na+ ions out of the cell throughout the
+plateau. The Ca2+ pump in the sarcolemma (1p(Ca), E) extrudes
+Ca2+ ions from the cell throughout the action potential (in
+contrast, INaCa [Fig 19] operates to extrude Ca2+ mostly during
+the late repolarization and early postrepolarization phases).
+During the action potential plateau, the Nal background leakage
+current (INab, F) and the Ca21 background leakage current (lc,b,
+G) decrease monotonically because of the decrease of the
+driving force. Currents shown in the figures are for 1 ,uF of
+membrane capacitance.
+
+in the phase-1 model. During the action potential
+plateau, INaK (Fig 18D) increases because of the increase
+of the membrane potential and extrudes Na+ ions that
+entered the cell during the upstroke of the action
+potential. Ip(Ca) (Fig 18E) helps INaCa to extrude Ca2' ions
+out of the cell. The Na+ leakage INa,b and Ca2` leakage
+ICa,b (Fig 18F and 18G) both decrease during the action
+potential plateau because of the decrease of the driving
+force. In Fig 19, we demonstrate the effect of INaCa on
+the peak intracellular Ca2+ transient by clamping INaCa to
+zero when INaCa>0 (the results under this condition are
+marked by asterisks in the figure). As a result, the
+cumulative Ca2' entry 2 milliseconds from the onset of
+Vmax decreases from 0.375 to 0.3 gmol/L, and the peak
+intracellular Ca2+ transient also decreases from 1.0 to
+0.75 ,umol/L. Because the smaller peak intracellular
+Ca2+ transient implies a reduced level of Ca2+-depen-
+dent inactivation, 'Ca is relatively larger, and the plateau
+potential is more positive.
+
+Discussion
+
+The goal of the present study was to construct a
+model of the membrane action potential of the mam-
+malian ventricular cell that was based on, whenever
+possible, recent experimental studies in single-cell and
+single-channel preparations and in other preparations
+such as SR vesicles. Individual processes (eg, ionic
+
+46
+
+0-
+A -:
+E
+
+-86
+1.0
+
+0.1 -
+0.6 -
+
+0-
+c -1.
+
+-1.2-
+
+A P
+
+0 (msec) 60
+
+120
+
+180
+
+240
+
+300
+
+Tracings showing the contribution of the Na+-Ca2+
+FIG 19.
+exchange current (INaCa) to the peak intracellular Ca2+ transient.
+The fact that INaCa (C) is positive during the depolarization phase
+implies influx of Ca2+ ions. This is in addition to the influx of Ca2+
+through the L-type Ca2+ current (Ica). The resulting larger [Ca2+]
+entry triggers a larger Ca2+ release by the junctional sarcoplas-
+mic reticulum and a greater peak intracellular Ca2+ transient (B).
+The larger [Ca2+J1 causes greater inactivation of lCa and some-
+what decreased plateau action potentials (AP, A). Solid curves
+indicate the normal operation of INaCa For the starred curves, all
+positive values of INaCa are set to zero, so INaCa does not contribute
+to the Ca2+ influx. Currents shown in panel C are for 1 ,uF of
+membrane capacitance.
+
+currents) are formulated quantitatively on the basis of
+experimental data and measured parameter values. The
+objective was to integrate these components into a
+model of the cell that could be used to demonstrate
+possible interactions between these components and to
+simulate the resulting qualitative cellular behavior. In
+the first phase of this work,1 we reformulated five
+membrane ionic currents: INa (fast Na+ inward current),
+IK (time-dependent K+ current), 'K1 (time-independent
+K+ current), 'Kp (plateau K+ current), and lb (back-
+ground current). The phase-1 model retained the slow
+inward current (I1i) of the B-R model and was used to
+investigate physiological phenomena dominated by the
+Na+ and K' currents listed above. These included
+effects of changes in [K+]o on the action potential and
+the response of the cell to stimulation and pacing during
+the late repolarization and early postrepolarization
+phases of the action potential. The phase-1 model
+included only ionic currents through gated channels in
+the sarcolemma. A major limitation of this model was its
+inability to simulate dynamic changes in ionic concen-
+trations during the action potential. The major thrust of
+the work presented here (the phase-2 model) was to
+incorporate such dynamic changes in the model. To do
+so, we reformulated the Ca 2+ current through the
+sarcolemma to be consistent with the most recent
+experimental findings. We also incorporated currents
+that are carried across the sarcolemma by processes
+other than gated ionic channels, ie, pumps and exchang-
+ers. Intracellular processes that dynamically regulate
+[Ca 2+]i were also incorporated in the model. These
+include Ca2+ uptake and release by the SR and buffer-
+ing of Ca2+ in the myoplasm and in the SR. It should be
+commented that the phase-2 model responded correctly
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1086
+
+Circulation Research
+
+Vol 74, No 6 June 1994
+
+to all the physiological phenomena investigated by the
+phase-1 model.
+
+In 1985, DiFrancesco and Noble9 developed a dy-
+namic model of the Purkinje action potential, which
+included many of the processes that were incorporated
+in the ventricular model presented here. The formula-
+tion of the D-N model was limited by the experimental
+data from single-cell and single-channel studies that
+were available at the time. Therefore, important prop-
+erties of the ionic currents and other processes were not
+incorporated in the D-N model. This was discussed
+briefly in our previous study.' Differences between the
+D-N Purkinje model and the ventricular model pre-
+sented here are explored further in the following dis-
+cussion. In 1990, Rasmusson et al10 published an action
+potential model for the frog atrial cell. This model is
+very different from the ventricular model presented
+here in that it does not include a representation of the
+SR and its role in the dynamics of intracellular Ca`.
+This is because Ca> fluxes into or out of the SR are
+known to be very small in frog atrial cells under normal
+conditions, and sufficient increase in [Ca>], to cause
+contraction can be obtained through 'Ca alone. A de-
+tailed discussion of the various components of the
+phase-2 model developed in the present study and of
+their ability to simulate physiological phenomena is
+provided below.
+lCa, the Ca` Current Through the L-Type
+Ca` Channel
+
+In the model, only the L-type (long-lasting) Ca>
+channel was included. Another type of Ca2+ channel
+exists in cardiac cells and is named the T-type channel
+(ICaT) to emphasize its transient properties.97 1Ca,T could
+be clearly identified, but there was only rather weak
+evidence that this channel might be involved in the
+regulation of rhythmic activity.98 Therefore, it was not
+incorporated in our model. Compared with the kinetics
+measured in tissue preparations, the kinetics of the
+L-type channel measured in single-cell preparations
+exhibit the following properties: (1) The activation is an
+order of magnitude faster (the maximum time constant
+is only 1 or 2 milliseconds as compared with =40
+milliseconds in the B-R model2). (2) The maximum
+conductance is an order of magnitude larger (0.09
+millisiemens in the B-R model but 0.9 millisiemens in
+our model). (3) Reversal potential and permeability
+ratios between different ions are much better defined.
+(4) Inactivation depends not only on the membrane
+potential but also on [Ca2+]i. All of these properties are
+incorporated in the model developed here. The first
+three observations were made consistently in many
+experiments in the 1980s; however, the last issue regard-
+ing the kinetics of channel inactivation is still controver-
+sial since the experimental data are not consistent, as
+demonstrated in Fig 2. In particular, different charac-
+teristics of the voltage-dependent inactivation f-gate
+were measured in different experiments. We formulated
+all of these different behaviors (Appendix 3) and used
+the equations to simulate recent experiments that were
+conducted in single ventricular cells under normal phys-
+iological conditions. The simulations identified a par-
+tial-U-shaped f. and a U-shaped rf10 as the best choice
+that correctly duplicates the experimental behavior.
+This procedure is an example that shows how the model
+
+can be used as a tool for critical evaluation of the
+conflicting experimental data.
+Ca>` Fluxes in the SR
+
+Fabiato30-32 suggested functional compartmentation
+of SR into NSR and JSR but not structural compart-
+mentation. However, in recent experiments, both func-
+tional and structural compartmentation of SR could be
+observed on the basis of these findings: (1) The Ca>2
+loading rate of the JSR is negligible compared with that
+of the NSR.27 (2) The loading rate of the JSR is
+insensitive to ryanodine and ruthenium red, whereas
+the loading rate of NSR is sensitive to these drugs.29 (3)
+The Ca>2 buffer CSQN exists only in the JSR, not in the
+NSR; therefore, the density of Ca>2 in the JSR is much
+higher than that in the NSR.28 (4) By use of SR-stained
+electron micrographs, JSR and NSR can be structurally
+distinguished but appear contiguous.23'24 In our model,
+SR is compartmentalized both functionally and struc-
+turally. NSR, occupying 92% of SR volume, is respon-
+sible for Ca> uptake, whereas JSR, occupying 8% of
+SR volume, is responsible for Ca>2 release. For model-
+ing the release channel of the JSR, we adopt a simple
+time-dependent process described by an exponential
+rise and fall.78,79 A release model based on the Hodgkin-
+Huxley type formalism, presented by Wong et al,99 is not
+adopted. This is because (1) its kinetics, obtained from
+skinned cell preparations, is 100 times slower than that
+in intact cardiac cells,42,79 (2) it does not simulate [Ca2+]i
+wave propagation even when its kinetics is made faster
+by a factor of 100,80 and (3) only functional compart-
+mentation of SR is assumed in their model, and the
+entire SR, as a single compartment, is responsible for
+both Ca>2 release and uptake.
+
+The amount of Ca> release in our model depends on
+the cumulative Ca2+ entry into the cell 2 milliseconds
+from the time of Vma,, or from the time of stimulus.42
+This accounts for the dependence of Ca>2 release on the
+rate of increase of [Ca 2+]i observed by Fabiato.31 Other
+properties such as modification of the release channel
+by H+, Na+, K+, and Mg 2+ are not incorporated in the
+model, since there is no evidence that the concentra-
+tions of these ions change significantly during the exci-
+tation-contraction coupling cycle. The model ade-
+quately describes the Ca 2+ fluxes and concentration
+changes observed in whole-cell experiments42 under
+normal conditions.
+Ca2+ Buffers in the Myoplasm and in the JSR
+
+Undoubtedly, without Ca2+ buffers in the myoplasm,
+[Ca2+]i cannot be maintained at an appropriate low level
+(maximum intracellular Ca2+ transient of x1 gmol/L),
+and Ca2+ ions cannot be loaded appropriately into the
+NSR when the cell is paced at fast frequencies. As
+described in "Results," after the initiation of an action
+potential, 45 gmol/L of Ca2+ ions were released by the
+SR into the myoplasm. In the absence of buffers, [Ca2+]1i
+would have increased from the resting level of 0.12 to
+45.12 1£mol/L (compared with 1 ,umol/L in the presence
+of buffers). This high level of [Ca2+]i would have en-
+hanced the Ca2+-efflux mode of INaCa by a factor of 376
+(=45.12/0.12). As a result, most of the released Ca2+
+ions would have been extruded out of the cell during the
+action potential plateau, resulting in intracellular Ca2+
+transients that decrease to the resting value during the
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy I: A Model of the Ventricular Action Potential
+
+1087
+
+plateau phase. In addition, the resulting high negative
+amplitude of INaCa would have contributed significantly
+to the plateau potentials, and INaCa would have been a
+major determinant of the action potential plateau. This
+is the behavior of INaCa in the D-N model9 for Purkinje
+fibers, in which Ca2' buffers in the myoplasm were not
+included. A decrease of [Ca2"]i to the resting value and
+a major contribution of INaCa during the action potential
+plateau are inconsistent with the experimental findings
+in single ventricular cells.42,73"100 For example, Leblanc
+and Hume'00 found that intracellular Ca2, transients do
+not decrease or decrease with a very slow rate when the
+membrane is depolarized in single ventricular cells.
+Another serious consequence of the absence of buffers
+is that the cell would have discharged most of its Ca'+
+content during the action potential plateau because of
+the enhanced INaCa. This is completely contradictory to
+the experimental observation that myocytes can be
+loaded with Ca2' by pacing. If a paced cell could not be
+loaded with Ca21 ions, the phenomenon of postextra-
+systolic inotropic potentiation, found in the experi-
+ments, could not be observed.79,87 Therefore, without
+Ca2' buffers in the model, not only is the behavior of
+INaCa incorrect, but also, very important physiological
+phenomena cannot be duplicated by the simulations.
+buffer in the JSR, its role is
+different from the buffers in the myoplasm. It increases
+the capacity of the JSR to store Ca2
+in a very small
+volume. The volume of the JSR is only 0.48% of the cell
+volume, whereas the volume fraction of the myoplasm in
+the cell is 68%. In the resting state, the free Ca21
+content of the JSR is 1.73 mmol/L, which is equivalent
+to 12.2 gmol/L in the much larger volume of the
+myoplasm. If the entire content of free Ca2
+in the JSR
+were released into the myoplasm, [Ca2+]i could have
+only reached a level of 0.25 ,umol/L because of the
+buffering process in the myoplasm. With the [CSQN]
+buffer in the JSR, 6.84 mmol/L of Ca2+ ions are
+buffered, resulting in a total Ca2+ content of 8.57
+mmol/L at the resting state. Therefore, the storage
+capacity of the JSR is increased by a factor of 5 because
+of the presence of the buffer. This allows the JSR to
+store sufficient Ca2+ ions that on release can bring the
+peak intracellular Ca2, transient to z1 gmol/L and
+cause muscle contraction.
+Iv, the Total Time-Independent Current
+
+Regarding the Ca2'
+
+The total time-independent current, IK1(T), in the
+phase-1 model is denoted here as Iv, a time-independent
+current that depends only on voltage. This is because Iv
+is not a pure K+ current and consists of INab, 'Cab, Ip(Ca)g
+and INaK in addition to the K+ currents IK1 and IKP. The
+protocol for measuring Iv is to apply a.slowly changing
+voltage ramp.52 Therefore, the measured Iv definitely
+includes INaCa in addition to the six currents listed above.
+However, the amplitude of INaCa is greatly affected by
+intracellular Ca2+ transients. This introduces a time-
+dependent factor into Iv and disturbs its behavior as a
+purely voltage-dependent current in our simulations. For
+this reason, we did not include INaCa in Iv. I(ca) and ICa,b
+are also dependent on the intracellular Ca + transient;
+however, their amplitudes are very small compared with
+IKi and IKp, which are the major components of Iv (Fig
+18). Therefore, these currents do not introduce a signif-
+icant time-dependent factor into Iv during the action
+
+potential simulations. It should be mentioned that the
+[K']o dependence of GK1 (and therefore of Iv) was not
+formulated correctly in the D-N model, as we discussed
+previously.' Similar comments apply to the model of
+Rasmusson et al,10 since lKl of their model was adopted
+from the D-N model. Also, both models do not incorpo-
+rate the plateau K' channel, IKP
+INaKI the Na+-K+ Pump
+
+The activity of the pump is stimulated by [K'], and
+[Na+]i and is dependent on the membrane potential.
+The half-saturation concentrations for [K']. and [Na+]i
+have been measured in many experiments,62,67-70
+whereas the voltage dependence was elucidated only
+recently by Nakao and Gadsby62 and Gadsby and Na-
+kao.25 The voltage-dependence property was not incor-
+porated in the D-N model, and the Gadsby and Nakao
+data were not used by Rasmusson et al10 in their
+formulation, since the data were not published at the
+time. From the Na+ ion flux and the time constant of
+INaK decay after exposure to zero [K']., Cohen et a166
+concluded that the Hill coefficient of [Na+]i must be >3.
+However, all other measurements61'68,69 obtain a value
+<3. Therefore, a Hill coefficient of 1.5 is used in our
+model, different from the values 3 and 1 used in the
+Rasmusson model and in the D-N model, respectively.
+The formulation simulates correctly the voltage depen-
+dence of INaK for different values of [Na+]0 (Fig 9).
+INaCa, the Na+-Ca2+ Exchanger
+
+In recent experiments,53'54'92 the properties of [Na+]0
+dependence, [Ca2+]0 dependence, and saturation at
+very negative potentials of INaCa were clearly deter-
+mined. These properties are incorporated in our formu-
+lation of INaCa, which is modified from the formulation in
+the D-N model. Also, the coefficient q=0.35 (position
+of energy barrier) was measured quantitatively after the
+D-N model was developed and is incorporated in our
+model.53,5960,92 The new formulation predicts correctly
+the voltage and ionic concentration dependence of INaCa
+as measured in the experiments (Fig 10). This behavior
+cannot be duplicated by the previous models. Note that
+the scaling factor, kNaCa, is given in units of current
+density (I£A/4F) and not in the units (,uA/[(mmol/
+L)4 .uF]) used in the D-N model. Therefore, kNaCa in
+our model is independent of the ionic concentrations.
+Also, note that ksat=0.25 is used in Fig 10 to simulate the
+measured property of INaCa saturation at very negative
+potentials. However, we found that ksat=0.25 depressed
+the Ca2`-efflux mode of INaCaso much that INaCa operated
+to increase, rather than decrease, [Ca2+]. The large
+degree of saturation in the measurements may be
+caused by the nonphysiological environment of the cells
+during the experiments. In one set of data measured by
+Kimura et al"3 (ie, the curve of [Ca2+]0= 1 mmol/L in Fig
+10), the amplitude of INaCa even decreases slightly at very
+negative potentials. Therefore, in all simulations except
+those of Fig 10, a smaller saturation factor (ksat=0.1)
+was used.
+Ins(Ca) the Nonspecific Ca2+-Activated Current
+
+This channel was first identified and its properties
+were measured quantitatively by Ehara et al,71 who used
+single-channel recording techniques. In single-cell ex-
+periments, a transient inward current (IT,) was observed
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1088
+
+Circulation Research
+
+Vol 74, No 6 June 1994
+
+under conditions of Ca ` overload. However, it is un-
+clear whether INaCa alone, Ins(Ca) alone, or both contribute
+to ITI. By measuring the reversal potential of IT, or using
+specific blockers for INaCa, several groups72"101 claim that
+Ins(Ca) iS ITI, whereas other groups59 believe that INaCa is
+ITI. Preliminary simulations using our model suggest
+that ITI consists of both INaCa and Ins(ca) and that the
+relative contribution of these two Ca2-activated cur-
+rents to ITI depends on the conditions. However, this
+prediction depends on our choice of a value for the
+maximum conductance of Lns(Ca). The values provided by
+Ehara et a171 are spread over an order of magnitude
+(0.036 to 0.36 millisiemens/,F). Therefore, we deter-
+mine the maximum conductance on the basis of the
+effects of Ins(Ca) on the action potential, measured by
+Doerr et al.73 With a maximum conductance of 0.072
+millisiemens/,F, our simulated results duplicate the
+measurements by Doerr et a173 (Fig 4). This value falls
+in the range of values suggested by Ehara et al.71 The
+ability to narrow down the possible range of conduc-
+tances to one specific value is essential for a quantitative
+study of the relative contributions of INaCa and Ins(Ca) to ITI
+and of their role in arrhythmogenic activity of the single
+cell (ie, afterdepolarizations and triggered activity).
+IK, the Time-Dependent (Delayed-Rectifier)
+K' Current
+
+As clarified in "Materials and Methods," the refor-
+mulation of ICa in the model dictated a reformulation of
+IK. In the phase-1 model, 'K was formulated to depend
+on the first power of the activation X-gate, similar to the
+Beeler and Reuter2 formulation (the B-R IK). In the
+model presented here, 'K was formulated to depend on
+X2, as suggested by Matsuura et al,5' on the basis of
+measurements in the single cell ('K of Matsuura et al).
+Comparing the voltage dependence of these two cur-
+rents, the higher degree of rectification of the B-R IK
+results in plateau current at high positive potentials that
+is 4.8 times smaller than that of IK of Matsuura et al.
+This implies that IK of Matsuura et al can provide higher
+repolarizing current and stronger capability of repolar-
+izing the membrane from plateau potentials. As a result,
+when introduced in the phase-2 model, the B-R IK fails
+to repolarize the membrane adequately, and the action
+potential displays an unrealistically long duration of 400
+milliseconds at normal [K+]o=5.4 mmol/L. In contrast,
+the large IK of Matsuura et al at plateau potentials
+strongly repolarizes the membrane and results in a
+realistic action potential duration of :180 milliseconds.
+It should be noted that these results do not imply that a
+high degree of rectification is not a correct property of
+IK. It may depend on the species and the type of cell.
+For example, the plateau potential (+17 mV) in the
+B-R model is smaller than that (+30 mV) in the phase-2
+model, and the plateau potentials of Purkinje fibers and
+atrial cells can be <0 mV. For a low plateau potential,
+IK of Matsuura et al becomes smaller than the B-R IK
+because of its X2 kinetics, and the B-R IK provides more
+current for repolarizing the membrane. Since the pla-
+teau potential of mammalian ventricular cells (except
+for the rat) is relatively high and positive, IK of Matsuura
+et al provides more repolarizing current in these cells. It
+should be commented that 'K in our model is relatively
+large and therefore plays a major role in repolarization,
+which is the case for the guinea pig-type ventricular
+
+cell. For other species, including the rabbit, dog, and
+rat, 'K is relatively small.
+
+Note that the low degree of rectification of IK of
+Matsuura et a151 results in a large degree of crossover
+between current-voltage curves of different values of
+[K'], (Fig 8). In contrast, the high degree of rectification
+of the B-R IK results in a minimal crossover' (their Fig
+1). It should be noted that the degree of crossover in our
+model cannot be compared with that predicted by the
+D-N model or the model of Rasmusson et al,10 simply
+because the [K'], dependence of GK is not included in
+these models. Finally, it should also be mentioned that
+the characteristics and explanations of mechanisms un-
+derlying physiological phenomena simulated by the
+phase-i model' are independent of whether the B-R IK
+or IK of Matsuura et al is used. This is because super-
+normality and Wenckebach periodicity result from the
+interaction between the slow recovery from inactivation
+of IN, and postrepolarization refractoriness caused by a
+slow decrease in the X-gate of IK. This property is
+shared by both the phase-1 and phase-2 models.
+
+Recently, Sanguinetti and Jurkiewicz102 have shown
+that IK is composed of two overlapping currents, 'KS and
+IK,r. In the present model, we do not separate 'K into its
+components and maintain its global representation as
+IK This approach is consistent with the focus of the
+present study, namely, currents and processes that
+determine intracellular Ca 2+ and depend on its concen-
+tration. The simulations conducted here do not require
+separation of 'K into 'KS and 'K,r and duplicate correctly
+the global behavior of IK In a previous study,' we
+investigated phenomena that involved IK in a major way,
+such as supernormal excitability, Wenckebach period-
+icity, and the effects of changes in [K'],. It will be
+interesting, in future studies, to examine the separate
+roles and relative importance of 'K, and IK,r in deter-
+mining these cellular responses.
+Electrophysiological Processes During the
+Action Potential
+
+The time course of ionic currents and concentration
+changes during an action potential were described in
+"Results" and depicted in Figs 13 through 19. It is clear
+from the simulations that in spite of its fast activation
+(relative to the B-R model), 'Ca does not contribute
+significantly to the rising phase of the action potential.
+However, the early peak of 'Ca is important, since it
+determines the magnitude of early Ca2' entry into the
+cell and, in turn, the release of Ca2 from the SR and
+transient. It is interesting to note
+the intracellular Ca2
+that [Ca2]i inactivates ICa through the [Ca2'i-depen-
+dent inactivation process (fca-gate in our formulation).
+This suggests a negative-feedback control mechanism by
+which the early 'Ca peak influences the inactivation of
+1Ca. The intracellular Ca 2+ transient also influences
+other currents, such as INaCa and, under certain condi-
+tions, Ins(Ca). The simulations demonstrate the impor-
+tance of buffering processes in the myoplasm in control-
+ling cellular Ca2'
+and, therefore, in regulating these
+currents. A related observation is that INaCa does not
+contribute significantly during most of the plateau but
+influences the rate of membrane repolarization during
+the repolarization phase and, consequently, the APD.
+This simulated behavior is in agreement with the exper-
+imental observation of Doerr et al.73 An important
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy I: A Model of the Ventricular Action Potential
+
+1089
+
+limitation of the model is the assumption of intracellular
+spatial uniformity, especially with regard to the distri-
+bution of Ca`+ ions. The model assumes a uniform
+distribution of Ca`+ buffers and of the SR. It does not
+represent restricted diffusion of Ca`+ or the spatial
+distribution of release sites from the JSR. This limita-
+tion does not permit the simulation of spatially depen-
+dent intracellular phenomena such as "Ca2+ waves" and
+is likely to affect the time course of the Ca2
+transient.
+Representation of these spatial nonuniformities re-
+quires detailed knowledge of the spatial distribution of
+Ca2+ buffers and of release and uptake sites in the SR,
+of the geometry and location of subcellular organelles,
+of restricted spaces, and of diffusion barriers. Such
+detailed structural information is not available, and the
+complexity is beyond our modeling capabilities at pres-
+ent. The implications of the spatial uniformity assump-
+tion are discussed further in our accompanying article"
+in relation to spontaneous Ca2' release by the SR and
+the generation of delayed afterdepolarizations.
+Summary and Conclusions
+
+In summary, the work presented here is a second
+phase in the development of an action potential model
+for mammalian ventricular cells that is based, whenever
+possible, on recent experimental findings. The model
+can simulate dynamic changes in ionic concentrations.
+The emphasis in this study is on ionic currents and other
+processes that regulate and determine [Ca2+i] changes
+during the action potential. Whereas these processes
+constitute an important aspect of the electrical activity
+of the cell and of generating the action potential, they
+also determine the mechanical activity of the cell
+through the excitation-contraction coupling process. In
+our accompanying article," we use the model to study a
+phenomenon that is related to excitation-contraction
+coupling, namely postextrasystolic mechanical potenti-
+ation.79,87 Another important aspect of the model is its
+
+ability to simulate spontaneous release of Ca'+ from the
+JSR when the cell is overloaded with Ca`+. This prop-
+erty and the presence of a nonspecific Ca'+-activated
+current (Ins(Ca)) in the model permit the study of arrhyth-
+mogenic activity related to Ca'+ overload, such as
+afterdepolarizations and triggered activity. These phe-
+nomena are also simulated and investigated in the
+It should be mentioned that
+accompanying article.
+several ionic currents were not included in the present
+model. These include the transient outward current
+(Ito), which will be incorporated in future models once
+sufficient experimental data become available. Al-
+though Ito is not observed in guinea pig ventricular cells
+(of the type modeled here), it
+is a very important
+current for repolarization in ventricular cells of other
+species (eg, dog, rabbit, and rat) and should be included
+in models of the ventricular action potential in these
+species. In addition, the T-type Ca'+ current (ICaT)97
+and the Cl- current (IC1)103 were not included, since
+experimental evidence suggests that they play a minimal
+role under the conditions simulated here (eg, Ic, does
+not play a significant role in the absence of adrenergic
+stimulation).103 Other channels were not incorporated
+in the model, since they do not contribute significantly
+to the processes and phenomena investigated in the
+present study. These include Ca'+-, ATP-, and Na+-
+activated K' currents (IK(Ca),104 'K(ATP),105 and IK(Na),106
+respectively). These channels may have to be included
+in future models for the purpose of studying the effects
+of ischemia and other abnormalities on the electrical
+activity of the single cell. We would like to emphasize
+that the model presented here for the mammalian
+ventricular action potential is mostly based on the
+guinea pig ventricular cell. However, it provides the
+framework for modeling other types of ventricular cells,
+with appropriate modifications made to account for
+species differences.
+
+Appendix 1: Formulation of the Model
+
+I. Cell geometry
+
+a. Dimensions: length (L)= 100 gim; radius (r)= 11 gm
+b. Cell volume: V,11= wr2L=38x 10-66L
+c. Geometric membrane area: AGeO=2wr2+2,rL=0.767x 10-4 cm2
+d. Capacitive membrane area: ACap=RCG * Ac,o= 1.534x 10` Cm2
+e. Myoplasm volume: Vmyo=Vcell * 68% =25.84 x10-6 ,L
+f. Mitochondria volume: Vmito=Vcell 26%=9.88x10-6 ,L
+g. SR volume: VSR=Vcell. 6%=2.28x10-66L
+h. NSR volume: VNSR=VCell * 5.52% = 2.098 x10-66L
+i. JSR volume: VJSR=VCell 0.48%=0.182x10-6 uL
+j. Cleft volume: Vcleft=(Vell/88%) 12%=5.182x10L6
+
+II. Standard ionic concentrations
+[K+]0=5.4 mmol/L;
+
+[K+]j=145 mmol/L;
+
+[Ca2+]0= 1.8 mmol/L;
+
+[Na+]0=140 mmol/L;
+
+and [Ca2+]ire,t=0.12 gmol/L
+
+[Na+]j=10 mmol/L;
+
+III. Ionic currents in the sarcolemma
+
+a. Fast sodium current: INa
+
+INa=GNa m' . h .j . (V-ENa);
+ENa=(RT/F) ln([Na+]j/[Na+]j); and GNa=16 millisiemens/gF.
+http://circres.ahajournals.org/
+
+Downloaded from 
+
+ by guest on June 29, 2015
+
+1090
+
+Circulation Research
+
+Vol 74, No 6 June 1994
+
+For V>-40 mV,
+ah=a°=0.0;, 3h= 1/(0.13{1 +exp[(V+ 10.66)/-11.11}
+and ,fj=0.3 exp(-2.535 x 10-7V)/{1 +exp[-0.1(V+32)]}.
+For V<-40 mV,
+ah=0.135 exp[(80+V)/-6.8];
+,1h=3.56 exp(O.079V)+3.1xlO5 exp(O.35V);
+ca=[-1.2714x 105 exp(O.2444V)-3.474x10-5 * exp(-0.04391V)] (V+37.78)/{1+exp[0.311
+,fj=0.1212 exp( -0.01052V)/{1 +exp[-0.1378(V+40.14)]}.
+And, for all range of V,
+a,m=0.32(V+47.13)/{1 -exp[-0. 1(V+47.13)]};
+pm =0.08 exp(-V/11).
+
+(V+79.23)]}; and
+
+b. Currents through the L-type Ca2' channel
+
+1Ca,t = 'Ca + 'CaXK + 1Ca,Na;
+lc,=d * f * fCa
+For ion S, including Ca2', Na+, and K+,
+
+ICa,K=d * f * fCa
+
+Ca,K;
+
+Ca;
+
+and ICa,Na=d f
+
+fca
+
+Ca,Na
+
+VF2 yei *[S]i exp(zsVF/RT)- ys.*[S]O
+
+exp(z,VF/RT) -1
+YCao=0-341;
+YCai= 1;
+yNai = YNao=0-75;
+YKi= yKO=0.75;
+
+SPS .z2S RT
+Pca=5.4Xl104 cm/s;
+6.75 x 107 cm/s;
+PNa
+PK= 1.93 x 107 cm/s;
+fCa=l1/[1 +([Ca2+]i/Km,Cafl; Km.Ca=0.6 umol/L;
+d. = 1/{1 +exp[-(V+ 10)/6.24]};
+Td=d. * {1 -exp[- (V+ 10)/6.24]}/[0.035 (V+ 10)];
+f. = 1!{1 +exp[(V+35.06)/8.6]}+0.6/{1 +exp[(50-V)/20]};
+iif=( 0.0197 exp{-[0.0337* (V+ 10)]2}+0.02);
+ad=d./'Td;
+
+and of =(1- f)/rf.
+
+Pd=(1- d.)/rd;
+
+af=fj/f1;
+
+c. Time-dependent K+ current: IK
+
+PNaK=0.01833;
+
+IK=GK * Xi * X2* (V-EK);
+EK= (RT/F) *ln{([K+]o +PNa,K[Na+]o)/([K]i+PNaK[Na+]i)};
+GK=0.282
+Xi= 1/{1 +exp[(V-56.26)/32.1]};
+a,=7.19x10-5 (V+30)/{1-exp[-0.148* (V+30)]}; and
+3x= 1.31 x 10-4 (V+30)/{-1+exp[0.0687* (V+30)]}.
+
+[K']05.4 millisiemens/,F;
+
+d. Time-independent K+ current: 'K1
+
+IKl=GK1 Ki,. (V-EK1);
+GKl=0.75 *\/[K+]J/5.4 millisiemens/uF;
+aKl = 1.02/{1 + exp[0.2385 (V- EK1
+i3A ={0.49124 * exp[0.08032* (V-EK1 +5.476)]+exp[0.06175 * (V-EK1-594.31)]}/{1 +exp[-0.5143 (V-EK1 +4.753)]}.
+
+EK1=(RT/F) InQK+]J[K+]j);
+
+59.215)]}; and
+
+e. Plateau K+ current: 'Kp
+IKp=GKp * Kp * (V-EKp);
+EKp=EKl;
+
+f. Na+-Ca2+ exchanger: INaCa
+
+GKP=0.0183 millisiemens/,uF;
+
+and Kp = 1/{1 +exp[(7.488-V)/5.98]}.
+
+INaCa kNaCa K,Na+3[Na+]3 Kmca+[Ca2+]o 1+ks
+
+1
+
+1
+
+1
+
+[
+
+V
+
+)[Na+]>3* [Ca2+]-exp[(71-1). V. -j[Na+]3 * [Ca2+Ij};
+
+Km,Na=87.5 mmol/L;
+
+Km,Ca=1.38 mmol/L;
+
+k,at=0.1;
+
+and 7t=0.35.
+
+* {exp(7q V *
+kNaCa=2000 ,uA/,uF;
+g. Na+-K+ pump: INaK
+
+INaK =NaK fNaK 1+1(KNa/[Na p15 [K ]O+Km Ko
+
+1
+
+[K+].
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+INaK=1.5 p£A/4F;
+fNaK=
+
+Km,Nai =10 mmol/L;
+
+1
+VF
+
+Luo and Rudy I: A Model of the Ventricular Action Potential
+
+1091
+
+KmKo=1.5 mmol/L;
+
+1+0.1245 exp -0.1 * RT) +0.0365.*
+r
+1
+7 1exp
+
+([Na+]l\
+67.3)
+
+VF and
+
+exp( -RT)
+
+h. Nonspecific Ca2+-activated current: Ins(Ca)
+
+ns,K=
+
+ns,K '1 +(Km,ns(Ca/[Ca2]i)3'
+_
+1+O(Kmns(Ca)I[Ca2]i)3'
+'ns,Na = ns,Na
+Ins(Ca) = Ins,K+ Ins,Na;
+Pns(Ca)=1.75* 10-7 cm/s;
+
+~~~~1
+1
+
+Enls(Ca)=-.'in
+
+RT
+F
+
+[K+]0+[Na+]O
+[K+]i+[Na+]li
+
+Km,ns(Ca)=1.2 ,mol/L; and
+
+(Ins is computed from Pns using the relation in IlIb of this appendix with the same -y values.)
+
+i. Sarcolemmal Ca2' pump: Ip(Ca)
+
+[Ca2+]i
+
+Km,p(Ca) + [Cal]2+
+
+'p(Ca) -p(Ca)
+Ip(Ca)=1.15 gA/pF;
+
+Kmp(Ca)=0.5 ,mol/L.
+
+j. Ca2+ background current: 1Ca,b
+
+ICa,b =GCa,b (V- Ec,N);
+ECaN=(RT/2F) . ln([Ca2+]0/[Ca2+]1);
+
+k. Na+ background current: INab
+
+INa,b=GNa,b (V-ENa,N);
+
+ENa,N=ENa;
+1. Total time-independent current: Iv
+IV =IK1 +IKp +Ip(Ca) + INa,b + ICa,b + INaK.
+
+and GCa,b=0.003016 millisiemens/gF.
+
+and GNa,b=0.00141 millisiemens/,F.
+
+IV. Ca2+ buffers in the myoplasm
+
+Troponin (TRPN) and calmodulin (CMDN);
+buffered [TRPN]=[TRPN]_. {[Ca2+]l([Ca2+]i+KmTRPN)};
+buffered [CMDN]=[CMDN]_ *{[Ca2+]i/([Ca2+]i+Km,cMDN)};
+[TRPN]=70 ,umol/L; [CMDN]=50 ,mol/L;
+
+Km,TRPN=0.5
+
+mol/L;
+
+and Km,CMDN=2.38 ,mol/L.
+
+V. Ca2+ fluxes in the sarcoplasmic reticulum
+
+a. Ca2+-induced Ca2+ release of JSR
+
+Irel=Grel' ([Ca2+]JSR-[Ca2+]i) mmol/L per millisecond
+If A[Ca2+]i,2>A[Ca2+]i,h 2 milliseconds after the time of Vmaxg
+
+(1 -exp[ -tPr.J) .exp[-t t/off];
+
+A/[Ca`1,2-A[Ca2+1i]
+rerlKm,rl+A[Ca2+]1,2-A[Ca2+]i,th
+
+Km,rei=0.8 gmol/L;
+
+T.= roff=2 milliseconds; t=O at time of CICR;
+
+Gr=Ge
+A[Ca2 ]i,th=0.18 ,mol/L;
+Grel= 18 ms' for voltage clamp simulations; and
+Grel=60 ms'1 for action potential simulations.
+If A[Ca2+li,2<A[Ca2+li,lh at 2 milliseconds, Grel=O.
+b. Ca2+ release of JSR under Ca2+-overload conditions
+Irel=Grel' ([Ca2+]JSR-[Ca2+]i) mmol/L per millisecond
+If buffered [CSQNI]2[CSQN]th,
+Gre,=Grel * (1-exp[-t/Pr.) * exp[-t/-r0ff];
+Gre=4 ms-1;
+If buffered [CQSNI<[CQSN]th, Grel=0.
+Buffered [CSQN] = [CSQN] . {[Ca2IJSR/([Ca2+IJSR+K,CSQN)}; [CSQN] = 10 mmol/L; and Km CSQN=0.8 mmol/L.
+
+[CSQN]th=0.7 or higher; and.-=,=iff=2 milliseconds; and t=0 at time of spontaneous release.
+
+c. Ca2+ buffer in JSR and CSQN
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1092
+
+Circulation Research
+
+Vol 74, No 6 June 1994
+
+d. Ca' uptake and leakage of NSR: Iup and Ileak
+
+I.P=Iup * [Ca2+]i/([Ca2+]i+Km,up) mmol/L per millisecond;
+Iup=0.005 mmol/L per millisecond;
+Km,up=0.92 _mol/L;
+Kleak=Iup/[Ca2+]NsR ms-1;
+
+and [Ca2+]NSR= 15 mmol/L.
+
+Ileak=Kleak * [Ca2`]NSR mmol/L per millisecond;
+
+e. Translocation of Ca2+ ions from NSR to JSR: Ilr
+
+([Ca2+]NSR-[Ca2+]JSR)/Thr mmol/L per millisecond;
+
+Itr
+
+ir,=180 milliseconds.
+
+Appendix 2: Definition of Symbols
+
+INa: fast Na+ current, ,LgA/gF
+IK: time-dependent K+ current, ,uA/gF
+IK: fully activated K+ current (IK=IK/X), ,A/,uF
+1Ca Ca2+ current through the L-type Ca2+ channel, ,uA/,F
+ICaNa: Na+ current through the L-type Ca> channel, ,uA/,uF
+1Ca,K: K+ current through the L-type Ca2+ channel, guA/4tF
+Icat: total current through the L-type Ca2+ channel (ICa,t=ICa+ICa,Na+ICa,K), /A/RF
+IK1: time-independent K+ current, ,gA/gF
+IKP: plateau K+ current, ,LA/AlF
+INaCa: Na+-Ca2+ exchanger, ,uA/gF
+kNaCa: scaling factor of INaCa, ,uA/,uF
+ksat: saturation factor of INaCa at very negative potentials
+-q: position of the energy barrier controlling voltage dependence of INaCa
+INaK: Na+-K+ pump, ,A/,F
+fNaK: voltage-dependence parameter of INaK
+o-: [Na+]o-dependence factor of fNaK
+Ip(Ca): Ca2+ pump in the sarcolemma, ,LtA/,gF
+Ins,Na: Na+ current through the nonspecific Ca2+-activated channel, ,A/uF
+InsK: K+ current through the nonspecific Ca2'-activated channel, 11tA/tF
+Ins(Ca): nonspecific Ca 2+-activated current (lns(Ca '=lns,Na+Ins,K),X ,A/,uF
+ICab: Ca 2+ background leakage current, ,uA/gF
+INab: Na+ background leakage current, gA/gF
+Iv: total time-independent current (Iv=IK1+IKp+Ip(Ca)+INa,b+ICa,b+INaK), gA/gF
+Irel: Ca2+ release from JSR to myoplasm, mmol/L per millisecond
+Gre,: rate constant of Ca2+ release from JSR, ms-
+Grel: maximum rate constant of Ca>+ release from JSR, ms-1
+A[Ca21]i,2: cumulative Ca2+ entry into the cell 2 milliseconds after onset of stimulus or Vmag,,mol/L
+A[Ca2+lith: threshold for external triggering of Ca2+ release from JSR, gmol/L
+Ton and off: time constants of activating (on) and deactivating (off) Ca>2 release from JSR, milliseconds
+[CSQN]lh: threshold of Ca2+-bound [CSQN] for internal triggering of Ca2+ release from JSR under Ca2+-overload
+conditions
+Iup: Ca 2+ uptake from myoplasm to NSR, mmol/L per millisecond
+Ileak: Ca2+ leakage from NSR to myoplasm, mmol/L per millisecond
+Kleak: rate constant of Ca 2+ leakage from NSR, ms'1
+Itr: Ca> transfer from NSR to JSR, mmol/L per millisecond
+mt,: time constant of Ca 2+ transfer from NSR to JSR, milliseconds
+Ii: maximum current through channel i, gA/tF
+Gi: maximum conductance of channel i, millisiemens/,uF
+m, h, and j: activation gate, fast inactivation gate, and slow inactivation gate of INa, respectively
+d and f: activation gate and (voltage-dependent) inactivation gate, respectively, of the L-type Ca> channel
+fca: Ca2+-dependent inactivation gate of the L-type Ca2+ channel
+X and Xi: activation gate and inactivation gate of IK, respectively
+Ki: inactivation gate of IKI
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy I: A Model of the Ventricular Action Potential
+
+1093
+
+y.: steady-state value of activation (inactivation) gate y
+c and 03: opening and closing rate constants of gate y, respectively, ms`
+ry: time constant of gate y, milliseconds
+[A]: maximum concentration of ion A, mmol/L
+Vc: volume of compartment C, ,uL
+Fc: cellular volume fraction of compartment C
+Cm: total cellular membrane capacitance, gF
+C,: specific membrane capacity, equal to 1 uF/IgF
+Aceo: geometric membrane area, cm2
+Acap: capacitive membrane area (=CmICsJ), cm2
+RCG: ratio of ACap to AGeo
+CSQN: calsequestrin, Ca2' buffer in JSR
+TRPN: troponin, Ca2' buffer in the myoplasm
+CMDN: calmodulin, Ca2+ buffer in the myoplasm
+K,,i: half-saturation concentration of channel i, mmol/L
+V: membrane potential, mV
+V: time derivative of V, mV/ms
+Vmam: maximum rate of rise of V, mV/ms
+PA: permeability of membrane to ion A, cm/s
+PAB: permeability ratio of ion A to ion B
+EA: reversal potential of ion A, mV
+EA,N: Nernst potential of ion A, mV
+YA: activity coefficient of ion A
+ZA: valence of ion A
+[A]0 and [A]i: extracellular and intracellular concentrations of ion A, respectively, mmol/L
+F: Faraday constant, 96 500 coulombs/mol
+R: gas constant, 1.987 calories/mol/°K
+T: absolute temperature, 'K
+Qlo: temperature adjustment factor, A(T=tl)=A(T=t2). (Qlo)(t2-tl)/10
+
+Appendix 3. Alternative Formulations of f
+
+1. Conventional f.; Kass and Sanguinetti tf:
+
+f. = 1/{1 +exp[(V + 30)/8]};
+nf=16.88+462.46 Cl/(1.0 + C2);
+Cl=exp[O.092* (V+21.68)];
+
+and C2=exp[0.246* (V+21.68)].
+
+2. Hadley and Hume f.; Kass and Sanguinetti rf:
+
+f. =0.59/{1.0+exp[O.059* (V+26.12)]}+0.41;
+1f=16.88+462.46* Cl/(1-0+ Q);
+Cl =exp[0.092 * (V+21.68)];
+
+and C2=exp[0.246* (V+21.68)].
+
+3. Rasmusson et al:
+
+f= 1/{1 +exp[(V+35.06)/8.6]}+0.6/{1 +exp[(50-V)/20]};
+
+rt= 1/(0.0197 * exp{-[0.0337* (V+ 10)]2}+0.02).
+
+4. D-N model:
+
+ad=0.03* (V+24)/{1 -exp[-(V+24)/4]};
+Pd=0.012 (V+24)/{-1+exp[(V+24)/10]};
+caf=0.00625 (V+34)/{- 1 +exp[(V+34)/4]}; and
+Pf =0.051{1 +exp[ -(V +34)/4]};
+Caf=fj/,Tf; and f3f=(1-f)/rf.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1094
+
+Circulation Research
+
+Vol 74, No 6 June 1994
+
+Acknowledgments
+
+This study was supported by grants HL-49054 and HL-
+33343 from the National Heart, Lung, and Blood Institute,
+National Institutes of Health, and by a grant from the National
+Science Council, Republic of China (NSC 82-0404-E-006-
+412). Special thanks to Jinglin Zeng, Robin Shaw, and Xiaoqin
+Zou for their help with the revision of this article. We also
+thank Weilun Quan for helpful discussions. We acknowledge
+the use of facilities at the National Cheng Kung University in
+Taiwan, Republic of China.
+
+References
+
+1. Luo CH, Rudy Y. A model of the ventricular cardiac action
+potential, depolarization, repolarization, and their interaction.
+Circ Res. 1991;68:1501-1526.
+
+2. Beeler GW, Reuter H. Reconstruction of the action potential of
+ventricular myocardial fibres. J Physiol (Lond). 1977;268:177-210.
+3. Isenberg G, Klockner U. Calcium currents of isolated bovine
+ventricular myocytes are fast and of large amplitude. Pflugers
+Arch. 1982;395:30-41.
+
+4. Josephson IR, Sanchez-Chapula J, Brown AM. A comparison of
+calcium currents in rat and guinea pig single ventricular cells. Circ
+Res. 1984;54:144-156.
+
+5. Kass RS, Sanguinetti MC. Inactivation of calcium channel current
+in the calf cardiac Purkinje fiber: evidence for voltage- and
+calcium-mediated mechanisms. J Gen Physiol. 1984;84:705-726.
+
+6. Lee KS, Marban E, Tsien RW. Inactivation of calcium channels in
+mammalian heart cells: joint dependence on membrane potential
+and intracellular calcium. J Physiol (Lond). 1985;364:395-411.
+
+7. Hess P, Lansman JB, Tsien RW. Calcium channel selectivity for
+divalent and monovalent cations, voltage and concentration
+dependence of single channel current in ventricular heart cells.
+J Gen Physiol. 1986;88:293-319.
+
+8. Hadley RW, Hume JR. An intrinsic potential-dependent inacti-
+vation mechanism associated with calcium channels in guinea-pig
+myocytes. J Physiol (Lond). 1987;389:205-222.
+
+9. DiFrancesco D, Noble D. A model of cardiac electrical activity
+incorporating ionic pumps and concentration changes. Philos
+Trans R Soc Lond Biol. 1985;307:353-398.
+
+10. Rasmusson RL, Clark JW, Giles WR, Robinson K, Clark RB,
+Shibata EF, Campbell DL. A mathematical model of electrophys-
+iological activity in a bullfrog atrial cell. Am J Physiol. 1990;259:
+H370-H389.
+
+11. Luo C-H, Rudy Y. A dynamic model of the cardiac ventricular
+action potential, II: afterdepolarizations, triggered activity, and
+potentiation. Circ Res. 1994;74:1097-1113.
+
+12. Rudy Y, Quan W. A model study of the effects of the discrete
+cellular structure on electrical propagation in cardiac tissue. Circ
+Res. 1987;61:815-823.
+
+13. Rudy Y, Quan W. Propagation delays across gap junctions and
+their reflection in extracellular potentials: a simulation study.
+J Cardiovasc Electrophysiol. 1991;2:299-315.
+
+14. Quan W, Rudy Y. Unidirectional block and reentry of cardiac
+
+excitation: a model study. Circ Res. 1990;66:367-382.
+
+15. Hodgkin AL, Huxley AF. A quantitative description of membrane
+current and its application to conduction and excitation in nerve.
+J Physiol (Lond). 1952;117:500-544.
+
+16. Rush S, Larsen H. A particular algorithm for solving dynamic
+membrane equations. IEEE Trans Biomed Eng. 1978;25:389-392.
+17. Victorri B, Vinet A, Roberge FA, Drouhard JP. Numerical inte-
+gration in the reconstruction of cardiac action potentials using
+Hodgkin-Huxley-type models. Comput Biomed Res. 1985;18:
+10-23.
+
+18. Dennis JE, Gay DM, Welsch RE. An adaptive nonlinear least-
+
+squares algorithm. ACM Trans Math Software. 1981;7:348-368.
+
+19. Weidmann S. Electrical constants of trabecular muscle from
+
+mammalian heart. J Physiol (Lond). 1970;210:1041-1054.
+
+20. Isenberg G, Klockner U. Calcium tolerant ventricular myocytes
+prepared by preincubation in a "KB medium." Pflugers Arch.
+1982;395:6-18.
+
+21. Hume JR, Uehara A. Ionic basis of the different action potential
+configurations of single guinea-pig atrial and ventricular
+myocytes. J Physiol (Lond). 1985;368:525-544.
+
+22. Giles WR, Imaizumi Y. Comparison of potassium currents in
+rabbit atrial and ventricular cells. J Physiol (Lond). 1988;405:
+123-145.
+
+23. Forbes MS, Hawkey LA, Jirge SK, Sperelakis N. The sarco-
+plasmic reticulum of mouse heart, its divisions, configurations,
+and distribution. J Ultrastruct Res. 1985;93:1-16.
+
+24. Forbes MS, Sperelakis N. Ultrastructure of mammalian cardiac
+muscle. In: Sperelakis N, ed. Physiology and Pathophysiology ofthe
+Heart. 2nd ed. Boston, Mass: Kluwer Academic Publishers;
+1989:3-41.
+
+25. Gadsby DC, Nakao M. Steady-state current-voltage relationship
+of the Na/K pump in guinea pig ventricular myocytes. J Gen
+Physiol. 1989;94:511-537.
+
+26. Mathias RT, Eisenberg B, Datyner NB, Cohen IS. Impedance
+and morphology of isolated canine cardiac Purkinje myocytes:
+comparison with intact strand preparations. Biophys J. 1985;
+47:499a. Abstract.
+
+27. Inui M, Wang S, Saito A, Fleischer S. Characterization of junc-
+tional and longitudinal sarcoplasmic reticulum from heart muscle.
+J Biol Chem. 1988;263:10843-10850.
+
+28. Jorgensen AO, Broderick R, Somlyo AP, Somlyo AV. Two struc-
+turally distinct calcium storage sites in rat cardiac sarcoplasmic
+reticulum: an electron microprobe analysis study. Circ Res. 1988;
+63:1060-1069.
+
+29. Rardon DP, Cefali DC, Mitchell RD, Seiler SM, Jones LR. High
+molecular weight proteins purified from cardiac junctional sarco-
+plasmic reticulum vesicles are ryanodine-sensitive calcium
+channels. Circ Res. 1989;64:779-789.
+
+30. Fabiato A. Rapid ionic modifications during the aequorin-
+detected calcium transient in a skinned canine cardiac Purkinje
+cell. J Gen Physiol. 1985;85:189-246.
+
+31. Fabiato A. Time and calcium dependence of activation and inac-
+tivation of calcium-induced release of calcium from the sarco-
+plasmic reticulum of a skinned canine cardiac Purkinje cell. J Gen
+Physiol. 1985;85:247-289.
+
+32. Fabiato A. Simulated calcium current can both cause calcium
+loading in and trigger calcium release from the sarcoplasmic
+reticulum of a skinned canine cardiac Purkinje cell. J Gen Physiol.
+1985;85:291-320.
+
+33. Stern MD, Capogrossi MC, Lakatta EG. Spontaneous calcium
+release from the sarcoplasmic reticulum in myocardial cells,
+mechanisms and consequences. Cell Calcium. 1988;9:247-256.
+
+34. Gerdes AM, Kasten FH. Morphometric study of endomyo-
+cardium and epimyocardium of the left ventricle in adult dogs.
+Am JAnat. 1980;159:389-394.
+
+35. Severs NJ, Slade AM, Powell T, Twist VW, Jones GE. Morpho-
+metric analysis of the isolated calcium-tolerant cardiac myocyte.
+Cell Tissue Res. 1985;240:159-168.
+
+36. Schaper J, Meiser E, Stammler G. Ultrastructural morphometric
+analysis of myocardium from dogs, rats, hamsters, mice, and from
+human hearts. Circ Res. 1985;56:377-391.
+
+37. Blatter LA, McGuigan JA, Reverdin EC. Sodium/calcium
+exchange and calcium buffering in mammalian ventricular muscle.
+Jpn Heart J. 1986;27(suppl 1):93-107.
+
+38. Sheu S-S, Fozzard HA. Transmembrane Na+ and Ca 2+ electro-
+chemical gradients in cardiac muscle and their relationship to
+force development. J Gen Physiol. 1982;80:325-351.
+
+39. Cannell MB, Berlin JR, Lederer WJ. Effects of membrane
+potential changes on the calcium transient in single rat cardiac
+muscle cells. Science. 1987;238:1419-1423.
+
+40. Abete P, Vassalle M. Relation between Na+-K+ pump, Na'
+activity and force in strophanthidin inotropy in sheep cardiac
+Purkinje fibres. J Physiol (Lond). 1988;404:275-299.
+
+41. Takamatsu T, Wier WG. Calcium waves in mammalian heart,
+quantification of origin, magnitude, waveform, and velocity.
+FASEB J. 1990;4:1519-1525.
+
+42. Beuckelmann DJ, Wier WG. Mechanism of release of calcium
+from sarcoplasmic reticulum of guinea-pig cardiac cells. J Physiol
+(Lond). 1988;405:233-255.
+
+43. Drouhard JP, Roberge FA. Revised formulation of the Hodgkin-
+Huxley representation of the sodium current in cardiac cells.
+Comput Biomed Res. 1987;20:333-350.
+
+44. Ebihara L, Johnson EA. Fast sodium current in cardiac muscle: a
+
+quantitative description. Biophys J. 1980;32:779-790.
+
+45. Campbell DL, Giles WR, Hume JR, Noble D, Shibata EF.
+Reversal potential of calcium currents in bull-frog atrial myocytes.
+JPhysiol (Lond). 1988;403:267-286.
+
+46. Cavalie A, McDonald TF, Pelzer D, Trautwein W. Temperature-
+induced transitory and steady-state changes in the calcium
+current of guinea pig ventricular myocytes. Pflugers Arch. 1985;
+405:294-296.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+Luo and Rudy I: A Model of the Ventricular Action Potential
+
+1095
+
+47. Standen NB, Stanfield PR. A binding-site model for calcium
+channel inactivation that depends on calcium entry. Proc R Soc
+Lond Biol. 1982;217:101-110.
+
+48. Markwardt F, Nilius B. Modulation of calcium channel currents
+in guinea-pig single ventricular heart cells by the dihydropyridine
+BAY K8644. J Physiol (Lond). 1988;399:559-575.
+
+49. Campbell DL, Giles WR, Hume JR, Shibata EF. Inactivation of
+calcium currents in bull-frog atrial myocytes. J Physiol (Lond).
+1988;403:287-315.
+
+50. Yue DT, Backx PH, Imredy JP. Calcium-sensitive inactivation in
+the gating of single calcium channels. Science. 1990;250:
+1735-1738.
+
+51. Matsuura H, Ehara T, Imoto Y. An analysis of the delayed
+outward current in single ventricular cells of the guinea pig.
+PflugersArch. 1987;410:596-603.
+
+52. Sakmann B, Trube G. Conductance properties of single inwardly
+rectifying potassium channels in ventricular cells from guinea-pig
+heart. J Physiol (Lond). 1984;347:641- 657.
+
+53. Kimura J, Miyamae S, Noma A. Identification of sodium-calcium
+exchange current in single ventricular cells of guinea-pig. JPhysiol
+(Lond). 1987;384:199-222.
+
+54. Ehara T, Matsuoka S, Noma A. Measurement of reversal
+potential of Na-Ca exchange current in single guinea-pig ven-
+tricular cells. J Physiol (Lond). 1989;410:227-249.
+
+55. Bridge JHB, Smolley JR, Spitzer KW. The relationship between
+charge movements associated with ICa and INaCa in cardiac
+myocytes. Science. 1990;248:376-378.
+
+56. Wier WG, Beuckelmann DJ. Sodium-calcium exchange in mam-
+malian heart: current-voltage relation and intracellular calcium
+concentration. J Mol Cell Biochem. 1989;89:97-102.
+
+57. Yasui K, Kimura J. Is potassium co-transported by the cardiac
+
+Na-Ca exchanger? Pflugers Arch. 1990;415:513 -515.
+
+58. Mullins LJ. A mechanism for Na/Ca transport. J Gen Physiol.
+
+1977;70:681-695.
+
+59. Lipp P, Pott L. Transient inward current in guinea-pig atrial
+myocytes reflects a change of sodium-calcium exchange current.
+J Physiol (Lond). 1988;397:601-630.
+
+60. Lagnado L, McNaughton PA. Electrogenic properties of the Na,
+
+Ca exchange. J Membr Biol. 1990;113:177-191.
+
+61. Gadsby DC. The Na/K pump of cardiac myocytes. In: Zipes D,
+Jalife J, eds. Cardiac Electrophysiology-From Cell to Bedside. Phil-
+adelphia, Pa: WB Saunders Co; 1990:35-51.
+
+62. Nakao M, Gadsby DC. [Na] and [K] dependence of the Na/K
+pump current-voltage relationship in guinea-pig ventricular
+myocytes. J Gen Physiol. 1989;94:539-565.
+
+63. Daut J, Rudel R. The electrogenic sodium pump in guinea-pig
+ventricular muscle: inhibition of pump current by cardiac gly-
+cosides. J Physiol (Lond). 1982;330:243-264.
+
+64. Daut J. Inhibition of the sodium pump in guinea-pig ventricular
+muscle by dihydroouabain: effects of external potassium and
+sodium. J Physiol (Lond). 1983;339:643-662.
+
+65. Daut J. The energetics of the Na, K-pump in cardiac muscle. In:
+Fortschritte der Zoologie, Luttgau (Hrsg): Volume 33, Membrane
+Control. Stuttgart/New York: Gustav Fischer Verlag; 1986:
+419-427.
+
+66. Cohen IS, Kline RP, Pennefather P, Mulrine NK. Models of
+Na-K pump in cardiac muscle predict the wrong intracellular Na+
+activity. Proc R Soc Lond Biol. 1987;231:371-382.
+
+67. Cohen IS, Datyner NB, Gintant GA, Mulrine NK, Pennefather P.
+Properties of an electrogenic sodium-potassium pump in isolated
+canine Purkinje myocytes. J Physiol (Lond). 1987;383:251-267.
+
+68. Sejersted OM, Wasserstrom JA, Fozzard HA. Na,K pump stim-
+ulation by intracellular Na in isolated, intact sheep cardiac
+Purkinje fibers. J Gen Physiol. 1988;91:445-466.
+
+69. Mogul DJ, Singer DH, Ten Eick RE. Dependence of Na-K pump
+current on internal Nal in mammalian cardiac myocytes. Am J
+Physiol. 1990;259:H488-H496.
+
+70. Stimers JR, Shigeto N, Lieberman M. Na/K pump current in
+aggregates of cultured chick cardiac myocytes. J Gen Physiol.
+1990;95:61-76.
+
+71. Ehara T, Noma A, Ono K. Calcium-activated non-selective cation
+channel in ventricular cells isolated from adult guinea-pig hearts.
+J Physiol (Lond). 1988;403:117-133.
+
+72. Cannell MB, Lederer WJ. The arrhythmogenic current IT, in the
+absence of electrogenic sodium-calcium exchange in sheep
+cardiac Purkinje fibres. J Physiol (Lond). 1986;374:201-219.
+
+73. Doerr T, Denger R, Doerr A, Trautwein W. Ionic currents con-
+tributing to the action potential in single ventricular myocytes of
+the guinea pig studied with action potential clamp. Pflugers Arch.
+1990;416:230-237.
+
+74. Caroni P, Zurini M, Clark A, Carafoli E. Further characterization
+and reconstitution of the purified Ca-pumping ATPase of heart
+sarcolemma. J Biol Chem. 1983;258:7305-7310.
+
+75. Hilgemann DW, Noble D. Excitation-contraction coupling and
+extracellular calcium transients in rabbit atrium: reconstruction of
+basic cellular mechanisms. Proc R Soc Lond Biol. 1987;230:
+163-205.
+
+76. Campbell DL, Giles WR, Robinson K, Shibata EF. Studies of the
+sodium-calcium exchanger in bull-frog atrial myocytes. J Physiol
+(Lond). 1988;403:317-340.
+
+77. Robertson SP, Johnson JD, Potter JD. The time-course of Ca2+
+exchange with calmodulin, troponin, parvalbumin, and myosin in
+response to transient increases in Ca2+. Biophys J. 1987;34:
+559-569.
+
+78. Cannell MB, Allen DG. Model of calcium movements during
+activation in the sarcomere of frog skeletal muscle. Biophys J.
+1984;45:913-925.
+
+79. Wier WG, Yue DT. Intracellular calcium transients underlying
+the short-term force-interval relationship in ferret ventricular
+myocardium. J Physiol (Lond). 1986;376:507-530.
+
+80. Backx PH, de Tombe PP, Van Deen JHK, Mulder BJM, ter
+Keurs HEDJ. A model of propagating calcium-induced calcium
+release mediated by calcium diffusion. J Gen Physiol. 1989;93:
+963-977.
+
+81. Kawano S, Lee CJ, Coronado R. Ca2+ dependent activation and
+inactivation of Ca 2+ release channels in the sarcoplasmic
+reticulum of cardiac and skeletal muscle. J Mol Cell Cardiol.
+1990;22(suppl 1):P90. Abstract.
+
+82. Chamberlain BK, Volpe P, Fleischer S. Calcium-induced calcium
+release from purified cardiac sarcoplasmic reticulum vesicles.
+J Biol Chem. 1984;259:7540-7546.
+
+83. Mulder BJM, de Tombe PP, ter Keurs HEDJ. Spontaneous and
+propagated contractions in rat cardiac trabeculae. J Gen Physiol.
+1989;93:943-961.
+
+84. Capogrossi MC, Stern MD, Spurgeon HA, Lakatta EG. Spon-
+taneous Ca2+ release from the sarcoplasmic reticulum limits
+Ca2+-dependent twitch potentiation in individual cardiac myo-
+cytes: a mechanism for maximum inotropy in the myocardium.
+J Gen Physiol. 1988;91:133-155.
+
+85. Haynes DH, Mandveno A. Computer modeling of Ca2+ pump
+function of Ca2'-Mg 2+-ATPase of sarcoplasmic reticulum.
+Physiol Rev. 1987;67:244-284.
+
+86. Tada M, Shigekawa M, Kadoma M, Nimura Y. Uptake of calcium
+by sarcoplasmic reticulum and its regulation and functional con-
+sequences. In: Sperelakis N, ed. Physiology and Pathophysiology of
+the Heart. 2nd ed. Boston, Mass: Kluwer Academic Publishers;
+1989:267-290.
+
+87. Yue DT, Burkhoff D, Franz MR, Hunter WC, Sagawa K. Postex-
+trasystolic potentiation of the isolated canine left ventricle: rela-
+tionship to mechanical restitution. Circ Res. 1985;56:340-350.
+
+88. McDonald TF, Cavalie A, Trautwein W, Pelzer D. Voltage-
+dependent properties of macroscopic and elementary calcium
+channel currents in guinea pig ventricular myocytes. Pflugers Arch.
+1986;406:437-448.
+89. Kamp TJ, Sanguinetti MC, Miller RJ. Voltage- and use-
+dependent modulation of cardiac calcium channels by the dihy-
+dropyridine (+)-202-791. Circ Res. 1989;64:338-351.
+
+90. Gettes LS, Reuter H. Slow recovery from inactivation of inward
+currents in mammalian myocardial fibres. J Physiol (Lond). 1974;
+240:703-724.
+
+91. Robinson RB, Boyden PA, Hoffman BF, Hewett KW. Electrical
+restitution process in dispersed canine cardiac Purkinje and ven-
+tricular cells. Am J Physiol. 1987;253:H1018-H1025.
+
+92. Beuckelmann DJ, Wier WG. Sodium-calcium exchange in guinea-
+pig cardiac cells, exchange current and changes in intracellular Ca2+.
+J Physiol (Lond). 1989;414:499-520.
+
+93. Malecot CO, Trautwein W. On the relationship between Vma. of
+slow responses and Ca-current availability in whole-cell clamped
+guinea pig heart cells. Pflugers Arch. 1987;410:15-22.
+
+94. Meissner G, Henderson JS. Rapid calcium release from cardiac
+sarcoplasmic reticulum vesicles is dependent on Ca2l and is mod-
+ulated by Mg 2+, adenine nucleotide, and calmodulin. J Biol
+Chem. 1987;262:3065-3073.
+
+95. Campbell DL, Giles WR, Shibata EF. Ion transfer characteristics
+of the calcium current in bull-frog atrial myocytes. J Physiol
+(Lond). 1988;403:239-266.
+
+96. Priori SG, Corr PB. Mechanisms underlying early and delayed
+afterdepolarizations induced by catecholamines. Am J Physiol.
+1990;258:H1796-H1805.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+1096
+
+Circulation Research
+
+Vol 74, No 6 June 1994
+
+97. Pelzer D, Cavalie A, McDonald TF, Trautwein W. Calcium
+channels in single heart cells. In: Piper HM, Isenberg G, eds.
+Isolated Adult Cardiomyocytes. Boca Raton, Fla: CRC Press Inc;
+1989;2:29-73.
+
+98. Droogmans G, Nilius B. Kinetic properties of the cardiac T-type
+calcium channel in the guinea-pig. J Physiol (Lond). 1989;419:
+627-650.
+
+99. Wong AYK, Fabiato A, Bassingthwaighte JB. Model of Ca
+release mechanism from the sarcoplasmic reticulum: Ca-
+mediated activation, inactivation and reactivation. In: Sideman S,
+Beyar R, eds. Activation, Metabolism and Perfusion of the Heart.
+Dordrecht, The Netherlands: Martinus Nijhoff Publishers; 1987:
+281-295.
+
+100. Leblanc N, Hume JR. Sodium current-induced release of
+calcium from cardiac sarcoplasmic reticulum. Science. 1990;248:
+372-376.
+
+101. Giles WR, Shimoni Y. Comparison of sodium-calcium exchanger
+and transient inward currents in single cells from rabbit ventricle.
+J Physiol (Lond). 1989;417:465-481.
+
+102. Sanguinetti MC, Jurkiewicz NK. Delayed rectifier outward K'
+current is composed of two currents in guinea pig atrial cells. Am
+J Physiol. 1991;260:H393-H399.
+
+103. Harvey RD, Clark CD, Hume JR. Chloride current in mam-
+
+malian cardiac myocytes. J Gen Physiol. 1990;95:1077-1102.
+
+104. Tohse N. Calcium-sensitive delayed rectifier potassium current in
+guinea pig ventricular cells. Am JPhysiol. 1990;258:H1200-H1207.
+105. Horie M, Irisawa H, Noma A. Voltage-dependent magnesium
+block of adenosine-triphosphate-sensitive potassium channel in
+guinea-pig ventricular cells. J Physiol (Lond). 1987;387:251-272.
+106. Luk H-N, Carmeliet E. Na+-activated K' current in cardiac cells,
+rectification, open probability, block and role in digitalis toxicity.
+Pflugers Arch. 1990;416:766-768.
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+A dynamic model of the cardiac ventricular action potential. I. Simulations of ionic
+
+currents and concentration changes.
+
+C H Luo and Y Rudy
+
+1994;74:1071-1096
+Circ Res.(cid:160)
+doi: 10.1161/01.RES.74.6.1071
+
+Circulation Research 
+
+is published by the American Heart Association, 7272 Greenville Avenue, Dallas, TX 75231
+Copyright © 1994 American Heart Association, Inc. All rights reserved.
+
+Print ISSN: 0009-7330. Online ISSN: 1524-4571 
+
+The online version of this article, along with updated information and services, is located on the
+
+World Wide Web at: 
+
+ 
+http://circres.ahajournals.org/content/74/6/1071
+
+Circulation Research
+
+ Requests for permissions to reproduce figures, tables, or portions of articles originally published
+
+Permissions:
+in
+ can be obtained via RightsLink, a service of the Copyright Clearance Center, not the
+Editorial Office. Once the online version of the published article for which permission is being requested is 
+located, click Request Permissions in the middle column of the Web page under Services. Further information
+about this process is available in the
+(cid:160) 
+Reprints:
+http://www.lww.com/reprints
+ 
+(cid:160) 
+Subscriptions:
+http://circres.ahajournals.org//subscriptions/
+ 
+(cid:160) 
+
+ Information about reprints can be found online at: 
+
+ Information about subscribing to 
+
+Permissions and Rights Question and Answer 
+
+document. 
+
+Circulation Research 
+
+is online at: 
+
+Downloaded from 
+
+http://circres.ahajournals.org/
+
+ by guest on June 29, 2015
+
+

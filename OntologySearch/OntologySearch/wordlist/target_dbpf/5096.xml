@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5096">
+<itemtype>xnppaper</itemtype>
+<titles><title>Integrating behavioral and physiological models of hippocampal function.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Amnesia</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Cholinergic Fibers</keyword>
+<keyword>physiology</keyword>
+<keyword>Conditioning (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Evaluation Studies as Topic</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Sensitivity and Specificity</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T03:33:39Z</last_update_date>
+<creation_date>2011-05-16T03:33:39Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5096</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5096" version="1.02">
+<authors><author>Gluck MA</author><author>Myers CE</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>643-53</page>
+<abstract>In recent modeling of hippocampal function, we have attempted to integrate formal behavioral analyses of classical conditioning with psychobiological data on brain lesions (Gluck and Myers [1993] Hippocampus 3:491-516; Myers and Gluck [1994] Behav Neurosci 108(5):835-847). Based on comparative behavioral analyses, we have argued that animals with hippocampal region damage are unable to alter stimulus similarity based on experience. While hippocampal-damaged animals can still learn whether to respond to an individual stimulus, they are notably impaired at many tasks involving learning relationships between stimuli-especially in the absence of explicit reinforcement. These analyses lead to a computational theory which identifies two representational recoding processes-predictive differentiation and redundancy compression-which alter stimulus similarity relationships in intact animals but are dependent on intact hippocampal region processing. More recent, and ongoing, modeling aims to broaden this model of hippocampal region function in classical conditioning, with an emphasis on physiological and anatomical constraints, including the role of the fornix and subcortical modulation, preprocessing in sensory cortices, and localization of the proposed representational functions within more precisely identified hippocampal region substrates (Myers et al. [1995] Psychology 23(2):116-138; Myers and Gluck [1996] Behav Neurosci; Myers et al. [1996] Neurobiol Learning Memory). Working to bridge between behavioral and physiological levels of analysis, we ultimately hope to develop a more complete understanding of hippocampal region function in memory across a wider range of behavioral paradigms, elucidating how this functionality emerges from underlying physiological and anatomical substrates.</abstract>
+<pubmed_id>9034851</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,25 @@
+DEIA
+Animals
+Behavior
+Animal
+Head
+Hippocampus
+pathology
+physiopathology
+Male
+Mamillary Bodies
+injuries
+pathology
+physiopathology
+Movement
+physiology
+Neural Pathways
+pathology
+physiopathology
+Rats
+Rats
+Long-Evans
+Signal Transduction
+Space Perception
+physiology
+The rat limbic system contains a variety of location (place and grid) cells and directional (head direction; HD) cells, thought to be critical for navigation. The HD cells can be found throughout many portions of the hippocampal formation, as well as additional limbic cortical and subcortical regions. These HD-containing regions are generally strongly interconnected anatomically. Earlier work, along with theoretical considerations, suggest that despite the ubiquitous presence of HD cells, there may be a single region which is critical for the initial formation of this HD signal. Specifically, it has been suggested that the critical HD cell network resides in a reciprocal loop formed by the interconnected lateral mammillary nucleus and dorsal tegmental nucleus of Gudden. Unlike the HD cells, place cells have not been observed in subcortical structures. They are, however, found in various forms throughout much of the hippocampal formation. Theoretical accounts of the place cells suggest that they are partly dependent on a path integration process which is, in turn, dependent on the HD cells. According to the above reasoning, lesions of the mammillary bodies should completely eliminate both HD and place/grid cells in the hippocampal formation. Here, we tested for both HD and place cell activity in various hippocampal formation sub regions following lesions of the mammillary bodies. We found that these lesions caused nearly complete elimination of the HD cell signal, but left the place cell signal largely intact. Our interpretation of these findings is somewhat limited by the fact that we did not provide a thorough test of the path integration abilities of the post lesion place cells. These findings pose a challenge for current theoretical accounts of place and grid cells. They also help to explain the role played by the mammillary bodies in spatial learning and memory.

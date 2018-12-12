@@ -1,0 +1,11 @@
+Amnesia
+physiopathology
+Hippocampus
+pathology
+physiopathology
+Humans
+Memory
+physiology
+Verbal Learning
+physiology
+Early hippocampal injury in humans has been found to result in a limited form of global anterograde amnesia. At issue is whether the limitation is qualitative, with the amnesia reflecting substantially greater impairment in episodic than in semantic memory, or only quantitative, with both episodic and semantic memory being partially and equivalently impaired. Evidence from neuroanatomical and lesion studies in animals suggests that the hippocampus and subhippocampal cortices form a hierarchically organized system, such that the greatest convergence of information (and, by implication, the richest amount of association) takes place within the hippocampus, located at the top of the hierarchy. On the one hand, this evidence is consistent with the view that selective hippocampal damage produces a differential impairment in context-rich episodic memory as compared with context-free semantic memory, because only the latter can be supported by the subhippocampal cortices. On the other hand, given the system's hierarchical form of organization, this dissociation of deficits is difficult to prove, because a quantitatively limited deficit will nearly always be a viable alternative. A final choice between the alternative views is therefore likely to depend less on further evidence gathered in brain-injured patients than on which view accounts for more of the data gathered from converging approaches to the problem.

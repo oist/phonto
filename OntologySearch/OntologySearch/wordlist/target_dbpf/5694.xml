@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5694">
+<itemtype>xnppaper</itemtype>
+<titles><title>Role of medial temporal lobe in extensive retrieval of task-related knowledge.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Female</keyword>
+<keyword>Humans</keyword>
+<keyword>Judgment</keyword>
+<keyword>physiology</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mental Processes</keyword>
+<keyword>physiology</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>Semantics</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T03:41:26Z</last_update_date>
+<creation_date>2011-09-22T03:41:26Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5694</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5694" version="1.02">
+<authors><author>Luo J</author><author>Niki K</author></authors>
+<journal>Hippocampus</journal>
+<volume>12</volume>
+<number>4</number>
+<page>487-94</page>
+<abstract>The role of medial temporal lobe (MTL) in deep semantic processing was examined in a triple semantic judgment task in which subjects were asked to decide which one of the two bottom words was more semantically fit to the top word. By changing the number of bottom words that are semantically related to the top word, we can disassociate effects of reactivating the &quot;old&quot; semantic associations and effects of establishing &quot;new&quot; semantic associations on the MTL. The results of event-related fMRI analysis indicated that MTL was more activated in the retrieval of old semantic associations than in the establishment of new semantic associations. The function of MTL in this semantic judgment task was explained as subserving the process of extensive retrieval of task-related knowledge.</abstract>
+<pubmed_id>12201633</pubmed_id>
+</detail>
+</item>

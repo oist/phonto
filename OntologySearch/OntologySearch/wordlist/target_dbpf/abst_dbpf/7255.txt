@@ -1,0 +1,31 @@
+Aging
+physiology
+Animals
+Electric Stimulation
+methods
+Electrophysiology
+GABA-A Receptor Antagonists
+GABA-B Receptor Antagonists
+Hippocampus
+drug effects
+growth
+&
+development
+physiology
+Long-Term Potentiation
+Organophosphorus Compounds
+pharmacology
+Rats
+Rats
+Sprague-Dawley
+Receptors
+GABA-A
+physiology
+Receptors
+GABA-B
+physiology
+Synapses
+physiology
+gamma-Aminobutyric Acid
+physiology
+Low-frequency (1 Hz) stimulation (LFS) was used to elicit long-term depression (LTD) or depotentiation of excitatory transmission of the Schaffer collateral pathway in the CA1 region of the rat hippocampus. Both LTD and depotentiation were found to be homosynaptic and NMDA receptor (NMDAR) dependent. As NMDAR activation can be modulated by the inhibitory GABAergic system, we tested the hypothesis that GABA plays a role in regulating these phenomena. The GABAB antagonist CGP 35348 significantly inhibited LTD, but not depotentiation, in slices from young animals (indicating that the GABAB-mediated contribution was altered following HFS). The ability to express LTD was found to be developmentally dependent, as young animals (16-22 d) consistently expressed LTD, whereas LTD was not expressed in naive slices taken from mature (5-10 weeks) animals. The GABAA antagonist bicuculline did not affect LTD in the young animals, but did enhance LTD expression in slices from mature animals. LFS was also effective in decreasing, or depotentiating, responses that had undergone long-term potentiation (LTP) by high-frequency stimulation (HFS). In contrast to LTD, depotentiation was consistently expressed in slices from both the young and mature groups. Moreover, following an HFS train, LTD (compared to initial baseline response) could be induced in mature slices previously unable to express LTD in the naive state. Thus, the role of GABA in modulating the effects of LFS varied with the prior synaptic activity in the slice as well as with the maturity of the animal. Our results suggest that the influence of both age and prior synaptic activity (i.e., HFS) on LTD induction can be explained by changes in GABAergic systems in young versus mature, and naive versus tetanized slices.

@@ -1,0 +1,2259 @@
+
+1. J Comput Neurosci. 2012 Jun;32(3):499-519. doi: 10.1007/s10827-011-0366-4. Epub
+2011 Oct 5.
+
+Relative contributions of local cell and passing fiber activation and silencing
+to changes in thalamic fidelity during deep brain stimulation and lesioning: a
+computational modeling study.
+
+So RQ(1), Kent AR, Grill WM.
+
+Author information: 
+(1)Department of Biomedical Engineering, Duke University, Box 90281, Durham, NC
+27708-0281, USA.
+
+Deep brain stimulation (DBS) and lesioning are two surgical techniques used in
+the treatment of advanced Parkinson's disease (PD) in patients whose symptoms are
+not well controlled by drugs, or who experience dyskinesias as a side effect of
+medications. Although these treatments have been widely practiced, the mechanisms
+behind DBS and lesioning are still not well understood. The subthalamic nucleus
+(STN) and globus pallidus pars interna (GPi) are two common targets for both DBS 
+and lesioning. Previous studies have indicated that DBS not only affects local
+cells within the target, but also passing axons within neighboring regions. Using
+a computational model of the basal ganglia-thalamic network, we studied the
+relative contributions of activation and silencing of local cells (LCs) and
+fibers of passage (FOPs) to changes in the accuracy of information transmission
+through the thalamus (thalamic fidelity), which is correlated with the
+effectiveness of DBS. Activation of both LCs and FOPs during STN and GPi-DBS were
+beneficial to the outcome of stimulation. During STN and GPi lesioning, effects
+of silencing LCs and FOPs were different between the two types of lesioning. For 
+STN lesioning, silencing GPi FOPs mainly contributed to its effectiveness, while 
+silencing only STN LCs did not improve thalamic fidelity. In contrast, silencing 
+both GPi LCs and GPe FOPs during GPi lesioning contributed to improvements in
+thalamic fidelity. Thus, two distinct mechanisms produced comparable improvements
+in thalamic function: driving the output of the basal ganglia to produce tonic
+inhibition and silencing the output of the basal ganglia to produce tonic
+disinhibition. These results show the importance of considering effects of
+activating or silencing fibers passing close to the nucleus when deciding upon a 
+target location for DBS or lesioning.
+
+PMCID: PMC3288232
+PMID: 21984318  [PubMed - indexed for MEDLINE]
+
+
+2. J Biol Rhythms. 1999 Dec;14(6):433-48.
+
+Limit cycle models for circadian rhythms based on transcriptional regulation in
+Drosophila and Neurospora.
+
+Leloup JC(1), Gonze D, Goldbeter A.
+
+Author information: 
+(1)Faculte des Sciences, Universite Libre de Bruxelles, Brussels, Belgium.
+
+Comment in
+    J Biol Rhythms. 1999 Dec;14(6):486-9.
+
+We examine theoretical models for circadian oscillations based on transcriptional
+regulation in Drosophila and Neurospora. For Drosophila, the molecular model is
+based on the negative feedback exerted on the expression of the per and tim genes
+by the complex formed between the PER and TIM proteins. For Neurospora,
+similarly, the model relies on the feedback exerted on the expression of the frq 
+gene by its protein product FRQ. In both models, sustained rhythmic variations in
+protein and mRNA levels occur in continuous darkness, in the form of limit cycle 
+oscillations. The effect of light on circadian rhythms is taken into account in
+the models by considering that it triggers degradation of the TIM protein in
+Drosophila, and frq transcription in Neurospora. When incorporating the control
+exerted by light at the molecular level, we show that the models can account for 
+the entrainment of circadian rhythms by light-dark cycles and for the damping of 
+the oscillations in constant light, though such damping occurs more readily in
+the Drosophila model. The models account for the phase shifts induced by light
+pulses and allow the construction of phase response curves. These compare well
+with experimental results obtained in Drosophila. The model for Drosophila shows 
+that when applied at the appropriate phase, light pulses of appropriate duration 
+and magnitude can permanently or transiently suppress circadian rhythmicity. We
+investigate the effects of the magnitude of light-induced changes on oscillatory 
+behavior. Finally, we discuss the common and distinctive features of circadian
+oscillations in the two organisms.
+
+PMID: 10643740  [PubMed - indexed for MEDLINE]
+
+
+3. J Physiol. 1952 Aug;117(4):500-44.
+
+A quantitative description of membrane current and its application to conduction 
+and excitation in nerve.
+
+HODGKIN AL, HUXLEY AF.
+
+PMCID: PMC1392413
+PMID: 12991237  [PubMed - indexed for MEDLINE]
+
+
+4. J Physiol. 1977 Jun;268(1):177-210.
+
+Reconstruction of the action potential of ventricular myocardial fibres.
+
+Beeler GW, Reuter H.
+
+1. A mathematical model of membrane action potentials of mammalian ventricular
+myocardial fibres is described. The reconstruction model is based as closely as
+possible on ionic currents which have been measured by the voltage-clamp
+method.2. Four individual components of ionic current were formulated
+mathematically in terms of Hodgkin-Huxley type equations. The model incorporates 
+two voltage- and time-dependent inward currents, the excitatory inward sodium
+current, i(Na), and a secondary or slow inward current, i(s), primarily carried
+by calcium ions. A time-independent outward potassium current, i(K1), exhibiting 
+inward-going rectification, and a voltage- and time-dependent outward current,
+i(x1), primarily carried by potassium ions, are further elements of the model.3. 
+The i(Na) is primarily responsible for the rapid upstroke of the action
+potential, while the other current components determine the configuration of the 
+plateau of the action potential and the re-polarization phase. The relative
+importance of inactivation of i(s) and of activation of i(x1) for termination of 
+the plateau is evaluated by the model.4. Experimental phenomena like slow
+recovery of the sodium system from inactivation, frequency dependence of the
+action potential duration, all-or-nothing re-polarization, membrane oscillations 
+are adequately described by the model.5. Possible inadequacies and shortcomings
+of the model are discussed.
+
+PMCID: PMC1283659
+PMID: 874889  [PubMed - indexed for MEDLINE]
+
+
+5. Circ Res. 1991 Jun;68(6):1501-26.
+
+A model of the ventricular cardiac action potential. Depolarization,
+repolarization, and their interaction.
+
+Luo CH(1), Rudy Y.
+
+Author information: 
+(1)Department of Biomedical Engineering, Case Western Reserve University,
+Cleveland, Ohio 44106.
+
+A mathematical model of the membrane action potential of the mammalian
+ventricular cell is introduced. The model is based, whenever possible, on recent 
+single-cell and single-channel data and incorporates the possibility of changing 
+extracellular potassium concentration [K]o. The fast sodium current, INa, is
+characterized by fast upstroke velocity (Vmax = 400 V/sec) and slow recovery from
+inactivation. The time-independent potassium current, IK1, includes a
+negative-slope phase and displays significant crossover phenomenon as [K]o is
+varied. The time-dependent potassium current, IK, shows only a minimal degree of 
+crossover. A novel potassium current that activates at plateau potentials is
+included in the model. The simulated action potential duplicates the
+experimentally observed effects of changes in [K]o on action potential duration
+and rest potential. Physiological simulations focus on the interaction between
+depolarization and repolarization (i.e., premature stimulation). Results
+demonstrate the importance of the slow recovery of INa in determining the
+response of the cell. Simulated responses to periodic stimulation include
+monotonic Wenckebach patterns and alternans at normal [K]o, whereas at low [K]o
+nonmonotonic Wenckebach periodicities, aperiodic patterns, and enhanced
+supernormal excitability that results in unstable responses ("chaotic activity") 
+are observed. The results are consistent with recent experimental observations,
+and the model simulations relate these phenomena to the underlying ionic channel 
+kinetics.
+
+PMID: 1709839  [PubMed - indexed for MEDLINE]
+
+
+6. Biol Cybern. 1977 Feb 7;25(3):163-76.
+
+Motorneurons of different geometry and the size principle.
+
+Traub RD.
+
+PMID: 836920  [PubMed - indexed for MEDLINE]
+
+
+7. Phys Med Biol. 2006 Dec 7;51(23):6141-56. Epub 2006 Nov 8.
+
+Cell model for efficient simulation of wave propagation in human ventricular
+tissue under normal and pathological conditions.
+
+Ten Tusscher KH(1), Panfilov AV.
+
+Author information: 
+(1)Department of Theoretical Biology, Utrecht University, Padualaan 8, 3584 CH
+Utrecht, The Netherlands. khwjtuss@hotmail.com
+
+In this paper, we formulate a model for human ventricular cells that is efficient
+enough for whole organ arrhythmia simulations yet detailed enough to capture the 
+effects of cell level processes such as current blocks and channelopathies. The
+model is obtained from our detailed human ventricular cell model by using
+mathematical techniques to reduce the number of variables from 19 to nine. We
+carefully compare our full and reduced model at the single cell, cable and 2D
+tissue level and show that the reduced model has a very similar behaviour.
+Importantly, the new model correctly produces the effects of current blocks and
+channelopathies on AP and spiral wave behaviour, processes at the core of current
+day arrhythmia research. The new model is well over four times more efficient
+than the full model. We conclude that the new model can be used for efficient
+simulations of the effects of current changes on arrhythmias in the human heart.
+
+PMID: 17110776  [PubMed - indexed for MEDLINE]
+
+
+8. J Physiol. 2006 Dec 1;577(Pt 2):617-39. Epub 2006 Sep 28.
+
+Modelling spinal circuitry involved in locomotor pattern generation: insights
+from deletions during fictive locomotion.
+
+Rybak IA(1), Shevtsova NA, Lafreniere-Roula M, McCrea DA.
+
+Author information: 
+(1)Department of Neurobiology and Anatomy, Drexel University College of Medicine,
+Philadelphia, PA 19129, USA.
+
+Comment in
+    J Physiol. 2007 Apr 15;580(Pt. 2):363-4.
+
+The mammalian spinal cord contains a locomotor central pattern generator (CPG)
+that can produce alternating rhythmic activity of flexor and extensor
+motoneurones in the absence of rhythmic input and proprioceptive feedback. During
+such fictive locomotor activity in decerebrate cats, spontaneous omissions of
+activity occur simultaneously in multiple agonist motoneurone pools for a number 
+of cycles. During these 'deletions', antagonist motoneurone pools usually become 
+tonically active but may also continue to be rhythmic. The rhythmic activity that
+re-emerges following a deletion is often not phase shifted. This suggests that
+some neuronal mechanism can maintain the locomotor period when motoneurone
+activity fails. To account for these observations, a simplified computational
+model of the spinal circuitry has been developed in which the locomotor CPG
+consists of two levels: a half-centre rhythm generator (RG) and a pattern
+formation (PF) network, with reciprocal inhibitory interactions between
+antagonist neural populations at each level. The model represents a network of
+interacting neural populations with single interneurones and motoneurones
+described in the Hodgkin-Huxley style. The model reproduces the range of
+locomotor periods and phase durations observed during real locomotion in adult
+cats and permits independent control of the level of motoneurone activity and of 
+step cycle timing. By altering the excitability of neural populations within the 
+PF network, the model can reproduce deletions in which motoneurone activity fails
+but the phase of locomotor oscillations is maintained. The model also suggests
+criteria for the functional identification of spinal interneurones involved in
+the mammalian locomotor pattern generation.
+
+PMCID: PMC1890439
+PMID: 17008376  [PubMed - indexed for MEDLINE]
+
+
+9. Neuroscience. 1996 Mar;71(2):397-410.
+
+Modeling N-methyl-D-aspartate-induced bursting in dopamine neurons.
+
+Li YX(1), Bertram R, Rinzel J.
+
+Author information: 
+(1)Mathematical Research Branch, National Institute of Diabetes and Digestive and
+Kidney Diseases, National Institutes of Health, Bethesda, MD 20892, USA.
+
+Burst firing of dopaminergic neurons of the substantia nigra pars compacta can be
+induced in vitro by the glutamate agonist N-methyl-D-aspartate. It has been
+suggested that the interburst hyperpolarization is due to Na+ extrusion by a
+ouabain-sensitive pump [Johnson et al. (1992) Science 258, 665-667]. We formulate
+and explore a theoretical model, with a minimal number of currents, for this
+novel mechanism of burst generation. This minimal model is further developed into
+a more elaborate model based on observations of additional currents and
+hypotheses about their spatial distribution in dopaminergic neurons [Hounsgaard
+(1992) Neuroscience 50, 513-518; Llinas et al. (1984) Brain Res. 294, 127-132].
+Using the minimal model, we confirm that interaction between the regenerative,
+inward N-methyl-D-aspartate-mediated current and the outward Na(+)-pump current
+is sufficient to generate the slow oscillation (approximately 0.5 Hz) underlying 
+the burst. The negative-slope region of the N-methyl-D-aspartate channel's
+current-voltage relation is indispensable for this slow rhythm generation. The
+time-scale of Na(+)-handling determines the burst's slow frequency. Moreover, we 
+show that, given the constraints of sodium handling, such bursting is best
+explained mechanistically by using at least two spatial, cable-like compartments:
+a soma where action potentials are produced and a dendritic compartment where the
+slow rhythm is generated. Our result is consistent with recent experimental
+evidence that burst generation originates in distal dendrites [Seutin et al.
+(1994) Neuroscience 58, 201-206]. Responses of the model to a number of
+electrophysiological and pharmacological stimuli are consistent with known
+responses observed under similar conditions. These include the persistence of the
+slow rhythm when the tetrodotoxin-sensitive Na+ channel is blocked and when the
+soma is voltage-clamped at -60 mV. Using our more elaborate model, we account for
+details of the observed frequency adaptation in N-methyl-D-aspartate-induced
+bursting, the origin of multiple spiking and bursting mechanisms, and the
+interaction between two different bursting mechanisms. Besides reproducing
+several well established firing patterns, this model also suggests that new
+firing modes, not yet recorded, might also occur in dopaminergic neurons. This
+model provides mechanistic insights and explanations into the origin of a variety
+of experimentally observed membrane potential firing patterns in dopaminergic
+neurons, including N-methyl-D-aspartate-induced bursting and its dendritic
+origin. Such a model, capable of reproducing a number of realistic behaviors of
+dopaminergic neurons, could be useful in further studies of the basal
+ganglia-thalamocortical motor circuit. It may also shed light on bursting that
+involves N-methyl-D-aspartate channel activity in other neuron types.
+
+PMID: 9053795  [PubMed - indexed for MEDLINE]
+
+
+10. Biophys J. 2007 Mar 1;92(5):1522-43. Epub 2006 Dec 8.
+
+Kinetic properties of the cardiac L-type Ca2+ channel and its role in myocyte
+electrophysiology: a theoretical investigation.
+
+Faber GM(1), Silva J, Livshitz L, Rudy Y.
+
+Author information: 
+(1)Department of Biomedical Engineering, Case Western Reserve University,
+Cleveland, Ohio, USA.
+
+The L-type Ca(2+) channel (Ca(V)1.2) plays an important role in action potential 
+(AP) generation, morphology, and duration (APD) and is the primary source of
+triggering Ca(2+) for the initiation of Ca(2+)-induced Ca(2+)-release in cardiac 
+myocytes. In this article we present: 1), a detailed kinetic model of Ca(V)1.2,
+which is incorporated into a model of the ventricular mycoyte where it interacts 
+with a kinetic model of the ryanodine receptor in a restricted subcellular space;
+2), evaluation of the contribution of voltage-dependent inactivation (VDI) and
+Ca(2+)-dependent inactivation (CDI) to total inactivation of Ca(V)1.2; and 3),
+description of dynamic Ca(V)1.2 and ryanodine receptor channel-state occupancy
+during the AP. Results are: 1), the Ca(V)1.2 model reproduces experimental
+single-channel and macroscopic-current data; 2), the model reproduces rate
+dependence of APD, [Na(+)](i), and the Ca(2+)-transient (CaT), and restitution of
+APD and CaT during premature stimuli; 3), CDI of Ca(V)1.2 is sensitive to Ca(2+) 
+that enters the subspace through the channel and from SR release. The relative
+contributions of these Ca(2+) sources to total CDI during the AP vary with time
+after depolarization, switching from early SR dominance to late Ca(V)1.2
+dominance. 4), The relative contribution of CDI to total inactivation of Ca(V)1.2
+is greater at negative potentials, when VDI is weak; and 5), loss of VDI due to
+the Ca(V)1.2 mutation G406R (linked to the Timothy syndrome) results in APD
+prolongation and increased CaT.
+
+PMCID: PMC1796810
+PMID: 17158566  [PubMed - indexed for MEDLINE]
+
+
+11. J Neurosci. 1996 Oct 15;16(20):6402-13.
+
+Gamma oscillation by synaptic inhibition in a hippocampal interneuronal network
+model.
+
+Wang XJ(1), Buzsaki G.
+
+Author information: 
+(1)Physics Department, Brandeis University, Waltham, Massachusetts 02254, USA.
+
+Fast neuronal oscillations (gamma, 20-80 Hz) have been observed in the neocortex 
+and hippocampus during behavioral arousal. Using computer simulations, we
+investigated the hypothesis that such rhythmic activity can emerge in a random
+network of interconnected GABAergic fast-spiking interneurons. Specific
+conditions for the population synchronization, on properties of single cells and 
+the circuit, were identified. These include the following: (1) that the amplitude
+of spike afterhyperpolarization be above the GABAA synaptic reversal potential;
+(2) that the ratio between the synaptic decay time constant and the oscillation
+period be sufficiently large; (3) that the effects of heterogeneities be modest
+because of a steep frequency-current relationship of fast-spiking neurons.
+Furthermore, using a population coherence measure, based on coincident firings of
+neural pairs, it is demonstrated that large-scale network synchronization
+requires a critical (minimal) average number of synaptic contacts per cell, which
+is not sensitive to the network size. By changing the GABAA synaptic maximal
+conductance, synaptic decay time constant, or the mean external excitatory drive 
+to the network, the neuronal firing frequencies were gradually and monotonically 
+varied. By contrast, the network synchronization was found to be high only within
+a frequency band coinciding with the gamma (20-80 Hz) range. We conclude that the
+GABAA synaptic transmission provides a suitable mechanism for synchronized gamma 
+oscillations in a sparsely connected network of fast-spiking interneurons. In
+turn, the interneuronal network can presumably maintain subthreshold oscillations
+in principal cell populations and serve to synchronize discharges of spatially
+distributed neurons.
+
+PMID: 8815919  [PubMed - indexed for MEDLINE]
+
+
+12. J Neurophysiol. 1991 Sep;66(3):839-50.
+
+A model of the T-type calcium current and the low-threshold spike in thalamic
+neurons.
+
+Wang XJ(1), Rinzel J, Rogawski MA.
+
+Author information: 
+(1)Mathematical Research Branch, National Institute of Diabetes and Digestive and
+Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892.
+
+1. A model of the transient, low-threshold voltage-dependent (T-type) Ca2+
+current is constructed using recent whole-cell voltage-clamp data from
+enzymatically isolated rat thalamocortical relay neurons. The T-type Ca2+ current
+is described according to the Hodgkin-Huxley scheme, using the m3h format, with
+rate constants determined from the experimental data (22-24 degrees C;
+extracellular Ca2+ concentration [Ca2+]o = 3 mM). 2. The T-type Ca2+ current
+inactivates rapidly during maintained depolarization (time constant, Tau h
+approximately 20 ms at -20 mV), yet recovery from inactivation is slow (time
+constant, Tau r approximately 270 ms at -80 mV). To reconcile these observations,
+a two-step kinetic scheme is proposed for the inactivation gate. Each of the time
+constants in this scheme is voltage dependent, with a maximum at about -85 mV (45
+ms for one and 275 ms for the other). 3. Numerical simulations of recovery in a
+two-pulse, voltage-clamp protocol compare favorably with experimental results
+obtained by Coulter et al. as well as those obtained in an independent series of 
+experiments with guinea pig thalamic neurons ([Ca2+]o = 10 mM). 4. For
+current-clamp simulations, a leakage current gL (V-VL) is included; with VL = -65
+mV, the calculated resting membrane potential is -63 mV. 5. It is shown that the 
+T-type Ca2+ current together with the leakage current suffices to describe the
+low-threshold spike (LTS), a slow, triangular-shaped depolarizing event that can 
+be evoked only from relatively hyperpolarized membrane potentials and that
+underlies the burst firing of Na(+)-dependent action potentials in thalamic
+neurons. Outward currents are not required to reproduce the basic shape of the
+LTS. 6. The LTS can be activated with either a depolarizing current step from a
+sufficiently hyperpolarized level or on termination of a hyperpolarizing current 
+step. In either case, the amplitude of the LTS is a monotonically increasing,
+sigmoid-shape function of the hyperpolarizing current step intensity. 7. Because 
+of the slower kinetic step of the channel's inactivation gate, our model predicts
+that recovery of the LTS to greater than one-half amplitude would require a
+prolonged hyperpolarization of greater than 100 ms (at body temperature). This
+imposes an upper limit (approximately 10 Hz) on the frequency of repetitive
+hyperpolarization that can elicit a train of LTSs and hence on the frequency of
+any rhythm that requires LTS-mediated bursting of thalamic neurons.(ABSTRACT
+TRUNCATED AT 400 WORDS)
+
+PMID: 1661326  [PubMed - indexed for MEDLINE]
+
+
+13. Biophys J. 1988 Sep;54(3):411-25.
+
+Emergence of organized bursting in clusters of pancreatic beta-cells by channel
+sharing.
+
+Sherman A(1), Rinzel J, Keizer J.
+
+Author information: 
+(1)National Institute of Diabetes and Digestive and Kidney Diseases-Mathematical 
+Research Branch, Bethesda, Maryland.
+
+Pancreatic beta-cells in an intact Islet of Langerhans exhibit bursting
+electrical behavior. The Chay-Keizer model describes this using a
+calcium-activated potassium (K-Ca) channel, but cannot account for the irregular 
+spiking of isolated beta-cells. Atwater I., L. Rosario, and E. Rojas, Cell
+Calcium. 4:451-461, proposed that the K-Ca channels, which are rarely open, are
+shared by several cells. This suggests that the chaotic behavior of isolated
+cells is stochastic. We have revised the Chay-Keizer model to incorporate voltage
+clamp data of Rorsman and Trube and extended it to include stochastic K-Ca
+channels. This model can describe the behavior of single cells, as well as that
+of clusters of cells tightly coupled by gap junctions. As the size of the
+clusters is increased, the electrical activity shows a transition from chaotic
+spiking to regular bursting. Although the model of coupling is over-simplified,
+the simulations lend support to the hypothesis that bursting is the result of
+channel sharing.
+
+PMCID: PMC1330341
+PMID: 2850029  [PubMed - indexed for MEDLINE]
+
+
+14. Biophys J. 1990 Oct;58(4):985-95.
+
+Domain model for Ca2(+)-inactivation of Ca2+ channels at low channel density.
+
+Sherman A(1), Keizer J, Rinzel J.
+
+Author information: 
+(1)National Institutes of Health, National Institutes of Diabetes and Digestive
+and Kidney Diseases, Mathematical Research Branch, Bethesda, Maryland 20892.
+
+The "shell" model for Ca2(+)-inactivation of Ca2+ channels is based on the
+accumulation of Ca2+ in a macroscopic shell beneath the plasma membrane. The
+shell is filled by Ca2+ entering through open channels, with the elevated Ca2+
+concentration inactivating both open and closed channels at a rate determined by 
+how fast the shell is filled. In cells with low channel density, the high
+concentration Ca2+ "shell" degenerates into a collection of nonoverlapping
+"domains" localized near open channels. These domains form rapidly when channels 
+open and disappear rapidly when channels close. We use this idea to develop a
+"domain" model for Ca2(+)-inactivation of Ca2+ channels. In this model the
+kinetics of formation of an inactivated state resulting from Ca2+ binding to open
+channels determines the inactivation rate, a mechanism identical with that which 
+explains single-channel recordings on rabbit-mesenteric artery Ca2+ channels
+(Huang Y., J. M. Quayle, J. F. Worley, N. B. Standen, and M. T. Nelson. 1989.
+Biophys. J. 56:1023-1028). We show that the model correctly predicts five
+important features of the whole-cell Ca2(+)-inactivation for mouse pancreatic
+beta-cells (Plants, T. D. 1988. J. Physiol. 404:731-747) and that
+Ca2(+)-inactivation has only minor effects on the bursting electrical activity of
+these cells.
+
+PMCID: PMC1281044
+PMID: 2174274  [PubMed - indexed for MEDLINE]
+
+
+15. Proc Natl Acad Sci U S A. 1991 May 1;88(9):3897-901.
+
+Bursting electrical activity in pancreatic beta cells caused by Ca(2+)- and
+voltage-inactivated Ca2+ channels.
+
+Keizer J(1), Smolen P.
+
+Author information: 
+(1)Institute of Theoretical Dynamics, University of California, Davis 95616.
+
+We investigate the hypothesis that two classes of Ca2+ currents, one quickly
+inactivated by Ca2+ and one slowly inactivated by voltage, contribute to bursting
+electrical activity in pancreatic islets. A mathematical model of these currents 
+is fit to the experimental whole-cell current-voltage and inactivation profiles, 
+thereby fixing the Ca2+ conductance and all activation and inactivation
+parameters. Incorporating these currents into a model that includes delayed
+rectifier K+ channels and ATP-sensitive K+ channels, we show that only abnormal
+bursting is obtained. Modification of activation parameters to increase Ca2+
+channel open times, as suggested by experiment, yields a more robust bursting
+similar to that observed in intact islets. This reinforces the suggestion that in
+addition to ATP-sensitive K+ channels, Ca2+ channels may serve as glucose sensors
+in the beta cell.
+
+PMCID: PMC51560
+PMID: 1850840  [PubMed - indexed for MEDLINE]
+
+
+16. Biophys J. 1961 Jul;1(6):445-66.
+
+Impulses and Physiological States in Theoretical Models of Nerve Membrane.
+
+Fitzhugh R.
+
+Van der Pol's equation for a relaxation oscillator is generalized by the addition
+of terms to produce a pair of non-linear differential equations with either a
+stable singular point or a limit cycle. The resulting "BVP model" has two
+variables of state, representing excitability and refractoriness, and
+qualitatively resembles Bonhoeffer's theoretical model for the iron wire model of
+nerve. This BVP model serves as a simple representative of a class of
+excitable-oscillatory systems including the Hodgkin-Huxley (HH) model of the
+squid giant axon. The BVP phase plane can be divided into regions corresponding
+to the physiological states of nerve fiber (resting, active, refractory,
+enhanced, depressed, etc.) to form a "physiological state diagram," with the help
+of which many physiological phenomena can be summarized. A properly chosen
+projection from the 4-dimensional HH phase space onto a plane produces a similar 
+diagram which shows the underlying relationship between the two models. Impulse
+trains occur in the BVP and HH models for a range of constant applied currents
+which make the singular point representing the resting state unstable.
+
+PMCID: PMC1366333
+PMID: 19431309  [PubMed]
+
+
+17. Biophys J. 1983 May;42(2):181-90.
+
+Minimal model for membrane oscillations in the pancreatic beta-cell.
+
+Chay TR, Keizer J.
+
+Following the experimental findings of Atwater et al. (In Biochemistry Biophysics
+of the Pancreatic-beta-Cell, George Thieme Verlag, New York, 100-107), we have
+formulated a mathematical model for ionic and electrical events that take place
+in pancreatic-beta-cells. Our formulation incorporates a Hodgkin-Huxley type
+gating mechanism for Ca2+ and K+ channels, in addition to Ca2+ gated K+-channels.
+Consistent with the experimental observations, our model generates spikes and
+bursts in beta-cell membrane potentials and gives the correct responses to
+additions of glucose, quinine, and tetraethylammonium ions. The response of the
+oscillations to ouabain and changing concentrations of external K+ can be
+incorporated into the present model, although a more complete treatment would
+require inclusion of the Na+/K+ pump.
+
+PMCID: PMC1329221
+PMID: 6305437  [PubMed - indexed for MEDLINE]
+
+
+18. Am J Physiol Endocrinol Metab. 2003 Jul;285(1):E138-54. Epub 2003 Mar 18.
+
+Modeling of Ca2+ flux in pancreatic beta-cells: role of the plasma membrane and
+intracellular stores.
+
+Fridlyand LE(1), Tamarina N, Philipson LH.
+
+Author information: 
+(1)Department of Medicine, University of Chicago, Illinois 60637, USA.
+
+We have developed a detailed mathematical model of ionic flux in beta-cells that 
+includes the most essential channels and pumps in the plasma membrane. This model
+is coupled to equations describing Ca2+, inositol 1,4,5-trisphosphate (IP3), ATP,
+and Na+ homeostasis, including the uptake and release of Ca2+ by the endoplasmic 
+reticulum (ER). In our model, metabolically derived ATP activates inward Ca2+
+flux by regulation of ATP-sensitive K+ channels and depolarization of the plasma 
+membrane. Results from the simulations support the hypothesis that intracellular 
+Na+ and Ca2+ in the ER can be the main variables driving both fast (2-7 osc/min) 
+and slow intracellular Ca2+ concentration oscillations (0.3-0.9 osc/min) and that
+the effect of IP3 on Ca2+ leak from the ER contributes to the pattern of slow
+calcium oscillations. Simulations also show that filling the ER Ca2+ stores leads
+to faster electrical bursting and Ca2+ oscillations. Specific Ca2+ oscillations
+in isolated beta-cell lines can also be simulated.
+
+PMID: 12644446  [PubMed - indexed for MEDLINE]
+
+
+19. Vision Res. 2009 May;49(9):970-8. doi: 10.1016/j.visres.2009.03.003. Epub 2009
+Mar 10.
+
+Simulation analysis of bandpass filtering properties of a rod photoreceptor
+network.
+
+Kamiyama Y(1), Wu SM, Usui S.
+
+Author information: 
+(1)Information Science and Technology, Aichi Prefectural University, 1522-3
+Ibaragabasama, Kumabari, Nagakute, Aichi, Japan. kamiyama@ist.aichi-pu.ac.jp
+
+The bandpass filtering properties of a rod network were studied via computer
+simulations. Sinusoidal current stimuli were applied to a single rod model to
+characterize its temporal filtering properties. The simulated frequency response 
+revealed that a single rod behaves as a bandpass filter whose characteristics are
+affected by the stimulus strength and frequency. We analyzed the contribution of 
+individual ionic currents to bandpass filtering and found that the filtering of
+small signals is largely regulated by the calcium-dependent currents I(K(Ca)) and
+I(Cl(Ca)), whereas the filtering of large signals is regulated by the
+hyperpolarization-activated current, I(h). Furthermore, rod network modeling by
+electrically interconnecting the single rod models revealed that the acceleration
+of signals that spread laterally through the rod network is attributed to
+I(K(Ca)) and not I(h).
+
+PMID: 19281836  [PubMed - indexed for MEDLINE]
+
+
+20. Science. 1977 Jul 15;197(4300):287-9.
+
+Oscillation and chaos in physiological control systems.
+
+Mackey MC, Glass L.
+
+First-order nonlinear differential-delay equations describing physiological
+control systems are studied. The equations display a broad diversity of dynamical
+behavior including limit cycle oscillations, with a variety of wave forms, and
+apparently aperiodic or "chaotic" solutions. These results are discussed in
+relation to dynamical respiratory and hematopoietic diseases.
+
+PMID: 267326  [PubMed - indexed for MEDLINE]
+
+
+21. PLoS One. 2009 Jul 8;4(7):e6169. doi: 10.1371/journal.pone.0006169.
+
+A model of postural control in quiet standing: robust compensation of
+delay-induced instability using intermittent activation of feedback control.
+
+Asai Y(1), Tasaka Y, Nomura K, Nomura T, Casadio M, Morasso P.
+
+Author information: 
+(1)The Center for Advanced Medical Engineering and Informatics, Osaka University,
+Osaka, Japan.
+
+Erratum in
+    PLoS One. 2009;4(7). doi:
+10.1371/annotation/96e08e7f-22f0-445d-8fb3-fe7b071d0a3a.
+
+The main purpose of this study is to compare two different feedback controllers
+for the stabilization of quiet standing in humans, taking into account that the
+intrinsic ankle stiffness is insufficient and that there is a large delay
+inducing instability in the feedback loop: 1) a standard linear, continuous-time 
+PD controller and 2) an intermittent PD controller characterized by a switching
+function defined in the phase plane, with or without a dead zone around the
+nominal equilibrium state. The stability analysis of the first controller is
+carried out by using the standard tools of linear control systems, whereas the
+analysis of the intermittent controllers is based on the use of Poincare maps
+defined in the phase plane. When the PD-control is off, the dynamics of the
+system is characterized by a saddle-like equilibrium, with a stable and an
+unstable manifold. The switching function of the intermittent controller is
+implemented in such a way that PD-control is 'off' when the state vector is near 
+the stable manifold of the saddle and is 'on' otherwise. A theoretical analysis
+and a related simulation study show that the intermittent control model is much
+more robust than the standard model because the size of the region in the
+parameter space of the feedback control gains (P vs. D) that characterizes stable
+behavior is much larger in the latter case than in the former one. Moreover, the 
+intermittent controller can use feedback parameters that are much smaller than
+the standard model. Typical sway patterns generated by the intermittent
+controller are the result of an alternation between slow motion along the stable 
+manifold of the saddle, when the PD-control is off, and spiral motion away from
+the upright equilibrium determined by the activation of the PD-control with low
+feedback gains. Remarkably, overall dynamic stability can be achieved by
+combining in a smart way two unstable regimes: a saddle and an unstable spiral.
+The intermittent controller exploits the stabilizing effect of one part of the
+saddle, letting the system evolve by alone when it slides on or near the stable
+manifold; when the state vector enters the strongly unstable part of the saddle
+it switches on a mild feedback which is not supposed to impose a strict stable
+regime but rather to mitigate the impending fall. The presence of a dead zone in 
+the intermittent controller does not alter the stability properties but improves 
+the similarity with biological sway patterns. The two types of controllers are
+also compared in the frequency domain by considering the power spectral density
+(PSD) of the sway sequences generated by the models with additive noise.
+Different from the standard continuous model, whose PSD function is similar to an
+over-damped second order system without a resonance, the intermittent control
+model is capable to exhibit the two power law scaling regimes that are typical of
+physiological sway movements in humans.
+
+PMCID: PMC2704954
+PMID: 19584944  [PubMed - indexed for MEDLINE]
+
+
+22. Proc Natl Acad Sci U S A. 2004 Feb 17;101(7):1822-7. Epub 2004 Feb 6.
+
+Detection of multistability, bifurcations, and hysteresis in a large class of
+biological positive-feedback systems.
+
+Angeli D(1), Ferrell JE Jr, Sontag ED.
+
+Author information: 
+(1)Dipartimento di Sistemi e Informatica, University of Florence, 50139 Florence,
+Italy.
+
+It is becoming increasingly clear that bistability (or, more generally,
+multistability) is an important recurring theme in cell signaling. Bistability
+may be of particular relevance to biological systems that switch between discrete
+states, generate oscillatory responses, or "remember" transitory stimuli.
+Standard mathematical methods allow the detection of bistability in some very
+simple feedback systems (systems with one or two proteins or genes that either
+activate each other or inhibit each other), but realistic depictions of signal
+transduction networks are invariably much more complex. Here, we show that for a 
+class of feedback systems of arbitrary order the stability properties of the
+system can be deduced mathematically from how the system behaves when feedback is
+blocked. Provided that this open-loop, feedback-blocked system is monotone and
+possesses a sigmoidal characteristic, the system is guaranteed to be bistable for
+some range of feedback strengths. We present a simple graphical method for
+deducing the stability behavior and bifurcation diagrams for such systems and
+illustrate the method with two examples taken from recent experimental studies of
+bistable systems: a two-variable Cdc2/Wee1 system and a more complicated
+five-variable mitogen-activated protein kinase cascade.
+
+PMCID: PMC357011
+PMID: 14766974  [PubMed - indexed for MEDLINE]
+
+
+23. Curr Biol. 2003 Aug 19;13(16):1398-408.
+
+Autoinhibition with transcriptional delay: a simple mechanism for the zebrafish
+somitogenesis oscillator.
+
+Lewis J(1).
+
+Author information: 
+(1)Vertebrate Development Laboratory, Cancer Research UK London Research
+Institute, 44 Lincoln's Inn Fields, London WC2A 3PX, United Kingdom.
+julian.lewis@cancer.org.uk
+
+BACKGROUND: The pattern of somites is traced out by a mechanism involving
+oscillating gene expression at the tail end of the embryo. In zebrafish, two
+linked oscillating genes, her1 and her7, coding for inhibitory gene regulatory
+proteins, are especially implicated in genesis of the oscillations, while Notch
+signaling appears necessary for synchronization of adjacent cells.
+RESULTS: I show by mathematical simulation that direct autorepression of her1 and
+her7 by their own protein products provides a mechanism for the intracellular
+oscillator. This mechanism operates robustly even when one allows for the fact
+that gene regulation is an essentially noisy (stochastic) process. The predicted 
+period is close to the observed period (30 min) and is dictated primarily by the 
+transcriptional delay, the time taken to make an mRNA molecule. Through its
+coupling to her1/her7 expression, Notch signaling can keep the rapid oscillations
+in adjacent cells synchronized. When the coupling parameters are varied, however,
+the model system can switch to oscillations of a much longer period, resembling
+that of the mouse or chick somitogenesis oscillator and governed by the delays in
+the Notch pathway. Such Notch-mediated synchronous oscillations are predicted
+even in the absence of direct her1/her7 autoregulation, through operation of the 
+standard Notch signaling pathway that is usually assumed simply to give lateral
+inhibition.
+CONCLUSIONS: Direct autorepression of a gene by its own product can generate
+oscillations, with a period determined by the transcriptional and translational
+delays. Simple as they are, such systems show surprising behaviors. To understand
+them, unaided intuition is not enough: we need mathematics.
+
+PMID: 12932323  [PubMed - indexed for MEDLINE]
+
+
+24. Chaos. 2011 Jun;21(2):023121. doi: 10.1063/1.3597645.
+
+Reentrant excitation in an analog-digital hybrid circuit model of cardiac tissue.
+
+Mahmud F(1), Shiozawa N, Makikawa M, Nomura T.
+
+Author information: 
+(1)Graduate School of Engineering Science, Osaka University, Osaka 5608534,
+Japan.
+
+We propose an analog-digital hybrid circuit model of one-dimensional cardiac
+tissue with hardware implementation that allows us to perform real-time
+simulations of spatially conducting cardiac action potentials. Each active nodal 
+compartment of the tissue model is designed using analog circuits and a dsPIC
+microcontroller, by which the time-dependent and time-independent nonlinear
+current-voltage relationships of six types of ion channel currents employed in
+the Luo-Rudy phase I (LR-I) model for a single mammalian cardiac ventricular cell
+can be reproduced quantitatively. Here, we perform real-time simulations of
+reentrant excitation conduction in a ring-shaped tissue model that includes
+eighty nodal compartments. In particular, we show that the hybrid tissue model
+can exhibit real-time dynamics for initiation of reentries induced by
+uni-directional block, as well as those for phase resetting that leads to
+annihilation of the reentry in response to impulsive current stimulations at
+appropriate nodes and timings. The dynamics of the hybrid model are comparable to
+those of a spatially distributed tissue model with LR-I compartments. Thus, it is
+conceivable that the hybrid model might be a useful tool for large scale
+simulations of cardiac tissue dynamics, as an alternative to numerical
+simulations, leading toward further understanding of the reentrant mechanisms.
+
+PMID: 21721763  [PubMed - indexed for MEDLINE]
+
+
+25. J Neurophysiol. 1997 Dec;78(6):3371-85.
+
+Compartmental model of vertebrate motoneurons for Ca2+-dependent spiking and
+plateau potentials under pharmacological treatment.
+
+Booth V(1), Rinzel J, Kiehn O.
+
+Author information: 
+(1)Mathematical Research Branch, National Institute of Diabetes and Digestive and
+Kidney Diseases, National Institutes of Health 9190, Bethesda, Maryland 20814,
+USA.
+
+In contrast to the limited response properties observed under normal experimental
+conditions, spinal motoneurons generate complex firing patterns, such as
+Ca2+-dependent regenerative spiking and plateaus, in the presence of certain
+neurotransmitters and ion-channel blockers. We have developed a quantitative
+motoneuron model, based on turtle motoneuron data, toinvestigate the roles of
+specific ionic currents and the effects of their soma and dendritic distribution 
+in generating these complex firing patterns. In addition, the model is used to
+explore the effects of multiple ion channel blockers and neurotransmitters that
+are known to modulate motoneuron firing patterns. To represent the distribution
+of ionic currents across the soma and dendrites, the model contains two
+compartments. The soma compartment, representing the soma and proximal dendrites,
+contains Hodgkin-Huxley-like sodium (INa) and delayed rectifier K+ (IK-dr)
+currents, an N-like Ca2+ current (ICa-N), and a calcium-dependent K+ current
+[IK(Ca)]. The dendritic compartment, representing the lumped distal dendrites,
+contains, in addition to ICa-N and IK(Ca) as in the soma, a persistent L-like
+calcium current (ICa-L). We determined kinetic parameters for INa, IK-dr, ICa-N, 
+and IK(Ca) in order to reproduce normal action-potential firing observed in
+turtle spinal motoneurons, including fast and slow afterhyperpolarizations (AHPs)
+and a linear steady-state frequency-current relation. With this parameter set as 
+default, a sequence of pharmacological manipulations were systematically
+simulated. A small reduction of IK-dr [mimicking the experimental effect of
+tetraethylammonium (TEA) in low concentration] enhanced the slow AHP and caused
+calcium spiking (mediated by ICa-N) when INa was blocked. Firing patterns
+observed experimentally in high TEA [and tetrodotoxin (TTX)], namely calcium
+spikes riding on a calcium plateau, were reproduced only when both IK-dr and
+IK(Ca) were reduced. Dendritic plateau potentials, mediated by ICa-L, were
+reliably unmasked when IK(Ca) was reduced, mimicking the experimental effect of
+the bee venom apamin. The effect of 5-HT, which experimentally induces the
+ability to generate calcium-dependent plateau potentials but not calcium spiking,
+was reproduced in the model by reducing IK(Ca) alone. The plateau threshold
+current level, however, was reduced substantially if a simultaneous increase in
+ICa-L was simulated, suggesting that serotonin (5-HT) induces plateau potentials 
+by regulating more than one conductance. The onset of the plateau potential
+showed significant delays in response to near-threshold, depolarizing current
+steps. In addition, the delay times were sensitive to the current step amplitude.
+The delay and its sensitivity were explained by examining the model's behavior
+near the threshold for plateau onset. This modeling study thus accurately
+accounts for the basic firing behavior of vertebrate motoneurons as well as a
+range of complex firing patterns invoked by ion-channel blockers and 5-HT. In
+addition, our computational results support the hypothesis that the
+electroresponsiveness of motoneurons depends on a nonuniform distribution of
+ionic conductances, and they predict modulatory effects of 5-HT and properties of
+plateau activation that have yet to be tested experimentally.
+
+PMID: 9405551  [PubMed - indexed for MEDLINE]
+
+
+26. Philos Trans R Soc Lond B Biol Sci. 1985 Jan 10;307(1133):353-98.
+
+A model of cardiac electrical activity incorporating ionic pumps and
+concentration changes.
+
+DiFrancesco D, Noble D.
+
+PMID: 2578676  [PubMed - indexed for MEDLINE]
+
+
+27. Biophys J. 1976 Mar;16(3):227-44.
+
+Mathematical description of a bursting pacemaker neuron by a modification of the 
+Hodgkin-Huxley equations.
+
+Plant RE, Kim M.
+
+Modifications based on experimental results reported in the literature are made
+to the Hodgkin-Huxley equations to describe the electrophysiological behavior of 
+the Aplysia abdominal ganglion R15 cell. The system is then further modified to
+describe the effects with the application of the drug tetrodotoxin (TTX) to the
+cells' bathing medium. Methods of the qualitative theory of differential
+equations are used to determine the conditions necessary for such a system of
+equations to have an oscillatory solution. A model satisfying these conditions is
+shown to preduct many experimental observations of R15 cell behavior. Numerical
+solutions are obtained for differential equations satisfying the conditions of
+the model. These solutions are shown to have a form similar to that of the
+bursting which is characteristic of this cell, and to preduct many results of
+experiments conducted on this cell. The physiological implications of the model
+are discussed.
+
+PMCID: PMC1334834
+PMID: 1252578  [PubMed - indexed for MEDLINE]
+
+
+28. Biol Cybern. 1985;52(6):367-76.
+
+Sustained oscillations generated by mutually inhibiting neurons with adaptation.
+
+Matsuoka K.
+
+Autonomic oscillatory activities exist in almost every living thing and most of
+them are produced by rhythmic activities of the corresponding neural systems
+(locomotion, respiration, heart beat, etc.). This paper mathematically discusses 
+sustained oscillations generated by mutual inhibition of the neurons which are
+represented by a continuous-variable model with a kind of fatigue or adaptation
+effect. If the neural network has no stable stationary state for constant input
+stimuli, it will generate and sustain some oscillation for any initial state and 
+for any disturbance. Some sufficient conditions for that are given to three types
+of neural networks: lateral inhibition networks of linearly arrayed neurons,
+symmetric inhibition networks and cyclic inhibition networks. The result suggests
+that the adaptation of the neurons plays a very important role for the appearance
+of the oscillations. Some computer simulations of rhythmic activities are also
+presented for cyclic inhibition networks consisting of a few neurons.
+
+PMID: 2996634  [PubMed - indexed for MEDLINE]
+
+
+29. Biol Cybern. 1994;71(4):281-91.
+
+Analysis of bursting in a thalamic neuron model.
+
+Rush ME(1), Rinzel J.
+
+Author information: 
+(1)Mathematical Research Branch, NIDDK, National Institutes of Health, Bethesda, 
+MD 20892.
+
+We extend a quantitative model for low-voltage, slow-wave excitability based on
+the T-type calcium current (Wang et al. 1991) by juxtaposing it with a
+Hodgkin-Huxley-like model for fast sodium spiking in the high voltage regime to
+account for the distinct firing modes of thalamic neurons. We employ bifurcation 
+analysis to illustrate the stimulus-response behavior of the full model under
+both voltage regimes. The model neuron shows continuous sodium spiking when
+depolarized sufficiently from rest. Depending on the parameters of calcium
+current inactivation, there are two types of low-voltage responses to a
+hyperpolarizing current step: a single rebound low threshold spike (LTS) upon
+release of the step and periodic LTSs. Bursting is seen as sodium spikes ride the
+LTS crest. In both cases, we analyze the LTS burst response by projecting its
+trajectory into a fast/slow phase plane. We also use phase plane methods to show 
+that a potassium A-current shifts the threshold for sodium spikes, reducing the
+number of fast sodium spikes in an LTS burst. It can also annihilate periodic
+bursting. We extend the previous work of Rose and Hindmarsh (1989a-c) for a
+thalamic neuron and propose a simpler model for thalamic activity. We consider
+burst modulation by using a neuromodulator-dependent potassium leakage
+conductance as a control parameter. These results correspond with experiments
+showing that the application of certain neurotransmitters can switch firing
+modes.
+
+PMID: 7948220  [PubMed - indexed for MEDLINE]
+
+
+30. J Comput Neurosci. 2005 Jun;18(3):255-63.
+
+Coexistence of tonic spiking oscillations in a leech neuron model.
+
+Cymbalyuk G(1), Shilnikov A.
+
+Author information: 
+(1)Department of Physics and Astronomy, Georgia State University, Atlanta, GA
+30303, USA. gcym@phy-astr.gsu.edu
+
+The leech neuron model studied here has a remarkable dynamical plasticity. It
+exhibits a wide range of activities including various types of tonic spiking and 
+bursting. In this study we apply methods of the qualitative theory of dynamical
+systems and the bifurcation theory to analyze the dynamics of the leech neuron
+model with emphasis on tonic spiking regimes. We show that the model can
+demonstrate bi-stability, such that two modes of tonic spiking coexist. Under a
+certain parameter regime, both tonic spiking modes are represented by the
+periodic attractors. As a bifurcation parameter is varied, one of the attractors 
+becomes chaotic through a cascade of period-doubling bifurcations, while the
+other remains periodic. Thus, the system can demonstrate co-existence of a
+periodic tonic spiking with either periodic or chaotic tonic spiking.
+Pontryagin's averaging technique is used to locate the periodic orbits in the
+phase space.
+
+PMID: 15830162  [PubMed - indexed for MEDLINE]
+
+
+31. Comput Biomed Res. 1984 Dec;17(6):570-9.
+
+A mathematical insulin-secretion model and its validation in isolated rat
+pancreatic islets perifusion.
+
+Nomura M, Shichiri M, Kawamori R, Yamasaki Y, Iwama N, Abe H.
+
+A mathematical insulin-secretion model was constructed by analyzing the
+glucose-induced insulin secretion using a control theory. To validate the model, 
+experimental data obtained in the isolated rat pancreatic islet perifusion system
+were compared with the simulation results. The simulation study of the model was 
+found to fit quite well to insulin responses under various experimental
+conditions. A glucose-induced insulin secretion from pancreatic islets' beta cell
+was found to be expressed as a function of proportional plus derivative response 
+to glucose input with the first order time lag. And the negative rate of change
+in glucose concentration was found to suppress insulin secretion to the extent of
+the negative stimuli, regardless of glucose concentration. This model would be
+useful as a research tool for analysis of physiological significance of insulin
+secretory dynamics and clinical investigation of insulin secretion.
+
+PMID: 6391804  [PubMed - indexed for MEDLINE]
+
+
+32. Prog Biophys Mol Biol. 2008 Sep;98(1):52-60. doi:
+10.1016/j.pbiomolbio.2008.05.003. Epub 2008 May 29.
+
+In silico risk assessment for drug-induction of cardiac arrhythmia.
+
+Suzuki S(1), Murakami S, Tsujimae K, Findlay I, Kurachi Y.
+
+Author information: 
+(1)Department of Pharmacology, Graduate School of Medicine, Osaka University,
+Suita, Osaka, Japan.
+
+The main components of repolarization reserve for the ventricular action
+potential (AP) are the rapid (I(Kr)) and slow (I(Ks)) delayed outward K(+)
+currents. While many drugs block I(Kr) and cause life-threatening arrhythmias
+including torsades de pointes, the frequency of arrhythmias varies between
+different I(Kr)-blockers. Different types of block of I(Kr) cause distinct
+phenotypes of prolongation of action potential duration (APD), increase in
+transmural dispersion of repolarization (TDR) and, accordingly, occurrence of
+torsades de pointes. Therefore the assessment of a drug's proarrhythmic risk
+requires a method that provides quantitative and comprehensive comparison of the 
+effects of different forms of I(Kr)-blockade upon APDs and TDR. However, most
+currently available methods are not adapted to such an extensive comparison.
+Here, we introduce I(Kr)-I(Ks) two-dimensional maps of APD and TDR as a novel
+risk-assessment method. Taking the kinetics of I(Kr)-blockade into account, APDs 
+can be calculated upon a ventricular AP model which systematically alters the
+magnitudes of I(Kr) and I(Ks). The calculated APDs are then plotted on a map
+where the x axis represents the conductance of I(Kr) while the y axis represents 
+that of I(Ks). TDR is simulated with models corresponding to APs in epicardial,
+midcardial and endocardial myocardium. These two-dimensional maps of APD and TDR 
+successfully account for differences in the risk resulting from three distinct
+types of I(Kr)-blockade which correspond to the effects of dofetilide, quinidine 
+and vesnarinone. This method may be of use to assess the arrhythmogenic risk of
+various I(Kr)-blockers.
+
+PMID: 18635251  [PubMed - indexed for MEDLINE]
+
+
+33. Circ J. 2011;75(1):80-8. Epub 2010 Nov 16.
+
+Transmural dispersion of repolarization determines scroll wave behavior during
+ventricular tachyarrhythmias.
+
+Haraguchi R(1), Ashihara T, Namba T, Tsumoto K, Murakami S, Kurachi Y, Ikeda T,
+Nakazawa K.
+
+Author information: 
+(1)National Cerebral and Cardiovascular Center Research Institute, Suita, Japan. 
+haraguch@ri.ncvc.go.jp
+
+Comment in
+    Circ J. 2011;75(1):49-50.
+
+BACKGROUND: Ventricular tachyarrhythmia is the leading cause of sudden cardiac
+death, and scroll wave re-entry is known to underlie this condition. Class III
+antiarrhythmic drugs are commonly used worldwide to treat ventricular
+tachyarrhythmias; however, these drugs have a proarrhythmic adverse effect and
+can cause Torsade de Pointes or ventricular fibrillation. Transmural dispersion
+of repolarization (TDR) has been suggested to be a strong indicator of
+ventricular tachyarrhythmia induction. However, the role of TDR during sustained 
+scroll wave re-entry is poorly understood. The purpose of the present study was
+to investigate how TDR affects scroll wave behavior and to provide a novel
+analysis of the mechanisms that sustain tachyarrhythmias, using computer
+simulations.
+METHODS AND RESULTS: Computer simulations were carried out to quantify the TDR
+and QT interval under a variety of I(Ks) and I(Kr) during transmural conduction. 
+Simulated scroll wave re-entries were done under a variety of I(Ks) and I(Kr) in 
+a ventricular wall slab model, and the scroll wave behavior and the filament
+dynamics (3-dimensional organizing center) were analyzed. A slight increase in
+TDR, but not in the QT interval, reflected antiarrhythmic properties resulting
+from the restraint of scroll wave breakup, whereas a marked increase in TDR was
+proarrhythmic, as a result of scroll wave breakup.
+CONCLUSIONS: The TDR determines the sustainment of ventricular tachyarrhythmias, 
+through control of the scroll wave filament dynamics.
+
+PMID: 21099125  [PubMed - indexed for MEDLINE]
+
+
+34. J Neurosci. 2002 Apr 1;22(7):2963-76.
+
+Activity patterns in a model for the subthalamopallidal network of the basal
+ganglia.
+
+Terman D(1), Rubin JE, Yew AC, Wilson CJ.
+
+Author information: 
+(1)Department of Mathematics, The Ohio State University, Columbus, Ohio 43210,
+USA. terman@math.ohio-state.edu
+
+Based on recent experimental data, we have developed a conductance-based
+computational network model of the subthalamic nucleus and the external segment
+of the globus pallidus in the indirect pathway of the basal ganglia. Computer
+simulations and analysis of this model illuminate the roles of the coupling
+architecture of the network, and associated synaptic conductances, in modulating 
+the activity patterns displayed by this network. Depending on the relationships
+of these coupling parameters, the network can support three general classes of
+sustained firing patterns: clustering, propagating waves, and repetitive spiking 
+that may show little regularity or correlation. Each activity pattern can occur
+continuously or in discrete episodes. We characterize the mechanisms underlying
+these rhythms, as well as the influence of parameters on details such as spiking 
+frequency and wave speed. These results suggest that the subthalamopallidal
+circuit is capable both of correlated rhythmic activity and of irregular
+autonomous patterns of activity that block rhythmicity. Increased striatal input 
+to, and weakened intrapallidal inhibition within, the indirect pathway can switch
+the behavior of the circuit from irregular to rhythmic. This may be sufficient to
+explain the emergence of correlated oscillatory activity in the
+subthalamopallidal circuit after destruction of dopaminergic neurons in
+Parkinson's disease and in animal models of parkinsonism.
+
+PMID: 11923461  [PubMed - indexed for MEDLINE]
+
+
+35. Biol Cybern. 1991;65(3):147-59.
+
+Self-organized control of bipedal locomotion by neural oscillators in
+unpredictable environment.
+
+Taga G(1), Yamaguchi Y, Shimizu H.
+
+Author information: 
+(1)Faculty of Pharmaceutical Sciences, University of Tokyo, Japan.
+
+A new principle of sensorimotor control of legged locomotion in an unpredictable 
+environment is proposed on the basis of neurophysiological knowledge and a theory
+of nonlinear dynamics. Stable and flexible locomotion is realized as a global
+limit cycle generated by a global entrainment between the rhythmic activities of 
+a nervous system composed of coupled neural oscillators and the rhythmic
+movements of a musculo-skeletal system including interaction with its
+environment. Coordinated movements are generated not by slaving to an explicit
+representation of the precise trajectories of the movement of each part but by
+dynamic interactions among the nervous system, the musculo-skeletal system and
+the environment. The performance of a bipedal model based on the above principle 
+was investigated by computer simulation. Walking movements stable to mechanical
+perturbations and to environmental changes were obtained. Moreover, the model
+generated not only the walking movement but also the running movement by changing
+a single parameter nonspecific to the movement. The transitions between the gait 
+patterns occurred with hysteresis.
+
+PMID: 1912008  [PubMed - indexed for MEDLINE]
+
+
+36. PLoS One. 2007 Oct 3;2(10):e983.
+
+Investigating the role of islet cytoarchitecture in its oscillation using a new
+beta-cell cluster model.
+
+Nittala A(1), Ghosh S, Wang X.
+
+Author information: 
+(1)Max McGee National Research Center for Juvenile Diabetes, Medical College of
+Wisconsin, Milwaukee, Wisconsin, United States of America.
+
+The oscillatory insulin release is fundamental to normal glycemic control. The
+basis of the oscillation is the intercellular coupling and bursting
+synchronization of beta cells in each islet. The functional role of islet beta
+cell mass organization with respect to its oscillatory bursting is not well
+understood. This is of special interest in view of the recent finding of islet
+cytoarchitectural differences between human and animal models. In this study we
+developed a new hexagonal closest packing (HCP) cell cluster model. The model
+captures more accurately the real islet cell organization than the simple cubic
+packing (SCP) cluster that is conventionally used. Using our new model we
+investigated the functional characteristics of beta-cell clusters, including the 
+fraction of cells able to burst f(b), the synchronization index lambda of the
+bursting beta cells, the bursting period T(b), the plateau fraction p(f), and the
+amplitude of intracellular calcium oscillation [Ca]. We determined their
+dependence on cluster architectural parameters including number of cells n(beta),
+number of inter-beta cell couplings of each beta cell n(c), and the coupling
+strength g(c). We found that at low values of n(beta), n(c) and g(c), the
+oscillation regularity improves with their increasing values. This functional
+gain plateaus around their physiological values in real islets, at n(beta)
+approximately 100, n(c) approximately 6 and g(c) approximately 200 pS. In
+addition, normal beta-cell clusters are robust against significant perturbation
+to their architecture, including the presence of non-beta cells or dead beta
+cells. In clusters with n(beta)> approximately 100, coordinated beta-cell
+bursting can be maintained at up to 70% of beta-cell loss, which is consistent
+with laboratory and clinical findings of islets. Our results suggest that the
+bursting characteristics of a beta-cell cluster depend quantitatively on its
+architecture in a non-linear fashion. These findings are important to understand 
+the islet bursting phenomenon and the regulation of insulin secretion, under both
+physiological and pathological conditions.
+
+PMCID: PMC1991600
+PMID: 17912360  [PubMed - indexed for MEDLINE]
+
+
+37. Phys Rev Lett. 2005 Feb 4;94(4):048101. Epub 2005 Jan 31.
+
+Transition between tonic spiking and bursting in a neuron model via the blue-sky 
+catastrophe.
+
+Shilnikov A(1), Cymbalyuk G.
+
+Author information: 
+(1)Department of Mathematics and Statistics, Georgia State University, Atlanta,
+Georgia 30303, USA.
+
+We study a continuous and reversible transition between periodic tonic spiking
+and bursting activities in a neuron model. It is described as the blue-sky
+catastrophe, which is a homoclinic bifurcation of a saddle-node periodic orbit of
+codimension one. This transition constitutes a biophysically plausible mechanism 
+for the regulation of burst duration that increases with no bound like 1/square
+root alpha-alpha0 as the transition value alpha0 is approached.
+
+PMID: 15783604  [PubMed - indexed for MEDLINE]
+
+
+38. Biophys J. 1981 Jul;35(1):193-213.
+
+Voltage oscillations in the barnacle giant muscle fiber.
+
+Morris C, Lecar H.
+
+Barnacle muscle fibers subjected to constant current stimulation produce a
+variety of types of oscillatory behavior when the internal medium contains the
+Ca++ chelator EGTA. Oscillations are abolished if Ca++ is removed from the
+external medium, or if the K+ conductance is blocked. Available voltage-clamp
+data indicate that the cell's active conductance systems are exceptionally
+simple. Given the complexity of barnacle fiber voltage behavior, this seems
+paradoxical. This paper presents an analysis of the possible modes of behavior
+available to a system of two noninactivating conductance mechanisms, and
+indicates a good correspondence to the types of behavior exhibited by barnacle
+fiber. The differential equations of a simple equivalent circuit for the fiber
+are dealt with by means of some of the mathematical techniques of nonlinear
+mechanics. General features of the system are (a) a propensity to produce damped 
+or sustained oscillations over a rather broad parameter range, and (b)
+considerable latitude in the shape of the oscillatory potentials. It is concluded
+that for cells subject to changeable parameters (either from cell to cell or with
+time during cellular activity), a system dominated by two noninactivating
+conductances can exhibit varied oscillatory and bistable behavior.
+
+PMCID: PMC1327511
+PMID: 7260316  [PubMed - indexed for MEDLINE]
+
+
+39. Biophys J. 1986 Nov;50(5):765-77.
+
+On the effect of the intracellular calcium-sensitive K+ channel in the bursting
+pancreatic beta-cell.
+
+Chay TR.
+
+Based on the observation that the calcium-activated K+ channel in the pancreatic 
+islet cells can also be activated by the membrane potential, we have formulated a
+mathematical model for the electrical activity in the pancreatic beta-cell. Our
+model contains two types of ionic channels, which are active above the
+subthreshold glucose concentration in the limit-cycle region: a Ca2+-activated,
+voltage-gated K+ channel and voltage-gated Ca2+ channel. Numerical simulation of 
+the model generates bursts of electrical activity in response to a variation of
+kCa, the rate constant for sequestration of intracellular calcium ions. The
+period and duration of the bursts in response to kCa are in good agreement with
+experiment. The model predicts that a combined spike and burst pattern can be
+created using only single species of inward and outward currents, the
+inactivation kinetics (i.e., h) in the inward current is not a necessary
+condition for the generation of the pattern, and a given pattern or intensity of 
+electrical activity may produce different levels of intracellular Ca2+ depending 
+on the set of certain electrical parameters.
+
+PMCID: PMC1329801
+PMID: 2431725  [PubMed - indexed for MEDLINE]
+
+
+40. J Comput Neurosci. 2004 May-Jun;16(3):211-35.
+
+High frequency stimulation of the subthalamic nucleus eliminates pathological
+thalamic rhythmicity in a computational model.
+
+Rubin JE(1), Terman D.
+
+Author information: 
+(1)Department of Mathematics and Center for the Neural Basis of Cognition,
+University of Pittsburgh, Pittsburgh, PA 15260, USA.
+
+Deep brain stimulation (DBS) of the subthalamic nucleus (STN) or the internal
+segment of the globus pallidus (GPi) has recently been recognized as an important
+form of intervention for alleviating motor symptoms associated with Parkinson's
+disease, but the mechanism underlying its effectiveness remains unknown. Using a 
+computational model, this paper considers the hypothesis that DBS works by
+replacing pathologically rhythmic basal ganglia output with tonic, high frequency
+firing. In our simulations of parkinsonian conditions, rhythmic inhibition from
+GPi to the thalamus compromises the ability of thalamocortical relay (TC) cells
+to respond to depolarizing inputs, such as sensorimotor signals. High frequency
+stimulation of STN regularizes GPi firing, and this restores TC responsiveness,
+despite the increased frequency and amplitude of GPi inhibition to thalamus that 
+result. We provide a mathematical phase plane analysis of the mechanisms that
+determine TC relay capabilities in normal, parkinsonian, and DBS states in a
+reduced model. This analysis highlights the differences in deinactivation of the 
+low-threshold calcium T -current that we observe in TC cells in these different
+conditions. Alternative scenarios involving convergence of thalamic signals in
+the cortex are also discussed, and predictions associated with these results,
+including the occurrence of rhythmic rebound bursts in certain TC cells in
+parkinsonian states and their drastic reduction by DBS, are stated. These results
+demonstrate how DBS could work by increasing firing rates of target cells, rather
+than shutting them down.
+
+Copyright 2004 Kluwer Academic Publishers
+
+PMID: 15114047  [PubMed - indexed for MEDLINE]
+
+
+41. Eur J Neurosci. 2012 Jul;36(2):2229-39. doi: 10.1111/j.1460-9568.2012.08105.x.
+
+Improved conditions for the generation of beta oscillations in the subthalamic
+nucleus--globus pallidus network.
+
+Pavlides A(1), Hogan SJ, Bogacz R.
+
+Author information: 
+(1)Bristol Centre for Complexity Sciences, Department of Computer Science,
+University of Bristol, Bristol BS8 1UB, UK. a.pavlides@bristol.ac.uk
+
+A key pathology in the development of Parkinson's disease is the occurrence of
+persistent beta oscillations, which are correlated with difficulty in movement
+initiation. We investigated the network model composed of the subthalamic nucleus
+(STN) and globus pallidus (GP) developed by A. Nevado Holgado et al. [(2010)
+Journal of Neuroscience, 30, 12340-12352], who identified the conditions under
+which this circuit could generate beta oscillations. Our work extended their
+analysis by deriving improved analytic stability conditions for realistic values 
+of the synaptic transmission delay between STN and GP neurons. The improved
+conditions were significantly closer to the results of simulations for the range 
+of synaptic transmission delays measured experimentally. Furthermore, our
+analysis explained how changes in cortical and striatal input to the STN-GP
+network influenced oscillations generated by the circuit. As we have identified
+when a system of mutually connected populations of excitatory and inhibitory
+neurons can generate oscillations, our results may also find applications in the 
+study of neural oscillations produced by assemblies of excitatory and inhibitory 
+neurons in other brain regions.
+
+c 2012 The Authors. European Journal of Neuroscience c 2012 Federation of
+European Neuroscience Societies and Blackwell Publishing Ltd.
+
+PMID: 22805067  [PubMed - indexed for MEDLINE]
+
+
+42. Phys Rev Lett. 2008 Aug 8;101(6):068103. Epub 2008 Aug 8.
+
+New dynamics in cerebellar Purkinje cells: torus canards.
+
+Kramer MA(1), Traub RD, Kopell NJ.
+
+Author information: 
+(1)Department of Mathematics and Statistics, Boston University, Boston,
+Massachusetts 02215, USA.
+
+We describe a transition from bursting to rapid spiking in a reduced mathematical
+model of a cerebellar Purkinje cell. We perform a slow-fast analysis of the
+system and find that-after a saddle node bifurcation of limit cycles-the full
+model dynamics temporarily follow a repelling branch of limit cycles. We propose 
+that the system exhibits a dynamical phenomenon new to realistic, biophysical
+applications: torus canards.
+
+PMCID: PMC2662447
+PMID: 18764509  [PubMed - indexed for MEDLINE]
+
+
+43. IEEE Trans Neural Netw. 2003;14(6):1569-72. doi: 10.1109/TNN.2003.820440.
+
+Simple model of spiking neurons.
+
+Izhikevich EM(1).
+
+Author information: 
+(1)The Neurosciences Inst., San Diego, CA, USA.
+
+A model is presented that reproduces spiking and bursting behavior of known types
+of cortical neurons. The model combines the biologically plausibility of
+Hodgkin-Huxley-type dynamics and the computational efficiency of
+integrate-and-fire neurons. Using this model, one can simulate tens of thousands 
+of spiking cortical neurons in real time (1 ms resolution) using a desktop PC.
+
+PMID: 18244602  [PubMed]
+
+
+44. J Neurophysiol. 1999 Jul;82(1):382-97.
+
+Models of respiratory rhythm generation in the pre-Botzinger complex. I. Bursting
+pacemaker neurons.
+
+Butera RJ Jr(1), Rinzel J, Smith JC.
+
+Author information: 
+(1)Cellular and Systems Neurobiology Section, Laboratory of Neural Control,
+National Institute of Neurological Disorders and Stroke, National Institutes of
+Health, Bethesda, Maryland 20892-4455, USA.
+
+A network of oscillatory bursting neurons with excitatory coupling is
+hypothesized to define the primary kernel for respiratory rhythm generation in
+the pre-Botzinger complex (pre-BotC) in mammals. Two minimal models of these
+neurons are proposed. In model 1, bursting arises via fast activation and slow
+inactivation of a persistent Na+ current INaP-h. In model 2, bursting arises via 
+a fast-activating persistent Na+ current INaP and slow activation of a K+ current
+IKS. In both models, action potentials are generated via fast Na+ and K+
+currents. The two models have few differences in parameters to facilitate a
+rigorous comparison of the two different burst-generating mechanisms. Both models
+are consistent with many of the dynamic features of electrophysiological
+recordings from pre-BotC oscillatory bursting neurons in vitro, including
+voltage-dependent activity modes (silence, bursting, and beating), a
+voltage-dependent burst frequency that can vary from 0.05 to >1 Hz, and a
+decaying spike frequency during bursting. These results are robust and persist
+across a wide range of parameter values for both models. However, the dynamics of
+model 1 are more consistent with experimental data in that the burst duration
+decreases as the baseline membrane potential is depolarized and the model has a
+relatively flat membrane potential trajectory during the interburst interval. We 
+propose several experimental tests to demonstrate the validity of either model
+and to differentiate between the two mechanisms.
+
+PMID: 10400966  [PubMed - indexed for MEDLINE]
+
+
+45. J Neurophysiol. 1991 Aug;66(2):635-50.
+
+A model of a CA3 hippocampal pyramidal neuron incorporating voltage-clamp data on
+intrinsic conductances.
+
+Traub RD(1), Wong RK, Miles R, Michelson H.
+
+Author information: 
+(1)IBM Research Division, IBM T. J. Watson Research Center, Yorktown Heights
+10598.
+
+1. We have developed a 19-compartment cable model of a guinea pig CA3 pyramidal
+neuron. Each compartment is allowed to contain six active ionic conductances:
+gNa, gCa, gK(DR) (where DR stands for delayed rectifier), gK(A), gK(AHP), and
+gK(C). THe conductance gCa is of the high-voltage activated type. The model
+kinetics for the first five of these conductances incorporate voltage-clamp data 
+obtained from isolated hippocampal pyramidal neurons. The kinetics of gK(C) are
+based on data from bullfrog sympathetic neurons. The time constant for decay of
+submembrane calcium derives from optical imaging of Ca signals in Purkinje cell
+dendrites. 2. To construct the model from available voltage-clamp data, we first 
+reproduced current-clamp records from a model isolated neuron (soma plus proximal
+dendrites). We next assumed that ionic channel kinetics in the dendrites were the
+same as in the soma. In accord with dendritic recordings and calcium-imaging
+data, we also assumed that significant gCa occurs in dendrites. We then attached 
+sections of basilar and apical dendritic cable. By trial and error, we found a
+distribution (not necessarily unique) of ionic conductance densities that was
+consistent with current-clamp records from the soma and dendrites of whole
+neurons and from isolated apical dendrites. 3. The resulting model reproduces the
+Ca(2+)-dependent spike depolarizing afterpotential (DAP) recorded after a
+stimulus subthreshold for burst elicitation. 4. The model also reproduces the
+behavior of CA3 pyramidal neurons injected with increasing somatic depolarizing
+currents: low-frequency (0.3-1.0 Hz) rhythmic bursting for small currents, with
+burst frequency increasing with current magnitude; then more irregular bursts
+followed by afterhyperpolarizations (AHPs) interspersed with brief bursts without
+AHPs; and finally, rhythmic action potentials without bursts. 5. The model
+predicts the existence of still another firing pattern during tonic depolarizing 
+dendritic stimulation: brief bursts at less than 1 to approximately 12 Hz, a
+pattern not observed during somatic stimulation. These bursts correspond to
+rhythmic dendritic calcium spikes. 6. The model CA3 pyramidal neuron can be made 
+to resemble functionally a CA1 pyramidal neuron by increasing gK(DR) and
+decreasing dendritic gCa and gK(C). Specifically, after these alterations, tonic 
+depolarization of the soma leads to adapting repetitive firing, whereas
+stimulation of the distal dendrites leads to bursting. 7. A critical set of
+parameters concerns the regulation of the pool of intracellular [Ca2+] that
+interacts with membrane channels (gK(C) and gK(AHP)), particularly in the
+dendrites.(ABSTRACT TRUNCATED AT 400 WORDS)
+
+PMID: 1663538  [PubMed - indexed for MEDLINE]
+
+
+46. J Neurophysiol. 1999 Aug;82(2):804-17.
+
+Electrophysiological properties of inferior olive neurons: A compartmental model.
+
+Schweighofer N(1), Doya K, Kawato M.
+
+Author information: 
+(1)ERATO, Kawato Dynamic Brain Project, Japan Science and Technology Corporation,
+Kyoto 619-0288 Japan.
+
+As a step in exploring the functions of the inferior olive, we constructed a
+biophysical model of the olivary neurons to examine their unique
+electrophysiological properties. The model consists of two compartments to
+represent the known distribution of ionic currents across the cell membrane, as
+well as the dendritic location of the gap junctions and synaptic inputs. The
+somatic compartment includes a low-threshold calcium current (I(Ca_l)), an
+anomalous inward rectifier current (I(h)), a sodium current (I(Na)), and a
+delayed rectifier potassium current (I(K_dr)). The dendritic compartment contains
+a high-threshold calcium current (I(Ca_h)), a calcium-dependent potassium current
+(I(K_Ca)), and a current flowing into other cells through electrical coupling
+(I(c)). First, kinetic parameters for these currents were set according to
+previously reported experimental data. Next, the remaining free parameters were
+determined to account for both static and spiking properties of single olivary
+neurons in vitro. We then performed a series of simulated pharmacological
+experiments using bifurcation analysis and extensive two-parameter searches.
+Consistent with previous studies, we quantitatively demonstrated the major role
+of I(Ca_l) in spiking excitability. In addition, I(h) had an important modulatory
+role in the spike generation and period of oscillations, as previously suggested 
+by Bal and McCormick. Finally, we investigated the role of electrical coupling in
+two coupled spiking cells. Depending on the coupling strength, the
+hyperpolarization level, and the I(Ca_l) and I(h) modulation, the coupled cells
+had four different synchronization modes: the cells could be in-phase,
+phase-shifted, or anti-phase or could exhibit a complex desynchronized spiking
+mode. Hence these simulation results support the counterintuitive hypothesis that
+electrical coupling can desynchronize coupled inferior olive cells.
+
+PMID: 10444678  [PubMed - indexed for MEDLINE]
+
+
+47. Biophys J. 2011 Feb 2;100(3):554-63. doi: 10.1016/j.bpj.2010.12.3716.
+
+Roles of subcellular Na+ channel distributions in the mechanism of cardiac
+conduction.
+
+Tsumoto K(1), Ashihara T, Haraguchi R, Nakazawa K, Kurachi Y.
+
+Author information: 
+(1)The Center for Advanced Medical Engineering and Informatics, Osaka University,
+Osaka, Japan.
+
+The gap junction and voltage-gated Na(+) channel play an important role in the
+action potential propagation. The purpose of this study was to elucidate the
+roles of subcellular Na(+) channel distribution in action potential propagation. 
+To achieve this, we constructed the myocardial strand model, which can calculate 
+the current via intercellular cleft (electric-field mechanism) together with
+gap-junctional current (gap-junctional mechanism). We conducted simulations of
+action potential propagation in a myofiber model where cardiomyocytes were
+electrically coupled with gap junctions alone or with both the gap junctions and 
+the electric field mechanism. Then we found that the action potential propagation
+was greatly affected by the subcellular distribution of Na(+) channels in the
+presence of the electric field mechanism. The presence of Na(+) channels in the
+lateral membrane was important to ensure the stability of propagation under
+conditions of reduced gap-junctional coupling. In the poorly coupled tissue with 
+sufficient Na(+) channels in the lateral membrane, the slowing of action
+potential propagation resulted from the periodic and intermittent dysfunction of 
+the electric field mechanism. The changes in the subcellular Na(+) channel
+distribution might be in part responsible for the homeostatic excitation
+propagation in the diseased heart.
+
+Copyright c 2011 Biophysical Society. Published by Elsevier Inc. All rights
+reserved.
+
+PMCID: PMC3030217
+PMID: 21281569  [PubMed - indexed for MEDLINE]
+
+
+48. Biophys J. 2000 May;78(5):2392-404.
+
+Action potential and contractility changes in [Na(+)](i) overloaded cardiac
+myocytes: a simulation study.
+
+Faber GM(1), Rudy Y.
+
+Author information: 
+(1)Cardiac Bioelectricity Research and Training Center and Department of
+Biomedical Engineering, Case Western Reserve University, Cleveland, Ohio
+44106-7207 USA.
+
+Sodium overload of cardiac cells can accompany various pathologies and induce
+fatal cardiac arrhythmias. We investigate effects of elevated intracellular
+sodium on the cardiac action potential (AP) and on intracellular calcium using
+the Luo-Rudy model of a mammalian ventricular myocyte. The results are: 1) During
+rapid pacing, AP duration (APD) shortens in two phases, a rapid phase without
+Na(+) accumulation and a slower phase that depends on [Na(+)](i). 2) The rapid
+APD shortening is due to incomplete deactivation (accumulation) of I(Ks). 3) The 
+slow phase is due to increased repolarizing currents I(NaK) and reverse-mode
+I(NaCa), secondary to elevated [Na(+)](i). 4) Na(+)-overload slows the rate of AP
+depolarization, allowing time for greater I(Ca(L)) activation; it also enhances
+reverse-mode I(NaCa). The resulting increased Ca(2+) influx triggers a greater
+[Ca(2+)](i) transient. 5) Reverse-mode I(NaCa) alone can trigger Ca(2+) release
+in a voltage and [Na(+)](i)-dependent manner. 6) During I(NaK) block, Na(+) and
+Ca(2+) accumulate and APD shortens due to enhanced reverse-mode I(NaCa);
+contribution of I(K(Na)) to APD shortening is negligible. By slowing AP
+depolarization (hence velocity) and shortening APD, Na(+)-overload acts to
+enhance inducibility of reentrant arrhythmias. Shortened APD with elevated
+[Ca(2+)](i) (secondary to Na(+)-overload) also predisposes the myocardium to
+arrhythmogenic delayed afterdepolarizations.
+
+PMCID: PMC1300828
+PMID: 10777735  [PubMed - indexed for MEDLINE]
+
+
+49. PLoS One. 2014 Oct 3;9(10):e109271. doi: 10.1371/journal.pone.0109271.
+eCollection 2014.
+
+Ischemia-related subcellular redistribution of sodium channels enhances the
+proarrhythmic effect of class I antiarrhythmic drugs: a simulation study.
+
+Tsumoto K(1), Ashihara T(2), Haraguchi R(3), Nakazawa K(4), Kurachi Y(5).
+
+Author information: 
+(1)Department of Pharmacology, Graduate school of Medicine, Osaka University,
+Suita, Japan. (2)Department of Cardiovascular Medicine, Shiga University of
+Medical Science, Otsu, Japan. (3)Department of Medical Informatics, National
+Cerebral and Cardiovascular Center, Suita, Japan. (4)Laboratory of Biomedical
+Science and Information Management, Research Institute, National Cerebral and
+Cardiovascular Center, Suita, Japan. (5)Department of Pharmacology, Graduate
+school of Medicine, Osaka University, Suita, Japan; Center for Advanced Medical
+Engineering and Informatics, Osaka University, Suita, Japan.
+
+BACKGROUND: Cardiomyocytes located at the ischemic border zone of infarcted
+ventricle are accompanied by redistribution of gap junctions, which mediate
+electrical transmission between cardiomyocytes. This ischemic border zone
+provides an arrhythmogenic substrate. It was also shown that sodium (Na+)
+channels are redistributed within myocytes located in the ischemic border zone.
+However, the roles of the subcellular redistribution of Na+ channels in the
+arrhythmogenicity under ischemia remain unclear.
+METHODS: Computer simulations of excitation conduction were performed in a
+myofiber model incorporating both subcellular Na+ channel redistribution and the 
+electric field mechanism, taking into account the intercellular cleft potentials.
+RESULTS: We found in the myofiber model that the subcellular redistribution of
+the Na+ channels under myocardial ischemia, decreasing in Na+ channel expression 
+of the lateral cell membrane of each myocyte, decreased the tissue excitability, 
+resulting in conduction slowing even without any ischemia-related
+electrophysiological change. The conventional model (i.e., without the electric
+field mechanism) did not reproduce the conduction slowing caused by the
+subcellular Na+ channel redistribution. Furthermore, Na+ channel blockade with
+the coexistence of a non-ischemic zone with an ischemic border zone expanded the 
+vulnerable period for reentrant tachyarrhythmias compared to the model without
+the ischemic border zone. Na+ channel blockade tended to cause unidirectional
+conduction block at sites near the ischemic border zone. Thus, such a
+unidirectional conduction block induced by a premature stimulus at sites near the
+ischemic border zone is associated with the initiation of reentrant
+tachyarrhythmias.
+CONCLUSIONS: Proarrhythmia of Na+ channel blockade in patients with old
+myocardial infarction might be partly attributable to the ischemia-related
+subcellular Na+ channel redistribution.
+
+PMCID: PMC4184874
+PMID: 25279776  [PubMed - in process]
+
+
+50. Circ Res. 1994 Jun;74(6):1071-96.
+
+A dynamic model of the cardiac ventricular action potential. I. Simulations of
+ionic currents and concentration changes.
+
+Luo CH(1), Rudy Y.
+
+Author information: 
+(1)Department of Biomedical Engineering, Case Western Reserve University,
+Cleveland, OH 44106-7207.
+
+A mathematical model of the cardiac ventricular action potential is presented. In
+our previous work, the membrane Na+ current and K+ currents were formulated. The 
+present article focuses on processes that regulate intracellular Ca2+ and depend 
+on its concentration. The model presented here for the mammalian ventricular
+action potential is based mostly on the guinea pig ventricular cell. However, it 
+provides the framework for modeling other types of ventricular cells with
+appropriate modifications made to account for species differences. The following 
+processes are formulated: Ca2+ current through the L-type channel (ICa), the
+Na(+)-Ca2+ exchanger, Ca2+ release and uptake by the sarcoplasmic reticulum (SR),
+buffering of Ca2+ in the SR and in the myoplasm, a Ca2+ pump in the sarcolemma,
+the Na(+)-K+ pump, and a nonspecific Ca(2+)-activated membrane current.
+Activation of ICa is an order of magnitude faster than in previous models.
+Inactivation of ICa depends on both the membrane voltage and [Ca2+]i. SR is
+divided into two subcompartments, a network SR (NSR) and a junctional SR (JSR).
+Functionally, Ca2+ enters the NSR and translocates to the JSR following a
+monoexponential function. Release of Ca2+ occurs at JSR and can be triggered by
+two different mechanisms, Ca(2+)-induced Ca2+ release and spontaneous release.
+The model provides the basis for the study of arrhythmogenic activity of the
+single myocyte including afterdepolarizations and triggered activity. It can
+simulate cellular responses under different degrees of Ca2+ overload. Such
+simulations are presented in our accompanying article in this issue of
+Circulation Research.
+
+PMID: 7514509  [PubMed - indexed for MEDLINE]
+
+
+51. Eur J Pharmacol. 2004 Jun 16;493(1-3):29-40.
+
+Comparison of kinetic properties of quinidine and dofetilide block of HERG
+channels.
+
+Tsujimae K(1), Suzuki S, Yamada M, Kurachi Y.
+
+Author information: 
+(1)Department of Pharmacology II, Graduate School of Medicine, A7, Osaka
+University, 2-2 Yamada-oka, Suita, Osaka 565-0874, Japan.
+
+Many drugs inhibit human ether-a-go-go related gene (HERG) current and prolong
+cardiac action potential duration. We examined the kinetic properties of
+quinidine block of HERG channels expressed in Xenopus oocytes in comparison with 
+those of the block by a class III antiarrhythmic dofetilide. Both of the drugs
+inhibited HERG currents in a use-dependent and frequency-independent manner.
+However, the underlying mechanisms were different. Under the steady state,
+quinidine block was voltage- and time-dependent. At positive membrane potentials,
+the onset of block was very fast. Thus, quinidine caused frequency-independent
+block mainly through this fast blocking kinetic. In contrast, dofetilide blocked 
+HERG currents in a voltage- and time-independent manner under the steady state
+because of very slow unblocking at negative potentials, which also caused
+frequency-independent block. Therefore, quinidine and dofetilide might cause the 
+reverse frequency-dependent prolongation of action potential duration through
+distinct mechanisms with regard to blocking and unblocking kinetics.
+
+Copyright 2004 Elsevier B.V.
+
+PMID: 15189761  [PubMed - indexed for MEDLINE]
+
+
+52. Channels (Austin). 2007 May-Jun;1(3):198-208. Epub 2007 Jul 6.
+
+Mutational analysis of block and facilitation of HERG current by a class III
+anti-arrhythmic agent, nifekalant.
+
+Hosaka Y(1), Iwata M, Kamiya N, Yamada M, Kinoshita K, Fukunishi Y, Tsujimae K,
+Hibino H, Aizawa Y, Inanobe A, Nakamura H, Kurachi Y.
+
+Author information: 
+(1)Department of Pharmacology, Graduate School of Medicine, Osaka University,
+Osaka, Japan.
+
+Chemicals and toxins are useful tools to elucidate the structure-function
+relationship of various proteins including ion channels. The HERG channel is
+blocked by many compounds and this may cause life-threatening cardiac arrhythmia.
+Besides block, some chemicals such as the class III anti-arrhythmic agent
+nifekalant stimulate HERG at low potentials by shifting its activation curve
+towards hyperpolarizing voltages. This is called "facilitation". Here, we report 
+mutations and simulations analyzing the association between nifekalant and
+channel pore residues for block and facilitation. Alanine-scanning mutagenesis
+was performed in the pore region of HERG. The mutations at the base of the pore
+helix (T623A), the selectivity filter (V625A) and the S6 helix (G648A, Y652A and 
+F656A) abolished and S624A attenuated both block and facilitation induced by the 
+drug. On the other hand, the mutation of other residues caused either an increase
+or a decrease in nifekalant-induced facilitation without affecting block. An
+open-state homology model of the HERG pore suggested that T623, S624, Y652 and
+F656 faced the central cavity, and were positioned within geometrical range for
+the drug to be able to interact with all of them at the same time. Of these, S649
+was the only polar residue located within possible interaction distance from the 
+drug held in its blocking position. Further mutations and flexible-docking
+simulations suggest that the size, but not the polarity, of the side chain at
+S649 is critical for drug induced facilitation.
+
+PMID: 18690032  [PubMed - indexed for MEDLINE]
+
+
+53. Biochem Biophys Res Commun. 2011 Nov 11;415(1):141-6. doi:
+10.1016/j.bbrc.2011.10.034. Epub 2011 Oct 12.
+
+A mechanism underlying compound-induced voltage shift in the current activation
+of hERG by antiarrhythmic agents.
+
+Furutani K(1), Yamakawa Y, Inanobe A, Iwata M, Ohno Y, Kurachi Y.
+
+Author information: 
+(1)Department of Pharmacology, Graduate School of Medicine, Osaka University,
+Osaka, Japan. furutani@pharma2.med.osaka-u.ac.jp
+
+Nifekalant and azimilide, Class III antiarrhythmic agents, block the human
+ether-a-go-go-related gene K(+) (hERG) channel. However, when a depolarizing
+membrane potential is applied, they also increase the current at low potentials
+by shifting its activation curve towards hyperpolarizing voltages. This
+phenomenon is called 'facilitation'. In this study, we tried to address the
+mechanism underlying the facilitation by analyzing the effects of various
+compounds on hERG expressed in Xenopus oocytes. Like nifekalant, amiodarone,
+quinidine and carvedilol, but not by dofetilide, caused the current facilitation 
+of hERG, suggesting that the facilitation is a common effect to a subset of hERG 
+blockers. As the concentration of each compound was increased, the total hERG
+current was suppressed progressively, while the current at low potentials was
+augmented. Activation curves of the remaining hERG current in the facilitation
+condition could be described as the sum of two Boltzmann functions reflecting two
+populations of hERG currents having different activation curves. The voltage
+shift in the activation curve from control was constant for each compound even at
+different concentrations; -31 mV in amiodarone, -27 mV in nifekalant, -17 mV in
+quinidine and -12 mV in carvedilol. Therefore, the facilitation is based on the
+appearance of hERG whose voltage-dependence for the activation is shifted towards
+hyperpolarizing voltages.
+
+Copyright c 2011 Elsevier Inc. All rights reserved.
+
+PMID: 22020101  [PubMed - indexed for MEDLINE]
+
+
+54. Circ Res. 1998 Jun 15;82(11):1206-23.
+
+Simulation study of cellular electric properties in heart failure.
+
+Priebe L(1), Beuckelmann DJ.
+
+Author information: 
+(1)Department of Medicine III, University of Cologne, Germany.
+
+Patients with severe heart failure are at high risk of sudden cardiac death. In
+the majority of these patients, sudden cardiac death is thought to be due to
+ventricular tachyarrhythmias. Alterations of the electric properties of single
+myocytes in heart failure may favor the occurrence of ventricular arrhythmias in 
+these patients by inducing early or delayed afterdepolarizations. Mathematical
+models of the cellular action potential and its underlying ionic currents could
+help to elucidate possible arrhythmogenic mechanisms on a cellular level. In the 
+present study, selected ionic currents based on human data are incorporated into 
+a model of the ventricular action potential for the purpose of studying the
+cellular electrophysiological consequences of heart failure. Ionic currents that 
+are not yet sufficiently characterized in human ventricular myocytes are adopted 
+from the action potential model developed by Luo and Rudy (LR model). The main
+results obtained from this model are as follows: The action potential in
+ventricular myocytes from failing hearts is longer than in nonfailing control
+hearts. The major underlying mechanisms for this prolongation are the enhanced
+activity of the Na+-Ca2+ exchanger, the slowed diastolic decay of the [Ca2+]i
+transient, and the reduction of the inwardly rectifying K+ current and the Na+-K+
+pump current in myocytes of failing hearts. Furthermore, the fast and slow
+components of the delayed rectifier K+ current (I(Kr) and I(Ks), respectively)
+are of utmost importance in determining repolarization of the human ventricular
+action potential. In contrast, the influence of the transient outward K+ current 
+on APD is only small in both cell groups. Inhibition of I(Kr) promotes the
+development of early afterdepolarizations in failing, but not nonfailing,
+myocytes. Furthermore, spontaneous Ca2+ release from the sarcoplasmic reticulum
+triggers a premature action potential only in failing myocytes. This model of the
+ventricular action potential and its alterations in heart failure is intended to 
+serve as a tool for investigating the effects of therapeutic interventions on the
+electric excitability of the human ventricular myocardium.
+
+PMID: 9633920  [PubMed - indexed for MEDLINE]
+
+
+55. PLoS Comput Biol. 2011 May;7(5):e1002061. doi: 10.1371/journal.pcbi.1002061. Epub
+2011 May 26.
+
+Simulation of the undiseased human cardiac ventricular action potential: model
+formulation and experimental validation.
+
+O'Hara T(1), Virag L, Varro A, Rudy Y.
+
+Author information: 
+(1)Cardiac Bioelectricity and Arrhythmia Center, Department of Biomedical
+Engineering, Washington University in St. Louis, St. Louis, Missouri, USA.
+
+Cellular electrophysiology experiments, important for understanding cardiac
+arrhythmia mechanisms, are usually performed with channels expressed in non
+myocytes, or with non-human myocytes. Differences between cell types and species 
+affect results. Thus, an accurate model for the undiseased human ventricular
+action potential (AP) which reproduces a broad range of physiological behaviors
+is needed. Such a model requires extensive experimental data, but essential
+elements have been unavailable. Here, we develop a human ventricular AP model
+using new undiseased human ventricular data: Ca(2+) versus voltage dependent
+inactivation of L-type Ca(2+) current (I(CaL)); kinetics for the transient
+outward, rapid delayed rectifier (I(Kr)), Na(+)/Ca(2+) exchange (I(NaCa)), and
+inward rectifier currents; AP recordings at all physiological cycle lengths; and 
+rate dependence and restitution of AP duration (APD) with and without a variety
+of specific channel blockers. Simulated APs reproduced the experimental AP
+morphology, APD rate dependence, and restitution. Using undiseased human mRNA and
+protein data, models for different transmural cell types were developed.
+Experiments for rate dependence of Ca(2+) (including peak and decay) and
+intracellular sodium ([Na(+)](i)) in undiseased human myocytes were
+quantitatively reproduced by the model. Early afterdepolarizations were induced
+by I(Kr) block during slow pacing, and AP and Ca(2+) alternans appeared at rates 
+>200 bpm, as observed in the nonfailing human ventricle.
+Ca(2+)/calmodulin-dependent protein kinase II (CaMK) modulated rate dependence of
+Ca(2+) cycling. I(NaCa) linked Ca(2+) alternation to AP alternans. CaMK
+suppression or SERCA upregulation eliminated alternans. Steady state APD rate
+dependence was caused primarily by changes in [Na(+)](i), via its modulation of
+the electrogenic Na(+)/K(+) ATPase current. At fast pacing rates, late Na(+)
+current and I(CaL) were also contributors. APD shortening during restitution was 
+primarily dependent on reduced late Na(+) and I(CaL) currents due to inactivation
+at short diastolic intervals, with additional contribution from elevated I(Kr)
+due to incomplete deactivation.
+
+PMCID: PMC3102752
+PMID: 21637795  [PubMed - indexed for MEDLINE]
+
+
+56. Neural Comput. 1995 Mar;7(2):307-37.
+
+Synchrony in excitatory neural networks.
+
+Hansel D(1), Mato G, Meunier C.
+
+Author information: 
+(1)Centre de Physique Theorique, UPR014 CNRS, Ecole Polytechnique, Palaiseau,
+France.
+
+Synchronization properties of fully connected networks of identical oscillatory
+neurons are studied, assuming purely excitatory interactions. We analyze their
+dependence on the time course of the synaptic interaction and on the response of 
+the neurons to small depolarizations. Two types of responses are distinguished.
+In the first type, neurons always respond to small depolarization by advancing
+the next spike. In the second type, an excitatory postsynaptic potential (EPSP)
+received after the refractory period delays the firing of the next spike, while
+an EPSP received at a later time advances the firing. For these two types of
+responses we derive general conditions under which excitation destabilizes
+in-phase synchrony. We show that excitation is generally desynchronizing for
+neurons with a response of type I but can be synchronizing for responses of type 
+II when the synaptic interactions are fast. These results are illustrated on
+three models of neurons: the Lapicque integrate-and-fire model, the model of
+Connor et al., and the Hodgkin-Huxley model. The latter exhibits a type II
+response, at variance with the first two models, that have type I responses. We
+then examine the consequences of these results for large networks, focusing on
+the states of partial coherence that emerge. Finally, we study the Lapicque model
+and the model of Connor et al. at large coupling and show that excitation can be 
+desynchronizing even beyond the weak coupling regime.
+
+PMID: 8974733  [PubMed - indexed for MEDLINE]
+
+
+57. Am J Physiol. 1998 Jul;275(1 Pt 2):H301-21.
+
+Ionic mechanisms underlying human atrial action potential properties: insights
+from a mathematical model.
+
+Courtemanche M(1), Ramirez RJ, Nattel S.
+
+Author information: 
+(1)Research Center, Montreal Heart Institute, Montreal, Quebec H1T 1C8, Canada.
+
+The mechanisms underlying many important properties of the human atrial action
+potential (AP) are poorly understood. Using specific formulations of the K+, Na+,
+and Ca2+ currents based on data recorded from human atrial myocytes, along with
+representations of pump, exchange, and background currents, we developed a
+mathematical model of the AP. The model AP resembles APs recorded from human
+atrial samples and responds to rate changes, L-type Ca2+ current blockade,
+Na+/Ca2+ exchanger inhibition, and variations in transient outward current
+amplitude in a fashion similar to experimental recordings. Rate-dependent
+adaptation of AP duration, an important determinant of susceptibility to atrial
+fibrillation, was attributable to incomplete L-type Ca2+ current recovery from
+inactivation and incomplete delayed rectifier current deactivation at rapid
+rates. Experimental observations of variable AP morphology could be accounted for
+by changes in transient outward current density, as suggested experimentally. We 
+conclude that this mathematical model of the human atrial AP reproduces a variety
+of observed AP behaviors and provides insights into the mechanisms of clinically 
+important AP properties.
+
+PMID: 9688927  [PubMed - indexed for MEDLINE]
+
+
+58. Am J Physiol Heart Circ Physiol. 2007 Jul;293(1):H660-9. Epub 2007 Jan 12.
+
+Frequency-dependent effects of various IKr blockers on cardiac action potential
+duration in a human atrial model.
+
+Tsujimae K(1), Suzuki S, Murakami S, Kurachi Y.
+
+Author information: 
+(1)Division of Molecular and Cellular Pharmacology, Department of Pharmacology,
+Graduate School of Medicine, Osaka University, 2-2 Yamada-oka, Suita, Osaka
+565-0871, Japan.
+
+Rapidly activating K(+) current (I(Kr)) blockers prolong action potential (AP)
+duration (APD) in a reverse-frequency-dependent manner and may induce
+arrhythmias, including torsade de pointes in the ventricle. The I(Kr) blocker
+dofetilide has been approved for treatment of atrial arrhythmias, including
+fibrillation. There are, however, a limited number of studies on the action of
+I(Kr) blockers on atrial AP. When we tested a mathematical model of the human
+atrial AP (M Courtemanche, RJ Ramirez, S Nattel. Am J Physiol Heart Circ Physiol 
+275: H301-H321, 1998) to examine the effects of dofetilide-type I(Kr) blockade,
+this model could not reproduce the reverse-frequency-dependent nature of I(Kr)
+blockade on atrial APD. We modified the model by introducing a slowly activating 
+K(+) current activation parameter. As the slow time constant was increased,
+dofetilide-type blockade induced more prominent reverse-frequency-dependent APD
+prolongation. Using the modified model, we also examined the effects of two more 
+types of I(Kr) blockade similar to those of quinidine and vesnarinone. Voltage-
+and time-dependent block of I(Kr) through the onset of inhibition by quinidine is
+much faster than by vesnarinone. When we incorporated the kinetics of the effects
+of these drugs on I(Kr) into the model, we found that quinidine-type blockade
+caused a reverse-frequency-dependent prolongation of APD that was similar to the 
+effect of dofetilide-type blockade, whereas vesnarinone-type blockade did not.
+This finding coincides with experimental observations. The lack of the reverse
+frequency dependence in vesnarinone-type blockade was accounted for by the slow
+development of I(Kr) blockade at depolarized potentials. These results suggest
+that the voltage- and time-dependent nature of I(Kr) blockade by drugs may be
+critical for the phenotype of the drug effect on atrial AP.
+
+PMID: 17220183  [PubMed - indexed for MEDLINE]
+
+
+59. Jpn J Physiol. 1980;30(6):841-57.
+
+Reconstruction of sino-atrial node pacemaker potential based on the voltage clamp
+experiments.
+
+Yanagihara K, Noma A, Irisawa H.
+
+The pacemaker activity of the S-A node cell was explained by reconstructing the
+pacemaker potential using a Hodgkin-Huxley type mathematical model which was
+based on the reported voltage clamp data. In this model four dynamic currents,
+the sodium current iNa, the slow inward current, is, the potassium current, iK,
+and the hyperpolarization-activated current, ih, in addition to a time-dependent 
+leak current, i1 were included. The model simulated the spontaneous action
+potential the current voltage relationship, and the voltage clamp experiment in
+normal Tyrode solution of the rabbit S-A node. Furthermore, the changes of
+activity induced by the potassium current blocker Ba2+, by applying constant
+current, acetylcholine, and epinephrine were also reconstructed. It was strongly 
+suggested that the pacemaker depolarization in the S-A node cell is mainly due to
+a gradual increase of iS during diastole, and that the contribution of iK is much
+less compared to the potassium current iK2 in the Purkinje fiber pacemaker
+depolarization. The rising phase of the action potential was due to iS and the
+plateau phase is determined by both the inactivation of iS and activation of iK.
+
+PMID: 7265560  [PubMed - indexed for MEDLINE]
+
+
+60. PLoS One. 2014 Jan 8;9(1):e84401. doi: 10.1371/journal.pone.0084401. eCollection 
+2014.
+
+A quantitative comparison of the behavior of human ventricular cardiac
+electrophysiology models in tissue.
+
+Elshrif MM(1), Cherry EM(2).
+
+Author information: 
+(1)B. Thomas Golisano College of Computing and Information Sciences, Rochester
+Institute of Technology, Rochester, New York, United States of America. (2)School
+of Mathematical Sciences, Rochester Institute of Technology, Rochester, New York,
+United States of America.
+
+Numerical integration of mathematical models of heart cell electrophysiology
+provides an important computational tool for studying cardiac arrhythmias, but
+the abundance of available models complicates selecting an appropriate model. We 
+study the behavior of two recently published models of human ventricular action
+potentials, the Grandi-Pasqualini-Bers (GPB) and the O'Hara-Virag-Varro-Rudy
+(OVVR) models, and compare the results with four previously published models and 
+with available experimental and clinical data. We find the shapes and durations
+of action potentials and calcium transients differ between the GPB and OVVR
+models, as do the magnitudes and rate-dependent properties of transmembrane
+currents and the calcium transient. Differences also occur in the steady-state
+and S1-S2 action potential duration and conduction velocity restitution curves,
+including a maximum conduction velocity for the OVVR model roughly half that of
+the GPB model and well below clinical values. Between single cells and tissue,
+both models exhibit differences in properties, including maximum upstroke
+velocity, action potential amplitude, and minimum diastolic interval. Compared to
+experimental data, action potential durations for the GPB and OVVR models agree
+fairly well (although OVVR epicardial action potentials are shorter), but maximum
+slopes of steady-state restitution curves are smaller. Although studies show
+alternans in normal hearts, it occurs only in the OVVR model, and only for a
+narrow range of cycle lengths. We find initiated spiral waves do not progress to 
+sustained breakup for either model. The dominant spiral wave period of the GPB
+model falls within clinically relevant values for ventricular tachycardia (VT),
+but for the OVVR model, the dominant period is longer than periods associated
+with VT. Our results should facilitate choosing a model to match properties of
+interest in human cardiac tissue and to replicate arrhythmia behavior more
+closely. Furthermore, by indicating areas where existing models disagree, our
+findings suggest avenues for further experimental work.
+
+PMCID: PMC3885549
+PMID: 24416228  [PubMed - indexed for MEDLINE]
+
+
+61. Am J Physiol Heart Circ Physiol. 2004 Apr;286(4):H1573-89. Epub 2003 Dec 4.
+
+A model for human ventricular tissue.
+
+ten Tusscher KH(1), Noble D, Noble PJ, Panfilov AV.
+
+Author information: 
+(1)Department of Theoretical Biology, Utrecht University, 3584 CH Utrecht, The
+Netherlands. khwjtuss@hotmail.com
+
+Comment in
+    Am J Physiol Heart Circ Physiol. 2005 Jan;288(1):H453; author reply H453-4.
+
+The experimental and clinical possibilities for studying cardiac arrhythmias in
+human ventricular myocardium are very limited. Therefore, the use of alternative 
+methods such as computer simulations is of great importance. In this article we
+introduce a mathematical model of the action potential of human ventricular cells
+that, while including a high level of electrophysiological detail, is
+computationally cost-effective enough to be applied in large-scale spatial
+simulations for the study of reentrant arrhythmias. The model is based on recent 
+experimental data on most of the major ionic currents: the fast sodium, L-type
+calcium, transient outward, rapid and slow delayed rectifier, and inward
+rectifier currents. The model includes a basic calcium dynamics, allowing for the
+realistic modeling of calcium transients, calcium current inactivation, and the
+contraction staircase. We are able to reproduce human epicardial, endocardial,
+and M cell action potentials and show that differences can be explained by
+differences in the transient outward and slow delayed rectifier currents. Our
+model reproduces the experimentally observed data on action potential duration
+restitution, which is an important characteristic for reentrant arrhythmias. The 
+conduction velocity restitution of our model is broader than in other models and 
+agrees better with available data. Finally, we model the dynamics of spiral wave 
+rotation in a two-dimensional sheet of human ventricular tissue and show that the
+spiral wave follows a complex meandering pattern and has a period of 265 ms. We
+conclude that the proposed model reproduces a variety of electrophysiological
+behaviors and provides a basis for studies of reentrant arrhythmias in human
+ventricular tissue.
+
+PMID: 14656705  [PubMed - indexed for MEDLINE]
+
+
+62. Biophys J. 2005 Oct;89(4):2865-87. Epub 2005 Jul 22.
+
+Dynamical mechanisms of pacemaker generation in IK1-downregulated human
+ventricular myocytes: insights from bifurcation analyses of a mathematical model.
+
+Kurata Y(1), Hisatome I, Matsuda H, Shibamoto T.
+
+Author information: 
+(1)Department of Physiology, Kanazawa Medical University, Ishikawa 920-0293,
+Japan. yasu@kanazawa-med.ac.jp
+
+Dynamical mechanisms of the biological pacemaker (BP) generation in human
+ventricular myocytes were investigated by bifurcation analyses of a mathematical 
+model. Equilibrium points (EPs), periodic orbits, stability of EPs, and
+bifurcation points were determined as functions of bifurcation parameters, such
+as the maximum conductance of inward-rectifier K+ current (I(K1)), for
+constructing bifurcation diagrams. Stable limit cycles (BP activity) abruptly
+appeared around an unstable EP via a saddle-node bifurcation when I(K1) was
+suppressed by 84.6%. After the bifurcation at which a stable EP disappears, the
+I(K1)-reduced system has an unstable EP only, which is essentially important for 
+stable pacemaking. To elucidate how individual sarcolemmal currents contribute to
+EP instability and BP generation, we further explored the bifurcation structures 
+of the system during changes in L-type Ca2+ channel current (I(Ca,L)),
+delayed-rectifier K+ currents (I(K)), or Na(+)/Ca2+ exchanger current (I(NaCa)). 
+Our results suggest that 1), I(Ca,L) is, but I(K) or I(NaCa) is not, responsible 
+for EP instability as a requisite to stable BP generation; 2), I(K) is
+indispensable for robust pacemaking with large amplitude, high upstroke velocity,
+and stable frequency; and 3), I(NaCa) is the dominant pacemaker current but is
+not necessarily required for the generation of spontaneous oscillations.
+
+PMCID: PMC1366784
+PMID: 16040746  [PubMed - indexed for MEDLINE]
+
+
+63. Biochim Biophys Acta. 2011 Nov;1812(11):1452-9. doi:
+10.1016/j.bbadis.2011.07.011. Epub 2011 Jul 24.
+
+Identification and functional characterization of KCNQ1 mutations around the exon
+7-intron 7 junction affecting the splicing process.
+
+Tsuji-Wakisaka K(1), Akao M, Ishii TM, Ashihara T, Makiyama T, Ohno S, Toyoda F, 
+Dochi K, Matsuura H, Horie M.
+
+Author information: 
+(1)Department of Cardiovascular and Respiratory Medicine, Shiga University of
+Medical Science, Otsu, Japan.
+
+BACKGROUND: KCNQ1 gene encodes the delayed rectifier K(+) channel in cardiac
+muscle, and its mutations cause long QT syndrome type 1 (LQT1). Especially
+exercise-related cardiac events predominate in LQT1. We previously reported that 
+a KCNQ1 splicing mutation displays LQT1 phenotypes.
+METHODS AND RESULTS: We identified novel mutation at the third base of intron 7
+(IVS7 +3A>G) in exercise-induced LQT1 patients. Minigene assay in COS7 cells and 
+RT-PCR analysis of patients' lymphocytes demonstrated the presence of exon
+7-deficient mRNA in IVS7 +3A>G, as well as c.1032G>A, but not in c.1022C>T.
+Real-time RT-PCR demonstrated that both IVS7 +3A>G and c.1032G>A carrier
+expressed significant amounts of exon-skipping mRNAs (18.8% and 44.8% of total
+KCNQ1 mRNA). Current recordings from Xenopus oocytes injected cRNA by simulating 
+its ratios of exon skipping displayed a significant reduction in currents to 64.8
+} 4.5% for IVS7 +3A>G and to 41.4 } 9.5% for c.1032G>A carrier, respectively,
+compared to the condition without splicing error. Computer simulation
+incorporating these quantitative results revealed the pronounced QT prolongation 
+under beta-adrenergic stimulation in IVS7 +3A>G carrier model.
+CONCLUSION: Here we report a novel splicing mutation IVS7 +3A>G, identified in a 
+family with mild form LQT1 phenotypes, and examined functional outcome in
+comparison with three other variants around the exon 7-intron 7 junction. In
+addition to c.1032G>A mutation, IVS7 +3A>G generates exon-skipping mRNAs, and
+thereby causing LQT1 phenotype. The severity of clinical phenotypes appeared to
+differ between the two splicing-related mutations and to result from the amount
+of resultant mRNAs and their functional consequences.
+
+2011 Elsevier B.V. All rights reserved.
+
+PMID: 21810471  [PubMed - indexed for MEDLINE]
+
+
+64. Biophys J. 1995 Mar;68(3):949-64.
+
+Early afterdepolarizations in cardiac myocytes: mechanism and rate dependence.
+
+Zeng J(1), Rudy Y.
+
+Author information: 
+(1)Department of Biomedical Engineering, Case Western Reserve University,
+Cleveland, Ohio 44106-7207, USA.
+
+A model of the cardiac ventricular action potential that accounts for dynamic
+changes in ionic concentrations was used to study the mechanism, characteristics,
+and rate dependence of early after depolarizations (EADs). A simulation approach 
+to the study of the effects of pharmacological agents on cellular processes was
+introduced. The simulation results are qualitatively consistent with experimental
+observations and help resolve contradictory conclusions in the literature
+regarding the mechanism of EADs. Our results demonstrate that: 1) the L-type
+calcium current, ICa, is necessary as a depolarizing charge carrier during an
+EAD; 2) recovery and reactivation of ICa is the mechanism of EAD formation,
+independent of the intervention used to induce the EADs (cesium, Bay K 8644, or
+isoproterenol were used in our simulations, following similar published
+experimental protocols); 3) high [Ca2+]i is not required for EADs to develop and 
+calcium release by the sarcoplasmic reticulum does not occur during the EAD; 4)
+although the primary mechanism of EAD formation is recovery of ICa, other plateau
+currents can modulate EAD formation by affecting the balance of currents during a
+conditional phase before the EAD take-off; and 5) EADs are present at drive cycle
+lengths longer than 1000 ms. Because of the very long activation time constant of
+the delayed rectifier potassium current, IK, the activation gate of IK does not
+deactivate completely between consecutive stimuli at fast rates (drive cycle
+length < 1000 ms). As a result, IK plays a key role in determining the rate
+dependence of EADs.
+
+PMCID: PMC1281819
+PMID: 7538806  [PubMed - indexed for MEDLINE]
+
+
+65. Proc Natl Acad Sci U S A. 2004 May 4;101(18):7152-7. Epub 2004 Apr 21.
+
+A role for fast rhythmic bursting neurons in cortical gamma oscillations in
+vitro.
+
+Cunningham MO(1), Whittington MA, Bibbig A, Roopun A, LeBeau FE, Vogt A, Monyer
+H, Buhl EH, Traub RD.
+
+Author information: 
+(1)School of Biomedical Sciences, The Worsley Building, University of Leeds,
+Leeds LS2 9JT, United Kingdom.
+
+Basic cellular and network mechanisms underlying gamma frequency oscillations
+(30-80 Hz) have been well characterized in the hippocampus and associated
+structures. In these regions, gamma rhythms are seen as an emergent property of
+networks of principal cells and fast-spiking interneurons. In contrast, in the
+neocortex a number of elegant studies have shown that specific types of principal
+neuron exist that are capable of generating powerful gamma frequency outputs on
+the basis of their intrinsic conductances alone. These fast rhythmic bursting
+(FRB) neurons (sometimes referred to as "chattering" cells) are activated by
+sensory stimuli and generate multiple action potentials per gamma period. Here,
+we demonstrate that FRB neurons may function by providing a large-scale input to 
+an axon plexus consisting of gap-junctionally connected axons from both FRB
+neurons and their anatomically similar counterparts regular spiking neurons. The 
+resulting network gamma oscillation shares all of the properties of gamma
+oscillations generated in the hippocampus but with the additional critical
+dependence on multiple spiking in FRB cells.
+
+PMCID: PMC406481
+PMID: 15103017  [PubMed - indexed for MEDLINE]
+
+
+66. J Neurophysiol. 2003 Feb;89(2):909-21.
+
+Fast rhythmic bursting can be induced in layer 2/3 cortical neurons by enhancing 
+persistent Na+ conductance or by blocking BK channels.
+
+Traub RD(1), Buhl EH, Gloveli T, Whittington MA.
+
+Author information: 
+(1)Department of Physiology and Pharmacology, State University of New York Health
+Science Center, Brooklyn, New York 11203, USA. roger.traub@downstate.edu
+
+Fast rhythmic bursting (or "chattering") is a firing pattern exhibited by
+selected neocortical neurons in cats in vivo and in slices of adult ferret and
+cat brain. Fast rhythmic bursting (FRB) has been recorded in certain superficial 
+and deep principal neurons and in aspiny presumed local circuit neurons; it can
+be evoked by depolarizing currents or by sensory stimulation and has been
+proposed to depend on a persistent g(Na) that causes spike depolarizing
+afterpotentials. We constructed a multicompartment 11-conductance model of a
+layer 2/3 pyramidal neuron, containing apical dendritic calcium-mediated
+electrogenesis; the model can switch between rhythmic spiking (RS) and FRB modes 
+of firing, with various parameter changes. FRB in this model is favored by
+enhancing persistent g(Na) and also by measures that reduce [Ca(2+)](i) or that
+reduce the conductance of g(K(C)) (a fast voltage- and Ca(2+)-dependent
+conductance). Axonal excitability plays a critical role in generating fast bursts
+in the model. In vitro experiments in rat layer 2/3 neurons confirmed (as shown
+previously by others) that RS firing could be switched to fast rhythmic bursting,
+either by buffering [Ca(2+)](i) or by enhancing persistent g(Na). In addition,
+our experiments confirmed the model prediction that reducing g(KC) (with
+iberiotoxin) would favor FRB. During the bursts, fast prepotentials (spikelets)
+could occur that did not originate in apical dendrites and that appear to derive 
+from the axon. We suggest that modulator-induced regulation of [Ca(2+)] dynamics 
+or of BK channel conductance, for example via protein kinase A, could play a role
+in determining the firing pattern of neocortical neurons; specifically, such
+modulation could play a role in regulating whether neurons respond to strong
+stimulation with fast rhythmic bursts.
+
+PMID: 12574468  [PubMed - indexed for MEDLINE]
+
+
+67. Eur J Neurosci. 2014 Jan;39(1):24-34. doi: 10.1111/ejn.12388. Epub 2013 Oct 23.
+
+Cell-type-dependent action potentials and voltage-gated currents in mouse
+fungiform taste buds.
+
+Kimura K(1), Ohtubo Y, Tateno K, Takeuchi K, Kumazawa T, Yoshii K.
+
+Author information: 
+(1)Graduate school of Life Science and Systems Engineering, Kyushu Institute of
+Technology, Hibikino 2-4, Kitakyushu-shi, 808-0196, Japan.
+
+Taste receptor cells fire action potentials in response to taste substances to
+trigger non-exocytotic neurotransmitter release in type II cells and exocytotic
+release in type III cells. We investigated possible differences between these
+action potentials fired by mouse taste receptor cells using in situ whole-cell
+recordings, and subsequently we identified their cell types immunologically with 
+cell-type markers, an IP3 receptor (IP3 R3) for type II cells and a SNARE protein
+(SNAP-25) for type III cells. Cells not immunoreactive to these antibodies were
+examined as non-IRCs. Here, we show that type II cells and type III cells fire
+action potentials using different ionic mechanisms, and that non-IRCs also fire
+action potentials with either of the ionic mechanisms. The width of action
+potentials was significantly narrower and their afterhyperpolarization was deeper
+in type III cells than in type II cells. Na(+) current density was similar in
+type II cells and type III cells, but it was significantly smaller in non-IRCs
+than in the others. Although outwardly rectifying current density was similar
+between type II cells and type III cells, tetraethylammonium (TEA) preferentially
+suppressed the density in type III cells and the majority of non-IRCs. Our
+mathematical model revealed that the shape of action potentials depended on the
+ratio of TEA-sensitive current density and TEA-insensitive current one. The
+action potentials of type II cells and type III cells under physiological
+conditions are discussed.
+
+c 2013 Federation of European Neuroscience Societies and John Wiley & Sons Ltd.
+
+PMID: 24152110  [PubMed - indexed for MEDLINE]

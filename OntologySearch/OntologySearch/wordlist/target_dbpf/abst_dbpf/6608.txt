@@ -1,0 +1,34 @@
+Adult
+Brain Mapping
+Evoked Potentials
+physiology
+Exploratory Behavior
+physiology
+Female
+Functional Laterality
+physiology
+Hippocampus
+anatomy
+&
+histology
+physiology
+Humans
+Magnetic Resonance Imaging
+Male
+Neural Pathways
+anatomy
+&
+histology
+physiology
+Orientation
+physiology
+Parahippocampal Gyrus
+anatomy
+&
+histology
+physiology
+Recognition (Psychology)
+physiology
+Space Perception
+physiology
+We conducted two functional magnetic resonance imaging (fMRI) experiments that examined novelty responses in the human medial temporal lobe (MTL) to determine whether the hippocampus makes contributions to memory processing that differ from those of structures in the adjacent parahippocampal region. In light of proposals that such differential contributions may pertain to relational processing demands, we assessed event-related fMRI responses in the MTL for novel single objects and for novel spatial and non-spatial object relationships; subjects were asked to detect these different types of novelties among previously studied items, and they successfully performed this task during scanning. A double dissociation that emerged from the response pattern of regions in the hippocampus and perirhinal cortex provided the strongest support for functional specialization in the MTL. A region in the right middle hippocampus responded to the novelty of spatial and non-spatial relationships but not to the novelty of individual objects. By contrast, a region in right perirhinal cortex, situated in the anterior collateral sulcus, responded to the novelty of individual objects but not to that of either type of relationship. Other MTL regions that responded to novelty in the present study showed no reliable difference in their response to the various novelty types; these regions included anterior parts of the hippocampus and posterior aspects of parahippocampal cortex. Together, our findings indicate that relational processing demands are a critical determinant of functional specialization in the human MTL. They also suggest, however, that a neuroanatomical framework that only distinguishes between the hippocampus and the parahippocampal region is not sufficiently refined to account for all functional differences and similarities observed with respect to relational processes in the human MTL.

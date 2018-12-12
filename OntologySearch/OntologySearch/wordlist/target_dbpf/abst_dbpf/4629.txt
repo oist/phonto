@@ -1,0 +1,20 @@
+Adult
+Brain
+physiology
+radiography
+Female
+Hippocampus
+physiology
+Humans
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Prefrontal Cortex
+physiology
+Recognition (Psychology)
+physiology
+Sleep
+physiology
+Time Factors
+Retrieval of recently acquired declarative memories depends on the hippocampus, but with time, retrieval is increasingly sustainable by neocortical representations alone. This process has been conceptualized as system-level consolidation. Using functional magnetic resonance imaging, we assessed over the course of three months how consolidation affects the neural correlates of memory retrieval. The duration of slow-wave sleep during a nap/rest period after the initial study session and before the first scan session on day 1 correlated positively with recognition memory performance for items studied before the nap and negatively with hippocampal activity associated with correct confident recognition. Over the course of the entire study, hippocampal activity for correct confident recognition continued to decrease, whereas activity in a ventral medial prefrontal region increased. These findings, together with data obtained in rodents, may prompt a revision of classical consolidation theory, incorporating a transfer of putative linking nodes from hippocampal to prelimbic prefrontal areas.

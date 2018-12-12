@@ -1,0 +1,19 @@
+Action Potentials
+physiology
+Algorithms
+Animals
+Artificial Intelligence
+Diagnosis
+Computer-Assisted
+methods
+Electroencephalography
+methods
+Hippocampus
+physiology
+Pattern Recognition
+Automated
+methods
+Rats
+EEG data analysis
+Balbir
+The present study introduces an approach to detecting and classifying the extracellular action potentials of neurons, a process usually referred to as spike sorting. Our approach is based on template matching which is an optimal filter under Gaussian noise. However, this is usually expensive in terms of computational time, and constructing appropriate templates can be also problematic. Despite its theoretical consistency, only a few algorithms have been proposed to efficiently solve this problem. To speed up the filter, it is important to curtail the matching process when the distance between the template and waveform exceeds some threshold. We approach this aspect of the problem using Davies-Bouldin validation indices (DBVIs), which are a function of the ratio of the sum of within-cluster scatter to between-cluster separation to prioritize point-by-point calculation. The templates are also constructed automatically by combining principle component analysis (PCA) and k-means clustering. This matching process performed well, with a shorter computational time and fewer incorrect classifications than other ordering methods.

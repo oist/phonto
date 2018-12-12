@@ -1,0 +1,22 @@
+Animals
+Behavior
+Animal
+physiology
+Computer Simulation
+Evaluation Studies as Topic
+Head
+physiology
+Hippocampus
+physiology
+Models
+Neurological
+Nucleus Accumbens
+physiology
+Rats
+Space Perception
+physiology
+Spatial Behavior
+physiology
+Thalamus
+physiology
+Cells throughout the hippocampal formation show striking spatial firing correlates as a rat navigates through space. These cells are thought to play a critical role in orchestrating the navigational abilities of the animals, since damage to the hippocampal formation causes spatial learning deficits. Here, we present a theoretical framework aimed at explaining how the different spatial signals are generated, as well as how they may help guide navigational behavior. Earlier work from our laboratory has presented a simple model for how the location-related signals exhibited by hippocampal place cells could be generated, based on convergent sensory information. Here, the results of this work are combined with two more recent models, to provide a more comprehensive theoretical framework. Specifically, we present 1) A neural network model of head direction cells, based on the idea that the directional signals are generated using a path integration mechanism. Cells which combine directional and angular head velocity information project onto the head direction cells, to "update" the current directional signal. This model reproduces the basic phenomenon of direction-specific firing, as well as the anticipatory nature of this firing, reported for some head direction cells. 2) A network simulation of how the hippocampal spatial signals could be used to orchestrate instrumental learning. Here, place and directional signals converge onto motor cells, each of which are thus driven to fire to specific combinations of location and directional heading. Each active motor cell generates a small leftward or rightward "step" of the simulated animal. When the simulated goal is encountered, recently active synapses are strengthened, so that goal-directed trajectories are "stamped in". We have found these models useful in helping to clarify our thinking about the proposed theoretical principles, as well as in generating testable predictions.

@@ -1,0 +1,21 @@
+Adult
+Association Learning
+physiology
+Brain Mapping
+Female
+Hippocampus
+physiology
+Humans
+Magnetic Resonance Imaging
+Male
+Mental Recall
+physiology
+Recognition (Psychology)
+physiology
+Reference Values
+Temporal Lobe
+physiology
+Verbal Learning
+physiology
+Young Adult
+Functional magnetic resonance imaging (fMRI) was employed to investigate the contributions of medial temporal lobe (MTL) regions to encoding operations underpinning recollection and familiarity. Participants first studied word pairs. Words in pairs were either weakly or strongly semantically related. In a subsequent retrieval task, participants distinguished between studied pairs, unstudied pairs, and recombined pairs formed from words taken from different studied pairs. Greater activity at encoding for correct judgments to studied pairs with strong, rather than weak, semantic relationships was assumed to index processes supporting subsequent familiarity-based responding. Greater activity for correct judgments to studied pairs than for recombined pairs identified incorrectly as studied pairs was assumed to index processes contributing to recollection-based responding. Evidence that these assumptions were reasonable was obtained in independent behavioural studies, while the outcomes of these fMRI contrasts indicated links between perirhinal cortex and familiarity, and anterior hippocampus and recollection. This functional separation is consistent with models in which the hippocampus and perirhinal cortex support two separable processes that contribute to memories for verbal associations.

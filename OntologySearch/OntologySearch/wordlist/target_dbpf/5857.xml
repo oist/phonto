@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5857">
+<itemtype>xnppaper</itemtype>
+<titles><title>Primate-specific alterations in neural stem/progenitor cells in the aged hippocampus.</title>
+</titles>
+<contributor uname='hisatsune'>[en]Hisatsune Tatsuhiro[/en][ja]久恒 辰博[/ja](hisatsune)</contributor>
+<keywords><keyword>Age Factors</keyword>
+<keyword>Aging</keyword>
+<keyword>Animals</keyword>
+<keyword>Cell Count</keyword>
+<keyword>methods</keyword>
+<keyword>Cell Differentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Macaca fascicularis</keyword>
+<keyword>Male</keyword>
+<keyword>Mice</keyword>
+<keyword>Nerve Tissue Proteins</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neural Stem Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurogenesis</keyword>
+<keyword>physiology</keyword>
+<keyword>SOXB1 Transcription Factors</keyword>
+<keyword>metabolism</keyword>
+<keyword>Tumor Suppressor Proteins</keyword>
+<keyword>metabolism</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-11-11T07:45:30Z</last_update_date>
+<creation_date>2011-11-11T07:45:30Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5857</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5857" version="1.02">
+<authors><author>Aizawa K</author><author>Ageyama N</author><author>Terao K</author><author>Hisatsune T</author></authors>
+<journal>Neurobiology of aging</journal>
+<volume>32</volume>
+<number>1</number>
+<page>140-50</page>
+<abstract>In the dentate gyrus of the hippocampus, new neurons are generated from neural stem/progenitor cells (NPCs) throughout life. As aging progresses, the rate of neurogenesis decreases exponentially, which might be responsible, in part, for age-dependent cognitive decline in animals and humans. However, few studies have analyzed the alterations in NPCs during aging, especially in primates. Here, we labeled NPCs by triple immunostaining for FABP7, Sox2, and GFAP and found that their numbers decreased in aged macaque monkeys (&gt;20 years old), but not in aged mice. Importantly, we observed marked morphological alterations of the NPCs in only the aged monkeys. In the aged monkey hippocampus, the processes of the NPCs were short and ran horizontally rather than vertically. Despite these alterations, the proliferation rate of the NPCs in aged monkeys was similar to that in young monkeys. Thus, morphological alterations do not affect the proliferation rate of NPCs, but may be involved in the maintenance of NPCs in aged primates, including elderly humans.</abstract>
+<pubmed_id>19201065</pubmed_id>
+</detail>
+</item>

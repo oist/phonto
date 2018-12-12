@@ -1,0 +1,30 @@
+Animals
+Arousal
+physiology
+Attention
+physiology
+Brain Mapping
+Discrimination Learning
+physiology
+Exploratory Behavior
+physiology
+Form Perception
+physiology
+Hippocampus
+physiology
+Limbic System
+physiology
+Male
+Neural Pathways
+physiology
+Pattern Recognition
+Visual
+physiology
+Rats
+Rats
+Inbred Strains
+Smell
+physiology
+Touch
+physiology
+The purpose of the present study was to investigate whether damage to the medial (MPP) or lateral hippocampal perforant path (LPP) may differentially affect rats' ability to react to novelty or environmental change. Three different types of task were used based on various sets of stimuli; visual/tactile, olfactory, or visual only. The results showed that the lesions produced different responses to different novel stimuli. In contrast to control and MPP animals, LPP rats displayed excessive exploration of the test cage. The results are discussed in terms of impoverished cognitive structure following perforant path disruptions and functional differentiation between MPP and LPP.

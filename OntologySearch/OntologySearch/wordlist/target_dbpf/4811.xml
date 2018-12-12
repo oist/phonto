@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4811">
+<itemtype>xnppaper</itemtype>
+<titles><title>Modality-specific retrograde amnesia of fear.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Amnesia</keyword>
+<keyword>Retrograde</keyword>
+<keyword>etiology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Classical</keyword>
+<keyword>physiology</keyword>
+<keyword>Electroshock</keyword>
+<keyword>Fear</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Rats</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:28:41Z</last_update_date>
+<creation_date>2011-04-28T05:28:41Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4811</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4811" version="1.02">
+<authors><author>Kim JJ</author><author>Fanselow MS</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>256</volume>
+<number>5057</number>
+<page>675-7</page>
+<abstract>Emotional responses such as fear are rapidly acquired through classical conditioning. This report examines the neural substrate underlying memory of acquired fear. Rats were classically conditioned to fear both tone and context through the use of aversive foot shocks. Lesions were made in the hippocampus either 1, 7, 14, or 28 days after training. Contextual fear was abolished in the rats that received lesions 1 day after fear conditioning. However, rats for which the interval between learning and hippocampal lesions was longer retained significant contextual fear memory. In the same animals, lesions did not affect fear response to the tone at any time. These results indicate that fear memory is not a single process and that the hippocampus may have a time-limited role in associative fear memories evoked by polymodal (contextual) but not unimodal (tone) sensory stimuli.</abstract>
+<pubmed_id>1585183</pubmed_id>
+</detail>
+</item>

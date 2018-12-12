@@ -1,0 +1,10 @@
+Animals
+Humans
+Memory
+physiology
+Mental Recall
+physiology
+Models
+Neurological
+Semantics
+Neural models assist in characterizing the processes carried out by cortical and hippocampal memory circuits. Recent models of memory have addressed issues including recognition and recall dynamics, sequences of activity as the unit of storage, and consolidation of intermediate-term episodic memory into long-term memory.

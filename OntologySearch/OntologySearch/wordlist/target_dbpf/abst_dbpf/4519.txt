@@ -1,0 +1,20 @@
+Animals
+Cues
+Darkness
+Head Movements
+physiology
+Hippocampus
+cytology
+physiology
+Models
+Neurological
+Neurons
+physiology
+Orientation
+physiology
+Rodentia
+Space Perception
+physiology
+Visual Fields
+physiology
+We present a computational theory of navigation in rodents based on interacting representations of place, head direction, and local view. An associated computer model is able to replicate a variety of behavioral and neurophysiological results from the rodent navigation literature. The theory and model generate predictions that are testable with current technologies.

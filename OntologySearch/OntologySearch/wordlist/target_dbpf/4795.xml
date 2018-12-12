@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4795">
+<itemtype>xnppaper</itemtype>
+<titles><title>Localization and anatomical identification of theta and complex spike cells in dorsal hippocampal formation of rats.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cell Count</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Interneurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>Rats</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:04:21Z</last_update_date>
+<creation_date>2011-04-28T05:04:21Z</creation_date>
+<publication_year>1975</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4795</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4795" version="1.02">
+<authors><author>Fox SE</author><author>Ranck JB</author></authors>
+<journal>Experimental neurology</journal>
+<volume>49</volume>
+<number>1</number>
+<page>299-313</page>
+<abstract></abstract>
+<pubmed_id>1183529</pubmed_id>
+</detail>
+</item>

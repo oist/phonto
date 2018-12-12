@@ -1,0 +1,23 @@
+Adult
+Brain
+physiology
+Brain Mapping
+Cognition
+physiology
+Female
+Hippocampus
+physiology
+Humans
+Judgment
+physiology
+Magnetic Resonance Imaging
+Male
+Memory
+physiology
+Neural Pathways
+physiology
+Neuropsychological Tests
+Recognition (Psychology)
+Visual Perception
+physiology
+Transitive inference (TI) is the ability to infer the relationship between items (e.g., A>C) after having learned a set of premise pairs (e.g., A>B and B>C). Previous studies in humans have identified a distributed neural network, including cortex, hippocampus, and thalamus, during TI judgments. We studied two aspects of TI using functional magnetic resonance imaging of subjects who had acquired the six-item sequence (A>B>C>D>E>F) of visual stimuli. First, the identification of novel pairs not containing end items (i.e., B>D, C>E, B>E) was associated with greater left hippocampal activation compared with the identification of novel pairs containing end items A and F. This demonstrates that the identification of stimulus pairs requiring the flexible representation of a sequence is associated with hippocampal activation. Second, for the three novel pairs devoid of end items we found greater right hippocampal activation for pairs B>D and C>E compared with pair B>E. This indicates that TI decisions on pairs derived from more adjacent items in the sequence are associated with greater hippocampal activation. Hippocampal activation thus scales with the degree of relational processing necessary for TI judgments. Both findings confirm a role of the hippocampus in transitive inference in humans.

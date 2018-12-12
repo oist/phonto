@@ -1,0 +1,522 @@
+Modeling of Ca2+ flux in pancreatic É¿-cells: role of the plasma membrane and intracellular stores
+
+Leonid E. Fridlyand , Natalia Tamarina , Louis H. Philipson
+American Journal of Physiology - Endocrinology and Metabolism Published 1 July 2003 Vol. 285 no. 1, E138-E154 DOI: 10.1152/ajpendo.00194.2002
+ArticleFigures & DataInfo PDF
+Abstract
+
+We have developed a detailed mathematical model of ionic flux in É¿-cells that includes the most essential channels and pumps in the plasma membrane. This model is coupled to equations describing Ca2+, inositol 1,4,5-trisphosphate (IP3), ATP, and Na+ homeostasis, including the uptake and release of Ca2+ by the endoplasmic reticulum (ER). In our model, metabolically derived ATP activates inward Ca2+ flux by regulation of ATP-sensitive K+ channels and depolarization of the plasma membrane. Results from the simulations support the hypothesis that intracellular Na+ and Ca2+ in the ER can be the main variables driving both fast (2?7 osc/min) and slow intracellular Ca2+ concentration oscillations (0.3?0.9 osc/min) and that the effect of IP3 on Ca2+ leak from the ER contributes to the pattern of slow calcium oscillations. Simulations also show that filling the ER Ca2+ stores leads to faster electrical bursting and Ca2+ oscillations. Specific Ca2+ oscillations in isolated É¿-cell lines can also be simulated.
+
+A RISE in the intracellular free calcium concentration ([Ca2+]i) is a key signal in the initiation of insulin secretion from the pancreatic É¿-cell. This increase principally results from calcium influx through plasma membrane (PM) Ca2+ channels, which open in response to secretagogues, primarily glucose. The metabolism of glucose through glycolysis and the tricarboxylic acid cycle leads to an increase in the cytoplasmic ATP-to-ADP (ATP/ADP) ratio. This causes closure of ATP-sensitive K+ (KATP) channels followed by depolarization of the É¿-cell membrane to the threshold potential where Ca2+ channels open, initiating Ca2+ influx (4). These events underlie glucose-induced electrical activity that, in pancreatic islets, consists of Ca2+-dependent action potentials.
+
+There is extensive literature describing É¿-cell electrical activity and its relationship to [Ca2+]i in intact islets of Langerhans, isolated islet cells, and insulinoma cell lines. Most of the work has been carried out using mouse islets, with some studies using islets from rat, hamster, human, and other species.
+
+Mouse pancreatic É¿-cells exhibit complex and cyclic spike-burst activity in response to a rise in extracellular glucose concentration. The bursts consist of a depolarized phase of Ca2+-carrying action potentials alternating with a silent phase of repolarization, resulting in oscillations in intracellular Ca2+, which can drive pulses of insulin secretion (28, 37).
+
+The only stimulus required for a complex cyclic spike-burst activity and corresponding [Ca2+]i oscillations in islets and É¿-cell clusters is elevation of glucose to levels above 5 and less than ?20 mM. Intermediate glucose concentrations induce two main types of oscillations in mouse pancreatic islets: fast, where the period ranges from 10 to 30 s, and slow, with periods of several minutes (37, 54, 83). Single mouse É¿-cells can also respond to glucose stimulation with regular oscillations (37).
+
+We have previously studied slow and fast [Ca2+]i oscillations in islets in response to a variety of conditions (70, 73; unpublished observations). We have also previously reported that a stable, transgenically derived murine insulinoma cell line (É¿TC3-neo) responds to glucose with slow, large amplitude [Ca2+]i oscillations but only in the presence of 10?20 mM tetraethylammonium (TEA), a blocker of K+ channels (74). We have utilized this cell line to characterize glucose-stimulated oscillatory activity (74).
+
+However, the precise interpretation of previous results is limited due to the numerous channels and pumps in É¿-cells that work concurrently, and identification of physiologically slow variables that drive oscillations remains unclear. To clarify these complex experimental results, we used a mathematical modeling approach. Our goals, then, are twofold: to develop a model for É¿-cell ion homeostasis, including the bursts and [Ca2+]i oscillations that can simulate cellular behavior, and to explain on this basis the experimental data for single cells and islets.
+
+Several mathematical approaches in the literature have provided quantitative estimates of glucose-induced insulin secretion with corresponding descriptions of glucose transport, metabolism, and ion regulation (most recent are Refs. 6, 7, 13, 14, 26, 30, 62, 65, and 78). Many phenomena were successfully explained using these models (see DISCUSSION). However, most models described one specific phenomenon and therefore included a very restricted set of channels and pumps, so that it is difficult to apply these models to another aim. In addition, newly described experimental results and signaling molecules should be considered.
+
+For this reason, we developed a new model to consider an extended variety of ionic channels and pumps as well as endoplasmic reticulum (ER) calcium sequestration mechanisms that have been identified in É¿-cells. We simulated whole cell electrical activity and [Ca2+]i, free calcium in the ER ([Ca2+]ER), intracellular Na+ ([Na+]i), cytosolic ATP ([ATP]i), and inositol 1,4,5-trisphosphate ([IP3]i) concentrations by use of parameters derived mainly for mouse É¿-cells. However, in this article, we do not make special consideration of metabolic processes or insulin secretion.
+
+To our knowledge, this article represents the first attempt to include in one model the key ion channels and pumps on both the PM and the ER membrane. Several detailed and comprehensive models have been developed for cardiac muscle and other cell types (67, 71). Here, we employ this approach to investigate the possible role of K+ channels, Na+, and IP3 in regulating É¿-cell Ca2+ oscillations.
+
+MATERIALS AND METHODS
+
+Islet Isolation and [Ca2+]i Measurement
+
+Isolation of rodent islets. Islets of Langerhans were isolated from the pancreata of 8- to 10-wk-old C57BL/6J mice by collagenase digestion and discontinuous Ficoll gradient methods described previously (85).
+
+Measurement of [Ca2+]i. Islets were loaded with fura 2 for 25 min at 37ÅãC in growth medium (RPMI 1640?10% fetal calf serum, penicillin, and streptomycin) supplemented with 5 mM acetoxymethyl ester of fura 2 (Molecular Probes). [Ca2+]i was estimated as described elsewhere (74). Dual-wavelength digitized video fluorescent microscopy with fura 2 in single islets was performed using an intensified charge-coupled device (Hammatsu C2400) and Metafluor imaging software (Universal Imaging).
+
+Model Development
+
+Our model of the É¿-cell combines a parallel conductance membrane model and an inside fluid compartmental model (Fig. 1). The compartmental model describes the time rate of changes in [Ca2+]i, [Ca2+]ER, [Na+]i, and [ATP]i, and [IP3]i. The extracellular space is assumed to have a relatively large volume, so that ionic concentrations of Ca2+, Na+, and K+ there are assumed to be constant.
+
+
+Download figure Open in new tab Download powerpoint
+Fig. 1.
+Schematic representation of currents and ion fluxes through the plasma membrane (PM) and endoplasmic reticulum (ER) membrane that have been included in the whole É¿-cell model. Top: PM currents: IVCa, voltage-dependent Ca2+ current; ICa,pump, calcium pump current; INa,Ca, Na+/Ca2+ exchange current; ICRAN, Ca2+ release-activated nonselective cation current; INa, inward Na+ currents; INa,K, Na/K pump current; IKDr, delayed rectifying K+ current; IKCa, voltage-independent small-conductance Ca2+-activated K+ current; IKATP, ATP-sensitive K+ (KATP) current; ksg, coefficient of the sequestration rate of intracellular free Ca+ concentration ([Ca2+]i) by the secretory granules; Jer,p, uptake of Ca2+ by the ER; Jout, Ca2+ leak current from the ER; IP3, inositol 1,4,5-trisphosphate.
+
+The corresponding equations for particular channels or pumps that we found in the literature were used even though they were in some cases obtained from cells other than pancreatic É¿-cells. However, we have considered the origin of the equations employed and their correspondence to biological processes. Model coefficients from the literature were adjusted to simulate the corresponding experimental data as indicated. The basic set of evaluated coefficients is shown in Table 1, denoted as Ågstandard.Åh
+
+View popupView inline
+Table 1.
+Standard parameter values
+
+Plasma membrane currents. The differential equation describing time-dependent changes in the plasma membrane potential (V) is the current balance equation (41)
+Math1
+where Cm is the total membrane capacitance. Model currents include a voltage-dependent Ca2+ current (IVCa), a PM calcium pump current (ICa,pump), Na+/Ca2+ exchange current (INa,Ca), Ca2+ release-activated nonselective cation current (ICRAN), inward Na+ currents (INa), a Na+/K+ pump current (INa,K), a delayed rectifier K+ current (IKDr), voltage-independent small conductance Ca2+-activated K+ current (IKCa), and the KATP current (IKATP) (Fig. 1).
+
+Ionic flux across the membrane, Jxi, is related to the ionic current by the expression
+Math2
+where F and zx, are Faraday's constant and ionic charge, respectively.
+
+General current equation. The ionic current across channels may be given by the empirical equation (41, p.18)
+Math3
+where
+Math4
+Math5
+and where gXi is the whole cell conductance, VX is the equilibrium potential, R is the universal gas constant, T is absolute temperature, and Xo and Xi are the extra- and intracellular concentrations, respectively.
+
+Whole cell conductance may depend on ion concentrations and voltage. These dependencies will be specified for each conductance as they are discussed.
+
+IVCa. The whole cell Ca2+ current in mouse É¿-cells flows principally through voltage-activated Ca2+ channels (29, 80). This current increases when the membrane is depolarized. Equation 3 was used for this current. The current/voltage relationship of this current [pVCa(V)] can be described by a Boltzmann-type activation curve (7, 9). Then
+Math6
+where
+Math7
+and where gmVCa is the maximum whole cell conductance, VCah is the half-activation potential, and KCah is the slope at half-maximal potential.
+
+At physiological Ca2+ concentrations, the measured VCah varies from -3.8 mV (80) and -16.7 mV (45) to -19 mV (9), and KCah extends from 6.6 mV (45) and 8.4 mV (80) to 13 mV (9). In our model, these coefficients were fitted to be inside these regions (Table 1).
+
+According to Gopel et al. (33) the mean integrated Ca2+ current observed during a 100-ms depolarization to -20 mV in the É¿-cell in situ was 7.7 pC at [Ca2+]o = 2.6 mM. This result can be obtained from Eq. 6 of our model, with gmVCa = 995 pS and [Ca2+]i = 0.05 É M. We set gmVCa = 770 pS as the standard condition for our model (Table 1). This value is close to that estimated above. The current/voltage relationship calculated using Eq. 6 is in good correlation with data for É¿-cells in situ (33).
+
+PM Ca2+ pumps (ICa,pump). PM Ca2+ pumps are now well recognized as a primary system for the specific expulsion of Ca2+ from É¿-cells (87). However, their kinetic properties are not well studied in these cells. For this reason, the general properties of PM Ca2+ pumps were used for the calculations.
+
+It is now generally established that the Ca2+/ATP stoichiometry of the PM Ca2+ pump is 1 (10, 66) and that the reconstituted PM pumps are capable of establishing a membrane potential while operating with H+/Ca2+ = 1 (40). PM and ER Ca2+ pumps do not have the sensitivity to ATP at the millimolar ATP concentrations that exist in physiological conditions (10). The Km is <0.5 É M Ca2+ for activated PM pumps (10, 66). On the basis of these data, the Ca2+ current through PM Ca2+ pumps was expressed in our model as (see 62)
+Math8
+where PmCap is a maximum current and KCap is the value for the half-activation calcium concentration. KCap was set to 0.1 É M, which is within the range of experimental observations for other preparations. PmCap (Table 1) is correspondingly above the evaluated lower limit (830 fA) that we obtained (see RESULTS).
+
+Na+/Ca2+ exchanger (INa,Ca). The lack of specific inhibitors hinders the experimental assessment of the role of the Na+/Ca2+ exchanger. However, a detailed investigation of the É¿-cell electrogenic 3 Na+/Ca2+ exchanger was recently reported (25), and the exchanger current (INa,Ca) was taken as follows from this work
+Math9
+where
+Math10
+and where gNaCa is the maximum whole cell conductance, and KNaCa is affinity constant.
+
+One can calculate from Gall et al. (25) that gNaCa = 271 pS (as CmÅE?Na/Ca from their Eq. 2), and we used this value for gNaCa in our model.
+
+Similarly, those authors found KNaCa to be 1.5 É M (25). However, an insignificant INa,Ca and a correspondingly very small influence of the Na+/Ca2+ exchanger on the model solutions were obtained at KNaCa = 1.5 É M. This result does not correspond to the data involving the effect of this exchanger on glucose-induced electrical activity in intact pancreatic islets (25). This apparent contradiction is probably due to the use of low ATP concentration in the perforated patch whole cell experiments in Ref. 25; therefore, KNaCa (1.5 É M) should only be considered as an upper limit. Data from different cell types show that ATP induces a dramatic increase in the intracellular Ca2+ affinity for the Na+/Ca2+ exchanger (20). Correspondingly, a lower value for KNaCa (0.75 É M) was employed in our model to fit glucose-induced É¿-cell oscillation patterns at an increased ATP content.
+
+ICRAN. ICRAN is a nonselective cation current whose conductance is regulated by the ER Ca2+ content. In mouse É¿-cells, it could be activated either indirectly by ER Ca2+ store depletion or directly by maitotoxin (84, 88, 89). However, the mechanism for coupling ER Ca2+ store depletion with CRAN remains an unresolved question.
+
+In our model, only Na+ can penetrate into the cell via this channel, reflecting experimental results under physiological concentrations of cations (52, 84, 88). The current/voltage relationship of this current [pCRAN(V)] was roughly linear, with a reversal potential close to 0 mV (52, 84, 88). In previous models, it was suggested that the regulation of ICRAN depends on [Ca2+]ER (8, 14, 62). We take this dependence following Ref. 62. Equation 3 can be written for this Na+ inward current
+Math11
+where
+Math12
+Math13
+and gmCRAN is the maximum whole cell conductance, fCRAN is the voltage-independent part of the current, KCar is the half-activation [Ca2+]ER level, and VCRAN is the reversal potential.
+
+KCar has been modified in our model, and it is now 200 rather than 40 É M (as accepted in Ref. 62), because the [Ca2+]ER is usually found to be in the hundred micromolar range (see Ref. 86).
+
+INa. The general equation for INa is derived from Eq. 3. The relationship between conditioning voltage and relative current amplitude for tetrodotoxin-blockable component of the INa [pNa(V)] was characterized (33) as the Boltzmann equation. Then
+Math14
+where
+Math15
+The maximum value of whole cell conductance (gmNa) was evaluated from the data (33), where it was found that INa = -392 pA at V = -140 mV. This INa value can be obtained from Eq. 14, with gmNa as 1,200 pS when [Na+]i is close to 0 and [Na+]o = 140 mM. (We used [Na+]i = 0.1 mM for this calculation). This value was used for standard conditions (Table 1).
+
+Na+-K+ active transport (INa,K). Electrogenic Na+-K+-ATPase extrudes three Na+ ions in exchange for two K+ ions for each molecule of ATP hydrolyzed, generating a net outward flow of cations through the É¿-cell PM (68). However, its kinetic properties have not been studied in É¿-cells. For this reason, we employed the general model (12) as was done previously for É¿-cells (65) (see APPENDIX A).
+
+IKDr. The principal type of voltage-dependent K+ current in É¿-cells is the IKDr. Kv2.1 is a likely candidate for the principal delayed rectifier isoform expressed in É¿-cells (56, 70).
+
+Equation 3 was used; however, the formulation (26, 78) is employed for whole cell conductance.
+Math16
+where gÅåmKDr is the maximal whole cell conductance, and n is the general gating variable, which is determined in APPENDIX B.
+
+The value of gÅåmKDr (Eq. 16) is calculated to be 3,000 pS for standard conditions. This is comparable to the value used in Refs. 8, 26, and 65.
+
+Family of KCa channels (IKCa). The voltage-independent small-conductance Ca2+-activated K+ channels (SK channels) are also expressed in É¿-cells (unpublished observations). It is quite plausible that these channels play an important role in [Ca2+]i oscillations (32).
+
+Equation 3 was used for this channel. Ca2+ activates IKCa currents [f(Ca2+)] in a sigmoidal fashion (49, 53). However, there are no data on the exact dependence in É¿-cells. The Hill equation was used to model this relationship, where the Hill coefficient equals 3 (14) or 5 (62). We also use a Hill equation, but with a Hill coefficient equal to 4
+Math17
+where
+Math18
+and KKCa is affinity constant.
+
+KKCa varies in the 0.05?0.9 É M range (Ref. 41, p. 144). However, SK3 channels may be the predominant SK family member in É¿-cells (unpublished observations), and because KKCa = 0.1 É M was found for SK3 channels by Carignani et al. (11), this value was used in our model.
+
+It is unlikely that the large-conductance Ca2+-activated K+ channel (BK channel) encoded by the slo gene plays an important role in the generation of oscillatory activity in É¿-cells (50), although several previous models of É¿-cell bursting have included this channel (78). We therefore did not include it in our considerations.
+
+KATP channels (IKATP). Equation 3 was used for this channel. However, we adopt here a kinetic model for the value of whole cell conductance (see Refs. 43, 58, 65). Then
+Math19
+where gÅåmKATP is the maximal value of the whole cell conductance, and OKATP is the fraction of channels open, which is considered in APPENDIX C.
+
+The value gÅåmKATP was evaluated to be 24 nS for the standard coefficient, which is comparable to the value used in Refs. 59 and 65. Then it can be calculated from Eqs. 19 and C1 (APPENDIX C) that the value of the whole cell conductance (gÅåmKATP OKATP) is 0.94 nS at [ATP]i = 0. This value falls in the range between 0.2 and 3.0 nS that was measured for the maximum KATP conductance reported for single mouse É¿-cells (48).
+
+Fluid Compartmental Model
+
+The material balance equation for calcium depends on three processes: entry, extrusion, and buffering (Fig. 1).
+
+Calcium enters the É¿-cells primarily through voltage-activated Ca2+ channels by diffusion along an inwardly directed electrochemical gradient (IVCa). The maintenance of this ionic gradient depends on a Ca2+-extruding mechanism in the PM and Ca2+ sequestration by intracellular organelles. At the PM, three processes are involved in transporting Ca2+ out of the cell: a Ca2+ pump, a Na+/Ca2+ exchanger, and removal of Ca2+ sequestrated in insulin granules by exocytosis. In addition, both the ER and mitochondria can accumulate Ca2+ via pumps. Even though Ca2+ is critical for mitochondrial function, for the present we do not include mitochondrial Ca2+ stores, since it appears that both the volume of mitochondria and its Ca2+ concentration are small relative to the ER (2, 18).
+
+Sarco(endo)plasmic reticulum Ca2+-ATPase pump. Uptake of Ca2+ into the ER is mediated in É¿-cells by sarco(endo)plasmic reticulum Ca2+-ATPases (SERCAs) with an unusually low value for the half-activation calcium concentration (?0.4 É M) (27). The Ca2+/ATP stoichiometry of the SERCA is 2 (10, 66). The equation for SERCA was written in the same form as the Ca2+ PM pump (Eq. 8; see also Ref. 62)
+Math20
+where Jer,p is the flux into the ER through SERCA pumps per cytosol volume, KCarp is the half-maximal pump activity, and PCaER is the maximum rate of pumping. The lower limit for this parameter was evaluated (see RESULTS) as PCaER = 0.026 É M/ms for the data from Ref. 25. The evaluated parameter for standard conditions (Table 1) is correspondingly above this lower limit. KCarp was taken as 0.5 É M, a value close to experimental data (27).
+
+IP3 metabolism. In the pancreatic É¿-cell, there is clear evidence that IP3 is an important cellular messenger inducing Ca2+ mobilization from intracellular stores by binding to specific receptors located on intracellular Ca2+ stores and is the main calcium release channel from the ER in É¿-cell tissues (38). However, we could not find any mathematical models of É¿-cell regulation that used IP3 as an independent variable.
+
+Different mechanisms seem to be available in the É¿-cells for stimulating IP3 production; however, only the modulation of inositol lipid-specific phospholipase activity by changes in Ca2+ is well studied (3). For this reason, the [Ca2+]i dependence was only modeled as the Hill function with a Hill coefficient of 2 (3).
+
+The subsequent kinetics of IP3 in É¿-cells is unknown. Therefore, we assume simply that IP3 is converted to inactive metabolites at a rate proportional to its concentration. Then synthesis and degradation of IP3 are described by the equation
+Math21
+where kIP is the rate constant of IP3 production, kdIP is the rate constant of IP3 degradation, and KIPCa is the half-activation of the IP3 production by calcium concentration.
+
+The time constants kIP and kdIP (Table 1) were picked to correctly reproduce the experimentally observed time course of the average [Ca2+]i during the slow [Ca2+]i oscillations (see RESULTS). KIPCa is taken as 0.4 É M (36). The fitted parameter kdIP (0.04 s-1, Table 1; half-life is 17.3 s) is inside the region of a half-life from 1 to 30 s that has been found for different cells with a radius of ?5 É m and above (79), similar to that of É¿-cells.
+
+CaER2+ mobilization. A Ca2+ leak current (Jout) from the ER per whole cell was taken according to Mears et al. (62)
+Math22
+where Pleak is the Ca2+ leak permeability out of the ER, PIP3 is the maximum permeability through open IP3-activated channels, and OÅá is the fraction of open IP3-activated Ca2+ channels.
+
+The type III IP3 receptor (IP3R) is the main calcium release channel in the É¿-cell ER (38). Apparently, in normal physiological conditions, the OÅá does not depend on the change of ATP concentration (57). The initial dependence of the IP3R maximum open probability vs. cytosolic Ca2+ could be well fitted to a Michaelis-Menten-type saturating equation with an affinity of 0.077 É M for [Ca2+]i (60).
+
+However, there are conflicting data concerning IP3 action. According to Hagar and Ehrlich (39), the Hill equation with a Hill coefficient close to 2 was found for the effect of IP3 on OÅá in vitro. On the other hand, the Hill number for low degrees of saturation of the IP3R was estimated at ?3.5 in vivo for rat basophilic leukemia cells (63). On the basis of these data, the Hill coefficient is set equal to 3. Then
+Math23
+where KRCa is the affinity constant of the [Ca2+]i to IP3R, and KIP3 is the constant for IP3 binding to a channel. KIP3 is 3.2 É M (39).
+
+Ca2+ and Na+ dynamics. The cytosolic and ER calcium concentrations and Na+ cytosolic concentration are determined by the ion fluxes across the plasma and ER membranes. However, calcium concentrations are strongly buffered in cells (77). This can be modeled using special coefficients for the fraction of free Ca2+ in the cytoplasm and ER (14, 62, 71). The Ca2+ leak from cells by É¿-granule exocytosis was modeled previously (14) as a rate proportional to [Ca2+]i. We employed a similar approach.
+
+On the basis of the foregoing consideration, the equations for Ca2+ and Na+ concentrations can be written as
+Math24
+Math25
+Math26
+where fi and fer are the fractions of free Ca2+ in cytoplasm and ER, Ver and Vi are the effective volumes of the ER and cytosolic compartments, and ksg is a coefficient of the sequestration rate of Ca2+i by the secretory granules.
+
+It has been proposed that the Ca2+-binding capacity inside the ER is lower than in the cytoplasm (69). This can increase the fraction of free Ca2+ in ER; therefore, we used a value of fer threefold higher than fi (Table 2).
+
+View popupView inline
+Table 2.
+Cell and external parameters
+
+ATP homeostasis. ATP concentration in the cytosol increases somewhat with an increase in glucose supply (2). However, the rate of ATP production and utilization is a complex function of the concentrations of ATPi, ADPi, Ca2+, glucose, and numerous other factors. For simplicity, we have chosen a first-order reaction to express the rate of ATPi production from ADPi.
+
+Clearly, there is some basal level of ATPi consumption in a cell at low glucose and [Ca2+]i. There is also ATP consumption by the PM and ER Ca2+ pumps and by the electrogenic Na+-K+-ATPase in our model. However, there is considerable evidence that other ATP consumption processes are accelerated by an increase in [Ca2+]i in É¿-cells (2, 23, 76). For this reason, an additional term for ATP consumption was introduced, which depends on an increase in [Ca2+]i. Then
+Math27
+where
+Math28
+kADP is the rate constant of ATPi production, kATP,Ca is the rate constant of ATPi consumption that accelerates as [Ca2+]i increases, and kATP is the permanent rate constant of ATPi consumption.
+
+The general concentration of intracellular nucleotides ([A]o) was assumed to be constant. The measured concentration of adenine nucleotides in pancreatic islets varies within the limits of 2?10 mM (23). We have taken [A]o to be inside this range (4 mM).
+
+It is important to find a range of parameters for ATP dynamics. According to the calculations in Ref. 23, the rate of ATPi production in É¿-cells may run to ?0.5 É mol ATPÅEs-1ÅEg dry wt-1 at low glucose concentrations and 1 É mol ATPÅEs-1ÅEg dry wt-1 at high glucose concentrations. Matschinsky et al. (61) found the corresponding level of adenine nucleotides to be ?20 É mol/g dry wt. Then the mean rate of ATPi production per second can be estimated roughly as a part of the general quantity of intracellular nucleotides per unit of volume, that is, as 0.025 or 0.05 [Ao]/s (or 0.1 and 0.2 mM/s) at low and high glucose concentrations, respectively.
+
+The constants kATP,Ca and kATP (Eq. 27 and Table 1) were fitted to simulate both the observed pattern of [Ca2+]i oscillations and the evaluated rate of ATPi production in É¿-cells above. The simulation of low glucose concentration (kADP = 0.03 s-1) leads in our model to a steady-state [ADP]i of 3.068 mM (Table 3) and to a corresponding rate of ATPi production (kADP [ADP]i) of 0.092 mM/s. The simulation of slow [Ca2+]i oscillations at high glucose levels (kADP = 0.37 s-1; Fig. 3) yields a mean [ADP]i of 0.7 mM and to the rate of ATPi production as 0.26 mM/s. This correlates well with the values evaluated above.
+
+View popupView inline
+Table 3.
+PM potential and intracellular ion concentrations at steady state at the simulation of low glucose concentration (kADP = 0.03 s-1)
+
+
+Download figure Open in new tab Download powerpoint
+Fig. 3.
+Glucose-induced slow electrical bursting and [Ca2+]i oscillations were simulated at a step increase of the rate constant of ATPi production from a low to an intermediate value (from kADP = 0.03 s-1 to 0.37 s-1) at t = 0 at initial concentration as in Table 3; all other parameter settings are standard (see Tables 1 and 2). A: [Ca2+]i; B: membrane potential. C: Ca2+ in ER ([Ca2+]ER). D: cytosolic ATP ([ATP]i). E: cytosolic IP3 ([IP3]i). F: intracellular Na+ concentration ([Na+]i). For simulation of Tg action, the maximal rate of sarco(endo)plasmic reticulum (SERCA; PCaER) was decreased from 0.105 to 0.013 É M/ms at arrow 3 in B.
+
+Computational aspects. The spread of current between electrically coupled É¿-cells most probably contributes to the synchronization of the electrical activity and [Ca2+]i oscillations throughout an islet (33, 37). For this reason, we consider islets as an assemblage of cells with similar properties and perform the computer simulation only for some mean individual cell.
+
+The complete system consists of seven state variables: differential equations describing the time rate of change in PM potential (V), Ca2+, Na+, ATP, and IP3 concentrations in cytoplasm, calcium concentration in ER, and the differential equations characterizing the voltage-dependent gating variable (n) for the delayed rectifier K+ channels (Eqs. 1, 21, 24?27, B1). The units used in the model are time in milliseconds (ms), voltage in millivolts (mV), current in femtoamperes (fA), concentration in micromoles per liter (É M), conductance in picosiemens (pS), capacitance in femtofarads (fF), and temperature in degrees Kelvin (ÅãK).
+
+The model and cell parameters are given in Tables 1, 2, 3. These tables and the appendixes contain all the information necessary to carry out the simulations presented in this paper. However, the rate constant for ATPi production (kADP) is represented in every figure legend.
+
+Simulations were performed by forward integration of the coupled system of differential equations. We used two integrated software environments: ÅgContentÅh for the IBM-compatible personal computer using an implicit fourth-order Runge-Kutta or Rodau IIA method (15) and ÅgVirtual CellÅh accessible via the Internet (55).
+
+This model is available for direct simulation on the website ÅgVirtual CellÅh (www.nrcam.uchc.edu) in ÅgMathModel DatabaseÅh on the Ågmath workspaceÅh in the library ÅgFridlyandÅh with the name ÅgChicago.1Åh.
+
+RESULTS
+
+Validation of the Model
+
+It was possible to evaluate the values of the rates of Ca2+ pumps from the simulation of the data from Ref. 25, where the [Ca2+]i transients were induced by a 2-s depolarization. Gall et al. (25) found that the time constant for the decrease in [Ca2+]i is ?1.8 s when Ca2+-ATP pumps on the PM and ER were activated and 4.6 s when Ca2+-ATP pumps on the ER were inhibited by thapsigargin (Tg). This was determined under conditions where the Na+/Ca2+ exchanger was inactive, i.e., gNaCa = 0, granule exocytosis was lacking (ksg = 0), and IP3R was closed (PIP3 = 0). Using Eqs. 9 and 21, we found that these data can be well simulated at PCaER = 0.026 É M/ms and PmCap = 830 fA. However, these values should be considered as a lower limit, whereas the experiments in Ref. 25 were made in conditions of low ATP concentration, and it is probable that Ca2+ pumps were in an inactivated form. Correspondingly, higher values were fitted in our model (see Table 1).
+
+A number of parameters were taken from the literature, such as channel and pump kinetics (see MATERIALS AND METHODS). However, because these values were sometimes derived from experiments with different cell lines and specific experimental conditions, these parameters were constrained to be within a range consistent with our own system. Other parameters were fitted to simulate the pattern of fast and slow bursting of electrical activity and [Ca2+]i oscillations in É¿-cells. The parameters that yield these oscillations are the standard values given in Table 1. A computer simulation at a low ATP production rate and the coefficients from Tables 1 and 2 were used to obtain the steady-state data corresponding to low glucose concentrations (Table 3).
+
+Islet Simulations
+
+Slow Ca2+ oscillations. Slow Ca2+ oscillations occur spontaneously during glucose stimulation (Fig. 2). They are characterized by a descending phase in two components. A rapid decrease in [Ca2+]i is followed by a slower phase. Similar data were obtained by many investigators for slow oscillations (27, 37, 64). It was also shown that a rapid decrease in [Ca2+]i coincided with the closure of voltage-dependent Ca2+ channels (27).
+
+
+Download figure Open in new tab Download powerpoint
+Fig. 2.
+Slow Ca2+ oscillations and effect of thapsigargin (Tg) in mouse islets. Mouse islets were loaded with fura 2-AM, and changes in [Ca2+]i [expressed as the 340/380 nm ratio (F340/380)] were recorded during 14 mM glucose and subsequent addition of 1 É M Tg (shown).
+
+A typical computer simulation of slow oscillations with the patterns of membrane potential and corresponding concentrations is illustrated in Fig. 3, left. It was obtained by introducing a step increase in the rate constant of ATPi production from the resting conditions (Table 3) to an intermediate value. A detailed pattern of the concentration changes and corresponding currents is shown in Fig. 5A for a single oscillation.
+
+
+Download figure Open in new tab Download powerpoint
+Fig. 5.
+Simulation of single oscillations. Model solutions were obtained from the oscillation pattern after simulation of glucose addition as in Figs. 3 and 4. Concentrations, PM potential, and some currents are represented for 1 characteristic oscillation. Broken lines in Fig. 5.9 correspond to a membrane potential-independent part of ICRAN conductance (fCRAN, Eq. 12). Units are shown in series, labeled in A with the exception of Fig. 5.3 for [Ca2+]ER, where units are shown for every case. A: single characteristic slow oscillation from Fig. 3 (left). Broken line in A.1 corresponds to a single [Ca2+]i oscillation, when only [IP3]i was fixed at its mean level (3 É M) with other parameters, as at the beginning of Fig. 3. B: single characteristic fast oscillation from beginning of Fig. 4. C: simulation of single characteristic oscillation determined only by [Ca2+]ER changes at kADP = 0.45 s-1. Other slow variables were frozen at their mean level for fast oscillations in B: [IP3]i = 1 É M, [Na+]i = 6 mM, [ATP]i = 3.5 mM. D: simulation of single characteristic oscillation determined only by [Na+]i changes at kADP = 0.37 s-1. Other slow variables were frozen at their mean level for slow oscillation in A: [IP3]i = 3 É M, [Ca2+]ER = 50 É M, [ATP]i = 3.3 mM.
+
+As can be seen in Fig. 3, the acceleration of ATPi production increases the [ATP]i/[ADP]i ratio after a step increase of kADP. This closes KATP channels in the PM. This closure decreases the IKATP that depolarizes the PM, leading to the opening of voltage-dependent Ca2+ channels, the stimulation of Ca2+ influx, and, eventually, a rise in [Ca2+]i. Increasing the IVCa makes a contribution to depolarization of the PM by itself. The beginning of electrical spiking is generated at threshold PM potential to form bursts and leads to [Ca2+]i increase (Fig. 3B, arrow 1). Continuous spiking follows up to a point at which the repolarizing processes lead to decreased PM potential. This in turn leads to the closure of voltage-gated Ca2+ channels and the continuous spiking terminates (Fig. 3B, arrow 2). In the silent phase, slow depolarization of the PM begins until all processes repeat, leading to continuous oscillations. Dissection of the burst mechanism and the effects of Tg will be discussed in Model Sensitivity to Slow Variables.
+
+Biphasic responses and fast Ca2+ oscillations. Fast oscillations usually show a more complex picture. In this case, the electrical response of pancreatic islets to step increases in glucose concentration is often biphasic, consisting of a prolonged depolarization with action potentials (Phase 1) followed by fast bursts of membrane potential and Ca2+ oscillations. The initial tonic electrical activity is accompanied by a sustained elevation of [Ca2+]i (8, 72, 89).
+
+It was suggested by model simulations and experimental results that the Phase 1 response may result from the combined influences of depolarizing KATP channel closure and ICRAN deactivation. The Ca2+ fills the ER during Phase 1, deactivating ICRAN and repolarizing the PM, allowing steady-state bursting to commence (8, 62). We are also able to simulate these results on the basis of our model when Ca2+ fills the ER to considerably elevated concentrations. This increase of [Ca2+]ER can occur if Ca2+ output from the ER is restricted, for example, by closing IP3R channels. This can be achieved in our model, for example, by decreasing the [IP3]i as a consequence of decreased IP3 production. The typical Phase 1 response followed by spike-burst behavior of the membrane potential and the fast oscillation patterns of ions and [ATP]i are illustrated in Fig. 4. It was simulated at a decreased IP3 synthesis rate constant and an intermediate value of the rate constant of ATPi production.
+
+
+Download figure Open in new tab Download powerpoint
+Fig. 4.
+Biphasic response to glucose in islets, simulated by increase of kADP from 0.03 to 0.45 s-1 at low rate of IP3 synthesis (kIP from Eq. 21 is 0.1 instead 0.3 É M/s in Fig. 3) at t = 0. All other parameter settings are as in Fig. 3. For simulation of glucose addition at arrow 1, kADP was increased from 0.45 to 0.7 s-1 and at arrow 2 from 0.7 to 2 s-1.
+
+The same results can be simply obtained by a partial closing of the IP3R channels in place of the decreased IP3 production (not shown). Our model also shows that the duration of Phase 1 decreases with increased initial [Ca2+]ER at t = 0 (not shown; see Ref. 62).
+
+Simulating increased ATPi production leads to increased oscillation frequency, progressing to continuous spiking with a further increase in the ATPi production rate constant (Fig. 4). This is in reasonably good agreement with the experimental data (13, 37).
+
+Note that fast [Ca2+]i oscillations simulated by our model (Fig. 4) have an appearance very similar to those observed in pancreatic É¿-cells (8, 72). They also resemble the fast oscillations that were obtained in preceding models (8, 14, 62). This is not surprising, because our simulation of fast oscillations is close to those employed in these models.
+
+Model Sensitivity to Slow Variables
+
+Four parameters can change slowly in our model ([ATP]i, [Ca2+]ER, [IP3]i, and [Na+]i), and their variations can lead to a slow membrane repolarization during a depolarized phase and to a depolarization in a silent phase. To determine the role of different processes and parameters, we performed an analysis of model sensitivity to slow variables to fix some parameters at their mean level for some kind of oscillations. It was found that the slow oscillations take place when only [Na+]i ([ATP]i, [Ca2+]ER, and [IP3]i were constant) can change (Fig. 5D), and the characteristic fast oscillations occur when only [Ca2+]ER ([ATP]i, [Na+]i, and [IP3]i were constant) can vary (Fig. 5C). Consideration of these two cases simplifies the general analysis.
+
+The behavior of [Ca2+]i, V, [Ca2+]ER, [IP3]i, and [Na+]i and the most essential current components is shown in Fig. 5, A and B, for single oscillations of slow and fast types. Because of the large fluctuations of ICRAN, the voltage-independent part of this current (fCRAN, Eq. 12) is also represented to facilitate the analysis (broken lines in Fig. 5.9). Corresponding concentrations and currents are also represented for cases when only [Ca2+]ER (Fig. 5C) or [Na+]i (Fig. 5D) can change. The contribution of other currents was either insignificant (INa) or does not change considerably between cases (ICa,pump, IKDr, IKCa, IKATP).
+
+ATP sensitivity. Activation of the Na+/K+ pump with increased [Na+]i concentration during the depolarized phase accelerates ATP consumption in our model. Total Ca2+ pump rates and Ca2+-dependent ATPi consumption also increase during the depolarized phase with [Ca2+]i rising (see Eq. 27). The acceleration of ATPi consumption leads to a decreased [ATP]i/[ADP]i ratio (Figs. 3 and 4). It is therefore possible that cyclic changes in the [ATP]i/[ADP]i ratio control the cyclic closure and reopening of KATP channels. This has been proposed as a mechanism underlying the oscillatory behavior of É¿-cells (1, 65, 82).
+
+We evaluated this possibility and found that fixing [ATP]i at a mean level yields no noticeable effect on the oscillatory pattern shown in Fig. 5, A and B. This can be explained by insignificant changes of the fraction of KATP channels open (APPENDIX C) during the ATPi variations around its mean value (not shown). This suggests that [ATP]i is not the variable that drives slow oscillations in our model. On the other hand, considerable changes in mean [ATP]i and correspondingly in IKATP can lead to a dramatic change in oscillations (see Figs. 3 and 4).
+
+Single-oscillation analyses. It can be seen that spike activity is generated by the alternate activation of delayed rectifying K+ channels and voltage-gated Ca2+ channels in every case. It is analogous to other models and has been previously analyzed (14, 78). The main difference between the models includes the nature of processes that lead to slow depolarization of PM potential during the depolarized phase and to its repolarizing during a silent phase.
+
+When [Ca2+]ER is the only slow parameter ([ATP]i, [Na+]i, and [IP3]i were constants; Fig. 5C), the following mechanism is responsible for oscillations: rising Cai2+ during the depolarized phase leads to increased Ca2+ pumping from the cytoplasm to the ER and to CaER2+ accumulation, with corresponding closure of CRAN channels and decreased ICRAN, that can be observed more clearly from the change of the voltage-independent part of ICRAN (fCRAN, broken line in Fig. 5C.9). This, in turn, leads to PM repolarization. These processes have opposite directions in the silent phase.
+
+Figure 5D shows that, when [Na+]i is the only slow variable ([ATP]i, [Ca2+]ER, and [IP3]i were constant), INa,K is the main current that manages the slow PM potential changes leading to oscillations. The mechanism involves increased [Ca2+]i during a depolarized period, activating the outward Ca2+ flux through Na+/Ca2+ exchangers and a corresponding inward Na+ flux. The resultant increase in [Na+]i leads to the slow increase of outward current through electrogenic Na+/K+ pumps (INa,K; Fig. 5D.7) with corresponding PM repolarization. Falling [Na+]i during a silent phase leads to decreased INa,K and then in turn to PM depolarization.
+
+In the simulation of slow oscillations shown in Fig. 5A, [Na+]i and the current INa,K change as in Fig. 5D, with no change of the voltage-independent part of the current ICRAN (fCRAN). Correspondingly, the mechanism of slow oscillations is the mechanism described above, with [Na+]i as the only slow variable.
+
+In the simulation of fast oscillations shown in Fig. 5B, [Ca2+]ER and fCRAN change as in Fig. 5C, with little change of [Na+]i and the corresponding current INa,K. In this case, the currents INa,K and ICRAN act together. However, ICRAN plays the major part, as the concentrations and currents are similar in Fig. 5, B and C. This is in agreement with the conclusion that [Ca2+]ER drives the fast oscillations but does not need to oscillate to have slow oscillations, whereas [Na+]i gives slow oscillations but does not need to oscillate to have fast oscillations.
+
+However, in the case of fast oscillations, CRAN channels are working under conditions when the ER is filled with Ca2+, and the [Ca2+]ER change occurs close to the half-activation level of [Ca2+]ER for CRAN channels (200 É M; see Eq. 12 and Table 1). This leads to an increased rate of both PM potential depolarization and repolarization, when [Ca2+]ER correspondingly increases and decreases following [Ca2+]i changes.
+
+Shape of slow [Ca2+]i oscillations and role of IP3. It can be seen in our simulations that, at the beginning of the silent period of slow oscillations, CaER2+ is gradually released into the cytosol (Figs. 3 and 5A.3) and the shape of the [Ca2+]i curve is close to what was found by us (Fig. 2) and others (27, 83) in experiments. Such a slow phase is absent at the simulation of fast oscillations (Figs. 3 and 5B.1).
+
+When [IP3]i was fixed at its mean level at the conditions that were used to simulate slow oscillations, there was still the ability to produce some oscillations. However, the slow [Ca2+]i decrease disappears at the beginning of the silent period. This resulting single [Ca2+]i oscillation is shown as a broken line in Fig. 5A.1.
+
+The relationship between [Ca2+]i and [Ca2+]ER needs additional clarification. In our model, a dynamic equilibrium is established between [Ca2+]i and [Ca2+]ER for several seconds when there is no spiking activity; that is, [Ca2+]i and [Ca2+]ER are closely connected. The decrease in [IP3]i leads to a corresponding, slow IP3R channel closure that decreases the rate of Ca2+ flux from the ER. A slow [Ca2+]ER drop leads to a slow decrease in [Ca2+]i at their dynamic equilibrium. When the [IP3]i is fixed, this mechanism does not operate, and the slow [Ca2+]i drop disappears.
+
+No remarkable changes in the fast oscillations pattern (shown in Fig. 5B) were observed if [IP3]i was fixed at its mean level with otherwise identical conditions (not shown). The lack of an effect can be understood in light of the small changes in [IP3]i that occur during fast oscillations (see Figs. 4 and 5B.4).
+
+This suggests that changes in [IP3]i are not the main driving force for the fast and slow oscillations in our model. However, the change of mean [IP3]i can have a considerable effect, including a transformation of slow oscillations to fast at decreasing [IP3]i (compare Figs. 3 and 4). Furthermore, [IP3]i changes can have a considerable effect on the pattern of slow oscillations.
+
+Role of the ER. In islets pretreated with Tg to block the SERCA pump, the frequency was increased, the amplitude of slow [Ca2+]i oscillations was larger than in control islets, and the descending phase of each [Ca2+]i oscillation was fast with no slow descending second phase (Fig. 2; see also Refs. 27, 64). Our model permits a simulation of these experiments (Fig. 3). In this case, the corresponding amplitude of slow [Ca2+]i oscillations was larger, the period of oscillation was shorter, and the descending phase of each [Ca2+]i oscillation was fast with no slow second phase (Fig. 3), all of which are in reasonably good agreement with the experimental data.
+
+In this case, Ca2+ in the ER does not drive the oscillations. However, the remaining [Na+]i-dependent mechanisms are able to create the relevant oscillations, and corresponding fluxes resemble the ones that were observed if the oscillations were driven only by Nai variations, as in Fig. 5D.
+
+A different pattern was found when SERCA pumps were blocked in fast oscillation experiments. Worley et al. (89) observed that, when Tg was added to the medium, the bursting was transformed to continuous spiking, and fast [Ca2+]i oscillations were converted to a tonically elevated Ca2+ level. Bertram et al. (8) found that an addition of Tg was accompanied by a gradual increase in the plateau fraction and in electrical burst frequency.
+
+However, in our general model, blocking of SERCA leads to the pattern of slow oscillations, as shown in Fig. 3, right. For this reason, other possibilities were investigated. When oscillations were simulated only by changes in [Ca2+]ER (by fixing [Na+]i, [IP3]i, and [ATP]i to constant values, as in Fig. 5C), the block of the SERCA pumps increased the frequency of fast [Ca2+]i oscillations, because ICRAN is activated in consequence of [Ca2+]ER decrease. A further increase of SERCA inhibition can then lead to a permanent PM depolarization and to a continuous rise in [Ca2+]i (Fig. 6). This transformation is consistent with the aforementioned experiments for fast oscillations. It is also in agreement with the results of the modeling of Chay (14) and Bertram et al. (8), who had not included [Na+]i changes in their models and had taken into account only Ca2+ and K+ currents and [Ca2+]ER influence on ICRAN.
+
+
+Download figure Open in new tab Download powerpoint
+Fig. 6.
+Model simulation of Tg action on fast oscillations at kADP = 0.45 s-1 with the initial simulation as in Fig. 4 and frozen concentrations of [ATP]i, [Na+]i, and [IP3]i as in Fig. 5C. Maximal rate of SERCA (PCaER) was decreased from 0.105 to 0.0785 É M/ms at arrow 1 in B and from 0.0785 to 0.0524 É M/ms at arrow 2.
+
+In other words, the model suggests that, under conditions when fast oscillations occur, something is blocking the [Na+]i-dependent oscillation mechanisms, even though Tg action resulted in a depletion of the CaER store. One possible mechanism is a partial inhibition of the Na+/K+ pump. For example, we found that only [Ca2+]ER-dependent fast oscillations were possible in our model when the maximum activity of the Na+-K+-ATPase was diminished to 25% of basal activity, even though all other coefficients and initial concentrations were as in Fig. 4. In this case, a simulation of Tg action at fast oscillations resembles Fig. 6. However, the physiological differences between fast and slow oscillations need further examination.
+
+Role of [Na+]i. Slow glucose-induced [Na+]i oscillations were found in individual É¿-cells under conditions known to induce oscillations of [Ca2+]i (34, 35). Partial suppression of the Na+/K+ pump by ouabain resulted in an increased amplitude of slow Na+ and Ca2+ oscillations and decreased their frequency. Slow [Na+]i and [Ca2+]i oscillations were converted to tonically elevated [Na+]i and [Ca2+]i levels following increased ouabain concentration (34, 35).
+
+Our simulation leads to analogous results (Fig. 7). This result can be explained on the basis of our model: the partial suppression of the Na+/K+ pump leads to decreased INa,K, which is responsible for slow PM potential variations. For this reason, to obtain the same value of INa,K variation that leads to a corresponding PM potential change, it was necessary to have larger [Na+]i changes. This extends the time necessary for corresponding [Na+]i accumulation or dissipation. The increase in Na+/K+ pump inhibition leads to collapse of this [Na+]i-connected mechanism and to the disappearance of slow oscillations.
+
+
+Download figure Open in new tab Download powerpoint
+Fig. 7.
+Simulated applications of ouabain to a cell that exhibits slow oscillations with the initial simulation as in Fig. 3. Addition of ouabain is modeled by decreasing PNaK from 600 to 200 fA (arrow 1) in B and from 200 to 150 fA (arrow 2).
+
+To check the role of [Na+]i in driving slow oscillations, we also froze [Na+]i at its mean level characterized for slow oscillations (7 mM) and made a simulation at the initial conditions by using the coefficients characterized for slow oscillations (as in Fig. 3). No oscillations were found (not shown).
+
+Our model simulations demonstrate the necessity for [Na+]i oscillations to drive the slow Ca2+ oscillations and suggest that [Na+]i is a candidate pacemaker for slow oscillations.
+
+É¿-Cell Lines
+
+We have previously studied the properties of a clonal É¿-cell line termed É¿TC3-neo (74). In contrast to normal mouse islets, this cell line does not usually respond to a step increase in glucose concentration with regular oscillatory increases in [Ca2+]i. Instead, a slow rise in [Ca2+]i occurs with occasional intermittent spikes. However, the exposure of É¿TC3-neo cells to 20 mM TEA, a blocker of K+ channels (24), permitted the generation by glucose of large, regular, slow oscillations in [Ca2+]i. In the absence of glucose, TEA was without effect (74). However, the molecular differences between É¿TC3-neo cells and primary É¿-cells have not been completely studied.
+
+The magnitude of the Ca2+ inward current in É¿-cells within intact pancreatic islets is considerably more than in individual É¿-cells maintained in tissue culture [up to twice (33)]. This difference can be expected to have dramatic effects on the generation of É¿-cell electrical activity and leads to failure of dispersed cells to generate the characteristic oscillatory electrical activity (33, 81). It is reasonable to assume that É¿TC3-neo cells also have a decreased Ca2+ inward current that can be simulated by a reduced conductance of Ca2+ channels in our model.
+
+Under these conditions, i.e., reduced conductance of Ca2+ channels, simulation of glucose addition does not lead to oscillations. However, a partial block of delayed-rectifier K+ channels, small-conductance Ca2+-activated K+ channels, and KATP channels, which simulate TEA action, leads to large, regular oscillations in our model (Fig. 8). This occurs because the decreased inward Ca2+ current leads to PM repolarization. To restore the possibility of oscillations, a corresponding decrease of K+ outward currents, as by TEA action, is required to allow PM depolarization.
+
+
+Download figure Open in new tab Download powerpoint
+Fig. 8.
+Model simulation of a É¿-cell line experiment at intermediate glucose level was made at a step increase of rate constant of ATP production from low to intermediate value (from kADP = 0.03 to 0.25 s-1) at t = 0; all other parameter setting are standard (see Tables 1, 2, 3), with the exception of gmVCa for voltage-activated Ca2+ current that was decreased from 770 to 300 pS. For simulation of tetraethylammonium (TEA) action at arrow 1, maximal conductance for K+ channels was decreased: for KATP from 24,000 to 12,000 pS, for a delayed rectifier K+ current from 3,000 to 800 pS, and for the voltage-independent small conductance Ca2+-activated K+ current from 130 to 60 pS.
+
+The exposure of É¿TC3-neo cells to 1 É M nitrendipine, which blocks L-type Ca2+ channels, can reversibly suppress oscillatory activity (Fig. 1C in Ref. 74). In our model, a similar decrease in Ca2+ channel activity also leads to a suppression of oscillatory activity (not shown).
+
+In the absence of glucose, exposure of É¿TC3-neo cells to 100 É M tolbutamide to block IKATP induced [Ca2+]i oscillations only in the presence of TEA (Fig. 2A in Ref. 74). The same results were obtained with our model (Fig. 9) when an additional block of KATP channels was used to simulate tolbutamide effects. In this case, the simulation of tolbutamide addition on IKATP was equivalent to the simulation of glucose additions in Fig. 8.
+
+
+Download figure Open in new tab Download powerpoint
+Fig. 9.
+Model simulation of a É¿-cell line experiment at a low glucose level (kADP = 0.03 s-1 for all time) and the additional action of TEA and tolbutamide. To simulate TEA action, coefficients were taken as in Fig. 8B at arrow 1. To simulate tolbutamide action, maximal conductance for KATP was decreased from from 12,000 to 4,000 pS at arrow 2.
+
+Similar experimental results were obtained by Eberhardson and Grapengiesser (21) for single É¿-cells isolated from mouse islets, in which the [Ca2+]i oscillations could be obtained at low glucose concentration only when both TEA and tolbutamide were added.
+
+DISCUSSION
+
+We have attempted to integrate plasma membrane and intracellular events in modeling the behavior of pancreatic É¿-cells by building on several previous models. The model includes consideration of ionic flux, metabolism, and regulation by intracellular messengers. The complexity of the system necessarily left us with some flexibility in assigning values of the parameters. Therefore, it would be unreasonable to expect the model to accurately reproduce all previously observed experimental results. However, it is necessary to verify that the model is able to reproduce the general features of É¿-cell or islet oscillation patterns.
+
+Islet Oscillatory Behavior
+
+The majority of previous models emphasized the features of fast-type oscillations, and detailed theoretical considerations of this kind of oscillations have been made (14, 26, 62, 65, 78). We were also able to simulate these fast oscillations (Figs. 4 and 5B). Slow oscillations most likely constitute a physiological oscillatory pattern in É¿-cells, and they may constitute the framework for pulsatile insulin release observed in vivo (28, 37). For this reason, an explanation for this type of oscillation in islets and É¿-cell lines is the main aim of this article.
+
+It is critical to determine the degree of correlation between observed and simulated É¿-cell behavior. Several recent studies in the literature have shown additional experimental results consistent with the model that we present here, even though the authors' own interpretation is not identical to our model results. For example, KATP channel data (51) and data on glucose concentrations and oxygen consumption (2, 17) suggest that the ATP/ADP ratio may indeed oscillate on a time scale appropriate for the generation of slow oscillations. It was found that the ATP/ADP ratio drops rapidly when [Ca2+]i is raised and increases when [Ca2+]i falls (2, 19). These results are consistent with our calculations of [ATP]i behavior (Fig. 3). However, it should be pointed out that the [Ca2+]i-dependent changes in the ATP/ADP ratio are not driving oscillations in our model.
+
+The assumption that [IP3]i can oscillate concomitantly with [Ca2+]i has received recent experimental support by the indirect demonstration of IP3 oscillations in ATP-stimulated Madin-Darby canine kidney epithelial cells (42). For murine É¿-cells in suspension, the intracellular IP3 level oscillated approximately in synchrony with changes in [Ca2+]i when driven by the sequential addition of glucose, an Éø2-adrenergic stimulus, and extracellular Ca2+ (5). It was also shown in RESULTS that our simulations are also consistent with data for [Na+]i oscillations.
+
+All of these data are in reasonably good agreement with our model. However, it is important to emphasize that, although the modeled voltage and ion dependences are consistent with available data, the simultaneous measurements of the voltage dependence, relative conductance of different channels, and [Ca2+]i, [ATP]i, [Na+]i, [Ca2+]ER, and [IP3]i oscillations have not been directly demonstrated and need to be tested.
+
+In addition, it should be pointed out that large oscillations in [ATP]i, [Ca2+]ER, [Na+]i, and [IP3]i should only be forthcoming in the slow [Ca2+]i oscillations, as was calculated above (Figs. 3, 5A, and 7). Fast [Ca2+]i oscillations can follow very small changes in other components (Figs. 4 and 5B), and it can be very difficult to measure these changes.
+
+É¿-Cell Modeling: Identity of Slow Variables
+
+Several types of models can explain electrical bursting and [Ca2+]i oscillations in É¿-cells. All known models have negative feedback from a slow variable driving the oscillations but differ in the identity of what the slow variable might be.
+
+The first É¿-cell models were based on the hypothesis that the [Ca2+]i is the slow variable, influencing the membrane through a Ca2+-activated K+ current. However, the spectrophotometric measurements show that the time scale of the [Ca2+]i change is short relative to the oscillation period (see Refs. 26 and 78 for details). For this reason, we have not created a model in which [Ca2+]i is a possible driving slow variable.
+
+The possibility that the ATP/ADP ratio is the slow variable driving electrical bursting by acting on the KATP channel was modeled by several investigators (46, 65, 82). However, the bursts and [Ca2+]i oscillations were principally obtained with a time constant appropriate for fast bursting in these models. Furthermore, it was shown in Refs. 74 and 75 that bursting and [Ca2+]i oscillations persist in the presence of a KATP channel blocker under conditions where IKATP is substantially decreased. This fact argues against a critical role for oscillations in KATP channels in these processes. We have also shown that, despite the fact that the change of mean ATP concentration can induce the oscillations or change their pattern, the ATP/ADP oscillation is not the driving force of [Ca2+]i oscillations in our model.
+
+Several models have been proposed in which the dynamics of Ca2+ in the ER serves as the slow variable driving bursting (8, 13, 14, 26, 62). The ICRAN modifies the oscillation period and membrane potential in these models. We also followed these proposals for modeling fast oscillations. Our previous considerations (in RESULTS) showed that the dynamics of Ca2+ in the ER could be responsible for creating corresponding fast oscillations at a relatively high CaER2+ level, where there is a significant influence of [Ca2+]ER changes on ICRAN.
+
+Although these models (8, 13, 14, 26, 62) have been applied mainly to an analysis of fast oscillations, this mechanism was also used for the generation of slow oscillations. Slow [Ca2+]i oscillations were obtained by Chay (14) at a decreased coefficient of Ca2+ER release from the ER. This retards the processes connected with CaER2+ dynamics and, in turn, transforms fast oscillations to slow. Increased [Ca2+]ER accompanies a decreased Ca2+ release from the ER. This means that the slow oscillations were generated at relatively high [Ca2+]ER in the model (14), contrary to our results. Emptying of the ER leads to termination of both fast and slow oscillations in the Chay model.
+
+Arguments have been made against the CaER2+-dependent model for slow oscillations, since it seems to be at odds with data demonstrating that slow oscillations persist in the presence of Tg (6, 54, 64), an agent that blocks SERCA and empties the ER stores. These data were also analyzed above (in RESULTS), where we demonstrated that SERCA block can eliminate fast oscillations, while leaving intact the mechanism creating slow oscillations via the change in [Na+]i oscillations. For this reason, an expansion of the CaER2+-dependent model for fast oscillations to slow oscillations made by Chay (14) appears unjustified.
+
+Recently, a Ca2+-sensitive K+ conductance was isolated that activates with a time constant of 2.3 s and inactivates with a time constant of 6.5 s in response to stimuli during voltage clamp (32). The authors concluded that that current, similar to a Ca2+-activated K+ current, played an important role in the generation of É¿-cell oscillatory activity. However, these time constants can only correspond to the fast oscillations.
+
+Goforth at al. (31) have developed a new model to explain this slow K+ current, where [Ca2+]ER is also taken as the initial slow variable driving bursting. They introduced a new cytoplasmic Ca2+ pool localized between the ER and PM. Ca2+ released from the ER goes first to this intermediate Ca2+ pool. The changes of [Ca2+]i in this intermediate Ca2+ pool serve in this model to modulate the current through the Ca2+-activated K+ channels. We note also that the the value for the half-activation Ca2+ concentration assumed by Goforth at al. is much higher (0.7 É M) than that for the SK3 channels included here (0.1 É M).
+
+However, Goforth at al. (31) chose this half-activation Ca2+ concentration arbitrarily to fit their model, specifically to address a potential high [Ca2+]i pool in the sub-PM region. Although such a Ca2+ pool has been proposed for excitatory cells, it has not been directly shown in É¿-cells, nor has the ÅgrealÅh value of the half-activation Ca2+ concentration for KCa channel in É¿-cells been determined. Kanno et al. (44) also suggest that this slow K+ current is determined not only by KCa channels. They found that activation and a reactivation of KATP channels can play a fundamental role in this slow K+ current in intact mouse pancreatic islets.
+
+In addition, as was discussed above, every model of slow oscillations based on the proposal that [Ca2+]ER is the slow variable driving oscillations seems to be at odds with data demonstrating that slow oscillations persist in the presence of agents that block SERCA and empty the ER stores. This would restrict application of the Goforth et al. model to fast oscillations.
+
+A very detailed model was developed by Magnus and Keizer (58, 59). They proposed (and simulated) that Ca2+ in mitochondria is the main regulator of the mitochondrial membrane potential, thus affecting ATP synthesis and corresponding [Ca2+]i oscillations. However, the view that mitochondrial change of calcium regulates ATP production under physiological conditions has been questioned (2, 27), and experimental support is still incomplete for the idea that changes in the ATP/ADP ratio are the main driving mechanism for all Ca2+ oscillations (see above).
+
+Despite the clear evidence that IP3 is one of the critical cellular messengers inducing Ca2+ mobilization from intracellular stores (38), IP3 kinetics have not previously been included in the models of the pancreatic É¿-cell. Our model produced a simulation with a good match to data reported from several laboratories. The simulations also underlined how the IP3 concentration was critical to understanding the pattern of slow [Ca2+]i oscillations even though IP3 does not account for the mechanism of oscillations.
+
+Our simulations suggest that the change in [Na+]i is one of the most important slow variables that govern slow [Ca2+]i oscillations. Kitasato et al. (47) proposed such a role for Na+. According to these authors, an increase in [Ca2+]i results in an increase in [Na+]i because of Na+/Ca2+ exchanger activity. The increase in cytosolic Na+ results in enhanced ATP consumption at Na+/K+ pump sites and in a decreased ATP/ADP ratio, which in turn could lead to activation of KATP channels followed by membrane repolarization. A decrease in [Ca2+]i results in the opposite order of events during a silent phase. This scenario was modeled by Miwa and Imai (65) as the underlying mechanism of [Ca2+]i oscillations. However, this mechanism does not explain the experimental data suggesting that ATP/ADP ratio changes are not the main driving force for [Ca2+]i oscillations (see above).
+
+Our model simulates an increase in [Na+]i and a corresponding decrease in [ATP]i during the depolarized phase by use of a similar mechanism. However, our model shows that an increase of [Na+]i during the depolarized phase and a corresponding increase of outward current through Na+/K+ pumps could be sufficient for PM repolarization that leads to transition to silent phase, even though a change of ATP concentration is not directly driving oscillations.
+
+Slow oscillations of PM potential and [Ca2+]i were obtained in previous models (e.g., Refs. 7 and 78) by introducing a special slow variable that does not have a clear metabolic basis. Our work is an attempt to find some real metabolic basis for this suggestion. According to our analysis, the Na+ concentration in the cytoplasm may be the desired slow variable.
+
+We also found that some coefficients used in previous models do not always correspond to physiological mechanisms. It has been suggested in previous models that Ca2+ is removed from the cytoplasm only by sequestration mechanisms that do not create any PM currents. For example, in one model (13), the mitochondrion sequesters intracellular Ca2+ with a rate constant of 3,000 s-1, and this calcium is not recycled to the cytoplasm. In other examples, the Ca2+ removal rate through the PM (e.g., by sequestration in secretory granules) was assigned the following coefficients: 120 s-1 (82), 190 s-1 (58), and 640 s-1 by Gall and Susa (26) in their models II and III. This means that, in all of these models, total cytoplasmic Ca2+ disappears from the É¿-cells in only seconds as the result of mechanisms that do not create any current through the PM. We could not find any data to support such a significant flux created by sequestration mechanisms. Ca2+ is removed mainly by well-known PM Ca2+ pumps in our model that create a corresponding PM current (Eq. 8). The coefficient for the sequestration rate of Ca2+ through the PM (ksg in Eq. 24) was estimated in our models as 0.1 s-1, and we consider this to be a more reasonable value.
+
+In the model by Miwa and Imai (65), only Na+/K+ active transporters and the Ca2+ pumps on the PM were employed to simulate ATP consumption in É¿-cells. Furthermore, the rate constant of ATP production from ADP was ?0.03 s-1 at high glucose levels. Other ATP consumption mechanisms exist in cells, which we simulate in our model (Eq. 27). The rate constant of ATP production from ADP was also considerably increased in our model (up to 10 times in Fig. 3) to be in agreement with experimental observations of ATP production rate (see MATERIALS AND METHODS). Furthermore, no flux analysis or analysis of oscillations at fixed values of ATP concentrations was made in (65). On the basis of simulations in our model, it seems possible that, in the model of Miwa and Imai, a change of Na+ concentration also can directly effect PM potential by a change of INa/K.
+
+Several additional slow variables can also take part in the regulation of oscillations in É¿-cells. For example, the concentrations of such ions as K+ and Cl- were used as independent variables in the model (65). Unquestionably, K+ concentration in the cytoplasm is very important. However, all cells, including É¿-cells, have 100?130 mM K+ concentration in the cytoplasm, and its relative change must be small, particularly during fast oscillations (65). For this reason, we did not include K+ cytoplasmic concentration as an independent variable in this model. It has also been found that glucose stimulation of the É¿-cells is coupled to an increase in their Cl- permeability and that the oscillatory Ca2+ signaling may be critically dependent on transmembrane Cl- fluxes (22). It seems plausible that additional kinetic equations for K+,Cl-, and other ions and their channels may become necessary for this model in the future to include emerging aspects of É¿-cell physiology.
+
+In conclusion, our results support the hypothesis that it is necessary to include all essential ionic channels and pumps that have been identified in É¿-cells to employ mathematical models to correctly simulate the set of experimental results. Results from the simulations support the hypothesis that [Ca2+]ER and [Na+]i can be the main variables driving both fast and slow [Ca2+]i oscillations and that the regulation of Ca2+ leak from the ER by IP3 is also important to explain the pattern of slow calcium oscillations. The results of the modeling favor a scenario where two or more slow variables interact to produce oscillations, in agreement with other recent models (6, 7). On the basis of our analysis, it seems likely that differences in relative activity of channels and pumps could explain the variations in the electrical bursts and [Ca2+]i oscillations between the islets, cell lines, and single É¿-cells.
+
+APPENDIX A: NA+/K+ ACTIVE TRANSPORT
+
+The general model (12) was employed in a modified form according to Miwa and Imai (65).
+MathA1
+where
+Math
+Math
+where PNaK is a coefficient for resulting current in the presence of saturating level of ATP; [P] is an inorganic phosphate concentration; b1, b2, b3, b4, b*5, b6, f1, f2, f3, f*5, and f6 are the rate coefficients: [P] = 4,950 É M, f1 = 2.5 10-10 É M-3 ms-1, f2 = 10 ms-1, f3 = 0.172 ms-1, f4 = 1.5 10-8 É M-2 ms-1, f*5 = 0.002 É M-1 ms-1, f6 = 11.5 ms-1, b1 = 100 ms-1, b2 = 0.0001 É M-1 ms-1, b3 = 1.72 10-17 É M-3 ms-1, b4 = 0.0002 É M-1 ms-1, b*5 = 0.03 ms-1, b6 = 6 10-7 É M-1 ms-1).
+
+Rate constants were taken as proposed in Refs. 12 and 65 (for f*5 and b*5 see curve B in Fig. 3 from Ref. 12). PNaK was estimated to fit the experimental data (Table 1).
+
+APPENDIX B: GENERAL GATING VARIABLE FOR IKDR
+
+According to Gall and Susa (26) and Sherman (78), the general gating variable for IKDr can be determined as
+MathB1
+where
+MathB2
+MathB3
+where nÅá is the steady-state value of the general gating variable, Vn is the half-activation potential, Sn is the slopes at half-maximal potential, É—n(V) is the relaxation time constant, a, b, c, and VÉ— are the adjustable coefficients. The coefficients were fitted on the basis of previous models (26, 82): Vn = -14 mV, Sn = 7 mV, a = 65 mV, b = 20 mV, c = 20 ms, and VÉ— = -75 mV.
+
+APPENDIX C: FRACTION OF KATP CHANNELS OPEN
+
+For the fraction of KATP channels open, we adopt a detailed kinetic model that was created by Magnus and Keizer (58) and that was based on the results of Ref. 43. The equation for the fraction of open channels can be included on the basis of that model if we take into account the parameters determining adenine nucleotide concentrations (see Table 2 from Ref. 58). Then the resulting fraction of KATP channels open has the form
+MathC1
+OKATP is the fraction of channels open. Kdd, Ktd, and Ktt are the dissociation constants (Kdd = 17 É M, Ktd = 26 É M, and Ktt = 1 É M). According to Hopkins et al. (43), Eqs. 19 and C1 reproduce well the experimental data.
+
+Acknowledgments
+
+We thank A. Kuznetsov and M. Roe for helpful discussions. This work was partially supported by National Institute of Diabetes and Digestive and Kidney Diseases Grants DK-44840, DK-20595, and DK-48494, and the Blum-Kovler Foundation.
+
+Footnotes
+
+The costs of publication of this article were defrayed in part by the payment of page charges. The article must therefore be hereby marked ÅgadvertisementÅh in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+
+Copyright c 2003 by American Physiological Society
+References
+
+? Ainscow EK and Rutter GA. Mitochondrial priming modifies Ca2+ oscillations and insulin secretion in pancreatic islets. Biochem J 353: 175?180, 2001.CrossRefMedlineWeb of Science
+? Ainscow EK and Rutter GA. Glucose-stimulated oscillations in free cytosolic ATP concentration imaged in single islet É¿-sells: evidence for a Ca2+-dependent mechanism. Diabetes 51: S162?S170, 2002.Abstract/FREE Full Text
+? Allen V, Swigart P, Cheung R, Cockcroft S, and Katan M. Regulation of inositol lipid-specific phospholipase cÉ¬ by changes in Ca2+ ion concentrations. Biochem J 327: 545?552, 1997.Abstract/FREE Full Text
+? Ashcroft FM and Rorsman P. Electrophysiology of the pancreatic É¿-cell. Prog Biophys Mol Biol 54: 87?143, 1989.CrossRefMedline
+? Barker CJ, Nilsson T, Kirk CJ, Michell RH, and Berggren PO. Simultaneous oscillations of cytoplasmic free Ca2+ concentration and Ins(1,4,5)P3 concentration in mouse pancreatic É¿-cells. Biochem J 297: 265?268, 1994.Abstract/FREE Full Text
+? Bertram R and Sherman A. Dynamical complexity and temporal plasticity in pancreatic É¿-cells. J Biosci 25: 197?209, 2000.MedlineWeb of Science
+? Bertram R, Sherman A, Kinard TA, and Satin LS. The phantom bursting model for pancreatic É¿-cells. Biophys J 79: 2880?2892, 2000.MedlineWeb of Science
+? Bertram R, Smolen P, Sherman A, Mears D, Atwater I, Martin F, and Soria B. A role for calcium release-activated current (CRAC) in cholinergic modulation of electrical activity in pancreatic É¿-cells. Biophys J 68: 2323?2332, 1995.Medline
+? Bokvist K, Ammala C, Berggren PO, Rorsman P, and Wahlander K. Alpha 2-adrenoreceptor stimulation does not inhibit L-type calcium channels in mouse pancreatic É¿-cells. Biosci Rep 11: 147?157, 1991.Abstract/FREE Full Text
+? Carafoli E. The Ca2+ pump of the plasma membrane. J Biol Chem 267: 2115?2118, 1992.FREE Full Text
+? Carignani C, Roncarati R, Rimini R, and Terstappen GC. Pharmacological and molecular characterisation of SK3 channels in the TE671 human medulloblastoma cell line. Brain Res 939: 11?18, 2002.CrossRefMedlineWeb of Science
+? Chapman JB, Johnson EA, and Kootsey JM. Electrical and biochemical properties of an enzyme model of the sodium pump. J Membr Biol 74: 139?153, 1983.CrossRefMedlineWeb of Science
+? Chay TR. Electrical bursting and luminal calcium oscillation in excitable cell models. Biol Cybern 75: 419?443, 1996.CrossRefMedlineWeb of Science
+? Chay TR. Effects of extracellular calcium on electrical bursting and intracellular and luminal calcium oscillations in insulin secreting pancreatic É¿-cells. Biophys J 73: 1673?1688, 1997.MedlineWeb of Science
+? Content. Amsterdam, The Netherlands: Centrum voor Wiskunde en Informatica. [online] ftp://ftp.cwi.nl/pub/CONTENT
+Dean PM. Ultrastructural morphometry of the pancreatic É¿-cell. Diabetologia 9: 115?119, 1973.CrossRefMedlineWeb of Science
+? Deeney JT, Kohler M, Kubik K, Brown G, Schultz V, Tornheim K, Corkey BE, and Berggren PO. Glucose-induced metabolic oscillations parallel those of Ca2+ and insulin release in clonal insulin-secreting cells. A multiwell approach to oscillatory cell behavior. J Biol Chem 276: 36946?36950, 2001.Abstract/FREE Full Text
+? Deeney JT, Prentki M, and Corkey BE. Metabolic control of É¿-cell function. Semin Cell Dev Biol 11: 267?275, 2000.CrossRefMedlineWeb of Science
+? Detimary P, Gilon P, and Henquin JC. Interplay between cytoplasmic Ca2+ and the ATP/ADP ratio: a feedback control mechanism in mouse pancreatic islets. Biochem J 333: 269?274, 1998.Abstract/FREE Full Text
+? DiPolo R and Beauge L. Ionic ligand interactions with the intracellular loop of the sodium-calcium exchanger. Modulation by ATP. Prog Biophys Mol Biol 80: 43?67, 2002.CrossRefMedlineWeb of Science
+? Eberhardson M and Grapengiesser E. Glucose and tolbutamide trigger transients of Ca2+ in single pancreatic É¿-cells exposed to tetraethylammonium. Cell Calcium 25: 355?360, 1999.CrossRefMedlineWeb of Science
+? Eberhardson M, Patterson S, and Grapengiesser E. Microfluorometric analysis of Cl- permeability and its relation to oscillatory Ca2+ signalling in glucose-stimulated pancreatic É¿-cells. Cell Signal 12: 781?786, 2000.CrossRefMedlineWeb of Science
+? Erecinska M, Bryla J, Michalik M, Meglasson MD, and Nelson D. Energy metabolism in islets of Langerhans. Biochim Biophys Acta 1101: 273?295, 1992.CrossRefMedline
+? Fatherazi S and Cook DL. Specificity of tetraethylammonium and quinine for three K channels in insulin-secreting cells. J Membr Biol 120: 105?114, 1991.CrossRefMedlineWeb of Science
+? Gall D, Gromada J, Susa I, Rorsman P, Herchuelz A, and Bokvist K. Significance of Na/Ca exchange for Ca2+ buffering and electrical activity in mouse pancreatic É¿-cells. Biophys J 76: 2018?2028, 1999.MedlineWeb of Science
+? Gall D and Susa I. Effect of Na/Ca exchange on plateau fraction and [Ca]i in models for bursting in pancreatic É¿-cells. Biophys J 77: 45?53, 1999.Medline
+? Gilon P, Arredouani A, Gailly P, Gromada J, and Henquin JC. Uptake and release of Ca2+ by the endoplasmic reticulum contribute to the oscillations of the cytosolic Ca2+ concentration triggered by Ca2+ influx in the electrically excitable pancreatic É¿-cell. J Biol Chem 274: 20197?20205, 1999.Abstract/FREE Full Text
+? Gilon P, Ravier MA, Jonas JC, and Henquin JC. Control mechanisms of the oscillations of insulin secretion in vitro and in vivo. Diabetes 51: S144?S151, 2002.Abstract/FREE Full Text
+? Gilon P, Yakel J, Gromada J, Zhu Y, Henquin JC, and Rorsman P. G protein-dependent inhibition of L-type Ca2+ currents by acetylcholine in mouse pancreatic É¿-cells. J Physiol 499: 65?76, 1997.MedlineWeb of Science
+? Giugliano M, Bove M, and Grattarola M. Insulin release at the molecular level: metabolic-electrophysiological modeling of the pancreatic É¿-cells. IEEE Trans Biomed Eng 47: 611?623, 2000.CrossRefMedlineWeb of Science
+? Goforth PB, Bertram R, Khan FA, Zhang M, Sherman A, and Satin LS. Calcium-activated K(+) channels of mouse beta-cells are controlled by both store and cytoplasmic Ca(2+): experimental and theoretical studies. J Gen Physiol 20: 307?322, 2002.
+? Gopel SO, Kanno T, Barg S, Eliasson L, Galvanovskis J, Renstrom E, and Rorsman P. Activation of Ca2+-dependent K+ channels contributes to rhythmic firing of action potentials in mouse pancreatic É¿-cells. J Gen Physiol 114: 759?770, 1999.Abstract/FREE Full Text
+? Gopel SO, Kanno T, Barg S, Galvanovskis J, and Rorsman P. Voltage-gated and resting membrane currents recorded from É¿-cells in intact mouse pancreatic islets. J Physiol 521: 717?728, 1999.CrossRefMedlineWeb of Science
+? Grapengiesser E. Glucose induces cytoplasmic Na+ oscillations in pancreatic beta-cells. Biochem Biophys Res Commun 226: 830?835, 1996.CrossRefMedlineWeb of Science
+? Grapengiesser E. Unmasking of a periodic Na+ entry in glucose-stimulated pancreatic É¿-cells after partial inhibition of the Na/K pump. Endocrinology 139: 3227?3231, 1998.CrossRefMedlineWeb of Science
+? Gromada J, Frokjaer-Jensen J, and Dissing S. Glucose stimulates voltage- and calcium-dependent inositol trisphosphate production and intracellular calcium mobilization in insulin-secreting in É¿TC3 cells. Biochem J 314: 339?345, 1996.Abstract/FREE Full Text
+? Gylfe E, Ahmed M, Bergsten P, Dansk H, Dyachok O, Eberhardson M, Grapengiesser E, Hellman B, Lin JM, Sundsten T, Tengholm A, Vieira E, and Westerlund J. Signaling underlying pulsatile insulin secretion. Ups J Med Sci 105: 35?51, 2000.MedlineWeb of Science
+? Hagar RE and Ehrlich BE. Regulation of the type III InsP3 receptor and its role in É¿-cell function. Cell Mol Life Sci 57: 1938?1949, 2000.CrossRefMedlineWeb of Science
+? Hagar RE and Ehrlich BE. Regulation of the type III InsP(3) receptor by InsP(3) and ATP. Biophys J 79: 271?278, 2000.Medline
+? Hao L, Rigaud JL, and Inesi G. Ca2+/H+ countertransport and electrogenicity in proteoliposomes containing erythrocyte plasma membrane Ca-ATPase and exogenous lipids. J Biol Chem 269: 14268?14275, 1994.Abstract/FREE Full Text
+? Hille B. Ion Channels and Excitable Membranes (3rd ed.). Sunderland, MS: Sinauer Associated, 2001.
+? Hirose K, Kadowaki S, Tanabe M, Takeshima H, and Iino M. Spatiotemporal dynamics of inositol 1,4,5-trisphosphate that underlies complex Ca2+ mobilization patterns. Science 284: 1527?1530, 1999.Abstract/FREE Full Text
+? Hopkins WF, Fatherazi S, Peter-Riesch B, Corkey BE, and Cook DL. Two sites for adenine-nucleotide regulation of ATP-sensitive potassium channels in mouse pancreatic É¿-cells and HIT cells. J Membr Biol 129: 287?295, 1992.CrossRefMedlineWeb of Science
+? Kanno T, Rorsman P, and Gopel SO. Glucose-dependent regulation of rhythmic action potential firing in pancreatic beta-cells by K(ATP)-channel modulation. J Physiol 545: 501?507, 2002.CrossRefMedlineWeb of Science
+? Kanno T, Suga S, Wu J, Kimura M, and Wakui M. Intracellular cAMP potentiates voltage-dependent activation of L-type Ca2+ channels in rat islet É¿-cells. Pflugers Arch 435: 578?580, 1998.CrossRefMedlineWeb of Science
+? Keizer J and Magnus G. ATP-sensitive potassium channel and bursting in the pancreatic É¿-cell. A theoretical study. Biophys J 56: 229?242, 1989.Medline
+? Kitasato H, Kai R, Ding WG, and Omatsu-Kanbe M. The intrinsic rhythmicity of spike-burst generation in pancreatic É¿-cells and intercellular interaction within an islet. Jpn J Physiol 46: 363?373, 1996.CrossRefMedlineWeb of Science
+? Kinard TA, deVries D, Sherman A, and Satin LS. Modulation of the bursting properties of single mouse pancreatic É¿-cells by artificial conductances. Biophys J 76: 1423?1435, 1999.Medline
+? Kohler M, Hirschberg B, Bond CT, Kinzie JM, Marrion NV, Maylie J, and Adelman JP. Small-conductance, calcium-activated potassium channels from mammalian brain. Science 273: 1709?1714, 1996.Abstract/FREE Full Text
+? Kukuljan M, Goncaves AG, and Atwater I. Charybdotoxin-sensitive K(Ca) channel is not involved in glucose-induced electrical activity in pancreatic É¿-cells. J Membr Biol 119: 187?195, 1991.CrossRefMedlineWeb of Science
+? Larsson O, Kindmark H, Branstrom R, Fredholm B, and Berggren PO. Oscillations in KATP channel activity promote oscillations in cytoplasmic free Ca2+ concentration in the pancreatic É¿-cell. Proc Natl Acad Sci USA 93: 5161?5165, 1996.Abstract/FREE Full Text
+? Leech CA and Habener JF. A role for Ca2+ sensitive nonselective cation channels in regulating the membrane potential of pancreatic É¿-cells. Diabetes 47: 1066?1073, 1998.Abstract
+? Leinders T and Vijverberg HPM. Ca2+ dependence of small Ca2+-activated K+ channels in cultured N1E-115 mouse neuroblastoma cells. Pflugers Arch 422: 223?232, 1992.CrossRefMedlineWeb of Science
+? Liu YJ, Tengholm A, Grapengiesser E, Hellman B, and Gylfe E. Origin of slow and fast oscillations of Ca2+ in mouse pancreatic islets. J Physiol 508: 471?481, 1998.CrossRefMedlineWeb of Science
+? Loew LM and Schaff JC. The virtual cell: a software environment for computational cell biology. Trends Biotechnol 19: 401?406, 2001.CrossRefMedlineWeb of Science
+? MacDonald PE, Ha XF, Wang J, Smukler SR, Sun AM, Gaisano HY, Salapatek AM, Backx PH, and Wheeler MB. Members of the Kv1 and Kv2 voltage-dependent K+ channel families regulate insulin secretion. Mol Endocrinol 15: 1423?1435, 2001.CrossRefMedlineWeb of Science
+? Maes K, Missiaen L, De Smet P, Vanlingen S, Callewaert G, Parys JB, and De Smedt H. Differential modulation of inositol 1,4,5-trisphosphate receptor type 1 and type 3 by ATP. Cell Calcium 7: 257?267, 2000.
+? Magnus G and Keizer J. Model of É¿-cell mitochondrial calcium handling and electrical activity. I. Cytoplasmic variables. Am J Physiol Cell Physiol 274: C1158?C1173, 1998.Abstract/FREE Full Text
+? Magnus G and Keizer J. Model of É¿-cell mitochondrial calcium handling and electrical activity. II. Mitochondrial variables. Am J Physiol Cell Physiol 274: C1174?C1184, 1998.Abstract/FREE Full Text
+? Mak DO, McBride S, and Foskett JK. Regulation by Ca2+ and inositol 1,4,5-trisphosphate (InsP3) of single recombinant type 3 InsP3 receptor channels. Ca2+ activation uniquely distinguishes types 1 and 3 insp3 receptors. J Gen Physiol 117: 435?446, 2001.Abstract/FREE Full Text
+? Matschinsky FM, Landgraf R, Ellerman J, and Kotler-Brajtburg J. Glucoreceptor mechanisms in islets of Langerhans. Diabetes 21, Suppl 2: 555?569, 1972.
+? Mears D, Sheppard NF Jr, Atwater I, Rojas E, Bertram R, and Sherman A. Evidence that calcium release-activated current mediates transient glucose-induced electrical activity in the pancreatic É¿-cell. J Membr Biol 155: 47?55, 1997.CrossRefMedlineWeb of Science
+? Meyer T, Wensel T, and Stryer L. Kinetics of calcium channel opening by inositol 1,4,5-trisphosphate. Biochemistry 29: 32?37, 1990.CrossRefMedline
+? Miura Y, Henquin JC, and Gilon P. Emptying of intracellular Ca2+ stores stimulates Ca2+ entry in mouse pancreatic beta-cells by both direct and indirect mechanisms. J Physiol 503: 387?398, 1997.CrossRefMedlineWeb of Science
+? Miwa Y and Imai Y. Simulation of spike-burst generation and Ca2+ oscillation in pancreatic É¿-cells. Jpn J Physiol 49: 353?364, 1999.CrossRefMedlineWeb of Science
+? Moller JV, Juul B, and le Maire M. Structural organization, ion transport, and energy transduction of P-type ATPases. Biochim Biophys Acta 1286: 1?51, 1996.Medline
+? Nygren A, Fiset C, Firek L, Clark JW, Lindblad DS, Clark RB, and Giles WR. Mathematical model of an adult human atrial cell: the role of K+ currents in repolarization. Circ Res 82: 63?81, 1998.Abstract/FREE Full Text
+? Owada S, Larsson O, Arkhammar P, Katz AI, Chibalin AV, Berggren PO, and Bertorello AM. Glucose decreases Na+,K+-ATPase activity in pancreatic É¿-cells. An effect mediated via Ca2+-independent phospholipase A2 and protein kinase C-dependent phosphorylation of the alpha-subunit. J Biol Chem 274: 2000?2008, 1999.Abstract/FREE Full Text
+? Petersen OH, Tepikin A, and Park MK. The endoplasmic reticulum: one continuous or several separate Ca2+ stores? Trends Neurosci 24: 271?276, 2001.CrossRefMedlineWeb of Science
+? Philipson LH. É¿-Cell ion channels: keys to endodermal excitability. Horm Metab Res 31: 455?461, 1999.MedlineWeb of Science
+? Rice JJ, Jafri MS, and Winslow RL. Modeling short-term interval-force relations in cardiac muscle. Am J Physiol Heart Circ Physiol 278: H913?H931, 2000.Abstract/FREE Full Text
+? Roe MW, Lancaster ME, Mertz RJ, Worley JF III, and Dukes ID. Voltage-dependent intracellular calcium release from mouse islets stimulated by glucose. J Biol Chem 268: 9953?9956, 1993.Abstract/FREE Full Text
+? Roe MW, Worley JF III, Mittal AA, Kuznetsov A, DasGupta S, Mertz RJ, Witherspoon SM III, Blair N, Lancaster ME, McIntyre MS, Shehee WR, Dukes ID, and Philipson LH. Expression and function of pancreatic É¿-cell delayed rectifier K+ channels. Role in stimulus-secretion coupling. J Biol Chem 271: 32241?32246, 1996.Abstract/FREE Full Text
+? Roe MW, Worley JF III, Qian F, Tamarina N, Mittal AA, Dralyuk F, Blair NT, Mertz RJ, Philipson LH, and Dukes ID. Characterization of a Ca2+ release-activated nonselective cation current regulating membrane potential and [Ca2+]i oscillations in transgenically derived É¿-cells. J Biol Chem 273: 10402?10410, 1998.Abstract/FREE Full Text
+? Rosario LM, Barbosa RM, Antunes CM, Silva AM, Abrunhosa AJ, and Santos RM. Bursting electrical activity in pancreatic É¿-cells: evidence that the channel underlying the burst is sensitive to Ca2+ influx through L-type Ca2+ channels. Pflugers Arch 424: 439?447, 1993.CrossRefMedlineWeb of Science
+? Rorsman P. The pancreatic É¿-cell as a fuel sensor: an electrophysiologist's viewpoint. Diabetologia 40: 487?495, 1997.CrossRefMedlineWeb of Science
+? Rorsman P, Ammala C, Berggren PO, Bokvist K, and Larsson O. Cytoplasmic calcium transients due to single action potentials and voltage-clamp depolarizations in mouse pancreatic É¿-cells. EMBO J 11: 2877?2884, 1992.MedlineWeb of Science
+? Sherman A. Contributions of modeling to understanding stimulus-secretion coupling in pancreatic É¿-cells. Am J Physiol Endocrinol Metab 271: E362?E372, 1996.Abstract/FREE Full Text
+? Sims CE and Allbritton NL. Metabolism of inositol 1,4,5-trisphosphate and inositol 1,3,4,5-tetrakisphosphate by the oocytes of Xenopus laevis. J Biol Chem 273: 4052?4058, 1998.Abstract/FREE Full Text
+? Smith PA, Aschroft FM, and Fewtrell CM. Permeation and gating properties of the L-type calcium channel in mouse pancreatic É¿-cells. J Gen Physiol 101: 767?797, 1993.Abstract/FREE Full Text
+? Smith PA, Ashcroft FM, and Rorsman P. Simultaneous recordings of glucose dependent electrical activity and ATP-regulated K+-currents in isolated mouse pancreatic É¿-cells. FEBS Lett 261: 187?190, 1990.CrossRefMedlineWeb of Science
+? Smolen P and Keizer J. Slow voltage inactivation of Ca2+ currents and bursting mechanisms for the mouse pancreatic É¿-cell. J Membr Biol 127: 9?19, 1992.MedlineWeb of Science
+? Soria B and Martin F. Cytosolic calcium oscillations and insulin release in pancreatic islets of Langerhans. Diabetes Metab 24: 37?40, 1998.MedlineWeb of Science
+? Straub SG, Kornreich B, Oswald RE, Nemeth EF, and Sharp GW. The calcimimetic R-467 potentiates insulin secretion in pancreatic É¿-cells by activation of a nonspecific cation channel. J Biol Chem 275: 18777?18784, 2000.Abstract/FREE Full Text
+? Sturis J, Pugh WL, Tang J, Ostrega DM, Polonsky JS, and Polonsky KS. Alterations in pulsatile insulin secretion in the Zucker diabetic fatty rat. Am J Physiol Endocrinol Metab 267: E250?E259, 1994.Abstract/FREE Full Text
+? Tengholm A, Hellman B, and Gylfe E. The endoplasmic reticulum is a glucose-modulated high-affinity sink for Ca2+ in mouse pancreatic É¿-cells. J Physiol 530: 533?540, 2001.CrossRefMedlineWeb of Science
+? Varadi A, Molnar E, and Ashcroft SJ. Characterisation of endoplasmic reticulum and plasma membrane Ca2+-ATPases in pancreatic É¿-cells and in islets of Langerhans. Biochim Biophys Acta 1236: 119?127, 1995.CrossRefMedline
+? Worley JK III, McIntyre MS, Spencer B, and Dukes ID. Depletion of intracellular Ca2+ stores activates a maitotoxin-sensitive nonselective cationic current in É¿-cells. J Biol Chem 269: 32055?32058, 1994.Abstract/FREE Full Text
+? Worley JF III, McIntyre MS, Spencer B, Mertz RJ, Roe MW, and Dukes ID. Endoplasmic reticulum calcium store regulates membrane potential in mouse islet É¿-cells. J Biol Chem 269: 14359?14362, 1994.Abstract/FREE Full Text

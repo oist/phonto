@@ -1,0 +1,546 @@
+Autoinhibition with Transcriptional Delay: A Simple Mechanism for the Zebrafish Somitogenesis Oscillator
+
+Julian Lewis, 
+Under an Elsevier user license
+ Show more
+doi:10.1016/S0960-9822(03)00534-7
+Get rights and content
+  Open Archive
+Abstract
+Background: The pattern of somites is traced out by a mechanism involving oscillating gene expression at the tail end of the embryo. In zebrafish, two linked oscillating genes, her1 and her7, coding for inhibitory gene regulatory proteins, are especially implicated in genesis of the oscillations, while Notch signaling appears necessary for synchronization of adjacent cells.
+
+Results: I show by mathematical simulation that direct autorepression of her1 and her7 by their own protein products provides a mechanism for the intracellular oscillator. This mechanism operates robustly even when one allows for the fact that gene regulation is an essentially noisy (stochastic) process. The predicted period is close to the observed period (30 min) and is dictated primarily by the transcriptional delay, the time taken to make an mRNA molecule. Through its coupling to her1/her7 expression, Notch signaling can keep the rapid oscillations in adjacent cells synchronized. When the coupling parameters are varied, however, the model system can switch to oscillations of a much longer period, resembling that of the mouse or chick somitogenesis oscillator and governed by the delays in the Notch pathway. Such Notch-mediated synchronous oscillations are predicted even in the absence of direct her1/her7 autoregulation, through operation of the standard Notch signaling pathway that is usually assumed simply to give lateral inhibition.
+
+Conclusions: Direct autorepression of a gene by its own product can generate oscillations, with a period determined by the transcriptional and translational delays. Simple as they are, such systems show surprising behaviors. To understand them, unaided intuition is not enough: we need mathematics.
+
+Introduction
+Somites, the future segments of the vertebrate body axis, are laid down in head-to-tail succession. The somite rudiments are marked out in alternating bands of expression of genes that distinguish anterior from posterior portions of somites. This pattern, like the trace on a magnetic recording tape, represents the record of a temporal oscillation, manifest in cyclic changes in levels of gene expression in the cells of the presomitic mesoderm, or PSM, from which the somites derive (Figure 1)1 and 2. As growth continues at the tail end of the embryo, cells exit from the anterior end of the PSM and cease oscillating, probably because of a decline in the concentration of Fgf8 when the distance from the tail bud becomes large [3]. According to the phase of the oscillation cycle in which they become arrested, the cells leaving the PSM switch on sustained expression of different sets of genes, marking them as front end or back end of a nascent somite.
+
+Full-size image (30 K)
+Figure 1. 
+A Zebrafish Embryo at the 10-Somite Stage, Stained by In Situ Hybridization for deltaC mRNA, Coding for the Notch Ligand DeltaC
+The expression pattern of this gene is like that of her1 and her7: oscillation occurs in the PSM and is arrested as cells become recruited into the region of formed somites. The arrest is not abrupt, but it is foreshadowed by a gradual slowing of the oscillation in the transition region (the anterior PSM). This gives rise to a graded phase lag, such that cells in different parts of the PSM at any given instant are in different phases of their oscillation cycle. The maximal rate of oscillation occurs at the tail end of the PSM, and this defines the periodicity of the whole process: in the course of one oscillation cycle of the posterior PSM, the entire spatiotemporal pattern of gene expression in the PSM goes through a complete cycle of changes and returns to its initial configuration, but with an increase of one in the number of formed somites ( [1], Appendix). The nth somite consists of cells arrested after the nth cycle since somitogenesis began. (Photograph courtesy of Yun-Jin Jiang.)
+Figure options
+The oscillation in the PSM is called the somite clock, and the moving interface between the PSM and the determined somite tissue is called the somitogenesis wavefront; somite patterning is thus said to depend on a clock and wavefront mechanism [4]. A single complete somite rudiment consists of the set of cells that emerge from the PSM in the course of one complete clock cycle, that is, in one complete cycle of the posterior PSM oscillation. What then is the mechanism that drives this oscillation and defines its timing; in other words, how does the clock work?
+
+The Oscillator Depends on Components of the Notch Signaling Pathway
+
+In the zebrafish, the only genes so far reported to cycle in the posterior PSM code for components of the Notch signaling pathway or for downstream genes whose expression is regulated by Notch signaling. Thus, deltaC, coding for a Notch ligand, oscillates, and so do her1 and her7, coding for inhibitory bHLH gene regulatory proteins of the Hairy/E(spl) family that are controlled by Notch 5, 6, 7 and 8. The mRNA levels of these genes go up and down synchronously in the posterior PSM with a period of 30 min (at 28ÅãC), corresponding to the time taken to generate one additional somite.
+
+The set of genes known to be required for normal oscillations in the posterior PSM is somewhat larger, but, again, all or almost all of them lie in the Notch pathway 5, 6, 7, 8, 9, 10 and 11. All this suggests that the oscillator, in zebrafish at least, is somehow based on Notch pathway components.
+
+In the Zebrafish, PSM Cells May Continue to Oscillate Even When out of Synchrony with Their Neighbors
+
+A gene whose expression oscillates may be merely a downstream read-out of the core oscillator, like the hands on a mechanical clock. Moreover, a gene required for oscillation may merely code for necessary supporting apparatus, like the clock frame, cogs, and bearings. The problem is to identify the genes whose products actually generate the oscillations.
+
+In mutants in which Notch signaling is disrupted, the pattern of deltaC expression, although abnormal, does not correspond to what one might expect for a nonfunctional oscillator. The cells in the PSM, instead of all adopting a maximal, minimal, or at least uniform level of expression of deltaC, show a pepper-and-salt mixture of different levels of expression: the appearance is what one would expect if the cells were individually continuing to oscillate almost normally but had lost synchrony [5]. This suggests that some intracellular mechanism generates oscillations in each cell, and that the function of cell-cell communication via the Notch pathway is to synchronize neighbors so that they oscillate in phase with one another.
+
+If there is such an intracellular oscillator mechanism, how might it work? Oscillations in biological systems are typically generated by negative feedback loops [12]. As explained in Figure 2, the length of the delay in the feedback loop dictates the period of the oscillation. One might therefore hope to find at the heart of the oscillator some molecule that, with a delay, directly or indirectly inhibits its own production or activation. The feedback loop should be intracellular, so that oscillation can occur even without any coordinated periodic prompting from neighboring cells, as it seems to do in Notch pathway mutants in which the neighbors are in a random assortment of different phases. On the other hand, the oscillators in neighboring cells must normally be capable to some extent of influencing one another via the Notch pathway, so that when the pathway functions, synchrony is preserved. Thus, the central oscillating component should be sensitive to signals from neighbors, delivered via the Notch pathway, so as to bring its own oscillation into step with theirs; and it should itself drive an oscillation of the signals for activation of Notch?for example, oscillation of expression of the Notch ligand Delta?so that the cell can reciprocally tell its neighbors what phase of the oscillation cycle it is itself in.
+
+Full-size image (58 K)
+Figure 2. 
+Idealized Oscillators Illustrating Basic Principles: The Period Is Determined by the Delay in the Feedback Loop
+(A) On/off switch. Transition to the ÅgonÅh state creates a delayed negative feedback signal, causing transition to the ÅgoffÅh state after time T, and vice versa; the time for one complete cycle (on Å® off Å® on) is 2T.
+(B) System described by a continuous variable, x(t), autoregulated by negative feedback with delay T such that x(t) = f(x[t ? T]), where f is a monotonically decreasing function. If, for example, f(x) = K/(1 + x2), oscillations will be sustained and will have period 2T whenever K > 2. (This is the condition under which the pair of equations x1 = f[x2] and x2 = f[x1] has solutions x1 ÅÇ x2; the system then alternates between state x = x1 and state x = x2).
+(C) A chemical system in which the rate of synthesis of a substance x is regulated by delayed negative feedback and degradation occurs at rate cx(t): . If degradation is rapid in relation to the delay time T, so that c >> 1/T, the concentration closely follows the instantaneous value of f(x[t ? T])/c and the behavior approximates that of system (B). Thus, if f(x) = K/(1 + x2), the system oscillates with a period of ?2T provided K/c ? 2. If degradation is too slow (specifically, if c < r/T, where r = 2ÉŒ/3Å„3 ?1.2), sustained oscillation becomes impossible even for very large values of K/c (see [12], pg. 192). For further discussion, see also [48] and references therein.
+Figure options
+Cell-Autonomous Oscillations in the Zebrafish May Be Generated by her1 and/or her7
+
+Recent papers have identified her1 and her7 as a pair of genes in the zebrafish that jointly satisfy all these conditions to be central components of the oscillator. Both genes code for bHLH gene regulatory proteins in the E(spl)-related subfamily of the hairy/E(spl) inhibitory class [13]; they lie only 11 kb apart in the genome, with opposite polarity and possibly sharing common regulatory elements 14 and 15. Their levels of expression, as indicated by their mRNA concentrations, normally oscillate in synchrony in the PSM, with a periodicity and phase matching those of deltaC, as though the mRNA levels of all three genes are coordinately regulated [8]. When both her1 and her7 are lost through a chromosomal deletion [9], or when both gene products are knocked down by morpholino injections, oscillation breaks down: deltaC expression in the PSM fails to oscillate, the spatially periodic pattern of expression of marker genes in the maturing somite tissue is lost, and the physical pattern of somite segmentation becomes grossly irregular. Morpholino knockdown of her1 by itself or her7 by itself produces similar but weaker effects 6, 8 and 9. Both genes are positively regulated by Notch signaling 8 and 10, and, most importantly, they appear to negatively regulate their own expression 6 and 8. The evidence for this negative autoregulation in the zebrafish comes mainly from studies of her1 and her7 mRNA expression in the her1 or her7 morpholino knockdown experiments. Although there is some debate about these experiments and there may be differences between her1 and her7 in the way they function in the anterior and posterior parts of the PSM 8 and 15, the evidence for the corresponding gene in the mouse is clear cut. Like her1 and her7, the mouse Hes7 gene, the ortholog of her1, shows oscillating expression in the PSM and is necessary for regular somite segmentation; and studies with a lacZ knockin mutation, as well as protein stabilization experiments, show clearly that Hes7 protein inhibits Hes7 expression 16 and 17. As Holley et al. [6], Hirata et al. [18], and Bessho et al. [17] have emphasized, negative feedback regulation of this sort provides the basis for an oscillator.
+
+Direct Autoinhibition of Gene Expression Can Generate Oscillations
+
+The simplest possibility one might envisage would be a feedback loop in which Her1 or Her7 protein directly binds to the regulatory DNA of its own gene to inhibit transcription. Indeed, direct binding of Hes7 protein to the Hes7 promoter has been demonstrated in the mouse [17]. But could such a simple system really generate oscillations? To answer, one has to do some mathematics. For the given autoregulatory gene, let m be the number of mRNA molecules in the cell at any instant, and let p be the number of molecules of the corresponding protein. The rate of change of m and p might then be supposed to obey the equations:
+
+equation1
+where the constants b and c are the decay rates (inverse lifetimes) of the protein and message molecules, a is the rate of production of new protein molecules per mRNA molecule, and f(p) is the rate of production of new mRNA molecules, which is assumed to be a decreasing function of the amount of protein p. For example, we might take f(p) = k/(1 + p2/p02), with k and p0 as constants, to represent the action of an inhibitory protein that acts as a dimer (as bHLH proteins do).
+It can be proved from Bendixson's Negative Criterion, however, that it is impossible for this pair of differential equations to generate sustained oscillations ([19], p. 109). This conclusion holds good for any form of the function f(p), provided only that a and c are both positive numbers. Other investigators of gene expression oscillations have therefore postulated more complex mechanisms, involving larger numbers of components (e.g., [18]), and have even created artificial bacterial systems in which oscillations are generated by, for example, a ring of three genes, the protein product of each one regulating the transcription of the next [20].
+
+There is, however, a much simpler way to arrive at sustained oscillations, by taking more careful account of the delays involved in the synthesis of mRNA and protein (Figure 3A). The amount of regulatory protein p in the cell dictates the rate of initiation of transcription, but a significant time, Tm, elapses between the initiation of transcription and the arrival of the mature mRNA molecule in the cytoplasm. Thus, the rate of increase in the number of mature mRNA molecules at any instant reflects the value of p at a time that is earlier by an amount Tm. Likewise, there is a delay, Tp, between the initiation of translation and the emergence of a complete functional protein molecule. The equations 1 are easily modified to take account of these delays:
+
+equation2A
+where the time dependencies of the variables are now shown explicitly.
+Full-size image (95 K)
+Figure 3. 
+A Cell-Autonomous Gene Expression Oscillator: Effects of Partial Blockade of Translation and Effects of Noise
+(A) Molecular control circuitry for a single gene, her1, whose protein product acts as a homodimer to inhibit her1 expression.
+(B) Molecular control circuitry for a pair of coregulated genes, her1 and her7, whose protein products combine as a heterodimer to inhibit her1 and her7 expression.
+(C?E) Computed behavior of system (A), showing the number of her1 mRNA molecules per cell in red and of Her1 protein molecules in blue. Drastic changes in the rate constant for protein (or mRNA) synthesis (such as might be produced by partially blocking translation with cycloheximide) cause little or no change in the period of oscillation, though beyond a certain critical severity they may convert the sustained oscillation into a damped oscillation. The results are computed for parameter values appropriate to a her1 homodimer oscillator (as specified in the text) and show outcomes for three different values of a, the number of protein molecules synthesized per mRNA molecule per minute. Results are similar for a her7 homodimer oscillator and for the her1/her7 heterodimer oscillator shown in (B). The protein and the mRNA are assumed absent initially, with the gene becoming abruptly available for transcription at time 0. Thereafter, the amounts of protein and mRNA are assumed to change according to the  and  in the text. In general, for sustained oscillations, three conditions must be satisfied: (i) ak/bc > 2 p0; (ii) b ? 1.7/T; and (iii) c ? 1.7/T, where T = Tm + Tp. The period of oscillation is then given to a good approximation (within ?15%) by the  and (T + 1/b + 1/c).
+(F?H) Computed behavior of system (A) when the stochastic nature of the control of gene expression is taken into account. Results are shown for the case in which the repressor protein dissociates from its binding site on the DNA with a rate constant koff = 1 min?1, corresponding to a mean lifetime of 1 min for the repressor bound state. Other parameters are set to be the same as in (C)?(E). Note that oscillation now continues with high amplitude, though noisily, even under conditions in which the deterministic model predicts that oscillation will be damped (compare [H] with [E]). With lower values of koff, corresponding to longer lifetime for the repressor bound state, this phenomenon is even more pronounced.
+For details of the computation and proofs of the analytical results, see the Supplemental Data.
+Figure options
+Delay differential equations such as these cannot be solved analytically, but they are easily solved numerically for any given choice of parameters. Oscillations occur easily and robustly provided certain simple conditions are satisfied. In the discussion below, it will be assumed that
+
+equation2B
+which represents the action of the inhibitory protein as a dimer; however, the behavior is qualitatively similar for other cases, such as f(p) = k/(1 + pn/p0n) for n > 1.
+The Period of Oscillation Is Determined by the Sum of the Transcriptional and Translational Delays
+
+The behavior is easiest to analyze in the limit in which the lifetimes of the mRNA and protein are very short compared with the total delay time T = Tm + Tp. Oscillations, in this extreme, take the form of square waves: the system flip-flops between two quasisteady states, and the period of oscillation is simply 2T, in accordance with the basic principles illustrated for a still simpler system in Figure 2. There is just one additional condition that must be satisfied for oscillation to occur: the maximal rates of mRNA and protein synthesis must be high enough to be capable of raising the protein concentration beyond the critical value, p0, at which the inhibition of mRNA synthesis starts to operate in earnest. Specifically, we require ak/bc >2p0.
+
+As the lifetimes of the protein and mRNA become longer, so that they are no longer negligible in comparison with the total delay T, the square-wave form of the oscillations becomes smoothened into something more like a sine wave (see Figure 2 and Figure 3). Sustained oscillations will still occur provided that the lifetimes are not too long and the product of the rate constants for mRNA and protein synthesis is high enough. The period of the oscillations ranges between a minimum of 2T (when the lifetimes are very short) and a maximum of approximately 4T (as the lifetimes approach their upper limit). In fact, one can show analytically that for 1/b << T and 1/c << T, the period is approximately equal to 2 (T + 1/b + 1/c) (see the Supplemental Data available online). Thus, the delay T is the key determinant of the period. The values of the other parameters can be varied by orders of magnitude, with very little effect on the period, provided only that the conditions for sustained oscillation are satisfied (Figures 3C?3E).
+
+The Predicted Period for a her1/her7 Oscillator Is Close to the Observed Period of the Somite Oscillator
+
+To see whether her1 and/or her7 could generate oscillations by the simple mechanism mentioned above, we have to estimate the parameters a, b, c, k, p0, Tm, and Tp. The observed period of the somite oscillator is short, and it is therefore reasonable to assume that the rates a, b, c, and k are close to the upper limits reported for mRNA and proteins in eukaryotic cells. Plausible values are: a = 4.5 protein molecules per mRNA molecule per minute [21]; b = c = 0.23 molecules per minute, corresponding to protein and mRNA half-lives of 3 min 22 and 23; k = 33 mRNA molecules per diploid cell per minute, corresponding to 1000 transcripts per hour per gene copy in the absence of inhibition [21]; p0 = 40 molecules, corresponding to a critical concentration of ?10?9 M within a 5 É m-diameter cell nucleus.
+
+To estimate the delays Tm and Tp, note that for animal cells, RNA polymerase II moves along DNA at a rate of roughly 20 nucleotides per second 21, 24 and 25. Though data are scanty, it has been estimated from a study of two different genes in mammalian cells that each successive intron takes between 0.4 and 7.5 min (half-life) to splice out [26]. A further delay, estimated at about 4 min (half-life), elapses after completion of splicing before the mature mRNA emerges into the cytosol [26]. The mRNA is translated by ribosomes moving at roughly 6 nucleotides per second [21]. Given the genomic sequence of her1 and her7 (GenBank accession number AF292032), and assuming similar rates for fish and mammal, we arrive at the following estimates: for her1, which has a primary transcript of length 6005 nt, with 3 introns, and codes for a protein of 328 amino acids, we have 10.2 < Tmher1 < 31.5 min and Tpher1 ? 2.8 min; for her7, which has a primary transcript of length 1280 nt, with 2 introns, and codes for a protein of 204 amino acids, we have 5.9 < Tmher7 < 20.1 min and Tpher7 ? 1.7 min. Thus, the estimated total delay T for her1 is between 13.0 and 34.3 min, and, for her7, it is between 7.6 and 21.8 min.
+
+By inserting parameter values anywhere within these ranges in the  and  we obtain oscillations. Moreover, it is easy to extend  and  to describe the case in which her1 and her7 are coordinately regulated by a heterodimer of Her1 protein with Her7 protein; again, the system oscillates. If we assume that it takes 1 min to splice out each intron for her1 and her7, so that Tmher1 ? 12 min and Tmher7 ? 7.1 min, we get a computed period of 47 min for the pure Her1 dimer oscillator, 30 min for the pure Her7 dimer oscillator, and 37 min for the Her1/Her7 heterodimer oscillator. Given the uncertainties in the parameter values, the periods predicted for all these variant mechanisms represent good agreement with the observed period of 30 min for the zebrafish somite oscillator at 28ÅãC. The her1/her7 heterodimer oscillator model has the virtue that it accounts for the observed joint involvement of her1 and her7 in a simple and plausible way; its behavior is generally similar to that of a simple homodimer oscillator based on her1 or her7 alone.
+
+The Oscillator Is Surprisingly Insensitive to Blockade of Protein Synthesis
+
+The properties of an oscillator of the type described can be quite surprising. What, for example, will be the consequence of a drastic general reduction of protein synthesis? One might expect that this would stop the oscillator, which depends on protein synthesis, or at least that it would cause a big change in the period and amplitude. In fact, if we reduce the protein synthesis rate constant a to one tenth of its standard value (from 4.5 to 0.45 protein molecules per minute per ribosome) and use the model to recompute the predicted mRNA levels (taking the her1 homodimer oscillator as an example), we find none of these effects. Sustained oscillation is still seen, the period is practically unchanged, and even the amplitude of the mRNA oscillation is almost the same as before (Figure 3D). A further reduction, to a twentieth of the standard value, does indeed cause a qualitative change in the behavior: oscillations now are damped, so that the system tends toward a nonoscillating steady state (Figure 3E). But the period of the damped oscillations is practically the same as before, and the damping (for a = 0.225) is only about 25% per cycle, so that, for example, it takes 4 cycles for the amplitude to fall to one third of its initial value if the system is initially far from its steady state.
+
+Palmeirim et al. [1] have tested experimentally the effects of inhibiting protein synthesis with cycloheximide during chick somite formation: an 84% reduction in protein synthesis, maintained for the duration of a full cycle of the normal oscillator, allows oscillation of c-hairy1 mRNA levels to continue. This finding was originally taken to imply that the oscillation could not depend on oscillating synthesis of a regulatory protein. From the mathematical model, we can see that (regardless of the details of the chick somitogenesis oscillator) this is not a safe inference. Indeed, subsequent work in chick and mouse has strongly suggested that the oscillation is after all based on oscillating synthesis of mRNA and protein 27, 28, 29 and 30.
+
+Figure 3E also illustrates another counterintuitive feature. If Her1/Her7 protein represses transcription of the her1/her7 gene(s), one might expect that when translation of her1 or her7 mRNA is blocked with an antisense morpholino, as in the experiments mentioned earlier, repression would be lost and levels of the mRNA would rise dramatically. In fact, as the figure shows, the negative feedback operates in such a way that even with a 95% block of translation, the mRNA in our model system tends only to a middling value, intermediate between the extremes of the normal oscillation. To get the mRNA concentration to rise above the levels normally encountered, the morpholino block must be even more severe. It can be difficult, therefore, to draw conclusions from morpholino experiments as to the presence or absence of negative feedback.
+
+Damped Oscillations or Progressive Loss of Synchrony May Explain the Normality of the First Few Somites in Somitogenesis Mutants
+
+As we have just seen, when the parameters of the model system are altered to such a degree that sustained oscillation becomes impossible, damped oscillations can still occur. These may have a large amplitude if the system is started far from the steady state, and their decay may be slow. Moreover, the period of these damped oscillations is almost the same as the period of the sustained oscillations that occur for other parameter values, provided only that the delay T in the feedback loop is unchanged.
+
+This suggests a simple interpretation of a curious observation: in most of the mutants listed earlier that show a disrupted pattern of somite segmentation, as well as in analogous mouse mutants, the first few somites appear practically unaffected. The mathematical model shows that there is no need to invoke any region-specific molecular control machinery to explain this phenomenon: the normal formation of the first few somites can simply reflect the occurrence of a damped oscillation at the onset of somitogenesis, followed by a failure of patterning as the amplitude of oscillation declines to zero.
+
+This explanation is attractive in principle, but experimental observations indicate that it is not quite right in fact, for the zebrafish at least. In the mutants and morpholino-injected embryos in which somitogenesis is progressively disrupted, the oscillations of the individual cells in the PSM do not all damp down to a common steady level. Instead, as noted earlier, the cells drift into a pepper-and-salt pattern of gene expression 5 and 8, in a manner suggesting that they are still oscillating individually but have lost coordination and become randomized with respect to their phase in the oscillation cycle. On this basis, we proposed in a previous paper that the first few somites form normally, and the subsequent somites abnormally, not because of damped oscillations in the individual cells, but because individual cell oscillators, having been set going in synchrony, take time to drift out of synchrony [5].
+
+The two explanations, damping of individual cell oscillations and damping of the population average oscillation through loss of synchrony, seem quite different, but they are not mutually exclusive. In fact, a closer analysis of the principles of the feedback inhibition oscillator shows that the same type of genetic defect can give rise to either or both of these phenomena, according to the parameter values of the system. To see how this can be, and to explain why so many types of genetic disturbance that disrupt somite segmentation in the zebrafish give the pepper-and-salt result, we must take account of one further essential feature of real cells: noise in the control of gene expression.
+
+Noisy Control of Gene Expression Favors Continued Oscillation
+
+In any transcriptional control system, random fluctuations will arise from random variation, or noise, in the regulation of gene expression [31]. The binding and dissociation of a gene regulatory protein to and from its site on DNA are stochastic processes, each described by a certain probability of occurrence per unit time, so that we should expect her1 and her7 to flicker between ÅgoffÅh (repressor bound) and ÅgonÅh (repressor dissociated) states. In writing down our deterministic equations that describe the gene regulation in terms of a smooth dependence of transcription rate on protein concentration, we are in effect assuming that we can replace the underlying on/off flickering behavior by an instantaneous time average, in which the rate of transcription is proportional to the fraction of time the gene is currently spending with repressor protein bound to it. The slower the average flicker rate, the more the real system will depart from the idealized deterministic behavior.
+
+Figures 3F?3H show how the predictions of the deterministic model for a single cell are altered when we take into account the noisy nature of gene regulation. As explained in detail in the Supplemental Data, to model the stochastic effects, we have to specify just one further independent parameter in addition to those characterizing the deterministic model: the rate constant koff for dissociation of the repressor protein from its binding site in the regulatory DNA. The results in Figures 3F?3H represent the case where koff = 1 min?1, corresponding to a mean lifetime of 1 min for the repressor bound state. Three main points are apparent:
+
+First, when protein synthesis is at the full normal rate (Figure 3F), the noisy system oscillates in the same way as the deterministic system; the only obvious difference consists in some random variability in the amplitude and shape of individual oscillation peaks. The smaller the value we assign to koff, the larger these noise effects become (data not shown). But even for a koff as small as 0.1 min?1, corresponding to a mean lifetime of 10 min for the repressor bound state, well-defined (though noisy) oscillations still occur and have practically the same mean period as in the deterministic model, reflecting the length of the delays in the feedback loop.
+
+Second, when protein synthesis is attenuated (Figure 3G), the noisy system still oscillates with the same mean period as the deterministic system, but with more random variation in the amplitude and shape of the individual peaks and in the spacing between them.
+
+Third, when protein synthesis is attenuated severely (Figure 3H), to the point where the deterministic system shows only damped oscillation, the noisy system does not tend to a steady state, but shows persistent strong fluctuations in the level of mRNA. A large random fluctuation can initiate a damped train of oscillations; although these are noisy, they still show the standard periodicity. Thus, oscillation continues but is episodic, with periods of regularity and high amplitude separated by intervals of more random fluctuation. In fact, when koff is made smaller, intensifying stochastic effects, the behavior approximates still more closely to sustained oscillation. Far from disrupting oscillation, noise helps it to occur.
+
+Conversely, the larger we make koff, the smaller the stochastic effects become, until for koff ? 10 min?1, the behavior approximates that of the deterministic system. Thus, according to the dissociation rate of the repressor protein from its DNA binding site, the same mutation may lead to oscillations that are simply damped, or to oscillations that continue with substantial amplitude but reduced regularity.
+
+Zebrafish with mutations in the Notch pathway [5] or injected with anti-her1 or anti-her7 morpholinos ( [8], and B. Aerne, personal communication) presumably correspond to the latter case, with oscillation continuing noisily. In these embryos, it is not surprising that synchrony between neighbors is lost: there is not only a defect in the production of proteins needed for cell-cell communication, but also an increased tendency for the cells to be erratic in their individual rhythms.
+
+Delta-Notch Communication Can Synchronize her1/her7 Oscillations in Adjacent Cells
+
+If the clock-and-wavefront mechanism is to guide regular somite segmentation, neighboring PSM cells must oscillate in synchrony. It is easy to extend the basic single-cell oscillator model to show how, through Notch signaling mechanisms that are known to operate in the PSM, synchronization can be achieved (Figure 4).
+
+Full-size image (51 K)
+Figure 4. 
+Notch Signaling Can Synchronize Oscillations in Two Adjacent Cells
+(A) The molecular circuitry: the two cells are assumed to contain her1/her7 heterodimer oscillators, but with a 10% difference in their values of Tm + Tp, corresponding to different free-running oscillation periods. The oscillators are coupled via Notch signaling.
+(B) The computed behavior with no Notch-mediated cell-cell communication. The cells drift in and out of synchrony.
+(C) Notch signaling active, with a signaling delay of TN = 36 min. The rate of her1/her7 transcription is assumed to be determined by the product of an increasing function of the amount of Delta-Notch activity and a decreasing function of the amount of Her1/Her7 protein dimers. The cells oscillate synchronously, with a period that is an average of their free-running periods.
+(D) Notch signaling active, but with a delay of TN = 56 min. The cells now oscillate asynchronously.
+See the Supplemental Data for full details.
+Figure options
+For simplicity, let us disregard stochastic effects and consider two adjacent PSM cells with slightly different free-running oscillation periods, so that in the absence of cell-cell communication their cycles will drift in and out of synchrony (Figure 4B). To model the effect of Notch-mediated communication, note first of all that in the normal zebrafish, levels of mRNA coding for the Notch ligand DeltaC oscillate very nearly in phase with the oscillations of her1 and her7 mRNA ( [8]; L. Smithers and J.L., unpublished data). It is reasonable to hypothesize, therefore, that deltaC expression is regulated in parallel with expression of her1 and her7 by Her1/Her7 protein acting directly on the deltaC promoter, and that the mRNA and protein lifetimes are short for deltaC, as they are for her1 and her7, so that DeltaC protein levels will oscillate. (The effective DeltaC protein lifetime is expected to be short, since Delta proteins delivered to the cell surface are rapidly endocytosed and degraded [32]). DeltaC oscillation will cause oscillation in the level of Notch activation in each cell according to the level of DeltaC in its neighbor. Activation of Notch stimulates expression of her1 and her7 8 and 10. We may thus suppose that the transcription of her1 and her7 is governed by the product of two oscillatory influences: positive regulation by activated Notch and inhibition by Her1/Her7. Figure 4A shows the proposed control scheme; while it is speculative in some respects, and has difficulty explaining some of the results of mRNA injection experiments [10], it seems the simplest way to represent the main experimental facts. Full details of the corresponding system of equations for the two interacting cells are given as Supplemental Data, together with the Mathematica program used to compute the behavior.
+
+Just as single-cell oscillation depends on the delay in the her1/her7 intracellular feedback loop, so synchronization of two cells depends on the delays in the cell-cell signaling pathway. The total delay in the Notch pathway, TN, is a sum of four parts: the delay TmdeltaC from initiation of transcription of deltaC (the event controlled by Her1/Her7) to emergence of a mature deltaC mRNA molecule into the cytoplasm; the delay TpdeltaC from initiation to completion of synthesis of a DeltaC protein molecule; the delay Tpexport for delivery of the protein via the secretory pathway to the cell surface; and the delay TNotchActivation from the time when functional DeltaC protein reaches the cell surface to the time when the resultant activated Notch arrives in the nucleus of the neighboring cell to regulate transcription of her1 and her7. TmdeltaC and TpdeltaC can be estimated in the same way as the corresponding delays for her1 and her7, by using the published sequence data (GenBank gi|18858544 and gi|27374724): deltaC has a primary transcript of ?4851 nt, with 8 introns, coding for a protein of 664 aa, giving estimates 16 min < TmdeltaC < 68 min and TpdeltaC ? 5.5 min. Transit times, Tpexport, in the protein export pathway in vertebrate cells are highly variable, but they may be as short as 15 min 33, 34 and 35. Data on TNotchActivation are scanty, but it is likely to be short by comparison with Tpexport [36]. Adding these contributions, we conclude that the total delay, TN, in the Notch signaling pathway could be anywhere from about 36 min up to a few hours. Given the rapidity of other events in the PSM cells, it is reasonable to assume the shorter value.
+
+One might think that such a long delay in the cell-to-cell signaling pathway would make it incapable of synchronizing the rapid oscillations of the individual cells. But again, intuition is a poor guide to the behavior of the system. Numerical modeling with the specified parameters shows that the two adjacent cells are in fact forced into synchrony (Figure 4C). The mechanism is robust: the same effect is obtained if we make TN longer or shorter by up to 10 min, although not if we make it 20 min longer (Figure 4D) or 15 min shorter. (The ÅgpushÅh that the one cell delivers to its neighbor must be received in the correct part of the neighbor's own oscillation cycle if it is to promote synchronized oscillation.) Moreover, the precise value of TN has very little effect on the period of oscillation, which is chiefly defined by the her1/her7 kinetics.
+
+A Small Change in Gene Regulation Can Switch Control of the Oscillator Period from the Intracellular to the Intercellular Feedback Loop
+
+In the circuitry just described for two interacting cells (see Figure 4A), the intercellular signaling pathway via Notch creates an additional feedback loop (activated Notch in cell #1 Å® her1/her7 in cell #1 ?| deltaC in cell #1 Å® activated Notch in cell #2 Å® her1/her7 in cell #2 ?| deltaC in cell #2 Å® activated Notch in cell #1, where Å® denotes stimulation and ?| denotes inhibition). This control circuit is capable of generating oscillations in its own right ( Figure 5). This is easily verified by eliminating direct her1/her7 autoinhibition in the model of two interacting cells, leaving her1 and her7 regulated directly by Delta-Notch activity alone, and recomputing the behavior. The cells again oscillate in synchrony, but with a much longer period than before (133 min instead of 40 min), dictated by the delay in the feedback loop that goes via Notch, instead of the delay in the direct intracellular her1/her7 autoregulatory loop. If the contribution to the her1/her7 transcription rate that is regulated directly by Delta-Notch activity independently of Her1/Her7 is gradually increased, a transition occurs: when this contribution becomes more than about 10% of the Her1/Her7-regulated contribution, the system switches from rapid oscillation with period ?2(T + 1/b + 1/c) to slow oscillation with period ?2(T + TN + 1/b + 1/c + 1/bdeltaC + 1/cdeltaC). Between these two regimes, there is a narrow transitional domain in which the first few oscillations of the system are irregular, with mixed periodicity, and the later oscillations are weak (Figure 5). This is reminiscent of the disorders of somite segmentation reported for her1 + her7-deficient zebrafish embryos [9].
+
+Full-size image (63 K)
+Figure 5. 
+A Small Change in Parameters Can Cause an Abrupt Switch in the Period and Mechanism of Coupled Oscillation
+The graphs show the behavior of the same two-cell system as in Figure 4, assuming TN = 36 min, but varying the quantitative details of the regulation of her1/her7 expression by Notch.
+(A) A diagram of the regulation of her1/her7 transcription: the rate of transcription in each cell is assumed to be the sum of two contributions, dependent on separate enhancers in the regulatory DNA. One enhancer (ÅgcombinatorialÅh) mediates a combined action of activated Notch and Her1/Her7 protein; its contribution is described by a function that represents stimulation by Notch, multiplied by a function that represents inhibition of that effect by Her1/Her7. The other enhancer (Ågpure NotchÅh) mediates a simple stimulatory effect of activated Notch, independent of Her1/Her7.
+(B?E) Computed behavior, for different values of the percentage contribution to transcription due to the Ågpure NotchÅh enhancer. The cells oscillate synchronously, but as the Ågpure NotchÅh contribution rises above about 10%, they switch abruptly to a much longer cycle time, dictated by the delay Tp + Tm + TN in the her1/her7 Å® Notch Å® her1/her7 feedback loop, instead of the delay Tp + Tm in the direct intracellular her1/her7 Å® her1/her7 loop.
+(F) Computed behavior for the same case as shown in (E), but allowing for noise in the control of gene expression and assuming that the two cells are intrinsically identical at the outset. koff is assumed to be equal to 0.1 min?1 for the regulation both of her1/her7 by activated Notch and of delta by Her1/Her7. After a few synchronous oscillations, the system undergoes a switch and the two cells become committed to opposite steady states?the standard outcome of lateral inhibition.
+See the Supplemental Data for full details.
+Figure options
+The above conclusions are computed for the deterministic case, with no noise in the control of gene expression. How must they be modified if we make the model more realistic and take account of noise? A full analysis will be presented elsewhere, but it seems that noise has little effect so long as the flicker rate is reasonably high (koff > about 1 min?1). An important effect of noise is seen, however, for smaller values of koff in the case where her1 and her7 are regulated directly by Delta-Notch activity alone, with no direct her1/her7 autorepression. Figure 5F shows results for koff = 0.1 min?1. Whereas the deterministic model gives sustained slow Delta-Notch-mediated oscillations (Figure 5E), the noisy model displays an instability. After a variable number of noisy oscillation cycles with a similar slow period, it switches to a steady state representing the standard outcome of Notch-mediated lateral inhibition, with the two cells adopting opposite characters (one expressing delta but not her1/her7, the other her1/her7 but not delta).
+
+The Somite Oscillator in Chick and Mouse May Be More Complex
+
+The somitogenesis oscillator in mouse and chick, as in the zebrafish, depends on components of the Notch signaling pathway [2]. Like her1/her7 in the fish, the mouse her1 ortholog Hes7 oscillates, negatively regulates its own expression, and is critical for the production of oscillations 16 and 17. But there are also important differences between the species:
+
+1) Mutations in Notch pathway components such as Delta1 and RBPJÉ» appear to abolish oscillations in the mouse rather than merely desynchronize them as in the fish 37 and 38. This may reflect a lower level of noise in gene regulation, as explained above.
+
+2) Delta genes are expressed at a steady mRNA level in the posterior PSM of mouse and chick 39 and 40, instead of oscillating as in zebrafish.
+
+3) The Lunatic fringe (Lfng) gene, coding for a glycosyltransferase that modulates Delta-Notch signaling, shows oscillating expression in the posterior PSM of mouse and chick and is critical for the genesis of oscillations 27, 28, 29, 41, 42 and 43; whereas in the corresponding region in zebrafish, the homologous gene does not appear to be expressed at all 44 and 45.
+
+4) In the mouse, the Wnt signaling pathway also has been reported to play a critical part in the genesis of the oscillations [30], perhaps through a negative feedback loop controlling the expression of Axin2, which oscillates, or perhaps simply in a permissive role, since it is required to maintain Fgf8 expression in the PSM. There is (as yet) no evidence for such an involvement of Wnt signaling in the zebrafish.
+
+5) The period of oscillation in mouse and chick is 90?120 min, 3?4 times longer than in the zebrafish, allowing time for more complex chains of transcriptional regulation.
+
+How, then, does the oscillation mechanism proposed for the zebrafish relate to the mechanism operating in these other species? One possibility is that a switch of the type illustrated in Figure 5 has occurred during the evolution of birds and mammals ? a switch from rapid oscillation with a period governed by her1/her7 direct autoregulation to slower oscillation with a period governed by intercellular signaling via the Notch pathway and Lfng. As we have seen (Figure 5), a modest change in parameters, even without any change in the circuit diagram of the control system, can lead to qualitatively different behavior, with a different part of the control circuitry acting as pacemaker.
+
+Another strong possibility is that the pacemaker mechanism in the mouse is essentially the same as in the zebrafish. Bessho et al. 16 and 17 have analyzed the role of Hes7 in detail, and they find persuasive evidence that it functions in the mouse as a negative feedback oscillator of just the sort described above for her1/her7 in the fish model, but with longer delays and slower kinetics. They show, moreover, that Hes7 and Notch proteins regulate expression of the Hes7 gene combinatorially in just the way depicted in Figure 5A for her1/her7, implying that Notch signaling might have a similar synchronizing role in both systems.
+
+Other workers have proposed still other mechanisms for the mouse or chick somite oscillator, advocating a central pacemaking role for Lfng 27 and 28 or for Axin2 [30]. This is not the place to judge between these various theories. All of them have experimental backing, and it is possible that more than one of them is correct, since several mutually supportive mechanisms may operate in parallel. The general principles discussed in this paper are relevant to all of them, since all of them postulate that oscillations arise from feedback in the control of transcription.
+
+The Theory for Zebrafish Is Simple and Testable
+
+In the zebrafish, the somitogenesis clock has a remarkably short period for a transcriptional oscillator, and its rapidity places constraints on the mechanism. If the oscillator is based on a transcriptional feedback loop, as the evidence indicates, that loop has to be simple, as there is no time for long, complex cascades. Moreover, to explain how the loop generates oscillations, one has to postulate molecular lifetimes that are short, synthesis rate constants that are high, and gene regulatory proteins that act at low concentrations; in each case, the values need to be close to the limits of what has been reported in other systems. By measuring these various quantities, as Bessho et al. 16 and 18 have begun to do in the mouse, and as we are currently attempting to do in the zebrafish, we can put the model to the test.
+
+The model is simple, and there is little in it that is arbitrary. Nevertheless, while there is evidence for all the postulated ingredients, and these ingredients seem sufficient to explain the observations, they may not be the whole story. We cannot, for example, exclude a role for Wnt signaling or for posttranscriptional controls in the genesis of the oscillations, and some data hint at an involvement of components of the cell-cycle control machinery 46 and 47. By making transgenic fish with modified her1/her7 genes, it should be possible to test specific quantitative predictions of the model and to discover whether the her1/her7 feedback loop is truly the clock for somitogenesis.
+
+The simplicity of the proposed oscillator mechanism implies that it may be commonplace, operating in other systems also: any gene whose product inhibits its own transcription in the way described for her1/her7 should oscillate, provided the transcriptional (or translational) delay is long enough and the mRNA and protein lifetimes are short enough. The oscillations of Hes1 expression seen by Hirata et al. in cultured mammalian cells [18] are a possible example. A detailed discussion of this idea, including mathematical analysis of some aspects not covered in the present paper, is given by Monk [48] in this issue of the journal and points out at least three instances where there is strongly suggestive experimental evidence.
+
+Standard Notch Signaling Can Generate Coordinated Oscillations instead of Lateral Inhibition
+
+As a byproduct of the analysis of the somitogenesis oscillator, one stumbles over a surprising fact about Notch signaling that forces a reconsideration of how the Notch pathway may function in other systems. The control circuitry corresponding to the result shown in Figure 5E is simply the standard Notch signaling pathway. This is famous in other contexts for its role in lateral inhibition, forcing neighboring cells to become different 49 and 50. But in Figure 5E, we see a completely different outcome, synchronous oscillation, albeit transiently if noise effects are strong (Figure 5F). This is predicted for a wide range of parameter values, as soon as one allows for delays in the signaling pathway (N. Monk, personal communication). Such delays are always present. So does Notch signaling in fact generate transcriptional oscillations in any of the other innumerable tissues where it is known to act? To answer this question, it will be necessary to reexamine the evidence for each system in the light of the revised theoretical analysis that takes account of delays.
+
+Conclusion
+
+In this paper, we have seen that robust oscillating gene expression is easy to produce. But it is not easy to observe, and with present techniques, it is often likely to go unnoticed, especially where there is nothing to synchronize adjacent cells. Intracellular transcriptional oscillations may thus be more common than we imagine [51]. The principles illustrated here for our model of the zebrafish somitogenesis oscillator may help to clarify the behavior of other genes in other tissues and organisms. They may also serve to emphasize that in studying these biological feedback phenomena, intuition without the support of a little mathematics can be a treacherous guide.
+
+Supplemental Data
+
+The Supplemental Data include mathematical analysis of the oscillator mechanisms discussed, as well as the Mathematica programs used to compute their behavior, both for deterministic and for stochastic models of gene regulation; readers with Mathematica can use the programs to explore the behavior for different parameter values. Supplemental Data are available at http://www.current-biology.com/cgi/content/full/13/16/1398/DC1/.
+
+Supplementary data
+Supplemental Data includes the following:
+
+1
+The file
+ 
+1cell1gene.analysis.pdf.  
+Help with PDF filesOptions
+gives a mathematical analysis of the simple oscillator operating in a single cell and consisting of a single gene, such as her1 or her7, whose product inhibits its own transcription. A formula for the period of oscillation is derived.
+2
+The file
+ 
+1cellNoNoise.nb.  
+Help with PDF filesOptions
+, in Mathematica format, is a Mathematica program that computes the behaviour of the above system while disregarding noise (i.e., treating the behaviour as a simple deterministic process). Shown is one specific run of the program, with its output, exploring the effects of varying the protein synthesis rate constant a.
+ 
+View as a pdf.  
+Help with PDF filesOptions
+3
+The file
+ 
+1cellNoise.nb.  
+Help with TXT filesOptions
+, in Mathematica format, sets out the theory of the corresponding stochastic (noisy) system together with a program to compute its behaviour. Shown is one specific run of the program with its output, with the parameter koff set at 1/min. The effects of varying the protein synthesis rate constant a are explored for comparison with the no-noise system. Effects of varying noise by changing the dissociation constant koff can be explored (if you have Mathematica).
+ 
+View as a pdf.  
+Help with PDF filesOptions
+4
+The file
+
+ 
+2cellsNoNoise.nb.  
+Help with TXT filesOptions
+, in Mathematica format, gives full details of the deterministic model of two cells, each containing a her1/her7 heterodimer oscillator and interacting via the Delta/Notch pathway. The formalism is set up to allow easy exploration of the effects of varying the parameters in each cell independently, as well as varying features such as the functional dependence of the transcription rate on the various protein concentrations. The program includes a description of the system in conventional mathematical terms, a listing of the default values assumed for all the parameters, and the code used for numerical simulation. The file provided here shows one specific run of the program with the output it generates. Default parameters are used, but the delay TN in the Delta/Notch pathway is varied to show how this affects the synchronisation of the two cells, which are assumed to be 10% different in their free-running rhythms.
+ 
+View as a pdf.  
+Help with PDF filesOptions
+5
+The file
+
+ 
+2cellsNoise.txt.  
+Help with TXT filesOptions
+, in Mathematica format, gives full details of the corresponding stochastic (noisy) two-cell model. The methods developed in the Åg1cellNoise.nbÅh file were used for computing the behavior. A specific run of the program is provided to show how noise that is fairly severe (koff = 0.1 /minute) destabilizes oscillations driven by the standard Notch lateral inhibition pathway.
+ 
+View as a pdf.  
+Help with PDF filesOptions
+Acknowledgements
+I thank Birgit Aerne, Simon Bullock, Francois Giudicelli, David Ish-Horowicz, Yun-Jin Jiang, and Paul Martin for comments, discussions, and contact with the experimental realities of zebrafish somitogenesis, and Ryoichiro Kageyama, Diethard Tautz, and Achim Gossler for advance copies of publications. I am especially indebted to Nick Monk for alerting me to the importance of delays in the Notch signaling pathway. The work was supported by Cancer Research UK.
+
+References
+1
+I. Palmeirim, D. Henrique, D. Ish-Horowicz, O. Pourquie
+Avian hairy gene expression identifies a molecular clock linked to vertebrate segmentation and somitogenesis
+Cell, 91 (1997), pp. 639?648
+
+Article |  PDF (619 K) | View Record in Scopus | Citing articles (535)
+2
+M. Maroto, O. Pourquie
+A molecular clock involved in somite segmentation
+Curr. Top. Dev. Biol., 51 (2001), pp. 221?248
+
+Article |  PDF (6323 K) | View Record in Scopus | Citing articles (57)
+3
+J. Dubrulle, M.J. McGrew, O. Pourquie
+FGF signaling controls somite boundary position and regulates segmentation clock control of spatiotemporal Hox gene activation
+Cell, 106 (2001), pp. 219?232
+
+Article |  PDF (784 K) | View Record in Scopus | Citing articles (375)
+4
+J. Cooke, E.C. Zeeman
+A clock and wavefront model for control of the number of repeated structures during animal morphogenesis
+J. Theor. Biol., 58 (1976), pp. 455?476
+
+Article |  PDF (1259 K) | View Record in Scopus | Citing articles (317)
+5
+Y.J. Jiang, B.L. Aerne, L. Smithers, C. Haddon, D. Ish-Horowicz, J. Lewis
+Notch signalling and the synchronization of the somite segmentation clock
+Nature, 408 (2000), pp. 475?479
+
+View Record in Scopus | Citing articles (291)
+6
+S.A. Holley, D. Julich, G.J. Rauch, R. Geisler, C. Nusslein-Volhard
+her1 and the notch pathway function within the oscillator mechanism that regulates zebrafish somitogenesis
+Development, 129 (2002), pp. 1175?1183
+
+View Record in Scopus | Citing articles (171)
+7
+S.A. Holley, R. Geisler, C. Nusslein-Volhard
+Control of her1 expression during zebrafish somitogenesis by a delta-dependent oscillator and an independent wave-front activity
+Genes Dev., 14 (2000), pp. 1678?1690
+
+View Record in Scopus | Citing articles (230)
+8
+A.C. Oates, R.K. Ho
+Hairy/E(spl)-related (Her) genes are central components of the segmentation oscillator and display redundancy with the Delta/Notch signaling pathway in the formation of anterior segmental boundaries in the zebrafish
+Development, 129 (2002), pp. 2929?2946
+
+View Record in Scopus | Citing articles (167)
+9
+C.A. Henry, M.K. Urban, K.K. Dill, J.P. Merlie, M.F. Page, C.B. Kimmel, S.L. Amacher
+Two linked hairy/Enhancer of split-related zebrafish genes, her1 and her7, function together to refine alternating somite boundaries
+Development, 129 (2002), pp. 3693?3704
+
+View Record in Scopus | Citing articles (103)
+10
+C. Takke, J.A. Campos-Ortega
+her1, a zebrafish pair-rule like gene, acts downstream of Notch signalling to control somite development
+Development, 126 (1999), pp. 3005?3014
+
+View Record in Scopus | Citing articles (100)
+11
+F.J. van Eeden, S.A. Holley, P. Haffter, C. Nusslein-Volhard
+Zebrafish segmentation and pair-rule patterning
+Dev. Genet., 23 (1998), pp. 65?76
+
+View Record in Scopus | Citing articles (62)
+12
+L. Glass, M.C. Mackey
+From Clocks to Chaos: The Rhythms of LifePrinceton University Press, Princeton, NJ (1988)
+
+13
+R.L. Davis, D.L. Turner
+Vertebrate hairy and Enhancer of split related proteins: transcriptional repressors regulating cellular differentiation and embryonic patterning
+Oncogene, 20 (2001), pp. 8342?8357
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (253)
+14
+M. Gajewski, C. Voolstra
+Comparative analysis of somitogenesis related genes of the hairy/Enhancer of split class in Fugu and zebrafish
+BMC Genomics, 3 (2002), p. 21
+
+Full Text via CrossRef
+15
+M. Gajewski, D. Sieger, B. Alt, C. Leve, S. Hans, C. Wolff, K.B. Rohr, D. Tautz
+Anterior and posterior waves of cyclic her1 gene expression are differentially regulated in the presomitic mesoderm of zebrafish
+Development, 130 (2003) in press
+
+16
+Y. Bessho, R. Sakata, S. Komatsu, K. Shiota, S. Yamada, R. Kageyama
+Dynamic expression and essential functions of Hes7 in somite segmentation
+Genes Dev., 15 (2001), pp. 2642?2647
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (209)
+17
+Y. Bessho, H. Hirata, Y. Masamizu, R. Kageyama
+Periodic repression by the bHLH factor Hes7 is an essential mechanism for the somite segmentation clock
+Genes Dev., 17 (2003), pp. 1451?1456
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (159)
+18
+H. Hirata, S. Yoshiura, T. Ohtsuka, Y. Bessho, T. Harada, K. Yoshikawa, R. Kageyama
+Oscillatory expression of the bHLH factor Hes1 regulated by a negative feedback loop
+Science, 298 (2002), pp. 840?843
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (390)
+19
+D.W. Jordan, P. Smith
+Nonlinear Ordinary Differential Equations (3rd Edition)Oxford University Press, Oxford (1999)
+
+20
+M.B. Elowitz, S. Leibler
+A synthetic oscillatory network of transcriptional regulators
+Nature, 403 (2000), pp. 335?338
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (1902)
+21
+Alberts, B., Johnson, A., Lewis, J., Raff, M., Roberts, K., and Walter, P. (2002). Molecular Biology of the Cell, 4th Edition (New York: Garland/Taylor and Francis).
+22
+M.H. Glickman, A. Ciechanover
+The ubiquitin-proteasome proteolytic pathway: destruction for the sake of construction
+Physiol. Rev., 82 (2002), pp. 373?428
+
+View Record in Scopus | Citing articles (2168)
+23
+Y. Wang, C.L. Liu, J.D. Storey, R.J. Tibshirani, D. Herschlag, P.O. Brown
+Precision and functional specificity in mRNA decay
+Proc. Natl. Acad. Sci. USA, 99 (2002), pp. 5860?5865
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (423)
+24
+D.S. Ucker, K.R. Yamamoto
+Early events in the stimulation of mammary tumor virus RNA synthesis by glucocorticoids. Novel assays of transcription rates
+J. Biol. Chem., 259 (1984), pp. 7416?7420
+
+View Record in Scopus | Citing articles (81)
+25
+T. O'Brien, J.T. Lis
+Rapid changes in Drosophila transcription after an instantaneous heat shock
+Mol. Cell. Biol., 13 (1993), pp. 3456?3463
+
+View Record in Scopus | Citing articles (93)
+26
+A. Audibert, D. Weil, F. Dautry
+In vivo kinetics of mRNA splicing and transport in mammalian cells
+Mol. Cell. Biol., 22 (2002), pp. 6706?6718
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (72)
+27
+A.V. Morales, Y. Yasuda, D. Ish-Horowicz
+Periodic Lunatic fringe expression is controlled during segmentation by a cyclic transcriptional enhancer responsive to notch signaling
+Dev. Cell, 3 (2002), pp. 63?74
+
+Article |  PDF (612 K) | View Record in Scopus | Citing articles (120)
+28
+J.K. Dale, M. Maroto, M.L. Dequeant, P. Malapert, M. McGrew, O. Pourquie
+Periodic notch inhibition by lunatic fringe underlies the chick segmentation clock
+Nature, 421 (2003), pp. 275?278
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (202)
+29
+S.E. Cole, J.M. Levorse, S.M. Tilghman, T.F. Vogt
+Clock regulatory elements control cyclic expression of Lunatic fringe during somitogenesis
+Dev. Cell, 3 (2002), pp. 75?84
+
+Article |  PDF (884 K) | View Record in Scopus | Citing articles (84)
+30
+A. Aulehla, C. Wehrle, B. Brand-Saberi, R. Kemler, A. Gossler, B. Kanzler, B.G. Herrmann
+Wnt3a plays a major role in the segmentation clock controlling somitogenesis
+Dev. Cell, 3 (2003), pp. 395?406
+
+Article |  PDF (679 K) | View Record in Scopus | Citing articles (348)
+31
+P.S. Swain, M.B. Elowitz, E.D. Siggia
+Intrinsic and extrinsic contributions to stochasticity in gene expression
+Proc. Natl. Acad. Sci. USA, 99 (2002), pp. 12795?12800
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (661)
+32
+M. Itoh, C.H. Kim, G. Palardy, T. Oda, Y.J. Jiang, D. Maust, S.Y. Yeo, K. Lorick, G.J. Wright, L. Ariza-McNaughton, et al.
+Mind bomb is a ubiquitin ligase that is essential for efficient activation of Notch signaling by Delta
+Dev. Cell, 4 (2003), pp. 67?82
+
+Article |  PDF (717 K) | View Record in Scopus | Citing articles (468)
+33
+J. Lippincott-Schwartz, T.H. Roberts, K. Hirschberg
+Secretory protein trafficking and organelle dynamics in living cells
+Annu. Rev. Cell Dev. Biol., 16 (2000), pp. 557?589
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (286)
+34
+F.T. Wieland, M.L. Gleason, T.A. Serafini, J.E. Rothman
+The rate of bulk flow from the endoplasmic reticulum to the cell surface
+Cell, 50 (1987), pp. 289?300
+
+Article |  PDF (1590 K) | View Record in Scopus | Citing articles (234)
+35
+E. Fries, L. Gustafsson, P.A. Peterson
+Four secretory proteins synthesized by hepatocytes are transported from endoplasmic reticulum to Golgi complex at different rates
+EMBO J., 3 (1984), pp. 147?152
+
+View Record in Scopus | Citing articles (48)
+36
+K. Shimizu, S. Chiba, N. Hosoya, K. Kumano, T. Saito, M. Kurokawa, Y. Kanda, Y. Hamada, H. Hirai
+Binding of Delta1, Jagged1, and Jagged2 to Notch2 rapidly induces cleavage, nuclear translocation, and hyperphosphorylation of Notch2
+Mol. Cell. Biol., 20 (2000), pp. 6913?6922
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (108)
+37
+C. Jouve, I. Palmeirim, D. Henrique, J. Beckers, A. Gossler, D. Ish-Horowicz, O. Pourquie
+Notch signalling is required for cyclic expression of the hairy-like gene HES1 in the presomitic mesoderm
+Development, 127 (2000), pp. 1421?1429
+
+View Record in Scopus | Citing articles (235)
+38
+I. del Barco Barrantes, A.J. Elia, K. Wunsch, M. Hrabe de Angelis, T.W. Mak, J. Rossant, R.A. Conlon, A. Gossler, J.L. de la Pompa
+Interaction between Notch signalling and Lunatic fringe during somite boundary formation in the mouse
+Curr. Biol., 9 (1999), pp. 470?480
+
+View Record in Scopus | Citing articles (182)
+39
+B. Bettenhausen, M. Hrabe de Angelis, D. Simon, J.L. Guenet, A. Gossler
+Transient and restricted expression during mouse embryogenesis of Dll1, a murine gene closely related to Drosophila Delta
+Development, 121 (1995), pp. 2407?2418
+
+View Record in Scopus | Citing articles (362)
+40
+I. Palmeirim, J. Dubrulle, D. Henrique, D. Ish-Horowicz, O. Pourquie
+Uncoupling segmentation and somitogenesis in the chick presomitic mesoderm
+Dev. Genet., 23 (1998), pp. 77?85
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (65)
+41
+K. Serth, K. Schuster-Gossler, R. Cordes, A. Gossler
+Transcriptional oscillation of lunatic fringe is essential for somitogenesis
+Genes Dev., 17 (2003), pp. 912?925
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (83)
+42
+N. Zhang, T. Gridley
+Defects in somite formation in lunatic fringe-deficient mice
+Nature, 394 (1998), pp. 374?377
+
+View Record in Scopus | Citing articles (296)
+43
+Y.A. Evrard, Y. Lun, A. Aulehla, L. Gan, R.L. Johnson
+lunatic fringe is an essential mediator of somite segmentation and patterning
+Nature, 394 (1998), pp. 377?381
+
+View Record in Scopus | Citing articles (283)
+44
+V.E. Prince, S.A. Holley, L. Bally-Cuif, B. Prabhakaran, A.C. Oates, R.K. Ho, T.F. Vogt
+Zebrafish lunatic fringe demarcates segmental boundaries
+Mech. Dev., 105 (2001), pp. 175?180
+
+Article |  PDF (853 K) | View Record in Scopus | Citing articles (52)
+45
+C. Leve, M. Gajewski, K.B. Rohr, D. Tautz
+Homologues of c-hairy1 (her9) and lunatic fringe in zebrafish are expressed in the developing central nervous system, but not in the presomitic mesoderm
+Dev. Genes Evol., 211 (2001), pp. 493?500
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (46)
+46
+Y.N. Gorodilov
+Rhythmic processes in lower vertebrate embryogenesis and their role for developmental control
+Zool. Sci., 9 (1992), pp. 1101?1111
+
+47
+D.R. Primmett, W.E. Norris, G.J. Carlson, R.J. Keynes, C.D. Stern
+Periodic segmental anomalies induced by heat shock in the chick embryo are associated with the cell cycle
+Development, 105 (1989), pp. 119?130
+
+View Record in Scopus | Citing articles (94)
+48
+N.A.M. Monk
+Oscillatory expression of Hes1, p53 and NF-kappaB driven by transcriptional time delays
+Curr. Biol., 13 (2003), pp. 1409?1413
+
+Article |  PDF (92 K) | View Record in Scopus | Citing articles (358)
+49
+J. Lewis
+Notch signalling and the control of cell fate choices in vertebrates
+Semin. Cell Dev. Biol., 9 (1998), pp. 583?589
+
+Article |  PDF (147 K) | View Record in Scopus | Citing articles (278)
+50
+J.R. Collier, N.A. Monk, P.K. Maini, J.H. Lewis
+Pattern formation by lateral inhibition with feedback: a mathematical model of Delta-Notch intercellular signalling
+J. Theor. Biol., 183 (1996), pp. 429?446
+
+Article |  PDF (487 K) | View Record in Scopus | Citing articles (196)
+51
+F. Kippert, P. Hunt
+Ultradian clocks in eukaryotic microbes: from behavioural observation to functional genomics
+Bioessays, 22 (2000), pp. 16?22
+
+View Record in Scopus | Full Text via CrossRef | Citing articles (16)
+Correspondence: Julian Lewis, 020 7269 3510 (phone), 020 7269 3417 (fax)
+Copyright c 2003 Cell Press. Published by Elsevier Ltd. All rights reserved.

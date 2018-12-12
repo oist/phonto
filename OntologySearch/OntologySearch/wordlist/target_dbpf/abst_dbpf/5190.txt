@@ -1,0 +1,40 @@
+Acetylcysteine
+analogs
+&
+derivatives
+pharmacology
+Animals
+Carrier Proteins
+analysis
+metabolism
+Cells
+Cultured
+Cysteine Endopeptidases
+metabolism
+Cysteine Proteinase Inhibitors
+pharmacology
+Hippocampus
+cytology
+Immunohistochemistry
+Leupeptins
+pharmacology
+Multienzyme Complexes
+antagonists
+&
+inhibitors
+metabolism
+Neuronal Plasticity
+physiology
+Neurons
+chemistry
+metabolism
+Neuropeptides
+analysis
+metabolism
+Proteasome Endopeptidase Complex
+Synapses
+chemistry
+metabolism
+Synaptophysin
+analysis
+The Vesl-1S/Homer-1a proteins are upregulated during seizure and long-term potentiation, but are rapidly degraded by ubiquitin-proteasome systems under normal conditions. We examined the distribution of Vesl-1S proteins in cultured hippocampal neurons. Application of proteasome inhibitors caused accumulation of Vesl-1S immunoreactivity in the neurons which showed a punctate distribution in the cortical regions of the cells, and these puncta were found to be juxtaposed with synaptophysin, a presynaptic, synapse-specific protein. These results suggest that Vesl-1S protein is synaptically targeted.

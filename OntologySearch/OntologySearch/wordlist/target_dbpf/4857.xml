@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4857">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neural circuit analysis of spatial working memory: role of pre- and parasubiculum, medial and lateral entorhinal cortex.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Reinforcement (Psychology)</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T02:12:41Z</last_update_date>
+<creation_date>2011-05-02T02:12:41Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4857</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4857" version="1.02">
+<authors><author>Kesner RP</author><author>Giles R</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>4</number>
+<page>416-23</page>
+<abstract>Using a continuous recognition memory procedure for spatial location information, rats were given sequential presentation of individual arms on a 12-arm maze. Each arm contained a Froot Loop reinforcement the first time it was presented, and latency to traverse the arm was measured. A subset of the arms were repeated, but did not contain reinforcement. Repeated arms were presented with lags ranging from zero to six (from zero to six different arm presentations occurred between the first and repeated presentation). After completion of acquisition training (significantly longer latencies for repeated arms in comparison with the first presentation of an arm), rats received lesions of the medial or lateral entorhinal cortex, pre- and parasubiculum, or served as sham-operated controls. Based on continued postsurgery training and additional tests, the results indicated that rats with pre- and parasubiculum or pre- and parasubiculum plus medial entorhinal cortex produced sustained impairment in performing the task. Medial or lateral entorhinal cortex and control lesions did not display any sustained deficits. The data suggest that working memory for spatial location information is mediated primarily by the pre- and parasubiculum, but not medial entorhinal and lateral entorhinal cortex.</abstract>
+<pubmed_id>9744426</pubmed_id>
+</detail>
+</item>

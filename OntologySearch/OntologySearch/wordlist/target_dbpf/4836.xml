@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4836">
+<itemtype>xnppaper</itemtype>
+<titles><title>A model of hippocampal learning during classical conditioning.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Classical</keyword>
+<keyword>physiology</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Eyelid</keyword>
+<keyword>physiology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Mathematics</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Nictitating Membrane</keyword>
+<keyword>Rabbits</keyword>
+<keyword>Recruitment</keyword>
+<keyword>Neurophysiological</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T06:21:56Z</last_update_date>
+<creation_date>2011-04-28T06:21:56Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4836</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4836" version="1.02">
+<authors><author>Zipser D</author></authors>
+<journal>Behavioral neuroscience</journal>
+<volume>100</volume>
+<number>5</number>
+<page>764-76</page>
+<abstract>During classical conditioning of the rabbit blink reflex, a large fraction of the hippocampal pyramidal neurons are recruited to respond to the conditioned stimulus. The summed response of these neurons comes to match the whole time-amplitude profile of nictitating membrane movement, whereas some individual neurons respond only to part of this profile. A model is described which accounts for these data. The model proposes a learning rule to explain neuron recruitment and uses a tapped delay line to account for the temporal learning properties of the system and the spectrum of individual unit responses.</abstract>
+<pubmed_id>3778639</pubmed_id>
+</detail>
+</item>

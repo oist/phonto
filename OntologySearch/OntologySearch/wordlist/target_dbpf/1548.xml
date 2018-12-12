@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1548">
+<itemtype>xnppaper</itemtype>
+<titles><title>Reactivation of experience-dependent cell assembly patterns in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-10-09T02:12:18Z</last_update_date>
+<creation_date>2008-10-09T02:12:18Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1548</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1548" version="1.02">
+<authors><author>O&#039;Neill J</author><author>Senior TJ</author><author>Allen K</author><author>Huxter JR</author><author>Csicsvari J</author></authors>
+<journal>Nature neuroscience</journal>
+<volume>11</volume>
+<number>2</number>
+<page>209-15</page>
+<abstract>The hippocampus is thought to be involved in episodic memory formation by reactivating traces of waking experience during sleep. Indeed, the joint firing of spatially tuned pyramidal cells encoding nearby places recur during sleep. We found that the sleep cofiring of rat CA1 pyramidal cells encoding similar places increased relative to the sleep session before exploration. This cofiring increase depended on the number of times that cells fired together with short latencies (&lt;50 ms) during exploration, and was strongest between cells representing the most visited places. This is indicative of a Hebbian learning rule in which changes in firing associations between cells are determined by the number of waking coincident firing events. In contrast, cells encoding different locations reduced their cofiring in proportion to the number of times that they fired independently. Together these data indicate that reactivated patterns are shaped by both positive and negative changes in cofiring, which are determined by recent behavior.</abstract>
+<pubmed_id>18193040</pubmed_id>
+</detail>
+</item>

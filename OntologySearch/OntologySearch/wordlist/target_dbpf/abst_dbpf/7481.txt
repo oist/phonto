@@ -1,0 +1,9 @@
+Association Learning
+Computer Simulation
+Cybernetics
+Humans
+Mathematics
+Memory
+Models
+Psychological
+An approach to episodic associative memory is presented, which has several desirable properties as a human memory model. The design is based on topological feature map representation of data. An ordinary feature map is a classifier, mapping an input vector onto a topologically meaningful location on the map. A trace feature map, in addition, creates a memory trace on that location. The traces can be stored episodically in a single presentation, and retrieved with a partial cue. Nearby traces overlap, which results in plausible memory interference behavior. Performance degrades gracefully as the memory is overloaded. More recent traces are easier to recall as are traces that are unique in the memory.

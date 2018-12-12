@@ -1,0 +1,26 @@
+Aged
+Amnesia
+diagnosis
+physiopathology
+psychology
+Discrimination (Psychology)
+physiology
+Female
+Humans
+Limbic System
+physiology
+Magnetic Resonance Imaging
+Male
+Middle Aged
+Pattern Recognition
+Visual
+physiology
+Photic Stimulation
+Reaction Time
+physiology
+Reference Values
+Temporal Lobe
+pathology
+physiology
+physiopathology
+The importance of the perirhinal cortex for visual recognition memory performance is undisputed. However, it has not been clear whether its contribution to performance is mainly perceptual, or mainly mnemonic, or whether the perirhinal cortex contributes to both perception and memory. We determined the effects of medial temporal lobe damage that includes complete damage to the perirhinal cortex in two amnesic patients by assessing recognition memory for complex visual stimuli across delays from 0 to 40 s. These patients, as well as six other amnesic patients with damage limited to the hippocampal formation or diencephalic structures, exhibited intact recognition memory at delays of 0-2 s and a delay-dependent memory impairment at delays of 6 s and longer. Additionally, the patients with damage to the perirhinal cortex performed worse than the other amnesic patients at delays of 25 s and longer. The findings suggest that the perirhinal cortex is not important for visual perception or immediate memory. In this respect, the findings for perirhinal cortex resemble the findings for other medial temporal lobe structures, including the hippocampus.

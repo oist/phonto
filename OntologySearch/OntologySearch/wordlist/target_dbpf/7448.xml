@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7448">
+<itemtype>xnppresentation</itemtype>
+<titles><title>Frontal cortex, hippocampus and striatum in behavioural control</title>
+<title>and simulation</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-03-22T01:10:41Z</last_update_date>
+<creation_date>2013-03-22T01:10:41Z</creation_date>
+<publication_year>2012</publication_year>
+<publication_month>9</publication_month>
+<publication_mday>5</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7448</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7448" version="1.03">
+<presentation_type>pdf</presentation_type>
+<creators><creator>J. P. Banquet</creator><creator>P. Gaussier</creator><creator>S. Hanoune</creator><creator>M. Quoy</creator><creator>F. Sargolini</creator><creator>B. Poucet</creator></creators>
+<readme>PDF file need the password “dynamicbrain” to open.</readme>
+<rights>All rights reserved.
+License:</rights>
+<use_cc>0</use_cc>
+<cc_commercial_use>1</cc_commercial_use>
+<cc_modification>2</cc_modification>
+<attachment_dl_limit>0</attachment_dl_limit>
+<attachment_dl_notify>0</attachment_dl_notify>
+</detail>
+</item>

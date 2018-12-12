@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7231">
+<itemtype>xnppaper</itemtype>
+<titles><title>Endogenous opioids regulate long-term potentiation of synaptic inhibition in the dentate gyrus of rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>2-Amino-5-phosphonovalerate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Bicuculline</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>GABA-A Receptor Antagonists</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Homeostasis</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Naloxone</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Naltrexone</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Narcotic Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Opioid Peptides</keyword>
+<keyword>physiology</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Receptors</keyword>
+<keyword>GABA-A</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:21:15Z</last_update_date>
+<creation_date>2013-02-28T01:21:15Z</creation_date>
+<publication_year>1995</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7231</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7231" version="1.02">
+<authors><author>Xie CW</author><author>Lewis DV</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>15</volume>
+<number>5</number>
+<page>3788-95</page>
+<abstract>Long-term potentiation (LTP) of excitatory transmission in the hippocampus has been extensively studied as a synaptic model of learning and memory. Here we report a new form of LTP in which inhibitory synaptic signals are potentiated following tetanic stimulation of an opioid-containing excitatory pathway in the presence of opioid antagonists. The lateral perforant path (LPP) was stimulated at the dentate outer molecular layer of hippocampal slices. Evoked synaptic currents were recorded from dentate granule cells using whole-cell voltage-clamp techniques. A high-frequency stimulus train (100 Hz, 1 sec) delivered to the LPP in the presence of naloxone (1 microM) was found to induce a long-lasting potentiation (20 min to 2 hr) in the amplitude of gamma-aminobutyric acidA (GABAA) receptor-mediated inhibitory postsynaptic currents (IPSCs) of granule cells. Such a potentiation was not observed when tetanizing the LPP in control medium. Naloxone-revealed LTP of LPP-evoked IPSCs did not depend upon the presence of granule cell discharge, and was not accompanied by potentiation of mossy fiber-evoked IPSCs, indicating that feedforward, but not feedback, inhibitory circuits were involved. Induction of this LTP could be completely blocked by the N-methyl-D-aspartate (NMDA) receptor antagonist D-2-amino-5-phosphonopentanoic acid (D-APV). However, it was not significantly affected by hyperpolarization of granule cells. These results suggest that LTP may occur at the excitatory synapses between LPP terminals and GABAergic interneurons, rather than at the inhibitory synapses between interneurons and granule cells. Further examination using selective opioid antagonists demonstrated that blocking delta, but not mu and kappa, receptors is critical for inducing LTP of IPSCs in granule cells.</abstract>
+<pubmed_id>7751946</pubmed_id>
+</detail>
+</item>

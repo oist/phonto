@@ -1,0 +1,20 @@
+Animals
+Association Learning
+physiology
+Brain Mapping
+Cerebellum
+physiology
+Cerebral Cortex
+physiology
+Computer Simulation
+Conditioning
+Classical
+physiology
+Hippocampus
+physiology
+Humans
+Models
+Neurological
+Neural Pathways
+physiology
+Hippocampal participation in classical conditioning is described in terms of a multilayer network that portrays stimulus configuration. The network (a) describes behavior in real time, (b) incorporates a layer of "hidden" units positioned between input and output units, (c) includes inputs that are connected to the output directly as well as indirectly through the hidden-unit layer, and (d) uses a biologically plausible backpropagation procedure to train the hidden-unit layer. Nodes and connections in the neural network are mapped onto regional cerebellar, cortical, and hippocampal circuits, and the effect of lesions of different brain regions is formally studied. Computer simulations of the following classical conditioning paradigms are presented: acquisition of delay and trace conditioning, extinction, acquisition-extinction series of delay conditioning, blocking, over-shadowing, discrimination acquisition, discrimination reversal, feature-positive discrimination, conditioned inhibition, negative patterning, positive patterning, and generalization. The model correctly describes the effect of hippocampal and cortical lesions in many of these paradigms, as well as neural activity in hippocampus and medial septum during classical conditioning. Some of these results might be extended to the description of anterograde amnesia in human patients.

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7245">
+<itemtype>xnppaper</itemtype>
+<titles><title>Disinhibition-Mediated LTP in the Hippocampus is Synapse Specific.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:29:12Z</last_update_date>
+<creation_date>2013-02-28T01:29:12Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7245</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7245" version="1.02">
+<authors><author>Ormond J</author><author>Woodin MA</author></authors>
+<journal>Frontiers in cellular neuroscience</journal>
+<volume>5</volume>
+<number></number>
+<page>17</page>
+<abstract>Paired pre- and postsynaptic activity in area CA1 of the hippocampus induces long-term inhibitory synaptic plasticity at GABAergic synapses. This pairing-induced GABAergic plasticity weakens synaptic inhibition due to a depolarization of the reversal potential for GABA(A) receptor-mediated currents (E(GABA)) through a decrease in the function of the neuron-specific K(+)-Cl(-) cotransporter KCC2. When pairing-induced GABAergic plasticity is induced at feed-forward inhibitory synapses in the CA1, the decrease in inhibition produces an increase in the amplitude of Schaffer collateral-mediated postsynaptic potentials in pyramidal neurons. This form of inhibitory synaptic plasticity is termed disinhibition-mediated long-term potentiation (LTP). In the present study, we investigated whether disinhibition-mediated LTP is synapse specific. We performed these experiments in hippocampal slices prepared from adult Sprague Dawley rats. We found that the underlying depolarization of E(GABA) is not restricted to the paired pathway, but rather is expressed to the same extent at unpaired control pathways. However, the overall strength of GABAergic transmission is maintained at the unpaired pathway by a heterosynaptic increase in GABAergic conductance. The pairing-induced depolarization of E(GABA) at the paired and unpaired pathways required Ca(2+)-influx through both the L-type voltage-gated Ca(2+) channels and N-methyl-d-aspartic acid receptors. However, only Ca(2+)-influx through L-type channels was required for the increased conductance at the unpaired pathway. As a result of this increased GABAergic conductance, disinhibition-mediated LTP remains confined to the paired pathway and thus is synapse specific, suggesting it may be a novel mechanism for hippocampal-dependent learning and memory.</abstract>
+<pubmed_id>21954377</pubmed_id>
+</detail>
+</item>

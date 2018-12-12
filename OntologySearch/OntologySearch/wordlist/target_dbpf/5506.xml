@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5506">
+<itemtype>xnppaper</itemtype>
+<titles><title>Heterosynaptic depression: a postsynaptic correlate of long-term potentiation.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Afferent Pathways</keyword>
+<keyword>Animals</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Pyramidal Tracts</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:47:54Z</last_update_date>
+<creation_date>2011-06-14T00:47:54Z</creation_date>
+<publication_year>1977</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5506</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5506" version="1.02">
+<authors><author>Lynch GS</author><author>Dunwiddie T</author><author>Gribkoff V</author></authors>
+<journal>Nature</journal>
+<volume>266</volume>
+<number>5604</number>
+<page>737-9</page>
+<abstract></abstract>
+<pubmed_id>195211</pubmed_id>
+</detail>
+</item>

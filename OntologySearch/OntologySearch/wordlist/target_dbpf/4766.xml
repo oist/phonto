@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4766">
+<itemtype>xnppaper</itemtype>
+<titles><title>Subthreshold Na+-dependent theta-like rhythmicity in stellate cells of entorhinal cortex layer II.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Afferent Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Electric Conductivity</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>Periodicity</keyword>
+<keyword>Rats</keyword>
+<keyword>Sodium</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:05:59Z</last_update_date>
+<creation_date>2011-04-28T04:05:59Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4766</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4766" version="1.02">
+<authors><author>Alonso A</author><author>Llinás RR</author></authors>
+<journal>Nature</journal>
+<volume>342</volume>
+<number>6246</number>
+<page>175-7</page>
+<abstract>The oscillation of membrane potential in mammalian central neurons is of interest because it relates to the role of oscillations in brain function. It has been proposed that the entorhinal cortex (EC), particularly the stellate cells of layer II (ECIIscs), plays an important part in the genesis of the theta rhythm. These neurons occupy a key position in the neocortex-hippocampus-neocortex circuit, a crucial crossroad in memory functions. Neuronal oscillations typically rely on the activation of voltage-dependent Ca2+ conductances and the Ca2+ -dependent K+ conductance that usually follows, as seen in other limbic subcortical structures generating theta rhythmicity. Here we report, however, that similar oscillations are generated in ECIIscs by a Na+ conductance. The finding of a subthreshold, voltage-gated, Na+ -dependent rhythmic membrane oscillation in mammalian neurons indicates that rhythmicity in heterogeneous neuronal networks may be supported by different sets of intrinsic ionic mechanisms in each of the neuronal elements involved.</abstract>
+<pubmed_id>2812013</pubmed_id>
+</detail>
+</item>

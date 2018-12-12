@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6646">
+<itemtype>xnppaper</itemtype>
+<titles><title>Differential contributions of the anterior temporal and medial temporal lobe to the retrieval of memory for person identity information.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Association Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Face</keyword>
+<keyword>Female</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Pattern Recognition</keyword>
+<keyword>Visual</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Semantics</keyword>
+<keyword>Social Behavior</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Verbal Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:39:36Z</last_update_date>
+<creation_date>2013-02-26T06:39:36Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6646</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6646" version="1.02">
+<authors><author>Tsukiura T</author><author>Suzuki C</author><author>Shigemune Y</author><author>Mochizuki-Kawai H</author></authors>
+<journal>Human brain mapping</journal>
+<volume>29</volume>
+<number>12</number>
+<page>1343-54</page>
+<abstract>Although previous studies have suggested the importance of the bilateral anterior temporal (ATL) and medial temporal lobes (MTL) in the retrieval of person identity information, there is little evidence concerning how these regions differentially contribute to the process. Here we investigated this question using functional magnetic resonance imaging (fMRI). Before scanning, subjects learned associations among faces (F), names (N), and job titles (as a form of person-related semantics, S). During retrieval with fMRI, subjects were presented with previously learned and new S stimuli, and judged whether the stimuli were old or new. Successful retrieval (H) trials were divided into three conditions: retrieval of S and associated F and N (HSFN); retrieval of S and associated F (HSF); and retrieval of S only (HS). The left ATL was significantly activated in HSFN, compared to HSF or HS, whereas the right ATL and MTL were significantly activated in HSFN and HSF relative to HS. In addition, activity in bilateral ATL was significantly correlated with reaction time for HSFN, whereas we found no significant correlation between activity in the right MTL and reaction time in any condition. The present findings suggest that the left ATL may mediate associations between names and person-related semantic information, whereas the right ATL mediates the association between faces and person-related semantic information in memory for person identity information. In addition, activation of the right MTL region implies that this area may contribute to a more general relational processing of associative components, including memory for person identity information.</abstract>
+<pubmed_id>17948885</pubmed_id>
+</detail>
+</item>

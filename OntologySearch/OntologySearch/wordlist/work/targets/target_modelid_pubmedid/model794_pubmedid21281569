@@ -1,0 +1,35 @@
+1. Biophys J. 2011 Feb 2;100(3):554-63. doi: 10.1016/j.bpj.2010.12.3716.
+
+Roles of subcellular Na+ channel distributions in the mechanism of cardiac
+conduction.
+
+Tsumoto K(1), Ashihara T, Haraguchi R, Nakazawa K, Kurachi Y.
+
+Author information: 
+(1)The Center for Advanced Medical Engineering and Informatics, Osaka University,
+Osaka, Japan.
+
+The gap junction and voltage-gated Na(+) channel play an important role in the
+action potential propagation. The purpose of this study was to elucidate the
+roles of subcellular Na(+) channel distribution in action potential propagation. 
+To achieve this, we constructed the myocardial strand model, which can calculate 
+the current via intercellular cleft (electric-field mechanism) together with
+gap-junctional current (gap-junctional mechanism). We conducted simulations of
+action potential propagation in a myofiber model where cardiomyocytes were
+electrically coupled with gap junctions alone or with both the gap junctions and 
+the electric field mechanism. Then we found that the action potential propagation
+was greatly affected by the subcellular distribution of Na(+) channels in the
+presence of the electric field mechanism. The presence of Na(+) channels in the
+lateral membrane was important to ensure the stability of propagation under
+conditions of reduced gap-junctional coupling. In the poorly coupled tissue with 
+sufficient Na(+) channels in the lateral membrane, the slowing of action
+potential propagation resulted from the periodic and intermittent dysfunction of 
+the electric field mechanism. The changes in the subcellular Na(+) channel
+distribution might be in part responsible for the homeostatic excitation
+propagation in the diseased heart.
+
+Copyright © 2011 Biophysical Society. Published by Elsevier Inc. All rights
+reserved.
+
+PMCID: PMC3030217
+PMID: 21281569  [PubMed - indexed for MEDLINE]

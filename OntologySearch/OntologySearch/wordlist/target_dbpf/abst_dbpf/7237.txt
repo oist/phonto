@@ -1,0 +1,51 @@
+Animals
+Animals
+Newborn
+Calcium
+metabolism
+Coloring Agents
+pharmacology
+Electric Stimulation
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+Heparin
+pharmacology
+Hippocampus
+cytology
+drug effects
+metabolism
+N-Methylaspartate
+metabolism
+Neural Inhibition
+drug effects
+physiology
+Neuronal Plasticity
+drug effects
+physiology
+Neurons
+drug effects
+metabolism
+Patch-Clamp Techniques
+Presynaptic Terminals
+metabolism
+Pyramidal Cells
+drug effects
+metabolism
+Rats
+Rats
+Wistar
+Receptors
+GABA-A
+metabolism
+Ruthenium Red
+pharmacology
+Ryanodine
+pharmacology
+Synapses
+drug effects
+metabolism
+Time
+gamma-Aminobutyric Acid
+metabolism
+The role of internal calcium stores in the induction of long-term depression at GABAergic synapses was investigated in the neonatal rat hippocampus. Whole-cell recordings of CA3 pyramidal neurons were performed on hippocampal slices from neonatal (2-4 d old) rats. In control conditions, tetanic stimulation (TS) evoked an NMDA-dependent long-term depression of GABA(A) receptor-mediated postsynaptic responses (LTD(GABA-A)). LTD(GABA-A) was prevented when the cells were loaded with ruthenium red, a blocker of Ca2+-induced Ca2+ release (CICR) stores, whereas loading the cells with heparin, a blocker of IP3-induced Ca2+ release stores, had no effect. The effects of ryanodine, another compound that interferes with CICR stores, were also investigated. Intracellular injection of ryanodine prevented the induction of LTD(GABA-A) only when the TS was preceded by depolarizing pulses that increase intracellular Ca2+ concentration. When applied in the bath, ryanodine prevented the induction of LTD(GABA-A). Altogether, these results suggest that ryanodine acts as a Ca2+-dependent blocker of CICR stores and that the induction of LTD(GABA-A) required the activation of both presynaptic and postsynaptic CICR stores.

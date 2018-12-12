@@ -1,0 +1,23 @@
+Animals
+Computer Simulation
+Evoked Potentials
+physiology
+Hippocampus
+physiology
+Interneurons
+physiology
+Learning
+physiology
+Mental Recall
+physiology
+Models
+Neurological
+Neural Conduction
+physiology
+Pyramidal Cells
+physiology
+Rats
+Theta Rhythm
+gamma-Aminobutyric Acid
+physiology
+A detailed biophysical model of hippocampal region CA3 was constructed to study how GABAergic modulation influences place field development and the learning and recall of sequence information. Simulations included 1,000 multicompartmental pyramidal cells, each consisting of seven intrinsic and four synaptic currents, and 200 multicompartmental interneurons, consisting of two intrinsic and four synaptic currents. Excitatory rhythmic septal input to the apical dendrites of pyramidal cells and both excitatory and inhibitory input to interneurons at theta frequencies provided a cellular basis for the development of theta and gamma frequency oscillations in population activity. The fundamental frequency of theta oscillations was dictated by the driving rhythm from the septum. Gamma oscillation frequency, however, was determined by both the decay time of the gamma-aminobutyric acid-A (GABA(A))-receptor-mediated synaptic current and the overall level of excitability in interneurons due to alpha-amino-3-hydroxy-5-methyl-4-isoxazole proprionic acid and N-methyl-D-aspartate (NMDA)-receptor-gated channel activation. During theta population activity, total GABA(B)-receptor-mediated conductance levels were found to gradually rise and fall in rhythmic fashion with the predominant population frequency (theta rhythm). This resulted in periodic GABA(B)-receptor-mediated suppression of excitatory synaptic transmission at recurrent collaterals (intrinsic fibers) of pyramidal cells and suppression of inhibitory synaptic transmission to both pyramidal cells and interneurons. To test the ability of the model to learn and recall temporal sequence information, a completion task was employed. During learning, the network was presented a sequence of nonorthogonal spatial patterns. Each input pattern represented a spatial"location"of a simulated rat running a specific navigational path. Hebbian-type learning was expressed as an increase in postsynaptic NMDA-receptor-mediated conductances. Because of several factors including the sparse, asymmetric excitatory synaptic connections among pyramidal cells in the model and a sufficient degree of random"background"firing unrelated to the input patterns, repeated simulated runs resulted in the gradual emergence of place fields where a given cell began to respond to a contiguous segment of locations on the path. During recall, the simulated rat was placed at a random location on the previously learned path and tested to see whether the sequence of locations could be completed on the basis of this initial position. Periodic GABA(B)-receptor-mediated suppression of excitatory and inhibitory transmission at intrinsic but not afferent fibers resulted in sensory information about location being dominant during early portions of each theta cycle when GABA(B)-receptor-related effects were highest. This suppression declined with levels of GABA(B) receptor activation toward the end of a theta cycle, resulting in an increase in synaptic transmission at intrinsic fibers and the subsequent recall of a segment of the entire location sequence. This scenario typically continued across theta cycles until the full sequence was recalled. When the GABA(B)-receptor-mediated suppression of excitatory and inhibitory transmission at intrinsic fibers was not included in the model, place field development was curtailed and the network consequently exhibited poor learning and recall performance. This was, in part, due to increased competition of information from intrinsic and afferent fibers during early portions of each theta cycle. Because afferent sensory information did not dominate early in each cycle, the current location of the rat was obscured by ongoing activity from intrinsic sources. (ABSTRACT TRUNCATED)

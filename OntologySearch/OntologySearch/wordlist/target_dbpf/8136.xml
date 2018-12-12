@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8136">
+<itemtype>xnppaper</itemtype>
+<titles><title>Integrated technology for evaluation of brain function and neural plasticity.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>Central Nervous System</keyword>
+<keyword>physiology</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Cerebral Infarction</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Somatosensory</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Magnetoencephalography</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Motor Skills</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Stroke</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Task Performance and Analysis</keyword>
+<keyword>Tomography</keyword>
+<keyword>Emission-Computed</keyword>
+</keywords>
+<description>Neurorobotics, Wagatsuma Lab, FY2013</description>
+<doi></doi>
+<last_update_date>2014-04-02T08:30:56Z</last_update_date>
+<creation_date>2014-03-31T14:42:48Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8136</url>
+<changelogs>
+<changelog date='2014-04-02T08:30:56Z'>アイテムの説明 を変更</changelog>
+<changelog date='2014-04-02T02:11:36Z'>アイテムの説明 を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8136" version="1.02">
+<authors><author>Rossini PM</author><author>Dal Forno G</author></authors>
+<journal>Physical medicine and rehabilitation clinics of North America</journal>
+<volume>15</volume>
+<number>1</number>
+<page>263-306</page>
+<abstract>The study of neural plasticity has expanded rapidly in the past decades and has shown the remarkable ability of the developing, adult, and aging brain to be shaped by environmental inputs in health and after a lesion. Robust experimental evidence supports the hypothesis that neuronal aggregates adjacent to a lesion in the sensorimotor brain areas can take over progressively the function previously played by the damaged neurons. It definitely is accepted that such a reorganization modifies sensibly the interhemispheric differences in somatotopic organization of the sensorimotor cortices. This reorganization largely subtends clinical recovery of motor performances and sensorimotor integration after a stroke. Brain functional imaging studies show that recovery from hemiplegic strokes is associated with a marked reorganization of the activation patterns of specific brain structures. To regain hand motor control, the recovery process tends over time to bring the bilateral motor network activation toward a more normal intensity/extent, while overrecruiting simultaneously new areas, perhaps to sustain this process. Considerable intersubject variability exists in activation/hyperactivation pattern changes over time. Some patients display late-appearing dorsolateral prefrontal cortex activation, suggesting the development of&quot;executive&quot;strategies to compensate for the lost function. The AH in stroke often undergoes a significant&quot;remodeling&quot;of sensory and motor hand somatotopy outside the&quot;normal&quot;areas, or enlargement of the hand representation. The UH also undergoes reorganization, although to a lesser degree. Although absolute values of the investigated parameters fluctuate across subjects, secondary to individual anatomic variability, variation is minimal with regards to interhemispheric differences, due to the fact that individual morphometric characters are mirrored in the two hemispheres. Excessive interhemispheric asymmetry of the sensorimotor hand areas seems to be the parameter with highest sensitivity in describing brain reorganization after a monohemispheric lesion, and mapping motor and somatosensory cortical areas through focal TMS, fMRI, PET, EEG, and MEG is useful in studying hand representation and interhemispheric asymmetries in normal and pathologic conditions. TMS and MEG allow the detection of sensorimotor areas reshaping, as a result of either neuronal reorganization or recovery of the previously damaged neural network. These techniques have the advantage of high temporal resolution but also have limitations. TMS provides only bidimensional scalp maps, whereas MEG, even if giving three-dimensional mapping of generator sources, does so by means of inverse procedures that rely on the choice of a mathematical model of the head and the sources. These techniques do not test movement execution and sensorimotor integration as used in everyday life. fMRI and PET may provide the ideal means to integrate the findings obtained with the other two techniques. This multitechnology combined approach is at present the best way to test the presence and amount of plasticity phenomena underlying partial or total recovery of several functions, sensorimotor above all. Dynamic patterns of recovery are emerging progressively from the relevant literature. Enhanced recruitment of the affected cortex, be it spared perilesional tissue, as in the case of cortical stroke, or intact but deafferented cortex, as in subcortical strokes, seems to be the rule, a mechanism especially important in early postinsult stages. The transfer over time of preferential activation toward contralesional cortices, as observed in some cases, seems, however, to reflect a less efficient type of plastic reorganization, with some aspects of maladaptive plasticity. Reinforcing the use of the affected side can cause activation to increase again in the affected side with a corresponding enhancement of clinical function. Activation of the UH MI may represent recruitment of direct (uncrossed) corticospinal tracts and relate more to mirror movements, but it more likely reflects activity redistribution within preexisting bilateral, large-scale motor networks. Finally, activation of areas not normally engaged in the dysfunctional tasks, such as the dorsolateral prefrontal cortex or the superior parietal cortex in motor paralysis, might reflect the implication of compensatory cognitive strategies. An integrated approach with technologies able to investigate functional brain imaging is of considerable value in providing information on the excitability, extension, localization, and functional hierarchy of cortical brain areas. Deepening knowledge of the mechanisms regulating the long-term recovery (even if partial), observed for most neurologic sequelae after neural damage, might prompt newer and more efficacious therapeutic and rehabilitative strategies for neurologic diseases.</abstract>
+<pubmed_id>15029909</pubmed_id>
+</detail>
+</item>

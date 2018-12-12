@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7484">
+<itemtype>xnppaper</itemtype>
+<titles><title>Recollection-based memory in frontotemporal dementia: implications for theories of long-term memory.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Aged</keyword>
+<keyword>Dementia</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>psychology</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory Disorders</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>psychology</keyword>
+<keyword>Middle Aged</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T01:03:36Z</last_update_date>
+<creation_date>2013-03-28T01:03:36Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7484</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7484" version="1.02">
+<authors><author>Simons JS</author><author>Verfaellie M</author><author>Galton CJ</author><author>Miller BL</author><author>Hodges JR</author><author>Graham KS</author></authors>
+<journal>Brain : a journal of neurology</journal>
+<volume>125</volume>
+<number></number>
+<page>2523-36</page>
+<abstract>It has been convincingly demonstrated that patients with semantic dementia (the temporal variant of frontotemporal dementia) can show intact recognition memory for pictorial stimuli. As yet, the contribution made by recollective processes to this ability and the status of associated neural regions have not been investigated in the disease. Here, we used both a source monitoring paradigm and an associative memory test to evaluate the ability of patients with semantic dementia to use recollection-based memory processes, and a volumetric MRI technique to assess the extent of atrophy in the hippocampus. Although some patients showed impaired source and associative memory, many performed as well as control participants. Importantly, status of semantic knowledge, as measured by tests of comprehension and production, did not predict recollection-based memory ability. There was no significant positive correlation between recollection and volume of the hippocampus; instead, both source discrimination and associative memory correlated highly with performance on a battery of frontal lobe tests. Consistent with the view that damage to the prefrontal cortex might influence recollection performance, patients with the frontal variant of frontotemporal dementia, with atrophy largely confined to the frontal lobes, all performed at floor level on source discrimination. These results provide further compelling evidence in favour of the multiple input model of long-term memory and highlight the role of frontal lobe systems in recollection-based memory.</abstract>
+<pubmed_id>12390977</pubmed_id>
+</detail>
+</item>

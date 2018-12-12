@@ -1,0 +1,13 @@
+DEI2010_05
+Action Potentials
+physiology
+Animals
+Hippocampus
+physiology
+Models
+Neurological
+Pyramidal Cells
+physiology
+Rats
+Theta Rhythm
+There are two prominent features for place cells in rat hippocampus. The firing rate remarkably increases when rat enters the cell's place field and reaches a maximum around the center of place field, and it decreases when the animal approaches the end of the place field. Simultaneously the spikes gradually and monotonically advance to earlier phase relative to hippocampal theta rhythm as the rat traverses along the cell's place field, known as temporal coding. In this paper, we investigate whether two main characteristics of place cell firing are independent or not by mainly focusing on the generation mechanism of the unimodal tuning of firing rate by using a reduced CA1 two-compartment neuron model. Based on recent evidences, we hypothesize that the coupling of dendritic with the somatic compartment is not constant but dynamically regulated as the animal moves further along the place field, in contrast to previous two-compartment modeling. Simulations show that the regulable coupling is critically responsible for the generation of unimodal firing rate profile in place cells, independent of phase precession. Predictions of our model accord well with recent observations like occurrence of phase precession with very low as well as high firing rate (Huxter et al. Nature 425:828-832, 2003) and persistency of phase precession after transient silence of hippocampus activity (Zugaro et al. Nat Neurosci 8:67-71, 2005.

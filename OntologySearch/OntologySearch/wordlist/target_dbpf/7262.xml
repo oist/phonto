@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7262">
+<itemtype>xnppaper</itemtype>
+<titles><title>Aging effects on the limits and stability of long-term synaptic potentiation and depression in rat hippocampal area CA1.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Aging</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Dose-Response Relationship</keyword>
+<keyword>Radiation</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Synaptic Depression</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:45:56Z</last_update_date>
+<creation_date>2013-02-28T01:45:56Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7262</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7262" version="1.02">
+<authors><author>Kumar A</author><author>Thinschmidt JS</author><author>Foster TC</author><author>King MA</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>98</volume>
+<number>2</number>
+<page>594-601</page>
+<abstract>Altered hippocampal synaptic plasticity may underlie age-related memory impairment. In acute hippocampal slices from aged (22-24 mo) and young adult (1-12 mo) male Brown Norway rats, extracellular excitatory postsynaptic field potentials were recorded in CA1 stratum radiatum evoked by Schaffer collateral stimulation. We used enhanced Ca(2+) to Mg(2+) ratio and paired-pulse stimulation protocol to induce maximum changes in the synaptic plasticity. Six episodes of theta-burst stimulation (TBS) or nine episodes of paired low-frequency stimulation (pLFS) were used to generate asymptotic long-term potentiation (LTP) and long-term depression (LTD), respectively. In addition, long-term depotentiation (LTdeP) or de-depression (LTdeD) from maximal LTP and LTD were examined using two episodes of pLFS or TBS. Multiple episodes of TBS or pLFS produced significant LTP or LTD in aged and young adult rats; this was not different between age groups. Moreover, there was no significant difference in the amount of LTdeP or LTdeD between aged and young adult rats. Our results show no age differences in the asymptotic magnitude of LTP or LTD, rate of synaptic modifications, development rates, reversal, or decay after postconditioning. Thus impairment of the basic synaptic mechanisms responsible for expression of these forms of plasticity is not likely to account for decline in memory function within this age range.</abstract>
+<pubmed_id>17553951</pubmed_id>
+</detail>
+</item>

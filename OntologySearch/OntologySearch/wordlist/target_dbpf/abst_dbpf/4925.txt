@@ -1,0 +1,23 @@
+Animals
+Cues
+Dentate Gyrus
+physiology
+Hippocampus
+drug effects
+pathology
+physiology
+Ibotenic Acid
+toxicity
+Male
+Motor Activity
+Orientation
+physiology
+Rats
+Rats
+Long-Evans
+Regression Analysis
+Spatial Behavior
+physiology
+Video Recording
+Visual Perception
+Theoretical, behavioral, and electrophysiologic evidence suggests that the hippocampal formation may play a role in path integration, a form of spatial navigation in which an animal can return to a starting point by integrating self-movement cues generated on its outward journey. The present study examined whether the hippocampus (Ammon's horn and the dentate gyrus) is involved in this form of spatial behavior. Control rats and rats with selective ibotenic acid lesions of the hippocampus were tested in a foraging task in which they retrieved large food pellets from an open field, which when found, they carried to a refuge for consumption. The experiments measured the rats' homing accuracy, returning to the starting location, under conditions in which visual, surface, and self-movement cues; surface and self-movement cues; or only self-movement cues were available. Although both control rats and rats without a hippocampus could use visual and surface cues, only control rats appeared to be able to use self-movement cues. The finding that hippocampal rats are impaired under conditions requiring the use of self-movement cues suggests that the hippocampus plays an essential role in path integration.

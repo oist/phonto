@@ -1,0 +1,39 @@
+Animals
+Behavior
+Animal
+physiology
+Blotting
+Northern
+Blotting
+Southern
+Calcium-Calmodulin-Dependent Protein Kinases
+Chromosome Mapping
+DNA
+analysis
+Electrophysiology
+Female
+Hippocampus
+physiology
+Learning
+physiology
+Male
+Mice
+Mice
+Inbred BALB C
+Mice
+Mutant Strains
+genetics
+Mutagenesis
+Site-Directed
+Plasmids
+Protein Kinases
+deficiency
+physiology
+RNA
+analysis
+Receptors
+N-Methyl-D-Aspartate
+Synapses
+physiology
+Transfection
+As a first step in a program to use genetically altered mice in the study of memory mechanisms, mutant mice were produced that do not express the alpha-calcium-calmodulin-dependent kinase II (alpha-CaMKII). The alpha-CaMKII is highly enriched in postsynaptic densities of hippocampus and neocortex and may be involved in the regulation of long-term potentiation (LTP). Such mutant mice exhibited mostly normal behaviors and presented no obvious neuroanatomical defects. Whole cell recordings reveal that postsynaptic mechanisms, including N-methyl-D-aspartate (NMDA) receptor function, are intact. Despite normal postsynaptic mechanisms, these mice are deficient in their ability to produce LTP and are therefore a suitable model for studying the relation between LTP and learning processes.

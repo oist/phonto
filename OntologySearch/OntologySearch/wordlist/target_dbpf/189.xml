@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="189">
+<itemtype>xnppaper</itemtype>
+<titles><title>Three classes of pyramidal neurons in layer V of rat perirhinal cortex.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-06-18T07:50:32Z</last_update_date>
+<creation_date>2008-06-18T07:50:32Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=189</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="189" version="1.02">
+<authors><author>Moyer JR</author><author>McNay EC</author><author>Brown TH</author></authors>
+<journal>Hippocampus</journal>
+<volume>12</volume>
+<number>2</number>
+<page>218-34</page>
+<abstract>Whole-cell recordings from 140 pyramidal neurons in layer V of rat perirhinal cortex (PR) revealed three distinct firing patterns: regular spiking (RS, 76%), burst spiking (BS, 9%), and late spiking (LS, 14%). LS neurons have not previously been reported in layer V of any cortical region. LS cells in layer V of PR exhibited delays of up to 12 s from onset of a depolarizing current step to spike threshold, followed by sustained firing. In contrast, pyramidal cells in layer V of other cortical regions contain only RS and BS cells. Within PR, the percentage of LS neurons in layer V differs markedly from what we previously observed in layers II/III (50% LS) and VI (90% LS). Morphologically, BS neurons in layer V of PR had thick primary apical dendrites that terminated in a tuft within layer I, whereas RS and LS cells had relatively thin primary apicals that terminated either diffusely or in a layer I tuft. At holding potentials near rest, PR neurons exhibited small (approximately 15 pA), inward, spontaneous postsynaptic currents (PSCs) that were indistinguishable among the three cell types. Currents evoked by minimal stimulation of layer I were about 2.8 times larger than the spontaneous PSCs. Evoked currents had unusually long onset latencies with little variation in latency, consistent with monosynaptic responses evoked by stimulation of unmyelinated fibers. The prevalence of LS cells in combination with the long-latency monosynaptically evoked PSCs suggested that PR is not a region of rapid throughput. This is consistent with anatomical data suggesting that PR is a higher-level association cortex. These data further advance an emerging picture of PR as a cortical region with a unique distribution of cell types different from other cortical regions.</abstract>
+<pubmed_id>12004792 </pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,36 @@
+1. J Comput Neurosci. 2004 May-Jun;16(3):211-35.
+
+High frequency stimulation of the subthalamic nucleus eliminates pathological
+thalamic rhythmicity in a computational model.
+
+Rubin JE(1), Terman D.
+
+Author information: 
+(1)Department of Mathematics and Center for the Neural Basis of Cognition,
+University of Pittsburgh, Pittsburgh, PA 15260, USA.
+
+Deep brain stimulation (DBS) of the subthalamic nucleus (STN) or the internal
+segment of the globus pallidus (GPi) has recently been recognized as an important
+form of intervention for alleviating motor symptoms associated with Parkinson's
+disease, but the mechanism underlying its effectiveness remains unknown. Using a 
+computational model, this paper considers the hypothesis that DBS works by
+replacing pathologically rhythmic basal ganglia output with tonic, high frequency
+firing. In our simulations of parkinsonian conditions, rhythmic inhibition from
+GPi to the thalamus compromises the ability of thalamocortical relay (TC) cells
+to respond to depolarizing inputs, such as sensorimotor signals. High frequency
+stimulation of STN regularizes GPi firing, and this restores TC responsiveness,
+despite the increased frequency and amplitude of GPi inhibition to thalamus that 
+result. We provide a mathematical phase plane analysis of the mechanisms that
+determine TC relay capabilities in normal, parkinsonian, and DBS states in a
+reduced model. This analysis highlights the differences in deinactivation of the 
+low-threshold calcium T -current that we observe in TC cells in these different
+conditions. Alternative scenarios involving convergence of thalamic signals in
+the cortex are also discussed, and predictions associated with these results,
+including the occurrence of rhythmic rebound bursts in certain TC cells in
+parkinsonian states and their drastic reduction by DBS, are stated. These results
+demonstrate how DBS could work by increasing firing rates of target cells, rather
+than shutting them down.
+
+Copyright 2004 Kluwer Academic Publishers
+
+PMID: 15114047  [PubMed - indexed for MEDLINE]

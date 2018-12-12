@@ -1,0 +1,216 @@
+Ischemia-Related Subcellular Redistribution of Sodium Channels Enhances the Proarrhythmic Effect of Class I Antiarrhythmic Drugs: A Simulation Study
+Kunichika Tsumoto,1,* Takashi Ashihara,2 Ryo Haraguchi,3 Kazuo Nakazawa,4 and Yoshihisa Kurachi1,5,*
+Alena Talkachova, Editor
+Author information ? Article notes ? Copyright and License information ?
+Go to:
+Abstract
+Background
+
+Cardiomyocytes located at the ischemic border zone of infarcted ventricle are accompanied by redistribution of gap junctions, which mediate electrical transmission between cardiomyocytes. This ischemic border zone provides an arrhythmogenic substrate. It was also shown that sodium (Na+) channels are redistributed within myocytes located in the ischemic border zone. However, the roles of the subcellular redistribution of Na+ channels in the arrhythmogenicity under ischemia remain unclear.
+
+Methods
+
+Computer simulations of excitation conduction were performed in a myofiber model incorporating both subcellular Na+ channel redistribution and the electric field mechanism, taking into account the intercellular cleft potentials.
+
+Results
+
+We found in the myofiber model that the subcellular redistribution of the Na+ channels under myocardial ischemia, decreasing in Na+ channel expression of the lateral cell membrane of each myocyte, decreased the tissue excitability, resulting in conduction slowing even without any ischemia-related electrophysiological change. The conventional model (i.e., without the electric field mechanism) did not reproduce the conduction slowing caused by the subcellular Na+ channel redistribution. Furthermore, Na+ channel blockade with the coexistence of a non-ischemic zone with an ischemic border zone expanded the vulnerable period for reentrant tachyarrhythmias compared to the model without the ischemic border zone. Na+ channel blockade tended to cause unidirectional conduction block at sites near the ischemic border zone. Thus, such a unidirectional conduction block induced by a premature stimulus at sites near the ischemic border zone is associated with the initiation of reentrant tachyarrhythmias.
+
+Conclusions
+
+Proarrhythmia of Na+ channel blockade in patients with old myocardial infarction might be partly attributable to the ischemia-related subcellular Na+ channel redistribution.
+
+Go to:
+Introduction
+Class I antiarrhythmic drugs, which block cardiac sodium (Na+) channels, have been used to treat premature ventricular contractions (PVCs), which degenerate into tachyarrhythmias. The Cardiac Arrhythmia Suppression Trial (CAST) [1], [2] showed that the risk of arrhythmia-related death was increased in patients with old myocardial infarction, although Na+ channel blockers reduced PVCs. Therefore, the administration of Na+ channel blockers to old myocardial infarction patients is currently contraindicated. However, it remains controversial whether the poor prognosis is due to the negative inotropic and/or proarrhythmic effects of Na+ channel blockers.
+
+Previous experimental studies [3]?[9] showed that electrophysiological remodeling occurs in cardiomyocytes located at the ischemic border zone (IBZ) of infarcted ventricles. In particular, functional remodeling [3], [4] of Na+ channel current (INa), i.e., reduction in the current amplitude and alterations in the activation and/or inactivation kinetics, was observed in myocytes isolated from the IBZ, consequently decreasing the conduction velocity (CV) of the excitation wavefront. If the IBZ exhibits such INa remodeling, it might become a substrate of ventricular tachyarrhythmias.
+
+The Na+ channels of the mammalian heart were inhomogeneously distributed within myocytes, particularly at intercalated discs (IDs) [10]?[13]. Baba et al. [14] found that the subcellular redistribution of Na+ channels occurs at the IBZ of 5-day infarcted canine ventricles. In addition, the Na+ channel expressions in the lateral cell membrane were markedly decreased, and thus the Na+ channels were confined to the IDs. However, the roles of the subcellular redistribution of Na+ channels in the proarrhythmic effects of Na+ channel blockers in addition to ventricular tachyarrhythmias under ischemia remain unclear.
+
+A hypothetical conduction mechanism based on the microstructure of ventricular myocytes, i.e., the electric field (EF) mechanism, has initially proposed as the main mechanism of excitation conduction [15]. However, it has been theoretically confirmed that the contribution of the gap junction mechanism is larger than that of the EF mechanism in the physiological condition [12] and the EF mechanism serves as one of the homeostatic mechanisms of excitation conduction under conditions of reduced gap junctional coupling in the diseased heart [16], [17]. At the same time we found that because of the EF mechanism, CV is very sensitive to the amount of Na+ channels of lateral surface membrane (LM) despite normal gap junctional coupling [16]. In the present study, we extend this idea to the proarrhythmic mechanism under the conditions of 5-day infarcted canine heart, of which gap junctional coupling is not reduced yet [8], [9]. The aim of this study was to investigate the combined effects of the subcellular redistribution of Na+ channels and the Na+ channel blockade on excitation conduction. The roles of the subcellular redistribution of Na+ channels in excitation conduction were investigated by altering the subcellular Na+ channel distribution of each myocyte in a myofiber model. In addition, the proarrhythmic effects of class I antiarrhythmic drugs on infarcted ventricular tissue were evaluated on the basis of the conduction properties in the simulated myofibers.
+
+Go to:
+Methods
+Myofiber model
+
+We constructed a myofiber of length 4.242 cm, consisting of 300 ventricular myocytes, each of which was 141.4 É m in length and 31.1 É m in width [18]?[20] (Figure 1A). The myocytes were electrically connected with both gap junctions and the EF mechanism; the electrical communication between the adjacent cells was mediated by the change in the large negative extracellular potential induced at the narrow intercellular cleft space facing the junctional membrane (JM), i.e., the ID (cleft model [12], [15]?[17], Figures 1B and S1). For comparison with the cleft model, a conventional model [21] coupled only with gap junctions was constructed (non-cleft model, Figure 1C). On the basis of previous experimental data [8], [9] showing that the intercellular gap junctional conductance (Gg) of the IBZ in 5-day infarcted canine heart does not differ significantly from that of the non-ischemic zone (NZ), we employed the same Gg in both the IBZ and NZ myofiber models: 3.584 É S. The radial cleft conductance (Gj) [22] and series axial cleft conductance (Gd) were 0.25 É S and 33.8 mS, respectively, the same as in previous studies [12], [15]?[17].
+
+Figure 1
+Figure 1
+Cleft and non-cleft models of myocardial fibers and rings.
+Each myocyte in the myofiber model comprised 3 segments: 2 for the JM (i.e., post- and pre-JMs), and the other one for the LM (Figure 1D). The membrane segments were represented by a modified Luo?Rudy dynamic (mLRd) model [16], [23]?[26]. Details of the myofiber and the mLRd model are provided in the Text S1.
+
+Myocardial ring model
+
+To evaluate the effects of Na+ channel blockade on the vulnerability of a myocardial ring model comprising an NZ and IBZ (Figure 1E, left) to PVCs, additional simulations were performed using the S1?S2 stimulation protocol: 8 S1 stimuli with a basic cycle length of 1,000 ms were applied transmembranously followed by an S2 stimulus with various coupling intervals (Figure 1E, right). The diameter of the myocardial ring model was 4.0 cm. There were 300 (cells 11?310) and 600 (cells 311?10) cells in the IBZ and NZ, respectively.
+
+Subcellular Na+ channel distribution and Na+ channel blockade
+
+The Na+ channel conductance was 16 mS/cm2 [24]. Thus, the entire Na+ channel conductance of each myocyte corresponded to 2.45 É S (GNa), which was defined as the control value. We altered the subcellular distribution of Na+ channels by allocating the entire Na+ channel conductance to each membrane segment. The Na+ channel conductance of the JM and LM are expressed as percentages of the GNa: %gNa,JM and %gNa,LM, respectively. Thus, the entire Na+ channel conductance (%gNa,JM+LM) was equal to the sum of %gNa,JM and %gNa,LM.
+
+As the INa amplitude at the LM becomes about the same as that of IDs [27], [28], we determined the subcellular Na+ channel distribution in the NZ. In particular, the Na+ channel conductance in the JM and LM of a myocyte located in the NZ were estimated to be half of the entire Na channel conductance, i.e., 50%gNa,JM and 50%gNa,LM [27]?[29]. Meanwhile, the subcellular Na+ channel distribution in the IBZ was defined as the distribution to reproduce the experimentally measured CV [9] referring to previous experimental observations [14] that the Na+ channels are selectively decreased from the LM.
+
+Na+ channel blockade by the administration of class I antiarrhythmic drugs was achieved by reducing the entire Na+ channel conductance while maintaining the ratio of %gNa,JM to %gNa,LM. The ratio of Na+ channel blockade is expressed as a percentage of the GNa (%GNa block). For instance, 30%GNa block with 50%gNa,JM and 50%gNa,LM (%gNa,JM/%gNa,LM?=?1) indicates that Na+ channels were reduced to 35%gNa,JM and 35%gNa,LM.
+
+Computations
+
+Numerical calculations were performed as described previously [16] and details are provided in Text S1. Pacing stimuli of twice the diastolic threshold were applied to the LM segment of a myocyte located at one end of the myofiber. To obtain the CV restitution curves, we measure the CV in the middle of the myofiber as a function of the S1?S2 coupling interval.
+
+Go to:
+Results
+Effects of subcellular Na+ channel redistribution on CV
+
+Figures 2A and 2B show the relative ratios of CV (%CV) normalized by CV in the myocardial fiber with 50%gNa,JM and 50%gNa,LM, i.e., the subcellular Na+ channel distribution in the NZ, as a function of %gNa,JM+LM in the cleft and non-cleft models, respectively. Thus, the CVs in the cleft and non-cleft models under NZ myofiber condition were 53.1 and 64.3 cm/s, respectively. In the case of %gNa,JM change (Figure 2A, open circles with dashed line), the %CV decreased not more than 10% as the %gNa,JM was reduced under the condition with 50%gNa,LM. Meanwhile, in the case of %gNa,LM change (Figure 2A, filled circles with solid line), the %CV decreased markedly as a function of %gNa,LM decrease under the condition with 50%gNa,JM. However, in the non-cleft model (Figure 2B), there was no significant difference in the change in %CV in either case.
+
+Figure 2
+Figure 2
+Conduction velocities and changes in regional INa in cardiomyocytes in each myofiber model.
+On the basis of the experimentally measured CV [9] with reference to the previous immunostaining data [14], we determined the subcellular Na+ channel distribution in the IBZ as 50%gNa,JM and 15%gNa,LM; the CVs in the cleft and non-cleft models were 36.4 and 55.7 cm/s, respectively.
+
+Contributions of INa in each segment to CV
+
+Next, we investigated the contributions of both %gNa,JM and %gNa,LM in each membrane segment to the total INa, which was defined as the sum of post-junctional, pre-junctional, and lateral INa values of each myocyte in the myofiber (Figures 2C and 2D).
+
+When %gNa,JM was fixed at 50% in the cleft model, the peak value of INa in the LM (Figure 2C, left, blue bars) decreased gradually as a result of the reduction in %gNa,LM. The total peak INa per myocyte (i.e., the maximum value of each bar in Figure 2C, left) also decreased substantially as a result of the reduction in %gNa,LM. In contrast, if %gNa,JM was reduced with 50%gNa,LM, the peak value of INa in the JM (Figure 2C, right, green and magenta bars) also decreased. However, the decrease in the total peak INa (i.e., maximum value of each bar in Figure 2C, right) only decreased slightly, suggesting the INa in the JM (INa,JM) contributes less to the total peak INa than the INa in the LM (INa,LM).
+
+For comparison, similar simulations were performed in the non-cleft model (Figure 2D). The INa,LM decreased along with the reduction in %gNa,LM (Figure 2D, left, blue bars), consequently decreasing the total peak value of the INa (i.e., maximum value of each bar in Figure 2D, left). Likewise, INa,JM decreased along with the reduction in the %gNa,JM (Figure 2D, right, green and magenta bars); the total peak value of the INa also decreased (i.e., maximum value of each bar in Figure 2D, right). However, there was no striking difference in the change in the total peak value of INa in either case (Figures 2D, left and right).
+
+Effects of Na+ channel blockade on CV in NZ and IBZ myofibers
+
+Figure 3A shows CV slowing as a function of %GNa block. In both NZ and IBZ myofibers, CVs decreased gradually with %GNa block. Figure 3B shows typical examples of the AP propagation observed in NZ and IBZ myofibers with 50%GNa block. The AP of each myocyte in the NZ myofiber with 50%GNa block was able to propagate through the myofiber (Figure 3B(i)), whereas the same 50%GNa block in the IBZ myofiber caused AP alternans (Figure 3B(ii)). The ionic mechanism underlying AP alternans is shown in Figure S3. The reduction in INa,LM by the Na+ channel blocker decreased in the AP phase 0 amplitude (Figures S3A and S3B, asterisk), leading to slow activation of L-type Ca2+ current, ICaL (Figure S3C). The slow ICaL activation prolonged AP duration in the IBZ myocytes, delaying phase 2 dome formation in the AP (Figure S3A). The longer AP duration, i.e., the diastolic interval (DI) shortening, further decreased INa,LM (Figure S3B, dagger). Consequently, the AP phase 0 amplitude decreased further, and the ICaL failed to activate (Figures S3A and S3C, dagger). The failure of ICaL activation led to the shortening of AP duration and prolongation of the DI. The peak INa,LM recovered slightly as a result of the prolongation of the DI, eliciting the full AP accompanied by the delayed phase 2 dome. The critical values of the %GNa block maintaining stable conduction were 80% and 44% in the NZ and IBZ myofibers, respectively (Figure 3A, bottom, red and blue bars denoted by SC, respectively). Increases in %GNa block exceeding the critical value in both NZ and IBZ myofibers caused unstable conduction. Typical examples of unstable conduction observed in the IBZ myofiber are shown in Figures 3C and 3D. The further increase in %GNa block caused complete conduction block (Figure 3E). In the NZ myofiber, the AP did not propagate when the entire Na+ channel conductance within the myocyte was reduced by 84%. Complete conduction block occurred in the IBZ myofiber with a %GNa of 58%.
+
+Figure 3
+Figure 3
+Destabilization of action potential propagation by Na+ channel blockade.
+CV restitution properties
+
+CV as a function of S1?S2 interval is shown in Figure 4. In the case of the NZ myofiber (Figure 4A), although the CV with 50%GNa block was markedly lower than that of the control, the minimum S1?S2 interval resulting in conduction block did not change (178 vs. 171 ms in the control, filled and gray circles at left end of each curve, respectively). Meanwhile, in the case of the IBZ myofiber (Figure 4B), the conduction block occurred when the S1?S2 interval was <181 and <298 ms under the control and 50%GNa block, respectively. Further increasing the %GNa block resulted in the conduction block occurring with an S1?S2 interval of 730 ms (Figure 4B, open circle at the left end of 55%GNa block curve). Thus, the S1?S2 interval causing conduction block was markedly prolonged with increasing %GNa block of IBZ myocytes. However, in NZ myocytes, even if the %GNa block was increased by 55%, the S1?S2 interval resulting in conduction block was only 179 ms (Figure 4A, open circle).
+
+Figure 4
+Figure 4
+Conduction velocity restitution properties.
+Reentry induction in a myocardial ring model
+
+A phase diagram of the excitation conduction in response to S1?S2 interval for a given degree of Na+ channel blockade is shown in Figure 5A. Open circles labeled a?f in Figure 5A correspond to Figures 5B(a)?(f), respectively. The gray region in Figure 5A represents the failure of AP induction due to the refractory period at the S2 stimulus site (Figure 5B(a)). Meanwhile, the shaded region in Figure 5A denotes the bidirectional conduction from the S2 stimulus site, resulting in the collision of excitation waves (Figure 5B(b), asterisk). The red region in Figure 5A represents the conditions of reentry (i.e., counterclockwise rotation) induction shown in Figure 5B(c). The green region in Figure 5A (i.e., the S1?S2 intervals from 254?280 ms in the case of 50%GNa block) led to reentry via unidirectional conduction block at the proximal border of the IBZ (Figure 5B(d), dagger) followed by spontaneous termination with a collision between the counterclockwise-rotating wavefront and the reflection [30] (phase 2 reentry [31])-mediated clockwise rotating wavefront (Figure 5B(d), asterisk). Similar to the AP alternans, the INa,LM in the IBZ myocytes diminished by Na+ channel blockers led to a reduced AP phase 0 amplitude, failed ICaL activation, and abbreviated AP (Figures S4A, S4C, and S4D). When the excitation wavefront reached the border with the NZ region, NZ myocytes were able to generate a full AP because they possessed the higher tissue excitability of the NZ compared to the IBZ (Figure S4A). The larger difference in potential between the NZ and IBZ myocytes subsequently elicited the gap junctional current from NZ to IBZ myocytes (Figure S4B), causing the reactivation of ICaL in IBZ myocyte (Figure S4D, asterisk). The reactivated ICaL depolarized the membrane potential of IBZ myocytes again (Figure S4A, asterisk), resulting in the generation of the reflection. The blue region in Figure 5A (i.e., further increase in the %GNa block) denotes the conduction block occurring at both the proximal and distal borders of the IBZ (Figure 5B(e)). In contrast, in the case of 50%GNa block in the control model without an IBZ, the S1?S2 intervals initiating reentry (Figure 5B(f)) were markedly narrower (Figure 5A, red region of the right bar).
+
+Figure 5
+Figure 5
+Reentry induction by Na+ channel blockade in myocardial ring models.
+Go to:
+Discussion
+The major findings of the present study are as follows: (1) a decrease in the number of Na+ channels from the LM of each ventricular myocyte was a major cause of the conduction slowing in the IBZ; (2) in the presence of EF mechanism, the relative contribution of the INa,LM to the total INa in a myocyte that makes up myofibers was greater than that of INa,JM; (3) an IBZ accompanied by the subcellular redistribution of Na+ channels was highly vulnerable to reentry under Na+ channel blockade. These findings suggest that the subcellular Na+ channel redistribution in the IBZ leads to decreased tissue excitability and that such a phenomenon is facilitated by Na+ channel blockers. Na+ channel blockade tended to cause a unidirectional conduction block toward the IBZ, resulting in the induction of reentrant tachyarrhythmia following PVC. Thus, the ischemia-related subcellular redistribution of Na+ channels might be partly responsible for the proarrhythmic effects of Na+ channel blockers in patients with old myocardial infarction.
+
+Conduction slowing caused by ischemia-related subcellular Na+ channel redistribution
+
+Cabo et al. [9] found that the CV in the IBZ of 5-day infarcted canine ventricles is 36% slower than that in the NZ (29 vs. 45 cm/s, respectively). The experimentally observed conduction slowing in the IBZ [9] may be attributable to the subcellular Na+ channel redistribution via EF mechanism, because the decreased number of Na+ channels in the LM of myocytes in the cleft model resulted in a similar decrease in CV (31.3%; Figure 2A, filled circles with solid line).
+
+The effects of subcellular Na+ channel distribution on CV differed between in the cleft and the conventional non-cleft models (Figures 2A and 2B). In both models, the peak INa,LM of each myocyte was proportional to the %gNa,LM. However, in the cleft model, because the small Gj at the intercellular junction (Figure 1B) attenuates the INa,JM that inflows into myocytes from the cleft space, the contribution of INa,LM to the total peak INa per myocyte was larger than that of INa,JM (Figure 2C). The decrease in INa,LM, which accounts for a large proportion of the total INa, by reducing %gNa,LM while maintaining %gNa,JM led to a marked decrease in the total inward Na+ current within a myocyte (Figure 2C, left). Since then, the intracellular Na+ concentration near the pre-JM (near the cleft) becomes lower, the INa,JM flow from the cleft to the myocyte via the pre-JM slightly increases (Figure 2C, left, magenta bars) and therefore the cleft voltage polarizes more negatively, resulting in the faster depolarization in the post-JM of the adjacent myocyte (i.e., EF mechanism) [16]. Because the gap junctional current between the myocytes is very large and is determined by the difference in membrane potentials between pre- and post-JMs, the faster depolarization in the post-JM (smaller time delay) via the EF mechanism largely decreases the gap junctional current. Thus, the axial current flow within the adjacent myocyte markedly decreases and the LM of the adjacent myocyte depolarizes slower, resulting in the conduction delay. Therefore, reducing %gNa,LM resulted in a significant decrease in CV (Figure 2A). This dependence on the %gNa,LM of the CV in the cleft model was also confirmed by additional simulations (Figure S2A, horizontal contour lines), suggesting %gNa,LM rather than %gNa,JM+LM is the main determinant of CV.
+
+In contrast, in the conventional non-cleft model, which did not consider the Gj (Figure 1C), there was no difference in the contribution of INa,JM or INa,LM to the total peak INa of each myocyte (Figures 2D, left and right). Therefore, %gNa,JM+LM (i.e., the total number of Na+ channels per myocyte) rather than %gNa,LM (i.e., the heterogeneous distribution of Na+ channels within each myocyte) was the predominant determinant of CV in the non-cleft model (Figure 2B). This was further confirmed by the vertical contour lines of CV in the non-cleft model (Figure S2B). Although this result is concordant with those of the previous study [32], even with 0%gNa,LM, the conventional non-cleft model was unable to reproduce the conduction slowing [9] caused by the subcellular Na+ channel redistribution in the IBZ [14] (Figure 2B, filled circles with solid line).
+
+Contribution of a cleft at the lateral membrane to the EF mechanism
+
+As the interstitial cleft space between adjacent myofibers is visible by optical microscopy, the width of interstitial space (facing at lateral membrane) is much larger than that of the intercellular cleft space facing at the IDs (?1 É m vs. 5?25 nm). Previous studies [12], [16] found that when the intercellular cleft width is above 50 nm, the effect of the EF mechanism on excitation conduction is lost. Therefore, the effects of EF mechanism via clefts at the lateral membrane on the excitation conduction can be ignored.
+
+Contribution of gap junctions to conduction slowing in the IBZ
+
+Acute myocardial ischemia-mediated gap junction lateralization decreases the Gg of IDs, resulting in conduction slowing [33]?[35]. In the present study, we assumed the Gg in the IBZ was equal to that in the NZ [8], [9]. Nevertheless, the aforementioned experimental data [9] could be reproduced only by reducing %gNa,LM without altering Gg in the cleft model (Figure 2A). Therefore, we consider that the conduction slowing and induction of reentrant tachyarrhythmia in the IBZ are due to the subcellular Na+ channel redistribution rather than the decrease in Gg. This notion is supported by a recent experimental study [36] showing that the Na+ channel expressions of the LM in dystrophin-deficient mouse hearts are selectively decreased without affecting the connexin 43 expressions; consequently, the CV in the left ventricle was 28% slower in the mutant mice than the wild type.
+
+Proarrhythmic effects of class I antiarrhythmic drugs under ischemia
+
+Excitation conduction was more easily blocked by Na+ channel blockade in the IBZ than the NZ because of the marked decrease in the excitability of IBZ (Figure 3A). Accordingly, we speculate that subcellular Na+ channel redistribution together with Na+ channel blockade causes a unidirectional block at sites near the IBZ. In addition, the CV restitution curves under Na+ channel blockade in the IBZ (Figure 4B) suggest that PVCs can easily causes the unidirectional block, leading to reentry in old myocardial infarction patients treated with class I antiarrhythmic drugs. Indeed, Na+ channel blockade with the coexistence of an NZ and IBZ widened the vulnerable period for PVCs (Figure 5A, red region) compared to the cases with <14%GNa block. Furthermore, unidirectional block induced by a stimulus applied at a site near the IBZ initiated reentry (Figure 5B(c)).
+
+On the other hand, as shown in Figure 3A, there existed a range of Na+ channel blockade causing unstable conductions (Figures 3C and 3D) between the ranges of stable conduction (Figure 3B) and conduction block (Figure 3E). Such unstable conductions might be involved in arrhythmogenic mechanisms under ischemia [37], [38]. Baba et al. [14] have reported that the subcellular Na+ channel redistribution occurs inhomogeneously at the IBZ [14]. Therefore, spatially inhomogeneous Na+ channel blockade also occurs in the IBZ, causing unstable conduction. Taken together, the present results suggest that even if the number of PVCs is reduced as a result of the continuous administration of class I antiarrhythmic drugs, the subcellular Na+ channel redistribution under Na+ channel blockade increases the ventricular vulnerability to PVCs, leading to the initiation of reentrant tachyarrhythmias and consequently more arrhythmic events [1], [2].
+
+Limitations
+
+We did not take account the ischemia-related electrical remodeling of Na+ channels [3], [4]. Nevertheless, as demonstrated in Figure 2C, INa can be decreased only by subcellular Na+ channel redistribution. Moreover, we considered neither the other electrical remodelings in the IBZ [5]?[7] nor a realistic ventricle shape. Therefore, additional studies are required to clarify the precise roles of the remodeling of other ion channels as well as the more sophisticated 2- and 3-dimensional ventricular models [39] in the ischemia-related proarrhythmic effects of class I antiarrhythmic drugs.
+
+Go to:
+Supporting Information
+Figure S1
+
+Equivalent circuit of the cleft models. Each membrane segment comprises a modified Luo?Rudy dynamic (mLRd) model and membrane capacitance, Cm,k, for k?=?1, 2, and 3. An external file that holds a picture, illustration, etc.
+Object name is pone.0109271.e001.jpg denotes extracellular cleft potential just after the pth myocyte. The values An external file that holds a picture, illustration, etc.
+Object name is pone.0109271.e002.jpg, An external file that holds a picture, illustration, etc.
+Object name is pone.0109271.e003.jpg, and An external file that holds a picture, illustration, etc.
+Object name is pone.0109271.e004.jpg represent the transmembrane, intracellular, and extracellular potentials, respectively, of kth segment of the pth myocyte. The values k?=?1 and 3 denote junctional membrane (JM) segments, and An external file that holds a picture, illustration, etc.
+Object name is pone.0109271.e005.jpg.
+
+(EPS)
+
+Click here for additional data file.(871K, eps)
+Figure S2
+
+Conduction velocity versus subcellular Na+ channel distributions in each myofiber model. (A) and (B), Conduction velocity (CV) in the cleft (A) and non-cleft (B) models as functions of %gNa,JM+LM and %gNa,LM. The contour intervals are 10 cm/s.
+
+(EPS)
+
+Click here for additional data file.(1.3M, eps)
+Figure S3
+
+Ionic mechanism of AP alternans under Na+ channel blockade. AP waveforms (A) and Na+ channel currents (B), and L-type Ca2+ channel currents (C) observed in the LM segment of the 150th cell in the NZ and IBZ myofibers with 50%GNa block, respectively. (B), Inset shows an enlarged diagram of the time course in Na+ channel current in the IBZ myofiber.
+
+(EPS)
+
+Click here for additional data file.(1.1M, eps)
+Figure S4
+
+Ionic mechanism of reflection observed in the myocardial ring model. AP waveforms (A), gap junctional currents (B), Na+ channel currents (C), and L-type Ca2+ channel currents (D) observed in myocytes located at the near border between the NZ and IBZ of the myocardial ring model with 50%GNa block. (A), Solid and dashed lines with arrowheads indicate counterclockwise rotating conduction and a clockwise rotating conduction, respectively. (B), Gap junctional current that flows into the (p?1)th myocyte from the pth myocyte was defined as negative current. (C), The inset shows an enlarged diagram of the time course in Na+ channel currents.
+
+(EPS)
+
+Click here for additional data file.(1.5M, eps)
+Text S1
+
+Expanded Methods.
+
+(DOC)
+
+Click here for additional data file.(133K, doc)
+Go to:
+Funding Statement
+This work was supported by Grant-in-Aid for Scientific Research on Innovative Areas [22136002] from the Ministry of Education, Culture, Sports, Science and Technology, and for Young Scientists (B) [24790214] from Japan Society for the Promotion of Science, Japan. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+
+Go to:
+References
+1. The Cardiac Arrhythmia Suppression Trial (CAST) Investigators (1989) Preliminary report: effect of encainide and flecainide on mortality in a randomized trial of arrhythmia suppression after myocardial infarction. N Engl J Med 321: 406?412 [PubMed]
+2. Echt DS, Liebson PR, Mitchell LB, Peters RW, Obias-Manno D, et al. (1991) Mortality and morbidity in patients receiving encainide, flecainide, or placebo. The Cardiac Arrhythmia Suppression Trial. N Engl J Med 324: 781?788 [PubMed]
+3. Pinto JM, Boyden PA (1999) Electrical remodeling in ischemia and infarction. Cardiovasc Res 42: 284?297 [PubMed]
+4. Pu J, Boyden PA (1997) Alterations of Na+ currents in myocytes from epicardial border zone of the infarcted heart. A possible ionic mechanism for reduced excitability and postrepolarization refractoriness. Circ Res 81: 110?119 [PubMed]
+5. Aggarwal R, Boyden PA (1995) Diminished Ca2+ and Ba2+ currents in myocytes surviving in the epicardial border zone of the 5-day infarcted canine heart. Circ Res 77: 1180?1191 [PubMed]
+6. Lue WM, Boyden PA (1992) Abnormal electrical properties of myocytes from chronically infarcted canine heart. Alterations in Vmax and the transient outward current. Circulation 85: 1175?1188 [PubMed]
+7. Jiang M, Cabo C, Yao J, Boyden PA, Tseng G (2000) Delayed rectifier K currents have reduced amplitudes and altered kinetics in myocytes from infarcted canine ventricle. Cardiovasc Res 48: 34?43 [PubMed]
+8. Yao JA, Hussain W, Patel P, Peters NS, Boyden PA, et al. (2003) Remodeling of gap junctional channel function in epicardial border zone of healing canine infarcts. Circ Res 92: 437?443 [PubMed]
+9. Cabo C, Yao J, Boyden PA, Chen S, Hussain W, et al. (2006) Heterogeneous gap junction remodeling in reentrant circuits in the epicardial border zone of the healing canine infarct. Cardiovasc Res 72: 241?249 [PubMed]
+10. Maier SK, Westenbroek RE, Schenkman KA, Feigl EO, Scheuer T, et al. (2002) An unexpected role for brain-type sodium channels in coupling of cell surface depolarization to contraction in the heart. Proc Natl Acad Sci U S A 99: 4073?4078 [PMC free article] [PubMed]
+11. Haufe V, Camacho JA, Dumaine R, Gunther B, Bollensdorff C, et al. (2005) Expression pattern of neuronal and skeletal muscle voltage-gated Na+ channels in the developing mouse heart. J Physiol 564: 683?696 [PMC free article] [PubMed]
+12. Kucera JP, Rohr S, Rudy Y (2002) Localization of sodium channels in intercalated disks modulates cardiac conduction. Circ Res 91: 1176?1182 [PMC free article] [PubMed]
+13. Vreeker A, van Stuijvenberg L, Hund TJ, Mohler PJ, Nikkels PGJ, et al. (2014) Assembly of the cardiac intercalated disk during pre- and postnatal development of the human heart. PLoS ONE 9(4): e94722.doi:10.1371/journal.pone.009472 [PMC free article] [PubMed]
+14. Baba S, Dun W, Cabo C, Boyden PA (2005) Remodeling in cells from different regions of the reentrant circuit during ventricular tachycardia. Circulation 112: 2386?2396 [PMC free article] [PubMed]
+15. Sperelakis N, Mann JE Jr (1977) Evaluation of electric field changes in the cleft between excitable cells. J Theor Biol 64: 71?96 [PubMed]
+16. Tsumoto K, Ashihara T, Haraguchi R, Nakazawa K, Kurachi Y (2011) Roles of subcellular Na+ channel distributions in the mechanism of cardiac conduction. Biophys J 100: 554?563 [PMC free article] [PubMed]
+17. Mori Y, Fishman GI, Peskin CS (2008) Ephaptic conduction in a cardiac strand model with 3D electrodiffusion. Proc Natl Acad Sci U S A 105: 6463?6468 [PMC free article] [PubMed]
+18. Qin D, Zhang Z-H, Caref EB, Boutjdir M, Jain P, et al. (1996) Cellular and ionic basis of arrhythmias in postinfarction remodeled ventricular myocardium. Circ Res 79: 461?473 [PubMed]
+19. Gerdes AM, Capasso JM (1995) Structural remodeling and mechanical dysfunction of cardiac myocytes in heart failure. J Mol Cell Cardiol 27: 849?856 [PubMed]
+20. Satoh H, Delbridge LM, Blatter LA, Bers DM (1996) Surface: volume relationship in cardiac myocytes studied with confocal microscopy and membrane capacitance measurements: species-dependence and developmental effects. Biophys J 70: 1494?1504 [PMC free article] [PubMed]
+21. Shaw RM, Rudy Y (1997) Ionic mechanisms of propagation in cardiac tissue. Roles of the sodium and L-type calcium currents during reduced excitability and decreased gap junction coupling. Circ Res 81: 727?741 [PubMed]
+22. Katz B (1966) Nerve, muscle and synapse. New York: McGraw-Hill. 193 p.
+23. Luo CH, Rudy Y (1994) A dynamic model of the cardiac ventricular action potential. I. Simulations of ionic currents and concentration changes. Circ Res 74: 1071?1096 [PubMed]
+24. Faber GM, Rudy Y (2000) Action potential and contractility changes in [Na+]i overloaded cardiac myocytes: a simulation study. Biophys J 78: 2392?2404 [PMC free article] [PubMed]
+25. Suzuki S, Murakami S, Tsujimae K, Findlay I, Kurachi Y (2008) In silico risk assessment for drug-induction of cardiac arrhythmia. Prog Biophys Mol Biol 98: 52?60 [PubMed]
+26. Findlay I, Suzuki S, Murakami S, Kurachi Y (2008) Physiological modulation of voltage-dependent inactivation in the cardiac muscle L-type calcium channel: a modelling study. Prog Biophys Mol Biol 96: 482?498 [PubMed]
+27. Verkerk AO, van Ginneken AC, van Veen TA, Tan HL (2007) Effects of heart failure on brain-type Na+ channels in rabbit ventricular myocytes. Europace 9: 571?577 [PubMed]
+28. Verkerk AO, van Ginneken ACG, van Veen TAB, Tan HL (2008) Effects of heart failure on brain-type Na+ channels in rabbit ventricular myocytes: reply. Europace 10: 257?258 [PubMed]
+29. Lin X, Liu N, Lu J, Zhang J, Anumonwo JM, et al. (2011) Subcellular heterogeneity of sodium current properties in adult cardiac ventricular myocytes. Heart Rhythm 8: 1923?1930 [PMC free article] [PubMed]
+30. Davidenko J, Antzlevitch C (1985) The effects of milrinone on action potential characteristics, conduction, automaticity, and reflected reentry in isolated myocardial fibers. J Cardiovasc Pharmacol 7: 341?349 [PubMed]
+31. Lukas A, Antzelevitch C (1996) Phase 2 reentry as a mechanism of initiation of circus movement reentry in canine epicardium exposed to simulated ischemia. Cardiovasc Res 32: 593?603 [PubMed]
+32. Spach MS, Heidlage JF, Dolber PC, Barr RC (2000) Electrophysiological effects of remodeling cardiac gap junctions and cell size: experimental and model studies of normal cardiac growth. Circ Res 86: 302?311 [PubMed]
+33. Kleber AG, Riegger CB, Janse MJ (1987) Electrical uncoupling and increase of extracellular resistance after induction of ischemia in isolated, arterially perfused rabbit papillary muscle. Circ Res 61: 271?279 [PubMed]
+34. Peters NS, Coromilas J, Severs NJ, Wit AL (1997) Disturbed Connexin43 Gap Junction Distribution Correlates With the Location of Reentrant Circuits in the Epicardial Border Zone of Healing Canine Infarcts That Cause Ventricular Tachycardia. Circulation. 95: 988?996 [PubMed]
+35. Peters NS, Wit AL (1998) Myocardial architecture and ventricular arrhythmogenesis. Circulation 97: 1746?1754 [PubMed]
+36. Petitprez S, Zmoos AF, Ogrodink J, Balse E, Raad N, et al. (2011) SAP97 and dystrophin macromolecular complexes determine two pools of cardiac sodium channels Nav1.5 in cardiomyocytes. Circ Res 108: 294?304 [PubMed]
+37. Coromilas J, Costeas C, Deruyter B, Dillon SM, Peters NS, et al. (2002) Effects of pinacidil on electrophysiological properties of epicardial border zone of healing canine infarcts: possible effects of KATP channel activation. Circulation 105: 2309?2317 [PubMed]
+38. Bernus O, Zemlin CW, Zaritsky RM, Mironov SF, Pertsov AM (2005) Alternating conduction in the ischemic border zone as precursor of reentrant arrhythmias: a simulation study. Europace 7Suppl 2: 93?104 [PubMed]
+39. Arevalo H, Plank G, Helm P, Halperin H, Trayanova N (2013) Tachycardia in post-infarction hearts: insights from 3D image-based ventricular models. PLoS ONE 8(7): e68872.doi:10.1371/journal.pone.0068872 [PMC free article] [PubMed]

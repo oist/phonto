@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5509">
+<itemtype>xnppaper</itemtype>
+<titles><title>Long-term depression at synapses in slices of rat hippocampus can be induced by bursts of postsynaptic activity.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Adaptation</keyword>
+<keyword>Physiological</keyword>
+<keyword>Animals</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:52:52Z</last_update_date>
+<creation_date>2011-06-14T00:52:52Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5509</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5509" version="1.02">
+<authors><author>Pockett S</author><author>Brookes NH</author><author>Bindman LJ</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>80</volume>
+<number>1</number>
+<page>196-200</page>
+<abstract>In slices of rat hippocampus, a train of conditioning pulses that would produce long-term potentiation (LTP) if applied to afferent inputs was found to produce a long-lasting depression of Schaffer collateral/commissural synapses on CA1 cells when instead it was applied to the CA1 axons. The depression lasted undiminished for up to 2 h (the maximum duration of recording). Intracellular recording showed that long-term depression (LTD) of e.p.s.p. amplitude occurred in 66% of cells when this antidromic conditioning stimulation was delivered in normal medium, and in 100% of cells when the antidromic stimulation was delivered in medium containing sufficient Mg++ to block all synaptic transmission. We infer that the difference is because conditioning stimuli sometimes activated test synapses in normal Mg++ but could not in high Mg++. The fact that LTD could be induced in high Mg++ eliminates enhanced inhibitory feedback as a possible mechanism of the long lasting synaptic depression and demonstrates that the mechanism is probably postsynaptic. Resting membrane potential and cell input resistance were the same before and after conditioning, so persisting changes in these postsynaptic parameters can not be the explanation for LTD. LTD of the sort described in this paper could have significant implications for models of learning and memory.</abstract>
+<pubmed_id>2358027</pubmed_id>
+</detail>
+</item>

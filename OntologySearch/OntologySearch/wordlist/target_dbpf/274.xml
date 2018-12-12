@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="274">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampus: cognitive processes and neural representations that underlie declarative memory.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T01:59:06Z</last_update_date>
+<creation_date>2008-06-20T03:24:54Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=274</url>
+<changelogs>
+<changelog date='2013-03-28T01:59:06Z'>Modified; Item Description, Index.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="274" version="1.02">
+<authors><author>Eichenbaum H</author></authors>
+<journal>Neuron</journal>
+<volume>44</volume>
+<number>1</number>
+<page>109-20</page>
+<abstract>The hippocampus serves a critical role in declarative memory--our capacity to recall everyday facts and events. Recent studies using functional brain imaging in humans and neuropsychological analyses of humans and animals with hippocampal damage have revealed some of the elemental cognitive processes mediated by the hippocampus. In addition, recent characterizations of neuronal firing patterns in behaving animals and humans have suggested how neural representations in the hippocampus underlie those elemental cognitive processes in the service of declarative memory.</abstract>
+<pubmed_id>15450164</pubmed_id>
+</detail>
+</item>

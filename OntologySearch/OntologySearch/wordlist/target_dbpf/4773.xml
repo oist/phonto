@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4773">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal function required for nonspatial working memory.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:29:02Z</last_update_date>
+<creation_date>2011-04-28T04:29:02Z</creation_date>
+<publication_year>1981</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4773</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4773" version="1.02">
+<authors><author>Olton DS</author><author>Feustle WA</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>41</volume>
+<number>3</number>
+<page>380-9</page>
+<abstract>The hippocampus has been implicated as a brain structure necessary for normal memory functions and normal spatial behavior. Both these explanations are consistent with the results of previous experiments demonstrating an impairment of choice accuracy following fimbria-fornix lesions on an elevated radial arm maze because the test procedure required working memory and permitted cognitive mapping. In the present experiment, rats were tested in an enclosed radial arm maze in which each arm had a distinctive set of discriminative stimuli and the test procedure required working memory but prevented cognitive mapping. Rats were tested preoperatively, given fimbria-fornix lesions, and then tested postoperatively. The rats with lesions performed at chance levels and showed no evidence of recovery of function. These results are consistent with the hypothesis that the poor choice accuracy in the elevated radial arm maze task arose because of the working memory requirements of that task, rather than its cognitive mapping characteristics, and support interpretations of hippocampal function that emphasize memory processing.</abstract>
+<pubmed_id>7215498</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,136 @@
+pubmed : 10777735	 type : doi	 id : 10.1016/S0006-3495(00)76783-X	 url : http://link.springer.com/article/10.1016/S0006-3495(00)76783-X/fulltext.html
+pubmed : 10777735	 type : pii	 id : S0006-3495(00)76783-X	
+pubmed : 10777735	 type : pmc	 id : PMC1300828	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1300828
+pubmed : 10777735	 type : pmcid	 id : pmc-id: PMC1300828;	
+pubmed : 11923461	 type : doi	 id : 20026266	 url : http://link.springer.com/article/20026266/fulltext.html
+pubmed : 11923461	 type : pii	 id : 22/7/2963	
+pubmed : 1252578	 type : doi	 id : 10.1016/S0006-3495(76)85683-4	 url : http://link.springer.com/article/10.1016/S0006-3495(76)85683-4/fulltext.html
+pubmed : 1252578	 type : pii	 id : S0006-3495(76)85683-4	
+pubmed : 1252578	 type : pmc	 id : PMC1334834	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1334834
+pubmed : 1252578	 type : pmcid	 id : pmc-id: PMC1334834;	
+pubmed : 12574468	 type : doi	 id : 10.1152/jn.00573.2002	 url : http://link.springer.com/article/10.1152/jn.00573.2002/fulltext.html
+pubmed : 12644446	 type : doi	 id : 10.1152/ajpendo.00194.2002	 url : http://link.springer.com/article/10.1152/ajpendo.00194.2002/fulltext.html
+pubmed : 12644446	 type : pii	 id : 00194.2002	
+pubmed : 12932323	 type : pii	 id : S0960982203005347	
+pubmed : 12991237	 type : pmc	 id : PMC1392413	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392413
+pubmed : 12991237	 type : pmcid	 id : pmc-id: PMC1392413;	
+pubmed : 14656705	 type : doi	 id : 10.1152/ajpheart.00794.2003	 url : http://link.springer.com/article/10.1152/ajpheart.00794.2003/fulltext.html
+pubmed : 14656705	 type : pii	 id : 00794.2003	
+pubmed : 14766974	 type : doi	 id : 10.1073/pnas.0308265100	 url : http://link.springer.com/article/10.1073/pnas.0308265100/fulltext.html
+pubmed : 14766974	 type : pii	 id : 0308265100	
+pubmed : 14766974	 type : pmc	 id : PMC357011	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC357011
+pubmed : 14766974	 type : pmcid	 id : pmc-id: PMC357011;	
+pubmed : 15103017	 type : doi	 id : 10.1073/pnas.0402060101	 url : http://link.springer.com/article/10.1073/pnas.0402060101/fulltext.html
+pubmed : 15103017	 type : pii	 id : 0402060101	
+pubmed : 15103017	 type : pmc	 id : PMC406481	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC406481
+pubmed : 15103017	 type : pmcid	 id : pmc-id: PMC406481;	
+pubmed : 15114047	 type : doi	 id : 10.1023/B:JCNS.0000025686.47117.67	 url : http://link.springer.com/article/10.1023/B:JCNS.0000025686.47117.67/fulltext.html
+pubmed : 15114047	 type : pii	 id : 5273092	
+pubmed : 15189761	 type : doi	 id : 10.1016/j.ejphar.2004.04.015	 url : http://link.springer.com/article/10.1016/j.ejphar.2004.04.015/fulltext.html
+pubmed : 15189761	 type : pii	 id : S0014299904003905	
+pubmed : 15830162	 type : doi	 id : 10.1007/s10827-005-0354-7	 url : http://link.springer.com/article/10.1007/s10827-005-0354-7/fulltext.html
+pubmed : 16040746	 type : doi	 id : 10.1529/biophysj.105.060830	 url : http://link.springer.com/article/10.1529/biophysj.105.060830/fulltext.html
+pubmed : 16040746	 type : pii	 id : S0006-3495(05)72926-X	
+pubmed : 16040746	 type : pmc	 id : PMC1366784	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1366784
+pubmed : 16040746	 type : pmcid	 id : pmc-id: PMC1366784;	
+pubmed : 17008376	 type : doi	 id : 10.1113/jphysiol.2006.118703	 url : http://link.springer.com/article/10.1113/jphysiol.2006.118703/fulltext.html
+pubmed : 17008376	 type : pii	 id : jphysiol.2006.118703	
+pubmed : 17008376	 type : pmc	 id : PMC1890439	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1890439
+pubmed : 17008376	 type : pmcid	 id : pmc-id: PMC1890439;	
+pubmed : 17110776	 type : doi	 id : 10.1088/0031-9155/51/23/014	 url : http://link.springer.com/article/10.1088/0031-9155/51/23/014/fulltext.html
+pubmed : 17110776	 type : pii	 id : S0031-9155(06)28590-7	
+pubmed : 17158566	 type : doi	 id : 10.1529/biophysj.106.088807	 url : http://link.springer.com/article/10.1529/biophysj.106.088807/fulltext.html
+pubmed : 17158566	 type : mid	 id : NIHMS17046	
+pubmed : 17158566	 type : pii	 id : S0006-3495(07)70961-X	
+pubmed : 17158566	 type : pmc	 id : PMC1796810	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1796810
+pubmed : 17158566	 type : pmcid	 id : pmc-id: PMC1796810;manuscript-id: NIHMS17046;	
+pubmed : 17220183	 type : doi	 id : 10.1152/ajpheart.01083.2006	 url : http://link.springer.com/article/10.1152/ajpheart.01083.2006/fulltext.html
+pubmed : 17220183	 type : pii	 id : 01083.2006	
+pubmed : 17912360	 type : doi	 id : 10.1371/journal.pone.0000983	 url : http://link.springer.com/article/10.1371/journal.pone.0000983/fulltext.html
+pubmed : 17912360	 type : pmc	 id : PMC1991600	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1991600
+pubmed : 17912360	 type : pmcid	 id : pmc-id: PMC1991600;	
+pubmed : 18244602	 ELocatioID  	  doi: 10.1109/TNN.2003.820440	
+pubmed : 18244602	 type : doi	 id : 10.1109/TNN.2003.820440	 url : http://link.springer.com/article/10.1109/TNN.2003.820440/fulltext.html
+pubmed : 1850840	 type : pmc	 id : PMC51560	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC51560
+pubmed : 1850840	 type : pmcid	 id : pmc-id: PMC51560;	
+pubmed : 18635251	 ELocatioID  	  doi: 10.1016/j.pbiomolbio.2008.05.003	
+pubmed : 18635251	 type : doi	 id : 10.1016/j.pbiomolbio.2008.05.003	 url : http://link.springer.com/article/10.1016/j.pbiomolbio.2008.05.003/fulltext.html
+pubmed : 18635251	 type : pii	 id : S0079-6107(08)00047-3	
+pubmed : 18690032	 type : pii	 id : 4691	
+pubmed : 18764509	 type : mid	 id : NIHMS92225	
+pubmed : 18764509	 type : pmc	 id : PMC2662447	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2662447
+pubmed : 18764509	 type : pmcid	 id : pmc-id: PMC2662447;manuscript-id: NIHMS92225;	
+pubmed : 19281836	 ELocatioID  	  doi: 10.1016/j.visres.2009.03.003	
+pubmed : 19281836	 type : doi	 id : 10.1016/j.visres.2009.03.003	 url : http://link.springer.com/article/10.1016/j.visres.2009.03.003/fulltext.html
+pubmed : 19281836	 type : pii	 id : S0042-6989(09)00074-1	
+pubmed : 19431309	 type : pmc	 id : PMC1366333	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1366333
+pubmed : 19431309	 type : pmcid	 id : pmc-id: PMC1366333;	
+pubmed : 19584944	 ELocatioID  	  doi: 10.1371/journal.pone.0006169	
+pubmed : 19584944	 type : doi	 id : 10.1371/journal.pone.0006169	 url : http://link.springer.com/article/10.1371/journal.pone.0006169/fulltext.html
+pubmed : 19584944	 type : pmc	 id : PMC2704954	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2704954
+pubmed : 19584944	 type : pmcid	 id : pmc-id: PMC2704954;	
+pubmed : 21099125	 type : pii	 id : JST.JSTAGE/circj/CJ-10-0071	
+pubmed : 21281569	 ELocatioID  	  doi: 10.1016/j.bpj.2010.12.3716	
+pubmed : 21281569	 type : doi	 id : 10.1016/j.bpj.2010.12.3716	 url : http://link.springer.com/article/10.1016/j.bpj.2010.12.3716/fulltext.html
+pubmed : 21281569	 type : pii	 id : S0006-3495(10)05262-8	
+pubmed : 21281569	 type : pmc	 id : PMC3030217	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3030217
+pubmed : 21281569	 type : pmcid	 id : pmc-id: PMC3030217;	
+pubmed : 21637795	 ELocatioID  	  doi: 10.1371/journal.pcbi.1002061	
+pubmed : 21637795	 type : doi	 id : 10.1371/journal.pcbi.1002061	 url : http://link.springer.com/article/10.1371/journal.pcbi.1002061/fulltext.html
+pubmed : 21637795	 type : pii	 id : PCOMPBIOL-D-10-00416	
+pubmed : 21637795	 type : pmc	 id : PMC3102752	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3102752
+pubmed : 21637795	 type : pmcid	 id : pmc-id: PMC3102752;	
+pubmed : 21721763	 ELocatioID  	  doi: 10.1063/1.3597645	
+pubmed : 21721763	 type : doi	 id : 10.1063/1.3597645	 url : http://link.springer.com/article/10.1063/1.3597645/fulltext.html
+pubmed : 2174274	 type : doi	 id : 10.1016/S0006-3495(90)82443-7	 url : http://link.springer.com/article/10.1016/S0006-3495(90)82443-7/fulltext.html
+pubmed : 2174274	 type : pii	 id : S0006-3495(90)82443-7	
+pubmed : 2174274	 type : pmc	 id : PMC1281044	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1281044
+pubmed : 2174274	 type : pmcid	 id : pmc-id: PMC1281044;	
+pubmed : 21810471	 ELocatioID  	  doi: 10.1016/j.bbadis.2011.07.011	
+pubmed : 21810471	 type : doi	 id : 10.1016/j.bbadis.2011.07.011	 url : http://link.springer.com/article/10.1016/j.bbadis.2011.07.011/fulltext.html
+pubmed : 21810471	 type : pii	 id : S0925-4439(11)00164-5	
+pubmed : 21984318	 ELocatioID  	  doi: 10.1007/s10827-011-0366-4	
+pubmed : 21984318	 type : doi	 id : 10.1007/s10827-011-0366-4	 url : http://link.springer.com/article/10.1007/s10827-011-0366-4/fulltext.html
+pubmed : 21984318	 type : mid	 id : NIHMS335546	
+pubmed : 21984318	 type : pmc	 id : PMC3288232	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3288232
+pubmed : 21984318	 type : pmcid	 id : pmc-id: PMC3288232;manuscript-id: NIHMS335546;	
+pubmed : 22020101	 ELocatioID  	  doi: 10.1016/j.bbrc.2011.10.034	
+pubmed : 22020101	 type : doi	 id : 10.1016/j.bbrc.2011.10.034	 url : http://link.springer.com/article/10.1016/j.bbrc.2011.10.034/fulltext.html
+pubmed : 22020101	 type : pii	 id : S0006-291X(11)01831-6	
+pubmed : 22805067	 ELocatioID  	  doi: 10.1111/j.1460-9568.2012.08105.x	
+pubmed : 22805067	 type : doi	 id : 10.1111/j.1460-9568.2012.08105.x	 url : http://link.springer.com/article/10.1111/j.1460-9568.2012.08105.x/fulltext.html
+pubmed : 24152110	 ELocatioID  	  doi: 10.1111/ejn.12388	
+pubmed : 24152110	 type : doi	 id : 10.1111/ejn.12388	 url : http://link.springer.com/article/10.1111/ejn.12388/fulltext.html
+pubmed : 2431725	 type : doi	 id : 10.1016/S0006-3495(86)83517-2	 url : http://link.springer.com/article/10.1016/S0006-3495(86)83517-2/fulltext.html
+pubmed : 2431725	 type : pii	 id : S0006-3495(86)83517-2	
+pubmed : 2431725	 type : pmc	 id : PMC1329801	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1329801
+pubmed : 2431725	 type : pmcid	 id : pmc-id: PMC1329801;	
+pubmed : 24416228	 ELocatioID  	  doi: 10.1371/journal.pone.0084401	
+pubmed : 24416228	 type : doi	 id : 10.1371/journal.pone.0084401	 url : http://link.springer.com/article/10.1371/journal.pone.0084401/fulltext.html
+pubmed : 24416228	 type : pii	 id : PONE-D-13-36923	
+pubmed : 24416228	 type : pmc	 id : PMC3885549	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3885549
+pubmed : 24416228	 type : pmcid	 id : pmc-id: PMC3885549;	
+pubmed : 25279776	 ELocatioID  	  doi: 10.1371/journal.pone.0109271	
+pubmed : 25279776	 type : doi	 id : 10.1371/journal.pone.0109271	 url : http://link.springer.com/article/10.1371/journal.pone.0109271/fulltext.html
+pubmed : 25279776	 type : pii	 id : PONE-D-14-27024	
+pubmed : 25279776	 type : pmc	 id : PMC4184874	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4184874
+pubmed : 25279776	 type : pmcid	 id : pmc-id: PMC4184874;	
+pubmed : 2850029	 type : doi	 id : 10.1016/S0006-3495(88)82975-8	 url : http://link.springer.com/article/10.1016/S0006-3495(88)82975-8/fulltext.html
+pubmed : 2850029	 type : pii	 id : S0006-3495(88)82975-8	
+pubmed : 2850029	 type : pmc	 id : PMC1330341	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1330341
+pubmed : 2850029	 type : pmcid	 id : pmc-id: PMC1330341;	
+pubmed : 6305437	 type : doi	 id : 10.1016/S0006-3495(83)84384-7	 url : http://link.springer.com/article/10.1016/S0006-3495(83)84384-7/fulltext.html
+pubmed : 6305437	 type : pii	 id : S0006-3495(83)84384-7	
+pubmed : 6305437	 type : pmc	 id : PMC1329221	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1329221
+pubmed : 6305437	 type : pmcid	 id : pmc-id: PMC1329221;	
+pubmed : 7260316	 type : doi	 id : 10.1016/S0006-3495(81)84782-0	 url : http://link.springer.com/article/10.1016/S0006-3495(81)84782-0/fulltext.html
+pubmed : 7260316	 type : pii	 id : S0006-3495(81)84782-0	
+pubmed : 7260316	 type : pmc	 id : PMC1327511	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1327511
+pubmed : 7260316	 type : pmcid	 id : pmc-id: PMC1327511;	
+pubmed : 7538806	 type : doi	 id : 10.1016/S0006-3495(95)80271-7	 url : http://link.springer.com/article/10.1016/S0006-3495(95)80271-7/fulltext.html
+pubmed : 7538806	 type : pii	 id : S0006-3495(95)80271-7	
+pubmed : 7538806	 type : pmc	 id : PMC1281819	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1281819
+pubmed : 7538806	 type : pmcid	 id : pmc-id: PMC1281819;	
+pubmed : 874889	 type : pmc	 id : PMC1283659	 url : http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1283659
+pubmed : 874889	 type : pmcid	 id : pmc-id: PMC1283659;	
+pubmed : 9053795	 type : pii	 id : 0306-4522(95)00483-1	

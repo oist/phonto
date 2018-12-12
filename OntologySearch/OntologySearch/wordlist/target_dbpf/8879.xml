@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8879">
+<itemtype>xnppaper</itemtype>
+<titles><title>Patterns of coupled theta activity in amygdala-hippocampal-prefrontal cortical circuits during fear extinction.</title>
+</titles>
+<contributor uname='admin_KWL2'>Hiroaki Wagatsuma(admin_KWL2)</contributor>
+<keywords><keyword>Amygdala</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Extinction</keyword>
+<keyword>Psychological</keyword>
+<keyword>physiology</keyword>
+<keyword>Fear</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C3H</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Wagatsuma Lab, FY2015, Ai_14</description>
+<doi></doi>
+<last_update_date>2015-03-27T12:44:45Z</last_update_date>
+<creation_date>2015-03-27T01:40:30Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8879</url>
+<changelogs>
+<changelog date='2015-03-27T12:44:45Z'>アイテムの説明 を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8879" version="1.02">
+<authors><author>Lesting J</author><author>Narayanan RT</author><author>Kluge C</author><author>Sangha S</author><author>Seidenbecher T</author><author>Pape HC</author></authors>
+<journal>PloS one</journal>
+<volume>6</volume>
+<number>6</number>
+<page>e21714</page>
+<abstract>Signals related to fear memory and extinction are processed within brain pathways involving the lateral amygdala (LA) for formation of aversive stimulus associations, the CA1 area of the hippocampus for context-dependent modulation of these associations, and the infralimbic region of the medial prefrontal cortex (mPFC) for extinction processes. While many studies have addressed the contribution of each of these modules individually, little is known about their interactions and how they function as an integrated system. Here we show, by combining multiple site local field potential (LFP) and unit recordings in freely behaving mice in a fear conditioning paradigm, that theta oscillations may provide a means for temporally and functionally connecting these modules. Theta oscillations occurred with high specificity in the CA1-LA-mPFC network. Theta coupling increased between all areas during retrieval of conditioned fear, and declined during extinction learning. During extinction recall, theta coupling partly rebounded in LA-mPFC and CA1-mPFC, and remained at a low level in CA1-LA. Interfering with theta coupling through local electrical microstimulation in CA1-LA affected conditioned fear and extinction recall depending on theta phase. These results support the hypothesis that theta coupling provides a means for inter-areal coordination in conditioned behavioral responsiveness. More specifically, theta oscillations seem to contribute to a population code indicating conditioned stimuli during recall of fear memory before and after extinction.</abstract>
+<pubmed_id>21738775</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,37 @@
+1. J Neurophysiol. 1999 Aug;82(2):804-17.
+
+Electrophysiological properties of inferior olive neurons: A compartmental model.
+
+Schweighofer N(1), Doya K, Kawato M.
+
+Author information: 
+(1)ERATO, Kawato Dynamic Brain Project, Japan Science and Technology Corporation,
+Kyoto 619-0288 Japan.
+
+As a step in exploring the functions of the inferior olive, we constructed a
+biophysical model of the olivary neurons to examine their unique
+electrophysiological properties. The model consists of two compartments to
+represent the known distribution of ionic currents across the cell membrane, as
+well as the dendritic location of the gap junctions and synaptic inputs. The
+somatic compartment includes a low-threshold calcium current (I(Ca_l)), an
+anomalous inward rectifier current (I(h)), a sodium current (I(Na)), and a
+delayed rectifier potassium current (I(K_dr)). The dendritic compartment contains
+a high-threshold calcium current (I(Ca_h)), a calcium-dependent potassium current
+(I(K_Ca)), and a current flowing into other cells through electrical coupling
+(I(c)). First, kinetic parameters for these currents were set according to
+previously reported experimental data. Next, the remaining free parameters were
+determined to account for both static and spiking properties of single olivary
+neurons in vitro. We then performed a series of simulated pharmacological
+experiments using bifurcation analysis and extensive two-parameter searches.
+Consistent with previous studies, we quantitatively demonstrated the major role
+of I(Ca_l) in spiking excitability. In addition, I(h) had an important modulatory
+role in the spike generation and period of oscillations, as previously suggested 
+by Bal and McCormick. Finally, we investigated the role of electrical coupling in
+two coupled spiking cells. Depending on the coupling strength, the
+hyperpolarization level, and the I(Ca_l) and I(h) modulation, the coupled cells
+had four different synchronization modes: the cells could be in-phase,
+phase-shifted, or anti-phase or could exhibit a complex desynchronized spiking
+mode. Hence these simulation results support the counterintuitive hypothesis that
+electrical coupling can desynchronize coupled inferior olive cells.
+
+PMID: 10444678  [PubMed - indexed for MEDLINE]

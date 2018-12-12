@@ -1,0 +1,22 @@
+フォルダ
+ ・OntologySearch\OntologySearch
+    webシステムの中身です。djangoを使用してます。
+
+ ・OntologySearch\wordlist
+    以前使ったヒット語句一覧取得の為のアプリケーションです。
+    不要なら削除可能です
+
+web概要
+ ・OntologySearch\OntologySearch\apps下の sparqler.py ファイル
+    SPARQL操作の実体です。
+    この中の query メソッドで
+    「Fusekiサーバーのurlにパラメータ'query'としてSPARQLをpostする。戻り値はJSON」
+    をやっています。
+    残りのメソッドは実際に投げるSPARQLを生成しています.
+    
+ ・OntologySearch\OntologySearch\settings.py
+    接続先fusekiのurl設定を持たせています(FUSEKI_URL)。
+    ex. http://localhost:3030/NIF/ 
+
+ ・OntologySearch\OntologySearch\static\data\owl
+

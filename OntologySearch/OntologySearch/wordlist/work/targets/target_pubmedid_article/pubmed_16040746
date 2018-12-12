@@ -1,0 +1,3561 @@
+Biophysical Journal Volume 89 October 2005 2865–2887
+
+2865
+
+Dynamical Mechanisms of Pacemaker Generation in IK1-Downregulated
+Human Ventricular Myocytes: Insights from Bifurcation Analyses of
+a Mathematical Model
+
+Yasutaka Kurata,* Ichiro Hisatome,
+*Department of Physiology, Kanazawa Medical University, Ishikawa 920-0293, Japan; and
+and Therapeutics, Tottori University Graduate School of Medical Science, Yonago 683-0826, Japan
+
+Hiroyuki Matsuda,* and Toshishige Shibamoto*
+
+y
+
+Division of Regenerative Medicine
+
+y
+
+1
+
+ABSTRACT Dynamical mechanisms of the biological pacemaker (BP) generation in human ventricular myocytes were
+investigated by bifurcation analyses of a mathematical model. Equilibrium points (EPs), periodic orbits, stability of EPs, and
+bifurcation points were determined as functions of bifurcation parameters, such as the maximum conductance of inward-rectiﬁer
+K
+current (IK1), for constructing bifurcation diagrams. Stable limit cycles (BP activity) abruptly appeared around an unstable EP
+via a saddle-node bifurcation when IK1 was suppressed by 84.6%. After the bifurcation at which a stable EP disappears, the
+IK1-reduced system has an unstable EP only, which is essentially important for stable pacemaking. To elucidate how individual
+sarcolemmal currents contribute to EP instability and BP generation, we further explored the bifurcation structures of the system
+during changes in L-type Ca21
+exchanger current (INaCa).
+Our results suggest that 1), ICa,L is, but IK or INaCa is not, responsible for EP instability as a requisite to stable BP generation; 2),
+IK is indispensable for robust pacemaking with large amplitude, high upstroke velocity, and stable frequency; and 3), INaCa is the
+dominant pacemaker current but is not necessarily required for the generation of spontaneous oscillations.
+
+channel current (ICa,L), delayed-rectiﬁer K
+
+currents (IK), or Na
+
+/Ca21
+
+1
+
+1
+
+INTRODUCTION
+
+1
+
+The cardiac biological pacemaker (BP) was recently created
+current (IK1)
+by genetic suppression of the inward-rectiﬁer K
+in guinea pig ventricular myocytes (1), suggesting possible
+development of the functional BP as a therapeutic alternative
+to the electronic pacemaker. A ﬁrst step for creation of the
+functional BP would be engineering of single BP cells,
+which requires deep understanding of the BP mechanisms.
+Using the Luo-Rudy guinea pig ventricle model (2), Silva
+and Rudy (3) simulated BP activity by reducing IK1 con-
+ductance (gK1) and investigated the ionic mechanisms of BP
+generation in the IK1-downregulated ventricular myocyte.
+They reported that BP activity was yielded by 81% sup-
+pression of IK1, concluding that Na
+exchanger current
+(INaCa) was the dominant pacemaker current. However, the
+mechanistic difference between ventricular pacemaking and
+natural sinoatrial (SA) node pacemaking, as well as whether
+IK1 downregulation also induces BP activity in human
+ventricular myocytes (HVMs), remains to be clariﬁed.
+
+/Ca21
+
+1
+
+The aim of this study was to elucidate the mechanisms of
+BP generation in IK1-downregulated HVMs and the roles of
+individual sarcolemmal currents in HVM pacemaking in
+terms of the nonlinear dynamics and bifurcation theory. In
+previous studies (4–11), bifurcation structures of ventricular
+or SA node models, i.e., ways of changes in the number or
+stability of equilibrium and periodic states of the model
+systems, were investigated for elucidating the mechanisms of
+normal and abnormal pacemaker activities. These theoretical
+
+Submitted February 7, 2005, and accepted for publication July 15, 2005.
+
+Address reprint
+requests to Yasutaka Kurata, Dept. of Physiology,
+Kanazawa Medical University, 1-1 Daigaku, Uchinada-machi, Kahoku-
+gun, Ishikawa 920-0293, Japan, E-mail: yasu@kanazawa-med.ac.jp.
+Ó 2005 by the Biophysical Society
+0006-3495/05/10/2865/23 $2.00
+
+works indicate that the mathematical approach provides a
+convenient way of understanding how individual currents
+contribute to pacemaker activities. In this study, therefore,
+local stability and bifurcation analyses, as well as numerical
+simulations, were performed for a mathematical model of the
+HVM. We constructed bifurcation diagrams by calculating
+equilibrium points (EPs), periodic orbits, stability of the EP,
+and saddle-node or Hopf bifurcation points as functions of
+bifurcation parameters (for details, see Theory and Methods).
+During IK1 suppression, BP activity abruptly emerged around
+an unstable EP via a saddle-node bifurcation at which a stable
+EP corresponding to the resting state disappeared. Our re-
+sults suggested that BP activity could be developed by
+reducing IK1 alone in HVMs as well and that the instability of
+an EP at depolarized potentials is essentially important for
+BP generation.
+
+1
+
+To elucidate the ionic mechanisms of EP destabilization
+and BP generation in the IK1-downregulated HVM, we further
+explored bifurcation structures of the IK1-reduced BP system
+during decreases or increases in an L-type Ca21
+channel
+currents (IK), and INaCa,
+current (ICa,L), delayed-rectiﬁer K
+which appear to be essentially important for pacemaker
+generation (3,11). Moreover, we determined stability of the
+BP system at the steady-state potential (V0) during appli-
+cations of the constant bias current (Ibias) and how the un-
+stable V0 and Ibias regions, where BP oscillations occur,
+change with decreasing or
+increasing the sarcolemmal
+currents. This would reveal the contributions of each current
+to EP instability and robustness of BP activity to hyper-
+polarizing or depolarizing loads (11). Our study suggests that
+the dynamical mechanism of the ventricular pacemaking is
+
+doi: 10.1529/biophysj.105.060830
+
+2866
+
+Kurata et al.
+
+essentially the same as that of the natural SA node pace-
+making as reported by Kurata et al. (11).
+
+This article clearly shows that bifurcation analyses of a
+mathematical model allow us to notice the essential impor-
+tance of EP instability for pacemaker generation and to
+elucidate the roles of individual ionic currents in pacemaking.
+Thus, the nonlinear dynamical approach is useful for general
+understanding of the mechanisms of normal and abnormal
+pacemaker activities and may also be applicable to engineer-
+ing of a functional BP as a therapeutic alternative to the
+electronic pacemaker. Deﬁnitions of the terms speciﬁc to the
+nonlinear dynamics and bifurcation theory are provided at
+the end of the Theory and Methods section to help understand
+the theory and methods for bifurcation analysis as well as our
+results and conclusions. Abbreviations and acronyms re-
+peatedly used in this article are listed in Table 1.
+
+THEORY AND METHODS
+
+Development of a modiﬁed HVM model
+
+A mathematical model of cardiac myocytes is described as an n-dimensional
+nonlinear dynamical system, i.e., a set of ordinary differential equations of
+the form
+
+TABLE 1 Abbreviations and acronyms
+
+AP
+APA
+APD(90)
+bAS
+BP
+CL
+C-LTCC
+D-LTCC
+EP
+hESC
+HVM
+Ibias
+ICa,L
+IK
+IKr
+IKs
+IK1
+INa
+INaCa
+Ito
+IX,b
+Ih
+MDP
+ODE
+PB
+POP
+SA
+SR
+V
+V0
+[Ca21
+[Ca21
+[X]i
+[X]o
+
+]rel
+]up
+
+1
+
+1
+
+channel
+channel
+
+channel current
+current
+
+Action potential
+Action potential amplitude
+Action potential duration (at 90% repolarization)
+b-adrenergic stimulation
+Biological pacemaker
+Cycle length
+High voltage-activated L-type Ca21
+Low voltage-activated L-type Ca21
+Equilibrium point
+Human embryonic stem cell
+Human ventricular myocyte
+Constant bias current
+L-type Ca21
+Delayed-rectiﬁer K
+Rapidly activating component of IK
+Slowly activating component of IK
+Inward-rectiﬁer K
+Na
+Na
+4-Aminopyridine-sensitive transient outward current
+Background current carried by ion X
+Hyperpolarization-activated current
+Maximum diastolic potential
+Ordinary differential equation
+Priebe-Beuckelmann
+Peak overshoot potential
+Sinoatrial
+Sarcoplasmic reticulum
+Membrane potential
+Steady-state potential at an EP
+Free Ca21
+Free Ca21
+Intracellular concentration of ion X
+Extracellular concentration of ion X
+
+concentration in the junctional SR
+concentration in the network SR
+
+channel current
+/Ca21
+
+exchanger current
+
+current
+
+1
+
+1
+
+Biophysical Journal 89(4) 2865–2887
+
+dxi=dt ¼ fiðx1; x2; . . .; xnÞ; i ¼ 1; 2; . . .; n:
+
+(1)
+
+This is usually written in the vector form
+
+dx=dt ¼ fðxÞ;
+
+(2)
+where the state variable x is a vector-valued function of time t, and the vector
+ﬁeld f is a function of the state variable x (12–14). For a model system to be
+suitable for bifurcation analysis, the vector ﬁeld f should be continuous and
+smooth (i.e., sufﬁciently differentiable) and should not depend on time or
+initial conditions but depend only on the state variable x. Such a system is
+called an ‘‘autonomous’’ system (see also Deﬁnitions of Terms at the end of
+this section).
+
+On the basis of single-cell patch-clamp data from undiseased and failing
+HVMs, Priebe and Beuckelmann (15) have ﬁrst developed a single HVM
+model (referred to as the Priebe-Beuckelmann (PB) model) as a modiﬁed
+version of the Luo-Rudy phase II model for the guinea pig ventricle (2).
+Recently, ten Tusscher et al. (16) and Iyer et al. (17) developed more
+elaborate HVM models based on detailed experimental data. Their models
+appear to be superior to the PB model in reproducing experimental data
+but less suitable for bifurcation analyses for the following reasons: 1), the
+ten Tusscher et al. model has the vector ﬁeld containing many complex
+functions that are not continuous or smooth, thus they are not always
+differentiable or yield noncontinuous derivatives; and 2), the Iyer et al.
+model (n ¼ 67) is much larger than the PB model (n ¼ 15) or the ten
+Tusscher et al. model (n ¼ 17), making bifurcation analyses practically
+much harder. We have therefore chosen to modify the PB model on the basis
+of recent experimental ﬁndings as well as other human or animal heart
+models. The original PB model explicitly contains time t in the formula for
+the sarcoplasmic reticulum (SR) Ca21
+release, making it nonautonomous.
+Thus, modiﬁcations of the PB model were required for converting it into an
+autonomous system, as well as for improving the capability of reproducing
+experimental data.
+
+1
+
+(ICa,b) currents, Na
+
+channel current (INa), IK1, background Na
+
+The standard model for the normal activity is described as a nonlinear
+dynamical system of 15 ﬁrst-order ordinary differential equations. The mem-
+brane current system includes ICa,L, the rapid and slow components of IK
+(denoted IKr and IKs, respectively), 4-aminopyridine-sensitive transient
+(INa,b)
+outward current (Ito), Na
+and Ca21
+pump current (INaK), INaCa, and Ca21
+pump current (IpCa). The expressions for ICa,L and IKs as well as SR Ca21
+release were reformulated, whereas the formulas for other ionic currents and
+intracellular Ca21
+handling are essentially the same as those in the original
+PB model or adopted from other existing models (16,18–20). Modiﬁcations
+of the model are summarized in Table 2; details on major modiﬁcations are
+described below. All expressions (Eqs. 3–64) and the standard parameter
+values used are provided in Appendix 1 and Table 5, respectively.
+
+-K
+
+1
+
+1
+
+1
+
+Formulation of ICa,L
+
+The kinetics of ICa,L was described by Eqs. 3–8 with the activation (dL),
+voltage-dependent inactivation (fL), and Ca21
+-dependent inactivation (fCa)
+gating variables. Voltage dependences of ICa,L gating kinetics in the current
+(modiﬁed) and original human heart models are shown in Fig. 1 (top),
+together with temperature-corrected experimental values for comparison.
+As ten Tusscher et al. (16) pointed out, the steady-state activation and
+inactivation curves (dLN, fLN) yielded by the original PB formulas were
+somewhat unusual for unknown reasons (see Fig. 1, left top), resulting in
+a very large window current. We therefore renewed the expressions for ICa,L.
+For the steady-state activation and inactivation (dLN, fLN), we used the data
+of Be´nitah et al. (21). The expression of the activation time constant (tdL)
+was adopted from the ten Tusscher et al. model (16). The formulas for the
+time constants of the voltage-dependent inactivation and recovery (tfL)
+employed by the original models appeared not to ﬁt the experimental data for
+single HVMs from Be´nitah et al. (21) or other articles (see Fig. 1, right top,
+and also Fig. 2 E of ten Tusscher et al. (16)). Therefore, we originally
+formulated tfL from the data of Be´nitah et al. (21), which were corrected for
+
+Pacemaking in IK1-Downregulated Myocytes
+
+2867
+
+TABLE 2 Equations and parameter values adopted for individual components of the HVM model
+
+Component
+
+Expressions
+
+Parameter values
+
+PB*
+
+TNNP*
+
+ICa,L
+
+IKr
+
+IKs
+
+Ito
+INa
+IK1
+INa,b
+ICa,b
+INaK
+INaCa
+IpCa
+Jrel
+Jup
+Jtr
+Ca21
+
+buffers
+
+dL,N, fL,N: Be´nitah et al. (21)
+tdL: Same as the TNNP model (16)
+tfL: Original formula based on Be´nitah et al. (21)
+pa,N: Li et al. (24)
+y
+pi,N: Same as the CRN model (19)
+y
+tpa: Same as the CRN model (19)
+nN: Li et al. (24)
+t
+n: Original formula based on Vira´g et al. (34)
+Same as the PB model (15)
+Same as Bernus et al. (18)§
+Same as the PB model (15)
+Same as the PB model (15)
+Same as the PB model (15)
+Same as the PB model (15)
+Same as the PB model (15)
+Same as the CRN model (19)
+Modiﬁed formulas base on Faber and Rudy (20)
+Same as the TNNP model (16)
+Same as the PB model (15)
+Same as the PB model (15)
+
+{
+
+{
+
+gCa,L (nS/pF)
+
+0.2496
+
+0.064
+
+gKr (nS/pF)
+
+0.012
+
+0.015
+
+0.096
+
+gKs (nS/pF)
+z
+gto (nS/pF)
+gNa (nS/pF)
+gK1 (nS/pF)
+gNa,b (nS/pF)
+gCa,b (nS/pF)
+INaK,max (pA/pF)
+kNaCa
+IpCa,max (pA/pF)
+Prel
+Pup
+t
+
+tr
+
+0.036
+
+0.3/0.4
+7.8
+3.9
+0.001
+0.00051
+0.884
+1000
+0.11
+50
+0.00221
+180
+
+0.02
+
+0.3
+16
+2.5
+0.001
+0.00085
+1.3
+1000
+0
+22
+0.0045
+180
+
+0.245
+
+0.294
+14.838
+5.405
+0.00029
+0.000592
+1.362
+1000
+0.025
+24.696
+0.000425
+
+*Parameter values used for the PB model (15) and ten Tusscher et al. (TNNP) model (16) are given for comparison. Values are shown in italics or not shown,
+when the formula is different from that of the current model and thus direct comparison is impossible.
+y
+z
+
+Formulas of the Courtemanche et al. (CRN) model for human atrial myocytes (19) were used. For details, see text.
+The gto (nS/pF) was set equal to 0.4, the value for epicardial cells (18), for the simulation of paced APs, and to 0.3, the value of the original PB model, for
+the BP simulations and bifurcation analyses.
+§Formulas for INa were adopted from Bernus et al. (18) to reduce the number of state variables as well as to avoid the use of noncontinuous functions.
+{
+To reduce the diastolic [Ca21
+adopted from the TNNP model (16).
+
+]i during pacing at 0.25–2 Hz to ,0.3 mM, 1), a small amount of IpCa was added, and 2), the formula for SR Ca21
+
+uptake was
+
+a temperature of 37°C with a Q10 of 2.2 and [Ca21
+]o-dependent factor (16).
+The t
+fL data were ﬁtted to a function similar to that used by Courtemanche
+et al. (19) for their human atrial model, using a least square minimization
+procedure. The formula for the Ca21
+-dependent inactivation (fCa,N) is also
+the same as used by Courtemanche et al. (19). Maximum ICa,L was formu-
+lated as a fully selective Ca21
+current, with its reversal potential (ECa,L) ﬁxed
+at a constant value of 152.8 mV as reported by Be´nitah et al. (21) and the
+maximum conductance (gCa,L) set equal to 249.6 pS/pF at 2 mM [Ca21
+]o.
+The model-generated ICa,L during voltage-clamp pulses and peak ICa,L-V
+relationship are depicted in Fig. 1 (bottom). The simulated peak ICa,L-V
+relation is comparable to the experimental data from Be´nitah et al. (21),
+Pelzmann et al. (22), and Li et al. (23).
+
+Formulation of IKr
+
+The kinetics of IKr was described by Eqs. 9–14 with the activation (pa) and
+inactivation (pi) gating variables. Voltage dependences of IKr activation and
+inactivation in the current and original human heart models are shown in
+Fig. 2 (top), together with experimental data for comparison; the model-
+generated IKr during voltage-clamp pulses are also depicted. There are
+limited experimental data available for the gating kinetics of native IKr
+channels in HVMs. Nevertheless, experimentally observed activation of
+native IKr in human cardiac myocytes (24,25) appeared to be faster than
+the IKr activation simulated by the original PB formulas. To formulate
+IKr kinetics, the recently developed HVM models (16,17) employed the
+experimental data from human ether-a-go-go-related gene (HERG) channels
+expressed in human embryonic kidney (HEK) cells (26,27), Chinese hamster
+ovary cells (28), or Xenopus oocytes (29). However, voltage- and time-
+dependent kinetics of expressed HERG channels appear to depend on cell
+lines or conditions for expression, as well as conditions for current record-
+ings such as temperatures, and thus may be different from those of native IKr
+channels in human hearts (26–28,30–32). We therefore adopted the data
+from HVMs of Li et al. (24) for the steady-state activation curve (pa,N) and
+
+the formula of Courtemanche et al. (19) based on the data from human atrial
+myocytes of Wang et al. (25) for the activation time constant (t
+pa). We also
+employed the expression of Courtemanche et al. (19) for the steady-state
+inactivation curve (pi,N). No detailed experimental data are available on the
+time constant of IKr inactivation (tpi) in intact HVMs. Inactivation and
+recovery of native IKr in animal hearts or expressed HERG channels are very
+rapid (28,33); thus, we assumed that IKr inactivation is instantaneous. The
+maximum IKr conductance (gKr) was set equal to 12 pS/pF, according to the
+data of Li et al. (24). With this gKr value, the complete block of IKr prolonged
+the action potential duration (APD) of the model HVM paced at 1 Hz by
+34.6–48.9%; the simulated APD prolongation by IKr block is comparable to
+the experimentally observed effects of the selective IKr blocker E-4031 as
+reported by Li et al. (24).
+
+Formulation of IKs
+
+On the basis of the recent data from Li et al. (24) and Vira´g et al. (34), the
+kinetics of IKs was reformulated as Eqs. 15–18. Voltage dependences of IKs
+kinetics in the current and original models are shown in Fig. 2 (bottom),
+together with experimental data for comparison; the model-generated IKs
+during voltage-clamp pulses are also depicted. Steady-state IKs activation
+curve (nN) is from Li et al. (24). Vira´g et al. (34) recently reported that IKs in
+HVMs slowly activates and rapidly deactivates. According to their report,
+therefore, we reformulated the time constant of IKs activation (t
+n) as Eq. 18.
+The expression of EKs is the same as for the PB model. The maximum
+conductance (gKs) was set equal to 36 pS/pF so as to yield the APD at 90%
+repolarization (APD90) during 1 Hz pacing of 336 6 16 ms, as reported by
+Li et al. (24).
+
+Formulation of SR Ca21
+In the original PB model, SR Ca21
+formula that explicitly contains time t and also D[Ca21
+
+release
+
+release kinetics was represented by the
+]i,2, which is not
+
+Biophysical Journal 89(4) 2865–2887
+
+2868
+
+Kurata et al.
+
+FIGURE 1 Kinetics of ICa,L. (Top) Voltage dependence of steady-state probabilities (dLN, fLN) and time constants for ICa,L activation (t
+dL) and inactivation
+(tfL). Equations used for the current (modiﬁed) model are shown with the thick lines (labeled ‘‘PM’’). For comparison, those for existing (original) models are
+also shown with the thin lines: PB, Priebe and Beuckelmann (15); TNNP, ten Tusscher et al. (16); CRN, Courtemanche et al. (19). The experimental data for
+dLN, fLN, and t
+fL are from Be´nitah et al. (21) (circles), Pelzmann et al. (22) (squares), and Li et al. (23) (hexagons). (Bottom) Computed voltage-clamp records
+for ICa,L (left) and peak ICa,L-V relationship (right). Currents were evoked by 300-ms step pulses from a holding potential of ÿ50 mV to test potentials ranging
+from ÿ30 to 150 mV in 10 mV increments. Simulating the whole-cell perforated-patch recording, [Ca21
+]i were
+ﬁxed at 5 and 140 mM, respectively. The experimental data for the peak ICa,L-V relation are from Be´nitah et al. (21) (open circles), Pelzmann et al. (22)
+(squares), and Li et al. (23) (hexagons).
+
+]i was not clamped, whereas [Na
+
+]i and [K
+
+1
+
+1
+
+a state variable but the sum of net Ca21
+inﬂux during the ﬁrst 2 ms after
+initiation of the action potential (AP). Thus, the original PB model is a non-
+autonomous system, the vector ﬁeld of which depends on time and initial
+conditions, not suitable for bifurcation analysis. We had therefore to renew
+the SR Ca21
+release formula to convert the model into an autonomous
+system. Owing to the lack of available data for updating the kinetic for-
+mulation of SR Ca21
+release in HVMs, we utilized simple expressions,
+Eqs. 47–51. The formula for conductance of the Ca21
+release channel (grel)
+was adopted from Faber and Rudy (20), with the Prel value reduced to one-
+third of the original value to obtain the peak [Ca21
+]i transient of ;1 mM
+during APs elicited at 1 Hz. For gating behaviors of the Ca21
+release channel
+(dR, fR), we used the expressions similar to those for the ICa,L gating
+variables to make the model an autonomous system suitable for bifurcation
+analyses.
+
+Ion concentration homeostasis
+
+1
+
+1
+
+]i, [Na
+
+The model also includes material balance expressions to deﬁne the temporal
+variation in [Ca21
+]o
+were ﬁxed at 2, 140, and 5.4 mM, respectively. As pointed out by Hund et al.
+(35) and Krogh-Madsen et al.
+the second-generation models
+incorporating ion concentration changes have two major problems: 1), drift,
+
+]i, whereas [Ca21
+
+]o, and [K
+
+]i, and [K
+
+]o, [Na
+
+(36),
+
+1
+
+1
+
+Biophysical Journal 89(4) 2865–2887
+
+with very slow long-term trends in state variables; and 2), degeneracy, with
+nonuniqueness of steady-state solutions. The current model did not show
+a long-term drift in the intracellular ion concentrations but reached a steady
+state during pacing, as well as during BP oscillation, when the principle of
+charge conservation was taken into account (35).
+
+An n-dimensional fully differential system formulated as a cardiac
+second-generation model can usually be converted into a differential-
+algebraic system composed of n ÿ 1 differential equations and one algebraic
+equation, resulting in n ÿ 1 equations for n unknowns (35,36). In such
+a system, the Jacobian matrix of which is singular, the EP or limit cycle is
+not unique but depends on initial conditions; e.g., our full system has
+a continuum of EPs, because Eq. 65 can be derived from Eqs. 66, 69, and
+70 (see Appendix 2). Thus, second-generation models including our full
+system exhibit degeneracy not suitable for bifurcation analysis to be
+applicable to isolated equilibria. As suggested by Krogh-Madsen et al.
+(36), one of the ways to remove degeneracy and thus allow bifurcation
+analyses of isolated equilibria is to make some ionic concentrations ﬁxed.
+]i during changes in parameters or stimulation rates (0.25–
+Variations in [K
+2 Hz) were relatively small (,5 mM), being too small to signiﬁcantly alter
+the model cell behaviors. For stability and bifurcation analyses, therefore,
+]i has
+[K
+the ﬁnite number of EPs and limit cycles, being suitable for bifurcation
+analyses.
+
+]i was ﬁxed at 140 mM. The degenerate system with the ﬁxed [K
+
+1
+
+1
+
+1
+
+Pacemaking in IK1-Downregulated Myocytes
+
+2869
+
+FIGURE 2 Kinetics of IKr (top) and IKs (bottom). (Left, middle) Voltage dependence of steady-state probabilities and time constants of IKr activation (pa,N,
+tpa) and inactivation (pi,N) as well as IKs activation (nN, tn). The thick lines are for this study (PM); the thin lines are from the existing models (PB, TNNP,
+CRN). The experimental data for pa,N, t
+pa, and nN are from Li et al. (24) (circles) and Wang et al. (25) (squares). (Right) Computed voltage-clamp records for
+IKr and IKs. Currents were elicited by 3-s step pulses from a holding potential of ÿ60 mV to test potentials ranging from ÿ50 to 150 mV in 10 mV increments.
+
+Determination and validation of model
+HVM dynamics
+
+Numerical methods for dynamic simulations of
+HVM behaviors
+
+Dynamic behaviors of the model HVM were determined by solving a system
+of nonlinear ordinary differential equations numerically. Numerical integra-
+tion, as well as bifurcation analyses, were performed on Power Macintosh
+G4 computers (Apple Computer, Cupertino, CA) with MATLAB 5.2 (The
+MathWorks, Natick, MA). We used the numerical algorithms available as
+MATLAB ODE solvers: 1), a fourth-order adaptive-step Runge-Kutta algo-
+rithm which includes an automatic step-size adjustment based on an error
+estimate (37), and 2), a variable time-step numerical differentiation approach
+selected for its suitability to stiff systems (38). The former (named ode45) is
+the best function for most problems. However, the latter (named ode15s) was
+much more efﬁcient than ode45 and both solvers usually yielded nearly
+identical results. Therefore, ode15s was usually used, and ode45 was only
+sometimes used to conﬁrm the accuracy of calculations. The maximum
+relative error tolerance for the integration methods was set to 1 3 10
+
+ÿ6.
+
+Dynamic properties of the model HVM: simulated APs,
+ionic currents, and [Ca21
+The steady-state AP, sarcolemmal currents, and [Ca21
+]i transient of the
+current model paced at 1 Hz with the standard parameter values are shown in
+
+]i dynamics
+
+1
+
+Fig. 3 A. According to the report of Hund et al. (35), the stimulus current was
+assumed to carry K
+ions into the cell for charge conservation. During
+pacing, the model cell dynamics reached a steady state, with no long-term
+drift in the state variables. Steady-state values of the resting potential, max-
+imum upstroke velocity, and APD90 during 1 Hz pacing were ÿ84.9 mV,
+411 V/s, and 338 ms, respectively. The diastolic [Ca21
+]i and peak [Ca21
+]i
+transient in the model HVM paced at 1 Hz were 0.169 and 0.961 mM,
+respectively. The simulated AP parameters and [Ca21
+]i dynamics of the
+current and original HVM models are listed in Table 3, together with
+corresponding experimental data for comparison. The AP parameters and
+[Ca21
+]i dynamics of the current model appear to be in reasonable agreement
+with the mean experimental values recently determined for single HVMs, as
+well as those of the original PB and other HVM models. The values of
+[Ca21
+]up were 0.41 mM (identical) for the resting state and
+0.59–2.68 and 2.84–2.92 mM, respectively, in a steady state during 1 Hz
+pacing. These values are comparable to the experimental data from rat and
+rabbit ventricular myocytes (40,41), as well as those in the original PB
+model, although experimental values for HVMs are unknown.
+
+]rel and [Ca21
+
+Rate dependence of APD, ICa,L, [Ca21
+transients, and [Na
+
+1
+
+]i
+
+]i
+
+We also tested the rate dependence of APD (dynamic restitution), as well as
+that of the ICa,L waveform, [Ca21
+]i (Fig. 3 B). The
+steady-state values of APD90 at 0.5, 1, and 2 Hz were 369, 338, and 298 ms,
+respectively, compatible with the averaged experimental values (23,42).
+
+]i transients and [Na
+
+1
+
+Biophysical Journal 89(4) 2865–2887
+
+2870
+
+Kurata et al.
+
+FIGURE 3 Simulated dynamics of the model HVM. (A) Steady-state behaviors of the AP, underlying sarcolemmal currents, and [Ca21
+]i transient. The
+model HVM was paced at 1 Hz with 1-ms stimuli of 80 pA/pF. Differential equations (Eqs. 55–64) were numerically solved for 20 min with the initial
+]i ﬁxed at 140 mM. Model cell behavior after the last stimulus (during
+conditions appropriate to a resting state, which were determined by Eqs. 65–69 with [K
+the last AP) is depicted. (B) Rate dependence of APD, ICa,L, and [Ca21
+]i transients. The model HVM was paced at 0.5, 1, and 2 Hz with 1-ms stimuli of 80
+pA/pF. The differential equations were numerically solved for 20 min at each pacing rate; model cell behaviors after the last stimulus are depicted.
+
+1
+
+ICa,L attenuated with increasing the pacing rate as observed in the AP clamp
+]i during stimuli at 0 (resting
+experiment of Li et al. (23). The values of [Na
+state), 0.25, 0.5, 1, and 2 Hz averaged 6.14, 7.47, 8.26, 9.22, and 9.57 mM,
+respectively, comparable to experimental data (43,44).
+
+1
+
+The peak [Ca21
+
+]i transient predicted by the current model was a little
+smaller at 2 Hz than at 1 Hz. In most experiments, however, the peak [Ca21
+]i
+transient and/or developed tension increased as the pacing rate increased
+up to 2.5 Hz (45–47). This inconsistency may result from the lack of intra-
+cellular modulating factors such as those involved in the rate-dependent
+potentiation of ICa,L (48,49). Alternatively, the kinetic formulation of ICa,L
+and/or SR Ca21
+handling may be inappropriate. We found that the use of the
+tfL formula from the ten Tusscher et al. model (16) led to the successful
+reproduction of the rate-dependent increase in the peak [Ca21
+]i transient.
+Nevertheless, their t
+fL formula was not used, because it appeared not to ﬁt
+the experimental data as shown in Fig. 1 and because a very large IKs (.8
+times larger than the experimental values) was required to counteract the
+large ICa,L during phase 2 (16). In the preliminary study, BP dynamics or
+bifurcation structures of the HVM model were not essentially altered by the
+use of different formulas for ICa,L (tfL) or the change in the rate dependence
+of [Ca21
+
+]i transients.
+
+Stability and bifurcation analyses
+
+Constructing bifurcation diagrams
+
+We examined how the stability and dynamics of the model cell alter with
+changes in bifurcation parameters and constructed bifurcation diagrams for
+one or two parameters. Bifurcation parameters chosen in this study were the
+
+Biophysical Journal 89(4) 2865–2887
+
+1
+
+maximum conductance of the ionic channels (gK1, gCa,L, gKr, gKs) and
+amplitude of INaCa or Ibias; the maximum conductance and INaCa amplitude
+are expressed as normalized values, i.e., ratios to the control values.
+
+In the HVM model with the ﬁxed [K
+
+]i, 14 state variables deﬁne a 14-
+dimensional state point in the 14-dimensional state space of the system. We
+calculated EPs and periodic orbits in the state space. An EP was determined
+as a point at which the vector ﬁeld vanishes (i.e., f(x) ¼ 0); steady-state
+values of the state variables were calculated by Eqs. 65–69 (see Appendix 2).
+Asymptotic stability of the EP was also determined by computing 14 eigen-
+values of a 14 3 14 Jacobian matrix derived from the linearization of the
+nonlinear system around the EP (for more details, see Vinet and Roberge
+(7)). Periodic orbits were located with the MATLAB ODE solvers. When
+spontaneous oscillation (BP activity) appeared, the AP amplitude (APA) as a
+voltage difference between the maximum diastolic potential (MDP) and
+peak overshoot potential (POP), as well as the cycle length (CL), was de-
+termined for each calculation of a cycle. Numerical integration was con-
+tinued until the differences in both APA and CL between the newly calculated
+ÿ3 of the preceding APA and
+cycle and the preceding one became ,1 3 10
+CL values. Potential extrema (MDP, POP) and CL of the steady-state oscil-
+lation were plotted against bifurcation parameters. When periodic behavior
+was irregular or unstable, model dynamics were computed for 60 s; all
+potential extrema and CL values were then plotted in bifurcation diagrams.
+Codimension one and two bifurcations to occur in the model system were
+explored by constructing bifurcation diagrams with one and two parameters,
+respectively (10,11). For construction of one-parameter bifurcation diagrams
+in which values of a state variable at EPs or extrema of periodic orbits are
+shown as a function of one bifurcation parameter, a bifurcation parameter
+was systematically changed while keeping all other parameters at their
+
+Pacemaking in IK1-Downregulated Myocytes
+
+2871
+
+TABLE 3 AP parameters and [Ca21
+and experimentally observed values
+
+]i dynamics for single HVMs paced at 1 Hz: model-generated values
+
+[Ca21
+]o
+(mM)
+
+1
+
+[K
+]o
+(mM)
+
+1
+
+[Na
+
+]i*
+(mM)
+
+Model values
+z
+Priebe-Beuckelmann (15)
+Bernus et al. (18)
+Sachse et al. (39)
+Ten Tusscher et al. (16)
+Iyer et al. (17)
+Current (modiﬁed) model
+
+Experimental values
+Peeters et al. (90)
+Li et al. (24)
+Li et al. (42)
+Pe´re´on et al. (91), epicardium
+Pe´re´on et al. (91), midmyocardium
+Piacentino et al. (92)
+
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+
+1.2
+1.0
+2.0
+2.7
+2.7
+1.0
+
+4.0
+4.0
+4.0
+5.4
+4.0
+5.4
+
+4.0
+5.4
+5.4
+4.0
+4.0
+5.4
+
+10
+10
+10
+
+.11.5
+9.80
+9.18
+
+10
+10
+
+12.5
+
+RP
+(mV)
+ÿ91.2
+ÿ90.2
+ÿ90.4
+ÿ87.3
+ÿ90.7
+ÿ84.9
+
+ÿ84 6 6
+ÿ83 6 3
+ÿ82 6 2
+ÿ86 6 1
+ÿ86 6 1
+
+Vmax
+(V/s)
+
+385
+386
+369
+288
+350
+411
+
+APD90
+(ms)
+
+y
+
+[Ca21
+
+]i,r
+(nM)
+
+D[Ca21
+]i
+(nM)
+
+357
+357
+333
+276
+322
+338
+
+200
+400
+119
+70
+68
+169
+
+900
+0
+784
+930
+797
+792
+
+381 6 94
+336 6 16
+298 6 17
+324 6 19
+432 6 19
+
+196 6 20
+446 6 46
+
+153 6 20
+
+804 6 197
+
+1
+
+]i values during 1 Hz pacing are shown for the TNNP (16), Iyer et al. (17), and the current model; the resting state or ﬁxed value
+]i value was unknown (not shown) when the
+
+1
+
+*The steady-state mean [Na
+is shown for others. The experimental values were for the perforated- or ruptured-patch recording. A [Na
+conventional microelectrode method was used.
+y
+Minimum [Ca21
+z
+Data for AP parameters are from Table 3 of Bernus et al. (18). The values of [Ca21
+Abbreviations: RP, resting potential; Vmax, maximum upstroke velocity.
+
+]i values during the diastolic phase, i.e., [Ca21
+
+]i values at the end of phase 4.
+
+]i,r (200) and D[Ca21
+
+]i (900) are only approximations from the original ﬁgures.
+
+standard values. The membrane potential (V) at EPs (steady-state branches)
+and local potential extrema of periodic orbits (periodic branches) were
+determined and plotted for each value of the bifurcation parameter. The
+saddle-node bifurcation point at which two EPs coalesce and disappear was
+determined as a point at which the steady-state current-voltage (I/V) curve
+and zero-current axis come in touch with each other. The Hopf bifurcation
+point at which the stability of an EP reverses was also detected by the
+stability analysis as described above. For construction of two-parameter
+bifurcation diagrams in which codimension one bifurcation points are
+plotted in a parameter plane, the secondary parameter was systematically
+changed with the primary parameter ﬁxed at various different values. The
+path of saddle-node and Hopf bifurcation points was traced in the parameter
+plane; i.e., bifurcation values for the secondary parameter were plotted as
+a function of the primary parameter.
+
+system A is considered structurally more stable than system B when the
+amplitude of Ibias required for stabilizing an EP or causing a bifurcation to
+quiescence is greater in system A than in system B (11). Thus, the larger the
+unstable Ibias range over which limit cycles continue is, the more structurally
+stable the system is.
+The Hopf and saddle-node bifurcation points, as well as the control V0 at
+Ibias ¼ 0, in the Ibias-V0 curve were determined as functions of bifurcation
+parameters and plotted on both the potential and current coordinates, as in
+previous studies (7,11). Exploring how the unstable V0 and Ibias regions
+change with decreasing or increasing the sarcolemmal currents would enable
+us to determine the contribution of each current to the structural stability of
+the BP system to hyperpolarizing or depolarizing loads, as well as to EP
+instability itself, which is evaluated by positive real parts of eigenvalues of
+Jacobian matrices (see Fig. 4 of Kurata et al. (11)).
+
+Deﬁnition and evaluation of structural stability for
+the BP system
+
+We also evaluated the structural stability of the BP system, which is deﬁned
+as the robustness of pacemaker activity to various interventions or modi-
+ﬁcations that may cause a bifurcation to quiescence or irregular dynamics
+(11). Interventions or modiﬁcations leading to quiescence or irregular
+dynamics include injections of Ibias, electrotonic loads of normal HVMs,
+current leakage via myocardial injury, and intrinsic changes in channel
+conductance or gating kinetics. In this study, the structural stability of the BP
+system was tested for hyperpolarizing and depolarizing loads by exploring
+bifurcation structures during applications of Ibias.
+
+The way of evaluating the structural stability to Ibias is essentially the
+same as in our previous study for the SA node pacemaker (11). Changes in
+V0 and its stability with Ibias applications were depicted as the Ibias-V0 curve
+(for more details, see Fig. 1 of Kurata et al. (11)). There are one or two Hopf
+bifurcation points and two saddle-node bifurcation points corresponding to
+the current exrema in the Ibias-V0 curve. In the unstable Ibias region between
+two Hopf (or a Hopf and saddle-node) bifurcation points, the system has an
+unstable EP only, usually exhibiting stable limit cycles without annihilation
+(6,8). When the system removes to the stable Ibias region, it would come to
+rest at the stable EP via gradual decline of limit cycles, annihilation, or
+irregular dynamics, as reported by Guevara and Jongsma (8). Note that
+
+Deﬁnitions of terms speciﬁc to nonlinear
+dynamics and bifurcation theory
+
+Autonomous system
+
+An nth-order ‘‘autonomous’’ continuous-time dynamical system is deﬁned
+by the state equation dx/dt ¼ f(x), where the vector ﬁeld f, a smooth function
+of the state variable x ¼ x(t), does not depend on time, but depends only on
+the state variable x (13).
+
+Nonautonomous system
+
+An nth-order ‘‘nonautonomous’’ continuous-time dynamical system is
+deﬁned by the state equation dx/dt ¼ f(x, t), where the vector ﬁeld f depends
+on time, i.e., explicitly contains time t (13).
+
+EP
+
+A time-independent steady-state point at which the vector ﬁeld vanishes
+(i.e., dx/dt ¼ 0) in the state space of an autonomous system, constructing the
+steady-state branch in one-parameter bifurcation diagrams. This state point
+corresponds to the zero-current crossing in the steady-state I/V curve, i.e.,
+a quiescent state of a cell if it is stable.
+
+Biophysical Journal 89(4) 2865–2887
+
+2872
+
+Periodic orbit
+
+A closed trajectory in the state space of a system, constructing the periodic
+branch in one-parameter bifurcation diagrams.
+
+Limit cycle
+
+A periodic limit set onto which a trajectory is asymptotically attracted in an
+autonomous system. A stable limit cycle corresponds to an oscillatory state,
+i.e., pacemaker activity, of a cell.
+
+Bifurcation
+
+A qualitative change in a solution of differential equations caused by altering
+parameters, e.g., a change in the number of EPs or periodic orbits, a change
+in the stability of an EP or periodic orbit, and a transition from a periodic to
+quiescent state. Bifurcation phenomena we can see in cardiac myocytes
+include a generation or cessation of pacemaker activity and occurrence of
+irregular dynamics such as skipped-beat runs and early afterdepolarizations.
+
+Hopf bifurcation
+
+This is a bifurcation at which the stability of an EP reverses with emergence
+or disappearance of a limit cycle, occurring when eigenvalues of a Jacobian
+matrix for the EP have a single complex conjugate pair and its real part
+reverses the sign through zero.
+
+Saddle-node bifurcation
+
+This is a bifurcation at which two EPs (steady-state branches) or two periodic
+solutions (periodic branches) emerge or disappear. The saddle-node bi-
+furcation of EPs occurs when one of eigenvalues of a Jacobian matrix is zero.
+
+Codimension
+
+The codimension of a bifurcation is the minimum dimension of the param-
+eter space in which the bifurcation may occur in a persistent way (12,50). In
+other words, the codimension is the number of independent conditions
+determining the bifurcation (14). A bifurcation with codimension one is a
+point in one-parameter bifurcation diagrams such as Fig. 6 or a line in two-
+parameter bifurcation diagrams such as Fig. 7, whereas a bifurcation with
+codimension two is a point in the two-parameter space.
+
+RESULTS
+BP generation in IK1-downregulated HVM
+
+BP activity appears in model HVM during IK1 suppression
+
+We ﬁrst examined whether IK1 downregulation leads to BP
+generation in the model HVM by decreasing gK1 at an interval
+of 0.01 (1%). Spontaneous oscillations (BP activity) abruptly
+appeared when gK1 was reduced to 0.15 (15%). Fig. 4 shows
+the simulated BP activity of the IK1-downregulated HVM
+with gK1 of 0.15 or 0, depicting the membrane potential
+oscillations, underlying sarcolemmal currents, and [Ca21
+]i
+transients in steady state. The values of MDP, POP, APA, CL,
+and maximum upstroke velocity were determined for the BP
+oscillations at each gK1 value. The simulated AP parameters
+are listed in Table 4, together with the data from the guinea pig
+ventricle (3) and rabbit SA node (51) models, as well as from
+]i
+real BP systems (1,52), for comparison. The average [Na
+during the BP oscillations at gK1 of 0.15 and 0 were 6.55 and
+6.42 mM, respectively. Decreasing gK1 caused the decrease of
+
+1
+
+Biophysical Journal 89(4) 2865–2887
+
+Kurata et al.
+
+FIGURE 4 Simulated steady-state BP activities (spontaneous APs, ionic
+]i dynamics) in the model HVM at gK1 ¼ 0.15 (left) and
+currents, and [Ca21
+0 (right). Differential equations (Eqs. 55–63) were numerically solved for 20
+min at each gK1 with initial conditions appropriate to an EP and a 1-ms
+stimulus of 1 pA/pF for triggering an AP; model cell behaviors during the
+last 2.5 s starting from MDP are depicted. Note the differences in the
+ordinate scales for individual currents.
+
+Pacemaking in IK1-Downregulated Myocytes
+
+TABLE 4 AP parameters for pacemaker systems: Model-generated values and experimental values
+
+Normalized gK1
+
+MDP (mV)
+
+POP (mV)
+
+APA (mV)
+
+CL (ms)
+
+Model values
+Silva and Rudy (3)*
+
+This study
+
+Kurata et al. (51)
+
+y
+
+Experimental values
+Miake et al. (1)*
+Plotnikov et al. (52)
+
+z
+
+0.19
+0
+0.15
+0.10
+0
+0
+
+0.20
+
+ÿ67.3
+ÿ61.9
+ÿ54.3
+ÿ47.9
+ÿ58.6
+
+ÿ60.7
+
+*Data from the model and real guinea pig ventricular myocytes.
+y
+z
+
+Primary pacemaker model for the rabbit SA node.
+Data for Purkinje myocytes expressing Ih (HCN2) in the canine left ventricle.
+
+132.7
+131.6
+129.8
+116.6
+
+94.7
+86.0
+77.7
+75.2
+
+594
+366
+1117
+938
+795
+308
+
+600
+1091
+
+2873
+
+Vmax (V 3 s
+
+ÿ1)
+
+15
+
+3.2
+2.8
+2.3
+6.4
+
+1
+
+]i, and decrease of [Na
+
+APA with depolarization of MDP, decrease of CL, increase of
+[Ca21
+]i. Consistent with the result
+from the guinea pig ventricular model (3), INaCa was the
+dominant inward current during phase 4 depolarization in the
+HVM pacemaking. In contrast, ICa,L was very small during
+the early phase of the depolarization, although predominantly
+contributing to phase 0 upstroke. INa was also very small due to
+the voltage-dependent inactivation.
+
+Ionic basis of phase 4 depolarization in simulated BP activity
+
+Before investigating the dynamical mechanisms of BP gen-
+eration via bifurcation analyses of the HVM model, we
+examined the ionic basis of phase 4 depolarization of the BP
+activity. The contributions of IKr and IKs deactivation, as well as
+individual inward currents (ICa,L, INa, INaCa, INa,b, ICa,b), to the
+pacemaker depolarization were assessed by the conventional
+freezing and blocking methods (53–55). Phase 4 depolarization
+of the IK1-reduced BP system disappeared on clamping IKr
+deactivation (gating variable pa) at the time of MDP, but not on
+clamping IKs deactivation (gating variable n). Thus, the gKr-
+decay theory for the natural SA node pacemaker (53–55)
+appears to be applicable to the HVM pacemaker as well.
+Removal of ICa,L at the time of MDP little altered the initial
+phase of pacemaker depolarization, although reducing the rate
+of the later phase depolarization with cessation of BP activity.
+Eliminating INa did not signiﬁcantly affect BP oscillations.
+Furthermore, in the IK1-removed system, eliminating INaCa (the
+most dominant pacemaker current) at the MDP abolished phase
+4 depolarization, leading to cessation of BP activity, whereas
+the removal of INa,b (the second dominant pacemaker current)
+or ICa,b only reduced the depolarization rate.
+
+Bifurcation structure of HVM system during
+IK1 suppression
+BP activity abruptly appears around unstable EP via
+saddle-node bifurcation
+
+To elucidate the dynamical mechanisms of BP generation,
+we explored EP stability, dynamics, and bifurcation struc-
+
+1
+
+]i and [Na
+
+]i, and average [Na
+
+tures of the HVM system during IK1 suppression by con-
+structing bifurcation diagrams for gK1. As shown in Fig. 5,
+the zero-current potential in the steady-state I/V curve, as
+well as steady-state [Ca21
+]i, was plotted as
+a function of gK1; when BP activity appeared, AP parameters
+(MDP, POP, CL), extrema of [Ca21
+1
+]i
+were also plotted. There are three EPs corresponding to the
+zero-current crossings of the I/V curve in the state space of
+the system at gK1 ¼ 1 (denoted as EP1, EP2, and EP3). The
+stability analysis revealed that EP1 with the most depolarized
+potential as well as EP2 is unstable, whereas EP3 with the
+most negative potential corresponding to the resting state is
+stable. The zero-current potential at EP3 positively shifted
+with decreasing gK1; the stable EP3 (and EP2) disappeared
+via a saddle-node bifurcation when gK1 reduced to 0.154.
+After
+the system has only one EP at
+depolarized potentials (EP1), which is always unstable, not
+stabilized during gK1 decreases. Limit cycles (BP oscilla-
+tions) abruptly emerged around the unstable EP1 on
+occurrence of the saddle-node bifurcation, with APA and
+CL gradually decreasing during further reductions in gK1.
+
+the bifurcation,
+
+Decrease in [Na
+
+1
+
+]i accelerates BP generation
+
+1
+
+1
+
+inﬂux via the Na
+
+The steady-state [Na
+]i, 6.14 mM in the control resting state
+(at gK1 ¼ 1), reduced as gK1 decreased, reaching 4.64 mM just
+before the saddle-node bifurcation at gK1 ¼ 0.154 (see Fig. 5,
+]i during IK1 suppression
+right bottom). This reduction in [Na
+1
+1
+1
+efﬂux via the Na
+-K
+was due to the enhancement of Na
+/Ca21
+1
+1
+pump, as well as decrease of Na
+exchanger and INa,b, with resting potential depolarization. To
+]i decrease affects BP generation, we
+determine how the [Na
+constructed bifurcation diagrams for gK1 using the reduced
+]i ﬁxed at the control value of 6.14 mM or
+system with [Na
+critical value of 4.64 mM (data not shown). The critical gK1 at
+which BP activity emerges via a saddle-node bifurcation was
+]i of 4.64 mM
+larger in the system with the reduced [Na
+(0.153) than with the control [Na
+]i of 6.14 mM (0.117),
+]i reduction facilitates BP generation
+suggesting that the [Na
+during IK1 suppression.
+
+1
+
+1
+
+1
+
+1
+
+1
+
+Biophysical Journal 89(4) 2865–2887
+
+2874
+
+Kurata et al.
+
+1
+
+FIGURE 5 Bifurcation structure of the model HVM during gK1 decreases. (Left) Steady-state I/V relations for gK1 ¼ 0 ÿ 1, depicted at an interval of 0.1 with
+]i ﬁxed at 140 mM. The zero-current crossings, corresponding to EPs, are designated by EP1, EP2, and EP3. (Middle) A bifurcation diagram for gK1 with
+[K
+the steady-state (EP1–3) and stable periodic (MDP, POP) branches (top), and CL plotted as a function of gK1 (bottom). EPs were determined by the algebraic
+equations (Eqs. 65–69). The model cell dynamics were computed by numerically solving the differential equations (Eqs. 55–63) for 10 min at each gK1, which
+]i at gK1 ¼ 1 set equal to 6.14 mM. The saddle-node bifurcation point at which EP2 and EP3 merge
+was reduced at an interval of 0.001, with the initial [Na
+together and disappear is located (labeled SNB at gK1 ¼ 0.154). (Right) Steady-state [Ca21
+]i (bottom) at EPs as functions of gK1. The minimum
+(Min) and maximum (Max) of [Ca21
+]i at EP3 reduces
+with decreasing gK1.
+
+]i, during the BP oscillations are also plotted. Note that the steady-state [Na
+
+]i, as well as average [Na
+
+]i (top) and [Na
+
+1
+
+1
+
+1
+
+1
+
+Ionic bases of EP instability and BP generation
+in IK1-downregulated HVM
+
+Instability of the EP at depolarized potentials (EP1) appears
+to be essentially important for BP generation. To elucidate
+the ionic mechanisms of EP instability and BP generation,
+therefore, we further explored how modulating individual
+sarcolemmal currents or [Ca21
+]i transients affects EP sta-
+bility, oscillation dynamics, and bifurcation structures of the
+BP system. We focused on ICa,L, IK, and INaCa, which appear
+to be essentially important for BP generation.
+
+Inﬂuences of blocking ICa,L or IK on stability and dynamics
+of the BP system
+
+Fig. 6 shows the effects of reducing the maximum conduc-
+tance of ICa,L (gCa,L), IKr (gKr), or IKs (gKs) on EP stability and
+BP dynamics of the IK1-removed system. The zero-current
+potential (EP1) negatively shifted with decreasing gCa,L; the
+EP became stable via a Hopf bifurcation when gCa,L was
+reduced by 86.6%. During the gCa,L decreases, a limit cycle
+(BP oscillation) gradually contracted in size and ﬁnally
+disappeared at the Hopf bifurcation point. In contrast, a Hopf
+
+Biophysical Journal 89(4) 2865–2887
+
+bifurcation to abolish BP activity did not occur during de-
+creases in gKr or gKs, although APA signiﬁcantly reduced
+with decreasing gKr. Spontaneous oscillation continued even
+when IKr or IKs was completely blocked, whereas it was
+abolished by eliminating both IKr and IKs.
+
+As shown in Fig. 7, we also examined the effects of
+blocking ICa,L, IKr, or IKs on the unstable V0 and Ibias regions
+in the Ibias-V0 curve for further clarifying the contributions of
+the individual currents to EP instability and structural sta-
+bility to depolarizing or hyperpolarizing loads of the BP
+system. Hopf and saddle-node bifurcation points in the Ibias-
+V0 curve determined with decreasing conductance values
+were plotted on the potential and current coordinates to
+display how blocking each current shrinks the unstable
+ranges where BP oscillations occur (for more details, see
+Theory and Methods). The more prominent shrinkage in the
+unstable V0 region is, the greater the contribution of the
+current to EP instability is; the more prominent shrinkage in
+the unstable Ibias region is, the greater the contribution to the
+robustness to depolarizing or hyperpolarizing loads is. The
+unstable regions, shrinking with decreases in gCa,L, dis-
+appeared via a codimension two saddle-node bifurcation at
+
+Pacemaking in IK1-Downregulated Myocytes
+
+2875
+
+FIGURE 6 EP stability and BP dynamics of the IK1-removed system during inhibition of ICa,L, IKr, or IKs. (Top) Steady-state I/V relations for gCa,L ¼ 0 ÿ 1
+(left), gKr ¼ 0 ÿ 1 (middle), and gKs ¼ 0 ÿ 1 (right), depicted at an interval of 0.2. (Middle, bottom) Bifurcation diagrams with the steady-state (EP1) and stable
+periodic (MDP, POP) branches (middle), as well as CL (bottom), are shown as functions of gCa,L, gKr, or gKs, which was reduced at an interval of 0.001. The
+differential equations were numerically solved for 2–3 min at each conductance value. A Hopf bifurcation occurred at gCa,L ¼ 0.134 (labeled HB), with the loci
+of MDP and POP converging at the bifurcation point.
+
+a 87.4% reduction of gCa,L. Pacemaker activity never ap-
+peared in the system with gCa,L reduced to less than the saddle-
+node bifurcation value. In contrast, reducing gKr or gKs little
+affected the unstable V0 range, eigenvalues of Jacobian
+matrices at V0 being not signiﬁcantly altered. The unstable
+Ibias region shrunk with decreasing gKr or gKs, though it did
+not disappear even when IKr or IKs was completely blocked;
+the robustness to depolarizing Ibias was attenuated by decreas-
+ing gKr or gKs.
+
+Effects of incorporating various K
+and automaticity of an IK-removed system
+
+1
+
+currents on stability
+
+The results shown in Figs. 6 and 7 suggest that IKr or IKs
+contributes little to the instability of the EP leading to the
+generation of spontaneous oscillations. To elucidate the roles
+of IKr and IKs in the HVM pacemaking, we tested how the
+stability and dynamics of the reduced BP system not includ-
+ing either IKr or IKs are affected by incorporating different
+currents. Both IKr and IKs were ﬁrst removed from the
+K
+
+1
+
+Biophysical Journal 89(4) 2865–2887
+
+2876
+
+Kurata et al.
+
+FIGURE 7 Changes in the unstable regions of the Ibias-V0 curve during inhibition of ICa,L, IKr, or IKs. Displacements of Hopf (H1, H2) and saddle-node (SN1,
+SN2) bifurcation points in the Ibias-V0 curve with decreasing gCa,L, gKr, or gKs at an interval of 0.001 are shown for the IK1-removed BP system. Values of V0 and
+Ibias at the bifurcation points were plotted on the potential (top) and current (bottom) coordinates, respectively, as functions of the conductance. The path of the
+control V0 at Ibias ¼ 0 (i.e., EP1 in Fig. 6) is also shown on the potential coordinates, intersecting the locus of H2 at gCa,L ¼ 0.134 (labeled HB). Note that the
+unstable region exists between H1 and H2 (or H1 and SN2), where spontaneous oscillations occur. A codimension two saddle-node bifurcation at which the loci
+of H1 and H2 merge together, i.e., the unstable region disappears occurred at gCa,L ¼ 0.126 (labeled SNc2).
+
+1
+
+1
+
+1
+
+standard IK1-eliminated BP system, and the background K
+current of linear I/V relation (IK,b) or the original IKr or IKs
+(one of the three) was then incorporated. Eliminating both IKr
+and IKs abolished BP activity, with the model cell coming to
+a rest at a stable zero-current potential of 116.15 mV. Fig. 8
+shows how EP stability and automaticity of the reduced
+current conductance
+system change with increasing the K
+conductance increased, the
+up to 10–50 pS/pF. As the K
+zero-current potential was negatively shifted and eventually
+destabilized via a Hopf bifurcation, with limit cycles
+emerging at the bifurcation. It should be noted that all the
+currents, including IK,b, could individually create an
+K
+unstable EP and induce spontaneous oscillations. However,
+IK,b, the effect of which was very similar to the electrotonic
+inﬂuence of the adjacent normal HVM in a coupled-cell
+system (data not shown), produced the oscillation of rela-
+tively small amplitude and low upstroke velocity, as well as
+unstable CL and irregular dynamics. The IK,b conductance
+(gK,b) range where an EP is unstable and spontaneous
+oscillations occur was very limited, with further increases in
+gK,b leading to quiescence via emergence of a stable EP. In
+contrast, IKr could yield the large amplitude oscillation with
+
+1
+
+Biophysical Journal 89(4) 2865–2887
+
+1
+
+relatively high upstroke velocity and stable CL; however, IKr
+caused irregular dynamics at higher gKr values (.31.5 pS/
+pF), whereas IKs did not.
+
+1
+
+We further examined how incorporating the K
+
+currents
+affects the structural stability of the reduced model to depo-
+larizing or hyperpolarizing loads. The unstable regions in the
+Ibias-V0 curve were determined for individual K
+currents
+with the conductance increased up to 50 pS/pF (data not
+shown). Note that the structural stability to hyperpolarizing
+or depolarizing loads is considered as improved when the
+unstable Ibias region is enlarged, i.e., when larger Ibias is
+required to cause a bifurcation to quiescence. The results are
+summarized as follows: 1), Increasing IKr (gKr) continuously
+enlarged the unstable Ibias region, sufﬁciently improving the
+structural stability to depolarizing Ibias; 2), IKs could also
+enlarge the unstable Ibias region, but did not improve the
+structural stability as efﬁciently as IKr; and 3), IK,b could not
+enlarge the Ibias region of instability; with increasing gK,b, the
+unstable regions shrunk and ﬁnally disappeared via a codi-
+mension two saddle-node bifurcation. These ﬁndings are
+essentially the same as those reported for the SA node
+pacemaker (see Fig. 9 of Kurata et al. (11)).
+
+Pacemaking in IK1-Downregulated Myocytes
+
+2877
+
+1
+
+currents with different kinetics (IK,b, IKr, or IKs) on EP stability and dynamics of the IK-removed model cell
+FIGURE 8 Effects of incorporating various K
+(gK1 ¼ 0). (Top) Steady-state I/V relations for gK,b ¼ 0–10 pS/pF (left), gKr ¼ 0–50 pS/pF (middle), and gKs ¼ 0–50 pS/pF (right), depicted at an interval of 1 or
+5 pS/pF. (Middle, bottom) Oscillatory behaviors, as well as zero-current potentials and their stability, of the model system, calculated during increases in gK,b,
+gKr, or gKs at an interval of 0.01–0.1 pS/pF. Bifurcation diagrams with the steady-state (EP1–3) and periodic (MDP, POP) branches, as well as Hopf
+bifurcation (HB) and saddle-node bifurcation (SNB) points, were constructed for gK,b, gKr, or gKs (middle). Maximum upstroke velocity (Vmax) and CL of the
+potential oscillations were also plotted against gK,b, gKr, or gKs (bottom). The vertical lines for IKr and IKs represent the standard values of gKr (12 pS/pF) and gKs
+(36 pS/pF). The symbol ‘‘ID’’ designates the irregular dynamics.
+
+Biophysical Journal 89(4) 2865–2887
+
+2878
+
+Kurata et al.
+
+]i transients on the
+
+Inﬂuences of blocking INaCa or [Ca21
+stability and dynamics of the BP system
+SR Ca21
+]i transients, and activation of INaCa
+possibly play an important role in the generation and regu-
+lation of BP activity; as in the guinea pig ventricular
+pacemaking (3), INaCa was the dominant pacemaker current
+
+release, [Ca21
+
+in the HVM pacemaking (Fig. 4). We therefore assessed the
+contributions of INaCa and [Ca21
+re-
+lease) to the EP instability and oscillation dynamics of the
+BP system by decreasing INaCa and/or clamping [Ca21
+]i. As
+shown in Fig. 9 (left), BP oscillation ceased via a Hopf
+bifurcation when INaCa was reduced by 99.44% in the
+
+]i transients (SR Ca21
+
+FIGURE 9 EP stability and BP dy-
+the IK1-removed system
+namics of
+during INaCa inhibition, determined for
+the unmodiﬁed system (left) and the
+modiﬁed system in which fCa was ﬁxed
+]i ¼ 0.5
+at 0.412, the value for [Ca21
+mM (middle), or [Ca21
+]i itself was ﬁxed
+at 0.5 mM (right). The amplitude of
+INaCa as a ratio to the control value was
+decreased from 1 (control) to 0.001
+(0.1%); practically, the log(INaCa) value
+was reduced from 0 (INaCa ¼ 1) to ÿ3
+(INaCa ¼ 1 3 10
+ÿ3) at an interval of
+0.01. The zero-current potential (EP1)
+and BP dynamics (MDP, POP, CL), as
+well as the minimum (Min) and maxi-
+mum (Max) of [Ca21
+]i and minimum
+values of the inward currents (ICa,L,
+INaCa, INa,b, ICa,b), are plotted as func-
+tions of log(INaCa). Note that a Hopf
+bifurcation to abolish BP activity oc-
+curred only in the unmodiﬁed system
+(HB at INaCa ¼ 0.0056).
+
+Biophysical Journal 89(4) 2865–2887
+
+Pacemaking in IK1-Downregulated Myocytes
+
+]i or Ca21
+
+IK1-removed system. However, this may be due to the Ca21
+-
+dependent inactivation of ICa,L after the induction of Ca21
+-
+overload conditions, rather than the decrease of INaCa itself.
+Therefore, we further tested the stability and dynamics dur-
+ing INaCa inhibition of the modiﬁed BP system for which
+[Ca21
+-dependent ICa,L inactivation (fCa) was ﬁxed
+at a control value. In the modiﬁed systems, inhibition of
+INaCa caused neither EP stabilization nor BP cessation, with
+ICa,L being not attenuated, although INaCa was still
+the
+in control (Fig. 9, middle,
+dominant pacemaker current
+right). Eliminating [Ca21
+]i transients or blocking SR Ca21
+release little altered BP dynamics.
+
+We also examined the contributions of INaCa or [Ca21
+]i
+dynamics to the EP instability and structural stability to
+depolarizing or hyperpolarizing loads of the BP system by
+determining the unstable regions in the Ibias-V0 curve during
+decreases in INaCa or [Ca21
+]i transients. As shown in Fig. 10
+(left), inhibition of INaCa signiﬁcantly shrunk the unstable
+regions, though a codimension two saddle-node bifurcation
+did not occur. When [Ca21
+]i or fCa was ﬁxed at the control
+value, however, the unstable regions did not shrink during
+INaCa reduction (Fig. 10, middle, right). The inﬂuences of
+
+eliminating [Ca21
+on the unstable regions were very small.
+
+]i transients or blocking SR Ca21
+
+2879
+
+release
+
+DISCUSSION
+
+Mechanisms of BP generation in
+IK1-downregulated HVM
+
+Nonlinear dynamical aspects of BP generation
+
+This study shows that pacemaker activity appears in the
+IK1-downregulated HVM system via a saddle-node bifurca-
+tion (disappearance of a stable EP) or Hopf bifurcation
+(destabilization of an EP) and that the instability of an EP at
+depolarized potentials underlies the stable HVM pacemak-
+ing. The term ‘‘mechanisms of pacemaker generation’’ is
+usually interpreted as meaning how individual sarcolemmal
+currents drive or contribute to phase 4 depolarization. From
+the viewpoint of the nonlinear dynamics and bifurcation
+theory, however, ‘‘EP instability’’ seems to be most impor-
+tant for the generation of robust pacemaking: if the system
+has a stable EP, it will be quiescent at the stable EP or in a
+bistable zone where stable steady states and periodic states
+
+FIGURE 10 Changes in the unstable regions of the Ibias-V0 curve during INaCa suppression in the IK1-removed systems. Displacements of the bifurcation
+points (H1–2, SN1–2), as well as the control V0 at Ibias ¼ 0 (EP1), in the Ibias-V0 curve with decreasing INaCa are shown for the unmodiﬁed system (left) and the
+modiﬁed system with fCa ﬁxed at the value for [Ca21
+]i itself ﬁxed at 0.5 mM (right). The log(INaCa) value was reduced from 0 to
+ÿ3 at an interval of 0.01. As in Fig. 7, values of V0 and Ibias at the bifurcation points are plotted on both the potential (top) and current (bottom) coordinates as
+functions of log(INaCa). In the unmodiﬁed system, the path of EP1 intersected the locus of H2 at INaCa ¼ 0.0056 (labeled HB).
+
+]i ¼ 0.5 mM (middle) or [Ca21
+
+Biophysical Journal 89(4) 2865–2887
+
+2880
+
+Kurata et al.
+
+coexist and thus annihilation occurs (for details on bistability
+and annihilation, see Landau et al. (6) and Guevara and
+Jongsma (8)). When considering the pacemaker mecha-
+nisms, therefore, one must elucidate the ionic mechanism of
+EP destabilization, which may be different from that of phase
+4 depolarization. In the HVM pacemaker, ICa,L is responsible
+for EP instability, whereas INaCa as well as IKr deactivation
+most contributes to phase 4 depolarization. Our study also
+suggests that the question ‘‘which current is dominant dur-
+ing phase 4’’ is relevant to the ionic mechanism not for
+EP instability as a requisite to stable pacemaking, but for
+the regulation of the destabilization rate (Figs. 4, 9, and
+10). These viewpoints would be important particularly for
+engineering of functional BP cells to exhibit robust pace-
+making.
+
+It should be noted that the EP with the most depolarized
+potential (EP1) is always unstable, not stabilized during IK1
+suppression (Fig. 5). The saddle-node bifurcation may also
+be yielded by increasing inward currents such as INa,b or
+ICa,b. Nevertheless, increasing the inward currents would not
+lead to BP generation, because the positively shifted EP1
+becomes stable via a Hopf bifurcation, resulting in an arrest
+at depolarized potentials. Another approach to create a BP
+cell may be overexpression of the hyperpolarization-acti-
+vated current (Ih), which has been reported to induce BP
+activity in canine atrial or Purkinje myocytes (52,56). How-
+ever, incorporating Ih did not cause a saddle-node bifurcation
+nor BP generation in the HVM model with normal IK1,
+although accelerating BP generation during IK1 suppression
+via shifting the saddle-node bifurcation point toward higher
+gK1 values (data not shown). This discrepancy is at least in
+part due to the difference in IK1 density, which is much
+higher in ventricular cells than in atrial or Purkinje cells
+(56,57). These ﬁndings suggest that IK1 downregulation,
+ensuring both the occurrence of a saddle-node bifurcation
+and instability of EP1, is necessary and sufﬁcient for con-
+structing BP cells from HVMs.
+
+Roles of individual sarcolemmal currents in
+HVM pacemaking
+
+ICa,L
+
+ICa,L contributes little to the initial phase of pacemaker
+depolarization, although it contributes signiﬁcantly to the
+terminal phase of the depolarization as well as to phase 0
+upstroke (Fig. 4). Nevertheless, ICa,L appears to be in-
+dispensable for the HVM pacemaking in that it is responsible
+for EP instability as a requisite to stable pacemaking (Figs. 7
+and 8). The Ca21
+channel responsible for ICa,L in the current
+model and original ventricular or SA node models cor-
+responds to the high voltage-activated subtype (C-LTCC)
+formed by an a1C subunit (Cav1.2), which is a major
+component in the heart of mouse or other species (58–60).
+However, the low voltage-activated subtype (D-LTCC), the
+
+Biophysical Journal 89(4) 2865–2887
+
+a-subunit of which is a
+1D (Cav1.3), activating at the pace-
+maker potential range, has recently been reported to con-
+tribute to phase 4 depolarization in the mouse SA node
+(61–63) and possibly in the rabbit SA node as well (64).
+Nevertheless, it is unlikely that D-LTCC plays an important
+role in the ventricular pacemaking, because Cav1.3 m-RNA
+is not present in the mouse or human ventricle (58,63).
+
+IK
+
+In contrast to ICa,L, IKr or IKs was suggested to be inessential
+for EP destabilization leading to spontaneous activity, because
+1), eliminating IKr and/or IKs did not signiﬁcantly attenuate
+the EP instability as evaluated by positive real parts of ei-
+genvalues of Jacobian matrices, little shrinking the unstable
+V0 region in the Ibias-V0 curve (Fig. 7); and 2), the IK-
+in control (at gK ¼ 0),
+removed BP system, quiescent
+resumed automaticity when an EP was destabilized by in-
+corporation of IK,b (Fig. 8) or electrotonic inﬂuences of ad-
+jacent normal HVMs (data not shown). Although IKr or IKs is
+not necessarily required for the generation of spontaneous
+currents appear to play pivotal roles in
+oscillations, the K
+the modulation of BP dynamics. As suggested by Fig. 8, IK
+would be necessary for the BP generation with large am-
+plitude, high upstroke velocity, and stable frequency. Decreas-
+ing IKr or IKs shrunk the unstable Ibias region in the Ibias-V0
+curve, i.e., it attenuated the structural stability to depolarizing
+conductance region,
+loads of the BP system (Fig. 7). The K
+as well as the Ibias region, where EPs are unstable and thus
+spontaneous oscillations occur, was much larger for the
+IK-incorporated system than for the IK,b-incorporated system
+(Fig. 8). Therefore, IK may also contribute to the robust
+maintenance of BP activity, i.e., prevention of a bifurcation
+to quiescence.
+
+1
+
+1
+
+INaCa
+
+buffering or tentative electroneutral Ca21
+
+As in the guinea pig ventricular pacemaking (3), INaCa was
+suggested to be the dominant pacemaker current in the HVM
+pacemaking, with its removal leading to cessation of BP
+activity via a Hopf bifurcation (Figs. 4 and 9). However, the
+stabilization of an EP and cessation of BP activity during
+INaCa decreases appear to be a consequence of the Ca21
+-
+dependent inactivation of ICa,L, rather than the INaCa decrease
+itself: when fCa was ﬁxed or when [Ca21
+]i was kept low by
+rapid Ca21
+trans-
+port, BP activity did not cease, being quite stable, during
+INaCa suppression (Fig. 9). It is also suggested that INaCa is
+not required for the destabilization of an EP or generation
+of spontaneous oscillations (Fig. 10). Thus, the major role of
+INaCa would be the maintenance of relatively low [Ca21
+]i to
+prevent Ca21
+inactivation of ICa,L as well as
+cellular remodeling under Ca21
+-overload conditions, rather
+than the contribution to phase 4 depolarization as a pace-
+/Ca21
+maker current. In all existing heart models, the Na
+exchanger is assumed to mediate only the current INaCa via
+
+-dependent
+
+1
+
+Pacemaking in IK1-Downregulated Myocytes
+
+2881
+
+1
+
+:1Ca21
+
+1
+
+the 3Na
+transport mode. However, it is also reported
+to carry a signiﬁcant part of INa,b via the Na
+-conducting
+mode (65,66). The background inward current INa,b is the
+second dominant pacemaker current in the HVM model and
+the most dominant pacemaker current in most SA node
+exchanger may also con-
+models (51). Thus, the Na
+tribute to pacemaker depolarization by generating INa,b.
+
+/Ca21
+
+1
+
+Comparisons of HVM pacemaker with other
+pacemaker systems
+
+Conditions for BP generation and BP dynamics
+
+Real and model guinea pig ventricular myocytes exhibited
+spontaneous activities on 80–81% suppression of IK1 channels
+(1,3). In the HVM model, BP activity appeared when IK1 was
+suppressed by 84.6%, which is close to the critical values for
+BP generation in the guinea pig ventricle. The BP rates of the
+IK1-reduced HVM (54–75 bpm), lower than those of the real
+or model guinea pig ventricular myocytes (100–164 bpm),
+appear to be in reasonable agreement with the mean human
+heart rate under normal conditions (refer to Table 4).
+
+Pacemaker mechanisms
+
+It has been reported for the rabbit SA node primary pace-
+maker that 1), ICa,L is, but IK is not, responsible for EP
+instability leading to spontaneous oscillations (11); 2), IKr
+contributes to the robust pacemaking with large amplitude
+and stable frequency (11); 3), IKr deactivation is crucial for
+phase 4 depolarization (53–55); and 4), INa,b and INaCa are the
+predominant inward currents during phase 4 depolarization,
+with ICa,L contributing only to the terminal phase of the
+depolarization as well as to phase 0 upstroke (51,55). These
+ﬁndings for the SA node pacemaker are in good agreement
+with our conclusions for the HVM pacemaker. As mentioned
+in the preceding section, the low voltage-activated ICa,L
+mediated by D-LTCC may serve as a pacemaker current in
+the SA node pacemaking, but not in the ventricular pace-
+making (61–63). However, the knockout of D-LTCC did not
+lead to sinus arrest, but led only to sinus bradycardia and
+arrhythmias (61–63), whereas the deletion of C-LTCC caused
+fetal death (60). These ﬁndings and our study suggest that the
+roles of C-LTCC and D-LTCC in pacemaking are different:
+C-LTCC would contribute mainly to EP destabilization as a
+requisite for basal pacemaking, whereas D-LTCC is not
+necessary for basal pacemaking, rather playing a pivotal role
+in pacemaker regulation by contributing mainly to phase 4
+depolarization. Thus, the dynamical mechanism of the HVM
+pacemaking appears to be essentially the same as that of the
+basal SA node pacemaking. This consistency may reﬂect that
+cardiac myocytes, both pacemaker and nonpacemaker cells,
+in different regions or species share the common mechanism
+for the generation of basal pacemaking. Nevertheless, previ-
+ous reports suggest the regional difference in pacemaker
+
+mechanisms. Blocking ICa,L abolished spontaneous activity
+in central SA node tissues, but not in peripheral tissues
+(67,68); in the peripheral SA node, INa might contribute to
+EP destabilization and pacemaker generation. Ih is also
+suggested to play a predominant role in the subsidiary pace-
+maker mechanism (69,70). Bifurcation analyses of mathe-
+matical models for various regions or species are required for
+further investigations of the regional difference in pacemaker
+mechanisms.
+
+Because there is transmural heterogeneity of electrophys-
+iological properties of ventricular myocytes (16,18,71), one
+may also expect the transmural difference in BP mecha-
+nisms. Electrophysiological differences between epicardial,
+midmyocardial, and endocardial cells are attributable mainly
+to the differences in density and kinetics of Ito or IKs, and
+possibly INaCa, as summarized by ten Tusscher et al. (16).
+Reducing gto only increased POP without affecting other AP
+parameters or EP stability (data not shown). Changing gKs or
+INaCa exerted only minor effects on stability and dynamics of
+the BP system (Figs. 6, 7, 9, and 10). These results suggest
+that bifurcation structures of epicardial, midmyocardial, and
+endocardial cells are essentially the same; thus we do not
+expect the transmural difference in BP mechanisms.
+
+Responsiveness to b-adrenergic stimulation
+
+As suggested by Silva and Rudy (3), a potential advantage of
+the BP over the electronic pacemaker is responsiveness to
+b-adrenergic stimulation (ßAS). In the guinea pig ventricular
+model, BP responsiveness to ßAS was very limited (3). We
+did not show the data on this issue, which is very important
+but out of the aim of this study. Nevertheless, we also found
+in the simulations according to the method of Silva and Rudy
+(3) that the HVM pacemaker did not exhibit a signiﬁcant rate
+increase in response to ßAS, suggesting that the ventricular
+pacemaker is less sensitive to ßAS than the SA node pace-
+maker. The low sensitivity to ßAS of the ventricular pace-
+maker may be at least in part due to the lack or low density of
+the regulatory inward currents, such as the low voltage-
+activated ICa,L, sustained-inward current (Ist) and Ih, which
+are known to be enhanced by ßAS and abundant in SA node
+primary pacemaker cells (11,51,61–63,72–74).
+
+Signiﬁcance of applying bifurcation theory to
+BP system analysis and engineering
+
+In this study, we used stability and bifurcation analyses to
+investigate the mechanisms of BP generation. As mentioned
+in the Introduction, the nonlinear dynamical approach is
+known to be useful for general understanding and systematic
+descriptions of the mechanisms of normal and abnormal
+pacemaker activities (4–11), as well as reentrant arrhythmias
+or conduction block (75–78). This study demonstrates that
+bifurcation theory also provides a reliable way of elucidating
+the roles of individual currents in pacemaker generation of
+IK1-downregulated ventricular myocytes.
+
+Biophysical Journal 89(4) 2865–2887
+
+2882
+
+Kurata et al.
+
+Our work suggests that exploring bifurcation structures of
+model cells can reveal the conditions and ways for oscil-
+latory behavior to emerge or disappear in cardiac myocytes
+and possibly allow us to accurately predict and properly
+control the dynamics of real cells. Thus, the mathematical
+approach would also be applicable to engineering BP cells
+from native myocytes in vivo (1,52,56) or from human
+embryonic stem cells (hESCs) ex vivo (79–81) for the gene
+or cell therapy of bradyarrhythmias usually requiring im-
+plantation of an electronic pacemaker (for review, see
+Gepstein et al. (80)). Bifurcation analyses of model systems
+may lead to appropriate design of a functional BP, like the
+SA node, as a therapeutic alternative to the electronic pace-
+maker. Further investigations based on the bifurcation theory
+will possibly ﬁnd out the most efﬁcient ways to 1), create BP
+cells, 2), control BP dynamics, 3), improve the robustness of
+BP activity as well as BP sensitivity to ßAS, and 4), improve
+BP ability to drive surrounding nonpacemaker tissues via
+modulating the existing currents or newly expressing the
+regulatory inward currents.
+
+Limitations and perspectives of the study
+
+Incompleteness of the HVM model
+
+dynamics, SR Ca21
+
+One limitation of this study is the incompleteness of the
+HVM model due to the lack of experimental data from
+HVMs. The formulas for ICa,L, IKr, SR Ca21
+release, and
+others were partly adopted from human atrial or animal heart
+models (see also Priebe and Beuckelmann (15)). In addition,
+for simplicity, the current model does not incorporate detailed
+descriptions of intracellular Ca21
+handl-
+ing, or the intracellular modulating factors such as cAMP
+and protein kinases, as in recently developed models (73,
+82–84). More elaborate HVM models have recently been
+developed (16,17); however, these models with the larger
+number of equations and/or very complex formulas are less
+suitable for bifurcation analyses than the current model (for
+more details, see Theory and Methods). We believe that the
+current model is valuable and highly appropriate for explor-
+ing the essential mechanisms of BP generation. Neverthe-
+less, further sophisticated but simpliﬁed HVM models with
+reﬁnements of the formulas based on the data from HVMs,
+as well as incorporating more detailed descriptions of the
+intracellular Ca21
+handling and modulating factors, would
+have to be developed for future investigations.
+
+The recently developed HVM models (16,17) are based
+mainly on the data from expressed channels whose electro-
+physiological properties may be different from those of
+native channels in HVMs. As suggested recently (79,81,
+85), hESCs would provide an unlimited and renewable source
+of human cardiomyocytes for basic research as well as
+implantation therapies. Thus, cell system engineering to
+establish hESC-derived experimental models of HVMs may
+facilitate the development of more sophisticated HVM
+models.
+
+Biophysical Journal 89(4) 2865–2887
+
+Lack of experimental evidence
+
+The conclusions in this study are of course the predictions
+from the model system; thus, they must be veriﬁed and sup-
+ported by experimental works using real HVMs. However,
+there is no experimental study on BP activity in genetically
+modiﬁed HVMs. The hESC-derived experimental models of
+ventricular or nodal cells may also be useful for future in-
+vestigations of BP mechanisms and thus veriﬁcation of the
+model predictions. We hope that this study provides a stim-
+ulus to further experimentation on this issue.
+
+Requirement of multicellular models involving
+electrotonic interactions
+
+As suggested by Silva and Rudy (3), it should be recognized
+that the engineering of single BP cells is only a ﬁrst step
+toward creation of the functional BP. Pacemaker mecha-
+nisms of the intact SA node are reported to involve electro-
+tonic interactions with the atrium (86–88). BP cells in vivo
+would also suffer hyperpolarizing loads of adjacent non-
+pacemaker cells, which may abolish BP activity. Thus, BP
+ability to drive the heart would depend on its architecture to
+facilitate optimization of the electrical loading by the sur-
+rounding atrial or ventricular tissue (86,87). Recently, hESC-
+derived pacemaking cardiomyocytes implanted into the
+guinea pig ventricle in vivo have been found to integrate
+with the host tissue via forming gap junctions and drive the
+quiescent ventricle with nearly the same rate as in the iso-
+lated state (81). This suggested that the engrafted BP could
+efﬁciently interact with the surrounding nonpacemaker tissue
+to minimize the electrotonic load. However,
+the hESC-
+derived pacemaker may not be as robust to excessive hy-
+perpolarizing loads as the native SA node pacemaker.
+Multicellular models such as for
+the SA node tissue
+(68,86,89) are required for further investigating the roles of
+electrotonic interactions in BP mechanisms in vivo and how
+to create a real functional BP with robust pacemaking.
+
+APPENDIX 1: MODEL EQUATIONS
+
+The mathematical expressions used in this study are given below. Units are
+mV, pA, nS, ms, nF, mM, and L. The temperature assumed for the model is
+37°C. The symbols used and their deﬁnitions are the same as those in our
+rabbit SA node model (51) or the original PB model (15). The stimulus
+current Istim in Eqs. 55 and 64 was assumed to carry K
+ions into the cell
+for charge conservation during paced AP simulations, being set equal to zero
+for BP simulations. Standard parameter values and initial conditions for
+computations are given in Tables 5 and 6, respectively.
+
+1
+
+Sarcolemmal ionic currents
+L-type Ca21
+
+channel current (ICa,L)
+
+3 fL
+
+ICa;L ¼ gCa;LðV ÿ ECa;LÞ 3 dL
+3 fCa;N
+dL;N ¼ 1=f1 1 exp½ÿðV 1 7:64Þ=6:32g
+fL;N ¼ 1=f1 1 exp½ðV 1 24:6Þ=6:9g
+
+(3)
+
+(4)
+
+(5)
+
+Pacemaking in IK1-Downregulated Myocytes
+
+2883
+
+TABLE 5 Standard parameter values
+
+t
+
+Parameters
+
+Values
+
+Parameters
+
+Values
+
+1 0:0519g
+
+fL ¼ 17:925=f0:1389 3 exp½ÿð0:0358 3 ðV ÿ 10:9ÞÞ2
+
+]o
+
+1
+
+F
+R
+T
+Cm
+Vcell
+Vi
+Vrel
+Vup
+]o
+[Na
+1
+]o
+[K
+[Ca21
+gCa,L
+gKr
+gKs
+gto
+gNa
+gK1
+gNa,b
+gCa,b
+ECa,L
+KmfCa
+INaKmax
+KmNap
+KmKp
+kNaCa
+ksat
+rNaCa
+KmNaex
+KmCaex
+
+ÿ1)
+
+0.11 (pA/pF)
+0.0005 (mM)
+50 (ms
+0.00221 (mM/ms)
+ÿ1)
+0.00026 (ms
+0.00025 (mM)
+180 (ms)
+0.05 (mM)
+10 (mM)
+0.07 (mM)
+0.00238 (mM)
+0.8 (mM)
+0.0005 (mM)
+ÿ1 3 ms
+400 (mM
+ÿ1)
+0.2 (ms
+
+ÿ1)
+
+IpCamax
+KmCap
+Prel
+Pup
+Pleak
+Kup
+t
+
+tr
+[CM]tot
+[CQ]tot
+[TC]tot
+KdCM
+KdCQ
+KdTC
+kfTC
+kbTC
+
+96485 (C/mol)
+8.3144 (J/mol/K)
+310.15 (K)
+153.4 (pF)
+38 (pL)
+25.84 (pL)
+0.182 (pL)
+2.098 (pL)
+140 (mM)
+5.4 (mM)
+2.0 (mM)
+0.2496 (nS/pF)
+0.012 (nS/pF)
+0.036 (nS/pF)
+0.3 or 0.4 (nS/pF)
+7.8 (nS/pF)
+3.9 (nS/pF)
+0.001 (nS/pF)
+0.00051 (nS/pF)
+152.8 (mV)
+0.00035 (mM)
+0.884 (pA/pF)
+10 (mM)
+1.5 (mM)
+1000 (pA/pF)
+0.1
+0.35
+87.5 (mM)
+1.38 (mM)
+
+tdL ¼ ð1:4=f1 1 exp½ÿðV 1 35Þ=13g 1 0:25Þ
+
+31:4=f1 1 exp½ðV 1 5Þ=5g
+1 1=f1 1 exp½ÿðV ÿ 50Þ=20g
+
+(6)
+
+TABLE 6 State variable initial conditions for simulations
+of paced APs and BP oscillations
+
+State
+
+variables
+
+V
+dL
+fL
+pa
+n
+q
+h
+[Ca21
+]i
+[Ca21
+]rel
+[Ca21
+]up
+1
+]i
+[Na
+1
+]i
+[K
+dR
+fR
+fTC
+
+APs during
+1 Hz pacing*
+ÿ84.86
+
+ÿ6
+
+ÿ3
+ÿ2
+
+ÿ4
+
+4.941 3 10
+0.8873
+9.095 3 10
+1.974 3 10
+0.9997
+0.9925
+1.691 3 10
+2.683
+2.843
+9.224
+
+BP activity
+y
+at gK1 ¼ 0.15
+ÿ61.91
+
+ÿ4
+
+1.862 3 10
+0.5298
+0.3382
+0.1350
+0.9890
+0.2811
+3.502 3 10
+5.207
+5.349
+6.548
+
+ÿ4
+
+BP activity at
+y
+gK1 ¼ 0
+
+ÿ47.88
+
+ÿ3
+
+ÿ2
+ÿ4
+
+1.714 3 10
+0.3868
+0.5371
+0.2321
+0.8999
+1.640 3 10
+4.889 3 10
+6.378
+6.473
+6.418
+
+136.4
+
+ÿ6
+
+4.941 3 10
+0.9998
+0.2529
+
+140
+
+ÿ4
+
+1.866 3 10
+0.9954
+0.4125
+
+140
+
+ÿ3
+
+1.718 3 10
+0.9645
+0.4949
+
+*Initial conditions for simulations of paced APs in the standard system
+(gK1 ¼ 1), obtained at 30 min during 1 Hz pacing, i.e., just before the
+1801st stimulus, starting from a resting state.
+y
+Initial conditions for simulations of BP activity in the IK1-reduced systems,
+obtained at MDP after 15 min calculations starting from an EP.
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+(11)
+
+fCa;N ¼ 1=½1 1ðKmfCa=½Ca21iÞ
+
+Rapidly activating delayed-rectiﬁer K
+
+1
+
+current (IKr)
+
+IKr ¼ gKr 3 ðV ÿ EKÞ 3 pa 3 pi;N
+pa;N ¼ 1=f1 1 exp½ÿðV 1 14Þ=7:7g
+pi;N ¼ 1=f1 1 exp½ðV 1 15Þ=22:4g
+
+tpa ¼ 1=ðapa 1 b
+
+paÞ
+
+(12)
+apa ¼ 0:0003 3 ðV 1 14Þ=f1 ÿ exp½ÿðV 1 14Þ=5g (13)
+pa ¼ 0:000073898 3 ðV ÿ 3:4328Þ=fexp½ðV ÿ 3:4328Þ=
+b
+(14)
+
+5:1237 ÿ 1g
+
+Slowly activating delayed-rectiﬁer K
+
+1
+
+current (IKs)
+
+IKs ¼ gKs 3 ðV ÿ EKsÞ 3 n2
+1o
+
+EKs ¼ ðRT=FÞ 3 ln½ð0:01833 3 ½Na
+1iÞ
+
+ð0:01833 3 ½Na
+nN ¼ 1=f1 1 exp½ÿðV ÿ 9:4Þ=11:8g0:5
+tn ¼ 555=f1 1 exp½ÿðV 1 22Þ=11:3g 1 129
+
+1½K
+
+1½K
+
+1i
+
+1oÞ=
+
+Transient outward current (Ito)
+
+Ito ¼ gto 3 ðV ÿ EtoÞ 3 q 3 rN
+1½K
+
+1o
+
+Eto ¼ ðRT=FÞ 3 ln½ð0:043 3 ½Na
+1iÞ
+rN ¼ ar=ðar 1 b
+
+ð0:043 3 ½Na
+
+1½K
+
+1i
+
+rÞ
+
+1oÞ=
+
+ar ¼ 0:5266 3 exp½ÿ0:0166 3 ðV ÿ 42:2912Þ=
+
+f1 1 exp½ÿ0:0943 3 ðV ÿ 42:2912Þg
+
+b
+
+r ¼ f0:5149 3 exp½ÿ0:1344 3 ðV ÿ 5:0027Þ
+1 0:00005186 3 Vg=f1 1 exp½ÿ0:1348
+3 ðV ÿ 0:00005186Þg
+
+qN ¼ aq=ðaq 1 b
+qÞ
+qÞ
+tq ¼ 1=ðaq 1 b
+
+(15)
+
+(16)
+
+(17)
+
+(18)
+
+(19)
+
+(20)
+
+(21)
+
+(22)
+
+(23)
+
+(24)
+
+(25)
+
+a
+
+q ¼ f0:0721 3 exp½ÿ0:173 3 ðV 1 34:2531Þ
+1 0:00005612 3 Vg=f1 1 exp½ÿ0:1732
+3 ðV 1 34:2531Þg
+
+(26)
+q ¼ f0:0767 3 exp½ÿ0:00000000166 3 ðV 1 34:0235Þ
+b
+
+1 0:0001215 3 Vg=f1 1 exp½ÿ0:1604
+3 ðV 1 34:0235Þg
+
+(27)
+
+Biophysical Journal 89(4) 2865–2887
+
+2884
+
+1
+
+Na
+
+channel current (INa)
+
+INa ¼ gNa 3 ðV ÿ EmhÞ 3 m3
+1 0:123½K
+
+N 3 h2
+1oÞ=ð½Na
+
+1i
+
+(28)
+
+(29)
+
+1o
+
+Emh ¼ ðRT=FÞ 3 ln½ð½Na
+1iÞ
+mN ¼ a
+
+1 0:12 3 ½K
+
+(30)
+am ¼ 0:32 3 ðV 1 47:13Þ=f1 ÿ exp½ÿ0:1 3 ðV 1 47:13Þg
+(31)
+
+m
+
+m
+
+=ða
+
+1 b
+
+mÞ
+
+b
+
+m ¼ 0:08 3 expðÿV=11Þ
+
+hN ¼ 0:5 3 ½1 ÿ tan hð7:74 1 0:12 3 VÞ
+h ¼ 0:25 1 2:24 3 ½1 ÿ tan hð7:74 1 0:12 3 VÞ=
+
+t
+
+f1 ÿ tan h½0:07 3 ðV 1 92:4Þg
+
+Inward-rectiﬁer K
+
+1
+
+channel current (IK1)
+
+IK1 ¼ gK1 3 ðV ÿ EKÞ 3 k1a=ðk1a 1 k1bÞ
+k1a ¼ 0:1=f1 1 exp½0:06 3 ðV ÿ EK ÿ 200Þg
+k1b ¼ f3 3 exp½0:0002 3 ðV ÿ EK 1 100Þ 1 exp½0:1
+3 ðV ÿ EK ÿ 10Þg=f1 1 exp½ÿ0:5 3 ðV ÿ EKÞg
+
+Background Na
+
+1
+
+/Ca21
+currents (INa,b, ICa,b)
+INa;b ¼ gNa;b 3 ðV ÿ ENaÞ
+ICa;b ¼ gCa;b 3 ðV ÿ ECaÞ
+
+(35)
+
+(36)
+
+(37)
+
+(38)
+
+(39)
+
+Kurata et al.
+
+JCa;net ¼ ðICa;L 1 ICa;b ÿ 2 3 INaCa 1 IpCaÞ 3 Cm=ð2 3 FÞ
+
+(46)
+
+Intracellular Ca21
+SR Ca21
+
+release
+
+dynamics (SR Ca21
+
+handling)
+
+Jrel ¼ grel 3 ðdR 3 fRÞ3 3 ð½Ca2 1rel ÿ ½Ca2 1iÞ
+grel ¼ Prel
+1 IpCa
+
+1 ICa;b ÿ 2 3 INaCa
+
+=f1 1 exp½ðICa;L
+
+1 5Þ=0:9g
+
+(32)
+
+(33)
+
+dRN ¼ dLN ¼ 1=f1 1 exp½ÿðV 1 7:64Þ=6:32g
+fRN ¼ fLN ¼ 1=f1 1 exp½ðV 1 24:6Þ=6:9g
+
+tdR ¼ tfR ¼ 4
+
+(34)
+
+SR Ca21
+
+uptake via Ca21
+pump
+Jup ¼ Pup 3 ½Ca212
+
+i
+
+=ð½Ca212
+
+i
+
+upÞ
+1 K2
+
+SR Ca21
+
+transfer and leak
+
+Jtr ¼ ð½Ca21up ÿ ½Ca21relÞ=t
+Jleak ¼ Pleak 3 ð½Ca21up ÿ ½Ca21iÞ
+
+tr
+
+Differential equations for state variables
+
+Membrane potential (V)
+
+dV=dt ¼ Istim ÿ Itotal
+
+(47)
+
+(48)
+
+(49)
+
+(50)
+
+(51)
+
+(52)
+
+(53)
+
+(54)
+
+(55)
+
+(40)
+
+(41)
+
+(56)
+
+(57)
+
+(58)
+
+(59)
+
+Na
+
+1
+
+1
+
+-K
+
+pump current (INaK)
+3 f½K
+INaK ¼ INaKmax
+
+1o
+=ð½K
+1o
+1 0:0365 3 ½expð½Na
+
+1o
+
+1 KmKpÞg=f1 1ðKmNap
+=67:3Þ ÿ 1=7 3 expðÿV 3 F=RTÞg
+
+=½Na
+
+1iÞ1:5g=f1 1 0:1245 3 expðÿ0:1 3 V 3 F=RTÞ
+
+Na
+
+1
+
+/Ca21
+
+exchanger current (INaCa)
+1½Na
+3 ½Ca21i
+
+INaCa ¼ kNaCa
+ÿ ½Na
+
+=ðK3
+13
+
+mNaex
+
+o
+
+13
+3 ½Na
+13
+oÞ=ðKmCaex
+3 exp½ðrNaCa ÿ 1Þ 3 V 3 F=RTg=f1 1 ksat
+
+1½Ca21oÞ 3 f½Ca21o
+
+3 expðrNaCa
+3 exp½ðrNaCa ÿ 1Þ 3 V 3 F=RTg
+
+3 V 3 F=RTÞ
+
+i
+
+Sarcolemmal Ca21
+
+pump current (IpCa)
+
+IpCa ¼ IpCamax=½1 1ðKmCap=½Ca21iÞ
+
+Gating variables
+
+dx=dt ¼ ðxN ÿ xÞ=tx ½x ¼ dL; fL; pa; n; q; h; dR; fR
+
+(42)
+
+Ca21
+
+buffering ﬂux
+
+Total membrane current (Itotal)
+Itotal ¼ ICa;L 1 IKr 1 IKs 1 Ito 1 INa 1 IK1 1 INa;b 1 ICa;b 1 INaK
+(43)
+
+1 INaCa
+
+1 IpCa
+
+Net ion ﬂuxes
+JNa;net ¼ ðINa 1 INa;b 1 3 3 INaK 1 3 3 INaCaÞ 3 Cm=F (44)
+JK;net ¼ ðIKr 1 IKs 1 Ito 1 IK1 ÿ 2 3 INaKÞ 3 Cm=F
+(45)
+
+Biophysical Journal 89(4) 2865–2887
+
+dfTC=dt ¼ kfTC 3 ½Ca21i
+BCM ¼ 1=f1 1½CMtot
+BCQ ¼ 1=f1 1½CQtot
+
+3 ð1 ÿ fTCÞ ÿ kbTC 3 fTC
+1½Ca21iÞ2g
+3 KdCM
+3 KdCQ=ðKdCQ 1½Ca21relÞ2g
+
+=ðKdCM
+
+Intracellular ion concentrations
+
+d½Ca21i
+
+=dt ¼ BCM 3 fðÿJCa;net 1 Jrel 3 Vrel ÿ Jup 3 Vup
+
+1 Jleak
+
+3 VupÞ=Vi ÿ ½TCtot
+
+3 dfTC
+
+=dtg
+
+(60)
+
+Pacemaking in IK1-Downregulated Myocytes
+
+2885
+
+d½Ca21rel
+
+=dt ¼ BCQ 3 ðJtr ÿ JrelÞ
+
+d½Ca21up
+
+d½K
+
+1i
+
+3 Vrel
+=dt ¼ ÿJNa;net
+
+=dt ¼ Jup ÿ Jtr
+d½Na
+=dt ¼ ðIstim
+
+3 Cm
+
+1i
+
+=Vup ÿ Jleak
+=Vi
+
+=F ÿ JK;netÞ=Vi
+
+(61)
+
+(62)
+
+(63)
+
+(64)
+
+APPENDIX 2: DETERMINATION OF EPS AS
+INITIAL CONDITIONS
+
+1
+
+1
+
+]i, [K
+
+]i, [Ca21
+
+]rel, and [Ca21
+
+To determine an EP (resting state) of the HVM system as initial conditions
+for AP simulations, steady-state values of the state variables V, [Ca21
+]i,
+]up were calculated numerically by the
+[Na
+differential or algebraic method of Hund et al. (35). Differential equations
+given in Appendix 1 (Eqs. 55, 60–64) were used for the differential method
+with the MATLAB ODE solvers, whereas the following algebraic equations
+derived from the differential equations were used for the algebraic method
+with a nonlinear equation solver available in MATLAB.
+
+Itotal ¼ 0ðdV=dt ¼ 0Þ
+
+JCa;net ¼ 0ðd½Ca21i
+Jrel ÿ Jtr ¼ 0ðd½Ca21rel
+
+=dt ¼ 0Þ
+=dt ¼ 0Þ
+Jup ÿ Jtr 3 Vrel=Vup ÿ Jleak ¼ 0ðd½Ca21up
+1i
+JNa;net ¼ 0ðd½Na
+=dt ¼ 0Þ
+=dt ¼ 0Þ
+1i
+JK;net ¼ 0ðd½K
+1½Na
+1i
+1 2 3 ðVup
+
+1i
+=ViÞ 3 ½Ca21rel;tot
+
+=ViÞ
+
+V ¼ ðVi 3 F=CmÞ 3 ð½K
+
+3 ðVrel
+3 ½Ca2 1up ÿ C0Þ
+
+=dt ¼ 0Þ
+
+1 2½Ca21i;tot
+
+1 2
+
+½Ca21i;tot ¼ ½Ca21i
+1½TCtot
+½Ca21rel;tot ¼ ½Ca21rel
+1 KdCQÞ
+
+1½CMtot
+3 ½Ca21i
+1½CQtot
+
+3 ½Ca21i
+=ð½Ca21i
+3 ½Ca21rel
+
+=ð½Ca21i
+1 KdTCÞ
+=ð½Ca21rel
+
+1 KdCMÞ
+
+The symbol C0 in Eq. 71 is a constant of integration determined by initial
+conditions (35). Note that Eq. 65 can be derived from Eqs. 66, 69, and 70 (see
+]i
+Eqs. 43–46). The algebraic method for the full system with variable [K
+practically used Eqs. 66–70 and Eqs. 71–73 instead of Eq. 65, assuming that
+]i is equal to 140 mM under control conditions (e.g., at gK1 ¼ 1). The
+[K
+differential and algebraic methods yielded nearly identical results. For BP
+]i-ﬁxed system, steady-
+simulations and bifurcation analyses using the [K
+state values of the state variables were calculated by Eqs. 65–69.
+
+1
+
+1
+
+1
+
+2. Luo, C. H., and Y. Rudy. 1994. A dynamic model of the cardiac
+ventricular action potential: I. Simulations of ionic currents and con-
+centration changes. Circ. Res. 74:1071–1096.
+
+3. Silva, J., and Y. Rudy. 2003. Mechanism of pacemaking in IK1-down-
+
+regulated myocytes. Circ. Res. 92:261–263.
+
+4. Chay, T. R., and Y. S. Lee. 1985. Phase resetting and bifurcation in the
+
+ventricular myocardium. Biophys. J. 47:641–651.
+
+5. Chay, T. R., and Y. S. Lee. 1990. Bursting, beating, and chaos by two
+functionally distinct inward current inactivations in excitable cells.
+Ann. N. Y. Acad. Sci. 591:328–350.
+
+6. Landau, M., P. Lorente, D. Michaels, and J. Jalife. 1990. Bistabilities
+and annihilation phenomena in electrophysiological cardiac models.
+Circ. Res. 66:1658–1672.
+
+7. Vinet, A., and F. A. Roberge. 1990. A model study of stability and oscil-
+lations in the myocardial cell membrane. J. Theor. Biol. 147:377–412.
+
+8. Guevara, M. R., and H. J. Jongsma. 1992. Three ways of abolishing
+ionic modeling and nonlinear dy-
+
+automaticity in sinoatrial node:
+namics. Am. J. Physiol. 262:H1268–H1286.
+
+9. Gibb, W. J., M. B. Wagner, and M. D. Lesh. 1994. Effects of simulated
+potassium blockade on the dynamics of triggered cardiac activity.
+J. Theor. Biol. 168:245–257.
+
+10. Varghese, A., and R. L. Winslow. 1994. Dynamics of abnormal
+pacemaking activity in cardiac Purkinje ﬁbers. J. Theor. Biol. 168:407–
+420.
+
+11. Kurata, Y., I. Hisatome, S. Imanishi, and T. Shibamoto. 2003. Roles of
+L-type Ca21
+currents in sinoatrial node pace-
+making: insights from stability and bifurcation analyses of a mathemat-
+ical model. Am. J. Physiol. Heart Circ. Physiol. 285:H2804–H2819.
+
+and delayed-rectiﬁer K
+
+1
+
+12. Guckenheimer, J., and P. Holmes. 1983. Nonlinear Oscillations, Dy-
+namical Systems, and Bifurcations of Vector Fields. Springer-Verlag,
+New York.
+
+13. Parker, T. S., and L. O. Chua. 1989. Practical Numerical Algorithms
+
+for Chaotic Systems. Springer-Verlag, New York.
+
+14. Kuznetsov, Y. A. 2003. Elements of Applied Bifurcation Theory, 3rd
+
+ed. Springer-Verlag, New York.
+
+15. Priebe, L., and D. J. Beuckelmann. 1998. Simulation study of cellular
+
+electric properties in heart failure. Circ. Res. 82:1206–1223.
+
+16. Ten Tusscher, K. H. W. J., D. Noble, P. J. Noble, and A. V. Panﬁlov.
+2004. A model for human ventricular tissue. Am. J. Physiol. Heart
+Circ. Physiol. 286:H1573–H1589.
+
+17. Iyer, V., R. Mazhari, and R. L. Winslow. 2004. A computational model
+of the human left-ventricular epicardial myocyte. Biophys. J. 87:1507–
+1525.
+
+18. Bernus, O., R. Wilders, C. W. Zemlin, H. Verschelde, and A. V.
+Panﬁlov. 2002. A computationally efﬁcient electrophysiological model
+of human ventricular cells. Am. J. Physiol. Heart Circ. Physiol. 282:
+H2296–H2308.
+
+19. Courtemanche, M., R. J. Ramirez, and S. Nattel. 1998. Ionic mech-
+anisms underlying human atrial action potential properties: insights
+from a mathematical model. Am. J. Physiol. 275:H301–H321.
+
+20. Faber, G. M., and Y. Rudy. 2000. Action potential and contractility
+]i overloaded cardiac myocytes: a simulation study.
+
+1
+
+changes in [Na
+Biophys. J. 78:2392–2404.
+
+(65)
+
+(66)
+
+(67)
+
+(68)
+
+(69)
+
+(70)
+
+(71)
+
+(72)
+
+(73)
+
+This work was supported in part by a Ministry for Education, Science, and
+Culture of Japan Grant-in-Aid for Scientiﬁc Research 15590195 and
+17590192 (to Y. Kurata and T. Shibamoto) and a Kanazawa Medical
+University Grant
+for Collaborative Research C2003-1, C2004-1, and
+C2005-1 (to Y. Kurata and T. Shibamoto).
+
+REFERENCES
+
+1. Miake, J., E. Marba´n, and H. B. Nuss. 2002. Gene therapy: biological
+
+pacemaker created by gene transfer. Nature. 419:132–133.
+
+21. Be´nitah, J. P., P. Bailly, M. C. D’Agrosa, J. P. Da Ponte, C. Delgado,
+and P. Lorente. 1992. Slow inward current in single cells isolated from
+adult human ventricles. Pﬂugers Arch. 421:176–187.
+
+22. Pelzmann, B., P. Schaffer, E. Bernhart, P. Lang, H. Ma¨chler, B. Rigler,
+and B. Koidl. 1998. L-type calcium current
+in human ventricular
+myocytes at a physiological temperature from children with tetralogy
+of Fallot. Cardiovasc. Res. 38:424–432.
+
+23. Li, G. R., B. Yang, J. Feng, R. F. Bosch, M. Carrier, and S. Nattel.
+1999. Transmembrane ICa contributes to rate-dependent changes of
+action potentials in human ventricular myocytes. Am. J. Physiol. 276:
+H98–H106.
+
+Biophysical Journal 89(4) 2865–2887
+
+2886
+
+Kurata et al.
+
+24. Li, G. R., J. Feng, L. Yue, M. Carrier, and S. Nattel. 1996. Evidence for
+current in human ventricular
+
+1
+
+two components of delayed rectiﬁer K
+myocytes. Circ. Res. 78:689–696.
+
+25. Wang, Z., B. Fermini, and S. Nattel. 1994. Rapid and slow components
+of delayed rectiﬁer current in human atrial myocytes. Cardiovasc. Res.
+28:1540–1546.
+
+26. Zhou, Z., Q. Gong, B. Ye, Z. Fan, J. C. Makielski, G. A. Robertson, and
+C. T. January. 1998. Properties of HERG channels stably expressed in
+HEK 293 cells studied at physiological temperature. Biophys. J. 74:230–
+241.
+
+27. Mazhari, R., J. L. Greenstein, R. L. Winslow, E. Marba´n, and H. B.
+Nuss. 2001. Molecular interactions between two long-QT syndrome
+gene products, HERG and KCNE2, rationalized by in vitro and in
+silico analysis. Circ. Res. 89:33–38.
+
+28. Johnson, J. P., F. M. Mullins, and P. B. Bennett. 1999. Human ether-a`-
+channel gating probed with extracellular Ca21
+go-go-related gene K
+:
+evidence for two distinct voltage sensors. J. Gen. Physiol. 113:565–580.
+
+1
+
+29. Smith, P. L., and G. Yellen. 2002. Fast and slow voltage sensor move-
+
+ments in HERG potassium channels. J. Gen. Physiol. 119:275–293.
+
+30. Sanguinetti, M. C., C. Jiang, M. E. Curran, and M. T. Keating. 1995.
+A mechanistic link between an inherited and an acquired cardiac
+arrhythmia: HERG encodes the IKr potassium channel. Cell. 81:299–307.
+31. Weerapura, M., S. Nattel, D. Chartier, R. Caballero, and T. E. He´bert.
+2002. A comparison of currents carried by HERG, with and without
+coexpression of MiRP1, and the native rapid delayed rectiﬁer current.
+Is MiRP1 the missing link? J. Physiol. 540:15–27.
+
+32. Berecki, G., J. G. Zegers, A. O. Verkerk, Z. A. Bhuiyan, B. de Jonge,
+M. W. Veldkamp, R. Wilders, and A. C. G. van Ginneken. 2005.
+HERG channel (dys)function revealed by dynamic action potential
+clamp technique. Biophys. J. 88:566–578.
+
+33. Shibasaki, T. 1987. Conductance and kinetics of delayed rectiﬁer
+potassium channels in nodal cells of the rabbit heart. J. Physiol. 387:
+227–250.
+
+34. Vira´g, L., N. Iost, M. Opincariu, J. Szolnoky, J. Sze´csi, G. Boga´ts, P.
+Szenohradsky, A. Varro´, and J. G. Papp. 2001. The slow component of
+the delayed rectiﬁer potassium current in undiseased human ventricular
+myocytes. Cardiovasc. Res. 49:790–797.
+
+35. Hund, T. J., J. P. Kucera, N. F. Otani, and Y. Rudy. 2001. Ionic charge
+conservation and long-term steady state in the Luo-Rudy dynamic cell
+model. Biophys. J. 81:3324–3331.
+
+36. Krogh-Madsen, T., P. Schaffer, A. D. Skriver, L. K. Taylor, B.
+Pelzmann, B. Koidl, and M. R. Guevara. 2005. An ionic model for
+rhythmic activity in small clusters of embryonic chick ventricular cells.
+Am. J. Physiol. Heart Circ. Physiol. 289:H398–H413.
+
+37. Dormand, J. R., and P. J. Prince. 1980. A family of embedded Runge-
+
+Kutta formulae. J. Comput. Appl. Math. 6:19–26.
+
+38. Shampine, L. F., and M. W. Reichelt. 1997. The MATLAB ODE Suite.
+
+SIAM J. Sci. Comput. 18:1–22.
+
+39. Sachse, F. B., G. Seemann, K. Chaisaowong, and D. Weiß. 2003.
+Quantitative reconstruction of cardiac electromechanics in human
+myocardium: assembly of electrophysiologic and tension generation
+models. J. Cardiovasc. Electrophysiol. 14:S210–S218.
+
+40. Shannon, T. R., and D. M. Bers. 1997. Assessment of intra-SR free
+
+[Ca] and buffering in rat heart. Biophys. J. 73:1524–1531.
+
+41. Shannon, T. R., T. Guo, and D. M. Bers. 2003. Ca21
+
+scraps: local
+] in cardiac sarcoplasmic reticulum during
+
+depletions of free [Ca21
+contractions leave substantial Ca21
+
+reserve. Circ. Res. 93:40–45.
+
+42. Li, G. R., J. Feng, L. Yue, and M. Carrier. 1998. Transmural hetero-
+geneity of action potentials and Ito1 in myocytes isolated from the
+human right ventricle. Am. J. Physiol. 275:H369–H377.
+
+43. Despa, S., M. A. Islam, C. R. Weber, S. M. Pogwizd, and D. M. Bers.
+concentration is elevated in heart failure but
+
+2002. Intracellular Na
+Na/K pump function is unchanged. Circulation. 105:2543–2548.
+
+1
+
+44. Pieske, B., L. S. Maier, V. Piacentino III, J. Weisser, G. Hasenfuss, and
+]i and contractility in non-
+
+S. Houser. 2002. Rate dependence of [Na
+failing and failing human myocardium. Circulation. 106:447–453.
+
+1
+
+Biophysical Journal 89(4) 2865–2887
+
+45. Schmidt, U., R. J. Hajjar, P. A. Helm, C. S. Kim, A. A. Doye, and J. K.
+Gwathmey. 1998. Contribution of abnormal sarcoplasmic reticulum
+ATPase activity to systolic and diastolic dysfunction in human heart
+failure. J. Mol. Cell. Cardiol. 30:1929–1937.
+
+46. Pieske, B., L. S. Maier, D. M. Bers, and G. Hasenfuss. 1999. Ca21
+content in isolated failing
+
+handling and sarcoplasmic reticulum Ca21
+and nonfailing human myocardium. Circ. Res. 85:38–46.
+
+47. Maier, L. S., P. Barckhausen, J. Weisser, I. Aleksic, M. Baryalei, and
+handling in isolated human atrial myocardium.
+
+B. Pieske. 2000. Ca21
+Am. J. Physiol. Heart Circ. Physiol. 279:H952–H958.
+
+48. Tiaho, F., C. Piot, J. Nargeot, and S. Richard. 1994. Regulation of the
+currents in rat
+
+facilitation of L-type Ca21
+
+frequency-dependent
+ventricular myocytes. J. Physiol. 477:237–252.
+
+49. Yuan, W., and D. M. Bers. 1994. Ca-dependent facilitation of cardiac
+Ca current is due to Ca-calmodulin-dependent protein kinase. Am. J.
+Physiol. 267:H982–H993.
+
+50. Fukai, H., S. Doi, T. Nomura, and S. Sato. 2000. Hopf bifurcations in
+multiple-parameter space of the Hodgkin-Huxley equations I. Global
+organization of bistable periodic solutions. Biol. Cybern. 82:215–222.
+
+51. Kurata, Y.,
+
+I. Hisatome, S.
+
+Imanishi, and T. Shibamoto. 2002.
+Dynamical description of sinoatrial node pacemaking:
+improved
+mathematical model for primary pacemaker cell. Am. J. Physiol. Heart
+Circ. Physiol. 283:H2074–H2101.
+
+52. Plotnikov, A. N., E. A. Sosunov, J. Qu, I. N. Shlapakova, E. P.
+Anyukhovsky, L. Liu, M. J. Janse, P. R. Brink, I. S. Cohen, R. B.
+Robinson, P. Danilo Jr., and M. R. Rosen. 2004. Biological pacemaker
+implanted in canine left bundle branch provides ventricular escape
+rhythms that have physiologically acceptable rates. Circulation. 109:
+506–512.
+
+53. Brown, H. F., J. Kimura, D. Noble, S. J. Noble, and A. Taupignon.
+1984. The ionic currents underlying pacemaker activity in rabbit sino-
+atrial node: experimental results and computer simulations. Proc. R.
+Soc. Lond. B Biol. Sci. 222:329–347.
+
+54. Noble, D. 1984. The surprising heart: a review of recent progress in
+
+cardiac electrophysiology. J. Physiol. 353:1–50.
+
+55. Dokos, S., B. Celler, and N. Lovell. 1996. Ion currents underlying
+sinoatrial node pacemaker activity: a new single cell mathematical
+model. J. Theor. Biol. 181:245–272.
+
+56. Qu, J., A. N. Plotnikov, P. Danilo Jr., I. Shlapakova, I. S. Cohen, R. B.
+Robinson, and M. R. Rosen. 2003. Expression and function of a
+biological pacemaker in canine heart. Circulation. 107:1106–1109.
+
+57. Joyner, R. W., Y.-G. Wang, R. Wilders, D. A. Golod, M. B. Wagner,
+R. Kumar, and W. N. Goolsby. 2000. A spontaneously active focus
+drives a model atrial sheet more easily than a model ventricular sheet.
+Am. J. Physiol. Heart Circ. Physiol. 279:H752–H763.
+
+58. Takimoto, K., D. Li, J. M. Nerbonne, and E. S. Levitan. 1997. Dis-
+tribution, splicing and glucocorticoid-induced expression of cardiac
+alpha 1C and alpha 1D voltage-gated Ca21
+channel mRNAs. J. Mol.
+Cell. Cardiol. 29:3035–3042.
+
+59. Bohn, G., S. Moosmang, H. Conrad, A. Ludwig, F. Hofmann, and N.
+Klugbauer. 2000. Expression of T- and L-type calcium channel mRNA
+in murine sinoatrial node. FEBS Lett. 481:73–76.
+
+60. Seisenberger, C., V. Specht, A. Welling, J. Platzer, A. Pfeifer, S.
+Ku¨hbandner, J. Striessnig, N. Klugbauer, R. Feil, and F. Hofmann. 2000.
+Functional embryonic cardiomyocytes after disruption of the L-type a
+1C
+(Cav1.2) calcium channel gene in the mouse. J. Biol. Chem. 275:39193–
+39199.
+
+61. Platzer, J., J. Engel, A. Schrott-Fischer, K. Stephan, S. Bova, H. Chen,
+H. Zheng, and J. Striessnig. 2000. Congenital deafness and sinoatrial
+node dysfunction in mice lacking class D L-type Ca21
+channels. Cell.
+102:89–97.
+
+62. Zhang, Z., Y. Xu, H. Song, J. Rodriguez, D. Tuteja, Y. Namkung,
+H.-S. Shin, and N. Chiamvimonvat. 2002. Functional roles of Cav1.3
+(a1D) calcium channel in sinoatrial nodes: insight gained using gene-
+targeted null mutant mice. Circ. Res. 90:981–987.
+
+63. Mangoni, M. E., B. Couette, E. Bourinet, J. Platzer, D. Reimer, J.
+Striessnig, and J. Nargeot. 2003. Functional role of L-type Cav1.3 Ca21
+
+Pacemaking in IK1-Downregulated Myocytes
+
+2887
+
+channels in cardiac pacemaker activity. Proc. Natl. Acad. Sci. USA.
+100:5543–5548.
+
+64. Verheijck, E. E., A. C. G. van Ginneken, R. Wilders, and L. N.
+Bouman. 1999. Contribution of L-type Ca21
+current to electrical ac-
+tivity in sinoatrial nodal myocytes of rabbits. Am. J. Physiol. Heart
+Circ. Physiol. 276:H1064–H1077.
+
+65. Hilgemann, D. W. 2004. New insights into the molecular and cellular
+exchanger. Am. J. Physiol. Cell
+
+/Ca21
+
+1
+
+workings of the cardiac Na
+Physiol. 287:C1167–C1172.
+
+66. Kang, M., and D. W. Hilgemann. 2004. Multiple transport modes of
+
+the cardiac Na
+
+1
+
+/Ca21
+
+exchanger. Nature. 427:544–547.
+
+67. Kodama, I., M. R. Nikmaram, M. R. Boyett, R. Suzuki, H. Honjo, and
+and
+currents in pacemaker activity in the sinoatrial node. Am. J.
+
+J. M. Owen. 1997. Regional differences in the role of the Ca21
+Na
+Physiol. Heart Circ. Physiol. 272:H2793–H2806.
+
+1
+
+68. Zhang, H., A. V. Holden, I. Kodama, H. Honjo, M. Lei, T. Varghese,
+and M. R. Boyett. 2000. Mathematical models of action potentials in
+the periphery and center of the rabbit sinoatrial node. Am. J. Physiol.
+Heart Circ. Physiol. 279:H397–H421.
+
+69. Zhang, H., and M. Vassalle. 2000. Role of dual pacemaker mech-
+
+anisms in sinoatrial node discharge. J. Biomed. Sci. 7:100–113.
+
+70. Zhang, H., and M. Vassalle. 2001. Role of IK and If in the pacemaker
+mechanisms of sino-atrial node myocytes. Can. J. Physiol. Pharmacol.
+79:963–976.
+
+71. Seemann, G., F. B. Sachse, D. L. Weiß, and O. Do¨ ssel. 2003. Quan-
+titative reconstruction of cardiac electromechanics in human myocar-
+dium: regional heterogeneity. J. Cardiovasc. Electrophysiol. 14:S219–
+S228.
+
+72. Noma, A. 1996. Ionic mechanisms of the cardiac pacemaker potential.
+
+Jpn. Heart J. 37:673–682.
+
+73. Demir, S. S., J. W. Clark, and W. R. Giles. 1999. Parasympathetic
+modulation of sinoatrial node pacemaker activity in rabbit heart: a
+unifying model. Am. J. Physiol. 276:H2221–H2244.
+
+74. Mitsuiye, T., Y. Shinagawa, and A. Noma. 2000. Sustained inward
+current during pacemaker depolarization in mammalian sinoatrial node
+cells. Circ. Res. 87:88–91.
+
+75. Chay, T. R., and Y. S. Lee. 1992. Studies on re-entrant arrhythmias and
+ectopic beats in excitable tissues by bifurcation analyses. J. Theor.
+Biol. 155:137–171.
+
+76. Vinet, A., and F. A. Roberge. 1994. Analysis of an iterative difference
+equation model of the cardiac cell membrane. J. Theor. Biol. 170:201–214.
+
+77. Chay, T. R. 1996. Proarrhythmic and antiarrhythmic actions of ion
+channel blockers on arrhythmias in the heart: model study. Am. J.
+Physiol. Heart Circ. Physiol. 271:H329–H356.
+
+78. Landau, M., and P. Lorente. 1997. Conduction block and chaotic
+dynamics in an asymmetrical model of coupled cardiac cells. J. Theor.
+Biol. 186:93–105.
+
+79. He, J.-Q., Y. Ma, Y. Lee, J. A. Thomson, and T. J. Kamp. 2003.
+Human embryonic stem cells develop into multiple types of cardiac
+myocytes: action potential characterization. Circ. Res. 93:32–39.
+
+80. Gepstein, L., Y. Feld, and L. Yankelson. 2004. Somatic gene and cell
+therapy strategies for the treatment of cardiac arrhythmias. Am. J.
+Physiol. Heart Circ. Physiol. 286:815–822.
+
+81. Xue, T., H. C. Cho, F. G. Akar, S.-Y. Tsang, S. P. Jones, E. Marba´n,
+G. F. Tomaselli, and R. A. Li. 2005. Functional integration of electrically
+active cardiac derivatives from genetically engineered human embryonic
+stem cells with quiescent recipient ventricular cardiomyocytes: insights
+into the development of cell-based pacemakers. Circulation. 111:11–20.
+
+82. Greenstein, J. L., and R. L. Winslow. 2002. An integrative model of the
+cardiac ventricular myocytes incorporating local control of Ca21
+release. Biophys. J. 83:2918–2945.
+
+83. Shannon, T. R., F. Wang, J. Puglisi, C. Weber, and D. M. Bers. 2004.
+A mathematical treatment of integrated Ca dynamics within the ven-
+tricular myocyte. Biophys. J. 87:3351–3371.
+
+84. Saucerman, J. J., L. L. Brunton, A. P. Michailova, and A. D.
+McCulloch. 2003. Modeling b-adrenergic control of cardiac myocyte
+contractility in silico. J. Biol. Chem. 278:47997–48003.
+
+85. Mummery, C., D. Ward-van Oostwaard, P. Doevendans, R. Spijker, S.
+van den Brink, R. Hassink, M. van der Heyden, T. Opthof, M. Pera,
+A. B. de la Riviere, R. Passier, and L. Tertoolen. 2002. Differentiation
+of human embryonic stem cells to cardiomyocytes: role of coculture
+with visceral endoderm-like cells. Circulation. 107:2733–2740.
+
+86. Boyett, M. R., H. Honjo, and I. Kodama. 2000. The sinoatrial node,
+
+a heterogeneous pacemaker structure. Cardiovasc. Res. 47:658–687.
+
+87. Boyett, M. R., H. Dobrzynski, M. K. Lancaster, S. A. Jones, H. Honjo,
+and I. Kodama. 2003. Sophisticated architecture is required for the
+sinoatrial node to perform its normal pacemaker function. J. Cardiovasc.
+Electrophysiol. 14:104–106.
+
+88. Verheijck, E. E., R. Wilders, and L. N. Bouman. 2002. Atrio-sinus
+interaction demonstrated by blockade of the rapid delayed rectiﬁer
+current. Circulation. 105:880–885.
+
+89. Garny, A., P. Kohl, P. J. Hunter, M. R. Boyett, and D. Noble. 2003.
+One-dimensional rabbit sinoatrial node models: beneﬁts and limita-
+tions. J. Cardiovasc. Electrophysiol. 14:S121–S132.
+
+90. Peeters, G. A., M. C. Sanguinetti, Y. Eki, H. Konarzewska, D. G.
+Renlund, S. V. Karwande, and W. H. Barry. 1995. Method for isolation
+of human ventricular myocytes from single endocardial and epicardial
+biopsies. Am. J. Physiol. 268:H1757–H1764.
+
+91. Pe´re´on, Y., S. Demolombe, I. Baro´, E. Drouin, F. Charpentier, and D.
+Escande. 2000. Differential expression of KvLQT1 isoforms across the
+human ventricular wall. Am. J. Physiol. Heart Circ. Physiol. 278:
+H1908–H1915.
+
+92. Piacentino III, V., C. R. Weber, X. Chen, J. Weisser-Thomas, K. B.
+Margulies, D. M. Bers, and S. R. Houser. 2003. Cellular basis of
+abnormal calcium transients of failing human ventricular myocytes.
+Circ. Res. 92:651–658.
+
+Biophysical Journal 89(4) 2865–2887
+
+

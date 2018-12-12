@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5498">
+<itemtype>xnppaper</itemtype>
+<titles><title>Role of N-methyl-D-aspartate receptors in the induction of synaptic potentiation by burst stimulation patterned after the hippocampal theta-rhythm.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>2-Amino-5-phosphonovalerate</keyword>
+<keyword>Animals</keyword>
+<keyword>Convulsants</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>Receptors</keyword>
+<keyword>Neurotransmitter</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>Valine</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:31:32Z</last_update_date>
+<creation_date>2011-06-14T00:31:32Z</creation_date>
+<publication_year>1988</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5498</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5498" version="1.02">
+<authors><author>Larson J</author><author>Lynch G</author></authors>
+<journal>Brain research</journal>
+<volume>441</volume>
+<number>1</number>
+<page>111-8</page>
+<abstract>Short bursts of high frequency stimulation produce maximal long-term potentiation (LTP) at Schaffer-commissural synapses on CA1 neurons in hippocampal slices when the bursts are spaced 200 ms apart. A burst to one input (S1) does not induce LTP but &#039;primes&#039; the postsynaptic neurons such that 200 ms later the postsynaptic response to a burst to a second input (S2) is greatly enhanced and LTP is induced. The role of N-methyl-D-aspartate (NMDA) receptors in this response enhancement and LTP induction was studied by perfusing slices with the NMDA antagonist, 2-amino-5-phosphonovalerate (AP5). AP5 (100 microM) had no effect on the field excitatory postsynaptic potential evoked by single pulse stimulation, but completely eliminated both the decremental short-term potentiation (lasting less than 10 min) and stable LTP effects elicited by burst stimulation. AP5 reduced the response to a non-primed burst by about 10% and reduced the relative enhancement of a primed burst response by about 35%. These results indicate that part of the postsynaptic response to a primed burst is mediated by NMDA receptors and that this component is necessary for all forms of synaptic potentiation (including LTP) resulting from burst stimulation. The similarity of the short bursts with the complex-spike discharges of hippocampal neurons as well as the 200 ms optimal interval with the period of the hippocampal theta-rhythm suggest links between theta and the NMDA receptor in the induction of hippocampal synaptic plasticity.</abstract>
+<pubmed_id>2896049</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,39 @@
+Action Potentials
+drug effects
+Animals
+Arousal
+drug effects
+physiology
+Bicuculline
+pharmacology
+Electric Stimulation
+Electroencephalography
+Evoked Potentials
+drug effects
+GABA-A Receptor Agonists
+pharmacology
+Guinea Pigs
+Heart Rate
+physiology
+Hippocampus
+physiology
+Inferior Colliculi
+drug effects
+physiology
+Male
+Microelectrodes
+Muscimol
+pharmacology
+Neurons
+drug effects
+physiology
+Sleep
+drug effects
+physiology
+Theta Rhythm
+physiology
+Time Factors
+Wakefulness
+drug effects
+physiology
+The inferior colliculus (IC) is a mesencephalic auditory nucleus involved in several functions including the analysis of the frequency and intensity of sounds as well as sound localization. In addition to auditory processes, the IC controls the expression of defensive responses. The objective of the present study was to test the hypothesis that the IC contributes to the maintenance of wakefulness. For this purpose, several experimental approaches were performed in urethane-anesthetized guinea pigs. Electrical or chemical stimulation of the IC resulted in electroencephalographic (EEG) desynchronization, theta rhythm in the hippocampus and an increase in heart rate; all of these effects suggest an arousal reaction. Furthermore, by means of extracellular unit recordings, we determined that most IC neurons increased their spontaneous and tone-evoked responses in association with EEG desynchronization. We also studied the effect on sleep and wakefulness of bilateral acute inhibition of the IC by microinjections of muscimol (a GABAA agonist), as well as the effect of bilateral IC lesions in chronically-instrumented (drug-free) guinea pigs. Acute (via muscimol microinjections), but not chronic (via electrolytic lesions) inhibition of the IC decreased wakefulness., We conclude that the IC plays an active role in the maintenance of wakefulness. Further, we propose that this nucleus may mediate arousal responses induced by biologically significant sounds.

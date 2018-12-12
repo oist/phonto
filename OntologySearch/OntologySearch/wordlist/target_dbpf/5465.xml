@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5465">
+<itemtype>xnppaper</itemtype>
+<titles><title>A computational theory of the hippocampal cognitive map.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Spatial Behavior</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-13T02:47:48Z</last_update_date>
+<creation_date>2011-06-13T02:47:48Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5465</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5465" version="1.02">
+<authors><author>O&#039;Keefe J</author></authors>
+<journal>Progress in brain research</journal>
+<volume>83</volume>
+<number></number>
+<page>301-12</page>
+<abstract>Evidence from single unit and lesion studies suggests that the hippocampal formation acts as a spatial or cognitive map (O&#039;Keefe and Nadel, 1978). In this chapter, I summarise some of the unit recording data and then outline the most recent computational version of the cognitive map theory. The novel aspects of the present version of the theory are that it identifies two allocentric parameters, the centroid and the eccentricity, which can be calculated from the array of cues in an environment and which can serve as the bases for an allocentric polar co-ordinate system. Computations within this framework enable the animal to identify its location within an environment, to predict the location which will be reached as a result of any specific movement from that location, and conversely, to calculate the spatial transformation necessary to go from the current location to a desired location. Aspects of the model are identified with the information provided by cells in the hippocampus and dorsal presubiculum. The hippocampal place cells are involved in the calculation of the centroid and the presubicular direction cells in the calculation of the eccentricity.</abstract>
+<pubmed_id>2203101</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5699">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal neurons responding to first-time dislocation of a target object.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Exploratory Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Movement</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T03:51:27Z</last_update_date>
+<creation_date>2011-09-22T03:51:27Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5699</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5699" version="1.02">
+<authors><author>Fyhn M</author><author>Molden S</author><author>Hollup S</author><author>Moser MB</author><author>Moser E</author></authors>
+<journal>Neuron</journal>
+<volume>35</volume>
+<number>3</number>
+<page>555-66</page>
+<abstract>To examine how hippocampal neurons respond to a mismatch between retrieved and actual experience, we trained rats to find a hidden platform at a particular location in an annular watermaze and then moved the platform. Several cells that were silent at the new platform location before the move fired vigorously when the rat found the goal. The new activity was paralleled by reduced discharge in a subset of simultaneously recorded interneurons. The pattern of activity returned toward its original configuration as the rat learned the new location. The activation of specific hippocampal neurons following dislocation of a target object may be essential for synaptic plasticity and adaptive modification of the animal&#039;s representation of the environment.</abstract>
+<pubmed_id>12165476</pubmed_id>
+</detail>
+</item>

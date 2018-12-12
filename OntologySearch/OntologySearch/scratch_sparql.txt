@@ -1,0 +1,292 @@
+http://web.g.hatena.ne.jp/vantguarde/20060414
+
+
+
+http://qiita.com/hodade/items/30158fba9e943132023f
+�Ƃ肠�����g���v�������������Ă邩�m�肽��
+SELECT count(*) WHERE { ?s ?p ?o }
+
+�Ƃ肠�����ǂ�ȃf�[�^�������Ă��邩������
+SELECT * WHERE { GRAPH ?g { ?s ?p ?o }} LIMIT 500
+
+�O���t���̌������W�v���Č�����
+SELECT ?g count(?g) WHERE {GRAPH ?g {?s ?p ?o}} GROUP BY ?g
+
+����O���t�z���̃f�[�^�������������i���̃O���t�����邩�͈�な��SPAQL�Łj
+SELECT * WHERE { GRAPH <����O���t> {?s ?p ?o }}
+
+aomori���܂܂��f�[�^��T�������i��ꂩ��T���j
+SELECT * { GRAPH ?g { ?s ?p ?o . FILTER( contains(str(?s),'aomori') ) }}
+
+title���܂܂��f�[�^��T�������i�q�ꂩ��T���j
+SELECT * { GRAPH ?g { ?s ?p ?o . FILTER( contains(str(?p),'title') ) }}
+
+�X�����܂܂��f�[�^��T�������i�ړI�ꂩ��T���j
+SELECT * { GRAPH ?g { ?s ?p ?o . FILTER( contains(str(?o),'�X��') ) }}
+
+�O���t���S��v�Ńf�[�^��T��
+SELECT * { GRAPH <�O���t> {?s ?p ?o}}
+
+��ꊮ�S��v�Ńf�[�^��T��
+SELECT * { GRAPH ?g {<���> ?p ?o}}
+
+�q�ꊮ�S��v�Ńf�[�^��T��
+SELECT * { GRAPH ?g {?s <�q��> ?o}}
+
+�ړI�ꊮ�S��v�Ńf�[�^��T��
+SELECT * { GRAPH ?g {?s ?p '�ړI��'}}
+
+�ړI�ꊮ�S��v�Ńf�[�^��T���i����w�肠��j
+SELECT * { GRAPH ?g {?s ?p '�ړI��'@ja}}
+
+�q��̎�ނ�񋓂���B�ǂ�ȏq��(?p)������̂��B
+SELECT DISTINCT ?p {?s ?p ?o} ORDER BY ?p
+
+LEFT JOIN�݂����Ȃ��Ƃ�����B ���L��ł�title��tel��address��A���B
+SELECT * {
+GRAPH ?g {?s <title> ?title}
+.OPTIONAL {?s <tel> ?tel}
+.OPTIONAL {?s <address> ?address}
+}
+
+GROUP CONCAT����B1���R�[�h���ɕ����o�����鍀��(tag)��1�ɂ܂Ƃ߂�1���R�[�h�ɁB
+SELECT ?title GROUP_CONCAT(?tag ; separator=' ') AS ?tags
+{
+?url <title> ?title
+.?url <tag> ?tag
+}
+LIMIT 100
+
+������GRAPH���w�肵��SELECT����B
+SELECT *
+FROM <GRAPH_SONO_1>
+FROM <GRAPH_SONO_2>
+FROM <GRAPH_SONO_3>
+{ ?s ?p ?o }
+LIMIT 100
+
+
+���������������Ȃ�
+-----------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------
+FILTER (?refp IN (owl:equivalentClass, rdfs:subClassOf)).
+FILTER (not (?aaProperty in(owl:annotatedSource, rdf:type, owl:annotatedProperty, owl:annotatedTarget)))
+FILTER (?s= <http://purl.obolibrary.org/obo/UBERON_0023939>)
+FILTER (isIRI(?s)).
+FILTER (isBlank(?c))
+FILTER (isLiteral(?annotatedTarget)).
+FILTER (?price < 30)
+FILTER ( app:customDate(?date) > "2005-02-28T00:00:00Z"^^xsd:dateTime ) .
+FILTER ( xsd:dateTime(?date) < xsd:dateTime("2005-01-01T00:00:00Z") )
+FILTER ( bound(?date))
+FILTER (!bound(?date))
+FILTER ( lang(?name) = "ES" )
+FILTER ( datatype(?shoeSize) = xsd:integer )
+|| , &&
+FILTER (sameTerm(?mbox1, ?mbox2))
+FILTER langMatches( lang(?title), "FR" )
+FILTER regex(?name, "^ali", "i")
+-----------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------
+SELECT distinct ?o WHERE { ?s ?p ?o .
+	FILTER regex (?o,'^a' , 'i')
+}
+-----------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix core: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?class ?label ?description
+WHERE {
+  ?class a owl:Class.
+  ?class core:prefLabel ?label .
+  optional{?class rdfs:comment ?description .}
+  FILTER regex (?label,'^pal' , 'i')
+}
+LIMIT 25
+-----------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
+SELECT DISTINCT ?class ?label
+WHERE {
+  ?class a owl:Class.
+  ?class core:prefLabel ?label .
+  FILTER regex (?label,'^basal g' , 'i')
+}
+#-----
+
+SELECT DISTINCT ?class ?label ?synonym
+WHERE {
+  ?class a owl:Class;
+      ?p ?synonym;
+      rdfs:label ?label.
+
+  filter (?p in( obo_annot:synonym , oboInOwl:hasExactSynonym))
+  FILTER regex (?synonym,'^basal g' , 'i')
+}
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix NIF-GrossAnatomy: <http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-GrossAnatomy.owl#>
+prefix obo_annot: <http://ontology.neuinfo.org/NIF/Backend/OBO_annotation_properties.owl#>
+SELECT DISTINCT ?class ?label ?synonym
+WHERE {
+#  NIF-GrossAnatomy:birnlex_724
+  ?class a owl:Class;
+         rdfs:label ?label ;
+         obo_annot:synonym ?synonym .
+
+  FILTER regex (?label,'^Bed nucleus' , 'i')
+}
+LIMIT 25
+-----------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix NIF-Cell: <http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#>
+
+SELECT DISTINCT ?class ?label ?parent ?parentlabel
+WHERE {
+#  NIF-Cell:nifext_100
+#  <http://purl.obolibrary.org/obo/UBERON_0000955>
+  ?class
+          a owl:Class;
+          rdfs:label ?label;
+          rdfs:subClassOf ?parent .
+#          rdfs:subClassOf NIF-Cell:sao1417703748 .
+  ?parent rdfs:label ?parentlabel.
+#  FILTER regex (?label,'^Bed nucleus *$' , 'i')
+}
+LIMIT 25
+-----------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------
+#SELECT DISTINCT ?class ?label ?dep
+SELECT count(*)
+WHERE {
+  ?class
+          a owl:Class;
+          rdfs:label ?label;
+          owl:deprecated ?dep;
+    FILTER (?dep)
+}
+-----------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------
+SELECT DISTINCT ?class ?p ?label
+WHERE {
+{
+  ?class a owl:Class;
+      ?p ?label;
+    rdfs:label ?label .
+}union{
+  ?class  a owl:Class;
+            ?p ?label;
+      core:example ?label.
+}union{
+  ?class  a owl:Class;
+            ?p ?label;
+           obo_annot:synonym ?label .
+}
+  FILTER regex (?label,'Bed' , 'i')
+}
+LIMIT 25
+-----------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------
+#SELECT DISTINCT ?class ?classlabel ?p ?label
+SELECT DISTINCT ?class ?classlabel ?label
+WHERE {
+  ?class a owl:Class;
+      ?p ?label;
+      rdfs:label ?classlabel.
+
+  filter (?p in(rdfs:label, obo_annot:synonym, core:example , oboInOwl:hasExactSynonym))
+  FILTER regex (?label,'nail Bed' , 'i')
+}
+order by ?label
+LIMIT 10
+-----------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------
+LocalVM
+
+/var/local/apache-jena-fuseki-2.0.0
+/root/Public/owl
+
+./fuseki-server --update --mem /ds
+./s-put http://localhost:3030/ds/data default /NIF-Organism.owl ..etc
+./s-query --service=http://localhost:3030/ds/query 'select count(*) {?s ?p ?o}'
+./s-update --service=http://localhost:3030/ds/update --update=/root/Public/owl/NIF-Cell.owl
+./s-post http://localhost:3030/ds/data default /root/Public/owl/NIF-Cell.owl
+./s-post http://localhost:3030/ds/data default /root/Public/owl/NIF-Organism.owl
+./s-query --service=http://localhost:3030/ds/query --query=/root/Public/owl/query
+-----------------------------------------------------------------------------------------------------------------------
+
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix swrl: <http://www.w3.org/2003/11/swrl#>
+prefix swrlb: <http://www.w3.org/2003/11/swrlb#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix core: <http://www.w3.org/2004/02/skos/core#>
+
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+
+prefix uberoncore: <http://purl.obolibrary.org/obo/uberon/core#>
+prefix PATO: <http://purl.obolibrary.org/obo/PATO#>
+prefix pato: <http://purl.obolibrary.org/obo/pato#>
+prefix obo: <http://purl.obolibrary.org/obo/obo#>
+prefix go: <http://purl.obolibrary.org/obo/go#>
+prefix owl2: <http://purl.obolibrary.org/obo/>
+
+prefix snap: <http://www.ifomis.org/bfo/1.1/snap#>
+prefix span: <http://www.ifomis.org/bfo/1.1/span#>
+prefix bfo: <http://www.ifomis.org/bfo/1.1#>
+prefix daml: <http://www.daml.org/2001/03/daml+oil#>
+prefix xsp: <http://www.owl-ontologies.com/2005/08/07/xsp.owl#>
+prefix Ontology1272057115: <http://www.owl-ontologies.com/Ontology1272057115.owl#>
+
+prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+prefix NIF: <http://ontology.neuinfo.org/NIF/#>
+prefix NIFstd: <http://uri.neuinfo.org/nif/nifstd/>
+prefix BIRNLex-OBO-UBO: <http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#>
+prefix NIF-Quality: <http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Quality.owl#>
+prefix obo_annot: <http://ontology.neuinfo.org/NIF/Backend/OBO_annotation_properties.owl#>
+prefix birn_annot: <http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#>
+prefix NIF-Neuron-NT-Bridge: <http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-NT-Bridge.owl#>
+
+prefix NIF-GrossAnatomy: <http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-GrossAnatomy.owl#>
+prefix NIF-Cell: <http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#>
+prefix NIF-Organism: <http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Organism.owl#>
+
+***********************************************************************************************************************
+
+/**********************************************************************************************************************
+example word for PHDatabase
+basal ganglia <-> basal nuclei
+cns
+**********************************************************************************************************************/
+

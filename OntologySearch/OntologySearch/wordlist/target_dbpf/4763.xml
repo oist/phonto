@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4763">
+<itemtype>xnppaper</itemtype>
+<titles><title>Control of the neuronal rhythmic bursts in the septal pacemaker of theta-rhythm: effects of anaesthetic and anticholinergic drugs.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Animals</keyword>
+<keyword>Atropine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Drug Interactions</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Parasympatholytics</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Pentobarbital</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rabbits</keyword>
+<keyword>Scopolamine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Septal Nuclei</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:01:00Z</last_update_date>
+<creation_date>2011-04-28T04:01:00Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4763</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4763" version="1.02">
+<authors><author>Brazhnik ES</author><author>Vinogradova OS</author></authors>
+<journal>Brain research</journal>
+<volume>380</volume>
+<number>1</number>
+<page>94-106</page>
+<abstract>The drugs, described as blocking the high-frequency (pentobarbital) or low-frequency (scopolamine, atropine) theta rhythm of the hippocampal electroencephalogram, were tested upon the rhythmically bursting septal cells. Three groups of chronic, unanaesthetized rabbits were used for the experiments: with intact septum; with septohippocampal disconnection; with complete basal undercutting of the septum, depriving it of ascending brainstem influences (MFB lesion). While the frequency and other parameters of theta bursts did not differ in the first two groups (5.2-5.5 Hz), in MFB-lesioned septum their frequency was significantly lower (3.5 Hz). Intravenous injection of pentobarbital suppressed theta bursts in some cells with unstable, periodic rhythmic activity and lowered the frequency of the bursts in continuously bursting cells. The parameters of bursts in intact and hippocampectomized septum under pentobarbital did not differ from those of undercut septum in undrugged state. Acetylcholine-blocking drugs suppressed theta modulation in some intermittently bursting cells, but only slightly decreased regularity of the bursts in some cells with continuous theta bursting even in sublethal doses; physostigmine has the opposite effect. Neither scopolamine and atropine, nor physostigmine influenced frequency of theta bursts in any way. Sensory or reticular stimulation could temporarily restore both the theta rhythm of hippocampal EEG and the rhythmic bursting of some septal cells under pentobarbital or anticholinergic drugs. On the basis of the experiments a unitary concept of theta rhythm origin is proposed. Pentobarbital influences ascending excitatory input to the septum, which results in a decrease of the burst frequency in the limited group of septal cells, regarded as endogenous bursting pacemakers, and in restriction of the population of high-threshold secondary rhythmic cells, synaptically involved in the rhythmic process. Anticholinergic drugs do not influence the pacemaker cells, but block intraseptal and septohippocampal cholinergic transmission. Both cholinergic and non-cholinergic neurons projecting to the hippocampus exist among septal cells synaptically involved in the rhythmic activity.</abstract>
+<pubmed_id>3756475</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7217">
+<itemtype>xnppaper</itemtype>
+<titles><title>Alterations in the balance of protein kinase and phosphatase activities and age-related impairments of synaptic transmission and long-term potentiation.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Afferent Pathways</keyword>
+<keyword>drug effects</keyword>
+<keyword>enzymology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Aging</keyword>
+<keyword>metabolism</keyword>
+<keyword>Animals</keyword>
+<keyword>Avoidance Learning</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>enzymology</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory Disorders</keyword>
+<keyword>enzymology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>enzymology</keyword>
+<keyword>Phosphoprotein Phosphatases</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>metabolism</keyword>
+<keyword>Protein Kinase Inhibitors</keyword>
+<keyword>Protein Kinases</keyword>
+<keyword>metabolism</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T08:00:59Z</last_update_date>
+<creation_date>2013-02-27T08:00:59Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7217</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7217" version="1.02">
+<authors><author>Hsu KS</author><author>Huang CC</author><author>Liang YC</author><author>Wu HM</author><author>Chen YL</author><author>Lo SW</author><author>Ho WC</author></authors>
+<journal>Hippocampus</journal>
+<volume>12</volume>
+<number>6</number>
+<page>787-802</page>
+<abstract>Aging is associated with an impaired ability to maintain long-term potentiation (LTP), but the underlying cause of the impairment remains unclear. To gain a better understanding of the cellular and molecular mechanisms responsible for this impairment, the synaptic transmission and plasticity were studied in the CA1 region of hippocampal slices from adult (6-8 months) and poor-memory (PM)-aged (23-24 months) rats. The one-way inhibitory avoidance learning task was used as the behavioral paradigm to screen PM-aged rats. With intracellular recordings, CA1 neurons of PM-aged rats exhibited a more hyperpolarized resting membrane potential, reduced input resistance, and increased amplitude of afterhyperpolarization and spike threshold, compared with those in adult rats. Although a reduction in the size of excitatory synaptic response was observed in PM-aged rats, no obvious differences were found between adult and PM-aged rats in the pharmacological properties of excitatory synaptic response, paired-pulse facilitation, or frequency-dependent facilitation, which was tested with trains of 10 pulses at 1, 5, and 10 Hz. Slices from the PM-aged rats displayed significantly reduced early-phase long-term potentiation (E-LTP) and late-phase LTP (L-LTP), and the entire frequency-response curve of LTP and LTD is modified to favor LTD induction. The susceptibility of time-dependent reversal of LTP by low-frequency afferent stimulation was also facilitated in PM-aged rats. Bath application of the protein phosphatase inhibitor, calyculin A, enhanced synaptic response in slices from PM-aged, but not adult, rats. In contrast, application of the cAMP-dependent protein kinase inhibitors, Rp-8-CPT-cAMPS and KT5720, induced a decrease in synaptic transmission only in slices from the adult rats. Furthermore, the selective beta-adrenergic receptor agonist, isoproterenol, and pertussis toxin-sensitive G-protein inhibitor, N-ethylmaleimide, effectively restored the deficit in E-LTP and L-LTP of PM-aged rats. These results demonstrate that age-related impairments of synaptic transmission and LTP may result from alterations in the balance of protein kinase/phosphatase activities.</abstract>
+<pubmed_id>12542230</pubmed_id>
+</detail>
+</item>

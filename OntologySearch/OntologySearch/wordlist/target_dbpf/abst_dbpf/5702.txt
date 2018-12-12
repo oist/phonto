@@ -1,0 +1,27 @@
+Adult
+Blinking
+physiology
+Cognition
+physiology
+Evoked Potentials
+Somatosensory
+Gyrus Cinguli
+physiology
+Hippocampus
+physiology
+Humans
+Magnetoencephalography
+Memory
+Short-Term
+physiology
+Prefrontal Cortex
+physiology
+Psychomotor Performance
+physiology
+Reaction Time
+Task Performance and Analysis
+Theta Rhythm
+Time Factors
+Visual Perception
+physiology
+Working memory (WM) is the ability to retain and associate information over brief time intervals. Functional imaging studies demonstrate that WM is mediated by a distributed network including frontal and posterior cortices, hippocampus, and cerebellum. In rodents, the presentation of stimuli in a WM task is followed by a reset of the phase of hippocampal theta. In this paper we report the observation of a similar phenomenon in normal human subjects. Neuromagnetic responses were recorded during presentation of a set of digits and a subsequent probe of the retained items. All stimuli were presented with a fixed temporal pattern. We observed phase reset of approximately 7 Hz theta in left hippocampus approximately 120 ms after probe stimuli, whereas reset of theta in right hippocampus was visible approximately 80 ms prior to these anticipated stimuli. The duration of stimulus-locked theta increased with memory load, with a limiting value of approximately 600 ms for 5-7 retained items. We suggest that, as in rats, stimulus-locked theta may index involvement of human hippocampal networks in the cognitive processing of sensory input. The anticipatory phase reset of theta indicates involvement of hippocampus in right hemisphere and cerebellar timing networks. Hippocampal structures are essential for orientation to perturbations in the sensory scene, a function that requires use of a context established by a constellation of stimuli. We suggest that the initiation and maintenance of stimulus-locked hippocampal theta observed here may facilitate processing of potentially salient and/or novel input with respect to a context established by the contents of WM.

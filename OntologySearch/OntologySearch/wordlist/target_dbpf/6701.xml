@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6701">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal, parahippocampal and occipital-temporal contributions to associative and item recognition memory: an fMRI study.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Association Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Occipital Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Prosencephalon</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:26:18Z</last_update_date>
+<creation_date>2013-02-26T07:26:18Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6701</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6701" version="1.02">
+<authors><author>Yonelinas AP</author><author>Hopfinger JB</author><author>Buonocore MH</author><author>Kroll NE</author><author>Baynes K</author></authors>
+<journal>Neuroreport</journal>
+<volume>12</volume>
+<number>2</number>
+<page>359-63</page>
+<abstract>The temporal lobe regions involved in memory retrieval were examined using fMRI. During an associative recognition test, participants made memory judgments about the study color of previously presented drawings of objects, and during item recognition tests they made old/new judgments about previously studied objects or new objects. Associative recognition compared with old item recognition led to activations in bilateral hippocampal and parahippocampal regions, as well as in the left middle occipital gyrus. Old item recognition compared with new item recognition led to activation in the left middle occipital gyrus and the left middle temporal gyrus, and relative deactivations in bilateral hippocampal regions. The results indicate that partially distinct temporal lobe regions are involved during recognition memory for item and associative information.</abstract>
+<pubmed_id>11209950</pubmed_id>
+</detail>
+</item>

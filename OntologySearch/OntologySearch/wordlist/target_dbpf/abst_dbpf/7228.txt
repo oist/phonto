@@ -1,0 +1,39 @@
+Animals
+Antimetabolites
+pharmacology
+Calcium
+physiology
+Cycloserine
+pharmacology
+Data Interpretation
+Statistical
+Excitatory Postsynaptic Potentials
+drug effects
+Extracellular Space
+drug effects
+Hippocampus
+cytology
+drug effects
+Long-Term Potentiation
+drug effects
+Male
+Memory
+drug effects
+Neuronal Plasticity
+drug effects
+Oligopeptides
+pharmacology
+Rats
+Rats
+Sprague-Dawley
+Receptors
+Glycine
+agonists
+Receptors
+N-Methyl-D-Aspartate
+agonists
+Serine
+pharmacology
+Synapses
+drug effects
+N-methyl-D-aspartate glutamate receptors (NMDARs) are a key route for Ca2+ influx into neurons important to both activity-dependent synaptic plasticity and, when uncontrolled, triggering events that cause neuronal degeneration and death. Among regulatory binding sites on the NMDAR complex is a glycine binding site, distinct from the glutamate binding site, which must be co-activated for NMDAR channel opening. We developed a novel glycine site partial agonist, GLYX-13, which is both nootropic and neuroprotective in vivo. Here, we assessed the effects of GLYX-13 on long-term synaptic plasticity and NMDAR transmission at Schaffer collateral-CA1 synapses in hippocampal slices in vitro. GLYX-13 simultaneously enhanced the magnitude of long-term potentiation (LTP) of synaptic transmission, while reducing long-term depression (LTD). GLYX-13 reduced NMDA receptor-mediated synaptic currents in CA1 pyramidal neurons evoked by low frequency Schaffer collateral stimulation, but enhanced NMDAR currents during high frequency bursts of activity, and these actions were occluded by a saturating concentration of the glycine site agonist d-serine. Direct two-photon imaging of Schaffer collateral burst-evoked increases in [Ca2+] in individual dendritic spines revealed that GLYX-13 selectively enhanced burst-induced NMDAR-dependent spine Ca2+ influx. Examining the rate of MK-801 block of synaptic versus extrasynaptic NMDAR-gated channels revealed that GLYX-13 selectively enhanced activation of burst-driven extrasynaptic NMDARs, with an action that was blocked by the NR2B-selective NMDAR antagonist ifenprodil. Our data suggest that GLYX-13 may have unique therapeutic potential as a learning and memory enhancer because of its ability to simultaneously enhance LTP and suppress LTD.

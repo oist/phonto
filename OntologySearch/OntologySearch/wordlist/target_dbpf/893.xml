@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="893">
+<itemtype>xnppaper</itemtype>
+<titles><title>Population dynamics and theta rhythm phase precession of hippocampal place cell firing: a spiking neuron model.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-16T03:37:20Z</last_update_date>
+<creation_date>2008-07-16T03:37:20Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=893</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="893" version="1.02">
+<authors><author>Tsodyks MV</author><author>Skaggs WE</author><author>Sejnowski TJ</author><author>McNaughton BL</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>3</number>
+<page>271-80</page>
+<abstract>O&#039;Keefe and Recce ([1993] Hippocampus 68:317-330) have observed that the spatially selective firing of pyramidal cells in the CA1 field of the rat hippocampus tends to advance to earlier phases of the electroencephalogram theta rhythm as a rat passes through the place field of a cell. We present here a neural network model based on integrate- and-fire neurons that accounts for this effect. In this model, place selectivity in the hippocampus is a consequence of synaptic interactions between pyramidal neurons together with weakly selective external input. The phase shift of neuronal spiking arises in the model as result of asymmetric spread of activation through the network, caused by asymmetry in the synaptic interactions. Several experimentally observed properties of the phase shift effect follow naturally from the model, including 1) the observation that the first spikes a cell fires appear near the theta phase corresponding to minimal population activity, 2) the overall advance is less than 360 degrees, and 3) the location of the rat within the place field of the cell is the primary correlate of the firing phase, not the time the rat has been in the field. The model makes several predictions concerning the emergence of place fields during the earliest stages of exploration in a novel environment. It also suggests new experiments that could provide further constraints on a possible explanation of the phase precession effect.</abstract>
+<pubmed_id> 8841826 </pubmed_id>
+</detail>
+</item>

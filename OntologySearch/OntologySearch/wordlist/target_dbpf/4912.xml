@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4912">
+<itemtype>xnppaper</itemtype>
+<titles><title>theta-Cells in CA1 and dentate layers of hippocampal formation: relations to slow-wave activity and motor behavior in the freely moving rabbit.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Gyrus Cinguli</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rabbits</keyword>
+<keyword>Reaction Time</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T01:56:43Z</last_update_date>
+<creation_date>2011-05-09T01:56:43Z</creation_date>
+<publication_year>1982</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4912</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4912" version="1.02">
+<authors><author>Sinclair BR</author><author>Seto MG</author><author>Bland BH</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>48</volume>
+<number>5</number>
+<page>1214-25</page>
+<abstract></abstract>
+<pubmed_id>7175568</pubmed_id>
+</detail>
+</item>

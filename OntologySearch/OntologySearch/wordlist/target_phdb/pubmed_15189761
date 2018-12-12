@@ -1,0 +1,1127 @@
+European Journal of Pharmacology 493 (2004) 29 – 40
+
+www.elsevier.com/locate/ejphar
+
+Comparison of kinetic properties of quinidine and dofetilide block of
+
+HERG channels
+
+Kenji Tsujimae, Shingo Suzuki, Mitsuhiko Yamada, Yoshihisa Kurachi*
+
+Department of Pharmacology II, Graduate School of Medicine, A7, Osaka University, 2-2 Yamada-oka, Suita, Osaka 565-0874, Japan
+
+Received 10 November 2003; received in revised form 16 February 2004; accepted 9 April 2004
+
+Available online 18 May 2004
+
+Abstract
+
+Many drugs inhibit human ether-a-go-go related gene (HERG) current and prolong cardiac action potential duration. We examined the
+kinetic properties of quinidine block of HERG channels expressed in Xenopus oocytes in comparison with those of the block by a class III
+antiarrhythmic dofetilide. Both of the drugs inhibited HERG currents in a use-dependent and frequency-independent manner. However, the
+underlying mechanisms were different. Under the steady state, quinidine block was voltage- and time-dependent. At positive membrane
+potentials, the onset of block was very fast. Thus, quinidine caused frequency-independent block mainly through this fast blocking kinetic. In
+contrast, dofetilide blocked HERG currents in a voltage- and time-independent manner under the steady state because of very slow
+unblocking at negative potentials, which also caused frequency-independent block. Therefore, quinidine and dofetilide might cause the
+reverse frequency-dependent prolongation of action potential duration through distinct mechanisms with regard to blocking and unblocking
+kinetics.
+D 2004 Elsevier B.V. All rights reserved.
+
+Keywords: Antiarrhythmic agent; HERG; IKr; QT prolongation; Reverse frequency dependence
+
+1. Introduction
+
+The delayed rectifier K+ current, IK, contributes to the
+phase-2 and phase-3 repolarization of the cardiac action
+potential, and thus controls its duration. In many mamma-
+the delayed outward K+
+lian species including human,
+current, IK, is composed of at least two distinct components,
+rapidly and slowly activating K+ currents, IKr and IKs,
+respectively (Sanguinetti and Jurkiewicz, 1990, 1991; Wang
+et al., 1994; Li et al., 1996). The human ether-a-go-go
+related gene (HERG) encodes the pore forming subunit of
+the IKr channel (Sanguinetti et al., 1995; Trudeau et al.,
+1995). Loss of function type-mutations in this gene are
+associated with type 2 of the inherited form of long QT
+syndrome (Curran et al., 1995; Sanguinetti et al., 1996).
+Many drugs are also known to block IKr and cause acquired
+forms of QT prolongation and potentially fatal cardiac
+arrhythmias (Roden, 2000). They include methanesulfona-
+nilide class III antiarrhythmic agents (e.g., E-4031 and
+
+* Corresponding author. Tel.: +81-6-6879-3512;
+
+fax: +81-6-6879-
+
+3519.
+
+E-mail address: ykurachi@pharma2.med.osaka-u.ac.jp (Y. Kurachi).
+
+0014-2999/$ - see front matter D 2004 Elsevier B.V. All rights reserved.
+doi:10.1016/j.ejphar.2004.04.015
+
+dofetilide), the class Ia agents (e.g., quinidine and disopyr-
+amide), antihistamine derivatives (terfenadine and astemi-
+zole) and many others including antibiotics and tranquilizers.
+To use these drugs safely, it is important to understand the
+mechanisms by which they induce QT prolongation and fatal
+cardiac arrhythmias.
+
+IKr contributes to the cardiac action potential repolariza-
+tion more than IKs in bradycardia, and vice versa in
+tachycardia (Jurkiewicz and Sanguinetti, 1993). Thus, the
+drugs selectively inhibiting IKr may prolong action potential
+duration more prominently in bradycardia than in tachycar-
+dia. This phenomenon is referred to as ‘‘reverse’’ frequency
+dependency and may be at least partly responsible for drug-
+induced excessive prolongation of action potential duration
+and torsades de pointes which are often seen during
+bradycardia (Hondeghem and Snyders, 1990). E-4031 and
+dofetilide exhibit
+these properties (Okada et al., 1996;
+Toyama et al., 1997; Marschang et al., 1998). Their fre-
+quency-independent block of IKr channels is shown to result
+from very slow unblocking at negative potentials (Carme-
+liet, 1992; Toyama et al., 1997).
+
+We previously showed that vesnarinone, a positive ino-
+in a frequency-
+
+tropic agent, blocks the HERG current
+
+30
+
+K. Tsujimae et al. / European Journal of Pharmacology 493 (2004) 29–40
+
+dependent manner because its unblocking occurs rapidly at
+diastolic membrane potentials (Katayama et al., 2000). This
+drug prolongs action potential duration of rabbit ventricular
+myocytes without reverse frequency dependency (Toyama
+et al., 1997) and much less frequently causes torsades de
+pointes than E-4031 or dofetilide (Feldman et al., 1991).
+Therefore,
+the proarrhythmic effect of the IKr-blocking
+drugs seems to differ depending upon their blocking and
+unblocking kinetics of HERG current.
+
+It is also known that the widely used class Ia antiarrhyth-
+mic quinidine prolongs action potential duration in a reverse
+frequency-dependent manner (Roden and Hoffman, 1985;
+Roden et al., 1987) and often causes torsades de pointes
+(Smith and Gallagher, 1980). Quinidine blocks not only the
+Na+ channel but also many K+ channels of cardiac myo-
+cytes. The proarrhythmic action of quinidine is thought to
+arise mainly from the block of IKr channels (Yang and
+Roden, 1996; Po et al., 1999; Lees-Miller et al., 2000; Ishii
+et al., 2001). Recently, the kinetic properties of quinidine
+block of HERG channels have been reported by several
+groups. Quinidine blocks HERG current
+in a use- and
+voltage-dependent manner and shows a rapid onset of block
+at depolarized potentials (Paul et al., 2002; Weerapura et al.,
+2002; Sanchez-Chapula et al., 2003). However, the frequen-
+cy dependency and recovery of the quinidine block of
+HERG channels has not been thoroughly examined.
+
+In this study, we examined and compared the kinetic
+properties of the quinidine and dofetilide block of HERG
+channels expressed in Xenopus oocytes in detail using the
+same technique and protocols. Thus, we can directly
+compare the mechanisms underlying the block of HERG
+channels by these drugs. Quinidine caused a frequency-
+independent block of HERG channels like dofetilide. Howe-
+ver, they did so through distinct mechanisms. At depolarized
+potentials, dofetilide caused voltage- and time-independent
+block, whereas quinidine caused voltage-dependent and
+very rapid onset of block. At negative potentials, blocking
+by dofetilide was virtually irreversible, whereas quinidine
+showed rapid unblocking. Therefore, quinidine caused the
+frequency-independent block mainly through its rapid
+blocking kinetics, whereas dofetilide did so through its
+slow unblocking. Therefore, it is plausible that quinidine
+and dofetilide cause the reverse frequency-dependent pro-
+longation of action potential duration through distinct me-
+chanisms with regard to blocking and unblocking kinetics.
+This notion has not been clearly recognized but would be
+important to understand the mechanism underlying the anti-
+and proarrhythmic effects of these agents.
+
+2. Materials and methods
+
+2.1. Transcription of cRNA
+
+HERG cDNA in pSP64 was kindly provided by Drs.
+M.T. Keating and M.C. Sanguinetti (University of Utah, Salt
+
+Lake City, UT). The pSP64 construct containing HERG was
+linearized with EcoRI (Takara, Otsu, Japan) and transcribed
+in vitro with SP6 polymerase (Invitrogen, Carlsbad, CA).
+Human MinK-related peptide 1 (MiRP1) cDNA subcloned
+into pGEMHE vector was linearized with NheI (Takara) and
+transcribed in vitro with T7 polymerase (Invitrogen). The
+cRNAs were stabilized with m7G(5V) ppp(5V)G RNA Cap-
+ping analogue (Invitrogen).
+
+2.2. Isolation of oocytes and injection of cRNA
+
+Frogs were treated in accordance with the guidelines
+for the use of laboratory animals of Osaka University
+Graduate School of Medicine. Isolation and maintenance
+of Xenopus laevis and injection with cRNA were per-
+formed as described previously (Chachin et al., 1999).
+Frogs were deeply anesthetized by immersion in 0.35%
+tricaine (Sigma, St. Louis, MO) for 30 min. Ovarian lobes
+were surgically removed under clean conditions and
+digested with 1 mg/ml collagenase S-1 (Nitta-gelatin,
+Osaka, Japan) in Ca2 +-free OR 2 solution (82.5 mM
+NaCl, 2 mM KCl, 1 mM MgCl2 and 5 mM HEPES,
+pH 7.5 with NaOH) for 90 min to remove follicle cells.
+Stage V and VI oocytes were injected with 2 ng of HERG
+cRNA. Oocytes were cultured in ND 96 solution (96 mM
+NaCl, 2 mM KCl, 1.8 mM CaCl2, 1 mM MgCl2 and 5
+mM HEPES, pH 7.5 with NaOH) supplemented with 50
+Ag/ml gentamicin at 18 jC.
+
+MiRP1 is a h-subunit of IKr (Abbot et al., 1999). We
+examined whether quinidine or dofetilide caused distinct
+effects on currents mediated by HERG alone and by HERG
+and MiRP1. In these experiments, 1 ng of MiRP1 cRNA
+was coinjected with 2 ng of HERG cRNA. However, the
+drugs caused virtually identical kinetic and concentration-
+dependent effects on the two types of channel currents (data
+not shown). Therefore, we utilized oocytes expressing
+HERG channels alone in the present study.
+
+2.3. Electrophysiological recording
+
+Currents were recorded by a conventional two-electrode
+voltage clamp method with a Turbo Clamp TEC 01C
+amplifier (npi electronic, Tamm, Germany) 2 to 3 days
+after injection of cRNA to oocytes. Oocytes were bathed
+in ND 96 solution. The glass microelectrodes had a
+resistance of 0.5 – 1.0 MV when filled with 3 M KCl. At
+the end of each experiment, an excessive concentration of
+dofetilide (30 AM) was applied to the oocytes to com-
+pletely suppress HERG currents and estimate endogenous
+currents in oocytes. HERG currents were defined as the
+maximum dofetilide-sensitive components of the mem-
+brane currents. All experiments were conducted at room
+temperature (22 – 24 jC).
+
+All electrophysiological data were stored on videotapes
+using a PCM data recorder (NF Electronic Design, Tokyo,
+Japan) and subsequently reproduced for off-line analysis
+
+K. Tsujimae et al. / European Journal of Pharmacology 493 (2004) 29–40
+
+31
+
+with commercially available software (Patch Analyst Pro,
+MT, Hyogo, Japan).
+
+2.4. Data analysis
+
+All data are presented as mean F standard error of mean
+
+(S.E.M.).
+
+The relationship between the concentration of the drugs
+and the current amplitude was fitted by the following Hill
+equation:
+Relative current ¼ 1=ð1 þ ð½drug=IC50ÞhÞ;
+
+ð1Þ
+
+is the current amplitude in the
+where relative current
+presence of the drug normalized to that in the absence of
+the drug; IC50, the half-maximum inhibitory concentration
+of quinidine; and h, the Hill coefficient.
+
+2.5. Drugs
+
+Quinidine sulfate (Nacalai Tesque, Kyoto, Japan) were
+dissolved at 10 mM in distilled water. Dofetilide was a gift
+from Pfizer Pharmaceutical (New York, NY) and dissolved
+at 10 mM in distilled water at pH 3.0. For use, these agents
+were diluted to the desired concentration in ND96 solution,
+and the pH was adjusted to 7.5 when necessary.
+
+3. Results
+
+3.1. Use and frequency dependency of the block of HERG
+channels by quinidine and dofetilide
+
+Firstly, we examined use and frequency dependency of
+the block of HERG channels by quinidine or dofetilide. As
+shown in Fig. 1A, HERG currents were elicited by 0.5 s
+voltage steps to + 40 mV from the holding potential of   80
+mV with different cycle lengths (1 – 10 s) in the absence of
+drugs (control) until
+the HERG current became stable.
+Thereafter, 10 AM quinidine or 100 nM dofetilide was
+added to the bath while the membrane potential was held
+at   80 mV. Five minutes later, the same voltage pulses
+were resumed to examine the drug-effect (Fig. 1A).
+
+Quinidine blocked the HERG current in a use-dependent
+manner (Fig. 1B). During the first voltage step pulse after
+the application of quinidine, the initial peak current was
+little suppressed but the current gradually became smaller
+(Fig. 1B). The current during the second pulse was largely
+suppressed from the beginning but still larger than that in
+the third one. The current amplitude reached the steady-state
+level after the third pulse irrespective of cycle lengths (Figs.
+1B,C). Therefore, quinidine blocked HERG channels in a
+use-dependent and frequency-independent manner.
+
+On the other hand, dofetilide suppressed the HERG
+current very slowly (Fig. 1D,E,
+left panel). More than
+1000 pulses were needed for dofetilide to cause the
+
+indicating that
+
+steady-state block. Both the extent of block during each
+pulse and the steady-state block were independent of the
+cycle length (Fig. 1E, right panel),
+the
+recovery from the bock by dofetilide hardly occurs at
+  80 mV. Therefore, dofetilide also blocked HERG chan-
+nels in a use-dependent and frequency-independent manner,
+as previously reported for the effect of methanesulfonanilide
+class III antiarrhythmic agents including E-4031 and dofe-
+tilide on cardiac IKr (Carmeliet, 1992; Toyama et al., 1997).
+But the time course of current alteration during voltage
+pulses was different between quinidine and dofetilide.
+
+3.2. Concentration-dependent block of HERG channel
+currents by quinidine and dofetilide
+
+Fig. 2A shows the voltage clamp protocol to analyze the
+concentration-dependent effect of the drugs. The membrane
+potential was depolarized to + 20 mV for 4 s and then
+repolarized to   60 mV for 6 s. These pulses were repeated
+every 30 s until the current amplitude reached the steady
+state in the absence and presence of each concentration of
+drugs.
+
+Fig. 2B shows the effect of 3, 10 and 30 AM quinidine on
+HERG currents in the steady state. Quinidine inhibited these
+currents in a concentration-dependent manner. The relation-
+ship between the concentration of quinidine and the ampli-
+tude of HERG current at the end of the test pulse is shown in
+Fig. 2C. Fitting of the data with the Hill equation Eq. (1)
+indicated an IC50 value of 2.5 AM and a Hill coefficient of
+0.99.
+
+Quinidine also slowed the decay of tail currents as shown
+by the crossover of tail current recorded in the absence and
+presence of 3 AM quinidine (large arrow head). The decay
+of the tail currents was fit with a double exponential
+function (Table 1). The time constants of both the fast and
+slow components (sfast, sslow) became larger at higher
+concentration of quinidine. The fraction of the slow com-
+ponent was significantly larger in the presence than absence
+of quinidine. Thus, quinidine slowed the decay of the tail
+current in a concentration-dependent manner. The area un-
+der the tail current was 0.69 F 0.08, 0.69 F 0.09, 0.48 F
+0.05 and 0.22 F 0.01 AAs in the absence and presence of 3,
+10 and 30 AM quinidine, respectively. These results suggest
+that the channels can move from blocked to the closed
+state(s) without passing through the open state upon repo-
+larization (see Discussion).
+
+Fig. 2D shows the effect of 30, 100 and 300 nM
+dofetilide on HERG currents. Dofetilide also inhibited these
+currents in a concentration-dependent manner. The relation-
+ship between the concentration of dofetilide and the ampli-
+tude of HERG current at the end of the test pulse is shown in
+Fig. 2E. Fitting of the data with the Hill equation Eq. (1)
+indicated an IC50 value of 73 nM and a Hill coefficient of
+1.4.
+
+The decay of the tail current in the presence of dofetilide
+was also fit with a double exponential function (Table 2).
+
+32
+
+K. Tsujimae et al. / European Journal of Pharmacology 493 (2004) 29–40
+
+Fig. 1. Use-dependent and frequency-independent block of HERG channels by quinidine and dofetilide. (A) The voltage clamp protocol to evoke HERG
+currents expressed in Xenopus oocytes. Firstly, 0.5 s duration voltage steps to + 40 mV were applied from the holding potential of   80 mV every 1, 2, 3 or
+10 s in the absence of drugs (the first run). Then, 10 AM quinidine or 100 nM dofetilide was applied to the bath while the membrane potential was held at   80
+mV. Five minutes later, the same protocol was repeated with the same cycle lengths (the second run). (B) HERG currents measured with a cycle length of 10 s
+in the absence and presence of 10 AM quinidine. Top panel: the voltage clamp pulse. Bottom panel: HERG currents elicited by the first pulse in the first run
+(control), and by the first to tenth pulses in the second run (quinidine 1st – 10th). The arrow head indicates the zero current level. (C) Frequency dependence of
+quinidine block of HERG channels. The amplitude of HERG currents at the peak (left) or at the end of the 0.5 s voltage pulse (right) in the second run were
+normalized to their corresponding amplitude in the first run and plotted against time after application of the first pulse of the second run. The cycle length was 1
+(.), 3 (D) or 10 s (5). Symbols represent mean values (n = 5 for each point). S.E.M. is not shown for clarity. (D) HERG currents measured with a cyclic length
+of 2 s in the absence and presence of 300 nM dofetilide. HERG currents elicited by the first pulse in the first run (control), and by the 100, 200, 300, 400, 500,
+600, 700, 800, 900, 1000th pulses in the second run. (E) Frequency dependence of dofetilide block of HERG channels. The amplitude of HERG currents at the
+peak of the 0.5 s voltage pulse in the second run were normalized to their corresponding amplitude in the first run and plotted against time after application of
+
+the first pulse of the second run (left) or against the number pulses applied (right). The cycle length was 1 (.), 2 (y), 3 (D) or 10 s (5). Symbols represent mean
+
+values (n = 4 for each point). For each cycle length, one point every 50 measured points is plotted to simplify the graph. S.E.M. is not shown.
+
+Although dofetilide did not cause the crossover of tail
+current, both sfast, and sslow in the presence of 300 nM
+dofetilide were significantly larger than those in the absence
+of dofetilide, and the fraction of the slow component was
+significantly larger in the presence than absence of 100 or
+300 nM dofetilide. Therefore, dofetilide also slows the
+decay of the tail current albeit much more weakly than
+quinidine.
+
+3.3. Voltage-dependent block of HERG channel currents by
+quinidine
+
+We next examined the voltage dependency of the block
+of HERG channels by quinidine. The same voltage pulses
+as shown in Fig. 2A were applied in the absence and
+presence of different concentrations of quinidine. After the
+current amplitude reached the steady-state level under each
+
+condition, the voltage pulses shown in the top panel of Fig.
+3A were applied. In this voltage protocol, the membrane
+potential was depolarized from   80 mV to test potentials
+ranging from   60 to + 60 mV for 4 s in 10 mV incre-
+ments and then repolarized to   60 mV for 6 s every 30 s.
+The steady-state effects of 3, 10, and 30 AM quinidine on
+HERG currents evoked by voltage steps to   20 (left) and
++ 40 mV (right) are shown in the bottom panel of Fig. 3A.
+A given concentration of quinidine inhibited HERG cur-
+rents more strongly at + 40 than at   20 mV. Quinidine not
+only suppressed the peak but slowed the decay of tail
+currents upon repolarization, as clearly indicated by the
+observation that the tail current in the presence of 3 AM
+quinidine crossed that in the absence of the drug (arrow
+heads).
+
+The current – voltage relationships at the pulse end in the
+presence of various concentrations of quinidine are shown
+
+K. Tsujimae et al. / European Journal of Pharmacology 493 (2004) 29–40
+
+33
+
+Fig. 2. Concentration-dependent effects of quinidine and dofetilide on HERG currents. (A) The voltage clamp protocol. The membrane potential was
+depolarized from   80 to + 20 mV for 4 s and then repolarized to   60 mV for 6 s. The entire stimulus protocol was applied every 30 s. (B and D) HERG
+currents recorded from an oocyte in the absence and presence of 3, 10 and 30 AM of quinidine (B) or in the absence and presence of 30, 100 and 300 nM of
+dofetilide (C). The currents were measured after the effects of drug reached the maximum steady-state level. A large arrow head in (B) indicates crossover of
+the tail current recorded in the absence of quinidine and that recorded in the presence of 3 AM quinidine. (C and E) The concentration – response relationship of
+the quinidine (C) and dofetilide (E) block of HERG currents. The current amplitude at the end of the step to + 20 mV in the presence of each drug was
+normalized to that in the absence of the drug. Symbols and bars indicate the mean and S.E.M. (n = 5 for each point). The lines represent fits to the data of the
+Hill equation Eq. (1) with an IC50 of 2.5 AM and a Hill coefficient of 0.99 for quinidine (D) and an IC50 of 73 nM and a Hill coefficient of 1.4 for dofetilide (E).
+
+in Fig. 3B. In the absence of quinidine,
+the current
+amplitude at pulse-end increased from   50 mV to 0 mV
+and then decreased from + 10 to + 60 mV. This inward
+rectification of HERG current is due to the fast C-type
+inactivation of the channel (Smith et al., 1996). In the
+presence of quinidine,
+the current amplitude was sup-
+pressed at all membrane potentials in a concentration-
+dependent manner. The peak of the current – voltage (I –
+V) curve, however, shifted slightly to the left, suggesting
+
+Table 1
+Parameters used for fitting of the decay of the tail current of HERG
+channels in the absence and presence of different concentrations of
+quinidine
+
+Control
+3 AM
+10 AM
+30 AM
+
+sfast (ms)
+566 F 22
+784 F 99
+1071 F 103*
+1102 F 60**
+
+sslow (ms)
+2134 F 161
+2517 F 163**
+3412 F 132*
+4810 F 295**
+
+Kslow/(Kfast + Kslow)
+0.012 F 0.004
+0.034 F 0.009*
+0.067 F 0.010**
+0.098 F 0.010***
+
+The decay of the tail current was fit with the following equation:
+Itail ¼ K0 þ Kfastexpð t=sfastÞ þ Kslowexpð t=sslowÞ
+Data are expressed as mean F S.E.M. Comparisons between control and
+each concentration of the drugs were made using a Student’s paired t-test.
+
+* p < 0.05.
+** p < 0.01.
+*** p < 0.001.
+
+the effect of quinidine was more potent at more
+
+that
+depolarized potentials.
+
+The effects of different concentrations of quinidine on
+the tail current are shown in Fig. 3C. The peak amplitude of
+tail current was plotted against the preceding test pulse
+potentials. It was also suppressed by quinidine in a concen-
+tration-dependent manner.
+
+In Fig. 3D and E,
+
+the amplitudes of the pulse-end
+current and the peak tail current
+in the presence of
+quinidine were normalized to those recorded in the absence
+of the drug and plotted against each test pulse potential.
+
+Table 2
+Parameters used for fitting of the decay of the tail current of HERG
+channels in the absence and presence of different concentrations of
+dofetilide
+
+Control
+3 nM
+10 nM
+30 nM
+
+sfast (ms)
+749 F 96
+831 F 75
+854 F 122
+1003 F 49*
+
+sslow (ms)
+2366 F 187
+2493 F 205
+2360 F 121
+2953 F 206*
+
+Kslow/(Kfast + Kslow)
+0.034 F 0.014
+0.047 F 0.018
+0.060 F 0.018*
+0.087 F 0.011*
+
+The tail currents were fit with the same equation as in Table 1. Data are
+expressed as mean F S.E.M. Comparisons between control and each
+concentration of the drugs were made using a Student’s paired t-test.
+
+* p < 0.05.
+
+34
+
+K. Tsujimae et al. / European Journal of Pharmacology 493 (2004) 29–40
+
+Fig. 3. Voltage-dependent block of HERG channels by quinidine. (A) Top panel: the voltage clamp protocol. The same voltage pulses as shown in Fig. 2 were
+applied in the absence and presence of each concentration of quinidine. After the current amplitude reached the steady-state level under each condition, the
+voltage pulses shown here were applied. The membrane potential was depolarized from   80 mV to test potentials ranging from   60 to + 60 mV for 4 s in 10
+mV increments and then repolarized to   60 mV for 6 s every 30 s. Bottom panel: representative current traces elicited by a test pulse to   20 mV (left) or + 40
+mV (right) in the absence and presence of 3, 10 and 30 AM quinidine. Large arrow heads indicate the crossover of the tail currents recorded in the absence and
+presence of 3 AM quinidine. (B and C) The relationships between membrane potential and the amplitude of HERG currents in the absence (5) and presence of
+o
+), 10 AM (.) and 30 AM quinidine (E). Symbols and bars indicate the mean and S.E.M. (n = 4 for each point). The current amplitude was measured at
+3 AM (
+the end of the 4 s test pulse (B) or at the peak of HERG tail currents (C) and plotted against the test potential. (D and E) The HERG current amplitude at each
+o
+), 10 AM (.), and 30 AM quinidine (E) was normalized to the corresponding value recorded in the absence of
+membrane potential in the presence of 3 AM (
+the drug. Symbols and bars indicate the mean and S.E.M. (n = 4 for each point). The current amplitude was measured at the end of the 4 s test pulse (D) or at the
+peak of HERG tail currents (E).
+
+Quinidine inhibited both test pulse-end and peak tail
+currents in a concentration-dependent manner at all poten-
+tials. At a given concentration, the quinidine block was
+stronger as the membrane potential became more positive.
+Extrapolation of these curves suggests that quinidine might
+have little effect upon HERG channels at highly negative
+membrane potentials. Although the amplitudes of the
+relative step-end current at >0 mV seem to be slightly
+larger than that at 0 mV (Fig. 3D), there is no statistical
+difference among the amplitudes of the currents between 0
+and + 60 mV in the presence of each concentration of
+quinidine.
+
+3.4. Voltage-independent block of HERG channel currents
+by dofetilide
+
+We next examined the voltage dependency of the block
+of HERG channels by dofetilide. The pulse protocol was the
+same as in Fig. 3. The current – voltage relationships were
+examined after the current amplitude reached the steady-
+state level both in the absence and presence of different
+concentrations of dofetilide. The steady-state effects of 30,
+100 and 300 nM dofetilide on HERG currents evoked by
+voltage pulses to   20 mV (left) and + 40 mV (right) are
+shown in the bottom panel of Fig. 4A. Dofetilide inhibited
+
+K. Tsujimae et al. / European Journal of Pharmacology 493 (2004) 29–40
+
+35
+
+Fig. 4. Voltage-independent block of HERG channels by dofetilide. (A) Top panel: The same voltage pulses as shown in Fig. 2 were applied in the absence and
+presence of each concentration of dofetilide. After the current amplitude reached the steady-state level under each condition, the voltage pulses shown here
+were applied. This voltage clamp protocol is the same as that shown in Fig. 3A. Bottom panel: representative current traces elicited by a test pulse to   20 mV
+(left) or + 40 mV (right) in the absence and presence of 30, 100 and 300 nM dofetilide. (B and C) The relationships between membrane potential and the
+o
+), 100 nM (.) and 300 nM dofetilide (E). Symbols and bars indicate the mean and
+amplitude of HERG currents in the absence (5) and presence of 30 nM (
+S.E.M. (n = 4 for each point). The current amplitude was measured at the end of the 4 s test pulse (B) or at the peak of HERG tail currents (C) and plotted
+o
+), 100 nM (.), and 300 nM dofetilide
+against the test potential. (D and E) The HERG current amplitude at each membrane potential in the presence of 30 nM (
+(E) was normalized to the corresponding value recorded in the absence of the drug. Symbols and bars indicate the mean and S.E.M. (n = 4 for each point). The
+current amplitude was measured at the end of the 4 s test pulse (D) or at the peak of HERG tail currents (E).
+
+the amplitudes of both pulse-end and tail currents in a
+concentration-dependent manner but did not cause the
+crossover of tail current.
+
+The effects of different concentrations of dofetilide on
+the amplitudes of pulse-end and peak tail currents are shown
+in Fig. 4B and C, respectively. Dofetilide inhibited both
+currents in a concentration-dependent manner at all poten-
+tials. In contrast to quinidine, the peak of the I – V curve in
+the presence of dofetilide did not shift, suggesting that the
+effect of dofetilide was independent of membrane potential.
+In Fig. 4D and E, the amplitudes of pulse-end and peak
+tail currents in the presence of dofetilide were normalized to
+
+those in its absence and plotted against each test pulse
+potential. The effect of dofetilide was not different at
+different test potentials.
+
+3.5. Time dependency of
+currents by quinidine and dofetilide
+
+the block of HERG channel
+
+We next examined the time courses of quinidine and
+dofetilide block during test pulses to different membrane
+potentials. Again, the voltage pulses shown in Fig. 2A were
+repeatedly applied until the current amplitude reached the
+steady state in the absence and presence of 10 AM quinidine
+
+36
+
+K. Tsujimae et al. / European Journal of Pharmacology 493 (2004) 29–40
+
+or 100 nM dofetilide. Thereafter, the voltage pulses shown
+in Fig. 5A were applied. In this protocol, the membrane was
+depolarized from the holding potential of   80 mV to the
+potentials between   20 and + 40 mV for 2 s in 20 mV
+increments every 30 s. Fig. 5B shows the current traces
+recorded in the steady-state in the absence and presence of
+quinidine (10 AM) during voltage pulses to   20 mV (top
+panel) and + 20 mV (bottom panel). At   20 mV, 10 AM
+quinidine had little effect on the current at the beginning of
+the voltage step but then time-dependently inhibited it. This
+is consistent with our estimation that quinidine had only
+slightly blocked the channel at the negative holding poten-
+tial of   80 mV. To compare the time course of quinidine
+block at   20, 0, + 20 and + 40 mV, HERG currents
+recorded in the presence of 10 AM quinidine were normal-
+ized to those recorded in the absence of the drug at each
+membrane potential (Fig. 5C). At all test potentials, the
+block was composed of two time-dependent components,
+fast and slow. The fast component became larger at more
+depolarized potentials and the time required for the current
+inhibition became smaller as the test potential was more
+positive, although in our present measurement,
+it was
+the fast component accurately. The half
+difficult
+inhibition occurred at 0.23 F 0.03 s at   20 mV, 0.065 F
+0.009 s at 0 mV, 0.029 F 0.003 s at + 20 mV and
+
+to fit
+
+0.018 F 0.002 s at + 40 mV (n = 5 for each). Thus, the
+kinetics of quinidine block was also voltage dependent as
+was the case for the extent of the block (Fig. 3D,E).
+
+Fig. 5D shows the current traces recorded in the steady
+state in the absence and presence of 100 nM dofetilide
+during voltage pulses to   20 (top panel) and + 20 mV
+(bottom panel). In contrast to quinidine, dofetilide caused a
+significant block from the beginning of the voltage pulse at
+both   20 and + 20 mV. In Fig. 5E, the HERG currents
+recorded in the presence of 100 nM dofetilide were nor-
+malized to those recorded in the absence of the drug at each
+membrane potential. The block by dofetilide was time- and
+voltage-independent.
+
+3.6. Recovery from block by quinidine and dofetilide
+
+We finally examined the time course of recovery from
+the block by quinidine and dofetilide with a double-pulse
+voltage protocol (Fig. 6A). Firstly, 5 s voltage steps to + 40
+mV were applied from   80 mV with a cycle length of 10 s
+to induces the steady-state block in the absence and pres-
+ence of 10 AM quinidine or 100 nM dofetilide. Thereafter,
+the voltage pulses shown in Fig. 6A were applied. Because
+the recovery of quinidine block at   80 mV was fast and the
+onset of block was also very rapid during the depolarizing
+
+Fig. 5. Time dependency of the block of HERG channels by quinidine and dofetilide. (A) The voltage clamp protocol. The voltage pulses shown in Fig. 2A
+were repeatedly applied until the current amplitude reached the steady state in the absence and presence of 10 AM quinidine or 100 nM dofetilide. Thereafter,
+the voltage pulses shown here were applied. The membrane was depolarized from the holding potential of   80 mV to the potentials between   20 and + 40
+mV for 2 s in 20 mV increments. (B and D) Superimposed current traces recorded during voltage steps to   20 mV (top panel) and + 20 mV (bottom panel) in
+the absence (control) and presence of 10 AM quinidine (B) or 100 nM dofetilide (D). (C and E) HERG currents recorded in the presence of 10 AM quinidine (C)
+or 100 nM dofetilide (E) were normalized to those in the absence of the drug at different membrane potentials (dots). Solid lines in the left and right graphs are
+the fit with a single exponential or linear function of the data, respectively.
+
+K. Tsujimae et al. / European Journal of Pharmacology 493 (2004) 29–40
+
+37
+
+Fig. 6. Recovery of HERG channels from quinidine and dofetilide block at   80 mV. (A) The voltage clamp protocol. Two successive depolarizing pulses
+(P1 to + 40 mV and P2 to   20 mV) of 2 s in duration were applied from the holding potential of   80 mV with varying intervals (Dtime of 0 to 10 s).
+This pulse protocol was first applied in the absence of drugs. Then, drugs were applied while the membrane potential was held at   80 mV. Five minutes
+later, 5 s voltage steps to + 40 mV were applied from   80 mV with a cycle length of 10 s to induce the steady-state block. Thereafter, the same double-
+pulse protocol was repeated. (B) HERG currents recorded in P2 with interpulse duration of 0, 0.2, 1 and 5 s in the presence of 10 AM quinidine (left) or
+100 nM dofetilide (right) were normalized to those in the absence of the drug. The abscissa indicates the time after application of P2. Solid lines in the left
+and right graphs are the fit with a single exponential or linear function of the data, respectively. (C) The extent of the block by 10 AM quinidine (left) or
+100 nM dofetilide (right) at the beginning of P2 was estimated by extrapolating the solid lines in (B) toward the time 0. These values were plotted against
+the interval between P1 and P2. Symbols and bars indicate the mean and S.E.M. (n = 4 for each point). The solid line in the left graph is the fit to the data
+of a single exponential function with a time constant of 1.44 s, whereas that in the right graph is a linear regression fit to the data.
+
+pulse, we estimated the recovery as follows. The membrane
+was first depolarized to + 40 mV (P1) for 2 s to induce the
+steady-state block and then repolarized to   80 mV. After
+the membrane potential was held at   80 mV for various
+durations (0 to 10 s), the membrane potential was depolar-
+ized for 2 s to   20 mV (P2), at which the quinidine does
+not block HERG channels very rapidly (Fig. 5B and C).
+HERG currents recorded in the presence of 10 AM quinidine
+or 100 nM dofetilide in P2 were normalized to those
+recorded in the absence of the drugs (Fig. 6B). The
+normalized currents in the presence of quinidine or dofeti-
+lide were fit with a single exponential and linear function,
+respectively (Fig. 6B). The availability of HERG channels
+at the beginning of P2 was estimated by extrapolating the
+
+curves or lines toward time 0. These estimated values were
+plotted against the interval between P1 and P2 in Fig. 6C.
+The quinidine block at + 40 mV reduced at   80 mV with a
+time constant of 1.44 F 0.32 s, whereas the dofetilide block
+showed no recovery within 10 s (Fig. 6B,C, right).
+
+4. Discussion
+
+4.1. Comparison of the kinetic properties of HERG channel
+block by quinidine, dofetilide and vesnarinone
+
+We showed that both quinidine and dofetilide blocked
+HERG channel currents expressed in Xenopus oocytes in a
+
+38
+
+K. Tsujimae et al. / European Journal of Pharmacology 493 (2004) 29–40
+
+use-dependent and frequency-independent manner. The use
+dependency may indicate that these agents are so-called
+open channel blockers. These results agree with previously
+results (Snyders and Chaudhary, 1996; Weerapura et al.,
+2002).
+
+The frequency-independent block of these drugs arose
+from different mechanisms. Dofetilide blocked the HERG
+current in a voltage- and time-independent manner (Figs. 4
+and 5). This turned out to be due to little recovery from the
+drug effect at negative potentials (Fig. 6B and C). This is the
+major mechanism for dofetilide-induced frequency-indepen-
+dent block. In contrast, quinidine block of HERG channels
+exhibited a prominent voltage and time dependency (Figs. 3,
+5 and 6) as reported previously (Paul et al., 2002; Weerapura
+et al., 2002). At positive membrane potentials, the block
+occurred very rapidly within 100 – 200 ms (Fig. 5C). Re-
+covery from the block occurred with a time constant of ~1.5
+s at   80 mV (Fig. 6C). This suggests that quinidine should
+cause the frequency-dependent block. However, the onset of
+quinidine block is so rapid (i.e., t1/2 = 18 ms at + 40 mV)
+that quinidine block reaches the steady-state level within
+several hundreds milliseconds. As a result, quinidine
+blocked HERG channels in a frequency-independent man-
+ner. Therefore, quinidine and dofetilide cause the frequency-
+independent block through distinct mechanisms.
+
+It
+
+is usually difficult to directly extrapolate the drug
+effects on HERG channels expressed in Xenopus oocytes
+to those on native cardiac IKr channels. For example, around
+10 times higher concentrations of drugs are required to
+cause the same extent of block of HERG currents expressed
+in Xenopus oocytes than those expressed in mammalian
+cells or native cardiac IKr currents. This is probably because
+oocytes have the yolk and vitelline membrane. Therefore,
+the concentrations of quinidine and dofetilide used in this
+study would be much higher than those causing the equiv-
+alent effect on native cardiac IKr currents. However, the rank
+order of the potency of drugs assessed in oocytes is
+compatible with that determined in mammalian cells
+(Witchel et al., 2002). In addition, the onset of block of
+HERG currents by quinidine is much faster than that by
+dofetilide whether these are assessed in either oocytes or
+Chinese hamster ovary (CHO) cells (Weerapura et al.,
+2002). For these reasons, we consider that it is possible to
+estimate the effect of drugs on native cardiac IKr currents
+from the present results at least qualitatively.
+
+From this aspect, we propose that quinidine and dofeti-
+lide may cause the reverse frequency-dependent prolonga-
+tion of cardiac action potential
+through the common
+frequency-independent block of the IKr channels resulting
+from the distinct mechanisms. We also suggest that the
+effect of HERG channel blockers on cardiac action potential
+can be significantly affected by the block and unblock
+kinetics of each agent as is the case for Na+ channel
+blockers (Hondeghem and Katzung, 1984).
+
+We previously reported that vesnarinone causes a fre-
+quency-dependent block of HERG channels expressed in a
+
+mammalian cell line (Katayama et al., 2000). The drug did
+not show use dependence and exhibited a voltage- and time-
+dependent block during depolarizing voltage steps. Vesnar-
+inone (1 AM) blocked HERG channels with a time constant
+of 0.89 s at + 20 mV and unblocking occurred with a time
+constant of 1.75 s at   80 mV (Katayama et al., 2000).
+Thus, vesnarinone seems to be in between dofetilide and
+quinidine in terms of the blocking and unblocking kinetics.
+The effect of vesnarinone did not accumulate as long as
+depolarizing pulses are applied at cycle lengths of
+12 s
+but did so with shorter cyclic lengths (Katayama et al.,
+2000). Thus, vesnarinone blocked HERG channels in a
+frequency-dependent manner in contrast with dofetilide or
+quinidine (Katayama et al., 2000). This phenomenon under-
+lies the prolongation of the action potential duration of
+rabbit ventricular myocytes without reverse frequency de-
+pendency by vesnarinone (Toyama et al., 1997).
+
+z
+
+4.2. Interaction of quinidine with HERG channels
+
+Quinidine blocks not only IKr but also IKs channels (Yao
+et al., 1996; Kang et al., 2001). However, much higher
+concentrations of quinidine are required to inhibit IKs than
+IKr. The IC50 values of quinidine block of recombinant IKs
+channels at + 20 mV are 44 AM when expressed in Chinese
+hamster ovary (CHO) cells (Kang et al., 2001) and 585 AM
+for those expressed in Xenopus oocytes (Yao et al., 1996).
+Because these values are higher than the therapeutic con-
+centration of quinidine (6 – 15 AM; Yang et al., 2001), the
+clinical effect of the agent would mainly result from its
+block of IKr currents.
+
+That quinidine slowed the decay of HERG channel tail
+currents was indicated by the crossover of tail currents
+recorded in the absence and presence of 3 AM quinidine
+(Figs. 2A and 3A, arrow head). This observation is consis-
+tent with previously published data (Sanchez-Chapula et al.,
+2003). Similar effects upon HERG tail currents are reported
+in the effects of verapamil (Zhang et al., 1999) and cocaine
+and its metabolites (Ferreira et al., 2001). Quinidine also
+slows the decay of the tail current of human Kv1.5, a type of
+voltage-dependent K+ channel (Snyders et al., 1992;
+Snyders and Yeola, 1995). This slowing of deactivation is
+usually interpreted as suggesting that the channels must
+transit an open state(s) in moving from blocked to closed
+state(s). In this case, the area under the tail current should be
+the same in the presence and absence of a blocker. This was,
+however, not the case for quinidine block of HERG chan-
+nels. The area under the tail current became smaller at
+higher concentration of quinidine (see Section 3.2). It is,
+therefore, possible that
+the HERG channel blocked by
+quinidine can move to the closed state(s) without passing
+through the open state at negative potentials. Through this
+mechanism, quinidine may effectively suppress the tail
+current despite its fast unblocking kinetics. On the other
+hand, dofetilide modestly slowed the decay of the tail
+current only at high concentrations (Table 2).
+
+K. Tsujimae et al. / European Journal of Pharmacology 493 (2004) 29–40
+
+39
+
+Quinidine blocks HERG channels at positive potentials
+such as + 60 mV (Fig. 3). This suggests that
+the
+quinidine blocks the inactivated HERG channel as well
+as open channels. Further analyses are needed to clarify
+the precise kinetic properties of quinidine block of HERG
+channel currents (e.g., Ridley et al., 2003; Arias et al.,
+2003).
+
+4.3. Conclusion
+
+We have shown that quinidine inhibits HERG currents in
+a voltage-dependent manner. Quinidine exhibited a very
+rapid onset of block at positive membrane potentials.
+Quinidine inhibited HERG currents in a frequency-indepen-
+dent manner due to these rapid kinetic characteristics. In
+contrast, dofetilide blocked HERG channels in a voltage-
+independent manner. Dofetilide inhibited HERG currents in
+a frequency-independent manner because of its slow
+unblocking at negative potentials. It is difficult to directly
+extrapolate the present results to the drug effect on native
+cardiac IKr channels. Nevertheless, we consider that, with
+distinct kinetic properties, quinidine and dofetilide might
+cause a similar effect,
+the reverse frequency-dependent
+prolongation of action potential duration associated with
+arrhythmia. Comparison of the kinetic properties of quini-
+dine, dofetilide and vesnarinone suggest that the kinetic
+properties of the agents may affect their effect on action
+potential duration, and thus their clinical effects. Therefore,
+it is important to identify the kinetic properties of HERG
+channel blockers which do not prolong action potential
+duration in a reverse frequency-dependent manner. Further
+studies in this direction, combined with the analysis of the
+three dimensional quantitative structure – activity relation-
+ship of these agents (Ekins et al., 2002; Cavalli et al., 2002),
+could lead to the development of effective IKr blockers
+without proarrhythmic effects.
+
+Acknowledgements
+
+We are grateful to Dr. Ian Findlay (CNRS UMR 6542
+Faculte´ des Sciences, Universite´ de Tours, France) for the
+critical reading of this manuscript. We also thank Ms.
+Kaori Iwai for her technical assistance, and Ms. Keiko
+Tsuji and Ms. Tomoko Kawatsuji
+the secretarial
+work.
+
+for
+
+This work was supported by Grant-in-Aid 12144207 for
+Scientific Research on Priority Area (B) (to Y.K.) and a
+Grant-in-Aid for Scientific Research C (12670715)
+(to
+M.Y.) from the Ministry of Education, Culture, Sports,
+Science and Technology of Japan, and the research grant for
+Cardiovascular Diseases (12C-7)
+from the
+Ministry of Health, Labor and Welfare of Japan. This study
+was partly performed through IT-program of Ministry of
+Education, Culture, Sports, Science and Technology (to
+Y.K.).
+
+(to M.Y.)
+
+References
+
+Abbot, G.W., Sesti, F., Splawski, I., Buck, M.E., Lehmann, M.H., Timothy,
+K.W., Keating, M.T., Goldstein, S.A.N., 1999. MiRP1 forms IKr potas-
+sium channels with HERG and is associated with cardiac arrhythmia.
+Cell 97, 175 – 187.
+
+Arias, C., Gonza´lez, T., Moreno, I., Caballero, R., Delpo´n, E., Tamargo, J.,
+Valenzuela, C., 2003. Effects of propafenone and its main metabolite,
+5-hydroxypropafenone, on HERG channels. Cardiovasc. Res. 57,
+660 – 669.
+
+Carmeliet, E., 1992. Voltage- and time-dependent block of the delayed K+
+current in cardiac myocytes by dofetilide. J. Pharmacol. Exp. Ther. 262,
+809 – 817.
+
+Cavalli, A., Poluzzi, E., Ponti, F.D., Recanatini, M., 2002. Toward a phar-
+macophore for drugs inducing the long QT syndrome: insights from a
+CoMFA study of HERG K+ channel blockers. J. Med. Chem. 45,
+3844 – 3853.
+
+Chachin, M., Katayama, Y., Yamada, M., Horio, Y., Ohmura, T., Kitagawa,
+H., Uchida, S., Kurachi, Y., 1999. Epinastine, a nonsedating histamine
+H1 receptor antagonist, has a negligible effect on HERG channel. Eur. J.
+Pharmacol. 374, 457 – 460.
+
+Curran, M.E., Splawski, I., Timothy, K.W., Vincent, G.M., Green, E.D.,
+Keating, M.T., 1995. A molecular basis for cardiac arrhythmia: HERG
+mutations cause long QT syndrome. Cell 80, 795 – 803.
+
+Ekins, S., Crumb, W.J., Sarazan, R.D., Wikel, J.H., Wrighton, S.A., 2002.
+Three-dimensional quantitative structure – activity relationship for inhi-
+bition of human ether-a-go-go-related gene potassium channel. J. Phar-
+macol. Exp. Ther. 301, 427 – 434.
+
+Feldman, A.M., Baughman, K.L., Lee, W.K., Gottlieb, S.H., Weiss, J.L.,
+Becker, L.C., Strobeck, J.E., 1991. Usefulness of OPC-8212, a quino-
+linone derivative, for chronic congestive heart failure in patients with
+ischemic heart disease or idiopathic dilated cardiomyopathy. Am. J.
+Cardiol. 68, 1203 – 1210.
+
+Ferreira, S., Crumb, W.J., Carlton, C.G., Clarkson, C.W., 2001. Effects of
+cocaine and its major metabolites on the HERG-encoded potassium
+channel. J. Pharmacol. Exp. Ther. 299, 220 – 226.
+
+Hondeghem, L.M., Katzung, B.G., 1984. Antiarrhythmic agents: the mod-
+ulated receptor mechanism of action of sodium and calcium channel-
+blocking drugs. Annu. Rev. Pharmacol. Toxicol. 24, 387 – 423.
+
+Hondeghem, L.M., Snyders, D.J., 1990. Class III antiarrhythmic agents
+have a lot of potential but a long way to go. Reduced effectiveness
+and danger of reverse use dependence. Circulation 81, 686 – 690.
+
+Ishii, K., Kondo, K., Takahashi, M., Kimura, M., Endoh, M., 2001. An
+amino acid residue whose change by mutation affects drug binding to
+the HERG channel. FEBS Lett. 506, 191 – 195.
+
+Jurkiewicz, N.K., Sanguinetti, M.C., 1993. Rate-dependent prolongation of
+cardiac action potentials by a methanesulfonanilide class III antiarrhyth-
+mic agent. Specific block of rapidly activating delayed rectifier K+
+current by dofetilide. Circ. Res. 72, 75 – 83.
+
+Kang, J., Chen, X.L., Wang, L., Rampe, D., 2001. Interaction of the anti-
+malarial drug mefloquine with the human cardiac potassium channels
+KvLQT1/minK and HERG. J. Pharmacol. Exp. Ther. 299, 290 – 296.
+
+Katayama, Y., Fujita, A., Ohe, T., Findlay, I., Kurachi, Y., 2000. Inhibitory
+effects of vesnarinone on cloned cardiac delayed rectifier K+ channels
+expressed in a mammalian cell line. J. Pharmacol. Exp. Ther. 294,
+339 – 346.
+
+Lees-Miller, J.P., Duan, Y., Teng, G.Q., Duff, H.J., 2000. Molecular deter-
+minant of high-affinity dofetilide binding to HERG1 expressed in Xen-
+opus oocytes: involvement of S6 sites. Mol. Pharmacol. 57, 367 – 374.
+Li, G.R., Feng, J., Yue, L., Carrier, M., Nattel, S., 1996. Evidence for two
+components of delayed rectifier K+ current in human ventricular myo-
+cytes. Circ. Res. 78, 689 – 696.
+
+Marschang, H., Beyer, T., Karolyi, L., Ku¨bler, W., Brachmann, J., 1998.
+Differential rate and potassium-dependent effects of the class III agents
+d-sotalol and dofetilide on guinea pig papillary muscle. Cardiovasc.
+Drugs Ther. 12, 573 – 583.
+
+Okada, Y., Ogawa, S., Sadanaga, T., Mitamura, H., 1996. Assessment of
+
+40
+
+K. Tsujimae et al. / European Journal of Pharmacology 493 (2004) 29–40
+
+reverse use-dependent blocking actions of class III antiarrhythmic
+drugs by 24-hour Holter electrocardiography. J. Am. Coll. Cardiol.
+27, 84 – 89.
+
+Paul, A.A., Witchel, H.J., Hancox, J.C., 2002. Inhibition of the current
+of heterologously expressed HERG potassium channels by flecainide
+and comparison with quinidine, propafenone and lignacaine. Br. J.
+Pharmacol. 136, 717 – 729.
+
+Po, S.S., Wang, D.W., Yang, I.C.H., Johnson Jr., J.P., Nie, L., Bennet, P.B.,
+1999. Modulation of HERG potassium channels by extracellular mag-
+nesium and quinidine. J. Cardiovasc. Pharmacol. 33, 181 – 185.
+
+Ridley, J.M., Milnes, J.T., Benest, A.V., Masters, J.D., Witchel, H.J., Han-
+cox, J.C., 2003. Characterisation of recombinant HERG K+ channel
+blockade by the class Ia antiarrhythmic drug procainamide. Biochem.
+Biophys. Res. Commun. 306, 388 – 393.
+
+Roden, D.M., 2000. Acquired long QT syndromes and the risk of proar-
+
+rhythmia. J. Cardiovasc. Electrophysiol. 11, 938 – 940.
+
+Roden, D.M., Hoffman, B.F., 1985. Action potential prolongation and
+induction of abnormal automaticity by low quinidine concentrations
+in canine Purkinje fibers. Relationship to potassium and cycle length.
+Circ. Res. 56, 857 – 867.
+
+Roden, D.M., Iansmith, D.H.S., Woosley, R.L., 1987. Frequency-depen-
+dent interactions of mexiletine and quinidine on depolarization and
+repolarization in canine Purkinje fibers. J. Pharmacol. Exp. Ther. 243,
+1218 – 1224.
+
+Sanchez-Chapula, J.A., Ferer, T., Navzpro-Planco, R.A., Sanguinetti, M.C.,
+2003. Voltage-dependent profile of human ether-a-go-go-related gene
+channel block is influenced by a single residue in the S6 transmembrane
+domain. Mol. Pharmacol. 63, 1051 – 1058.
+
+Sanguinetti, M.C., Jurkiewicz, N.K., 1990. Two components of cardiac
+delayed rectifier K+ current. Differential sensitivity to block by class
+III antiarrhythmic agents. J. Gen. Physiol. 96, 195 – 215.
+
+Sanguinetti, M.C., Jurkiewicz, N.K., 1991. Delayed rectifier outward K+
+current is composed of two currents in guinea pig atrial cells. Am. J.
+Physiol. 260, H393 – H399.
+
+Sanguinetti, M.C., Jiang, C., Curran, M.E., Keating, M.T., 1995. A mech-
+anistic link between an inherited and an acquired cardiac arrhythmia:
+HERG encodes the IKr potassium channel. Cell 81, 299 – 307.
+
+Sanguinetti, M.C., Curran, M.E., Spector, P.S., Keating, M.T., 1996. Spec-
+trum of HERG K+-channel dysfunction in an inherited cardiac arrhyth-
+mia. Proc. Natl. Acad. Sci. U. S. A. 93, 2208 – 2212.
+
+Smith, W.M., Gallagher, J.J., 1980. Les torsades de pointes: an unusual
+
+ventricular arrhythmia. Ann. Intern. Med. 93, 578 – 584.
+
+Smith, P.L., Baukrowitz, T., Yellen, G., 1996. The inward-rectification
+mechanism of the HERG cardiac potassium channel. Nature 379,
+833 – 836.
+
+Snyders, D.J., Yeola, S.W., 1995. Determinants of antiarrhythmic drug
+action. Electrostatic and hydrophobic components of block of the hu-
+man cardiac hKv1.5 channel. Circ. Res. 77, 575 – 583.
+
+Snyders, D.J., Chaudhary, A., 1996. High affinity open channel block by
+dofetilide of HERG expressed in a human cell line. Mol. Pharmacol. 49,
+949 – 955.
+
+Snyders, D.J., Knoth, K.M., Roberds, S.L., Tamkun, M.M., 1992. Time-,
+voltage-, and state-dependent block by quinidine of a cloned human
+cardiac potassium channel. Mol. Pharmacol. 41, 322 – 330.
+
+Toyama, J., Kamiya, K., Cheng, J., Lee, J.K., Suzuki, R., Kodama, I.,
+1997. Vesnarinone prolongs action potential duration without reverse
+frequency dependence in rabbit ventricular muscle by blocking the
+delayed rectifier K+ current. Circulation 96, 3696 – 3703.
+
+Trudeau, M.C., Warmke, J.W., Ganetzky, B., Robertson, G.A., 1995.
+HERG, a human inward rectifier in the voltage-gated potassium channel
+family. Science 269, 92 – 95.
+
+Wang, Z., Fermini, B., Nattel, S., 1994. Rapid and slow components of
+delayed rectifier current in human atrial myocytes. Cardiovasc. Res. 28,
+1540 – 1546.
+
+Weerapura, M., Nattel, S., Chartier, D., Caballero, R., He´bert, T.E., 2002.
+A comparison of currents carried by HERG, with and without coex-
+pression of MiRP1, and the native rapid delayed rectifier current. Is
+MiRP1 the missing link? J. Physiol. 540, 15 – 27.
+
+Witchel, H.J., Milnes, J.T., Mitcheson, J.S., Hancox, J.C., 2002. Trouble-
+shooting problems with in vitro screening of drugs for long QT interval
+prolongation using HERG K+ channels expressed in mammalian cell
+lines and Xenopus oocytes. J. Pharmacol. Toxicol. Methods 48, 65 – 80.
+Yang, T., Roden, D.M., 1996. Extracellular potassium modulation of drug
+block of IKr. Implications for torsade de pointes and reverse use-depen-
+dence. Circulation 93, 407 – 411.
+
+Yang, T., Snyders, D., Roden, D.M., 2001. Drug block of IKr: model
+systems and relevance to human arrhythmias. J. Cardiovasc. Pharmacol.
+38, 737 – 744.
+
+Yao, J.A., Trybulski, E.J., Tseng, G.N., 1996. Quinidine preferentially
+blocks the slow delayed rectifier potassium channel in the rested state.
+J. Pharmacol. Exp. Ther. 279, 856 – 864.
+
+Zhang, S., Zhou, Z., Gong, Q., Makielski, J.C., January, C.T., 1999. Mech-
+anism of block and identification of the verapamil binding domain to
+HERG potassium channels. Circ. Res. 84, 989 – 998.
+
+

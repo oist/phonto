@@ -1,0 +1,16 @@
+Animals
+Hippocampus
+physiology
+Learning
+Memory
+Models
+Neurological
+Models
+Psychological
+Neuronal Plasticity
+Receptors
+N-Methyl-D-Aspartate
+physiology
+Synapses
+physiology
+There has recently been renewed interest in the idea that alterations in synaptic efficacy may be the neural basis of information storage. Particular attention has been focused upon long-term potentiation (LTP), a long-lasting, but experimentally induced synaptic change whose physiological properties point to it being a candidate memory mechanism. However, considerations of storage capacity and the possibility of concomitant activity-dependent synaptic depression make it unlikely that individual learning experiences will give rise to gross changes in field potentials similar to those that occur in LTP, even if learning and LTP utilize common neural mechanisms. One way of investigating the functional significance of LTP is to use selective antagonists of those excitatory amino acid receptors whose activation is essential for its induction. This paper discusses various design requirements for such experiments and reviews work indicating that the N-methyl-D-aspartate receptor antagonist AP5 causes a behaviourally selective learning impairment having certain common features to the behavioural profile seen after hippocampal lesions. Two new studies are described whose results show that AP5 has no effect upon the retrieval of previously established memories, and that the dose-response profile of the impairment of spatial learning occurs across a range of extracellular concentrations in hippocampus for which receptor selectivity exists. These experiments show that activation of NMDA receptors is essential for certain kinds of learning.

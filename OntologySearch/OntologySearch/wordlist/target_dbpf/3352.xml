@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3352">
+<itemtype>xnpconference</itemtype>
+<titles><title>Path Integration and cognitive map formation in cortico-hippocampal theta networks</title>
+</titles>
+<contributor uname='yokoy'>[en]Yoko Yamaguchi[/en][ja]山口 陽子[/ja](yokoy)</contributor>
+<keywords><keyword>B01G1</keyword>
+</keywords>
+<description>国際会議oralinvited</description>
+<doi></doi>
+<last_update_date>2010-03-23T07:26:32Z</last_update_date>
+<creation_date>2010-03-19T11:22:03Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>9</publication_month>
+<publication_mday>14</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3352</url>
+<changelogs>
+<changelog date='2010-03-23T07:26:32Z'>発表者 を変更</changelog>
+<changelog date='2010-03-23T03:17:55Z'>発表者 を変更</changelog>
+<changelog date='2010-03-19T11:30:09Z'>Modified; Conference Title.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3352" version="1.02">
+<conference_from_year>2009</conference_from_year>
+<conference_from_month>9</conference_from_month>
+<conference_from_mday>14</conference_from_mday>
+<conference_to_year>2009</conference_to_year>
+<conference_to_month>9</conference_to_month>
+<conference_to_mday>14</conference_to_mday>
+<presentation_type>powerpoint</presentation_type>
+<conference_title>RIKEN BSI Symposium on Hippocampus</conference_title>
+<place>RIKEN, Wako</place>
+<authors><author>Yoko Yamaguchi</author></authors>
+<abstract></abstract>
+<attachment_dl_limit>1</attachment_dl_limit>
+<attachment_dl_notify>1</attachment_dl_notify>
+</detail>
+</item>

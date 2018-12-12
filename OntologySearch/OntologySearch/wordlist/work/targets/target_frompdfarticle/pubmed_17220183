@@ -1,0 +1,1002 @@
+Am J Physiol Heart Circ Physiol 293: H660–H669, 2007.
+First published January 12, 2007; doi:10.1152/ajpheart.01083.2006.
+
+Frequency-dependent effects of various IKr blockers on cardiac action
+potential duration in a human atrial model
+
+Kenji Tsujimae,1 Shingo Suzuki,1 Shingo Murakami,1 and Yoshihisa Kurachi1,2
+1Division of Molecular and Cellular Pharmacology, Department of Pharmacology, Graduate School
+of Medicine, and 2Center for Advanced Medical Engineering and Informatics, Osaka University, Osaka, Japan
+
+Submitted 4 October 2006; accepted in ﬁnal form 6 January 2007
+
+Tsujimae K, Suzuki S, Murakami S, Kurachi Y. Frequency-
+dependent effects of various IKr blockers on cardiac action poten-
+tial duration in a human atrial model. Am J Physiol Heart Circ
+Physiol 293: H660–H669, 2007. First published January 12, 2007;
+doi:10.1152/ajpheart.01083.2006.—Rapidly activating K⫹ current
+(IKr) blockers prolong action potential (AP) duration (APD) in a
+reverse-frequency-dependent manner and may induce arrhythmias,
+including torsade de pointes in the ventricle. The IKr blocker dofetilide
+has been approved for treatment of atrial arrhythmias, including
+ﬁbrillation. There are, however, a limited number of studies on the
+action of IKr blockers on atrial AP. When we tested a mathematical
+model of the human atrial AP (M Courtemanche, RJ Ramirez, S
+Nattel. Am J Physiol Heart Circ Physiol 275: H301–H321, 1998) to
+examine the effects of dofetilide-type IKr blockade, this model could
+not reproduce the reverse-frequency-dependent nature of IKr blockade
+on atrial APD. We modiﬁed the model by introducing a slowly
+activating K⫹ current activation parameter. As the slow time constant
+was increased, dofetilide-type blockade induced more prominent re-
+verse-frequency-dependent APD prolongation. Using the modiﬁed
+model, we also examined the effects of two more types of IKr
+blockade similar to those of quinidine and vesnarinone. Voltage- and
+time-dependent block of IKr through the onset of inhibition by quin-
+idine is much faster than by vesnarinone. When we incorporated the
+kinetics of the effects of these drugs on IKr into the model, we found
+that quinidine-type blockade caused a reverse-frequency-dependent
+prolongation of APD that was similar to the effect of dofetilide-type
+blockade, whereas vesnarinone-type blockade did not. This ﬁnding
+coincides with experimental observations. The lack of the reverse
+frequency dependence in vesnarinone-type blockade was accounted
+for by the slow development of IKr blockade at depolarized potentials.
+These results suggest that the voltage- and time-dependent nature of
+IKr blockade by drugs may be critical for the phenotype of the drug
+effect on atrial AP.
+
+rapidly activating potassium current; slowly activating potassium
+current; atrial action potential; reverse frequency dependence; com-
+puter simulation
+
+THE DELAYED RECTIFIER K⫹ current (IK) contributes to the phase
+2 and phase 3 repolarization of the cardiac action potential
+(AP) and,
+thus, controls AP duration (APD). The rapidly
+activating K⫹ current (IKr) and the slowly activating K⫹
+current (IKs) are two distinct components of IK in many
+mammals, including humans (28, 29, 37). IKr inhibition by a
+number of cardiac and noncardiac drugs prolongs the QT
+interval and causes arrhythmias, including torsades de pointes
+in the ventricle (1). The contribution of IKr relative to IKs in AP
+repolarization is greater during bradycardia than during tachy-
+
+the amplitude of IKs
+
+cardia: during tachycardia,
+increases
+because of its slow deactivation, whereas the amplitude of IKr
+remains nearly the same (12). As a result, drugs such as
+dofetilide and E-4031, which speciﬁcally inhibit IKr, prolong
+APD more prominently during bradycardia (17, 18, 32). This
+phenomenon is called “reverse frequency dependence.” The
+reverse-frequency-dependent nature of a drug’s effect is con-
+sidered, at least in part, to be responsible for inducing exces-
+sive prolongation of APD and torsades de pointes during
+bradycardia (11). It is a critical indicator of the arrhythmogenic
+potential of a drug (34).
+
+Drugs such as dofetilide and E-4031 block IKr in a voltage-
+and time-independent manner (32, 33). On the other hand, we
+showed that the positive inotropic agent vesnarinone and the
+widely used class Ia antiarrhythmic drug quinidine inhibit
+current ﬂowing through the pore-forming subunit of IKr, HERG
+(human ether-a-go-go-related gene), in a voltage- and time-
+dependent manner (13, 33). Although both drugs inhibit the
+current more potently and rapidly as the membrane potential is
+depolarized, the development of blockade at the same potential
+is much faster with quinidine than with vesnarinone (13, 33).
+Accordingly, IKr blockade by drugs can be classiﬁed into at
+least three representative groups: voltage- and time-indepen-
+dent blockade (e.g., by dofetilide and E-4031), fast voltage-
+and time-dependent blockade (e.g., by quinidine), and slow
+voltage- and time-dependent blockade (e.g., by vesnarinone).
+Previous studies have shown that although dofetilide and
+quinidine cause reverse-frequency-dependent prolongation of
+APD, vesnarinone does not (10, 12, 32) and that, clinically,
+dofetilide and quinidine often cause torsades de pointes, but
+vesnarinone does not (7, 30). These different effects among the
+drugs may be due to the differences in their kinetics of HERG
+blockade (13, 33), but the underlying mechanism has not been
+fully clariﬁed.
+
+IKr and IKs were also found in human atrial myocytes (37),
+and, recently, the IKr-speciﬁc blocker dofetilide was approved
+for treatment of atrial ﬁbrillation (AF) (6). Therefore, the
+action of IKr blockers on atrial, as well as ventricular, APs is of
+interest. The aims of this study were 1) to establish a human
+atrial AP model that can differentiate the effects of drugs with
+the three distinct IKr blockade kinetics, 2) to elucidate the
+underlying mechanism of the different effect of IKr blockade
+on APD prolongation, and 3) to predict the requirement for
+non-reverse-frequency-dependent prolongation of APD in IKr
+blockade. To examine the effects of pure IKr blockade on APD,
+other possible effects by the IKr blockers [e.g., blockade of
+
+Address for reprint requests and other correspondence: Y. Kurachi, Div. of
+Molecular and Cellular Pharmacology, Dept. of Pharmacology, Graduate
+School of Medicine, Osaka Univ., 2-2 Yamada-oka, Suita, Osaka 565-0871,
+Japan (e-mail: ykurachi@pharma2.med.osaka-u.ac.jp).
+
+The costs of publication of this article were defrayed in part by the payment
+of page charges. The article must therefore be hereby marked “advertisement”
+in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.
+
+H660
+
+0363-6135/07 $8.00 Copyright © 2007 the American Physiological Society
+
+http://www.ajpheart.org
+
+EFFECTS OF IKr BLOCKERS ON ATRIAL ACTION POTENTIAL
+
+IKr ⫽
+
+yigKrxr共V ⫺ EK兲
+
+1 ⫹ exp冉V ⫹ 15
+冊
+
+22.4
+
+H661
+
+(3)
+
+ultrarapid delayed rectiﬁer K⫹ current (IKur) and inactivating
+transient outward K⫹ current (Ito) by quinidine] needed to be
+excluded. This is very difﬁcult, if not impossible, in vitro.
+However, in silico approaches can realize such hypothetical
+experimental conditions. Therefore, we have developed an
+applicable human atrial AP model.
+
+We ﬁrst examined the effect of IKr blockade caused by
+dofetilide on the model of human atrial AP that was developed
+by Courtemanche et al. (2). We found that this model could not
+reproduce dofetilide’s reverse-frequency-dependent prolonga-
+tion of atrial APD. To correct this defect, we incorporated the
+slow component of IKs (27, 31) into the model. The modiﬁed
+model reproduced and accounted for the different frequency-
+dependent responses of APD due to three kinetically distinctive
+IKr blockade types. These results suggest that the voltage and
+time dependence of IKr blockade by drugs may be critical for
+the phenotype of drug effect on atrial AP.
+
+MATERIALS AND METHODS
+
+AP simulation. To simulate the human atrial AP, we used the
+mathematical model developed by Courtemanche et al. (2). Brieﬂy,
+this model has passive properties (e.g., membrane capacitance and
+membrane resistance) and 12 voltage-dependent and carrier-mediated
+ionic currents as follows: fast Na⫹ current (INa), inward rectiﬁer K⫹
+current (IK1), Ito, IKur, IKr, IKs, L-type Ca2⫹ current (ICa,L), sarcolem-
+mal Ca2⫹ pump current (Ip,Ca), Na⫹-K⫹ pump current (INaK), Na⫹/
+Ca2⫹ exchanger current (INaCa), background Na⫹ current (Ib,Na), and
+background Ca2⫹ current (Ib,Ca). Hodgkin-Huxley-type equations are
+used to calculate the forward and backward kinetics of the activation
+and inactivation processes of each voltage-gated ion channel. The
+program was coded in C/C⫹⫹, and simulations were run on an
+IBM-compatible computer with a C⫹⫹ compiler.
+
+IKs in the original atrial AP model of Courtemanche et al. (2) is
+
+expressed as follows
+
+2共V ⫺ EK兲
+
+IKs ⫽ gKs xs
+
+(1)
+where gKs is the maximum conductance for IKs, xs is the activation
+gate variable for IKs, V is the membrane potential, and EK is the
+equilibrium potential for K⫹. The activation of IKs in the original
+model of Courtemanche et al. is assumed to have one gate represented
+2 ). It has been experimentally shown, how-
+by squared variables (xs
+ever, that IKs possesses at least two (fast and slow) activation pro-
+cesses (27, 31). The time constant in the original model of Courte-
+manche et al. represents only the fast process. An additional slow
+activation process was introduced into the formulation of IKs in our
+model in a manner similar to that in the Luo-Rudy (LRd) model, the
+de facto standard guinea pig ventricle cell model (35). We modiﬁed
+this to incorporate two activation processes as follows
+
+IKs ⫽ gKs xs1xs2共V ⫺ EK兲
+
+(2)
+where xs1 and xs2 are the fast and slow activation gate variables,
+respectively. Although the time constant of xs1 [␶x(s1)] was set to be
+the same as the value of the time constant of xs in the original model
+of Courtemanche et al., that of xs2 [␶x(s2)] was two, four, or six times
+␶x(s1). The maximum IKs conductance was adjusted in each case so
+that the APD in the control at 1,000-ms cycle length (CL) did not
+change from that of the original model: it was 0.129, 0.187, 0.251, and
+0.277 mS/␮F for the original and the two-, four-, and sixfold in-
+creases, respectively.
+
+Thirty AP simulations were run at each CL. The last AP in each run
+was used for analysis. The APD was measured at ⫺70 mV, which
+closely approximates APD at 90% repolarization (APD90).
+
+Formulation of kinetic properties of IKr blockade types. To incor-
+porate the effects of the three blockade groups, we modiﬁed the
+formulation of IKr given by Courtemanche et al. (2) as follows
+
+where i represents the blockade type where dofetilide type is the
+voltage- and time-independent blockade, quinidine type is the voltage-
+dependent blockade with fast development, and vesnarinone type is
+the voltage-dependent blockade with slow development, yi is the
+fraction of IKr that is not blocked by drug type i, gKr is the maximum
+conductance of IKr, and xr is the activation gate variable,.
+
+Dofetilide blocks IKr in a voltage- and time-independent manner
+(33). Therefore, dofetilide represents the voltage- and time-indepen-
+dent blockade and ydofetilide type was set to 0.1.
+
+On the other hand, the effects of the two types of voltage- and
+time-dependent blockade were calculated with the following ﬁrst-
+order differential equation
+
+dyi /dt ⫽ 共y⬁,i ⫺ yi兲/␶i
+
+(4)
+
+where i represents the blockade type where quinidine or vesnarinone,
+yi is the state variable of the unblocked fraction of IKr in the presence
+of drug type i, y⬁,i, is the steady-state value of yi, and ␶i is the time
+constant for yi. Simulations of y⬁,i and ␶i derived from our experi-
+mental data for quinidine and dofetilide (33) and vesnarinone (13) are
+shown in Fig. 1.
+
+y⬁,i and ␶i are expressed as functions of V as follows
+
+y⬁,i ⫽
+
+␣i
+
+␣i ⫹ ␤i
+
+␶i ⫽
+
+1
+
+␣i ⫹ ␤i
+
+where i represents quinidine type or vesnarinone type
+
+␣quinidine type ⫽ 0.000611 ⫺
+
+0.00456冉
+
+0.000611 ⫺ 0.004661
+
+1 ⫹ exp冉V ⫺ 18.2
+冊
+⫺ 1冊
+
+⫺ 10.8
+
+1
+
+ydepolarization, quinidine type
+
+1 ⫹ exp冉V ⫺ 8.67
+冊
+
+⫺ 12.9
+
+␤quinidine type ⫽
+
+␣vesnarinone type ⫽ 0.0005
+
+0.0005冉
+
+␤vesnarinone type ⫽
+
+1
+
+ydepolarization, vesnarinone type
+
+1 ⫹ exp冉V⫺16.5
+冊
+
+⫺12.6
+
+⫺ 1冊
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+ydepolarization,i is the limit set for the minimum of unblocked IKr (y⬁,i),
+which was set to 0.1 for both drug types and corresponds to 90%
+block, ␣i is the unbinding rate constant for drug type i, and ␤i is the
+binding rate constant for drug type i. The values in the formulas for
+y⬁,quinidine type and ␶quinidine type were determined from the experimen-
+tal data of Tsujimae et al. (33) by nonlinear least-squares ﬁtting. In the
+same way,
+the values in the formulas for y⬁,vesnarinone type and
+␶vesnarinone type were derived from Katayama et al. (13). The experi-
+mental data for the temperature sensitivity of IKr blockade by these
+drugs are not available. However, because it was reported that the
+temperature dependence of IKr blockade is usually not prominent in
+various drugs (14), we assumed that the temperature difference among
+these experiments would not largely affect the present model results.
+Furthermore, in this study, we adopted the kinetics of dofetilide,
+quinidine, and vesnarinone from our previous experimental results
+only to represent the three representative types of IKr blockade by
+
+AJP-Heart Circ Physiol • VOL 293 • JULY 2007 • www.ajpheart.org
+
+H662
+
+EFFECTS OF IKr BLOCKERS ON ATRIAL ACTION POTENTIAL
+
+Fig. 1. Modeling of voltage-dependent (A–C)- and time-dependent (D-E) blockade of IKr by quinidine (A and D), vesnarinone (B and E), and dofetilide (C).
+Traces represent results obtained from formulations of blockade described in MATERIALS AND METHODS. Symbols represent experimental data from Tsujimae
+et al. (33) for dofetilide and quinidine and from Katayama et al. (13) for vesnarinone. Vm represents membrane potential. Values for ydeporalization were 0.159,
+0.412, and 0.756 for 30, 100, and 300 nM dofetilide, respectively; 0.491, 0.225, and 0.088 for 3, 10, and 30 ␮M quinidine, respectively; and 0.550, 0.289, and
+0.109 for 1, 3, and 10 ␮M vesnarinone, respectively.
+
+various drugs, and we did not intend to reproduce precisely the
+experimental results of the effects of these drugs on atrial AP. These
+formulations are used to simulate the development and recovery from
+blockade for dofetilide, quinidine, and vesnarinone (Fig. 2). For
+simulation of development of blockade, voltage steps (1-s duration)
+from a holding potential of ⫺80 mV to between ⫺20 and ⫹40 mV
+with a 20-mV increment (Fig. 2, A–C) were used. For simulation of
+recovery from blockade, voltage steps (10-s duration) from a holding
+potential of ⫹40 mV to between ⫺40 and ⫺100 mV with a 20-mV
+increment were used (Fig. 2, D–F). Although the kinetics of quinidine
+blockade are complex and consist of at least two exponential compo-
+nents (33), we treated this as a single-exponential process (Fig. 2, A
+and D) (33). Block and recovery due to vesnarinone could be repre-
+sented by single exponentials (Fig. 2, B and E) (13). Blockade by
+dofetilide was constant (Fig. 2, C and F) (33).
+
+RESULTS
+
+Incorporation of a slow component into IKs and its effect on
+APD prolongation caused by reduced IKr density. We began
+with the original mathematical model for human atrial AP that
+had been developed by Courtemanche et al. (2). We ﬁrst
+examined the frequency dependence of APD under control
+conditions and in the presence of a voltage- and time-indepen-
+dent IKr blocker represented by dofetilide (Fig. 3A). The APs
+exhibit the spike-and-dome morphology commonly observed
+in human atrial recordings. Several class III antiarrhythmic
+agents such as dofetilide cause a voltage- and time-independent
+blockade of IKr or HERG current (33). The blocking effect of
+these drugs was termed “dofetilide-type” in the present study
+
+and is modeled by reducing the maximum conductance of IKr
+to 10% of the control (see MATERIALS AND METHODS). Dofetilide-
+type 90% blockade of IKr prolonged the late phase of repolar-
+ization at any CL but
+left AP amplitude and the resting
+potential unchanged (Fig. 3A). This effect is consistent with the
+experimental data for dofetilide and E-4031 (12, 18). The
+effect of CL on APD under control conditions and with 90%
+blockade of IKr is shown in Fig. 3Ca. In control conditions,
+APD slightly increased when CL was increased from 500 to
+700 ms, and APD reached a plateau value of ⬃300 ms at
+⬎800-ms CL. This frequency dependence of the original
+model correctly captured the feature of the experimental result
+in the control condition (8). However, when the maximum IKr
+conductance was reduced to 10% of control to simulate the
+voltage- and time-independent blockade, APD⫺70 mV was pro-
+longed at all CLs and the CL-dependent increase of APD
+reached a plateau value of ⬃400 ms at ⬃1,000-ms CL. Previ-
+ous experimental results showed reverse-frequency-dependent
+prolongation of APD in the atrium at 1,500-ms CL in guinea
+pig with dofetilide (18) and also in humans with quinidine and
+ﬂecainide (10). Therefore, the plateau at 1,000-ms CL in the
+original model is not consistent with the most likely estimation
+that the reverse-frequency-dependent APD prolongation may
+also be observed at up to 1,500-ms CL in the human atrium
+with dofetilide. When APD prolongation was normalized to
+500-ms CL, dofetilide-type inhibition of IKr (Fig. 3Cc) clearly
+demonstrated a CL-dependent increase of APD⫺70 mV only at
+⬍1,000-ms CL.
+
+AJP-Heart Circ Physiol • VOL 293 • JULY 2007 • www.ajpheart.org
+
+EFFECTS OF IKr BLOCKERS ON ATRIAL ACTION POTENTIAL
+
+H663
+
+Fig. 2. Simulation of onset and recovery from blockade of IKr by each drug type. A–C: simulation of onset of quinidine-, vesnarinone-, and dofetilide-type IKr
+blockade during 1,000-ms voltage steps from ⫺80 to ⫺20, 0, ⫹20, and ⫹40 mV. D–F: simulation of recovery from quinidine-, vesnarinone-, and dofetilide-type
+IKr blockade during 10,000-ms voltage steps from ⫹40 to ⫺40, ⫺60, ⫺80, and ⫺100 mV. Value for ydepolarization was set to 0.1 for each drug type.
+
+The repolarization current for AP in cardiac myocytes is
+mainly composed of IKr and IKs. As shown by Jurkiewicz and
+Sanguinetti (12) in guinea pig ventricular myocytes, although
+the magnitude of IKr activated during depolarizing pulses
+remains nearly constant at different CLs because of its quick
+activation, that of IKs becomes larger as the stimulation rate is
+increased. As a result, the effect of IKr blockade on AP is
+relatively small at fast stimulation rate, where the IKs is enhanced.
+It is thus widely accepted that the different level of activation of
+IKs at different CLs is the major cause of the reverse-frequency-
+dependent nature of APD under blockade of IKr. Therefore, we
+examined the possibility that inappropriate modeling of IKs
+activation/deactivation may account for the failure of the orig-
+inal model of Courtemanche et al. (2) to reproduce the phe-
+nomenon.
+
+Activation of IKs contains fast and slow processes (27, 31).
+IKs in the model of Courtemanche et al. (2) has one fast
+activation process. Therefore, we incorporated a second vari-
+able for slow kinetics (xs2) into the activation gate of IKs
+(Eq. 2). The time constant of slow activation of IKs has been
+reported to be three to ﬁve times larger than that of fast
+activation (31). Therefore, we set the slow time constant [␶x(s2)]
+to two, four, or six times ␶x(s1) (Fig. 4). For each value of ␶x(s2),
+the maximum conductance of IKs was adjusted to maintain the
+AP conﬁguration at 1,000-ms CL.
+
+In Fig. 3B, the modiﬁed model with IKs and ␶x(s2) six times
+␶x(s1) is used to simulate APs at various CLs. The modiﬁed
+model exhibits a spike-and-dome morphology similar to the
+original model of Courtemanche et al. (2). At 500-ms CL, APD
+of the modiﬁed model was slightly shorter than APD of the
+
+original model, but at 1,000- and 1,500-ms CL, APDs of the
+modiﬁed model were nearly the same as APD of the original
+model. When IKr was reduced to 10% of the control to simulate
+the voltage- and time-independent blockade, the prolongation
+of APD with longer CL was more prominent in the modiﬁed
+model.
+
+The effect of varying ␶x(s2) on CL-dependent prolongation of
+APD⫺70 mV in the presence of the voltage- and time-indepen-
+dent blocker is shown in Fig. 3Cb. In control conditions, as
+␶x(s2) increased, APD⫺70 mV at 500-ms CL decreased, but ␶x(s2)
+had less effect at ⱖ1,000-ms CL. When IKr was reduced as
+␶x(s2) was increased, CL-dependent prolongation of APD⫺70 mV
+was more apparent, and the slope of the CL-APD⫺70 mV
+relation became steeper. When ␶x(s2) was set to four or six
+times ␶x(s1), APD⫺70 mV did not reach a plateau until 1,500-ms
+CL. In addition, normalization of APD⫺70 mV prolongation
+caused by reduced IKr density (Fig. 3Cc) clearly demonstrated
+that the prolongation of APD⫺70 mV caused by IKr reduction
+depends on ␶x(s2). Clearly, these results more closely resemble
+experimental results (12, 18) than those obtained with the
+original model of Courtemanche et al. (2) (Fig. 3Ca). There-
+fore, in the following studies, we used the modiﬁed model with
+␶x(s2) set to six times ␶x(s1).
+
+Comparison of delayed rectiﬁer currents in original and
+modiﬁed models. Figure 5 shows IKr and IKs during APs at
+various CLs in the original and modiﬁed models. Since the
+formulation of IKr was not modiﬁed, the form and amplitude of
+IKr during each AP at each CL in the original (Fig. 5A) and
+modiﬁed (Fig. 5B) models were very similar. The peak of IKr
+during an AP increased as APD was prolonged, because the
+
+AJP-Heart Circ Physiol • VOL 293 • JULY 2007 • www.ajpheart.org
+
+H664
+
+EFFECTS OF IKr BLOCKERS ON ATRIAL ACTION POTENTIAL
+
+Fig. 3. Frequency-dependent effects of 90% reduction in rapidly activating K⫹ current (IKr) density on prolongation of action potential (AP) duration (APD) in
+models of human atrial AP. A: simulated APs with the original model of Courtemanche et al. (2) at 500-, 1,000-, and 1,500-ms cycle length (CL). Simulations
+correspond to control conditions and 90% reduction of maximum IKr conductance (ﬁlled square). B: same as A, with a modiﬁed model, where a slow component
+(xs2) is added to the activation gate of IKs (Eq. 2). Time constant of xs2 was 6 times that of xs1. Ca: APD⫺70 mV-CL relation with the original model of
+Courtemanche et al. under control conditions and after 90% reduction of maximum IKr conductance. Cb: effects of alteration of time constant of slow component
+of activation of slowly activating K⫹ current (IKs, xs2) in the modiﬁed model on CL-APD relation under control conditions and after 90% reduction of IKr. Slow
+time constants 2, 4, and 6 times the time constant of the fast component of IKs (xs1) were tested. Cc: effect of CL on APD⫺70 mV prolongation after 90% reduction
+of maximum IKr conductance in original and modiﬁed models. Values were normalized to 500-ms CL. Modiﬁed model involved inclusion of a slow phase of
+activation of IKs (xs2) with time constants of activation 2, 4, and 6 times the time constant of xs1.
+
+activation process of IKr progressed during an AP, even in the
+presence of very rapid C-type inactivation (36). As CL in-
+creased, IKr increased by the same amount in both models,
+although at 500-ms CL, the peak of IKr was slightly smaller
+during an AP in the modiﬁed than in the original model.
+
+In the original model, IKs increased as CL increased, similar
+to IKr (Fig. 5A). On the other hand, in the modiﬁed model, IKs
+decreased as CL increased (Fig. 5B), which is consistent with
+the experimental results shown by Jurkiewicz and Sanguinetti
+(12). Analysis of the gating variables (gate in Fig. 5) indicates
+that the difference in the behavior of IKs in the two models may
+be attributed mainly to the properties of xs2. Because its time
+constant was slow, xs2 showed only slight variation during an
+AP: it increased slowly during depolarization and declined
+slowly during repolarization (Fig. 5B gate, thick continuous
+line). At 500-ms CL, xs2 at the onset of an AP was high and
+decreased as CL was prolonged to 1,000 and 1,500 ms. In
+contrast, the fast gating variables, xs in the original model (Fig.
+
+5A) and xs1 in the modiﬁed model (Fig. 5B gate, thin line),
+increased rapidly during depolarization and decreased rapidly
+during repolarization.
+
+As a result of these differences, deactivation of the product
+of xs1 and xs2 in Eq. 2 for the modiﬁed model is slower than
+2 in Eq. 1 in the original model. Consequently,
+deactivation of xs
+at short CL in the modiﬁed model, IKs showed little deactiva-
+tion at the end of repolarization, and its initial jump at the onset
+of the next AP was large; with increasing CL, deactivation
+could develop further, and the amplitude of the initial jump
+decreased markedly. After the initial jump, IKs increased dur-
+ing an AP, but the combination of a slower activation and the
+decline of the initial current meant that the peak of IKs during
+an AP decreased as CL was prolonged. On the other hand, in
+the original model, deactivation was more rapid, and the initial
+jump of IKs was less at 500-ms CL and was inﬂuenced less by
+increasing CL. IKs increased rapidly during an AP because of
+its fast activation kinetics, and peak IKs increased with CL.
+
+AJP-Heart Circ Physiol • VOL 293 • JULY 2007 • www.ajpheart.org
+
+EFFECTS OF IKr BLOCKERS ON ATRIAL ACTION POTENTIAL
+
+H665
+
+modiﬁed model that can reproduce the experimental data for
+the frequency-dependent behavior of IKs and APD.
+
+Effects of IKr blockers on APD prolongation. Experimen-
+tally, it is also recognized that excessive AP prolongation is
+quite divergent among dofetilide, quinidine, and vesnarinone
+(10, 12, 32). We next examined how voltage- and time-
+dependent kinetics in IKr blockade affect the reverse frequency
+dependence of APD prolongation in the model. Although
+dofetilide and E-4031 block IKr in a voltage-independent man-
+ner, quinidine and vesnarinone do so in a voltage- and time-
+dependent manner (13, 33). Both drugs inhibit the current more
+potently and rapidly as the membrane potential is more depo-
+larized. However, at the same depolarized potential, the devel-
+opment of block is much faster with quinidine than with
+vesnarinone. To isolate the effects of these three typical kinetic
+properties of IKr blockade, we ﬁxed their maximal effect to
+correspond to 90% block of IKr. Thus we calibrated the
+blockades with different kinetics by assuming the same possi-
+ble maximal block effect, so that the effects of the kinetics of
+IKr blockade on APD can be compared selectively. This is
+represented in the calculations as a steady-state unblocked
+fraction of 0.1 (see MATERIALS AND METHODS).
+
+Figure 6 illustrates the effects of these drug types on APD at
+different CLs in absolute and relative terms. Dofetilide-type
+blockade exhibited the strongest and the most prominent re-
+verse-frequency-dependent increase in APD⫺70 mV (Fig. 6A).
+Quinidine-type blockade was less effective than dofetilide-type
+
+Fig. 4. Comparison of voltage dependence of time constants of activation gate
+of IKs described by Courtemanche et al. (2) and the two gates of IKs (LRd fast
+and LRd slow) used in the Luo-Rudy ventricular AP model (35). Equivalent of
+the time constant of the model of Courtemanche et al. (2) multiplied by 2, 4,
+and 6, which we used as time constants for the slow gating component (xs2) of
+IKs, is also shown.
+
+Finally, in the original model, the relative proportions of IKr
+and IKs showed little change with CL [Fig. 5A; IKr/(IKr ⫹ IKs)].
+In the modiﬁed model, the contribution of IKr to the total
+repolarizing current increased with CL (Fig. 5B). Thus it is the
+
+Fig. 5. Contributions of IKr and IKs to AP simulated by different models and at different CLs. A and B: simulations with original model of Courtemanche et al.
+(2) and modiﬁed model at 500-, 1,000-, and 1,500-ms CL. AP: representative APs. Arrowheads, 0 mV. IKr and IKs: time course of simulations of IKr and IKs
+currents during APs. Dashed horizontal lines (IKr and IKs) indicate 0 pA/pF; dotted horizontal lines (IKs) indicate maximum current through IKs during AP at
+500-ms CL. Gate: time course of gating variables (xs in A and xs1 and xs2 in B) of IKs. To facilitate comparison between gating of IKs in A and B, dashed lines
+2 in A and xs1 and xs2 in B. Data have been multiplied by 10 to appear on this scale. IK/(IKr ⫹ IKs): contribution
+represent the product of the gating variables: xs
+of IKr to total IK during each AP.
+
+AJP-Heart Circ Physiol • VOL 293 • JULY 2007 • www.ajpheart.org
+
+H666
+
+EFFECTS OF IKr BLOCKERS ON ATRIAL ACTION POTENTIAL
+
+Fig. 6. AP elongation by blockade of IKr from
+modiﬁed model. A: effect of CL on APD
+(measured at ⫺70 mV) under control condi-
+tions and in the presence of dofetilide, quini-
+dine, or vesnarinone. B: data from A normal-
+ized as drug-induced increase in APD relative
+to APD under control conditions.
+
+blockade but showed a similar reverse frequency dependence.
+Vesnarinone-type blockade was weaker than quinidine- or
+dofetilide-type blockade, and it showed no frequency depen-
+dence at ⬎800-ms CL. The result in relative terms also more
+clearly demonstrates no frequency dependence of vesnarinone-
+type blockade at ⬎800-ms CL; thus frequency dependence is
+similar for vesnarinone-type blockade and control (Fig. 6B).
+These results are consistent with experimental ﬁndings (10, 12,
+32). We conclude that the modiﬁed model can reproduce the
+characteristic frequency-dependent prolongation of atrial APD
+by the IKr blockers with the three representative kinetics.
+
+Figure 7 shows the effects of the three drugs on AP conﬁg-
+uration and the two delayed rectiﬁer currents IKr and IKs. At
+500-, 1,000-, and 1,500-ms CL, all three drug types signiﬁ-
+cantly prolonged AP without affecting the AP amplitude and
+the resting potential (Fig. 7). With increasing CL, quinidine-
+and dofetilide-type blockade progressively prolongs APD to a
+similar extent, whereas vesnarinone-type blockade became less
+effective (see also Fig. 6B).
+
+To determine the mechanisms underlying these different
+effects, the unblocked fractions of IKr (yi), the total amount of
+repolarization current (IKr ⫹ IKs), and the contribution of IKr to
+the repolarization current [IKr/(IKr ⫹ IKs)] were examined (Fig.
+7). The dofetilide-type blocking effect (ydofetilide type) was con-
+stant and independent of CL (Fig. 4, unblocked fraction).
+Vesnarinone- and quinidine-type drugs cause voltage- and
+time-dependent blockade of IKr (Figs. 1 and 2), with blockade
+during depolarization and recovery during repolarization. The
+corresponding values for yquinidine type and yvesnarinone type de-
+crease with depolarization and increase with recovery (Fig. 7,
+unblocked fraction). The values for yquinidine type and yvesnarinone
+type are maximal just before each AP. As CL increases, these
+maximum values for yquinidine type and yvesnarinone type increase as
+the time allowed for unblocking increased. At the onset of an AP,
+yquinidine type decreases, and during the AP it reaches a minimum
+value of ⬃0.2 irrespective of CL. This shows that, in practical
+terms, quinidine blocks IKr in a frequency-independent manner
+because of its fast blocking kinetics. Therefore, quinidine- and
+dofetilide-type blockades have functionally similar effects on
+IKr during AP, although they have very different kinetics. In
+contrast, the minimum value of yvesnarinone type was depen-
+dent on CL; that is, maximum blockade of IKr by vesnari-
+none was attenuated as CL was prolonged.
+
+The total delayed rectiﬁer current increases with increasing
+CL under control conditions (Fig. 7, IKr ⫹ IKs) because of the
+increase in IKr [Fig. 7, IKr/(IKr ⫹ IKs); see also Fig. 5B, IKr]. In
+the presence of a vesnarinone-type drug, total IK also increased
+with increasing CL, because the relative proportion of IKr also
+increased. As a result, vesnarinone-type blockade did not
+induce reverse-frequency-dependent prolongation of APD. In
+contrast,
+in the presence of dofetilide- and quinidine-type
+drugs, total IK decreased as CL was prolonged. This is due to
+their constant maximum blockade of IKr over a wide range of
+CL and the reduction of IKs with longer CL. As a result, APD
+prolongation with CL was enhanced by dofetilide- and quini-
+dine-type blockade.
+
+DISCUSSION
+
+The major ﬁndings in this study are as follows. 1) Incorpo-
+ration of a slow process of activation into IKs enabled a human
+atrial AP model to reproduce the reverse-frequency-dependent
+elongation of APD that is associated with the reduction of IKr.
+2) This model could account for the mechanisms underlying
+the difference between the frequency-dependent effects of the
+three kinetically distinctive types (dofetilide, quinidine, and
+vesnarinone) of IKr blockade on APD. 3) The analysis with the
+models predicted that the drugs with the voltage- and time-
+dependent IKr blockade with slow kinetics may be good can-
+didates without the adverse effect of arrhythmias.
+
+There are many mathematical models for cardiac APs, e.g.,
+models for Purkinje ﬁbers (19, 20), rabbit sinoatrial node (4),
+and ventricular cells of rat (22, 23), guinea pig (35, 40), dog (9,
+38), and human (24) and models for atrial cells of dog (15, 25)
+and human (2, 21). No model is perfect, but each has its use for
+examination of different properties of cardiac AP behavior,
+with their respective limitations taken into account. In practical
+terms, it is important to adjust models according to the pur-
+poses for which they will be used.
+
+A problem in pharmacology is the proarrhythmic action of
+many drugs. A number of compounds inhibit IKr in cardiac
+myocytes and, therefore, have the potential to prolong the AP
+in a reverse-frequency-dependent manner, which could induce
+torsades de pointes in the ventricle. Because of this side effect,
+drugs such as terfenadine, astemizole, grepaﬂoxacin, droperi-
+dol, and cisapride have been withdrawn or restricted in their
+
+AJP-Heart Circ Physiol • VOL 293 • JULY 2007 • www.ajpheart.org
+
+EFFECTS OF IKr BLOCKERS ON ATRIAL ACTION POTENTIAL
+
+H667
+
+Fig. 7. Effects of IKr blockade on AP and IKr and IKs at 500-, 1,000-, and 1,500-ms CL. AP: simulations of APs at 500-, 1,000-, and 1,500-ms CL under control
+conditions and in the presence of dofetilide, quinidine, and vesnarinone. Arrowheads, 0 mV. Unblocked fraction: yi for IKr for each drug type (see Eq. 4). Traces
+show degree and time course of blockade of IKr by each drug. IKr ⫹ IKs: total IK. Traces show time course of these currents during AP at 500-, 1,000-, and
+1,5000-ms CL and effects of dofetilide, quinidine, and vesnarinone on IKr blockade. IKr/(IKr ⫹ IKs): contribution of IKr to total IK.
+
+clinical application (26). Also, the development of a number of
+new pharmacological agents was stopped when they were
+shown to block IKr. A mathematical model of the cardiac AP
+that can reproduce reverse-frequency-dependent APD prolon-
+gation on IKr blockade could be used to assess the risk of such
+side effects.
+
+Inasmuch as dofetilide has been approved by the US Food
+and Drug Administration for treatment of AF (6), the impor-
+tance of elucidating the action of IKr blockade on atrial APD
+prolongation is increasing. The model of the human atrial AP
+of Courtemanche et al. (2) could not reproduce reverse-fre-
+quency-dependent elongation of APD with blockade of IKr. To
+reproduce this property, we introduced a slow process of
+activation and deactivation of IKs, which has been identiﬁed
+experimentally (27, 31). The modiﬁed human atrial AP model
+reproduced reverse-frequency-dependent prolongation of atrial
+APD, which results from the reduction of maximum conduc-
+tance of IKr by voltage- and time-independent IKr blockers such
+as dofetilide and E-4031. It also differentiates between the
+effects of the voltage- and time-dependent blockade caused by
+quinidine- and vesnarinone-type IKr blockers. Therefore, the
+model can be used to assess the frequency-dependent action of
+different types of pure IKr blockade on the human atrial AP.
+Because the simulation results with pure IKr blockade are very
+
+close to the experimental results of the effects of dofetilide,
+quinidine, and vesnarinone on atrial APD (10, 18, 32), it was
+also suggested that the effects of these drugs on IKr are the
+major determinants for atrial APD, although quinidine is
+known to affect a number of ion currents, including INa and Ito,
+and vesnarinone is known to increase ICa,L (16, 39). Indeed, our
+preliminary model study showed that additional blockade of
+IKur and Ito only marginally enhanced the reverse frequency
+dependence of APD prolongation induced purely by the quin-
+idine-type blockade of IKr (not shown).
+
+This study showed that the slow activation/deactivation of IKs
+plays an important role in reproducing the reverse-frequency-
+dependent APD prolongation by IKr blockers in an atrial model.
+The Luo-Rudy model (35, 40), which is the de facto standard for
+the guinea pig ventricular cell, also has fast and slow components
+of IKs activation; in this example, the slow time constant is four
+times the fast (35) (Fig. 4). Reconstitution of IKs with KvLQT1/
+minK exhibited three activation processes: fast, slow, and very
+slow (27). The time constants for fast and slow were 0.68 and
+1.48 s, respectively, at ⫹40 mV, which approximate the fast
+and slow activation processes of IKs that we use. We have not
+incorporated the very slow time constant (8.0 s at ⫹40 mV)
+into IKs. If this slower activation process were incorporated
+into our model, the reverse-frequency-dependent APD prolon-
+
+AJP-Heart Circ Physiol • VOL 293 • JULY 2007 • www.ajpheart.org
+
+H668
+
+EFFECTS OF IKr BLOCKERS ON ATRIAL ACTION POTENTIAL
+
+gation associated with the dofetilide-type of blockade of IKr
+would become more prominent. Further experimental studies
+are needed to identify the gating processes of IKs for further
+improvement of the model.
+
+APD is shorter in atrial cells from AF patients than from
+normal subjects; this is due to electrical remodeling of atrial
+myocytes, where expression of ion channel currents, including
+ICa,L, Ito, IKur, and IK1,
+is altered (5). Courtemanche and
+colleagues (3) incorporated such changes into their original
+model and examined the effects of modiﬁcation of the different
+outward currents on atrial AP conﬁguration. The modiﬁed
+human atrial AP model that we present here could also be
+extended to an AF-atrial AP model that will be suitable for
+assessing the effects of drugs with the potential to treat AF.
+
+In conclusion, this simulation showed that slow activation
+and deactivation of IKs underlie the reverse-frequency-depen-
+dent atrial APD prolongation induced by IKr blockers. It also
+demonstrated that the effects of these compound types on APD
+prolongation depended on the kinetics of their interactions with
+IKr. Further studies may provide useful information for under-
+standing the underlying mechanisms of cardiac arrhythmias
+and estimating the balance between antiarrhythmic effect and
+proarrhythmic risk of IKr blocking agents. This approach may
+also be useful for the in silico design of antiarrhythmic agents.
+
+ACKNOWLEDGMENTS
+
+We thank Dr. I. Findlay and A. O’Meara for comments about the manu-
+
+script.
+
+GRANTS
+
+This work was supported by the Leading Project for Biosimulation “De-
+velopment of Heart and Lung Models for In Silico Prediction of Drug Action
+and Clinical Treatment” from the Ministry of Education, Culture, Sports,
+Science, and Technology (Japan) to Y. Kurachi.
+
+REFERENCES
+
+1. Belardinelli L, Antzelevitch C, Vos MA. Assessing predictors of
+drug-induced torsade de pointes. Trends Pharmacol Sci 24: 619 – 625,
+2003.
+
+2. Courtemanche M, Ramirez RJ, Nattel S. Ionic mechanisms underlying
+human atrial action potential properties: insights from a mathematical
+model. Am J Physiol Heart Circ Physiol 275: H301–H321, 1998.
+
+3. Courtemanche M, Ramirez RJ, Nattel S. Ionic targets for drug therapy
+and atrial ﬁbrillation-induced electrical remodeling: insights from a math-
+ematical model. Cardiovasc Res 42: 477– 489, 1999.
+
+4. Demir SS, Clark JW, Murphey CR, Giles WR. A mathematical model
+of a rabbit sinoatrial node cell. Am J Physiol Cell Physiol 266: C832–
+C852, 1994.
+
+5. Dobrev D, Ravens U. Remodeling of cardiomyocyte ion channels in
+
+human atrial ﬁbrillation. Basic Res Cardiol 98: 137–148, 2003.
+
+6. Elming H, Brendorp B, Pedersen OD, Kober L, Torp-Petersen C.
+Dofetilide: a new drug to control cardiac arrhythmia. Expert Opin Phar-
+macother 4: 973–985, 2003.
+
+7. Feldman AM, Baughman KL, Lee WK, Gottlieb SH, Weiss JL,
+Becker LC, Strobeck JE. Usefulness of OPC-8212, a quinolinone deriv-
+ative, for chronic congestive heart failure in patients with ischemic heart
+disease or idiopathic dilated cardiomyopathy. Am J Cardiol 68: 1203–
+1210, 1991.
+
+8. Fermini B, Wang Z, Duan D, Nattel S. Differences in rate dependence
+of transient outward current in rabbit and human atrium. Am J Physiol
+Heart Circ Physiol 263: H1747–H1754, 1992.
+
+9. Greenstein JL, Wu R, Po S, Tomaselli GT, Winslow RL. Role of the
+calcium-independent outward current Ito1 in shaping action potential
+morphology and duration. Circ Res 87: 1026 –1033, 2000.
+
+10. Hatem S, Le Grand B, Le Heuzey JY, Couetil JP, Deroubaix E.
+Differential effects of quinidine and ﬂecainide on plateau duration of
+human atrial action potential. Basic Res Cardiol 87: 600 – 609, 1992.
+
+11. Hondeghem LM, Snyders DJ. Class III antiarrhythmic agents have a
+lot of potential but a long way to go. Reduced effectiveness and
+dangers of reverse use dependence. Circulation 81: 686 – 690, 1990.
+12. Jurkiewicz NK, Sanguinetti MC. Rate-dependent prolongation of car-
+diac action potentials by a methanesulfonanilide class III antiarrhythmic
+agent. Speciﬁc block of rapidly activating delayed rectiﬁer K⫹ current by
+dofetilide. Circ Res 72: 75– 83, 1993.
+
+13. Katayama Y, Fujita A, Ohe T, Findlay I, Kurachi Y. Inhibitory
+effects of vesnarinone on cloned cardiac delayed rectiﬁer K⫹ channels
+expressed in a mammalian cell
+line. J Pharmacol Exp Ther 294:
+339 –346, 2000.
+
+14. Kirsch GE, Trepakova ES, Brimecombe JC, Sidach SS, Erickson
+HD, Kochan MC, Shyjka LM, Lacerda AE, Brown AM. Variability
+in the measurement of hERG potassium channel inhibition: effects of
+temperature and stimulus pattern. J Pharmacol Toxicol Methods 50:
+93–101, 2004.
+
+15. Kneller J, Ramirez RJ, Chartier D, Courtemanche M, Nattel S.
+Time-dependent transients in an ionically based mathematical model of
+the canine atrial action potential. Am J Physiol Heart Circ Physiol 282:
+H1437–H1451, 2002.
+
+16. Lathrop DA, Nanasi PP, Schwartz A, Varro A. Ionic basis for OPC-
+8212-induced increase in action potential duration in isolated rabbit,
+guinea pig and human ventricular myocytes. Eur J Pharmacol 240:
+127–137, 1993.
+
+17. Martin CL, Palomo MA, McMahon EG. Comparison of bidisomide,
+ﬂecainide and dofetilide on action potential duration in isolated canine
+atria: effect of isoproterenol. J Pharmacol Exp Ther 278: 154 –162,
+1996.
+
+18. Matsuda T, Takeda K, Ito M, Yamagishi R, Tamura M, Nakamura H,
+Tsuruoka N, Saito T, Masumiya H, Suzuki T, Iida-Tanaka N,
+Itokawa-Matsuda M, Yamashita T, Tsuruzoe N, Tanaka H, Shi-
+genobu K. Atria selective prolongation by NIP-142, an antiarrhythmic
+agent, of refractory period and action potential duration in guinea pig
+myocardium. J Pharm Sci 98: 33– 40, 2005.
+
+19. McAllister RE, Noble D, Tsien RW. Reconstruction of the electrical
+
+activity of cardiac Purkinje ﬁbres. J Physiol 251: 1–59, 1975.
+
+20. Noble D. A modiﬁcation of the Hodgkin-Huxley equations applicable to
+Purkinje ﬁbre action and pace-maker potentials. J Physiol 160: 317–352,
+1962.
+
+21. Nygren A, Fiset C, Firek L, Clark JW, Lindblad DS, Clark RB, Giles
+WR. Mathematical model of an adult human atrial cell: the role of K⫹
+currents in repolarization. Circ Res 82: 63– 81, 1998.
+
+22. Pandit SV, Clark RB, Giles WR, Demir SS. A mathematical model of
+left ventricular myocytes.
+
+action potential heterogeneity in adult rat
+Biophys J 81: 3029 –3051, 2001.
+
+23. Pandit SV, Giles WR, Demir SS. A mathematical model of the electro-
+physiological alterations in rat ventricular myocytes in type-I diabetes.
+Biophys J 84: 832– 841, 2003.
+
+24. Priebe L, Beuckelmann DJ. Simulation study of cellular electric prop-
+
+erties in heart failure. Circ Res 82: 1206 –1223, 1998.
+
+25. Ramirez RJ, Nattel S, Courtemanche M. Mathematical analysis of
+canine atrial action potential. Am J Physiol Heart Circ Physiol 279:
+H1767–H1785, 2000.
+
+26. Roden DM. Drug-induced prolongation of the QT interval. N Engl J Med
+
+350: 1013–1022, 2004.
+
+27. Sanguinetti MC, Curran ME, Zou A, Shen J, Spector PS, Atkinson
+DL, Keating MT. Coassembly of KVLQT1 and minK(IsK) proteins to
+form cardiac IKs potassium channel. Nature 384: 80 – 83, 1996.
+
+28. Sanguinetti MC, Jurkiewicz NK. Two components of cardiac delayed
+rectiﬁer K⫹ current. Differential sensitivity to block by class III antiar-
+rhythmic agents. J Gen Physiol 96: 195–215, 1990.
+
+29. Sanguinetti MC, Jurkiewicz NK. Delayed rectiﬁer outward K⫹ current
+is composed of two currents in guinea pig atrial cells. Am J Physiol Heart
+Circ Physiol 260: H393–H399, 1991.
+
+30. Smith WM, Gallagher JJ. “Les torsades de pointes”: an unusual ven-
+
+tricular arrhythmia. Ann Intern Med 93: 578 –584, 1980.
+
+31. Tohse N. Calcium-sensitive delayed rectiﬁer potassium current in guinea
+pig ventricular cells. Am J Physiol Heart Circ Physiol 258: H1200 –
+H1207, 1990.
+
+32. Toyama J, Kamiya K, Cheng J, Lee JK, Suzuki R, Kodama I.
+Vesnarinone prolongs action potential duration without reverse frequency
+dependence in rabbit ventricular muscle by blocking the delayed rectiﬁer
+K⫹ current. Circulation 96: 3696 –3703, 1997.
+
+AJP-Heart Circ Physiol • VOL 293 • JULY 2007 • www.ajpheart.org
+
+EFFECTS OF IKr BLOCKERS ON ATRIAL ACTION POTENTIAL
+
+H669
+
+33. Tsujimae K, Suzuki S, Yamada M, Kurachi Y. Comparison of kinetic
+properties of quinidine and dofetilide block of HERG channels. Eur
+J Pharmacol 493: 29 – 40, 2004.
+
+34. Valentin JP, Hoffmann P, De Clerck F, Hammond TG, Hondeghem L.
+Review of the predictive value of the Langendorff heart model (Screenit
+system) in assessing the proarrhythmic potential of drugs. J Pharmacol
+Toxicol Methods 49: 171–181, 2004.
+
+35. Viswanathan PC, Shaw RM, Rudy Y. Effects of IKr and IKs heteroge-
+neity on action potential duration and its rate dependence: a simulation
+study. Circulation 99: 2466 –2474, 1999.
+
+36. Wang S, Liu S, Morales MJ, Strauss HC, Rasmusson RL. A quanti-
+tative analysis of the activation and inactivation kinetics of HERG ex-
+pressed in Xenopus oocytes. J Physiol 502: 45– 60, 1997.
+
+37. Wang Z, Fermini B, Nattel S. Rapid and slow components of delayed
+rectiﬁer current in human atrial myocytes. Cardiovasc Res 28: 1540 –
+1546, 1994.
+
+38. Winslow RL, Rice J, Jafri S, Marba´n E, O’Rourke B. Mechanisms of
+altered excitation-contraction coupling in canine tachycardia-induced
+heart failure. II. Model studies. Circ Res 84: 571–586, 1999.
+
+39. Yatani A, Imoto Y, Schwartz A, Brown AM. New positive inotropic
+agent OPC-8212 modulates single Ca2⫹ channels in ventricular myocytes
+of guinea pig. J Cardiovasc Pharmacol 13: 812– 819, 1989.
+
+40. Zeng J, Laurita KR, Rosenbaum DS, Rudy Y. Two components of the
+delayed rectiﬁer K⫹ current in ventricular myocytes of the guinea pig type.
+Theoretical formulation and their role in repolarization. Circ Res 77:
+140 –152, 1995.
+
+AJP-Heart Circ Physiol • VOL 293 • JULY 2007 • www.ajpheart.org
+
+

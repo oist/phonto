@@ -1,0 +1,21 @@
+Animals
+Computer Simulation
+Exploratory Behavior
+Hippocampus
+physiology
+Mathematics
+Maze Learning
+physiology
+Models
+Neurological
+Nerve Net
+physiology
+Neural Networks (Computer)
+Neuronal Plasticity
+physiology
+Neurons
+physiology
+Rats
+Synapses
+physiology
+We propose a computational model of the CA3 region of the rat hippocampus that is able to reproduce the available experimental data concerning the dependence of directional selectivity of the place cell discharge on the environment and on the spatial task. The main feature of our model is a continuous, unsupervised Hebbian learning dynamics of recurrent connections, which is driven by the neuronal activities imposed upon the network by the environment-dependent external input. In our simulations, the environment and the movements of the rat are chosen to mimic those commonly observed in neurophysiological experiments. The environment is represented as local views that depend on both the position and the heading direction of the rat. We hypothesize that place cells are intrinsically directional, that is, they respond to local views. We show that the synaptic dynamics in the recurrent neural network rapidly modify the discharge correlates of the place cells: Cells tend to become omnidirectional place cells in open fields, while their directionality tends to get stronger in radial-arm mazes. We also find that the synaptic learning mechanisms account for other properties of place cell activity, such as an increase in the place cell peak firing rates as well as clustering of place fields during exploration. Our model makes several experimental predictions that can be tested using current techniques.

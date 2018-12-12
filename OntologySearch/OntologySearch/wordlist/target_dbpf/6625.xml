@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6625">
+<itemtype>xnppaper</itemtype>
+<titles><title>Double dissociation between hippocampal and parahippocampal responses to object-background context and scene novelty.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Analysis of Variance</keyword>
+<keyword>Attention</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Color Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Eye Movements</keyword>
+<keyword>Female</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>methods</keyword>
+<keyword>Male</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Oxygen</keyword>
+<keyword>blood</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>blood supply</keyword>
+<keyword>physiology</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:24:09Z</last_update_date>
+<creation_date>2013-02-26T06:24:09Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6625</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6625" version="1.02">
+<authors><author>Howard LR</author><author>Kumaran D</author><author>Ólafsdóttir HF</author><author>Spiers HJ</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>31</volume>
+<number>14</number>
+<page>5253-61</page>
+<abstract>Several recent models of medial temporal lobe (MTL) function have proposed that the parahippocampal cortex processes context information, the perirhinal cortex processes item information, and the hippocampus binds together items and contexts. While evidence for a clear functional distinction between the perirhinal cortex and other regions within the MTL has been well supported, it has been less clear whether such a dissociation exists between the hippocampus and parahippocampal cortex. In the current study, we use a novel approach applying a functional magnetic resonance imaging adaptation paradigm to address these issues. During scanning, human subjects performed an incidental target detection task while viewing trial-unique sequentially presented pairs of natural scenes, each containing a single prominent object. We observed a striking double dissociation between the hippocampus and parahippocampal cortex, with the former showing a selective sensitivity to changes in the spatial relationship between objects and their background context and the latter engaged only by scene novelty. Our findings provide compelling support for the hypothesis that rapid item-context binding is a function of the hippocampus, rather than the parahippocampal cortex, with the former acting to detect relational novelty of this nature through its function as a match-mismatch detector.</abstract>
+<pubmed_id>21471360</pubmed_id>
+</detail>
+</item>

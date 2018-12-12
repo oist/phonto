@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7381">
+<itemtype>xnppaper</itemtype>
+<titles><title>Myelination of rodent hippocampal neurons in culture.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Cell Culture Techniques</keyword>
+<keyword>Coculture Techniques</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Kv1.2 Potassium Channel</keyword>
+<keyword>metabolism</keyword>
+<keyword>Myelin Sheath</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>metabolism</keyword>
+<keyword>Oligodendroglia</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Signal Transduction</keyword>
+<keyword>Synaptic Transmission</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T02:56:58Z</last_update_date>
+<creation_date>2013-02-28T02:56:58Z</creation_date>
+<publication_year>2012</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7381</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7381" version="1.02">
+<authors><author>Gardner A</author><author>Jukkola P</author><author>Gu C</author></authors>
+<journal>Nature protocols</journal>
+<volume>7</volume>
+<number>10</number>
+<page>1774-82</page>
+<abstract>Axons of various hippocampal neurons are myelinated mainly postnatally, which is important for the proper function of neural circuits. Demyelination in the hippocampus has been observed in patients with multiple sclerosis, Alzheimer&#039;s disease or temporal lobe epilepsy. However, very little is known about the mechanisms and exact functions of the interaction between the myelin-making oligodendrocytes and the axons within the hippocampus. This is mainly attributable to the lack of a system suitable for molecular studies. We recently established a new myelin coculture from embryonic day (E) 18 rat embryos consisting of hippocampal neurons and oligodendrocytes, with which we identified a novel intra-axonal signaling pathway regulating the juxtaparanodal clustering of Kv1.2 channels. Here we describe the detailed protocol for this new coculture. It takes about 5 weeks to set up and use the system. This coculture is particularly useful for studying myelin-mediated regulation of ion channel trafficking and for understanding how neuronal excitability and synaptic transmission are regulated by myelination.</abstract>
+<pubmed_id>22955693</pubmed_id>
+</detail>
+</item>

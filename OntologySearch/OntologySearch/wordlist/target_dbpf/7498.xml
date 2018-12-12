@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7498">
+<itemtype>xnppaper</itemtype>
+<titles><title>Memory consolidation, retrograde amnesia and the hippocampal complex.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Amnesia</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T02:00:28Z</last_update_date>
+<creation_date>2013-03-28T02:00:28Z</creation_date>
+<publication_year>1997</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7498</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7498" version="1.02">
+<authors><author>Nadel L</author><author>Moscovitch M</author></authors>
+<journal>Current opinion in neurobiology</journal>
+<volume>7</volume>
+<number>2</number>
+<page>217-27</page>
+<abstract>Results from recent studies of retrograde amnesia following damage to the hippocampal complex of human and non-human subjects have shown that retrograde amnesia is extensive and can encompass much of a subject&#039;s lifetime; the degree of loss may depend upon the type of memory assessed. These and other findings suggest that the hippocampal formation and related structures are involved in certain forms of memory (e.g. autobiographical episodic and spatial memory) for as long as they exist and contribute to the transformation and stabilization of other forms of memory stored elsewhere in the brain.</abstract>
+<pubmed_id>9142752</pubmed_id>
+</detail>
+</item>

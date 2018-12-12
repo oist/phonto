@@ -1,0 +1,32 @@
+Action Potentials
+physiology
+Animals
+Cyclic AMP
+metabolism
+Cyclic AMP-Dependent Protein Kinases
+metabolism
+Excitatory Postsynaptic Potentials
+physiology
+Hippocampus
+cytology
+physiology
+Long-Term Potentiation
+physiology
+Male
+Mice
+Mice
+Inbred C57BL
+Mice
+Inbred CBA
+Mice
+Inbred DBA
+Neuronal Plasticity
+physiology
+Patch-Clamp Techniques
+Pyramidal Cells
+enzymology
+Species Specificity
+Synapses
+physiology
+Theta Rhythm
+Transgenic and knockout mice are used extensively to elucidate the molecular mechanisms of hippocampal synaptic plasticity. However, genetic and phenotypic variations between inbred mouse strains that are used to construct genetic models may confound the interpretation of cellular neurophysiological data derived from these models. Using in vitro slice stimulation and recording methods, we compared the membrane biophysical, cellular electrophysiological, and synaptoplastic properties of hippocampal CA1 neurons in four specific strains of inbred mice: C57BL/6J, CBA/J, DBA/2J, and 129/SvEms/J. Hippocampal long-term potentiation (LTP) induced by theta-pattern stimulation, and by repeated multi-burst 100-Hz stimulation at various interburst intervals, was better maintained in area CA1 of slices from BL/6J mice than in slices from CBA and DBA mice. At an interburst interval of 20 s, maintenance of LTP was impaired in CBA and DBA slices, as compared with BL/6J slices. When the interburst interval was reduced to 3 s, induction of LTP was significantly enhanced in129/SvEms slices, but not in DBA and CBA slices. Long-term depression (LTD) was not significantly different between slices from these four strains. For the four strains examined, CA1 pyramidal neurons showed no significant differences in spike-frequency accommodation, membrane input resistance, and number of spikes elicited by current injection. Synaptically-evoked glutamatergic postsynaptic currents did not significantly differ among CA1 pyramidal neurons in these four strains. Since the observed LTP deficits resembled those previously seen in transgenic mice with reduced hippocampal cAMP-dependent protein kinase (PKA) activity, we searched for possible strain-dependent differences in cAMP-dependent synaptic facilitation induced by forskolin (an activator of adenylate cyclase) and IBMX (a phosphodiesterase inhibitor). We found that forskolin/IBMX-induced synaptic facilitation was deficient in area CA1 of DBA/2J and CBA/J slices, but not in BL/6J and 129/SvEms/J slices. These defects in cAMP-induced synaptic facilitation may underlie the deficits in memory, observed in CBA/J and DBA/2J mice, that have been previously reported. We conclude that hippocampal LTP is influenced by genetic background and by the temporal characteristics of the stimulation protocol. The plasticity of hippocampal synapses in some inbred mouse strains may be"tuned"to particular temporal patterns of synaptic activity. From a broader perspective, our data support the notion that strain-dependent variation in genetic background is an important factor that can influence the synaptoplastic phenotypes observed in studies that use genetically modified mice to explore the molecular bases of synaptic plasticity.

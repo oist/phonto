@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4844">
+<itemtype>xnppaper</itemtype>
+<titles><title>A model of the mechanism of cooperativity and associativity of long-term potentiation in the hippocampus: a fundamental mechanism of associative memory and learning.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Association Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Cybernetics</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Psychological</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T00:41:41Z</last_update_date>
+<creation_date>2011-05-02T00:41:41Z</creation_date>
+<publication_year>1991</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4844</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4844" version="1.02">
+<authors><author>Kitajima T</author><author>Hara K</author></authors>
+<journal>Biological cybernetics</journal>
+<volume>64</volume>
+<number>5</number>
+<page>365-71</page>
+<abstract>Long-Term Potentiation (LTP) has three properties: (1) input specificity, (2) cooperativity and (3) associativity. In a previous paper, we proposed an integrated model of the mechanisms of the induction and maintenance of LTP with input specificity. In this paper, a model of the mechanism of cooperative and associative LTP is described. According to computer simulations of the model, its mechanism is based on the spread of synaptic potentials.</abstract>
+<pubmed_id>2049412</pubmed_id>
+</detail>
+</item>

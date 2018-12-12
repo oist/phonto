@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5469">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal place units in the freely moving rat: why they fire where they fire.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Acoustic Stimulation</keyword>
+<keyword>Animals</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Operant</keyword>
+<keyword>physiology</keyword>
+<keyword>Cues</keyword>
+<keyword>Discrimination Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Environment</keyword>
+<keyword>Exploratory Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>Photic Stimulation</keyword>
+<keyword>Rats</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Touch</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-13T02:54:40Z</last_update_date>
+<creation_date>2011-06-13T02:54:40Z</creation_date>
+<publication_year>1978</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5469</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5469" version="1.02">
+<authors><author>O&#039;Keefe J</author><author>Conway DH</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>31</volume>
+<number>4</number>
+<page>573-90</page>
+<abstract>Place units in the dorsal hippocampus of the freely-moving rat signal the animal&#039;s position in an environment (place field). In the present experiments, thirty four place units were recorded in two different environments: one, a small platform where the rat had received neither training nor reward; the other, an elevated T-maze inside a set of black curtains where the rat had been trained on a place discrimination. The places within the curtained enclosure were specified by four cues (a light, a card, a fan, and a buzzer) in addition to the food. Other cues were eliminated by rotating the maze and the four controlled cues relative to the external world from trial-to-trial. Some units had place fields in both environments while others only had a place field in one. No relationship could be seen between the place fields of units with fields in both environments. All twelve units tested extensively in the controlled enclosure had place fields related to the controlled cues. Probe experiments in which only some of the controlled cues were available showed that some of these units were being excited by one or two cues while others were influenced in a more complex way. The fields of these latter units were maintained by any two of the 4 cues and were due to inhibitory influences which suppressed the unit firing over the rest of the maze.</abstract>
+<pubmed_id>658182</pubmed_id>
+</detail>
+</item>

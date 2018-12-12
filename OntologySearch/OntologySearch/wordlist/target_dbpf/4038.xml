@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4038">
+<itemtype>xnppaper</itemtype>
+<titles><title>Rapid distributed fronto-parieto-occipital processing stages during working memory in humans.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Adolescent</keyword>
+<keyword>Adult</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Epilepsies</keyword>
+<keyword>Partial</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Female</keyword>
+<keyword>Frontal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Occipital Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Parietal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>Spectrum Analysis</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-07T07:44:42Z</last_update_date>
+<creation_date>2010-10-07T07:44:42Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4038</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4038" version="1.02">
+<authors><author>Halgren E</author><author>Boujon C</author><author>Clarke J</author><author>Wang C</author><author>Chauvel P</author></authors>
+<journal>Cerebral cortex (New York, N.Y. : 1991)</journal>
+<volume>12</volume>
+<number>7</number>
+<page>710-28</page>
+<abstract>Cortical potentials were recorded from implanted electrodes during a difficult working memory task requiring rapid storage, modification and retrieval of multiple memoranda. Synchronous event-related potentials were generated in distributed occipital, parietal, Rolandic and prefrontal sites beginning approximately 130 ms after stimulus onset and continuing for&gt;500 ms. Coherent phase-locked, event-related oscillations supported interaction between these dorsal stream structures throughout the task period. The Rolandic structures generated early as well as sustained potentials to sensory stimuli in the absence of movement. Activation peaks and phase lags between synaptic populations suggested that perceptual processing occurred exclusively in the visual association cortex from approximately 90 to 130 ms, with its results projected to fronto-parietal areas for interpretation from approximately 130 to 280 ms. The direction of interaction then appeared to reverse from approximately 300 to 400 ms, consistent with mental arithmetic being performed by fronto-parietal areas operating upon a visual scratch pad in the dorsolateral occipital cortex. A second reversal, from approximately 420 to 600 ms, may have represented an updating of memoranda stored in fronto-parietal sites. Lateralized perisylvian oscillations suggested an articulatory loop. Anterior cingulate activity was evoked by feedback signals indicating errors. These results indicate how a fronto-centro-parietal &#039;central executive&#039; might interact with an occipital visual scratch pad, perisylvian articulatory loop and limbic monitor to implement the sequential stages of a complex mental operation.</abstract>
+<pubmed_id>12050083</pubmed_id>
+</detail>
+</item>

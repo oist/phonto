@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4013">
+<itemtype>xnppaper</itemtype>
+<titles><title>Multiple spatial/behavioral correlates for cells in the rat postsubiculum: multiple regression analysis and comparison to other hippocampal areas.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Cell Count</keyword>
+<keyword>Cell Physiological Phenomena</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Linear Models</keyword>
+<keyword>Rats</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-07T06:57:52Z</last_update_date>
+<creation_date>2010-10-07T06:57:52Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4013</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4013" version="1.02">
+<authors><author>Sharp PE</author></authors>
+<journal>Cerebral cortex (New York, N.Y. : 1991)</journal>
+<volume>6</volume>
+<number>2</number>
+<page>238-59</page>
+<abstract>Head direction cells in the rat postsubiculum fire in relation to the momentary directional heading of the animal, with each cell firing only when the animal faces in one particular direction. To understand how this signal might be generated, one useful step is to discover what other cell types, in addition to the head direction cells, may exist in the postsubiculum, since these cells might be involved in helping to generate the direction-specific activity. Here postsubicular cells were recorded as animals navigated in a cylindrical recording chamber. It was found that, in addition to head direction cells, the postsubiculum contains cells that show several other types of spatial/behavioral correlates, including angular velocity of the head, running speed, and location. Ten percent of the cells were classified as angular velocity cells, and they resembled vestibular afferent fibers, with antagonistic responses to clockwise versus counterclockwise turns. In addition, numerous other cell types were observed. These latter cells were harder to classify, but all showed a significant correlation with one or more of the above variables. These findings suggest that the head direction cell signal may be at least partly based on the angular velocity, running speed, and locational signals observed here.</abstract>
+<pubmed_id>8670654</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,24 @@
+Animals
+Atropine
+pharmacology
+Carbachol
+pharmacology
+Functional Laterality
+Hippocampus
+physiology
+Kinetics
+Long-Term Potentiation
+drug effects
+physiology
+Rats
+Receptors
+Muscarinic
+drug effects
+physiology
+Signal Transduction
+drug effects
+physiology
+Synapses
+drug effects
+physiology
+Cholinergic input from the basal forebrain and septum to the hippocampus is well known to be critical in learning and memory. Muscarinic induction of theta-frequency oscillations may synchronize pre- and postsynaptic firing and thereby enhance plasticity in the hippocampus. Previous studies have demonstrated that muscarinic activation facilitates long-term potentiation (LTP) induced with tetanus in vitro. In the present study, we tested the role of muscarinic receptor activity in the induction of LTP beyond effects on spike timing by using a spike-pairing (SP) method at Schaffer collateral-CA1 synapses in rat hippocampal slices. Pairings of pre- and postsynaptic action potentials (APs) have been shown to induce LTP when the presynaptic AP precedes the postsynaptic AP by 5-15 ms, but contribution of muscarinic co-activation has not been ruled out. We demonstrate that the mAChR antagonist atropine abolishes LTP induction by SP. Surprisingly, prolonged exposure to the mAChR agonist carbachol inhibits LTP induction by SP, perhaps because of receptor desensitization. These results demonstrate an essential role of cholinergic signaling in this form of hippocampal plasticity.

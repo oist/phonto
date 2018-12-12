@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4627">
+<itemtype>xnppaper</itemtype>
+<titles><title>Chunking and consolidation: a theoretical synthesis of semantic networks, configuring in conditioning, S--R versus congenitive learning, normal forgetting, the amnesic syndrome, and the hippocampal arousal system.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Amnesia</keyword>
+<keyword>psychology</keyword>
+<keyword>Animals</keyword>
+<keyword>Arousal</keyword>
+<keyword>Association Learning</keyword>
+<keyword>Cognition</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Learning</keyword>
+<keyword>Memory</keyword>
+<keyword>Models</keyword>
+<keyword>Psychological</keyword>
+<keyword>Reinforcement (Psychology)</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-04T01:19:33Z</last_update_date>
+<creation_date>2011-02-04T01:19:33Z</creation_date>
+<publication_year>1979</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4627</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4627" version="1.02">
+<authors><author>Wickelgren WA</author></authors>
+<journal>Psychological review</journal>
+<volume>86</volume>
+<number>1</number>
+<page>44-60</page>
+<abstract>Defined horizontal vs vertical associative memory concepts. Vertical associative memory involves chunking: the specifications of new (previously free) nodes to represent combinations of old (bound) nodes. Chunking is considered to be the basis of semantic memory, configuring in conditioning, and cognitive (as opposed to stimulus-response) learning. The cortex has the capacity for chunking, but the hippocampal (limbic) arousal system plays a critical role in the chunking process by differentially priming (partially activating) free, as opposed to bound, neurons. Binding a neuron produces negatively accelerated repression of its connections to the hippocampal arousal system, consolidating the memory by protecting the newly bound neuron from diffuse hippocampal input and thus retarding forgetting. Disruption of the hippocampal arousal system produces the amnesic syndrome of an inability to do new chunking (cognitive learning)–anterograde amnesia–and an inability to retrieve recently specified chunks–retrograde amnesia. (106 ref) (PsycINFO Database Record (c) 2006 APA, all rights reserved)</abstract>
+<pubmed_id>451113</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,740 @@
+{% extends "site/base.tpl.html" %}
+
+{%load static %}
+
+{% load i18n %}
+
+{% block extrajs %}
+{% endblock %} {# end of extrajs block #}
+
+{% block handstyle %}
+<link rel="stylesheet" href="{% static 'css/ontologicalneighbors.css' %}" type="text/css">
+<style type="text/css">
+<!--
+/* base object style */
+html,body { height:100%; }
+html body *{
+	font-family: "Meiryo UI","Meiryo","Hiragino Kaku Gothic Pro",sans-serif;
+	font-size:12px;
+}
+span { white-space: nowrap; }
+#container{padding:1%;}
+#debug{
+position:absolute;
+bottom:0px;
+border: 1px solid gray
+}
+
+/* css for each class */
+.floatleft{float:left;}
+.clearboth{clear:both;}
+.pagetitle{
+	font-size:16px;
+	font-weight:bold;
+	padding-left:1%;
+	padding-top:8px;
+	height:32px;
+}
+.title , .resulttitle{
+	font-size:14px;
+	margin-bottom:4px;
+}
+
+.ui-autocomplete .ui-menu-item a{
+	font-size:12px;
+}
+
+.exactdiv,.reldiv{
+	padding:2px;
+}
+.exactdiv a, .reldiv a{
+	color:#0000ff;
+}
+.exactdiv a:hover, .reldiv a:hover{
+	text-decoration: underline;
+}
+.exactdiv a:visited, .reldiv a:visited{
+	color:#4444bb;
+}
+.keyworddiv{
+	padding-left:20px;
+	padding-bottom:6px;
+}
+.tabinner{
+	overflow-y:scroll;
+}
+.parttitle{
+	padding-bottom:3px;
+	padding-left:3px;
+}
+.partdiv{
+	padding-bottom:2px;
+	padding-left:6px;
+}
+/* css for each object */
+#targetdb{
+	margin-top:5px;
+}
+#qbox{width:100%;}
+#q{width:99%;}
+#areaquery{
+	width:99%;
+	height:200px;
+}
+#restable , #canditable , #smallrestable{
+	width:99%;
+}
+#restable td{
+	padding-right:5px;
+}
+
+#smallqlist .header {
+	padding:5px;
+}
+#smallqlistinner {
+	background-color:white;
+}
+#smallqlistinner ul{
+	padding-top:10px;
+}
+#smallqlistinner li{
+	list-style-type: none;	
+	padding-left:10px;
+}
+
+#smallqlistinner .closebtn{
+	cursor:pointer;
+}
+#smallqlistinner .closebtn:hover{
+	font-weight:bold;
+	cursor:pointer;
+}
+#smallqlistinner .contents{
+	overflow-y:scroll;
+	height:300px;
+}
+#data1 {
+	height:250px;
+	overflow-y: scroll;
+}
+#smalldata1{
+	height:255px;
+	overflow-y: scroll;
+}
+#smalldata1 span.dbname{
+	font-weight :bold;
+}
+
+-->
+</style>
+{% endblock %}{# end of handstyle block #}
+
+{% block handscript %}
+<script type="text/javascript" src="{% static 'js/sampleadmin.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/ontologicalneighbors.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/search.js' %}"></script>
+<script type="text/javascript">
+<!--
+	var pretext="";
+	var prefixes={};
+	var bkcursor;
+	var staticurl = "{% static '' %}";
+	var initword="{{ initword }}";
+	var initdbid="{{ initdbid }}";
+	var initdbname="{{ initdbname }}";
+	var partlimit=eval("{{ partlimit }}");
+
+	$(document).ready(function(){
+//		$("#smallqlist").draggable();
+//		$("#smallqlist").hide();
+
+		$.ajaxSetup( {data: {
+		    csrfmiddlewaretoken: '{{ csrf_token }}'
+		}});
+		$("#q").autocomplete({
+			 source: function(req, resp){
+				$.ajax({
+				    url: "/apps/synonymcomplete",
+				    type: "POST",
+				    cache: false,
+				    dataType: "json",
+				    data: {
+				      param1: req.term,
+				      query:$("#q").val()
+				    },
+				    success: function(o){
+						if(o && o.payload && o.payload.result){
+							resp(o.payload.result);
+						}else{
+							resp(['']);
+						}
+				    },
+				    error: function(xhr, ts, err){
+				    	resp(['']);
+				    }
+				  });
+			}
+			,delay: 500
+
+		});
+
+		$( "#tabs" ).tabs();
+		$( "#smalltabs" ).tabs();
+
+		//Image
+		$(".loader").attr({"src":staticurl + "img/loader.gif"})
+
+		//event
+		$("#q").keypress(function(e){
+			onQKeyPress(e);
+		});
+
+		//target db list
+		request({
+			 "url"     :"apps/getdblist"
+			,"complete":function(msg){
+				sampleadmin.setdblist(msg);
+				setdbchklist(msg);
+			 }
+		});
+
+		//getprefixes
+		request(
+			 "/apps/getprefixes"
+			,{}
+			,function(msg){
+				var res={};
+				eval("res=" + msg.responseText);
+				var result={};
+				if(res && res.payload && res.payload.result){
+					result= res.payload.result;
+
+					prefixes = result;
+				}
+			}
+		);
+
+		//height
+		var tabinnerdivtop;
+		$( ".tabinner" ).each(function(){
+			var offtop = $(this).offset().top;
+			if(offtop){
+				tabinnerdivtop = offtop;
+				return false;
+			}
+		});
+//		var innerH = $(window).height() - tabinnerdivtop - 30;
+		var innerH = 200;
+		$( ".tabinner" ).each(function(){
+			$(this).height(innerH);
+		});
+
+		//default word(if exists)
+		if(initword){
+			$("#q").val(initword);
+			search();
+		}
+	});
+
+	function setdbchklist (msg){
+		var res={};
+		eval("res=" + msg.responseText);
+
+		if(!res || !res.payload || !res.payload.dblist){return;}
+
+		$("#chkdbs").html("");
+		var optstr = "";
+
+		var dbs = res.payload.dblist;
+		gchkindexes={};
+		
+		for(var i=0,len = dbs.length;i<len;i++){
+			var row = dbs[i];
+			optstr +="<div ><input type='checkbox' name='chkdbname' value='" + row + "' checked='checked' id='dbchk_" + i + "'>";
+			optstr +="<label for='dbchk_" + i + "'>" + row + "</label>";
+			gchkindexes[row]=i;
+		}
+		$("#chkdbs").html(optstr);
+
+	}
+
+///// events ///////////////////////////////////////////////
+	function searchOnChenge(event){
+		if($("#q").val() != pretext){
+			pretext = $("#q").val();
+		}
+    }
+	function onQKeyPress(event){
+		if (isEnterKey(event)) {
+			if (!$("#q").val()) {
+			}else{
+				search(event);
+			}
+		}
+	}
+
+///// search DB ///////////////////////////////////////////////
+	function search(event){
+//		$("#smallqlist").hide();
+		$("#data1").html("");
+		$("#dataParents").html("");
+		$("#data2").html("");
+		$("#dataChildren").html("");
+		$("#dataOther").html("");
+		$("#dataPartial").html("");
+		$("#q").autocomplete("close");
+		$(".loaderdiv").show();
+
+		initdbname = $("#targetdb").val();
+		var param = {
+				 "query":$("#q").val().trim()
+				 ,"dbname": initdbname
+		};
+
+		bkcursor = $("body,body *").css("cursor");
+		$("body,body *").css("cursor" , "wait");
+		request(
+			 "/apps/searchdb"
+			,param
+			,function(msg){
+				$("body,body *").css("cursor" , bkcursor);
+				var res={};
+				eval("res=" + msg.responseText);
+				var result={};
+				if(res && res.payload && res.payload.result){
+					result = res.payload.result;
+				}
+				if(result ){
+					setResult(result);
+				}
+			}
+		);
+	}
+	function setResult(result ,issmall){
+		if(!result){return;}
+		var hits = {};
+		var pre = issmall ? "small" : "";
+
+		//hit
+		var outhtml = "";
+		if(result.hit && result.hit.length){
+			for(var i=0,len = result.hit.length ; i<len ; i++){
+				var row = result.hit[i];
+				if(!row){continue;}
+
+				outhtml +="<div class='exactdiv'>";
+				//outhtml +="<a href='" + row.url +"' target='_blank'>";
+				outhtml +='<a style="cursor:pointer;" ';
+				outhtml +='onclick="openRelDialog(&quot;' + row.identifier + '&quot;,&quot;' + row.name + '&quot;,&quot;' + row.url + '&quot;);return false;">';
+				outhtml += row.identifier + " : " + row.name ;
+				outhtml +="</a></div>";
+				hits[row.identifier] = row.identifier;
+			}
+		}else{
+			outhtml ="No hit";
+		}
+		$(".loaderdiv").hide();
+		$("#" + pre + "data1").html(outhtml);
+
+		// partial hit
+		var parthtml = "";
+		var partials = {};//{keyword:[{id,name,url}]}
+		var partexist=false;
+		var partsynmap = result.partsynmap || {};
+		if(result.partials && result.partials.length){
+			var p = result.partials;
+			//adjust keys
+			for(var key in p){
+				var row = p[key];
+				if(!row.keywords || !row.keywords.length){
+					continue;
+				}
+
+				for(var i=0,len = row.keywords.length;i<len;i++){
+					var keyword = row.keywords[i];
+
+					if(!partials[keyword]){
+						partials[keyword] = [];
+					}
+					var keywords = partials[keyword];
+					keywords[keywords.length] =
+						{
+						  "identifier"  : row.identifier
+						, "name": row.name
+						, "url" : row.url
+						};
+				}
+			}
+
+			// output
+			for(var key in partials){
+				var arrparkeyword = partials[key];
+				if(!arrparkeyword){continue;}
+				var rowexist = false;
+				var rowsynonym = partsynmap[key];
+				var syshtml = "";
+				if(rowsynonym){
+					syshtml = "(" + rowsynonym + ")";
+				}
+				var keyhtml ="<div></div><div class='parttitle'><b>" + key + syshtml + "</b></div>";
+				for(var i=0,len = arrparkeyword.length;i<len;i++){
+					var row = arrparkeyword[i];
+					if(hits[row.identifier]){continue;}
+
+					keyhtml +="<div class='partdiv'><a href='" + row.url +"' target='_blank'>";
+					keyhtml += row.identifier + " : " + row.name ;
+					keyhtml +="</a></div>";
+
+					rowexist = true;
+				}
+				if(rowexist){
+					parthtml += keyhtml;
+					partexist = true;
+				}
+			}
+
+
+		}else if(result.partialcnt && result.partialcnt > partlimit ){
+			parthtml = "Too many candidates."
+			partexist = true;
+
+		}
+		if(!partexist){
+			parthtml = "No hit"
+		}
+		$("#" + pre + "dataPartial").html(parthtml);
+
+
+		//suggest(parents)
+		outhtml = setRelResultString(result.parents , hits, issmall);
+		outhtml = outhtml || "No suggest parent";
+		$("#" + pre + "dataParents").html(outhtml);
+
+		//suggest(sibling)
+		outhtml = setRelResultString(result.siblings ,hits, issmall);
+		outhtml = outhtml || "No suggest sibling";
+		$("#" + pre + "data2").html(outhtml);
+
+		//suggest(children)
+		outhtml = setRelResultString(result.children ,hits, issmall);
+		outhtml = outhtml || "No suggest child";
+		$("#" + pre + "dataChildren").html(outhtml);
+
+		//suggest(other)
+		outhtml = setRelResultString(result.rels ,hits, issmall);
+		outhtml = outhtml || "No suggest other relation";
+		$("#" + pre + "dataOther").html(outhtml);
+
+	}
+
+	function setRelResultString(resultobjs , hits , issmall ){
+		if(!resultobjs || !resultobjs.length){
+			return "";
+		}
+		var outhtml = "";
+		for(var i=0,len = resultobjs.length ; i<len ; i++){
+			var row = resultobjs[i];
+			if(!row){continue;}
+
+			if(!hits[row.identifier]){
+//			if(true){
+				outhtml +="<div class='reldiv'>";
+//				outhtml +="<a href='" + row.url +"' target='_blank'>";
+				outhtml +='<a style="cursor:pointer;" class="openlink ' +'"';
+				outhtml +='onclick="openRelDialog(&quot;' + row.identifier + '&quot;,&quot;' + row.name + '&quot;,&quot;' + row.url + '&quot;);">';
+
+				outhtml += row.identifier + " : " + row.name ;
+				outhtml +="</a></div>";
+				outhtml +="<div class='keyworddiv'>";
+				outhtml +="(" + keyword2csv(row.keywords) + ")";
+				outhtml +="</div>";
+			}
+		}
+		return outhtml;
+	}
+	function keyword2csv(keywords){
+		var ret = "";
+		for(key in keywords){
+			var row = keywords[key]
+			if(!row){continue;}
+
+			ret += "," + row;
+		}
+		if(ret){
+			ret = ret.substring(1);
+		}
+		return ret;
+	}
+
+	function openRelDialog(identifier ,name , url){
+		$("#smalldata1").html("");
+		$("#smalldataParents").html("");
+		$("#smalldata2").html("");
+		$("#smalldataChildren").html("");
+		$("#smalldataOther").html("");
+		$("#smalldataPartial").html("");
+		$("#q").autocomplete("close");
+
+		initdbname = $("#targetdb").val();
+		var param = {
+				 "identifier": identifier
+				 ,"dbname": initdbname
+		};
+
+		bkcursor = $("body,body *").css("cursor");
+/*
+		$("body,body *").css("cursor" , "wait");
+		$(".loaderdiv").show();
+		request(
+			 "/apps/searchneighbors/" + initdbname + "/" + identifier
+			,{}
+			,function(msg){
+				$("body,body *").css("cursor" , bkcursor);
+				var res={};
+				eval("res=" + msg.responseText);
+				var result={};
+				if(res && res.payload && res.payload.result){
+					result = res.payload.result;
+				}
+				if(result ){
+					setResult(result , true);
+				}
+			}
+		);
+//*/
+/*
+		new OntoSearcher().getNeighbors({
+			 dbname: initdbname
+			,identifier: identifier
+			,usedefaultdialog : true
+		});
+//*/
+/*
+		new OntoSearcher().getNeighbors({
+			 dbname: initdbname
+			,identifier: identifier
+			,success : function(res , obj){
+				searchingobj.success(res , obj);
+			}
+		});
+//*/
+		gidentifier = identifier;
+
+		$("#srcmsg").html(initdbname + " : " + identifier);
+		$("#cmpbtn").removeAttr("disabled");
+		window.open(url ,"_blank",'top=50,left=50,width=1000,height=700,scrollbars=1,location=0,menubar=0,toolbar=0,status=1,directories=0,resizable=1');
+
+/*
+		$("#srcframe").attr("src" , url);
+		$("#iframsrc").show();
+//*/
+	}
+
+	function openDstDialog(identifier ,name , url){
+/*
+		$("#dstframe").attr("src" , url);
+		$("#iframdst").show();
+//*/
+		window.open(url ,"_blank",'top=50,left=50,width=1000,height=700,scrollbars=1,location=0,menubar=0,toolbar=0,status=1,directories=0,resizable=1');		
+	}
+
+	function neighborssearch(){
+		if(!initdbname || !gidentifier){return;}
+		$("#smalldata1").html("");
+		$("#smalldataParents").html("");
+		$("#smalldata2").html("");
+		$("#smalldataChildren").html("");
+		$("#smalldataOther").html("");
+		$("#smalldataPartial").html("");
+		$("#q").autocomplete("close");
+
+
+		new OntoSearcher().getNeighbors({
+			 dbname: initdbname
+			,identifier: gidentifier
+			,success : function(res , obj){
+				searchingobj.success(res , obj);
+			}
+		});
+		
+	}
+///// utils ///////////////////////////////////////////////
+	function valueString(data){
+		if(!data){return;}
+
+		if(typeof data == "string"){
+			return urlShorten(data);
+
+		}else if(data.type=="uri" ){
+			return urlShorten(data.value);
+
+		}else{
+			return data.value;
+		}
+	}
+	function urlShorten(url){
+		ret = url;
+		if(!prefixes){
+			return url;
+		}
+
+		if(prefixes.owl){
+			for(var i=0,len = prefixes.owl.length;i<len;i++){
+				row = prefixes.owl[i];
+				if(url.indexOf(row.uri)>-1){
+					ret = row.prefix + ":" + url.substr(row.uri.length);
+					return ret;
+				};
+			}
+		}
+		if(prefixes.base){
+			for(var i=0,len = prefixes.base.length;i<len;i++){
+				row = prefixes.base[i];
+				if(url.indexOf(row.uri)>-1){
+					ret = row.prefix + ":" + url.substr(row.uri.length);
+					return ret;
+				};
+			}
+		}
+
+		return ret;
+	}
+
+//-->
+</script>
+{% endblock %} {# end of handscript block #}
+
+{% block header %}
+<div>
+<!--	<div class="pagetitle floatleft">Search DB [target:{{ initdbname }}]</div> -->
+	<div class="pagetitle floatleft">Search DB target:</div>
+	<div class="floatleft"><select  class="authinput" id="targetdb" name="targetdb" size="1"></select></div>
+	<div class="floatleft"></div>
+
+	<div class="floatleft loaderdiv" style="display:none;"><img class="loader"></div>
+	<div class="clearboth"></div>
+</div>
+{% endblock %} {# end of header block #}
+
+{% block content %}
+<div>
+	<div class="title">Word</div>
+	<div class="" id="qbox">
+		<input id="q" autocomplete="off" name="q" tabindex="-1" type="url" onkeydown="searchOnChenge(event);" onkeyup="searchOnChenge(event);">
+	</div>
+	<br>
+	<div class="" id="qlist">
+		<table id="restable">
+			<tbody>
+				<tr>
+					<td width="50%">
+						<div class="resulttitle">Search Results</div>
+						<div id="data1"></div>
+						<hr>
+						<div class="resulttitle" style="display:none;">Partial Hit</div>
+						<div id="dataPartial" style="display:none;"></div>
+						<div id="srcmsg"  style="display:none;"></div>
+						<div id="chkdbs"></div>
+						<div id="compare"><button id="cmpbtn" onclick="neighborssearch();" disabled>serch link</button></div>
+					</td>
+
+					<td width="50%">
+						<div class="resulttitle">Suggest</div>
+						<div class="tabouter">
+							<div id="tabs">
+								<ul>
+								<li><a href="#tabs-1">Parents</a></li>
+								<li><a href="#tabs-2">Siblings</a></li>
+								<li><a href="#tabs-3">Children</a></li>
+								<li><a href="#tabs-4">Other</a></li>
+								</ul>
+								<div id="tabs-1">
+									<div class="tabinner">
+										<div id="dataParents"></div>
+									</div>
+								</div>
+								<div id="tabs-2">
+									<div class="tabinner">
+										<div id="data2"></div>
+									</div>
+								</div>
+								<div id="tabs-3">
+									<div class="tabinner">
+										<div id="dataChildren"></div>
+									</div>
+								</div>
+								<div id="tabs-4">
+									<div class="tabinner">
+										<div id="dataOther"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+<hr>
+<div class="" id="smallqlist">
+	<div class="" id="smallqlistinner">
+		<div class="header">
+			<div class="floatleft"></div>
+			<div class="clearboth"></div>
+		</div>
+		<div class="contents">
+			<table id="smallrestable">
+				<tbody>
+					<tr>
+						<td width="50%">
+							<div class="resulttitle">Search Results</div>
+							<div id="smalldata1" class="exactdiv"></div>
+							<hr>
+							<div class="resulttitle" style="display:none;">Partial Hit</div>
+							<div id="smalldataPartial" style="display:none;"></div>
+						</td>
+	
+						<td width="50%">
+							<div class="resulttitle">Suggest</div>
+							<div class="tabouter">
+								<div id="smalltabs">
+									<ul>
+									<li><a href="#smalltabs-1">Parents</a></li>
+									<li><a href="#smalltabs-2">Siblings</a></li>
+									<li><a href="#smalltabs-3">Children</a></li>
+									<li><a href="#smalltabs-4">Other</a></li>
+									</ul>
+									<div id="smalltabs-1">
+										<div class="tabinner">
+											<div id="smalldataParents" class="reldiv"></div>
+										</div>
+									</div>
+									<div id="smalltabs-2">
+										<div class="tabinner">
+											<div id="smalldata2" class="reldiv"></div>
+										</div>
+									</div>
+									<div id="smalltabs-3">
+										<div class="tabinner">
+											<div id="smalldataChildren" class="reldiv"></div>
+										</div>
+									</div>
+									<div id="smalltabs-4">
+										<div class="tabinner">
+											<div id="smalldataOther" class="reldiv"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>	
+</div>
+{% endblock %} {# end of content block #}
+
+

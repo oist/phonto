@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7176">
+<itemtype>xnppaper</itemtype>
+<titles><title>Effects of GABA(A) inhibition on the expression of long-term potentiation in CA1 pyramidal cells are dependent on tetanization parameters.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>Animals</keyword>
+<keyword>Bicuculline</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>GABA Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>GABA-A Receptor Antagonists</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>Male</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:36:08Z</last_update_date>
+<creation_date>2013-02-27T07:36:08Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7176</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7176" version="1.02">
+<authors><author>Chapman CA</author><author>Perez Y</author><author>Lacaille JC</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>3</number>
+<page>289-98</page>
+<abstract>Long-term potentiation (LTP) of excitatory synaptic responses of principal neurons in the hippocampus is accompanied by changes in GABAergic inhibition mediated by interneurons. The impact of inhibition on LTP of excitatory postsynaptic responses in CA1 pyramidal cells was assessed by monitoring changes in field potentials evoked by Schaffer collateral stimulation in hippocampal slices in vitro. First, to determine the effect of inhibition on population EPSPs, slices were exposed to the GABA(A) receptor antagonist bicuculline (10 microM). Both the slope and amplitude of field EPSPs (fEPSPs) were significantly enhanced by bicuculline indicating that inhibition modulates excitatory postsynaptic responses of pyramidal cells. To assess if stimulation-dependent changes in inhibition influence LTP of excitatory responses of pyramidal cells, LTP was examined in the presence and absence of bicuculline (20 microM) following either 100 Hz tetanization, or theta-patterned stimulation (short bursts delivered at 5 Hz). In normal medium, 100 Hz stimulation produced marked short-term potentiation that decayed 5-10 min post-tetanus and both stimulation paradigms produced similar LTP at 30 min post-tetanus. In comparison, LTP of the fEPSP slope and amplitude was significantly enhanced after theta-patterned stimulation, but not after 100 Hz stimulation, in bicuculline. The greater potentiation of field responses following theta-patterned stimulation in the presence of bicuculline indicates that a larger potentiation of excitatory responses was unmasked during suppression of inhibitory inputs. These results suggest that a long-lasting enhancement of inhibition in pyramidal cells was also induced following theta-patterned stimulation in normal ACSF. Since suppression of inhibition did not uncover a significantly larger potentiation following 100 Hz tetanization, the influence of inhibition on LTP of excitatory responses appears to be stimulation-dependent. In conclusion, theta-patterned stimulation appears to be more effective at inducing plasticity within inhibitory circuits, and this plasticity may partially offset concurrent increases in the excitability of the CA1 network.</abstract>
+<pubmed_id>9662142</pubmed_id>
+</detail>
+</item>

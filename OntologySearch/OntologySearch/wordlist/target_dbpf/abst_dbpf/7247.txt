@@ -1,0 +1,24 @@
+Adrenergic alpha-1 Receptor Agonists
+Adrenergic alpha-1 Receptor Antagonists
+Animals
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+Hippocampus
+drug effects
+metabolism
+Long-Term Synaptic Depression
+drug effects
+physiology
+Methoxamine
+pharmacology
+Prazosin
+pharmacology
+Rats
+Rats
+Sprague-Dawley
+Receptors
+Adrenergic
+alpha-1
+metabolism
+Neurons located in the locus coeruleus project to hippocampus and provide noradrenergic innervation necessary for hippocampal-dependent learning and memory. The mechanisms underlying the function of norepinephrine (NE) in memory processing are unknown but likely reside in the ability of NE to modulate the efficacy of glutamate synaptic transmission via activation of G-protein-coupled adrenergic receptors. Here we show that application of NE to rat hippocampal slices in vitro induces a long-term depression (LTD) of synaptic transmission at excitatory CA3-CA1 synapses that persists for>/=40 min after agonist washout. This LTD, which we refer to as NE LTD, is mediated by activation of alpha1 adrenergic receptors because the alpha1 agonist methoxamine can induce LTD at the same magnitude as that induced with the nonselective adrenergic agonist NE. Furthermore, NE LTD induced by either NE or methoxamine is blocked with the alpha1 receptor antagonist, prazosin, but is unaffected by antagonists of alpha2 and beta receptors. This plasticity persists in the presence of the GABA(A) receptor antagonist bicuculline, indicating that adrenergic modulation of GABA(A) receptor-mediated transmission does not underlie NE LTD. Induction of NE LTD requires presynaptic activity during agonist application and postsynaptic activation of N-methyl-d-aspartate receptors, fulfilling Hebbian criteria of coincident pre- and postsynaptic activity. The expression of NE LTD is likely to be postsynaptic because paired-pulse facilitation ratios during NE LTD expression are not different from baseline, similar to LTD induced by low-frequency stimulation. Thus we report the identification and characterization of a novel Hebbian form of LTD in hippocampus that is induced after activation of alpha1 adrenergic receptors. This plasticity may be a mechanism by which the adrenergic system participates in normal cognitive function.

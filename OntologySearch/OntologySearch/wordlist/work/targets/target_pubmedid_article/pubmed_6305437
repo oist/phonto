@@ -1,0 +1,1199 @@
+MINIMAL MODEL FOR MEMBRANE OSCILLATIONS IN
+THE PANCREATIC f-CELL
+
+TERESA REE CHAY
+Department ofBiological Sciences, University of Pittsburgh, Pittsburgh, Pennsylvania 15260
+
+JOEL KEIZER
+Department of Chemistry, University of California, Davis, Davis, California 95616
+
+Following the experimental findings of Atwater et al. (In Biochemistry Biophysics of the Pancreatic-
+ABSTRACT
+(3-Cell, George Thieme Verlag, New York, 100- 107), we have formulated a mathematical model for ionic and electrical
+events that take place in pancreatic (3-cells. Our formulation incorporates a Hodgkin-Huxley type gating mechanism for
+Ca2" and K+ channels, in addition to Ca2" gated K+-channels. Consistent with the experimental observations, our
+model generates spikes and bursts in (-cell membrane potentials and gives the correct responses to additions of glucose,
+quinine, and tetraethylammonium ions. The response of the oscillations to ouabain and changing concentrations of
+external K+ can be incorporated into the present model, although a more complete treatment would require inclusion of
+the Na+/K+ pump.
+
+INTRODUCTION
+
+A wide variety of secretory cells display oscillations in
+membrane potential. Among these, the ,B-cell is of particu-
+lar interest because it involves a link between cell meta-
+bolism and membrane conductance. Glucose and other
+metabolizable sugars, which elicit insulin release from the
+(-cell of the pancreatic islet, induce repetitive oscillations
+in the (3-cell transmembrane potential. Rapid fluctuations
+in potential, i.e., action potentials or spikes, occur as burst
+of electrical activity on each phasic depolarization. These
+action potentials have been associated with the stimulus for
+the release of insulin. The main action of glucose is to
+decrease the intracellular level of calcium, which is then
+responsible for triggering the release of insulin by exocyto-
+sis (1). A characteristic feature of ,B-cells is that the
+duration and frequency of each burst can be altered by the
+glucose concentration and by the external Ca+2, K+, and
+Na+ concentrations. In addition, mitochondrial inhibitors
+and uncouplers, which are known to induce a release of
+intracellular Ca'2, block glucose-induced electrical activ-
+ity (1).
+
+Based on these experimental observation, Atwater et al.
+(1) have proposed a qualitative model to explain the
+oscillations in the (3-cell. Their model includes (a) a
+potassium channel activated by intracellular calcium ions,
+(b) a voltage-gated K+ channel, (c) a voltage-gated cal-
+cium channel, and (d) cytoplasmic changes of intracellular
+calcium concentration that depend on glucose concentra-
+tion.
+
+The experimental evidence seems to us sufficiently
+detailed to justify construction of a dynamic mathematical
+
+model. In this paper, we present a simple mathematical
+model of (-cell oscillations and look for quantitative expla-
+nations of how oscillations can arise from the interaction of
+membrane processes with intracellular calcium. Although
+our model does not include all the effects that have been
+observed on (3-oscillations, it does include the basic features
+proposed by Atwater et al. (1). Furthermore, additional
+transport mechanisms such as the Na+/K+ pump can be
+added to the mechanism to account for other observed
+effects. In this sense, the mathematical model presented
+here is a minimal model, i.e., the simplest that will explain
+the burst pattern of (-cell oscillations.
+
+MODEL
+
+The model described in this section is based on recent experimental work
+characterizing the electrophysiology of isolated single (3-cells ( 1-6). Using
+chemical blocking agents, such as quinine and tetraethylammonium ions
+(TEA), two sorts of potassium ion channels have been uncovered in the
+membrane of the ,-cells. The TEA-sensitive channel appears to be similar
+to the voltage-gated K+ channel known in nerve cells (7). The channel
+blocked by quinine, on the other hand, is regulated by internal calcium. It
+appears to be related to the calcium-activated K+ channel found in red
+blood cell membranes and other tissues (8). Using these and other
+observations, Atwater et al. (5) proposed that calcium ion is a control
+agent for the membrane potential in ,8-cells and is responsible for the
+burst pattern of oscillation.
+
+Voltage oscillations with bursts, similar to those in the ,B-cell, have also
+been observed in certain nerve cells, e.g., the R15 cell of Aplysia (9, 10).
+Recently, Plant (11-13) has explained the bursting pattern using a
+calcium-activated potassium conductance. An inward Na+ current seems
+to play a crucial part in these neuronal oscillations. Indeed, when the Na+
+channel of the RI5 cell is blocked by application of tetrodotoxin (TTX)
+the action potential spikes are abolished and only a slow oscillation
+waveform remains. While the effect of TTX in the RI5 cell is quite
+
+BIOPHYS. J. © Biophysical Society
+Volume42 May 1983
+
+181-190
+
+*
+
+0006-3495/83/05/181/09
+
+$1.00
+
+181
+
+different from what is observed in the #-cell (6), we believe that the
+evidence for the importance of Ca"2 regulation in the ,B-cell is compelling.
+In the model given below, the differences between neuronal and ,8-cell
+oscillations are due primarily to the appearance of an inward Ca+2 current
+in j3-cells that replaces the inward Na+ current of the neuron (7).
+
+Our minimal model for the ,-cell burst oscillations contains the four
+features cited by Atwater et al. (1). Explicitly we assume the following:
+(a) A potassium channel activated by intracellular calcium ions and
+sensitive to quinine. We have adopted a modification of the scheme
+proposed by Plant (12), since the mechanism involved in the calcium
+activation is not known at present. The conductance of these channels is
+assumed to be
+
+gK,Ca = gK,Ca Y*/(1 + Y)
+
+()
+where &c. is the maximum conductance per unit area, and Y = Cai/Kd,,,.
+Here Kd , is the dissociation constant for Ca`2 bound to the channel gate
+and Q is an integer. A value of 2 - 1 was chosen by Plant (12, 13),
+corresponding to noncooperative binding. We have used this value in most
+of our numerical work, except as described below. For Kd we have taken
+the value of I gM suggested by Atwater et al. (1).
+
+(b) A voltage-gated K+ channel sensitive to TEA. Following the idea
+set forth by Hodgkin and Huxley (7), the conductivity for this channel is
+written as
+
+-
+
+4
+gK,HH = gK,HHn ,
+
+(2)
+where gK.HH is the conductance per unit area when the channel is fully
+activated, and n is the fraction of K+ activation. In our work we have
+adopted the expressions for the time change of n as given by Hodgkin and
+Huxley. These equations depend on the variables n,OX,4T, a,,, and (3,,. In
+our model the voltage dependencies of these variables have the same form
+as the original Hodgkin-Huxley equations, but are shifted along the
+voltage axis by V*, i.e., V is replaced by V + V*. The value we have used
+for V* is given in Table I.
+
+Following the Hodgkin-Huxley scheme, the total current due to
+
+potassium channels is given by
+
+(3)
+where V is the membrane potential, VK is the resting potential for the K+
+ion, and
+
+IK = gK (VK - V)
+
+(4)
+(c) A voltage-gated calcium channel. We write the conductance of the
+voltage-dependent calcium channel in terms of the variables m and h
+
+gK = gK,Ca + gK,HH*
+
+VALUES OF PARAMETERS IN THE MODEL
+
+TABLE I
+
+Parameter
+Cm(AF/cm2)
+gKz,c(mS/cm2)
+gKKHH(mS/Cm2)
+gC.,HH(mS/cm')
+gL(mS/cm)
+VK(mV)
+Vc(mV)
+VJ(mV)
+V*(mV)
+V'(mV)
+Kdi.(MM)
+r(Mm)
+f
+T(°C)
+
+Numerical value
+
+1
+0.09
+1 2
+6.5
+0.04
+_75
++100
+-40
+30
+50
+I
+8.9
+0.004
+20
+
+introduced by Hodgkin and Huxley (7). Thus
+
+gCa,HH = gca,HHmh-
+
+(5)
+m is the activation and h is the inactivation parameter of the channel.
+Again, to describe the time dependence of the activation and inactivation
+parameters, we adopt the usual Hodgkin-Huxley scheme. Thus, what is
+normally an inward sodium current in the Hodgkin-Huxley model
+becomes an inward Ca+2 current in our model. This is compatible with a
+variety of experimental facts, including the persistence of the bursting
+pattern in the presence of normally inactivating amounts of TTX (6). To
+describe the voltage dependence of time relaxation parameters am, ah, #ms
+and ,3h we have used exactly the form given by Hodgkin and Huxley.
+However, the voltage Vin am, at, (,,,, and (6k has been replaced by V + V,
+with V given in Table I.
+
+Given the conductance expression in Eq. 5, the calcium current is
+
+written
+
+ICa = gCa,HH(VCa - V),
+
+(6)
+
+where Vca is the resting potential of calcium.
+
+To reflect the occurrence of Na+ leaks (6) and, presumably, Cl- leaks
+in the ,8-cell, we have added to our model a leak conductance. As in the
+Hodgkin-Huxley model, the current due to these leaks is written as
+
+IL = gL (VL - V).
+
+(7)
+In the Hodgkin-Huxley formalism, the membrane current is the sum of
+all the contributions from the above ionic channels. Thus, the time change
+of membrane potential may be expressed as
+Cm dV/dt = gK(VK- V)+2gC,HH (VC. - V)
+
++ gL(VL- V) + Iapp
+
+(8)
+where C. is the membrane capacitance, and I.,W is the applied external
+current.
+(d) Glucose-activated loss of cytosolic Ca+2. There are a variety of
+mechanisms that regulate the free calcium ion concentration, Ca,, in the
+cytosol (14-16). These include a plasma-membrane bound Ca"2 ATPase
+that pumps Ca+2 out of the cell (14, 16, 17), a passive Ca+2 leak into the
+cell (8), the Na+/Ca+2 exchange mechanism (14, 17) mitochondrial
+uptake and release of Ca+2 (14,15) and other fixed and mobile Ca+2
+binding sites. Because little is known about these specific mechanisms in
+the ,8-cell, and because many details of these transport mechanisms are
+still unknown in other systems, we have chosen to model the metabolism
+of Ca+2 in a minimal fashion. We have included a single rate term for the
+change of Ca+2 in the cytosol of the form -kc,,Ca;. This specifically
+ignores the leak of external calcium ions into the cell, although this is
+probably justified by the slow rate of leakage (8).
+Three of the Ca+2 transport mechanisms mentioned above contribute,
+in principle, to the efflux of Ca,: the Na+/Ca+2 exchange, the mitochon-
+drial uptake of Ca+2, and the Ca+2 ATPase pump. The fact that burst
+oscillations in the (3-cell occur only in the presence ofglucose suggests that
+the efflux mechanisms is at least partially dominated by one that is
+coupled to glucose metabolism. While the activity of the Ca"2 ATPase
+depends explicitly on ATP, the KM value of the ATPase for ATP is 0.05
+mM (14), which is several orders of magnitude below physiological levels
+of ATP. Thus, an increase in glucose metabolism should be incapable of
+increasing the efflux of Ca"2 by this mechanism. Similarly, the Na+/
+Ca+2 exchange mechanism operates in the absence of ATP, although
+small amounts of ATP are known to stimulate Ca"2 binding to the
+presumptive carrier (14). This leaves mitochondrial uptake of Cat, a
+process that is known to be strongly coupled to the membrane potential of
+the mitochondria (14,15), as the primary candidate for the glucose-
+activated efflux of Ca'2. Indeed, recent experimental work (14), suggests
+that uptake occurs by a uniport mechanism that is stimulated by oxidative
+phosphorylation. Oxidative phosphorylation, of course, is coupled to
+
+182
+
+BIOPHYSICAL JOURNAL VOLUME 42
+
+1983
+
+a
+
+c
+
+k
+
+O Co0
+
+in.e
+
+(s)
+
+The burst pattern in variation of glucose. a was obtained with kcX = 0.02 ms-1, b with kc. = 0.04 ms-', and c with kca - 0.06 msr'
+FIGURE 1
+This figure and the following three figures comes from calculations with Ipp = 0. Initial conditions used in this figure and the following figures
+(with an exception of Fig. 4) are V = -55 mV and Cai - 0.8 gM. In Fig. 4 we set Cai = 0.5 uM in order to facilitate the computation.
+
+CHAY AND KEIZER
+
+Oscillations in the ,-Cell
+
+183
+
+glycolysis through the Krebs cycle. Interpreted in this fashion, kc.
+depends on the mitochondria membrane potential, being small in the
+absence of glucose and larger when the glucose concentration is
+increased.
+
+With this assumption, and the neglect of the dynamics of other Ca+2
+transport mechanism, we can complete the specification of our model.
+This gives, for the rate of change of the free calcium in the cytosol,
+
+f-' dCa1/dt = 3Ica/rF - kca Ca;
+
+(9)
+where r is the radius of the cell, F the Faraday constant, kc, the rate
+constant for the removal of Ca,, andfthe fraction of free Ca2" inside the
+cell, i.e.,
+
+f= dCai/d[Ca]T.
+
+(10)
+
+Here, [CaJT is the total calcium concentration inside the cell, i.e., the
+bound-plus-free cytosolic calcium ion concentration. According to Fer-
+reira and Lew (18) it may be expressed as
+
+[CaJT = [IV/V + ZjBjl/(Kj + Cai)] Ca,
+
+(11)
+
+where V. is the volume of cell water per liter of cells (V,), Bj the
+concentration of the jth buffer, Kj the dissociation constant between Ca
+and this buffer. Note that if Kj is much greater than Ca1, the fraction of
+ionized Ca"2, f, is independent of the calcium concentration inside the
+cell. In Eq. 9 the factor 3 came from the ratio between the surface and
+volume of the cell, i.e., (4irr2)/(4irr3/3).
+
+We are unaware of any experimental measurements that give the
+fraction of free calcium in ,B-cells, although in red blood cells Ferreira and
+Lew (18) estimated thatf = 0.4. Nonetheless it seems likely that a much
+smaller value will obtain in #-cells due to the more complicated structure
+of their internal organelles. In our calculations we have used values of f
+between 0.01 and 0.001. Such values, in fact, are necessary if our
+mechanism is to produce oscillations on the second-to-minute time scale
+characteristic of the experimental bursts. Indeed Eq. 9 shows that a
+change infdirectly changes the time scale of the bursts, since it appears
+as a factor in the denominator of the time derivative of Ca,, and in our
+model Cai controls the burst frequency.
+
+RESULTS AND DISCUSSION
+
+Eqs. 8 and 9, along with the other Hodgkin-Huxley
+equations that define our model, were integrated using the
+Shampine-Gordon computer code (University of Pitts-
+burgh). This code is applicable to the solution of stiff
+differential equations, such as in the Hodgkin-Huxley
+model. The magnitude of the absolute and relative errors
+required in the integration code was taken to be 106. The
+values of parameters used in most of our computations are
+given in Table I. Other values are listed in the figure
+captions.
+Fig.
+
+illustrates the numerical solutions of the
+dynamics of glucose-induced electrical activity obtained
+from our model. Note that as kca becomes larger, i.e., as
+the glucose concentration increases, the silent phase (polar-
+ization phase) becomes shorter and the active phase (depo-
+larization phase) becomes longer. Above a critical value of
+kc, the bursts disappear entirely and only action potentials
+remain (Fig. 1 c). For kc. below another critical value, no
+electrical activity of any kind appears and V is fixed near
+the resting potential of K+. This is in agreement with the
+experimental observation in ,8-cells (5).
+
+1
+
+b
+
+c0
+
+r,)
+
+0
+
+N
+o
+o(u
+
+I0-
+
+1w)
+o'O
+
+E rw-
+$L.
+
+0f-
+
+CO
+
+r)0
+
+L)
+
+..z
+'6540.00
+
+6560.00
+
+6580.00
+Time
+
+6600.00
+(ms)
+
+6620.00
+
+I
+
+6640.00
+
+6660.00
+
+FIGURE 2
+that of Fig. I b. b, the time scale is expanded by a factor of 500.
+
+Variation of Ca; with time. The conditions are the same as
+
+184
+
+BIOPHYSICAL JOURNAL VOLUME 42
+
+1983
+
+In Fig. 2 a we show the variation of calcium inside the
+cell with time, over a period of several oscillations. As
+expected, Ca, continuously falls during the silent phase and
+rises abruptly during the active phase. On this time scale it
+is not possible to perceive the effect of individual action
+potentials during the active phase. This can be seen on an
+expanded time scale, as shown in Fig. 2 b. In that figure
+each action potential gives rise to a steplike increase in
+Ca,.
+
+Figs.
+
+1 and 2 are compatible with the qualitative
+description of the oscillations given by Atwater et al. (1):
+In the absence of glucose, Cai is relatively high; thus, the
+permeability of K+ is high and the membrane potential is
+at its most negative state. Upon addition of glucose, Cai is
+lowered by the activation of various energy-requiring
+mechanisms, probably the mitochondria. As Cai is low-
+ered, the calcium-sensitive K+-channel becomes inhibited,
+inducing depolarization. When Cai is sufficiently reduced,
+a rapid depolarization to the plateau potential occurs; at
+the plateau potential, a series of action potentials occur due
+to the activation of the voltage-gated Ca2' and K+ chan-
+nels (see Fig. 1). The inward current of Ca2' results in an
+increase of Cat. After a volley of action potentials the
+calcium-sensitive K+-channel is activated, repolarizing the
+
+membrane and inhibiting further influx of calcium. This
+inhibition leads to a decrease in Cal, and once the cell has
+managed to reduce Cai sufficiently the cycle starts again.
+The repetitive action potential spikes at high glucose
+concentration (Fig. 1 c) are reminiscent of the repetitive
+firing of certain nerves stimulated by a fixed depolarizing
+current. Indeed, there is a great similarity between our
+description of glucose-induced spiking in the (-cell and
+Rinzel's treatment of repetitive neuronal activity (19). In
+our model, when kca takes on a large enough value, the
+inward Ca'2 current is no longer sufficient to bring the Cai
+level up to a value that can reinstate the Ca+2 activated
+potassium current. Thus under high glucose a fixed part of
+the potassium current is always turned off. In the repetitive
+neuronal spikes, this circumstance is effectively achieved
+by the fixed depolarizing current.
+
+The form of the burst patterns in Fig. 1 a and b is
+remarkably like those observed experimentally. Experi-
+ments with several hundred different (3-cells (1) have
+shown a large variance in both the duration of the active
+(spiking) phase and the number of bursts per minute. In
+spite of this, the general features of the experimental
+oscillations are close to those we have found in our
+calculations. These features include such things as the
+minimum voltage (-57 mV), the overall amplitude of the
+
+0
+0
+U,
+0
+
+N_
+
+0
+
+9cl
+
+0
+
+If
+
+C')
+
+-
+
+rU"-
+I
+Co
+CU
+
+.-
+
+00
+>0
+4-9
+
+r-i
+(DM.
+
+0
+
+I
+
+0.'00
+
+I
+
+0;40
+
+Il
+0.80
+
+Tim.
+
+I
+
+-
+
+1.20
+( 8)
+
+00
+ol
+
+0
+0
+
+co
+
+a
+
+>0-o
+0_
+0>
+-D
+.9
+
+o
+
+1-
+S
+a)9
+C5!
+00
+-0
+
+a) o
+S°
+
+0
+9
+
+l*
+0
+U!
+CD
+0.00
+
+II
+
+1'.80
+
+2'.00
+
+2'.40
+
+9&YWUAJ
+
+J
+
+4.00
+
+8.00
+
+Time
+
+12.00
+( s)
+
+16.00
+
+20.00
+
+24.00
+
+FIGURE 3
+
+Effect of quinine on the burst pattern. In this calculation kca
+
+0.001 ms' and tKc.
+
+0.02 mS/cm2.
+
+FIGURE 4
+Effect of TEA on the membrane oscillation. In this calcu-
+lation kc, = 0.02 msr' and the relaxation time -r was increased over that
+in Table I by a factor of 2.
+
+CHAY AND KEIZER
+
+Oscillations in the (3-Cell
+
+185
+
+II-wl----ss--------
+
+It should be noted that our model does not explicitly
+consider effects due to the electrogenic Na+/K+ pump.
+The importance of the pump on the burst pattern, however,
+has been shown experimentally by Atwater and Meissner
+(21) and Meissner and Preissler (6). Nonetheless, when
+K+ or Na+ are removed from the external bathing solution,
+it takes a very long time until a significant change in
+intracellular K+ or Na+ is observed. Similarly, it takes up
+to 20 min after the Na+/K+ pump is blocked with ouabain
+to observe significant effects on the,-cell oscillation. Thus
+we may partially include the effect of the pump in our
+model by the following device: When the Na+/K+ pump is
+fully activated, the cytosolic Na+ and K+ ion concentra-
+tions change very little, and hence the outward current that
+is contributed by the pump varies very little with time. In
+other words, the current due to the pump acts effectively
+like an applied current (cf. Iapp in Eq. 7) with a negative
+value. In Figs. 1-4 we have taken Iap, equal to zero.
+However, as shown in Fig. 5 a, the presence of a constant
+negative current Iapp = -0.6 ttA/cm2 changes our results
+qualitatively very little from those in Fig. 1. However, to
+
+The f-cell membrane oscillations respond dramatically
+to TEA, which is known to block the voltage-dependent K+
+channel by prolonging the outward K+ current (4). We
+have modeled this action of TEA in our calculations by
+increasing the value of the K+ outward-current activation
+time, r", by a factor of 2. The resulting oscillations are
+shown in Fig. 4. Note that this abolishes the burst pattern
+and blocks the repolarization phase of action potentials.
+
+oscillations (-30 mV), the average amplitude of the spikes
+(- 12 mV), the irregularity of the action potentials with
+their tendency to decrease in amplitude during the active
+phase, the period of bursting (10-20 s), and the slow
+depolarization during the silent phase (see Fig. 1, reference
+20). By changing the parameter values listed in Table I
+slightly, we are able to produce quantitative changes in the
+form of the oscillations that, nonetheless, retain the basic
+characteristics described above.
+
+Quinine is known to block the Ca2' activated K+-
+channel, and thus to depolarize the silent phase leading to
+the generation of continuous activity and to the loss of the
+burst pattern (1). To mimic this behavior we have lowered
+the value of gK Ca from 0.09 to 0.02 mS/cm2. The results for
+this smaller value of gK,c. are shown in Fig. 3. The rather
+complicated pattern of continuous spikes is similar to that
+found in the presence of 0.1 mM quinine and in the absence
+of glucose (1).
+
+Also, note that the amplitude of the action potential is
+significantly larger than in Fig. 1 a and that the potential
+at the foot of each spike is close to the potential during the
+silent phase in Fig. 1 a. This is in agreement with experi-
+mental observations (4).
+
+with Ipp = -0.6 uA/cm2, and b was obtained with Ipp = 0. Calcium binding in Eq. I was taken as very cooperative, i.e., Q = 4.
+
+BIOPHYSICAL JOURNAL VOLUME 42
+
+Effects of ouabain on the bursting pattern. Here kc,
+
+0.06 mS/cm2. a was obtained
+
+0.05 mS/cm2, and gL
+
+0
+
+w
+Icu
+>0
+r= l
+
+L
+l 1
+5.00
+
+I
+
+lb.00
+(s)
+
+0
+
+0
+
+0L
+c9
+co
+o- I
+0'*.
+
+0
+m
+Io .00
+
+15.00
+( s)
+
+0.084 ms-
+
+I'o.00
+
+0
+
+U)
+
+0
+
+U)
+U)
+
+Co
+
+ar-0
+
+woI
+
+-a
+
+.0
+
+soMtO
+It
+
+10.00
+
+Time
+
+0
+
+ai
+
+IM3.
+
+lII
+
+10.00
+
+Tlme
+
+20. 00
+
+25.00
+
+0
+0
+
+0
+
+cm
+
+so
+
+"I
+
+a
+a
+
+U)
+
+1983
+
+2b.00
+
+2b.0o
+
+3b.oo
+
+0 -
+
+I
+
+0
+
+cu01
+
+a
+
+30.00
+
+a0.oo
+
+I
+
+I
+
+FIGURE 5
+
+186
+
+b
+
+X.
+
+I
+
+achieve the results in Fig. 5 a we have needed to use a
+smaller value of g-KC, a larger value of gL, and to assume a
+Hill coefficient of 2 = 4 for the Ca"2 binding to the Ca+2
+activated K+ channel. These changes are shown in the
+legend to Fig. 5.
+
+Using this slight extension of our minimal model, we
+can simulate the effect of the Na+/K+ pump inhibitor,
+ouabain, on the oscillations. Because ouabain shuts off the
+pump, we merely set Ipp = 0. As shown in Fig. 5 b, this
+leads to continuous spiking. This is compatible with the
+observations of Atwater and Meissner (21) on the effect of
+ouabain. Another way of eliminating the action of the
+Na+/K+ pump is by reducing the external concentration of
+potassium to a low value. This is also known to produce a
+pattern of oscillations like that in Fig. 5 (1).
+
+One of the striking experimental observations on the
+:-cell oscillations is the irregular appearance of the spikes
+in the active phase. We have also observed this irregularity
+in our numerical results, but only when they are plotted on
+the time scale of the overall oscillations. In Fig. 6 we show a
+graph of the same spikes plotted on a millisecond time
+scale. When plotted this way they are seen to be quite
+regular in shape and to have a gradually decreasing
+amplitude, as we would expect. Thus it would appear that
+much of the irregularity of the active phase spikes is an
+artifact of the time scale used to measure the oscillations.
+Another important aspect of the spikes shown in Fig. 6 is
+
+(u
+
+0
+
+C
+
+C'D
+
+c cm
+
+MC.
+
+CO
+
+6540.00
+
+6560.00
+
+6580.oo
+Time
+
+6600.oo
+(ms)
+
+6620.oo
+
+6640.oo
+
+6660.00
+
+FIGURE 6 The action potential spikes shown in Fig. I b, but plotted on a
+time scale that is expanded by a factor of 500.
+
+CHAY AND KEIZER
+
+Oscillations in the ,8-Cell
+
+their period, which increases from 10 to 40 ms, and
+considerably shorter than the 50 ms period observed
+experimentally (20). This suggests to us that the parame-
+ters we have chosen for Hodgkin-Huxley conductances
+gK,HH and gCa,HH are not correct. We can easily lengthen the
+duration of the action potentials by increasing the relaxa-
+tion time constant for the calcium conductance in our
+modified Hodgkin-Huxley model, or by increasing the
+capacitance of the membrane slightly. However, any real
+improvement of this aspect of the model awaits the experi-
+mental determination of the Hodgkin-Huxley parameters
+for the ,B-cell.
+
+SUMMARY AND CONCLUSIONS
+
+Based on the experimental work of Atwater et al. (1), we
+have developed a minimal mathematical model to describe
+burst oscillations in the ,3-cell. The model is minimal in that
+it includes only the basic set of processes that lead to burst
+oscillations: voltage-regulated K+ channels, Ca 2-acti-
+vated K+ channels, voltage-regulated Ca+2 channels, and
+glucose-stimulated efflux of Ca+2 from the cytosol. With
+these basic processes the model produces burst oscillations
+with features like those observed experimentally. The
+response of the oscillations in our model to the action of
+glucose, quinine, or TEA is similar to that elicited experi-
+mentally.
+
+In its minimal form our model is not capable of
+describing the effect on the oscillations of changing exter-
+nal concentrations of Na+ or K+. To properly treat the
+effects of externally applied Na+ and K+ requires that the
+Na+/K+ pump be added to our model. Although we have
+not done that here, we have assessed the effect of turning
+off the pump using ouabain or low external K+ concentra-
+tions. To do this we have extended the minimal model by
+including a fixed polarizing current to mimic the effect of
+the pump. Reducing the current to zero in this extended
+model gives a continuous volley of action potentials as is
+seen experimentally in the presence of ouabain (21).
+
+One of the purposes of constructing a minimal model
+like ours is to assess which experimental facts are crucial to
+the oscillations. Based on our results, the Ca 2 activated
+K+ channel appears to be the trigger for the oscillations
+(1, 5). The trigger is initiated by glucose which, in our
+model, acts by stimulating efflux of Ca+2, probably into the
+mitochondria. While other Ca+2 transport mechanisms,
+such as the Na+/Ca 2 exchange mechanism and the Ca 2
+ATPase, are undoubtedly important in the /3-cell, they do
+not appear to be strongly enough coupled to glucose
+metabolism to initiate oscillations. The Na+/K+ pump, on
+the other hand, has been implicated in the burst oscillations
+by several experiments. Our numerical work suggests that
+the pump is, indeed, important in moderating the mem-
+brane potential of the /3-cell. In this way both external Na+
+and K+ are coupled to the Ca+2 triggering mechanism. Our
+work, however, suggests that the Na+/K+ pump is not a
+crucial dynamical part of the oscillatory mechanism.
+
+187
+
+Calcium occupies a central control position in our
+model. Nonetheless its effect has been observed in experi-
+ments only indirectly. Based on our model, there are two
+aspects of the control of calcium that it may be possible to
+observe experimentally. First, as yet there has been no
+direct observation of internal calcium changes within the
+cell. Our calculations predict a calcium oscillation of the
+same frequency as the burst oscillations (Fig. 2 a) with a
+steplike fine structure during the active phase. Although
+the internal calcium concentration is quite small, it may be
+possible to measure these changes spectroscopically with
+Ca'2-sensitive fluorescence probes or a Ca'2-selective
+microelectrode. Another prediction, based on the way in
+which calcium enters our model, is that oscillations will
+cease if the calcium conductance is specifically blocked.
+This follows from the fact that, at fixed glucose concentra-
+tion, the only mechanism in our model for reentry of
+calcium into the cell is through the Ca+2 conductance. If
+the Ca+2 conductance is blocked, no inward current of
+Ca'2 is possible, and only a steady depolarization of the
+membrane should be observed. This, of course, neglects the
+effect of other calcium transport mechanisms, such as the
+Na+/Ca+2 exchange mechanism and the Ca 2 ATPase.
+However, it seems unlikely to us that their effect could lead
+to anything but a slightly increased, but steady, value of
+Cai.
+
+The blocking of the inward Ca'2 current in our model
+has a much different effect than the blockage of the inward
+(Na+) current in the Aplysia R- 15 neuron (9, 10). As
+Plant has shown, this leads to a simple slow wave, which
+can be thought of as an oscillation that underlies the
+observed burst pattern. In our model, the inward calcium
+current is absolutely essential to achieving any kind of
+oscillations. Nonetheless, there is a kind of slow-wave
+oscillation that can be generated with our model. It
+requires increasing the capacitance of the membrane from
+1 to 5 ,uF and is shown in Fig. 7. Under these conditions the
+time scale of the action potentials is greatly lengthened; the
+gradual repolarization in the -30 mV region of that figure
+represents a single extended action potential that, by itself,
+is sufficient to increase Ca, and reinstate the calcium-
+regulated potassium channel.
+
+There is another way in which our model can generate a
+slow wave. If the Hodgkin-Huxley potassium conductance,
+gK,HH, is set equal to zero and the Hill coefficient, Q, for Ca
+in Eq. 1 is set equal to 10, a definite slow-wave oscillation is
+observed. On the other hand, if we take Q = 1, as in Figs
+1-4, and set g-K,HH = 0, we find simply a steady depolariza-
+tion of the membrane potential. Because it is doubtful that
+the calcium-activated potassium channel has a Hill coeffi-
+cient as high as 10, our prediction is that a selective
+blockage of gK,HH would lead only to a new steady value of
+the resting potential. Thus a slow wave, while built into our
+model under certain extreme conditions, does not appear to
+be an intrinsic part of the ,B-cell oscillations.
+
+Ours is not the first dynamical model of the ,B-cell.
+
+FIGURE 7 A burst-only type oscillation that occurs when the membrane
+capacitance is increased to 5 MF/cm2; all other parameters are as for Fig.
+I b.
+
+Recently Matthews and O'Conner (22) have proposed a
+model based on the Goldman equation, extended to include
+divalent ions. Their model includes three potassium perme-
+abilities, one of which is directly activated by glucose,
+rather than by calcium, as we have assumed. The Mat-
+thews-O'Conner model is a good deal more complicated
+than ours (some 46 parameters and variables are used) and
+is constructed with operational thresholds for most of the
+important events. For example, termination of the active
+phase is achieved in their model when an assigned thresh-
+old in the voltage is achieved. The similar event in our
+model occurs continuously as calcium reenters the cell and
+gradually increases the conductance, gK,C,a of potassium.
+Two other important differences between the models are
+that Matthews and O'Conner (a) include a changing
+internal concentration of potassium (Ki is constant in our
+minimal model) and (b) assume steady-state kinetics for
+Ca,. Thus Ca, is determined by permeability ratios, instead
+of a kinetic equation, like Eq. 9, that we use. Nonetheless
+the Matthew-O'Conner model is successful in producing
+burst oscillations. The chief advantages of our minimal
+model seem to be its simplicity and its direct connection
+with the Ca+2 activated K+ channel.
+
+Our model needs to be extended to include the moderat-
+ing effect of external calcium. Because large changes in
+
+188
+
+BIOPHYSICAL JOURNAL VOLUME 42
+
+1983
+
+calcium are involved (20, 23, 24), large changes in the
+calcium resting potential occur. This means that a lineari-
+zation around a fixed resting potential, as used in the usual
+Hodgkin-Huxley model, is not appropriate. Furthermore,
+we have determined that the Nernstian dependence of the
+calcium resting potential on Cai/Ca~ is not sufficient to
+reproduce the large effects observed experimentally. Con-
+sequently a dependence of the calcium conductance gCaHH
+on external calcium must be introduced. This can be done
+systematically using the mechanistic theory of irreversible
+thermodynamics (25). Preliminary considerations suggest
+that this modification of the model will lead to agreement
+with experiments on the effect of changes in external Ca+2
+concentration.
+
+The authors wish to thank Professor R. E. Plant for several helpful
+conversations about his work.
+
+Dr. Chay was supported by National Science Foundation grant PCM79-
+22483. Dr. Keizer was supported by Public Health Service grant
+GM30688-01 and National Science Foundation grant CHE 80-09816.
+
+Receivedfor publication 29 September 1982 and infinalform 3 January
+1983.
+
+REFERENCES
+
+1. Atwater, I., C. M. Dawson, A. Scott, G. Eddlestone, E. Rojas. 1980.
+The nature of the oscillatory behavior in electrical activity for
+pancreatic B-cell. In Biochemistry Biophysics of the Pancreatic-
+#-Cell. Georg Thieme Verlag, New York. 100-107.
+
+2. Dean, P. M., E. K. Mathews, and Y. Sakamoto. 1975. Pancreatic
+islet cells: effects of monosaccharides, glycolytic intermediates and
+metabolic inhibitors on membrane potential and electrical activity.
+J. Physiol. (Lond.). 246:459-478.
+
+3. Atwater, I., B. Ribalet, and E. Rojas. 1978. Cyclic changes in
+potential and resistance of the ,8-cell membrane induced by glucose
+(Lond.).
+in islets of Langerhans from mouse. J. Physiol.
+278:117-139.
+
+4. Atwater, I., B. Ribalet, and E. Rojas. 1979. Mouse pancreatic cells:
+tetraethyl blockage of the potassium permeability increase induced
+by depolarization. J. Physiol. (Lond. ). 288:561-574.
+
+5. Atwater, I., C. M. Dawson, B. Ribalet, and E. Rojas. 1979. Potas-
+sium permeability activated by intracellular calcium ion concen-
+(Lond. ). 288:575-
+tration in the pancreatic ,-cell. J. Physiol.
+588.
+
+6. Meissner, H. P., and M. Preissler. 1980. Ionic mechanisms of the
+glucose-induced membrane potential changes in ,-cells. In Bio-
+
+chemistry Biophysics of the Pancreatic-B-Cell. Georg Thieme
+Verlag, New York. 91-99.
+
+7. Hodgkin, A. L., and A. F. Huxley. 1952. A quantitative description
+of membrane current and its application to conduction and excita-
+tion in nerve. J. Physiol. (Lond.). 117:500-544.
+
+8. Lew, V. L., and H. G. Ferreira. 1978. Calcium transport and the
+properties of a calcium-activated potassium channel in red cell
+membranes. Curr. Top. Membr. Transp. 10:217-277.
+
+9. Junge, D., and C. L. Stephens. 1973. Cyclic variation of potassium
+conductance in a burst generating neuron in Aplysia. J. Physiol.
+(Lond. ). 235:155.
+
+10. Levitan, I. B., A. J. Harmar, and W. B. Adams. 1979. Synaptic and
+hormonal modulation of a neuronal oscillator: a search for molecu-
+lar mechanisms. J. Exp. Biol. 81:131-151.
+
+11. Plant, R. E., and M. Kim. 1976. Mathematical description of a
+bursting pacemaker neuron by a modification of the Hodgkin-
+Huxley equations. Biophys. J. 16:227-244.
+
+12. Plant, R. E. 1978. The effects of calcium++ on bursting neurons.
+
+Biophys. J. 21:217-237.
+
+13. Plant, R. E. 1981. Bifurcation and resonance in a model for bursting
+
+nerve cells. J. Math. Biol. 11:15-32.
+
+14. Carafoli, E., and M. Crompton. 1978. The regulation of intracellular
+
+calcium. Curr. Top. Membr. Transp. 10:151-215.
+
+15. Bygrave, F. L. 1978. Mitochondria and the control of intracellular
+
+calcium. Biol. Rev. Cambr. Philos. Soc. 53:43-79.
+
+16. Schatzmann, H. J. 1975. Active calcium transport and the Ca+2-
+activated ATPase in human red cells. Curr. Top. Membr. Transp.
+6:125-168.
+
+17. Blaustein, M. P. 1976. The ins and outs of calcium transport in squid
+axons: internal and external ion activation of calcium efflux. Fed.
+Proc. 35:2574-2578.
+
+18. Ferrerira, H. G., and V. L. Lew. 1976. Use of ionophore A23187 to
+measure cytoplasmic Ca buffering and activation of the Ca pump
+by internal Ca. Nature (Lond. ). 259:47-49.
+
+19. Rinzel, J. 1978. On repetitive activity in nerve. Fed. Proc. 37:2793-
+
+2802.
+
+20. Ribalet, B., and P. M. Beigelman. 1979. Cyclic variation of K+
+conductance in pancreatic a-cells: Ca2+ and voltage dependence.
+Am. J. Physiol. 237:C137-C146.
+
+21. Atwater, I., and H. P. Meissner. 1975. Electronic sodium pump in
+
+fl-cells of islets of Langerhans. J. Physiol. (Lond.). 247:56-58P.
+
+22. Mathews, E. K., and M. D. L. O'Connor. 1979. Dynamic oscillations
+in the membrane potential of pancreatic islet cells. J. Exp. Biol.
+81:75-91.
+
+23. Atwater, I. 1980. Control mechanisms for glucose induced changes in
+the membrane potential of mouse pancreatic B-cell. Cibnc. Biol.
+(Portugal). 5:299-314.
+
+24. Ribalet, B., and P. M. Beigelman. 1980. Calcium action potentials
+and potassium permeability activation in pancreatic B-cells. Am. J.
+Physiol. 239:C124-C133.
+
+25. Keizer, J. 1976. Dissipation and fluctuations in nonequilibrium
+
+thermodynamics. J. Chem. Phys. 64:1679-1687.
+
+CHAY AND KEIZER
+
+Oscillations in the ,-Cell
+
+189
+
+

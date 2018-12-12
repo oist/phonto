@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4946">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neurotransmitter receptors involved in post-training memory processing by the amygdala, medial septum, and hippocampus of the rat.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Amygdala</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Avoidance Learning</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Exploratory Behavior</keyword>
+<keyword>Habituation</keyword>
+<keyword>Psychophysiologic</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Muscimol</keyword>
+<keyword>diagnostic use</keyword>
+<keyword>Neurotransmitter Agents</keyword>
+<keyword>Prostheses and Implants</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Receptors</keyword>
+<keyword>Neurotransmitter</keyword>
+<keyword>Research Design</keyword>
+<keyword>Retention (Psychology)</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>diagnostic use</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:48:29Z</last_update_date>
+<creation_date>2011-05-09T02:48:29Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4946</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4946" version="1.02">
+<authors><author>Izquierdo I</author><author>da Cunha C</author><author>Rosat R</author><author>Jerusalinsky D</author><author>Ferreira MB</author><author>Medina JH</author></authors>
+<journal>Behavioral and neural biology</journal>
+<volume>58</volume>
+<number>1</number>
+<page>16-26</page>
+<abstract>Rats were trained and tested in habituation to a novel environment and step-down inhibitory avoidance. Immediately after training in each task the animals received intra-amygdala, intraseptal, or intrahippocampal micro-injections of agonists and antagonists of various neurotransmitter receptors. In the habitation task, intrahippocampal, but not intra-amygdala or intraseptal administration of the NMDA receptor antagonist aminophosphornopentanoic acid (AP5, 5.0 micrograms) or of the muscarinic receptor antagonist, scopolamine (2.0 micrograms) caused amnesia and the indirect antagonist of GABA-A receptors, picrotoxin (0.08 microgram), caused retrograde facilitation. Intrahippocampal administration of the respective agonists, glutamate, oxotremorine, and muscimol, had effects of their own opposite to those of the blockers, and norepinephrine (0.3 microgram) caused memory facilitation. In the avoidance task, results obtained with drug infusions given into the three structures were very similar: in all cases, AP5, scopolamine, and muscimol were amnestic, and glutamate, oxotremorine, norepinephrine, and picrotoxin caused memory facilitation. In addition, also in the three structures, picrotoxin counteracted the amnestic effect of AP5 and/or scopolamine and the beta-adrenoceptor blocker, timolol (0.3 microgram), while ineffective on its own, attenuated all the effects of picrotoxin. The results suggest that similar synaptic mechanisms in the amygdala, medial septum, and hippocampus are involved in memory consolidation: NMDA, muscarinic, and beta-noradrenergic receptors stimulate and GABA-A receptors inhibit this process, and beta-noradrenergic receptors modulate the GABAergic synapses. In the avoidance task these mechanisms operate in the three structures: in habituation only those in the hippocampus are operative. Possibly in each structure these mechanisms regulate, if not actually consolidate, a different aspect, component, or form of memory.</abstract>
+<pubmed_id>1358054</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,31 @@
+1. Biophys J. 1990 Oct;58(4):985-95.
+
+Domain model for Ca2(+)-inactivation of Ca2+ channels at low channel density.
+
+Sherman A(1), Keizer J, Rinzel J.
+
+Author information: 
+(1)National Institutes of Health, National Institutes of Diabetes and Digestive
+and Kidney Diseases, Mathematical Research Branch, Bethesda, Maryland 20892.
+
+The "shell" model for Ca2(+)-inactivation of Ca2+ channels is based on the
+accumulation of Ca2+ in a macroscopic shell beneath the plasma membrane. The
+shell is filled by Ca2+ entering through open channels, with the elevated Ca2+
+concentration inactivating both open and closed channels at a rate determined by 
+how fast the shell is filled. In cells with low channel density, the high
+concentration Ca2+ "shell" degenerates into a collection of nonoverlapping
+"domains" localized near open channels. These domains form rapidly when channels 
+open and disappear rapidly when channels close. We use this idea to develop a
+"domain" model for Ca2(+)-inactivation of Ca2+ channels. In this model the
+kinetics of formation of an inactivated state resulting from Ca2+ binding to open
+channels determines the inactivation rate, a mechanism identical with that which 
+explains single-channel recordings on rabbit-mesenteric artery Ca2+ channels
+(Huang Y., J. M. Quayle, J. F. Worley, N. B. Standen, and M. T. Nelson. 1989.
+Biophys. J. 56:1023-1028). We show that the model correctly predicts five
+important features of the whole-cell Ca2(+)-inactivation for mouse pancreatic
+beta-cells (Plants, T. D. 1988. J. Physiol. 404:731-747) and that
+Ca2(+)-inactivation has only minor effects on the bursting electrical activity of
+these cells.
+
+PMCID: PMC1281044
+PMID: 2174274  [PubMed - indexed for MEDLINE]

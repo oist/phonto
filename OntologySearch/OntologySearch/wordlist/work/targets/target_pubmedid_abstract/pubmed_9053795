@@ -1,0 +1,49 @@
+1. Neuroscience. 1996 Mar;71(2):397-410.
+
+Modeling N-methyl-D-aspartate-induced bursting in dopamine neurons.
+
+Li YX(1), Bertram R, Rinzel J.
+
+Author information: 
+(1)Mathematical Research Branch, National Institute of Diabetes and Digestive and
+Kidney Diseases, National Institutes of Health, Bethesda, MD 20892, USA.
+
+Burst firing of dopaminergic neurons of the substantia nigra pars compacta can be
+induced in vitro by the glutamate agonist N-methyl-D-aspartate. It has been
+suggested that the interburst hyperpolarization is due to Na+ extrusion by a
+ouabain-sensitive pump [Johnson et al. (1992) Science 258, 665-667]. We formulate
+and explore a theoretical model, with a minimal number of currents, for this
+novel mechanism of burst generation. This minimal model is further developed into
+a more elaborate model based on observations of additional currents and
+hypotheses about their spatial distribution in dopaminergic neurons [Hounsgaard
+(1992) Neuroscience 50, 513-518; Llinás et al. (1984) Brain Res. 294, 127-132].
+Using the minimal model, we confirm that interaction between the regenerative,
+inward N-methyl-D-aspartate-mediated current and the outward Na(+)-pump current
+is sufficient to generate the slow oscillation (approximately 0.5 Hz) underlying 
+the burst. The negative-slope region of the N-methyl-D-aspartate channel's
+current-voltage relation is indispensable for this slow rhythm generation. The
+time-scale of Na(+)-handling determines the burst's slow frequency. Moreover, we 
+show that, given the constraints of sodium handling, such bursting is best
+explained mechanistically by using at least two spatial, cable-like compartments:
+a soma where action potentials are produced and a dendritic compartment where the
+slow rhythm is generated. Our result is consistent with recent experimental
+evidence that burst generation originates in distal dendrites [Seutin et al.
+(1994) Neuroscience 58, 201-206]. Responses of the model to a number of
+electrophysiological and pharmacological stimuli are consistent with known
+responses observed under similar conditions. These include the persistence of the
+slow rhythm when the tetrodotoxin-sensitive Na+ channel is blocked and when the
+soma is voltage-clamped at -60 mV. Using our more elaborate model, we account for
+details of the observed frequency adaptation in N-methyl-D-aspartate-induced
+bursting, the origin of multiple spiking and bursting mechanisms, and the
+interaction between two different bursting mechanisms. Besides reproducing
+several well established firing patterns, this model also suggests that new
+firing modes, not yet recorded, might also occur in dopaminergic neurons. This
+model provides mechanistic insights and explanations into the origin of a variety
+of experimentally observed membrane potential firing patterns in dopaminergic
+neurons, including N-methyl-D-aspartate-induced bursting and its dendritic
+origin. Such a model, capable of reproducing a number of realistic behaviors of
+dopaminergic neurons, could be useful in further studies of the basal
+ganglia-thalamocortical motor circuit. It may also shed light on bursting that
+involves N-methyl-D-aspartate channel activity in other neuron types.
+
+PMID: 9053795  [PubMed - indexed for MEDLINE]

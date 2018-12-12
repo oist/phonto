@@ -1,0 +1,25 @@
+1. J Comput Neurosci. 2005 Jun;18(3):255-63.
+
+Coexistence of tonic spiking oscillations in a leech neuron model.
+
+Cymbalyuk G(1), Shilnikov A.
+
+Author information: 
+(1)Department of Physics and Astronomy, Georgia State University, Atlanta, GA
+30303, USA. gcym@phy-astr.gsu.edu
+
+The leech neuron model studied here has a remarkable dynamical plasticity. It
+exhibits a wide range of activities including various types of tonic spiking and 
+bursting. In this study we apply methods of the qualitative theory of dynamical
+systems and the bifurcation theory to analyze the dynamics of the leech neuron
+model with emphasis on tonic spiking regimes. We show that the model can
+demonstrate bi-stability, such that two modes of tonic spiking coexist. Under a
+certain parameter regime, both tonic spiking modes are represented by the
+periodic attractors. As a bifurcation parameter is varied, one of the attractors 
+becomes chaotic through a cascade of period-doubling bifurcations, while the
+other remains periodic. Thus, the system can demonstrate co-existence of a
+periodic tonic spiking with either periodic or chaotic tonic spiking.
+Pontryagin's averaging technique is used to locate the periodic orbits in the
+phase space.
+
+PMID: 15830162  [PubMed - indexed for MEDLINE]

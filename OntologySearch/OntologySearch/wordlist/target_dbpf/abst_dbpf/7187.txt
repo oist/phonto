@@ -1,0 +1,28 @@
+Animals
+Brain
+metabolism
+CA1 Region
+Hippocampal
+physiology
+Electrophysiology
+Excitatory Postsynaptic Potentials
+physiology
+Hippocampus
+metabolism
+Long-Term Potentiation
+physiology
+Male
+Membrane Potentials
+physiology
+Neural Inhibition
+physiology
+Neuronal Plasticity
+physiology
+Rats
+Rats
+Sprague-Dawley
+Receptors
+N-Methyl-D-Aspartate
+metabolism
+Synaptic Transmission
+The hippocampus plays a central role in memory formation in the mammalian brain. Its ability to encode information is thought to depend on the plasticity of synaptic connections between neurons. In the pyramidal neurons constituting the primary hippocampal output to the cortex, located in area CA1, firing of presynaptic CA3 pyramidal neurons produces monosynaptic excitatory postsynaptic potentials (EPSPs) followed rapidly by feedforward (disynaptic) inhibitory postsynaptic potentials (IPSPs). Long-term potentiation (LTP) of the monosynaptic glutamatergic inputs has become the leading model of synaptic plasticity, in part due to its dependence on NMDA receptors (NMDARs), required for spatial and temporal learning in intact animals. Using whole-cell recording in hippocampal slices from adult rats, we find that the efficacy of synaptic transmission from CA3 to CA1 can be enhanced without the induction of classic LTP at the glutamatergic inputs. Taking care not to directly stimulate inhibitory fibers, we show that the induction of GABAergic plasticity at feedforward inhibitory inputs results in the reduced shunting of excitatory currents, producing a long-term increase in the amplitude of Schaffer collateral-mediated postsynaptic potentials. Like classic LTP, disinhibition-mediated LTP requires NMDAR activation, suggesting a role in types of learning and memory attributed primarily to the former and raising the possibility of a previously unrecognized target for therapeutic intervention in disorders linked to memory deficits, as well as a potentially overlooked site of LTP expression in other areas of the brain.

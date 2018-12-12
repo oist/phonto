@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7481">
+<itemtype>xnppaper</itemtype>
+<titles><title>Trace feature map: a model of episodic associative memory.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Association Learning</keyword>
+<keyword>Computer Simulation</keyword>
+<keyword>Cybernetics</keyword>
+<keyword>Humans</keyword>
+<keyword>Mathematics</keyword>
+<keyword>Memory</keyword>
+<keyword>Models</keyword>
+<keyword>Psychological</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-27T08:33:52Z</last_update_date>
+<creation_date>2013-03-27T08:33:52Z</creation_date>
+<publication_year>1992</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7481</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7481" version="1.02">
+<authors><author>Miikkulainen R</author></authors>
+<journal>Biological cybernetics</journal>
+<volume>66</volume>
+<number>3</number>
+<page>273-82</page>
+<abstract>An approach to episodic associative memory is presented, which has several desirable properties as a human memory model. The design is based on topological feature map representation of data. An ordinary feature map is a classifier, mapping an input vector onto a topologically meaningful location on the map. A trace feature map, in addition, creates a memory trace on that location. The traces can be stored episodically in a single presentation, and retrieved with a partial cue. Nearby traces overlap, which results in plausible memory interference behavior. Performance degrades gracefully as the memory is overloaded. More recent traces are easier to recall as are traces that are unique in the memory.</abstract>
+<pubmed_id>1540678</pubmed_id>
+</detail>
+</item>

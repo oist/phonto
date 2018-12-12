@@ -1,0 +1,27 @@
+Animals
+Association
+Behavior
+Animal
+physiology
+Choice Behavior
+physiology
+Hippocampus
+physiology
+Memory
+physiology
+Memory
+Short-Term
+physiology
+Nerve Net
+physiology
+Odors
+Rats
+Rats
+Long-Evans
+Recognition (Psychology)
+physiology
+Smell
+physiology
+Stimulation
+Chemical
+Recent models of hippocampal function emphasize the potential role of this brain structure in encoding and retrieving sequences of events that compose episodic memories. Here we show that hippocampal lesions produce a severe and selective impairment in the capacity of rats to remember the sequential ordering of a series of odors, despite an intact capacity to recognize odors that recently occurred. These findings support the hypothesis that hippocampal networks mediate associations between sequential events that constitute elements of an episodic memory.

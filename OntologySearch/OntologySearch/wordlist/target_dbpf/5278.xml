@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5278">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal lesion delays the acquisition of egocentric spatial memory in chicks.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Chickens</keyword>
+<keyword>physiology</keyword>
+<keyword>Color Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Operant</keyword>
+<keyword>physiology</keyword>
+<keyword>Cues</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Reward</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-03T02:33:06Z</last_update_date>
+<creation_date>2011-06-03T02:33:06Z</creation_date>
+<publication_year>2003</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5278</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5278" version="1.02">
+<authors><author>Nakajima S</author><author>Izawa E</author><author>Matsushima T</author></authors>
+<journal>Neuroreport</journal>
+<volume>14</volume>
+<number>11</number>
+<page>1475-80</page>
+<abstract>Effects of bilateral chemical lesion of the hippocampus was examined in 1- to 2-week-old domestic chicks. Chicks were trained and tested in an egocentric spatial task, in which subject chicks should memorize location of a rewarding object in reference to the subject&#039;s viewpoint. Two beads were simultaneously presented on a wall, and chicks pecked at one of them based on relative location (left-right or above-below) to gain a reward. Comparison of training curves revealed that the lesion significantly delayed, but did not impair, the acquisition. Recall of the spatial cue, as well as conditioning with color cues, was not impaired. Hippocampus could thus be involved in memory formation of spatial relationships between nearby objects.</abstract>
+<pubmed_id>12960767</pubmed_id>
+</detail>
+</item>

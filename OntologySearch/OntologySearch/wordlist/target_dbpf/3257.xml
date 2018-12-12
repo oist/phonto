@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3257">
+<itemtype>xnppaper</itemtype>
+<titles><title>Acute and chronic nicotine exposure reverse age-related declines in the induction of long-term potentiation in the rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-03-11T08:03:23Z</last_update_date>
+<creation_date>2010-03-11T08:03:23Z</creation_date>
+<publication_year>2001</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3257</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3257" version="1.02">
+<authors><author>Fujii S</author><author>Sumikawa K</author></authors>
+<journal>Brain research</journal>
+<volume>894</volume>
+<number>2</number>
+<page>347-53</page>
+<abstract>Long-term potentiation (LTP) is widely considered to be the cellular substrate of learning and memory. The induction of LTP becomes more difficult with age in parallel with declining learning and memory ability. Because nicotine improves learning and memory in aged rats, we examined the effects of acute and chronic nicotine exposure on age-related declines in LTP induction. We found that acute nicotine exposure lowered the threshold for LTP induction in the aging hippocampus. The effect of nicotine was mimicked by the alpha7 nicotinic acetylcholine receptor (nAChR) antagonist methyllycaconitine and blocked by the non-alpha7 nAChR antagonist dihydro-beta-erythroidine, suggesting that both nicotine-mediated desensitization of alpha7 nAChRs and activation of non-alpha7 nAChRs contribute to the nicotine effect. The non-alpha7 nAChR agonist A85380 that facilitates the induction of LTP in the young hippocampus had no effect, however, suggesting that at least one pathway involving non-alpha7 nAChRs was altered by aging. Chronic nicotine treatment of aged rats also lowered the threshold for LTP induction and acute nicotine exposure lowered the threshold further in the chronic-nicotine-treated aged hippocampus. These results not only suggest that the mechanisms mediated by acute and chronic nicotine exposure are different, but also demonstrate that age-associated declines in LTP induction can be reversed with nicotine treatment.</abstract>
+<pubmed_id>11251214</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1020">
+<itemtype>xnppaper</itemtype>
+<titles><title>Induction of synaptic potentiation in hippocampus by patterned stimulation involves two events.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-22T06:25:48Z</last_update_date>
+<creation_date>2008-07-22T06:25:48Z</creation_date>
+<publication_year>1986</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1020</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1020" version="1.02">
+<authors><author>Larson J</author><author>Lynch G</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>232</volume>
+<number>4753</number>
+<page>985-8</page>
+<abstract>Electrical stimulation of axons in the hippocampus with short high-frequency bursts that resemble in vivo activity patterns produces stable potentiation of postsynaptic responses when the bursts occur at intervals of 200 milliseconds but not 2 seconds. When a burst was applied to one input and a second burst applied to a different input to the same target neuron 200 milliseconds later, only the synapses activated by the second burst showed stable potentiation. This effect was observed even when the two inputs innervated completely different regions of the postsynaptic cells; but did not occur when the inputs were stimulated simultaneously or when the second burst was delayed by 2 seconds. Intracellular recordings indicated that the first burst extended the decay phase of excitatory postsynaptic potentials evoked 200 milliseconds later. These results suggest that a single burst of axonal stimulation produces a transient, spatially diffuse &quot;priming&quot; effect that prolongs responses to subsequent bursts, and that these altered responses trigger spatially restricted synaptic modifications. The similarity of the temporal parameters of the priming effect and the theta rhythm that dominates the hippocampal electroencephalogram (EEG) during learning episodes suggests that this priming may be involved in behaviorally induced synaptic plasticity.</abstract>
+<pubmed_id>3704635</pubmed_id>
+</detail>
+</item>

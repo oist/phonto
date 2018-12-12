@@ -1,0 +1,469 @@
+
+{% extends "site/base.tpl.html" %}
+
+{%load static %}
+
+{% load i18n %}
+
+{% block extrajs %}
+{% endblock %} {# end of extrajs block #}
+
+{% block handstyle %}
+<style type="text/css">
+<!--
+textarea , #newmodelid ,#newmodelname{
+	width:98%;
+}
+
+/* css for each class */
+.pagetitle{
+	font-size:16px;
+	font-weight:bold;
+	padding-left:10px;
+	height:24px;
+}
+.title , .resulttitle{
+	font-size:14px;
+	margin-bottom:4px;
+}
+
+/* draggable */
+.draggableframe{
+	width:60%;
+	height;60%;
+	position:absolute;
+	background-color:white;
+	padding:0;
+	border:1px solid #999999;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+}
+.draggableheader{
+	padding:10px;
+	background: #447791;
+	color:white;
+}
+.draggableclosebtn{
+}
+.draggableclosebtn:hover{
+	cursor:pointer;
+	font-weight:bold;
+}
+.draggableheadercaption{
+	font-family:;
+}
+.draggablebody{
+	padding:10px;
+}
+/* draggable end */
+.csvedit{
+	width:47%;
+}
+/**/
+.modeldlg_modelcap{
+	width:50px;
+}
+.dialogs{
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+.delkeywordbtn ,.delmodelbtn{
+	cursor:pointer;
+}
+.delkeywordbtn:hover ,.delmodelbtn:hover{
+	font-weight:bold;
+}
+.modeldlgrow{
+	height:22px;
+}
+/* */
+#url_tempate{
+	width:70%;
+	min-width:400px;
+}
+/* data table */
+#whole {
+	margin-top:15px;
+	height:470px;
+}
+#whole table , #keywordstbl table {
+	font-size: 12px;
+	border-collapse: separate;
+	border-spacing: 0px 1px;
+}
+#whole table thead , #keywordstbl thead{
+	padding: 12px;
+	vertical-align: middle;
+	text-align: left;
+	border-bottom: #999 1px solid;
+	color: #fff;
+	background: #447791;
+}
+#whole table td ,#keywordstbl td{
+	padding: 12px;
+	vertical-align: middle;
+	text-align: left;
+	border-bottom: #999 1px solid;
+	border-left: #ddd 1px solid;
+	font-size: 11px;
+}
+#pooledmodeltbody tr{
+	cursor:pointer
+}
+#pooledmodeltbody tr.even , #keywordtbody tr.even{
+	background-color:#f5f5f5;
+}
+/* data table end */
+
+/* model update dialog */
+#modeldlg{
+	min-width:710px;
+}
+#modeldlg .draggablebody{
+	height:460px;
+}
+#modeldlg .dlgfooter{
+	position:absolute;
+	bottom:0px;
+	width:97%;
+	padding-bottom:10px;
+}
+#modeldlg .dlgkeyfooter{
+	position:absolute;
+	bottom:0px;
+	width:97%;
+	padding-bottom:5px;
+}
+#keywordstbl{
+	height:375px;
+}
+#keywordtableparent{
+	height:292px;
+	margin-top:5px;
+}
+#modeldlg_txtname{
+	width:260px;
+}
+#newkeyword{
+	width:210px;
+}
+#modeldlg_txtid{
+	margin-top:-2px;
+}
+
+/* file input pretend */
+#lbl_file_article{
+	margin-bottom:5px;
+}
+/* model update dialog end */
+
+
+/* mask screen */
+#maskdiv{
+	position:absolute;
+	top:0px;
+	z-index:99999;
+	width:100%;
+	height:100%;
+	background:rgba(200,200,200,0.5);
+	cursor:wait;
+}
+#maskdiv .laodingcaption{
+	position:absolute;
+	font-size:16px;
+	top:50%;
+	width:100%;
+	margin-top:8px;
+	padding:auto;
+	text-align:center;
+
+}
+-->
+</style>
+{% endblock %}{# end of handstyle block #}
+
+{% block handscript %}
+<script type="text/javascript" src="{% static 'js/DataTables-1.10.5/media/js/jquery.dataTables.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/md5/md5.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/sampleadmin.js' %}"></script>
+<script type="text/javascript">
+<!--
+	var myhost = "{{myhost}}";
+	var authval = {};
+	var defaulttoken = '{{ csrf_token }}';
+	var defaultArticleDevHtml;
+	var usr_token = "{{token}}";
+
+	$(document).ready(function(){
+		// initialize
+		$.ajaxSetup( {data: {
+		    csrfmiddlewaretoken: defaulttoken
+		}});
+
+		defaultArticleDevHtml = $("#articlediv").html();
+
+		$(".authview").hide();
+
+		titleDraggable(".draggableframe");
+		$(".draggableframe").hide();
+
+		//datatable
+		sampleadmin.initTable();
+
+		//target db list
+		request({
+			 "url"     :"apps/getdblist"
+			,"complete":function(msg){
+				sampleadmin.setdblist(msg);
+			 }
+		});
+
+		// alert
+		$("#alertdialog").dialog({"autoOpen":false});
+
+		// BUTTON
+		pretendButtons();
+
+		// autocomplete
+		$("#newkeyword").autocomplete({
+			source: function(req, resp){
+				$.ajax({
+				    url: "/apps/synonymcomplete",
+				    type: "POST",
+				    cache: false,
+				    dataType: "json",
+				    data: {
+				      param1: req.term,
+				      query:$("#newkeyword").val(),
+				      limit:10
+				    },
+				    success: function(o){
+						if(o && o.payload && o.payload.result){
+							resp(o.payload.result);
+						}else{
+							resp(['']);
+						}
+				    },
+				    error: function(xhr, ts, err){
+				    	resp(['']);
+				    }
+				  });
+
+			}
+		});
+
+	});
+
+	function showdiv(id){
+		$("#" + id).show();
+	}
+	function hidediv(id){
+		$("#" + id).hide();
+	}
+
+	function test_gettoken(){
+		sampleadmin.gettoken();
+	}
+//-->
+</script>
+{% endblock %} {# end of handscript block #}
+
+{% block header %}
+<div id="maskdiv" style="display:none;">
+<div class="laodingcaption">
+Now Loading...
+</div>
+</div>
+<div>
+	<div class="pagetitle">Administrator sample</div>
+</div>
+{% endblock %} {# end of header block #}
+
+
+{% block content %}
+<div style="padding:10px;" id="tabs">
+	<div class="title"><span style="font-size:14px;"><b>Auth</b></span></div>
+	<div class="padleft10">
+		<table id="usertable" class="authinput">
+			<tbody>
+				<tr>
+					<td>User name</td>
+					<td>&nbsp;</td>
+					<td><input type="text" id="username" value="{{username}}"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td>&nbsp;</td>
+					<td><input type="password" id="userpass" value="{{userpass}}"><div class="authview">*****</div></td>
+				</tr>
+				<tr>
+					<td>Target DB</td>
+					<td>&nbsp;</td>
+					<td>
+					<select  class="authinput" id="targetdb" name="targetdb" size="1">
+					</select>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="authview">
+			<tbody>
+				<tr>
+					<td>User name : </td>
+					<td><div id="usernameview"></div></td>
+					<td>&nbsp;</td>
+					<td>Target DB :</td>
+					<td><div id="targetdbview" class="authview"></div></td>
+					<td>&nbsp;</td>
+					<td><button class="authview pretend_btn" onclick="sampleadmin.reset();">Reset</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="padleft5 padtop5">
+		<button class="authinput pretend_btn" onclick="test_gettoken();">Connect</button>
+	</div>
+	<div id="testres"></div>
+
+	<hr>
+	<b>URL template</b>
+	<div class="padleft5 padtop5">
+		<div class="floatleft">
+			<input type="text" id="url_tempate">
+		</div>
+		<div class="magtop2 floatleft">
+			&nbsp;* "{0}"=Identifier
+		</div>
+		<div class="clearboth"></div>
+		<div class="magtop5">
+			<button  class="authinput" disabled>Update template</button>
+			<button  class="authview pretend_btn" onclick="sampleadmin.updateDBInfo();">Update template</button>
+		</div>
+	</div>
+
+	<hr>
+	<b>Model-Keyword list</b>
+	<div class="padleft5 padtop5">
+		<div id="whole">
+			<table id="pooledmodeltable" class="display"><thead>
+				<tr>
+					<td id="headmodelid">Identifier</td>
+					<td id="headmodelname">Model Name</td>
+					<td>Keyword</td>
+					<td></td>
+				</tr>
+			</thead><tbody id="pooledmodeltbody">
+			</tbody></table>
+		</div>
+		<hr>
+		<div>
+		<button  class="authinput" disabled>Create new model</button>
+			<button id="createbtn" class="authview pretend_btn" onclick="sampleadmin.create();">Create new model</button>
+		</div>
+	</div>
+	<hr>
+	<b>CSV Management</b>
+	<div>
+		<button  class="authinput" disabled>Edit all models & all keywords as csv </button>
+		<button  class="authview pretend_btn" onclick="sampleadmin.openCsvDlg();">Edit all models & all keywords as csv </button>
+	</div>
+</div>
+
+<!-- dialogs -->
+<div class="dialogs">
+	<!-- csv edit dialog -->
+	<div id="modelcsv" class="draggableframe">
+		<div class="draggableheader titledraggableheader">
+			<div class="floatleft draggableheadercaption">Edit CSV</div>
+			<div class="floatright draggableclosebtn titledraggablecloser" onclick="hidediv('modelcsv');">X</div>
+			<div class="clearboth"></div>
+		</div>
+		<div class="draggablebody">
+			<div class="floatleft csvedit">
+				<span>Model csv (ModelID , ModelName)</span>
+				<div id="models"><textarea id="modelarea" rows="12"></textarea></div>
+			</div>
+			<div class="floatright csvedit">
+				<span>Keyword csv (ModelID , Keyword)</span>
+				<div id="keywords"><textarea id="keywordarea" rows="12"></textarea></div>
+			</div>
+			<div class="clearboth"></div>
+			<button class="pretend_btn" onclick="sampleadmin.updatemodels();">Update</button>
+		</div>
+	</div>
+
+	<!-- model edit dialog -->
+	<div id="modeldlg" class="draggableframe">
+		<div class="draggableheader titledraggableheader">
+			<div class="floatleft draggableheadercaption">Edit model</div>
+			<div class="floatright draggableclosebtn titledraggablecloser">X</div>
+			<div class="clearboth"></div>
+		</div>
+		<div class="draggablebody">
+			<div class="floatleft csvedit">
+				<b>Model Info</b>
+				<div class="padleft5 padtop5 magtop10">
+					<div class="floatleft modeldlg_modelcap modeldlgrow">ID<span class="red new_model">*</span></div>
+					<div id="modeldlg_id" class="floatleft modeldlgrow mod_model"></div>
+					<div id="newmodel_id" class="floatleft modeldlgrow new_model">
+						<input type="text" id="modeldlg_txtid" onKeyUp="sampleadmin.validateUpmodel();" onChange="sampleadmin.validateUpmodel();">
+					</div>
+					<div class="clearboth"></div>
+					<div class="floatleft modeldlg_modelcap modeldlgrow magtop5">Name<span class="red">*</span></div>
+					<div id="modeldlg_name" class="floatleft modeldlgrow">
+						<input type="text" id="modeldlg_txtname" onKeyUp="sampleadmin.validateUpmodel();" onChange="sampleadmin.validateUpmodel();">
+					</div>
+					<div class="clearboth"></div>
+					<br>
+					<div><span class="red">* required field</span></div>
+				</div>
+			</div>
+			<div id="keywordstbl" class="floatright csvedit">
+				<b>Keywords</b>
+				<div class="padleft5">
+					<div style="display:none;"><textarea id="modeldlg_keywordarea" rows="12"></textarea></div><!-- hidden -->
+					<div id="keywordtableparent">
+						<table id="keywordtable" class="display"><thead>
+							<tr>
+								<td>Keyword</td>
+								<td></td>
+							</tr>
+						</thead><tbody id="keywordtbody">
+						</tbody></table>
+					</div>
+					<hr>
+					<div>
+						<div class="floatleft"><input type="text" id="newkeyword"></div>
+						<div class="floatright"><button class="pretend_btn" onclick="sampleadmin.addKeyword();">add keyword</button></div>
+						<div class="clearboth"></div>
+					</div>
+					<hr>
+					<div id="articlediv">
+						<div>
+							<label id="lbl_file_article" class="pretend_btn">
+								<input type="file" id="file_article" name="file_article"  style="display:none;" onchange="sampleadmin.articleOnChange(event);">
+								add keyword by article pdf
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearboth"></div>
+			<div class="dlgfooter">
+				<hr>
+				<button id="modeldlg_upmodel" onclick="sampleadmin.updatemodel();" class="floatright pretend_btn">Update this model & keywords</button>
+				<div class="clearboth"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div style="display:none;">
+	<div id="alertdialog">
+		<span id="alertmsg"></span>
+	</div>
+</div>
+<!-- dialogs end -->
+{% endblock %} {# end of content block #}
+
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6362">
+<itemtype>xnpconference</itemtype>
+<titles><title>Non-linearities in the rat hippocampus dentate granule cell</title>
+</titles>
+<contributor uname='aiharat'>[en]Takeshi Aihara[/en][ja]相原 威[/ja](aiharat)</contributor>
+<keywords><keyword>B01G2</keyword>
+</keywords>
+<description>国内学会
+poster
+一般</description>
+<doi></doi>
+<last_update_date>2012-05-01T04:20:17Z</last_update_date>
+<creation_date>2012-04-26T17:57:44Z</creation_date>
+<publication_year>2012</publication_year>
+<publication_month>3</publication_month>
+<publication_mday>29</publication_mday>
+<lang>jpn</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6362</url>
+<changelogs>
+<changelog date='2012-05-01T04:20:17Z'>アイテムの説明, インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6362" version="1.02">
+<conference_from_year>2012</conference_from_year>
+<conference_from_month>3</conference_from_month>
+<conference_from_mday>29</conference_from_mday>
+<conference_to_year>2012</conference_to_year>
+<conference_to_month>3</conference_to_month>
+<conference_to_mday>31</conference_to_mday>
+<presentation_type>other</presentation_type>
+<conference_title>第89回 日本生理学会大会</conference_title>
+<place>松本</place>
+<authors><author>上條 中庸</author><author>海江田 岳</author><author>早川 博章</author><author>福島 康弘</author><author>窪田 芳之</author><author>相原 威</author></authors>
+<abstract></abstract>
+<attachment_dl_limit>0</attachment_dl_limit>
+<attachment_dl_notify>0</attachment_dl_notify>
+</detail>
+</item>

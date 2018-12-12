@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6616">
+<itemtype>xnppaper</itemtype>
+<titles><title>fMRI activity in the medial temporal lobe during famous face processing.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Face</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Sex Characteristics</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Visual Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:17:08Z</last_update_date>
+<creation_date>2013-02-26T06:17:08Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6616</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6616" version="1.02">
+<authors><author>Elfgren C</author><author>van Westen D</author><author>Passant U</author><author>Larsson EM</author><author>Mannfolk P</author><author>Fransson P</author></authors>
+<journal>NeuroImage</journal>
+<volume>30</volume>
+<number>2</number>
+<page>609-16</page>
+<abstract>The current event-related fMRI study examined the relative involvement of different parts of the medial temporal lobe (MTL), particularly the contribution of hippocampus and perirhinal cortex, in either intentional or incidental recognition of famous faces in contrast to unfamiliar faces. Our intention was to further explore the controversial contribution of MTL in the processing of semantic memory tasks. Subjects viewed a sequence of famous and unfamiliar faces. Two tasks were used encouraging attention to either fame or gender. In the fame task, the subjects were requested to identify the person when seeing his/her face and also to try to generate the name of this person. In the gender task, the subjects were asked to conduct a judgement of a person&#039;s gender when seeing his/her face. The visual processing was hence directed to gender and thereby expected to diminish attention to semantic information leading only to a&quot;passive&quot;registration of famous and non-familiar faces. Recognition of famous faces, in both contrasts, produced significant activations in the MTL. First, during the intentional recognition (the person identification task) increased activity was observed in the anterolateral part of left hippocampus, in proximity to amygdala. Second, during the incidental recognition of famous faces (the gender classification task), there was increased activity in the left posterior MTL with focus in the perirhinal cortex. Our results suggest that the hippocampus may be centrally involved in the intentional retrieval of semantic memories while the perirhinal cortex is associated with the incidental recognition of semantic information.</abstract>
+<pubmed_id>16275141</pubmed_id>
+</detail>
+</item>

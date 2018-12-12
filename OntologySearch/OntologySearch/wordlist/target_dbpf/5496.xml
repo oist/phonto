@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5496">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal synaptic plasticity and NMDA receptors: a role in information storage?</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>Memory</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Models</keyword>
+<keyword>Psychological</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:28:20Z</last_update_date>
+<creation_date>2011-06-14T00:28:20Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5496</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5496" version="1.02">
+<authors><author>Morris RG</author><author>Davis S</author><author>Butcher SP</author></authors>
+<journal>Philosophical transactions of the Royal Society of London. Series B, Biological sciences</journal>
+<volume>329</volume>
+<number>1253</number>
+<page>187-204</page>
+<abstract>There has recently been renewed interest in the idea that alterations in synaptic efficacy may be the neural basis of information storage. Particular attention has been focused upon long-term potentiation (LTP), a long-lasting, but experimentally induced synaptic change whose physiological properties point to it being a candidate memory mechanism. However, considerations of storage capacity and the possibility of concomitant activity-dependent synaptic depression make it unlikely that individual learning experiences will give rise to gross changes in field potentials similar to those that occur in LTP, even if learning and LTP utilize common neural mechanisms. One way of investigating the functional significance of LTP is to use selective antagonists of those excitatory amino acid receptors whose activation is essential for its induction. This paper discusses various design requirements for such experiments and reviews work indicating that the N-methyl-D-aspartate receptor antagonist AP5 causes a behaviourally selective learning impairment having certain common features to the behavioural profile seen after hippocampal lesions. Two new studies are described whose results show that AP5 has no effect upon the retrieval of previously established memories, and that the dose-response profile of the impairment of spatial learning occurs across a range of extracellular concentrations in hippocampus for which receptor selectivity exists. These experiments show that activation of NMDA receptors is essential for certain kinds of learning.</abstract>
+<pubmed_id>1978364</pubmed_id>
+</detail>
+</item>

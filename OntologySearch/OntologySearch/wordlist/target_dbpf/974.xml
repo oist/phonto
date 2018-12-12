@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="974">
+<itemtype>xnppaper</itemtype>
+<titles><title>Complete axon arborization of a single CA3 pyramidal cell in the rat hippocampus, and its relationship with postsynaptic parvalbumin-containing interneurons.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-22T03:41:46Z</last_update_date>
+<creation_date>2008-07-22T03:41:46Z</creation_date>
+<publication_year>1993</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=974</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="974" version="1.02">
+<authors><author>Sik A</author><author>Tamamaki N</author><author>Freund TF</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>5</volume>
+<number>12</number>
+<page>1719-28</page>
+<abstract>The complete axon arborization of a single CA3 pyramidal cell has been reconstructed from 32 (60 microns thick) sections from the rat hippocampus following in vivo intracellular injection of neurobiotin. The same sections were double-immunostained for parvalbumin--a calcium-binding protein selectively present in two types of GABAergic interneurons, the basket and chandelier cells--in order to map boutons of the pyramidal cell in contact with dendrites and somata of these specific subsets of interneurons visualized in a Golgi-like manner. The axon of the pyramidal cell formed 15,295 boutons, 63.8% of which were in stratum oriens, 15.4% in stratum pyramidale and 20.8% in stratum radiatum. Only 2.1% of the axon terminals contacted parvalbumin-positive neurons. Most of these were single contacts (84.7%), but double or triple contacts (15.3%) were also found. The majority of the boutons terminated on dendrites (84.1%) of parvalbumin-positive cells, less frequently on cell bodies (15.9%). In order to estimate the proportion of contacts representing synapses, 16 light microscopically identified contacts between boutons of the filled pyramidal cell axon and the parvalbumin-positive targets were examined by correlated electron microscopy. Thirteen of them were found to be asymmetrical synapses, and in the remaining three cases synapses between the labelled profiles could not be confirmed. We conclude that the physiologically effective excitatory connections between single pyramidal cells and postsynaptic inhibitory neurons are mediated by a small number of contacts, mostly by a single synapse. This results in a high degree of convergence and divergence in hippocampal networks.</abstract>
+<pubmed_id>8124522</pubmed_id>
+</detail>
+</item>

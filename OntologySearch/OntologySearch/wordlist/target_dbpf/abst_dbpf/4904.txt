@@ -1,0 +1,20 @@
+Animals
+Atropine
+pharmacology
+Brain
+drug effects
+physiology
+Electroencephalography
+Feedback
+Hippocampus
+physiology
+Male
+Neurons
+drug effects
+physiology
+Rats
+Rats
+Inbred Strains
+Reference Values
+Theta Rhythm
+1. Previous findings, such as the sensitivity of the hippocampal theta rhythm to cholinergic manipulation, support a "pacemaker" role for the cholinergic cells of the medial septal nucleus and the vertical limb of the nucleus of the diagonal band (MSN-NDB). To explore the mechanism(s) of action of systemic antimuscarinic drugs in eliminating the theta rhythm, recordings of hippocampal EEG and rhythmic MSN-NDB neurons that fired in phase with the hippocampal theta rhythm were taken during the administration of atropine in urethane-anesthetized rats. 2. Twenty-two of 33 rhythmic MSN-NDB cells continued to burst at the theta rhythm frequency after administration of a dose of atropine (25 mg/kg iv) that was sufficient to eliminate the theta rhythm (atropine-resistant cells). The remaining 11 cells lost their rhythmic firing pattern over the same time course as the loss of the theta rhythm (atropine-sensitive cells). 3. Both types of rhythmic MSN-NDB cells could be antidromically driven from the fimbria/fornix with similar latencies (range, 0.5-4.0 ms). The extracellularly recorded spike waveforms were not useful in predicting the atropine sensitivity of a given cell. Atropine-resistant cells frequently had higher firing rates than atropine-sensitive cells, but there was sufficient overlap of the two groups to make this a poor predictor of sensitivity. 4. Cooling the fimbria/fornix reversibly eliminated the hippocampal theta rhythm, but had no effect on 21/25 rhythmic MSN-NDB cells tested. This indicates that the atropine-sensitive MSN-NDB cells do not depend on the periodic output from the hippocampus for their rhythmic firing. Recordings from pairs of rhythmic MSN-NDB cells during cooling and/or atropine administration showed unchanged phase relations at the theta rhythm frequency. In rats in which the septohippocampal system was exposed by aspirating the overlying brain tissue, direct application of atropine (10 mg/ml) to the septal nuclei reversibly eliminated the hippocampal theta rhythm. 5. The rhythmic cells of the MSN-NDB are apparently composed of at least two distinct types, both of which potentially contribute to the production of the theta rhythm in the hippocampus. Elimination of hippocampal theta rhythm after local septal atropine application suggests that the loss of rhythmic activity in the group of atropine-sensitive septal cells is sufficient for the elimination of the theta rhythm. A model of the septohippocampal connections necessary for the theta rhythm is presented.

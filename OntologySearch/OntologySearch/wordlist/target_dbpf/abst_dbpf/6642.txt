@@ -1,0 +1,19 @@
+Adult
+Association Learning
+physiology
+Brain Mapping
+methods
+Exploratory Behavior
+physiology
+Female
+Hippocampus
+physiology
+Humans
+Male
+Photic Stimulation
+methods
+Reaction Time
+physiology
+Recognition (Psychology)
+physiology
+The hippocampus has long been proposed to play a critical role in novelty detection through its ability to act as a comparator between past and present experience. A recent study provided evidence for this hypothesis by characterizing hippocampal responses to sequence novelty, a type of associative novelty where familiar items appear in a new temporal order. Here, we ask whether a hippocampal match-mismatch (i.e., comparator) mechanism operates selectively to identify the violation of predictions within the temporal domain or instead also underlies the processing of associative novelty in other domains (e.g., spatial). We used functional magnetic resonance imaging and a repetition paradigm in which subjects viewed sequences of objects presented in distinct locations on the screen and performed an incidental target detection task. The left hippocampus exhibited a pattern of activity consistent with that of an associative match-mismatch detector, with novelty signals generated only in conditions where one contextual component was novel and the other repeated. In contrast, right hippocampal activation signaled the presence of objects in familiar locations. Our results suggest that hippocampal match-mismatch computations constitute a general mechanism underpinning the processing of associative novelty. These findings support a model in which hippocampal mismatch signals rely critically on the recall of previous experience, a process that only occurs when novel sensory inputs overlap significantly with stored representations. More generally, the current study also offers insights into how the hippocampus automatically represents the spatiotemporal context of our experiences, a function that may relate to its role in episodic memory.

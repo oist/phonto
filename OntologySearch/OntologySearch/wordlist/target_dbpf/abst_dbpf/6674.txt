@@ -1,0 +1,38 @@
+Adult
+Brain Mapping
+Cues
+Dominance
+Cerebral
+physiology
+Female
+Hippocampus
+physiology
+Humans
+Image Processing
+Computer-Assisted
+Imaging
+Three-Dimensional
+Magnetic Resonance Imaging
+Male
+Memory
+Short-Term
+physiology
+Mental Recall
+physiology
+Neocortex
+physiology
+Nerve Net
+physiopathology
+Paired-Associate Learning
+physiology
+Parietal Lobe
+physiology
+Prefrontal Cortex
+physiology
+Reaction Time
+physiology
+Retention (Psychology)
+physiology
+Temporal Lobe
+physiology
+Cued recall and item recognition are considered the standard episodic memory retrieval tasks. However, only the neural correlates of the latter have been studied in detail with fMRI. Using an event-related fMRI experimental design that permits spoken responses, we tested hypotheses from an auto-associative model of cued recall and item recognition [Chappell, M.,&Humphreys, M. S. (1994). An auto-associative neural network for sparse representations: Analysis and application to models of recognition and cued recall. Psychological Review, 101, 103-128]. In brief, the model assumes that cues elicit a network of phonological short term memory (STM) and semantic long term memory (LTM) representations distributed throughout the neocortex as patterns of sparse activations. This information is transferred to the hippocampus which converges upon the item closest to a stored pattern and outputs a response. Word pairs were learned from a study list, with one member of the pair serving as the cue at test. Unstudied words were also intermingled at test in order to provide an analogue of yes/no recognition tasks. Compared to incorrectly rejected studied items (misses) and correctly rejected (CR) unstudied items, correctly recalled items (hits) elicited increased responses in the left hippocampus and neocortical regions including the left inferior prefrontal cortex (LIPC), left mid lateral temporal cortex and inferior parietal cortex, consistent with predictions from the model. This network was very similar to that observed in yes/no recognition studies, supporting proposals that cued recall and item recognition involve common rather than separate mechanisms.

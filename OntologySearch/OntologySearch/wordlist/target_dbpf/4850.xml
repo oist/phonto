@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4850">
+<itemtype>xnppaper</itemtype>
+<titles><title>Episodic memory, semantic memory, and amnesia.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Amnesia</keyword>
+<keyword>etiology</keyword>
+<keyword>psychology</keyword>
+<keyword>Brain Diseases</keyword>
+<keyword>psychology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Verbal Learning</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T01:59:56Z</last_update_date>
+<creation_date>2011-05-02T01:59:56Z</creation_date>
+<publication_year>1998</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4850</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4850" version="1.02">
+<authors><author>Squire LR</author><author>Zola SM</author></authors>
+<journal>Hippocampus</journal>
+<volume>8</volume>
+<number>3</number>
+<page>205-11</page>
+<abstract>Episodic memory and semantic memory are two types of declarative memory. There have been two principal views about how this distinction might be reflected in the organization of memory functions in the brain. One view, that episodic memory and semantic memory are both dependent on the integrity of medial temporal lobe and midline diencephalic structures, predicts that amnesic patients with medial temporal lobe/diencephalic damage should be proportionately impaired in both episodic and semantic memory. An alternative view is that the capacity for semantic memory is spared, or partially spared, in amnesia relative to episodic memory ability. This article reviews two kinds of relevant data: 1) case studies where amnesia has occurred early in childhood, before much of an individual&#039;s semantic knowledge has been acquired, and 2) experimental studies with amnesic patients of fact and event learning, remembering and knowing, and remote memory. The data provide no compelling support for the view that episodic and semantic memory are affected differently in medial temporal lobe/diencephalic amnesia. However, episodic and semantic memory may be dissociable in those amnesic patients who additionally have severe frontal lobe damage.</abstract>
+<pubmed_id>9662135</pubmed_id>
+</detail>
+</item>

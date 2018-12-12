@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7760">
+<itemtype>xnppaper</itemtype>
+<titles><title>Calcium stores regulate the polarity and input specificity of synaptic modification.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium</keyword>
+<keyword>physiology</keyword>
+<keyword>Calcium Channels</keyword>
+<keyword>physiology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Inositol 1</keyword>
+<keyword>4</keyword>
+<keyword>5-Trisphosphate</keyword>
+<keyword>physiology</keyword>
+<keyword>Inositol 1</keyword>
+<keyword>4</keyword>
+<keyword>5-Trisphosphate Receptors</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>N-Methylaspartate</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Receptors</keyword>
+<keyword>Cytoplasmic and Nuclear</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Neurorobotics, Wagatsuma Lab, FY2013</description>
+<doi></doi>
+<last_update_date>2014-04-02T08:37:51Z</last_update_date>
+<creation_date>2013-10-31T01:54:57Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7760</url>
+<changelogs>
+<changelog date='2014-04-02T08:37:51Z'>アイテムの説明 を変更</changelog>
+<changelog date='2014-04-02T06:57:16Z'>アイテムの説明, インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7760" version="1.02">
+<authors><author>Nishiyama M</author><author>Hong K</author><author>Mikoshiba K</author><author>Poo MM</author><author>Kato K</author></authors>
+<journal>Nature</journal>
+<volume>408</volume>
+<number>6812</number>
+<page>584-8</page>
+<abstract>Activity-induced synaptic modification is essential for the development and plasticity of the nervous system. Repetitive correlated activation of pre- and postsynaptic neurons can induce persistent enhancement or decrement of synaptic efficacy, commonly referred to as long-term potentiation or depression (LTP or LTD). An important unresolved issue is whether and to what extent LTP and LTD are restricted to the activated synapses. Here we show that, in the CA1 region of the hippocampus, reduction of postsynaptic calcium influx by partial blockade of NMDA (N-methyl-D-aspartate) receptors results in a conversion of LTP to LTD and a loss of input specificity normally associated with LTP, with LTD appearing at heterosynaptic inputs. The induction of LTD at homo- and heterosynaptic sites requires functional ryanodine receptors and inositol triphosphate (InsP3) receptors, respectively. Functional blockade or genetic deletion of type 1 InsP3 receptors led to a conversion of LTD to LTP and elimination of heterosynaptic LTD, whereas blocking ryanodine receptors eliminated only homosynaptic LTD. Thus, postsynaptic Ca2+, deriving from Ca2+ influx and differential release of Ca2+ from internal stores through ryanodine and InsP3 receptors, regulates both the polarity and input specificity of activity-induced synaptic modification.</abstract>
+<pubmed_id>11117745</pubmed_id>
+</detail>
+</item>

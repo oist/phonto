@@ -1,0 +1,24 @@
+Adult
+Analysis of Variance
+Brain
+physiology
+Brain Mapping
+Female
+Frontal Lobe
+physiology
+Hippocampus
+physiology
+Humans
+Magnetic Resonance Imaging
+Male
+Memory
+Short-Term
+physiology
+Neural Pathways
+physiology
+Parahippocampal Gyrus
+physiology
+Recognition (Psychology)
+physiology
+Young Adult
+Traditionally, it has been assumed that the medial temporal lobe (MTL) is indispensable for long-term memory (LTM) encoding, but only plays a minor role for working memory (WM) maintenance. Recently, however, an increasing number of studies questioned this seemingly clear distinction by showing that the MTL does participate in some WM processes, especially if multiple items are being maintained. This would predict that WM maintenance of multiple items interferes with simultaneous LTM encoding. Here, we tested this idea in a functional magnetic resonance imaging paradigm that required subjects to encode stimuli into LTM during simultaneous WM maintenance of either single or multiple items. Indeed, we found that maintenance of multiple items deteriorates simultaneous LTM encoding as compared with maintenance of single items. WM-related activation of the hippocampus was more pronounced in the condition with high WM load; in contrast, hippocampal activation related to LTM encoding was stronger in the low WM load condition. Successful LTM encoding was associated with a high level of activity in the adjacent parahippocampal cortex (PHC), leading to pronounced parahippocampal subsequent memory effects in the high load condition. This suggests that the PHC is a locus of WM-LTM interaction. Functional connectivity analysis with a seed in the PHC confirmed this result by revealing strong connectivity with the medial frontal cortex, which was only active in the high WM load condition. Taken together, these findings suggest that high WM demands interfere with LTM encoding and thus support the idea that WM and LTM processes interact in the MTL.

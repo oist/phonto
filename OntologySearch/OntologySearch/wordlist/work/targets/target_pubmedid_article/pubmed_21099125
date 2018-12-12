@@ -1,0 +1,991 @@
+Circulation Journal
+Official Journal of the Japanese Circulation Society
+http://www.j-circ.or.jp
+
+ORIGINAL  ARTICLE
+Arrhythmia/Electrophysiology
+
+Transmural Dispersion of Repolarization Determines Scroll  
+
+Wave Behavior During Ventricular Tachyarrhythmias
+
+– A Simulation Study –
+
+Ryo Haraguchi, PhD; Takashi Ashihara, MD, PhD; Tsunetoyo Namba, MD, PhD;  
+Kunichika Tsumoto, PhD; Shingo Murakami, PhD; Yoshihisa Kurachi, MD, PhD;  
+
+Takanori Ikeda, MD, PhD; Kazuo Nakazawa, PhD
+
+Background:  Ventricular tachyarrhythmia is the leading cause of sudden cardiac death, and scroll wave re-entry 
+is known to underlie this condition. Class III antiarrhythmic drugs are commonly used worldwide to treat ventricular 
+tachyarrhythmias; however, these drugs have a proarrhythmic adverse effect and can cause Torsade de Pointes 
+or ventricular fibrillation. Transmural dispersion of repolarization (TDR) has been suggested to be a strong indi-
+cator of ventricular tachyarrhythmia induction. However, the role of TDR during sustained scroll wave re-entry is 
+poorly understood. The purpose of the present study was to investigate how TDR affects scroll wave behavior 
+and to provide a novel analysis of the mechanisms that sustain tachyarrhythmias, using computer simulations.
+
+Methods and Results:  Computer simulations were carried out to quantify the TDR and QT interval under a 
+variety of IKs and IKr during transmural conduction. Simulated scroll wave re-entries were done under a variety of 
+IKs and IKr in a ventricular wall slab model, and the scroll wave behavior and the filament dynamics (3-dimensional 
+organizing center) were analyzed. A slight increase in TDR, but not in the QT interval, reflected antiarrhythmic 
+properties resulting from the restraint of scroll wave breakup, whereas a marked increase in TDR was proarrhyth-
+mic, as a result of scroll wave breakup.
+
+Conclusions:  The  TDR  determines  the  sustainment  of  ventricular  tachyarrhythmias,  through  control  of  the 
+scroll wave filament dynamics.    (Circ J  2011; 75: 80 – 88)
+
+Key Words:  Filament;  Scroll  wave  re-entry;  Simulation;  Transmural  dispersion  of  repolarization;  Ventricular 
+
+tachyarrhythmias/fibrillation
+
+C
+
+lass  III  antiarrhythmic  drugs  primarily  block  potas-
+sium channels, thereby prolonging both the cardiac 
+action  potential  duration  (APD)  and  QT  interval. 
+Prolongation  of  the  APD  with  no  change  in  conduction 
+velocity terminates re-entrant tachyarrhythmias. Conversely, 
+class III antiarrhythmic drugs have a proarrhythmic adverse 
+effect,  because  prolonged  APD  causes  ventricular  tachyar-
+rhythmias, particularly Torsade de Pointes (TdP)1 and ven-
+tricular fibrillation (VF).
+
+Editorial p 49
+
+The mechanisms underlying drug-induced cardiac arrhyth-
+
+mias are not well understood, but it is widely accepted that 
+the marked prolongation in APD and QT interval induced by 
+IKr-blockade, especially during bradycardia, forms the sub-
+strate for the TdP and/or VF. Optical mapping studies have 
+demonstrated  that  transmural  dispersion  of  repolarization 
+(TDR)  plays  a  critical  role  in  the  initiation  of  TdP/VF  in 
+canine models of type-2 long QT syndrome (LQTS) and heart 
+failure.2,3  Furthermore,  recent  experimental  studies  using 
+intracellular  floating  microelectrodes  in  arterially  perfused 
+canine  left  ventricular  wedge  preparations  suggested  that 
+TDR was a strong indicator of TdP/VF induction.4–6 Shimizu 
+and  Antzelevitch  suggested  that  antiarrhythmic  drugs  that 
+prolong the QT interval do not always have a proarrhythmic 
+
+Received January 25, 2010; revised manuscript received August 12, 2010; accepted August 20, 2010; released online November 16, 
+
+2010    Time for primary review: 45 days
+
+National  Cerebral  and  Cardiovascular  Center  Research  Institute,  Suita  (R.H.,  K.N.);  Department  of  Cardiovascular  and  Respiratory 
+Medicine, Heart Rhythm Center, Shiga University of Medical Science, Otsu (T.A.); Faculty of Healthcare Sciences, Himeji Dokkyo 
+University, Himeji (T.N.); The Center for Advanced Medical Engineering and Informatics, Osaka University, Suita (K.T.); Depart-
+ment  of  Pharmacology,  Graduate  School  of  Medicine,  Osaka  University,  Suita  (S.M., Y.K.);  and  Second  Department  of  Internal 
+Medicine, Kyorin University School of Medicine, Mitaka (T.I.), Japan
+
+Mailing address:  Ryo Haraguchi, PhD, National Cerebral and Cardiovascular Center Research Institute, 5-7-1 Fujishiro-dai, Suita 565-
+
+8565, Japan.    E-mail: haraguch@ri.ncvc.go.jp
+ISSN-1346-9843    doi: 10.1253/circj.CJ-10-0071
+All rights are reserved to the Japanese Circulation Society. For permissions, please e-mail: cj@j-circ.or.jp
+
+Circulation Journal  Vol.75,  January  2011
+
+TDR Determines Scroll Wave Behavior
+
+81
+
+Figure 1.    (A) 3-dimensional (D) ventricular wall slab model and (B) transmural 1-D model. Endo, Mid, and Epi indicate endo-
+cardial, mid-myocardial, and epicardial layers, respectively. (C) Action potential (AP) waveforms at Endo (red), Mid (green), 
+and Epi (blue). (D) Space-time plot of membrane potentials. These waveforms and membrane potentials were measured after 
+31 constant pacing stimuli of 5-ms duration and 20-μA strength were applied to the endocardial units at a cycle of length of 
+1,000 ms. TDR, transmural dispersion of repolarization.
+
+Table.  Maximum Conductances of I Ks in the Model
+
+Endo
+Mid
+Epi
+
+Original I Ks model 
+
+(mS/μF)
+0.08240 · A
+0.04118 · A
+0.08240 · A
+
+Reduced I Ks model 
+
+(mS/μF)
+
+0.01648 · A　　
+0.008236 · A
+0.01648 · A　　
+
+0.6
+
+[Ca2+]i
+
+ 1 + (                )
+
+ 
+A = 1 +                             
+ 
+ 0.000038  1.4
+ 
+ 
+Endo,  endocardial;  Mid,  mid-myocardial;  Epi,  epicardial;  [Ca2+]i, 
+intracellular concentration of Ca2+.
+
+Figure 2.    An S1-S2 method for generating a scroll wave in 
+the ventricular wall slab model. S1 indicates the first planar 
+wave that propagates from left to right along the x-axis. The 
+pink-coded region represents the excitation wave (both the 
+depolarized  and  repolarizing  region),  whereas  the  color-
+less region represents the excitable area (repolarized region 
+following  the  S1  planar  wave).  S2  is  a  premature  stimulus 
+(yellow region) in globular shape. The scroll wave starts to 
+rotate around a filament (blue line) in a transmural location.
+
+adverse effect, but the reduction of TDR might eliminate the 
+substrate  for  re-entry  induction.4  Diego  et  al  demonstrated 
+that the risk for TdP induction was related to the increase in 
+TDR, rather than in the QT interval.7
+
+Scroll wave re-entry is the active source of excitation that 
+sustains ventricular tachyarrhythmias. However, the role of 
+TDR during scroll wave re-entry is not well understood. To 
+investigate  how  TDR  affects  the  behavior  of  scroll  wave  
+re-entry, we conducted computer simulations of scroll wave 
+re-entries under various conditions of TDR in a 3-dimensional 
+(D)  ventricular  wall  slab  model.  We  have  been  conducting 
+many  computer  simulations  of  scroll  wave  re-entries  in  an 
+anatomically-detailed 3-D ventricular model.8,9 Through this 
+research,  we  revealed  that  anatomical  features  play  an  im-
+
+portant  role  when  considering  the  behavior  of  scroll  wave 
+re-entries. In this research, therefore, we removed anatomical 
+features that were expected to lead to complications and over-
+analysis as much as possible. We focused on the dynamics 
+of the filament, the scroll wave-organizing center, to simplify 
+and quantify the complex spatiotemporal activity during scroll 
+wave re-entry.10
+
+Methods
+
+The membrane kinetics in the simulated myocardium were 
+produced  by  Luo-Rudy  dynamic  model  equations11  with 
+modification of the L-type calcium channel formulation and 
+introduction of 4 representative types of IKr-blockade: dofet-
+ilide, quinidine, vesnarinone, and nifekalant.12,13 Dofetilide-
+induced blockade is voltage- and time-independent, quinidine-
+induced  blockade  is  fast-voltage-  and  time-dependent,  and 
+vesnarinone-induced  blockade  is  slow-voltage-  and  time-
+dependent. Nifekalant-induced blockade was simulated using 
+a steady-state activation curve of IKr kinetics shifted positive-
+ly.14 The numerical approach for integration of IKr-blockades 
+has  been  described  in  Appendix 1.  We  used  the  forward 
+Euler method for integral calculation.8,9,15
+
+The transmural gradient (electrical heterogeneity through 
+the  ventricular  wall)  was  achieved  with  the  distribution 
+through the epicardial, mid-myocardial (M-cell), and endocar-
+
+Circulation Journal  Vol.75,  January  2011
+
+82
+
+HARAGUCHI R et al.
+
+Figure 3.    (A) Transmural  dispersion  of  repolarization  (TDR)  2-dimensional  (D)  maps  in  the  presence  of  each  drug  (pacing 
+cycle is 1,000 ms) in the transmural 1-D model. White areas indicate conditions where TDR could not be calculated because 
+the action potential duration was longer than the length of the pacing cycle. (B,C) TDR as a function of ydepolarization in the pres-
+ence of each drug in the original and reduced IKs models, respectively. (D,E) Relationship between TDR and QT interval in the 
+original and the reduced IKs models, respectively.
+
+dial layers (Figures 1A and 1B) with thicknesses of 0.35 cm, 
+0.50 cm, and 0.15 cm, respectively. We configured the total 
+thickness to be 1.0 cm by considering the human left ven-
+tricle. According to experimental data, the M-cell layer was 
+located deep within the subendocardium.5 These spatial set-
+tings can be found in our previous publication,16 which dem-
+onstrated  that  the  normal  12-lead  electrocardiograms  were 
+properly reconstructed under those spatial settings. Electrical 
+settings  were  achieved  by  modifications  of  IKr,  IKs,  Ito,  and 
+IKp.13 Figures 1C and 1D show the control for the transmural 
+gradient used in this study.
+
+The ventricular wall slab model was 6.0 × 6.0 × 1.0 cm, and 
+consisted of 10,560,000 discrete myocardial units (Figure 1A). 
+We  considered  a  sufficiently  large  size  that  allows  scroll 
+waves  to  rotate  during  a  simulation  time.  As  a  result,  we 
+used the same size as the ventricular wall slab model in our 
+previous publication.17 The tissue border was set to no-flux 
+Neumann boundary conditions. The conduction velocity was 
+set at 59, 18, and 40 cm/s in the x-, y-, and z-axes, respec-
+tively, based on experimental data.5,18,19
+
+The  TDR  was  quantified  during  transmural  conduction  
+by performing simulations of consistent endocardial pacing 
+
+Circulation Journal  Vol.75,  January  2011
+
+TDR Determines Scroll Wave Behavior
+
+83
+
+using the 1-D model shown in Figure 1B. Thirty-one pacing 
+stimuli of 5-ms duration and 20-μA strength were applied to 
+the endocardial units at a cycle length of 1,000 ms to achieve 
+steady  state.  After  the  last  pacing  stimulus,  we  measured 
+APD and conduction time in all myocardial units of the 1-D 
+model. The APD was measured at –75 mV (close to APD90), 
+then both TDR and QT interval were calculated. To visualize 
+the effects of the various ion channel blockers on TDR, we 
+adopted a 2-D mapping method.13 We repeated simulations 
+systematically with various IKs channel conductance levels in 
+increments of 1% and various ydepolarization (IKr amplitude).13
+
+Scroll  waves  were  generated  using  a  S1-S2  cross-field 
+stimulation  (Figure 2).17  A  premature  stimulus  (S2),  as  a 
+part of the globular shape, was applied when the refractory 
+tail (S1 tail) of the 6th planar wave had just passed through 
+the center of the ventricular wall slab model.
+
+Potassium channels play a key role in the development of 
+TDR,  and  therefore  we  modified  IKs  and  IKr  conductances 
+independently to produce various TDR. In the present study, 
+the reduced IKs model was an 80% reduction in the IKs origi-
+nal value (100%)13 (Table).
+
+We  set  the  simulation  time  to  1,500 ms  after  the  S2  
+stimulus due to computer performance. Except for a few cases 
+of very long QT interval (>550 ms), this simulation time was 
+enough  for  the  scroll  waves  to  rotate ≥6 times,  which  was 
+generally considered as sustained tachyarrhythmia.20 In addi-
+tion, even in the cases of very long QT intervals, we con-
+sidered the simulation time was enough to define sustained 
+tachyarrhythmia  because  of  the  frequent  wave  breakups, 
+which  can  increase  the  number  of  scroll  waves  during  the 
+simulation time.
+
+Our preliminary simulations with significantly longer TDR 
+and QT interval showed that frequent scroll wave breakups 
+occurred immediately after the S2 stimulus. Thus, we strong-
+ly believe that the length of simulation time was sufficient to 
+observe the scroll wave behavior in all of the simulations in 
+this study.
+
+The  scroll  wave  filaments  were  expressed  as  a  contin-
+uum  of phase singularities, defined as spatial points where 
+all phase values converged in a phase map.21,22
+
+Results
+
+Variations in TDR With IKr- and IKs- Blockade in a 1-D  
+Transmural Model
+Figure 3A shows the TDR as a function of IKs and ydepolarization, 
+where  ydepolarization  describes  the  degree  of  IKr  blockade  by 
+dofetilide, quinidine, vesnarinone, and nifekalant at a pacing 
+cycle of 1,000 ms in the transmural 1-D model (Figure 1B). 
+At  the  IKs  original  value  (IKs  100%)  the  TDR  remained  at 
+~20 ms, regardless of the ydepolarization value (Figure 3B). The 
+effect on the TDR was similar for all 4 IKr-blockers. In con-
+trast, when the IKs was reduced to 20%, an inverse corre-
+lation  was  observed  between  the  TDR  and  the  ydepolarization 
+(Figure 3C). Under these conditions, dofetilide and nifeka-
+lant produced significantly longer TDR values than did quin-
+idine or vesnarinone.
+
+As shown in Figure 3D, the simulated ECG with various 
+ydepolarization values revealed neither a marked prolongation of 
+TDR nor a long QT interval at IKs 100%, and we observed  
+a dip in TDR with a QT interval in the range below 400 ms. 
+Similarly, we observed a dip in TDR as well in IKs 20% case; 
+however, we found marked prolongation of TDR with a posi-
+tive correlation with a QT interval (Figure 3E).
+
+The  effect  of  the  4  IKr-blockers  on  the  relationship  be-
+
+tween the TDR and QT interval was quite similar at IKs 100% 
+(Figure 3D). In contrast, at IKs 20%, the 4 IKr-blockers pro-
+duced different effects on the relationship between the TDR 
+and  QT  interval.  For  example,  when  the  QT  interval  was 
+above ~500 ms, vesnarinone and dofetilide produced the lon-
+gest and shortest TDR, respectively. Thus, a reduction in IKs 
+facilitated  the  IKr  blockade-mediated  increase  in  TDR  and 
+revealed  the  differential  effects  of  the  IKr-blockers  on  the 
+TDR (Figures 3C and 3E).
+
+TDR Influence on Filament Dynamics in the Ventricular Wall
+The  TDR  was  23.7 ms  in  the  control  condition  (ydepolarization 
+100% and IKs 100%; Figure 4A, Leftmost panel). With this 
+TDR, the mother-daughter type scroll wave re-entries were 
+sustained  for  1,500 ms  after  S2  onset  (Figure 4A,  Middle 
+3 panels;  Supplementary  Movie 1).  The  mother  re-entry 
+rotated around a transmural I-shaped filament that bent spon-
+taneously and occasionally fragmented. The fragmented fila-
+ments  were  classified  into  2 types:  the  S-filament  (blue)  in 
+which both fragment ends touched the epicardial or endocar-
+dial surface, and the NS-filament (green) in which the fragment 
+ends  did  not  touch  a  surface.  The  S-filament  accompanied 
+the  rotating  scroll  wave  and  the  NS-filament  signified  the 
+wavebreak of the drifting (non-rotating) scroll wave. Thus, 
+the daughter scroll wave re-entries were always accompanied 
+by  the  fragmented  S-filaments  generated  by  the  occasional 
+fragmentations of the bent I-shaped filament of the mother 
+scroll wave re-entry.
+
+The  total  length  of  the  S-filaments  (blue  line)  and  NS- 
+filaments (green line) varied markedly with time (Figure 4A, 
+Rightmost panel). Both the filament bending and the filament 
+fragmentations increased the total length of the S-filaments. 
+Filaments that were aligned parallel to the myocardial fiber 
+transformed from S-filaments into NS-filaments (correspond-
+ing to a decrease in the S-filaments length and an increase in 
+the NS-filament length). A filament shift resulting in a colli-
+sion between the NS-filament and the tissue boundaries (lat-
+eral edges of the ventricular wall slab) caused a decrease in 
+the total length of the NS-filaments. The filaments aligned on 
+the border between the epicardial and mid-myocardial layers. 
+The S-filament bent at the border between the epicardial and 
+mid-myocardial layers, and the NS-filament aligned on the 
+same  border.  The  border  between  the  epicardial  and  mid-
+myocardial layers was close to the plane with the maximum 
+slope of transmural gradient in repolarization time.
+
+The  smaller  19.5 ms  TDR  (Figure 4B,  Leftmost  panel) 
+produced by the dofetilide-type IKr blockade and original IKs 
+(ydepolarization 20% and IKs 100%, respectively) resulted in the 
+continuation of the S-filament associated with the single scroll 
+wave  re-entry  and  a  short-lived  NS-filament  (Figure 4B, 
+Middle 3 panels; Supplementary Movie 2). In this example, 
+the scroll wave re-entry was terminated by the annihilation 
+of all S-filaments at 1,475 ms after the S2 onset.
+
+When  the  bending  and  fragmentation  of  the  S-filaments 
+were  restrained,  the  total  length  of  both  the  S-  and  NS- 
+filaments was shorter, compared with the control condition 
+(Figures 4A  and  4B,  Rightmost  panels).  The  short-lived 
+NS-filaments  aligned  parallel  to  the  myocardial  fibers  and 
+were located in the mid-myocardial layer in the vicinity of 
+the epicardium.
+
+The  larger  78.0 ms  TDR  (Figure 4C,  Leftmost  panel) 
+produced by the dofetilide-type IKr blockade and reduced IKs 
+(ydepolarization  15%  and  IKs  20%)  resulted  in  frequent  scroll 
+wave  breakups  accompanied  by  the  fragmentation  and/or 
+neogenesis of the S-filaments (Figure 4C, Middle 3 panels; 
+
+Circulation Journal  Vol.75,  January  2011
+
+84
+
+HARAGUCHI R et al.
+
+Figure 4.    The  transmural  distribution  of  repolarization  time  (Leftmost  panel),  the  snapshots  of  filament  dynamics  (Middle 
+3 panels), and the temporal variation of the total filament length in the ventricular wall slab model (Rightmost panel). S-filament 
+(blue) and NS-filament (green) lengths. Repolarization time (y-axis in leftmost panel) equals APD90 plus conduction time in each 
+myocardial unit. Transmural distances at 0% and 100% represent epicardium and endocardium, respectively. Supplemental 
+online data I through III are movie supplements corresponding to panels (A) through (C), respectively. APD, action potential 
+duration; TDR, transmural dispersion of repolarization
+
+Supplementary Movie 3). The fragmentation of the I-shaped 
+S-filament  was  derived  from  the  filament  bending.  In  con-
+trast, the neogenesis of the U-shaped S-filament was derived 
+from the wavefront-wavetail interaction. Most of the NS-fil-
+aments were derived from the S-filaments that were aligned 
+parallel to the myocardial fibers located at the mid-myocar-
+dial layer in the vicinity of the endocardium. The alignment 
+location was in the vicinity of the plane with the maximum 
+slope of transmural gradient in repolarization time, whereas 
+the  alignment  location  was  shifted  toward  the  plane  with 
+the shorter repolarization time. Under these conditions, the 
+total length of the S- and NS-filaments varied markedly with 
+time, similar to the control condition; however, the total fila-
+ment  lengths  were  much  longer  than  the  control  condition 
+(Figures 4A and 4C, Rightmost panels). The filament neo-
+genesis resulting from the wavefront-wavetail interaction was 
+responsible for an increase in the total length of S-filaments. 
+The other behaviors of the filaments were similar to those in 
+the control condition (see Supplementary Movies 1 and 3).
+
+Relationship Between TDR and Total S-Filament Length
+Simulations of scroll wave re-entries were conducted in the 
+same ventricular wall slab model using the 4 IKr-blockers in 
+
+various ydepolarization and IKs conditions: original IKs (IKs 100%) 
+with a ydepolarization of 50%, 30%, 20%, and 15% (filled cir-
+cles in Figures 3B and 3D) and reduced IKs (IKs 20%) with 
+ydepolarization of 75%, 50%, 40%, 30%, 25%, 20%, 18%, 15%, 
+and 12% (filled circles in Figures 3C and 3E). The relation-
+ship between the TDR and the average total S-filament length 
+during the simulation time (1,000 ms from 500 ms after the 
+S2 stimulus) is shown in Figure 5.
+
+The  TDR  was  23.7 ms  in  the  control  condition  and  the 
+average  S-filament  total  length  was  311.5 units  (refer  to  a 
+black filled circle with an arrow in Figure 5).
+
+When  the  IKr-blockade  produced  a  TDR  ranging  from  
+23.7 to 58.3 ms, the average S-filament total length was sig-
+nificantly shorter than that observed in the control condition 
+(~150 units). The filament dynamics (not shown) were similar 
+to those shown in Figure 4B; both the bending and fragmen-
+tation  of  the  S-filaments  were  restrained,  and,  as  a  conse-
+quence, the transmural I-shaped S-filaments were sustained 
+and the NS-filaments were short-lived.
+
+When  the  IKr-blockade  produced  a  TDR  shorter  than 
+23.7 ms,  the  average  S-filament  total  length  was  increased 
+by the decrease in the TDR, and reached ~330 units, approxi-
+mately  the  same  length  observed  in  the  control  condition. 
+
+Circulation Journal  Vol.75,  January  2011
+
+TDR Determines Scroll Wave Behavior
+
+85
+
+Figure 5.    Relationship  between  the 
+transmural dispersion of repolarization 
+(TDR) and the average S-filament total 
+length.
+
+The  filament  dynamics  (not  shown)  were  similar  to  those 
+shown in Figure 4A; the bending and fragmentation of the 
+S-filaments  and  the  transition  from  S-filaments  to  NS-fila-
+ments occurred frequently.
+
+When the TDR ranged from 58.3 to 80.0 ms, the average 
+S-filament total length increased in proportion to the increase 
+in TDR, and the length was ~800 units when the TDR reached 
+~80 ms. The filament dynamics (not shown) were similar to 
+those shown in Figure 4C; bending, fragmentation, and neo-
+genesis of the S-filaments were frequently observed, and the 
+transition  from  S-filaments  to  NS-filaments  occurred  more 
+often.
+
+When the TDR was longer than 80 ms, the average S-fila-
+ment total length was short, because the scroll wave re-entries 
+spontaneously  terminated  and  the  accompanying  filaments 
+were short-lived (not shown).
+
+Thus, the IKr-blockers, dofetilide, quinidine, vesnarinone, 
+and nifekalant, did not change the relationship between the 
+TDR and the average S-filament total length (Figure 5), but 
+they did have different effects on TDR duration (Figures 3C 
+and 3E).
+
+Discussion
+
+The  present  study  examined  the  role  of  TDR  in  sustained 
+scroll  wave  re-entry,  and  provided  a  novel  analysis  of  the 
+mechanisms underlying sustained tachyarrhythmias. We ana-
+lyzed  the  filament  dynamics  to  simplify  and  quantify  the 
+complex spatiotemporal activity during scroll wave re-entry. 
+The major findings of the present study are:
+
+(1) Reduced IKs enhanced the IKr block-mediated increase 
+
+in the TDR.
+
+(2) A mild increase in the TDR restrained the scroll wave 
+breakup  and  shortened  the  total  filament  length,  whereas  a 
+marked  increase  in  the  TDR  facilitated  the  scroll  wave 
+breakup and increased the total filament length.
+
+The Role of TDR in the Induction of Arrhythmia
+The balance of initiation, termination, and breakup of the scroll 
+waves determines the sustainment of ventricular tachyarrhyth-
+mias.  The  present  study  analyzed  scroll  wave  behavior  in 
+response to various TDR, with the aim of clarifying the rela-
+tionship between the TDR and the maintenance of ventricu-
+lar tachyarrhythmias.
+
+It is widely accepted that the TDR or electrophysiological 
+heterogeneity at the tissue level induces re-entrant arrhyth-
+mias. Noda et al suggested in a clinical study that TdP might 
+occur as a result of enlarged TDR, leading to the first re-entrant 
+excitation in patients with congenital LQTS.23 El-Sherif et al24 
+showed  that  TDR  was  linked  to  the  genesis  of  TdP  in  the 
+canine LQTS model, and Kozhevnikov et al25 demonstrated 
+that  dofetilide  significantly  increased  TDR  which,  in  turn, 
+increased  vulnerability  to  hypertrophic  heart.  Furthermore, 
+Akar et al showed that the regional distribution of M-cells 
+underlies  the  re-entrant  mechanism  of  TdP  in  the  canine 
+LQTS model.2
+
+T-wave  alternans  is  known  as  a  predictor  of  arrhythmic 
+events26,27 and discordant T-wave alternans is associated with 
+a  greater  propensity  to  develop  ventricular  tachyarrhyth-
+mias.28  Chinushi  et  al  showed  that  the  discordant  T-wave 
+alternans derived from both the heterogeneous distribution of 
+the diastolic interval and the regional differences in the resti-
+tution properties.29 The majority of clinical and experimental 
+studies  have  suggested  that  arrhythmogenesis  is  primarily 
+caused by a large degree of electrophysiological heterogene-
+ity or TDR that activates the TdP/VF mechanism. Similarly, 
+in the 2-D simulations, Clayton and Holden reported a close 
+relationship between the increase in APD dispersion and the 
+initiation of re-entrant arrhythmias.30
+
+In  contrast,  findings  reported  by  our  colleagues  numeri-
+cally indicated that TDR is a predictor of drug-induced TdP, 
+independent  of  APD  prolongation.13  They  suggested  that 
+although early afterdepolarization, resulting from QT prolon-
+gation, plays an important role in triggering repetitive activa-
+tion, an increase in TDR might be an independent substrate 
+for re-entry initiation, an underlying mechanism for the per-
+petuation of ventricular tachyarrhythmias.13 However, in their 
+study,13 the epicardial, mid-myocardial, and endocardial cell 
+models13 were not assembled into a 3-D ventricular wall with 
+cell-to-cell coupling. Thus, in the present study, we extended 
+the cellular level simulations into the 3-D tissue level. Our 
+model included appropriate cell-to-cell coupling, wall thick-
+ness,  and  a  transmural  repolarization  gradient.  In  the  3-D 
+ventricular wall slab model, we found that the slight increase 
+in  TDR  evoked  by  mild  IKr  blockade  was  antiarrhythmic, 
+because it restrained scroll wave breakup, whereas the marked 
+increase in TDR evoked by moderate IKr blockade was pro-
+arrhythmic because it facilitated scroll wave breakup.
+
+Circulation Journal  Vol.75,  January  2011
+
+86
+
+HARAGUCHI R et al.
+
+This  finding  suggested  that  the  induction  of  a  tachyar-
+rhythmia could be separated into initiation and maintenance 
+stages, and the maintenance stage should be investigated in a 
+3-D model of the myocardium.
+
+The Degree of TDR Determines Filament Dynamics
+Filament  dynamics  are  directly  related  to  scroll  wave  be-
+havior. Clayton and Holden revealed the details of filament 
+dynamics during VF (eg, changes in the number of filaments, 
+genealogical tree, distributions in length, and lifetime) in an 
+anatomically-detailed simulation of canine ventricles.31
+
+Our investigation of the relationship between TDR and QT 
+interval did not reveal a one-to-one relationship (Figure 3E). 
+It is widely accepted that the long QT interval with a suffi-
+ciently steep APD restitution curve increases the wavefront-
+wavetail  interaction,  resulting  in  scroll  wave  breakups.  In 
+contrast, as shown in Figure 4 and the related supplementary 
+movies, the filament bending was caused by the difference in 
+APD among the endocardial, mid-myocardial, and epicardial 
+layers  (ie,  TDR)  rather  than  the  longest  APD  among  the  
+3 layers (ie, QT interval). Therefore, we believe that the TDR 
+is an independent determining factor of scroll wave filament 
+dynamics.  Furthermore,  our  findings  suggest  that  the  total 
+length of the S-filament depends on the degree of the TDR, 
+and that a large TDR facilitates the sustainment of re-entrant 
+ventricular tachyarrhythmias.
+
+IKs Reduction Facilitates the IKr Block-Mediated TDR  
+Increase
+We found that different types of IKr-blockers changed TDR 
+only  when  the  IKs  was  reduced  (Figures 3C  and 3E).  This 
+finding is similar to that reported by our colleagues in a cellu-
+lar level simulation study. 13 IKs suppression corresponds to 
+mimicking of a KCNQ1 defect, called LQT1. Additionally, 
+latent LQTS and increasing TDR appear under IKs suppres-
+sion.  Burashnikov  et  al  demonstrated  that  a  prominent  IKs 
+was  responsible  for  the  resistance  to  the  arrhythmogenic 
+effects of IKr blockade in the canine heart.32 IKs reduction in 
+our simulations is within the range of LQT1 patients33 and 
+our simulations are consistent with their data.32
+
+Longer TDR Increase the Critical Mass of the Myocardium
+When  TDR  was  longer  than  80.0 ms,  the  average  S-fila-
+ment total length was shorter than it was at the control value 
+(Figure 5).  This  might  be  explained  by  an  increase  in  the 
+critical mass of the myocardium as a result of the extended 
+scroll  wavelength  34,35  required  to  sustain  TdP/VF.  Scroll 
+wave re-entry cannot continue to rotate spontaneously in an 
+insufficient amount of myocardial tissue. The critical mass is 
+then defined as the amount of myocardial mass that is inca-
+pable  of  maintaining  the  self-rotated  scroll  wave.34,35  Our 
+preliminary simulations revealed that at a TDR of 105.6 ms, 
+the  critical  mass  of  the  myocardium  for  a  scroll  wave  re-
+entry was 9.0 × 9.0 × 1.0 cm, which was larger than that used 
+in our study.
+
+Physiological and Clinical Implications
+The TDR has traditionally been thought to initiate rather than 
+sustain ventricular tachyarrhythmias, and the roles of the QT 
+interval and the TDR in the ventricular tachyarrhythmia have 
+been ambiguous. In contrast, the present study clearly demon-
+strated that the TDR played a key role in the sustainment of 
+ventricular tachyarrhythmias, based on scroll wave re-entries. 
+We have shown that with a TDR longer than 58.3 ms, scroll 
+wave  breakup,  which  is  important  for  the  maintenance  of 
+
+ventricular  tachyarrhythmias,  is  the  result  of  both  the  frag-
+mentation by filament bending and filament neogenesis by the 
+wavefront-wavetail  interaction.  However,  wavefront-wave-
+tail interaction was hardly observed with a TDR shorter than 
+58.3 ms. Thus, we suggest that whereas the long QT interval 
+might  increase  the  wavefront-wavetail  interaction,  a  large 
+TDR can facilitate bending and fragmentation of filaments, 
+causing scroll wave breakups.
+
+In hypertrophied cardiac myocytes, normal transmural dis-
+tribution of membrane current density has been reported to 
+be  decreased,  resulting  in  T-wave  inversion.36,37  However, 
+hypertrophied cardiomyocytes are susceptible to ventricular 
+tachyarrhythmias. TDR should be within certain range, and 
+both very small and very large TDR might be arrhythmogenic.
+Our simulation results suggest that avoiding both a long 
+QT interval and a large TDR is necessary to restrain inherent 
+or drug-induced ventricular tachyarrhythmias at both the ini-
+tiation stage and the maintenance stage leading up to tachyar-
+rhythmias. Additionally, our simulation results suggest that 
+the M-cell layer restrains degeneration of ventricular tachyar-
+rhythmias by facilitating the transition from the S-filaments 
+of scroll wave re-entries to the short-lived NS-filaments in 
+the control condition.
+
+Study Limitations
+We did not consider rotational anisotropy because our prin-
+cipal  goal  was  to  investigate  the  role  of  the  TDR  in  scroll 
+wave behavior. From a structural point of view, we did not 
+use  rugged  or  curved  tissue.  Furthermore,  we  did  not  con-
+sider the anatomical features and topology (ie, septum, RV, 
+and Purkinje fiber networks). In addition, a previous experi-
+mental  study  suggested  a  different  distribution  of  M-cells 
+within the ventricular wall.2 The scroll wave behavior in such 
+anatomically-based models might be far more complex than 
+in the 3-D ventricular wall slab model employed in this study. 
+Despite these limitations, we believe that our major findings 
+are correct. Finally, as an action potential model, we employed 
+the modified Luo-Rudy dynamic model rather than the human 
+ventricular model. However, the modified Luo-Rudy dynamic 
+model  satisfied  the  conditions  of  transmural  heterogeneity 
+by producing a physiological TDR.
+
+Conclusions
+
+This study suggests that the degree of the TDR might deter-
+mine the sustainment of ventricular tachyarrhythmias by con-
+trolling of the dynamics of the filaments accompanying scroll 
+wave re-entries, and therefore provides mechanistic insight 
+into the role of the TDR in ventricular arrhythmogenesis.
+
+Acknowledgments
+
+This  work  was  supported  by  Grant-in-Aid  for  Scientific  Research  (C) 
+21500420,  (C)  21590909,  Young  Scientists  (B)  21790717,  Innovative 
+Areas (22136011) and the Global COE Program from Ministry of Educa-
+tion, Culture, Sports, Science and Technology of Japan.
+
+References
+
+  1.  Roden DM. Drug-induced prolongation of the QT interval. N Engl 
+
+J Med 2004; 350: 1013 – 1022.
+
+  2.  Akar FG, Yan GX, Antzelevitch C, Rosenbaum DS. Unique topo-
+graphical distribution of M cells underlies reentrant nechanism of 
+Torsade  de  Pointes  in  the  long-QT  syndrome.  Circulation  2002; 
+105: 1247 – 1253.
+
+  3.  Akar  FG,  Rosenbaum  DS.  Transmural  electrophysiological  het-
+erogeneities underlying arrhythmogenesis in heart failure. Circ Res 
+2003; 93: 638 – 645.
+
+  4.  Shimizu W, Antzelevitch C. Sodium channel block with mexiletine 
+
+Circulation Journal  Vol.75,  January  2011
+
+TDR Determines Scroll Wave Behavior
+
+87
+
+is effective in reducing dispersion of repolarization and preventing 
+torsade de pointes in LQT2 and LQT3. Circulation 1997; 96: 2038 –  
+2047.
+
+  5.  Yan GX, Shimizu W, Antzelevitch C. Characteristics and distribu-
+tion of M cells in arterially perfused canine left ventricular wedge 
+preparations. Circulation 1998; 98: 1921 – 1927.
+
+  6.  Belardinelli L, Antzelevitch C, Vos MA. Assessing predictors of 
+drug-induced torsade de pointes. Trends Pharmacol Sci 2003; 24: 
+619 – 625.
+
+  7.  Diego  JMD,  Belardinelli  L,  Antzelevitch  C.  Cisapride-induced 
+transural dispersion of repolarization and torsade de pointes in the 
+canine left ventricular wedge preparation during epicardial stimu-
+lation. Circulation 2003; 108: 1027 – 1033.
+
+  8.  Ashihara T, Suzuki T, Namba T, Inagaki M, Ikeda T, Ito M, et al. 
+Simulated electrocardiogram of spiral wave reentry in a mathemati-
+cal ventricular model. In: Yamaguchi T, editor. Clinical application 
+of computational mechanics to the cardiovascular system. Tokyo: 
+Springer-Verlag, 2000; 205 – 216.
+
+  9.  Nakazawa K, Suzuki T, Ashihara T, Inagaki M, Namba T, Ikeda T, 
+et al. Computational analysis and visualization of spiral wave reen-
+try in a virtual heart model. In: Yamaguchi T, editor. Clinical appli-
+cation  of  computational  mechanics  to  the  cardiovascular  system. 
+Tokyo: Springer-Verlag, 2000; 217 – 241.
+
+10.  Winfree AT. Electrical turbulence in three-dimensional heart mus-
+
+cle. Science 1994; 266: 1003 – 1006.
+
+11.  Faber GM, Rudy Y. Action potential and contractility changes in 
+[Na+]i overloaded cardaic myocytes: A simulation study. Biophys J 
+2000; 78: 2392 – 2404.
+
+12.  Findlay I, Suzuki S, Murakami S, Kurachi Y. Physiological modula-
+tion of voltage-dependent inactivation in the cardiac muscle L-type 
+calcium channel: A modeling study. Prog Biophys Mol Biol 2008; 
+96: 482 – 498.
+
+13.  Suzuki S, Murakami S, Tsujimae K, Findlay I, Kurachi Y. In silico 
+risk assessment for drug-induction of cardiac arrhythmia. Prog in 
+Biophys Mol Biol 2008; 98: 52 – 60.
+
+14.  Hosaka Y, Iwata M, Kamiya N, Yamada M, Kinoshita K, Fukunishi 
+Y, et al. Mutational analysis of block and facilitation of HERG cur-
+rent by a class III anti-arrhythmic agent, nifekalant. Channels 2007; 
+1: 198 – 208.
+
+15.  Suzuki T, Ashihara T, Inagaki M, Namba T, Ikeda T, Nakazawa K. 
+A high-performance computation method for simulation of cardiac 
+excitation  propagation  using  a  supercomputer.  In:  Yamaguchi  T, 
+editor. Clinical application of computational mechanics to the car-
+diovascular system. Tokyo: Springer-Verlag, 2000; 193 – 204.
+
+16.  Suzuki T, Inagaki M, Toda T, Yao T, Namba T, Suzuki R, et al. 
+How M cell affects to the polarity of T waves: A computer simu-
+lation of the transmural distribution of APD in the ventricle wall. 
+IEICE Tech Rep 2001; 101: 21 – 28.
+
+17.  Ashihara T, Namba T, Ikeda T, Ito M, Kinoshita M, Nakazawa K. 
+Breakthrough waves during ventricular fibrillation depend on the 
+degree of rotational anisotropy and the boundary conditions: A sim-
+ulation study. J Cardiovasc Electrophysiol 2001; 12: 312 – 322.
+
+18.  Kadish A, Shinnar M, Moore EN, Levine JH, Balke CW, Spear JF. 
+Interaction of fiber orientation and direction of impulse propagation 
+with anatomic barriers in anisotropic canine myocardium. Circula-
+tion 1988; 78: 1478 – 1494.
+
+19.  Saffitz JE, Yamada KA. Gap junction distribution in the heart. In: 
+Zipes DP, Jalife J, editors. Cardiac electrophysiology: From cell to 
+bedside, 3rd edn. Philadelphia: WB Saunders, 2000; 179 – 187.
+
+20.  Rodríguez B, Li L, Eason JC, Efimov IR, Trayanova NA. Differ-
+ences between left and right ventricular chamber geometry affect 
+cardiac vulnerability to electric shocks. Circ Res 2005; 97: 168 – 175.
+21.  Larson  C,  Dragnev  L,  Trayanova  N.  Analysis  of  electrically  in-
+duced reentrant circuits in a sheet of myocardium. Ann Biomed Eng 
+2003; 31: 768 – 780.
+
+22.  Iyer  AN,  Gray  RA.  An  experimentalist’s  approach  to  accurate 
+localization of phase singularities during reentry. Ann Biomed Eng 
+2001; 29: 47 – 59.
+
+23.  Noda T, Shimizu W, Satomi K, Suyama K, Kurita T, Aihara N, et 
+al. Classification and mechanism of torsade de pointes initiation in 
+patients  with  congenital  long  QT  syndrome.  Euro  Heart  J  2004; 
+25: 2149 – 2154.
+
+24.  El-Sherif N, Caref EB, Yin H, Restivo M. The electrophysiological 
+mechanism  of  ventricular  arrhythmias  in  the  long  QT  syndrome: 
+Tridimensional mapping of activation and recovery patterns. Circ 
+Res 1996; 79: 474 – 492.
+
+25.  Kozhevnikov DO, Yamamoto K, Robotis D, Restivo M, El-Sherif 
+N.  Electrophysiological  mechanism  of  enhanced  susceptibility  of 
+hypertrophied heart to aquired torsade de pointes arrhythmias. Cir-
+culation 2002; 105: 1128 – 1134.
+
+26.  Kim JW, Pak HN, Park JH, Nam GB, Kim SK, Lee HS, et al. Defi-
+billator electrogram T wave alternans as a predictor of spontaneous 
+ventricular tachyarrhythmias in defibrillator recipients. Circ J 2009; 
+73: 55 – 62.
+
+27.  Maeda  S,  Nishizaki  M,  Yamawake  N,  Ashikaga  T,  Shimada  H, 
+Asano M, et al. Ambulatory ECG-based T-wave alternans and heart 
+rate  turbulence  predict  high  risk  of  arrhythmic  events  in  patients 
+with old myocardial infarction. Circ J 2009; 73: 2223 – 2228.
+
+28.  Chinushi M, Restivo M, Caref EB, El-Sherif N. Electrophysiologi-
+cal basis of arrhythmogenecity of QT/T alternans in the long-QT 
+syndrome: Tridimensional analysis of the kinetics of cardiac repo-
+larization. Circ Res 1998; 83: 614 – 628.
+
+29.  Chinushi M, Kozhevnikov D, Caref EB, Restivo M, El-Sherif N. 
+Mechanism  of  discordant  T  wave  alternans  in  the  in  vivo  heart.  
+J Cardiovasc Electrophysiol 2003; 14: 632 – 638.
+
+30.  Clayton  RH,  Holden  AV.  Dispersion  of  cardiac  action  potential 
+duration  and  the  initiation  of  re-entry:  A  computational  study. 
+Biomed Eng Online 2005; 4: 11.
+
+31.  Clayton  RH,  Holden  AV.  Filament  behavior  in  a  computational 
+model  of  ventricular  fibrillation  in  the  canine  heart.  IEEE  Trans 
+Biomed Eng 2004; 51: 28 – 34.
+
+32.  Burashnikov A, Antzelevitch C. Prominent IKs in epicardium and 
+endocardium contributes to development of transmural dispersion 
+of repolarization but protects against development of early afterde-
+polarizations. J Cardiovasc Electrophysiol 2002; 13: 172 – 177.
+
+33.  Viswanathan  PC,  Rudy  Y.  Pause  induced  early  afterdepolariza-
+tions in the long QT syndrome: A simulation study. Circ Res 1999; 
+42: 530 – 542.
+
+34.  Zipes DP, Fischer J, King RM, Nicoll AD, Jolly WW. Termination 
+of ventricular fibrillation in dogs by depolarizing a critical amount 
+of myocardium. Am J Cardiol 1975; 36: 37 – 44.
+
+35.  Kim YH, Garfinkel A, Ikeda T, Wu TJ, Athill CA, Weiss NW, et 
+al. Spatioteporal complexity of ventricular fibrillation revealed by 
+tissue mass reduction in isolated swine right ventricle. J Clin Invest 
+1997; 100: 2486 – 2500.
+
+36.  Bryant  SM,  Shipsey  SJ,  Hart  G.  Normal  regional  distribution  of 
+membrane current density in rat left ventricle is altered in catechol-
+amine-induced hypertrophy. Cardiovasc Res 1999; 42: 391 – 401.
+37.  Rozanski GJ, Xu Z, Zhang K, Patel KP. Altered K+ current of ven-
+tricular myocytes in rats with chronic myocardial infarction. Am J 
+Physiol Heart Circ Physiol 1998; 274: 259 – 265.
+
+Appendix 1
+
+Integration of 4 Representative Types of IKr-Blockade
+To  integrate  4  representative  types  of  IKr-blockade,  we  modified  IKr 
+currents as follows:13
+
+IKr = y · GKr · Xr · R · (V – EKr),
+
+where y is the fraction of IKr that is not blocked, GKr is the maximum 
+conductance  of  IKr,  Xr  is  the  time-dependent  activation  gate,  R  is  the 
+time-independent  inactivation  gate,  V  is  the  membrane  potential,  and 
+EKr is the reversal potential.
+
+ydepolarization  represents  IKr  amplitude.13  The  dofetilide-induced  block-
+ade is voltage- and time-independent and the y is constant and is equal 
+to ydepolarization.13
+
+The quinidine-induced blockade is fast-voltage- and time-dependent. 
+
+The y is calculated by the following first order differential equation:13
+
+dy
+dt
+
+=
+
+(y∞–y)
+τ ,
+
+where y∞ is the steady-state value of the fraction of IKr that is not blocked 
+by quinidine-type drug, and τ is the time-constant for y.
+
+The unbinding rate constant (α) and the binding rate constant (β) are 
+obtained from experimental data.13 The steady-state value of y (y∞) and 
+the time-constant for y (τ) are expressed as follows:
+
+y∞ = 
+
+α
+α+β
+1
+
+,
+
+=τ
+
+α+β ,
+
+α= 0.5716+0.7522·exp(0.05094·V)
+
+β= 0.7522·exp(0.05094·V)
+
+1
+
+ydepolarization
+
+–1
+
+,
+
+Circulation Journal  Vol.75,  January  2011
+
+88
+
+HARAGUCHI R et al.
+
+where ydepolarization is the limit set for the minimum of unblocked IKr in the 
+presence of quinidine.
+
+The vesnarinone-induced blockade is slow-voltage- and time-depen-
+
+dent as follows:13
+
+α=0.5
+
+β=
+
+0.5·
+
+1
+
+ydepolarization
+
+–1
+
+1+ exp
+
+–(V+16.5)
+
+12.6
+
+.
+
+The  nifekalant-induced  blockade  is  voltage-  and  time-independent, 
+and is similar to dofetilide-induced blockade. The y is constant and is 
+equal  to  ydepolarization.  The  nifekalant-induced  blockade  was  simulated 
+using  a  steady-state  activation  curve  of  IKr  kinetics  shifted  positively 
+20 mV, as reported by Hosaka et al:14
+
+Xr∞ = 1/{1 + exp[–(V + 41.5)/7.5]},
+
+where Xr∞ is the steady-state value of the IKr activation gate.
+
+Appendix 2
+
+Methods to Measure TDR, QT Interval, and Filament Length
+We defined the depolarization time in each myocardial unit as the time 
+
+when the membrane potential go above –75 mV, and the repolarization 
+time as the time when the membrane potential go below –75 mV. Then, 
+the  APD  was  defined  as  the  interval  between  the  depolarization  time 
+and the repolarization time in each myocardial unit. Further, the TDR 
+was defined as the interval between the earliest repolarization and the 
+last repolarization in the 1-D model,13 and the QT interval was defined 
+as the interval between the earliest depolarization and the last repolar-
+ization (refer Figure 1D).13
+
+The  scroll  wave  filaments  were  expressed  as  a  continuum  of  phase 
+singularities, defined as spatial points where all phase values converged 
+in a phase map.21,22 We counted the number of units detected as the fila-
+ment locations and considered the number as a filament length.
+
+Supplementary files
+
+Movie 1.    The scroll wave behavior and filament dynamics correspond-
+ing to Figure 4A.
+Movie 2.    The scroll wave behavior and filament dynamics correspond-
+ing to Figure 4B.
+Movie 3.    The scroll wave behavior and filament dynamics correspond-
+ing to Figure 4C.
+Please find supplementary file(s);
+http://dx.doi.org/10.1253/circj.CJ-10-0071
+
+Circulation Journal  Vol.75,  January  2011
+
+

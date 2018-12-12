@@ -1,0 +1,28 @@
+Aging
+pathology
+radiation effects
+Animals
+Animals
+Newborn
+Behavior
+Animal
+radiation effects
+Cell Count
+Cell Death
+radiation effects
+Cell Proliferation
+radiation effects
+Hippocampus
+pathology
+radiation effects
+Humans
+Mice
+Mice
+Inbred C57BL
+Neurogenesis
+radiation effects
+Stress
+Psychological
+pathology
+X-Rays
+Adolescence is a vulnerable period in that stress experienced during this time can affect the incidence of psychiatric disorders later, during adulthood. Neurogenesis is known to be involved in the postnatal development of the brain, but its role in determining an individual's biological vulnerability to the onset of psychiatric disorders has not been addressed.We examined the role of postnatal neurogenesis during adolescence, a period between 3 to 8 weeks of age in rodents. Mice were X-irradiated at 4 weeks of age, to inhibit postnatal neurogenesis in the sub-granule cell layer of the hippocampus. Electrical footshock stress (FSS) was administered at 8 weeks old, the time at which neurons being recruited to granule cell layer were those that had begun their differentiation at 4 weeks of age, during X-irradiation. X-irradiated mice subjected to FSS during adolescence exhibited decreased locomotor activity in the novel open field, and showed prepulse inhibition deficits in adulthood. X-irradiation or FSS alone exerted no effects on these behaviors.These results suggest that mice with decreased postnatal neurogenesis during adolescence exhibit vulnerability to stress, and that persistence of this condition may result in decreased activity, and cognitive deficits in adulthood.

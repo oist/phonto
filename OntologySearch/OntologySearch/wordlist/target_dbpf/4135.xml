@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4135">
+<itemtype>xnppaper</itemtype>
+<titles><title>Dynamic cross-frequency couplings of local field potential oscillations in rat striatum and hippocampus during performance of a T-maze task.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>Biological Clocks</keyword>
+<keyword>physiology</keyword>
+<keyword>Corpus Striatum</keyword>
+<keyword>physiology</keyword>
+<keyword>Decision Making</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>Mental Processes</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T06:53:50Z</last_update_date>
+<creation_date>2010-10-08T06:53:50Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4135</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4135" version="1.02">
+<authors><author>Tort AB</author><author>Kramer MA</author><author>Thorn C</author><author>Gibson DJ</author><author>Kubota Y</author><author>Graybiel AM</author><author>Kopell NJ</author></authors>
+<journal>Proceedings of the National Academy of Sciences of the United States of America</journal>
+<volume>105</volume>
+<number>51</number>
+<page>20517-22</page>
+<abstract>Oscillatory rhythms in different frequency ranges mark different behavioral states and are thought to provide distinct temporal windows that coherently bind cooperating neuronal assemblies. However, the rhythms in different bands can also interact with each other, suggesting the possibility of higher-order representations of brain states by such rhythmic activity. To explore this possibility, we analyzed local field potential oscillations recorded simultaneously from the striatum and the hippocampus. As rats performed a task requiring active navigation and decision making, the amplitudes of multiple high-frequency oscillations were dynamically modulated in task-dependent patterns by the phase of cooccurring theta-band oscillations both within and across these structures, particularly during decision-making behavioral epochs. Moreover, the modulation patterns uncovered distinctions among both high- and low-frequency subbands. Cross-frequency coupling of multiple neuronal rhythms could be a general mechanism used by the brain to perform network-level dynamical computations underlying voluntary behavior.</abstract>
+<pubmed_id>19074268</pubmed_id>
+</detail>
+</item>

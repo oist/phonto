@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5056">
+<itemtype>xnppaper</itemtype>
+<titles><title>GABAergic excitation promotes neuronal differentiation in adult hippocampal progenitor cells.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>4-Aminopyridine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Basic Helix-Loop-Helix Transcription Factors</keyword>
+<keyword>metabolism</keyword>
+<keyword>Bicuculline</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Bromodeoxyuridine</keyword>
+<keyword>metabolism</keyword>
+<keyword>Calcium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Calcium-Binding Protein</keyword>
+<keyword>Vitamin D-Dependent</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cell Count</keyword>
+<keyword>methods</keyword>
+<keyword>Cell Differentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Drug Interactions</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Excitatory Amino Acid Agonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>GABA Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Glycine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Green Fluorescent Proteins</keyword>
+<keyword>biosynthesis</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>History</keyword>
+<keyword>Ancient</keyword>
+<keyword>Immunohistochemistry</keyword>
+<keyword>methods</keyword>
+<keyword>Intermediate Filament Proteins</keyword>
+<keyword>genetics</keyword>
+<keyword>Ki-67 Antigen</keyword>
+<keyword>metabolism</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Transgenic</keyword>
+<keyword>Microscopy</keyword>
+<keyword>Immunoelectron</keyword>
+<keyword>methods</keyword>
+<keyword>N-Methylaspartate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Nerve Tissue Proteins</keyword>
+<keyword>genetics</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neural Cell Adhesion Molecule L1</keyword>
+<keyword>metabolism</keyword>
+<keyword>Neurons</keyword>
+<keyword>classification</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>ultrastructure</keyword>
+<keyword>Nickel</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>methods</keyword>
+<keyword>Phosphopyruvate Hydratase</keyword>
+<keyword>metabolism</keyword>
+<keyword>Potassium Channel Blockers</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Sialic Acids</keyword>
+<keyword>metabolism</keyword>
+<keyword>Sodium-Potassium-Chloride Symporters</keyword>
+<keyword>metabolism</keyword>
+<keyword>Stem Cells</keyword>
+<keyword>drug effects</keyword>
+<keyword>Tetrodotoxin</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Vesicular Inhibitory Amino Acid Transport Proteins</keyword>
+<keyword>metabolism</keyword>
+<keyword>alpha-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic Acid</keyword>
+<keyword>pharmacology</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>metabolism</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T02:54:05Z</last_update_date>
+<creation_date>2011-05-16T02:54:05Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5056</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5056" version="1.02">
+<authors><author>Tozuka Y</author><author>Fukuda S</author><author>Namba T</author><author>Seki T</author><author>Hisatsune T</author></authors>
+<journal>Neuron</journal>
+<volume>47</volume>
+<number>6</number>
+<page>803-15</page>
+<abstract>Hippocampal activity influences neurogenesis in the adult dentate gyrus; however, little is known about the involvement of the hippocampal circuitry in this process. In the subgranular zone of the adult dentate gyrus, neurogenesis involves a series of differentiation steps from radial glia-like stem/progenitor (type-1) cells, to transiently amplifying neuronal progenitor (type-2) cells, to postmitotic neurons. In this study, we conducted GFP-targeted recordings of progenitor cells in fresh hippocampal slices from nestin-GFP mice and found that neuronal progenitor (type-2) cells receive active direct neural inputs from the hippocampal circuitry. This input was GABAergic but not glutamatergic. The GABAergic inputs depolarized type-2 cells because of their elevated [Cl(-)](i). This excitation initiated an increase of [Ca(2+)](i) and the expression of NeuroD. A BrdU-pulse labeling study with GABA(A)-R agonists demonstrated the promotion of neuronal differentiation via this GABAergic excitation. Thus, it appears that GABAergic inputs to hippocampal progenitor cells promote activity-dependent neuronal differentiation.</abstract>
+<pubmed_id>16157276</pubmed_id>
+</detail>
+</item>

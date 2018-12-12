@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="379">
+<itemtype>xnppaper</itemtype>
+<titles><title>Preserved spatial coding in hippocampal CA1 pyramidal cells during reversible suppression of CA3c output: evidence for pattern completion in hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Operant</keyword>
+<keyword>drug effects</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>methods</keyword>
+<keyword>Food Deprivation</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Pyramidal Tracts</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred F344</keyword>
+<keyword>Tetracaine</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-02T02:08:53Z</last_update_date>
+<creation_date>2008-06-25T03:26:56Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=379</url>
+<changelogs>
+<changelog date='2011-05-02T02:08:53Z'>フリーキーワード, PubMedID を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="379" version="1.02">
+<authors><author>Mizumori SJ</author><author>McNaughton BL</author><author>Barnes CA</author><author>Fox KB</author></authors>
+<journal>The Journal of neuroscience : the official journal of the Society for Neuroscience</journal>
+<volume>9</volume>
+<number>11</number>
+<page>3915-28</page>
+<abstract>Medial septal modulation of hippocampal single-unit activity was examined by assessing the behavioral and physiological consequences of reversibly inactivating the medial septum via microinjection of a local anesthetic (tetracaine) in freely behaving rats trained to solve a working memory problem on a radial maze. Reversible septal inactivation resulted in a dramatic, but temporary (15-20 min), impairment in choice accuracy. In addition, movement-induced theta (theta) modulation of the hippocampal EEG was eliminated. Septal injection of tetracaine also produced a significant reduction in location-specific firing by hilar/CA3c complex-spike cells (about 50%), with no significant change in the place-specific firing properties of CA1 complex-spike units. The mean spontaneous rates of stratum granulosum and CA1 theta cells were temporarily reduced by about 50% following septal injection of tetracaine. Although there was a significant reduction in the activities of inhibitory interneurons (theta cells) in CA1, there was no loss of spatial selectivity in the CA1 pyramidal cell discharge patterns. We interpret these results as support for the proposal originally put forth by Marr (1969, 1971) that hippocampal circuits perform pattern completion on fragmentary input information as a result of a normalization operation carried out by inhibitory interneurons. A second major finding in this study was that location specific firing of CA1 cells can be maintained in the virtual absence of the hippocampal theta-rhythm.</abstract>
+<pubmed_id>2585060</pubmed_id>
+</detail>
+</item>

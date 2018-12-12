@@ -1,0 +1,25 @@
+Action Potentials
+drug effects
+Anesthesia
+Animals
+Atropine
+pharmacology
+Cholinergic Fibers
+drug effects
+physiology
+Electric Stimulation
+Frontal Lobe
+drug effects
+physiology
+Hippocampus
+physiology
+Male
+Rats
+Rats
+Inbred Strains
+Septal Nuclei
+drug effects
+physiology
+Theta Rhythm
+Urethane
+On the basis of spontaneous firing patterns and relations to the hippocampal theta rhythm, three cell types were identified within the medial septal nucleus and vertical limb of the nucleus of the diagonal band of Broca (MSN-NDB). In addition to the well known rhythmically bursting cells that fired in bursts on each cycle of the hippocampal theta rhythm, two other cell types are distinguished. "Clock" cells fired at high rates with a very regular, periodic firing pattern that was unrelated to the theta rhythm. "Irregular" cells fired at much lower rates, especially during theta rhythm, and had a pseudo-random firing pattern. The firing of "irregular" cells was often significantly phase-locked to the hippocampal theta rhythm. Crude estimates of the relative proportions of these cell types suggest that the rhythmically bursting cells comprise about 75% of the cells of the MSN-NDB. These three cell types bear a remarkable resemblance, in firing patterns and relative proportions, to the three principal cell types of the medial septal nuclei described in the freely moving rat (Ranck 1976). Measurements of the preferred phases of firing of 128 rhythmically bursting septal neurons (including 22 atropine-resistant and 11 atropine-sensitive cells) indicate that there is no single preferred phase of firing for the population. Rather the distribution of phases over the theta cycle is statistically flat. Variations in recording locations cannot account for this distribution since large differences in preferred phase were found for pairs of cells at the same location. Similarly, plotting only the group of cells identified as projection cells by antidromic activation from the fimbria/fornix, failed to reveal a peak in the distribution. In contrast to the rhythmically bursting cells, the distribution of preferred firing phases for the "irregular" cells with a significant phase-locking to the theta rhythm did have a clear peak. The peak occurred near the dentate theta rhythm positivity, consistent with the hypothesis that they are driven by feedback from CA1 complex-spike cells.

@@ -1,0 +1,15 @@
+Animals
+Avoidance Learning
+physiology
+Conditioning (Psychology)
+physiology
+Electrophysiology
+Evoked Potentials
+Hippocampus
+physiology
+Male
+Rats
+Regression Analysis
+Synapses
+physiology
+The relationship between the learning ability of normal rats and the facility to induce long-term potentiation (LTP) in the same animals was investigated. Behavioral performance was measured in a shuttle box avoidance paradigm, using a buzzer as conditioned stimulus. Three days later animals were sacrificed; frequency threshold necessary to induce LTP was determined in transverse hippocampal slices taken from these animals and maintained in vitro. A linear regression analysis on the behavioral and electrophysiological data showed a negative correlation (Spearman rank correlation coefficient rs = -0.705; P less than 0.001) between percent of conditioned responses in the shuttle box and threshold frequency necessary to induce LTP in gyrus dentatus in response to tetanic stimulation of the perforant path. It is concluded that learning ability of normal rats in a shuttle box avoidance paradigm is correlated with hippocampal synaptic plasticity.

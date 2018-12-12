@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="707">
+<itemtype>xnppaper</itemtype>
+<titles><title>Conserving total synaptic weight ensures one-trial sequence learning of place fields in the hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-04T03:46:35Z</last_update_date>
+<creation_date>2008-07-04T03:46:35Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=707</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="707" version="1.02">
+<authors><author>Wu Z</author><author>Yamaguchi Y</author></authors>
+<journal>Neural networks : the official journal of the International Neural Network Society</journal>
+<volume>19</volume>
+<number>5</number>
+<page>547-63</page>
+<abstract>The hippocampus plays a critical role in the rapid acquisition of information from a novel experience. Recent theoretical studies on the rat hippocampus have shown the possibility of behavioral sequence learning in a single traversal experience by theta phase coding. Specifically, previous work using computer simulations demonstrated that the extent of overlap among individual events of sequence and rat running velocity should be quantitatively incorporated into the learning rule to ensure one-trial sequence learning. These extents of overlap- and running velocity-dependent properties in the learning rule are called the input-dependent regulation of the learning rule. However, the biological meaning of such learning properties remains poorly understood. In this study, we quantitatively derive these learning properties with mathematical analyses. We further find that the input-dependent regulation of the learning rule allows maintenance of total synaptic weight over a given neuron during one-trial learning. Our results predict that a homeostatic plasticity mechanism should exist for conserving total synaptic weight on a rapid timescale.</abstract>
+<pubmed_id>16153806</pubmed_id>
+</detail>
+</item>

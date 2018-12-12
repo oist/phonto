@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4924">
+<itemtype>xnppaper</itemtype>
+<titles><title>Exposing rats to a predator impairs spatial working memory in the radial arm water maze.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Analysis of Variance</keyword>
+<keyword>Animals</keyword>
+<keyword>Cats</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Predatory Behavior</keyword>
+<keyword>Punishment</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Stress</keyword>
+<keyword>Psychological</keyword>
+<keyword>physiopathology</keyword>
+<keyword>psychology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:14:57Z</last_update_date>
+<creation_date>2011-05-09T02:14:57Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4924</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4924" version="1.02">
+<authors><author>Diamond DM</author><author>Park CR</author><author>Heman KL</author><author>Rose GM</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>5</number>
+<page>542-52</page>
+<abstract>This series of studies investigated the effects of predator exposure on working memory in rats trained on the radial arm water maze (RAWM). The RAWM is a modified Morris water maze that contains four or six swim paths (arms) radiating out of an open central area, with a hidden platform located at the end of one of the arms. The hidden platform was located in the same arm on each trial within a day and was in a different arm across days. Each day rats learned the location of the hidden platform during acquisition trials, and then the rats were removed from the maze for a 30-min delay period. During the delay period, the rats were placed either in their home cage (nonstress condition) or in close proximity to a cat (stress condition). At the end of the delay period, the rats were run on a retention trial, which tested their ability to remember which arm contained the platform that day. The first experiment confirmed that the RAWM is a hippocampal-dependent task. Rats with hippocampal damage were impaired at learning the location of the hidden platform in the easiest RAWM under control (non-stress) conditions. The next three experiments showed that stress had no effect on memory in the easiest RAWM, but stress did impair memory in more difficult versions of the RAWM. These findings indicate that the capacity for stress to impair memory is influenced not only by the brain memory system involved in solving the task (hippocampal versus nonhippocampal), but also by the difficulty of the task. This work should help to resolve some of the confusion in the literature regarding the heterogeneous effects of stress on hippocampal-dependent learning and memory.</abstract>
+<pubmed_id>10560925</pubmed_id>
+</detail>
+</item>

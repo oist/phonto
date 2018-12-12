@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4790">
+<itemtype>xnppaper</itemtype>
+<titles><title>Synchronized bursting of CA1 hippocampal pyramidal cells in the absence of synaptic transmission.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cortical Synchronization</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Magnesium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Potassium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Pyramidal Tracts</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T04:55:58Z</last_update_date>
+<creation_date>2011-04-28T04:55:58Z</creation_date>
+<publication_year>1982</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4790</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4790" version="1.02">
+<authors><author>Jefferys JG</author><author>Haas HL</author></authors>
+<journal>Nature</journal>
+<volume>300</volume>
+<number>5891</number>
+<page>448-50</page>
+<abstract></abstract>
+<pubmed_id>6292731</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4916">
+<itemtype>xnppaper</itemtype>
+<titles><title>INTRACELLULAR RECORDS FROM HIPPOCAMPAL PYRAMIDAL CELLS IN RABBIT DURING THETA RHYTHM ACTIVITY.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>Cell Biology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>Neurons</keyword>
+<keyword>Rabbits</keyword>
+<keyword>Research</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T02:03:13Z</last_update_date>
+<creation_date>2011-05-09T02:03:13Z</creation_date>
+<publication_year>1964</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4916</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4916" version="1.02">
+<authors><author>FUJITA Y</author><author>SATO T</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>27</volume>
+<number></number>
+<page>1012-25</page>
+<abstract></abstract>
+<pubmed_id>14223967</pubmed_id>
+</detail>
+</item>

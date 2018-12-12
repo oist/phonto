@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4486">
+<itemtype>xnppaper</itemtype>
+<titles><title>Introduction: what is where in the medial temporal lobe?</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T03:55:03Z</last_update_date>
+<creation_date>2011-01-28T03:55:03Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4486</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4486" version="1.02">
+<authors><author>Amaral DG</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>1</number>
+<page>1-6</page>
+<abstract></abstract>
+<pubmed_id>10088895</pubmed_id>
+</detail>
+</item>

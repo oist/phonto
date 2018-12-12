@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4761">
+<itemtype>xnppaper</itemtype>
+<titles><title>Epileptiform burst activity induced by potassium in the hippocampus and its regulation by GABA-mediated inhibition.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Bicuculline</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Epilepsy</keyword>
+<keyword>etiology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>GABA Antagonists</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Potassium</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Temperature</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T03:55:16Z</last_update_date>
+<creation_date>2011-04-28T03:55:16Z</creation_date>
+<publication_year>1987</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4761</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4761" version="1.02">
+<authors><author>Korn SJ</author><author>Giacchino JL</author><author>Chamberlin NL</author><author>Dingledine R</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>57</volume>
+<number>1</number>
+<page>325-40</page>
+<abstract>Intracellular and extracellular recordings were made from pyramidal neurons in hippocampal slices in order to study spontaneous paroxysmal bursting induced by raising the extracellular potassium concentration from 3.5 to 8.5 mM. Extracellular recordings from all hippocampal subfields indicated that spontaneous bursts appeared to originate in region CA3c or CA3b as judged by burst onset. Burst intensity was also greatest in regions CA3b and CA3c and became progressively less toward region CA2. Intracellular recordings indicated that in 8.5 mM potassium, large spontaneous excitatory postsynaptic potentials (EPSPs), large burst afterhyperpolarizations, and rhythmic hyperpolarizing-depolarizing waves of membrane potential were invariably present in CA3c neurons. High potassium (8.5 mM) induced a positive shift (+9 mV) in the reversal potential of GABAergic inhibitory postsynaptic potentials (IPSPs) in CA3c neurons without changing input resistance or resting potential. This resulted in a drastic reduction in amplitude of the IPSP. Reduction of IPSP amplitude occurred before the onset of spontaneous bursting and was reversible upon return to normal potassium. A new technique to quantify the relative intensity of interictal-like burst discharges is described. Pentobarbital, diazepam, and GABA uptake inhibitors, which enhance GABA-mediated synaptic inhibition, reduced the intensity of potassium-induced bursts, whereas the GABA antagonist bicuculline increased burst intensity. Diphenylhydantoin and phenobarbital, anticonvulsants that have little effect on GABAergic inhibition, were without effect on spontaneous bursts. Burst frequency was reduced by bicuculline and 4,5,6,7-tetrahydroisoxazolo[5,4-c]pyridin-3-ol but was unaffected by other drugs. Reduction of slice temperature from 35 to 19 degrees C dramatically reduced burst intensity but did not markedly affect burst frequency. We hypothesize that high potassium induces a rise in intracellular chloride concentration, possibly by activating an inward KCl pump or by a passive Donnan effect, which results in a decreased IPSP amplitude. With inhibition suppressed, the large spontaneous EPSPs that appear in high potassium cause individual CA3c neurons to fire. A combination of synaptic and electrical interactions among CA3c cells then synchronizes discharges into interictal spike bursts.</abstract>
+<pubmed_id>3559679</pubmed_id>
+</detail>
+</item>

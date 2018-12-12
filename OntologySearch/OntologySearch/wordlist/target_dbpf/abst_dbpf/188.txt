@@ -1,0 +1,19 @@
+Animals
+Brain
+anatomy
+&
+histology
+physiology
+Cerebral Cortex
+physiology
+Electroencephalography
+Hippocampus
+physiology
+Male
+Microelectrodes
+Movement
+Rats
+Sleep
+REM
+Theta Rhythm
+A regular slow wave theta rhythm can be recorded in the medial entorhinal cortex (MEC) of freely moving rats during voluntary behaviors and paradoxical sleep. Electrode penetrations normal to the cortical layers proceeding from the deeper to the more superficial layers reveal a continuous theta rhythm in layers IV-III (deep MEC theta rhythm) with an amplitude maximum in layer III, a null between the outer one-third of layer III and the inner one-half of layer I, and a continuous phase-reversed theta rhythm in layers II-I (superficial MEC theta rhythm) with an amplitude maximum there. Deep MEC theta rhythm is similar in phase and wave shape to CA1 theta rhythm; superficial MEC theta rhythm is similar in phase to DG theta rhythm. Laminar profiles throughout MEC show that the theta rhythm is generated there; it is not volume conducted from hippocampus.

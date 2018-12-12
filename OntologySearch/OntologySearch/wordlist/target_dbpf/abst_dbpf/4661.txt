@@ -1,0 +1,18 @@
+Adult
+Cortical Synchronization
+Entorhinal Cortex
+physiology
+Epilepsy
+Temporal Lobe
+physiopathology
+Female
+Hippocampus
+physiology
+Humans
+Male
+Memory
+physiology
+Neural Pathways
+physiology
+Theta Rhythm
+The hippocampus and the rhinal cortex, two substructures of the medial temporal lobe, together play a crucial role in human declarative memory formation. To investigate in detail the mechanism connecting these two structures transiently during memory formation we recorded depth EEG in epilepsy patients from within the hippocampus and the rhinal cortex. During this recording, patients performed a single-trial word list-learning paradigm with a free recall memory test following a distraction task. Rhinal-hippocampal EEG coherence and spectral power at both locations in the time interval up to 2 s after onset of word presentation were analysed in the frequency range 1-19 Hz. Successful as opposed to unsuccessful memory formation was associated with a general rhinal-hippocampal coherence enhancement, but without alterations in spectral power. Coherence increases in the theta range were correlated with the previously reported memory-related changes in rhinal-hippocampal gamma phase synchronization. This correlation may suggest an interaction of the two mechanisms during declarative memory formation. While theta coherence might be associated with slowly modulated coupling related to an encoding state, rhinal-hippocampal gamma synchronization may be more closely related to actual memory processes by enabling fast coupling and decoupling of the two structures.

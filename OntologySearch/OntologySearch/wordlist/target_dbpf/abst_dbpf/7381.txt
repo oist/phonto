@@ -1,0 +1,20 @@
+Animals
+Cell Culture Techniques
+Coculture Techniques
+Female
+Hippocampus
+cytology
+Kv1.2 Potassium Channel
+metabolism
+Myelin Sheath
+physiology
+Neurons
+cytology
+metabolism
+Oligodendroglia
+Rats
+Rats
+Sprague-Dawley
+Signal Transduction
+Synaptic Transmission
+Axons of various hippocampal neurons are myelinated mainly postnatally, which is important for the proper function of neural circuits. Demyelination in the hippocampus has been observed in patients with multiple sclerosis, Alzheimer's disease or temporal lobe epilepsy. However, very little is known about the mechanisms and exact functions of the interaction between the myelin-making oligodendrocytes and the axons within the hippocampus. This is mainly attributable to the lack of a system suitable for molecular studies. We recently established a new myelin coculture from embryonic day (E) 18 rat embryos consisting of hippocampal neurons and oligodendrocytes, with which we identified a novel intra-axonal signaling pathway regulating the juxtaparanodal clustering of Kv1.2 channels. Here we describe the detailed protocol for this new coculture. It takes about 5 weeks to set up and use the system. This coculture is particularly useful for studying myelin-mediated regulation of ion channel trafficking and for understanding how neuronal excitability and synaptic transmission are regulated by myelination.

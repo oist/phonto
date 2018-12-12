@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7513">
+<itemtype>xnppaper</itemtype>
+<titles><title>Encoding versus retrieval of spatial memory: double dissociation between the dentate gyrus and the perforant path inputs into CA3 in the dorsal hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Colchicine</keyword>
+<keyword>Denervation</keyword>
+<keyword>Dentate Gyrus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory Disorders</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Mossy Fibers</keyword>
+<keyword>Hippocampal</keyword>
+<keyword>injuries</keyword>
+<keyword>physiology</keyword>
+<keyword>surgery</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurotoxins</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Perforant Pathway</keyword>
+<keyword>injuries</keyword>
+<keyword>physiology</keyword>
+<keyword>surgery</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T06:43:52Z</last_update_date>
+<creation_date>2013-03-28T06:43:52Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7513</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7513" version="1.02">
+<authors><author>Lee I</author><author>Kesner RP</author></authors>
+<journal>Hippocampus</journal>
+<volume>14</volume>
+<number>1</number>
+<page>66-76</page>
+<abstract>The hippocampus is an essential neural structure for spatial memory. Computational models suggest that the CA3 subregion of the hippocampus plays an essential role in encoding and retrieval of spatial memory. The perforant path (PPCA3) and dentate gyrus (DG)-mediated mossy fibers (MFs) compose major afferent inputs into CA3. A possible functional dissociation between these afferent inputs was attempted using a simple navigation test (i.e., the modified Hebb-Williams maze). Behavioral testing was combined with electrolytic lesions of PPCA3 or neurotoxic lesions of the DG, to eliminate each afferent input into CA3. Lesions in either afferent input into CA3 affected learning of an effective navigational path on the maze. The contributions of the two CA3 afferent inputs, however, were different regarding encoding and retrieval of memory measured based on indices operationally defined for the behavioral paradigm (i.e., encoding, the number of errors reduced within a day; retrieval, the number of errors reduced between days). The DG-lesioned animals exhibited deficits regarding the encoding index, but not the retrieval index, whereas the PPCA3-lesioned rats displayed deficits regarding the retrieval index, but not the encoding index. The results suggest that the two major afferent inputs of CA3 may contribute differentially to encoding and retrieval of spatial memory.</abstract>
+<pubmed_id>15058484</pubmed_id>
+</detail>
+</item>

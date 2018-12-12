@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5698">
+<itemtype>xnppaper</itemtype>
+<titles><title>Spatial memory in the rat requires the dorsolateral band of the entorhinal cortex.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Denervation</keyword>
+<keyword>Entorhinal Cortex</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory Disorders</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-09-22T03:49:04Z</last_update_date>
+<creation_date>2011-09-22T03:49:04Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5698</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5698" version="1.02">
+<authors><author>Steffenach HA</author><author>Witter M</author><author>Moser MB</author><author>Moser EI</author></authors>
+<journal>Neuron</journal>
+<volume>45</volume>
+<number>2</number>
+<page>301-13</page>
+<abstract>The extensive connections of the entorhinal cortex with the hippocampus and the neocortex point to this region as a major interface in the hippocampal-neocortical interactions underlying memory. We asked whether hippocampal-dependent recall of spatial memory depends on the entorhinal cortex, and, if so, which parts are critical. After training in a Morris water maze, rats received fiber-sparing lesions in the dorsolateral band of the entorhinal cortex, which mediates much of the visuospatial input to the dorsal hippocampus. These lesions entirely disrupted retention and retarded new learning. Spatial memory was spared by lesions in the ventromedial band, which connects primarily with ventral hippocampus, but these lesions reduced defensive behavior on an elevated plus maze, mirroring the effects of damage to ventral hippocampus. The results suggest that the functional differences between dorsal and ventral hippocampus reflect their connectivity with modules of the entorhinal cortex that are differently linked to the rest of the cortex.</abstract>
+<pubmed_id>15664181</pubmed_id>
+</detail>
+</item>

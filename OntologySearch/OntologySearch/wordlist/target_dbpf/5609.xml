@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5609">
+<itemtype>xnppaper</itemtype>
+<titles><title>Noise Effect on Memory Recall in Dynamical Neural Network Model of Hippocampus</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-07-22T03:01:55Z</last_update_date>
+<creation_date>2011-07-22T03:01:55Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5609</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5609" version="1.02">
+<authors><author>Omori T</author><author>Horiguchi T</author></authors>
+<journal>Journal of the physical Society of Japan</journal>
+<volume>71</volume>
+<number></number>
+<page>1598-1604</page>
+<abstract>We investigate some noise effect on a neural network model proposed by Araki and Aihara for the memory recall of dynamical patterns in the hippocampus and the entorhinal cortex; the noise effect is important since the release of transmitters at synaptic clefts, the operation of gate of ion channels and so on are known as stochastic phenomena. We consider two kinds of noise effect due to a deterministic noise and a stochastic noise. By numerical simulations, we find that reasonable values of noise give better performance on the memory recall of dynamical patterns. Furthermore we investigate the effect of the strength of external inputs on the memory recall</abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

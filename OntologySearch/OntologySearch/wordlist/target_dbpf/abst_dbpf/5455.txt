@@ -1,0 +1,12 @@
+Animals
+Computer Simulation
+Hippocampus
+physiology
+Humans
+Models
+Biological
+Nerve Net
+physiology
+Neurons
+physiology
+Spatial patterns of theta-rhythm activity in oscillatory models of the hippocampus are studied here using canonical models for both Hodgkin's class-1 and class-2 excitable neuronal systems. Dynamics of these models are studied in both the frequency domain, to determine phase-locking patterns, and in the time domain, to determine the amplitude responses resulting from phase-locking patterns. Computer simulations presented here demonstrate that phase deviations (timings) between inputs from the medial septum and the entorhinal cortex can create spatial patterns of theta-rhythm phase-locking. In this way, we show that the timing of inputs (not only their frequencies alone) can encode specific patterns of theta-rhythm activity. This study suggests new experiments to determine temporal and spatial synchronization.

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6707">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neural repetition effects in the medial temporal lobe complex are modulated by previous encoding experience.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:29:55Z</last_update_date>
+<creation_date>2013-02-26T07:29:55Z</creation_date>
+<publication_year>2012</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6707</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6707" version="1.02">
+<authors><author>Greene CM</author><author>Soto D</author></authors>
+<journal>PloS one</journal>
+<volume>7</volume>
+<number>7</number>
+<page>e40870</page>
+<abstract>It remains an intriguing question why the medial temporal lobe (MTL) can display either attenuation or enhancement of neural activity following repetition of previously studied items. To isolate the role of encoding experience itself, we assessed neural repetition effects in the absence of any ongoing task demand or intentional orientation to retrieve. Experiment 1 showed that the hippocampus and surrounding MTL regions displayed neural repetition suppression (RS) upon repetition of past items that were merely attended during an earlier study phase but this was not the case following re-occurrence of items that had been encoded into working memory (WM). In this latter case a trend toward neural repetition enhancement (RE) was observed, though this was highly variable across individuals. Interestingly, participants with a higher degree of neural RE in the MTL complex displayed higher memory sensitivity in a later, surprise recognition test. Experiment 2 showed that massive exposure at encoding effected a change in the neural architecture supporting incidental repetition effects, with regions of the posterior parietal and ventral-frontal cortex in addition to the hippocampus displaying neural RE, while no neural RS was observed. The nature of encoding experience therefore modulates the expression of neural repetition effects in the MTL and the neocortex in the absence of memory goals.</abstract>
+<pubmed_id>22829892</pubmed_id>
+</detail>
+</item>

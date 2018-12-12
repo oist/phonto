@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6670">
+<itemtype>xnppaper</itemtype>
+<titles><title>Dissociating hippocampal and basal ganglia contributions to category learning using stimulus novelty and subjective judgments.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Basal Ganglia</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Decision Making</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Intuition</keyword>
+<keyword>physiology</keyword>
+<keyword>Judgment</keyword>
+<keyword>physiology</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:05:09Z</last_update_date>
+<creation_date>2013-02-26T07:05:09Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6670</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6670" version="1.02">
+<authors><author>Seger CA</author><author>Dennison CS</author><author>Lopez-Paniagua D</author><author>Peterson EJ</author><author>Roark AA</author></authors>
+<journal>NeuroImage</journal>
+<volume>55</volume>
+<number>4</number>
+<page>1739-53</page>
+<abstract>We identified factors leading to hippocampal and basal ganglia recruitment during categorization learning. Subjects alternated between blocks of a standard trial and error category learning task and a subjective judgment task. In the subjective judgments task subjects categorized the stimulus and then instead of receiving feedback they indicated the basis of their response using 4 options: Remember: Conscious episodic memory of previous trials. Know-Automatic: Automatic, rapid response accompanied by conscious awareness of category membership. Know-Intuition: A&quot;gut feeling&quot;without fully conscious knowledge of category membership. Guess: Guessing. In addition, new stimuli were introduced throughout the experiment to examine effects of novelty. Categorization overall recruited both the basal ganglia and posterior hippocampus. However, basal ganglia activity was found during Know judgments (both Automatic and Intuition), whereas posterior hippocampus activity was found during Remember judgments. Granger causality mapping indicated interactions between the basal ganglia and hippocampus, with the putamen exerting directed influence on the posterior hippocampus, which in turn exerted directed influence on the posterior caudate nucleus. We also found a region of anterior hippocampus that showed decreased activity relative to baseline during categorization overall, and showed a strong novelty effect. Our results indicate that subjective measures may be effective in dissociating basal ganglia from hippocampal dependent learning, and that the basal ganglia are involved in both conscious and unconscious learning. They also indicate a dissociation within the hippocampus, in which the anterior regions are sensitive to novelty, and the posterior regions are involved in memory based categorization learning.</abstract>
+<pubmed_id>21255655</pubmed_id>
+</detail>
+</item>

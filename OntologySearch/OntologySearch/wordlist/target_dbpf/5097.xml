@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5097">
+<itemtype>xnppaper</itemtype>
+<titles><title>Considerations arising from a complementary learning systems perspective on hippocampus and neocortex.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Amnesia</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Evaluation Studies as Topic</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-16T03:34:18Z</last_update_date>
+<creation_date>2011-05-16T03:34:18Z</creation_date>
+<publication_year>1996</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5097</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5097" version="1.02">
+<authors><author>McClelland JL</author><author>Goddard NH</author></authors>
+<journal>Hippocampus</journal>
+<volume>6</volume>
+<number>6</number>
+<page>654-65</page>
+<abstract>We discuss a framework for the organization of learning systems in the mammalian brain, in which the hippocampus and related areas form a memory system complementary to learning mechanisms in neocortex and other areas. The hippocampal system stores new episodes and &quot;replays&quot; them to the neocortical system, interleaved with ongoing experience, allowing generalization as cortical memories form. The data to account for include: 1) neurophysiological findings concerning representations in hippocampal areas, 2) behavioral evidence demonstrating a spatial role for hippocampus, 3) and effects of surgical and pharmacological manipulations on neuronal firing in hippocampal regions in behaving animals. We hypothesize that the hippocampal memory system consists of three major modules: 1) an invertible encoder subsystem supported by the pathways between neocortex and entorhinal cortex, which provides a stable, compressed, invertible encoding in entorhinal cortex (EC) of cortical activity patterns, 2) a memory separation, storage, and retrieval subsystem, supported by pathways between EC, dentate gyrus and area CA3, including the CA3 recurrent collaterals, which facilitates encoding and storage in CA3 of individual EC patterns, and retrieval of those CA3 encodings, in a manner that minimizes interference, and 3) a memory decoding subsystem, supported by the Shaffer collaterals from area CA1 to area CA3 and the bi-directional pathways between EC and CA3, which provides the means by which a retrieved CA3 coding of an EC pattern can reinstate that pattern on EC. This model has shown that 1) there is a trade-off between the need for information-preserving, structure-extracting encoding of cortical traces and the need for effective storage and recall of arbitrary traces, 2) long-term depression of synaptic strength in the pathways subject to long-term potentiation is crucial in preserving information, 3) area CA1 must be able to exploit correlations in EC patterns in the direct perforant path synapses.</abstract>
+<pubmed_id>9034852</pubmed_id>
+</detail>
+</item>

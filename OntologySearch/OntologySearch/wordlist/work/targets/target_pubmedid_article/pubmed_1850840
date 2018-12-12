@@ -1,0 +1,893 @@
+Proc. Nail. Acad. Sci. USA
+Vol. 88, pp. 3897-3901, May 1991
+Biophysics
+
+Bursting electrical activity in pancreatic 18 cells caused by Ca2 -
+and voltage-inactivated Ca2+ channels
+JOEL KEIZERtt AND PAUL SMOLENt§
+tInstitute of Theoretical Dynamics and tDepartment of Chemistry, University of California, Davis, CA 95616
+
+Communicated by Terrell L. Hill, January 15, 1991 (received for review September 26, 1990)
+
+We investigate the hypothesis that two classes
+ABSTRACT
+of Ca2+ currents, one quickly inactivated by Ca2' and one
+slowly inactivated by voltage, contribute to bursting electrical
+activity in pancreatic islets. A mathematical model of these
+currents is fit to the experimental whole-cell current-voltage
+and inactivation profiles, thereby fixing the Ca2+ conductance
+and all activation and inactivation parameters. Incorporating
+these currents into a model that includes delayed rectifier K+
+channels and ATP-sensitive K+ channels, we show that only
+abnormal bursting is obtained. Modification of activation
+parameters to increase Ca2+ channel open times, as suggested
+by experiment, yields a more robust bursting similar to that
+observed in intact islets. This reinforces the suggestion that in
+addition to ATP-sensitive K+ channels, Ca2+ channels may
+serve as glucose sensors in the 13 cell.
+
+I. Introduction
+
+Pancreatic ,8 cells, when perifused in islets with physiological
+glucose concentrations that induce insulin secretion, also
+exhibit a rhythmic electrical activity called bursting (1-7).
+Several K+ and Ca2l
+ion channels have been implicated in
+bursting. Voltage-gated K+ and Ca2+ channels are thought to
+be responsible for the action potential spikes (8), while
+Ca2+-activated K+ channels (KCa) (9) and ATP-sensitive K+
+channels (KATP) (10, 11) have been proposed as "trigger" or
+"pacemaker" channels. Mathematical models that include
+the voltage-gated channels and one or both of the trigger
+channels have shown that both mechanisms can support
+bursting (12, 13). Recent experimental evidence, however,
+has called into question the relevance of both KCa channels
+and KATP channels. Indeed, Kukuljan et al. (14) have shown
+that charybdotoxin, which specifically inhibits KCa channels
+in the /8 cell, has no effect on bursting, while Smith et al. (15)
+conclude that the total KATP conductance changes by <10
+pS per cell, a value that may be too small to account for
+repolarization. Furthermore, isolated ,B cells and small clus-
+ters can support bursting more regular than can be accounted
+for by the small number of active KCa and KATP channels
+in single cells.
+Recently, Satin and Cook (16, 17) have proposed that slow
+voltage inactivation of Ca2+ channels might be involved in
+repolarization of the bursts. In addition to the fast (order of
+75 ms) Ca2+ inactivation of Ca2+ channels (18), they report
+evidence for voltage inactivation of calcium current on the
+time scale of 1-10 s. Similar results are found in both HIT
+cells (17) and cultured adult mouse cells (18), both of which
+exhibit bursting-type electrical activity and insulin secretion.
+Satin and Cook interpret their Ca2+ currents in terms of
+distinct fast Ca2+-inactivated and slow voltage-inactivated
+channels. In this paper, we develop a mathematical model of
+these currents, which we combine with the delayed rectifier
+
+K+ current (8) and a KATP current (15) to examine whole-
+cell electrical activity and bursting.
+
+II. HIT Cell Model for Ca21 Currents
+
+The mathematical model developed in this section includes
+two Ca2+ currents and two K+ currents. The calcium cur-
+rents correspond to the fast Ca2'-inactivated and slow volt-
+age-inactivated Ca2+ channels found by Satin and Cook (17)
+in HIT cells (19, 20), while the K+ currents are due to the K+
+delayed rectifier (8) and KATP channels with a constant
+conductance whose value is set by the ATP/ADP ratio (21).
+The K+ delayed rectifier has been analyzed by Sherman et al.
+(22), who assigned it a maximal conductance of 2500 pS per
+cell and the activation parameters in the Appendix. The
+magnitude of the KATP conductance in mouse p cells has
+been estimated to be 360 pS per cell in the presence of 8 mM
+glucose (23). We use conductance values of this order in our
+calculations and a K+ reversal potential of -75 mV (12, 13,
+22). Standard values of the capacitance and cell area have
+been adopted (22).
+
+According to Satin and Cook (17), the whole-cell Ca2+
+current consists of contributions from two classes of chan-
+nels, which we write in the Goldman-Hodgkin-Katz form
+
+ICa = gCaCaoV/[l - exp(2FV/RT)],
+
+[1]
+where V is the membrane potential, RT/F is the usual thermal
+voltage, Ca. is the external Ca2" concentration (mM), and 9ca
+is the conductance-mM-', written as
+
+gCa = gCa[POf'Xf + ms (V)J(1 - Xf)].
+
+[2]
+The first term in Eq. 2 represents the conductance of the fast
+Ca2"-inactivated Ca2+ channels, which carry a fraction Xf of
+the maximal conductance, gca. We use the domain model of
+Sherman et al. (24) to describe Ca2+ inactivation. [See the
+Appendix, where POf is the fraction of open channels, 0, in
+the scheme (A5) and I is the state inactivated by the voltage-
+dependent calcium concentration at the mouth of open chan-
+nels, Cad(V).] The second term in Eq. 2 is the slow voltage-
+inactivated Ca2+ conductance, for which ms'(V) is the steady-
+state activation (assumed rapid), and J is the voltage-
+dependent inactivation, which relaxes to its voltage-
+dependent steady-state value, J(V), according to
+
+dJ/dt = -[J - Jo(V)]/Tj(V),
+with the voltage-dependent time constant, rj.
+
+The usual Boltzmann functional form is assumed for the
+activation, m'(V). Based on Satin and Cook's observations
+(17), the half-activation voltage is shifted 10 mV positive from
+that for the steady-state activation, mr(V), for the fast
+Ca2'-inactivated channels. Boltzmann-type formulas are
+also assumed for the steady-state inactivation, JN(V), and the
+
+[3]
+
+The publication costs of this article were defrayed in part by page charge
+payment. This article must therefore be hereby marked "advertisement"
+in accordance with 18 U.S.C. §1734 solely to indicate this fact.
+
+§Present address: Mathematical Research Branch, Building 31,
+Room 4B-54, National Institutes of Health, Bethesda, MD 20892.
+
+3897
+
+3898
+
+Biophysics: Keizer and Smolen
+
+Proc. Natl. Acad. Sci. USA 88 (1991)
+
+inactivation time, rj(V). Details of the functional forms and
+parameters are given in the Appendix.
+
+To describe the time course of the whole-cell voltage and
+
+current we use the differential equation (12, 25, 37)
+
+CdV/dt= -, Is,
+
+[4]
+
+where C is the capacitance and the sum is over the appro-
+priate ion currents. To fix parameter values for the Ca2'
+channels, the Ca2+ current in Eqs. 1 and 2 is used by itself in
+this expression. To analyze bursting activity, the KATP and
+delayed rectifier K+ currents in the Appendix are also added
+to the right-hand side of Eq. 4.
+
+We have used the results of Satin and Cook's experimental
+activation and inactivation measurements (17) to fit the
+parameters of the two Ca2+ currents described above. We
+have simulated three key types of experiments: (i) 40-ms and
+10-s voltage clamp experiments at various test potentials
+starting from a holding potential of -100 mV (to determine
+peak I-V relationships and time course of activation and
+inactivation); (ii) three-pulse protocols to measure inactiva-
+tion due to 40-ms and 10-s conditioning at fixed potential; and
+(iii) 100-ms conditioning pulses at + 10 mV to measure the I-V
+relationship for the slowly inactivating current.
+
+To simulate the first type of experiment, we utilized Eq. 4,
+supplemented with Eqs. 1-3 and the dynamical equations for
+fast Ca2+ inactivation of Sherman et al. (24). The resulting
+peak I-V curve in 40-ms voltage clamp is shown in Fig. LA.
+The maximal current of -65 pA and the general shape of the
+curve below +50 mV is similar to that shown in figure 2B of
+
+1.0
+
+r.
+
+o 0.8,
+
+(.
+
+,-'0.6
+
+co 0.4
+0)
+
+0 80
+
+4I
+
+-100
+
+-80
+
+-60
+
+-40
+
+-20
+
+0
+
+20
+
+40
+
+60
+
+80
+
+0
+
+-84.'
+
+0
+
+4-)
+
+(8
+
+0.0
+
+-80
+
+-60
+
+-40
+
+-20
+
+0
+
+Voltage,
+
+mV
+
+- l00
+
+FIG. 1.
+
+Simulated peak I-V curves (solid line), and simulated
+inactivation curves determined via the three-pulse protocol incor-
+porating either a 40-ms (triangles) or 10-s (circles) conditioning pulse.
+(A) Results with the standard parameter set found to best reproduce
+HIT cell data: Vmf = -3 mV, Smf = 10 mV, Vj = -40 mV, Sj = 7 mV,
+Vms = 7 mV, S.s = 14 mV, Cao = 3 mM, k- = 0.002 ms-1, k* = 7.56
+X 10-4 ms-1.mM-1.mV-1, Xf = 0.45, Rca = 3.92 x 103 pSmM-1, and
+Tj = 30 s. (B) Results with the modified parameter set that gives good
+bursting electrical activity; the differences from A are k* = 4.73 x
+10-5 ms-1 mM-1 mV-1, Vmf = -8 mV, Vms = +2 mV.
+
+Satin and Cook (17). With the "standard" parameter values
+given in Fig. 1, we obtain somewhat higher currents below
+-40 mV than were shown experimentally. This may be due
+in part to the experimental method of leak subtraction since
+Plant (18) finds somewhat larger fractional currents in this
+range using 10 mM external Ca2+. The complete current time
+records of these 40-ms simulations (data not shown) are
+similar in time scale and magnitude to the data of Satin and
+Cook (17). It should be noted that the measured inactivation
+rates in HIT cells are faster than the rates measured in mouse
+,f cells (18, 26). To account for this, as well as for the fact that
+HIT inactivation is not lost after holding for 100 ms at -100
+mV, the inactivation rate constant, kV, has been increased to
+4 times the value used by Sherman et al. (24) and the
+reactivation rate constant, k-, was decreased by nearly an
+order of magnitude (see Appendix).
+
+Good fits to the 10-s voltage clamp time records (figure 2A
+in ref. 19), which show inactivation on the 1- to 7-s time scale,
+are also obtained with the standard parameters given in Fig.
+1. In good agreement with their measurements, the relaxation
+time Tjis 0.84 s at V = +10 mV and 7.0 s at V = -20 mV.
+Theoretical results for the 40-ms and 10-s inactivation
+curves based on the standard parameter set are also shown in
+Fig. 1. The protocol used for the simulations mimicked the
+three-pulse protocol ofSatin and Cook (17)-namely, holding
+at -100 mV followed by a 10-ms pulse at +10 mV; 150 ms at
+-100 mV; 40 ms (or 10 s) at the conditioning potential; 40 ms
+at -100 mV; and a final 10-ms pulse at +10 mV. The peak
+currents in the first (Ipl) and final (Ip2) pulses to + 10 mV were
+recorded, and the fraction of channels not inactivated (h) was
+estimated from the formula h = IP2/lpl (18). We show results
+for the 40-ms simulations only for potentials less than +20
+mV since at higher potentials our theoretical expression for
+Tj(V) becomes significantly smaller than the limiting value of
+1 s reported experimentally (17). This leads to significant
+inactivation of the slow-voltage inactivated current above
++20 mV even on the 40-ms time scale and, thus, to spurious
+results. In the physiological region below +20 mV our 40-ms
+inactivation curves reproduce the correct amount of maximal
+inactivation (45%) and the overall shape of the inactivation
+curves. Indeed, our simulations even capture the residual,
+nearly constant, level of inactivation below -50 mV that is
+seen experimentally. According to our calculations this is not
+due to inactivation ofthe slow current, as speculated by Satin
+and Cook (17), but rather to the kinetics of inactivation of the
+fast-inactivated channels.
+Our simulations of the 10-s inactivation protocol show
+good agreement with experiments at all values of potential
+(figure 4B in ref. 17). The increase in inactivation on this time
+scale between -80 and 0 mV is the sum of the steady-state
+voltage inactivation, J"(V), and the steady-state fast Ca2+
+inactivation, hf(V) (see Appendix). Positive to 0 mV, the
+steady-state value ofJ'(V) is essentially 0 and the decline of
+inactivation (seen both in Fig. 1A and the experiment) is due
+to a lengthening of the transition time from the open state to
+the inactivated state as the potential approaches the reversal
+potential of Ca2+.
+As a final check on our Ca2+ currents, we carried out
+100-ms conditioning pulses at +10 mV, followed by 40 ms
+holding at -100 mV, and we measured the peak I-V curve of
+the remaining current at various test voltages. The resulting
+I-V curve (data not shown) is shifted -10 mV to the right and
+decreased in magnitude by almost exactly 50% compared to
+the unconditioned I-V curve in Fig. LA. This also is in good
+agreement with Satin and Cook (17) (cf. their figure 8B). Our
+simulation results for the conditioned I-V curve are within
+10% of the theoretical curve obtained by setting POf = 1.3 x
+10-3 and J = 0.90 in Eqs. 1 and 2, the values achieved after
+conditioning. This lends support to the idea that conditioning
+
+Biophysics: Keizer and Smolen
+
+Proc. Natl. Acad. Sci. USA 88 (1991)
+
+3899
+
+at +10 mV predominantly inactivates the fast Ca2+-
+inactivated channel.
+
+While our standard set of Ca2+ channel parameters leads to
+good agreement with Satin and Cook's HIT cell experiments
+(17), we have not attempted to fit the data to better than
+5-10%. We have settled on this degree of accuracy because
+the experiments show a great deal of natural variation from
+cell to cell. In an effort to reduce the juggling of parameters,
+we have fixed many of them to agree with previous work (22,
+24) and focused on obtaining a good set of parameters for the
+slow channel, the maximal current fraction of the fast chan-
+nels, and kinetic parameters for Ca2+ inactivation of the fast
+channels. We note that previous attempts (27, 28) to explore
+cell by using slow voltage-inactivating Ca2+
+bursting in the ,
+channels have employed parameters at serious odds with
+both HIT and mouse cell experiments-e.g., a shift of the
+slow voltage activation 25-28 mV negative rather 10 mV
+positive of the fast voltage inactivation (28, 29).
+
+III. Analysis of Whole-Cell Electrical Activity
+
+To analyze whole-cell electrical activity we used the fast and
+slow Ca2+ currents given in Eqs. 1-3 along with the delayed
+rectifier K+ and ATP-sensitive K+ currents described in the
+Appendix. Having fixed the parameters of the Ca2+ currents,
+the primary parameters varied in this section are rT, the rate
+of activation of the delayed rectifier, and the total conduc-
+tance of the ATP-sensitive K+ channel, GATP. We justify this
+based on the facts that the rate of activation of the delayed
+rectifier is known to be temperature dependent (30), while
+GATP is a function ofglucose concentration (10, 11). While the
+maximal value of GATP in the absence of glucose has been
+estimated to be 5100 pS in mouse 8 cells, it is reduced by
+some 80-90% in the presence of 8 mM glucose (15). In our
+simulations, a gradual reduction of GATP through this range
+leads to a slow depolarization of the membrane potential from
+-75 mV to -68 mV. Reduction of GATP further to 235 pS
+depolarizes the cell to -56 mV. Just below this value of GATP,
+the membrane potential exhibits a kind of rhythmic, bursting
+electrical activity.
+
+While the time course of bursting depends somewhat on
+the magnitude of the activation rate of the delayed rectifier,
+Tr, bursting consists, essentially, of two "silent" states, one
+near -60 mV and another near -35 mV. The transition
+between the hyperpolarized and depolarized states is accom-
+panied by vestigial spikes of decreasing amplitude when r, =
+20 ms. When Tn is increased to 30 ms the spikes become
+somewhat more pronounced, as shown for a GATP value of
+180 pS in Fig. 2A. This general picture is not modified if the
+maximal conductance of the delayed rectifier, GK, is de-
+creased from its "standard" value of 2500 pS to as small a
+value as 500 pS or increased to 5000 pS. Thus, we conclude
+that this generic behavior, including the anomalous bursting,
+is dominated by the electrical properties of the two calcium
+currents.
+This type of bursting is abnormal and has not been reported
+for ,/ cells under physiological conditions (31). Nonetheless,
+it can be understood easily by using the same type of
+mathematical analysis that was used for previous models of
+pB-cell electrical activity (38). Analysis of the "fast" dynamics
+of the voltage, V, using the "slow" inactivation, 1 - J, as a
+parameter reveals a z-shaped curve of steady states with the
+following features: (i) a depolarized (upper) branch of stable
+steady states that are approached in an oscillatory fashion;
+(ii) a hyperpolarized (lower) branch of steady states that are
+exponentially stable; and (iii) an intermediate branch of
+steady states that are unstable. For the standard parameters
+(see Fig. 1), there is a Hopf bifurcation leading to stable
+oscillations on the upper branch at positive values of 1 - J
+below 0.18. Viewed in this fashion, the abnormal bursts
+
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+0
+S -15
+& -30
+M -45
+9 -60
+
+S
+
+D
+
+-t
+0
+
+500
+n 400
+- 300
+200
+100
+
+cu
+
+0
+
+5
+
+10
+
+Time, sec
+
+15
+
+20
+
+FIG. 2.
+
+Simulated time courses for membrane potential, frac-
+tional activation of slow calcium channels (J), and cytoplasmic free
+calcium concentration. (A) Standard parameter set for the Ca2l
+channels used in Fig. 1A, GATP = 180 PS, and Tn = 30 ms. (B-D)
+Modified parameter set (see Fig. 1B) with GATP = 380 PS, Tn = 20 ms,
+kCA = 0.24 ms-1, andf= 0.015.
+consist of three distinct portions. First, a short hyperpolar-
+ized phase on the lower branch. As 1 - J decreases, this
+evolves into several large spikes that depolarize the mem-
+brane sufficiently to cause the slow inactivation 1 - J to begin
+increasing near the upper branch. Since the upper branch
+supports only damped oscillations, the cycle is completed
+when 1 - J exceeds the value at the right "knee" of the z
+curve and then rapidly repolarizes to the lower branch. The
+major distinctions between this type of bursting behavior and
+that seen in other models are the large spikes emanating from
+the lower branch and the damped oscillations on the upper
+branch. These differences can be shown to arise from the fast
+Ca2+ inactivation in this model, which relaxes on a time scale
+intermediate between that of the voltage and the slow voltage
+inactivation. The details of this analysis will be given else-
+where.
+
+IV. Modification of Ca2+ Currents and Normal Bursting
+
+Because the HIT cell Ca2+ currents do not explain the
+electrical activity observed in the 8 cells (2, 15, 39), we have
+sought modifications in both the K+ and Ca2+ currents that
+might lead to normal bursting. Changes in the magnitude of
+the conductances of either the delayed rectifier or the ATP-
+sensitive channel do not help in this regard, nor does increas-
+ing (or decreasing) the relaxation time, rn, of the delayed
+rectifier or changing its activation parameters. Experiments
+by Smith et al. (15), however, suggest that 20 mM glucose
+increases the activity of individual Ca2+ channels and length-
+ens their mean open time. This is reversed by inhibitors of
+glucose metabolism, suggesting involvement of a metabolic
+intermediate. It is also possible that increasing the temper-
+
+3900
+
+Biophysics: Keizer and Smolen
+
+Proc. Natl. Acad. Sci. USA 88 (1991)
+
+ature causes changes in Ca2l
+channel parameters. Indeed,
+several groups have noted that both electrical activity (32)
+and intracellular Ca2+ oscillations (34) are abolished at room
+temperature, where Satin and Cook's experiments were
+performed.
+
+Thus, we checked whether increasing open times or de-
+creasing the time spent in the inactivated state would modify
+whole-cell electrical activity. To this end, we modified the
+standard activation parameters for the Ca2` currents by
+shifting the half-maximal voltage to lower potentials and
+increasing the slope at half-maximum. Changes in the oppo-
+site direction were investigated for inactivation parameters.
+The rate constant, kV, for the fast Ca2" inactivation step (see
+Appendix) was also decreased. The vast majority of these
+changes had no significant effect on bursting in the sense that
+values of GATP and Tn in the physiologically reasonable range
+led only to abnormal bursts like those in Fig. 2A.
+
+We found that shifting the half-maximal activation of both
+Ca2+ currents by -5 mV and decreasing the rate constant for
+inactivation, kV, by a factor of 16 led to the apparently normal
+bursts in Fig. 2B. The bursting period (=6 s) is somewhat
+shorter than seen experimentally (2), while spiking frequency
+(-6 s-1 decreasing to 3 s-1) is similar to that normally
+observed. The two parameter changes have the effect of
+increasing the open time for both Ca2" currents, although
+they affect most strongly the fast Ca2'-inactivated current.
+This is illustrated in Fig. 1B, in which the current and
+fractions not inactivated should be compared to Fig. 1A for
+the standard parameters. These parameter changes reduce
+the maximal inactivation in the 40-ms experiment from 45%
+to 1o and substantially reduce the inactivation in the 10-s
+experiments. The maximal current is seen to be increased by
+-40%o by these changes. We have found that smaller changes
+than this do not lead to bursting, but only to an exaggerated
+form of the abnormal bursting with more spikes during the
+transition to the depolarized state. Although the two changes
+that give rise to the modified standard parameter set are
+relatively minor, it is clear from comparing Fig. 1B with the
+results of Satin and Cook (17) that the resulting modified
+inactivation curves lie well outside experimental error. We
+conclude, therefore, that experimentally significant reduc-
+tions in the Ca2+ inactivation observed for HIT cells would
+be required to allow slow voltage inactivation to produce
+bursting.
+
+Chay (28, 29) has suggested that the half-maximal inacti-
+vation potential of a slow current, Vj, could be effective in
+modulating the duration of the active (spiking) phase of a
+burst. We have verified this to be the case for the modified
+parameter set. Indeed, when Vj is reduced from -40 mV to
+-28.6 mV, the percentage active phase increases continu-
+ously from about 37% to 90%, while the period increases from
+5.9 s to a maximum of =10.4 s before continuous spiking
+abruptly occurs.
+
+The period, x, of both the abnormal bursts and the normal
+bursts in Fig. 2 are determined predominantly by the size of
+rj(V). The period appears to be roughly the size of Tj at -20
+mV-e.g., -7 s for the modified parameter set. Indeed, we
+noted above that as Vj is increased, the period increases-
+approximately in accord with the relationship T = Tj (-20
+mV). Thus, significant increases in the bursting period be-
+yond 10 s would require significant slowing of the slow
+voltage inactivation process. Experimentally there is great
+variation in the period of bursting and periods of >120 s have
+been observed in both islets (2) and whole-cell records (15).
+To explain this fact by slow voltage inactivation alone would
+require an order of magnitude increase in the measured time
+constants for slow voltage inactivation.
+
+It is interesting that the modified value of GATP that leads
+to normal bursting is 380 pS, close to the value estimated by
+Ashcroft and Smith (23) for the conductance of mouse j3 cells
+
+in 8 mM glucose. In our calculations, increases in GATP
+displace the z curves to the left, leading to a stable hyper-
+polarized state, as described in the previous section. Small
+decreases in GATP from its modified standard value of 380
+p5-e.g., to 340 pS-however, lead to abnormal bursting not
+unlike that shown in Fig. 2A. This change, however, is more
+"normal" (32) in that normal bursting can be recovered by a
+small increase in rin (e.g., from 20 ms to 20.7 ms). This is
+caused by a shift in the Hopf bifurcation point on the upper
+branch, whose location is sensitive to both GATP and T,
+Larger values of Tn.-e.g., 22 ms-shift the Hopf bifurcation
+curve so far to the left that only the "beating" type spiking
+is observed.
+
+V. Discussion
+
+The main objective of this work was to determine whether the
+slow voltage inactivation of HIT cell Ca2' currents could
+suffice to produce bursting. The answer is a qualified "yes,"
+since without specific reduction in Ca2+ inactivation and
+increased Ca2' activation only abnormal bursts are observed.
+These modifications are in line with the observations of
+Ashcroft and Smith (15) that glucose increases Ca2"-channel
+activity. Despite the fact that 11 mM glucose is present in the
+bathing solutions of Satin and Cook (17), it is possible that in
+their whole-cell configuration a glycolytic intermediate (or a
+protein that might, for example, phosphorylate Ca2+ chan-
+nels) washed out of the cell. Another possibility is that the
+modifications necessary to achieve normal bursting might be
+caused by increasing the temperature from 200C to 220C into
+the physiological range where bursting occurs (22). It is also
+interesting to note that mouse P cells exhibit somewhat less
+inactivation than HIT cells (26). This appears to be due
+primarily to a slower inactivation time course for the fast
+Ca2'-inactivated channels, which in mouse carry only 36% of
+the maximal current (26). These modifications are in the same
+direction that we have had to modify the HIT cell data to
+achieve normal bursting. In this regard, it is also interesting
+to note that Rojas et al. (35) have presented evidence for a
+Ca2+ channel activated by glucose in human ,3 cells. If
+present in mouse and HIT cells, this channel might also
+suffice to provide the additional Ca2+ current needed to
+achieve bursting.
+
+Increasing the half-maximal inactivation potential, Vj, of
+the slow voltage-inactivated current provides another possi-
+ble link between Ca2+ currents and glucose. As we have
+mentioned, increasing Vj increases the percentage active
+phase, ultimately leading to continuous spiking. This mimics
+the effects of increased glucose concentrations in perifused
+islets, as does the fact that the bursting period, x, increases
+only slightly (36). The short bursting period (6-10 s) is a
+problematic feature of the slow voltage inactivation model.
+Data from mouse cells (26), which have a comparable voltage
+inactivation time, are of no help here, nor is an increase in
+temperature, which should only decrease relaxation times.
+Thus for slow voltage inactivation alone to serve as the
+trigger for bursting would require an increase of at least a
+factor of 2 or more in relaxation time.
+
+A new feature of our slow voltage inactivation mechanism
+is that it is independent of intracellular Ca2+. As a conse-
+quence, intracellular Ca2" concentrations do not necessarily
+have to change slowly in this model. This is important since
+Valdeomillos et al. (3) have observed that intracellular Ca2+
+increases quite rapidly on the upswing of Ca2+ oscillations in
+islets. We can account for this in the present model by using
+the simple Ca2+ balance equation
+
+f-'dc/dt = -YCa - kcac,
+
+[5]
+
+Biophysics: Keizer and Smolen
+
+Proc. Natl. Acad. Sci. USA 88 (1991)
+
+3901
+
+where c is the concentration (/LM) of free intracellular Ca2",
+f is the fraction of free Ca2", y = 4.50 x 10-6 convertsfA to
+tLM ms-', and kCa is a first-order rate constant for extrusion
+of Ca2" from the cytosol. Eq. 5 is coupled to the voltage via
+ICa and, when solved numerically by the modified parameter
+set and kCa = 0.24 ms-1, f = 0.015, yields the intracellular
+Ca2+ oscillations shown in Fig. 2D. The rapid increase in c at
+the onset of the active phase is like that seen experimentally
+(2) and unlike that obtained in previous models (12, 13, 27).
+Another interesting feature of the present bursting mech-
+anism is that it invokes two types of glucose sensors. First,
+the ATP-sensitive K+ channel is used to depolarize the cell
+into the region of the z curve where bursting is possible. And
+second, reduction of the Ca2+ inactivation and increase in the
+activation of both Ca2+ channels is used to initiate normal
+bursting and modulate the percentage active phase. Whether
+these features, or something similar, turn out to be compat-
+ible with future experimental work remains to be seen.
+
+Appendix: Functional Forms and Definition of Parameters
+
+Boltzmann-type equations are assumed for all steady-state
+activation (m', m', n') and inactivation (J) functions. For
+example, for the fast Ca2+ activation
+
+m (V) = 1/[1 + exp(Vmf - V)/Smf],
+
+[Al]
+
+and for the slow voltage inactivation
+
+JN(V) = 1/[1 + exp(V - Vj)/Sj],
+
+[A2J
+
+with comparable notation for m' and n'.
+
+The delayed rectifier current is taken from Sherman et al.
+
+(24) as IKV = gKn(V - VK), with n solving
+dn/dt = -[n - n'(V)]/rn(V).
+
+[A31
+
+The relaxation time for the delayed rectifier is
+,r(V) = 'r/{exp[V - Vn)/65] + exp[(- V + Vn)/20]}.
+[A4]
+The ATP-sensitive K+ current is written as GKATP (V - VK)-
+Kinetic parameters for the domain model of fast Ca2+
+inactivation follow the notation of Sherman et al. (24). Thus,
+in the mechanism
+
+C ;i± U ,
+
+a
+
+f
+
+k+Cad(V)
+'
+
+k-
+
+I,
+
+[A5J
+
+a(V) = 0.78 m (V), a + /3 = 0.78 (both in ms), and
+
+k+Cad(V) = k*CaOV/[1 - exp(2FV/RT)],
+
+[A6]
+with RT/2F = 13.35 mV. The units of k* are ms'1mM-1
+mV-1 and k- units are ms-1. The theoretical expression for
+the fraction not inactivated, hf(V), for the fast Ca2+ inacti-
+vation in the domain model is (24)
+
+hf(V) = 1/[1 + k+Cad(V)m (V)/k-].
+
+[A7]
+The slow voltage inactivation J satisfies Eq. 3, with rj(V)
+
+defined by the symmetrical Boltzmann formula
+TJ(V) = rj/{exp[(V - Vj)/2Sj] + exp[-(V - Vj)/2Sj]}.
+[A8]
+Other parameters that were generally fixed in this work
+(22) were VK = -75 mV, gK = 2500 pS, C = 5310 fF, Vceii
+= 2301 ,um3, Sn, = 5.6 nV, Vn = -13 mV.
+
+This work was supported by National Science Foundation Grant
+DIR-90-06104 and the Agricultural Experiment Station of the Uni-
+versity of California, Davis.
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+7.
+
+8.
+
+9.
+
+10.
+11.
+
+Dean, P. M. & Matthews, E. K. (1970) J. Physiol. (London)
+210, 225-264.
+Atwater, I., Dawson, C. M., Scott, A., Eddlestone, G. &
+Rojas, E. (1980) Biochemistry and Biophysics ofthe Pancreatic
+P3-Cell (Thieme, New York), pp. 100-107.
+Valdeomillos, M., Santos, R. M., Contreras, D., Soria, B. &
+Rosario, L. M. (1989) FEBS Lett. 259, 19-23.
+Draznin, B. & Dahl, R. (1989) in Molecular and Cellular
+Biology ofDiabetes Mellitus, eds. Draznin, B., Melmed, S. &
+LeRoith, D. (Liss, New York), Vol. 1, pp. 37-48.
+Boyd, A. E., lII, Rojan, A. S. & Gaines, K. L. (1989) in
+Molecular and Cellular Biology of Diabetes Mellitus, eds.
+Draznin, B., Melmed, S. & LeRoith, D. (Liss, New York), Vol.
+1, pp. 93-106.
+Meissner, H. (1976) J. Physiol. (Paris) 72, 757-769.
+Atwater, I., Rojas, E. & Scott, A. (1979) J. Physiol. (London)
+291, 57P (abstr.).
+Rorsman, P. & Trube, G. (1986) J. Physiol. (London) 374,
+531-547.
+Atwater, 1., Dawson, C., Ribalet, B. & Rojas, E. (1979) J.
+Physiol. (London) 288, 575-593.
+Cook, D. & Hales, C. N. (1984) Nature (London) 311, 271-273.
+Ashcroft, F., Harrison, D. & Ashcroft, S. (1984) Nature
+(London) 312, 446-448.
+Chay, T. & Keizer, J. (1983) Biophys. J. 42, 181-190.
+Keizer, J. & Magnus, G. (1989) Biophys. J. 56, 229-242.
+Kukuljan, M., Goncalves, A. A. & Atwater, 1. (1991) J.
+Membr. Biol. 119, 187-195.
+Smith, P. A., Ashcroft, F. & Rorsman, P. (1990) FEBS Lett.
+261, 187-190.
+Satin, L. S. & Cook, D. L. (1988) Pflugers Arch. 411, 401-409.
+Satin, L. S. & Cook, D. L. (1989) Pflugers Arch. 414, 1-10.
+Plant, T. D. (1988) J. Physiol. (London) 404, 731-747.
+Boyd, A. E., III, Hill, R. S., Oberwetter, J. M. & Berg, M.
+(1986) J. Clin. Invest. 77, 774-781.
+Keahey, H., Rajan, A. S., Boyd, A. E., III, & Kunze, D. L.
+(1989) Diabetes 38, 188-193.
+Misler, S., Falke, L. C., Gillis, K. & McDaniel, M. L. (1986)
+Proc. Natl. Acad. Sci. USA 83, 7119-7123.
+Sherman, A., Rinzel, J. & Keizer, J. (1988) Biophys. J. 54,
+411-425.
+Ashcroft, F. M. & Smith, D. A. (1989) J. Physiol. (London)
+417, 79P (abstr.).
+Sherman, A., Keizer, J. & Rinzel, J. (1990) Biophys. J. 58,
+985-995.
+Keizer, J. (1988) Math. Biosci. 90, 127-138.
+Hopkins, W. F., Satin, L. S. & Cook, D. L. (1991) J. Membr.
+Biol. 119, 229-239.
+Chay, T. R. & Cook, D. L. (1988) Math. Biosci. 90, 139-153.
+Chay, T. R. (1990) Am. J. Physiol. 258, C955-C965.
+Chay, T. R. (1990) J. Theor. Biol. 142, 305-315.
+Hille, B. (1984) Ionic Channels in Excitable Membranes (Sin-
+auer, Sunderland, MA), p. 330.
+Ribalet, B. & Biegelman, P. M. (1981) Am. J. Physiol. 241,
+C59-C67.
+Atwater, I., Goncalves, A., Herchuelz, A., Lebrun, P., Mal-
+aisse, W. J., Rojas, E. & Scott, E. (1984) J. Physiol. (London)
+348, 615-627.
+Falke, L. C., Gillis, K. D., Pressel, D. M. & Misler, S. (1989)
+FEBS Lett. 251, 167-172.
+Hellman, B., Gylfe, E., Grapengiesser, E., Panten, U.,
+Schwanstecher, C. & Heipel, C. (1990) Cell Calcium 11,
+413-418.
+Rojas, E., Hidalgo, J., Carroll, P. B., Li, M.-X. & Atwater, 1.
+(1990) FEBS Lett. 261, 265-270.
+Meissner, H. P. & Atwater, I. (1976) Horm. Metab. Res. 8,
+11-16.
+Plonsey, R. (1969) Bioelectric Phenomena (McGraw Hill, New
+York).
+Rinzel, J. (1985) in Ordinary and Partial Differential Equations,
+eds. Sleeman, B. D. & Jarvis, R. J. (Springer, New York), pp.
+304-316.
+Atwater, I., Carroll, P. & Li, M.-X. (1989) in Molecular and
+Cellular Biology of Diabetes Mellitus, eds. Draznin, B.,
+Melmed, S. & LeRoith, D. (Liss, New York), pp. 49-68.
+
+12.
+13.
+14.
+
+15.
+
+16.
+17.
+18.
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+26.
+
+27.
+28.
+29.
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+
+35.
+
+36.
+
+37.
+
+38.
+
+39.
+
+

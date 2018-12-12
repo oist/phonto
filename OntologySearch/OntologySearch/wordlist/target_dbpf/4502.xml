@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4502">
+<itemtype>xnppaper</itemtype>
+<titles><title>Neural models of memory.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Semantics</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T06:28:08Z</last_update_date>
+<creation_date>2011-01-28T04:41:55Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4502</url>
+<changelogs>
+<changelog date='2013-03-28T06:28:08Z'>Modified; Item Description.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4502" version="1.02">
+<authors><author>Hasselmo ME</author><author>McClelland JL</author></authors>
+<journal>Current opinion in neurobiology</journal>
+<volume>9</volume>
+<number>2</number>
+<page>184-8</page>
+<abstract>Neural models assist in characterizing the processes carried out by cortical and hippocampal memory circuits. Recent models of memory have addressed issues including recognition and recall dynamics, sequences of activity as the unit of storage, and consolidation of intermediate-term episodic memory into long-term memory.</abstract>
+<pubmed_id>10322183</pubmed_id>
+</detail>
+</item>

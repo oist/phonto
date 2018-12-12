@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3155">
+<itemtype>xnppaper</itemtype>
+<titles><title>Dual synaptic plasticity in the hippocampus: Hebbian and spatiotemporal learning dynamics.</title>
+</titles>
+<contributor uname='tsukada'>[en]Minoru Tsukada[/en][ja]塚田 稔[/ja](tsukada)</contributor>
+<keywords><keyword>B01G2</keyword>
+</keywords>
+<description>Kimitaka Kaneki
+査読あり
+原著論文
+2009/06/03</description>
+<doi></doi>
+<last_update_date>2010-10-06T09:02:42Z</last_update_date>
+<creation_date>2010-03-08T04:16:20Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3155</url>
+<changelogs>
+<changelog date='2010-10-06T09:02:42Z'>Modified; Description, Author.</changelog>
+<changelog date='2010-03-08T05:19:57Z'>Modified; Index.</changelog>
+<changelog date='2010-03-08T04:35:06Z'>Modified; Comment, Free Keywords.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3155" version="1.02">
+<authors><author>Kimitaka Kaneki</author><author>Osamu Araki</author><author>Minoru Tsukada</author></authors>
+<journal>Cognitive neurodynamics</journal>
+<volume>3</volume>
+<number>2</number>
+<page>153-63</page>
+<abstract>We assume that Hebbian learning dynamics (HLD) and spatiotemporal learning dynamics (SLD) are involved in the mechanism of synaptic plasticity in the hippocampal neurons. While HLD is driven by pre- and postsynaptic spike timings through the backpropagating action potential, SLD is evoked by presynaptic spike timings alone. Since the backpropagation attenuates as it nears the distal dendrites, we assume an extreme case as a neuron model where HLD exists only at proximal dendrites and SLD exists only at the distal dendrites. We examined how the synaptic weights change in response to three types of synaptic inputs in computer simulations. First, in response to a Poisson train having a constant mean frequency, the synaptic weights in HLD and SLD are qualitatively similar. Second, SLD responds more rapidly than HLD to synchronous input patterns, while each responds to them. Third, HLD responds more rapidly to more frequent inputs, while SLD shows fluctuating synaptic weights. These results suggest an encoding hypothesis in that a transient synchronous structure in spatiotemporal input patterns will be encoded into distal dendrites through SLD and that persistent synchrony or firing rate information will be encoded into proximal dendrites through HLD.</abstract>
+<pubmed_id>19034691</pubmed_id>
+</detail>
+</item>

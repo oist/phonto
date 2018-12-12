@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4508">
+<itemtype>xnppaper</itemtype>
+<titles><title>Delay-dependent impairment of a matching-to-place task with chronic and intrahippocampal infusion of the NMDA-antagonist D-AP5.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>2-Amino-5-phosphonovalerate</keyword>
+<keyword>pharmacokinetics</keyword>
+<keyword>Animals</keyword>
+<keyword>Autoradiography</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>drug effects</keyword>
+<keyword>Chromatography</keyword>
+<keyword>High Pressure Liquid</keyword>
+<keyword>Excitatory Amino Acid Antagonists</keyword>
+<keyword>pharmacokinetics</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Maze Learning</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory</keyword>
+<keyword>Short-Term</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Microinjections</keyword>
+<keyword>Psychomotor Performance</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Tritium</keyword>
+<keyword>diagnostic use</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-28T04:59:36Z</last_update_date>
+<creation_date>2011-01-28T04:59:36Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4508</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4508" version="1.02">
+<authors><author>Steele RJ</author><author>Morris RG</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>2</number>
+<page>118-36</page>
+<abstract>We investigated the role of NMDA receptors in memory encoding and retrieval. A delayed matching-to-place (DMP) paradigm in the watermaze was used to examine 1-trial spatial memory in rats. Over periods of up to 21 days, 4 daily trials were given to an escape platform hidden in a new location each day, with the memory interval (ITI) varying from 15 sec to 2 hours between trials 1 and 2, but always at 15 sec for the remaining ITIs. Using chronic i.c.v. infusions of D-AP5, acute intrahippocampal infusions, ibotenate hippocampus + dentate lesions and relevant aCSF or sham surgery control groups, we established: (1) the DMP task is hippocampal-dependent; (2) D-AP5 causes a delay-dependent impairment of memory in which the Groups x Delay interaction was significant on two separate measures of performance; (3) this memory impairment also occurs with acute intrahippocampal infusions; (4) the impairment occurs irrespective of whether the animals stay in or are removed from the training context during the memory delay interval; and (5) D-AP5 affects neither the retrieval of information about the spatial layout of the environment, nor memory of where the escape platform had been located on the last day before the start of chronic D-AP5 infusion. LTP in vivo in the dentate gyrus was blocked in the chronically-infused D-AP5 rats and HPLC measurements at sacrifice revealed appropriate intrahippocampal levels. Acute intrahippocampal infusion of radiolabelled D-AP5 revealed relatively restricted diffusion and was used to estimate whole-tissue hippocampal drug concentrations. These results indicate that (1) short-term memory for spatial information is independent of NMDA receptors; (2) the rapid consolidation of spatial information into long-term memory requires activation of hippocampal NMDA receptors; (3) NMDA receptors are not involved in memory retrieval; and (4) the delay-related effects of NMDA receptor antagonists on performance of this task cannot be explained in terms of sensorimotor disturbances. The findings relate to the idea that hippocampal synaptic plasticity is involved in event-memory (Morris and Frey, Phil Trans R Soc Lond B 1997;352:1489-1503) and to a computational model of one-trial DMP performance of Foster et al. (unpublished data).</abstract>
+<pubmed_id>10226773</pubmed_id>
+</detail>
+</item>

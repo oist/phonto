@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5497">
+<itemtype>xnppaper</itemtype>
+<titles><title>Commissural synapses, but not mossy fiber synapses, in hippocampal field CA3 exhibit associative long-term potentiation and depression.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Adaptation</keyword>
+<keyword>Physiological</keyword>
+<keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:29:56Z</last_update_date>
+<creation_date>2011-06-14T00:29:56Z</creation_date>
+<publication_year>1989</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5497</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5497" version="1.02">
+<authors><author>Chattarji S</author><author>Stanton PK</author><author>Sejnowski TJ</author></authors>
+<journal>Brain research</journal>
+<volume>495</volume>
+<number>1</number>
+<page>145-50</page>
+<abstract>When CA3 commissural afferents received low-frequency (weak) stimuli synchronized with a train of mossy fiber bursts (strong), associative long-term potentiation (LTP) was induced at mixed commissural and associational synapses on hippocampal CA3 pyramidal cells in vitro. In contrast, a weak mossy fiber input did not potentiate when given in phase with commissural/associational bursts. Furthermore, commissural/associational synapses receiving low-frequency stimuli out-of-phase with strong rhythmic mossy fiber input showed associative long-term depression (LTD), whereas mossy fiber synaptic strengths were not depressed when they received weak inputs out-of-phase with a strong commissural/associational input. Thus, both associative LTP and associative LTD can be induced at commissural/associational synapses, but not at mossy fiber synapses.</abstract>
+<pubmed_id>2776032</pubmed_id>
+</detail>
+</item>

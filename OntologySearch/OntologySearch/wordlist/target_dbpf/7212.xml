@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7212">
+<itemtype>xnppaper</itemtype>
+<titles><title>Rapid report: postsynaptic bursting is essential for &#039;Hebbian&#039; induction of associative long-term potentiation at excitatory synapses in rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>2-Amino-5-phosphonovalerate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Bicuculline</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Carbachol</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Amino Acids</keyword>
+<keyword>physiology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>GABA Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Parasympathetic Nervous System</keyword>
+<keyword>physiology</keyword>
+<keyword>Parasympathomimetics</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>antagonists</keyword>
+<keyword>&amp;</keyword>
+<keyword>inhibitors</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:58:18Z</last_update_date>
+<creation_date>2013-02-27T07:58:18Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7212</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7212" version="1.02">
+<authors><author>Pike FG</author><author>Meredith RM</author><author>Olding AW</author><author>Paulsen O</author></authors>
+<journal>The Journal of physiology</journal>
+<volume>518</volume>
+<number></number>
+<page>571-6</page>
+<abstract>1. The biologically relevant rules of synaptic potentiation were investigated in hippocampal slices from adult rat by mimicking neuronal activity seen during learning behaviours. Synaptic efficacy was monitored in two separate afferent pathways among the Schaffer collaterals during intracellular recording of CA1 pyramidal neurones. The effects of pairing presynaptic single spikes or bursts with postsynaptic single spikes or bursts, repeated at 5 Hz (&#039;theta&#039; frequency), were compared. 2. The pairing of ten single evoked excitatory synaptic events with ten postsynaptic single action potentials at 5 Hz, repeated twelve times, failed to induce synaptic enhancement (EPSP amplitude 95% of baseline amplitude 20 min after pairing; n = 5). In contrast, pairing the same number of action potentials, but clustered in bursts, induced robust synaptic potentiation (EPSP amplitude 163%; P&lt;0.01, Student&#039;s t test; n = 5). This potentiation was input specific, long lasting (&gt;1 h; n = 3) and its induction was blocked by an antagonist at NMDA receptors (20-50 microM D(-)-2-amino-5-phosphonopentanoic acid; EPSP amplitude 109%; n = 6). 3. Presynaptic bursting paired with postsynaptic single action potentials did not induce input specific synaptic change (113 % in the test input vs. 111 % in the control; n = 8). In contrast, postsynaptic bursting when paired with presynaptic single action potentials was sufficient to induce synaptic potentiation when the presynaptic activity preceded the postsynaptic activity by 10 ms (150 vs. 84 % in the control input; P&lt;0.01; n = 10). 4. These results indicate that, under our conditions, postsynaptic bursting activity is necessary for associative synaptic potentiation at CA1 excitatory synapses in adult hippocampus. The existence of a distinct postsynaptic signal for induction of synaptic change calls for refinement of the common interpretation of Hebb&#039;s rule, and is likely to have important implications for our understanding of cortical network operation.</abstract>
+<pubmed_id>10381601</pubmed_id>
+</detail>
+</item>

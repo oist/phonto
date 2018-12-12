@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6613">
+<itemtype>xnppaper</itemtype>
+<titles><title>Modulation of encoding and retrieval by recollection and familiarity: mapping the medial temporal lobe networks.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Image Processing</keyword>
+<keyword>Computer-Assisted</keyword>
+<keyword>Imagination</keyword>
+<keyword>physiology</keyword>
+<keyword>Judgment</keyword>
+<keyword>physiology</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mental Recall</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Reading</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Temporal Lobe</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:14:31Z</last_update_date>
+<creation_date>2013-02-26T06:14:31Z</creation_date>
+<publication_year>2011</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6613</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6613" version="1.02">
+<authors><author>de Vanssay-Maigne A</author><author>Noulhiane M</author><author>Devauchelle AD</author><author>Rodrigo S</author><author>Baudoin-Chial S</author><author>Meder JF</author><author>Oppenheim C</author><author>Chiron C</author><author>Chassoux F</author></authors>
+<journal>NeuroImage</journal>
+<volume>58</volume>
+<number>4</number>
+<page>1131-8</page>
+<abstract>Medial temporal lobe (MTL) structures are crucial for episodic memory. However, it remains unclear how these structures are involved in encoding and retrieval processes as a function of recollection and familiarity. To better elucidate MTL organization of these two processes, we implemented an fMRI protocol in which both encoding and retrieval of words were scanned in 21 healthy adults. During encoding, subjects were requested to bind each word to an emotional context (pleasant or unpleasant). Retrieval consisted of a Remember/Know procedure in two stages: first, subjects had to recognize the word, followed by the retrieval of the associated emotional context. fMRI data were reported in eight manually delineated MTL regions of interest (in the head, body and tail of the hippocampus, the entorhinal, perirhinal and parahippocampal cortices, the amygdala and the temporopolar cortex). Results obtained in 19 subjects showed four MTL patterns of activity consisting in activations of parahippocampal cortex and hippocampus in episodic encoding and retrieval and perirhinal cortex involvement in familiarity. These results are in line with the Binding of Item and Context (BIC) model predictions. Additionally, some new findings specified the familiarity MTL neural substrate by showing precise entorhinal activations during retrieval of familiar words, as well as hippocampal and amygdala deactivations in encoding of these words. Finally, we emphasize that among all four memory processes, episodic retrieval (recollection effect) was the only one eliciting strong bilateral activations in all MTL structures. These results should be considered for future studies on MTL dysfunction in patients with temporal lobe damage.</abstract>
+<pubmed_id>21763430</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5502">
+<itemtype>xnppaper</itemtype>
+<titles><title>Long-term potentiation of NMDA receptor-mediated synaptic transmission in the hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Calcium</keyword>
+<keyword>physiology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>N-Methylaspartate</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>Rats</keyword>
+<keyword>Receptors</keyword>
+<keyword>AMPA</keyword>
+<keyword>Receptors</keyword>
+<keyword>N-Methyl-D-Aspartate</keyword>
+<keyword>physiology</keyword>
+<keyword>Receptors</keyword>
+<keyword>Neurotransmitter</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-14T00:41:04Z</last_update_date>
+<creation_date>2011-06-14T00:41:04Z</creation_date>
+<publication_year>1991</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5502</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5502" version="1.02">
+<authors><author>Bashir ZI</author><author>Alford S</author><author>Davies SN</author><author>Randall AD</author><author>Collingridge GL</author></authors>
+<journal>Nature</journal>
+<volume>349</volume>
+<number>6305</number>
+<page>156-8</page>
+<abstract>Neurotransmission at most excitatory synapses in the brain operates through two types of glutamate receptor termed alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionate (AMPA) and N-methyl-D-aspartate (NMDA) receptors; these mediate the fast and slow components of excitatory postsynaptic potentials respectively. Activation of NMDA receptors can also lead to a long-lasting modification in synaptic efficiency at glutamatergic synapses; this is exemplified in the CA1 region of the hippocampus, where NMDA receptors mediate the induction of long-term potentiation (LTP). It is believed that in this region LTP is maintained by a specific increase in the AMPA receptor-mediated component of synaptic transmission. We now report, however, that a pharmacologically isolated NMDA receptor-mediated synaptic response can undergo robust, synapse-specific LTP. This finding has implications for neuropathologies such as epilepsy and neurodegeneration, in which excessive NMDA receptor activation has been implicated. It adds fundamentally to theories of synaptic plasticity because NMDA receptor activation may, in addition to causing increased synaptic efficiency, directly alter the plasticity of synapses.</abstract>
+<pubmed_id>1846031</pubmed_id>
+</detail>
+</item>

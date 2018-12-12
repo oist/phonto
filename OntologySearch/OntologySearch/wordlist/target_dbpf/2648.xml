@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="2648">
+<itemtype>xnpconference</itemtype>
+<titles><title>How reward can induce reverse replay of behavioral sequences in the hippocampus</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2009-10-14T06:10:19Z</last_update_date>
+<creation_date>2009-08-03T06:25:08Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>10</publication_month>
+<publication_mday>3</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=2648</url>
+<changelogs>
+<changelog date='2009-10-14T06:10:19Z'>発表資料 を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="2648" version="1.02">
+<conference_from_year>2006</conference_from_year>
+<conference_from_month>10</conference_from_month>
+<conference_from_mday>3</conference_from_mday>
+<conference_to_year>2006</conference_to_year>
+<conference_to_month>10</conference_to_month>
+<conference_to_mday>6</conference_to_mday>
+<presentation_type>other</presentation_type>
+<conference_title>13th International Conference on Neural Information Processing (ICONIP 2006)</conference_title>
+<place>Hong Kong</place>
+<authors><author>Molter C</author><author>Sato N</author><author>Salihoglu U</author><author>Yamaguchi Y</author></authors>
+<abstract>In a recent experiment, Foster and Wilson [1] have observed reverse replay of behavioral sequences in rodents&#039; hippocampal place cells during non-running awake state in coincidence with sharp waves. In this paper, to elucidate this reverse replay mechanism, a theta phase precession computational model is assumed in one time trial learning experiment of a behavioral sequence. Our simulations demonstrate that reverse replay can occur during sharp waves states under the assumption that place cells&#039; excitability is elevated by reward. This reward induced reverse replay in the hippocampus might serve as a basis for reinforcement learning.</abstract>
+<attachment_dl_limit>0</attachment_dl_limit>
+<attachment_dl_notify>0</attachment_dl_notify>
+</detail>
+</item>

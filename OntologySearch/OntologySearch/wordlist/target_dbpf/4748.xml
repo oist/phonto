@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4748">
+<itemtype>xnppaper</itemtype>
+<titles><title>Behavioral state dependence of homo- and hetero-synaptic modulation of dentate gyrus excitability.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Aging</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Atropine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>drug effects</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Nerve Fibers</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Inbred F344</keyword>
+<keyword>Stimulation</keyword>
+<keyword>Chemical</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T03:22:14Z</last_update_date>
+<creation_date>2011-04-28T03:22:14Z</creation_date>
+<publication_year>1993</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4748</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4748" version="1.02">
+<authors><author>Green EJ</author><author>Barnes CA</author><author>McNaughton BL</author></authors>
+<journal>Experimental brain research. Experimentelle Hirnforschung. Expérimentation cérébrale</journal>
+<volume>93</volume>
+<number>1</number>
+<page>55-65</page>
+<abstract>The effects of two different waking behavioral states on the modulation of perforant, path-evoked population spikes were studied following prestimulation of either the perforant path itself, the dentate gyrus commissural/association pathway, or the medial septum. The intermediate-latency, post-inhibitory &#039;rebound&#039; of the population spike, which normally follows short-latency, perforant path or commissure-induced inhibition, was substantially increased during forced locomotion on a treadmill, compared with quiet wakefulness. There was no effect of these behavioral states either on the short-latency inhibitory phase itself or on the average magnitude of the unconditioned population spike. The short-latency, GABA-mediated disinhibitory effect of medial septal prestimulation was slightly reduced by walking, as might be expected from the increased feedforward excitatory drive on hippocampal interneurons that occurs during walking. Septal prestimulation during walking also led to a large, intermediate-latency spike facilitation that was completely absent during the quiet, awake state. Lesions of the medial septum attenuated the effects of behavioral state on the post-inhibitory facilitation from both perforant path and commissural stimulation. Atropine reduced the walking-induced increase in intermediate-latency facilitation, but had no effect in the still condition. We conclude that, during walking, electrical stimulation within the hippocampal formation or septum leads to a delayed increase in dentate gyrus excitability that is probably mediated polysynaptically through the medial septum or fibers passing through it. This state dependency is not due to tonic suppression of the inhibitory systems within the dentate gyrus itself.</abstract>
+<pubmed_id>8467891</pubmed_id>
+</detail>
+</item>

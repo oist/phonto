@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7485">
+<itemtype>xnppaper</itemtype>
+<titles><title>Independent codes for spatial and episodic memory in hippocampal neuronal ensembles.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cues</keyword>
+<keyword>Electrodes</keyword>
+<keyword>Implanted</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Interneurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Orientation</keyword>
+<keyword>physiology</keyword>
+<keyword>Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T01:06:03Z</last_update_date>
+<creation_date>2013-03-28T01:06:03Z</creation_date>
+<publication_year>2005</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7485</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7485" version="1.02">
+<authors><author>Leutgeb S</author><author>Leutgeb JK</author><author>Barnes CA</author><author>Moser EI</author><author>McNaughton BL</author><author>Moser MB</author></authors>
+<journal>Science (New York, N.Y.)</journal>
+<volume>309</volume>
+<number>5734</number>
+<page>619-23</page>
+<abstract>Hippocampal neurons were recorded under conditions in which the recording chamber was varied but its location remained unchanged versus conditions in which an identical chamber was encountered in different places. Two forms of neuronal pattern separation occurred. In the variable cue-constant place condition, the firing rates of active cells varied, often over more than an order of magnitude, whereas the location of firing remained constant. In the variable place-constant cue condition, both location and rates changed, so that population vectors for a given location in the chamber were statistically independent. These independent encoding schemes may enable simultaneous representation of spatial and episodic memory information.</abstract>
+<pubmed_id>16040709</pubmed_id>
+</detail>
+</item>

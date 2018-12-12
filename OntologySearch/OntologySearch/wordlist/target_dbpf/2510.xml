@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="2510">
+<itemtype>xnppaper</itemtype>
+<titles><title>Entorhinal theta phase precession sculpts dentate gyrus place fields.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2009-06-08T03:20:19Z</last_update_date>
+<creation_date>2009-06-08T03:20:19Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=2510</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="2510" version="1.02">
+<authors><author>Molter C</author><author>Yamaguchi Y</author></authors>
+<journal>Hippocampus</journal>
+<volume>18</volume>
+<number>9</number>
+<page>919-30</page>
+<abstract>It is known that the hippocampus facilitates memory formation and spatial representation and that hippocampal place cells establish spatial representations with firing activity modulated in terms of &#039;theta phase precession&#039;. Clarifying how these spatial and temporal activities interact to process information is essential for a more coherent understanding of the way the hippocampus works. Recently, it has been reported that layer II entorhinal cortical cells, which mediate the majority of the cortical inputs to the dentate gyrus (DG), located at the gate of the hippocampus, fire with theta phase precession according to a grid-like pattern. Here we hypothesize that the temporal code of entorhinal grid neurons firing with theta phase precession provides selectivity in input integration of dentate neurons to support the emergence of place fields. Our large-scale network model analyses demonstrated that, by assuming coincidence detection properties of dentate neurons, grid fields are reliably transformed to place fields in a novel environment. Furthermore, global remapping of place fields in sequential experiences of environments can be obtained in agreement with known experimental observation. These findings indicate a critical role of temporal coding for space computation in the entorhinal-hippocampal system.</abstract>
+<pubmed_id>18528856</pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="721">
+<itemtype>xnppaper</itemtype>
+<titles><title>Spatial view cells and the representation of place in the primate hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2008-07-11T01:25:02Z</last_update_date>
+<creation_date>2008-07-11T01:25:02Z</creation_date>
+<publication_year>1999</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=721</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="721" version="1.02">
+<authors><author>Rolls ET</author></authors>
+<journal>Hippocampus</journal>
+<volume>9</volume>
+<number>4</number>
+<page>467-80</page>
+<abstract>The information represented in the primate hippocampus is being analysed by making recordings in monkeys actively walking in the laboratory. In a sample of 352 cells recorded in this situation, no &quot;place&quot; cells have so far been found. Instead, we have found a considerable population of &quot;spatial view&quot; cells tuned to respond when the monkey looks at small parts of the environment. We have been able to demonstrate (1) that these hippocampal neurons respond to a view of space &quot;out there,&quot; not to the place where the monkey is; (2) that the responses depend on where the monkey is looking, by measuring eye position; (3) that the responses in some cases (e.g., CA1 but not CA3) still occur if the view details are obscured with curtains; (4) that the cells (in, e.g., CA1) retain part of their &quot;space&quot; tuning even in complete darkness, for several minutes; and (5) that the spatial representation is allocentric. The spatial representation is, thus, different from that in the rat hippocampus, in which place cells respond based on where the rat is located. The representation is also different from that described in the parietal cortex, where neurons respond in egocentric coordinates. This representation of space &quot;out there&quot; provided by primate spatial view cells would be an appropriate part of a memory system involved in memories of particular events or episodes, for example, of where in an environment an object was seen. Spatial view cells (in conjunction with whole body motion cells in the primate hippocampus, and head direction cells in the primate presubiculum) would also be useful as part of a spatial navigation system, for which they would provide a memory component.</abstract>
+<pubmed_id>10495028 </pubmed_id>
+</detail>
+</item>

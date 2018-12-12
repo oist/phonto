@@ -1,0 +1,12 @@
+Animals
+Behavior
+Animal
+physiology
+Hippocampus
+physiology
+Humans
+Memory
+physiology
+Space Perception
+physiology
+During the past year, considerable progress has been made in our understanding of the wide-ranging functions of the hippocampus. Highlights include the development of new tasks with which to assess spatial/topographic memory in humans and monkeys, novel tests of relational memory in rats, and episodic-like memory tasks in birds. In addition, novel theories of hippocampal function have been developed that are notable for their applicability to both humans and animal models.

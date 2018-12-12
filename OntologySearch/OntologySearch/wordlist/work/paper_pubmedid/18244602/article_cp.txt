@@ -1,0 +1,1831 @@
+SECTION IINTRODUCTION
+To understand how the brain works, we need to combine experimental studies of animal and human nervous systems with numerical simulation of large-scale brain models. As we develop such large-scale brain models consisting of spiking neurons, we must find compromises between two seemingly mutually exclusive requirements: The model for a single neuron must be: 1) computationally simple, yet 2) capable of producing rich firing patterns exhibited by real biological neurons. Using biophysically accurate Hodgkin?Huxley-type models is computationally prohibitive, since we can simulate only a handful of neurons in real time. In contrast, using an integrate-and-fire model is computationally effective, but the model is unrealistically simple and incapable of producing rich spiking and bursting dynamics exhibited by cortical neurons.
+
+In this paper, a simple spiking model (1), (2) is presented that is as biologically plausible as the Hodgkin?Huxley model, yet as computationally efficient as the integrate-and-fire model. Depending on four parameters, the model reproduces spiking and bursting behavior of known types of cortical neurons, as we illustrate in Fig. 1 and summarize in Fig. 2.
+
+Figure 1
+Fig. 1. The simple model (1), (2) can reproduce firing patters of neurons recorded from the rat's motor cortex. Data are kindly shared by N. Desai, model parameters as in Fig. 2.
+View All | Next
+
+Figure 2
+Fig. 2. Known types of neurons correspond to different values of the parameters Formula, Formula, Formula, Formula in the model described by the (1), (2). RS, IB, and CH are cortical excitatory neurons. FS and LTS are cortical inhibitory interneurons. Each inset shows a voltage response of the model neuron to a step of dc-current Formula (bottom). Time resolution is 0.1 ms. This figure is reproduced with permission from www.izhikevich.com. (Electronic version of the figure and reproduction permissions are freely available at www.izhikevich.com.)
+Previous | View All | Next
+
+Mathematical analysis of the model will be published in the monograph by Izhikevich [8]. The derivation of the first (1) is based on bifurcation theory and normal form reduction [2], [5], and the part Formula is sometimes referred to as being a quadratic integrate-and-fire neuron. The full model was first published in [10, eqns. (4) and (5)] with voltage reset discussed in Sect. 2.3.1 in a trigonometric form more suitable for mathematical analysis. The form presented here is more suitable for large-scale simulations.
+
+SECTION IITHE MODEL
+Bifurcation methodologies [8] enable us to reduce many biophysically accurate Hodgkin?Huxley-type neuronal models to a two-dimensional (2-D) system of ordinary differential equations of the form
+FormulaTeX Source with the auxiliary after-spike resetting
+FormulaTeX Source Here, Formula and Formula are dimensionless variables, and Formula, Formula, Formula, and Formula are dimensionless parameters, and Formula, where Formula is the time. The variable Formula represents the membrane potential of the neuron and Formula represents a membrane recovery variable, which accounts for the activation of Formula ionic currents and inactivation of Formula ionic currents, and it provides negative feedback to Formula. After the spike reaches its apex (+30 mV), the membrane voltage and the recovery variable are reset according to the (3). Synaptic currents or injected dc-currents are delivered via the variable Formula.
+
+The part Formula was obtained by fitting the spike initiation dynamics of a cortical neuron (other choices also feasible) so that the membrane potential Formula has Formula scale and the time Formula has Formula scale. The resting potential in the model is between ?70 and ?60 mV depending on the value of Formula. As most real neurons, the model does not have a fixed threshold; Depending on the history of the membrane potential prior to the spike, the threshold potential can be as low as ?55 mV or as high as ?40 mV.
+
+The parameter Formula describes the time scale of the recovery variable Formula. Smaller values result in slower recovery. A typical value is Formula.
+The parameter Formula describes the sensitivity of the recovery variable Formula to the subthreshold fluctuations of the membrane potential Formula. Greater values couple Formula and Formula more strongly resulting in possible subthreshold oscillations and low-threshold spiking dynamics. A typical value is Formula. The case Formula corresponds to saddle-node (Andronov?Hopf) bifurcation of the resting state [10].
+The parameter Formula describes the after-spike reset value of the membrane potential Formula caused by the fast high-threshold Formula conductances. A typical value is Formula.
+The parameter Formula describes after-spike reset of the recovery variable Formula caused by slow high-threshold Formula and Formula conductances. A typical value is Formula.
+Various choices of the parameters result in various intrinsic firing patterns, including those exhibited by the known types of neocortical [1], [3], [4] and thalamic neurons as summarized in Fig. 2. A possible extension of the model (1), (2) is to treat Formula, Formula and Formula as vectors, and use Formula instead of Formula in the voltage (1). This accounts for slow conductances with multiple time scales, but we find such an extension unnecessarily for cortical neurons.
+
+SECTION IIIDIFFERENT TYPES OF DYNAMICS
+Figure 3
+Fig. 3. Simulation of a network of 1000 randomly coupled spiking neurons. Top: spike raster shows episodes of alpha and gamma band rhythms (vertical lines). Bottom: typical spiking activity of an excitatory neuron. All spikes were equalized at +30 mV by resetting Formula first to +30 mV and then to Formula.
+Previous | View All
+
+Neocortical neurons in the mammalian brain can be classified into several types according to the pattern of spiking and bursting seen in intracellular recordings. All excitatory cortical cells are divided into the following four classes [1], [3]:
+
+RS (regular spiking) neurons are the most typical neurons in the cortex. When presented with a prolonged stimulus (injected step of dc-current in Fig. 2RS, bottom) the neurons fire a few spikes with short interspike period and then the period increases. This is called the spike frequency adaptation. Increasing the strength of the injected dc-current increases the interspike frequency, though it never becomes too fast because of large spike-afterhyperpolarizations. In the model, this corresponds to Formula (deep voltage reset) and Formula (large after-spike jump of Formula).
+IB (intrinsically bursting) neurons fire a stereotypical burst of spikes followed by repetitive single spikes (Fig. 2IB). In the model, this corresponds to Formula (high voltage reset) and Formula (large after-spike jump of Formula). During the initial burst, variable Formula builds up and eventually switches the dynamics from bursting to spiking.
+CH (chattering) neurons can fire stereotypical bursts of closely spaced spikes. The inter-burst frequency can be as high as 40 Hz. In the model, this corresponds to Formula (very high voltage reset) and Formula (moderate after-spike jump of Formula).
+All inhibitory cortical cells are divided into the following two classes [4]:
+
+FS (fast spiking) neurons can fire periodic trains of action potentials with extremely high frequency practically without any adaptation (slowing down), as one can see in Fig. 2FS. In the model, this corresponds to Formula (fast recovery).
+LTS (low-threshold spiking) neurons can also fire high-frequency trains of action potentials (Fig. 2LTS), but with a noticeable spike frequency adaptation. These neurons have low firing thresholds, which is accounted for by Formula in the model. To achieve a better quantitative fit with real LTS neurons, other parameters of the model need to be changed as well.
+In addition, our model can easily reproduce behavior of thalamo-cortical neurons, which provide the major input to the cortex
+
+TC (thalamo-cortical) neurons have two firing regimes: When at rest (Formula is around ?60 mV) and then depolarized, they exhibit tonic firing as in Fig. 2TC, left voltage trace. However, if a negative current step is delivered so that the membrane potential is hyperpolarized (Formula is around ?90 mV), the neurons fire a rebound burst of action potentials, as in Fig. 2TC, right voltage trace.
+The model can exhibit other interesting types of dynamics.
+
+RZ (resonator) neurons have damped or sustained subthreshold oscillations, as in Fig. 2RZ. They resonate to rhythmic inputs having appropriate frequency (as the resonate-and-fire model [9]). This behavior corresponds to Formula and Formula. Notice that there is a bistability of resting and repetitive spiking states: The neuron can be switched between the states by an appropriately timed brief stimuli.
+Dynamics of other neuronal types, including those in brainstem, hippocampus, basal ganglia, and olfactory bulb, can also be described by our model.
+
+Our Ågone-fits-allÅh choice of the function Formula in (1) is justified when large-scale networks of spiking neurons are simulated, as we discuss below. However, if one is interested in the behavior of a single neuron, then other choices of the function are available, and sometimes more preferable. For example, the function Formula with Formula is a better choice for the RS neuron, since it leads to the saddle-node on invariant circle bifurcation and Class 1 excitability [10].
+
+SECTION IVPULSE-COUPLED IMPLEMENTATION
+We have used this model to simulate a sparse network of 10?000 spiking cortical neurons with 1?000?000 synaptic connections in real time (resolution 1 ms) using a 1 GHz desktop PC and C++ programming language. The following MATLAB program (also available on author's webpage) simulates a network of randomly connected 1000 neurons in real time. Motivated by the anatomy of a mammalian cortex, we choose the ratio of excitatory to inhibitory neurons to be 4 to 1, and we make inhibitory synaptic connections stronger. Besides the synaptic input, each neuron receives a noisy thalamic input.
+
+In principle, one can use RS cells to model all excitatory neurons and FS cells to model all inhibitory neurons. The best way to achieve heterogeneity (so that different neurons have different dynamics), is to assign each excitatory cell Formula and Formula, where Formula is a random variable uniformly distributed on the interval [0,1], and Formula is the neuron index. Thus, Formula corresponds to regular spiking (RS) cell, and Formula corresponds to the chattering (CH) cell. We use Formula to bias the distribution toward RS cells. Similarly, each inhibitory cell has Formula and Formula.
+
+The model belongs to the class of pulse-coupled neural networks (PCNN): The synaptic connection weights between the neurons are given by the matrix Formula, so that firing of the Formulath neuron instantaneously changes variable Formula by Formula.
+
+Algorithm 1
+One can see in Fig. 3 that the network exhibits cortical-like asynchronous dynamics; that is, neurons fire Poisson spike trains with mean firing rates around 8 Hz. Dark vertical lines indicate that there are occasional episodes of synchronized firings in the alpha and gamma frequency range (10 and 40 Hz, respectively). Although the network is connected randomly and there is no synaptic plasticity, the neurons self-organize into assemblies and they exhibit collective rhythmic behavior in the frequency range corresponding to that of the mammalian cortex in the awake state. Changing the relative strength of synaptic connections and the strength of the thalamic drive can produce other types of collective behavior, including spindle waves and sleep oscillations. We can easily observe and study these cortical states because our simple spiking model describes accurately dynamics of known types of cortical neurons. Thus, there is no longer a contradiction between biological plausibility and computational efficiency of model neural networks.
+
+SECTION VCONCLUSION
+In this paper, a simple model that reproduces the rich behavior of biological neurons, including spiking, bursting, and mixed mode firing patters, post-inhibitory (rebound) spikes and bursts, continuous spiking with frequency adaptation, spike threshold variability, bistability of resting and spiking states, and subthreshold oscillations and resonance is presented (the latter are discussed in [7] and [9]).
+
+Our model is the simplest possible model that can reproduce these types of neuronal behavior: It consists of only two equations and has only one nonlinear term, i.e., Formula. Yet, the model is canonical in the sense that the difference between it and a whole class of biophysically detailed and accurate Hodgkin?Huxley-type models, including those consisting of enormous number of equations and taking into account all possible information about ionic currents, is just a matter of coordinate change [6].
+
+We show how to use the model to build networks of spiking neurons capable of exhibiting collective dynamics and rhythms similar to those of the mammalian cortex. Due to the extreme computational simplicity of the model, we can simulate thalamo-cortical networks consisting of tens of thousands of spiking neurons in real time with 1 ms resolution using an old 1-GHz desktop PC.
+
+Acknowledgment
+The author thanks F. C. Hoppensteadt, D. Golomb, R. Pichevar, E. W. Gall, A.l K. Seth, J. R. Iversen, and Y. Chen, who read the first draft of the manuscript and made a number of useful suggestions.
+
+FOOTNOTES
+This work was supported in part by the Neurosciences Research Foundation and by a Grant from the Alafi Family Foundation.
+
+REFERENCES
+1. B. W. Connors and M. J. Gutnick,
+"Intrinsic firing patterns of diverse neocortical neurons"
+Trends in Neurosci., vol. 13, pp. 99-104, 1990
+Show Context
+2. G. B. Ermentrout and N. Kopell,
+"Parabolic bursting in an excitable system coupled with a slow oscillation"
+SIAM J. Appl. Math., vol. 46, pp. 233-253, 1986
+Show Context
+3. C. M. Gray and D. A. McCormick,
+"Chattering cells: superficial pyramidal neurons contributing to the generation of synchronous oscillations in the visual cortex"
+Science, vol. 274, no. 5284, pp. 109-113, 1996
+Show Context
+4. J. R. Gibson, M. Belerlein, and B. W. Connors,
+"Two networks of electrically coupled inhibitory neurons in neocortex"
+Nature, vol. 402, pp. 75-79, 1999
+Show Context
+5. F. C. Hoppensteadt and E. M. Izhikevich,
+Weakly Connected Neural Networks
+1997, Springer-Verlag
+Show Context
+6. F. C. Hoppensteadt and E. M. Izhikevich, M. A. Arbib,
+"Canonical neural models"
+Brain Theory and Neural Networks, 2002, MIT
+Show Context
+7. E. M. Izhikevich, N. S. Desai, E. C. Walcott, and F. C. Hoppensteadt,
+"Bursts as a unit of neural information: selective communication via resonance"
+Trends in Neurosci. , vol. 26, pp. 161-167, 2003
+Show Context
+8. E. M. Izhikevich,
+Dynamical Systems in Neuroscience: The Geometry of Excitability and Bursting
+Show Context
+9. E. M. Izhikevich,
+"Resonate-and-fire neurons"
+Neural Networks, vol. 14, pp. 883- 894, 2001
+Show Context
+10. E. M. Izhikevich,
+"Neural excitability, spiking, and bursting"
+Int. J. Bifurc. Chaos, vol. 10, pp. 1171-1266, 2000
+Show Context
+AUTHORS
+No Photo AvailableEugene M. Izhikevich
+No Bio Available
+CITED BY
+Cited by IEEE
+1. A Neurally Controlled Computer Game Avatar With Humanlike Behavior
+Gamez, D., Fidjeland, A.K., Fountas, Z.
+Computational Intelligence and AI in Games, IEEE Transactions on, vol. 5, no. 1, pp. 1-14, 2013
+Quick Abstract | Full Text: PDF
+2. A multi-GPU algorithm for communication in neuronal network simulations
+de Camargo, R.Y.
+High Performance Computing (HiPC), 2011 18th International Conference on, pp. 1-10, 2011
+Quick Abstract | Full Text: PDF
+3. Revitalizing Work in CiSE
+Beichl, Isabel
+Computing in Science & Engineering, vol. 12, no. 5, pp. 4-4, 2010
+Quick Abstract | Full Text: PDF
+4. Optimization and performance study of large-scale biological networks for reconfigurable computing
+Bhuiyan, M.A., Pallipuram, V.K., Smith, M.C., Nallamuthu, A.
+High-Performance Reconfigurable Computing Technology and Applications ( HPRCTA), 2010 Fourth International Workshop on, pp. 1-9, 2010
+Quick Abstract | Full Text: PDF
+5. Transcranial Current Brain Stimulation (tCS): Models and Technologies
+Ruffini, G., Miranda, P.C., Dunne, S., Grau, C., Soria-Frisch, A., Salvador, R., Mekonnen, A., Molaee-Ardekani, B., Merlet, I., Wendling, F.
+Neural Systems and Rehabilitation Engineering, IEEE Transactions on, vol. 21, no. 3, pp. 333-345, 2013
+Quick Abstract | Full Text: PDF
+6. Rapid Feedforward Computation by Temporal Encoding and Learning With Spiking Neurons
+Qiang Yu, Haizhou Li, Tan, K.C., Huajin Tang
+Neural Networks and Learning Systems, IEEE Transactions on, vol. 24, no. 10, pp. 1539-1552, 2013
+Quick Abstract | Full Text: PDF
+7. An Implementation of a Spike-Response Model With Escape Noise Using an Avalanche Diode
+Clayton, T., Murray, A., Leng, G., Henderson, R.K., Charbon, E., Sabatier, N., Rae, B.R., Cameron, K.
+Biomedical Circuits and Systems, IEEE Transactions on, vol. 5, no. 3, pp. 231-243, 2011
+Quick Abstract | Full Text: PDF
+8. Biophysical Neural Spiking, Bursting, and Excitability Dynamics in Reconfigurable Analog VLSI
+Yu, T., Cauwenberghs, G., Sejnowski, T.J.
+Biomedical Circuits and Systems, IEEE Transactions on, vol. 5, no. 5, pp. 420-429, 2011
+Quick Abstract | Full Text: PDF
+9. Asynchronous Cellular Automaton-Based Neuron: Theoretical Analysis and On-FPGA Learning
+Matsubara, T., Torikai, H.
+Neural Networks and Learning Systems, IEEE Transactions on, vol. 24, no. 5, pp. 736-748, 2013
+Quick Abstract | Full Text: PDF
+10. On the Capabilities and Computational Costs of Neuron Models
+Skocik, M.J., Long, L.N.
+Neural Networks and Learning Systems, IEEE Transactions on, vol. 25, no. 8, pp. 1474-1483, 2014
+Quick Abstract | Full Text: PDF
+11. Si elegans: FPGA hardware emulation of C. elegans nematode nervous system
+Machado, P., McGinnity, T.M., Wade, J.
+Nature and Biologically Inspired Computing (NaBIC), 2014 Sixth World Congress on, pp. 65-71, 2014
+Quick Abstract | Full Text: PDF
+12. Neuromodulation based control of autonomous robots in ROS environment
+Muhammad, C., Samanta, B.
+Computational Intelligence, Cognitive Algorithms, Mind, and Brain (CCMB), 2014 IEEE Symposium on, pp. 16-23, 2014
+Quick Abstract | Full Text: PDF
+13. Parameter Estimation of a Spiking Silicon Neuron
+Russell, A., Etienne-Cummings, R., Niebur, E., Mihalas, S., Mazurek, K.
+Biomedical Circuits and Systems, IEEE Transactions on, vol. 6, no. 2, pp. 133-141, 2012
+Quick Abstract | Full Text: PDF
+14. Neural Assembly Computing
+Ranhel, J.
+Neural Networks and Learning Systems, IEEE Transactions on, vol. 23, no. 6, pp. 916-927, 2012
+Quick Abstract | Full Text: PDF
+15. HRLSim: A High Performance Spiking Neural Network Simulator for GPGPU Clusters
+Minkovich, K., Srinivasa, N., Youngkwan Cho, Nogin, A., O'Brien, M.J., Thibeault, C.M.
+Neural Networks and Learning Systems, IEEE Transactions on, vol. 25, no. 2, pp. 316-331, 2014
+Quick Abstract | Full Text: PDF
+16. Action understanding using an adaptive Liquid State Machine based on environmental ambiguity
+Baraglia, J., Asada, M., Nagai, Y.
+Development and Learning and Epigenetic Robotics (ICDL), 2013 IEEE Third Joint International Conference on, pp. 1-6, 2013
+Quick Abstract | Full Text: PDF
+17. A Novel Rotate-and-Fire Digital Spiking Neuron and its Neuron-Like Bifurcations and Responses
+Hishiki, T., Torikai, H.
+Neural Networks, IEEE Transactions on, vol. 22, no. 5, pp. 752-767, 2011
+Quick Abstract | Full Text: PDF
+18. Small-Signal Neural Models and Their Applications
+Basu, A.
+Biomedical Circuits and Systems, IEEE Transactions on, vol. 6, no. 1, pp. 64-75, 2012
+Quick Abstract | Full Text: PDF
+19. Learning real-world stimuli by single-spike coding and tempotron rule
+Huajin Tang, Tan, K.C., Qiang Yu
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-6, 2012
+Quick Abstract | Full Text: PDF
+20. Square Wave Artificial Neuron (SWAN)
+Ellis, D., Imamura, K.
+Digital Information and Communication Technology and it's Applications (DICTAP), 2014 Fourth International Conference on, pp. 42-45, 2014
+Quick Abstract | Full Text: PDF
+21. Spiking and Bursting in Josephson Junction
+Dana, S.K., Hu, Chin-Kun, Sengupta, D.C.
+Circuits and Systems II: Express Briefs, IEEE Transactions on, vol. 53, no. 10, pp. 1031-1034, 2006
+Quick Abstract | Full Text: PDF
+22. Evolving Intelligence in Humans and Machines: Integrative Evolving Connectionist Systems Approach
+Kasabov, N.
+Computational Intelligence Magazine, IEEE, vol. 3, no. 3, pp. 23-37, 2008
+Quick Abstract | Full Text: PDF
+23. Character recognition with two spiking neural network models on multicore architectures
+Bhuiyan, M.A., Taha, T.M., Jalasutram, R.
+Computational Intelligence for Multimedia Signal and Vision Processing, 2009. CIMSVP '09. IEEE Symposium on, pp. 29-34, 2009
+Quick Abstract | Full Text: PDF
+24. Reduced Computational Models of Serotonin Synthesis, Release, and Reuptake
+Flower, G., KongFatt Wong-Lin
+Biomedical Engineering, IEEE Transactions on, vol. 61, no. 4, pp. 1054-1061, 2014
+Quick Abstract | Full Text: PDF
+25. Modeling of Multisensory Convergence with a Network of Spiking Neurons: A Reverse Engineering Approach
+Hun Ki Lim, Cios, K.J., Keniston, L.P.
+Biomedical Engineering, IEEE Transactions on, vol. 58, no. 7, pp. 1940-1949, 2011
+Quick Abstract | Full Text: PDF
+26. Learning transmission delays in spiking neural networks: A novel approach to sequence learning based on spike delay variance
+Wright, P.W., Wiles, J.
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-8, 2012
+Quick Abstract | Full Text: PDF
+27. Firing Rate Propagation Through Neuronal?Astrocytic Network
+Ying Liu, Chunguang Li
+Neural Networks and Learning Systems, IEEE Transactions on, vol. 24, no. 5, pp. 789-799, 2013
+Quick Abstract | Full Text: PDF
+28. Neuromorphic Electronic Circuits for Building Autonomous Cognitive Systems
+Chicca, E., Indiveri, G., Bartolozzi, C., Stefanini, F.
+Proceedings of the IEEE, vol. 102, no. 9, pp. 1367-1388, 2014
+Quick Abstract | Full Text: PDF
+29. FPGA Accelerated Simulation of Biologically Plausible Spiking Neural Networks
+Thomas, D.B., Luk, W.
+Field Programmable Custom Computing Machines, 2009. FCCM '09. 17th IEEE Symposium on, pp. 45-52, 2009
+Quick Abstract | Full Text: PDF
+30. Pattern Recognition for the Letters of Dactyl Alphabet by Using a Novel Neural Network Simulator
+Durackova, D., Raschman, E.
+Computational Cybernetics, 2007. ICCC 2007. IEEE International Conference on, pp. 97-99, 2007
+Quick Abstract | Full Text: PDF
+31. Multiagent Reinforcement Learning: Spiking and Nonspiking Agents in the Iterated Prisoner's Dilemma
+Vassiliades, V., Christodoulou, C., Cleanthous, A.
+Neural Networks, IEEE Transactions on, vol. 22, no. 4, pp. 639-653, 2011
+Quick Abstract | Full Text: PDF
+32. Biologically Inspired SNN for Robot Control
+Nichols, E., Siddique, N., McDaid, L.J.
+Cybernetics, IEEE Transactions on, vol. 43, no. 1, pp. 115-128, 2013
+Quick Abstract | Full Text: PDF
+33. Interaction of Oscillations, and Their Suppression via Deep Brain Stimulation, in a Model of the Cortico-Basal Ganglia Network
+Guiyeom Kang, Lowery, M.M.
+Neural Systems and Rehabilitation Engineering, IEEE Transactions on, vol. 21, no. 2, pp. 244-253, 2013
+Quick Abstract | Full Text: PDF
+34. An Event-Based Neural Network Architecture With an Asynchronous Programmable Synaptic Memory
+Moradi, S., Indiveri, G.
+Biomedical Circuits and Systems, IEEE Transactions on, vol. 8, no. 1, pp. 98-107, 2014
+Quick Abstract | Full Text: PDF
+35. Cerebellar Input Configuration Toward Object Model Abstraction in Manipulation Tasks
+Luque, N.R., Ros, E., Coenen, O.J.D., Carrillo, R.R., Garrido, J.A.
+Neural Networks, IEEE Transactions on, vol. 22, no. 8, pp. 1321-1328, 2011
+Quick Abstract | Full Text: PDF
+36. Bistable memory and binary counters in spiking neural network
+Ranhel, J., Netto, M.L., Kogler, J.E., Monteiro, J.L.R., Lima, C.V.
+Foundations of Computational Intelligence (FOCI), 2011 IEEE Symposium on, pp. 66-73, 2011
+Quick Abstract | Full Text: PDF
+37. Biophysically Accurate Foating Point Neuroprocessors for Reconfigurable Logic
+Yiwei Zhang, Nunez-Yanez, J.L., Kelly, S., Regan, E.M., McGeehan, J.P.
+Computers, IEEE Transactions on, vol. 62, no. 3, pp. 599-608, 2013
+Quick Abstract | Full Text: PDF
+38. Hardware Friendly Probabilistic Spiking Neural Network With Long-Term and Short-Term Plasticity
+Hung-Yi Hsieh, Kea-Tiong Tang
+Neural Networks and Learning Systems, IEEE Transactions on, vol. 24, no. 12, pp. 2063-2074, 2013
+Quick Abstract | Full Text: PDF
+39. Fuzzy differential inclusion in neural modeling
+Tafazoli, S., Menhaj, M.B.
+Computational Intelligence in Control and Automation, 2009. CICA 2009. IEEE Symposium on, pp. 70-77, 2009
+Quick Abstract | Full Text: PDF
+40. Nonlinear Dynamic Modeling of Neuron Action Potential Threshold During Synaptically Driven Broadband Intracellular Activity
+Ude Lu, Berger, T.W., Dong Song, Roach, S.M.
+Biomedical Engineering, IEEE Transactions on, vol. 59, no. 3, pp. 706-716, 2012
+Quick Abstract | Full Text: PDF
+41. A Large Scale Digital Simulation of Spiking Neural Networks (SNN) on Fast SystemC Simulator
+Soleimani, H., Zwolinski, M., Amirsoleimani, A.A., Bavandpour, M., Ahmadi, A.
+Computer Modelling and Simulation (UKSim), 2012 UKSim 14th International Conference on, pp. 25-30, 2012
+Quick Abstract | Full Text: PDF
+42. Neural Assemblies and Finite State Automata
+Ranhel, J.
+Computational Intelligence and 11th Brazilian Congress on Computational Intelligence (BRICS-CCI & CBIC), 2013 BRICS Congress on, pp. 28-33, 2013
+Quick Abstract | Full Text: PDF
+43. Real-Time Emulator for Reproducing Graded Potentials in Vertebrate Retina
+Okuno, H., Yagi, T., Sanada, T., Hasegawa, J.
+Biomedical Circuits and Systems, IEEE Transactions on, vol. 9, no. 2, pp. 284-295, 2015
+Quick Abstract | Full Text: PDF
+44. Embodying models of expressive behaviour and learning with a biomimetic virtual infant
+Sagar, M., Wu, T., Robertson, P., Kalarot, R., Jawed, M., Efimov, O., Bullivant, D.
+Development and Learning and Epigenetic Robotics (ICDL-Epirob), 2014 Joint IEEE International Conferences on, pp. 62-67, 2014
+Quick Abstract | Full Text: PDF
+45. Modeling Spiking Neural Networks on SpiNNaker
+Xin Jin, Furber, S.B., Temple, S., Davies, S., Plana, L.A., Luja?n, M.
+Computing in Science & Engineering, vol. 12, no. 5, pp. 91-97, 2010
+Quick Abstract | Full Text: PDF
+46. Emergence of Neuronal Groups on a Self-Organized Spiking Neurons Network Based on Genetic Algorithm
+Soares, G.E., Oliveira, G.M.C., Gomes, R.M., Borges, H.E.
+Neural Networks (SBRN), 2010 Eleventh Brazilian Symposium on, pp. 43-48, 2010
+Quick Abstract | Full Text: PDF
+47. Minitaur, an Event-Driven FPGA-Based Spiking Network Accelerator
+Neil, D., Shih-Chii Liu
+Very Large Scale Integration (VLSI) Systems, IEEE Transactions on, vol. 22, no. 12, pp. 2621-2628, 2014
+Quick Abstract | Full Text: PDF
+48. Efficient digital neurons for large scale cortical architectures
+Smith, J.E.
+Computer Architecture (ISCA), 2014 ACM/IEEE 41st International Symposium on, pp. 229-240, 2014
+Quick Abstract | Full Text: PDF
+49. Biologically Inspired Spiking Neurons: Piecewise Linear Models and Digital Implementation
+Soleimani, H., Bavandpour, M., Ahmadi, A.
+Circuits and Systems I: Regular Papers, IEEE Transactions on, vol. 59, no. 12, pp. 2991-3004, 2012
+Quick Abstract | Full Text: PDF
+50. A Novel PWC Spiking Neuron Model: Neuron-Like Bifurcation Scenarios and Responses
+Yamashita, Y., Torikai, H.
+Circuits and Systems I: Regular Papers, IEEE Transactions on, vol. 59, no. 11, pp. 2678-2691, 2012
+Quick Abstract | Full Text: PDF
+51. Silicon implementation of the generalized integrate-and-fire neuron model
+Hamilton, T.J., van Schaik, A.
+Intelligent Sensors, Sensor Networks and Information Processing (ISSNIP), 2011 Seventh International Conference on, pp. 108-112, 2011
+Quick Abstract | Full Text: PDF
+52. SpiNNaker: A 1-W 18-Core System-on-Chip for Massively-Parallel Neural Network Simulation
+Painkras, E., Furber, S.B., Brown, A.D., Lester, D.R., Patterson, C., Galluppi, F., Temple, S., Garside, J., Plana, L.A.
+Solid-State Circuits, IEEE Journal of, vol. 48, no. 8, pp. 1943-1953, 2013
+Quick Abstract | Full Text: PDF
+53. Neural Spike Communication under Noisy Environments
+Homma, N., Gupta, M.M., Koh Fuchigami
+Computational Intelligence in Bioinformatics and Computational Biology, 2005. CIBCB '05. Proceedings of the 2005 IEEE Symposium on, pp. 1- 7, 2005
+Quick Abstract | Full Text: PDF
+54. Digit recognition in a simplified visual cortex model
+Cevikbas, I.C., Yildirim, T.
+Innovations in Intelligent Systems and Applications (INISTA), 2013 IEEE International Symposium on, pp. 1-3, 2013
+Quick Abstract | Full Text: PDF
+55. Digital Multiplierless Implementation of Biological Adaptive-Exponential Neuron Model
+Gomar, S., Ahmadi, A.
+Circuits and Systems I: Regular Papers, IEEE Transactions on, vol. 61, no. 4, pp. 1206-1219, 2014
+Quick Abstract | Full Text: PDF
+56. Nonlinear Dynamic Modeling of Synaptically Driven Single Hippocampal Neuron Intracellular Activity
+Ude Lu, Berger, T.W., Dong Song
+Biomedical Engineering, IEEE Transactions on, vol. 58, no. 5, pp. 1303-1313, 2011
+Quick Abstract | Full Text: PDF
+57. Maximum likelihood parameter estimation in a stochastic resonate-and-fire neuronal model
+Jun Chen, Behal, A., Molnar, P., Suarez, J.
+Computational Advances in Bio and Medical Sciences (ICCABS), 2011 IEEE 1st International Conference on, pp. 57-62, 2011
+Quick Abstract | Full Text: PDF
+58. A hybrid Spiking Neural Network model for multivariate data classification and visualization
+Ming Leong Yii, Chwen Jen Chen, Chee Siong The
+Information Technology in Asia (CITA 11), 2011 7th International Conference on, pp. 1-6, 2011
+Quick Abstract | Full Text: PDF
+59. Evaluation of GPU Architectures Using Spiking Neural Networks
+Pallipuram, V.K., Smith, M.C., Bhuiyan, M.A.
+Application Accelerators in High-Performance Computing (SAAHPC), 2011 Symposium on, pp. 93-102, 2011
+Quick Abstract | Full Text: PDF
+60. Stimulus-stimulus association via reinforcement learning in spiking neural network
+Yusoff, N., Ahmad, F.K.
+Intelligent Systems Design and Applications (ISDA), 2013 13th International Conference on, pp. 131-136, 2013
+Quick Abstract | Full Text: PDF
+61. NeMo: A Platform for Neural Modelling of Spiking Neurons Using GPUs
+Fidjeland, A.K., Luk, W., Shanahan, M.P., Roesch, E.B.
+Application-specific Systems, Architectures and Processors, 2009. ASAP 2009. 20th IEEE International Conference on, pp. 137-144, 2009
+Quick Abstract | Full Text: PDF
+62. A Neuron Based Switch: Application to Low Power Mixed Signal Circuits
+James, A.P., Maan, A.K., Shariff, F.
+Advances in Computer Engineering (ACE), 2010 International Conference on, pp. 86-89, 2010
+Quick Abstract | Full Text: PDF
+63. A CMOS switched capacitor implementation of the Mihalas-Niebur neuron
+Folowosele, F., Hamilton, T.J., Etienne-Cummings, R.
+Biomedical Circuits and Systems Conference, 2009. BioCAS 2009. IEEE, pp. 105-108, 2009
+Quick Abstract | Full Text: PDF
+64. A Hippocampus CA3 Model with Autoassociative and Heteroassociative Memory Functions
+Wangxiong Zhao, Dan Wang, Qingli Qiao
+Biomedical Engineering and Informatics, 2009. BMEI '09. 2nd International Conference on, pp. 1-4, 2009
+Quick Abstract | Full Text: PDF
+65. GPGPU implementation of a synaptically optimized, anatomically accurate spiking network simulator
+Scorcioni, R.
+Biomedical Sciences and Engineering Conference (BSEC), 2010, pp. 1-3, 2010
+Quick Abstract | Full Text: PDF
+66. Bursting analysis and synapse mechanism of a piece-wise constant spiking neuron model
+Yamashita, Y., Torikai, H.
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-8, 2012
+Quick Abstract | Full Text: PDF
+67. A stochastic dynamics viewpoint of some neuron models
+Greenwood, P.E.
+Intelligent Sensors, Sensor Networks and Information Processing (ISSNIP), 2011 Seventh International Conference on, pp. 155-157, 2011
+Quick Abstract | Full Text: PDF
+68. A new spike train distance measure
+Shekhar, S., Majumdar, K.
+Data Science & Engineering (ICDSE), 2012 International Conference on, pp. 144-148, 2012
+Quick Abstract | Full Text: PDF
+69. A novel tunable neural oscillator for biological rhythmic behaviors
+Wei Zhao, Peckerar, Martin
+Circuits and Systems (MWSCAS), 2012 IEEE 55th International Midwest Symposium on, pp. 77-80, 2012
+Quick Abstract | Full Text: PDF
+70. Bluehive - A field-programable custom computing machine for extreme-scale real-time neural network simulation
+Moore, S.W., Mujumdar, A., Markettos, A.T., Marsh, S.J.T., Fox, P.J.
+Field-Programmable Custom Computing Machines (FCCM), 2012 IEEE 20th Annual International Symposium on, pp. 133-140, 2012
+Quick Abstract | Full Text: PDF
+71. GPU implementation of spiking neural networks for color image segmentation
+Ermai Xie, Rontai Cai, Jianyong Cai, QingXiang Wu, McGinnity, M.
+Image and Signal Processing (CISP), 2011 4th International Congress on, vol. 3, pp. 1246-1250, 2011
+Quick Abstract | Full Text: PDF
+72. Analytical Assessment of the Suitability of Multicast Communications for the SpiNNaker Neuromimetic System
+Navaridas, J., Furber, S.B., Miguel-Alonso, J., Plana, L.A., Lujan, M.
+High Performance Computing and Communication & 2012 IEEE 9th International Conference on Embedded Software and Systems (HPCC-ICESS), 2012 IEEE 14th International Conference on, pp. 1-8, 2012
+Quick Abstract | Full Text: PDF
+73. An adaptive neuron circuit for signal compression
+Sheng-Feng Yen, Harris, J.G.
+Circuits and Systems (ISCAS), Proceedings of 2010 IEEE International Symposium on, pp. 101-104, 2010
+Quick Abstract | Full Text: PDF
+74. Investigating the Neural Correlates of Pathological Cortical Networks in Alzheimer's Disease Using Heterogeneous Neuronal Models
+Abuhassan, K., Maguire, L.P., Coyle, D.
+Biomedical Engineering, IEEE Transactions on, vol. 59, no. 3, pp. 890-896, 2012
+Quick Abstract | Full Text: PDF
+75. A sub-threshold halo implanted MOS implementation of an electronic neuron
+Dutra, O.O., Pimenta, T.C., Ferreira, L.H.C., Colleta, G.D.
+Microelectronics (ICM), 2013 25th International Conference on, pp. 1-4, 2013
+Quick Abstract | Full Text: PDF
+76. A parallel spiking neural network simulator
+Kit Cheung, Leong, P.H.W., Schultz, S.R.
+Field-Programmable Technology, 2009. FPT 2009. International Conference on, pp. 247-254, 2009
+Quick Abstract | Full Text: PDF
+77. Hardware Implementation of a Bio-plausible Neuron Model for Evolution and Growth of Spiking Neural Networks on FPGA
+Shayani, H., Tyrrell, A.M., Bentley, P.J.
+Adaptive Hardware and Systems, 2008. AHS '08. NASA/ESA Conference on, pp. 236-243, 2008
+Quick Abstract | Full Text: PDF
+78. A low power VLSI implementation of the Izhikevich neuron model
+Demirkol, A.S., Ozoguz, S.
+New Circuits and Systems Conference (NEWCAS), 2011 IEEE 9th International, pp. 169-172, 2011
+Quick Abstract | Full Text: PDF
+79. A multi-timescale adaptive threshold model for the SAI tactile afferent to predict response to mechanical vibration
+Jahangiri, A.F., Gerling, G.J.
+Neural Engineering (NER), 2011 5th International IEEE/EMBS Conference on, pp. 152-155, 2011
+Quick Abstract | Full Text: PDF
+80. Image segmentation based on PCNN model
+Zhongyu Tao, Yue Tan, Panshi Tang, Binyu Zhang, Xiaolong Tang
+Wavelet Active Media Technology and Information Processing (ICCWAMTIP), 2014 11th International Computer Conference on, pp. 230-233, 2014
+Quick Abstract | Full Text: PDF
+81. A CMOS circuit implementation of a spiking neuron with bursting and adaptation on a biological timescale
+Wijekoon, J.H.B., Dudek, P.
+Biomedical Circuits and Systems Conference, 2009. BioCAS 2009. IEEE, pp. 193-196, 2009
+Quick Abstract | Full Text: PDF
+82. Building Smart Machines by Utilizing Spiking Neural Networks; Current Perspectives
+Sichtig, H.
+Computational Intelligence and Bioinformatics and Computational Biology, 2007. CIBCB '07. IEEE Symposium on, pp. 346-350, 2007
+Quick Abstract | Full Text: PDF
+83. A sub-threshold halo implanted MOS implementation of Izhikevich neuron model
+Dutra, O.O., Pimenta, T.C., Ferreira, L.H.C., Colleta, G.D.
+SOI-3D-Subthreshold Microelectronics Technology Unified Conference (S3S), 2013 IEEE, pp. 1-2, 2013
+Quick Abstract | Full Text: PDF
+84. A reinforcement learning algorithm for spiking neural networks
+Florian, R.V.
+Symbolic and Numeric Algorithms for Scientific Computing, 2005. SYNASC 2005. Seventh International Symposium on, p. 8 pp., 2005
+Quick Abstract | Full Text: PDF
+85. Emergence of Scale-free Spike Flow Graphs in Recurrent Neural Networks
+Piekniewski, F., Schreiber, T.
+Foundations of Computational Intelligence, 2007. FOCI 2007. IEEE Symposium on, pp. 357-362, 2007
+Quick Abstract | Full Text: PDF
+86. An effect of afferent stimulation using a hardware model of a central pattern generator based on neuronal networks
+Maeda, Y., Miyakawa, M., Tani, K., Ito, N., Kaneko, S., Kubota, M.
+Biomedical Engineering Conference (CIBEC), 2010 5th Cairo International, pp. 171-174, 2010
+Quick Abstract | Full Text: PDF
+87. Models for Global Synchronization in CPG-based Locomotion
+Keehong Seo, Slotine, J.-J.E.
+Robotics and Automation, 2007 IEEE International Conference on, pp. 281-286, 2007
+Quick Abstract | Full Text: PDF
+88. A neuronal global workspace for human-like control of a computer game character
+Fountas, Z., Fidjeland, A.K., Gamez, D.
+Computational Intelligence and Games (CIG), 2011 IEEE Conference on, pp. 350-357, 2011
+Quick Abstract | Full Text: PDF
+89. Managing the FPGA memory wall: Custom computing or vector processing?
+Naylor, M., Moore, S.W., Markettos, A.T., Fox, P.J.
+Field Programmable Logic and Applications (FPL), 2013 23rd International Conference on, pp. 1-6, 2013
+Quick Abstract | Full Text: PDF
+90. Investigating the synchronization of cortical neurons using BRIAN simulator
+Kbah, S.N.S., Sengor, N.S.
+Innovations in Intelligent Systems and Applications (INISTA), 2013 IEEE International Symposium on, pp. 1-5, 2013
+Quick Abstract | Full Text: PDF
+91. Optimal mapping of inferior olive neuron simulations on the Single-Chip Cloud Computer
+Rodopoulos, D., Strydis, C., De Zeeuw, C.I., Soudris, D., Pantelopoulos, A., Chatzikonstantis, G.
+Embedded Computer Systems: Architectures, Modeling, and Simulation (SAMOS XIV), 2014 International Conference on, pp. 367-374, 2014
+Quick Abstract | Full Text: PDF
+92. A spiking neural network model of canonical babbling development
+Warlaumont, A.S.
+Development and Learning and Epigenetic Robotics (ICDL), 2012 IEEE International Conference on, pp. 1-6, 2012
+Quick Abstract | Full Text: PDF
+93. An analysis of dynamics of CA3b in Hippocampus
+Keshavarz-Hedayati, B., Babul, A., Dimopoulos, N.J.
+Embedded Computer Systems: Architectures, Modeling, and Simulation (SAMOS XIV), 2014 International Conference on, pp. 375-383, 2014
+Quick Abstract | Full Text: PDF
+94. A cellular processor array simulation and hardware prototyping tool
+Barr, D.R.W., Dudek, P.
+Cellular Neural Networks and Their Applications, 2008. CNNA 2008. 11th International Workshop on, pp. 213-218, 2008
+Quick Abstract | Full Text: PDF
+95. A computational model for vocal exchange dynamics and their development in marmoset monkeys
+Takahashi, D.Y., Ghazanfar, A.A., Narayanan, D.
+Development and Learning and Epigenetic Robotics (ICDL), 2012 IEEE International Conference on, pp. 1-2, 2012
+Quick Abstract | Full Text: PDF
+96. Spike trains synchrony with different coupling strengths in a hippocampus CA3 small-world network model
+Dexuan Qi, Zhenguo Xiao
+Biomedical Engineering and Informatics (BMEI), 2013 6th International Conference on, pp. 270-275, 2013
+Quick Abstract | Full Text: PDF
+97. Tetanic stimulation of cortical networks induces parallel memory traces in experimental cultures and computer models
+van Veenendaal, T., le Feber, J., Witteveen, T.
+Neural Engineering (NER), 2013 6th International IEEE/EMBS Conference on, pp. 211-214, 2013
+Quick Abstract | Full Text: PDF
+98. Numerical method for bifurcation analysis in an impact oscillator with fixed border
+Takahashi, A., Kousaka, T., Aihara, K., Tsumoto, K.
+Circuit Theory and Design (ECCTD), 2011 20th European Conference on, pp. 258-261, 2011
+Quick Abstract | Full Text: PDF
+99. Artificial neuron with somatic and axonal computation units: Mathematical and neuromorphic models of persistent firing neurons
+Ning Ning, Luping Shi, Kejie Huang
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-7, 2012
+Quick Abstract | Full Text: PDF
+100. A hippocampus CA3 small-world network with two types of stimuli
+Zhenguo Xiao, Dexuan Qi
+Natural Computation (ICNC), 2013 Ninth International Conference on, pp. 343-348, 2013
+Quick Abstract | Full Text: PDF
+101. Routing bandwidth model for feed forward neural networks on multicore neuromorphic architectures
+Hasan, R., Taha, T.M.
+Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1-8, 2013
+Quick Abstract | Full Text: PDF
+102. A new technique to optimize single neuron models using experimental spike train data
+Mitra, A., Sauer, T., Manitius, A.
+American Control Conference (ACC), 2013, pp. 346-351, 2013
+Quick Abstract | Full Text: PDF
+103. Evolutionary spiking neural networks as racing car controllers
+Yee, E., Teo, J.
+Hybrid Intelligent Systems (HIS), 2011 11th International Conference on, pp. 411-416, 2011
+Quick Abstract | Full Text: PDF
+104. Robustness of power laws in degree distributions for spiking neural networks
+Piekniewski, F.
+Neural Networks, 2009. IJCNN 2009. International Joint Conference on, pp. 2541-2546, 2009
+Quick Abstract | Full Text: PDF
+105. Weight convergence of SpikeProp and adaptive learning rate
+Shrestha, S.B., Qing Song
+Communication, Control, and Computing (Allerton), 2013 51st Annual Allerton Conference on, pp. 506-511, 2013
+Quick Abstract | Full Text: PDF
+106. NeuroCGRA: A CGRA with support for neural networks
+Jafri, S.M.A.H., Tenhunen, H., Plosila, J., Hemani, A., Daneshtalab, M., Dytckov, S., Tuan Nguyen Gia
+High Performance Computing & Simulation (HPCS), 2014 International Conference on, pp. 506-511, 2014
+Quick Abstract | Full Text: PDF
+107. Efficient STDP Micro-Architecture for Silicon Spiking Neural Networks
+Dytckov, S., Tenhunen, H., Plosila, J., Anwar, H., Ebrahimi, M., Daneshtalab, M.
+Digital System Design (DSD), 2014 17th Euromicro Conference on, pp. 496-503, 2014
+Quick Abstract | Full Text: PDF
+108. A Neuronal Multisensory Processing Simulator
+Lim, H.K., Cios, K.J., Meredith, M.A., Nguyen, C., Shin, J.H., Keniston, L.P.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-7, 2010
+Quick Abstract | Full Text: PDF
+109. A simple probabilistic spiking neuron model with Hebbian learning rules
+Ting Wu, Guosheng Yang, Xinkai Kuai, Xiuqing Wang, Rui Zheng, Long Cheng, Siyao Fu
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-6, 2012
+Quick Abstract | Full Text: PDF
+110. Large-scale neural modeling in MapReduce and Giraph
+Shuo Yang, Rubin, B.S., Jackson, J.C., Spielman, N.D.
+Electro/Information Technology (EIT), 2014 IEEE International Conference on, pp. 556-561, 2014
+Quick Abstract | Full Text: PDF
+111. Scalable multi-precision simulation of spiking neural networks on GPU with OpenCL
+Yudanov, D., Reznik, L.
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-8, 2012
+Quick Abstract | Full Text: PDF
+112. Review of Spiking Neural Network Architecture for Feature Extraction and Dimensionality Reduction
+Chaturvedi, S., Khurshid, A.A.
+Emerging Trends in Engineering and Technology (ICETET), 2011 4th International Conference on, pp. 317-322, 2011
+Quick Abstract | Full Text: PDF
+113. Multi-population approach to approximate the development of neocortical networks
+Herzog, A., Voigt, T., de Lima, A.D., Michaelis, B., Kube, K.
+Evolutionary Computation, 2007. CEC 2007. IEEE Congress on, pp. 628-633, 2007
+Quick Abstract | Full Text: PDF
+114. Izhikevich Model Based Pattern Classifier for Hand Written Character Recognition -- A Review Analysis
+Chaturvedi, S., Titre, R.N., Sondhiya, N.R.
+Electronic Systems, Signal Processing and Computing Technologies (ICESC), 2014 International Conference on, pp. 346-349, 2014
+Quick Abstract | Full Text: PDF
+115. Creation of spiking neuron models applied in pattern recognition problems
+Espinosa-Ramos, J.I., Vazquez, R.A., Cruz-Cortes, N.
+Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1-8, 2013
+Quick Abstract | Full Text: PDF
+116. 3D dynamical networks to emulate complex neural phenomena
+Bucolo, M., Frasca, M., Fortuna, L., Conti, F.
+Circuits and Systems, 2005. ISCAS 2005. IEEE International Symposium on, pp. 296- 299 Vol. 1, 2005
+Quick Abstract | Full Text: PDF
+117. Parallel model for Spiking Neural Networks using MATLAB
+Mirsu, R., Tiponut, V.
+Electronics and Telecommunications (ISETC), 2010 9th International Symposium on, pp. 369-372, 2010
+Quick Abstract | Full Text: PDF
+118. Review of Handwritten Pattern Recognition of Digits and Special Characters Using Feed Forward Neural Network and Izhikevich Neural Model
+Chaturvedi, S., Sondhiya, N., Titre, R.N.
+Electronic Systems, Signal Processing and Computing Technologies (ICESC), 2014 International Conference on, pp. 425-428, 2014
+Quick Abstract | Full Text: PDF
+119. Training spiking neural models using cuckoo search algorithm
+Vazquez, R.A.
+Evolutionary Computation (CEC), 2011 IEEE Congress on, pp. 679-686, 2011
+Quick Abstract | Full Text: PDF
+120. A mapping approach for controlling different maritime cranes and robots using ANN
+Sanfilippo, F., Pettersen, K.Y., Zhang, H., Hatledal, L.I.
+Mechatronics and Automation (ICMA), 2014 IEEE International Conference on, pp. 594-599, 2014
+Quick Abstract | Full Text: PDF
+121. Fast simulation of Digital Spiking Silicon Neuron model employing reconfigurable dataflow computing
+Li, W.X.Y., Fujita, M., Matsumoto, T., Cheung, R.C.C., Chaudhary, S.
+Field-Programmable Technology (FPT), 2013 International Conference on, pp. 478-479, 2013
+Quick Abstract | Full Text: PDF
+122. A novel piece-wise constant analog spiking neuron model and its neuron-like excitabilities
+Yamashita, Y., Torikai, H.
+Neural Networks (IJCNN), The 2011 International Joint Conference on, pp. 717-724, 2011
+Quick Abstract | Full Text: PDF
+123. Biological restraint on the Izhikevich neuron model essential for seizure modeling
+Strack, B., Cios, K.J., Jacobs, K.M.
+Neural Engineering (NER), 2013 6th International IEEE/EMBS Conference on, pp. 395-398, 2013
+Quick Abstract | Full Text: PDF
+124. Temporal pattern recognition via temporal networks of temporal neurons
+Frid, A., Manevitz, L., Hazan, H.
+Electrical & Electronics Engineers in Israel (IEEEI), 2012 IEEE 27th Convention of, pp. 1-4, 2012
+Quick Abstract | Full Text: PDF
+125. Beats as the origin of slow fluctuations in the brain's default-mode network
+Yamanishi, T., Nishimura, H., Jian-Qin Liu
+Soft Computing and Intelligent Systems (SCIS) and 13th International Symposium on Advanced Intelligent Systems (ISIS), 2012 Joint 6th International Conference on, pp. 33-38, 2012
+Quick Abstract | Full Text: PDF
+126. GPGPU accelerated simulation and parameter tuning for neuromorphic applications
+Carlson, K.D., Krichmar, J.L., Dutt, N., Beyeler, M.
+Design Automation Conference (ASP-DAC), 2014 19th Asia and South Pacific, pp. 570-577, 2014
+Quick Abstract | Full Text: PDF
+127. An FPGA design framework for large-scale spiking neural networks
+Runchun Wang, van Schaik, A., Tapson, J., Hamilton, T.J.
+Circuits and Systems (ISCAS), 2014 IEEE International Symposium on, pp. 457-460, 2014
+Quick Abstract | Full Text: PDF
+128. Analysis of routes to chaos in Izhikevich neuron model with resetting process
+Nobukawa, S., Jian-Qin Liu, Yamanishi, T., Nishimura, H.
+Soft Computing and Intelligent Systems (SCIS), 2014 Joint 7th International Conference on and Advanced Intelligent Systems (ISIS), 15th International Symposium on, pp. 813-818, 2014
+Quick Abstract | Full Text: PDF
+129. Classification of different neuron behavior by designing spiking neuron model
+Kumar, A., Hanmandlu, M., Kansal, S.
+Emerging Trends in Computing, Communication and Nanotechnology (ICE-CCN), 2013 International Conference on, pp. 25-30, 2013
+Quick Abstract | Full Text: PDF
+130. Using parallel GPU architecture for simulation of planar I/F networks
+Tiesel, J.-P., Maida, A.S.
+Neural Networks, 2009. IJCNN 2009. International Joint Conference on, pp. 3118-3123, 2009
+Quick Abstract | Full Text: PDF
+131. Associative Memory and Segmentation in a Network Composed of Izhikevich Neurons
+Wei Zhang, Xuyuan Zheng, Qingli Qiao
+Natural Computation, 2008. ICNC '08. Fourth International Conference on, vol. 2, pp. 618-621, 2008
+Quick Abstract | Full Text: PDF
+132. Implementation of Izhikevich neuron model with field programmable devices
+Dahasert, N., Kilic, R., Ozturk, I.
+Signal Processing and Communications Applications Conference (SIU), 2012 20th, pp. 1-4, 2012
+Quick Abstract | Full Text: PDF
+133. A modified adaptive exponential integrate and fire neuron model for circuit implementation of spiking neural networks
+Gomar, S., Eskandari, E., Ahmadi, A.
+Electrical Engineering (ICEE), 2013 21st Iranian Conference on, pp. 1-6, 2013
+Quick Abstract | Full Text: PDF
+134. A novel CMOS image sensor for high speed parallel integral image computation
+Hoseini, Y.D., Sadri, S., Sayedi, S.M.
+Electrical Engineering (ICEE), 2013 21st Iranian Conference on, pp. 1-6, 2013
+Quick Abstract | Full Text: PDF
+135. Bio-mimetic strategies for tactile sensing
+Lee, W.W., Thakor, N.V., Cabibihan, J.
+SENSORS, 2013 IEEE, pp. 1-4, 2013
+Quick Abstract | Full Text: PDF
+136. Filter-induced bifurcation in simple spiking circuits
+Kirikawa, S., Saito, T.
+Circuit Theory and Design (ECCTD), 2013 European Conference on, pp. 1-4, 2013
+Quick Abstract | Full Text: PDF
+137. Parameter Extraction for Neuron Model Simulation of Action Potential in Earthworm Giant Nerve Fiber
+Deka, R., Dutta, J.C.
+Computational Intelligence & Communication Technology (CICT), 2015 IEEE International Conference on, pp. 732-736, 2015
+Quick Abstract | Full Text: PDF
+138. Multivariate partial coherence analysis for identification of neuronal connectivity from multiple electrode array recordings
+Makhtar, S.N., Mason, R., Senik, M.H., Halliday, D.M.
+Biomedical Engineering and Sciences (IECBES), 2014 IEEE Conference on, pp. 77-82, 2014
+Quick Abstract | Full Text: PDF
+139. Gait event detection through neuromorphic spike sequence learning
+Lee, Wang Wei, Thakor, Nitish V., Yu, Haoyong
+Biomedical Robotics and Biomechatronics (2014 5th IEEE RAS & EMBS International Conference on, pp. 899-904, 2014
+Quick Abstract | Full Text: PDF
+140. A hardware system for emulating the early vision utilizing a silicon retina and SpiNNaker chips
+Kawasetsu, T., Okuno, H., Sanada, T., Ishida, R.
+Biomedical Circuits and Systems Conference (BioCAS), 2014 IEEE, pp. 552-555, 2014
+Quick Abstract | Full Text: PDF
+141. Emergence of Scale-free Graphs in Dynamical Spiking Neural Networks
+Pigkniewski, F.
+Neural Networks, 2007. IJCNN 2007. International Joint Conference on, pp. 755-759, 2007
+Quick Abstract | Full Text: PDF
+142. Distributed configuration of massively-parallel simulation on SpiNNaker neuromorphic hardware
+Sharp, T., Furber, S., Patterson, C.
+Neural Networks (IJCNN), The 2011 International Joint Conference on, pp. 1099-1105, 2011
+Quick Abstract | Full Text: PDF
+143. Network bursts in cortical neuronal cultures ÅeNoise- versus pacemakerÅf- driven neural network simulations
+Gritsun, T., Rutten, W.L.C., le Feber, J., Stegenga, J.
+Neural Engineering, 2009. NER '09. 4th International IEEE/EMBS Conference on, pp. 626-628, 2009
+Quick Abstract | Full Text: PDF
+144. Delay-induced order in pulse-coupled bifurcating neurons
+Hisamatsu, K., Saito, T.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-6, 2010
+Quick Abstract | Full Text: PDF
+145. Network modeling of epileptic seizure genesis in hippocampus
+Raiesdana, S., Firoozabadi, S.M.P., Golpayegani, S.M.R.H.
+Neural Engineering, 2009. NER '09. 4th International IEEE/EMBS Conference on, pp. 645-648, 2009
+Quick Abstract | Full Text: PDF
+146. Prerequisites for integrating unsupervised and reinforcement learning in a single network of spiking neurons
+Handrich, S., Herrmann, C.S., Wolf, A., Herzog, A.
+Neural Networks, 2009. IJCNN 2009. International Joint Conference on, pp. 1101-1106, 2009
+Quick Abstract | Full Text: PDF
+147. Magnitude comparison in analog spiking neural assemblies
+Rodrigues de Oliveira-Neto, J., Ranhel, J., Cavalcanti-Neto, R., Duque Belfort, F.
+Neural Networks (IJCNN), 2014 International Joint Conference on, pp. 3186-3191, 2014
+Quick Abstract | Full Text: PDF
+148. Integrating high-level sensor features via STDP for bio-inspired navigation
+Arena, P., Sala, C., Patane, L., Frasca, M., Fortuna, L.
+Circuits and Systems, 2007. ISCAS 2007. IEEE International Symposium on, pp. 609-612, 2007
+Quick Abstract | Full Text: PDF
+149. A spiking neural representation for XCSF
+Howard, G., Lanzi, P.-L., Bull, L.
+Evolutionary Computation (CEC), 2010 IEEE Congress on, pp. 1-8, 2010
+Quick Abstract | Full Text: PDF
+150. Chaotic resonance in Izhikevich neuron model and its assembly
+Nobukawa, S., Jian-Qin Liu, Yamanishi, T., Nishimura, H.
+Soft Computing and Intelligent Systems (SCIS) and 13th International Symposium on Advanced Intelligent Systems (ISIS), 2012 Joint 6th International Conference on, pp. 49-54, 2012
+Quick Abstract | Full Text: PDF
+151. Bio-inspired categorization using event-driven feature extraction and spike-based learning
+Bo Zhao, Huajin Tang, Shoushun Chen
+Neural Networks (IJCNN), 2014 International Joint Conference on, pp. 3845-3852, 2014
+Quick Abstract | Full Text: PDF
+152. A new learning rule for classification of spatiotemporal spike patterns
+Qiang Yu, Tan, K.C., Huajin Tang
+Neural Networks (IJCNN), 2014 International Joint Conference on, pp. 3853-3858, 2014
+Quick Abstract | Full Text: PDF
+153. An insect brain computational model inspired by Drosophila melanogaster: Architecture description
+Arena, P., Termini, P.S., Strauss, R., Patane, L., Berg, C.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-7, 2010
+Quick Abstract | Full Text: PDF
+154. Parameter and input estimation in Hindmarsh-Rose neuron by adaptive observer
+Mukae, J., Matsuo, T., Suemitsu, H., Totoki, Y.
+System Integration (SII), 2011 IEEE/SICE International Symposium on, pp. 1090-1095, 2011
+Quick Abstract | Full Text: PDF
+155. Assessing graph models for description of brain networks
+Yixuan Yuan, Tianming Liu, Li Xie, Junwei Han, Degang Zhang, Xintao Hu, Peili Lv, Lei Guo
+Biomedical Imaging: From Nano to Macro, 2011 IEEE International Symposium on, pp. 827-831, 2011
+Quick Abstract | Full Text: PDF
+156. Modeling the cholinergic innervation in the infant cortico-hippocampal system and its contribution to early memory development and attention
+Pitti, A., Kuniyoshi, Y.
+Neural Networks (IJCNN), The 2011 International Joint Conference on, pp. 1409-1416, 2011
+Quick Abstract | Full Text: PDF
+157. Cerebellar spiking engine: Towards objet model abstraction in manipulation
+Luque, N.R., Ros, E., Carrillo, R.R., Garrido, J.A.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-8, 2010
+Quick Abstract | Full Text: PDF
+158. Training a spiking neural network to control a 4-DoF robotic arm based on Spike Timing-Dependent Plasticity
+Bouganis, A., Shanahan, M.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-8, 2010
+Quick Abstract | Full Text: PDF
+159. An insect brain computational model inspired by Drosophila melanogaster: Simulation results
+Arena, P., Termini, P.S., Patane, L.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-8, 2010
+Quick Abstract | Full Text: PDF
+160. A neurorobotic model of bipedal locomotion based on principles of human neuromuscular architecture
+Klein, T., Lewis, M.A.
+Robotics and Automation (ICRA), 2012 IEEE International Conference on, pp. 1450-1455, 2012
+Quick Abstract | Full Text: PDF
+161. Spiking neuron model of basal forebrain enhancement of visual attention
+Avery, M., Dutt, N., Krichmar, J.L.
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-8, 2012
+Quick Abstract | Full Text: PDF
+162. Simulating lesions in multi-layer, multi-columnar model of neocortex
+Strack, B., Cios, K.J., Jacobs, K.M.
+Neural Engineering (NER), 2013 6th International IEEE/EMBS Conference on, pp. 835-838, 2013
+Quick Abstract | Full Text: PDF
+163. Neuronal avalanche induced by multiplicative spike-timing-dependent plasticity
+Ohno, S., Ikeguchi, T., Kato, H.
+Neural Networks (IJCNN), The 2011 International Joint Conference on, pp. 1523-1529, 2011
+Quick Abstract | Full Text: PDF
+164. Power analysis of large-scale, real-time neural networks on SpiNNaker
+Stromatias, E., Furber, S., Patterson, C., Galluppi, F.
+Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1-8, 2013
+Quick Abstract | Full Text: PDF
+165. A spiking neural network for illuminant-invariant colour discrimination
+Ratnasingam, S., Robles-Kelly, A.
+Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1-8, 2013
+Quick Abstract | Full Text: PDF
+166. Hippocampus function modeling with neural network
+Zhao Wang-Xiong, Dan Wang, Qing-Li Qiao
+IT in Medicine & Education, 2009. ITIME '09. IEEE International Symposium on, vol. 1, pp. 1128-1131, 2009
+Quick Abstract | Full Text: PDF
+167. A spiking neuronal network model of the dorsal raphe nucleus
+KongFatt Wong-Lin, McGinnity, T.M., Prasad, G.
+Neural Networks (IJCNN), The 2011 International Joint Conference on, pp. 1591-1598, 2011
+Quick Abstract | Full Text: PDF
+168. Diverse background activities hidden in power-law spontaneous activity of hippocampal CA3 slice culture
+Samura, T., Aihara, T., Hayashi, H., Ikegaya, Y., Sato, Y.D.
+Soft Computing and Intelligent Systems (SCIS) and 13th International Symposium on Advanced Intelligent Systems (ISIS), 2012 Joint 6th International Conference on, pp. 321-325, 2012
+Quick Abstract | Full Text: PDF
+169. Spiking neural networks based cortex like mechanism: A case study for facial expression recognition
+Si-Yao Fu, Zeng-Guang Hou, Guo-Sheng Yang
+Neural Networks (IJCNN), The 2011 International Joint Conference on, pp. 1637-1642, 2011
+Quick Abstract | Full Text: PDF
+170. Analysis of various transient phenomena and co-existing periodic spike-trains in simple digital spike maps
+Horimoto, N., Saito, T.
+Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1-8, 2013
+Quick Abstract | Full Text: PDF
+171. Neural spiking dynamics in asynchronous digital circuits
+Imam, N., Manohar, R., Karmazin, R., Tse, J., Wecker, K.
+Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1-8, 2013
+Quick Abstract | Full Text: PDF
+172. Soft-neuromorphic artificial touch for applications in neuro-robotics
+Spigler, G., Carrozza, M.C., Oddo, C.M.
+Biomedical Robotics and Biomechatronics (BioRob), 2012 4th IEEE RAS & EMBS International Conference on, pp. 1913-1918, 2012
+Quick Abstract | Full Text: PDF
+173. Bifurcation phenomena of simple pulse-coupled spiking neuron models with filtered base signal
+Kirikawa, S., Saito, T.
+Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1-8, 2013
+Quick Abstract | Full Text: PDF
+174. Digital spike maps and learning of spike signals
+Ogawa, T., Saito, T.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-6, 2010
+Quick Abstract | Full Text: PDF
+175. A programmable facilitating synapse device
+Yajie Chen, Kelly, P., Hall, S., McDaid, L.
+Neural Networks, 2008. IJCNN 2008. (IEEE World Congress on Computational Intelligence). IEEE International Joint Conference on, pp. 1615-1620, 2008
+Quick Abstract | Full Text: PDF
+176. Modulation of neuronal activity with extremely low-frequency magnetic fields: Insights from biophysical modeling
+Modolo, J., Legros, A., Prato, F.S., Stodilka, R.Z., Thomas, A.W.
+Bio-Inspired Computing: Theories and Applications (BIC-TA), 2010 IEEE Fifth International Conference on, pp. 1356-1364, 2010
+Quick Abstract | Full Text: PDF
+177. Biologically plausible models of homeostasis and STDP: Stability and learning in spiking neural networks
+Carlson, K.D., Krichmar, J.L., Dutt, N., Richert, M.
+Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1-8, 2013
+Quick Abstract | Full Text: PDF
+178. A basis coupled evolving spiking neural network with afferent input neurons
+Shirin, D., Suresh, S., Savitha, R.
+Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1-8, 2013
+Quick Abstract | Full Text: PDF
+179. Spiking and Bursting Firing Patterns of a Compact VLSI Cortical Neuron Circuit
+Wijekoon, J.H.B., Dudek, P.
+Neural Networks, 2007. IJCNN 2007. International Joint Conference on, pp. 1332-1337, 2007
+Quick Abstract | Full Text: PDF
+180. A forecast-based biologically-plausible STDP learning rule
+Davies, S., Furber, S., Galluppi, F., Rast, A.
+Neural Networks (IJCNN), The 2011 International Joint Conference on, pp. 1810-1817, 2011
+Quick Abstract | Full Text: PDF
+181. Which model to use for the Liquid State Machine?
+Grzyb, B.J., Kaminski, W.A., Wojcik, G.M., Chinellato, E.
+Neural Networks, 2009. IJCNN 2009. International Joint Conference on, pp. 1018-1024, 2009
+Quick Abstract | Full Text: PDF
+182. An insect brain inspired neural model for object representation and expectation
+Arena, P., Termini, P.S., Patane, L.
+Neural Networks (IJCNN), The 2011 International Joint Conference on, pp. 1902-1909, 2011
+Quick Abstract | Full Text: PDF
+183. Analysis of neuronal cells of dissociated primary culture on high-density CMOS electrode array
+Matsuda, E., Ikegami, T., Takahashi, H., Hierlemann, A., Frey, U., Bakkum, D., Hubert, J., Mita, T.
+Engineering in Medicine and Biology Society (EMBC), 2013 35th Annual International Conference of the IEEE, pp. 1045-1048, 2013
+Quick Abstract | Full Text: PDF
+184. An Application of Spike-Timing-Dependent Plasticity to Readout Circuit for Liquid State Machine
+Oliveri, A., Chella, A., Rizzo, R.
+Neural Networks, 2007. IJCNN 2007. International Joint Conference on, pp. 1441-1445, 2007
+Quick Abstract | Full Text: PDF
+185. Reservoir-computing-based, biologically-inspired artificial neural network for modeling of a single machine infinite bus power system
+Jing Dai, Potter, S.M., Harley, R.G., Venayagamoorthy, G.K.
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-8, 2012
+Quick Abstract | Full Text: PDF
+186. Synthesis of frequency generator via spiking neurons network: A genetic algorithm approach
+Soares, G.E., Oliveira, G.M.C., Gomes, R.M., Borges, H.E.
+Bio-Inspired Computing: Theories and Applications (BIC-TA), 2010 IEEE Fifth International Conference on, pp. 1613-1620, 2010
+Quick Abstract | Full Text: PDF
+187. Modeling cortical states by spiking neurons
+Sengor, N.S., Ciflci, K., Kuyumcu, Y.
+Signal Processing and Communications Applications Conference (SIU), 2014 22nd, pp. 1243-1246, 2014
+Quick Abstract | Full Text: PDF
+188. Autonomous learning of collaboration among robots
+Arena, P., Vitanza, A., Patane, L.
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-8, 2012
+Quick Abstract | Full Text: PDF
+189. STDP produces robust oscillatory architectures that exhibit precise collective synchronization
+Bhowmik, D., Shanahan, M.
+Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1-8, 2013
+Quick Abstract | Full Text: PDF
+190. The neuroid: A novel and simplified neuron-model
+Arguello, E., Huerta, M., Castillo, C., Silva, R.
+Engineering in Medicine and Biology Society (EMBC), 2012 Annual International Conference of the IEEE, pp. 1234-1237, 2012
+Quick Abstract | Full Text: PDF
+191. Phase offset between slow oscillatory cortical inputs influences competition in a model of the basal ganglia
+Fountas, Z., Shanahan, M.
+Neural Networks (IJCNN), 2014 International Joint Conference on, pp. 2407-2414, 2014
+Quick Abstract | Full Text: PDF
+192. Encoding real values into polychronous spiking networks
+Johnson, C., Venayagamoorthy, G.K.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-7, 2010
+Quick Abstract | Full Text: PDF
+193. Implementation of configurable and multipurpose spiking neural networks on GPUs
+Arista-Jalife, A., Vazquez, R.A.
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-8, 2012
+Quick Abstract | Full Text: PDF
+194. Simple Analogue VLSI Circuit of a Cortical Neuron
+Wijekoon, J.H.B., Dudek, P.
+Electronics, Circuits and Systems, 2006. ICECS '06. 13th IEEE International Conference on, pp. 1344-1347, 2006
+Quick Abstract | Full Text: PDF
+195. Synaptic dynamics: Linear model and adaptation algorithm
+Yousefi, A., Berger, T.W., Dibazar, A.A.
+Engineering in Medicine and Biology Society (EMBC), 2012 Annual International Conference of the IEEE, pp. 1362-1365, 2012
+Quick Abstract | Full Text: PDF
+196. A bidirectional associative memory based on cortical spiking neurons using temporal coding
+Zamani, M., Chartier, S., Sadeghian, A.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-8, 2010
+Quick Abstract | Full Text: PDF
+197. A spiking network for object and ego-motion detection in roving robots
+Arena, P., Patane, L.
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-8, 2012
+Quick Abstract | Full Text: PDF
+198. Programmable synaptic memory with spiking neural network in VLSI
+Sivakumar, V., Malathi, M.
+Information Communication and Embedded Systems (ICICES), 2014 International Conference on, pp. 1-5, 2014
+Quick Abstract | Full Text: PDF
+199. Extension of neuron machine neurocomputing architecture for spiking neural networks
+Ahn, J.B.
+Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1-8, 2013
+Quick Abstract | Full Text: PDF
+200. Multiple memristor read and write circuit for neuromorphic applications
+Yakopcic, C., Rogers, S., Subramanyam, G., Taha, T.M.
+Neural Networks (IJCNN), The 2011 International Joint Conference on, pp. 2676-2682, 2011
+Quick Abstract | Full Text: PDF
+201. Neural behaviors and nonlinear dynamics of a rotate-and-fire digital spiking neuron
+Hishiki, T., Torikai, H.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-8, 2010
+Quick Abstract | Full Text: PDF
+202. Integrate-and-fire-type digital spiking neuron and its learning for spike-pattern-division multiplex communication
+Iguchi, T., Torikai, H., Hirata, A.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-8, 2010
+Quick Abstract | Full Text: PDF
+203. Improved spike-timed mappings using a tri-phasic spike timing-dependent plasticity rule
+Notley, S.V., Gruning, A.
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-6, 2012
+Quick Abstract | Full Text: PDF
+204. GPU-based simulation of spiking neural networks with real-time performance & high accuracy
+Yudanov, D., Reznik, L., Melton, R., Shaaban, M.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-8, 2010
+Quick Abstract | Full Text: PDF
+205. Virtual synaptic interconnect using an asynchronous network-on-chip
+Rast, A.D., Furber, S.B., Khan, M., Shufan Yang
+Neural Networks, 2008. IJCNN 2008. (IEEE World Congress on Computational Intelligence). IEEE International Joint Conference on, pp. 2727-2734, 2008
+Quick Abstract | Full Text: PDF
+206. Spiking Neuron Model approximation using GEP
+Espinosa-Ramos, J.I., Vazquez, R.A., Cortes, N.C.
+Evolutionary Computation (CEC), 2013 IEEE Congress on, pp. 3260-3267, 2013
+Quick Abstract | Full Text: PDF
+207. Spiking neural networks for financial data prediction
+Reid, D., Tawfik, H., Hussain, A.J.
+Neural Networks (IJCNN), The 2013 International Joint Conference on, pp. 1-10, 2013
+Quick Abstract | Full Text: PDF
+208. Parallelizing two classes of neuromorphic models on the Cell multicore architecture
+Taha, T.M., Mohan, S.K., Jalasutram, R., Bhuiyan, M.A., Yalamanchili, P.
+Neural Networks, 2009. IJCNN 2009. International Joint Conference on, pp. 3046-3053, 2009
+Quick Abstract | Full Text: PDF
+209. Efficient modelling of spiking neural networks on a scalable chip multiprocessor
+Xin Jin, Woods, J.V., Furber, S.B.
+Neural Networks, 2008. IJCNN 2008. (IEEE World Congress on Computational Intelligence). IEEE International Joint Conference on, pp. 2812-2819, 2008
+Quick Abstract | Full Text: PDF
+210. Accelerated simulation of spiking neural networks using GPUs
+Fidjeland, A.K., Shanahan, M.P.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-8, 2010
+Quick Abstract | Full Text: PDF
+211. SpiNNaker: Mapping neural networks onto a massively-parallel chip multiprocessor
+Khan, M.M., Furber, S.B., Painkras, E., Jin, X., Rast, A., Plana, L.A., Lester, D.R.
+Neural Networks, 2008. IJCNN 2008. (IEEE World Congress on Computational Intelligence). IEEE International Joint Conference on, pp. 2849-2856, 2008
+Quick Abstract | Full Text: PDF
+212. SymbricatorRTOS: A flexible and Dynamic framework for bio-inspired robot control systems and evolution
+Szymanski, M., Thenius, R., Schmickl, T., van Rossum, A.C., Schlachter, F., Laneri, D., Winkler, L.
+Evolutionary Computation, 2009. CEC '09. IEEE Congress on, pp. 3314-3321, 2009
+Quick Abstract | Full Text: PDF
+213. Parameter Estimation of Biological Neuron Models with Bursting and Spiking
+Fujikawa, H., Matsuo, T., Suemitsu, H., Mitsunaga, K.
+SICE-ICASE, 2006. International Joint Conference, pp. 4487-4492, 2006
+Quick Abstract | Full Text: PDF
+214. Integrated circuit implementation of a cortical neuron
+Wijekoon, J.H.B., Dudek, P.
+Circuits and Systems, 2008. ISCAS 2008. IEEE International Symposium on, pp. 1784-1787, 2008
+Quick Abstract | Full Text: PDF
+215. The novel SCR-based ESD protection device with high holding voltage
+Jong-Il Won, Yong-Seo Koo, Jong-Ki Kwon, Ka-San Ha, Shin, S.
+Circuits and Systems, 2009. ISCAS 2009. IEEE International Symposium on, pp. 1779-1782, 2009
+Quick Abstract | Full Text: PDF
+216. Why is it hard to induce long-term depression?
+Benuskova, L.
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-7, 2012
+Quick Abstract | Full Text: PDF
+217. The emergence of polychronous groups under varying input patterns, plasticity rules and network connectivities
+Chrol-Cannon, J., Yaochu Jin, Gruning, A.
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-6, 2012
+Quick Abstract | Full Text: PDF
+218. Modeling attentional loop in the insect Mushroom Bodies
+Arena, P., Termini, P.S., Patane, L.
+Neural Networks (IJCNN), The 2012 International Joint Conference on, pp. 1-7, 2012
+Quick Abstract | Full Text: PDF
+219. A bio-inspired approach modeling spiking neural networks of visual cortex for human action recognition
+Na Shu, Haihua Liu, Tang, Q.
+Neural Networks (IJCNN), 2014 International Joint Conference on, pp. 3450-3457, 2014
+Quick Abstract | Full Text: PDF
+220. Improvement of Izhikevich's Neuronal and Neural Network Model
+Huaiyang Wang, Huaixing Wang
+Information Engineering and Computer Science, 2009. ICIECS 2009. International Conference on, pp. 1-4, 2009
+Quick Abstract | Full Text: PDF
+221. The effects of external electrical field on a neural network with synaptic plasticity and conduction delays
+Jia Zhao, Jianbing Sun, Yingmei Qin, Cong Men, Jiang Wang, Xile Wei, Bin Deng
+Control and Decision Conference (CCDC), 2012 24th Chinese, pp. 2449-2454, 2012
+Quick Abstract | Full Text: PDF
+222. Efficient simulation of large-scale Spiking Neural Networks using CUDA graphics processors
+Nageswaran, J.M., Veidenbaum, A., Nicolau, A., Krichmar, J.L., Dutt, N.
+Neural Networks, 2009. IJCNN 2009. International Joint Conference on, pp. 2145-2152, 2009
+Quick Abstract | Full Text: PDF
+223. Modelling and simulations of a central pattern generator controlled, antagonistically actuated limb joint
+Noble, F.K., Xu, W.L., Potgieter, J.
+Systems, Man, and Cybernetics (SMC), 2011 IEEE International Conference on, pp. 2898-2903, 2011
+Quick Abstract | Full Text: PDF
+224. Quantum-inspired feature and parameter optimisation of evolving spiking neural networks with a case study from ecological modeling
+Schliebs, S., Kasabov, N., Worner, S., Platel, M.D.
+Neural Networks, 2009. IJCNN 2009. International Joint Conference on, pp. 2833-2840, 2009
+Quick Abstract | Full Text: PDF
+225. Response of chaotic spiking circuit to periodic/nonperiodic inputs
+Inagaki, T., Torikai, H., Saito, T.
+Neural Networks, 2007. IJCNN 2007. International Joint Conference on, pp. 2718-2722, 2007
+Quick Abstract | Full Text: PDF
+226. Spike-based learning with a generalized integrate and fire silicon neuron
+Indiveri, G., Chicca, E., Stefanini, F.
+Circuits and Systems (ISCAS), Proceedings of 2010 IEEE International Symposium on, pp. 1951-1954, 2010
+Quick Abstract | Full Text: PDF
+227. A universal abstract-time platform for real-time neural networks
+Rast, A.D., Furber, S.B., Plana, L.A., Jin, X., Khan, M.M.
+Neural Networks, 2009. IJCNN 2009. International Joint Conference on, pp. 2611-2618, 2009
+Quick Abstract | Full Text: PDF
+228. Employing neuronal networks to investigate the pathophysiological basis of abnormal cortical oscillations in Alzheimer's disease
+Abuhassan, K., Maguire, L., Coyle, D.
+Engineering in Medicine and Biology Society, EMBC, 2011 Annual International Conference of the IEEE, pp. 2065-2068, 2011
+Quick Abstract | Full Text: PDF
+229. Analysis of inter-spike interval characteristics of piecewise constant chaotic spiking oscillators
+Hasegawa, T., Saito, T., Matsuoka, Y.
+Neural Networks, 2008. IJCNN 2008. (IEEE World Congress on Computational Intelligence). IEEE International Joint Conference on, pp. 3435-3440, 2008
+Quick Abstract | Full Text: PDF
+230. A numerical approach to calculate grazing bifurcation points in an impact oscillator with periodic boundaries
+Takahashi, A., Kousaka, T., Aihara, K., Sekiya, H.
+Circuits and Systems (ISCAS), 2012 IEEE International Symposium on, pp. 2111-2114, 2012
+Quick Abstract | Full Text: PDF
+231. Neuromorphic algorithms on clusters of PlayStation 3s
+Taha, T.M., Linderman, R., Chong Chen, Jalasutram, R., Bhuiyan, M., Yalamanchili, P.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-10, 2010
+Quick Abstract | Full Text: PDF
+232. A low power neural recording amplifier with programmable gain and bandwidth
+Thanigaivelan, B., Hamilton, T.J., Wiles, J.
+Circuits and Systems (ISCAS), 2012 IEEE International Symposium on, pp. 2219-2222, 2012
+Quick Abstract | Full Text: PDF
+233. Transmission of spatio-temporal patterns from biological to artificial neural networks by a multi-electrode array
+Herzog, A., Voigt, T., Baltz, T., de Lima, A.D., Michaelis, B., Kube, K.
+Neural Networks, 2008. IJCNN 2008. (IEEE World Congress on Computational Intelligence). IEEE International Joint Conference on, pp. 3685-3689, 2008
+Quick Abstract | Full Text: PDF
+234. Neuromorphic models on a GPGPU cluster
+Bing Han, Taha, T.M.
+Neural Networks (IJCNN), The 2010 International Joint Conference on, pp. 1-8, 2010
+Quick Abstract | Full Text: PDF
+235. Optimal parameter estimation of the Izhikevich single neuron model using experimental inter-spike interval (ISI) data
+Kumar, G., Kothare, M.V., Schieber, M.H., Thakor, N.V., Aggarwal, V.
+American Control Conference (ACC), 2010, pp. 3586-3591, 2010
+Quick Abstract | Full Text: PDF
+236. Heterogeneous neurons and plastic synapses in a reconfigurable cortical neural network IC
+Wijekoon, J.H.B., Dudek, P.
+Circuits and Systems (ISCAS), 2012 IEEE International Symposium on, pp. 2417-2420, 2012
+Quick Abstract | Full Text: PDF
+237. Prediction of single neuron spiking activity using an optimized nonlinear dynamic model
+Mitra, A., Sauer, T., Manitius, A.
+Engineering in Medicine and Biology Society (EMBC), 2012 Annual International Conference of the IEEE, pp. 2543-2546, 2012
+Quick Abstract | Full Text: PDF
+238. A current-mode conductance-based silicon neuron for address-event neuromorphic systems
+Livi, P., Indiveri, G.
+Circuits and Systems, 2009. ISCAS 2009. IEEE International Symposium on, pp. 2898-2901, 2009
+Quick Abstract | Full Text: PDF
+239. Properties of a temporal difference reinforcement learning brain machine interface driven by a simulated motor cortex
+Tarigoppula, A., Francis, J.T., Rotella, N.
+Engineering in Medicine and Biology Society (EMBC), 2012 Annual International Conference of the IEEE, pp. 3284-3287, 2012
+Quick Abstract | Full Text: PDF
+240. Nonlinear Modeling of Brain Motor Waves via Transcranial Magnetic Stimulation
+d'Aloja, G., Rizzo, A., Maione, B., Lino, P.
+Decision and Control, 2005 and 2005 European Control Conference. CDC-ECC '05. 44th IEEE Conference on, pp. 4833- 4838, 2005
+Quick Abstract | Full Text: PDF
+241. An actor-critic architecture and simulator for goal-directed brain-machine interfaces
+Mahmoudi, B., Sanchez, J.C., Principe, J.C.
+Engineering in Medicine and Biology Society, 2009. EMBC 2009. Annual International Conference of the IEEE, pp. 3365-3368, 2009
+Quick Abstract | Full Text: PDF
+242. A log-domain implementation of the Mihalas-Niebur neuron model
+van Schaik, A., Niebur, E., Mihalas, S., Hamilton, T.J., McEwan, A., Jin, C.
+Circuits and Systems (ISCAS), Proceedings of 2010 IEEE International Symposium on, pp. 4249-4252, 2010
+Quick Abstract | Full Text: PDF
+243. A log-domain implementation of the Izhikevich neuron model
+van Schaik, A., Hamilton, T.J., McEwan, A., Jin, C.
+Circuits and Systems (ISCAS), Proceedings of 2010 IEEE International Symposium on, pp. 4253-4256, 2010
+Quick Abstract | Full Text: PDF
+244. New trends in computational modeling: A Neuroid-based retina model
+Arguello, E., Castillo, C., Huerta, M., Silva, R.
+Engineering in Medicine and Biology Society (EMBC), 2013 35th Annual International Conference of the IEEE, pp. 4561-4564, 2013
+Quick Abstract | Full Text: PDF
+245. Support of a patient-specific therapeutical acoustic stimulation in tinnitus by numerical modeling
+Haab, L., Strauss, D.J., Hannemann, R., Ruckert, J., Scheerer, M.
+Engineering in Medicine and Biology Society (EMBC), 2012 Annual International Conference of the IEEE, pp. 5578-5581, 2012
+Quick Abstract | Full Text: PDF
+246. Local field potential driven Izhikevich model predicts a subthalamic nucleus neuron activity
+Michmizos, K.P., Nikita, K.S.
+Engineering in Medicine and Biology Society, EMBC, 2011 Annual International Conference of the IEEE, pp. 5900-5903, 2011
+Quick Abstract | Full Text: PDF
+247. Effect of subthalamic nucleus interconnectivity at deep brain stimulation onset and offset: A simulation study
+Guiyeom Kang, Lowery, M.M.
+Engineering in Medicine and Biology Society, EMBC, 2011 Annual International Conference of the IEEE, pp. 7107-7110, 2011
+Quick Abstract | Full Text: PDF
+248. Addition of deep brain stimulation signal to a local field potential driven Izhikevich model masks the pathological firing pattern of an STN neuron
+Michmizos, K.P., Nikita, K.S.
+Engineering in Medicine and Biology Society, EMBC, 2011 Annual International Conference of the IEEE, pp. 7290-7293, 2011
+Quick Abstract | Full Text: PDF
+249. The Role of Temporal Parameters in a Thalamocortical Model of Analogy
+Choe, Y.
+IEEE Transactions on Neural Networks, vol. 15, no. 5, p. 1071, 2004
+Quick Abstract | Full Text: PDF
+250. A Theoretical Study of Different Leader Roles in Networks
+Wang, W., Slotine, J.-J.E.
+IEEE Transactions on Automatic Control, vol. 51, no. 7, p. 1156, 2006
+Quick Abstract | Full Text: PDF
+251. A MOSFET-Based Model of a Class 2 Nerve Membrane
+Kohno, T., Aihara, K.
+IEEE Transactions on Neural Networks, vol. 16, no. 3, p. 754, 2005
+Quick Abstract | Full Text: PDF
+252. Which Model to Use for Cortical Spiking Neurons?
+Izhikevich, E.M.
+IEEE Transactions on Neural Networks, vol. 15, no. 5, p. 1063, 2004
+Quick Abstract | Full Text: PDF
+253. Contingency Perception and Agency Measure in Visuo-Motor Spiking Neural Networks
+Pitti, Alexandre, Mori, Hiroki, Kouzuma, Shingo, Kuniyoshi, Yasuo
+IEEE Transactions on Autonomous Mental Development, vol. 1, no. 1, p. 86, 2009
+Quick Abstract | Full Text: PDF
+254. Learning Anticipation via Spiking Networks: Application to Navigation Control
+Arena, P., Fortuna, L., Frasca, M., Patane, L.
+IEEE Transactions on Neural Networks, vol. 20, no. 2, p. 202, 2009
+Quick Abstract | Full Text: PDF
+255. Empirical Mode Decomposition for Trivariate Signals
+ur Rehman, N., Mandic, D.P.
+IEEE Transactions on Signal Processing, vol. 58, no. 3, p. 1059, 2010
+Quick Abstract | Full Text: PDF
+256. A Novel Hybrid Spiking Neuron: Bifurcations, Responses, and On-Chip Learning
+Hashimoto, Sho, Torikai, Hiroyuki
+IEEE Transactions on Circuits and Systems I Regular Papers, vol. 57, no. 8, p. 2168, 2010
+Quick Abstract | Full Text: PDF
+257. Self-Sustained Irregular Activity in 2-D Small-World Networks of Excitatory and Inhibitory Neurons
+Daqing Guo, , Chunguang Li,
+IEEE Transactions on Neural Networks, vol. 21, no. 6, p. 895, 2010
+Quick Abstract | Full Text: PDF
+258. Analog VLSI Biophysical Neurons and Synapses With Programmable Membrane Channel Kinetics
+Yu, Theodore, Cauwenberghs, Gert
+IEEE Transactions on Biomedical Circuits and Systems, vol. 4, no. 3, p. 139, 2010
+Quick Abstract | Full Text: PDF
+259. Theoretical Model for Mesoscopic-Level Scale-Free Self-Organization of Functional Brain Networks
+Piersa, Jaroslaw, Piekniewski, Filip, Schreiber, Tomasz
+IEEE Transactions on Neural Networks, vol. 21, no. 11, p. 1747, 2010
+Quick Abstract | Full Text: PDF
+Cited by Other Publishers
+1. Formation of feedforward networks and frequency synchrony by spike-timing-dependent plasticity
+Masuda, Naoki, Kori, Hiroshi
+Journal of Computational Neuroscience, vol. 22, no. 3, p. 327, 2007
+2. Sensitivity versus resonance in two-dimensional spiking-bursting neuron models
+Ibarz, Borja, Tanaka, Gouhei, Sanju??n, Miguel, Aihara, Kazuyuki
+Physical Review E, vol. 75, no. 4, p. 041902, 2007
+3. Learning and control with large dynamic neural networks
+Dauc??, E.
+The European Physical Journal Special Topics, vol. 142, no. 1, p. 123, 2007
+4. Travelling wave patterns in a model of the spinal pattern generator using spiking neurons
+Kaske, Alexander, Bertschinger, Nils
+Biological Cybernetics, vol. 92, no. 3, p. 206, 2005
+5. Studies of stimulus parameters for seizure disruption using neural network simulations
+Anderson, William S., Kudela, Pawel, Cho, Jounhong, Bergey, Gregory K., Franaszczuk, Piotr J.
+Biological Cybernetics, vol. 97, no. 2, p. 173, 2007
+6. Analytical Integrate-and-Fire Neuron Models with Conductance-Based Dynamics for Event-Driven Simulation Strategies
+Rudolph, Michelle, Destexhe, Alain
+Neural Computation, vol. 18, no. 9, p. 2146, 2006
+7. Synchronous and asynchronous bursting states: role of intrinsic neural dynamics
+Takekawa, Takashi, Aoyagi, Toshio, Fukai, Tomoki
+Journal of Computational Neuroscience, vol. 23, no. 2, p. 189, 2007
+8. Exact Simulation of Integrate-and-Fire Models with Exponential Currents
+Brette, Romain
+Neural Computation, vol. 19, no. 10, p. 2604, 2007
+9. A discrete time neural network model with spiking neurons
+Cessac, B.
+Journal of Mathematical Biology, vol. 56, no. 3, p. 311, 2007
+10. Event-Driven Simulations of Nonlinear Integrate-and-Fire Neurons
+Tonnelier, Arnaud, Belmabrouk, Hana, Martinez, Dominique
+Neural Computation, vol. 19, no. 12, p. 3226, 2007
+11. Solution Methods for a New Class of Simple Model Neurons
+Humphries, Mark D., Gurney, Kevin
+Neural Computation, vol. 19, no. 12, p. 3216, 2007
+12. Dynamics of the Instantaneous Firing Rate in Response to Changes in Input Statistics
+Fourcaud-Trocm??, Nicolas, Brunel, Nicolas
+Journal of Computational Neuroscience, vol. 18, no. 3, p. 311, 2005
+13. Modeling the acceleration sensitive neurons in the pigeon optokinetic system
+Zhang, Chuan, Wang, Yun-Jiu, Qi, Xiang-Lin
+Biological Cybernetics, vol. 92, no. 4, p. 252, 2005
+14. Predicting spike timing of neocortical pyramidal neurons by simple threshold models
+Jolivet, Renaud, Rauch, Alexander, L??scher, Hans-Rudolf, Gerstner, Wulfram
+Journal of Computational Neuroscience, vol. 21, no. 1, p. 35, 2006
+15. Polychronization: Computation with Spikes
+Izhikevich, Eugene M.
+Neural Computation, vol. 18, no. 2, p. 245, 2006
+16. Optimal Spike-Timing-Dependent Plasticity for Precise Action Potential Firing in Supervised Learning
+Pfister, Jean-Pascal, Toyoizumi, Taro, Barber, David, Gerstner, Wulfram
+Neural Computation, vol. 18, no. 6, p. 1318, 2006
+17. State space method for predicting the spike times of a neuron
+Kobayashi, Ryota, Shinomoto, Shigeru
+Physical Review E, vol. 75, no. 1, p. 011925, 2007
+18. STDP rule endowed with the BCM sliding threshold accounts for hippocampal heterosynaptic plasticity
+Benuskova, Lubica, Abraham, Wickliffe C.
+Journal of Computational Neuroscience, vol. 22, no. 2, p. 129, 2007
+19. Integrative connectionist learning systems inspired by nature: current models, future trends and challenges
+Kasabov, Nikola
+Natural Computing, 2008
+20. Time-warp invariant pattern detection with bursting neurons
+Gollisch, Tim
+New Journal of Physics, vol. 10, no. 1, p. 015012, 2008
+21. Assessment of bioinspired models for pattern recognition in biomimetic systems
+Pioggia, G, Ferro, M, Francesco, F Di, Ahluwalia, A, De Rossi, D
+Bioinspiration &amp; Biomimetics, vol. 3, no. 1, p. 016004, 2008
+22. Large-scale model of mammalian thalamocortical systems
+Izhikevich, E. M., Edelman, G. M.
+Proceedings of the National Academy of Sciences, vol. 105, no. 9, p. 3593, 2008
+23. Bifurcation Analysis of a General Class of Nonlinear Integrate-and-Fire Neurons
+Touboul, Jonathan
+SIAM Journal on Applied Mathematics, vol. 68, no. 4, p. 1045, 2008
+24. Design principles of sensory processing in cerebellum-like structures : Early stage processing of electrosensory and auditory objects
+Roberts, Patrick D., Portfors, Christine V.
+Biological Cybernetics, vol. 98, no. 6, p. 491, 2008
+25. Dynamics of the Subthalamo-pallidal Complex in Parkinson???s Disease During Deep Brain Stimulation
+Modolo, J., Henry, J., Beuter, A.
+Journal of Biological Physics, vol. 34, no. 3-4, p. 351, 2008
+26. Identification of biological neurons using adaptive observers
+Mao, Yu, Tang, Wallace, Liu, Ying, Kocarev, Ljupco
+Cognitive Processing, 2008
+27. Oscillations and Synchrony in Large-scale Cortical Network Models
+Rulkov, Nikolai F., Bazhenov, Maxim
+Journal of Biological Physics, vol. 34, no. 3-4, p. 279, 2008
+28. Functions of neuronal network motifs
+Li, Chunguang
+Physical Review E, vol. 78, no. 3, p. 037101, 2008
+29. A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviors
+Mihala??, ??tefan, Niebur, Ernst
+Neural Computation, vol. 21, no. 3, p. 704, 2009
+30. Dynamical complexity in small-world networks of spiking neurons
+Shanahan, Murray
+Physical Review E, vol. 78, no. 4, p. 041924, 2008
+31. Firing patterns in the adaptive exponential integrate-and-fire model
+Naud, Richard, Marcille, Nicolas, Clopath, Claudia, Gerstner, Wulfram
+Biological Cybernetics, vol. 99, no. 4-5, p. 335, 2008
+32. An incomplete gallery: machines, cognition, and nonlinearities
+Fortuna, Luigi, Frasca, Mattia
+Cognitive Processing, 2008
+33. Chaotic solutions in the quadratic integrate-and-fire neuron with adaptation
+Zheng, Gang, Tonnelier, Arnaud
+Cognitive Neurodynamics, vol. 3, no. 3, p. 197, 2009
+34. KInNeSS: A Modular Framework for Computational Neuroscience
+Versace, Massimiliano, Ames, Heather, L??veill??, Jasmin, Fortenberry, Bret, Gorchetchnikov, Anatoli
+Neuroinformatics, vol. 6, no. 4, p. 291, 2008
+35. The winnerless competition paradigm in cellular nonlinear networks: Models and applications
+Fortuna, Luigi, Arena, Paolo, Lombardo, Davide, Patan??, Luca, Velarde, Manuel G.
+International Journal of Circuit Theory and Applications, p. n/a, 2008
+36. Voltage-stepping schemes for the simulation of spiking neural networks
+Zheng, G., Tonnelier, A., Martinez, D.
+Journal of Computational Neuroscience, 2008
+37. How Gibbs Distributions May Naturally Arise from??Synaptic Adaptation Mechanisms. A??Model-Based??Argumentation
+Cessac, B., Rostro, H., Vasquez, J. C., Vi??ville, T.
+Journal of Statistical Physics, vol. 136, no. 3, p. 565, 2009
+38. Spike-timing-dependent plasticity leads to gamma band responses in a neural network
+Fr??nd, Ingo, Ohl, Frank W., Herrmann, Christoph S.
+Biological Cybernetics, 2009
+39. The influence of the astrocyte field on neuronal dynamics and synchronization
+Allegrini, Paolo, Fronzoni, Leone, Pirino, Davide
+Journal of Biological Physics, vol. 35, no. 4, p. 413, 2009
+40. Spiking Dynamics of Bidimensional Integrate-and-Fire Neurons
+Touboul, Jonathan, Brette, Romain
+SIAM Journal on Applied Dynamical Systems, vol. 8, no. 4, p. 1462, 2009
+41. The polychronic economy
+Hall, Jon G.
+Expert Systems, vol. 26, no. 5, p. 361, 2009
+42. Bidirectional plasticity in fast-spiking GABA circuits by visual experience
+Yazaki-Sugiyama, Yoko, Kang, Siu, C??teau, Hideyuki, Fukai, Tomoki, Hensch, Takao K.
+Nature, vol. 462, no. 7270, p. 218, 2009
+43. Stochastic and coherence resonance in feed-forward-loop neuronal network motifs
+Guo, Daqing, Li, Chunguang
+Physical Review E, vol. 79, no. 5, p. 051921, 2009
+44. Network inference with confidence from multivariate time series
+Eden, Uri, Cash, Sydney, Kramer, Mark, Kolaczyk, Eric
+Physical Review E, vol. 79, no. 6, p. 061916, 2009
+45. Self-organization of orientation-selective and ocular-dominance maps through spike-timing-dependent plasticity
+Iwayama, Koji, Aihara, Kazuyuki, Suzuki, Hideyuki
+Artificial Life and Robotics, vol. 14, no. 3, p. 371, 2009
+46. Flexible traffic control of the synfire-mode transmission by inhibitory modulation: Nonlinear noise reduction
+Shinozaki, Takashi, Okada, Masato, Reyes, Alex D., C??teau, Hideyuki
+Physical Review E, vol. 81, no. 1, p. 011913, 2010
+47. Network bursts in cortical cultures are best simulated using pacemaker neurons and adaptive synapses
+Gritsun, T. A., Le Feber, J., Stegenga, J., Rutten, W. L. C.
+Biological Cybernetics, vol. 102, no. 4, p. 293, 2010
+48. Acceleration of spiking neural network based pattern recognition on NVIDIA graphics processors
+Han, Bing, Taha, Tarek M.
+Applied Optics, vol. 49, no. 10, p. B83, 2010
+49. The race to learn: Spike timing and STDP can coordinate learning and recall in CA3
+Nolan, Christopher R., Wyeth, Gordon, Milford, Michael, Wiles, Janet
+Hippocampus, vol. 21, no. 6, p. 647, 2011
+50. Effects of phase on homeostatic spike rates
+Fisher, Nicholas, Talathi, Sachin S., Carney, Paul R., Ditto, William L.
+Biological Cybernetics, 2010
+51. Multivariate Autoregressive Modeling and Granger Causality Analysis of Multiple Spike Trains
+Krumin, Michael, Shoham, Shy
+Computational Intelligence and Neuroscience, vol. 2010, p. 1, 2010
+52. Effect of network topology on neuronal encoding based on spatiotemporal patterns of spikes
+Vertes, Petra E., Duke, Thomas
+HFSP Journal, vol. 4, no. 3-4, p. 153, 2010
+53. Calcium window currents, periodic forcing, and chaos: Understanding single neuron response with a discontinuous one-dimensional map
+Laudanski, J., Sumner, C., Coombes, S.
+Physical Review E, vol. 82, no. 1, p. 011924, 2010
+54. Metastable states and transient activity in ensembles of excitatory and inhibitory elements
+Komarov, M. A., Osipov, G. V., Suykens, J. A. K.
+EPL (Europhysics Letters), vol. 91, no. 2, p. 20006, 2010
+55. Enhancement of signal sensitivity in a heterogeneous neural network refined from synaptic plasticity
+Li, Xiumin, Small, Michael
+New Journal of Physics, vol. 12, no. 8, p. 083045, 2010
+56. Synchronization of the small-world neuronal network with unreliable synapses
+Li, Chunguang, Zheng, Qunxian
+Physical Biology, vol. 7, no. 3, p. 036010, 2010
+57. A multi-GPU algorithm for large-scale neuronal networks
+de Camargo, Raphael Y., Rozante, Luiz, Song, Siang W.
+Concurrency and Computation Practice and Experience, vol. 23, no. 6, p. 556, 2011
+58. Pulsed magnetic field exposure induces lasting changes in neural network dynamics
+Stodilka, Robert Z., Modolo, Julien, Prato, Frank S., Robertson, John A., Cook, Charles, Patrick, John, Beuter, Anne, Thomas, Alex W., Legros, Alexandre
+Neurocomputing, vol. 74, no. 12-13, p. 2164, 2011
+59. On the Simulation of Nonlinear Bidimensional Spiking Neuron Models
+Touboul, Jonathan
+Neural Computation, vol. 23, no. 7, p. 1704, 2011
+60. A Self-Organizing Pulse-Coupled Network of Sub-Threshold Oscillating Spiking Neurons
+KINOSHITA, Kai, TORIKAI, Hiroyuki
+IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences, vol. e94-a, no. 1, p. 300, 2011
+61. Self-organization and neuronal avalanches in networks of dissociated cortical neurons
+Pasquale, V., Massobrio, P., Bologna, L.L., Chiappalone, M., Martinoia, S.
+Neuroscience, vol. 153, no. 4, p. 1354, 2008
+62. On the Performance of Voltage Stepping for the Simulation of Adaptive, Nonlinear Integrate-and-Fire Neuronal Networks
+Kaabi, Mohamed Ghaith, Tonnelier, Arnaud, Martinez, Dominique
+Neural Computation, vol. 23, no. 5, p. 1187, 2011
+63. Map-based models in neuronal dynamics
+Ibarz, B., Casado, J.M., Sanju??n, M.A.F.
+Physics Reports, vol. 501, no. 1-2, p. 1, 2011
+64. Causal connectivity of evolved neural networks during behavior
+Seth, Anil K.
+Network Computation in Neural Systems, vol. 16, no. 1, p. 35, 2005
+65. Connectional parameters determine multisensory processing in a spiking network model of multisensory convergence
+Lim, H. K., Keniston, L. P., Shin, J. H., Allman, B. L., Meredith, M. A., Cios, K. J.
+Experimental Brain Research, vol. 213, no. 2-3, p. 329, 2011
+66. A comparative study of GPU programming models and architectures using neural networks
+Pallipuram, Vivek K., Bhuiyan, Mohammad, Smith, Melissa C.
+The Journal of Supercomputing, 2011
+67. Behavioral simulation and synthesis of biological neuron systems using synthesizable VHDL
+Bailey, J.A., Wilcock, R., Wilson, P.R., Chad, J.E.
+Neurocomputing, 2011
+68. Past, Present and Future of Brain Stimulation
+Modolo, J., Edwards, R., Campagnaud, J., Bhattacharya, B., Beuter, A.
+Mathematical Modelling of Natural Phenomena, vol. 5, no. 2, p. 185, 2010
+69. Supervised Learning in Spiking Neural Networks with ReSuMe: Sequence Learning, Classification, and Spike Shifting
+Ponulak, Filip, Kasi??ski, Andrzej
+Neural Computation, vol. 22, no. 2, p. 467, 2010
+70. The Neuronal Replicator Hypothesis
+Fernando, Chrisantha, Goldstein, Richard, Szathm??ry, E??rs
+Neural Computation, vol. 22, no. 11, p. 2809, 2010
+71. Performance, optimization, and fitness: Connecting applications to architectures
+Bhuiyan, Mohammad A., Smith, Melissa C., Pallipuram, Vivek K.
+Concurrency and Computation Practice and Experience, vol. 23, no. 10, p. 1066, 2011
+72. A simulated neuro-robotic environment for bi-directional closed-loop experiments
+Mulas, Marcello, Massobrio, Paolo, Martinoia, Sergio, Chiappalone, Michela
+Paladyn, vol. 1, no. 3, p. 179, 2010
+73. Spiking neural network simulation: memory-optimal synaptic event scheduling
+Stewart, Robert D., Gurney, Kevin N.
+Journal of Computational Neuroscience, 2010
+74. A Computational Model of How Cholinergic Interneurons Protect Striatal-dependent Learning
+Ashby, F. Gregory, Crossley, Matthew J.
+Journal of Cognitive Neuroscience, p. 1549, 2010
+75. Rebound Spiking as a Neural Mechanism for Surface Filling-in
+Sup??r, Hans, Romeo, August
+Journal of Cognitive Neuroscience, vol. 23, no. 2, p. 491, 2011
+76. Music Neurotechnology for Sound Synthesis: Sound Synthesis with Spiking Neuronal Networks
+Miranda, Eduardo R., Matthias, John
+Leonardo, vol. 42, no. 5, p. 439, 2009
+77. Importance of the Cutoff Value in the Quadratic Adaptive Integrate-and-Fire Model
+Touboul, Jonathan
+Neural Computation, vol. 21, no. 8, p. 2114, 2009
+78. Artificial cognitive memory???changing from density driven to??functionality driven
+Shi, L. P., Yi, K. J., Ramanathan, K., Zhao, R., Ning, N., Ding, D., Chong, T. C.
+Applied Physics A, 2011
+79. A neuron???astrocyte transistor-like model for neuromorphic dressed neurons
+Valenza, G., Pioggia, G., Armato, A., Ferro, M., Scilingo, E.P., De Rossi, D.
+Neural Networks, vol. 24, no. 7, p. 679, 2011
+80. Efficient fitting of conductance-based model neurons from somatic current clamp
+Lepora, Nathan F., Overton, Paul G., Gurney, Kevin
+Journal of Computational Neuroscience, vol. 32, no. 1, p. 1, 2012
+81. Systematic Comparison of the Behaviors Produced by Computational Models of Epileptic Neocortex :
+Warlaumont, Anne S., Lee, Hyong C., Benayoun, Marc, Stevens, Rick L., Hereld, Mark
+Journal of Clinical Neurophysiology, vol. 27, no. 6, p. 479, 2010
+82. Basic Dynamics of Simple Delay-Coupled Bifurcating Neurons
+HISAMATSU, Kozo, SAITO, Toshimichi
+IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences, vol. e94-a, no. 3, p. 1006, 2011
+83. Cross-modal and scale-free action representations through enaction
+Pitti, Alex, Alirezaei, Hassan, Kuniyoshi, Yasuo
+Neural Networks, vol. 22, no. 2, p. 144, 2009
+84. Topological constraints and robustness in liquid state machines
+Hazan, Hananel, Manevitz, Larry M.
+Expert Systems with Applications, vol. 39, no. 2, p. 1597, 2012
+85. Estimation of network structures only from spike sequences
+Kuroda, Kaori, Ashizawa, Tohru, Ikeguchi, Tohru
+Physica A Statistical Mechanics and its Applications, 2011
+86. Concurrent heterogeneous neural model simulation on real-time neuromimetic hardware
+Rast, Alexander, Galluppi, Francesco, Davies, Sergio, Plana, Luis, Patterson, Cameron, Sharp, Thomas, Lester, David, Furber, Steve
+Neural Networks, vol. 24, no. 9, p. 961, 2011
+87. A tutorial on computational cognitive neuroscience: Modeling the neurodynamics of cognition
+Gregory Ashby, F., Helie, Sebastien
+Journal of Mathematical Psychology, vol. 55, no. 4, p. 273, 2011
+88. Real-time simulation of a spiking neural network model of the basal ganglia circuitry using general purpose computing on graphics processing units
+Tsujino, Hiroshi, Fukai, Tomoki, Igarashi, Jun, Shouno, Osamu
+Neural Networks, vol. 24, no. 9, p. 950, 2011
+89. Modelling small-patterned neuronal networks coupled to microelectrode arrays
+Massobrio, Paolo, Martinoia, Sergio
+Journal of Neural Engineering, vol. 5, no. 3, p. 350, 2008
+90. Nonsmooth dynamics in spiking neuron models
+Coombes, S., Thul, R., Wedgwood, K.C.A.
+Physica D Nonlinear Phenomena, 2011
+91. Cross-modular processing in a spiking neural network model
+Vieira, Diogo PC, Roque, Antonio C
+BMC Neuroscience, vol. 12, no. suppl 1, p. P270, 2011
+92. Interdependence between network dynamics and connectivity in dissociated cortical cultures: a theoretical and experimental approach
+Massobrio, Paolo, Pasquale, Valentina, Garofalo, Matteo, Martinoia, Sergio
+BMC Neuroscience, vol. 12, no. suppl 1, p. P214, 2011
+93. An artificial olfaction system based on the optical imaging of a large array of chemical reporters
+Di Natale, C., Martinelli, E., Paolesse, R., D???Amico, A., Filippini, D., Lundstr??m, I.
+Sensors and Actuators B Chemical, vol. 142, no. 2, p. 412, 2009
+94. Spike encoding of artificial olfactory sensor signals
+Martinelli, Eugenio, D???Amico, Arnaldo, Di Natale, Corrado
+Sensors and Actuators B Chemical, vol. 119, no. 1, p. 234, 2006
+95. Managing Burstiness and Scalability in Event-Driven Models on the SpiNNaker Neuromimetic System
+Rast, Alexander D., Navaridas, Javier, Jin, Xin, Galluppi, Francesco, Plana, Luis A., Miguel-Alonso, Jose, Patterson, Cameron, Luj??n, Mikel, Furber, Steve
+International Journal of Parallel Programming, 2011
+96. Functional connectivity in a rhythmic inhibitory circuit using Granger causality
+Kispersky, Tilman, Gutierrez, Gabrielle J, Marder, Eve
+Neural Systems &amp; Circuits, vol. 1, no. 1, p. 9, 2011
+97. A computational model of the hippocampus that represents environmental structure and goal location, and guides movement
+Matsumoto, Jumpei, Makino, Yoshinari, Miura, Haruki, Yano, Masafumi
+Biological Cybernetics, 2011
+98. Desynchronized vasomotion and desynchronized fiber activation pattern enhance oxygenation in a model of skeletal muscle
+Pradhan, Ranjan K., Chakravarthy, V.S.
+Journal of Theoretical Biology, vol. 259, no. 2, p. 242, 2009
+99. Reduced models for the pacemaker dynamics of cardiac cells
+Herrera-Valdez, Marco Arieli, Lega, Joceline
+Journal of Theoretical Biology, vol. 270, no. 1, p. 164, 2011
+100. A case for spiking neural network simulation based on configurable multiple-FPGA systems
+Yang, Shufan, Wu, Qiang, Li, Renfa
+Cognitive Neurodynamics, vol. 5, no. 3, p. 301, 2011
+101. Emergence of synchronicity in a self-organizing spiking neuron network: an approach via genetic algorithms
+Soares, Gabriela E., Borges, Henrique E., Gomes, Rog??rio M., Zeferino, Gustavo M., Braga, Ant??nio P.
+Natural Computing, 2011
+102. Epilepsy as a dynamic disease: A tutorial of the past with an eye to the future
+Milton, John G.
+Epilepsy &amp; Behavior, vol. 18, no. 1-2, p. 33, 2010
+103. Estimating Parameters of Generalized Integrate-and-Fire Neurons from the Maximum Likelihood of Spike Trains
+Dong, Yi, Mihalas, Stefan, Russell, Alexander, Etienne-Cummings, Ralph, Niebur, Ernst
+Neural Computation, vol. 23, no. 11, p. 2833, 2011
+104. Identifiability analysis and parameter estimation of a single Hodgkin???Huxley type voltage dependent ion channel under voltage step measurement conditions
+Csercsik, D??vid, Hangos, Katalin M., Szederk??nyi, G??bor
+Neurocomputing, 2011
+105. Comparison of different neuron models to conductance-based post-stimulus time histograms obtained in cortical pyramidal cells using dynamic-clamp in vitro
+Pospischil, Martin, Piwkowska, Zuzanna, Bal, Thierry, Destexhe, Alain
+Biological Cybernetics, vol. 105, no. 2, p. 167, 2011
+106. A benchmark test for a quantitative assessment of simple neuron models
+Jolivet, Renaud, Kobayashi, Ryota, Rauch, Alexander, Naud, Richard, Shinomoto, Shigeru, Gerstner, Wulfram
+Journal of Neuroscience Methods, vol. 169, no. 2, p. 417, 2008
+107. Accuracy and performance of the state-based ?? and liveliness measures of information integration
+Gamez, David, Aleksander, Igor
+Consciousness and Cognition, vol. 20, no. 4, p. 1403, 2011
+108. Superiority of nonlinear mapping in decoding multiple single-unit neuronal spike trains: A simulation study
+Kim, Kyung Hwan, Kim, Sung Shin, Kim, Sung June
+Journal of Neuroscience Methods, vol. 150, no. 2, p. 202, 2006
+109. Experimental analysis and computational modeling of interburst intervals in spontaneous activity of cortical neuronal culture
+Gritsun, T., Feber, J., Stegenga, J., Rutten, W. L. C.
+Biological Cybernetics, vol. 105, no. 3-4, p. 197, 2011
+110. Integration and transmission of distributed deterministic neural activity in feed-forward networks
+Asai, Yoshiyuki, Villa, Alessandro E.P.
+Brain Research, vol. 1434, p. 17, 2012
+111. A spiking neuron model of cortical broadcast and competition
+Shanahan, Murray
+Consciousness and Cognition, vol. 17, no. 1, p. 288, 2008
+112. Neural Mass Activity, Bifurcations, and Epilepsy
+Touboul, Jonathan, Wendling, Fabrice, Chauvel, Patrick, Faugeras, Olivier
+Neural Computation, vol. 23, no. 12, p. 3232, 2011
+113. Learning Rule of Homeostatic Synaptic Scaling: Presynaptic Dependent or Not
+Liu, Jian K.
+Neural Computation, vol. 23, no. 12, p. 3145, 2011
+114. Spontaneous scale-free structure of spike flow graphs in recurrent neural networks
+Pi??kniewski, Filip, Schreiber, Tomasz
+Neural Networks, vol. 21, no. 10, p. 1530, 2008
+115. A computational model of a global neuronal workspace with stochastic connections
+Connor, Dustin, Shanahan, Murray
+Neural Networks, vol. 23, no. 10, p. 1139, 2010
+116. Incorporating synaptic time-dependent plasticity and dynamic synapse into a computational model of wind-up
+Farajidavar, Aydin, Saeb, Sohrab, Behbehani, Khosrow
+Neural Networks, vol. 21, no. 2-3, p. 241, 2008
+117. Compact silicon neuron circuit with spiking and bursting behaviour
+Wijekoon, Jayawan H.B., Dudek, Piotr
+Neural Networks, vol. 21, no. 2-3, p. 524, 2008
+118. A Neuron Model for FPGA Spiking Neuronal Network Implementation
+TIGAERU, L., BONTEANU, G.
+Advances in Electrical and Computer Engineering, vol. 11, no. 4, p. 29, 2011
+119. Network bursting using experimentally constrained single compartment CA3 hippocampal neuron models with adaptation
+Dur-e-Ahmad, Muhammad, Nicola, Wilten, Campbell, Sue Ann, Skinner, Frances K.
+Journal of Computational Neuroscience, 2011
+120. The spikes trains probability distributions: A stochastic calculus approach
+Touboul, Jonathan, Faugeras, Olivier
+Journal of Physiology-Paris, vol. 101, no. 1-3, p. 78, 2007
+121. A robot model of the basal ganglia: Behavior and intrinsic processing
+Prescott, Tony J., Montes Gonz??lez, Fernando M., Gurney, Kevin, Humphries, Mark D., Redgrave, Peter
+Neural Networks, vol. 19, no. 1, p. 31, 2006
+122. Self-Organizing Digital Spike Maps for Learning of Spike-Trains
+OGAWA, Takashi, SAITO, Toshimichi
+IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences, vol. e94-a, no. 12, p. 2845, 2011
+123. Neural networks including microRNAs
+Zhdanov, Vladimir P.
+Neural Networks, vol. 25, p. 200, 2012
+124. Stable concurrent synchronization in dynamic system networks
+Pham, Quang-Cuong, Slotine, Jean-Jacques
+Neural Networks, vol. 20, no. 1, p. 62, 2007
+125. Principles of Computational Neuroscience
+Venugopal, Sharmila, Crook, Sharon, Srivatsan, Malathi, Jung, Ranu
+p. 11, 2011
+126. Overview of facts and issues about neural coding by spikes
+Cessac, Bruno, Paugam-Moisy, H??l??ne, Vi??ville, Thierry
+Journal of Physiology-Paris, vol. 104, no. 1-2, p. 5, 2010
+127. New insights offered by a computational model of deep brain stimulation
+Modolo, J., Mosekilde, E., Beuter, A.
+Journal of Physiology-Paris, vol. 101, no. 1-3, p. 56, 2007
+128. Predicting spike times of a detailed conductance-based neuron model driven by stochastic spike arrival
+Jolivet, Renaud, Gerstner, Wulfram
+Journal of Physiology-Paris, vol. 98, no. 4-6, p. 442, 2004
+129. Conditional modulation of spike-timing-dependent plasticity for olfactory learning
+Cassenaer, Stijn, Laurent, Gilles
+Nature, 2012
+130. Linking brain dynamics, neural mechanisms, and deep brain stimulation in Parkinson''s disease: An integrated perspective
+Modolo, Julien, Beuter, Anne
+Medical Engineering &amp; Physics, vol. 31, no. 6, p. 615, 2009
+131. A Parallel Supercomputer Implementation of a Biological Inspired Neural Network and its use for Pattern Recognition
+Bergeron, Jocelyn, Parenteau, Maxime, Lu, Huizhong, Pichevar, Ramin, Rouat, Jean, de Ladurantaye, Vincent, Lavoie, Jean
+Journal of Physics Conference Series, vol. 341, p. 012024, 2012
+132. VLSI circuits implementing computational models of neocortical circuits
+Wijekoon, Jayawan H.B., Dudek, Piotr
+Journal of Neuroscience Methods, 2012
+133. Stimulus detection after interruption of the feedforward response in a backward masking paradigm
+Romeo, August, Puig, Maria Sole, Zapata, Laura P??rez, Lopez-Moliner, Joan, Sup??r, Hans
+Cognitive Neurodynamics, 2012
+134. A forecast-based STDP rule suitable for neuromorphic implementation
+Davies, S., Galluppi, F., Rast, A.D., Furber, S.B.
+Neural Networks, 2012
+135. Strange nonchaotic attractors in quasiperiodically driven Izhikevich neuron models
+Kim, Jae Seok, Kim, Youngtae
+Journal of the Korean Physical Society, vol. 60, no. 4, p. 660, 2012
+136. Learning expectation in insects: A recurrent spiking neural model for spatio-temporal representation
+Arena, Paolo, Patan??, Luca, Termini, Pietro Savio
+Neural Networks, 2012
+137. Scalable communications for a million-core neural processing architecture
+Patterson, Cameron, Garside, Jim, Painkras, Eustace, Temple, Steve, Plana, Luis A., Navaridas, Javier, Sharp, Thomas, Furber, Steve
+Journal of Parallel and Distributed Computing, 2012
+138. Three Tools for the Real-Time Simulation of Embodied Spiking Neural Networks Using GPUs
+Fidjeland, Andreas K., Gamez, David, Shanahan, Murray P., Lazdins, Edgars
+Neuroinformatics, 2012
+139. Neuronal models in infinite-dimensional spaces and their finite-dimensional projections: Part II
+Brzychczy, S., Leszczy?ski, H., Poznanski, R. R.
+Journal of Integrative Neuroscience, p. 1, 2012
+140. A Contraction Argument for Two-Dimensional Spiking Neuron Models
+Foxall, Eric, Edwards, Roderick, Ibrahim, Slim, van den Driessche, P.
+SIAM Journal on Applied Dynamical Systems, vol. 11, no. 1, p. 540, 2012
+141. A scalable neuristor built with Mott memristors
+Pickett, Matthew D., Medeiros-Ribeiro, Gilberto, Williams, R. Stanley
+Nature Materials, 2012
+142. Advancing interconnect density for spiking neural network hardware implementations using traffic-aware adaptive network-on-chip routers
+Carrillo, Snaider, Harkin, Jim, McDaid, Liam, Pande, Sandeep, Cawley, Seamus, McGinley, Brian, Morgan, Fearghal
+Neural Networks, vol. 33, p. 42, 2012
+143. Biologically Inspired Temporal Sequence Learning
+Yusoff, Nooraini, Gruning, Andre
+Procedia Engineering, vol. 41, p. 319, 2012
+144. Network properties of a computational model of the dorsal raphe nucleus
+Wong-Lin, KongFatt, Joshi, Alok, Prasad, Girijesh, McGinnity, T. Martin
+Neural Networks, vol. 32, p. 15, 2012
+145. É¡-Aminobutyric Acid Receptor Type A Receptor Potentiation Reduces Firing of Neuronal Assemblies in a Computational Cortical Model
+Storer, Kingsley P., Reeke, George N.
+Anesthesiology, vol. 117, no. 4, p. 780, 2012
+146. Force sensor in simulated skin and neural model mimic tactile SAI afferent spiking response to ramp and hold stimuli
+Kim, Elmer K, Wellnitz, Scott A, Bourdon, Sarah M, Lumpkin, Ellen A, Gerling, Gregory J
+Journal of NeuroEngineering and Rehabilitation, vol. 9, no. 1, p. 45, 2012
+147. Detecting connectivity changes in neuronal networks
+Berry, Tyrus, Hamilton, Franz, Peixoto, Nathalia, Sauer, Timothy
+Journal of Neuroscience Methods, 2012
+148. Directional spike propagation in a recurrent network: Dynamical firewall as anisotropic recurrent inhibition
+Samura, Toshikazu, Hayashi, Hatsuo
+Neural Networks, vol. 33, p. 236, 2012
+149. Membrane Resonance Enables Stable and Robust Gamma Oscillations
+Moca, V. V., Nikolic, D., Singer, W., Muresan, R. C.
+Cerebral Cortex, 2012
+150. Experimentally constrained network model of hippocampal fast-firing parvalbumin-positive interneurons
+Ferguson, Katie A, Huh, Carey YL, Amilhon, Benedicte, Murugesu, Rosanah, Williams, Sylvain, Skinner, Frances K
+BMC Neuroscience, vol. 13, no. Suppl 1, p. O5, 2012
+151. Self-sustained firing activities of the cortical network with plastic rules in weak AC electrical fields
+Qin, Ying-Mei, Wang, Jiang, Men, Cong, Zhao, Jia, Wei, Xi-Le, Deng, Bin
+Chinese Physics B, vol. 21, no. 7, p. 078702, 2012
+152. Modeling the insect mushroom bodies: Application to a delayed match-to-sample task
+Arena, Paolo, Patane, Luca, Stornanti, Vincenzo, Termini, Pietro Savio, Zapf, Bianca, Strauss, Roland
+Neural Networks, 2012
+153. Heuristics for the Hodgkin-Huxley System
+Hoppensteadt, Frank
+Mathematical Biosciences, 2012
+154. Granger causality analysis of fMRI BOLD signals is invariant to hemodynamic convolution but not downsampling
+Seth, Anil K., Chorley, Paul, Barnett, Lionel C.
+NeuroImage, 2012
+155. SIMULATION OF LARGE SCALE CORTICAL NETWORKS BY INDIVIDUAL NEURON DYNAMICS
+SCHMIDT, G., ZAMORA-LOPEZ, G., KURTHS, J.
+International Journal of Bifurcation and Chaos, vol. 20, no. 03, p. 859, 2010
+156. DEVELOPMENT AND VALIDATION OF A NEURAL POPULATION MODEL BASED ON THE DYNAMICS OF A DISCONTINUOUS MEMBRANE POTENTIAL NEURON MODEL
+MODOLO, JULIEN, GARENNE, ANDRE, HENRY, JACQUES, BEUTER, ANNE
+Journal of Integrative Neuroscience, vol. 06, no. 04, p. 625, 2007
+157. PRESYNAPTIC LEARNING AND MEMORY WITH A PERSISTENT FIRING NEURON AND A HABITUATING SYNAPSE: A MODEL OF SHORT TERM PERSISTENT HABITUATION
+RAMANATHAN, KIRUTHIKA, NING, NING, DHANASEKAR, DHIVIYA, LI, GUOQI, SHI, LUPING, VADAKKEPAT, PRAHLAD
+International Journal of Neural Systems, vol. 22, no. 04, p. 1250015, 2012
+158. Power-efficient simulation of detailed cortical microcircuits on SpiNNaker
+Sharp, Thomas, Galluppi, Francesco, Rast, Alexander, Furber, Steve
+Journal of Neuroscience Methods, 2012
+159. Optimized Simulation Framework for Spiking Neural Networks using GPU''s
+MIRSU, R., MICUT, S., CALEANU, C., MIRSU, D. B.
+Advances in Electrical and Computer Engineering, vol. 12, no. 2, p. 61, 2012
+160. Neuronal avalanches of a self-organized neural network with active-neuron-dominant structure
+Li, Xiumin, Small, Michael
+Chaos An Interdisciplinary Journal of Nonlinear Science, vol. 22, no. 2, p. 023104, 2012
+161. Dynamics of a Cortical Neural Network Based on a Simple Model
+Qu, Jing-Yi, Wang, Ru-Bin
+Chinese Physics Letters, vol. 29, no. 8, p. 080503, 2012
+162. Complex synchronous behavior in interneuronal networks with delayed inhibitory and fast electrical synapses
+Guo, Daqing, Wang, Qingyun, Perc, Matja?
+Physical Review E, vol. 85, no. 6, 2012
+163. Parallel architecture and optimization for discrete-event simulation of spike neural networks
+Tang, YuHua, Zhang, BaiDa, Wu, JunJie, Hu, TianJiang, Zhou, Jing, Liu, FuDong
+Science China Technological Sciences, 2012
+164. HIPPOCAMPAL MEMORY MODIFICATION INDUCED BY PATTERN COMPLETION AND SPIKE-TIMING DEPENDENT SYNAPTIC PLASTICITY
+SAMURA, TOSHIKAZU, HATTORI, MOTONOBU
+International Journal of Neural Systems, vol. 15, no. 01n02, p. 13, 2005
+165. Neuromodulation of STDP through short-term changes in firing causality
+Vogt, Simon M., Hofmann, Ulrich G.
+Cognitive Neurodynamics, 2012
+166. An analog implementation of biologically plausible neurons using CCII building blocks
+Sharifipoor, Ozra, Ahmadi, Arash
+Neural Networks, vol. 36, p. 129, 2012
+167. Computational models of epilepsy
+Stefanescu, Roxana A., Shivakeshavan, R.G., Talathi, Sachin S.
+Seizure, vol. 21, no. 10, p. 748, 2012
+168. Real and apparent biological inspiration in cognitive architectures
+Holland, Owen, Diamond, Alan, Marques, Hugo Gravato, Mitra, Bhargav, Devereux, David
+Biologically Inspired Cognitive Architectures, 2012
+169. A Modified Spiking Neuron that Involves Derivative of the State Function at Firing Time
+Yang, Wenyu, Yang, Jie, Wu, Wei
+Neural Processing Letters, 2012
+Lytton, William W., Stewart, Mark, Hines, Michael
+p. 3, 2008
+p. 371, 2009
+172. CLASSIFICATION OF BURSTING MAPPINGS
+IZHIKEVICH, EUGENE M., HOPPENSTEADT, FRANK
+International Journal of Bifurcation and Chaos, vol. 14, no. 11, p. 3847, 2004
+173. Neural Dynamics, Bifurcations, and Firing Rates in a Quadratic Integrate-and-Fire Model with a Recovery Variable. I: Deterministic Behavior
+Shlizerman, Eli, Holmes, Philip
+Neural Computation, p. 1, 2012
+174. Analytical Integrate-and-Fire Neuron Models with Conductance-Based Dynamics and Realistic Postsynaptic Potential Time Course for Event-Driven Simulation Strategies
+Rudolph-Lilith, Michelle, Dubois, Mathieu, Destexhe, Alain
+Neural Computation, vol. 24, no. 6, p. 1426, 2012
+175. Stochastic bursting synchronization in a population of subthreshold Izhikevich neurons
+Kim, Sang-Yoon, Kim, Youngnam, Hong, Duk-Geun, Kim, Jean, Lim, Woochang
+Journal of the Korean Physical Society, vol. 60, no. 9, p. 1441, 2012
+176. Desynchronizing effect of high-frequency stimulation in a generic cortical network model
+Schutt, Markus, Claussen, Jens Christian
+Cognitive Neurodynamics, vol. 6, no. 4, p. 343, 2012
+177. Does dynamical synchronization among neurons facilitate learning and enhance task performance?
+Chik, David
+Journal of Computational Neuroscience, vol. 33, no. 1, p. 169, 2012
+178. Preliminary results on low power sigmoid neuron transistor response in 28nm high-k metal gate Fully Depleted SOI technology
+Galy, Ph., Dehan, P., Jimenez, J., Heitz, B.
+Solid-State Electronics, vol. 89, p. 17, 2013
+179. Modeling neuronal activity in relation to experimental voltage-/patch-clamp recordings
+Tchaptchet, Aubin, Postnova, Svetlana, Finke, Christian, Schneider, Horst, Huber, Martin T., Braun, Hans A.
+Brain Research, 2013
+180. Gap junctions facilitate propagation of synchronous firing in the cortical neural population: A numerical simulation study
+Shinozaki, Takashi, Naruse, Yasushi, Cateau, Hideyuki
+Neural Networks, vol. 46, p. 91, 2013
+181. A regression-based performance prediction framework for synchronous iterative algorithms on general purpose graphical processing unit clusters
+Pallipuram, Vivek K., Smith, Melissa C., Raut, Nimisha, Ren, Xiaoyu
+Concurrency and Computation: Practice and Experience, p. n/a, 2013
+182. Three generic bistable scenarios of the interplay of voltage pulses and gene expression in neurons
+Zhdanov, Vladimir P.
+Neural Networks, vol. 44, p. 51, 2013
+183. A critical study of network models for neural networks and their dynamics
+Govan, G., Xenos, A., Frisco, P.
+Journal of Theoretical Biology, vol. 336, p. 1, 2013
+184. Self-sustained activity in neural networks: influence of network topology and cell types
+Vieira, Diogo PC, Pena, Rodrigo FO, Roque, Antonio C
+BMC Neuroscience, vol. 14, no. Suppl 1, p. P411, 2013
+185. Self-tuning spike-timing dependent plasticity curves to simplify models and improve learning
+Richert, Micah, Szatmary, Botond, Izhikevich, Eugene
+BMC Neuroscience, vol. 14, no. Suppl 1, p. P189, 2013
+186. Self-organizing "harmonic dominance stripes" in a spiking network model of the auditory system
+Cantu, Marcos A
+BMC Neuroscience, vol. 14, no. Suppl 1, p. P52, 2013
+187. Balanced excitation and inhibition in a spiking model of V1
+Piekniewski, Filip, Richert, Micah, Fisher, Dimitry, Szatmary, Botond, Petre, Csaba, Sokol, Sach, Izhikevich, Eugene
+BMC Neuroscience, vol. 14, no. Suppl 1, p. P184, 2013
+188. Noise focusing and the emergence of coherent activity in neuronal cultures
+Orlandi, Javier G., Soriano, Jordi, Alvarez-Lacalle, Enrique, Teller, Sara, Casademunt, Jaume
+Nature Physics, 2013
+189. Temporal whitening by power-law adaptation in neocortical neurons
+Pozzorini, Christian, Naud, Richard, Mensi, Skander, Gerstner, Wulfram
+Nature Neuroscience, 2013
+Brunel, Nicolas
+p. 489, 2013
+191. Bifurcations of large networks of two-dimensional integrate and fire neurons
+Nicola, Wilten, Campbell, Sue Ann
+Journal of Computational Neuroscience, 2013
+192. Lyapunov exponents computation for hybrid neurons
+Bizzarri, Federico, Brambilla, Angelo, Storti Gajani, Giancarlo
+Journal of Computational Neuroscience, 2013
+193. Using Strahler''s analysis to reduce up to 200-fold the run time of realistic neuron models
+Marasco, Addolorata, Limongiello, Alessandro, Migliore, Michele
+Scientific Reports, vol. 3, 2013
+194. The systems biology of mitochondrial fission and fusion and implications for disease and aging
+Chauhan, Anuradha, Vera, Julio, Wolkenhauer, Olaf
+Biogerontology, 2013
+195. Self-sustained non-periodic activity in networks of spiking neurons: The contribution of local and long-range connections and dynamic synapses
+Stratton, Peter, Wiles, Janet
+NeuroImage, vol. 52, no. 3, p. 1070, 2010
+196. Dynamic range in a neuron network with electrical and chemical synapses
+Viana, R.L., Borges, F.S., Iarosz, K.C., Batista, A.M., Lopes, S.R., Caldas, I.L.
+Communications in Nonlinear Science and Numerical Simulation, vol. 19, no. 1, p. 164, 2014
+197. A brief history of excitable map-based neurons and neural networks
+Girardi-Schappo, M., Tragtenberg, M.H.R., Kinouchi, O.
+Journal of Neuroscience Methods, 2013
+198. The effects of time delay on the stochastic resonance in feed-forward-loop neuronal network motifs
+Liu, Chen, Wang, Jiang, Yu, Haitao, Deng, Bin, Tsang, K.M., Chan, W.L., Wong, Y.K.
+Communications in Nonlinear Science and Numerical Simulation, 2013
+199. Characterization of the causality between spike trains with permutation conditional mutual information
+Li, Zhaohui, Ouyang, Gaoxiang, Li, Duan, Li, Xiaoli
+Physical Review E, vol. 84, no. 2, 2011
+200. Hierarchical excitatory synaptic connectivity in mouse olfactory cortex
+McGinley, M. J., Westbrook, G. L.
+Proceedings of the National Academy of Sciences, vol. 110, no. 40, p. 16193, 2013
+201. Compensating for synaptic loss in AlzheimerÅfs disease
+Abuhassan, Kamal, Coyle, Damien, Belatreche, Ammar, Maguire, Liam
+Journal of Computational Neuroscience, 2013
+202. Modeling of localization phenomena of the auditory image caused by brain regions dysfunctions
+Vasilkov, V. A., Ishchenko, I. A., Tikidji-Hamburyan, R. A.
+Biophysics, vol. 58, no. 3, p. 428, 2013
+203. CLOSED-LOOP CONTROL OF THE THALAMOCORTICAL RELAY NEURON''S PARKINSONIAN STATE BASED ON SLOW VARIABLE
+LIU, CHEN, WANG, JIANG, CHEN, YING-YUAN, DENG, BIN, WEI, XI-LE, LI, HUI-YAN
+International Journal of Neural Systems, p. 1350017, 2013
+204. Neural Populations Can Induce Reliable Postsynaptic Currents without Observable Spike Rate Changes or Precise Spike Timing
+Tripp, B., Eliasmith, C.
+Cerebral Cortex, vol. 17, no. 8, p. 1830, 2007
+205. IDENTIFYING NEURAL NETWORK TOPOLOGIES THAT FOSTER DYNAMICAL COMPLEXITY
+YAEGER, LARRY S.
+Advances in Complex Systems, vol. 16, no. 02n03, p. 1350032, 2013
+206. Computational capability of liquid state machines with spike-timing-dependent plasticity
+Xue, Fangzheng, Hou, Zhicheng, Li, Xiumin
+Neurocomputing, 2013
+207. Heteroclinic contours in oscillatory ensembles
+Komarov, M. A., Osipov, G. V., Zhou, C. S.
+Physical Review E, vol. 87, no. 2, 2013
+208. Impact of noise and damage on collective dynamics of scale-free neuronal networks
+Holstein, D., Goltsev, A. V., Mendes, J. F. F.
+Physical Review E, vol. 87, no. 3, 2013
+209. Beyond Scale-Free Small-World Networks: Cortical Columns for Quick Brains
+Stoop, Ralph, Saase, Victor, Wagner, Clemens, Stoop, Britta, Stoop, Ruedi
+Physical Review Letters, vol. 110, no. 10, 2013
+210. Categorization and decision-making in a neurobiologically plausible spiking network using a STDP-like learning rule
+Beyeler, Michael, Dutt, Nikil D., Krichmar, Jeffrey L.
+Neural Networks, vol. 48, p. 109, 2013
+211. Building, simulating and visualizing large spiking neural networks with NeuralSyns
+Sousa, Mafalda, Aguiar, Paulo
+Neurocomputing, 2013
+212. Decoupling through Synchrony in Neuronal Circuits with Propagation Delays
+Lubenov, Evgueniy V., Siapas, Athanassios G.
+Neuron, vol. 58, no. 1, p. 118, 2008
+213. Classification of Gene Expression Data using Spiking Wavelet Radial Basis Neural Network
+Chandra, B., Naresh Babu, K.V.
+Expert Systems with Applications, 2013
+214. Connection-strength Estimation of Neuronal Networks by Fitting for Izhikevich Model
+Isomura, Takuya, Takeuchi, Akimasa, Shimba, Kenta, Kotani, Kiyoshi, Jimbo, Yasuhiko
+IEEJ Transactions on Electronics, Information and Systems, vol. 132, no. 10, p. 1581, 2012
+215. Oscillations and synchrony in a cortical neural network
+Qu, Jingyi, Wang, Rubin, Yan, Chuankui, Du, Ying
+Cognitive Neurodynamics, 2013
+216. NeuVision: A novel simulation environment to model spontaneous and stimulus-evoked activity of large-scale neuronal networks
+Mulas, Marcello, Massobrio, Paolo
+Neurocomputing, vol. 122, p. 441, 2013
+217. Habituation: a non-associative learning rule design for spiking neurons and an autonomous mobile robots implementation
+Cyr, Andre, Boukadoum, Mounir
+Bioinspiration &amp; Biomimetics, vol. 8, no. 1, p. 016007, 2013
+218. Mechanisms underlying the basal forebrain enhancement of top-down and bottom-up attention
+Avery, Michael C., Dutt, Nikil, Krichmar, Jeffrey L.
+European Journal of Neuroscience, p. n/a, 2013
+219. Variable structure dynamic artificial neural networks
+Schuman, Catherine D., Birdwell, J. Douglas
+Biologically Inspired Cognitive Architectures, vol. 6, p. 126, 2013
+Yusoff, Nooraini, Sporea, Ioana, Gr??ning, Andr??
+p. 58, 2011
+221. Coupling-induced population synchronization in an excitatory population of subthreshold Izhikevich neurons
+Kim, Sang-Yoon, Lim, Woochang
+Cognitive Neurodynamics, vol. 7, no. 6, p. 495, 2013
+222. Inferring functional interaction and transition patterns via dynamic bayesian variable partition models
+Zhang, Jing, Li, Xiang, Li, Cong, Lian, Zhichao, Huang, Xiu, Zhong, Guocheng, Zhu, Dajiang, Li, Kaiming, Jin, Changfeng, Hu, Xintao, Han, Junwei, Guo, Lei, Hu, Xiaoping, Li, Lingjiang, Liu, Tianming
+Human Brain Mapping, p. n/a, 2013
+p. 533, 2014
+224. A Spiking Neural Network Based Cortex-Like Mechanism and Application to Facial Expression Recognition
+Fu, Si-Yao, Yang, Guo-Sheng, Kuai, Xin-Kai
+Computational Intelligence and Neuroscience, vol. 2012, p. 1, 2012
+KEYWORDS
+IEEE Keywords
+Bifurcation, Biological system modeling, Biology computing, Biomembranes, Brain modeling, Computational modeling, Large-scale systems, Mathematical analysis, Mathematical model, Neurons
+INSPEC: Controlled Indexing
+brain models, neural nets, neurophysiology
+INSPEC: Non-Controlled Indexing
+Hodgkin-Huxley-type dynamics, biologically plausibility, bursting neurons, cortical neurons, quadratic integrate-and-fire neurons, spiking neurons, thalamus
+CORRECTIONS
+None

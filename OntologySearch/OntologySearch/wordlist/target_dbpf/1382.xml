@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="1382">
+<itemtype>xnppaper</itemtype>
+<titles><title>Why there are complementary learning systems in the hippocampus and neocortex: insights from the successes and failures of connectionist models of learning and memory.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description>Kyutech Wagatsuma Lab (Bookshelf Archive)
+Hippocampus and Memory</description>
+<doi></doi>
+<last_update_date>2013-03-28T06:51:17Z</last_update_date>
+<creation_date>2008-08-15T03:14:52Z</creation_date>
+<publication_year>1995</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=1382</url>
+<changelogs>
+<changelog date='2013-03-28T06:51:17Z'>Modified; Item Description, Index, PubMedID.</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="1382" version="1.02">
+<authors><author>McClelland JL</author><author>McNaughton BL</author><author>O&#039;Reilly RC</author></authors>
+<journal>Psychological review</journal>
+<volume>102</volume>
+<number>3</number>
+<page>419-57</page>
+<abstract>Damage to the hippocampal system disrupts recent memory but leaves remote memory intact. The account presented here suggests that memories are first stored via synaptic changes in the hippocampal system, that these changes support reinstatement of recent memories in the neocortex, that neocortical synapses change a little on each reinstatement, and that remote memory is based on accumulated neocortical changes. Models that learn via changes to connections help explain this organization. These models discover the structure in ensembles of items if learning of each item is gradual and interleaved with learning about other items. This suggests that the neocortex learns slowly to discover the structure in ensembles of experiences. The hippocampal system permits rapid learning of new items without disrupting this structure, and reinstatement of new memories interleaves them with others to integrate them into structured neocortical memory systems.</abstract>
+<pubmed_id>7624455</pubmed_id>
+</detail>
+</item>

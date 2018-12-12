@@ -1,0 +1,1693 @@
+The Journal of Neuroscience, April 1, 2002, 22(7):2963–2976
+
+Activity Patterns in a Model for the Subthalamopallidal Network of
+the Basal Ganglia
+
+D. Terman,1 J. E. Rubin,2 A. C. Yew,1 and C. J. Wilson3
+1Department of Mathematics, The Ohio State University, Columbus, Ohio 43210, 2Department of Mathematics, The
+University of Pittsburgh, Pittsburgh, Pennsylvania 15260, and 3Division of Life Sciences, University of Texas at San
+Antonio, San Antonio, Texas 78249
+
+Based on recent experimental data, we have developed a
+conductance-based computational network model of the sub-
+thalamic nucleus and the external segment of the globus pal-
+lidus in the indirect pathway of the basal ganglia. Computer
+simulations and analysis of this model illuminate the roles of the
+coupling architecture of the network, and associated synaptic
+conductances, in modulating the activity patterns displayed by
+this network. Depending on the relationships of these coupling
+parameters, the network can support three general classes of
+sustained ﬁring patterns: clustering, propagating waves, and
+repetitive spiking that may show little regularity or correlation.
+Each activity pattern can occur continuously or in discrete
+episodes. We characterize the mechanisms underlying these
+rhythms, as well as the inﬂuence of parameters on details such
+
+as spiking frequency and wave speed. These results suggest
+that the subthalamopallidal circuit is capable both of correlated
+rhythmic activity and of irregular autonomous patterns of ac-
+tivity that block rhythmicity. Increased striatal
+input to, and
+weakened intrapallidal
+inhibition within, the indirect pathway
+can switch the behavior of the circuit from irregular to rhythmic.
+This may be sufﬁcient to explain the emergence of correlated
+oscillatory activity in the subthalamopallidal circuit after de-
+struction of dopaminergic neurons in Parkinson’s disease and
+in animal models of parkinsonism.
+
+Key words: basal ganglia; subthalamic nucleus; globus palli-
+dus; computational models; oscillations; synchrony; Parkinson’s
+disease
+
+Most current models of the basal ganglia are static models, in that
+they represent the inputs and outputs of the component nuclei as
+ﬁring rates. For example, the Albin et al. (1989) model, com-
+monly used to explain the symptoms of Parkinsonism, views the
+interactions of the direct and indirect pathway as constant in time
+and explains the symptoms of Parkinson’s disease in terms of
+changes in mean rate of the basal ganglia output (Wichmann and
+DeLong, 1996). In contrast, recent experimental studies have not
+strongly conﬁrmed the predicted changes in mean rate in these
+structures under dopamine depletion, but have instead revealed
+prominent low-frequency periodicity (4–30 Hz) of ﬁring and
+dramatically increased correlations among neurons in the exter-
+nal segment of the globus pallidus (GPe) and the subthalamic
+nucleus (STN) (Bergman et al., 1994; Nini et al., 1995; Magnin et
+al., 2000; Raz et al., 2000; Brown et al., 2001). It is remarkable
+that the changes in ﬁring pattern seen in those structures do not
+appear to be attributable to comparable changes in the ﬁring
+patterns of striatal output cells, although cholinergic striatal in-
+terneurons show changes comparable with those seen in the
+globus pallidus (Raz et al., 1996). The authors of those studies
+have proposed that a rate model of the basal ganglia is inadequate
+
+Received Aug. 21, 2001; revised Jan. 15, 2002; accepted Jan. 23, 2002.
+
+This work was supported by the National Science Foundation Grants DMS-
+0103822 (D.T., A.C.Y.) and DMS-9804447 (J.E.R.) and National Institutes of
+Health, National Institute of Neurological Disorders and Stroke Grant NS26473
+(C.J.W.). We thank Mark Bevan for providing direct access to his data on STN and
+GP cell activity.
+
+Correspondence should be addressed to David Terman, Department of Mathe-
+matics, The Ohio State University, 231 West 18th Avenue, Columbus, OH 43210.
+E-mail: terman@math.ohio-state.edu.
+Copyright © 2002 Society for Neuroscience 0270-6474/02/222963-14$15.00/0
+
+to capture the dynamic interaction of the STN and GPe that may
+generate these pathological changes.
+
+In particular, such dynamic interactions may lead to oscillatory
+activity patterns. Indeed, the connections between GPe and STN
+neurons show a number of features common to central pattern
+generators, which suggests that these nuclei might together be
+capable of self-sustained oscillatory activity. The GPe cells
+project to the subthalamus and to other basal ganglia structures
+and inhibit the cells in those regions via GABAA-receptor medi-
+ated inhibition. In addition, the GPe cells inhibit each other via
+recurrent axon collaterals (Stanford and Cooper, 1999; Ogura
+and Kita, 2000). Subthalamic cells excite neurons in several basal
+ganglia structures, including the GPe (Kitai and Kita, 1987).
+Furthermore, these cells show powerful and long-lasting rebound
+excitation after episodes of hyperpolarization generated by syn-
+aptic inhibition from the GPe (Bevan et al., 2000). These prop-
+erties suggest the possibility for oscillatory rhythms in which GPe
+neurons are excited by activity in the STN neurons, in turn inhibit
+the STN cells, and are again excited by the resulting rebound
+excitation of STN cells that follows the inhibition. A mechanism
+of this kind has been proposed by Plenz and Kitai (1999) on the
+basis of their studies of basal ganglia organotypic tissue cultures.
+To explore such dynamic interactions, we have performed
+computer simulations of conductance-based models of the sub-
+thalamopallidal circuit, within the limits of our knowledge of the
+topography of the synaptic connections and the cellular proper-
+ties involved. These simulations reveal a wide variety of oscilla-
+tory patterns, depending on the arrangements and strengths of
+synaptic connections within and between the cellular populations.
+We classify these patterns as clustering, propagating waves, and
+repetitive spiking (which may show little regularity or correla-
+
+2964 J. Neurosci., April 1, 2002, 22(7):2963–2976
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+tion); each activity pattern can occur continuously or in discrete
+episodes. The mechanisms underlying these patterns can be un-
+derstood in terms of the intrinsic properties and synaptic inter-
+actions of the cells in our simulations. The network can be
+switched from irregular uncorrelated spiking to correlated rhyth-
+mic patterns through an increase of incoming striatal input to-
+gether with a weakening of intrapallidal inhibition, suggesting
+that these changes may underlie the emergence of correlated
+rhythmic activity in the subthalamopallidal circuit in pathological
+states.
+
+MATERIALS AND METHODS
+Single-compartment conductance-based biophysical models of cells from
+the STN and the GPe were developed, based on recent voltage-clamp and
+current-clamp data (Figs. 1, 2). Simulations of these models and of model
+networks composed of synaptically coupled STN and GPe cells were
+performed using XPPAUT, developed by G. B. Ermentrout and available
+at ftp://ftp.math.pitt.edu/pub/bardware. A copy of the XPPAUT ﬁle
+containing the models constructed is available from D.T. on request.
+
+STN cells. The STN model includes a set of currents and corresponding
+kinetics that are based on recent experimental data (Bevan and Wilson,
+1999; Bevan et al., 2000). In particular, the model features spike-
+producing currents (IK and INa), a low-threshold T-type Ca 2⫹ current
+(IT) and a high-threshold Ca 2⫹ current (IC a) (Song et al., 2000), a
+Ca 2⫹-activated, voltage-independent “afterhyperpolarization” K ⫹ cur-
+rent (IAHP), and a leak current (IL). The membrane potential of each
+STN neuron obeys the current balance equation:
+
+Cm
+
+dv
+dt
+
+⫽ ⫺IL ⫺ IK ⫺ INa ⫺ IT ⫺ IC a ⫺ IAHP ⫺ IG3 S .
+
+3 (v)b⬁
+
+b /␴
+
+⫽ gNam⬁
+
+IT
+
+INa
+⫽ gC as⬁
+
+X [(X⬁(v) ⫺ X)/␶
+
+3 (v)h(v ⫺ vNa),
+
+⫽ gKn 4(v ⫺ vK),
+
+The leak current is given by IL
+
+IK
+2 (r)(v ⫺ vC a), and IC a
+
+⫽ gL(v ⫺ vL), and the other voltage-
+dependent currents are described by the Hodgkin–Huxley formalism as
+⫽
+follows:
+2 (v)(v ⫺ vC a). The slowly operating
+gTa⬁
+gating variables n, h, and r are treated as functions of both time and
+voltage and have ﬁrst-order kinetics governed by differential equations of
+the form dX/dt ⫽ ␾
+X(v)] (where X can be n, h, or r), with
+X(v) ⫽ ␶
+0 ⫹ ␶
+1 /[1 ⫹ exp[⫺(v ⫺ ␪
+␶ ]]. Using this formulation,
+␶ )/␴
+␶
+X
+X
+X
+X
+activation (and inactivation) time constants have a sigmoidal dependence
+on voltage, ␶0/␾ is the minimum, and (␶0 ⫹ ␶1)/␾ is the maximum time
+constant. The voltage at which the time constant is midway between its
+maximum and minimum values is ␪␶, and ␴␶ is the slope factor for the
+voltage dependence of the time constant. Activation gating for the
+rapidly activating channels (m, a, and s) was treated as instantaneous. For
+all gating variables X ⫽ n, m, h, a, r, or s, the steady-state voltage
+dependence was determined using X⬁(v) ⫽ 1/[1 ⫹ exp[⫺(v ⫺ ␪
+X]],
+where ␪
+X is the half activation (or inactivation) voltage for gating
+variable X, and ␴
+X is the slope factor for that variable. For the T current
+inactivation variable b, we used b⬁(r) ⫽ 1/[1 ⫹ exp[(r ⫺ ␪
+b]] ⫺ 1/[1 ⫹
+exp[⫺␪
+b]]. The unusual way of modeling T current inactivation here
+[with b⬁(r) instead of simply r] was designed to combine the effects of a
+hyperpolarization-activated inward (sag, or H) current with those of a T
+current, making the rebound bursts of an STN cell more prominent.
+These rebound bursts (see Fig. 1e,f) agree with experimental data (Bevan
+and Wilson, 1999; Bevan et al., 2001).
+
+⫺ IT
+
+As the ﬁnal intrinsic current, we take IAHP
+
+⫽ gAHP(v ⫺ vK)([Ca]/
+([Ca] ⫹ k1 )) where [Ca], the intracellular concentration of Ca 2⫹ ions, is
+governed by [Ca]⬘ ⫽ ⑀(⫺IC a
+⫺ kC a[Ca]). The constant ⑀ combines
+the effects of buffers, cell volume, the molar charge of calcium, and is in
+units of (mole-sec)/(coulombs-liter). The constant k1 is the dissociation
+constant of the calcium-dependent AHP current. The constant kC a is the
+calcium pump rate constant and is in units of (coulombs-liter)/(moles-
+sec). The current IG3 S that represents synaptic input from the GPe to
+⫽ gG3 S(v ⫺ vG3 S)⌺sj. The summation is taken
+STN is modeled as IG3 S
+over the presynaptic GPe neurons, and each synaptic variable sj solves a
+ﬁrst-order differential equation s⬘
+g )(1 ⫺ sj) ⫺ ␤sj. Here vgj
+j
+is the membrane potential of the GPe neuron j, and H⬁(v) ⫽ 1/(1 ⫹
+exp[⫺(v ⫺ ␪
+H)/␴
+H]).
+g
+g
+
+⫽ ␣H⬁(vgj
+
+Parameter values for STN cells used in the simulations are given in
+Table 1. The capacitance Cm was normalized to 1 pF/␮m 2. Also note that
+we scaled our model such that the currents have units of picoamperes per
+
+⫺ ␪
+
+X)/␴
+
+b)/␴
+
+Table 1. Basic set of parameter values for the conductance-based model
+STN cell
+
+Parameter
+
+Value
+
+gL
+gK
+gNa
+gT
+gCa
+gAHP
+vL
+vK
+vNa
+vCa
+␶
+1
+h
+␶
+1
+n
+␶
+1
+r
+␶
+0
+h
+␶
+0
+n
+␶
+0
+r
+␾
+h
+␾
+n
+␾
+r
+k1
+kCa
+⑀
+␪
+m
+␪
+h
+␪
+n
+␪
+r
+␪
+a
+␪
+b
+␪
+s
+␶
+␪
+h
+␶
+␪
+n
+␶
+␪
+r
+␪
+H
+g
+␪
+g
+␣
+vG3 S
+␴
+m
+␴
+h
+␴
+n
+␴
+r
+␴
+a
+␴
+b
+␴
+s
+␶
+␴
+h
+␶
+␴
+n
+␶
+␴
+r
+␴
+H
+g
+␤
+
+2.25 nS/␮m 2
+45.0 nS/␮m 2
+37.5 nS/␮m 2
+0.5 nS/␮m 2
+0.5 nS/␮m 2
+9.0 nS/␮m 2
+
+⫺60.0 mV
+⫺80.0 mV
+55.0 mV
+140.0 mV
+500.0 msec
+100.0 msec
+17.5 msec
+1.0 msec
+1.0 msec
+40.0 msec
+0.75
+0.75
+0.2
+15.0
+22.5
+3.75 ⫻ 10 ⫺5 msec ⫺1
+
+⫺30.0
+⫺39.0
+⫺32.0
+⫺67.0
+⫺63.0
+0.4
+⫺39.0
+⫺57.0
+⫺80.0
+68.0
+⫺39.0
+30.0
+5.0 msec ⫺1
+
+⫺85.0 mV
+
+15.0
+⫺3.1
+8.0
+⫺2.0
+7.8
+⫺0.1
+8.0
+⫺3.0
+⫺26.0
+⫺2.2
+8.0
+1.0 msec ⫺1
+
+Parameters in nanosiemans per square micrometer denote maximal conductances of
+corresponding currents in the STN current balance equation. Parameters in milli-
+volts represent reversal potentials for these currents. Parameters in milliseconds are
+time constants relating to the time evolution of the gating variables in the Hodgkin–
+Huxley representations of these currents, whereas other parameters are associated
+constants.
+
+square micrometer, to be consistent with the data of Bevan and Wilson
+(1999) and Bevan et al. (2000).
+
+GPe cells. Our model for single GPe cells is similar in form to that of
+
+the STN neurons. The equation for the GPe neurons is:
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+J. Neurosci., April 1, 2002, 22(7):2963–2976 2965
+
+Cm
+
+dv
+dt
+
+⫽ ⫺IL ⫺ IK ⫺ INa ⫺ IT ⫺ IC a ⫺ IAHP ⫺ IS3 G ⫺ IG3 G ⫹ Iapp ,
+
+Table 2. Basic set of GPe parameter values
+
+Parameter
+
+Value
+
+⫽ gTa⬁
+
+where Iapp represents a constant external applied current. IL, IK
+(Baranauskas et al., 1999; Hernandez-Pineda et al., 1999), INa, IC a (Sur-
+meier et al., 1994; Stefani et al., 1998), and IAHP are modeled with the
+same formulas and equations given above for the STN cells, whereas the
+3 (v)r(v ⫺
+low-threshold calcium current takes a simpler form: IT
+vC a), where r satisﬁes a ﬁrst-order differential equation. Here we assume
+r(v) ⬅ ␶
+␶
+r , a constant. This has the effect of reducing the size of the
+posthyperpolarization rebound in GPe cells compared with STN cells.
+The experimental literature suggests that the GPe neurons have sim-
+ilar ionic currents to STN cells, but in different proportions. Parameter
+values for GPe cells used in the simulations are given in Table 2. In
+particular, parameters associated with the GPe potassium channels allow
+for fast spiking of GPe cells (Hernandez-Pineda et al., 1999); we have not
+included a second slowly deactivating component of the potassium cur-
+rent (Baranauskas et al., 1999). These parameters were selected to match
+the data for spontaneous ﬁring patterns, rebound response to offset of
+hyperpolarization, spike frequency adaptation, and frequency–intensity
+curves obtained from the study of GPe cells in slices (Kita and Kitai,
+1991; Nambu and Llina˜s, 1994; Cooper and Stanford, 2000).
+
+Two different synaptic currents are included in the GPe model. IS3 G
+represents excitatory input from the STN, and IG3 G represents the
+inhibitory inﬂuence coming from other GPe cells. These are modeled by
+the same type of expression as used for IG3 S, with appropriately re-
+named synaptic parameters.
+
+The input to the GPe cells from the striatum is represented by a
+constant hyperpolarizing current Iapp common to all the GPe cells. This
+current is not speciﬁed in Table 2 because in our network simulations it
+will be one of the main parameters that we vary. The use of this
+unpatterned inhibitory inﬂuence as a parameter was not intended as a
+realistic representation of the pattern of activity in the striatopallidal
+pathway, but rather as an approximation to the overall effect of greater or
+lesser striatal inhibition to the GPe.
+
+Synaptic connectivity. Currently, the details of connections between
+STN and GPe cells are poorly understood. It is known that STN neurons
+provide one of the largest sources of excitatory input to the globus
+pallidus and that the GPe is a major source of inhibitory afferents to the
+STN (Kitai and Kita, 1987). However, the spatial distribution of axons in
+each pathway, as well as the number of cells innervated by single neurons
+in each direction, are not known to the precision required for a computer
+model. Some early reports suggested that the STN cells project to the
+GPe in a diffuse manner (Hazrati and Parent, 1992), whereas more
+recent studies indicate that the two are more tightly interconnected, with
+a connectivity that may be precisely topographical (Shink et al., 1996) or
+more heterogeneous (Sato et al., 2000). It is certain from the existing
+studies that the connection is sparse; that is, each GPe neuron makes
+synaptic contacts with few STN neurons and vice versa. But the number
+of synapses made by single neurons or the proportion of neurons con-
+tacted by an axon within the arborization cannot currently be estimated.
+Therefore, we consider multiple architectures based on low numbers of
+contacts from STN to GPe cells, from GPe to STN cells, and within the
+GPe. In the model networks, each GPe neuron sends inhibition to the
+entire GPe population or some part of it, as well as to one or more STN
+neurons. Each STN neuron sends excitation to one or more GPe neurons.
+The intrinsic parameters associated with the STN and GPe cells are the
+same for each simulation; these are the parameter values of the individ-
+ual model STN and GPe neurons given in Tables 1 and 2. We used
+networks of between 8 and 20 cells of each type for the simulations
+described in this paper.
+
+RESULTS
+Firing properties of model STN and GPe neurons
+The model STN neurons were adjusted to exhibit properties that
+are characteristic of the ﬁring of STN neurons in experimental
+studies on slices (Bevan and Wilson, 1999; Bevan et al., 2000;
+Beurrier et al., 2000). The model neurons are spontaneously
+active with a ﬁring rate of ⬃3 Hz. When current is injected, the
+cells achieve ﬁring rates on the order of 200 Hz with little change
+in the voltage range of the membrane potential traversed by the
+action potentials. Figure 1a presents currents generated by
+
+gL
+gK
+gNa
+gT
+gCa
+gAHP
+vL
+vK
+vNa
+vCa
+␶
+1
+h
+␶
+1
+n
+␶
+0
+h
+␶
+0
+n
+␶
+r
+␾
+h
+␾
+n
+␾
+r
+k1
+kCa
+⑀
+␪
+m
+␪
+h
+␪
+n
+␪
+r
+␪
+a
+␪
+s
+␶
+␪
+h
+␶
+␪
+n
+␪
+H
+g
+␪
+g
+␣
+vG3 G
+␴
+m
+␴
+h
+␴
+n
+␴
+r
+␴
+a
+␴
+s
+␶
+␴
+h
+␶
+␴
+n
+␴
+H
+g
+␤
+vS3 G
+
+0.1 nS/␮m 2
+30.0 nS/␮m 2
+120.0 nS/␮m 2
+0.5 nS/␮m 2
+0.15 nS/␮m 2
+30.0 nS/␮m 2
+
+⫺55.0 mV
+⫺80.0 mV
+55.0 mV
+120.0 mV
+
+0.27 msec
+0.27 msec
+0.05 msec
+0.05 msec
+30.0 msec
+0.05
+0.05
+1.0
+30.0
+20.0
+1 ⫻ 10 ⫺4 msec ⫺1
+
+⫺37.0
+⫺58.0
+⫺50.0
+⫺70.0
+⫺57.0
+⫺35.0
+⫺40.0
+⫺40.0
+⫺57.0
+20.0
+2.0 msec ⫺1
+
+⫺100.0 mV
+
+10.0
+⫺12.0
+14.0
+⫺2.0
+2.0
+2.0
+⫺12.0
+⫺12.0
+2.0
+0.08 msec ⫺1
+0.0 mV
+
+Parameters in nanosiemans per square micrometer denote maximal conductances of
+corresponding currents in the GPe current balance equation. Parameters in milli-
+volts represent reversal potentials for these currents. Parameters in milliseconds are
+time constants relating to the time evolution of the gating variables in the Hodgkin–
+Huxley representations of these currents, whereas other parameters are associated
+constants.
+
+voltage-clamp simulations. Figure 1b displays the membrane po-
+tential of a model STN cell as a function of constant current
+⫽ 0. The frequency–current (f–I)
+injection, after setting gNa
+relation for a model STN cell is shown in Figure 1c. Figure 1d
+shows the duration of the afterhyperpolarization after a 500 msec
+period of high-frequency spikes evoked by different levels of
+current pulses. Note that the afterhyperpolarization increases
+smoothly over a wide range of ﬁring rates during the pulses.
+
+2966 J. Neurosci., April 1, 2002, 22(7):2963–2976
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+3
+
+⫽ gT
+
+⫽ 0; dashed line, gCa
+
+Figure 1. Properties of STN model neuron. a, Current as a function of voltage. For ﬁxed voltages, steady-state currents were computed with slow gating
+variables set to their limiting values [X
+X⬁(v); see Materials and Methods]. In this and all subsequent ﬁgures, omitted units are as in Tables 1 and 2.
+b, Membrane potential of a model STN cell under various current injections. The parameter gNa has been set to 0 to mimic the behavior of an STN cell
+in the presence of sufﬁcient concentration of TTX to block spiking. c, Spike frequency as a function of injected current (solid line, full model; dotted line,
+⫽ 0). d, Duration of afterhyperpolarization after high-frequency spiking. A constant current pulse was applied to a model
+gAHP
+STN cell for 500 msec. After this, a prolonged afterhyperpolarization occurred before the cell returned to regular spiking. Its duration is plotted against
+the strength of applied current. e, f, STN rebound bursts after hyperpolarizing injections. e, Model responses of STN cell to currents of varying duration:
+25 pA/␮m 2 of current applied for 300 (top), 450 (middle), and 600 (bottom) msec. Longer current application augments deinactivation of IT, enhancing
+rebound. f, Responses to currents of varying magnitude: 20 (top), 30 (middle), and 40 (bottom) pA/␮m 2 of current applied for 300 msec. Stronger current
+application augments deinactivation of IT, enhancing rebound.
+
+Figure 1, e and f, demonstrates that STN neurons generate
+rebound bursts after the removal of negative current. The dura-
+tion of the rebound depends on the degree of hyperpolarization.
+The rebound bursts typically last up to 200 msec and are then
+followed by spontaneous ﬁring.
+
+Sample responses of model GPe neurons to current injections
+are shown in Figure 2. High-frequency repetitive ﬁring does not
+show strong accommodation and is followed by a pronounced
+hyperpolarization (Fig. 2). After a hyperpolarizing current pulse,
+the neuron can exhibit rebound ﬁring. We note, however, that the
+ability of GPe neurons to rebound is not essential for the gener-
+ation of rhythmic population activity. For weak hyperpolarizing
+applied currents, the neuron exhibits oscillations in which an
+active spiking phase alternates with a silent phase of near resting
+behavior. This activity pattern, which is common to fast-spiking
+neurons in the GPe (Cooper and Stanford, 2000) and elsewhere,
+has important implications for the model. In our implementation,
+it arises because of the slow time course of calcium buildup and
+decay in the neurons. At higher levels of current, the model cells
+show continuous ﬁring in response to current pulses. Similar
+dynamics can arise from other mechanisms (Rush and Rinzel,
+1995), and the mechanism of this kind of ﬁring in GPe neurons is
+
+not known with certainty. The network dynamics that arise from
+this ﬁre-and-pause mode of activity in our model do not depend
+critically on the cellular mechanism. We also note that several
+papers have reported various types of neurons within the GPe.
+Our model GPe neurons, as shown in Figure 2, were adjusted to
+display properties similar to the type 2 neurons described
+by Nambu and Llina˜s (1994), the type A neuron described by
+Cooper and Stanford (2000), and the repetitive ﬁring neurons
+described by Kita and Kitai (1991). Recent experiments have
+suggested that this is the most dominant type of neuron within
+GPe. The episodic ﬁring behavior seen at weakly negative ap-
+plied currents resembles the high-frequency discharge with pause
+described by DeLong (1971). In our simulations of the STN–GPe
+network, Iapp is taken to be a small hyperpolarizing (negative)
+current and, as described in Materials and Methods, will approx-
+imate input from the striatum.
+
+The prototype networks
+In the following sections we shall describe the network activity
+generated by three prototype network architectures, as well as
+how this activity depends on the synaptic conductances gS3 G,
+gG3 G, and the applied current Iapp to GPe. Each of the three
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+J. Neurosci., April 1, 2002, 22(7):2963–2976 2967
+
+The activity patterns that this network displays are summa-
+rized in Figure 3b–d. In these patterns, the ﬁring of each cell is
+typically irregular and weakly correlated with the activity of other
+cells. Dependence of activity on gS3 G and gG3 G is illustrated in
+Figure 3b. As with all the architectures, if gS3 G is too small, then
+the GPe cells cannot respond to STN ﬁring, and there is no
+network activity, only the pacemaking of the STN cells. For
+larger values of gS3 G, the occasional ﬁring of GPe cells produces
+an irregular background of inhibition that deregularizes the STN
+neurons, resulting in sparse irregular ﬁring in both structures
+(Fig. 3c, ﬁrst panel). GPe neurons ﬁre in a correlated (but not
+perfectly one-to-one) way with the single STN neuron to which
+each is connected, but correlations are weak among randomly
+selected cell pairs. The correlations that do occur have a very
+narrow time scale, with connected GPe and STN cells ﬁring
+almost simultaneously as the GPe neuron ﬁres on the EPSP
+generated by the STN neuron or not at all. With still larger values
+of gS3 G, the network displays episodic activity, as shown in
+Figure 3, c and d. During each episode, the cells ﬁre irregularly,
+and there is an increased synchronization both within and among
+nuclei. The episodes of ﬁring involve all neurons in the network.
+The episodes last for ⬃300 msec, and their durations increase
+with increasing gS3 G; the silent periods between the episodes
+remain approximately constant at 500 msec. When gS3 G becomes
+sufﬁciently large, the network activity switches to continuous,
+irregular spiking as depicted in Figure 3, c and d. There are weak
+or no within-nuclei correlations of ﬁring in this continuous re-
+gime, and across-nuclei correlations are rare because they are
+restricted to cells receiving direct interconnections (which are
+sparse). This is shown in Figure 3d, but was also tested by
+calculating the cross-correlations among and between the two
+groups of cells.
+
+Episodic rhythms
+To understand the neuronal mechanism underlying episodic
+rhythms, suppose that one or more STN cells ﬁre action poten-
+tials. The resulting excitation may induce the corresponding GPe
+cells to respond with their own spikes. This leads to hyperpolar-
+ization of STN cells, which resets the pacemakers of these. This
+is the same mechanism illustrated experimentally by Bevan et al.
+(2001) after stimulation of inhibitory inputs to the STN. The
+postinhibitory ﬁring of the STN neurons induces another round
+of ﬁring in the GPe neurons. So long as there is some divergence
+in one or both directions (as in the GPe3STN connection of Fig.
+3a), activity in some neurons will tend to recruit others, and the
+entire network will ultimately be recruited. This causes T currents
+within the STN cells to deinactivate so that activity during the ep-
+isode can be sustained through postinhibitory rebound. The ter-
+mination of an episode of activity is caused by activation of the
+outward K ⫹ current, IAHP, in the GPe cells as calcium builds up
+with each additional spike. This is illustrated in Figure 4. Once
+IAHP is sufﬁciently activated, a GPe neuron is no longer able to
+respond to excitation from STN. When GPe activity terminates,
+STN cells may ﬁre one last burst of spikes caused by postinhibi-
+tory rebound. Activity then recurs when STN cells recover
+enough to ﬁre again, by which time the GPe cells can again
+respond to the STN.
+
+As described earlier, if the overall current input to a GPe cell
+is weakly inhibitory, then the calcium of the cell can reach a level
+that inhibits ﬁring (Fig. 2a); thus, the neuron ﬁres in the episodic
+mode. In our simulations, we assume that the hyperpolarizing
+applied current from striatum to GPe (Iapp) is strong enough such
+
+Figure 2. Properties of GPe model neuron. a, Top three time traces show
+ﬁring proﬁles of a model GPe cell under depolarizing, zero, and small
+hyperpolarizing input currents (Iapp in pA/␮m 2), respectively. Bottom
+trace shows afterhyperpolarization of a model GPe cell after injection of
+a depolarizing current pulse. b, Membrane potential of a model GPe cell
+⫽ 0. c, Frequency of GPe
+as a function of injected current, with gNa
+spiking as a function of injected current.
+
+prototype architectures includes a distinct type of connectivity
+between STN and GPe cells. In all of these, each cell only
+contacts a small number of other cells. However, within the
+simulated networks, the density of connections relative to the size
+of the network varies across architectures, and they are named
+accordingly: in sparsely connected architectures, each cell sends
+out connections to a small subset of the STN and GPe popula-
+tions; in tightly connected architectures, the connectivity patterns
+yield localized circuits of reciprocally connected GPe and STN
+cells, in which each cell sends inputs to, and receives inputs from,
+a relatively large subset of the other cells in the circuit.
+Random, sparsely connected architecture
+The simplest class of networks consistent with low connectivity is
+one in which each GPe cell sends inhibitory input to a small
+proportion of the STN neurons selected randomly, and the STN
+cells also make sparse and random connections. The chances of
+reciprocal connections between any STN–GPe cell pair is low.
+This class of networks was represented using the network shown
+in Figure 3a. The subthalamic neurons could ﬁre spontaneously
+by their usual pacemaker mechanism (Bevan and Wilson, 1999;
+Beurrier et al., 2000) but the GPe neurons were inhibited by the
+application of Iapp (representing striatal inhibition) to a level just
+adequate to prevent their spontaneous ﬁring.
+
+2968 J. Neurosci., April 1, 2002, 22(7):2963–2976
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+Figure 3. Activity patterns in a random, sparsely connected architecture. a, Arrangement of the model network. Each STN neuron excites a single GPe
+neuron selected at random, and each GPe neuron inhibits three randomly chosen STN cells. GPe cells also inhibit each other through all-to-all
+connections. b, Dependence of activity patterns on coupling strengths gG3 G and gS3 G. Weak STN3GPe excitation or strong GPe3GPe inhibition leads
+to sparse irregular ﬁring patterns. Intermediate values yield episodic patterns, whereas high levels of excitation and low levels of GPe mutual inhibition
+give rise to continuous uncorrelated activity. c, Membrane potential (in millivolts) as a function of time (milliseconds) for individual cells in each of the
+⫽ ⫺1.2 pA/␮m 2), episodic, almost-synchronized
+activity patterns: sparse activity (gG3 G
+⫽ 0.02 nS/␮m 2;
+spiking (gG3 G
+⫽ ⫺1.2 pA/␮m 2). d, Network activity in various patterns. In each plot, 10 rows show the voltage traces
+gS3 G
+of 10 cells, with time evolving over 2000 msec to the right along each row. Voltage is coded in grayscale as shown. Because they are so brief, individual
+action potentials (dark gray line segments) are not prominent, but are more clearly indicated by their afterhyperpolarization (white bars).
+
+⫽ ⫺1.2 pA/␮m 2), and continuous, irregular spiking (gG3 G
+
+⫽ 0.03 nS/␮m 2; gG3 S
+
+⫽ 0.06 nS/␮m 2; gS3 G
+
+⫽ 0 nS/␮m 2; gS3 G
+
+⫽ 0.016 nS/␮m 2; gG3 S
+
+⫽ 2.5 nS/␮m 2; Iapp
+
+⫽ 0.1 nS/␮m 2; gG3 S
+
+⫽ 2.5 nS/␮m 2; Iapp
+
+⫽ 2.5 nS/␮m 2; Iapp
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+J. Neurosci., April 1, 2002, 22(7):2963–2976 2969
+
+GPe inhibition in an STN neuron and the postinhibitory
+response.
+
+All of the above description holds regardless of the action of
+the intra-GPe inhibition. Because it is all-to all, the intra-GPe
+inhibition in this network acts in proportion to the total activity in
+the GPe, and so opposes the STN3GPe excitation. For larger
+values of gG3 G, the network requires increased STN activity to
+support organized ﬁring. The value of gS3 G at which the activity
+switches from episodic to continuous ﬁring increases, in an ap-
+proximately linear manner with gG3 G. When gG3 G becomes too
+large, the network exhibits asynchronous, irregular activity, as
+occurs when gS3 G is small.
+
+Structured, sparsely connected architecture
+We next consider the off-center architecture depicted in Figure
+5a. Although the GPe3STN connection is more structured in
+this model network, it is so in a way that avoids direct reciprocal
+connections between GPe and STN. The nearest-neighbor intra-
+GPe inhibition is structured to create a lateral inhibition among
+GPe neurons that have overlapping projections in the STN.
+
+This network can give rise to more varied network dynamics
+than the unstructured network described above. Most patterns
+feature clustering, in which each structure is divided into subsets
+of neurons that become highly correlated with each other (Fig.
+5b–d). The most commonly observed clustered pattern consists of
+two clusters, with alternating pairs of cells belonging to opposite
+clusters (Fig. 5c,d). Different clusters alternate ﬁring, and in this
+pattern, cluster membership is persistent over time. The switch of
+activity from one cluster to another can involve either an overlap
+of ﬁring or a brief interval of network quiescence, depending on
+parameters. There is a tight synchrony of ﬁring among cells of the
+same cluster.
+
+Clustered rhythms
+To understand the neuronal mechanism underlying clustered
+rhythms, consider an example of an activity pattern consisting of
+two clusters. Suppose that one subpopulation of STN neurons,
+which we denote as S1, excites its corresponding subpopulation of
+GPe neurons, call them G1, to initiate an episode of ﬁring. If the
+inhibition from G1 is powerful enough, then it prevents the
+remaining STN neurons, in a different subpopulation S2, from
+ﬁring. Eventually, cells in S2 escape from their suppressed state
+and ﬁre. This induces the remaining GPe cells, group G2, to ﬁre,
+and the resulting inhibition terminates the activity of S1. The
+roles of the S1/G1 and S2/G2 clusters are now reversed.
+
+The primary reason why cells in S2 are able to escape is that
+although S2 cells are hyperpolarized, their inward IT currents
+deinactivate. A second reason is that there is some slight adap-
+tation of ﬁring rates of cells in S1 as their IT currents inactivate
+and their AHP currents accumulate. Unlike the episodic ﬁring
+described earlier, cluster alternation is not primarily driven by
+accumulation of AHP currents, but by persistent inhibition and
+the resulting removal of inactivation of rebound currents. These
+factors appear in Figure 6. As long as S1 cells maintain a high
+ﬁring frequency, then so will cells in G1. This results in a tonic
+level of inhibition to cells in S2, preventing them from ﬁring. A
+decrease in the ﬁring rate of S1 caused by adaptation helps allow
+S2 to become active, and its excitability is enhanced by rebound
+currents accumulated during the persistent inhibition. The length
+of time for which one cluster can ﬁre before another one takes
+over, and hence the population bursting frequency, is mostly set
+by the rate of deinactivation of IT in inactive STN cells relative to
+
+Figure 4. Mechanisms underlying episodic activity patterns. The gray
+trace in the top box shows the evolution of voltage over time for a single
+GPe cell in an episodic pattern, whereas the black trace shows the voltage
+for a single STN cell. The boxes below show the intracellular calcium
+concentration of each cell as a function of time. Initially, GPe spikes
+closely follow STN spikes. Here Iapp is sufﬁciently strong such that the
+build-up of calcium terminates the GPe activity of the cell eventually,
+after which the STN cell ﬁres one last volley of rebound spikes until about
+2600 msec. Subsequent decay of calcium allows STN activity to resume
+after time 3200 msec; this recruits the GPe cell again.
+
+that GPe cells are not spontaneously active. When the excitatory
+input from STN to GPe is relatively weak, the total input to GPe
+is appropriate to trigger calcium-regulated episodic ﬁring. On the
+other hand, if the excitation from STN to GPe is sufﬁciently
+strong, the calcium-dependent AHP current in GPe cells will
+achieve an equilibrium level that will slow but no longer terminate
+GPe ﬁring. GPe cells will always be able to respond to the ﬁring
+of STN cells in this case, and a continuous rhythm results.
+Increasing gS3 G transforms an episodic rhythm into a continuous
+one; such a transition may also be achieved by decreasing the
+magnitude of Iapp from a large hyperpolarizing level.
+
+The duration between active episodes is determined primarily
+by the IAHP current in STN neurons. During an episode, STN
+neurons ﬁre rapid action potentials resulting in an increase of
+their intracellular calcium. Once the event terminates, there is a
+prolonged afterhyperpolarization before the cells can resume
+their pacemaking spiking activity (Bevan and Wilson, 1999) (Fig.
+1d) and initiate a new episode. The time between episodes does
+not depend signiﬁcantly on Iapp or the synaptic parameters gS3 G,
+gG3 G.
+
+The duration of each episode is determined by two factors. The
+ﬁrst is how long it takes for calcium to build up and hyperpolarize
+GPe neurons so that they no longer respond to excitation from
+STN. This depends on the strength of STN3GPe synaptic exci-
+tation, as well as on Iapp. The second factor is the duration of any
+rebound bursting generated by STN neurons at the end of the
+episode. Both of these depend on the rate of ﬁring within the ep-
+isode. Firing rate within the episode is determined by the
+strength of synaptic connections and the time between onset of
+
+2970 J. Neurosci., April 1, 2002, 22(7):2963–2976
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+⫽ ⫺85 mV and ␤ ⫽ 0.04 msec ⫺1
+Figure 5. Activity patterns in a structured, sparsely connected architecture. For all simulations in this Figure, vG3 G
+for the GPe cells. a, Arrangement of the model network. Each GPe neuron inhibits its two immediate GPe neighbors; it also inhibits two STN neurons,
+skipping the three located nearest to it. Each STN cell sends excitation only to the nearest, in register GPe cell. Spatially periodic boundary conditions
+⫽ ⫺1.0 pA/␮m 2. The
+were imposed. b, Dependence of activity patterns on coupling strengths gG3 G and gS3 G when gG3 S
+parameter regime and initial conditions used favor formation of clusters rather than waves. Increases in gS3 G lead to continuous activity; increases in
+gG3 G weaken activity. c, Voltage (in millivolts) as a function of time (in milliseconds) for individual cells in the three clustered activity patterns: weak
+⫽ ⫺1.0 pA/␮m 2), episodic clustered oscillations
+and irregular clustered activity (gG3 G
+⫽ 0.72
+(gG3 G
+nS/␮m 2; gG3 S
+
+⫽ ⫺1.0 pA/␮m 2). d, Network activity in various patterns, as in Figure 3d but with eight rows shown.
+
+⫽ 4.5 nS/␮m 2 and Iapp
+
+⫽ ⫺1.0 pA/␮m 2), and continuous clustering (gG3 G
+
+⫽ 0.06 nS/␮m 2; gS3 G
+
+⫽ 0.06 nS/␮m 2; gS3 G
+
+⫽ 0.06 nS/␮m 2; gS3 G
+
+⫽ 0.56 nS/␮m 2; gG3 S
+
+⫽ 4.5 nS/␮m 2; Iapp
+
+⫽ 4.5 nS/␮m 2; Iapp
+
+⫽ 0.2 nS/␮m 2; gG3 S
+
+⫽ 4.5 nS/␮m 2; Iapp
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+J. Neurosci., April 1, 2002, 22(7):2963–2976 2971
+
+bution of phases among STN and GPe neurons, however, would
+require traveling waves of activity within the STN and GPe.
+
+As in the less structured architectures, intermediate values of
+gS3 G give rise to episodic activity in the network as a whole (Fig.
+5c,d). This occurs for the same reason (accumulation of Ca-
+dependent K current), and because this is slower than the process
+responsible for cluster alternation, it affects all clusters equally. At
+higher values of excitation and/or lower levels of intra-GPe inhi-
+bition, clustered activity becomes continuous, because the effect
+of the AHP current is overcome (Fig. 5b–d). Episodic clustering
+is less robust than continuous clustering, because in a sparsely
+connected network, it is difﬁcult for calcium to build up sufﬁ-
+ciently throughout the GPe population to turn off activity across
+a large segment of the network. In fact, for sparsely connected
+networks in general, episodic rhythms are more robust when the
+architecture is random as opposed to structured (random connec-
+tions allow activity to spread across the network more quickly).
+
+Structured, tightly connected architecture
+The third network to be considered is the structured, tightly
+connected architecture represented by the model system in Figure
+7a. Figure 7b illustrates regions in the (gS3 G, gG3 G) parameter
+plane that support each activity pattern, whereas Figure 7, c and
+d, shows how cellular activity varies over time in a variety of these
+patterns. Again, Iapp is set at a level so that isolated GPe neurons
+are silent.
+
+Let us consider the network behavior at various different levels
+of intra-GPe inhibition. First suppose that there is virtually no
+⬇ 0). In this case, if gS3 G is very
+intra-GPe inhibition (gG3 G
+small, the STN neurons spike slowly via their pacemaker mech-
+anism, the GPe neurons are mostly silent, and interaction be-
+tween the GPe and STN populations is too weak to generate any
+discernible network rhythm. Increasing gS3 G gives rise to an
+episodic pattern, with every cell participating in events of repet-
+itive spiking activity, separated by periods of quiescence, that
+repeat periodically at 1–2 Hz. When gS3 G gets above a certain
+level, the population activity switches to a continuous mode; all
+the STN and GPe cells exhibit tonic spiking, with the spiking
+frequency growing to ⬃25 Hz as gS3 G is increased. The trans-
+formation from episodic to continuous activity achieved by in-
+creasing gS3 G can also be observed after decreasing the magni-
+tude of the hyperpolarizing Iapp. Recall that weakening Iapp
+(making it less negative) transforms a GPe neuron from ﬁring in
+the episodic mode to spiking continuously. The mechanism un-
+derlying the transformation from episodic to continuous activity
+in the network is similar to that in an isolated GPe neuron, and
+in both of the architectures described earlier.
+
+Higher levels of the intra-GPe inhibition have the effect of
+producing traveling waves, within both the episodic and continu-
+ous ﬁring modes (Fig. 7c,d). These waves correspond to solitary
+pulses with no activity in the wake of the wave (note that the
+appearance of multiple “bands” of activity in Figure 7d is caused
+by the periodic boundary conditions imposed; at any one time,
+only one localized group of cells is active). The propagation
+structure of a wave was clearly discernible in cross-correllograms
+calculated from the simulations (data not shown).
+
+If gG3 G is increased to even higher values, the waves lose their
+shape and ﬁring activity eventually becomes sparse, irregular, and
+uncorrelated. For higher levels of excitatory drive from STN to
+GPe, the intra-GPe synaptic conductance gG3 G needs to be
+stronger before waves are able to form, but these waves exist for
+a larger interval of gG3 G values (Fig. 7b).
+
+Figure 6. Mechanisms underlying clustered activity patterns. The top box
+shows the superimposed voltage time courses for an STN cell (dotted
+trace) and a GPe cell (solid trace) from a single, tightly synchronized pair
+belonging to the same cluster in a clustered rhythm; the middle box shows
+the same for a single pair from a different cluster. The bottom box shows
+the availability level of the IT currents for the STN cells in the two
+different pairs (solid curve corresponds to middle box; dashed curve to top
+box). When availability of IT becomes sufﬁciently large, the suppressed
+cluster is able to escape and ﬁre; this then suppresses the previously active
+cluster.
+
+the level of inhibition they receive. For the parameters used here
+(based on studies from brain slices) the cluster alternation rate
+ranges from 4 to 6 Hz.
+
+We note that other mechanisms besides deinactivation of the IT
+current may also promote escape, thus contributing to the gener-
+ation of clustered rhythms. For instance, it is possible that short-
+term synaptic plasticity plays a role in escape mechanisms; in fact,
+Hanson and Jaeger (2002) have recently demonstrated that the
+STN to GPe pathway exhibits short-term depression.
+
+A key point is that network activity segregates cells in such a
+way that at any given time, neurons within silent STN clusters are
+receiving more inhibition from active GPe cells than are the
+active STN neurons. Hence, inhibition may play the dual role of
+maintaining the active STN bursts (by deinactivating IT), while
+suppressing the silent STN neurons.
+
+Additional clustered patterns also arise from this architecture,
+as do propagating waves. Many of these patterns are dynamic,
+with cluster membership changing over time. Examples of alter-
+native cluster patterns include a two-cluster pattern in which
+every cell is in a different cluster from its two immediate neigh-
+bors and a four-cluster pattern in which cells in the same cluster
+are separated by three other cells.
+
+Clustered activity leads to discrete phase differences among
+neurons. The range and distribution of those differences is deter-
+mined by the number of clusters, with the simplest outcome,
+consisting of two phases, described here. In a larger network of
+this kind, it is feasible that a large number of clusters could arise,
+giving a wide range of phase relationships. A continuous distri-
+
+2972 J. Neurosci., April 1, 2002, 22(7):2963–2976
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+Figure 7. Activity patterns in the structured, tightly connected architecture. a, Network used for these simulations. Each GPe neuron contacts the ﬁve
+closest STN neurons, as well as all of the GPe cells. Each STN cell sends excitation to the three closest GPe cells. Spatially periodic boundary conditions
+⫽ ⫺1.2 pA/␮m 2. Increases
+were imposed. b, Dependence of activity patterns on coupling strengths gG3 G and gS3 G when gG3 S
+in gS3 G lead to continuous activity; increases in gG3 G yield a transition to waves followed by sparse, irregular ﬁring. The value of gG3 G at which each
+of these transitions occurs rises with gS3 G. c, Voltage (in millivolts) as a function of time (in milliseconds) for individual cells in various activity patterns:
+⫽ ⫺1.2 pA/␮m 2 for GPe), episodic wave
+episodic, almost-synchronized spiking (gG3 G
+⫽ 0.03
+(gG3 G
+⫽ ⫺1.2 pA/␮m 2). d, Network activity in various patterns, featuring STN cells during episodic spiking, episodic wave,
+nS/␮m 2; gG3 S
+⫽ ⫺1.2 pA/␮m 2). The GPe cells
+continuous wave, and sparse irregular spiking (gG3 G
+exhibit voltage patterns very similar to the STN cells.
+
+⫽ ⫺1.2 pA/␮m 2), and continuous wave (gG3 G
+
+⫽ 0.013 nS/␮m 2; gG3 S
+
+⫽ 1.0 nS/␮m 2 and Iapp
+
+⫽ 0.0 nS/␮m 2; gS3 G
+
+⫽ 0.013 nS/␮m 2; gG3 S
+
+⫽ 1.0 nS/␮m 2; Iapp
+
+⫽ 0.02 nS/␮m 2; gS3 G
+
+⫽ 0.23 nS/␮m 2; gS3 G
+
+⫽ 0.03 nS/␮m 2; gG3 S
+
+⫽ 1.0 nS/␮m 2; Iapp
+
+⫽ 1.0 nS/␮m 2; Iapp
+
+⫽ 1.0 nS/␮m 2; Iapp
+
+⫽ 0.1 nS/␮m 2; gS3 G
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+J. Neurosci., April 1, 2002, 22(7):2963–2976 2973
+
+This network does not exhibit clustered patterns. Moreover,
+the existence of waves here depends on a rather large GPe3GPe
+synaptic footprint. If each GPe neuron sends inhibition only to its
+immediate neighbors, then activity becomes distributed through-
+out the populations rather than localized in the form of waves.
+
+Propagating waves
+To understand the neuronal mechanism underlying propagating
+wave activity, we ﬁrst consider a simple network with each neu-
+ronal population represented by a one-dimensional array, indexed
+from left to right by i ⫽ . . . , ⫺2, ⫺1, 0, 1, 2, 3, . . . Each GPe cell
+Gi sends inhibition to one STN cell Si, as well as every GPe cell,
+and each STN cell Si sends off-centered excitation to the two GPe
+cells Gi⫺1 and Gi⫹1. We assume that a wave has been generated
+and is propagating to the right, and we suppose that at some time,
+say t ⫽ 0, the GPe cell G0 starts to burst. We shall describe how
+the activity continues to propagate to the right in a lurching
+manner.
+
+As G0 ﬁres, it inhibits the STN cell S0 and deinactivates the T
+current in S0. When S0 escapes or becomes released from inhibi-
+tion, it ﬁres a volley of spikes, in turn exciting the GPe cells G⫺1
+and G1. At this point G1 is more excitable than G⫺1, because G⫺1
+had recently ﬁred and is still in a partially refractory state. Hence,
+G1 will tend to ﬁre in response to S0 before G⫺1 does. Once G1
+ﬁres, it sends inhibition to all the other GPe cells. In particular, this
+inhibition will prevent G⫺1 from ﬁring. Furthermore, when G1
+ﬁres, it inhibits the STN cell S1; thus the entire process repeats,
+except it is now shifted over by one STN and one GPe cell.
+
+We have explored numerous related architectures and have
+found that the existence of propagating waves is a very robust
+activity pattern. Waves can exist if the STN3GPe connectivity
+footprint is broader than the GPe3STN footprint, and also in
+the reverse situation;
+in addition, both on-centered and off-
+centered footprints can support propagating waves. The mecha-
+nism underlying wave activity in various different network archi-
+tectures is essentially the same as described above. Typically, a
+group of STN cells ﬁres synchronously because of postinhibitory
+rebound, and this causes excitation to be sent to a corresponding
+group of GPe cells. The GPe cells just ahead of the leading edge
+of the wave will be the ﬁrst cells to ﬁre in response, because other
+nearby GPe cells have just ﬁred and hence are in a refractory
+mode. This ﬁring will inhibit the other GPe cells that had re-
+ceived excitatory input, suppressing their activity; at the same
+time, it will inhibit a group of STN cells. This group of STN
+neurons will eventually ﬁre when they are able to escape, or
+become released from, the inhibitory inﬂuence from GPe. The
+process then continues as before.
+
+We note that to generate a wave, it is important that the GPe
+cells at the leading edge of the wave are able to inhibit those GPe
+cells behind them. It is therefore necessary to have gG3 G sufﬁ-
+ciently large. Decreasing gG3 G often transforms wave activity to
+clustering or rapid spiking (either episodic or continuous). For
+solitary waves to arise, the GPe3GPe footprint should also be
+larger than the STN3GPe footprint; otherwise, activity spreads
+quite rapidly throughout the network and full-population spiking
+behavior or spatially periodic waves (data not shown) typically
+result.
+The speed with which the waves propagate is dependent on the
+size of the STN3GPe and GPe3STN connectivity footprints.
+Other synaptic parameters, such as gS3 G, also play a role in
+determining wave speed. Moreover, the average active (and si-
+lent) phase duration of STN neurons is directly correlated with
+
+the length of time it takes the wave to travel from one end of the
+array to the other, and hence inversely correlated with the speed.
+We observed that at ﬁxed levels of gS3 G, stronger intra-GPe
+inhibition produces slower waves; whereas at ﬁxed levels of gG3 G,
+varying gS3 G has two competing inﬂuences on wave speed,
+caused by different mechanisms coming into play for the release
+or escape from inhibition of inactive STN cells.
+Irregular and uncorrelated activity
+These computational studies suggest
+there are several
+sources leading to irregular and uncorrelated activity patterns in
+the STN–GPe network. An unstructured and sparsely connected
+topography is one possible source; however, certain choices of the
+synaptic parameters and applied currents also promote irregular
+behavior regardless of network architecture. For example, we
+observed that if gG3 G is sufﬁciently large and Iapp is above (i.e.,
+less negative than) some ﬁxed hyperpolarizing level, then the
+network activity is irregular. The implications will be discussed in
+the next section. Here we describe both the topographic and the
+input-related neuronal mechanisms underlying irregular uncor-
+related behavior.
+
+that
+
+We saw earlier (Figs. 5, 7) that a structured architecture is
+required for the generation of both clustered and propagating
+wave solutions. In a clustered solution, the network organizes
+itself so that each STN cell in an inactive cluster receives approx-
+imately the same degree of inhibitory input. For a wave to be
+propagated, the active STN and GPe cells must have structured
+footprints to spread activity to cells ahead of the leading edge.
+These patterns are not possible in a randomly connected network.
+In such a topography, the ﬁring of a small number of cells tends
+to spread activity (which may be either episodic or continuous)
+efﬁciently throughout the network. Once one STN cell ﬁres, it
+spreads inhibition to other STN cells via connections with the
+GPe cells, thus delaying or possibly preventing activity of other
+STN cells. Hence, one expects at most a loose synchronization
+between the ﬁring of STN cells.
+
+We next discuss why weakening striatal inhibition of the GPe
+(represented here as the magnitude of Iapp) promotes irregular
+behavior, especially if gG3 G is sufﬁciently large. Recall that
+making Iapp less negative allows the GPe cells to ﬁre tonically
+(Fig. 2a). This leads to tonic inhibitory input to the STN. If this
+input is sufﬁciently strong, then it will completely suppress STN
+activity. For moderate levels of tonic inhibition, the STN cells
+may still be able to ﬁre action potentials caused by deinactivation
+of IT; however, in the tonic ﬁring regime, the GPe neurons are less
+sensitive to excitation from STN. This means that, for both
+moderate and strong levels of striatal inhibition, excitation from
+the STN is too weak to organize the GPe population into distinct
+clusters or propagating waves. In this case, strong intra-GPe
+inhibition may further desynchronize oscillations by delaying,
+weakening, or suppressing the ﬁring of some GPe cells immedi-
+ately after other GPe cells ﬁre. This type of network behavior is
+consistent with that reported in related excitatory–inhibitory net-
+works (Hansel and Mato, 2001).
+
+DISCUSSION
+The subthalamic nucleus and the globus pallidus are heavily
+interconnected and should have a strong tendency to entrain each
+other. Given that neurons in both areas have membrane proper-
+ties that predispose them to rhythmic ﬁring,
+it is somewhat
+surprising that they are not engaged in rhythmic ﬁring all the
+time. All available evidence, however, indicates that these struc-
+
+2974 J. Neurosci., April 1, 2002, 22(7):2963–2976
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+important to determine the precision of the spatial organization
+of GPe3STN and STN3GPe projections and whether the two
+nuclei project on each other in a reciprocal or out of register
+manner. In one anatomical study, dense, precisely reciprocal
+connections between the subthalamic nucleus and the globus
+pallidus was reported (Shink et al., 1996), but when individual
+axons are stained, the connectivity pattern has appeared much
+more diffuse (Sato et al., 2000). In the absence of deﬁnitive
+anatomical information, our model can be of some beneﬁt by
+comparing the expected activity patterns emerging from various
+likely connectivity architectures and by characterizing conditions
+under which the network may exhibit either synchronous or
+asynchronous oscillations.
+
+An emerging body of evidence suggests that even in the patho-
+logical states caused by dopamine denervation, global synchro-
+nous oscillatory activity is not common. A key ﬁnding of the
+studies of synchronous oscillations in 1-methyl-4-phenyl-1,2,3,6-
+tetrahydropyridine (MPTP)-treated monkeys was the wide range
+of phase relationships among neurons in the globus pallidus,
+indicating that not all the cells oscillate synchronously (Raz et al.,
+2000). This is in contrast with the synchronous episodes seen in
+our random, sparsely connected network. We note that this ar-
+chitecture lacks the structure required to support spatially orga-
+nized activity, which could produce stable phase shifts among
+neurons. The rest tremor in Parkinson’s disease also shows a
+variety of phases in different parts of the body, suggesting that it
+is not driven by a single oscillator (Hurtado et al., 2000; Ben-Paz
+et al., 2001). In the reduced preparation described by Plenz and
+Kitai (1999), some STN–GPe pairs of cells showed in-phase slow
+oscillations, whereas others bursted out of phase. These results
+suggest that different parts of the STN–GPe system may oscillate
+separately from others. In this case, one possibility is that the
+rhythm-generating mechanisms that we have elucidated in our
+model network could be played out among multiple oscillatory
+subnetworks. In the model network, the structured architectures
+could produce spatial clustering and waves, which are consistent
+with the range of phase relations of cellular activity seen in
+experimental dopamine depletion studies. The network also pro-
+duced the slow oscillations observed by Plenz and Kitai (1999) in
+culture. Our results suggest that the absence of rhythmic activity
+at tremor frequency in their preparation may occur because the
+STN–GPe network in their experiment lacks the structured ar-
+chitecture (Fig. 5a) needed for the generation of a clustered
+rhythm. The dynamic clustering rhythms seen in our network are
+also reminiscent of behavior reported in several experimental
+studies. Hurtado et al. (1999) recorded neuronal activity from
+awake Parkinson’s disease patients undergoing stereotaxic pal-
+lidotomy. They found that some paired recording sites within GPi
+showed periods of transient synchronization. Dynamic synchro-
+nization of pallidal activity in MPTP-treated monkeys was also
+reported by Bergman et al. (1998).
+
+Roles of inhibition and the function of
+the indirect pathway
+According to recent studies, correlated oscillatory activity in the
+GPe and STN neurons is closely related to the generation of the
+symptoms of Parkinsonism. The origin of the oscillatory activity
+or the correlations among the neurons is not obvious, because the
+same neurons do not show strong correlations in untreated ani-
+mals (Raz et al., 2000). The ﬁring rate model holds that during
+Parkinsonian states, an increased level of inhibition from the
+striatum to GPe causes a decrease in the activity of GPe. This in
+
+Figure 8. Schematic diagram of the indirect pathway connections in the
+basal ganglia in normal (left column) and parkinsonian (right column)
+states. Minus symbols denote inhibitory connections; plus symbols denote
+excitatory ones. In the parkinsonian regime, the combination of weakened
+intra-GPe connections and strengthened striatal input set the stage for
+synchronous GPe-STN oscillations and correlated rhythmic STN output.
+
+tures do not generate correlated spontaneous rhythmic activity
+(or even show internally correlated ﬁring) under physiological
+conditions encountered in extracellular recording experiments
+(Nini et al., 1995; Magill et al., 2000; Raz et al., 2000; Urbain et
+al., 2000).
+
+After experimental dopamine depletion, and in patients with
+Parkinson’s disease, strongly correlated rhythmic activity can be
+observed in both the subthalamic nucleus and in the globus
+pallidus external segment (Bergman et al., 1994; Nini et al., 1995;
+Magnin et al., 2000; Raz et al., 2000; Brown et al., 2001). The
+subthalamic nucleus is required for the oscillations in the globus
+pallidus, as STN lesions abolish pallidal burst ﬁring (Ni et al.,
+2000); similarly, compromise of GPe interferes with parkinsonian
+activity of STN (Chesselet and Delfs, 1996; Hassani et al., 1996).
+Plenz and Kitai (1999) have shown that in organotypic cultures,
+correlated activity can arise in both structures and is caused by
+the interaction between the STN and GPe rather than being
+driven by an external source. In that reduced preparation, pow-
+erful excitation from the rebound burst ﬁring of STN neurons
+produced increased activity in the GPe population, which then
+inhibited the subthalamic cells and set them up for another
+rebound.
+
+We have shown in a biophysical, conductance-based model that
+the cellular properties of STN and GPe cells can give rise to a
+variety of rhythmic or irregular self-sustained ﬁring patterns,
+depending on both the arrangement of connections among and
+within the nuclei and the effective strengths of the connections.
+The model was based on a simpliﬁed representation of the prop-
+erties of STN and GPe neurons in slices and does not include all
+the inﬂuences that may act in vivo. The dependence on network
+architecture points out the importance of certain missing pieces
+of anatomical information. It is critical to know the spatial extent
+of the recurrent collateral connections among GPe neurons and
+whether they are spatially organized or diffuse. Likewise, it is
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+J. Neurosci., April 1, 2002, 22(7):2963–2976 2975
+
+turn would send less inhibition to STN, thus increasing STN
+activity and ultimately leading to increased inhibitory output
+from the basal ganglia to the thalamus (DeLong, 1990; Wichmann
+and DeLong, 1996; Obeso et al., 1997). In our model network, a
+more complex picture emerges, in which the STN and GPe are
+spontaneously oscillatory and synchronous, whereas intra-GPe
+inhibition and an appropriate level of input from the striatum can
+act to suppress rhythmic behavior. Note that inhibition plays
+multiple roles in the generation of each of the activity patterns we
+observed. In the clustered rhythm, for example, active STN neu-
+rons need moderate levels of feedback inhibition from the GPe to
+synchronize among themselves. Silent STN neurons, on the other
+hand, are prevented from ﬁring because they receive more pow-
+erful tonic inhibition. For the generation of propagating waves,
+intra-GPe inhibition is needed to prevent activity from persisting
+in the wake of the wave. Hence, this inhibition helps to organize
+the network into a structured activity pattern. If one increases the
+intra-GPe inhibition, this can desynchronize the GPe oscillations,
+and irregular ﬁring may result. The role of striatal inhibition is
+the most pivotal
+in generating or suppressing the organized
+oscillatory activity, because it simultaneously controls the inhib-
+itory feedback to the STN through the GPe cells and inﬂuences
+the intra-GPe inhibition, which controls spatial patterning of
+activity in the network.
+
+Some papers have questioned the role of the so-called indirect
+pathway (Parent and Hazrati, 1995; Levy et al., 1997; Parent and
+Cicchetti, 1998). These arguments point to experiments demon-
+strating that GPe activity does not decrease substantially in a
+Parkinsonian state, as well as results indicating that the overall
+level of GABAA received by GPe cells (from both striatal and
+intrinsic sources) may hold steady or even decrease. The analysis
+and simulations given in this paper suggest that to account for the
+new experiments, one does not need to diminish the role of
+the indirect pathway. Instead, our analysis demonstrates that the
+diverse contributions of inhibition to indirect pathway ﬁring pat-
+terns can shift the network between rhythmic and irregular
+modes of ﬁring. In Figure 8, we suggest an alternative interpre-
+tation of the roles of inhibition and excitation in allowing the
+indirect pathway to generate tremor-like activity. In the normal
+state, there is strong GABAA synaptic inhibition among GPe
+neurons, making their output to the STN asynchronous, and
+effectively weakening the synaptic interactions between GPe and
+STN. After dopaminergic denervation, an increased level of in-
+hibition from the striatum to GPe is combined with the release
+of enkephalin and dynorphin, which acts presynaptically to
+weaken the collateral connections among GPe cells (Stanford and
+Cooper, 1999; Ogura and Kita, 2000). From our results, this could
+strengthen and synchronize the interactions between STN and
+GPe and shift the network into an oscillatory mode.
+
+REFERENCES
+Albin RL, Young AB, Penney JB (1989) The functional anatomy of
+
+basal ganglia disorders. Trends Neurosci 12:366–375.
+
+Baranauskas G, Thatch T, Surmeier DJ (1999) Delayed rectiﬁer currents
+in rat globus pallidus neurons are attributable to Kv2.1 and Kv3.1/3.2
+K(⫹) channels. J Neurosci 19:6394–6404.
+
+Ben-Paz H, Bergman H, Goldberg JA, Giladi N, Hansel D, Reches A,
+Simon ES (2001) Synchrony of rest tremor in multiple limbs in par-
+kinson’s disease: evidence for multiple oscillators. J Neural Transm
+108:287–296.
+
+Bergman H, Wichmann T, Karmon B, DeLong MR (1994) The primate
+subthalamic nucleus. II. Neuronal activity in the MPTP model of
+parkinsonism. J Neurophysiol 72:507–520.
+
+Bergman H, Raz A, Feingold A, Nini A, Nelken I, Hansel D, Ben-Paz H,
+Reches A (1998) Physiology of MPTP tremor. Mov Disord 13:29–34.
+Beurrier C, Bioulac B, Hammond C (2000) Slowly inactivating sodium
+
+current (I(NaP)) underlies single-spike activity in rat subthalamic neu-
+rons. J Neurophysiol 83:1951–1957.
+
+Bevan MD, Wilson CJ (1999) Mechanisms underlying spontaneous os-
+cillation and rhythmic ﬁring in rat subthalamic neurons. J Neurosci
+19:7617–7628.
+
+Bevan MD, Wilson CJ, Bolam JP, Magill PJ (2000) Equilibrium poten-
+tial of GABAA current and implications for rebound burst ﬁring in rat
+subthalamic neurons in vitro. J Neurophysiol 83:3169–3172.
+
+Bevan MD, Magill PJ, Hallorth NE, Bolam JP, Wilson CJ (2001) Reg-
+ulation of the timing and pattern of action potential generation in rat
+subthalamic neurons in vitro by GABAA IPSPs. J Neurophysiol, in
+press.
+
+Brown P, Oliviero A, Mazzone P, Insola A, Tonali P, Di Lazzaro V
+(2001) Dopamine dependency of oscillations between subthalamic nu-
+cleus and pallidum in Parkinson’s disease. J Neurosci 21:1033–1038.
+
+Chesselet MF, Delfs JM (1996) Basal ganglia and movement disorders:
+
+an update. Trends Neurosci 18:417–422.
+
+Cooper AJ, Stanford IM (2000) Physiological and morphological char-
+acteristics of three types of rat globus pallidus neurone in vitro.
+J Physiol (Lond) 527:291–3004.
+
+DeLong MR (1971) Activity of pallidal neurons during movement.
+
+J Neurophysiol 34:414–427.
+
+DeLong MR (1990) Primate models of movement disorders of basal
+
+ganglia origin. Trends Neurosci 13:281–285.
+
+Hansel D, Mato G (2001) Existence and stability of persistent states in
+
+large neuronal networks. Phys Rev Lett 86:4175–4178.
+
+Hanson JE, Jaeger D (2002) Short-term plasticity shapes the response to
+simulated normal and Parkinsonian input patterns in the globus palli-
+dus. J Neurosci, in press.
+
+Hassani OK, Mouroux M, Fe´ger J (1996) Increased subthalamic neuro-
+nal activity after nigral dopamine lesion independent of disinhibition
+via the globus pallidus. Neuroscience 72:105–115.
+
+Hazrati LN, Parent A (1992) Convergence of subthalamic and striatal
+efferents at pallidal level in primates: an anterograde double-labeling
+study with biocytin and PHA-L. Brain Res 569:336–340.
+
+Hernandez-Pineda R, Chow A, Amarillo Y, Moreno H, Saganich M, de
+Miera EV, Hernandez-Cruz A, Rudy B (1999) Kv3.1-Kv3.2 channels
+underlie a high-voltage-activating component of the delayed rectiﬁer
+K⫹ current in projecting neurons from the globus pallidus. J Neuro-
+physiol 82:1512–1528.
+
+Hurtado JM, Gray CM, Tamas LB, Sigvardt KA (1999) Dynamics of
+tremor-related oscillations in the human globus pallidus: a single case
+study. Proc Natl Acad Sci USA 96:1674–1679.
+
+Hurtado JM, Lachaux JP, Beckley DJ, Gray CM, Sigvardt KA (2000)
+Inter- and intralimb oscillator coupling in parkinsonian tremor. Mov
+Disord 15:683–691.
+
+Kita H, Kitai ST (1991) Intracellular study of rat globus pallidus neu-
+rons: membrane properties and responses to neostriatal, subthalamic
+and nigral stimulation. Brain Res 564:296–305.
+
+Kitai ST, Kita H (1987) Anatomy and physiology of the subthalamic
+nucleus: a driving force of the basal ganglia. In: The basal ganglia II:
+structure and function; current concepts (Carpenter MB, Jayaraman A,
+eds), pp. 357–373. New York: Plenum.
+
+Levy R, Hazrati L-N, Herrero M-T, Vila M, Hassani O-K, Mouroux M,
+Ruberg M, Asensi H, Agid Y, Feger J, Obeso JA, Parent A, Hirsch EC
+(1997) Re-evaluation of the functional anatomy of the basal ganglia in
+normal and parkinsonian states. Neuroscience 76:335–343.
+
+Magill PJ, Bolam JP, Bevan MD (2000) Relationship of activity in the
+subthalamic nucleus-globus pallidus network to cortical electroenceph-
+alogram. J Neurosci 20:820–833.
+
+Magnin M, Morel A, Jeanmonod D (2000) Single-unit analysis of the
+pallidum, thalamus, and subthalamic nucleus in parkinsonian patients.
+Neuroscience 96:549–564.
+
+Nambu A, Llina˜s R (1994) Electrophysiology of globus pallidus neurons
+
+in vitro. J Neurophysiol 72:1127–1139.
+
+Ni Z, Bouali-Benazzouz R, Gao D, Benabid A, Benazzouz A (2000)
+Changes in the ﬁring pattern of globus pallidus neurons after the
+degeneration of nigrostriatal pathway are mediated by the subthalamic
+nucleus in rat. Eur J Neurosci 12:4338–4344.
+
+Nini A, Feingold A, Slovin H, Bergman H (1995) Neurons in the globus
+pallidus do not show correlated activity in the normal monkey, but
+phase-locked oscillations appear in the MPTP model of parkinsonism.
+J Neurophysiol 74:1800–1805.
+
+Obeso J, Rodriguez M, DeLong MR (1997) Basal ganglia pathophysiol-
+
+ogy: a critical review. Adv Neurol 74:3–18.
+
+Ogura M, Kita H (2000) Dynorphin exerts both postsynaptic and pre-
+synaptic effects in the globus pallidus of the rat. J Neurophysiol
+83:3366–3376.
+
+Parent A, Cicchetti F (1998) The current model of basal ganglia orga-
+
+nization under scrutiny. Mov Disord 13:199–202.
+
+Parent A, Hazrati L-N (1995) Functional anatomy of the basal ganglia.
+II. The place of subthalamic nucleus and external pallidum in basal
+ganglia circuitry. Brain Res Rev 20:128–154.
+
+Plenz D, Kitai S (1999) A basal ganglia pacemaker formed by the sub-
+
+thalamic nucleus and external globus pallidus. Nature 400:677–682.
+
+2976 J. Neurosci., April 1, 2002, 22(7):2963–2976
+
+Terman et al. • Subthalamopallidal Activity Patterns
+
+Raz A, Feingold A, Zelanskaya V, Vaadia E, Bergman H (1996) Neu-
+ronal synchronization of tonically active neurons in the striatum of
+normal and parkinsonian primates. J Neurophysiol 76:2083–288.
+
+Raz A, Vaadia E, Bergman H (2000) Firing patterns and correlations of
+spontaneous discharge of pallidal neurons in the normal and tremulous
+1-methyl-4-phenyl-1,2,3,6 tetrahydropyridine vervet model of parkin-
+sonism. J Neurosci 20:8559–8571.
+
+Rush ME, Rinzel J (1995) The potassium A-current, low ﬁring rates and
+rebound excitation in Hodgkin–Huxley models. Bull Math Biol
+57:899–929.
+
+Sato F, Parent M, Levesque M, Parent A (2000) Axonal branching
+pattern of neurons of the subthalamic nucleus in primates. J Comp
+Neurol 424:142–152.
+
+Shink E, Bevan MD, Bolam JP, Smith Y (1996) The subthalamic nucleus
+and the external pallidum: two tightly interconnected structures that
+control the output of the basal ganglia in the monkey. Neuroscience
+73:335–357.
+
+Song WJ, Baba Y, Otsuka T, Murakami F (2000) Characterization of
+Ca 2⫹ channels in rat subthalamic neurons. J Neurophysiol 84:2630–2637.
+Stanford IM, Cooper AJ (1999) Presynaptic ␮and opioid receptor mod-
+ulation of GABAA IPSCs in the rat globus pallidus in vitro. J Neurosci
+19:4796–4803.
+
+Stefani A, Spadoni F, Bernardi G (1998) Group I mGluRs modulate
+implications. Synapse
+
+calcium currents
+30:424–432.
+Surmeier DJ, Seno N, Kitai ST (1994) Acutely isolated neurons of the
+rat globus pallidus exhibit four types of high-voltage activated Ca 2⫹
+current. J Neurophysiol 71:1272–1280.
+
+Urbain N, Gervasoni D, Souliere F, Lobo L, Rentero N, Windels F,
+Astier B, Savasta M, Fort P, Renaud B, Luppi P, Chouvet G (2000)
+Unrelated course of subthalamic nucleus and globus pallidus neuronal
+activities across vigilance states in the rat. Eur J Neurosci 12:3361–3374.
+Wichmann T, DeLong MR (1996) Functional and pathophysiological
+
+in rat GP:
+
+functional
+
+models of the basal ganglia. Curr Opin Neurobiol 6:751–758.
+
+

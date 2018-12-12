@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4612">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal sharp wave-ripples linked to slow oscillations in rat slow-wave sleep.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neocortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Periodicity</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Sprague-Dawley</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-02-03T04:26:15Z</last_update_date>
+<creation_date>2011-02-03T04:26:15Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4612</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4612" version="1.02">
+<authors><author>Mölle M</author><author>Yeshenko O</author><author>Marshall L</author><author>Sara SJ</author><author>Born J</author></authors>
+<journal>Journal of neurophysiology</journal>
+<volume>96</volume>
+<number>1</number>
+<page>62-70</page>
+<abstract>Slow oscillations originating in the prefrontal neocortex during slow-wave sleep (SWS) group neuronal network activity and thereby presumably support the consolidation of memories. Here, we investigated whether the grouping influence of slow oscillations extends to hippocampal sharp wave-ripple (SPW) activity thought to underlie memory replay processes during SWS. The prefrontal surface EEG and multiunit activity (MUA), along with hippocampal local field potentials (LFP) from CA1, were recorded in rats during sleep. Average spindle and ripple activity and event correlation histograms of SPWs were calculated, time-locked to half-waves of slow oscillations. Results confirm decreased prefrontal MUA and spindle activity during EEG slow oscillation negativity and increases in this activity during subsequent positivity. A remarkably close temporal link was revealed between slow oscillations and hippocampal activity, with ripple activity and SPWs being also distinctly decreased during negative half-waves and increased during slow oscillation positivity. Fine-grained analyses of temporal dynamics revealed for the slow oscillation a phase delay of approximately 90 ms with reference to up and down states of prefrontal MUA, and of only approximately 60 ms with reference to changes in SPWs, indicating that up and down states in prefrontal MUA precede corresponding changes in hippocampal SPWs by approximately 30 ms. Results support the notion that the depolarizing surface-positive phase of the slow oscillation and the associated up state of prefrontal excitation promotes hippocampal SPWs via efferent pathways. The preceding disfacilitation of hippocampal events temporally coupled to the negative slow oscillation half-wave appears to serve a synchronizing role in this neocorticohippocampal interplay.</abstract>
+<pubmed_id>16611848</pubmed_id>
+</detail>
+</item>

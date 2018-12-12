@@ -1,0 +1,22 @@
+Action Potentials
+Animals
+Electric Stimulation
+methods
+Excitatory Postsynaptic Potentials
+Hippocampus
+physiology
+Long-Term Potentiation
+physiology
+Long-Term Synaptic Depression
+physiology
+Membrane Potentials
+Neuronal Plasticity
+physiology
+Rats
+Rats
+Wistar
+Reaction Time
+physiology
+Synapses
+physiology
+Spike bursting is an important physiological mode of the hippocampus. Whereas the rules of spike timing-dependent synaptic plasticity are well defined for pairs of single action potentials (APs) and excitatory postsynaptic potentials (EPSPs), long-term modification of synaptic responses is much less understood for more complex pre- and postsynaptic spike patterns. We induced a burst stimulation (BS)-associated form of synaptic plasticity in rat CA1 hippocampal slices by repeatedly pairing three EPSPs with a burst of APs induced by postsynaptic current injection. In distinct groups of cells, this induction paradigm resulted in long-term potentiation (LTP), long-term depression (LTD) or no change in synaptic strength. LTP was N-methyl-d-aspartate receptor-dependent, whereas LTD could be blocked by a metabotropic glutamate receptor antagonist or inhibition of Ca(2+) influx through voltage-activated Ca(2+) channels. LTP was predicted by a more depolarized membrane potential and a higher initial AP frequency. LTD was facilitated by a larger time interval between the last EPSP and its preceding AP. We conclude from these findings that associative BS induces a bidirectional form of long-term synaptic plasticity that cannot be fully explained by spike timing rules. Postsynaptic membrane potential and Ca(2+) influx further influence the sign and magnitude of synaptic modification. LTP and LTD have distinct mechanisms and can be selectively modulated. This supports the concept of two independent coincidence detectors for LTP and LTD, and extends the physiological options to modulate synaptic plasticity and maintain a putative balance between potentiation and depression in synaptic networks.

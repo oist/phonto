@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3262">
+<itemtype>xnppaper</itemtype>
+<titles><title>Effects of temperature on adenosine A1 receptor activation in guinea pig hippocampus in vitro.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-03-11T08:31:05Z</last_update_date>
+<creation_date>2010-03-11T08:31:05Z</creation_date>
+<publication_year>2002</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3262</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3262" version="1.02">
+<authors><author>Fujii S</author><author>Kato H</author><author>Kuroda Y</author></authors>
+<journal>Pflügers Archiv : European journal of physiology</journal>
+<volume>443</volume>
+<number>5</number>
+<page>713-9</page>
+<abstract>The effects of temperature on adenosine A1 receptor activation were studied both by electrophysiological analysis of synaptically evoked responses in CA1 neurons in guinea pig hippocampal slices, and by measuring the binding of adenosine analogues to adenosine A1 receptors in crude synaptosomes from guinea pig hippocampal neurons. Increasing the temperature of the perfusing medium from 30 degrees C to 45 degrees C attenuated the amplitude of the synaptically and the non-synaptically evoked CA1 population spikes. Bath application of 1 microM 8-cyclopentyltheophylline, an adenosine A1 receptor antagonist, did not affect non-synaptically evoked CA1 population spikes, but significantly increased the amplitude of synaptically evoked population spikes in the upper range of hyperthermia (37-43 degrees C). In contrast, application of 5 microM L- N(6)-phenylisopropyladenosine, an adenosine A1 receptor agonist, did not affect non-synaptically evoked CA1 population spikes, but significantly decreased the amplitude of synaptically evoked population spikes in the upper range of hyperthermia. Binding assays using crude hippocampal synaptosomes showed that the affinity of adenosine A1 receptors for a radio-labeled adenosine analogue increased in response to a temperature increase. These results suggest that increased activation of adenosine A1 receptors in response to a temperature increase depresses excitatory synaptic responses in hippocampal CA1 neurons.</abstract>
+<pubmed_id>11889568</pubmed_id>
+</detail>
+</item>

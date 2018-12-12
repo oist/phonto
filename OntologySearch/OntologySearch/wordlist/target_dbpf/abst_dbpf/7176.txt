@@ -1,0 +1,20 @@
+Action Potentials
+drug effects
+Animals
+Bicuculline
+pharmacology
+Electric Stimulation
+methods
+GABA Antagonists
+pharmacology
+GABA-A Receptor Antagonists
+Long-Term Potentiation
+drug effects
+Male
+Pyramidal Cells
+physiology
+Rats
+Rats
+Sprague-Dawley
+Theta Rhythm
+Long-term potentiation (LTP) of excitatory synaptic responses of principal neurons in the hippocampus is accompanied by changes in GABAergic inhibition mediated by interneurons. The impact of inhibition on LTP of excitatory postsynaptic responses in CA1 pyramidal cells was assessed by monitoring changes in field potentials evoked by Schaffer collateral stimulation in hippocampal slices in vitro. First, to determine the effect of inhibition on population EPSPs, slices were exposed to the GABA(A) receptor antagonist bicuculline (10 microM). Both the slope and amplitude of field EPSPs (fEPSPs) were significantly enhanced by bicuculline indicating that inhibition modulates excitatory postsynaptic responses of pyramidal cells. To assess if stimulation-dependent changes in inhibition influence LTP of excitatory responses of pyramidal cells, LTP was examined in the presence and absence of bicuculline (20 microM) following either 100 Hz tetanization, or theta-patterned stimulation (short bursts delivered at 5 Hz). In normal medium, 100 Hz stimulation produced marked short-term potentiation that decayed 5-10 min post-tetanus and both stimulation paradigms produced similar LTP at 30 min post-tetanus. In comparison, LTP of the fEPSP slope and amplitude was significantly enhanced after theta-patterned stimulation, but not after 100 Hz stimulation, in bicuculline. The greater potentiation of field responses following theta-patterned stimulation in the presence of bicuculline indicates that a larger potentiation of excitatory responses was unmasked during suppression of inhibitory inputs. These results suggest that a long-lasting enhancement of inhibition in pyramidal cells was also induced following theta-patterned stimulation in normal ACSF. Since suppression of inhibition did not uncover a significantly larger potentiation following 100 Hz tetanization, the influence of inhibition on LTP of excitatory responses appears to be stimulation-dependent. In conclusion, theta-patterned stimulation appears to be more effective at inducing plasticity within inhibitory circuits, and this plasticity may partially offset concurrent increases in the excitability of the CA1 network.

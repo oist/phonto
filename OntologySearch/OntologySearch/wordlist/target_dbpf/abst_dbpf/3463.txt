@@ -1,0 +1,2 @@
+neuron-glia
+1. Extracellular and intracellular records were made from guinea-pig hippocampal slices to

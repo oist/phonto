@@ -1,0 +1,11 @@
+Animals
+Computers
+Electric Conductivity
+Electroencephalography
+Hippocampus
+physiology
+Rats
+Synapses
+physiology
+Theta Rhythm
+Three types of discharge patterns can be recorded from hippocampal cells during theta rhythm. The Type 1 discharges are in rhythmic bursts phase-locked with theta; the Type 2 pattern, although non-rhythmic shows a phase relationship with theta; and the Type 3 activity is non-rhythmic and unrelated with theta. Furthermore, depending on the presence or absence of theta and on other undetermined factors, units with Type 1 activity may become non-rhythmic or vice-versa. These patterns may derive from the relative amounts of rhythmic versus non-rhythmic inputs received by each cell. This possibility was tested through computer simulation of a hypothetical neuron receiving random and rhythmic inputs. The inputs produced membrane potential (MP) variations simulated as a band-limited gaussian white noise (WN) and a sinewave, respectively, which were summated by the cell. Spiked were triggered when a MP threshold was reached. The simulated neuron exhibited the three types of discharge patterns by changing the sinewave to WN ration. Ratios of 0.4 and 0.1 generated Types 1 and 2 behavior, respectively, and lower ratios Type 3. Statistical methods, based on autocorrelations and averages, were used to assess rhythmicities and relationships between spiked and EEG or the simulated MP. The simulation supports the tested hypothesis, provides a good description of the possible mechanisms involved and is predictive, indicating that most hippocampal cells, rhythmic or not might show periodic MP oscillations phase-locked with theta.

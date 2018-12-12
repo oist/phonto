@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="3902">
+<itemtype>xnppaper</itemtype>
+<titles><title>The relation between spike-timing dependent plasticity and Ca2+ dynamics in the hippocampal CA1 network.</title>
+</titles>
+<contributor uname='admin_KWL'>Hiroaki Wagatsuma(admin_KWL)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Bicuculline</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Calcium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>GABA Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Male</keyword>
+<keyword>Models</keyword>
+<keyword>Biological</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Neurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Nonlinear Dynamics</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-09-14T01:52:06Z</last_update_date>
+<creation_date>2010-09-14T01:07:00Z</creation_date>
+<publication_year>2007</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=3902</url>
+<changelogs>
+<changelog date='2010-09-14T01:52:06Z'>インデックス を変更</changelog>
+</changelogs>
+<index></index>
+</basic>
+<detail id="3902" version="1.02">
+<authors><author>Aihara T</author><author>Abiru Y</author><author>Yamazaki Y</author><author>Watanabe H</author><author>Fukushima Y</author><author>Tsukada M</author></authors>
+<journal>Neuroscience</journal>
+<volume>145</volume>
+<number>1</number>
+<page>80-7</page>
+<abstract>In our previous study, spike timing dependent synaptic plasticity (STDP) was investigated in the CA1 area of rat hippocampal slices using optical imaging. It was revealed that the profiles of STDP could be classified into two types depending upon layer specific location along the dendrite. The first was characterized by a symmetric time window observed in the proximal region of the stratum radiatum (SR), and the second by an asymmetric time window in the distal region of the SR. Our methods involved the bath-application of bicuculline (GABA(A) receptor antagonist) to hippocampal slices, which revealed that GABAergic interneuron projections were responsible for the symmetry of a time window. In this study, the intracellular Ca2+ increase of hippocampal CA1 neurons, induced by the protocol of timing between pre- and post-synaptic excitation (i.e. STDP protocol), was measured spatially by using optical imaging to investigate how the triggering of STDP is dependent on intracellular calcium concentration. We found that the magnitude of STDP was closely related to the rate of Ca2+ increase (&quot;velocity&quot;) of calcium transient during application of induction stimuli. Location dependency was also analyzed in terms of Ca2+ influx. Furthermore, it was shown that decay time constant of Ca2+ dynamics during the application of STDP-inducing stimuli was also significantly correlated with STDP.</abstract>
+<pubmed_id>17223275</pubmed_id>
+</detail>
+</item>

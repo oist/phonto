@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4518">
+<itemtype>xnppaper</itemtype>
+<titles><title>Cognitive maps beyond the hippocampus.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Acetylcholine</keyword>
+<keyword>physiology</keyword>
+<keyword>Afferent Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Animals</keyword>
+<keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cognition</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Models</keyword>
+<keyword>Psychological</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Serotonin</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-01-31T01:05:47Z</last_update_date>
+<creation_date>2011-01-31T01:05:47Z</creation_date>
+<publication_year>1997</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4518</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4518" version="1.02">
+<authors><author>Redish AD</author><author>Touretzky DS</author></authors>
+<journal>Hippocampus</journal>
+<volume>7</volume>
+<number>1</number>
+<page>15-35</page>
+<abstract>We present a conceptual framework for the role of the hippocampus and its afferent and efferent structures in rodent navigation. Our proposal is compatible with the behavioral, neurophysiological, anatomical, and neuropharmacological literature, and suggests a number of practical experiments that could support or refute it. We begin with a review of place cells and how the place code for an environment might be aligned with sensory cues and updated by self-motion information. The existence of place fields in the dark suggests that location information is maintained by path integration, which requires an internal representation of direction of motion. This leads to a consideration of the organization of the rodent head direction system, and thence into a discussion of the computational structure and anatomical locus of the path integrator. If the place code is used in navigation, there must be a mechanism for selecting an action based on this information. We review evidence that the nucleus accumbens subserves this function. From there, we move to interactions between the hippocampal system and the environment, emphasizing mechanisms for learning novel environments and for aligning the various subsystems upon re-entry into familiar environments. We conclude with a discussion of the relationship between navigation and declarative memory.</abstract>
+<pubmed_id>9138665</pubmed_id>
+</detail>
+</item>

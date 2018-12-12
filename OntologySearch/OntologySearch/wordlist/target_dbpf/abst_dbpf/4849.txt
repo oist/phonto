@@ -1,0 +1,14 @@
+Amnesia
+etiology
+physiopathology
+psychology
+Brain Diseases
+physiopathology
+psychology
+Hippocampus
+physiology
+physiopathology
+Humans
+Memory
+physiology
+The fact that medial temporal lobe structures, including the hippocampus, are critical for declarative memory is firmly established by now. The understanding of the role that these structures play in declarative memory, however, despite great efforts spent in the quest, has eluded investigators so far. Given the existing scenario, novel ideas that hold the promise of clarifying matters should be eagerly sought. One such idea was recently proposed by Vargha-Khadem and her colleagues (Science 1997; 277:376-380) on the basis of their study of three young people suffering from anterograde amnesia caused by early-onset hippocampal pathology. The idea is that the hippocampus is necessary for remembering ongoing life's experiences (episodic memory), but not necessary for the acquisition of factual knowledge (semantic memory). We discuss the reasons why this novel proposal makes good sense and why it and its ramifications should be vigorously pursued. We review and compare declarative and episodic theories of amnesia, and argue that the findings reported by Vargha-Khadem and her colleagues fit well into an episodic theory that retains components already publicized, and adds new ones suggested by the Vargha-Khadem et al. study. Existing components of this theory include the idea that acquisition of factual knowledge can occur independently of episodic memory, and the idea that in anterograde amnesia it is quite possible for episodic memory to be more severely impaired than semantic memory. We suggest a realignment of organization of memory such that declarative memory is defined in terms of features and properties that are common to both episodic and semantic memory. The organization of memory thus modified gives greater precision to the Vargha-Khadem et al. neuroanatomical model in which declarative memory depends on perihippocampal cortical regions but not on the hippocampus, whereas episodic memory, which is separate from declarative memory, depends on the hippocampus.

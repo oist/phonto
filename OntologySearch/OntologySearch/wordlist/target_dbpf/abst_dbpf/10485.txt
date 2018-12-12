@@ -1,0 +1,31 @@
+Acetylcholine
+physiology
+Acoustic Stimulation
+Aging
+physiology
+Animals
+Auditory Pathways
+physiology
+Auditory Perception
+physiology
+Electroencephalography
+Evoked Potentials
+Auditory
+physiology
+Hippocampus
+physiology
+Male
+Neurotransmitter Agents
+physiology
+Rats
+Rats
+Sprague-Dawley
+Septum Pellucidum
+physiology
+Species Specificity
+Vocalization
+Animal
+physiology
+EEG data analysis
+Balbir
+The effect of a chemical lesion of the cholinergic septo-hippocampal pathway induced by ethylcholine aziridinium (AF64A) on brain potentials evoked by species-specific vocalization containing informations of high biological relevance was studied in young adult (10 months) and aged (24 months) rats by means of neocortical electroencephalographic recordings. In control rats, the perception of a rat's vocalization in a life endangering situation (lasting 0.8 s) initiated an evoked potential followed by a late positive slow wave (LPSW)-complex and a direct current shift with a duration of up to 16 s. Four months after treatment with AF64A (2 nmol into each of the lateral ventricles), the mean negative component of the initial acoustic evoked potential (peak latency of about 60 ms after stimulus onset) was reduced (P = 0.04) both in young adult and aged rats. Further changes included a decrease of the late positive wave amplitude in young adult rats (P = 0.001) and a shorter duration of the LPSW-complex in aged rats (P = 0.03). AF64A induced also changes in specific components revealed by Principle Component Analysis, but only in the group of young rats. A decrease in the slow wave component (factor 1, 3000-4000 ms after stimulus onset; P = 0.02) was observed. Age per se affected the late positive potential shifts as indicated by a shorter latency of the late positive wave (P = 0.03). A detailed analysis of the major neurotransmitter markers proved an almost exclusive reduction of the activity of choline acetyltransferase in the ventral and dorsal hippocampus (up to 60%), which was equal in young adult and aged rats. The irreversible loss in choline acetyltransferase activity, which was restricted to the hippocampus, was associated by a slight reduction in serotonergic function. The present data suggest that the complex cognitive and emotional processes initiated by species-specific vocalization appear to be affected by aging. Furthermore, as a consequence of a cholinergic deficit in the hippocampus, the integration processes essential for the recognition of the biological meaning of a species-specific vocalization are considerably disturbed. These findings provide an experimental basis for studying disturbances in the perceptual response to stimuli of high emotional value in patients with hypocholinergic function as in Alzheimer's disease.

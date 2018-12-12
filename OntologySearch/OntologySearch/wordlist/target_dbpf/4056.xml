@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4056">
+<itemtype>xnppaper</itemtype>
+<titles><title>Connectivity-based segregation of the human striatum predicts personality characteristics.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Amygdala</keyword>
+<keyword>physiology</keyword>
+<keyword>Corpus Striatum</keyword>
+<keyword>physiology</keyword>
+<keyword>Diffusion Magnetic Resonance Imaging</keyword>
+<keyword>Exploratory Behavior</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Limbic System</keyword>
+<keyword>physiology</keyword>
+<keyword>Motivation</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Personality</keyword>
+<keyword>physiology</keyword>
+<keyword>Predictive Value of Tests</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Reward</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T05:18:16Z</last_update_date>
+<creation_date>2010-10-08T05:18:16Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4056</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4056" version="1.02">
+<authors><author>Cohen MX</author><author>Schoene-Bake JC</author><author>Elger CE</author><author>Weber B</author></authors>
+<journal>Nature neuroscience</journal>
+<volume>12</volume>
+<number>1</number>
+<page>32-4</page>
+<abstract>We found that personality characteristics are linked to dissociable connectivity streams in the human brain. Whereas fiber tracts between a subcortical network, including the hippocampus and amygdala, and the ventral striatum predicted individual differences in novelty seeking, tracts between prefrontal cortex and the striatum predicted individual differences in reward dependence. These findings suggest that the strength of limbic-striatal connectivity may, in part, underlie human personality traits.</abstract>
+<pubmed_id>19029888</pubmed_id>
+</detail>
+</item>

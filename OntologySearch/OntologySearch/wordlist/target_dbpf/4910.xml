@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4910">
+<itemtype>xnppaper</itemtype>
+<titles><title>Two types of hippocampal rhythmical slow activity in both the rabbit and the rat: relations to behavior and effects of atropine, diethyl ether, urethane, and pentobarbital.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Atropine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Dose-Response Relationship</keyword>
+<keyword>Drug</keyword>
+<keyword>Drinking Behavior</keyword>
+<keyword>drug effects</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Ether</keyword>
+<keyword>Ethyl</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Ethyl Ethers</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Feeding Behavior</keyword>
+<keyword>drug effects</keyword>
+<keyword>Grooming</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Hypothalamus</keyword>
+<keyword>physiology</keyword>
+<keyword>Mesencephalon</keyword>
+<keyword>physiology</keyword>
+<keyword>Motor Activity</keyword>
+<keyword>drug effects</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>Pentobarbital</keyword>
+<keyword>administration</keyword>
+<keyword>&amp;</keyword>
+<keyword>dosage</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Posture</keyword>
+<keyword>Rabbits</keyword>
+<keyword>Rats</keyword>
+<keyword>Reticular Formation</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>Urethane</keyword>
+<keyword>pharmacology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T01:53:41Z</last_update_date>
+<creation_date>2011-05-09T01:53:41Z</creation_date>
+<publication_year>1975</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4910</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4910" version="1.02">
+<authors><author>Kramis R</author><author>Vanderwolf CH</author><author>Bland BH</author></authors>
+<journal>Experimental neurology</journal>
+<volume>49</volume>
+<number>1</number>
+<page>58-85</page>
+<abstract></abstract>
+<pubmed_id>1183532</pubmed_id>
+</detail>
+</item>

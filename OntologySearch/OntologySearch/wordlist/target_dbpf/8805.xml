@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8805">
+<itemtype>xnppaper</itemtype>
+<titles><title>Chaotic responses of the hippocampal CA3 region to a mossy fiber stimulation in vitro.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Action Potentials</keyword>
+<keyword>Animals</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Epilepsy</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>drug effects</keyword>
+<keyword>pathology</keyword>
+<keyword>physiopathology</keyword>
+<keyword>In Vitro Techniques</keyword>
+<keyword>Male</keyword>
+<keyword>Nerve Fibers</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurons</keyword>
+<keyword>physiology</keyword>
+<keyword>Penicillins</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Potassium</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Time Factors</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2014-12-24T02:15:28Z</last_update_date>
+<creation_date>2014-12-24T02:15:28Z</creation_date>
+<publication_year>1995</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8805</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8805" version="1.02">
+<authors><author>Hayashi H</author><author>Ishizuka S</author></authors>
+<journal>Brain research</journal>
+<volume>686</volume>
+<number>2</number>
+<page>194-206</page>
+<abstract>Undoubted evidence of chaotic activity of a biological neural network are given. Spontaneous epileptiform bursts of a neuron population in the CA3 region of rat hippocampal slices were caused in a perfusing medium with 2 mM penicillin and 8 mM K+ ions, and responses of field potential in the CA3 region to a periodic mossy fiber stimulation were investigated. Phase-locked and chaotic responses occur depending on stimulus parameters; for example, when the frequency of the stimulation increases, 1:1 phase-locking bifurcates to chaos through 1:2 phase-locking. The chaotic responses show a broad-band spectrum, and their trajectories in the three-dimensional phase space (V(t), V(t + tau), V(t + 2 tau)) reconstruct a strange attractor. Lyapunov exponents of the strange attractors estimated by the Wolf&#039;s algorithm are positive. Moreover, one-dimensional strobomaps obtained from the chaotic responses show a non-invertible function. Since the slope of each strobomap at their fixed point is more negative than -1, the fixed points are unstable. These are undoubted evidences for chaotic responses of the CA3 region in hippocampal slices maintained in vitro. Cross-correlation functions between field potential responses which were simultaneously observed at different sites show that the responses are spatially coherent throughout the CA3 region even when the responses are chaotic.</abstract>
+<pubmed_id>7583285</pubmed_id>
+</detail>
+</item>

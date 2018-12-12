@@ -1,0 +1,15 @@
+Afferent Pathways
+physiology
+Animals
+Cerebral Cortex
+cytology
+physiology
+Electric Conductivity
+Hippocampus
+physiology
+Membrane Potentials
+Periodicity
+Rats
+Sodium
+physiology
+The oscillation of membrane potential in mammalian central neurons is of interest because it relates to the role of oscillations in brain function. It has been proposed that the entorhinal cortex (EC), particularly the stellate cells of layer II (ECIIscs), plays an important part in the genesis of the theta rhythm. These neurons occupy a key position in the neocortex-hippocampus-neocortex circuit, a crucial crossroad in memory functions. Neuronal oscillations typically rely on the activation of voltage-dependent Ca2+ conductances and the Ca2+ -dependent K+ conductance that usually follows, as seen in other limbic subcortical structures generating theta rhythmicity. Here we report, however, that similar oscillations are generated in ECIIscs by a Na+ conductance. The finding of a subthreshold, voltage-gated, Na+ -dependent rhythmic membrane oscillation in mammalian neurons indicates that rhythmicity in heterogeneous neuronal networks may be supported by different sets of intrinsic ionic mechanisms in each of the neuronal elements involved.

@@ -1,0 +1,14 @@
+Animals
+Hippocampus
+physiology
+Neuronal Plasticity
+physiology
+Rats
+Rats
+Wistar
+Septal Nuclei
+physiology
+Synaptic Transmission
+physiology
+Time Factors
+The hippocampus receives major afferent innervation from the septum. Using organotypic slice culture, we investigated whether coculture with the septum would modulate transmission and plasticity of hippocampal synapses. In septo-hippocampal cocultures, acetylcholinesterase-positive fibers extending from septal tissue to hippocampal slice were observed. Septo-hippocampal cocultures exhibited larger magnitude of long-term potentiation (LTP) in CA3 and CA1 synapses than hippocampal slices cultured alone, without significant changes in maximal synaptic responses and macroscopic hippocampal cytoarchitecture. Unexpectedly, the facilitatory effect on hippocampal LTP was independent of afferent innervation from the septum, because (1) electrical stimulation of the cocultured septum suppressed the induction of hippocampal LTP, (2) chronic application of 1 microM atropine did not block the facilitatory effect, and (3) septo-hippocampal cocultures without contact with each other still showed a larger magnitude of LTP than hippocampal slices alone. These results suggest that diffusible factor(s) released from the septal tissue modulate functional maturation of hippocampal synapses as to the ability to support synaptic plasticity.

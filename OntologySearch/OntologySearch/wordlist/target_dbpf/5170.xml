@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5170">
+<itemtype>xnppaper</itemtype>
+<titles><title>Development- and activity-dependent regulation of SNAP-25 phosphorylation in rat brain.</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Animals</keyword>
+<keyword>Newborn</keyword>
+<keyword>Brain</keyword>
+<keyword>embryology</keyword>
+<keyword>growth</keyword>
+<keyword>&amp;</keyword>
+<keyword>development</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cells</keyword>
+<keyword>Cultured</keyword>
+<keyword>Female</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>embryology</keyword>
+<keyword>growth</keyword>
+<keyword>&amp;</keyword>
+<keyword>development</keyword>
+<keyword>metabolism</keyword>
+<keyword>Kainic Acid</keyword>
+<keyword>Male</keyword>
+<keyword>Neurons</keyword>
+<keyword>metabolism</keyword>
+<keyword>Phosphorylation</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Wistar</keyword>
+<keyword>Seizures</keyword>
+<keyword>chemically induced</keyword>
+<keyword>metabolism</keyword>
+<keyword>Serine</keyword>
+<keyword>metabolism</keyword>
+<keyword>Synaptosomal-Associated Protein 25</keyword>
+<keyword>biosynthesis</keyword>
+<keyword>metabolism</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-20T01:48:23Z</last_update_date>
+<creation_date>2011-05-20T01:48:23Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5170</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5170" version="1.02">
+<authors><author>Kataoka M</author><author>Kuwahara R</author><author>Matsuo R</author><author>Sekiguchi M</author><author>Inokuchi K</author><author>Takahashi M</author></authors>
+<journal>Neuroscience letters</journal>
+<volume>407</volume>
+<number>3</number>
+<page>258-62</page>
+<abstract>Synaptosomal-associated protein of 25kDa (SNAP-25), a member of the SNARE proteins essential for neurotransmitter release, is phosphorylated at Ser(187) in PC12 cells and in the rat brain in a protein kinase C-dependent manner. It remains unclear how the phosphorylation of SNAP-25 is regulated during development and by neuronal activity. We studied the mode of SNAP-25 phosphorylation at Ser(187) in the rat brain using an anti-phosphorylated SNAP-25 antibody. Both the expression and phosphorylation of SNAP-25 increased remarkably during the early postnatal period, but their onsets were quite different. SNAP-25 expression was detected as early as embryonic Day 18, whereas the phosphorylation of SNAP-25 could not be detected until postnatal Day 4. A delay in the onset of phosphorylation was also observed in cultured rat hippocampal neurons. The phosphorylation of SNAP-25 was regulated in a neuronal activity-dependent manner and, in the rat hippocampus, decreased by introducing seizures with kainic acid. These results clearly indicated that the phosphorylation of SNAP-25 at Ser(187) is regulated in development- and neuronal activity-dependent manners, and is likely to play important roles in higher brain functions.</abstract>
+<pubmed_id>16978778</pubmed_id>
+</detail>
+</item>

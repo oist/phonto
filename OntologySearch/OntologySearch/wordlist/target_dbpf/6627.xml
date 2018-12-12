@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6627">
+<itemtype>xnppaper</itemtype>
+<titles><title>A critical role for the anterior hippocampus in relational memory: evidence from an fMRI study comparing associative and item recognition.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Association</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Cerebral Cortex</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Female</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>anatomy</keyword>
+<keyword>&amp;</keyword>
+<keyword>histology</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Neuropsychological Tests</keyword>
+<keyword>Reaction Time</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T06:25:44Z</last_update_date>
+<creation_date>2013-02-26T06:25:44Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6627</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6627" version="1.02">
+<authors><author>Giovanello KS</author><author>Schnyer DM</author><author>Verfaellie M</author></authors>
+<journal>Hippocampus</journal>
+<volume>14</volume>
+<number>1</number>
+<page>5-8</page>
+<abstract>Neuroscientific research has established that the hippocampal formation, a structure within the medial temporal lobe (MTL), plays a critical role in memory for facts and events (declarative memory) (Milner et al., 1998). However, its precise role remains unclear. According to one view, the hippocampus has a special role in relating or binding together previously unrelated pieces of information, while another view proposes that the hippocampus is equally involved in all forms of declarative memory, regardless of their demands on relational processing. Using functional magnetic resonance imaging (fMRI), we show that hippocampal activation is modulated by the extent to which a retrieval task depends on relational processing.</abstract>
+<pubmed_id>15058477</pubmed_id>
+</detail>
+</item>

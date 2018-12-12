@@ -1,0 +1,50 @@
+Animals
+Anisomycin
+pharmacology
+Cyclic AMP
+analogs
+&
+derivatives
+pharmacology
+Cyclic AMP-Dependent Protein Kinases
+antagonists
+&
+inhibitors
+metabolism
+Enzyme Activation
+drug effects
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+GABA Antagonists
+pharmacology
+GABA-A Receptor Antagonists
+Hippocampus
+cytology
+drug effects
+metabolism
+Long-Term Potentiation
+drug effects
+Organ Culture Techniques
+Oxazoles
+pharmacology
+Phosphoprotein Phosphatases
+antagonists
+&
+inhibitors
+metabolism
+Picrotoxin
+pharmacology
+Protein Biosynthesis
+Rats
+Receptors
+GABA-A
+metabolism
+Synapses
+drug effects
+metabolism
+Synaptic Transmission
+drug effects
+Thionucleotides
+pharmacology
+cAMP induces a protein-synthesis-dependent late phase of long-term potentiation (LTP) at CA3-CA1 synapses in acute hippocampal slices. Herein we report cAMP-mediated LTP and long-term depression (LTD) at monosynaptic CA3-CA1 cell pairs in organotypic hippocampal slice cultures. After bath application of the membrane-permeable cAMP analog adenosine 3',5'-cyclic monophosphorothioate, Sp isomer (Sp-cAMPS), synaptic transmission was enhanced for at least 2 h. Consistent with previous findings, the late phase of LTP requires activation of cAMP-dependent protein kinase A and protein synthesis. There is also an early phase of LTP induced by cAMP; the early phase depends on protein kinase A but, in contrast to the later phase, does not require protein synthesis. In addition, the cAMP-induced LTP is associated with a reduction of paired-pulse facilitation, suggesting that presynaptic modification may be involved. Furthermore, we found that Sp-cAMPS induced LTD in slices pretreated with picrotoxin, a gamma-aminobutyric acid type A (GABA(A)) receptor antagonist. This form of LTD depends on protein synthesis and protein phosphatase(s) and is accompanied by an increased ratio of failed synaptic transmission. These results suggest that GABA(A) receptors can modulate the effect of cAMP on synaptic transmission and thus determine the direction of synaptic plasticity.

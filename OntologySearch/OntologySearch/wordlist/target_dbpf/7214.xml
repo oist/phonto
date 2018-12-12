@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7214">
+<itemtype>xnppaper</itemtype>
+<titles><title>Interferon-alpha inhibits long-term potentiation and unmasks a long-term depression in the rat hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>2-Amino-5-phosphonovalerate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Enzyme Inhibitors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Amino Acid Agonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Amino Acid Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Genistein</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Glutamic Acid</keyword>
+<keyword>pharmacokinetics</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Immunologic Factors</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Interferon-alpha</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>N-Methylaspartate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Neural Inhibition</keyword>
+<keyword>drug effects</keyword>
+<keyword>Neuronal Plasticity</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Receptors</keyword>
+<keyword>GABA-A</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>gamma-Aminobutyric Acid</keyword>
+<keyword>pharmacokinetics</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:59:09Z</last_update_date>
+<creation_date>2013-02-27T07:59:09Z</creation_date>
+<publication_year>2000</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7214</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7214" version="1.02">
+<authors><author>Mendoza-Fernández V</author><author>Andrew RD</author><author>Barajas-López C</author></authors>
+<journal>Brain research</journal>
+<volume>885</volume>
+<number>1</number>
+<page>14-24</page>
+<abstract>Interferons (IFN) appear to have various neuromodulatory actions. Here, we characterized the actions of IFN-alpha on the electrophysiological properties of CA1 hippocampal neurons using intracellular recordings. Superfusion of this cytokine did not alter the resting membrane potential, cell input resistance, action potentials, nor GABA-mediated fast synaptic potentials. IFN-alpha inhibited glutamate-mediated excitatory postsynaptic potentials (gEPSPs) and reversed or prevented long-term potentiation (LTP) induced by high-frequency tetanic stimulation. IFN-alpha reduced gEPSP amplitude far below its control value. Only a short-term potentiation (STP) was observed when either IFN-alpha or D-2-amino-5-phosphonovalerato (APV; NMDA receptor antagonist) were present during tetanic stimulation. After this STP in presence of APV, IFN-alpha had no effect on gEPSPs. APV had no effect on LTP when applied after tetanic stimulation and did also not prevent IFN-alpha effect on LTP. Genistein (a tyrosine kinase inhibitor) or heat inactivation prevented IFN-alpha effects. IFN-alpha also decreased the depolarization induced by local application of glutamate but did not modify those induced by NMDA. Similarly, IFN-alpha reversed the potentiation (induced by tetanic stimulation) of glutamate-induced depolarizations. IFN-alpha did not affect long-term depression (LTD) induced by low-frequency tetanic stimulation. In conclusion, IFN-alpha-induced inhibition of LTP is, at least in part, mediated by a postsynaptic effect, by tyrosine kinase activity, and by non-NMDA glutamate receptors. Inhibition of LTP by IFN-alpha unmasks LTD which is induced by the same high-frequency tetanic stimulation.</abstract>
+<pubmed_id>11121525</pubmed_id>
+</detail>
+</item>

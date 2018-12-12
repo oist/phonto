@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7219">
+<itemtype>xnppaper</itemtype>
+<titles><title>Input- and subunit-specific AMPA receptor trafficking underlying long-term potentiation at hippocampal CA3 synapses.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>2-Amino-5-phosphonovalerate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>6-Cyano-7-nitroquinoxaline-2</keyword>
+<keyword>3-dione</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Animals</keyword>
+<keyword>Animals</keyword>
+<keyword>Newborn</keyword>
+<keyword>Calcium</keyword>
+<keyword>metabolism</keyword>
+<keyword>Calcium-Calmodulin-Dependent Protein Kinase Type 2</keyword>
+<keyword>Calcium-Calmodulin-Dependent Protein Kinases</keyword>
+<keyword>metabolism</keyword>
+<keyword>Cell Count</keyword>
+<keyword>Cell Line</keyword>
+<keyword>Cricetinae</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>methods</keyword>
+<keyword>Excitatory Amino Acid Agonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Amino Acid Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Green Fluorescent Proteins</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>physiology</keyword>
+<keyword>Luminescent Proteins</keyword>
+<keyword>metabolism</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Mossy Fibers</keyword>
+<keyword>Hippocampal</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>N-Methylaspartate</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Protein Subunits</keyword>
+<keyword>physiology</keyword>
+<keyword>Protein Transport</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Rats</keyword>
+<keyword>Receptors</keyword>
+<keyword>AMPA</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Sindbis Virus</keyword>
+<keyword>Synapses</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+<keyword>drug effects</keyword>
+<keyword>radiation effects</keyword>
+<keyword>Transfection</keyword>
+<keyword>methods</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T08:08:27Z</last_update_date>
+<creation_date>2013-02-27T08:08:27Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7219</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7219" version="1.02">
+<authors><author>Kakegawa W</author><author>Tsuzuki K</author><author>Yoshida Y</author><author>Kameyama K</author><author>Ozawa S</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>20</volume>
+<number>1</number>
+<page>101-10</page>
+<abstract>Hippocampal CA3 pyramidal neurons receive synaptic inputs from both mossy fibres (MFs) and associational fibres (AFs). Long-term potentiation (LTP) at these synapses differs in its induction sites and N-methyl-D-aspartate receptor (NMDAR) dependence. Most evidence favours the presynaptic and postsynaptic mechanisms for induction of MF LTP and AF LTP, respectively. This implies that molecular and functional properties differ between MF and AF synapses at both presynaptic and postsynaptic sites. In this study, we focused on the difference in the postsynaptic trafficking of alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptors (AMPARs) between these synapses. To trace the subunit-specific trafficking of AMPARs at each synapse, GluR1 and GluR2 subunits were introduced into CA3 pyramidal neurons in hippocampal organotypic cultures using the Sindbis viral expression system. The electrophysiologically-tagged GluR2 AMPARs, produced by the viral-mediated transfer of the unedited form of GluR2 (GluR2Q), were inserted into both MF and AF postsynaptic sites in a neuronal activity-independent manner. Endogenous Ca(2+)-impermeable AMPARs at these synapses were replaced with exogenous Ca(2+)-permeable receptors, and Ca(2+) influx via the newly expressed postsynaptic AMPARs induced NMDAR-independent LTP at AF synapses. In contrast, no GluR1 AMPAR produced by the gene transfer was constitutively incorporated into AF postsynaptic sites, and only a small amount into MF postsynaptic sites. The synaptic trafficking of GluR1 AMPARs was triggered by the activity of Ca(2+)/calmodulin-dependent kinase II or high-frequency stimulation to induce LTP at AF synapses, but not at MF synapses. These results indicate that MF and AF postsynaptic sites possess distinct properties for AMPAR trafficking in CA3 pyramidal neurons.</abstract>
+<pubmed_id>15245483</pubmed_id>
+</detail>
+</item>

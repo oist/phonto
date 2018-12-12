@@ -1,0 +1,22 @@
+Animals
+Brain Mapping
+Hippocampus
+anatomy
+&
+histology
+physiology
+Humans
+Learning
+physiology
+Magnetic Resonance Imaging
+Memory
+physiology
+Temporal Lobe
+anatomy
+&
+histology
+physiology
+radiography
+Tomography
+Emission-Computed
+Early neuroimaging studies often failed to obtain evidence of medial temporal lobe (MTL) activation during episodic encoding or retrieval, but a growing number of studies using functional magnetic resonance imaging (fMRI) and positron emission tomography (PET) have provided such evidence. We review data from fMRI studies that converge on the conclusion that posterior MTL is associated with episodic encoding; too few fMRI studies of retrieval have reported MTL activations to allow firm conclusions about their exact locations. We then turn to a recent meta-analysis of PET studies (Lepage et al., Hippocampus 1998;8:313-322) that appears to contradict the fMRI encoding data. Based on their analysis of the rostrocaudal distribution of activations reported during episodic encoding or retrieval, Lepage et al. (1998) concluded that anterior MTL is strongly associated with episodic encoding, whereas posterior MTL is strongly associated with episodic retrieval. After considering the evidence reviewed by Lepage et al. (1998) along with additional studies, we conclude that PET studies of encoding reveal both anterior and posterior MTL activations. These observations indicate that the contradiction between fMRI and PET studies of encoding was more apparent than real. However, PET studies have reported anterior MTL encoding activations more frequently than have fMRI studies. We consider possible sources of these differences.

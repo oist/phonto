@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7195">
+<itemtype>xnppaper</itemtype>
+<titles><title>Muscarinic signaling is required for spike-pairing induction of long-term potentiation at rat Schaffer collateral-CA1 synapses.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Atropine</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Carbachol</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Functional Laterality</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Kinetics</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Receptors</keyword>
+<keyword>Muscarinic</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Signal Transduction</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-27T07:47:59Z</last_update_date>
+<creation_date>2013-02-27T07:47:59Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7195</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7195" version="1.02">
+<authors><author>Adams SV</author><author>Winterer J</author><author>Müller W</author></authors>
+<journal>Hippocampus</journal>
+<volume>14</volume>
+<number>4</number>
+<page>413-6</page>
+<abstract>Cholinergic input from the basal forebrain and septum to the hippocampus is well known to be critical in learning and memory. Muscarinic induction of theta-frequency oscillations may synchronize pre- and postsynaptic firing and thereby enhance plasticity in the hippocampus. Previous studies have demonstrated that muscarinic activation facilitates long-term potentiation (LTP) induced with tetanus in vitro. In the present study, we tested the role of muscarinic receptor activity in the induction of LTP beyond effects on spike timing by using a spike-pairing (SP) method at Schaffer collateral-CA1 synapses in rat hippocampal slices. Pairings of pre- and postsynaptic action potentials (APs) have been shown to induce LTP when the presynaptic AP precedes the postsynaptic AP by 5-15 ms, but contribution of muscarinic co-activation has not been ruled out. We demonstrate that the mAChR antagonist atropine abolishes LTP induction by SP. Surprisingly, prolonged exposure to the mAChR agonist carbachol inhibits LTP induction by SP, perhaps because of receptor desensitization. These results demonstrate an essential role of cholinergic signaling in this form of hippocampal plasticity.</abstract>
+<pubmed_id>15224978</pubmed_id>
+</detail>
+</item>

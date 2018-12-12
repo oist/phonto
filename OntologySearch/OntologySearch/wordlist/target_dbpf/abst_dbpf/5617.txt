@@ -1,0 +1,8 @@
+Animals
+Behavior
+physiology
+Electrophysiology
+Hippocampus
+physiology
+Humans
+The hippocampus has long been thought to be an important cortical region for associative learning and memory. After several decades of experimental and theoretical studies, a picture is emerging slowly of the generic types of learning tasks that this neural structure might be essential for solving. Recently, there have been attempts to unify electrophysiological and behavioral observations from rodents performing spatial learning tasks with data from primates performing various tests of conditional and discrimination learning. Most of these theoretical frameworks have rested primarily on behavioral observations. Complementing these perspectives,we ask the question: given certain physiological constraints at the neuronal and cortical level, what class of learning problems is the hippocampus, in particular, most suited to solve? From a computational point of view, we argue that this structure is involved most critically in learning and memory tasks in which discontiguous items must be associated, in terms of their temporal or spatial positioning, or both.

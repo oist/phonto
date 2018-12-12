@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5463">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampus, theta, and spatial memory.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-06-13T02:40:28Z</last_update_date>
+<creation_date>2011-06-13T02:40:28Z</creation_date>
+<publication_year>1993</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5463</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5463" version="1.02">
+<authors><author>O&#039;Keefe J</author></authors>
+<journal>Current opinion in neurobiology</journal>
+<volume>3</volume>
+<number>6</number>
+<page>917-24</page>
+<abstract>The past 18 months have witnessed interesting developments in several areas of hippocampal research. First, the mechanisms of hippocampal theta are becoming clear, as is its role in spatial coding; each theta cycle appears to act as a clock mechanism against which the firing of the place cells can be timed. Second, there has been a continued strengthening in the support for the spatial theory of hippocampal function from single unit and lesion experiments; particularly important is the finding that the deficit in (non-spatial) delayed non-match to sample memory experiments in the monkey following medial temporal lobe damage stems from the part of the cortex which surrounds the hippocampus, and not from the hippocampus itself. Third, in contrast, it is proving more difficult than originally thought to show a causal relationship between long-term potentiation at the synaptic level and place learning-induced changes in hippocampal synapses.</abstract>
+<pubmed_id>8124075</pubmed_id>
+</detail>
+</item>

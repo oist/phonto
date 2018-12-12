@@ -1,0 +1,23 @@
+Action Potentials
+Animals
+Cells
+Cultured
+Computer Simulation
+Excitatory Postsynaptic Potentials
+Hippocampus
+cytology
+physiology
+Kinetics
+Long-Term Potentiation
+Models
+Neurological
+Neural Inhibition
+Pyramidal Cells
+physiology
+Rats
+Rats
+Sprague-Dawley
+Receptors
+GABA-A
+physiology
+The role of a neuron in neural processing is ultimately determined by whether or not it fires an action potential in a given context. Studies on synaptic plasticity have focused primarily on changes in EPSPs, and not on whether plasticity translates into changes in firing. However, this issue has been addressed by examining EPSP-spike (E-S) potentiation, which enhances the ability of an EPSP of a fixed slope to elicit spikes after long-term potentiation (LTP). Although LTP is thought to underlie learning and memory, E-S potentiation could play an equally important role by potentiating the neuronal input-output function. Here, we used a combined experimental and theoretical approach to examine both the mechanisms underlying E-S potentiation as well as the role of inhibition in shaping the input-output function of neurons. Whereas previous studies examined tetanus-LTP, in which inhibitory synapses may have undergone plasticity, here we examined pairing-induced associative LTP. We determined that although intact inhibition was necessary for pairing-induced E-S potentiation, inhibitory plasticity was not. We further established using computer simulations that a primary mechanism of E-S potentiation was a change in the relative recruitment and latency of inhibitory neurons. Although these studies do not exclude the presence of additional mechanisms of E-S potentiation that may be engaged depending on the induction protocol, they do establish that under intact pharmacology, LTP of the Schaffer collateral to CA1 pyramidal neuron synapses will produce E-S potentiation as a result of changes in the balance and timing of excitation and inhibition.

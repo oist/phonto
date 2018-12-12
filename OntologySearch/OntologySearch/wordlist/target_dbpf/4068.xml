@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4068">
+<itemtype>xnppaper</itemtype>
+<titles><title>State-dependent spike-timing relationships between hippocampal and prefrontal circuits during sleep.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Algorithms</keyword>
+<keyword>Analysis of Variance</keyword>
+<keyword>Animals</keyword>
+<keyword>Electroencephalography</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Nerve Net</keyword>
+<keyword>physiology</keyword>
+<keyword>Prefrontal Cortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Rats</keyword>
+<keyword>Rats</keyword>
+<keyword>Long-Evans</keyword>
+<keyword>Sleep</keyword>
+<keyword>physiology</keyword>
+<keyword>Sleep Stages</keyword>
+<keyword>Sleep</keyword>
+<keyword>REM</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T05:36:15Z</last_update_date>
+<creation_date>2010-10-08T05:36:15Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4068</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4068" version="1.02">
+<authors><author>Wierzynski CM</author><author>Lubenov EV</author><author>Gu M</author><author>Siapas AG</author></authors>
+<journal>Neuron</journal>
+<volume>61</volume>
+<number>4</number>
+<page>587-96</page>
+<abstract>Cortico-hippocampal interactions during sleep are believed to reorganize neural circuits in support of memory consolidation. However, spike-timing relationships across cortico-hippocampal networks-key determinants of synaptic changes-are poorly understood. Here we show that cells in prefrontal cortex fire consistently within 100 ms after hippocampal cells in naturally sleeping animals. This provides evidence at the single cell-pair level for highly consistent directional interactions between these areas within the window of plasticity. Moreover, these interactions are state dependent: they are driven by hippocampal sharp-wave/ripple (SWR) bursts in slow-wave sleep (SWS) and are sharply reduced during REM sleep. Finally, prefrontal responses are nonlinear: as the strength of hippocampal bursts rises, short-latency prefrontal responses are augmented by increased spindle band activity and a secondary peak approximately 100 ms later. These findings suggest that SWR events are atomic units of hippocampal-prefrontal communication during SWS and that the coupling between these areas is highly attenuated during REM sleep.</abstract>
+<pubmed_id>19249278</pubmed_id>
+</detail>
+</item>

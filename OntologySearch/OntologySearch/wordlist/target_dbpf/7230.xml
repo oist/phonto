@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="7230">
+<itemtype>xnppaper</itemtype>
+<titles><title>Selective induction of metabotropic glutamate receptor 1- and metabotropic glutamate receptor 5-dependent chemical long-term potentiation at oriens/alveus interneuron synapses of mouse hippocampus.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Benzoates</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Electrophysiology</keyword>
+<keyword>Excitatory Amino Acid Agonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Amino Acid Antagonists</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Excitatory Postsynaptic Potentials</keyword>
+<keyword>drug effects</keyword>
+<keyword>physiology</keyword>
+<keyword>Glycine</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Interneurons</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+<keyword>Long-Term Potentiation</keyword>
+<keyword>drug effects</keyword>
+<keyword>Methoxyhydroxyphenylglycol</keyword>
+<keyword>analogs</keyword>
+<keyword>&amp;</keyword>
+<keyword>derivatives</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Knockout</keyword>
+<keyword>Patch-Clamp Techniques</keyword>
+<keyword>Pyridines</keyword>
+<keyword>pharmacology</keyword>
+<keyword>Receptors</keyword>
+<keyword>Metabotropic Glutamate</keyword>
+<keyword>biosynthesis</keyword>
+<keyword>genetics</keyword>
+<keyword>Synapses</keyword>
+<keyword>drug effects</keyword>
+<keyword>metabolism</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-28T01:20:38Z</last_update_date>
+<creation_date>2013-02-28T01:20:38Z</creation_date>
+<publication_year>2008</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=7230</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="7230" version="1.02">
+<authors><author>Le Vasseur M</author><author>Ran I</author><author>Lacaille JC</author></authors>
+<journal>Neuroscience</journal>
+<volume>151</volume>
+<number>1</number>
+<page>28-42</page>
+<abstract>Synaptic plasticity in inhibitory interneurons is essential to maintain a proper equilibrium between excitation and inhibition in hippocampal network. Recent studies showed that theta-burst-induced long-term potentiation (LTP) at excitatory synapses of oriens/alveus (O/A) interneurons in CA1 hippocampal region required the activation of metabotropic glutamate receptor (mGluR) 1. However these interneurons also express mGluR5 and the contribution of this receptor subtype in interneuron synaptic plasticity remains unexplored. We combined pharmacological and transgenic approaches to examine the relative contribution of mGluR1/5 in LTP at excitatory synapses on O/A interneurons. Bath-application of the selective mGluR1/5 agonist (s)-3,5-dihydroxyphenylglycine (DHPG) induced LTP of compound excitatory postsynaptic potentials. DHPG-induced LTP was not prevented by application of either mGluR1 or mGluR5 antagonists, was still present in mGluR1 knockout mice, but was blocked by co-application of both antagonists. These results indicate that LTP can be induced at O/A interneuron synapses by either mGluR1 or mGluR5 activation. As previously reported for mGluR1-dependent LTP, the mGluR5-dependent LTP was independent of N-methyl-d-aspartate receptors. Pairing DHPG application with postsynaptic depolarization induced mGluR1- and mGluR5-dependent LTP of minimally-evoked excitatory postsynaptic currents, which were composed of calcium-permeable AMPA receptor and presynaptically modulated by group II mGluRs, hence confirming that both forms of LTP occurred directly at interneuron excitatory synapses. These findings uncover a new mGluR5-dependent form of LTP at O/A interneuron synapses and indicate that activation of mGluR1 or mGluR5 is sufficient to induce LTP at these synapses. Thus, a rich repertoire of adaptive changes may take place at these interneuron synapses to regulate hippocampal feedback inhibition.</abstract>
+<pubmed_id>18035501</pubmed_id>
+</detail>
+</item>

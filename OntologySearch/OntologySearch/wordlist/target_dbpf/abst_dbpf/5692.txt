@@ -1,0 +1,30 @@
+Animals
+Calcium-Calmodulin-Dependent Protein Kinase Type 2
+Calcium-Calmodulin-Dependent Protein Kinases
+deficiency
+genetics
+metabolism
+Crosses
+Genetic
+Electric Stimulation
+Female
+Hippocampus
+physiology
+Long-Term Potentiation
+physiology
+Male
+Mice
+Mice
+Inbred BALB C
+Mice
+Inbred C57BL
+Mice
+Inbred Strains
+Mice
+Knockout
+Neurons
+physiology
+Regression Analysis
+Synapses
+physiology
+Previous work has shown that mice missing the alpha-isoform of calcium-calmodulin-dependent protein kinase II (alpha-CaMKII) have a deficiency in CA1 hippocampal long-term potentiation (LTP). Follow-up studies on subsequent generations of these mutant mice in a novel inbred background by our laboratories have shown that whereas a deficiency in CA1 LTP is still present in alpha-CaMKII mutant mice, it is different both quantitatively and qualitatively from the deficiency first described. Mice of a mixed 129SvOla/SvJ;BALB/c;C57B1/6 background derived from brother/sister mating of the alpha-CaMKII mutant line through multiple generations (>10) were produced by use of in vitro fertilization. Although LTP at 60 min post-tetanus was clearly deficient in these (-/-) alpha-CaMKII mice (42.6%, n = 33) compared with (+/+) alpha-CaMKII control animals (81.7%, n = 17), alpha-CaMKII mutant mice did show a significant level of LTP. The amount of LTP observed in alpha-CaMKII mutants was normally distributed, blocked by APV (2.7%, n = 8), and did not correlate with age. Although this supports a role for alpha-CaMKII in CA1 LTP, it also suggests that a form of alpha-CaMKII-independent LTP is present in mice that could be dependent on another kinase, such as the beta-isoform of CaMKII. A significant difference in input/output curves was also observed between (-/-) alpha-CaMKII and (+/+) alpha-CaMKII animals, suggesting that differences in synaptic transmission may be contributing to the LTP deficit in mutant mice. However, tetani of increasing frequency (50, 100, and 200 Hz) did not reveal a higher threshold for potentiation in (-/-) alpha-CaMKII mice compared with (+/+) alpha-CaMKII controls.

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="6693">
+<itemtype>xnppaper</itemtype>
+<titles><title>Interference of working memory load with long-term memory formation.</title>
+</titles>
+<contributor uname='admin'>DBPF Administrator 1(admin)</contributor>
+<keywords><keyword>Adult</keyword>
+<keyword>Analysis of Variance</keyword>
+<keyword>Brain</keyword>
+<keyword>physiology</keyword>
+<keyword>Brain Mapping</keyword>
+<keyword>Female</keyword>
+<keyword>Frontal Lobe</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Magnetic Resonance Imaging</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>Short-Term</keyword>
+<keyword>physiology</keyword>
+<keyword>Neural Pathways</keyword>
+<keyword>physiology</keyword>
+<keyword>Parahippocampal Gyrus</keyword>
+<keyword>physiology</keyword>
+<keyword>Recognition (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Young Adult</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2013-02-26T07:21:15Z</last_update_date>
+<creation_date>2013-02-26T07:21:15Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=6693</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="6693" version="1.02">
+<authors><author>Axmacher N</author><author>Haupt S</author><author>Cohen MX</author><author>Elger CE</author><author>Fell J</author></authors>
+<journal>The European journal of neuroscience</journal>
+<volume>29</volume>
+<number>7</number>
+<page>1501-13</page>
+<abstract>Traditionally, it has been assumed that the medial temporal lobe (MTL) is indispensable for long-term memory (LTM) encoding, but only plays a minor role for working memory (WM) maintenance. Recently, however, an increasing number of studies questioned this seemingly clear distinction by showing that the MTL does participate in some WM processes, especially if multiple items are being maintained. This would predict that WM maintenance of multiple items interferes with simultaneous LTM encoding. Here, we tested this idea in a functional magnetic resonance imaging paradigm that required subjects to encode stimuli into LTM during simultaneous WM maintenance of either single or multiple items. Indeed, we found that maintenance of multiple items deteriorates simultaneous LTM encoding as compared with maintenance of single items. WM-related activation of the hippocampus was more pronounced in the condition with high WM load; in contrast, hippocampal activation related to LTM encoding was stronger in the low WM load condition. Successful LTM encoding was associated with a high level of activity in the adjacent parahippocampal cortex (PHC), leading to pronounced parahippocampal subsequent memory effects in the high load condition. This suggests that the PHC is a locus of WM-LTM interaction. Functional connectivity analysis with a seed in the PHC confirmed this result by revealing strong connectivity with the medial frontal cortex, which was only active in the high WM load condition. Taken together, these findings suggest that high WM demands interfere with LTM encoding and thus support the idea that WM and LTM processes interact in the MTL.</abstract>
+<pubmed_id>19309321</pubmed_id>
+</detail>
+</item>

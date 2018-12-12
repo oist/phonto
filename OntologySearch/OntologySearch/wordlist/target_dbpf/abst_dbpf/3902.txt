@@ -1,0 +1,36 @@
+Action Potentials
+physiology
+Animals
+Bicuculline
+pharmacology
+Calcium
+metabolism
+Electric Stimulation
+methods
+Excitatory Postsynaptic Potentials
+drug effects
+physiology
+radiation effects
+GABA Antagonists
+pharmacology
+Hippocampus
+cytology
+Male
+Models
+Biological
+Nerve Net
+physiology
+Neuronal Plasticity
+drug effects
+physiology
+radiation effects
+Neurons
+drug effects
+physiology
+radiation effects
+Nonlinear Dynamics
+Rats
+Rats
+Wistar
+Time Factors
+In our previous study, spike timing dependent synaptic plasticity (STDP) was investigated in the CA1 area of rat hippocampal slices using optical imaging. It was revealed that the profiles of STDP could be classified into two types depending upon layer specific location along the dendrite. The first was characterized by a symmetric time window observed in the proximal region of the stratum radiatum (SR), and the second by an asymmetric time window in the distal region of the SR. Our methods involved the bath-application of bicuculline (GABA(A) receptor antagonist) to hippocampal slices, which revealed that GABAergic interneuron projections were responsible for the symmetry of a time window. In this study, the intracellular Ca2+ increase of hippocampal CA1 neurons, induced by the protocol of timing between pre- and post-synaptic excitation (i.e. STDP protocol), was measured spatially by using optical imaging to investigate how the triggering of STDP is dependent on intracellular calcium concentration. We found that the magnitude of STDP was closely related to the rate of Ca2+ increase ("velocity") of calcium transient during application of induction stimuli. Location dependency was also analyzed in terms of Ca2+ influx. Furthermore, it was shown that decay time constant of Ca2+ dynamics during the application of STDP-inducing stimuli was also significantly correlated with STDP.

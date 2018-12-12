@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4907">
+<itemtype>xnppaper</itemtype>
+<titles><title>Facilitation of memory consolidation by post-training electrical stimulation of the medial septal nucleus: is it mediated by changes in rhythmic slow activity?</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Conditioning</keyword>
+<keyword>Operant</keyword>
+<keyword>physiology</keyword>
+<keyword>Electric Stimulation</keyword>
+<keyword>Evoked Potentials</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred BALB C</keyword>
+<keyword>Retention (Psychology)</keyword>
+<keyword>physiology</keyword>
+<keyword>Septal Nuclei</keyword>
+<keyword>physiology</keyword>
+<keyword>Synaptic Transmission</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-05-09T01:49:14Z</last_update_date>
+<creation_date>2011-05-09T01:49:14Z</creation_date>
+<publication_year>1983</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4907</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4907" version="1.02">
+<authors><author>Galey D</author><author>Jeantet Y</author><author>Destrade C</author><author>Jaffard R</author></authors>
+<journal>Behavioral and neural biology</journal>
+<volume>38</volume>
+<number>2</number>
+<page>240-50</page>
+<abstract>Sinusoidal (100 Hz) electrical stimulation was applied at a weak intensity (7.5 muA peak to peak) through bipolar electrodes located in the medial septal nucleus after partial acquisition of an appetitive operant conditioning task in a Skinner box. Analysis of performance in a retention test 24 hr later showed that (i) the presence of stimulation electrodes by itself impaired retention-test performance, and (ii) electrical stimulation applied 30 sec after the end of the acquisition session improves retention; this facilitatory effect disappeared when the treatment was delayed 15 min. Both impairment and facilitation were found to vary (considerably) among subjects. Electrodes located in the center of the medial septal nucleus led to both a greater impairment in unstimulated subjects and a greater facilitation in stimulated subjects than more anterior placements in the vicinity of the diagonal band. Finally, spectral analysis of hippocampal EEG showed that stimulation had no effect on rhythmic slow activity (RSA). These results are discussed in relation to studies showing that RSA is associated with memory-storage processes and our own hypothesis which underlines the importance of activation of septo-hippocampal cholinergic neurons in the early stages of these mnemonic processes.</abstract>
+<pubmed_id>6314987</pubmed_id>
+</detail>
+</item>

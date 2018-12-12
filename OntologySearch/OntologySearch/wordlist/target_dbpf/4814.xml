@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4814">
+<itemtype>xnppaper</itemtype>
+<titles><title>Hippocampal mossy fibers and radial-maze learning in the mouse: a correlation with spatial working memory but not with non-spatial reference memory.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>Animals</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Learning</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred BALB C</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C3H</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred DBA</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred Strains</keyword>
+<keyword>Spatial Behavior</keyword>
+<keyword>Species Specificity</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-04-28T05:32:23Z</last_update_date>
+<creation_date>2011-04-28T05:32:23Z</creation_date>
+<publication_year>1990</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4814</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4814" version="1.02">
+<authors><author>Schwegler H</author><author>Crusio WE</author><author>Brust I</author></authors>
+<journal>Neuroscience</journal>
+<volume>34</volume>
+<number>2</number>
+<page>293-8</page>
+<abstract>One hundred and eight male mice from nine different inbred strains were tested for two aspects of learning in an eight-arm radial maze. In the first experimental arrangement of the maze, measuring spatial working memory, clear strain differences were found on the fifth day of training. Furthermore, this type of learning showed a high positive correlation with the size of the intra- and infrapyramidal hippocampal mossy fiber terminal field as revealed with Timm&#039;s staining. In the second experiment, in which non-spatial reference memory was tested, significant strain differences were found for the learning variables, but there were no significant covariations with the sizes of the intra- and infrapyramidal mossy fiber terminal fields. These results, combined with previous data, suggest that heritable variations of the hippocampal intra- and infrapyramidal mossy fiber projection influence processes determining spatial learning capabilities in mice.</abstract>
+<pubmed_id>2333144</pubmed_id>
+</detail>
+</item>

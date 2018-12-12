@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="5607">
+<itemtype>xnppaper</itemtype>
+<titles><title>Dynamical Neural Network Model of Hippocampus with Excitatory and Inhibitory Neurons</title>
+</titles>
+<contributor uname='dbpf-office3'>DBPF-Office3(dbpf-office3)</contributor>
+<keywords></keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2011-07-22T02:53:55Z</last_update_date>
+<creation_date>2011-07-22T02:53:55Z</creation_date>
+<publication_year>2004</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=5607</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="5607" version="1.02">
+<authors><author>Omori T</author><author>Horiguchi T</author></authors>
+<journal>Journal of the Society of Japan</journal>
+<volume>73</volume>
+<number></number>
+<page>749-755</page>
+<abstract>We propose a dynamical neural network model with excitatory neurons and inhibitory neurons for memory function in hippocampus and investigate the effect of inhibitory neurons on memory recall. The results by numerical simulations show that the introduction of inhibitory neurons improves the stability of the memory recall in the proposed model by suppressing the bursting of neurons</abstract>
+<pubmed_id></pubmed_id>
+</detail>
+</item>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="4104">
+<itemtype>xnppaper</itemtype>
+<titles><title>Intracellular dynamics of hippocampal place cells during virtual navigation.</title>
+</titles>
+<contributor uname='dbpf-office1'>DBPF-Office1(dbpf-office1)</contributor>
+<keywords><keyword>DEIA</keyword>
+<keyword>Animals</keyword>
+<keyword>Behavior</keyword>
+<keyword>Animal</keyword>
+<keyword>physiology</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>cytology</keyword>
+<keyword>physiology</keyword>
+<keyword>Intracellular Space</keyword>
+<keyword>metabolism</keyword>
+<keyword>Locomotion</keyword>
+<keyword>physiology</keyword>
+<keyword>Male</keyword>
+<keyword>Membrane Potentials</keyword>
+<keyword>physiology</keyword>
+<keyword>Mice</keyword>
+<keyword>Mice</keyword>
+<keyword>Inbred C57BL</keyword>
+<keyword>Neurons</keyword>
+<keyword>metabolism</keyword>
+<keyword>Pyramidal Cells</keyword>
+<keyword>metabolism</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+<keyword>Theta Rhythm</keyword>
+<keyword>User-Computer Interface</keyword>
+</keywords>
+<description></description>
+<doi></doi>
+<last_update_date>2010-10-08T06:21:34Z</last_update_date>
+<creation_date>2010-10-08T06:21:34Z</creation_date>
+<publication_year>2009</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=4104</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="4104" version="1.02">
+<authors><author>Harvey CD</author><author>Collman F</author><author>Dombeck DA</author><author>Tank DW</author></authors>
+<journal>Nature</journal>
+<volume>461</volume>
+<number>7266</number>
+<page>941-6</page>
+<abstract>Hippocampal place cells encode spatial information in rate and temporal codes. To examine the mechanisms underlying hippocampal coding, here we measured the intracellular dynamics of place cells by combining in vivo whole-cell recordings with a virtual-reality system. Head-restrained mice, running on a spherical treadmill, interacted with a computer-generated visual environment to perform spatial behaviours. Robust place-cell activity was present during movement along a virtual linear track. From whole-cell recordings, we identified three subthreshold signatures of place fields: an asymmetric ramp-like depolarization of the baseline membrane potential, an increase in the amplitude of intracellular theta oscillations, and a phase precession of the intracellular theta oscillation relative to the extracellularly recorded theta rhythm. These intracellular dynamics underlie the primary features of place-cell rate and temporal codes. The virtual-reality system developed here will enable new experimental approaches to study the neural circuits underlying navigation.</abstract>
+<pubmed_id>19829374</pubmed_id>
+</detail>
+</item>

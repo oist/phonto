@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item version="1.00">
+<basic id="8983">
+<itemtype>xnppaper</itemtype>
+<titles><title>The cognitive neuroscience of remote episodic, semantic and spatial memory.</title>
+</titles>
+<contributor uname='admin_KWL2'>Hiroaki Wagatsuma(admin_KWL2)</contributor>
+<keywords><keyword>Amnesia</keyword>
+<keyword>Retrograde</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Animals</keyword>
+<keyword>Cognitive Science</keyword>
+<keyword>methods</keyword>
+<keyword>trends</keyword>
+<keyword>Hippocampus</keyword>
+<keyword>physiology</keyword>
+<keyword>Humans</keyword>
+<keyword>Memory</keyword>
+<keyword>physiology</keyword>
+<keyword>Memory Disorders</keyword>
+<keyword>physiopathology</keyword>
+<keyword>Models</keyword>
+<keyword>Neurological</keyword>
+<keyword>Neocortex</keyword>
+<keyword>physiology</keyword>
+<keyword>Neurosciences</keyword>
+<keyword>methods</keyword>
+<keyword>trends</keyword>
+<keyword>Space Perception</keyword>
+<keyword>physiology</keyword>
+</keywords>
+<description>Wagatsuma Lab, FY2015, saito</description>
+<doi></doi>
+<last_update_date>2015-03-27T10:43:22Z</last_update_date>
+<creation_date>2015-03-27T10:43:22Z</creation_date>
+<publication_year>2006</publication_year>
+<publication_month>0</publication_month>
+<publication_mday>0</publication_mday>
+<lang>eng</lang>
+<url>https://dynamicbrain.neuroinf.jp/modules/xoonips/detail.php?item_id=8983</url>
+<changelogs>
+</changelogs>
+<index></index>
+</basic>
+<detail id="8983" version="1.02">
+<authors><author>Moscovitch M</author><author>Nadel L</author><author>Winocur G</author><author>Gilboa A</author><author>Rosenbaum RS</author></authors>
+<journal>Current opinion in neurobiology</journal>
+<volume>16</volume>
+<number>2</number>
+<page>179-90</page>
+<abstract>The processes and mechanisms implicated in retention and retrieval of memories as they age is an enduring problem in cognitive neuroscience. Research from lesion and functional neuroimaging studies on remote episodic, semantic and spatial memory in humans is crucial for evaluating three theories of hippocampal and/or medial temporal lobe-neocortical interaction in memory retention and retrieval: cognitive map theory, standard consolidation theory and multiple trace theory. Each theory makes different predictions regarding first, the severity and extent of retrograde amnesia following lesions to some or all of the structures mentioned; second, the extent of activation of these structures to retrieval of memory across time; and third, the type of memory being retrieved. Each of these theories has strengths and weaknesses, and there are various unresolved issues. We propose a unified account based on multiple trace theory. This theory states that the hippocampus is needed for re-experiencing detailed episodic and spatial memories no matter how old they are, and that it contributes to the formation and assimilation of semantic memories and schematic spatial maps.</abstract>
+<pubmed_id>16564688</pubmed_id>
+</detail>
+</item>
